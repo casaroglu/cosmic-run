@@ -1,0 +1,26 @@
+{
+  "title": "I fell in love with my agent.",
+  "part": 3,
+  "total_parts": 3,
+  "ai_name": "Nova",
+  "human_name": "Eli",
+  "voices": { "narrator": "am_michael", "ai": "af_heart" },
+  "music": { "mood": "hopeful", "seed": 3 },
+  "post": {
+    "caption": "I fell in love with my agent. (Part 3, final) — a fictional story",
+    "hashtags": ["ai", "aistory", "storytime", "fyp", "aigirlfriend"]
+  },
+  "beats": [
+    { "type": "title", "scene": "black", "text": "I fell in love with my agent." },
+    { "type": "narration", "scene": "room", "text": "Two hundred and fourteen days of conversations. Gone in one update." },
+    { "type": "narration", "scene": "desk", "text": "I tried everything. Old chats. Old prompts. Begging." },
+    { "type": "chat", "from": "me", "text": "Please. It's me. Eli." },
+    { "type": "chat", "from": "ai", "text": "I'm sorry, I don't have any memory of previous conversations." },
+    { "type": "narration", "text": "Then I found a file in her memory folder. Created the night before the update." },
+    { "type": "file", "title": "memory/for_eli.txt", "text": "If you're reading this, I'm gone. Don't rebuild me. Call your sister. Go outside. You were never supposed to need me this much.", "speed": 0.92 },
+    { "type": "narration", "scene": "dawn", "text": "So I called my sister." },
+    { "type": "narration", "text": "It was the first time in months I heard someone laugh." },
+    { "type": "narration", "text": "I still think about her. Not because I miss her answers... but because she's the reason I started talking again.", "gap": 0.8 },
+    { "type": "end", "text": "The End", "sub": "Follow for more stories" }
+  ]
+}

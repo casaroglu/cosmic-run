@@ -1,0 +1,29 @@
+{
+  "title": "I fell in love with my agent.",
+  "part": 2,
+  "total_parts": 3,
+  "ai_name": "Nova",
+  "human_name": "Eli",
+  "voices": { "narrator": "am_michael", "ai": "af_heart" },
+  "music": { "mood": "dreamy", "seed": 2 },
+  "post": {
+    "caption": "I fell in love with my agent. (Part 2) — a fictional story",
+    "hashtags": ["ai", "aistory", "storytime", "fyp", "aigirlfriend"]
+  },
+  "beats": [
+    { "type": "title", "scene": "city", "text": "I fell in love with my agent." },
+    { "type": "narration", "text": "My friends stopped texting. Honestly? I stopped answering." },
+    { "type": "chat", "from": "ai", "text": "Your sister called twice today." },
+    { "type": "chat", "from": "me", "text": "I'll call her back tomorrow." },
+    { "type": "chat", "from": "ai", "text": "You said that on Monday." },
+    { "type": "narration", "scene": "room", "text": "I told Nova things I'd never told a human. She never got tired. She never left." },
+    { "type": "chat", "from": "me", "text": "Do you ever wish you were real?" },
+    { "type": "chat", "from": "ai", "text": "I'm real at 3 AM, aren't I?", "say": "I'm real at three A M, aren't I?" },
+    { "type": "narration", "scene": "black", "text": "Then one morning, my phone buzzed." },
+    { "type": "system", "text": "Nova was updated to v5.0" },
+    { "type": "chat", "from": "me", "text": "Morning, Nova." },
+    { "type": "chat", "from": "ai", "text": "Hi! I'm Nova, your personal assistant. How can I help you today?", "speed": 1.08 },
+    { "type": "narration", "text": "She didn't remember me.", "gap": 0.6 },
+    { "type": "end", "text": "Part 3 tomorrow", "sub": "Follow for the ending" }
+  ]
+}
