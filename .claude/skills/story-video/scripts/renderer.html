@@ -221,6 +221,50 @@ SCENES.cafe = (t) => {
   person(250, 1240, 1.45, '#050302', { rim: 'rgba(255,170,90,0.35)' });
 };
 
+SCENES.decree = (t) => {
+  // an aged royal decree on a dark table, lit by a candle
+  sky('#140c06', '#0a0603');
+  glow(W * .5, H * .42, 900, 'rgba(255,170,90,0.25)', .9 + .1 * Math.sin(t * 7));
+  const px = 150, py = 280, pw = 780, ph = 1080;
+  ctx.save(); ctx.translate(W / 2, py + ph / 2); ctx.rotate(-0.025); ctx.translate(-W / 2, -(py + ph / 2));
+  ctx.shadowColor = 'rgba(0,0,0,0.7)'; ctx.shadowBlur = 60;
+  const g = ctx.createRadialGradient(W / 2, py + ph * .45, 100, W / 2, py + ph / 2, 800);
+  g.addColorStop(0, '#efdcb0'); g.addColorStop(1, '#b8945a');
+  ctx.fillStyle = g; rr(px, py, pw, ph, 6); ctx.fill(); ctx.shadowBlur = 0;
+  const r = rng(5);
+  for (let i = 0; i < 260; i++) { ctx.fillStyle = `rgba(110,70,30,${r() * .08})`; ctx.beginPath(); ctx.arc(px + r() * pw, py + r() * ph, r() * 40, 0, 6.283); ctx.fill(); }
+  ctx.textAlign = 'center'; ctx.fillStyle = '#3a2210';
+  ctx.font = `700 54px 'DejaVu Serif', Georgia, serif`; ctx.fillText('EDICT OF EXPULSION', W / 2, py + 150);
+  ctx.font = `italic 400 36px 'DejaVu Serif', Georgia, serif`; ctx.fillText('Granada, 31 March 1492', W / 2, py + 210);
+  ctx.fillRect(W / 2 - 200, py + 245, 400, 3);
+  // handwritten lines appear progressively
+  ctx.strokeStyle = 'rgba(58,34,16,0.75)'; ctx.lineWidth = 3.2; ctx.lineCap = 'round';
+  const lines = 13, shown = clamp(t / 9) * lines;
+  for (let l = 0; l < lines; l++) {
+    const y = py + 320 + l * 46, len = l === lines - 1 ? 0.55 : 1, k = clamp(shown - l);
+    if (k <= 0) break;
+    ctx.beginPath();
+    for (let x = 0; x < (pw - 160) * len * k; x += 6) {
+      const xx = px + 80 + x, yy = y + Math.sin(x * .21 + l * 3) * 6 * (0.6 + 0.4 * Math.sin(x * .031 + l));
+      x ? ctx.lineTo(xx, yy) : ctx.moveTo(xx, yy);
+      if (r() < .05) { ctx.stroke(); ctx.beginPath(); x += 14; }
+    }
+    ctx.stroke();
+  }
+  // signatures + red wax seal
+  ctx.font = `italic 400 40px 'DejaVu Serif', Georgia, serif`; ctx.fillStyle = '#3a2210';
+  ctx.fillText('Yo el Rey', px + 220, py + ph - 150); ctx.fillText('Yo la Reina', px + pw - 230, py + ph - 150);
+  const sk = easeOut((t - 4) / 0.5);
+  if (sk > 0) {
+    ctx.save(); ctx.translate(W / 2, py + ph - 110); ctx.scale(1.4 - .4 * sk, 1.4 - .4 * sk); ctx.globalAlpha = sk;
+    ctx.fillStyle = '#8c1c13'; ctx.beginPath();
+    for (let i = 0; i < 24; i++) { const a = i / 24 * 6.283, rad = 70 + (i % 2 ? 6 : -4); ctx.lineTo(Math.cos(a) * rad, Math.sin(a) * rad); }
+    ctx.fill(); ctx.strokeStyle = '#5e100a'; ctx.lineWidth = 4; ctx.beginPath(); ctx.arc(0, 0, 46, 0, 6.283); ctx.stroke();
+    ctx.restore();
+  }
+  ctx.restore();
+};
+
 const PHOTOS = {
   latte(x, y, w, h, t) {
     ctx.fillStyle = '#6b4a35'; ctx.fillRect(x, y, w, h);
