@@ -27,6 +27,14 @@ Everything runs locally and costs $0: Kokoro TTS (voices), numpy (music + SFX), 
 4. **Render:** same command without `--preview` → `videos/out/<slug>/partN/video.mp4` + `caption.txt`. ~1–2 min per 45 s part.
 5. Send the MP4 to the user (SendUserFile). `videos/out/` is gitignored — never commit MP4/WAV.
 
+## History series workflow ("next episode")
+Series live in `videos/stories/<series>/NN-slug/` (index: `videos/stories/<series>/README.md`). For each new episode:
+1. Pick the next planned row in the series README. Research it; write `RESEARCH.md` (claim → fact → source table, two sources per date/number, list what was left out on purpose).
+2. Write `episode.json` (history mode, see `reference/story-format.md`): 60–90 s, hook title, every scene a **public-domain** painting with `credit`, `where` (museum) and `search` (Commons query). Keep beats in chronological order. Check length with `build_audio.py` (only audio, fast).
+3. Run `scripts/image_checklist.py episode.json` → writes `img/NEEDED.md`. Try `COMMONS_CONTACT=https://github.com/casaroglu/cosmic-run scripts/fetch_commons.py episode.json` once; Wikimedia often blocks cloud IPs (429) — then give the user the NEEDED.md list (numbered, with links) and ask them to upload the images **in that order**.
+4. When uploads arrive: `scripts/add_images.py episode.json <upload1> <upload2> ...` (fills missing images in order, scales to ≤2400 px). Look at each upload to confirm it is the right painting, then set each `move` so the camera lands on faces/action.
+5. Preview stills → fix → full render with `make_video.sh` (it refuses to render while images are missing) → send MP4 → update the series README status → commit + push.
+
 ## Tuning knobs
 - Too long? Cut narration lines first, keep the chat beats. Target ≤ 55 s.
 - Mispronounced word / number → add `"say": "spoken version"` on that beat (e.g. `"3 AM"` → `"three A M"`).

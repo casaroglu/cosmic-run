@@ -1,0 +1,318 @@
+{
+  "title": "King at 16. Emperor at 19. Exhausted at 55.",
+  "series": "Spain in 60 seconds",
+  "episode": 2,
+  "voices": {
+    "narrator": "am_michael"
+  },
+  "speed": {
+    "narrator": 1.0
+  },
+  "music": {
+    "mood": "epic",
+    "seed": 22,
+    "drums": true,
+    "level": 0.36
+  },
+  "accent": "#E8B44A",
+  "highlight": [
+    "16.",
+    "19.",
+    "55."
+  ],
+  "post": {
+    "caption": "Charles V: king at 16, emperor at 19, exhausted at 55. Paintings: public domain.",
+    "hashtags": [
+      "history",
+      "spain",
+      "charlesv",
+      "carlosv",
+      "historytok",
+      "shorts"
+    ]
+  },
+  "images": {
+    "muhlberg": {
+      "file": "img/muhlberg.jpg",
+      "credit": "Titian, Emperor Charles V at Mühlberg (1548)",
+      "where": "Museo del Prado, Madrid",
+      "search": "Titian Charles V Mühlberg"
+    },
+    "young": {
+      "file": "img/young.jpg",
+      "credit": "Bernard van Orley, Portrait of Charles V (c. 1519)",
+      "where": "Museum of Fine Arts, Budapest",
+      "search": "Bernard van Orley portrait Charles V"
+    },
+    "juana": {
+      "file": "img/juana.jpg",
+      "credit": "Francisco Pradilla, Joanna the Mad (1877)",
+      "where": "Museo del Prado, Madrid",
+      "search": "Pradilla Doña Juana la Loca 1877"
+    },
+    "comuneros": {
+      "file": "img/comuneros.jpg",
+      "credit": "Antonio Gisbert, Execution of the Comuneros of Castile (1860)",
+      "where": "Congreso de los Diputados, Madrid",
+      "search": "Gisbert Ejecución de los comuneros de Castilla"
+    },
+    "worms": {
+      "file": "img/worms.jpg",
+      "credit": "Anton von Werner, Luther at the Diet of Worms (1877)",
+      "where": "Staatsgalerie Stuttgart",
+      "search": "Anton von Werner Luther Reichstag Worms"
+    },
+    "tenochtitlan": {
+      "file": "img/tenochtitlan.jpg",
+      "credit": "Unknown artist, The Conquest of Tenochtitlan (17th c.)",
+      "where": "Library of Congress (Kislak Collection)",
+      "search": "Conquest of Tenochtitlan Kislak painting"
+    },
+    "sack": {
+      "file": "img/sack.jpg",
+      "credit": "Johannes Lingelbach, The Sack of Rome in 1527 (17th c.)",
+      "where": "Private collection",
+      "search": "Lingelbach Sack of Rome 1527"
+    },
+    "abdication": {
+      "file": "img/abdication.jpg",
+      "credit": "Louis Gallait, The Abdication of Charles V (1841)",
+      "where": "Musée des Beaux-Arts, Tournai",
+      "search": "Louis Gallait abdication Charles V"
+    },
+    "seated": {
+      "file": "img/seated.jpg",
+      "credit": "Titian, Portrait of Charles V Seated (1548)",
+      "where": "Alte Pinakothek, Munich",
+      "search": "Titian Charles V seated Alte Pinakothek"
+    }
+  },
+  "beats": [
+    {
+      "type": "title",
+      "scene": "muhlberg",
+      "move": {
+        "from": [
+          0.5,
+          0.5,
+          1.0
+        ],
+        "to": [
+          0.45,
+          0.35,
+          1.2
+        ]
+      },
+      "text": "King at 16. Emperor at 19. Exhausted at 55.",
+      "say": "King at sixteen. Emperor at nineteen. Exhausted at fifty-five."
+    },
+    {
+      "type": "narration",
+      "scene": "young",
+      "move": {
+        "from": [
+          0.5,
+          0.5,
+          1.0
+        ],
+        "to": [
+          0.5,
+          0.3,
+          1.25
+        ]
+      },
+      "date": "24 February 1500",
+      "place": "Ghent",
+      "text": "He was Charles the Fifth, grandson of Isabella and Ferdinand. And he inherited almost everything."
+    },
+    {
+      "type": "narration",
+      "text": "Spain. The Netherlands. Southern Italy. And the new lands across the ocean."
+    },
+    {
+      "type": "narration",
+      "scene": "juana",
+      "move": {
+        "from": [
+          0.3,
+          0.5,
+          1.0
+        ],
+        "to": [
+          0.62,
+          0.45,
+          1.2
+        ]
+      },
+      "date": "1516",
+      "place": "Castile",
+      "text": "His mother, Queen Joanna, was declared unfit to rule, and kept confined for forty-six years."
+    },
+    {
+      "type": "narration",
+      "text": "So at sixteen, Charles became king of Spain. He barely spoke Spanish."
+    },
+    {
+      "type": "narration",
+      "scene": "young",
+      "move": {
+        "from": [
+          0.5,
+          0.3,
+          1.3
+        ],
+        "to": [
+          0.5,
+          0.45,
+          1.05
+        ]
+      },
+      "date": "28 June 1519",
+      "place": "Frankfurt",
+      "text": "With huge loans from the Fugger bankers, he paid the electors, and became Holy Roman Emperor."
+    },
+    {
+      "type": "narration",
+      "scene": "comuneros",
+      "move": {
+        "from": [
+          0.4,
+          0.5,
+          1.0
+        ],
+        "to": [
+          0.55,
+          0.45,
+          1.2
+        ]
+      },
+      "date": "1520 – 1521",
+      "place": "Castile",
+      "text": "While he was away, Castile rose up against its foreign king. The rebel leaders were beheaded."
+    },
+    {
+      "type": "narration",
+      "scene": "worms",
+      "move": {
+        "from": [
+          0.6,
+          0.5,
+          1.0
+        ],
+        "to": [
+          0.45,
+          0.45,
+          1.2
+        ]
+      },
+      "date": "April 1521",
+      "place": "Worms",
+      "text": "A monk named Martin Luther stood before him, and refused to take back a single word."
+    },
+    {
+      "type": "narration",
+      "scene": "tenochtitlan",
+      "move": {
+        "from": [
+          0.3,
+          0.5,
+          1.0
+        ],
+        "to": [
+          0.6,
+          0.5,
+          1.15
+        ]
+      },
+      "date": "1521 – 1533",
+      "place": "The Americas",
+      "text": "Under his crown, Cortés and Pizarro brought down the Aztec and Inca empires."
+    },
+    {
+      "type": "narration",
+      "scene": "sack",
+      "move": {
+        "from": [
+          0.5,
+          0.5,
+          1.0
+        ],
+        "to": [
+          0.5,
+          0.45,
+          1.2
+        ]
+      },
+      "date": "6 May 1527",
+      "place": "Rome",
+      "text": "Then his own unpaid soldiers mutinied, and sacked Rome."
+    },
+    {
+      "type": "narration",
+      "scene": "muhlberg",
+      "move": {
+        "from": [
+          0.45,
+          0.35,
+          1.3
+        ],
+        "to": [
+          0.5,
+          0.5,
+          1.0
+        ]
+      },
+      "date": "24 April 1547",
+      "place": "Mühlberg",
+      "text": "He won battle after battle. Titian painted him as the perfect Christian knight."
+    },
+    {
+      "type": "narration",
+      "scene": "abdication",
+      "move": {
+        "from": [
+          0.5,
+          0.5,
+          1.0
+        ],
+        "to": [
+          0.45,
+          0.4,
+          1.2
+        ]
+      },
+      "date": "25 October 1555",
+      "place": "Brussels",
+      "text": "But the wars never ended. Worn out, he gave up his crowns, and wept in front of his court."
+    },
+    {
+      "type": "narration",
+      "scene": "seated",
+      "move": {
+        "from": [
+          0.5,
+          0.5,
+          1.0
+        ],
+        "to": [
+          0.5,
+          0.3,
+          1.25
+        ]
+      },
+      "date": "21 September 1558",
+      "place": "Monastery of Yuste",
+      "text": "He died in a quiet monastery in Spain."
+    },
+    {
+      "type": "narration",
+      "text": "His son Philip inherited the empire... and its debts.",
+      "gap": 0.6
+    },
+    {
+      "type": "end",
+      "text": "Next: Philip II",
+      "sub": "Follow for Spain's full story"
+    }
+  ]
+}

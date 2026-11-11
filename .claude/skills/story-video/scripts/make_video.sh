@@ -8,6 +8,12 @@ OUT="${1:-videos/out/$(basename "$(dirname "$STORY")")/$(basename "$STORY" .json
 [[ $# -gt 0 && "$1" != --* ]] && shift
 mkdir -p "$OUT"
 
+# history episodes: stop early with a download checklist if paintings are missing
+if python3 -c "import json,sys; sys.exit(0 if json.load(open('$STORY')).get('images') else 1)"; then
+  python3 "$HERE/image_checklist.py" "$STORY" >/dev/null || {
+    echo "Missing images - see $(dirname "$STORY")/img/NEEDED.md"; exit 2; }
+fi
+
 python3 "$HERE/build_audio.py" "$STORY" "$OUT"
 node "$HERE/render.mjs" "$OUT" "$@"
 
