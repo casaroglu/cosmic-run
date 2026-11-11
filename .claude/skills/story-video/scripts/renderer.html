@@ -15,7 +15,7 @@ let ctx = MAIN;
 const OFF = Object.assign(document.createElement('canvas'), { width: 1080, height: 1920 });
 const OFFC = OFF.getContext('2d');
 const FONT = "'Inter', 'Helvetica Neue', Arial, sans-serif";
-let TL = null, PHONE_SPANS = [], MSGS = [];
+let TL = null, PHONE_SPANS = [], MSGS = [], CUR_T = 0;
 
 // ---------- utils ----------
 const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
@@ -91,6 +91,13 @@ function person(x, y, s, color, opts = {}) {
 }
 function personShape(x, y, s, color, opts) {
   ctx.fillStyle = color;
+  const hair = opts.hair || (opts.narrator !== false && TL && TL.hair);
+  if (hair === 'long') {  // long hair falling past the shoulders
+    ctx.beginPath(); ctx.moveTo(x - 66 * s, y - 10 * s);
+    ctx.quadraticCurveTo(x - 92 * s, y + 150 * s, x - 70 * s, y + 230 * s); ctx.lineTo(x + 70 * s, y + 230 * s);
+    ctx.quadraticCurveTo(x + 92 * s, y + 150 * s, x + 66 * s, y - 10 * s); ctx.closePath(); ctx.fill();
+    ctx.beginPath(); ctx.arc(x, y - 4 * s, 66 * s, Math.PI, 0); ctx.fill();
+  }
   ctx.beginPath(); ctx.arc(x, y, 58 * s, 0, 6.283); ctx.fill();              // head
   ctx.beginPath(); ctx.ellipse(x, y + 70 * s, 28 * s, 30 * s, 0, 0, 6.283); ctx.fill(); // neck
   ctx.beginPath();                                                             // torso
@@ -176,6 +183,81 @@ SCENES.city = (t) => {
   ctx.fillStyle = '#05030c'; ctx.fillRect(0, 1640, W, H);
   rain(t, 8, 160, .22);
 };
+SCENES.cafe = (t) => {
+  sky('#1a0f0a', '#2a160e');
+  // window with bokeh street lights
+  ctx.save(); rr(80, 180, 920, 700, 20); ctx.clip();
+  sky('#1b1030', '#3a1f2a');
+  const r = rng(41);
+  for (let i = 0; i < 26; i++) {
+    const x = r() * 1000 + 40, y = 260 + r() * 560, rad = 30 + r() * 60, hue = ['255,190,120', '255,140,160', '160,190,255'][Math.floor(r() * 3)];
+    glow(x + Math.sin(t * .4 + i) * 8, y, rad, `rgba(${hue},0.55)`);
+  }
+  rain(t, 12, 60, .18);
+  ctx.restore();
+  ctx.strokeStyle = '#120a06'; ctx.lineWidth = 22; ctx.strokeRect(80, 180, 920, 700);
+  // pendant lamp
+  ctx.strokeStyle = '#0d0705'; ctx.lineWidth = 6; ctx.beginPath(); ctx.moveTo(540, 0); ctx.lineTo(540, 840); ctx.stroke();
+  glow(540, 900, 700, 'rgba(255,170,90,0.35)');
+  ctx.fillStyle = '#ffcf8a'; ctx.beginPath(); ctx.arc(540, 862, 26, 0, 6.283); ctx.fill();
+  ctx.fillStyle = '#120a06'; ctx.beginPath(); ctx.moveTo(470, 860); ctx.lineTo(610, 860); ctx.lineTo(570, 800); ctx.lineTo(510, 800); ctx.fill();
+  // Sam, across the table, facing us
+  const breathe = Math.sin(t * 1.6) * 4;
+  person(560, 1000 + breathe, 0.85, '#160c08', { hair: 'short', rim: 'rgba(255,170,90,0.45)' });
+  // table + candle
+  ctx.fillStyle = '#0c0604'; ctx.fillRect(0, 1330, W, H);
+  ctx.fillStyle = '#2a170d'; rr(-20, 1300, W + 40, 60, 10); ctx.fill();
+  glow(380, 1250, 220, 'rgba(255,190,110,0.6)', .85 + .15 * Math.sin(t * 9));
+  ctx.fillStyle = '#f3e6cf'; ctx.fillRect(366, 1230, 28, 70);
+  ctx.fillStyle = '#ffd27a'; ctx.beginPath(); ctx.ellipse(380, 1216 + Math.sin(t * 11) * 2, 9, 18, 0, 0, 6.283); ctx.fill();
+  // two glasses
+  ctx.strokeStyle = 'rgba(255,220,180,0.5)'; ctx.lineWidth = 4;
+  for (const gx of [660, 760]) { ctx.beginPath(); ctx.moveTo(gx - 26, 1180); ctx.lineTo(gx - 18, 1300); ctx.lineTo(gx + 18, 1300); ctx.lineTo(gx + 26, 1180); ctx.stroke(); }
+  // phone face-down on the table, lights up during notifications
+  const lit = NOTIFS.some(b => CUR_T >= b.appear && CUR_T < b.end + 0.4);
+  ctx.fillStyle = lit ? '#cfe0ff' : '#1a1a22'; rr(820, 1310, 150, 34, 10); ctx.fill();
+  if (lit) glow(895, 1320, 220, 'rgba(150,180,255,0.6)');
+  // her, foreground from behind
+  person(250, 1240, 1.45, '#050302', { rim: 'rgba(255,170,90,0.35)' });
+};
+
+const PHOTOS = {
+  latte(x, y, w, h, t) {
+    ctx.fillStyle = '#6b4a35'; ctx.fillRect(x, y, w, h);
+    ctx.fillStyle = '#f2ece4'; ctx.beginPath(); ctx.arc(x + w / 2, y + h / 2, w * .38, 0, 6.283); ctx.fill();
+    ctx.fillStyle = '#b07a52'; ctx.beginPath(); ctx.arc(x + w / 2, y + h / 2, w * .32, 0, 6.283); ctx.fill();
+    ctx.fillStyle = '#f6efe6'; const cx = x + w / 2, cy = y + h / 2 + 10, k = w * .12;
+    ctx.beginPath(); ctx.moveTo(cx, cy + k); ctx.bezierCurveTo(cx - 2 * k, cy - .3 * k, cx - k, cy - 1.6 * k, cx, cy - .6 * k);
+    ctx.bezierCurveTo(cx + k, cy - 1.6 * k, cx + 2 * k, cy - .3 * k, cx, cy + k); ctx.fill();
+  },
+  sunset(x, y, w, h, t) {
+    const g = ctx.createLinearGradient(0, y, 0, y + h); g.addColorStop(0, '#3b2a6b'); g.addColorStop(.55, '#ff7a59'); g.addColorStop(.56, '#2b3a6b'); g.addColorStop(1, '#162040');
+    ctx.fillStyle = g; ctx.fillRect(x, y, w, h);
+    ctx.fillStyle = '#ffd38a'; ctx.beginPath(); ctx.arc(x + w / 2, y + h * .55, w * .14, Math.PI, 0); ctx.fill();
+    ctx.fillStyle = 'rgba(255,211,138,0.6)';
+    for (let i = 0; i < 6; i++) ctx.fillRect(x + w / 2 - (60 - i * 8), y + h * .6 + i * 18, (60 - i * 8) * 2, 5);
+  },
+  flower(x, y, w, h, t) {
+    ctx.fillStyle = '#9fd3a8'; ctx.fillRect(x, y, w, h);
+    const cx = x + w / 2, cy = y + h / 2;
+    ctx.fillStyle = '#ff9fc2';
+    for (let i = 0; i < 6; i++) { const a = i * 1.047; ctx.beginPath(); ctx.ellipse(cx + Math.cos(a) * 62, cy + Math.sin(a) * 62, 56, 34, a, 0, 6.283); ctx.fill(); }
+    ctx.fillStyle = '#ffd35a'; ctx.beginPath(); ctx.arc(cx, cy, 40, 0, 6.283); ctx.fill();
+  },
+  cloud(x, y, w, h, t) {
+    const g = ctx.createLinearGradient(0, y, 0, y + h); g.addColorStop(0, '#4a90e2'); g.addColorStop(1, '#a8d4ff');
+    ctx.fillStyle = g; ctx.fillRect(x, y, w, h);
+    ctx.fillStyle = '#fff'; const cx = x + w / 2, cy = y + h / 2;
+    for (const [dx, dy, r] of [[-60, -20, 60], [40, -30, 70], [0, 20, 70], [-100, 30, 45], [100, 25, 50]]) { ctx.beginPath(); ctx.arc(cx + dx, cy + dy, r, 0, 6.283); ctx.fill(); }
+  },
+  street(x, y, w, h, t) {
+    ctx.fillStyle = '#141a2e'; ctx.fillRect(x, y, w, h);
+    const r = rng(77);
+    for (let i = 0; i < 14; i++) glow(x + r() * w, y + r() * h * .7, 30 + r() * 40, ['rgba(255,200,120,.8)', 'rgba(255,120,150,.7)', 'rgba(120,180,255,.7)'][i % 3]);
+    ctx.fillStyle = 'rgba(255,200,120,0.25)'; ctx.fillRect(x, y + h * .78, w, h * .22);
+  },
+};
+
 SCENES.dawn = (t) => {
   sky('#2b2a5c', '#ff9e7a');
   const sunY = 1180 - easeOut(clamp(t / 12)) * 140;
@@ -210,7 +292,7 @@ function drawScene(name, localT, alpha) {
 }
 
 // ---------- timeline helpers ----------
-const isPhone = b => b.type === 'chat' || b.type === 'system' || b.type === 'file';
+const isPhone = b => b.type === 'chat' || b.type === 'system' || b.type === 'file' || b.type === 'paywall';
 function beatAt(t) {
   const bs = TL.beats;
   for (let i = bs.length - 1; i >= 0; i--) if (t >= bs[i].start) return bs[i];
@@ -270,6 +352,8 @@ const HEADER = 190, INPUT = 150, BUB_FONT = 42, BUB_LH = 56, BUB_MAX = 600, BUB_
 
 function layoutMsg(m) {
   if (m.type === 'system') { font(30, 600); m.h = 70; return; }
+  if (m.type === 'paywall') { font(34, 500); m.lines = wrap(m.text || '', 620); m.w = 760; m.h = 240 + m.lines.length * 46 + 140; return; }
+  if (m.photo) { m.w = 440; m.h = 440; return; }
   if (m.type === 'file') {
     ctx.font = `400 36px 'JetBrains Mono', ${FONT}`; m.lines = wrap(m.text, 660); m.h = 120 + m.lines.length * 52 + 30; m.w = 740; return;
   }
@@ -323,7 +407,7 @@ function drawPhone(t, vis) {
   // avatar orb
   const ax = PX + 110, ay = PY + 120;
   const og = ctx.createRadialGradient(ax - 12, ay - 12, 4, ax, ay, 44);
-  og.addColorStop(0, '#c9b8ff'); og.addColorStop(.6, '#6d5cff'); og.addColorStop(1, '#2b1f8a');
+  const AC = TL.aiColors || ['#c9b8ff', '#6d5cff', '#2b1f8a']; og.addColorStop(0, AC[0]); og.addColorStop(.6, AC[1]); og.addColorStop(1, AC[2]);
   ctx.fillStyle = og; ctx.beginPath(); ctx.arc(ax, ay, 42 + Math.sin(t * 2.2) * 2, 0, 6.283); ctx.fill();
   font(44, 700); ctx.fillStyle = '#fff'; ctx.textBaseline = 'alphabetic'; ctx.fillText(TL.aiName, ax + 70, ay - 4);
   const cur = beatAt(t);
@@ -358,8 +442,9 @@ function drawMsg({ m, y, h, k, typing }, t) {
   const sc = 0.92 + 0.08 * backOut((t - m.appear) / 0.3);
   if (m.type === 'system') {
     font(30, 600); const tw = ctx.measureText(m.text).width + 60;
-    ctx.fillStyle = 'rgba(255,90,90,0.16)'; rr(W / 2 - tw / 2, y + 6, tw, 58, 29); ctx.fill();
-    ctx.fillStyle = '#ff8a8a'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(m.text, W / 2, y + 36);
+    const up = m.style === 'upsell';
+    ctx.fillStyle = up ? 'rgba(255,200,80,0.16)' : 'rgba(255,90,90,0.16)'; rr(W / 2 - tw / 2, y + 6, tw, 58, 29); ctx.fill();
+    ctx.fillStyle = up ? '#ffd27a' : '#ff8a8a'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(m.text, W / 2, y + 36);
     ctx.restore(); return;
   }
   if (m.type === 'file') {
@@ -383,6 +468,41 @@ function drawMsg({ m, y, h, k, typing }, t) {
     });
     ctx.restore(); return;
   }
+  if (m.type === 'paywall') {
+    const w = m.w, x = W / 2 - w / 2;
+    ctx.translate(W / 2, y + h / 2); ctx.scale(sc, sc); ctx.translate(-W / 2, -(y + h / 2));
+    const g = ctx.createLinearGradient(x, y, x + w, y + h); g.addColorStop(0, '#2a2140'); g.addColorStop(1, '#1a1426');
+    ctx.fillStyle = g; rr(x, y, w, h, 34); ctx.fill();
+    ctx.strokeStyle = '#ffcf5a'; ctx.lineWidth = 3; ctx.stroke();
+    // lock icon
+    ctx.strokeStyle = '#ffcf5a'; ctx.lineWidth = 7; ctx.beginPath(); ctx.arc(W / 2, y + 62, 20, Math.PI, 0); ctx.stroke();
+    ctx.fillStyle = '#ffcf5a'; rr(W / 2 - 30, y + 62, 60, 46, 8); ctx.fill();
+    ctx.textAlign = 'center'; ctx.textBaseline = 'alphabetic';
+    font(42, 800); ctx.fillStyle = '#fff'; ctx.fillText(m.title || 'Upgrade', W / 2, y + 168);
+    font(34, 500); ctx.fillStyle = '#c9c3dc';
+    m.lines.forEach((l, i) => ctx.fillText(l.join(' '), W / 2, y + 222 + i * 46));
+    const by = y + h - 110, pressed = t >= m.pressAt;
+    const pk = pressed ? 1 - 0.06 * Math.sin(clamp((t - m.pressAt) / 0.25) * Math.PI) : 1;
+    ctx.save(); ctx.translate(W / 2, by + 40); ctx.scale(pk, pk);
+    ctx.fillStyle = pressed && t > m.pressAt + 0.25 ? '#3ccf7a' : '#ffcf5a'; rr(-300, -40, 600, 80, 40); ctx.fill();
+    font(36, 800); ctx.fillStyle = '#16121f'; ctx.textBaseline = 'middle';
+    ctx.fillText(pressed && t > m.pressAt + 0.25 ? '✓ ' + (m.done || 'Upgraded') : (m.button || 'Upgrade'), 0, 2);
+    ctx.restore();
+    if (!pressed && m.pressAt) { // finger tap indicator
+      const k = clamp((t - (m.pressAt - 0.6)) / 0.6);
+      if (k > 0) { ctx.fillStyle = `rgba(255,255,255,${0.35 * k})`; ctx.beginPath(); ctx.arc(W / 2 + 140, by + 40 + (1 - k) * 120, 44, 0, 6.283); ctx.fill(); }
+    }
+    ctx.restore(); return;
+  }
+  if (m.photo) {
+    const me = m.from !== 'ai', x = me ? PX + PW - 40 - m.w : PX + 40;
+    ctx.translate(me ? x + m.w : x, y + h); ctx.scale(sc, sc); ctx.translate(-(me ? x + m.w : x), -(y + h));
+    ctx.save(); rr(x, y, m.w, h, 32); ctx.clip();
+    (PHOTOS[m.photo] || PHOTOS.street)(x, y, m.w, h, t);
+    ctx.restore();
+    ctx.strokeStyle = me ? '#3d6df2' : '#26262f'; ctx.lineWidth = 8; rr(x, y, m.w, h, 32); ctx.stroke();
+    ctx.restore(); return;
+  }
   const me = m.from === 'me';
   const x = me ? PX + PW - 40 - m.w : PX + 40;
   ctx.translate(me ? x + m.w : x, y + h); ctx.scale(sc, sc); ctx.translate(-(me ? x + m.w : x), -(y + h));
@@ -392,6 +512,32 @@ function drawMsg({ m, y, h, k, typing }, t) {
   ctx.shadowBlur = 0;
   font(BUB_FONT, 500); ctx.fillStyle = '#fff'; ctx.textBaseline = 'alphabetic';
   m.lines.forEach((l, i) => ctx.fillText(l.join(' '), x + BUB_PAD, y + BUB_PAD * .7 + 42 + i * BUB_LH));
+  ctx.restore();
+}
+
+// ---------- notification banner ----------
+let NOTIFS = [];
+function drawNotify(n, t) {
+  const inK = easeOut((t - n.appear) / 0.35), outK = clamp((n.end + 0.4 - t) / 0.35);
+  const k = Math.min(inK, outK); if (k <= 0 || t < n.appear) return;
+  const y = lerp(-260, 110, k), x = 60, w = 960;
+  // buzz shake for the first 0.6 s
+  const shake = t - n.appear < 0.6 ? Math.sin(t * 90) * 6 * (1 - (t - n.appear) / 0.6) : 0;
+  ctx.save(); ctx.translate(shake, 0);
+  font(36, 500); const lines = wrap(n.text, w - 200).slice(0, 3);
+  const h = 130 + lines.length * 46;
+  ctx.shadowColor = 'rgba(0,0,0,0.5)'; ctx.shadowBlur = 40;
+  ctx.fillStyle = 'rgba(28,28,36,0.92)'; rr(x, y, w, h, 40); ctx.fill(); ctx.shadowBlur = 0;
+  const AC = TL.aiColors || ['#c9b8ff', '#6d5cff', '#2b1f8a'];
+  const g = ctx.createLinearGradient(x + 40, y + 40, x + 120, y + 120); g.addColorStop(0, AC[0]); g.addColorStop(1, AC[2]);
+  ctx.fillStyle = g; rr(x + 36, y + 36, 84, 84, 20); ctx.fill();
+  font(46, 800); ctx.fillStyle = '#fff'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(TL.aiName[0], x + 78, y + 80);
+  ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
+  font(28, 600); ctx.fillStyle = '#9a9aa8'; ctx.fillText((TL.appName || TL.aiName).toUpperCase(), x + 150, y + 64);
+  ctx.textAlign = 'right'; ctx.fillText('now', x + w - 40, y + 64); ctx.textAlign = 'left';
+  font(38, 700); ctx.fillStyle = '#fff'; ctx.fillText(n.title || TL.aiName, x + 150, y + 112);
+  font(36, 500); ctx.fillStyle = '#e4e4ec';
+  lines.forEach((l, i) => ctx.fillText(l.join(' '), x + 150, y + 160 + i * 46));
   ctx.restore();
 }
 
@@ -416,7 +562,7 @@ function drawTitle(b, t) {
       const wt = words[wi++]; const on = clamp((t - wt.t0) / 0.15);
       ctx.globalAlpha = k * (0.18 + 0.82 * on);
       ctx.lineWidth = 14; ctx.strokeStyle = 'rgba(0,0,0,.85)'; ctx.strokeText(w, x, y);
-      ctx.fillStyle = /agent|love|ai|her/i.test(w) ? TL.accent : '#fff'; ctx.fillText(w, x, y);
+      ctx.fillStyle = (TL.highlight ? TL.highlight.some(h => w.toLowerCase().replace(/[^\w$.]/g, '').includes(h.toLowerCase())) : /agent|love|ai|her/i.test(w)) ? TL.accent : '#fff'; ctx.fillText(w, x, y);
       x += ctx.measureText(w + ' ').width;
     });
   });
@@ -442,6 +588,7 @@ function drawEnd(b, t) {
 
 // ---------- frame ----------
 function drawFrame(t) {
+  CUR_T = t;
   ctx = MAIN;
   ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.globalAlpha = 1; ctx.fillStyle = '#000'; ctx.fillRect(0, 0, W, H);
   const b = beatAt(t);
@@ -464,6 +611,7 @@ function drawFrame(t) {
   const pv = phoneVis(t);
   drawPhone(t, pv);
 
+  for (const nb of NOTIFS) drawNotify(nb, t);
   if (b.type === 'title') { ctx.fillStyle = 'rgba(0,0,0,0.35)'; ctx.fillRect(0, 0, W, H); drawTitle(b, t); }
   else if (b.type === 'narration') { ctx.save(); ctx.globalAlpha = 1 - pv; drawCaptions(b, t); ctx.restore(); }
   else if (b.type === 'end') drawEnd(b, t);
@@ -487,6 +635,7 @@ async function setup(tl) {
     else cur = null;
   }
   MSGS = TL.beats.filter(isPhone).map(b => ({ ...b }));
+  NOTIFS = TL.beats.filter(b => b.type === 'notify');
   MSGS.forEach(layoutMsg);
   return true;
 }

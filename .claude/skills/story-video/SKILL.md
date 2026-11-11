@@ -1,6 +1,6 @@
 ---
 name: story-video
-description: Turn a story idea into a finished vertical (1080x1920) short-form video for TikTok / Reels / Shorts — English voiceover with free local Kokoro TTS (male narrator + separate AI-character voice), phone-chat UI scenes, animated night-city/room/desk/dawn backgrounds, word-by-word captions, generated background music. Use when the user asks for a story video, a "Part 1/2/3" series, a faceless storytime video, or runs /story-video "topic".
+description: Turn a story idea (e.g. someone falling for an AI companion app) into a finished vertical (1080x1920) short-form video for TikTok / Reels / Shorts — English voiceover with free local Kokoro TTS (male narrator + separate AI-character voice), phone-chat UI scenes, animated night-city/room/desk/dawn backgrounds, word-by-word captions, generated background music. Use when the user asks for a story video, a "Part 1/2/3" series, a faceless storytime video, or runs /story-video "topic".
 ---
 
 # story-video
@@ -10,7 +10,8 @@ Everything runs locally and costs $0: Kokoro TTS (voices), numpy (music + SFX), 
 
 ## Fixed house style (user's choices — do not change unless asked)
 - Vertical 1080x1920, 30 fps, ~40–55 s per part.
-- Voiceover is **always English**. Narrator: male, first person ("I…"), voice `am_michael`. AI character: separate female voice `af_heart`.
+- Voiceover is **always English**, narrator in first person ("I…"), AI character in a separate voice.
+  Defaults: male narrator `am_michael` + female AI `af_heart`. Reversed series (woman narrator + male AI): narrator `af_bella`, AI `am_fenrir`, plus `"narrator_hair": "long"` so her silhouette matches.
 - Visual: phone chat screen + animated scenes between messages. Big word-by-word captions (current word yellow).
 - Series format: Part 1/2/3, each part ends on a cliffhanger end card ("Part N tomorrow" / "Follow…").
 - Tone: bittersweet. Music: generated, never copyrighted tracks.

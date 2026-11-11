@@ -190,6 +190,33 @@ def sfx_ding():
     return 0.22 * (a + b)
 
 
+def sfx_buzz():
+    """Phone vibrating on a table: three short low pulses."""
+    out = np.zeros(int(1.0 * SR))
+    rng = np.random.default_rng(3)
+    for k in range(3):
+        s0 = int(k * 0.3 * SR); d = int(0.18 * SR)
+        t = np.arange(d) / SR
+        tone = np.sign(np.sin(2 * np.pi * 165 * t)) * 0.5 + 0.3 * rng.standard_normal(d)
+        tone = np.convolve(tone, np.ones(8) / 8, mode="same")
+        out[s0:s0 + d] += 0.35 * tone * np.sin(np.pi * t / 0.18)
+    return out
+
+
+def sfx_tap():
+    t = np.arange(int(0.06 * SR)) / SR
+    return 0.4 * np.sin(2 * np.pi * 2200 * t) * np.exp(-t * 90)
+
+
+def sfx_coins():
+    """Purchase confirmation: bright two-note chime."""
+    t = np.arange(int(0.9 * SR)) / SR
+    a = np.sin(2 * np.pi * 1568 * t) * np.exp(-t * 6)
+    b = np.zeros_like(t); o = int(0.09 * SR)
+    b[o:] = np.sin(2 * np.pi * 2093 * t[:len(t) - o]) * np.exp(-t[:len(t) - o] * 5)
+    return 0.2 * (a + b)
+
+
 def sfx_whoosh():
     d = 0.5
     rng = np.random.default_rng(5)
@@ -225,19 +252,34 @@ def main(story_path, out_dir):
         speaker = None
         if typ in ("narration", "title"):
             speaker = "narrator"
-        elif typ in ("chat", "file"):
+        elif typ in ("chat", "file", "notify"):
             speaker = "ai" if b.get("from", "ai") == "ai" else "narrator"
-            if typ == "file":
+            if typ in ("file", "notify"):
                 speaker = "ai"
+            if not b.get("text"):
+                speaker = None
         if b.get("speak") is False:
             speaker = None
 
-        if typ == "chat" and b.get("from", "ai") == "ai":
+        if typ == "chat" and b.get("from", "ai") == "ai" and b.get("text"):
             b["typingStart"] = round(t, 3)
             t += TYPING
         if typ in ("chat", "file"):
             b["appear"] = round(t, 3)
             sfx.append((t, sfx_pop("in" if b.get("from", "ai") == "ai" else "out")))
+        if typ == "notify":
+            b["appear"] = round(t, 3)
+            sfx.append((t, sfx_buzz()))
+            t += 0.7
+        if typ == "paywall":
+            b["appear"] = round(t, 3)
+            sfx.append((t, sfx_ding()))
+            hold = b.get("hold", 3.2)
+            if b.get("tap", True):  # tap "Upgrade" (false = she hesitates, no purchase)
+                b["pressAt"] = round(t + hold * 0.62, 3)
+                sfx.append((b["pressAt"], sfx_tap()))
+                sfx.append((b["pressAt"] + 0.25, sfx_coins()))
+            t += hold
         if typ == "system":
             b["appear"] = round(t, 3)
             sfx.append((t, sfx_ding()))
@@ -258,8 +300,10 @@ def main(story_path, out_dir):
             b["speaker"] = speaker
             clips.append((t, audio * b.get("gain", 1.0)))
             t += dur + b.get("gap", GAP)
-        elif typ == "chat":  # silent message: hold by length
-            t += 0.6 + 0.045 * len(b["text"])
+        elif typ == "chat":  # silent message / photo: hold by length
+            t += b.get("hold", 1.3 if b.get("photo") else 0.6 + 0.045 * len(b.get("text", "")))
+        elif typ == "notify":
+            t += b.get("hold", 1.6)
 
         if b.get("hold_after"):
             t += b["hold_after"]
@@ -307,6 +351,10 @@ def main(story_path, out_dir):
         "aiName": story.get("ai_name", "Nova"),
         "humanName": story.get("human_name", "Me"),
         "accent": story.get("accent", "#FFD54A"),
+        "appName": story.get("app_name"),
+        "aiColors": story.get("ai_colors"),
+        "highlight": story.get("highlight"),
+        "hair": story.get("narrator_hair"),
         "width": 1080, "height": 1920, "fps": story.get("fps", 30),
         "duration": round(total, 3),
         "beats": beats,
