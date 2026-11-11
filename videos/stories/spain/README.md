@@ -6,7 +6,7 @@ Each episode lives in its own folder: `NN-slug/` with
 | # | Folder | Episode | Status |
 |---|---|---|---|
 | 01 | `01-1492` | 1492: Spain changed the world. Three times. | ✅ rendered |
-| 02 | `02-charles-v` | King at 16. Emperor at 19. Exhausted at 55. | 🖼️ waiting for 9 paintings |
+| 02 | `02-charles-v` | King at 16. Emperor at 19. Exhausted at 55. | ✅ rendered |
 | 03 | | Philip II: the empire and its debts (Armada 1588) | ✏️ planned |
 | 04 | | The Golden Age: Velázquez, Cervantes | ✏️ planned |
 | 05 | | War of the Spanish Succession (1701–1714) | ✏️ planned |
