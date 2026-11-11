@@ -1,0 +1,160 @@
+{
+  "series": "Spain in 60 seconds",
+  "episode": 3,
+  "total_parts": 2,
+  "voices": {
+    "narrator": "am_michael"
+  },
+  "speed": {
+    "narrator": 1.0
+  },
+  "accent": "#E8B44A",
+  "part": 2,
+  "title": "130 ships. One invasion. Then the wind.",
+  "highlight": [
+    "130",
+    "wind."
+  ],
+  "music": {
+    "mood": "tense",
+    "seed": 32,
+    "drums": true,
+    "level": 0.36
+  },
+  "post": {
+    "caption": "Philip II, Part 2: the Spanish Armada of 1588. Paintings: public domain.",
+    "hashtags": [
+      "history",
+      "spain",
+      "philipii",
+      "felipeii",
+      "historytok",
+      "shorts",
+      "armada"
+    ]
+  },
+  "images": {
+    "armada": {
+      "file": "img/armada.jpg",
+      "credit": "English school, The Spanish Armada (late 16th c.)",
+      "where": "National Maritime Museum, Greenwich",
+      "search": "Spanish Armada 1588 English school National Maritime Museum"
+    },
+    "elizabeth": {
+      "file": "../03a-philip-ii/img/elizabeth.jpg",
+      "credit": "Unknown artist, The Armada Portrait of Elizabeth I (c. 1588)",
+      "where": "Woburn Abbey",
+      "search": "Armada Portrait Elizabeth I Woburn"
+    },
+    "drake": {
+      "file": "img/drake.jpg",
+      "credit": "Marcus Gheeraerts the Younger (attr.), Sir Francis Drake (1591)",
+      "where": "National Maritime Museum, Greenwich",
+      "search": "Gheeraerts Francis Drake 1591 portrait"
+    },
+    "maryscots": {
+      "file": "img/maryscots.jpg",
+      "credit": "Unknown artist, The Execution of Mary, Queen of Scots (c. 1613)",
+      "where": "Scottish National Portrait Gallery",
+      "search": "execution of Mary Queen of Scots painting 1613"
+    },
+    "fireships": {
+      "file": "img/fireships.jpg",
+      "credit": "Netherlandish school, English Fireships against the Spanish Armada (16th c.)",
+      "where": "National Maritime Museum, Greenwich",
+      "search": "English fireships launched against the Spanish Armada 7 August 1588"
+    },
+    "defeat": {
+      "file": "img/defeat.jpg",
+      "credit": "Philip James de Loutherbourg, The Defeat of the Spanish Armada (1796)",
+      "where": "National Maritime Museum, Greenwich",
+      "search": "Loutherbourg Defeat of the Spanish Armada"
+    },
+    "old": {
+      "file": "img/old.jpg",
+      "credit": "Juan Pantoja de la Cruz, Philip II (c. 1590)",
+      "where": "Monastery of El Escorial",
+      "search": "Pantoja de la Cruz Felipe II Escorial"
+    },
+    "escorial": {
+      "file": "../03a-philip-ii/img/escorial.jpg",
+      "credit": "Michel-Ange Houasse, View of El Escorial (1723)",
+      "where": "Museo del Prado",
+      "search": "Houasse vista monasterio Escorial"
+    }
+  },
+  "beats": [
+    {
+      "type": "title",
+      "scene": "armada",
+      "text": "130 ships. One invasion. Then the wind.",
+      "say": "One hundred and thirty ships. One invasion. Then the wind."
+    },
+    {
+      "type": "narration",
+      "scene": "elizabeth",
+      "text": "Queen Elizabeth of England was Philip's former sister-in-law. She had become his worst enemy."
+    },
+    {
+      "type": "narration",
+      "scene": "drake",
+      "text": "Her captains, like Francis Drake, raided Spain's treasure fleets. And she sent troops to help the Dutch rebels."
+    },
+    {
+      "type": "narration",
+      "scene": "maryscots",
+      "date": "8 February 1587",
+      "place": "Fotheringhay",
+      "text": "Then she executed the Catholic Queen of Scots. Philip called for a crusade."
+    },
+    {
+      "type": "narration",
+      "scene": "armada",
+      "date": "May 1588",
+      "place": "Lisbon",
+      "text": "The Armada sailed from Lisbon. The plan: sweep up the Channel, collect an army in Flanders, and land in England."
+    },
+    {
+      "type": "narration",
+      "scene": "fireships",
+      "date": "7 August 1588",
+      "place": "Calais",
+      "text": "At midnight off Calais, the English sent burning ships into the anchored fleet. The Armada scattered in panic."
+    },
+    {
+      "type": "narration",
+      "text": "The next day, at Gravelines, English guns tore into it."
+    },
+    {
+      "type": "narration",
+      "scene": "defeat",
+      "date": "Autumn 1588",
+      "place": "Scotland & Ireland",
+      "text": "Then came the wind. The fleet fled around Scotland and Ireland, and storms smashed dozens of ships on the rocks."
+    },
+    {
+      "type": "narration",
+      "text": "Thousands of men never came home.",
+      "gap": 0.5
+    },
+    {
+      "type": "narration",
+      "scene": "old",
+      "date": "",
+      "text": "Legend says Philip only sighed: I sent my ships against men, not against the wind."
+    },
+    {
+      "type": "narration",
+      "scene": "escorial",
+      "date": "13 September 1598",
+      "place": "El Escorial",
+      "text": "He died ten years later in his small room at El Escorial. His empire was still vast. And bankrupt, for the fourth time.",
+      "gap": 0.6
+    },
+    {
+      "type": "end",
+      "text": "Next: Spain's Golden Age",
+      "sub": "Follow for Spain's full story"
+    }
+  ]
+}

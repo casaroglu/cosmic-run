@@ -1,0 +1,159 @@
+{
+  "series": "Spain in 60 seconds",
+  "episode": 3,
+  "total_parts": 2,
+  "voices": {
+    "narrator": "am_michael"
+  },
+  "speed": {
+    "narrator": 1.0
+  },
+  "accent": "#E8B44A",
+  "part": 1,
+  "title": "He ruled four continents. From a desk.",
+  "highlight": [
+    "four",
+    "desk."
+  ],
+  "music": {
+    "mood": "epic",
+    "seed": 31,
+    "drums": true,
+    "level": 0.36
+  },
+  "post": {
+    "caption": "Philip II, Part 1: the Paper King who ruled four continents. Paintings: public domain.",
+    "hashtags": [
+      "history",
+      "spain",
+      "philipii",
+      "felipeii",
+      "historytok",
+      "shorts"
+    ]
+  },
+  "images": {
+    "armour": {
+      "file": "img/armour.jpg",
+      "credit": "Titian, Philip II in Armour (1551)",
+      "where": "Museo del Prado",
+      "search": "Titian Philip II armour Prado"
+    },
+    "philippines": {
+      "file": "img/philippines.jpg",
+      "credit": "Pedro Murillo Velarde, Map of the Philippines (1734)",
+      "where": "Biblioteca Nacional de España",
+      "search": "Murillo Velarde 1734 map Philippines"
+    },
+    "mary": {
+      "file": "img/mary.jpg",
+      "credit": "Antonis Mor, Mary Tudor, Queen of England (1554)",
+      "where": "Museo del Prado",
+      "search": "Antonis Mor Mary Tudor Prado"
+    },
+    "escorial": {
+      "file": "img/escorial.jpg",
+      "credit": "Michel-Ange Houasse, View of El Escorial (1723)",
+      "where": "Museo del Prado",
+      "search": "Houasse vista monasterio Escorial"
+    },
+    "carlos": {
+      "file": "img/carlos.jpg",
+      "credit": "Alonso Sánchez Coello, Prince Don Carlos (c. 1557)",
+      "where": "Museo del Prado",
+      "search": "Sánchez Coello príncipe Don Carlos Prado"
+    },
+    "lepanto": {
+      "file": "img/lepanto.jpg",
+      "credit": "Unknown artist, The Battle of Lepanto (16th c.)",
+      "where": "National Maritime Museum, Greenwich",
+      "search": "Battle of Lepanto 1571 National Maritime Museum painting"
+    },
+    "sofonisba": {
+      "file": "img/sofonisba.jpg",
+      "credit": "Sofonisba Anguissola, Philip II (1565)",
+      "where": "Museo del Prado",
+      "search": "Sofonisba Anguissola Felipe II Prado"
+    },
+    "elizabeth": {
+      "file": "img/elizabeth.jpg",
+      "credit": "Unknown artist, The Armada Portrait of Elizabeth I (c. 1588)",
+      "where": "Woburn Abbey",
+      "search": "Armada Portrait Elizabeth I Woburn"
+    }
+  },
+  "beats": [
+    {
+      "type": "title",
+      "scene": "armour",
+      "text": "He ruled four continents. From a desk."
+    },
+    {
+      "type": "narration",
+      "date": "16 January 1556",
+      "place": "Brussels",
+      "text": "Philip the Second was twenty-eight when his exhausted father handed him Spain, the Netherlands, Italy, and the Americas."
+    },
+    {
+      "type": "narration",
+      "scene": "philippines",
+      "text": "Even the Philippines are named after him."
+    },
+    {
+      "type": "narration",
+      "scene": "mary",
+      "date": "1554",
+      "place": "Winchester",
+      "text": "He married four times. One wife was Queen Mary of England, so for four years, he was king of England too."
+    },
+    {
+      "type": "narration",
+      "scene": "escorial",
+      "date": "1563 – 1584",
+      "place": "El Escorial",
+      "text": "He built El Escorial, a palace and monastery in one. From a small office inside, he read every report himself."
+    },
+    {
+      "type": "narration",
+      "text": "Spaniards called him the Paper King."
+    },
+    {
+      "type": "narration",
+      "scene": "carlos",
+      "date": "1568",
+      "place": "Madrid",
+      "text": "His son, Don Carlos, grew unstable. Philip had him locked up. Six months later, Carlos was dead."
+    },
+    {
+      "type": "narration",
+      "text": "Enemies said the king had killed his own son. No one has ever proved it.",
+      "gap": 0.5
+    },
+    {
+      "type": "narration",
+      "scene": "lepanto",
+      "date": "7 October 1571",
+      "place": "Lepanto",
+      "text": "At Lepanto, his fleet crushed the Ottoman navy. A wounded soldier on board was named Miguel de Cervantes."
+    },
+    {
+      "type": "narration",
+      "scene": "sofonisba",
+      "date": "1580",
+      "place": "Lisbon",
+      "text": "Then he took the crown of Portugal. Now the sun truly never set on his empire."
+    },
+    {
+      "type": "narration",
+      "scene": "elizabeth",
+      "date": "",
+      "text": "But it all ran on borrowed silver. And one queen was about to challenge him.",
+      "gap": 0.6
+    },
+    {
+      "type": "end",
+      "text": "Part 2: The Armada",
+      "sub": "Follow so you don't miss it"
+    }
+  ]
+}
