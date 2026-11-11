@@ -15,7 +15,7 @@ let ctx = MAIN;
 const OFF = Object.assign(document.createElement('canvas'), { width: 1080, height: 1920 });
 const OFFC = OFF.getContext('2d');
 const FONT = "'Inter', 'Helvetica Neue', Arial, sans-serif";
-let TL = null, PHONE_SPANS = [], MSGS = [], CUR_T = 0;
+let TL = null, PHONE_SPANS = [], MSGS = [], CUR_T = 0, IMGS = {}, SPANS = [];
 
 // ---------- utils ----------
 const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
@@ -277,10 +277,30 @@ SCENES.dawn = (t) => {
   }
 };
 
+function drawImageScene(name, span, t) {
+  const im = IMGS[name]; if (!im) return SCENES.black(t);
+  const mv = (span && span.move) || {};
+  const p = span ? ease(clamp((CUR_T - span.start) / Math.max(0.1, span.end - span.start))) : 0;
+  const a = mv.from || [0.5, 0.5, 1.0], b = mv.to || [a[0], a[1], (a[2] || 1) * 1.12];
+  const cx = lerp(a[0], b[0], p), cy = lerp(a[1], b[1], p), z = lerp(a[2] || 1, b[2] || 1, p);
+  const s = Math.max(W / im.width, H / im.height) * z, dw = im.width * s, dh = im.height * s;
+  let x = W / 2 - cx * dw, y = H / 2 - cy * dh;
+  x = Math.min(0, Math.max(W - dw, x)); y = Math.min(0, Math.max(H - dh, y));
+  ctx.drawImage(im, x, y, dw, dh);
+  // warm dust motes drifting through the light
+  const r = rng(name.length * 97 + 3);
+  for (let i = 0; i < 45; i++) {
+    const px = (r() * W + CUR_T * (8 + r() * 14)) % W, py = (r() * H - CUR_T * (10 + r() * 20) + H * 4) % H, sz = 1.5 + r() * 3;
+    ctx.globalAlpha = 0.15 + 0.35 * (0.5 + 0.5 * Math.sin(CUR_T * 2 + i)); ctx.fillStyle = '#ffe9c4';
+    ctx.beginPath(); ctx.arc(px, py, sz, 0, 6.283); ctx.fill();
+  }
+  ctx.globalAlpha = 1;
+}
+function spanFor(name, t) { return SPANS.find(s => s.scene === name && t >= s.start - 1 && t <= s.end + 1); }
 function drawScene(name, localT, alpha) {
   if (alpha <= 0) return;
-  const fn = SCENES[name] || SCENES.black;
-  const z = 1 + 0.05 * clamp(localT / 14);
+  const fn = IMGS[name] ? (tt => drawImageScene(name, spanFor(name, CUR_T), tt)) : (SCENES[name] || SCENES.black);
+  const z = IMGS[name] ? 1 : 1 + 0.05 * clamp(localT / 14);
   const target = alpha < 1 ? OFFC : MAIN;
   const prev = ctx; ctx = target;
   ctx.save(); ctx.setTransform(1, 0, 0, 1, 0, 0);
@@ -515,6 +535,35 @@ function drawMsg({ m, y, h, k, typing }, t) {
   ctx.restore();
 }
 
+// ---------- history overlays ----------
+function drawDate(t) {
+  // a beat with "date" shows a stamped date label from its start until the next dated beat / scene change
+  let cur = null;
+  for (const b of TL.beats) { if (b.start > t) break; if (b.date) cur = b; if (b.date === '') cur = null; }
+  if (!cur) return;
+  const span = SPANS.find(s => t >= s.start && t < s.end);
+  if (span && span.start > cur.start + 0.01) return; // scene changed since the date was set
+  const k = easeOut((t - cur.start) / 0.5);
+  ctx.save(); ctx.globalAlpha = k;
+  font(30, 700); const label = cur.date.toUpperCase();
+  const w = ctx.measureText(label).width;
+  ctx.textBaseline = 'middle'; ctx.textAlign = 'left';
+  ctx.fillStyle = 'rgba(0,0,0,0.55)'; rr(70, 250, w + 110, 74, 14); ctx.fill();
+  ctx.fillStyle = TL.accent; ctx.fillRect(70, 250, 10, 74);
+  ctx.fillStyle = '#fff'; ctx.letterSpacing = '3px'; ctx.fillText(label, 110 + (1 - k) * 30, 289);
+  if (cur.place) { font(26, 500); ctx.fillStyle = 'rgba(255,255,255,0.85)'; ctx.fillText(cur.place, 74, 360); }
+  ctx.restore();
+}
+function drawCredit(t, b) {
+  const span = SPANS.find(s => t >= s.start && t < s.end);
+  if (!span || !IMGS[span.scene]) return;
+  const c = (TL.images[span.scene] || {}).credit; if (!c) return;
+  ctx.save(); font(22, 500); ctx.globalAlpha = 0.75 * clamp((t - span.start) / 0.6);
+  ctx.fillStyle = 'rgba(0,0,0,0.45)'; const w = ctx.measureText(c).width;
+  rr(56, 1620, w + 28, 40, 8); ctx.fill();
+  ctx.fillStyle = '#fff'; ctx.textBaseline = 'middle'; ctx.fillText(c, 70, 1641); ctx.restore();
+}
+
 // ---------- notification banner ----------
 let NOTIFS = [];
 function drawNotify(n, t) {
@@ -612,6 +661,7 @@ function drawFrame(t) {
   drawPhone(t, pv);
 
   for (const nb of NOTIFS) drawNotify(nb, t);
+  drawDate(t); drawCredit(t, b);
   if (b.type === 'title') { ctx.fillStyle = 'rgba(0,0,0,0.35)'; ctx.fillRect(0, 0, W, H); drawTitle(b, t); }
   else if (b.type === 'narration') { ctx.save(); ctx.globalAlpha = 1 - pv; drawCaptions(b, t); ctx.restore(); }
   else if (b.type === 'end') drawEnd(b, t);
@@ -636,6 +686,16 @@ async function setup(tl) {
   }
   MSGS = TL.beats.filter(isPhone).map(b => ({ ...b }));
   NOTIFS = TL.beats.filter(b => b.type === 'notify');
+  IMGS = {};
+  await Promise.all(Object.entries(TL.images || {}).map(([k, v]) => new Promise(res => {
+    const im = new Image(); im.onload = () => { IMGS[k] = im; res(); }; im.onerror = () => res(); im.src = v.src;
+  })));
+  SPANS = [];
+  for (const b of TL.beats) {
+    const last = SPANS[SPANS.length - 1];
+    if (last && last.scene === b.scene) { last.end = b.end; if (!last.move && b.move) last.move = b.move; }
+    else SPANS.push({ scene: b.scene, start: b.start, end: b.end, move: b.move });
+  }
   MSGS.forEach(layoutMsg);
   return true;
 }

@@ -33,4 +33,5 @@ Everything runs locally and costs $0: Kokoro TTS (voices), numpy (music + SFX), 
 - Pace: per-beat `"speed"` (narrator default 1.05), `"gap"` (pause after line, default 0.28 s).
 - Music mood per part: `bittersweet` | `dreamy` | `hopeful` | `tense`; change `seed` for a different melody.
 - Other Kokoro voices: male `am_onyx`, `am_adam`, `am_eric`, `bm_george` (British); female `af_bella`, `af_nicole`, `af_sky`, `bf_emma`.
+- History / documentary episodes with public-domain paintings: see "History mode" in `reference/story-format.md`.
 - New background scene: add a `SCENES.<name> = (t) => {...}` function in `scripts/renderer.html` (pure canvas drawing, deterministic in `t`).

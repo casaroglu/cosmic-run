@@ -17,6 +17,10 @@ const outDir = path.resolve(process.argv[2] || '.');
 const previewIdx = process.argv.indexOf('--preview');
 const previews = previewIdx > 0 ? process.argv.slice(previewIdx + 1).map(Number) : null;
 const tl = JSON.parse(fs.readFileSync(path.join(outDir, 'timeline.json'), 'utf8'));
+for (const v of Object.values(tl.images || {})) {   // file:// images would taint the canvas -> inline them
+  const ext = path.extname(v.file).slice(1).toLowerCase().replace('jpg', 'jpeg');
+  v.src = `data:image/${ext};base64,` + fs.readFileSync(v.file).toString('base64');
+}
 
 const launchOpts = process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {};
 const browser = await chromium.launch(launchOpts);

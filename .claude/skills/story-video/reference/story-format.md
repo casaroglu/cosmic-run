@@ -48,3 +48,21 @@ Scenes: `desk` (person at glowing monitor, code scrolling), `room` (dark bedroom
 6. **Each part ends on an open loop** (Part 1: the realisation, Part 2: the twist, Part 3: the resolution plus one quotable line), followed by the `end` beat.
 7. **Length:** 110–140 spoken words ≈ 40–55 s.
 8. **Series continuity:** same title, names and voices in every part. Part N ≥ 2 opens with the title beat again (the hook repeats for new viewers).
+
+## History mode (paintings / still images)
+Use real public-domain artwork instead of drawn scenes:
+
+```json
+"images": {
+  "granada": { "file": "img/granada.jpg", "credit": "Francisco Pradilla, The Surrender of Granada (1882)",
+               "search": "Pradilla Rendición de Granada", "prefer": "Francisco Pradilla" }
+},
+"music": { "mood": "epic", "drums": true }
+```
+
+- Any image key can be used as a `scene`. The camera glides over it for as long as that scene is on screen: `"move": {"from": [x, y, zoom], "to": [x, y, zoom]}` (x/y = the point of the painting kept at frame centre, 0–1; zoom 1 = fill the frame). Aim it at faces/action: start wide, end on the subject.
+- `"date": "2 January 1492"`, `"place": "Granada"` on a beat → stamped date label at the top until the scene changes; `"date": ""` clears it.
+- `credit` is shown small at the bottom-left while the image is on screen — always fill it (artist, title, year).
+- Music moods for history: `epic` (Dm–Bb–F–C) and `somber`; `"drums": true` adds a slow timpani pulse.
+- Get images: `COMMONS_CONTACT=<url-or-email> scripts/fetch_commons.py STORY.json` downloads every missing `file` that has a `search` query, **public-domain matches only**. Wikimedia requires a contact in the User-Agent and rate-limits shared IPs — if it keeps returning 429, download the files by hand into `img/`.
+- History scripts: 60–90 s, one event per episode, every date/number verified in two sources (see the user's source list: Real Academia de la Historia DB~e, Britannica, Barton's *A History of Spain*). Avoid contested numbers or state ranges ("tens of thousands").

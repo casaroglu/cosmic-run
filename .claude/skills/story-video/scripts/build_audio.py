@@ -86,13 +86,15 @@ NOTE = {"C": 0, "C#": 1, "D": 2, "D#": 3, "E": 4, "F": 5, "F#": 6, "G": 7,
 CHORDS = {
     "Am": ["A", "C", "E"], "F": ["F", "A", "C"], "C": ["C", "E", "G"],
     "G": ["G", "B", "D"], "Dm": ["D", "F", "A"], "Em": ["E", "G", "B"],
-    "E": ["E", "G#", "B"], "Fmaj7": ["F", "A", "C", "E"], "Am7": ["A", "C", "E", "G"],
+    "E": ["E", "G#", "B"], "Bb": ["A#", "D", "F"], "A": ["A", "C#", "E"], "Fmaj7": ["F", "A", "C", "E"], "Am7": ["A", "C", "E", "G"],
 }
 PROGRESSIONS = {
     "bittersweet": ["Am", "F", "C", "G"],
     "hopeful": ["C", "G", "Am", "F"],
     "tense": ["Am", "Am", "Dm", "E"],
     "dreamy": ["Fmaj7", "Am7", "Fmaj7", "Em"],
+    "epic": ["Dm", "Bb", "F", "C"],
+    "somber": ["Dm", "Dm", "Bb", "A"],
 }
 
 
@@ -101,7 +103,16 @@ def freq(name, octave):
     return 440.0 * 2 ** ((midi - 69) / 12)
 
 
-def music(duration, mood="bittersweet", seed=1, bar=4.0):
+def timpani(n_samples, f0=72.0):
+    t = np.arange(n_samples) / SR
+    f = f0 * (1 + 0.25 * np.exp(-t * 18))
+    body = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-t * 3.2)
+    rng = np.random.default_rng(7)
+    hit = rng.standard_normal(len(t)) * np.exp(-t * 40) * 0.25
+    return body + hit
+
+
+def music(duration, mood="bittersweet", seed=1, bar=4.0, drums=False):
     rng = np.random.default_rng(seed)
     n = int(duration * SR)
     t = np.arange(n) / SR
@@ -144,6 +155,15 @@ def music(duration, mood="bittersweet", seed=1, bar=4.0):
             penv = np.exp(-pt * 2.4) * np.minimum(1, pt / 0.005)
             tone = np.sin(2 * np.pi * f * pt) + 0.3 * np.sin(4 * np.pi * f * pt) * np.exp(-pt * 4)
             out[p0:p1] += 0.05 * penv * tone
+
+    if drums:  # slow cinematic timpani pulse: beats 1 and 3.5 of every bar
+        hit = timpani(int(1.5 * SR), freq(prog[0][0], 2))
+        for b in range(1, nbars):
+            for st, g in ((0.0, 0.16), (2.5, 0.09)):
+                p0 = int((b * bar + st) * SR)
+                if p0 < n:
+                    seg = hit[: n - p0]
+                    out[p0: p0 + len(seg)] += g * seg
 
     out = reverb(out, seconds=2.8, mix=0.45, seed=seed)
     # fade in / out
@@ -324,7 +344,7 @@ def main(story_path, out_dir):
 
     m = story.get("music", {})
     if m.get("enabled", True):
-        bed = music(total, m.get("mood", "bittersweet"), m.get("seed", 1), m.get("bar", 4.0))
+        bed = music(total, m.get("mood", "bittersweet"), m.get("seed", 1), m.get("bar", 4.0), m.get("drums", False))
         # side-chain duck under the voice
         active = (np.abs(voice) > 0.003).astype(float)
         win = int(0.25 * SR)
@@ -355,6 +375,8 @@ def main(story_path, out_dir):
         "aiColors": story.get("ai_colors"),
         "highlight": story.get("highlight"),
         "hair": story.get("narrator_hair"),
+        "images": {k: {**v, "file": os.path.abspath(os.path.join(os.path.dirname(story_path), v["file"]))}
+                   for k, v in story.get("images", {}).items()},
         "width": 1080, "height": 1920, "fps": story.get("fps", 30),
         "duration": round(total, 3),
         "beats": beats,

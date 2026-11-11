@@ -1,0 +1,236 @@
+{
+  "title": "1492: Spain changed the world. Three times.",
+  "series": "Spain in 60 seconds",
+  "voices": {
+    "narrator": "am_michael"
+  },
+  "speed": {
+    "narrator": 1.0
+  },
+  "music": {
+    "mood": "epic",
+    "seed": 21,
+    "drums": true,
+    "level": 0.36
+  },
+  "accent": "#E8B44A",
+  "highlight": [
+    "1492",
+    "three"
+  ],
+  "post": {
+    "caption": "1492: the year Spain changed the world three times. Paintings: public domain (Wikimedia Commons).",
+    "hashtags": [
+      "history",
+      "spain",
+      "1492",
+      "españa",
+      "historytok",
+      "shorts"
+    ]
+  },
+  "images": {
+    "granada": {
+      "file": "img/granada.jpg",
+      "credit": "Francisco Pradilla, The Surrender of Granada (1882)",
+      "search": "Pradilla Rendición de Granada",
+      "prefer": "Francisco Pradilla"
+    },
+    "suspiro": {
+      "file": "img/suspiro.jpg",
+      "credit": "Francisco Pradilla, The Moor's Last Sigh (1892)",
+      "search": "Pradilla El suspiro del moro",
+      "prefer": "suspiro"
+    },
+    "expulsion": {
+      "file": "img/expulsion.jpg",
+      "credit": "Emilio Sala, The Expulsion of the Jews (1889)",
+      "search": "Emilio Sala expulsión de los judíos",
+      "prefer": "Expulsión de los judíos"
+    },
+    "court": {
+      "file": "img/court.jpg",
+      "credit": "Václav Brožík, Columbus at the Court of the Catholic Monarchs (1884)",
+      "search": "Brožík Columbus at the court of Ferdinand and Isabella",
+      "prefer": "Columbus"
+    },
+    "columbus": {
+      "file": "img/columbus.jpg",
+      "credit": "Sebastiano del Piombo, Portrait of a Man, said to be Columbus (1519)",
+      "search": "Sebastiano del Piombo Portrait of a Man Said to be Christopher Columbus",
+      "prefer": "Columbus"
+    },
+    "landing": {
+      "file": "img/landing.jpg",
+      "credit": "Dióscoro Puebla, The First Landing of Columbus (1862)",
+      "search": "Dióscoro Puebla Primer desembarco de Cristóbal Colón",
+      "prefer": "desembarco"
+    }
+  },
+  "beats": [
+    {
+      "type": "title",
+      "scene": "granada",
+      "move": {
+        "from": [
+          0.5,
+          0.5,
+          1.0
+        ],
+        "to": [
+          0.8,
+          0.45,
+          1.15
+        ]
+      },
+      "text": "In 1492, Spain changed the world. Three times.",
+      "say": "In fourteen ninety-two, Spain changed the world. Three times."
+    },
+    {
+      "type": "narration",
+      "date": "2 January 1492",
+      "place": "Granada",
+      "text": "After nearly eight hundred years, the last Muslim kingdom in Spain surrendered."
+    },
+    {
+      "type": "narration",
+      "text": "Sultan Boabdil handed the keys of Granada to Queen Isabella and King Ferdinand."
+    },
+    {
+      "type": "narration",
+      "scene": "suspiro",
+      "move": {
+        "from": [
+          0.4,
+          0.5,
+          1.0
+        ],
+        "to": [
+          0.55,
+          0.45,
+          1.2
+        ]
+      },
+      "text": "Legend says he looked back at his city one last time... and wept.",
+      "gap": 0.5
+    },
+    {
+      "type": "narration",
+      "scene": "expulsion",
+      "move": {
+        "from": [
+          0.5,
+          0.3,
+          1.0
+        ],
+        "to": [
+          0.5,
+          0.55,
+          1.15
+        ]
+      },
+      "date": "31 March 1492",
+      "place": "The Alhambra Decree",
+      "text": "Three months later, the same monarchs signed the Alhambra Decree."
+    },
+    {
+      "type": "narration",
+      "text": "Spain's Jews had four months. Convert, or leave."
+    },
+    {
+      "type": "narration",
+      "text": "Tens of thousands left behind homes their families had lived in for centuries.",
+      "gap": 0.5
+    },
+    {
+      "type": "narration",
+      "scene": "court",
+      "move": {
+        "from": [
+          0.3,
+          0.5,
+          1.0
+        ],
+        "to": [
+          0.6,
+          0.45,
+          1.15
+        ]
+      },
+      "date": "17 April 1492",
+      "place": "Santa Fe, Granada",
+      "text": "Meanwhile, a Genoese sailor finally got his deal. His name was Christopher Columbus."
+    },
+    {
+      "type": "narration",
+      "scene": "columbus",
+      "move": {
+        "from": [
+          0.5,
+          0.35,
+          1.0
+        ],
+        "to": [
+          0.5,
+          0.3,
+          1.15
+        ]
+      },
+      "date": "3 August 1492",
+      "place": "Palos de la Frontera",
+      "text": "He sailed west with three ships. The Niña, the Pinta, and the Santa María."
+    },
+    {
+      "type": "narration",
+      "scene": "landing",
+      "move": {
+        "from": [
+          0.35,
+          0.5,
+          1.05
+        ],
+        "to": [
+          0.6,
+          0.5,
+          1.2
+        ]
+      },
+      "date": "12 October 1492",
+      "place": "The Bahamas",
+      "text": "Seventy days later, he reached an island in the Bahamas."
+    },
+    {
+      "type": "narration",
+      "text": "He was sure he had found Asia. He had found a world Europe didn't know existed.",
+      "gap": 0.5
+    },
+    {
+      "type": "narration",
+      "scene": "granada",
+      "move": {
+        "from": [
+          0.85,
+          0.4,
+          1.25
+        ],
+        "to": [
+          0.8,
+          0.45,
+          1.05
+        ]
+      },
+      "date": "",
+      "text": "One year. A kingdom ended. A people exiled. An empire born."
+    },
+    {
+      "type": "narration",
+      "text": "And within a generation, their grandson would rule much of Europe.",
+      "gap": 0.6
+    },
+    {
+      "type": "end",
+      "text": "Next: Charles V",
+      "sub": "Follow for Spain's full story"
+    }
+  ]
+}
