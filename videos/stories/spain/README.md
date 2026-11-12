@@ -20,7 +20,7 @@ Big topics are split into **two parts** (`NNa-…`, `NNb-…`); Part 1 ends on a
 | 08 | `08-1898` | Four centuries of empire. Gone in one summer. | 1 | ✅ rendered |
 | 09a | `09a-republic` | Civil War, Part 1: Spain voted out its king. Five years later, it was at war with itself. | 2 | ✅ rendered |
 | 09b | `09b-civil-war` | Civil War, Part 2: Spain's civil war became the world's war. | 2 | ✅ rendered (PD posters + anonymous photos; Picasso's Guernica not shown) |
-| 10 | | Franco, the Transition & 23-F (1981) | 1–2 | ⚠️ same image problem |
+| 10 | `10-transition` | A dictator chose a king. The king gave Spain democracy. | 1 | ✅ rendered (US gov. + Nationaal Archief CC0 photos) |
 | — | | Prequels: Altamira, Gadir, Numantia, 711, Covadonga, Córdoba, Las Navas de Tolosa | 1 each | ✏️ planned (few paintings; CC-licensed photos need attribution) |
 
 Sources used for every script: Real Academia de la Historia DB~e (dbe.rah.es), Encyclopaedia Britannica,

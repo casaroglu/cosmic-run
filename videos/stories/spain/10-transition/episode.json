@@ -1,0 +1,185 @@
+{
+  "series": "Spain in 60 seconds",
+  "episode": 10,
+  "total_parts": 1,
+  "voices": {
+    "narrator": "am_michael"
+  },
+  "speed": {
+    "narrator": 1.0
+  },
+  "accent": "#E8B44A",
+  "part": 1,
+  "title": "A dictator chose a king. The king gave Spain democracy.",
+  "highlight": [
+    "dictator",
+    "democracy."
+  ],
+  "music": {
+    "mood": "hopeful",
+    "seed": 101,
+    "drums": false,
+    "level": 0.32
+  },
+  "post": {
+    "caption": "Spain 1939–1981: Franco's dictatorship, the heir he chose, and the night of 23-F. Photos: public domain / CC0.",
+    "hashtags": [
+      "history",
+      "spain",
+      "franco",
+      "juancarlos",
+      "23F",
+      "historytok",
+      "shorts"
+    ]
+  },
+  "images": {
+    "franco": {
+      "file": "img/franco.jpg",
+      "credit": "General Franco, October 1975 (photograph)",
+      "where": "Nationaal Archief, CC0"
+    },
+    "nixon": {
+      "file": "img/nixon.jpg",
+      "credit": "President Nixon in a procession in Madrid (photograph, 1970)",
+      "where": "U.S. National Archives"
+    },
+    "parade": {
+      "file": "img/parade.jpg",
+      "credit": "Franco and Prince Juan Carlos at the 30th-anniversary parade, Madrid (photograph, 1969)",
+      "where": "Nationaal Archief, CC0"
+    },
+    "heir": {
+      "file": "img/heir.jpg",
+      "credit": "General Franco and Prince Juan Carlos (photograph)",
+      "where": "Nationaal Archief, CC0"
+    },
+    "carrero": {
+      "file": "img/carrero.jpg",
+      "credit": "The street of the bomb attack on Carrero Blanco, Madrid (photograph, Dec 1973)",
+      "where": "Nationaal Archief, CC0"
+    },
+    "king": {
+      "file": "img/king.jpg",
+      "credit": "Juan Carlos sworn in as King of Spain (photograph, 22 Nov 1975)",
+      "where": "Nationaal Archief, CC0"
+    },
+    "suarez": {
+      "file": "img/suarez.jpg",
+      "credit": "Adolfo Suárez campaigning in the 1977 election (photograph)",
+      "where": "Nationaal Archief, CC0"
+    },
+    "ballot": {
+      "file": "img/ballot.jpg",
+      "credit": "Ballot paper for the 1978 constitutional referendum",
+      "where": ""
+    },
+    "cortes": {
+      "file": "img/cortes.jpg",
+      "credit": "The Congress of Deputies, Madrid (photograph, 2016)",
+      "where": "CC0"
+    },
+    "jc": {
+      "file": "img/jc.jpg",
+      "credit": "King Juan Carlos I at the White House (photograph, 1976)",
+      "where": "U.S. National Archives"
+    }
+  },
+  "beats": [
+    {
+      "type": "title",
+      "scene": "franco",
+      "text": "A dictator chose a king. The king gave Spain democracy.",
+      "move": {"from": [0.5, 0.6, 1.0], "to": [0.5, 0.25, 1.4]}
+    },
+    {
+      "type": "narration",
+      "date": "1939",
+      "place": "Madrid",
+      "text": "After 1939, Franco ruled alone: prisons, censorship, hunger. Europe shut Spain out.",
+      "say": "After nineteen thirty-nine, Franco ruled alone: prisons, censorship, hunger. Europe shut Spain out."
+    },
+    {
+      "type": "narration",
+      "scene": "nixon",
+      "date": "1953",
+      "text": "The Cold War rescued him. In 1953, American bases came to Spain, and American presidents to Madrid.",
+      "say": "The Cold War rescued him. In nineteen fifty-three, American bases came to Spain, and American presidents to Madrid.",
+      "move": {"from": [0.5, 0.3, 1.0], "to": [0.45, 0.7, 1.3]}
+    },
+    {
+      "type": "narration",
+      "scene": "parade",
+      "date": "1960s",
+      "text": "In the sixties, tourists and factories made Spain boom. But there were still no free elections.",
+      "move": {"from": [0.3, 0.5, 1.0], "to": [0.65, 0.4, 1.3]}
+    },
+    {
+      "type": "narration",
+      "scene": "heir",
+      "date": "22 July 1969",
+      "text": "In 1969 Franco named his heir: young Prince Juan Carlos. Everyone expected more of the same.",
+      "say": "In nineteen sixty-nine Franco named his heir: young Prince Juan Carlos. Everyone expected more of the same.",
+      "move": {"from": [0.75, 0.45, 1.2], "to": [0.2, 0.4, 1.25]}
+    },
+    {
+      "type": "narration",
+      "scene": "carrero",
+      "date": "20 December 1973",
+      "place": "Madrid",
+      "text": "In 1973, an ETA bomb killed Franco's prime minister. It threw his car over a five-storey building.",
+      "say": "In nineteen seventy-three, an ETA bomb killed Franco's prime minister. It threw his car over a five-storey building.",
+      "move": {"from": [0.5, 0.6, 1.0], "to": [0.4, 0.35, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "king",
+      "date": "22 November 1975",
+      "place": "Madrid",
+      "text": "Franco died in November 1975. Two days later, Juan Carlos became king.",
+      "say": "Franco died in November nineteen seventy-five. Two days later, Juan Carlos became king.",
+      "move": {"from": [0.4, 0.5, 1.0], "to": [0.82, 0.35, 1.25]}
+    },
+    {
+      "type": "narration",
+      "scene": "suarez",
+      "date": "15 June 1977",
+      "text": "He picked Adolfo Suárez, a man of the old regime, to take it apart. In 1977, Spain voted freely for the first time in forty-one years.",
+      "say": "He picked Adolfo Suárez, a man of the old regime, to take it apart. In nineteen seventy-seven, Spain voted freely for the first time in forty-one years.",
+      "move": {"from": [0.5, 0.5, 1.5], "to": [0.63, 0.5, 2.0]}
+    },
+    {
+      "type": "narration",
+      "scene": "ballot",
+      "date": "6 December 1978",
+      "text": "A year later, Spaniards approved a democratic constitution.",
+      "move": {"from": [0.5, 0.45, 1.1], "to": [0.5, 0.5, 1.0]}
+    },
+    {
+      "type": "narration",
+      "scene": "cortes",
+      "date": "23 February 1981",
+      "place": "Madrid",
+      "text": "Then, in 1981, a Civil Guard colonel stormed parliament with armed men and held the deputies hostage.",
+      "say": "Then, in nineteen eighty-one, a Civil Guard colonel stormed parliament with armed men and held the deputies hostage.",
+      "move": {"from": [0.3, 0.5, 1.0], "to": [0.5, 0.5, 1.15]}
+    },
+    {
+      "type": "narration",
+      "scene": "jc",
+      "date": "",
+      "text": "That night the king, in uniform, went on TV and ordered the army to stand by democracy. By the next day, the coup had collapsed.",
+      "move": {"from": [0.4, 0.5, 1.0], "to": [0.72, 0.38, 1.3]}
+    },
+    {
+      "type": "narration",
+      "text": "The heir the dictator chose had saved the democracy.",
+      "gap": 0.6
+    },
+    {
+      "type": "end",
+      "text": "Next: before Spain was Spain",
+      "sub": "Follow for Spain's full story"
+    }
+  ]
+}
