@@ -1,0 +1,145 @@
+{
+  "series": "Spain in 60 seconds",
+  "episode": 9,
+  "total_parts": 2,
+  "voices": {
+    "narrator": "am_michael"
+  },
+  "speed": {
+    "narrator": 1.0
+  },
+  "accent": "#E8B44A",
+  "part": 2,
+  "title": "Spain's civil war became the world's war.",
+  "highlight": [
+    "Spain's",
+    "world's"
+  ],
+  "music": {
+    "mood": "somber",
+    "seed": 92,
+    "drums": true,
+    "level": 0.32
+  },
+  "post": {
+    "caption": "Spain 1936–1939, Part 2: Madrid, the International Brigades, Guernica, the Ebro — and the end of the Civil War. Images: public domain.",
+    "hashtags": [
+      "history",
+      "spain",
+      "spanishcivilwar",
+      "guernica",
+      "historytok",
+      "shorts"
+    ]
+  },
+  "images": {
+    "internacionales": {
+      "file": "img/internacionales.jpg",
+      "credit": "Republican poster, \"Los Internacionales\" (1936–38)",
+      "where": ""
+    },
+    "feixisme": {
+      "file": "img/feixisme.jpg",
+      "credit": "Republican poster, \"Contra el feixisme\" (1936–38)",
+      "where": ""
+    },
+    "brigade": {
+      "file": "img/brigade.jpg",
+      "credit": "International Brigade volunteers at Marçà (photograph, Oct 1938)",
+      "where": "Illustrated Daily Courier archive"
+    },
+    "guernica": {
+      "file": "img/guernica.jpg",
+      "credit": "Guernica in ruins after the bombing (photograph, 1937)",
+      "where": ""
+    },
+    "ebro": {
+      "file": "img/ebro.jpg",
+      "credit": "Republican soldiers decorated after the Ebro offensive (photograph, Aug 1938)",
+      "where": "Illustrated Daily Courier archive"
+    },
+    "parade": {
+      "file": "img/parade.jpg",
+      "credit": "Victory parade, Madrid, 19 May 1939 (photograph)",
+      "where": ""
+    },
+    "argeles": {
+      "file": "img/argeles.jpg",
+      "credit": "Spanish refugees in the camp at Argelès-sur-Mer, France (photograph, Feb 1939)",
+      "where": ""
+    }
+  },
+  "beats": [
+    {
+      "type": "title",
+      "scene": "internacionales",
+      "text": "Spain's civil war became the world's war.",
+      "move": {"from": [0.5, 0.7, 1.0], "to": [0.5, 0.4, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "feixisme",
+      "date": "November 1936",
+      "place": "Madrid",
+      "text": "November 1936. Franco's army reached Madrid. The city held. Its slogan went around the world: they shall not pass.",
+      "say": "November nineteen thirty-six. Franco's army reached Madrid. The city held. Its slogan went around the world: they shall not pass.",
+      "move": {"from": [0.5, 0.7, 1.0], "to": [0.6, 0.35, 1.25]}
+    },
+    {
+      "type": "narration",
+      "scene": "brigade",
+      "date": "",
+      "text": "Volunteers from dozens of countries came to fight for the Republic: the International Brigades.",
+      "move": {"from": [0.3, 0.55, 1.0], "to": [0.6, 0.55, 1.15]}
+    },
+    {
+      "type": "narration",
+      "text": "Hitler and Mussolini sent Franco planes, tanks and troops. Stalin sent the Republic weapons."
+    },
+    {
+      "type": "narration",
+      "scene": "guernica",
+      "date": "26 April 1937",
+      "place": "Guernica",
+      "text": "On a busy Monday, German and Italian bombers destroyed the Basque town of Guernica. Picasso painted it, and the world saw it.",
+      "move": {"from": [0.3, 0.5, 1.0], "to": [0.6, 0.55, 1.15]}
+    },
+    {
+      "type": "narration",
+      "text": "Behind both front lines, tens of thousands of civilians were killed for who they were, or what they believed.",
+      "gap": 0.5
+    },
+    {
+      "type": "narration",
+      "scene": "ebro",
+      "date": "July 1938",
+      "place": "River Ebro",
+      "text": "In 1938, the Republic gambled on one last offensive at the Ebro. It lasted four months, and failed.",
+      "say": "In nineteen thirty-eight, the Republic gambled on one last offensive at the Ebro. It lasted four months, and failed.",
+      "move": {"from": [0.6, 0.5, 1.0], "to": [0.4, 0.35, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "argeles",
+      "date": "February 1939",
+      "place": "Argelès-sur-Mer, France",
+      "text": "Catalonia fell. Hundreds of thousands fled across the snow into France, and ended up in camps on the beach.",
+      "move": {"from": [0.3, 0.5, 1.0], "to": [0.6, 0.6, 1.15]}
+    },
+    {
+      "type": "narration",
+      "scene": "parade",
+      "date": "1 April 1939",
+      "place": "Burgos",
+      "text": "On the first of April 1939, Franco announced: the war is over. He would rule Spain for thirty-six years.",
+      "say": "On the first of April nineteen thirty-nine, Franco announced: the war is over. He would rule Spain for thirty-six years.",
+      "gap": 0.6,
+      "move": {"from": [0.35, 0.7, 1.0], "to": [0.7, 0.3, 1.2]}
+    },
+    {
+      "type": "end",
+      "text": "Next: Franco, the Transition & 23-F",
+      "sub": "Follow for Spain's full story"
+    }
+  ]
+}

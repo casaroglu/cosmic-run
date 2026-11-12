@@ -1,0 +1,149 @@
+{
+  "series": "Spain in 60 seconds",
+  "episode": 9,
+  "total_parts": 2,
+  "voices": {
+    "narrator": "am_michael"
+  },
+  "speed": {
+    "narrator": 1.0
+  },
+  "accent": "#E8B44A",
+  "part": 1,
+  "title": "Spain voted out its king. Five years later, it was at war with itself.",
+  "highlight": [
+    "king.",
+    "war"
+  ],
+  "music": {
+    "mood": "tense",
+    "seed": 91,
+    "drums": true,
+    "level": 0.32
+  },
+  "post": {
+    "caption": "Spain 1931–1936, Part 1: from the Second Republic to the coup that started the Civil War. Images: public domain.",
+    "hashtags": [
+      "history",
+      "spain",
+      "spanishcivilwar",
+      "secondrepublic",
+      "historytok",
+      "shorts"
+    ]
+  },
+  "images": {
+    "alfonso": {
+      "file": "img/alfonso.jpg",
+      "credit": "Kaulak, King Alfonso XIII (photograph, 1916)",
+      "where": ""
+    },
+    "zamora": {
+      "file": "img/zamora.jpg",
+      "credit": "Niceto Alcalá-Zamora, first President of the Republic (official portrait, 1931)",
+      "where": ""
+    },
+    "asturias": {
+      "file": "img/asturias.jpg",
+      "credit": "Troops entering Gijón during the Asturias revolt (photograph, 1934)",
+      "where": ""
+    },
+    "arrests": {
+      "file": "img/arrests.jpg",
+      "credit": "Workers arrested during the Asturias revolt (photograph, Oct 1934)",
+      "where": "Illustrated Daily Courier archive"
+    },
+    "poster": {
+      "file": "img/poster.jpg",
+      "credit": "Republican poster, \"Avant!\" (1936–38)",
+      "where": ""
+    },
+    "coup": {
+      "file": "img/coup.jpg",
+      "credit": "Generals Franco and Mola in Burgos (photograph, Aug 1936)",
+      "where": ""
+    },
+    "franco": {
+      "file": "img/franco.jpg",
+      "credit": "Franco proclaimed head of the rebel state, Burgos (photograph, Oct 1936)",
+      "where": "Keystone"
+    }
+  },
+  "beats": [
+    {
+      "type": "title",
+      "scene": "alfonso",
+      "text": "Spain voted out its king. Five years later, it was at war with itself.",
+      "move": {"from": [0.5, 0.55, 1.0], "to": [0.45, 0.27, 1.4]}
+    },
+    {
+      "type": "narration",
+      "date": "14 April 1931",
+      "place": "Madrid",
+      "text": "April 1931. Republicans swept the city elections, and King Alfonso the Thirteenth left Spain. A republic was born.",
+      "say": "April nineteen thirty-one. Republicans swept the city elections, and King Alfonso the Thirteenth left Spain. A republic was born."
+    },
+    {
+      "type": "narration",
+      "scene": "zamora",
+      "date": "",
+      "text": "It moved fast: land reform, army reform, church and state split. In 1933, women voted for the first time.",
+      "say": "It moved fast: land reform, army reform, church and state split. In nineteen thirty-three, women voted for the first time.",
+      "move": {"from": [0.5, 0.6, 1.0], "to": [0.45, 0.3, 1.3]}
+    },
+    {
+      "type": "narration",
+      "scene": "asturias",
+      "date": "October 1934",
+      "place": "Asturias",
+      "text": "But Spain was split down the middle. In 1934, miners in Asturias rose in revolt.",
+      "say": "But Spain was split down the middle. In nineteen thirty-four, miners in Asturias rose in revolt.",
+      "move": {"from": [0.75, 0.5, 1.0], "to": [0.4, 0.55, 1.15]}
+    },
+    {
+      "type": "narration",
+      "scene": "arrests",
+      "text": "The army crushed them, with a general named Francisco Franco directing from Madrid.",
+      "move": {"from": [0.6, 0.5, 1.0], "to": [0.4, 0.4, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "poster",
+      "date": "February 1936",
+      "text": "In 1936 the left-wing Popular Front won the election. Strikes, church burnings and political killings followed, on both sides.",
+      "say": "In nineteen thirty-six the left-wing Popular Front won the election. Strikes, church burnings and political killings followed, on both sides.",
+      "move": {"from": [0.5, 0.7, 1.0], "to": [0.55, 0.3, 1.3]}
+    },
+    {
+      "type": "narration",
+      "date": "13 July 1936",
+      "place": "Madrid",
+      "text": "In July, police officers murdered the right-wing leader José Calvo Sotelo."
+    },
+    {
+      "type": "narration",
+      "scene": "coup",
+      "date": "18 July 1936",
+      "text": "Days later, generals rose against the Republic. The coup won in about half of Spain, and failed in the rest.",
+      "move": {"from": [0.3, 0.5, 1.0], "to": [0.55, 0.35, 1.25]}
+    },
+    {
+      "type": "narration",
+      "text": "Franco's best troops were stuck in Morocco. Hitler and Mussolini sent planes, and flew them across."
+    },
+    {
+      "type": "narration",
+      "scene": "franco",
+      "date": "1 October 1936",
+      "place": "Burgos",
+      "text": "By October, Franco led the rebels. The coup had failed. A civil war had begun.",
+      "gap": 0.6,
+      "move": {"from": [0.6, 0.5, 1.0], "to": [0.25, 0.4, 1.3]}
+    },
+    {
+      "type": "end",
+      "text": "Part 2: Three years of war",
+      "sub": "Follow so you don't miss it"
+    }
+  ]
+}
