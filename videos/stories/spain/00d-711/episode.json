@@ -1,0 +1,137 @@
+{
+  "series": "Spain in 60 seconds",
+  "episode": 0,
+  "total_parts": 1,
+  "voices": {
+    "narrator": "am_michael"
+  },
+  "speed": {
+    "narrator": 1.0
+  },
+  "accent": "#E8B44A",
+  "part": 1,
+  "title": "In 711 a king vanished in battle. Spain changed for eight centuries.",
+  "highlight": [
+    "vanished",
+    "eight"
+  ],
+  "music": {
+    "mood": "epic",
+    "seed": 4,
+    "drums": true,
+    "level": 0.32
+  },
+  "post": {
+    "caption": "711: Tariq ibn Ziyad crosses the strait, King Roderic falls at Guadalete, and al-Andalus begins. Images: public domain / CC0.",
+    "hashtags": [
+      "history",
+      "spain",
+      "alandalus",
+      "711",
+      "medieval",
+      "historytok",
+      "shorts"
+    ]
+  },
+  "images": {
+    "roderic": {
+      "file": "img/roderic.jpg",
+      "credit": "Bernardo Blanco, King Roderic Addressing his Troops at Guadalete (1871)",
+      "where": "Museo del Prado"
+    },
+    "crowns": {
+      "file": "img/crowns.jpg",
+      "credit": "T. Rufflé, Visigothic votive crowns of Guarrazar (engraving, 19th c.)",
+      "where": ""
+    },
+    "gibraltar": {
+      "file": "img/gibraltar.jpg",
+      "credit": "Ivan Aivazovsky, Gibraltar (1873)",
+      "where": ""
+    },
+    "tariq": {
+      "file": "img/tariq.jpg",
+      "credit": "Tariq ibn Ziyad opening a treasure, Persian manuscript (Baghdad, 1388)",
+      "where": "Bibliothèque nationale de France"
+    },
+    "roderic2": {
+      "file": "img/roderic.jpg",
+      "credit": "Bernardo Blanco, King Roderic Addressing his Troops at Guadalete (1871)",
+      "where": "Museo del Prado"
+    },
+    "roderic3": {
+      "file": "img/roderic.jpg",
+      "credit": "Bernardo Blanco, King Roderic Addressing his Troops at Guadalete (1871)",
+      "where": "Museo del Prado"
+    },
+    "roderic4": {
+      "file": "img/roderic.jpg",
+      "credit": "Bernardo Blanco, King Roderic Addressing his Troops at Guadalete (1871)",
+      "where": "Museo del Prado"
+    }
+  },
+  "beats": [
+    {
+      "type": "title",
+      "scene": "roderic",
+      "text": "In 711 a king vanished in battle. Spain changed for eight centuries.",
+      "move": {"from": [0.5, 0.5, 1.0], "to": [0.55, 0.4, 1.25]}
+    },
+    {
+      "type": "narration",
+      "scene": "crowns",
+      "date": "c. 700",
+      "place": "Toledo",
+      "text": "Around the year 700, Spain belonged to the Visigoths: Germanic kings with jewelled crowns, ruling from Toledo. Their nobles were at each other's throats.",
+      "move": {"from": [0.5, 0.5, 1.0], "to": [0.5, 0.3, 1.4]}
+    },
+    {
+      "type": "narration",
+      "scene": "roderic3",
+      "date": "",
+      "text": "Legend blames a woman. Count Julian's daughter, wronged by King Roderic. To take revenge, Julian opened the door to Africa.",
+      "move": {"from": [0.6, 0.4, 1.4], "to": [0.58, 0.35, 1.6]}
+    },
+    {
+      "type": "narration",
+      "scene": "gibraltar",
+      "date": "April 711",
+      "place": "Gibraltar",
+      "text": "In 711, a Berber commander, Tariq ibn Ziyad, crossed the strait with a small army. The rock where he landed still carries his name: Jabal Tariq. Gibraltar.",
+      "move": {"from": [0.3, 0.5, 1.0], "to": [0.7, 0.5, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "roderic2",
+      "date": "711",
+      "place": "River Guadalete",
+      "text": "King Roderic rushed south. At the river Guadalete, his army was routed. The king died, and his body was never found.",
+      "move": {"from": [0.3, 0.55, 1.1], "to": [0.6, 0.4, 1.35]}
+    },
+    {
+      "type": "narration",
+      "scene": "tariq",
+      "date": "711 – 718",
+      "text": "Within a few years, almost the whole peninsula was under Muslim rule. It became al-Andalus.",
+      "move": {"from": [0.5, 0.5, 1.0], "to": [0.5, 0.38, 1.7]}
+    },
+    {
+      "type": "narration",
+      "text": "Muslim rule in Spain would last nearly eight centuries, until 1492.",
+      "say": "Muslim rule in Spain would last nearly eight centuries, until fourteen ninety-two."
+    },
+    {
+      "type": "narration",
+      "scene": "roderic4",
+      "date": "",
+      "text": "Only a few mountain valleys in the far north never fell.",
+      "gap": 0.6,
+      "move": {"from": [0.55, 0.45, 1.3], "to": [0.5, 0.5, 1.0]}
+    },
+    {
+      "type": "end",
+      "text": "Next: Covadonga, the battle in the mountains",
+      "sub": "Follow for Spain's full story"
+    }
+  ]
+}
