@@ -9,8 +9,8 @@ Big topics are split into **two parts** (`NNa-…`, `NNb-…`); Part 1 ends on a
 |---|---|---|---|---|
 | 01 | `01-1492` | 1492: Spain changed the world. Three times. | 1 (could expand to 2) | ✅ rendered |
 | 02 | `02-charles-v` | King at 16. Emperor at 19. Exhausted at 55. | 1 (could expand to 2) | ✅ rendered |
-| 03a | `03a-philip-ii` | Philip II, Part 1: He ruled four continents. From a desk. | 2 | 🖼️ waiting for 8 paintings |
-| 03b | `03b-the-armada` | Philip II, Part 2: 130 ships. One invasion. Then the wind. | 2 | 🖼️ waiting for 6 paintings |
+| 03a | `03a-philip-ii` | Philip II, Part 1: He ruled four continents. From a desk. | 2 | ✅ rendered |
+| 03b | `03b-the-armada` | Philip II, Part 2: 130 ships. One invasion. Then the wind. | 2 | ✅ rendered |
 | 04 | | The Golden Age: Velázquez / Cervantes | 2 | ✏️ planned |
 | 05 | | Napoleon & 1808: Goya's Second and Third of May | 2 | ✏️ planned |
 | 06 | | War of the Spanish Succession (1701–1714) | 1 | ✏️ planned |

@@ -14,7 +14,9 @@ if python3 -c "import json,sys; sys.exit(0 if json.load(open('$STORY')).get('ima
     echo "Missing images - see $(dirname "$STORY")/img/NEEDED.md"; exit 2; }
 fi
 
-python3 "$HERE/build_audio.py" "$STORY" "$OUT"
+TTS_PY="${KOKORO_DIR:-$HOME/.cache/kokoro}/venv/bin/python"
+[[ -x "$TTS_PY" ]] || TTS_PY=python3   # setup.sh creates the venv when system python lacks kokoro_onnx
+"$TTS_PY" "$HERE/build_audio.py" "$STORY" "$OUT"
 node "$HERE/render.mjs" "$OUT" "$@"
 
 if [[ "${1:-}" != "--preview" ]]; then

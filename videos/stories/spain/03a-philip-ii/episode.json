@@ -86,7 +86,8 @@
     {
       "type": "title",
       "scene": "armour",
-      "text": "He ruled four continents. From a desk."
+      "text": "He ruled four continents. From a desk.",
+      "move": {"from": [0.5, 0.55, 1.0], "to": [0.55, 0.17, 1.35]}
     },
     {
       "type": "narration",
@@ -97,21 +98,24 @@
     {
       "type": "narration",
       "scene": "philippines",
-      "text": "Even the Philippines are named after him."
+      "text": "Even the Philippines are named after him.",
+      "move": {"from": [0.5, 0.5, 1.0], "to": [0.5, 0.42, 1.2]}
     },
     {
       "type": "narration",
       "scene": "mary",
       "date": "1554",
       "place": "Winchester",
-      "text": "He married four times. One wife was Queen Mary of England, so for four years, he was king of England too."
+      "text": "He married four times. One wife was Queen Mary of England, so for four years, he was king of England too.",
+      "move": {"from": [0.5, 0.6, 1.0], "to": [0.45, 0.2, 1.35]}
     },
     {
       "type": "narration",
       "scene": "escorial",
       "date": "1563 – 1584",
       "place": "El Escorial",
-      "text": "He built El Escorial, a palace and monastery in one. From a small office inside, he read every report himself."
+      "text": "He built El Escorial, a palace and monastery in one. From a small office inside, he read every report himself.",
+      "move": {"from": [0.2, 0.5, 1.0], "to": [0.5, 0.45, 1.3]}
     },
     {
       "type": "narration",
@@ -122,7 +126,8 @@
       "scene": "carlos",
       "date": "1568",
       "place": "Madrid",
-      "text": "His son, Don Carlos, grew unstable. Philip had him locked up. Six months later, Carlos was dead."
+      "text": "His son, Don Carlos, grew unstable. Philip had him locked up. Six months later, Carlos was dead.",
+      "move": {"from": [0.5, 0.6, 1.0], "to": [0.48, 0.2, 1.35]}
     },
     {
       "type": "narration",
@@ -134,21 +139,24 @@
       "scene": "lepanto",
       "date": "7 October 1571",
       "place": "Lepanto",
-      "text": "At Lepanto, his fleet crushed the Ottoman navy. A wounded soldier on board was named Miguel de Cervantes."
+      "text": "At Lepanto, his fleet crushed the Ottoman navy. A wounded soldier on board was named Miguel de Cervantes.",
+      "move": {"from": [0.2, 0.6, 1.0], "to": [0.55, 0.55, 1.2]}
     },
     {
       "type": "narration",
       "scene": "sofonisba",
       "date": "1580",
       "place": "Lisbon",
-      "text": "Then he took the crown of Portugal. Now the sun truly never set on his empire."
+      "text": "Then he took the crown of Portugal. Now the sun truly never set on his empire.",
+      "move": {"from": [0.5, 0.6, 1.0], "to": [0.52, 0.25, 1.3]}
     },
     {
       "type": "narration",
       "scene": "elizabeth",
       "date": "",
       "text": "But it all ran on borrowed silver. And one queen was about to challenge him.",
-      "gap": 0.6
+      "gap": 0.6,
+      "move": {"from": [0.3, 0.35, 1.0], "to": [0.5, 0.3, 1.3]}
     },
     {
       "type": "end",

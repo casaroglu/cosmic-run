@@ -88,38 +88,44 @@
       "type": "title",
       "scene": "armada",
       "text": "130 ships. One invasion. Then the wind.",
-      "say": "One hundred and thirty ships. One invasion. Then the wind."
+      "say": "One hundred and thirty ships. One invasion. Then the wind.",
+      "move": {"from": [0.5, 0.5, 1.0], "to": [0.55, 0.6, 1.2]}
     },
     {
       "type": "narration",
       "scene": "elizabeth",
-      "text": "Queen Elizabeth of England was Philip's former sister-in-law. She had become his worst enemy."
+      "text": "Queen Elizabeth of England was Philip's former sister-in-law. She had become his worst enemy.",
+      "move": {"from": [0.5, 0.55, 1.0], "to": [0.49, 0.3, 1.4]}
     },
     {
       "type": "narration",
       "scene": "drake",
-      "text": "Her captains, like Francis Drake, raided Spain's treasure fleets. And she sent troops to help the Dutch rebels."
+      "text": "Her captains, like Francis Drake, raided Spain's treasure fleets. And she sent troops to help the Dutch rebels.",
+      "move": {"from": [0.3, 0.55, 1.0], "to": [0.53, 0.22, 1.35]}
     },
     {
       "type": "narration",
       "scene": "maryscots",
       "date": "8 February 1587",
       "place": "Fotheringhay",
-      "text": "Then she executed the Catholic Queen of Scots. Philip called for a crusade."
+      "text": "Then she executed the Catholic Queen of Scots. Philip called for a crusade.",
+      "move": {"from": [0.3, 0.4, 1.0], "to": [0.6, 0.4, 1.2]}
     },
     {
       "type": "narration",
       "scene": "armada",
       "date": "May 1588",
       "place": "Lisbon",
-      "text": "The Armada sailed from Lisbon. The plan: sweep up the Channel, collect an army in Flanders, and land in England."
+      "text": "The Armada sailed from Lisbon. The plan: sweep up the Channel, collect an army in Flanders, and land in England.",
+      "move": {"from": [0.2, 0.4, 1.0], "to": [0.6, 0.65, 1.15]}
     },
     {
       "type": "narration",
       "scene": "fireships",
       "date": "7 August 1588",
       "place": "Calais",
-      "text": "At midnight off Calais, the English sent burning ships into the anchored fleet. The Armada scattered in panic."
+      "text": "At midnight off Calais, the English sent burning ships into the anchored fleet. The Armada scattered in panic.",
+      "move": {"from": [0.15, 0.5, 1.0], "to": [0.5, 0.57, 1.4]}
     },
     {
       "type": "narration",
@@ -130,7 +136,8 @@
       "scene": "defeat",
       "date": "Autumn 1588",
       "place": "Scotland & Ireland",
-      "text": "Then came the wind. The fleet fled around Scotland and Ireland, and storms smashed dozens of ships on the rocks."
+      "text": "Then came the wind. The fleet fled around Scotland and Ireland, and storms smashed dozens of ships on the rocks.",
+      "move": {"from": [0.75, 0.5, 1.0], "to": [0.38, 0.5, 1.2]}
     },
     {
       "type": "narration",
@@ -141,7 +148,8 @@
       "type": "narration",
       "scene": "old",
       "date": "",
-      "text": "Legend says Philip only sighed: I sent my ships against men, not against the wind."
+      "text": "Legend says Philip only sighed: I sent my ships against men, not against the wind.",
+      "move": {"from": [0.5, 0.6, 1.0], "to": [0.47, 0.15, 1.2]}
     },
     {
       "type": "narration",
@@ -149,7 +157,8 @@
       "date": "13 September 1598",
       "place": "El Escorial",
       "text": "He died ten years later in his small room at El Escorial. His empire was still vast. And bankrupt, for the fourth time.",
-      "gap": 0.6
+      "gap": 0.6,
+      "move": {"from": [0.5, 0.45, 1.3], "to": [0.5, 0.5, 1.0]}
     },
     {
       "type": "end",
