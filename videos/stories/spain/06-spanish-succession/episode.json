@@ -1,0 +1,174 @@
+{
+  "series": "Spain in 60 seconds",
+  "episode": 6,
+  "total_parts": 1,
+  "voices": {
+    "narrator": "am_michael"
+  },
+  "speed": {
+    "narrator": 1.0
+  },
+  "accent": "#E8B44A",
+  "part": 1,
+  "title": "A dying king's will started a world war. Britain still keeps the prize.",
+  "highlight": [
+    "will",
+    "prize."
+  ],
+  "music": {
+    "mood": "epic",
+    "seed": 61,
+    "drums": true,
+    "level": 0.34
+  },
+  "post": {
+    "caption": "The War of the Spanish Succession (1701–1714): how a French prince became king of Spain — and how Britain got Gibraltar. Paintings: public domain.",
+    "hashtags": [
+      "history",
+      "spain",
+      "gibraltar",
+      "bourbon",
+      "historytok",
+      "shorts"
+    ]
+  },
+  "images": {
+    "charles2": {
+      "file": "img/charles2.jpg",
+      "credit": "Juan Carreño de Miranda, Charles II (drawing, c. 1685)",
+      "where": "",
+      "search": "Carreño de Miranda Carlos II Prado"
+    },
+    "anjou": {
+      "file": "img/anjou.jpg",
+      "credit": "Louis XIV declares the Duke of Anjou King of Spain, 16 Nov 1700 (almanac print, 1701)",
+      "where": "Bibliothèque nationale de France",
+      "search": "Gérard Reconnaissance du duc d'Anjou comme roi d'Espagne Chambord"
+    },
+    "archduke": {
+      "file": "img/archduke.jpg",
+      "credit": "Austrian school, Archduke Charles as King of Hungary and Spain (18th c.)",
+      "where": "",
+      "search": "Archduke Charles of Austria Charles III of Spain portrait"
+    },
+    "gibraltar": {
+      "file": "img/gibraltar.jpg",
+      "credit": "Capture of Gibraltar by the Anglo-Dutch fleet, 1704 (Dutch print, 1704–05)",
+      "where": "Rijksmuseum, Amsterdam",
+      "search": "Capture of Gibraltar 1704 painting"
+    },
+    "almansa": {
+      "file": "img/almansa.jpg",
+      "credit": "Ligli & Pallotta, The Battle of Almansa (1709)",
+      "where": "Museo del Prado",
+      "search": "Batalla de Almansa Ligli Pallotta Prado"
+    },
+    "utrecht": {
+      "file": "img/utrecht.jpg",
+      "credit": "The Peace of Utrecht, 1713 (print, 1713)",
+      "where": "Rijksmuseum, Amsterdam",
+      "search": "Peace of Utrecht 1713 painting"
+    },
+    "barcelona": {
+      "file": "img/barcelona.jpg",
+      "credit": "Jacques Rigaud, The Siege of Barcelona (engraving, 1714)",
+      "where": "",
+      "search": "Siege of Barcelona 1714 setge"
+    },
+    "family": {
+      "file": "img/family.jpg",
+      "credit": "Louis-Michel van Loo, The Family of Philip V (1743)",
+      "where": "Museo del Prado",
+      "search": "Van Loo La familia de Felipe V Prado"
+    },
+    "gibraltar2": {
+      "file": "img/gibraltar.jpg",
+      "credit": "Capture of Gibraltar by the Anglo-Dutch fleet, 1704 (Dutch print, 1704–05)",
+      "where": "Rijksmuseum, Amsterdam"
+    }
+  },
+  "beats": [
+    {
+      "type": "title",
+      "scene": "charles2",
+      "text": "A dying king's will started a world war. Britain still keeps the prize.",
+      "move": {"from": [0.5, 0.5, 1.0], "to": [0.5, 0.45, 1.1]}
+    },
+    {
+      "type": "narration",
+      "date": "1 November 1700",
+      "place": "Madrid",
+      "text": "Charles the Second, the last Habsburg king of Spain, died with no children. Everyone wanted his empire."
+    },
+    {
+      "type": "narration",
+      "scene": "anjou",
+      "date": "16 November 1700",
+      "place": "Versailles",
+      "text": "His will left it all to a French prince: Philip, grandson of Louis the Fourteenth. Louis said yes.",
+      "move": {"from": [0.5, 0.5, 1.0], "to": [0.45, 0.22, 1.8]}
+    },
+    {
+      "type": "narration",
+      "text": "France and Spain under one family? England, the Dutch and Austria went to war to stop it."
+    },
+    {
+      "type": "narration",
+      "scene": "archduke",
+      "date": "",
+      "text": "They backed a rival king, Archduke Charles of Austria. Spain itself split in two.",
+      "move": {"from": [0.5, 0.6, 1.0], "to": [0.5, 0.2, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "gibraltar",
+      "date": "4 August 1704",
+      "place": "Gibraltar",
+      "text": "An Anglo-Dutch fleet took Gibraltar, in the archduke's name. The British kept it for themselves.",
+      "move": {"from": [0.65, 0.6, 1.0], "to": [0.25, 0.42, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "almansa",
+      "date": "25 April 1707",
+      "place": "Almansa",
+      "text": "At Almansa, Philip's army won the decisive battle. Then he punished the kingdoms that had fought him, and abolished their old laws.",
+      "move": {"from": [0.2, 0.5, 1.0], "to": [0.55, 0.45, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "utrecht",
+      "date": "1713",
+      "place": "Utrecht",
+      "text": "Peace came at Utrecht. Philip kept Spain, but lost Italy and the Netherlands. Britain got Gibraltar and Minorca.",
+      "move": {"from": [0.5, 0.12, 1.4], "to": [0.48, 0.42, 1.3]}
+    },
+    {
+      "type": "narration",
+      "scene": "barcelona",
+      "date": "11 September 1714",
+      "place": "Barcelona",
+      "text": "Barcelona fought on alone, and fell on the eleventh of September. Catalonia still marks that day.",
+      "move": {"from": [0.25, 0.35, 1.0], "to": [0.55, 0.45, 1.15]}
+    },
+    {
+      "type": "narration",
+      "scene": "family",
+      "date": "",
+      "text": "Philip became Spain's first Bourbon king. The king of Spain today, Felipe the Sixth, is his descendant.",
+      "move": {"from": [0.5, 0.5, 1.0], "to": [0.42, 0.55, 1.6]}
+    },
+    {
+      "type": "narration",
+      "scene": "gibraltar2",
+      "text": "And Gibraltar? Still British, three hundred years later.",
+      "gap": 0.6,
+      "move": {"from": [0.25, 0.42, 1.2], "to": [0.4, 0.5, 1.0]}
+    },
+    {
+      "type": "end",
+      "text": "Next: The Constitution of Cádiz",
+      "sub": "Follow for Spain's full story"
+    }
+  ]
+}

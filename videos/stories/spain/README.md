@@ -15,7 +15,7 @@ Big topics are split into **two parts** (`NNa-…`, `NNb-…`); Part 1 ends on a
 | 04b | `04b-velazquez` | Golden Age, Part 2: He painted the king for 37 years. Then he painted himself. | 2 | ✅ rendered |
 | 05a | `05a-1808` | 1808, Part 1: Two kings. One crown. Napoleon took it. | 2 | ✅ rendered |
 | 05b | `05b-the-little-war` | 1808–1814, Part 2: Napoleon's army lost to a country. And English got a new word. | 2 | ✅ rendered |
-| 06 | | War of the Spanish Succession (1701–1714) | 1 | ✏️ planned |
+| 06 | `06-spanish-succession` | A dying king's will started a world war. Britain still keeps the prize. | 1 | ✅ rendered |
 | 07 | | The Constitution of Cádiz (1812) | 1 | ✏️ planned |
 | 08 | | 1898: the end of the empire | 1 | ✏️ planned |
 | 09 | | Civil War | 2 | ⚠️ images mostly copyrighted (Guernica © until 2043) → maps, drawn scenes, few PD photos |
