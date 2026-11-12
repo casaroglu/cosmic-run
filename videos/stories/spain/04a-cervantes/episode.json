@@ -1,0 +1,179 @@
+{
+  "series": "Spain in 60 seconds",
+  "episode": 4,
+  "total_parts": 2,
+  "voices": {
+    "narrator": "am_michael"
+  },
+  "speed": {
+    "narrator": 1.0
+  },
+  "accent": "#E8B44A",
+  "part": 1,
+  "title": "Sold as a slave. Then he wrote Don Quixote.",
+  "highlight": [
+    "slave.",
+    "Quixote."
+  ],
+  "music": {
+    "mood": "somber",
+    "seed": 41,
+    "drums": true,
+    "level": 0.34
+  },
+  "post": {
+    "caption": "Spain's Golden Age, Part 1: Cervantes — soldier, slave, tax collector, prisoner, and the author of Don Quixote. Paintings: public domain.",
+    "hashtags": [
+      "history",
+      "spain",
+      "cervantes",
+      "donquixote",
+      "historytok",
+      "shorts"
+    ]
+  },
+  "images": {
+    "cervantes": {
+      "file": "img/cervantes.jpg",
+      "credit": "Attributed to Juan de Jáuregui, Portrait said to be Cervantes (17th c.)",
+      "where": "Real Academia Española",
+      "search": "Cervantes Jáuregui portrait"
+    },
+    "lepanto": {
+      "file": "../03a-philip-ii/img/lepanto.jpg",
+      "credit": "Unknown artist, The Battle of Lepanto (16th c.)",
+      "where": "National Maritime Museum, Greenwich",
+      "search": "Battle of Lepanto 1571 National Maritime Museum painting"
+    },
+    "algiers": {
+      "file": "img/algiers.jpg",
+      "credit": "Braun & Hogenberg, Algiers, Civitates Orbis Terrarum (1575)",
+      "where": "Civitates Orbis Terrarum",
+      "search": "Braun Hogenberg Algier Civitates orbis terrarum"
+    },
+    "algiers2": {
+      "file": "img/algiers.jpg",
+      "credit": "Braun & Hogenberg, Algiers, Civitates Orbis Terrarum (1575)",
+      "where": "Civitates Orbis Terrarum"
+    },
+    "seville": {
+      "file": "img/seville.jpg",
+      "credit": "Attributed to Alonso Sánchez Coello, View of Seville (late 16th c.)",
+      "where": "Museo de América, Madrid",
+      "search": "Vista de Sevilla Sánchez Coello Museo de América"
+    },
+    "titlepage": {
+      "file": "img/titlepage.jpg",
+      "credit": "Title page, El ingenioso hidalgo Don Quixote de la Mancha (Madrid, 1605)",
+      "where": "Biblioteca Nacional de España",
+      "search": "El ingenioso hidalgo don Quixote de la Mancha 1605 portada"
+    },
+    "windmills": {
+      "file": "img/windmills.jpg",
+      "credit": "Gustave Doré, Don Quixote and the Windmills (1863)",
+      "where": "Illustration for Don Quixote",
+      "search": "Gustave Doré Don Quixote windmills"
+    },
+    "shakespeare": {
+      "file": "img/shakespeare.jpg",
+      "credit": "Attributed to John Taylor, The Chandos portrait of Shakespeare (c. 1600–1610)",
+      "where": "National Portrait Gallery, London",
+      "search": "Chandos portrait Shakespeare National Portrait Gallery"
+    },
+    "cervantes2": {
+      "file": "img/cervantes.jpg",
+      "credit": "Attributed to Juan de Jáuregui, Portrait said to be Cervantes (17th c.)",
+      "where": "Real Academia Española"
+    }
+  },
+  "beats": [
+    {
+      "type": "title",
+      "scene": "cervantes",
+      "text": "Sold as a slave. Then he wrote Don Quixote.",
+      "move": {"from": [0.5, 0.55, 1.0], "to": [0.42, 0.38, 1.25]}
+    },
+    {
+      "type": "narration",
+      "scene": "lepanto",
+      "date": "7 October 1571",
+      "place": "Lepanto",
+      "text": "Remember the wounded soldier at Lepanto? Miguel de Cervantes, twenty-four. Two shots in the chest. A third ruined his left hand.",
+      "move": {"from": [0.2, 0.6, 1.0], "to": [0.55, 0.55, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "algiers",
+      "date": "26 September 1575",
+      "place": "Off Catalonia",
+      "text": "Four years later, sailing home, his galley was taken by pirates. He was sold as a slave in Algiers.",
+      "move": {"from": [0.3, 0.5, 1.0], "to": [0.45, 0.35, 1.3]}
+    },
+    {
+      "type": "narration",
+      "text": "He tried to escape four times. Every time, he took the blame alone."
+    },
+    {
+      "type": "narration",
+      "scene": "algiers2",
+      "date": "19 September 1580",
+      "place": "Algiers",
+      "text": "After five years, Trinitarian friars raised his ransom and bought him free.",
+      "move": {"from": [0.5, 0.4, 1.1], "to": [0.8, 0.62, 1.3]}
+    },
+    {
+      "type": "narration",
+      "scene": "seville",
+      "date": "1597",
+      "place": "Seville",
+      "text": "Back home, he became a tax collector. Trouble with his accounts landed him in a Seville jail.",
+      "move": {"from": [0.25, 0.55, 1.0], "to": [0.65, 0.4, 1.1]}
+    },
+    {
+      "type": "narration",
+      "text": "In the book's own prologue, he hinted it was born in a prison."
+    },
+    {
+      "type": "narration",
+      "scene": "titlepage",
+      "date": "1605",
+      "place": "Madrid",
+      "text": "In 1605 it came out: an old man reads too many knight stories, and rides off to be a knight himself.",
+      "say": "In sixteen-oh-five it came out: an old man reads too many knight stories, and rides off to be a knight himself.",
+      "move": {"from": [0.5, 0.2, 1.3], "to": [0.5, 0.55, 1.0]}
+    },
+    {
+      "type": "narration",
+      "scene": "windmills",
+      "text": "He charges at windmills, sure they are giants. It was a hit at once. We still say tilting at windmills.",
+      "move": {"from": [0.5, 0.7, 1.0], "to": [0.55, 0.4, 1.25]}
+    },
+    {
+      "type": "narration",
+      "scene": "shakespeare",
+      "date": "22 April 1616",
+      "place": "Madrid",
+      "text": "Cervantes died in April 1616. People say Shakespeare died the same day. He didn't. England used a different calendar.",
+      "say": "Cervantes died in April sixteen-sixteen. People say Shakespeare died the same day. He didn't. England used a different calendar.",
+      "move": {"from": [0.5, 0.55, 1.0], "to": [0.5, 0.35, 1.3]}
+    },
+    {
+      "type": "narration",
+      "scene": "cervantes2",
+      "date": "",
+      "text": "And this face? No one knows if it's really him. No portrait of Cervantes is known to be genuine.",
+      "gap": 0.5,
+      "move": {"from": [0.42, 0.38, 1.4], "to": [0.5, 0.5, 1.0]}
+    },
+    {
+      "type": "narration",
+      "text": "But one painter made sure we would never forget his face.",
+      "gap": 0.6
+    },
+    {
+      "type": "end",
+      "text": "Part 2: Velázquez",
+      "sub": "Follow so you don't miss it"
+    }
+  ]
+}

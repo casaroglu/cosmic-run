@@ -11,7 +11,8 @@ Big topics are split into **two parts** (`NNa-…`, `NNb-…`); Part 1 ends on a
 | 02 | `02-charles-v` | King at 16. Emperor at 19. Exhausted at 55. | 1 (could expand to 2) | ✅ rendered |
 | 03a | `03a-philip-ii` | Philip II, Part 1: He ruled four continents. From a desk. | 2 | ✅ rendered |
 | 03b | `03b-the-armada` | Philip II, Part 2: 130 ships. One invasion. Then the wind. | 2 | ✅ rendered |
-| 04 | | The Golden Age: Velázquez / Cervantes | 2 | ✏️ planned |
+| 04a | `04a-cervantes` | Golden Age, Part 1: Sold as a slave. Then he wrote Don Quixote. | 2 | ✅ rendered |
+| 04b | `04b-velazquez` | Golden Age, Part 2: He painted the king for 37 years. Then he painted himself. | 2 | ✅ rendered |
 | 05 | | Napoleon & 1808: Goya's Second and Third of May | 2 | ✏️ planned |
 | 06 | | War of the Spanish Succession (1701–1714) | 1 | ✏️ planned |
 | 07 | | The Constitution of Cádiz (1812) | 1 | ✏️ planned |

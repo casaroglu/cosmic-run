@@ -11,7 +11,7 @@ Branch: `claude/youtube-video-analysis-skills-3aemj1`. Everything below is commi
   - `videos/stories/i-fell-in-love-with-my-agent/part1-3.json` — male narrator, AI "Nova".
   - `videos/stories/my-boyfriend-costs-19-99/part1-3.json` — female narrator (af_bella), male AI "Leo", app "Kindred"; photo messages, paywall, notification on a date.
   - `videos/stories/spain/` — history series "Spain in 60 seconds" (index + plan: `videos/stories/spain/README.md`).
-    01-1492 ✅, 02-charles-v ✅, 03a/03b Philip II ✅ (public-domain paintings in each `img/`).
+    01-1492 ✅, 02-charles-v ✅, 03a/03b Philip II ✅, 04a/04b Golden Age ✅ (public-domain paintings in each `img/`).
 
 ## User preferences (keep)
 - Voiceover always **English**; vertical; Part 1/2/3 series with cliffhanger end cards; captions word-by-word.
@@ -22,7 +22,8 @@ Branch: `claude/youtube-video-analysis-skills-3aemj1`. Everything below is commi
 ## Next steps (where we stopped)
 1. Episode 3 (Philip II, `03a-philip-ii` + `03b-the-armada`) is done: paintings downloaded locally, camera moves set, rendered.
    `fetch_commons.py` picks wrong files sometimes (a copy instead of the original, the same portrait twice) — always look at each image.
-2. Next: episode 4 (Golden Age, two parts) per the series README.
+2. Episode 4 (Golden Age: 04a Cervantes, 04b Velázquez) done.
+3. Next: episode 5 (Napoleon & 1808, two parts) per the series README.
 
 ## Known issues
 - Brave Search API key saved in the cloud environment was rejected (422) — not needed locally.
