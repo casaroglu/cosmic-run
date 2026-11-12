@@ -1,0 +1,158 @@
+{
+  "series": "Spain in 60 seconds",
+  "episode": 0,
+  "total_parts": 1,
+  "voices": {
+    "narrator": "am_michael"
+  },
+  "speed": {
+    "narrator": 1.0
+  },
+  "accent": "#E8B44A",
+  "part": 1,
+  "title": "A thousand years ago, this was the most dazzling city in Europe.",
+  "highlight": [
+    "thousand",
+    "dazzling"
+  ],
+  "music": {
+    "mood": "dreamy",
+    "seed": 6,
+    "drums": false,
+    "level": 0.32
+  },
+  "post": {
+    "caption": "Córdoba, capital of al-Andalus: the Great Mosque, the caliphate of 929, and the cathedral built inside it. Images: public domain / CC0.",
+    "hashtags": [
+      "history",
+      "spain",
+      "cordoba",
+      "alandalus",
+      "mezquita",
+      "historytok",
+      "shorts"
+    ]
+  },
+  "images": {
+    "columns": {
+      "file": "img/columns.jpg",
+      "credit": "The Great Mosque of Córdoba (photograph, 2010)",
+      "where": "Public domain"
+    },
+    "roberts": {
+      "file": "img/roberts.jpg",
+      "credit": "David Roberts, Interior of the Mosque of Córdoba (1838)",
+      "where": ""
+    },
+    "baixeras": {
+      "file": "img/baixeras.jpg",
+      "credit": "Dionisio Baixeras, The Caliphate of Córdoba under Abd al-Rahman III (1885)",
+      "where": "Universitat de Barcelona"
+    },
+    "azahara": {
+      "file": "img/azahara.jpg",
+      "credit": "Ruins of Medina Azahara, near Córdoba (photograph, 2016)",
+      "where": "CC0"
+    },
+    "mihrab": {
+      "file": "img/mihrab.jpg",
+      "credit": "T. Rufflé, Decoration of the mihrab vestibule, Great Mosque of Córdoba (19th-c. print)",
+      "where": ""
+    },
+    "arches": {
+      "file": "img/arches.jpg",
+      "credit": "Inside the Mosque-Cathedral of Córdoba (photograph, 2024)",
+      "where": "CC0"
+    },
+    "photo1855": {
+      "file": "img/photo1855.jpg",
+      "credit": "The Great Mosque of Córdoba (photograph, c. 1855)",
+      "where": "Library of Congress"
+    },
+    "columns2": {
+      "file": "img/columns.jpg",
+      "credit": "The Great Mosque of Córdoba (photograph, 2010)",
+      "where": "Public domain"
+    },
+    "arches2": {
+      "file": "img/arches.jpg",
+      "credit": "Inside the Mosque-Cathedral of Córdoba (photograph, 2024)",
+      "where": "CC0"
+    }
+  },
+  "beats": [
+    {
+      "type": "title",
+      "scene": "columns",
+      "text": "A thousand years ago, this was the most dazzling city in Europe.",
+      "move": {"from": [0.3, 0.5, 1.0], "to": [0.6, 0.45, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "roberts",
+      "date": "780s",
+      "place": "Córdoba",
+      "text": "In the 780s, a prince who had escaped a massacre of his family in Syria began a great mosque in Córdoba.",
+      "say": "In the seven-eighties, a prince who had escaped a massacre of his family in Syria began a great mosque in Córdoba.",
+      "move": {"from": [0.5, 0.7, 1.0], "to": [0.5, 0.35, 1.25]}
+    },
+    {
+      "type": "narration",
+      "scene": "arches",
+      "date": "",
+      "text": "His heirs kept enlarging it: a forest of more than eight hundred columns under red and white arches.",
+      "move": {"from": [0.5, 0.6, 1.0], "to": [0.5, 0.3, 1.3]}
+    },
+    {
+      "type": "narration",
+      "scene": "baixeras",
+      "date": "929",
+      "text": "In 929 Abd al-Rahman the Third declared himself caliph, defying Baghdad. Envoys came from Byzantium and the German emperor.",
+      "say": "In nine twenty-nine Abd al-Rahman the Third declared himself caliph, defying Baghdad. Envoys came from Byzantium and the German emperor.",
+      "move": {"from": [0.6, 0.5, 1.0], "to": [0.2, 0.5, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "azahara",
+      "date": "936",
+      "text": "Outside the city he built a whole palace town: Medina Azahara.",
+      "move": {"from": [0.3, 0.5, 1.0], "to": [0.5, 0.45, 1.15]}
+    },
+    {
+      "type": "narration",
+      "scene": "mihrab",
+      "date": "",
+      "text": "His son's library was said to hold four hundred thousand books. Historians doubt the number, but not the fame.",
+      "move": {"from": [0.5, 0.5, 0.7], "to": [0.45, 0.45, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "columns2",
+      "date": "1031",
+      "text": "Then civil war tore the caliphate apart. In 1031 it shattered into rival little kingdoms.",
+      "say": "Then civil war tore the caliphate apart. In ten thirty-one it shattered into rival little kingdoms.",
+      "move": {"from": [0.7, 0.5, 1.2], "to": [0.4, 0.5, 1.0]}
+    },
+    {
+      "type": "narration",
+      "scene": "photo1855",
+      "date": "1236",
+      "text": "Christian Castile took Córdoba in 1236. Three centuries later, a cathedral was built right in the middle of the mosque.",
+      "say": "Christian Castile took Córdoba in twelve thirty-six. Three centuries later, a cathedral was built right in the middle of the mosque.",
+      "move": {"from": [0.5, 0.6, 1.0], "to": [0.5, 0.4, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "arches2",
+      "date": "",
+      "text": "Mosque or cathedral? Córdoba still argues about what to call it.",
+      "gap": 0.6,
+      "move": {"from": [0.5, 0.4, 1.3], "to": [0.5, 0.5, 1.0]}
+    },
+    {
+      "type": "end",
+      "text": "Next: 1212, Las Navas de Tolosa",
+      "sub": "Follow for Spain's full story"
+    }
+  ]
+}
