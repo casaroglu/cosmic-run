@@ -60,7 +60,7 @@ Use real public-domain artwork instead of drawn scenes:
 "music": { "mood": "epic", "drums": true }
 ```
 
-- Any image key can be used as a `scene`. The camera glides over it for as long as that scene is on screen: `"move": {"from": [x, y, zoom], "to": [x, y, zoom]}` (x/y = the point of the painting kept at frame centre, 0–1; zoom 1 = fill the frame). Aim it at faces/action: start wide, end on the subject.
+- Any image key can be used as a `scene`. The camera glides over it for as long as that scene is on screen: `"move": {"from": [x, y, zoom], "to": [x, y, zoom]}` (x/y = the point of the painting kept at frame centre, 0–1; zoom 1 = fill the frame; zoom < 1 shows the whole image centred on a dimmed copy of itself — use it for wide coins, maps, prints). Aim it at faces/action: start wide, end on the subject.
 - `"date": "2 January 1492"`, `"place": "Granada"` on a beat → stamped date label at the top until the scene changes; `"date": ""` clears it.
 - `credit` is shown small at the bottom-left while the image is on screen — always fill it (artist, title, year).
 - Music moods for history: `epic` (Dm–Bb–F–C) and `somber`; `"drums": true` adds a slow timpani pulse.

@@ -329,7 +329,14 @@ function drawImageScene(name, span, t) {
   const cx = lerp(a[0], b[0], p), cy = lerp(a[1], b[1], p), z = lerp(a[2] || 1, b[2] || 1, p);
   const s = Math.max(W / im.width, H / im.height) * z, dw = im.width * s, dh = im.height * s;
   let x = W / 2 - cx * dw, y = H / 2 - cy * dh;
-  x = Math.min(0, Math.max(W - dw, x)); y = Math.min(0, Math.max(H - dh, y));
+  if (dw < W || dh < H) {
+    // zoom < 1 ("fit"): the whole image floats on a dimmed, cover-sized copy of itself
+    const sc = Math.max(W / im.width, H / im.height) * 1.15;
+    ctx.drawImage(im, (W - im.width * sc) / 2, (H - im.height * sc) / 2, im.width * sc, im.height * sc);
+    ctx.fillStyle = 'rgba(8,6,4,0.78)'; ctx.fillRect(0, 0, W, H);
+  }
+  x = dw < W ? (W - dw) / 2 : Math.min(0, Math.max(W - dw, x));
+  y = dh < H ? (H - dh) / 2 : Math.min(0, Math.max(H - dh, y));
   ctx.drawImage(im, x, y, dw, dh);
   // warm dust motes drifting through the light
   const r = rng(name.length * 97 + 3);
