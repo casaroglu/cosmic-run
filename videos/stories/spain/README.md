@@ -17,7 +17,7 @@ Big topics are split into **two parts** (`NNa-…`, `NNb-…`); Part 1 ends on a
 | 05b | `05b-the-little-war` | 1808–1814, Part 2: Napoleon's army lost to a country. And English got a new word. | 2 | ✅ rendered |
 | 06 | `06-spanish-succession` | A dying king's will started a world war. Britain still keeps the prize. | 1 | ✅ rendered |
 | 07 | `07-cadiz-1812` | Written under French siege. It gave the world the word liberal. | 1 | ✅ rendered |
-| 08 | | 1898: the end of the empire | 1 | ✏️ planned |
+| 08 | `08-1898` | Four centuries of empire. Gone in one summer. | 1 | ✅ rendered |
 | 09 | | Civil War | 2 | ⚠️ images mostly copyrighted (Guernica © until 2043) → maps, drawn scenes, few PD photos |
 | 10 | | Franco, the Transition & 23-F (1981) | 1–2 | ⚠️ same image problem |
 | — | | Prequels: Altamira, Gadir, Numantia, 711, Covadonga, Córdoba, Las Navas de Tolosa | 1 each | ✏️ planned (few paintings; CC-licensed photos need attribution) |

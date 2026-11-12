@@ -1,0 +1,153 @@
+{
+  "series": "Spain in 60 seconds",
+  "episode": 8,
+  "total_parts": 1,
+  "voices": {
+    "narrator": "am_michael"
+  },
+  "speed": {
+    "narrator": 1.0
+  },
+  "accent": "#E8B44A",
+  "part": 1,
+  "title": "Four centuries of empire. Gone in one summer.",
+  "highlight": [
+    "Four",
+    "summer."
+  ],
+  "music": {
+    "mood": "somber",
+    "seed": 81,
+    "drums": true,
+    "level": 0.34
+  },
+  "post": {
+    "caption": "1898: the Maine, Manila Bay, Santiago — and the summer Spain lost the last of its empire. Images: public domain.",
+    "hashtags": [
+      "history",
+      "spain",
+      "1898",
+      "cuba",
+      "historytok",
+      "shorts"
+    ]
+  },
+  "images": {
+    "maine": {
+      "file": "img/maine.jpg",
+      "credit": "Kurz & Allison, Destruction of the U.S. Battleship Maine (1898)",
+      "where": "Library of Congress",
+      "search": "Kurz Allison destruction of the battleship Maine Havana 1898"
+    },
+    "cuba": {
+      "file": "img/cuba.jpg",
+      "credit": "John C. Hemment, Cuban independence fighters arriving at Siboney (photograph, 1898)",
+      "where": "",
+      "search": "Cuban insurgents 1895 1898 mambises"
+    },
+    "manila": {
+      "file": "img/manila.jpg",
+      "credit": "The great naval battle off Cavite (Manila Bay), 1 May 1898 (chromolithograph, 1898)",
+      "where": "Library of Congress",
+      "search": "Kurz Allison Battle of Manila Bay 1898"
+    },
+    "santiago": {
+      "file": "img/santiago.jpg",
+      "credit": "Kurz & Allison, Destruction of Admiral Cervera's fleet off Santiago de Cuba (1898)",
+      "where": "",
+      "search": "Battle of Santiago de Cuba 1898 Cervera painting"
+    },
+    "paris": {
+      "file": "img/paris.jpg",
+      "credit": "Jules Cambon signs the ratification of the Treaty of Paris for Spain, Washington, 11 April 1899 (photograph)",
+      "where": "Library of Congress",
+      "search": "Treaty of Paris 1898 signing photograph"
+    },
+    "landing": {
+      "file": "../01-1492/img/landing.jpg",
+      "credit": "Dióscoro Puebla, The First Landing of Columbus (1862)",
+      "where": "Museo del Prado"
+    },
+    "maine2": {
+      "file": "img/maine.jpg",
+      "credit": "Kurz & Allison, Destruction of the U.S. Battleship Maine (1898)",
+      "where": "Library of Congress"
+    }
+  },
+  "beats": [
+    {
+      "type": "title",
+      "scene": "maine",
+      "text": "Four centuries of empire. Gone in one summer.",
+      "move": {"from": [0.5, 0.5, 1.0], "to": [0.48, 0.38, 1.3]}
+    },
+    {
+      "type": "narration",
+      "scene": "cuba",
+      "date": "1895",
+      "place": "Cuba",
+      "text": "1895. Cuba rose up against Spain once again. Just across the water, Americans watched closely.",
+      "say": "Eighteen ninety-five. Cuba rose up against Spain once again. Just across the water, Americans watched closely.",
+      "move": {"from": [0.6, 0.4, 1.0], "to": [0.38, 0.55, 1.3]}
+    },
+    {
+      "type": "narration",
+      "scene": "maine2",
+      "date": "15 February 1898",
+      "place": "Havana",
+      "text": "Then the American battleship Maine blew up in Havana harbour. Two hundred and sixty-six men died.",
+      "move": {"from": [0.3, 0.55, 1.0], "to": [0.5, 0.45, 1.2]}
+    },
+    {
+      "type": "narration",
+      "text": "American newspapers blamed Spain. Remember the Maine! Later studies suggest it may have been a fire inside the ship."
+    },
+    {
+      "type": "narration",
+      "scene": "manila",
+      "date": "1 May 1898",
+      "place": "Manila Bay",
+      "text": "War came in April. At Manila, an American squadron wiped out Spain's Pacific fleet within hours.",
+      "move": {"from": [0.2, 0.5, 1.0], "to": [0.58, 0.42, 1.25]}
+    },
+    {
+      "type": "narration",
+      "scene": "santiago",
+      "date": "3 July 1898",
+      "place": "Santiago de Cuba",
+      "text": "In July, Spain's Atlantic fleet tried to break out of Santiago. Every ship was lost.",
+      "move": {"from": [0.3, 0.5, 1.0], "to": [0.55, 0.5, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "paris",
+      "date": "10 December 1898",
+      "place": "Paris",
+      "text": "By December it was over. Spain gave up Cuba, and handed Puerto Rico, Guam and the Philippines to the United States.",
+      "move": {"from": [0.4, 0.5, 1.0], "to": [0.75, 0.55, 1.3]}
+    },
+    {
+      "type": "narration",
+      "date": "1899",
+      "text": "A year later, Spain sold its last Pacific islands to Germany."
+    },
+    {
+      "type": "narration",
+      "scene": "landing",
+      "date": "",
+      "text": "It had begun in 1492, with three small ships. Four centuries later, it was gone.",
+      "say": "It had begun in fourteen ninety-two, with three small ships. Four centuries later, it was gone.",
+      "move": {"from": [0.3, 0.5, 1.0], "to": [0.5, 0.45, 1.2]}
+    },
+    {
+      "type": "narration",
+      "text": "Spaniards simply called it the Disaster. A generation of writers asked: what is Spain now?",
+      "gap": 0.6
+    },
+    {
+      "type": "end",
+      "text": "Next: The Civil War",
+      "sub": "Follow for Spain's full story"
+    }
+  ]
+}
