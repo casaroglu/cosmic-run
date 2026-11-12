@@ -30,7 +30,7 @@ Branch: `claude/youtube-video-analysis-skills-3aemj1`. Everything below is commi
 7. Episode 9 (Civil War, two parts) done — PD Republican posters + anonymous/IKC photos; check author of every photo.
 8. Episode 10 done. Good CC0 source for 1950s–80s: Nationaal Archief (Anefo) — search Commons for "Bestanddeelnr <topic>".
 9. Prequels 00a–00g done.
-10. Next: ep. 1 and 2 split into two parts each (01a/01b, 02a/02b); old 01/02 folders stay (they may already be posted).
+10. Ep. 1 and 2 split into 01a/01b and 02a/02b (old 01/02 folders kept). The Spain series is complete: 00a–00g, 01a–10.
 
 ## Known issues
 - Brave Search API key saved in the cloud environment was rejected (422) — not needed locally.

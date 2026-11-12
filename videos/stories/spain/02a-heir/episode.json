@@ -1,0 +1,153 @@
+{
+  "series": "Spain in 60 seconds",
+  "episode": 2,
+  "total_parts": 2,
+  "voices": {
+    "narrator": "am_michael"
+  },
+  "speed": {
+    "narrator": 1.0
+  },
+  "accent": "#E8B44A",
+  "part": 1,
+  "title": "He inherited half the world at sixteen. He couldn't speak its language.",
+  "highlight": [
+    "half",
+    "language."
+  ],
+  "music": {
+    "mood": "epic",
+    "seed": 21,
+    "drums": true,
+    "level": 0.32
+  },
+  "post": {
+    "caption": "Charles V, Part 1: the heir to half the world, the bought election, the Comuneros and Luther. Paintings: public domain.",
+    "hashtags": [
+      "history",
+      "spain",
+      "charlesv",
+      "habsburg",
+      "historytok",
+      "shorts"
+    ]
+  },
+  "images": {
+    "young": {
+      "file": "../02-charles-v/img/young.jpg",
+      "credit": "Bernard van Orley, Portrait of Charles V (c. 1519)",
+      "where": ""
+    },
+    "young2": {
+      "file": "../02-charles-v/img/young.jpg",
+      "credit": "Bernard van Orley, Portrait of Charles V (c. 1519)",
+      "where": ""
+    },
+    "young3": {
+      "file": "../02-charles-v/img/young.jpg",
+      "credit": "Bernard van Orley, Portrait of Charles V (c. 1519)",
+      "where": ""
+    },
+    "juana": {
+      "file": "../02-charles-v/img/juana.jpg",
+      "credit": "Francisco Pradilla, Joanna the Mad (1877)",
+      "where": "Museo del Prado"
+    },
+    "hercules": {
+      "file": "img/hercules.jpg",
+      "credit": "Francisco de Zurbarán, Hercules Separating the Mountains Calpe and Abyla (1634)",
+      "where": "Museo del Prado"
+    },
+    "comuneros": {
+      "file": "../02-charles-v/img/comuneros.jpg",
+      "credit": "Antonio Gisbert, Execution of the Comuneros of Castile (1860)",
+      "where": "Congreso de los Diputados"
+    },
+    "worms": {
+      "file": "../02-charles-v/img/worms.jpg",
+      "credit": "Anton von Werner, Luther at the Diet of Worms (1877)",
+      "where": ""
+    },
+    "tenochtitlan": {
+      "file": "../02-charles-v/img/tenochtitlan.jpg",
+      "credit": "Unknown artist, The Conquest of Tenochtitlan (17th c.)",
+      "where": ""
+    }
+  },
+  "beats": [
+    {
+      "type": "title",
+      "scene": "young",
+      "text": "He inherited half the world at sixteen. He couldn't speak its language.",
+      "move": {"from": [0.5, 0.6, 1.0], "to": [0.55, 0.33, 1.25]}
+    },
+    {
+      "type": "narration",
+      "date": "24 February 1500",
+      "place": "Ghent",
+      "text": "Charles was born in Ghent in 1500: grandson of Isabella and Ferdinand of Spain, and of the Holy Roman Emperor.",
+      "say": "Charles was born in Ghent in fifteen hundred: grandson of Isabella and Ferdinand of Spain, and of the Holy Roman Emperor."
+    },
+    {
+      "type": "narration",
+      "scene": "young2",
+      "date": "",
+      "text": "One by one, the heirs ahead of him died. He inherited Spain, the Netherlands, southern Italy, and the new lands across the ocean.",
+      "move": {"from": [0.55, 0.3, 1.4], "to": [0.5, 0.5, 1.05]}
+    },
+    {
+      "type": "narration",
+      "scene": "juana",
+      "date": "1516",
+      "text": "His mother, Queen Joanna, was declared unfit to rule, and kept shut away for forty-six years.",
+      "move": {"from": [0.3, 0.55, 1.0], "to": [0.5, 0.4, 1.2]}
+    },
+    {
+      "type": "narration",
+      "text": "So at sixteen, Charles became king of Spain. He barely spoke Spanish."
+    },
+    {
+      "type": "narration",
+      "scene": "young3",
+      "date": "28 June 1519",
+      "text": "Three years later, with loans from the Fugger bankers, he bought the votes that made him Holy Roman Emperor.",
+      "move": {"from": [0.5, 0.5, 1.0], "to": [0.55, 0.3, 1.3]}
+    },
+    {
+      "type": "narration",
+      "scene": "hercules",
+      "date": "",
+      "text": "His motto was Plus Ultra: further beyond, around the Pillars of Hercules. It is still on Spain's flag today.",
+      "move": {"from": [0.5, 0.6, 1.0], "to": [0.5, 0.35, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "comuneros",
+      "date": "1520 – 1521",
+      "place": "Castile",
+      "text": "But Castile hated its foreign king. The cities rose up. At Villalar the rebels were crushed, and their leaders beheaded.",
+      "move": {"from": [0.15, 0.45, 1.0], "to": [0.46, 0.3, 1.15]}
+    },
+    {
+      "type": "narration",
+      "scene": "worms",
+      "date": "April 1521",
+      "place": "Worms",
+      "text": "That same month in Germany, a monk named Martin Luther stood before him, and refused to take back a single word.",
+      "move": {"from": [0.3, 0.5, 1.0], "to": [0.6, 0.38, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "tenochtitlan",
+      "date": "",
+      "text": "And across the ocean, a few hundred Spaniards were about to bring down an empire.",
+      "gap": 0.6,
+      "move": {"from": [0.25, 0.4, 1.0], "to": [0.68, 0.55, 1.1]}
+    },
+    {
+      "type": "end",
+      "text": "Part 2: The emperor who quit",
+      "sub": "Follow so you don't miss it"
+    }
+  ]
+}

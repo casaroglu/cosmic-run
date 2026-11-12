@@ -1,0 +1,158 @@
+{
+  "series": "Spain in 60 seconds",
+  "episode": 2,
+  "total_parts": 2,
+  "voices": {
+    "narrator": "am_michael"
+  },
+  "speed": {
+    "narrator": 1.0
+  },
+  "accent": "#E8B44A",
+  "part": 2,
+  "title": "The most powerful man on Earth gave it all up, and wept.",
+  "highlight": [
+    "powerful",
+    "wept."
+  ],
+  "music": {
+    "mood": "somber",
+    "seed": 22,
+    "drums": true,
+    "level": 0.32
+  },
+  "post": {
+    "caption": "Charles V, Part 2: Aztecs and Incas, Pavia, the Sack of Rome, Mühlberg, and the abdication. Paintings: public domain.",
+    "hashtags": [
+      "history",
+      "spain",
+      "charlesv",
+      "pavia",
+      "historytok",
+      "shorts"
+    ]
+  },
+  "images": {
+    "muhlberg": {
+      "file": "../02-charles-v/img/muhlberg.jpg",
+      "credit": "Titian, Emperor Charles V at Mühlberg (1548)",
+      "where": "Museo del Prado"
+    },
+    "tenochtitlan": {
+      "file": "../02-charles-v/img/tenochtitlan.jpg",
+      "credit": "Unknown artist, The Conquest of Tenochtitlan (17th c.)",
+      "where": ""
+    },
+    "pavia": {
+      "file": "img/pavia.jpg",
+      "credit": "Anonymous Flemish artist, The Battle of Pavia, 1525 (16th c.)",
+      "where": "Birmingham Museum of Art"
+    },
+    "francis": {
+      "file": "img/francis.jpg",
+      "credit": "Jean Clouet, Francis I of France (c. 1530)",
+      "where": "Musée du Louvre"
+    },
+    "sack": {
+      "file": "../02-charles-v/img/sack.jpg",
+      "credit": "Johannes Lingelbach, The Sack of Rome in 1527 (17th c.)",
+      "where": ""
+    },
+    "muhlberg2": {
+      "file": "../02-charles-v/img/muhlberg.jpg",
+      "credit": "Titian, Emperor Charles V at Mühlberg (1548)",
+      "where": "Museo del Prado"
+    },
+    "abdication": {
+      "file": "../02-charles-v/img/abdication.jpg",
+      "credit": "Louis Gallait, The Abdication of Charles V (1841)",
+      "where": ""
+    },
+    "yuste": {
+      "file": "img/yuste.jpg",
+      "credit": "Inside Charles V's house at the Monastery of Yuste (photograph)",
+      "where": "CC0"
+    },
+    "seated": {
+      "file": "../02-charles-v/img/seated.jpg",
+      "credit": "Titian, Portrait of Charles V Seated (1548)",
+      "where": "Alte Pinakothek, Munich"
+    }
+  },
+  "beats": [
+    {
+      "type": "title",
+      "scene": "muhlberg",
+      "text": "The most powerful man on Earth gave it all up, and wept.",
+      "move": {"from": [0.5, 0.55, 1.0], "to": [0.45, 0.22, 1.35]}
+    },
+    {
+      "type": "narration",
+      "scene": "tenochtitlan",
+      "date": "1521 – 1533",
+      "text": "Under his crown, Cortés destroyed the Aztec empire, and Pizarro the Inca. American silver began to pour into Spain.",
+      "move": {"from": [0.68, 0.55, 1.1], "to": [0.3, 0.45, 1.0]}
+    },
+    {
+      "type": "narration",
+      "scene": "pavia",
+      "date": "24 February 1525",
+      "place": "Pavia",
+      "text": "On his twenty-fifth birthday, his army crushed the French at Pavia, and captured their king.",
+      "move": {"from": [0.2, 0.5, 1.0], "to": [0.55, 0.55, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "francis",
+      "date": "",
+      "text": "Francis the First was held in Madrid for a year. He signed a peace treaty, and broke it as soon as he was free.",
+      "move": {"from": [0.5, 0.6, 1.0], "to": [0.55, 0.4, 1.3]}
+    },
+    {
+      "type": "narration",
+      "scene": "sack",
+      "date": "6 May 1527",
+      "place": "Rome",
+      "text": "Then Charles's own unpaid soldiers mutinied, and sacked Rome. The Pope hid in a fortress.",
+      "move": {"from": [0.3, 0.5, 1.0], "to": [0.65, 0.55, 1.15]}
+    },
+    {
+      "type": "narration",
+      "scene": "muhlberg2",
+      "date": "24 April 1547",
+      "place": "Mühlberg",
+      "text": "He beat the Protestant princes at Mühlberg. Titian painted him as the perfect Christian knight.",
+      "move": {"from": [0.45, 0.22, 1.4], "to": [0.5, 0.5, 1.0]}
+    },
+    {
+      "type": "narration",
+      "scene": "abdication",
+      "date": "25 October 1555",
+      "place": "Brussels",
+      "text": "But the wars never ended, and neither did the debts. Worn out, he gave up his crowns, and wept in front of his court.",
+      "move": {"from": [0.5, 0.55, 1.0], "to": [0.48, 0.3, 1.3]}
+    },
+    {
+      "type": "narration",
+      "scene": "yuste",
+      "date": "21 September 1558",
+      "place": "Yuste",
+      "text": "He retired to a small house beside a monastery in Spain, and died there in 1558.",
+      "say": "He retired to a small house beside a monastery in Spain, and died there in fifteen fifty-eight.",
+      "move": {"from": [0.5, 0.6, 1.0], "to": [0.5, 0.45, 1.15]}
+    },
+    {
+      "type": "narration",
+      "scene": "seated",
+      "date": "",
+      "text": "His son Philip inherited the empire, and its debts.",
+      "gap": 0.6,
+      "move": {"from": [0.5, 0.6, 1.0], "to": [0.33, 0.22, 1.25]}
+    },
+    {
+      "type": "end",
+      "text": "Next: Philip II, the Paper King",
+      "sub": "Follow for Spain's full story"
+    }
+  ]
+}
