@@ -37,8 +37,30 @@ LEAD_IN = 0.15
 _kokoro = None
 
 
-def tts(text, voice, speed):
+PIPER_DIR = os.environ.get("PIPER_DIR", os.path.expanduser("~/.cache/piper"))
+
+
+def tts_piper(text, voice, speed):
+    """Non-English narration (e.g. Turkish) with a local Piper voice, resampled to SR."""
+    import subprocess, tempfile
+    model = os.path.join(PIPER_DIR, voice + ".onnx")
+    with tempfile.TemporaryDirectory() as d:
+        wav = os.path.join(d, "v.wav")
+        subprocess.run([os.path.join(PIPER_DIR, "venv/bin/piper"), "-m", model, "-f", wav,
+                        "--length-scale", str(round(1 / speed, 3))],
+                       input=text.encode(), check=True, capture_output=True)
+        x, sr = sf.read(wav, dtype="float32")
+    if x.ndim > 1:
+        x = x.mean(axis=1)
+    if sr != SR:
+        x = np.interp(np.arange(int(len(x) * SR / sr)) * sr / SR, np.arange(len(x)), x).astype(np.float32)
+    return trim(x)
+
+
+def tts(text, voice, speed, lang="en-us"):
     global _kokoro
+    if lang != "en-us":
+        return tts_piper(text, voice, speed)
     if _kokoro is None:
         from kokoro_onnx import Kokoro
 
@@ -233,6 +255,7 @@ def sfx_whoosh():
 def main(story_path, out_dir):
     story = json.load(open(story_path))
     os.makedirs(out_dir, exist_ok=True)
+    lang = story.get("lang", "en-us")
     voices = {**DEFAULT_VOICES, **story.get("voices", {})}
     speeds = {**DEFAULT_SPEED, **story.get("speed", {})}
 
@@ -293,11 +316,11 @@ def main(story_path, out_dir):
 
         if speaker:
             say = b.get("say", b["text"])
-            audio = tts(say, voices[speaker], b.get("speed", speeds[speaker]))
+            audio = tts(say, voices[speaker], b.get("speed", speeds[speaker]), lang)
             dur = len(audio) / SR
             b["voiceStart"] = round(t, 3)
             b["voiceEnd"] = round(t + dur, 3)
-            b["words"] = align.word_times(b["text"], say, audio, SR, t)
+            b["words"] = align.word_times(b["text"], say, audio, SR, t, lang)
             b["speaker"] = speaker
             clips.append((t, audio * b.get("gain", 1.0)))
             t += dur + b.get("gap", GAP)
@@ -358,6 +381,9 @@ def main(story_path, out_dir):
         "hair": story.get("narrator_hair"),
         "images": {k: {**v, "file": os.path.abspath(os.path.join(os.path.dirname(story_path), v["file"]))}
                    for k, v in story.get("images", {}).items()},
+        "lang": lang,
+        "overlay": {k: os.path.abspath(os.path.join(os.path.dirname(story_path), v))
+                    for k, v in story["overlay"].items()} if story.get("overlay") else None,
         "width": 1080, "height": 1920, "fps": story.get("fps", 30),
         "duration": round(total, 3),
         "beats": beats,

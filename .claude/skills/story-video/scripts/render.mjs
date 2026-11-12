@@ -22,6 +22,8 @@ for (const v of Object.values(tl.images || {})) {   // file:// images would tain
   v.src = `data:image/${ext};base64,` + fs.readFileSync(v.file).toString('base64');
 }
 
+if (tl.overlay && tl.overlay.anchors && fs.existsSync(tl.overlay.anchors)) tl.anchors = JSON.parse(fs.readFileSync(tl.overlay.anchors, 'utf8'));
+
 const launchOpts = process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {};
 const browser = await chromium.launch(launchOpts);
 const page = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
@@ -43,10 +45,13 @@ if (previews) {
 const fps = tl.fps || 30;
 const total = Math.ceil(tl.duration * fps);
 const out = path.join(outDir, 'video.mp4');
+const ov = tl.overlay && tl.overlay.video;   // 3D mode: PNG captions composited over the rendered video
 const ff = spawn('ffmpeg', [
   '-y', '-loglevel', 'error',
-  '-f', 'image2pipe', '-framerate', String(fps), '-c:v', 'mjpeg', '-i', '-',
+  ...(ov ? ['-i', ov] : []),
+  '-f', 'image2pipe', '-framerate', String(fps), '-c:v', ov ? 'png' : 'mjpeg', '-i', '-',
   '-i', path.join(outDir, 'audio.wav'),
+  ...(ov ? ['-filter_complex', '[0:v][1:v]overlay=0:0:format=auto[v]', '-map', '[v]', '-map', '2:a'] : []),
   '-c:v', 'libx264', '-preset', 'medium', '-crf', '19', '-pix_fmt', 'yuv420p', '-r', String(fps),
   '-af', 'loudnorm=I=-14:TP=-1.5:LRA=11', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000',
   '-shortest', '-movflags', '+faststart', out,

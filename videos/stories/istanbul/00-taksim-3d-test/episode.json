@@ -1,0 +1,23 @@
+{
+  "title": "Taksim bir meydan değil",
+  "lang": "tr",
+  "voices": {"narrator": "tr_TR-dfki-medium"},
+  "speed": {"narrator": 1.0},
+  "accent": "#FFD23F",
+  "highlight": ["su", "taksim"],
+  "music": {"mood": "bittersweet", "seed": 7, "level": 0.22},
+  "overlay": {"video": "../../../out/istanbul/00-taksim-3d-test/blender.mp4", "anchors": "../../../out/istanbul/00-taksim-3d-test/anchors.json"},
+  "beats": [
+    {"type": "title", "shot": "aerial", "text": "Taksim, bir meydan değil, bir su odasıydı."},
+    {"type": "narration", "shot": "pipe", "text": "1730'larda Sultan I. Mahmud, Belgrad Ormanı'ndan şehre su getirtti.",
+     "say": "Bin yedi yüz otuzlarda Sultan Birinci Mahmud, Belgrad Ormanı'ndan şehre su getirtti.",
+     "labels": [{"anchor": "forest", "text": "BELGRAD ORMANI"}]},
+    {"type": "narration", "shot": "maksem", "text": "Su, bu sekizgen taş yapıda toplandı.",
+     "ring": "basin", "labels": [{"anchor": "maksem_top", "text": "MAKSEM"}]},
+    {"type": "narration", "shot": "branches", "text": "Sonra üç kola bölündü: Galata, Tophane ve Kasımpaşa.",
+     "labels": [{"anchor": "galata", "text": "GALATA"}, {"anchor": "tophane", "text": "TOPHANE"}, {"anchor": "kasimpasa", "text": "KASIMPAŞA"}]},
+    {"type": "narration", "shot": "split", "text": "Arapçada taksim, bölmek demek.", "banner": "TAKSİM = BÖLMEK"},
+    {"type": "narration", "shot": "rise", "text": "Peki su, bu susuz tepeye nasıl tırmandı?"},
+    {"type": "end", "shot": "rise", "text": "Devamı Part 2'de", "sub": "TAKİP ET", "hold": 1.6}
+  ]
+}

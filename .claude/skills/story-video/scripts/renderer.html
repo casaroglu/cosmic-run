@@ -379,6 +379,7 @@ function phoneVis(t) {
 }
 
 // ---------- captions ----------
+function up(s) { return TL.lang && TL.lang !== 'en-us' ? s.toLocaleUpperCase(TL.lang) : s.toUpperCase(); }
 function chunks(words) {
   const out = []; let cur = [];
   for (const w of words) {
@@ -399,7 +400,7 @@ function drawCaptions(b, t, y = 1440) {
   if (!c) return;
   font(84, 900);
   const sp = 22;
-  const widths = c.map(w => ctx.measureText(w.w.toUpperCase()).width);
+  const widths = c.map(w => ctx.measureText(up(w.w)).width);
   let total = widths.reduce((a, b) => a + b, 0) + sp * (c.length - 1);
   let scale = total > 960 ? 960 / total : 1;
   const pop = backOut((t - c.s) / 0.18);
@@ -408,7 +409,7 @@ function drawCaptions(b, t, y = 1440) {
   ctx.textBaseline = 'middle'; ctx.lineJoin = 'round';
   c.forEach((w, i) => {
     const active = t >= w.t0 && t < (c[i + 1] ? c[i + 1].t0 : 1e9);
-    const txt = w.w.toUpperCase();
+    const txt = up(w.w);
     ctx.lineWidth = 16; ctx.strokeStyle = 'rgba(0,0,0,0.9)'; ctx.strokeText(txt, x, 0);
     ctx.fillStyle = active ? TL.accent : '#ffffff';
     ctx.fillText(txt, x, 0);
@@ -686,12 +687,68 @@ function drawEnd(b, t) {
   ctx.restore();
 }
 
+// ---------- 3D overlay callouts (labels pinned to projected points, ring, banner) ----------
+function anchorAt(name, t) {
+  const A = TL.anchors && TL.anchors.frames[name]; if (!A) return null;
+  const f = Math.max(0, Math.min(A.length - 1, Math.round(t * TL.anchors.fps)));
+  return A[f][2] ? A[f] : null;
+}
+function drawCallouts(b, t) {
+  const k = backOut((t - b.start - 0.25) / 0.35), out = clamp((b.end - t) / 0.25);
+  if (k <= 0) return;
+  (b.labels || []).forEach((l, i) => {
+    const kk = Math.min(backOut((t - b.start - 0.25 - i * 0.12 - (l.delay || 0)) / 0.35), out);
+    const p = anchorAt(l.anchor, t); if (!p || kk <= 0) return;
+    font(48, 900); const tw = ctx.measureText(l.text).width, w = tw + 56, h = 80;
+    const px = Math.max(w / 2 + 40, Math.min(W - w / 2 - 40, p[0])), py = Math.max(h + 140, p[1]);  // keep on screen
+    ctx.save(); ctx.translate(px, py); ctx.scale(kk, kk);
+    ctx.fillStyle = 'rgba(0,0,0,0.35)'; rr(-w / 2 + 4, -h - 22 + 6, w, h, 18); ctx.fill();
+    ctx.fillStyle = TL.accent; rr(-w / 2, -h - 22, w, h, 18); ctx.fill();
+    ctx.beginPath(); ctx.moveTo(-16, -23); ctx.lineTo(16, -23); ctx.lineTo(0, 0); ctx.fill();
+    ctx.fillStyle = '#111'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(l.text, 0, -h / 2 - 20);
+    ctx.restore();
+  });
+  if (b.ring) {
+    const p = anchorAt(b.ring, t); const kk = Math.min(k, out);
+    if (p && kk > 0) {
+      const r = 150 * (1 + 0.04 * Math.sin(t * 6));
+      ctx.save(); ctx.globalAlpha = kk; ctx.lineWidth = 14; ctx.strokeStyle = '#FF7A1A';
+      ctx.shadowColor = 'rgba(0,0,0,0.5)'; ctx.shadowBlur = 16;
+      ctx.beginPath(); ctx.arc(p[0], p[1], r * kk, 0, Math.PI * 2); ctx.stroke();
+      ctx.lineCap = 'round'; ctx.lineWidth = 26; const a = Math.PI / 4;
+      ctx.beginPath(); ctx.moveTo(p[0] + Math.cos(a) * r, p[1] + Math.sin(a) * r);
+      ctx.lineTo(p[0] + Math.cos(a) * (r + 120), p[1] + Math.sin(a) * (r + 120)); ctx.stroke();
+      ctx.restore();
+    }
+  }
+  if (b.banner) {
+    const kk = Math.min(backOut((t - b.start - 0.6) / 0.4), out); if (kk <= 0) return;
+    ctx.save(); ctx.translate(W / 2, 420); ctx.rotate(-0.03); ctx.scale(kk, kk);
+    font(96, 900); const w = ctx.measureText(b.banner).width + 100;
+    ctx.fillStyle = 'rgba(0,0,0,0.4)'; rr(-w / 2 + 8, -70 + 10, w, 140, 24); ctx.fill();
+    ctx.fillStyle = TL.accent; rr(-w / 2, -70, w, 140, 24); ctx.fill();
+    ctx.fillStyle = '#111'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(b.banner, 0, 6);
+    ctx.restore();
+  }
+}
+
 // ---------- frame ----------
 function drawFrame(t) {
   CUR_T = t;
   ctx = MAIN;
-  ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.globalAlpha = 1; ctx.fillStyle = '#000'; ctx.fillRect(0, 0, W, H);
+  ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.globalAlpha = 1;
   const b = beatAt(t);
+  if (TL.overlay) {  // transparent captions/callouts over a pre-rendered 3D video
+    ctx.clearRect(0, 0, W, H);
+    drawCallouts(b, t);
+    if (b.type === 'title') drawTitle(b, t);
+    else if (b.type === 'narration') drawCaptions(b, t);
+    else if (b.type === 'end') drawEnd(b, t);
+    const fo = Math.min(clamp(t / 0.35), clamp((TL.duration - t) / 0.5));
+    if (fo < 1) { ctx.fillStyle = `rgba(0,0,0,${1 - fo})`; ctx.fillRect(0, 0, W, H); }
+    return;
+  }
+  ctx.fillStyle = '#000'; ctx.fillRect(0, 0, W, H);
   // scene with crossfade on change
   const idx = TL.beats.indexOf(b);
   let sceneStart = b.start, prevScene = null;
@@ -752,7 +809,7 @@ async function setup(tl) {
 }
 function frames(t0, n, fps, q = 0.9) {
   const out = [];
-  for (let i = 0; i < n; i++) { drawFrame(t0 + i / fps); out.push(cv.toDataURL('image/jpeg', q)); }
+  for (let i = 0; i < n; i++) { drawFrame(t0 + i / fps); out.push(TL.overlay ? cv.toDataURL('image/png') : cv.toDataURL('image/jpeg', q)); }
   return out;
 }
 window.setup = setup; window.drawFrame = drawFrame; window.frames = frames;
