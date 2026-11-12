@@ -7,7 +7,9 @@ Big topics are split into **two parts** (`NNa-…`, `NNb-…`); Part 1 ends on a
 
 | # | Folder | Episode | Parts | Status |
 |---|---|---|---|---|
-| 01 | `01-1492` | 1492: Spain changed the world. Three times. | 1 (could expand to 2) | ✅ rendered |
+| 01 | `01-1492` | 1492: Spain changed the world. Three times. | 1 (could expand to 2) | ✅ rendered (superseded by 01a/01b) |
+| 01a | `01a-granada` | 1492, Part 1: 1492 began with a surrender and a promise. The promise didn't last. | 2 | ✅ rendered |
+| 01b | `01b-columbus` | 1492, Part 2: Columbus died convinced he had reached Asia. | 2 | ✅ rendered |
 | 02 | `02-charles-v` | King at 16. Emperor at 19. Exhausted at 55. | 1 (could expand to 2) | ✅ rendered |
 | 03a | `03a-philip-ii` | Philip II, Part 1: He ruled four continents. From a desk. | 2 | ✅ rendered |
 | 03b | `03b-the-armada` | Philip II, Part 2: 130 ships. One invasion. Then the wind. | 2 | ✅ rendered |

@@ -1,0 +1,149 @@
+{
+  "series": "Spain in 60 seconds",
+  "episode": 1,
+  "total_parts": 2,
+  "voices": {
+    "narrator": "am_michael"
+  },
+  "speed": {
+    "narrator": 1.0
+  },
+  "accent": "#E8B44A",
+  "part": 2,
+  "title": "Columbus died convinced he had reached Asia.",
+  "highlight": [
+    "Columbus",
+    "Asia."
+  ],
+  "music": {
+    "mood": "epic",
+    "seed": 12,
+    "drums": true,
+    "level": 0.32
+  },
+  "post": {
+    "caption": "1492, Part 2: Columbus — rejected for years, three ships, the near-mutiny, 12 October, and how America got its name. Paintings: public domain.",
+    "hashtags": [
+      "history",
+      "spain",
+      "1492",
+      "columbus",
+      "historytok",
+      "shorts"
+    ]
+  },
+  "images": {
+    "columbus": {
+      "file": "../01-1492/img/columbus.jpg",
+      "credit": "Sebastiano del Piombo, Portrait of a Man, said to be Columbus (1519)",
+      "where": "Metropolitan Museum of Art"
+    },
+    "rabida": {
+      "file": "img/rabida.jpg",
+      "credit": "Eduardo Cano, Columbus at the Monastery of La Rábida (1856)",
+      "where": "Palacio del Senado, Madrid"
+    },
+    "court": {
+      "file": "../01-1492/img/court.jpg",
+      "credit": "After Václav Brožík, Columbus at the Royal Court of Spain (1884)",
+      "where": ""
+    },
+    "columbus2": {
+      "file": "../01-1492/img/columbus.jpg",
+      "credit": "Sebastiano del Piombo, Portrait of a Man, said to be Columbus (1519)",
+      "where": "Metropolitan Museum of Art"
+    },
+    "landing": {
+      "file": "../01-1492/img/landing.jpg",
+      "credit": "Dióscoro Puebla, The First Landing of Columbus (1862)",
+      "where": "Museo del Prado"
+    },
+    "landing2": {
+      "file": "../01-1492/img/landing.jpg",
+      "credit": "Dióscoro Puebla, The First Landing of Columbus (1862)",
+      "where": "Museo del Prado"
+    },
+    "death": {
+      "file": "img/death.jpg",
+      "credit": "The Death of Christopher Columbus (19th c.)",
+      "where": "Museo del Prado"
+    },
+    "map": {
+      "file": "img/map.jpg",
+      "credit": "Martin Waldseemüller, world map (1507) — the first to write \"America\"",
+      "where": "Library of Congress"
+    }
+  },
+  "beats": [
+    {
+      "type": "title",
+      "scene": "columbus",
+      "text": "Columbus died convinced he had reached Asia.",
+      "move": {"from": [0.5, 0.35, 1.0], "to": [0.5, 0.3, 1.15]}
+    },
+    {
+      "type": "narration",
+      "scene": "rabida",
+      "date": "1480s",
+      "text": "For years, everyone said no. Portugal turned him down. Spain's experts said his numbers were wrong. They were right: he thought the Earth was much smaller.",
+      "move": {"from": [0.3, 0.6, 1.0], "to": [0.5, 0.35, 1.25]}
+    },
+    {
+      "type": "narration",
+      "scene": "court",
+      "date": "17 April 1492",
+      "place": "Santa Fe, Granada",
+      "text": "But once Granada had fallen, Queen Isabella said yes. Columbus demanded the title of admiral, a governorship, and a tenth of the profits. He got them.",
+      "move": {"from": [0.3, 0.5, 1.0], "to": [0.6, 0.45, 1.15]}
+    },
+    {
+      "type": "narration",
+      "scene": "columbus2",
+      "date": "3 August 1492",
+      "place": "Palos",
+      "text": "On the third of August he sailed west from Palos with three ships and about ninety men.",
+      "move": {"from": [0.5, 0.4, 1.15], "to": [0.5, 0.5, 1.0]}
+    },
+    {
+      "type": "narration",
+      "date": "October 1492",
+      "text": "Weeks of open ocean. The crew came close to mutiny."
+    },
+    {
+      "type": "narration",
+      "scene": "landing",
+      "date": "12 October 1492",
+      "place": "Bahamas",
+      "text": "Then, on the twelfth of October, a lookout shouted: land! An island in the Bahamas. Columbus named it San Salvador.",
+      "move": {"from": [0.35, 0.5, 1.05], "to": [0.6, 0.5, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "landing2",
+      "text": "He called the people he met Indians, because he was sure he was in the Indies.",
+      "move": {"from": [0.47, 0.42, 1.3], "to": [0.5, 0.5, 1.0]}
+    },
+    {
+      "type": "narration",
+      "scene": "death",
+      "date": "20 May 1506",
+      "place": "Valladolid",
+      "text": "He sailed there four times. He died in 1506, still insisting it was Asia.",
+      "say": "He sailed there four times. He died in fifteen-oh-six, still insisting it was Asia.",
+      "move": {"from": [0.3, 0.5, 1.0], "to": [0.62, 0.55, 1.25]}
+    },
+    {
+      "type": "narration",
+      "scene": "map",
+      "date": "1507",
+      "text": "A year later, a German mapmaker named the new land after another explorer, Amerigo Vespucci. America.",
+      "gap": 0.6,
+      "move": {"from": [0.5, 0.6, 1.0], "to": [0.25, 0.46, 1.5]}
+    },
+    {
+      "type": "end",
+      "text": "Next: King at 16. Emperor at 19.",
+      "sub": "Follow for Spain's full story"
+    }
+  ]
+}

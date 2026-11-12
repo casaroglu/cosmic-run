@@ -1,0 +1,149 @@
+{
+  "series": "Spain in 60 seconds",
+  "episode": 1,
+  "total_parts": 2,
+  "voices": {
+    "narrator": "am_michael"
+  },
+  "speed": {
+    "narrator": 1.0
+  },
+  "accent": "#E8B44A",
+  "part": 1,
+  "title": "1492 began with a surrender and a promise. The promise didn't last.",
+  "highlight": [
+    "1492",
+    "promise."
+  ],
+  "music": {
+    "mood": "somber",
+    "seed": 11,
+    "drums": true,
+    "level": 0.32
+  },
+  "post": {
+    "caption": "1492, Part 1: the fall of Granada, the Alhambra Decree, and the promise that was broken. Paintings: public domain.",
+    "hashtags": [
+      "history",
+      "spain",
+      "1492",
+      "granada",
+      "alhambra",
+      "historytok",
+      "shorts"
+    ]
+  },
+  "images": {
+    "granada": {
+      "file": "../01-1492/img/granada.jpg",
+      "credit": "Francisco Pradilla, The Surrender of Granada (1882)",
+      "where": "Palacio del Senado, Madrid"
+    },
+    "alhambra": {
+      "file": "img/alhambra.jpg",
+      "credit": "David Roberts, The Alhambra and the Albaicín, Granada (19th c.)",
+      "where": ""
+    },
+    "boabdil": {
+      "file": "img/boabdil.jpg",
+      "credit": "Portrait of Muhammad XII (Boabdil) of Granada (17th c.)",
+      "where": ""
+    },
+    "granada2": {
+      "file": "../01-1492/img/granada.jpg",
+      "credit": "Francisco Pradilla, The Surrender of Granada (1882)",
+      "where": "Palacio del Senado, Madrid"
+    },
+    "suspiro": {
+      "file": "../01-1492/img/suspiro.jpg",
+      "credit": "Francisco Pradilla, The Moor's Last Sigh (1892)",
+      "where": ""
+    },
+    "expulsion": {
+      "file": "../01-1492/img/expulsion.jpg",
+      "credit": "Emilio Sala, The Expulsion of the Jews from Spain (1889)",
+      "where": ""
+    },
+    "expulsion2": {
+      "file": "../01-1492/img/expulsion.jpg",
+      "credit": "Emilio Sala, The Expulsion of the Jews from Spain (1889)",
+      "where": ""
+    },
+    "alhambra2": {
+      "file": "img/alhambra.jpg",
+      "credit": "David Roberts, The Alhambra and the Albaicín, Granada (19th c.)",
+      "where": ""
+    }
+  },
+  "beats": [
+    {
+      "type": "title",
+      "scene": "granada",
+      "text": "1492 began with a surrender and a promise. The promise didn't last.",
+      "move": {"from": [0.2, 0.38, 1.0], "to": [0.62, 0.4, 1.12]}
+    },
+    {
+      "type": "narration",
+      "scene": "alhambra",
+      "date": "1491",
+      "place": "Granada",
+      "text": "By 1491, Granada was the last Muslim kingdom in Spain, after nearly eight centuries of al-Andalus. It was under siege.",
+      "say": "By fourteen ninety-one, Granada was the last Muslim kingdom in Spain, after nearly eight centuries of al-Andalus. It was under siege.",
+      "move": {"from": [0.3, 0.6, 1.0], "to": [0.6, 0.35, 1.25]}
+    },
+    {
+      "type": "narration",
+      "scene": "boabdil",
+      "text": "Its sultan, Boabdil, negotiated. Muslims could keep their mosques, their laws, their faith. Isabella and Ferdinand signed.",
+      "move": {"from": [0.5, 0.55, 1.0], "to": [0.5, 0.38, 1.3]}
+    },
+    {
+      "type": "narration",
+      "scene": "granada2",
+      "date": "2 January 1492",
+      "text": "On the second of January 1492, Boabdil handed over the keys of the city.",
+      "say": "On the second of January fourteen ninety-two, Boabdil handed over the keys of the city.",
+      "move": {"from": [0.6, 0.45, 1.15], "to": [0.62, 0.38, 1.35]}
+    },
+    {
+      "type": "narration",
+      "scene": "suspiro",
+      "date": "",
+      "text": "Legend says he looked back from a mountain pass and wept. That spot is still called the Moor's Last Sigh.",
+      "move": {"from": [0.4, 0.5, 1.0], "to": [0.78, 0.35, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "expulsion",
+      "date": "31 March 1492",
+      "text": "Three months later, the same monarchs signed the Alhambra Decree. Spain's Jews had four months: convert, or leave.",
+      "move": {"from": [0.5, 0.6, 1.0], "to": [0.52, 0.42, 1.3]}
+    },
+    {
+      "type": "narration",
+      "scene": "expulsion2",
+      "date": "",
+      "text": "Tens of thousands left homes their families had lived in for over a thousand years. Their descendants, the Sephardim, still speak Ladino, a form of old Spanish.",
+      "move": {"from": [0.7, 0.55, 1.1], "to": [0.3, 0.55, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "alhambra2",
+      "date": "1502",
+      "text": "And the promise to Granada's Muslims? Within ten years, they too were told: convert, or leave.",
+      "move": {"from": [0.6, 0.35, 1.25], "to": [0.5, 0.5, 1.0]}
+    },
+    {
+      "type": "narration",
+      "scene": "granada",
+      "text": "But that same spring, an Italian sailor was waiting for an answer from the queen.",
+      "gap": 0.6,
+      "move": {"from": [0.62, 0.4, 1.2], "to": [0.5, 0.45, 1.0]}
+    },
+    {
+      "type": "end",
+      "text": "Part 2: Columbus",
+      "sub": "Follow so you don't miss it"
+    }
+  ]
+}
