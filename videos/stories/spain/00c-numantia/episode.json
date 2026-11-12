@@ -1,0 +1,122 @@
+{
+  "series": "Spain in 60 seconds",
+  "episode": 0,
+  "total_parts": 1,
+  "voices": {
+    "narrator": "am_michael"
+  },
+  "speed": {
+    "narrator": 1.0
+  },
+  "accent": "#E8B44A",
+  "part": 1,
+  "title": "A small Spanish town chose death over surrender to Rome.",
+  "highlight": [
+    "death",
+    "Rome."
+  ],
+  "music": {
+    "mood": "somber",
+    "seed": 3,
+    "drums": true,
+    "level": 0.32
+  },
+  "post": {
+    "caption": "Numantia, 133 BC: the Celtiberian town that held off Rome for twenty years. Images: public domain / CC0.",
+    "hashtags": [
+      "history",
+      "spain",
+      "numantia",
+      "romanempire",
+      "ancienthistory",
+      "historytok",
+      "shorts"
+    ]
+  },
+  "images": {
+    "vera": {
+      "file": "img/vera.jpg",
+      "credit": "Alejo Vera, The Last Day of Numantia (1881)",
+      "where": "Museo del Prado"
+    },
+    "ruins": {
+      "file": "img/ruins.jpg",
+      "credit": "The ruins of Numantia, near Soria (photograph, 2007)",
+      "where": ""
+    },
+    "scipio": {
+      "file": "img/scipio.jpg",
+      "credit": "Scipio Aemilianus weeps over burning Carthage (engraving, 1797)",
+      "where": "Rijksmuseum, CC0"
+    },
+    "ruins2": {
+      "file": "img/ruins.jpg",
+      "credit": "The ruins of Numantia, near Soria (photograph, 2007)",
+      "where": ""
+    },
+    "vera2": {
+      "file": "img/vera.jpg",
+      "credit": "Alejo Vera, The Last Day of Numantia (1881)",
+      "where": "Museo del Prado"
+    }
+  },
+  "beats": [
+    {
+      "type": "title",
+      "scene": "vera",
+      "text": "A small Spanish town chose death over surrender to Rome.",
+      "move": {"from": [0.5, 0.5, 1.0], "to": [0.4, 0.5, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "ruins",
+      "date": "153 – 134 BC",
+      "place": "Numantia, near Soria",
+      "text": "Numantia was a Celtiberian hill town in the heart of Spain. For twenty years, it beat back Rome's legions again and again.",
+      "move": {"from": [0.2, 0.5, 1.0], "to": [0.5, 0.55, 1.15]}
+    },
+    {
+      "type": "narration",
+      "scene": "scipio",
+      "date": "134 BC",
+      "text": "So Rome sent its most feared general: Scipio Aemilianus, the man who had already destroyed Carthage.",
+      "move": {"from": [0.5, 0.5, 1.2], "to": [0.42, 0.42, 1.7]}
+    },
+    {
+      "type": "narration",
+      "scene": "ruins2",
+      "date": "",
+      "text": "He didn't storm the walls. He built his own wall around the whole town, about nine kilometres long, with towers. And he waited.",
+      "move": {"from": [0.7, 0.6, 1.0], "to": [0.4, 0.5, 1.2]}
+    },
+    {
+      "type": "narration",
+      "text": "No food got in. No one got out. Hunger came, then disease."
+    },
+    {
+      "type": "narration",
+      "scene": "vera",
+      "date": "133 BC",
+      "text": "When the end came, many Numantines killed themselves rather than become Roman slaves.",
+      "gap": 0.5,
+      "move": {"from": [0.3, 0.55, 1.1], "to": [0.55, 0.6, 1.3]}
+    },
+    {
+      "type": "narration",
+      "scene": "vera2",
+      "text": "Scipio razed what was left. Rome gave him a new name: Numantinus.",
+      "move": {"from": [0.6, 0.5, 1.3], "to": [0.5, 0.5, 1.0]}
+    },
+    {
+      "type": "narration",
+      "date": "",
+      "text": "Centuries later, Cervantes wrote a tragedy about the siege. In Spanish, numantino still means: resisting to the very end.",
+      "gap": 0.6
+    },
+    {
+      "type": "end",
+      "text": "Next: 711, the year everything changed",
+      "sub": "Follow for Spain's full story"
+    }
+  ]
+}
