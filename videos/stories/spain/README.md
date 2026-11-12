@@ -21,7 +21,13 @@ Big topics are split into **two parts** (`NNa-…`, `NNb-…`); Part 1 ends on a
 | 09a | `09a-republic` | Civil War, Part 1: Spain voted out its king. Five years later, it was at war with itself. | 2 | ✅ rendered |
 | 09b | `09b-civil-war` | Civil War, Part 2: Spain's civil war became the world's war. | 2 | ✅ rendered (PD posters + anonymous photos; Picasso's Guernica not shown) |
 | 10 | `10-transition` | A dictator chose a king. The king gave Spain democracy. | 1 | ✅ rendered (US gov. + Nationaal Archief CC0 photos) |
-| — | | Prequels: Altamira, Gadir, Numantia, 711, Covadonga, Córdoba, Las Navas de Tolosa | 1 each | ✏️ planned (few paintings; CC-licensed photos need attribution) |
+| 00a | `00a-altamira` | Prequel: A little girl looked up. The experts called her father a fraud. | 1 | ✅ rendered |
+| 00b | `00b-gadir` | Prequel: This Spanish city is older than Rome. | 1 | ✅ rendered |
+| 00c | `00c-numantia` | Prequel: A small Spanish town chose death over surrender to Rome. | 1 | ✅ rendered |
+| 00d | `00d-711` | Prequel: In 711 a king vanished in battle. Spain changed for eight centuries. | 1 | ✅ rendered |
+| 00e | `00e-covadonga` | Prequel: Spain's most famous battle might have been a skirmish. | 1 | ✅ rendered |
+| 00f | `00f-cordoba` | Prequel: A thousand years ago, this was the most dazzling city in Europe. | 1 | ✅ rendered |
+| 00g | `00g-las-navas` | Prequel: Three kings. One charge. Spain's future decided in a single day. | 1 | ✅ rendered |
 
 Sources used for every script: Real Academia de la Historia DB~e (dbe.rah.es), Encyclopaedia Britannica,
 Simon Barton *A History of Spain*, J.H. Elliott *Imperial Spain 1469–1716*, Raymond Carr (ed.) *Spain: A History*.

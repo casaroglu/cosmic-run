@@ -1,0 +1,128 @@
+{
+  "series": "Spain in 60 seconds",
+  "episode": 0,
+  "total_parts": 1,
+  "voices": {
+    "narrator": "am_michael"
+  },
+  "speed": {
+    "narrator": 1.0
+  },
+  "accent": "#E8B44A",
+  "part": 1,
+  "title": "Three kings. One charge. Spain's future decided in a single day.",
+  "highlight": [
+    "Three",
+    "day."
+  ],
+  "music": {
+    "mood": "epic",
+    "seed": 7,
+    "drums": true,
+    "level": 0.34
+  },
+  "post": {
+    "caption": "Las Navas de Tolosa, 16 July 1212: Castile, Aragon and Navarre against the Almohad caliph. Images: public domain.",
+    "hashtags": [
+      "history",
+      "spain",
+      "reconquista",
+      "lasnavasdetolosa",
+      "medieval",
+      "historytok",
+      "shorts"
+    ]
+  },
+  "images": {
+    "battle": {
+      "file": "img/battle.jpg",
+      "credit": "Francisco de Paula van Halen, The Battle of Las Navas de Tolosa (1864)",
+      "where": "Palacio del Senado, Madrid"
+    },
+    "alfonso": {
+      "file": "img/alfonso.jpg",
+      "credit": "José María Rodríguez de Losada, Alfonso VIII of Castile (c. 1892–94)",
+      "where": "Ayuntamiento de León"
+    },
+    "print": {
+      "file": "img/print.jpg",
+      "credit": "The Battle of Las Navas de Tolosa (engraving, 1845)",
+      "where": ""
+    },
+    "banner": {
+      "file": "img/banner.jpg",
+      "credit": "Almohad banner kept at Las Huelgas, Burgos (19th-c. engraving)",
+      "where": ""
+    },
+    "battle2": {
+      "file": "img/battle.jpg",
+      "credit": "Francisco de Paula van Halen, The Battle of Las Navas de Tolosa (1864)",
+      "where": "Palacio del Senado, Madrid"
+    },
+    "battle3": {
+      "file": "img/battle.jpg",
+      "credit": "Francisco de Paula van Halen, The Battle of Las Navas de Tolosa (1864)",
+      "where": "Palacio del Senado, Madrid"
+    }
+  },
+  "beats": [
+    {
+      "type": "title",
+      "scene": "battle",
+      "text": "Three kings. One charge. Spain's future decided in a single day.",
+      "move": {"from": [0.5, 0.5, 1.0], "to": [0.45, 0.55, 1.25]}
+    },
+    {
+      "type": "narration",
+      "scene": "alfonso",
+      "date": "1195",
+      "place": "Alarcos",
+      "text": "In 1195, the Almohads, rulers of Morocco and al-Andalus, crushed King Alfonso the Eighth of Castile at Alarcos.",
+      "say": "In eleven ninety-five, the Almohads, rulers of Morocco and al-Andalus, crushed King Alfonso the Eighth of Castile at Alarcos.",
+      "move": {"from": [0.5, 0.6, 1.0], "to": [0.5, 0.2, 1.35]}
+    },
+    {
+      "type": "narration",
+      "scene": "print",
+      "date": "",
+      "text": "He spent seventeen years preparing his revenge. The Pope proclaimed a crusade.",
+      "move": {"from": [0.3, 0.5, 1.0], "to": [0.6, 0.45, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "battle2",
+      "date": "July 1212",
+      "text": "Castile, Aragon and Navarre marched south together. Legend says a shepherd showed them a hidden path through the mountains.",
+      "move": {"from": [0.2, 0.4, 1.0], "to": [0.5, 0.35, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "battle3",
+      "date": "16 July 1212",
+      "place": "Las Navas de Tolosa",
+      "text": "On the sixteenth of July 1212, they charged the Almohad camp. The caliph's army broke, and the caliph fled.",
+      "say": "On the sixteenth of July twelve twelve, they charged the Almohad camp. The caliph's army broke, and the caliph fled.",
+      "move": {"from": [0.5, 0.55, 1.1], "to": [0.35, 0.6, 1.4]}
+    },
+    {
+      "type": "narration",
+      "scene": "banner",
+      "date": "",
+      "text": "A silk banner kept in a monastery in Burgos is said to have been taken that day.",
+      "move": {"from": [0.5, 0.7, 1.0], "to": [0.5, 0.3, 1.3]}
+    },
+    {
+      "type": "narration",
+      "scene": "battle",
+      "text": "Within forty years, Córdoba and Seville were Christian. Only Granada was left, for two more centuries. Until 1492.",
+      "say": "Within forty years, Córdoba and Seville were Christian. Only Granada was left, for two more centuries. Until fourteen ninety-two.",
+      "gap": 0.6,
+      "move": {"from": [0.3, 0.55, 1.2], "to": [0.5, 0.5, 1.0]}
+    },
+    {
+      "type": "end",
+      "text": "Next: 1492, the year Spain changed the world",
+      "sub": "Follow for Spain's full story"
+    }
+  ]
+}
