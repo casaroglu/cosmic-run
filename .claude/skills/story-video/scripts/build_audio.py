@@ -10,11 +10,12 @@ usage: build_audio.py STORY.json OUT_DIR
 import json
 import math
 import os
-import re
 import sys
 
 import numpy as np
 import soundfile as sf
+
+import align  # caption word timings from the actual voice (pauses + phonemes)
 
 SR = 24000
 MODEL_DIR = os.environ.get("KOKORO_DIR", os.path.expanduser("~/.cache/kokoro"))
@@ -56,26 +57,6 @@ def trim(x, thresh=0.01, pad=0.04):
         return x
     p = int(pad * SR)
     return x[max(0, idx[0] - p): min(len(x), idx[-1] + p)]
-
-
-def word_times(text, t0, t1):
-    """Estimate per-word timings by weighting character count + punctuation."""
-    words = text.split()
-    weights = []
-    for w in words:
-        wt = len(re.sub(r"[^\w']", "", w)) + 1.5
-        if re.search(r"[,;:—-]$", w):
-            wt += 3
-        if re.search(r"[.?!…]$", w):
-            wt += 5
-        weights.append(wt)
-    total = sum(weights) or 1
-    out, t = [], t0
-    for w, wt in zip(words, weights):
-        d = (t1 - t0) * wt / total
-        out.append({"w": w, "t0": round(t, 3), "t1": round(t + d, 3)})
-        t += d
-    return out
 
 
 # ---------------------------------------------------------------------------
@@ -316,7 +297,7 @@ def main(story_path, out_dir):
             dur = len(audio) / SR
             b["voiceStart"] = round(t, 3)
             b["voiceEnd"] = round(t + dur, 3)
-            b["words"] = word_times(b["text"], t, t + dur)
+            b["words"] = align.word_times(b["text"], say, audio, SR, t)
             b["speaker"] = speaker
             clips.append((t, audio * b.get("gain", 1.0)))
             t += dur + b.get("gap", GAP)

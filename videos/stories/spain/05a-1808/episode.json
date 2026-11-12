@@ -1,0 +1,163 @@
+{
+  "series": "Spain in 60 seconds",
+  "episode": 5,
+  "total_parts": 2,
+  "voices": {
+    "narrator": "am_michael"
+  },
+  "speed": {
+    "narrator": 1.0
+  },
+  "accent": "#E8B44A",
+  "part": 1,
+  "title": "Two kings. One crown. Napoleon took it.",
+  "highlight": [
+    "One",
+    "Napoleon"
+  ],
+  "music": {
+    "mood": "tense",
+    "seed": 51,
+    "drums": true,
+    "level": 0.34
+  },
+  "post": {
+    "caption": "Spain 1808, Part 1: how Napoleon took Spain's crown — and how Madrid rose on the 2nd of May. Paintings: public domain.",
+    "hashtags": [
+      "history",
+      "spain",
+      "napoleon",
+      "goya",
+      "historytok",
+      "shorts"
+    ]
+  },
+  "images": {
+    "family": {
+      "file": "img/family.jpg",
+      "credit": "Francisco de Goya, The Family of Charles IV (1800)",
+      "where": "Museo del Prado",
+      "search": "Goya La familia de Carlos IV Prado",
+      "prefer": "familia de Carlos IV"
+    },
+    "godoy": {
+      "file": "img/godoy.jpg",
+      "credit": "Francisco de Goya, Manuel Godoy (1801)",
+      "where": "Real Academia de Bellas Artes de San Fernando",
+      "search": "Goya Manuel Godoy 1801 Real Academia San Fernando"
+    },
+    "aranjuez": {
+      "file": "img/aranjuez.jpg",
+      "credit": "Fall and arrest of Godoy, Aranjuez, 19 March 1808 (fan print, 1813)",
+      "where": "Rijksmuseum, Amsterdam",
+      "search": "Motín de Aranjuez 1808 grabado"
+    },
+    "napoleon": {
+      "file": "img/napoleon.jpg",
+      "credit": "Jacques-Louis David, Napoleon in His Study (1812)",
+      "where": "National Gallery of Art, Washington",
+      "search": "Jacques-Louis David Napoleon in His Study Tuileries National Gallery of Art"
+    },
+    "dosmayo": {
+      "file": "img/dosmayo.jpg",
+      "credit": "Francisco de Goya, The 2nd of May 1808 (1814)",
+      "where": "Museo del Prado",
+      "search": "Goya El 2 de mayo de 1808 carga de los mamelucos Prado"
+    },
+    "tresmayo": {
+      "file": "img/tresmayo.jpg",
+      "credit": "Francisco de Goya, The 3rd of May 1808 (1814)",
+      "where": "Museo del Prado",
+      "search": "Goya El 3 de mayo de 1808 fusilamientos Prado"
+    },
+    "shirt": {
+      "file": "img/tresmayo.jpg",
+      "credit": "Francisco de Goya, The 3rd of May 1808 (1814)",
+      "where": "Museo del Prado"
+    },
+    "joseph": {
+      "file": "img/joseph.jpg",
+      "credit": "François Gérard, Joseph Bonaparte as King of Spain (c. 1808)",
+      "where": "Château de Fontainebleau",
+      "search": "Joseph Bonaparte King of Spain portrait Gérard"
+    }
+  },
+  "beats": [
+    {
+      "type": "title",
+      "scene": "family",
+      "text": "Two kings. One crown. Napoleon took it.",
+      "move": {"from": [0.5, 0.5, 1.0], "to": [0.66, 0.33, 1.4]}
+    },
+    {
+      "type": "narration",
+      "date": "1808",
+      "place": "Madrid",
+      "text": "Spain, 1808. A weak king, Charles the Fourth. And a hated favourite who really ran the country: Manuel Godoy.",
+      "say": "Spain, eighteen-oh-eight. A weak king, Charles the Fourth. And a hated favourite who really ran the country: Manuel Godoy."
+    },
+    {
+      "type": "narration",
+      "scene": "godoy",
+      "text": "Godoy let French troops march through Spain to attack Portugal. Soon they were everywhere.",
+      "move": {"from": [0.4, 0.5, 1.0], "to": [0.73, 0.25, 1.3]}
+    },
+    {
+      "type": "narration",
+      "scene": "aranjuez",
+      "date": "17 March 1808",
+      "place": "Aranjuez",
+      "text": "In March, a mob stormed Godoy's palace. Two days later, the king gave up the crown to his own son, Ferdinand.",
+      "move": {"from": [0.5, 0.5, 1.0], "to": [0.47, 0.5, 1.5]}
+    },
+    {
+      "type": "narration",
+      "scene": "napoleon",
+      "date": "April 1808",
+      "place": "Bayonne, France",
+      "text": "Napoleon invited father and son to Bayonne, in France, to settle their quarrel. It was a trap.",
+      "move": {"from": [0.5, 0.6, 1.0], "to": [0.5, 0.17, 1.4]}
+    },
+    {
+      "type": "narration",
+      "scene": "dosmayo",
+      "date": "2 May 1808",
+      "place": "Madrid",
+      "text": "In Madrid, the French moved to take away the last of the royal family. The crowd exploded. Knives and stones against cavalry.",
+      "move": {"from": [0.3, 0.55, 1.0], "to": [0.5, 0.4, 1.25]}
+    },
+    {
+      "type": "narration",
+      "scene": "tresmayo",
+      "date": "3 May 1808",
+      "text": "That night, the French shot the prisoners they had taken.",
+      "move": {"from": [0.75, 0.5, 1.0], "to": [0.55, 0.5, 1.05]}
+    },
+    {
+      "type": "narration",
+      "scene": "shirt",
+      "text": "Goya painted it six years later. A man in a white shirt, arms wide open, facing the guns.",
+      "gap": 0.5,
+      "move": {"from": [0.45, 0.5, 1.1], "to": [0.35, 0.42, 1.6]}
+    },
+    {
+      "type": "narration",
+      "scene": "joseph",
+      "date": "May 1808",
+      "place": "Bayonne",
+      "text": "Days later in Bayonne, both kings signed the crown away. Napoleon gave Spain to his brother, Joseph.",
+      "move": {"from": [0.5, 0.6, 1.0], "to": [0.5, 0.22, 1.35]}
+    },
+    {
+      "type": "narration",
+      "date": "",
+      "text": "He thought Spain was finished. Instead, the whole country rose.",
+      "gap": 0.6
+    },
+    {
+      "type": "end",
+      "text": "Part 2: The Little War",
+      "sub": "Follow so you don't miss it"
+    }
+  ]
+}

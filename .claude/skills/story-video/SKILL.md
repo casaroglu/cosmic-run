@@ -38,6 +38,9 @@ Series live in `videos/stories/<series>/NN-slug/` (index: `videos/stories/<serie
 ## Tuning knobs
 - Too long? Cut narration lines first, keep the chat beats. Target ≤ 55 s.
 - Mispronounced word / number → add `"say": "spoken version"` on that beat (e.g. `"3 AM"` → `"three A M"`).
+  Keep `say` word-for-word identical to `text` except for the rewritten bits — captions are mapped back by matching words.
+- Caption sync: `scripts/align.py` times each word from the actual voice clip (detected pauses snapped to punctuation,
+  phoneme counts in between). If a caption still runs ahead/behind, check the beat's `say` vs `text` first.
 - Pace: per-beat `"speed"` (narrator default 1.05), `"gap"` (pause after line, default 0.28 s).
 - Music mood per part: `bittersweet` | `dreamy` | `hopeful` | `tense`; change `seed` for a different melody.
 - Other Kokoro voices: male `am_onyx`, `am_adam`, `am_eric`, `bm_george` (British); female `af_bella`, `af_nicole`, `af_sky`, `bf_emma`.

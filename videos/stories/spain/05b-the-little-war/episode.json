@@ -1,0 +1,140 @@
+{
+  "series": "Spain in 60 seconds",
+  "episode": 5,
+  "total_parts": 2,
+  "voices": {
+    "narrator": "am_michael"
+  },
+  "speed": {
+    "narrator": 1.0
+  },
+  "accent": "#E8B44A",
+  "part": 2,
+  "title": "Napoleon's army lost to a country. And English got a new word.",
+  "highlight": [
+    "country.",
+    "word."
+  ],
+  "music": {
+    "mood": "epic",
+    "seed": 52,
+    "drums": true,
+    "level": 0.34
+  },
+  "post": {
+    "caption": "Spain 1808–1814, Part 2: Bailén, Zaragoza, the guerrilla — and the king who betrayed the people who fought for him. Paintings and prints: public domain.",
+    "hashtags": [
+      "history",
+      "spain",
+      "napoleon",
+      "goya",
+      "guerrilla",
+      "historytok",
+      "shorts"
+    ]
+  },
+  "images": {
+    "bailen": {
+      "file": "img/bailen.jpg",
+      "credit": "José Casado del Alisal, The Surrender of Bailén (1864)",
+      "where": "Museo del Prado",
+      "search": "Casado del Alisal La rendición de Bailén Prado"
+    },
+    "agustina": {
+      "file": "img/agustina.jpg",
+      "credit": "Francisco de Goya, What courage! — Disasters of War, plate 7 (c. 1810–15)",
+      "where": "Disasters of War",
+      "search": "Goya Desastres de la guerra 7 Que valor"
+    },
+    "disaster": {
+      "file": "img/disaster.jpg",
+      "credit": "Francisco de Goya, And it can't be helped — Disasters of War, plate 15 (c. 1810–15)",
+      "where": "Disasters of War",
+      "search": "Goya Desastres de la guerra 15 Y no hai remedio"
+    },
+    "wellington": {
+      "file": "img/wellington.jpg",
+      "credit": "Francisco de Goya, The Duke of Wellington (1812–14)",
+      "where": "National Gallery, London",
+      "search": "Goya Duke of Wellington National Gallery London"
+    },
+    "ferdinand": {
+      "file": "img/ferdinand.jpg",
+      "credit": "Francisco de Goya, Ferdinand VII in Royal Robes (1814)",
+      "where": "Museo del Prado",
+      "search": "Goya Fernando VII con manto real Prado"
+    },
+    "tresmayo": {
+      "file": "../05a-1808/img/tresmayo.jpg",
+      "credit": "Francisco de Goya, The 3rd of May 1808 (1814)",
+      "where": "Museo del Prado"
+    }
+  },
+  "beats": [
+    {
+      "type": "title",
+      "scene": "bailen",
+      "text": "Napoleon's army lost to a country. And English got a new word.",
+      "move": {"from": [0.25, 0.5, 1.0], "to": [0.5, 0.52, 1.3]}
+    },
+    {
+      "type": "narration",
+      "date": "19 July 1808",
+      "place": "Bailén",
+      "text": "July 1808. At Bailén, a Spanish army forced a whole French corps to surrender. A Napoleonic army had never lost an open battle like this.",
+      "say": "July eighteen-oh-eight. At Bailén, a Spanish army forced a whole French corps to surrender. A Napoleonic army had never lost an open battle like this."
+    },
+    {
+      "type": "narration",
+      "text": "Joseph fled Madrid. Napoleon came himself, with a huge army."
+    },
+    {
+      "type": "narration",
+      "scene": "agustina",
+      "date": "1808 – 1809",
+      "place": "Zaragoza",
+      "text": "Zaragoza held out through two sieges, street by street. When the gunners fell, a young woman, Agustina, fired the cannon herself.",
+      "move": {"from": [0.5, 0.5, 1.15], "to": [0.48, 0.45, 1.6]}
+    },
+    {
+      "type": "narration",
+      "scene": "disaster",
+      "date": "",
+      "text": "All over Spain, small bands ambushed the French and vanished. Spaniards called it guerrilla: the little war.",
+      "move": {"from": [0.5, 0.5, 1.2], "to": [0.46, 0.42, 1.5]}
+    },
+    {
+      "type": "narration",
+      "text": "Both sides were brutal. Goya etched it all. The prints were so dark, they came out only after his death."
+    },
+    {
+      "type": "narration",
+      "scene": "wellington",
+      "date": "21 June 1813",
+      "place": "Vitoria",
+      "text": "With the British under Wellington, the French were finally crushed at Vitoria. King Joseph ran for France.",
+      "move": {"from": [0.5, 0.6, 1.0], "to": [0.5, 0.32, 1.25]}
+    },
+    {
+      "type": "narration",
+      "scene": "ferdinand",
+      "date": "4 May 1814",
+      "place": "Valencia",
+      "text": "Then Ferdinand came home. Spaniards had died in his name. He thanked them by tearing up their new constitution.",
+      "move": {"from": [0.5, 0.6, 1.0], "to": [0.48, 0.17, 1.35]}
+    },
+    {
+      "type": "narration",
+      "scene": "tresmayo",
+      "date": "",
+      "text": "They had fought for their king. Their king did not fight for them.",
+      "gap": 0.6,
+      "move": {"from": [0.35, 0.42, 1.6], "to": [0.5, 0.5, 1.0]}
+    },
+    {
+      "type": "end",
+      "text": "Next: The War of the Spanish Succession",
+      "sub": "Follow for Spain's full story"
+    }
+  ]
+}
