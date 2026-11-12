@@ -11,7 +11,7 @@ Branch: `claude/youtube-video-analysis-skills-3aemj1`. Everything below is commi
   - `videos/stories/i-fell-in-love-with-my-agent/part1-3.json` — male narrator, AI "Nova".
   - `videos/stories/my-boyfriend-costs-19-99/part1-3.json` — female narrator (af_bella), male AI "Leo", app "Kindred"; photo messages, paywall, notification on a date.
   - `videos/stories/spain/` — history series "Spain in 60 seconds" (index + plan: `videos/stories/spain/README.md`).
-    01-1492 ✅, 02-charles-v ✅, 03a/03b Philip II ✅, 04a/04b Golden Age ✅, 05a/05b 1808 ✅, 06 Spanish Succession ✅ (public-domain paintings in each `img/`).
+    01-1492 ✅, 02-charles-v ✅, 03a/03b Philip II ✅, 04a/04b Golden Age ✅, 05a/05b 1808 ✅, 06 Spanish Succession ✅, 07 Cádiz 1812 ✅ (public-domain paintings in each `img/`).
 
 ## User preferences (keep)
 - Voiceover always **English**; vertical; Part 1/2/3 series with cliffhanger end cards; captions word-by-word.
@@ -25,7 +25,8 @@ Branch: `claude/youtube-video-analysis-skills-3aemj1`. Everything below is commi
 2. Episode 4 (Golden Age: 04a Cervantes, 04b Velázquez) done.
 3. Episode 5 (05a 1808, 05b The Little War) done.
 4. Episode 6 (War of the Spanish Succession) done.
-5. Next: episode 7 (Constitution of Cádiz, 1812, one part) per the series README.
+5. Episode 7 (Constitution of Cádiz) done.
+6. Next: episode 8 (1898, the end of the empire, one part) per the series README.
 
 ## Known issues
 - Brave Search API key saved in the cloud environment was rejected (422) — not needed locally.

@@ -1,0 +1,167 @@
+{
+  "series": "Spain in 60 seconds",
+  "episode": 7,
+  "total_parts": 1,
+  "voices": {
+    "narrator": "am_michael"
+  },
+  "speed": {
+    "narrator": 1.0
+  },
+  "accent": "#E8B44A",
+  "part": 1,
+  "title": "Written under French siege. It gave the world the word liberal.",
+  "highlight": [
+    "siege.",
+    "liberal."
+  ],
+  "music": {
+    "mood": "hopeful",
+    "seed": 71,
+    "drums": false,
+    "level": 0.32
+  },
+  "post": {
+    "caption": "Cádiz, 1812: Spain's first constitution, 'La Pepa' — written in a besieged city, where the word 'liberal' got its political meaning. Paintings and prints: public domain.",
+    "hashtags": [
+      "history",
+      "spain",
+      "cadiz",
+      "lapepa",
+      "historytok",
+      "shorts"
+    ]
+  },
+  "images": {
+    "cortes": {
+      "file": "img/cortes.jpg",
+      "credit": "José Casado del Alisal, The Oath of the Cortes of Cádiz, 1810 (1863)",
+      "where": "Congreso de los Diputados",
+      "search": "Casado del Alisal Juramento de las Cortes de Cádiz 1810"
+    },
+    "siege": {
+      "file": "img/siege.jpg",
+      "credit": "Map of the French siege lines around Cádiz, 1810–12 (W. Porter, 1889)",
+      "where": "",
+      "search": "Siege of Cadiz 1810 1812 print"
+    },
+    "promulgation": {
+      "file": "img/promulgation.jpg",
+      "credit": "Salvador Viniegra, The Promulgation of the Constitution of 1812 (1912)",
+      "where": "Museo de Cádiz",
+      "search": "Viniegra Promulgación de la Constitución de 1812"
+    },
+    "allegory": {
+      "file": "img/allegory.jpg",
+      "credit": "Francisco de Goya, Truth, Time and History — allegory of the Constitution of 1812 (c. 1812–14)",
+      "where": "Nationalmuseum, Stockholm",
+      "search": "Goya Alegoría de la Constitución de 1812 Nationalmuseum"
+    },
+    "ferdinand": {
+      "file": "../05b-the-little-war/img/ferdinand.jpg",
+      "credit": "Francisco de Goya, Ferdinand VII in Royal Robes (1814)",
+      "where": "Museo del Prado"
+    },
+    "riego": {
+      "file": "img/riego.jpg",
+      "credit": "Portrait of Rafael del Riego (print, 1822)",
+      "where": "Rijksmuseum, Amsterdam",
+      "search": "Rafael del Riego retrato"
+    },
+    "trocadero": {
+      "file": "img/trocadero.jpg",
+      "credit": "Paul Delaroche, The Duke of Angoulême at the Trocadero, 1823 (1828)",
+      "where": "Château de Versailles",
+      "search": "Delaroche Prise du Trocadéro 1823"
+    },
+    "cortes2": {
+      "file": "img/cortes.jpg",
+      "credit": "José Casado del Alisal, The Oath of the Cortes of Cádiz, 1810 (1863)",
+      "where": "Congreso de los Diputados"
+    }
+  },
+  "beats": [
+    {
+      "type": "title",
+      "scene": "cortes",
+      "text": "Written under French siege. It gave the world the word liberal.",
+      "move": {"from": [0.5, 0.5, 1.0], "to": [0.6, 0.4, 1.3]}
+    },
+    {
+      "type": "narration",
+      "scene": "siege",
+      "date": "1810",
+      "place": "Cádiz",
+      "text": "1810. French armies held most of Spain. One city held out behind its walls: Cádiz.",
+      "say": "Eighteen-ten. French armies held most of Spain. One city held out behind its walls: Cádiz.",
+      "move": {"from": [0.7, 0.4, 1.0], "to": [0.35, 0.6, 1.0]}
+    },
+    {
+      "type": "narration",
+      "scene": "cortes",
+      "date": "24 September 1810",
+      "place": "Isla de León",
+      "text": "With the king a prisoner in France, deputies from Spain and the Americas met there. Who ruled Spain now?",
+      "move": {"from": [0.3, 0.5, 1.0], "to": [0.55, 0.45, 1.25]}
+    },
+    {
+      "type": "narration",
+      "text": "Their answer shocked the old world: the nation. Not the king."
+    },
+    {
+      "type": "narration",
+      "scene": "promulgation",
+      "date": "19 March 1812",
+      "place": "Cádiz",
+      "text": "On Saint Joseph's day, 1812, they proclaimed a constitution. Spaniards nicknamed it La Pepa.",
+      "say": "On Saint Joseph's day, eighteen-twelve, they proclaimed a constitution. Spaniards nicknamed it La Pepa.",
+      "move": {"from": [0.3, 0.5, 1.0], "to": [0.55, 0.4, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "allegory",
+      "date": "",
+      "text": "Power split in three. Votes for men. Its defenders called themselves liberales. The word spread across Europe.",
+      "move": {"from": [0.5, 0.5, 1.0], "to": [0.4, 0.4, 1.3]}
+    },
+    {
+      "type": "narration",
+      "scene": "ferdinand",
+      "date": "4 May 1814",
+      "place": "Valencia",
+      "text": "Two years later, King Ferdinand came home, and tore it up.",
+      "move": {"from": [0.5, 0.6, 1.0], "to": [0.48, 0.17, 1.35]}
+    },
+    {
+      "type": "narration",
+      "scene": "riego",
+      "date": "1 January 1820",
+      "place": "Las Cabezas de San Juan",
+      "text": "In 1820, an officer named Rafael del Riego rebelled. The king was forced to swear loyalty to La Pepa.",
+      "say": "In eighteen-twenty, an officer named Rafael del Riego rebelled. The king was forced to swear loyalty to La Pepa.",
+      "move": {"from": [0.5, 0.45, 1.3], "to": [0.5, 0.3, 2.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "trocadero",
+      "date": "1823",
+      "place": "Cádiz",
+      "text": "Three years later, a French army marched in to rescue the king. Riego was executed in Madrid.",
+      "gap": 0.5,
+      "move": {"from": [0.5, 0.6, 1.0], "to": [0.42, 0.26, 1.2]}
+    },
+    {
+      "type": "narration",
+      "scene": "cortes2",
+      "date": "",
+      "text": "La Pepa kept losing. But its ideas reached Portugal, Italy and Latin America.",
+      "gap": 0.6,
+      "move": {"from": [0.55, 0.45, 1.3], "to": [0.5, 0.5, 1.0]}
+    },
+    {
+      "type": "end",
+      "text": "Next: 1898, the end of the empire",
+      "sub": "Follow for Spain's full story"
+    }
+  ]
+}
