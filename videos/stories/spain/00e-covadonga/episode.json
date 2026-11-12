@@ -1,0 +1,122 @@
+{
+  "series": "Spain in 60 seconds",
+  "episode": 0,
+  "total_parts": 1,
+  "voices": {
+    "narrator": "am_michael"
+  },
+  "speed": {
+    "narrator": 1.0
+  },
+  "accent": "#E8B44A",
+  "part": 1,
+  "title": "Spain's most famous battle might have been a skirmish.",
+  "highlight": [
+    "famous",
+    "skirmish."
+  ],
+  "music": {
+    "mood": "epic",
+    "seed": 5,
+    "drums": true,
+    "level": 0.32
+  },
+  "post": {
+    "caption": "Covadonga, 718 or 722: Pelayo, the mountains of Asturias, and the battle Spain calls the start of the Reconquista. Images: public domain / CC0.",
+    "hashtags": [
+      "history",
+      "spain",
+      "covadonga",
+      "pelayo",
+      "reconquista",
+      "historytok",
+      "shorts"
+    ]
+  },
+  "images": {
+    "pelayo": {
+      "file": "img/pelayo.jpg",
+      "credit": "Luis de Madrazo, King Pelayo at Covadonga (1855)",
+      "where": "Museo del Prado"
+    },
+    "mountains": {
+      "file": "img/mountains.jpg",
+      "credit": "The Picos de Europa, Asturias (photograph)",
+      "where": "CC0"
+    },
+    "portrait": {
+      "file": "img/portrait.jpg",
+      "credit": "Luis de Madrazo, Pelayo, King of Asturias (c. 1853–56)",
+      "where": "Museo del Prado"
+    },
+    "cave": {
+      "file": "img/cave.jpg",
+      "credit": "Martín Rico, The Cave of Covadonga (drawing, 1857)",
+      "where": ""
+    },
+    "cavephoto": {
+      "file": "img/cavephoto.jpg",
+      "credit": "The Holy Cave of Covadonga today (photograph)",
+      "where": "CC0"
+    },
+    "pelayo2": {
+      "file": "img/pelayo.jpg",
+      "credit": "Luis de Madrazo, King Pelayo at Covadonga (1855)",
+      "where": "Museo del Prado"
+    }
+  },
+  "beats": [
+    {
+      "type": "title",
+      "scene": "pelayo",
+      "text": "Spain's most famous battle might have been a skirmish.",
+      "move": {"from": [0.5, 0.55, 1.0], "to": [0.42, 0.28, 1.3]}
+    },
+    {
+      "type": "narration",
+      "scene": "mountains",
+      "date": "after 711",
+      "place": "Asturias",
+      "text": "After 711, only the wild mountains of the north stayed out of Muslim hands. There, a nobleman named Pelayo led a revolt.",
+      "move": {"from": [0.2, 0.5, 1.0], "to": [0.7, 0.5, 1.1]}
+    },
+    {
+      "type": "narration",
+      "scene": "portrait",
+      "date": "718 or 722",
+      "place": "Covadonga",
+      "text": "A Muslim force marched into a narrow valley at Covadonga to crush him. It was ambushed and beaten.",
+      "move": {"from": [0.5, 0.55, 1.0], "to": [0.45, 0.18, 1.4]}
+    },
+    {
+      "type": "narration",
+      "scene": "cave",
+      "date": "",
+      "text": "Later Christian chronicles tell of a holy cave, and a miracle: the attackers' own stones and arrows turning back on them.",
+      "move": {"from": [0.5, 0.3, 1.1], "to": [0.5, 0.55, 1.3]}
+    },
+    {
+      "type": "narration",
+      "text": "But the oldest chronicle of the conquest, written in 754, never mentions Pelayo. Even the year is disputed.",
+      "say": "But the oldest chronicle of the conquest, written in seven fifty-four, never mentions Pelayo. Even the year is disputed."
+    },
+    {
+      "type": "narration",
+      "scene": "cavephoto",
+      "text": "Whatever happened, Pelayo founded the Kingdom of Asturias. From it grew León, then Castile, and in time, Spain.",
+      "move": {"from": [0.6, 0.5, 1.0], "to": [0.32, 0.45, 1.3]}
+    },
+    {
+      "type": "narration",
+      "scene": "pelayo2",
+      "text": "Spain calls it the start of the Reconquista. Historians still argue how big it really was. What do you think?",
+      "gap": 0.6,
+      "move": {"from": [0.42, 0.3, 1.3], "to": [0.5, 0.5, 1.0]}
+    },
+    {
+      "type": "end",
+      "text": "Next: Córdoba, the jewel of al-Andalus",
+      "sub": "Follow for Spain's full story"
+    }
+  ]
+}
