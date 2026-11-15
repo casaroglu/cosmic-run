@@ -10,6 +10,7 @@
 | Orhan blockaded Bursa for years; surrendered 1326 | Siege 1317–1326; Orhan entered 6 Apr 1326 ✓ | Wikipedia "Osman I" / "Siege of Bursa"; World History Encyclopedia |
 | Osman buried in Bursa; Bursa the first great capital | Orhan moved his body to Bursa (Tophane) ✓; Bursa first major capital ✓ | Wikipedia "Osman I"; Britannica "Bursa" |
 | Lasted until 1922, more than 600 years, three continents | Sultanate abolished 1 Nov 1922 ✓ | Britannica "Ottoman Empire" |
+| Border maps: c. 1300 (Söğüt, Bilecik, İnegöl, Yenişehir, Karacahisar) and 1326 (plus Bursa, Mudanya; Nicaea still Byzantine until 1331) | Traced from conquest dates; shown as approx. ✓ | `../territory.json` note; Shepherd, *Historical Atlas* (1911); İnalcık, *The Ottoman Empire: The Classical Age* |
 
 ## Left out on purpose
 - Exact founding year 1299 (traditional, not documented); the timeline uses it as a conventional start.

@@ -357,6 +357,610 @@
      "color": "#b3261e"
     }
    ]
+  },
+  "lands1340": {
+   "coast": "sketch/nw_anatolia.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.4
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        26.18,
+        39.97
+       ],
+       [
+        26.4,
+        40.12
+       ],
+       [
+        26.62,
+        40.28
+       ],
+       [
+        26.78,
+        40.4
+       ],
+       [
+        27.2,
+        40.45
+       ],
+       [
+        28.0,
+        40.42
+       ],
+       [
+        28.9,
+        40.45
+       ],
+       [
+        29.3,
+        40.75
+       ],
+       [
+        29.9,
+        40.85
+       ],
+       [
+        30.4,
+        40.85
+       ],
+       [
+        30.75,
+        40.55
+       ],
+       [
+        30.75,
+        40.0
+       ],
+       [
+        30.5,
+        39.6
+       ],
+       [
+        29.6,
+        39.45
+       ],
+       [
+        28.6,
+        39.4
+       ],
+       [
+        27.6,
+        39.3
+       ],
+       [
+        26.8,
+        39.45
+       ],
+       [
+        26.3,
+        39.7
+       ]
+      ]
+     ],
+     "at": 0.9,
+     "dur": 1.8,
+     "label": "Ottoman lands",
+     "labelPos": [
+      29.6,
+      39.6
+     ]
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      29.06,
+      40.19
+     ],
+     "label": "Bursa",
+     "lx": -20,
+     "ly": 45,
+     "lalign": "right",
+     "at": 1.4
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      28.98,
+      41.01
+     ],
+     "label": "Constantinople",
+     "lx": -20,
+     "ly": -45,
+     "lalign": "right",
+     "at": 1.6,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "label",
+     "text": "EUROPE",
+     "pos": [
+      26.6,
+      41.35
+     ],
+     "at": 1.8,
+     "size": 56
+    },
+    {
+     "kind": "circle",
+     "pos": [
+      26.4,
+      40.15
+     ],
+     "r": 70,
+     "ry": 60,
+     "at": 4.6
+    },
+    {
+     "kind": "label",
+     "text": "1340s, approx.",
+     "pos": [
+      0.5,
+      0.66
+     ],
+     "at": 2.4,
+     "size": 44
+    }
+   ]
+  },
+  "lands1389": {
+   "coast": "sketch/balkans_anatolia.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.6,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        26.18,
+        39.97
+       ],
+       [
+        26.4,
+        40.12
+       ],
+       [
+        26.62,
+        40.28
+       ],
+       [
+        26.78,
+        40.4
+       ],
+       [
+        27.2,
+        40.45
+       ],
+       [
+        28.0,
+        40.42
+       ],
+       [
+        28.9,
+        40.45
+       ],
+       [
+        29.3,
+        40.75
+       ],
+       [
+        29.9,
+        40.85
+       ],
+       [
+        30.4,
+        40.85
+       ],
+       [
+        30.75,
+        40.55
+       ],
+       [
+        30.75,
+        40.0
+       ],
+       [
+        30.5,
+        39.6
+       ],
+       [
+        29.6,
+        39.45
+       ],
+       [
+        28.6,
+        39.4
+       ],
+       [
+        27.6,
+        39.3
+       ],
+       [
+        26.8,
+        39.45
+       ],
+       [
+        26.3,
+        39.7
+       ]
+      ]
+     ],
+     "style": "faint",
+     "at": 0.4,
+     "dur": 0.8
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        26.15,
+        40.05
+       ],
+       [
+        26.0,
+        40.5
+       ],
+       [
+        25.6,
+        40.85
+       ],
+       [
+        24.9,
+        40.9
+       ],
+       [
+        24.3,
+        40.9
+       ],
+       [
+        23.7,
+        40.75
+       ],
+       [
+        22.95,
+        40.62
+       ],
+       [
+        22.6,
+        40.95
+       ],
+       [
+        22.4,
+        41.35
+       ],
+       [
+        22.5,
+        41.9
+       ],
+       [
+        22.3,
+        42.3
+       ],
+       [
+        22.6,
+        42.6
+       ],
+       [
+        23.0,
+        42.9
+       ],
+       [
+        22.6,
+        43.2
+       ],
+       [
+        21.9,
+        43.35
+       ],
+       [
+        22.3,
+        43.6
+       ],
+       [
+        23.2,
+        43.3
+       ],
+       [
+        24.2,
+        42.95
+       ],
+       [
+        25.3,
+        42.65
+       ],
+       [
+        26.3,
+        42.55
+       ],
+       [
+        27.4,
+        42.5
+       ],
+       [
+        27.75,
+        42.2
+       ],
+       [
+        27.9,
+        41.9
+       ],
+       [
+        28.3,
+        41.5
+       ],
+       [
+        28.35,
+        41.2
+       ],
+       [
+        27.9,
+        41.05
+       ],
+       [
+        27.4,
+        40.95
+       ],
+       [
+        26.9,
+        40.65
+       ],
+       [
+        26.6,
+        40.35
+       ]
+      ],
+      [
+       [
+        26.18,
+        39.97
+       ],
+       [
+        26.4,
+        40.12
+       ],
+       [
+        26.62,
+        40.28
+       ],
+       [
+        26.78,
+        40.4
+       ],
+       [
+        27.2,
+        40.45
+       ],
+       [
+        28.0,
+        40.42
+       ],
+       [
+        28.9,
+        40.45
+       ],
+       [
+        29.3,
+        40.75
+       ],
+       [
+        29.9,
+        40.85
+       ],
+       [
+        30.6,
+        41.1
+       ],
+       [
+        31.6,
+        41.15
+       ],
+       [
+        32.4,
+        40.9
+       ],
+       [
+        33.2,
+        40.4
+       ],
+       [
+        33.3,
+        39.8
+       ],
+       [
+        32.6,
+        39.4
+       ],
+       [
+        31.8,
+        38.9
+       ],
+       [
+        31.6,
+        38.3
+       ],
+       [
+        30.6,
+        38.3
+       ],
+       [
+        30.2,
+        38.9
+       ],
+       [
+        29.4,
+        39.1
+       ],
+       [
+        28.5,
+        39.25
+       ],
+       [
+        27.6,
+        39.2
+       ],
+       [
+        26.9,
+        39.3
+       ],
+       [
+        26.3,
+        39.6
+       ]
+      ]
+     ],
+     "at": 1.4,
+     "dur": 2.4,
+     "label": "Ottoman, 1389",
+     "labelPos": [
+      27.2,
+      39.0
+     ]
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        22.6,
+        43.6
+       ],
+       [
+        22.9,
+        44.1
+       ],
+       [
+        24.0,
+        43.75
+       ],
+       [
+        25.5,
+        43.65
+       ],
+       [
+        27.0,
+        44.1
+       ],
+       [
+        28.6,
+        43.7
+       ],
+       [
+        27.9,
+        42.7
+       ],
+       [
+        26.3,
+        42.75
+       ],
+       [
+        25.3,
+        42.8
+       ],
+       [
+        24.2,
+        43.1
+       ],
+       [
+        23.2,
+        43.45
+       ]
+      ],
+      [
+       [
+        19.6,
+        43.2
+       ],
+       [
+        19.9,
+        44.4
+       ],
+       [
+        21.0,
+        44.7
+       ],
+       [
+        22.4,
+        44.4
+       ],
+       [
+        22.6,
+        43.6
+       ],
+       [
+        21.9,
+        43.4
+       ],
+       [
+        21.3,
+        42.9
+       ],
+       [
+        20.5,
+        42.6
+       ],
+       [
+        19.9,
+        42.8
+       ]
+      ]
+     ],
+     "style": "faint",
+     "color": "#c77700",
+     "at": 4.5,
+     "dur": 1.6,
+     "label": "vassals",
+     "labelPos": [
+      24.6,
+      44.4
+     ]
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      28.98,
+      41.01
+     ],
+     "label": "Byzantium",
+     "lx": 20,
+     "ly": -40,
+     "at": 2.2,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      21.13,
+      42.68
+     ],
+     "label": "Kosovo",
+     "lx": -20,
+     "ly": 45,
+     "lalign": "right",
+     "at": 2.6
+    },
+    {
+     "kind": "label",
+     "text": "borders approx.",
+     "pos": [
+      0.82,
+      0.66
+     ],
+     "at": 3.0,
+     "size": 36
+    }
+   ]
   }
  },
  "beats": [
@@ -403,6 +1007,19 @@
     ]
    },
    "text": "One rival emperor, John Kantakouzenos, allied with Orhan, gave him his daughter in marriage, and brought Ottoman soldiers into Europe to fight for him."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "lands1340",
+   "date": "1340s",
+   "place": "Ottoman lands",
+   "text": "How far did Orhan's lands reach by then?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Right up to the Asian shore of the Dardanelles. Europe was just across the water."
   },
   {
    "type": "narration",
@@ -524,13 +1141,34 @@
   {
    "type": "narration",
    "speaker": "q",
-   "scene": "push",
-   "text": "So the Ottomans were in Europe to stay."
+   "scene": "lands1389",
+   "text": "So the Ottomans were in Europe to stay.",
+   "date": "1389",
+   "place": "Ottoman lands"
   },
   {
    "type": "narration",
    "speaker": "a",
-   "text": "For more than five hundred years. Next time: the sultan who was taken prisoner. Like the video and follow History Sketches."
+   "text": "Right. By 1389 they ruled Thrace and much of the southern Balkans. Bulgaria, and soon Serbia, were bound to them as vassals."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "maiden",
+   "date": "",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.45,
+     1.2
+    ]
+   },
+   "text": "And they would stay in Europe for more than five hundred years. Next time: the sultan who was taken prisoner. Like the video and follow History Sketches."
   },
   {
    "type": "narration",

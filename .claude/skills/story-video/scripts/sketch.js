@@ -327,6 +327,33 @@ const SK_ITEMS = {
     ctx.fillStyle = it.color || RED; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(it.text, 0, 4);
     ctx.restore();
   },
+  territory(name, spec, it, lt) {
+    // a state's lands: hatched fill + pencil border, clipped to the coastline so borders follow the shore.
+    // it.polys: [[[lon, lat], ...], ...]; it.color; it.label/labelPos; it.style "faint" for an earlier extent
+    const P = skProj(spec), polys = (it.polys || [it.poly]).map(pl => pl.map(P));
+    const fk = clamp((lt - (it.at || 0) - 0.3) / 0.8), k = ease(skK(lt, it, 1.6)), col = it.color || RED;
+    ctx.save();
+    if (spec.coast) {
+      const C = skCoast(name, spec); ctx.beginPath();
+      for (const r of C.fills) { r.forEach((p, i) => i ? ctx.lineTo(p[0], p[1]) : ctx.moveTo(p[0], p[1])); ctx.closePath(); }
+      ctx.clip();
+    }
+    if (fk > 0) {
+      const pc = Object.assign(document.createElement('canvas'), { width: 18, height: 18 }), x = pc.getContext('2d');
+      x.fillStyle = col; x.globalAlpha = it.style === 'faint' ? 0.10 : 0.26; x.fillRect(0, 0, 18, 18);
+      x.globalAlpha = it.style === 'faint' ? 0.25 : 0.55; x.strokeStyle = col; x.lineWidth = 2;
+      for (const o of [-18, 0, 18]) { x.beginPath(); x.moveTo(o, 18); x.lineTo(o + 18, 0); x.stroke(); }
+      ctx.globalAlpha = fk; ctx.fillStyle = ctx.createPattern(pc, 'repeat'); ctx.beginPath();
+      for (const pl of polys) { pl.forEach((p, i) => i ? ctx.lineTo(p[0], p[1]) : ctx.moveTo(p[0], p[1])); ctx.closePath(); }
+      ctx.fill(); ctx.globalAlpha = 1;
+    }
+    let tip = null;
+    polys.forEach((pl, i) => { const tp = skStroke([...pl, pl[0]], k, { color: col, width: it.style === 'faint' ? 3 : 6, dash: it.style === 'faint' ? [12, 10] : null, seed: 60 + i }); if (tp) tip = tp; });
+    ctx.restore();
+    if (it.label) { const [lx, ly] = skPt(spec, it.labelPos || pl0(it)); skWrite(it.label, lx, ly, (lt - (it.at || 0) - 1.0) * 16 / it.label.length, { size: it.lsize || 50, color: col }); }
+    return tip;
+    function pl0(t) { const pl = (t.polys || [t.poly])[0]; return [pl.reduce((a, p) => a + p[0], 0) / pl.length, pl.reduce((a, p) => a + p[1], 0) / pl.length]; }
+  },
   derrick(name, spec, it, lt) {
     const [x, y] = skPt(spec, it.pos || [0.5, 0.62]), h = it.h || 520, w = h * 0.42, k = ease(skK(lt, it, 2));
     const top = [x, y - h], L = [x - w / 2, y], R = [x + w / 2, y], segs = [[L, top], [R, top]];

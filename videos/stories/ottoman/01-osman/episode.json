@@ -199,33 +199,57 @@
      "kind": "label",
      "text": "Seljuk lands breaking up",
      "pos": [
-      30.2,
-      39.45
+      29.9,
+      39.42
      ],
      "at": 5.5,
      "size": 42,
      "color": "#b3261e"
     },
     {
-     "kind": "circle",
-     "pos": [
-      30.18,
-      40.02
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        29.45,
+        40.1
+       ],
+       [
+        29.65,
+        40.33
+       ],
+       [
+        30.0,
+        40.25
+       ],
+       [
+        30.35,
+        40.12
+       ],
+       [
+        30.6,
+        39.85
+       ],
+       [
+        30.45,
+        39.65
+       ],
+       [
+        29.9,
+        39.7
+       ],
+       [
+        29.5,
+        39.8
+       ]
+      ]
      ],
-     "r": 70,
-     "ry": 60,
-     "at": 11.0
-    },
-    {
-     "kind": "label",
-     "text": "Osman",
-     "pos": [
-      30.55,
-      39.8
-     ],
-     "at": 11.4,
-     "size": 60,
-     "color": "#b3261e"
+     "at": 10.6,
+     "label": "Osman's land",
+     "labelPos": [
+      31.15,
+      40.15
+     ]
     }
    ]
   },
@@ -514,6 +538,174 @@
      "size": 120
     }
    ]
+  },
+  "borders": {
+   "coast": "sketch/bithynia.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        29.45,
+        40.1
+       ],
+       [
+        29.65,
+        40.33
+       ],
+       [
+        30.0,
+        40.25
+       ],
+       [
+        30.35,
+        40.12
+       ],
+       [
+        30.6,
+        39.85
+       ],
+       [
+        30.45,
+        39.65
+       ],
+       [
+        29.9,
+        39.7
+       ],
+       [
+        29.5,
+        39.8
+       ]
+      ]
+     ],
+     "style": "faint",
+     "at": 0.3,
+     "dur": 1.0
+    },
+    {
+     "kind": "label",
+     "text": "c. 1300",
+     "pos": [
+      30.35,
+      39.45
+     ],
+     "at": 1.0,
+     "size": 44
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        28.75,
+        40.3
+       ],
+       [
+        28.9,
+        40.42
+       ],
+       [
+        29.35,
+        40.4
+       ],
+       [
+        29.6,
+        40.34
+       ],
+       [
+        30.1,
+        40.36
+       ],
+       [
+        30.45,
+        40.2
+       ],
+       [
+        30.7,
+        39.85
+       ],
+       [
+        30.45,
+        39.6
+       ],
+       [
+        29.8,
+        39.62
+       ],
+       [
+        29.2,
+        39.85
+       ],
+       [
+        28.85,
+        40.0
+       ]
+      ]
+     ],
+     "at": 2.0,
+     "dur": 1.8,
+     "label": "1326",
+     "labelPos": [
+      29.3,
+      39.62
+     ]
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      29.06,
+      40.19
+     ],
+     "label": "Bursa",
+     "lx": -20,
+     "ly": -45,
+     "lalign": "right",
+     "at": 1.0
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      28.98,
+      41.01
+     ],
+     "label": "Constantinople",
+     "lx": -20,
+     "ly": -45,
+     "lalign": "right",
+     "at": 1.2,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "label",
+     "text": "BYZANTINE EMPIRE",
+     "pos": [
+      27.6,
+      40.75
+     ],
+     "at": 1.4,
+     "size": 48,
+     "color": "#1f4e8c",
+     "rot": -0.15
+    },
+    {
+     "kind": "label",
+     "text": "borders approx.",
+     "pos": [
+      0.82,
+      0.66
+     ],
+     "at": 2.5,
+     "size": 36
+    }
+   ]
   }
  },
  "beats": [
@@ -633,6 +825,19 @@
    "date": "6 April 1326",
    "place": "Bursa",
    "text": "Osman was buried there, and Bursa became the Ottomans' first great capital."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "borders",
+   "date": "1326",
+   "place": "Ottoman lands",
+   "text": "So how big was it by then?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Still small. A strip of land from Söğüt to Bursa, squeezed between Byzantium and other Turkish principalities."
   },
   {
    "type": "narration",
