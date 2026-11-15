@@ -3,3 +3,5 @@ videos/out/
 __pycache__/
 videos/stories/spain/longform/geo/
 videos/stories/spain/longform/globe/node_modules/
+videos/stories/headlines/_geo/
+videos/stories/**/sketch/*.mp4

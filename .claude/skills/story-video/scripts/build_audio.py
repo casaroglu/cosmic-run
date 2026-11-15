@@ -68,7 +68,7 @@ def tts(text, voice, speed, lang="en-us"):
             os.path.join(MODEL_DIR, "kokoro-v1.0.onnx"),
             os.path.join(MODEL_DIR, "voices-v1.0.bin"),
         )
-    samples, sr = _kokoro.create(text, voice=voice, speed=speed, lang="en-us")
+    samples, sr = _kokoro.create(text, voice=voice, speed=speed, lang="en-gb" if voice[:1] == "b" else "en-us")
     assert sr == SR, sr
     return trim(np.asarray(samples, dtype=np.float32))
 
@@ -240,6 +240,17 @@ def sfx_coins():
     return 0.2 * (a + b)
 
 
+def sfx_pencil(d=1.6):
+    """pencil scratching on paper: bursts of high, band-limited noise"""
+    rng = np.random.default_rng(3)
+    t = np.arange(int(d * SR)) / SR
+    noise = rng.standard_normal(len(t))
+    hp = noise - np.convolve(noise, np.ones(6) / 6, mode="same")
+    strokes = np.clip(np.sin(2 * np.pi * 3.1 * t + 2 * np.sin(2 * np.pi * 0.7 * t)), 0, 1) ** 0.6
+    env = strokes * np.minimum(1, t / 0.05) * np.minimum(1, (d - t) / 0.3)
+    return 0.07 * hp * env
+
+
 def sfx_whoosh():
     d = 0.5
     rng = np.random.default_rng(5)
@@ -252,6 +263,16 @@ def sfx_whoosh():
 # ---------------------------------------------------------------------------
 # Build
 # ---------------------------------------------------------------------------
+def load_sketches(story, story_path):
+    out = {}
+    for k, v in story.get("sketches", {}).items():
+        v = dict(v)
+        if isinstance(v.get("coast"), str):
+            v["coast"] = json.load(open(os.path.join(os.path.dirname(story_path), v["coast"])))
+        out[k] = v
+    return out
+
+
 def main(story_path, out_dir):
     story = json.load(open(story_path))
     os.makedirs(out_dir, exist_ok=True)
@@ -264,10 +285,13 @@ def main(story_path, out_dir):
     beats = []
     t = LEAD_IN
     scene = "black"
+    drawn_sketches = set()
 
     for i, beat in enumerate(story["beats"]):
         b = dict(beat)
         typ = b["type"]
+        if i and b.get("scene") and b["scene"] != scene:
+            t += story.get("scene_pad", 0)   # breathing room before a new scene (longer crossfade, maps finish drawing)
         if b.get("scene"):
             scene = b["scene"]
         b["scene"] = scene
@@ -275,7 +299,7 @@ def main(story_path, out_dir):
 
         speaker = None
         if typ in ("narration", "title"):
-            speaker = "narrator"
+            speaker = b.get("speaker", "narrator")   # dialogue: any key of story["voices"], e.g. "q" / "a"
         elif typ in ("chat", "file", "notify"):
             speaker = "ai" if b.get("from", "ai") == "ai" else "narrator"
             if typ in ("file", "notify"):
@@ -314,9 +338,11 @@ def main(story_path, out_dir):
             sfx.append((t, sfx_whoosh()))
             t += b.get("hold", END_HOLD)
 
+        if story.get("pencil_sound") and b["scene"] in story.get("sketches", {}) and b["scene"] not in drawn_sketches:
+            drawn_sketches.add(b["scene"]); sfx.append((t, sfx_pencil()))
         if speaker:
             say = b.get("say", b["text"])
-            audio = tts(say, voices[speaker], b.get("speed", speeds[speaker]), lang)
+            audio = tts(say, voices[speaker], b.get("speed", speeds.get(speaker, 1.0)), lang)
             dur = len(audio) / SR
             b["voiceStart"] = round(t, 3)
             b["voiceEnd"] = round(t + dur, 3)
@@ -384,6 +410,11 @@ def main(story_path, out_dir):
         "lang": lang,
         "overlay": {k: os.path.abspath(os.path.join(os.path.dirname(story_path), v))
                     for k, v in story["overlay"].items()} if story.get("overlay") else None,
+        "sketches": load_sketches(story, story_path),
+        "clips": {k: os.path.abspath(os.path.join(os.path.dirname(story_path), v))
+                  for k, v in story.get("clips", {}).items()},
+        "speakers": story.get("speakers"),
+        "fade": story.get("fade", 0.7),
         "width": 1080, "height": 1920, "fps": story.get("fps", 30),
         "duration": round(total, 3),
         "beats": beats,

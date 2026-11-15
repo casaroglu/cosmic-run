@@ -19,6 +19,6 @@ fi
 command -v ffmpeg >/dev/null || { echo "ffmpeg missing: install it (brew install ffmpeg / apt-get install ffmpeg)"; exit 1; }
 if ! node -e "require('playwright')" 2>/dev/null; then
   HERE="$(cd "$(dirname "$0")" && pwd)"
-  (cd "$HERE" && npm i --no-save playwright && npx playwright install chromium)
+  (cd "$HERE" && npm i --no-save playwright@1.65.0 three@0.169.0 gsap@3.12.5 && npx playwright install chromium)
 fi
 echo "story-video ready"

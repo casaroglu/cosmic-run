@@ -1,0 +1,723 @@
+{
+ "series": "History behind the headlines",
+ "episode": 1,
+ "part": 2,
+ "total_parts": 2,
+ "voices": {
+  "q": "af_heart",
+  "a": "am_puck"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff"
+  },
+  "a": {
+   "name": "Leo",
+   "color": "#E8B44A"
+  }
+ },
+ "accent": "#E8B44A",
+ "title": "Persia had no navy. So how did it take Hormuz back?",
+ "highlight": [
+  "navy.",
+  "back?"
+ ],
+ "music": {
+  "mood": "tense",
+  "seed": 42,
+  "drums": true,
+  "level": 0.3
+ },
+ "post": {
+  "caption": "The Strait of Hormuz, Part 2: from the Anglo-Persian siege of 1622 to the tanker war and today. Images: public domain / CC0 (US Navy photos). Map data: Natural Earth.",
+  "hashtags": [
+   "history",
+   "hormuz",
+   "straitofhormuz",
+   "iran",
+   "oil",
+   "tankerwar",
+   "shorts"
+  ]
+ },
+ "clips": {
+  "globeout": "sketch/globe_out.mp4"
+ },
+ "images": {
+  "defend": {
+   "file": "img/defend.jpg",
+   "credit": "The Portuguese defending the fort at Hormuz, Jarunnama by Qadri (Isfahan, 1697)",
+   "where": "British Library"
+  },
+  "abbas": {
+   "file": "img/abbas.jpg",
+   "credit": "Abu'l Hasan, Jahangir Entertains Shah Abbas (c. 1618)",
+   "where": "Freer Gallery of Art, Washington"
+  },
+  "ships": {
+   "file": "img/gomeron.jpg",
+   "credit": "Ships off the island of Hormuz (print, c. 1632)",
+   "where": "Rijksmuseum, CC0"
+  },
+  "siege": {
+   "file": "img/siege.jpg",
+   "credit": "The taking of Hormuz, Jarunnama by Qadri (Isfahan, 1697)",
+   "where": "British Library"
+  },
+  "well": {
+   "file": "img/well.jpg",
+   "credit": "Drilling the first oil well at Masjed Soleyman (photograph, c. 1908)",
+   "where": "National Iranian Oil Company archive"
+  },
+  "convoy": {
+   "file": "img/convoy.jpg",
+   "credit": "US Navy, Operation Earnest Will convoy (photograph, 22 Aug 1987)",
+   "where": "US Navy, public domain"
+  },
+  "roberts": {
+   "file": "img/roberts.jpg",
+   "credit": "US Navy, mine damage to USS Samuel B. Roberts (photograph, 1988)",
+   "where": "US Department of Defense, public domain"
+  },
+  "sahand": {
+   "file": "img/sahand.jpg",
+   "credit": "US Navy, the frigate Sahand burning, Operation Praying Mantis (18 Apr 1988)",
+   "where": "US Navy, public domain"
+  },
+  "vincennes": {
+   "file": "img/vincennes.jpg",
+   "credit": "US Navy, USS Vincennes at sea (photograph, 1988)",
+   "where": "US Navy, public domain"
+  }
+ },
+ "sketches": {
+  "siegemap": {
+   "coast": "sketch/island.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.8
+    },
+    {
+     "kind": "label",
+     "text": "Hormuz island",
+     "pos": [
+      56.46,
+      27.0
+     ],
+     "at": 1.0,
+     "size": 46
+    },
+    {
+     "kind": "fort",
+     "pos": [
+      56.465,
+      27.1
+     ],
+     "size": 40,
+     "at": 1.4
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      56.465,
+      27.1
+     ],
+     "h": 120,
+     "colors": [
+      "#ffffff",
+      "#1f4e8c"
+     ],
+     "at": 1.6,
+     "until": 7.6
+    },
+    {
+     "kind": "ships",
+     "pts": [
+      [
+       56.75,
+       27.25
+      ],
+      [
+       56.62,
+       27.16
+      ]
+     ],
+     "icon": "galleon",
+     "once": true,
+     "n": 4,
+     "gap": 0.35,
+     "dur": 1.6,
+     "at": 1.8,
+     "size": 60
+    },
+    {
+     "kind": "cannon",
+     "from": [
+      [
+       56.62,
+       27.16
+      ],
+      [
+       56.65,
+       27.2
+      ],
+      [
+       56.6,
+       27.13
+      ]
+     ],
+     "to": [
+      56.465,
+      27.1
+     ],
+     "at": 3.2,
+     "rate": 1.3
+    },
+    {
+     "kind": "label",
+     "text": "English ships",
+     "pos": [
+      56.72,
+      27.3
+     ],
+     "at": 2.6,
+     "size": 46,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      56.2,
+      27.2
+     ],
+     "to": [
+      56.43,
+      27.08
+     ],
+     "bend": 0.2,
+     "at": 3.0,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      56.3,
+      26.85
+     ],
+     "to": [
+      56.45,
+      27.03
+     ],
+     "bend": -0.2,
+     "at": 3.3,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "label",
+     "text": "Persian troops",
+     "pos": [
+      56.12,
+      27.12
+     ],
+     "at": 3.6,
+     "size": 46,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "counter",
+     "pos": [
+      0.5,
+      0.6
+     ],
+     "from": 0,
+     "to": 10,
+     "suffix": " weeks",
+     "at": 6.2,
+     "dur": 1.6,
+     "size": 110
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      56.465,
+      27.1
+     ],
+     "h": 120,
+     "colors": [
+      "#2e7d32",
+      "#e8b44a"
+     ],
+     "at": 7.8,
+     "label": "Persia"
+    }
+   ]
+  },
+  "shift": {
+   "coast": "sketch/strait.json",
+   "view": [
+    55.6,
+    26.4,
+    57.4,
+    27.6
+   ],
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.6
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      56.46,
+      27.06
+     ],
+     "label": "Hormuz",
+     "lx": 20,
+     "ly": 50,
+     "at": 0.8
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      56.27,
+      27.18
+     ],
+     "label": "Bandar Abbas",
+     "lalign": "right",
+     "lx": -20,
+     "ly": -50,
+     "at": 1.4
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      56.44,
+      27.08
+     ],
+     "to": [
+      56.29,
+      27.17
+     ],
+     "bend": -0.4,
+     "at": 2.0,
+     "dur": 0.8
+    },
+    {
+     "kind": "label",
+     "text": "\"Port of Abbas\"",
+     "pos": [
+      56.05,
+      27.45
+     ],
+     "at": 2.8,
+     "size": 54,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "half the customs to the English",
+     "pos": [
+      0.5,
+      0.64
+     ],
+     "at": 0.6,
+     "size": 50,
+     "color": "#1f4e8c",
+     "until": 3.0
+    }
+   ]
+  },
+  "oil": {
+   "items": [
+    {
+     "kind": "derrick",
+     "pos": [
+      0.32,
+      0.62
+     ],
+     "h": 560,
+     "at": 0.1,
+     "dur": 1.8,
+     "gush": true
+    },
+    {
+     "kind": "photo",
+     "key": "well",
+     "pos": [
+      0.68,
+      0.3
+     ],
+     "w": 520,
+     "rot": 0.05,
+     "at": 1.0
+    },
+    {
+     "kind": "text",
+     "text": "1908",
+     "pos": [
+      0.7,
+      0.55
+     ],
+     "at": 2.0,
+     "size": 140,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "text",
+     "text": "Masjed Soleyman, Persia",
+     "pos": [
+      0.7,
+      0.61
+     ],
+     "at": 2.6,
+     "size": 46
+    }
+   ]
+  },
+  "tankerwar": {
+   "items": [
+    {
+     "kind": "bars",
+     "pos": [
+      0.14,
+      0.62
+     ],
+     "w": 760,
+     "h": 640,
+     "title": "Ships attacked, 1981–1987",
+     "at": 0.2,
+     "dur": 1.6,
+     "data": [
+      {
+       "label": "by Iraq",
+       "value": 283,
+       "color": "#b3261e"
+      },
+      {
+       "label": "by Iran",
+       "value": 168,
+       "color": "#1f4e8c"
+      }
+     ]
+    }
+   ]
+  },
+  "today": {
+   "coast": "sketch/strait.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.6
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       55.5,
+       26.5
+      ],
+      [
+       56.25,
+       26.7
+      ],
+      [
+       56.62,
+       26.5
+      ],
+      [
+       57.0,
+       26.15
+      ],
+      [
+       57.55,
+       25.95
+      ]
+     ],
+     "color": "#1f4e8c",
+     "width": 5,
+     "dash": [
+      14,
+      10
+     ],
+     "arrow": true,
+     "at": 1.0,
+     "dur": 1.2
+    },
+    {
+     "kind": "ships",
+     "pts": [
+      [
+       55.5,
+       26.5
+      ],
+      [
+       56.25,
+       26.7
+      ],
+      [
+       56.62,
+       26.5
+      ],
+      [
+       57.0,
+       26.15
+      ],
+      [
+       57.55,
+       25.95
+      ]
+     ],
+     "n": 5,
+     "period": 6,
+     "at": 1.4,
+     "size": 50
+    },
+    {
+     "kind": "counter",
+     "pos": [
+      0.5,
+      0.56
+     ],
+     "from": 0,
+     "to": 20000000,
+     "at": 2.5,
+     "dur": 2.0,
+     "size": 96
+    },
+    {
+     "kind": "text",
+     "text": "barrels a day",
+     "pos": [
+      0.5,
+      0.61
+     ],
+     "at": 3.8,
+     "size": 56
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "defend",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.55,
+     1.3
+    ]
+   },
+   "text": "Persia had no navy. So how did it take Hormuz back?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "abbas",
+   "date": "1622",
+   "place": "Isfahan",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.6,
+     0.42,
+     1.6
+    ]
+   },
+   "text": "Good question. It borrowed one. In 1622, Shah Abbas made a deal with the English East India Company."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "siegemap",
+   "date": "",
+   "text": "English ships bombarded the fortress, while Persian troops closed in around it."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Hmm. How long did it hold out?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "About ten weeks. Then the Portuguese surrendered."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "shift",
+   "text": "And what did the English get out of it?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "A promise of half the customs. And the trade moved to the mainland, to a port named after the shah: Bandar Abbas."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "ships",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.62,
+     0.6,
+     1.3
+    ]
+   },
+   "text": "Meanwhile, Hormuz island slowly emptied."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "oil",
+   "text": "Okay, so why does the strait matter again?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "One word: oil. In 1908, British prospectors struck oil in Persia. Soon tankers filled the Gulf."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "tankerwar",
+   "text": "And then came the tanker war, right?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Exactly. Iran and Iraq were at war. By the end of 1987, Iraq had attacked two hundred and eighty-three ships, and Iran one hundred and sixty-eight."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "convoy",
+   "date": "July 1987",
+   "place": "Persian Gulf",
+   "move": {
+    "from": [
+     0.4,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.35,
+     0.55,
+     1.25
+    ]
+   },
+   "text": "So in 1987, the US Navy began escorting Kuwaiti tankers under the American flag."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "roberts",
+   "date": "14 April 1988",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.45,
+     1.2
+    ]
+   },
+   "text": "In April 1988, an American frigate hit a mine."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "sahand",
+   "date": "18 April 1988",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.45,
+     0.5,
+     1.2
+    ]
+   },
+   "text": "And the navy struck back in a single day of battle."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "vincennes",
+   "date": "3 July 1988",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   "text": "Then, that July, an American cruiser shot down an Iranian airliner. The US said it had mistaken it for a fighter jet. All 290 people on board died."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "That's terrible. How did it all end?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "date": "20 August 1988",
+   "text": "A few weeks later, Iran and Iraq agreed to a ceasefire."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "today",
+   "date": "Today",
+   "place": "Strait of Hormuz",
+   "text": "And today?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Today, about twenty million barrels a day still squeeze through the same narrow gap. So whoever threatens it can still shake the world."
+  },
+  {
+   "type": "end",
+   "scene": "globeout",
+   "date": "",
+   "text": "Next: the Ottoman Empire",
+   "sub": "Follow History Sketches"
+  }
+ ],
+ "scene_pad": 0.5,
+ "fade": 1.1
+}

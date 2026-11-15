@@ -1,0 +1,865 @@
+{
+ "series": "History behind the headlines",
+ "episode": 1,
+ "part": 1,
+ "total_parts": 2,
+ "voices": {
+  "q": "af_heart",
+  "a": "am_puck"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff"
+  },
+  "a": {
+   "name": "Leo",
+   "color": "#E8B44A"
+  }
+ },
+ "accent": "#E8B44A",
+ "title": "So where exactly is the Strait of Hormuz?",
+ "highlight": [
+  "Strait",
+  "Hormuz?"
+ ],
+ "music": {
+  "mood": "tense",
+  "seed": 41,
+  "drums": true,
+  "level": 0.3
+ },
+ "post": {
+  "caption": "The Strait of Hormuz, Part 1: the island that taxed the world's trade, long before oil. Images: public domain. Map data: Natural Earth.",
+  "hashtags": [
+   "history",
+   "hormuz",
+   "straitofhormuz",
+   "iran",
+   "oman",
+   "portugal",
+   "shorts"
+  ]
+ },
+ "clips": {
+  "globe": "sketch/globe_in.mp4"
+ },
+ "images": {
+  "polo": {
+   "file": "img/polo.jpg",
+   "credit": "Portrait of Marco Polo (16th c.)",
+   "where": "Public domain print"
+  },
+  "maokun": {
+   "file": "img/maokun.jpg",
+   "credit": "The Mao Kun map of Zheng He's voyages, Wubei Zhi (1621)",
+   "where": "Wubei Zhi"
+  },
+  "albuquerque": {
+   "file": "img/albuquerque.jpg",
+   "credit": "Portrait of Afonso de Albuquerque (after 1545)",
+   "where": "Museu Nacional de Arte Antiga, Lisbon"
+  },
+  "braun": {
+   "file": "img/braun.jpg",
+   "credit": "Braun & Hogenberg, Ormus, Civitates orbis terrarum (1572)",
+   "where": "Heidelberg University Library"
+  },
+  "abbas": {
+   "file": "img/abbas.jpg",
+   "credit": "Abu'l Hasan, Jahangir Entertains Shah Abbas (c. 1618)",
+   "where": "Freer Gallery of Art, Washington"
+  },
+  "fortress": {
+   "file": "img/fortress.jpg",
+   "credit": "The Portuguese fortress of Hormuz (17th c.)",
+   "where": "Plans of Portuguese forts in Asia and Africa"
+  }
+ },
+ "sketches": {
+  "gulfmap": {
+   "coast": "sketch/gulf.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 2.6
+    },
+    {
+     "kind": "label",
+     "text": "IRAN",
+     "pos": [
+      53.5,
+      30.2
+     ],
+     "at": 1.6,
+     "size": 64
+    },
+    {
+     "kind": "label",
+     "text": "ARABIA",
+     "pos": [
+      49.6,
+      24.2
+     ],
+     "at": 1.9,
+     "size": 58
+    },
+    {
+     "kind": "label",
+     "text": "OMAN",
+     "pos": [
+      58.3,
+      22.4
+     ],
+     "at": 2.2,
+     "size": 54
+    },
+    {
+     "kind": "label",
+     "text": "The Gulf",
+     "pos": [
+      51.6,
+      27.4
+     ],
+     "at": 2.4,
+     "size": 50,
+     "color": "#1f4e8c",
+     "rot": -0.5
+    },
+    {
+     "kind": "ships",
+     "pts": [
+      [
+       49.0,
+       28.8
+      ],
+      [
+       51.8,
+       26.8
+      ],
+      [
+       55.0,
+       26.3
+      ],
+      [
+       56.3,
+       26.55
+      ],
+      [
+       57.2,
+       25.7
+      ],
+      [
+       59.5,
+       23.6
+      ],
+      [
+       61.0,
+       22.6
+      ]
+     ],
+     "at": 2.6,
+     "n": 4,
+     "period": 7,
+     "size": 46
+    },
+    {
+     "kind": "circle",
+     "pos": [
+      56.45,
+      26.45
+     ],
+     "r": 95,
+     "ry": 80,
+     "at": 2.6,
+     "dur": 0.7
+    },
+    {
+     "kind": "barrels",
+     "pos": [
+      0.5,
+      0.6
+     ],
+     "n": 5,
+     "hi": 1,
+     "size": 92,
+     "at": 6.0,
+     "caption": "1 in every 5 barrels",
+     "csize": 56
+    }
+   ]
+  },
+  "strait": {
+   "coast": "sketch/strait.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 2.2
+    },
+    {
+     "kind": "label",
+     "text": "IRAN",
+     "pos": [
+      56.9,
+      27.4
+     ],
+     "at": 1.4,
+     "size": 60
+    },
+    {
+     "kind": "label",
+     "text": "OMAN",
+     "pos": [
+      56.15,
+      25.95
+     ],
+     "at": 1.6,
+     "size": 56
+    },
+    {
+     "kind": "measure",
+     "a": [
+      56.36,
+      26.42
+     ],
+     "b": [
+      56.42,
+      26.86
+     ],
+     "text": "21 miles",
+     "offset": [
+      40,
+      0
+     ],
+     "at": 2.4,
+     "dur": 0.8
+    },
+    {
+     "kind": "ships",
+     "pts": [
+      [
+       55.4,
+       26.45
+      ],
+      [
+       56.2,
+       26.6
+      ],
+      [
+       56.6,
+       26.55
+      ],
+      [
+       57.0,
+       26.15
+      ],
+      [
+       57.6,
+       25.95
+      ]
+     ],
+     "at": 3.6,
+     "n": 3,
+     "period": 6,
+     "size": 50
+    }
+   ]
+  },
+  "move": {
+   "coast": "sketch/strait.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.6
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      57.08,
+      27.12
+     ],
+     "label": "Old Hormuz",
+     "lalign": "left",
+     "lx": -10,
+     "ly": 50,
+     "at": 1.2
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      57.0,
+      27.12
+     ],
+     "to": [
+      56.5,
+      27.06
+     ],
+     "bend": -0.35,
+     "at": 2.0,
+     "dur": 0.9
+    },
+    {
+     "kind": "circle",
+     "pos": [
+      56.46,
+      27.06
+     ],
+     "r": 55,
+     "ry": 50,
+     "at": 2.9,
+     "dur": 0.6
+    },
+    {
+     "kind": "label",
+     "text": "Hormuz island",
+     "pos": [
+      56.2,
+      27.3
+     ],
+     "at": 3.3,
+     "size": 50,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "c. 1300",
+     "pos": [
+      56.95,
+      26.75
+     ],
+     "at": 3.6,
+     "size": 66,
+     "color": "#b3261e"
+    }
+   ]
+  },
+  "ring": {
+   "items": [
+    {
+     "kind": "photo",
+     "key": "braun",
+     "pos": [
+      0.5,
+      0.2
+     ],
+     "w": 600,
+     "rot": 0.03,
+     "at": 0.1
+    },
+    {
+     "kind": "ringgem",
+     "pos": [
+      0.5,
+      0.44
+     ],
+     "r": 150,
+     "at": 0.2
+    },
+    {
+     "kind": "text",
+     "text": "\"If all the world were a golden ring,",
+     "pos": [
+      0.5,
+      0.58
+     ],
+     "at": 1.6,
+     "size": 56,
+     "cps": 24
+    },
+    {
+     "kind": "text",
+     "text": "Hormuz would be the jewel in it.\"",
+     "pos": [
+      0.5,
+      0.62
+     ],
+     "at": 3.2,
+     "size": 56,
+     "cps": 24
+    }
+   ]
+  },
+  "desert": {
+   "coast": "sketch/strait.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "fort",
+     "pos": [
+      56.47,
+      27.08
+     ],
+     "size": 34,
+     "at": 0.4
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      56.47,
+      27.08
+     ],
+     "h": 110,
+     "colors": [
+      "#ffffff",
+      "#1f4e8c"
+     ],
+     "at": 0.8
+    },
+    {
+     "kind": "ships",
+     "pts": [
+      [
+       56.55,
+       26.95
+      ],
+      [
+       56.9,
+       26.5
+      ],
+      [
+       57.3,
+       26.1
+      ],
+      [
+       57.6,
+       25.8
+      ]
+     ],
+     "icon": "carrack",
+     "once": true,
+     "n": 3,
+     "gap": 0.5,
+     "dur": 3.2,
+     "at": 1.4,
+     "size": 58
+    },
+    {
+     "kind": "label",
+     "text": "3 captains desert",
+     "pos": [
+      0.5,
+      0.82
+     ],
+     "at": 2.2,
+     "size": 64,
+     "color": "#b3261e"
+    }
+   ]
+  },
+  "toll": {
+   "coast": "sketch/indianocean.json",
+   "view": [
+    42,
+    4,
+    80,
+    32
+   ],
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 2.0
+    },
+    {
+     "kind": "label",
+     "text": "PERSIA",
+     "pos": [
+      53,
+      31
+     ],
+     "at": 1.0,
+     "size": 50
+    },
+    {
+     "kind": "label",
+     "text": "ARABIA",
+     "pos": [
+      46,
+      20
+     ],
+     "at": 1.2,
+     "size": 50
+    },
+    {
+     "kind": "label",
+     "text": "INDIA",
+     "pos": [
+      77,
+      20
+     ],
+     "at": 1.4,
+     "size": 50
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      73,
+      17
+     ],
+     "to": [
+      57.2,
+      25.6
+     ],
+     "bend": 0.12,
+     "at": 1.6,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      52,
+      27.2
+     ],
+     "to": [
+      56.2,
+      26.6
+     ],
+     "bend": -0.1,
+     "at": 1.9,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      48.5,
+      13
+     ],
+     "to": [
+      56.8,
+      25.4
+     ],
+     "bend": -0.2,
+     "at": 2.2,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "flag",
+     "pos": [
+      56.46,
+      27.06
+     ],
+     "h": 150,
+     "colors": [
+      "#ffffff",
+      "#1f4e8c"
+     ],
+     "at": 2.8
+    },
+    {
+     "kind": "label",
+     "text": "PORTUGAL'S GATE",
+     "pos": [
+      0.5,
+      0.86
+     ],
+     "at": 3.4,
+     "size": 66,
+     "color": "#b3261e"
+    }
+   ]
+  },
+  "poloroute": {
+   "coast": "sketch/indianocean.json",
+   "view": [
+    42,
+    4,
+    80,
+    32
+   ],
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.8
+    },
+    {
+     "kind": "photo",
+     "key": "polo",
+     "pos": [
+      0.2,
+      0.56
+     ],
+     "w": 270,
+     "rot": -0.06,
+     "at": 0.6,
+     "caption": "Marco Polo"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      57.1,
+      27.1
+     ],
+     "label": "Hormuz",
+     "at": 1.4,
+     "lx": -30,
+     "ly": -50,
+     "lalign": "right"
+    },
+    {
+     "kind": "ships",
+     "pts": [
+      [
+       73,
+       16
+      ],
+      [
+       66,
+       20
+      ],
+      [
+       60,
+       23.5
+      ],
+      [
+       57.6,
+       25.9
+      ],
+      [
+       57.1,
+       26.9
+      ]
+     ],
+     "icon": "carrack",
+     "once": true,
+     "n": 3,
+     "gap": 0.7,
+     "dur": 3.0,
+     "at": 2.0,
+     "size": 54
+    },
+    {
+     "kind": "label",
+     "text": "spices",
+     "pos": [
+      69,
+      13
+     ],
+     "at": 2.6,
+     "size": 52,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "pearls",
+     "pos": [
+      63,
+      15
+     ],
+     "at": 3.2,
+     "size": 52,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "silk",
+     "pos": [
+      72,
+      24
+     ],
+     "at": 3.8,
+     "size": 52,
+     "color": "#b3261e"
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "globe",
+   "text": "So where exactly is the Strait of Hormuz?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "globe",
+   "date": "Today",
+   "place": "Strait of Hormuz",
+   "text": "Right here. Between Iran and Oman, at the mouth of the Persian Gulf."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And why is everyone talking about it?",
+   "scene": "gulfmap"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Well, think about oil. Almost every tanker leaving the Gulf has to pass through here. That's about one barrel in every five the world uses."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "strait",
+   "date": "",
+   "text": "Wow. How wide is it?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Hmm, about twenty-one miles at its narrowest. And the shipping lanes? Just two miles wide each way."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "poloroute",
+   "text": "Was it always this important?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "date": "1272",
+   "place": "Old Hormuz",
+   "text": "Oh, long before oil. Back in 1272, Marco Polo passed through and saw ships from India unloading spices, pearls and silk."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "move",
+   "date": "",
+   "text": "Wait, the city was on the mainland back then?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Right. Then around 1300, to escape raiders, its rulers moved the whole city onto a bare island offshore."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "maokun",
+   "date": "Early 1400s",
+   "place": "Zheng He's voyages",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.7,
+     0.5,
+     1.3
+    ]
+   },
+   "text": "A century later, Chinese treasure fleets anchored there too."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "ring",
+   "date": "",
+   "text": "Sounds like a pretty rich place."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "It was. People said: if all the world were a golden ring, Hormuz would be the jewel in it."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "albuquerque",
+   "move": {
+    "from": [
+     0.5,
+     0.45,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.3,
+     1.3
+    ]
+   },
+   "text": "Let me guess. Someone wanted that jewel."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "date": "September 1507",
+   "place": "Hormuz",
+   "text": "Good guess. In 1507, the Portuguese commander Afonso de Albuquerque arrived, burned the harbour's ships and forced the king to pay tribute."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "desert",
+   "date": "",
+   "text": "But here's the thing: three of his own captains sailed off, and he had to leave."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "fortress",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.45,
+     1.3
+    ]
+   },
+   "text": "So he gave up?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "date": "April 1515",
+   "place": "Hormuz",
+   "text": "Not at all. He came back in 1515 with twenty-seven ships, and Hormuz gave in."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "toll",
+   "date": "",
+   "text": "For about a century, ships between India, Persia and Arabia had to deal with Portuguese Hormuz."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "abbas",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.6,
+     0.42,
+     1.6
+    ]
+   },
+   "text": "And nobody pushed back?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Well, Persia's Shah Abbas wanted it back. He had a great army. But he didn't have a navy."
+  },
+  {
+   "type": "end",
+   "text": "Part 2: the shah, the English and the oil",
+   "sub": "Follow so you don't miss it"
+  }
+ ],
+ "scene_pad": 0.5,
+ "fade": 1.1
+}

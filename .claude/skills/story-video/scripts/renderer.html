@@ -6,6 +6,7 @@
 </head>
 <body>
 <canvas id="c" width="1080" height="1920"></canvas>
+<script src="sketch.js"></script>
 <script>
 // Deterministic frame renderer: drawFrame(t) paints the video at time t.
 let W = 1080, H = 1920;  // setup() switches to 1920x1080 when TL.landscape
@@ -16,7 +17,7 @@ const OFF = Object.assign(document.createElement('canvas'), { width: 1080, heigh
 let OFFC = OFF.getContext('2d');
 const LAND = () => W > H;
 const FONT = "'Inter', 'Helvetica Neue', Arial, sans-serif";
-let TL = null, PHONE_SPANS = [], MSGS = [], CUR_T = 0, IMGS = {}, SPANS = [];
+let TL = null, PHONE_SPANS = [], MSGS = [], CUR_T = 0, IMGS = {}, SPANS = [], CLIPS = {};
 
 // ---------- utils ----------
 const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
@@ -365,11 +366,19 @@ function drawImageLand(name, im, mv, p) {
   ctx.drawImage(im, x, y, dw, dh); ctx.restore();
   ctx.strokeStyle = 'rgba(232,180,74,0.35)'; ctx.lineWidth = 2; ctx.strokeRect(x - 1, y - 1, dw + 2, dh + 2);
 }
+function drawClip(name) {   // pre-rendered video (e.g. a globe flight), frames supplied by render.mjs
+  const fr = CLIPS[name], span = SPANS.find(s => s.scene === name && CUR_T >= s.start - 1 && CUR_T <= s.end + 1);
+  const i = Math.max(0, Math.min(fr.length - 1, Math.floor((CUR_T - (span ? span.start : 0)) * 30)));
+  const im = fr[i]; if (!im) return;
+  const sc = Math.max(W / im.width, H / im.height);
+  ctx.drawImage(im, (W - im.width * sc) / 2, (H - im.height * sc) / 2, im.width * sc, im.height * sc);
+}
 function spanFor(name, t) { return SPANS.find(s => s.scene === name && t >= s.start - 1 && t <= s.end + 1); }
 function drawScene(name, localT, alpha) {
   if (alpha <= 0) return;
-  const fn = IMGS[name] ? (tt => drawImageScene(name, spanFor(name, CUR_T), tt)) : (SCENES[name] || SCENES.black);
-  const z = IMGS[name] ? 1 : 1 + 0.05 * clamp(localT / 14);
+  const fn = TL.sketches && TL.sketches[name] ? (() => drawSketch(name)) : CLIPS[name] ? (() => drawClip(name))
+    : IMGS[name] ? (tt => drawImageScene(name, spanFor(name, CUR_T), tt)) : (SCENES[name] || SCENES.black);
+  const z = IMGS[name] || CLIPS[name] || (TL.sketches && TL.sketches[name]) ? 1 : 1 + 0.05 * clamp(localT / 14);
   const target = alpha < 1 ? OFFC : MAIN;
   const prev = ctx; ctx = target;
   ctx.save(); ctx.setTransform(1, 0, 0, 1, 0, 0);
@@ -416,6 +425,13 @@ function drawCaptions(b, t, y = LAND() ? H - 150 : 1440) {
     if (t >= s - 0.02 && t < e) { c = cs[i]; c.s = s; break; }
   }
   if (!c) return;
+  const who = TL.speakers && TL.speakers[b.speaker];
+  if (who && who.name) {   // dialogue: small name tag above the caption
+    ctx.save(); font(34, 800); const tw = ctx.measureText(who.name.toUpperCase()).width + 44, ty = y - 110;
+    ctx.globalAlpha = clamp((t - b.start) / 0.2);
+    ctx.fillStyle = who.color || TL.accent; rr(W / 2 - tw / 2, ty - 26, tw, 52, 26); ctx.fill();
+    ctx.fillStyle = '#111'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(who.name.toUpperCase(), W / 2, ty + 1); ctx.restore();
+  }
   font(LAND() ? 70 : 84, 900);
   const sp = 22;
   const widths = c.map(w => ctx.measureText(up(w.w)).width);
@@ -429,7 +445,7 @@ function drawCaptions(b, t, y = LAND() ? H - 150 : 1440) {
     const active = t >= w.t0 && t < (c[i + 1] ? c[i + 1].t0 : 1e9);
     const txt = up(w.w);
     ctx.lineWidth = 16; ctx.strokeStyle = 'rgba(0,0,0,0.9)'; ctx.strokeText(txt, x, 0);
-    ctx.fillStyle = active ? TL.accent : '#ffffff';
+    ctx.fillStyle = active ? ((who && who.color) || TL.accent) : '#ffffff';
     ctx.fillText(txt, x, 0);
     x += widths[i] + sp;
   });
@@ -778,7 +794,7 @@ function drawFrame(t) {
     if (TL.beats[i - 1].scene !== b.scene) { sceneStart = TL.beats[i].start; prevScene = TL.beats[i - 1].scene; break; }
     sceneStart = TL.beats[i - 1].start;
   }
-  const fadeK = clamp((t - sceneStart) / 0.7);
+  const fadeK = clamp((t - sceneStart) / (TL.fade || 0.7));
   if (prevScene && fadeK < 1) drawScene(prevScene, t, 1);
   drawScene(b.scene, t - sceneStart, prevScene ? ease(fadeK) : 1);
 
@@ -809,7 +825,9 @@ async function setup(tl) {
   TL = tl;
   if (TL.landscape) { W = 1920; H = 1080; }
   cv.width = W; cv.height = H; OFF.width = W; OFF.height = H; OFFC = OFF.getContext('2d');
-  await Promise.all(['900 80px Inter', '700 40px Inter', '500 40px Inter', '600 30px Inter', '400 36px "JetBrains Mono"'].map(f => document.fonts.load(f).catch(() => 0)));
+  await Promise.all(['900 80px Inter', '700 40px Inter', '500 40px Inter', '600 30px Inter', '400 36px "JetBrains Mono"', '700 40px "Bradley Hand"'].map(f => document.fonts.load(f).catch(() => 0)));
+  CLIPS = {};
+  await Promise.all(Object.entries(TL.clipFrames || {}).map(([k, urls]) => Promise.all(urls.map(u => new Promise(res => { const im = new Image(); im.onload = () => res(im); im.onerror = () => res(null); im.src = u; }))).then(ims => { CLIPS[k] = ims; })));
   // phone spans
   PHONE_SPANS = []; let cur = null;
   for (const b of TL.beats) {

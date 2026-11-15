@@ -1,0 +1,23 @@
+# The Ottoman Empire (1299–1922)
+
+Dialogue Shorts: the questioner is bm_fable (British), the answerer am_santa. Sketch maps (frontiers growing, sieges,
+fleets), public-domain paintings and miniatures, globe flights. Two parts where the story is big. Ends with a long-form cut.
+
+| # | Topic | Hook idea | Status |
+|---|---|---|---|
+| 01 | Osman and the beginning (c. 1299–1326) | A small frontier lord's dream of a tree that covered the world | planned |
+| 02 | Into Europe: Gallipoli 1354, Kosovo 1389 | An earthquake opened the door to Europe | planned |
+| 03 | Ankara 1402: Timur captures Bayezid | The sultan who was taken prisoner | planned |
+| 04a | 1453, Part 1: the walls of Constantinople | A thousand-year wall vs. the biggest cannon in the world | planned |
+| 04b | 1453, Part 2: ships over the hill | He moved a fleet over land | planned |
+| 05 | Selim I: Chaldiran 1514, Cairo 1517 | Eight years that doubled an empire | planned |
+| 06a | Suleiman, Part 1: Mohács 1526, Vienna 1529 | Europe's most feared ruler at 26 | planned |
+| 06b | Suleiman, Part 2: the lawgiver and Hürrem | Why Turks call him "the Lawgiver" | planned |
+| 07 | Barbarossa and Preveza 1538 | A pirate became the sultan's admiral | planned |
+| 08 | Lepanto 1571 (links to the Spain series) | The battle that "broke" a navy that was rebuilt in a winter | planned |
+| 09 | Istanbul's water: the Taksim maksem (1730s) | Reuse the 3D Blender scene | planned |
+| 10 | Vienna 1683 | The last march on Vienna | planned |
+| 11 | 1826: the end of the Janissaries | The sultan who destroyed his own army | planned |
+| 12 | Tanzimat 1839 and the "sick man of Europe" | Reform in a rose garden | planned |
+| 13 | Gallipoli 1915 | | planned |
+| 14 | 1922: the last sultan leaves | | planned |

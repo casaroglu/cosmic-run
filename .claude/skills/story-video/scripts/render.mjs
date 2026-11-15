@@ -5,6 +5,7 @@ import { createRequire } from 'node:module';
 import { spawn } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
+import os from 'node:os';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const require = createRequire(import.meta.url);
@@ -20,6 +21,16 @@ const tl = JSON.parse(fs.readFileSync(path.join(outDir, 'timeline.json'), 'utf8'
 for (const v of Object.values(tl.images || {})) {   // file:// images would taint the canvas -> inline them
   const ext = path.extname(v.file).slice(1).toLowerCase().replace('jpg', 'jpeg');
   v.src = `data:image/${ext};base64,` + fs.readFileSync(v.file).toString('base64');
+}
+
+// pre-rendered clips (e.g. a globe flight): extract frames once, hand them to the page as JPEG data URLs
+import { execFileSync } from 'node:child_process';
+tl.clipFrames = {};
+for (const [k, f] of Object.entries(tl.clips || {})) {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'clip-'));
+  execFileSync('ffmpeg', ['-loglevel', 'error', '-i', f, '-vf', 'fps=30', '-q:v', '3', path.join(dir, '%04d.jpg')]);
+  tl.clipFrames[k] = fs.readdirSync(dir).sort().map(n => 'data:image/jpeg;base64,' + fs.readFileSync(path.join(dir, n)).toString('base64'));
+  fs.rmSync(dir, { recursive: true });
 }
 
 if (tl.overlay && tl.overlay.anchors && fs.existsSync(tl.overlay.anchors)) tl.anchors = JSON.parse(fs.readFileSync(tl.overlay.anchors, 'utf8'));
