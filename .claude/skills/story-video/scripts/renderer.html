@@ -647,7 +647,7 @@ function drawCredit(t, b) {
   const c = (TL.images[span.scene] || {}).credit; if (!c) return;
   ctx.save(); font(22, 500); ctx.globalAlpha = 0.75 * clamp((t - span.start) / 0.6);
   ctx.fillStyle = 'rgba(0,0,0,0.45)'; const w = ctx.measureText(c).width;
-  const cx = LAND() ? W - w - 84 : 56, cy = LAND() ? 52 : 1620;
+  const cx = LAND() ? W - w - 84 : 56, cy = LAND() ? H - 70 : 1620;
   rr(cx, cy, w + 28, 40, 8); ctx.fill();
   ctx.fillStyle = '#fff'; ctx.textBaseline = 'middle'; ctx.fillText(c, cx + 14, cy + 21); ctx.restore();
 }
@@ -812,6 +812,14 @@ function drawFrame(t) {
   else if (b.type === 'narration') { ctx.save(); ctx.globalAlpha = 1 - pv; drawCaptions(b, t); ctx.restore(); }
   else if (b.type === 'end') drawEnd(b, t);
 
+  // channel logo, top-right corner
+  const wm = IMGS.__watermark;
+  if (wm) {
+    const s = LAND() ? 110 : 120, x = W - s - 40, y = LAND() ? 40 : 170;
+    ctx.save(); ctx.globalAlpha = 0.92 * clamp(t / 0.6); ctx.shadowColor = 'rgba(0,0,0,0.5)'; ctx.shadowBlur = 14;
+    ctx.beginPath(); ctx.arc(x + s / 2, y + s / 2, s / 2, 0, 6.283); ctx.fillStyle = '#E8B44A'; ctx.fill(); ctx.shadowBlur = 0;
+    ctx.clip(); ctx.drawImage(wm, x, y, s, s); ctx.restore();
+  }
   // film grain
   const r = rng(Math.floor(t * 30) + 1);
   ctx.fillStyle = 'rgba(255,255,255,0.035)';

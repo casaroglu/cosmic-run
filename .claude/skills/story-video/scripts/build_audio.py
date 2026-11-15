@@ -7,7 +7,7 @@ under the voice and writes the final mix.
 
 usage: build_audio.py STORY.json OUT_DIR
 """
-import json
+import json, re
 import math
 import os
 import sys
@@ -38,6 +38,60 @@ _kokoro = None
 
 
 PIPER_DIR = os.environ.get("PIPER_DIR", os.path.expanduser("~/.cache/piper"))
+
+
+# ---------- spoken years ----------
+_ONES = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split()
+_TENS = "_ _ twenty thirty forty fifty sixty seventy eighty ninety".split()
+
+
+def _two(n):
+    if n < 20:
+        return _ONES[n]
+    return _TENS[n // 10] + ("" if n % 10 == 0 else "-" + _ONES[n % 10])
+
+
+def year_words(y, plural=False):
+    """1988 -> nineteen eighty-eight, 1507 -> fifteen oh-seven, 1300 -> thirteen hundred, 2010 -> twenty ten"""
+    hi, lo = divmod(y, 100)
+    if 2000 <= y <= 2009:
+        w = "two thousand" + ("" if y == 2000 else " and " + _ONES[y - 2000])
+    elif lo == 0:
+        w = _two(hi) + " hundred"
+    elif lo < 10:
+        w = _two(hi) + " oh-" + _ONES[lo]
+    else:
+        w = _two(hi) + " " + _two(lo)
+    if plural:   # the 1400s -> fourteen hundreds, the 1980s -> nineteen eighties
+        w = w[:-1] + "ies" if w.endswith("y") else w + "s"
+    return w
+
+
+def speak_years(text, lang="en-us"):
+    """Spell out 4-digit years (1000-2099) so the TTS reads them like a person; leaves 1,000 / 20,000,000 alone."""
+    if not lang.startswith("en"):
+        return text
+    def rep(m):
+        y = int(m.group(1))
+        return year_words(y, plural=bool(m.group(2))) if 1000 <= y <= 2099 else m.group(0)
+    return re.sub(r"(?<![\d,.])(\d{4})(s)?(?!\d|,\d)", rep, text)
+
+
+def shape_voice(x, pitch=0.0, rise=0.0, rise_len=0.45):
+    """Raise a voice by `pitch` semitones, plus a glide of `rise` semitones over the last `rise_len` s
+    (a curious, questioning lift). Resampling: pitch and tempo move together, which reads as livelier."""
+    if not pitch and not rise:
+        return x
+    n = len(x)
+    ratio = np.full(n, 2 ** (pitch / 12))
+    if rise:
+        k = int(rise_len * SR)
+        ramp = np.clip((np.arange(n) - (n - k)) / max(1, k), 0, 1) ** 1.5
+        ratio *= 2 ** (rise * ramp / 12)
+    t_out = np.cumsum(1 / ratio)            # output time of every input sample
+    out_n = int(t_out[-1])
+    pos = np.interp(np.arange(out_n), t_out, np.arange(n))
+    return np.interp(pos, np.arange(n), x).astype(np.float32)
 
 
 def tts_piper(text, voice, speed):
@@ -341,8 +395,11 @@ def main(story_path, out_dir):
         if story.get("pencil_sound") and b["scene"] in story.get("sketches", {}) and b["scene"] not in drawn_sketches:
             drawn_sketches.add(b["scene"]); sfx.append((t, sfx_pencil()))
         if speaker:
-            say = b.get("say", b["text"])
+            say = speak_years(b.get("say", b["text"]), lang)
+            sp = (story.get("speakers") or {}).get(speaker, {})
             audio = tts(say, voices[speaker], b.get("speed", speeds.get(speaker, 1.0)), lang)
+            q = b["text"].rstrip().endswith("?")
+            audio = shape_voice(audio, sp.get("pitch", 0.0), sp.get("rise", 0.0) if q else 0.0)
             dur = len(audio) / SR
             b["voiceStart"] = round(t, 3)
             b["voiceEnd"] = round(t + dur, 3)
@@ -350,6 +407,8 @@ def main(story_path, out_dir):
             b["speaker"] = speaker
             clips.append((t, audio * b.get("gain", 1.0)))
             t += dur + b.get("gap", GAP)
+            if b["text"].rstrip().endswith("?"):
+                t += sp.get("pause_after_question", 0.0)   # let the question land before the answer
         elif typ == "chat":  # silent message / photo: hold by length
             t += b.get("hold", 1.3 if b.get("photo") else 0.6 + 0.045 * len(b.get("text", "")))
         elif typ == "notify":
@@ -405,8 +464,11 @@ def main(story_path, out_dir):
         "aiColors": story.get("ai_colors"),
         "highlight": story.get("highlight"),
         "hair": story.get("narrator_hair"),
-        "images": {k: {**v, "file": os.path.abspath(os.path.join(os.path.dirname(story_path), v["file"]))}
-                   for k, v in story.get("images", {}).items()},
+        "images": {**{k: {**v, "file": os.path.abspath(os.path.join(os.path.dirname(story_path), v["file"]))}
+                      for k, v in story.get("images", {}).items()},
+                   # channel logo drawn small in a corner for the whole video
+                   **({"__watermark": {"file": os.path.abspath(os.path.join(os.path.dirname(story_path), story["watermark"]))}}
+                      if story.get("watermark") else {})},
         "lang": lang,
         "overlay": {k: os.path.abspath(os.path.join(os.path.dirname(story_path), v))
                     for k, v in story["overlay"].items()} if story.get("overlay") else None,

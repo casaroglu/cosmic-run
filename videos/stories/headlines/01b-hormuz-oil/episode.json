@@ -10,7 +10,10 @@
  "speakers": {
   "q": {
    "name": "Ava",
-   "color": "#7fd3ff"
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
   },
   "a": {
    "name": "Leo",
@@ -711,13 +714,26 @@
    "text": "Today, about twenty million barrels a day still squeeze through the same narrow gap. So whoever threatens it can still shake the world."
   },
   {
+   "type": "narration",
+   "speaker": "a",
+   "cta": true,
+   "text": "If you enjoyed this, give it a like and follow History Sketches for more."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "cta": true,
+   "text": "And tell us in the comments: what do you think, and what should we explore next?"
+  },
+  {
    "type": "end",
    "scene": "globeout",
    "date": "",
-   "text": "Next: the Ottoman Empire",
-   "sub": "Follow History Sketches"
+   "text": "Thanks for watching!",
+   "sub": "Like · Follow · Comment"
   }
  ],
  "scene_pad": 0.5,
- "fade": 1.1
+ "fade": 1.1,
+ "watermark": "../../../../brand/history-sketches/option_c.png"
 }

@@ -10,7 +10,10 @@
  "speakers": {
   "q": {
    "name": "Ava",
-   "color": "#7fd3ff"
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
   },
   "a": {
    "name": "Leo",
@@ -855,11 +858,24 @@
    "text": "Well, Persia's Shah Abbas wanted it back. He had a great army. But he didn't have a navy."
   },
   {
+   "type": "narration",
+   "speaker": "q",
+   "cta": true,
+   "text": "Wait, so what happened next?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "cta": true,
+   "text": "That's Part 2. Like the video and follow History Sketches so you don't miss it. And tell us in the comments what you think!"
+  },
+  {
    "type": "end",
    "text": "Part 2: the shah, the English and the oil",
-   "sub": "Follow so you don't miss it"
+   "sub": "Follow History Sketches"
   }
  ],
  "scene_pad": 0.5,
- "fade": 1.1
+ "fade": 1.1,
+ "watermark": "../../../../brand/history-sketches/option_c.png"
 }
