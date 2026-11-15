@@ -1,0 +1,546 @@
+{
+ "series": "The Ottoman Empire",
+ "episode": 2,
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
+  },
+  "a": {
+   "name": "Theo",
+   "color": "#E8B44A"
+  }
+ },
+ "accent": "#E8B44A",
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "scene_pad": 0.5,
+ "fade": 1.1,
+ "title": "How did the Ottomans get into Europe?",
+ "highlight": [
+  "Ottomans",
+  "Europe?"
+ ],
+ "music": {
+  "mood": "epic",
+  "seed": 52,
+  "drums": true,
+  "level": 0.3
+ },
+ "post": {
+  "caption": "The Ottoman Empire, episode 2: an earthquake at Gallipoli (1354), Edirne, and the Battle of Kosovo (1389). Images: public domain. Map data: Natural Earth.",
+  "hashtags": [
+   "history",
+   "ottoman",
+   "ottomanempire",
+   "gallipoli",
+   "kosovo",
+   "balkans",
+   "shorts"
+  ]
+ },
+ "clips": {
+  "globe": "sketch/globe_in.mp4"
+ },
+ "images": {
+  "kantakouzenos": {
+   "file": "img/kantakouzenos.jpg",
+   "credit": "Emperor John VI Kantakouzenos presiding over a synod (14th-c. manuscript)",
+   "where": "Bibliothèque nationale de France"
+  },
+  "edirne": {
+   "file": "img/edirne.jpg",
+   "credit": "William Leighton Leitch, A street in Adrianople (c. 1835)",
+   "where": "Public domain"
+  },
+  "murad": {
+   "file": "img/murad.jpg",
+   "credit": "Portrait of Murad I (Ottoman miniature)",
+   "where": "Public domain"
+  },
+  "lazar": {
+   "file": "img/lazar.jpg",
+   "credit": "Prince Lazar, fresco at Ravanica Monastery (1380s)",
+   "where": "Ravanica Monastery, Serbia"
+  },
+  "kosovo": {
+   "file": "img/kosovo.jpg",
+   "credit": "Adam Stefanović, The Battle of Kosovo (1870)",
+   "where": "Public domain"
+  },
+  "maiden": {
+   "file": "img/maiden.jpg",
+   "credit": "Uroš Predić, The Kosovo Maiden (1919)",
+   "where": "National Museum of Serbia"
+  }
+ },
+ "sketches": {
+  "strait": {
+   "coast": "sketch/dardanelles.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 2.0
+    },
+    {
+     "kind": "label",
+     "text": "EUROPE",
+     "pos": [
+      26.3,
+      41.15
+     ],
+     "at": 1.2,
+     "size": 60
+    },
+    {
+     "kind": "label",
+     "text": "ASIA",
+     "pos": [
+      27.9,
+      39.85
+     ],
+     "at": 1.4,
+     "size": 60
+    },
+    {
+     "kind": "label",
+     "text": "Dardanelles",
+     "pos": [
+      26.62,
+      40.05
+     ],
+     "at": 1.8,
+     "size": 46,
+     "color": "#1f4e8c",
+     "rot": 0.75
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      26.67,
+      40.41
+     ],
+     "label": "Gelibolu",
+     "lx": -20,
+     "ly": -45,
+     "lalign": "right",
+     "at": 2.4
+    }
+   ]
+  },
+  "quake": {
+   "coast": "sketch/dardanelles.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "fort",
+     "pos": [
+      26.67,
+      40.41
+     ],
+     "size": 42,
+     "at": 0.5
+    },
+    {
+     "kind": "label",
+     "text": "Gallipoli",
+     "pos": [
+      26.95,
+      40.6
+     ],
+     "at": 0.8,
+     "size": 50
+    },
+    {
+     "kind": "circle",
+     "pos": [
+      26.67,
+      40.41
+     ],
+     "r": 110,
+     "ry": 95,
+     "at": 1.6,
+     "dur": 0.5,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "circle",
+     "pos": [
+      26.67,
+      40.41
+     ],
+     "r": 160,
+     "ry": 140,
+     "at": 2.0,
+     "dur": 0.5,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "text",
+     "text": "EARTHQUAKE",
+     "pos": [
+      0.5,
+      0.2
+     ],
+     "at": 1.8,
+     "size": 80,
+     "color": "#b3261e",
+     "cps": 30
+    },
+    {
+     "kind": "text",
+     "text": "2 March 1354",
+     "pos": [
+      0.5,
+      0.25
+     ],
+     "at": 2.6,
+     "size": 54
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      27.7,
+      40.2
+     ],
+     "to": [
+      26.8,
+      40.38
+     ],
+     "bend": 0.25,
+     "at": 4.5,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "Süleyman",
+     "pos": [
+      27.75,
+      40.05
+     ],
+     "at": 5.0,
+     "size": 52,
+     "color": "#b3261e"
+    }
+   ]
+  },
+  "push": {
+   "coast": "sketch/balkans.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 2.2
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      26.67,
+      40.41
+     ],
+     "label": "Gallipoli",
+     "lx": 20,
+     "ly": 45,
+     "at": 0.8
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      26.7,
+      40.5
+     ],
+     "to": [
+      26.56,
+      41.6
+     ],
+     "bend": -0.2,
+     "at": 1.4,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      26.56,
+      41.68
+     ],
+     "label": "Adrianople (Edirne)",
+     "lx": -25,
+     "ly": -40,
+     "at": 2.2,
+     "lalign": "right"
+    },
+    {
+     "kind": "label",
+     "text": "1360s",
+     "pos": [
+      27.6,
+      41.0
+     ],
+     "at": 2.6,
+     "size": 58,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      26.3,
+      41.8
+     ],
+     "to": [
+      21.4,
+      42.6
+     ],
+     "bend": 0.15,
+     "at": 6.4,
+     "dur": 1.6,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      21.13,
+      42.68
+     ],
+     "label": "Kosovo field",
+     "lx": -20,
+     "ly": -45,
+     "lalign": "right",
+     "at": 7.6
+    },
+    {
+     "kind": "label",
+     "text": "SERBIA",
+     "pos": [
+      20.6,
+      44.0
+     ],
+     "at": 7.0,
+     "size": 56,
+     "color": "#1f4e8c"
+    }
+   ]
+  },
+  "legacy": {
+   "items": [
+    {
+     "kind": "photo",
+     "key": "maiden",
+     "pos": [
+      0.5,
+      0.32
+     ],
+     "w": 680,
+     "rot": -0.03,
+     "at": 0.1
+    },
+    {
+     "kind": "text",
+     "text": "Vidovdan: 28 June",
+     "pos": [
+      0.5,
+      0.62
+     ],
+     "at": 1.5,
+     "size": 70,
+     "color": "#b3261e"
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "globe",
+   "text": "How did the Ottomans get into Europe?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Across this narrow strait, the Dardanelles. Today it runs through Türkiye, between Europe and Asia."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "strait",
+   "date": "Today",
+   "place": "Dardanelles",
+   "text": "Wasn't the Byzantine Empire guarding it?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "It was weak, and fighting a civil war."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "kantakouzenos",
+   "date": "1340s",
+   "place": "Byzantium",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.3,
+     1.4
+    ]
+   },
+   "text": "One rival emperor, John Kantakouzenos, allied with Orhan, gave him his daughter in marriage, and brought Ottoman soldiers into Europe to fight for him."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "quake",
+   "date": "",
+   "text": "So when did they stay for good?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In 1354, an earthquake shook the walls of Gallipoli. Orhan's son Süleyman marched in, brought settlers from Anatolia, and never left."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "push",
+   "text": "Just like that?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Right. Gallipoli became the bridgehead. In the 1360s they took Adrianople, today's Edirne, which became their new capital."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "edirne",
+   "date": "1360s",
+   "place": "Adrianople",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.55,
+     1.25
+    ]
+   },
+   "text": "From there, Sultan Murad pushed deep into the Balkans."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "lazar",
+   "date": "",
+   "move": {
+    "from": [
+     0.5,
+     0.45,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.3,
+     1.3
+    ]
+   },
+   "text": "Didn't anyone stop them?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Serbia tried. Prince Lazar gathered an army to meet Murad on the field of Kosovo."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "kosovo",
+   "date": "15 June 1389",
+   "place": "Kosovo field",
+   "move": {
+    "from": [
+     0.3,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.6,
+     0.5,
+     1.25
+    ]
+   },
+   "text": "On the fifteenth of June, 1389, the two armies clashed. Both rulers died that day."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "murad",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.35,
+     1.35
+    ]
+   },
+   "text": "Legend says a Serbian knight reached Murad's tent and stabbed him. He is the only Ottoman sultan to die on a battlefield."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So who won?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "legacy",
+   "date": "",
+   "text": "Not exactly clear. Both armies were shattered. But Serbia could not recover, and soon became an Ottoman vassal. Serbs still remember the battle every year on Vidovdan."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "push",
+   "text": "So the Ottomans were in Europe to stay."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "For more than five hundred years. Next time: the sultan who was taken prisoner. Like the video and follow History Sketches."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And tell us in the comments what you think!"
+  },
+  {
+   "type": "end",
+   "text": "Next: the sultan taken prisoner",
+   "sub": "Follow History Sketches"
+  }
+ ]
+}
