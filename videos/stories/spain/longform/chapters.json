@@ -1,0 +1,255 @@
+[
+ {
+  "n": 1,
+  "out": "00a",
+  "title": "Altamira",
+  "years": "35,000+ years ago",
+  "lat": 43.38,
+  "lon": -4.12,
+  "place": "Altamira"
+ },
+ {
+  "n": 2,
+  "out": "00b",
+  "title": "Gadir",
+  "years": "c. 1100 BC",
+  "lat": 36.53,
+  "lon": -6.29,
+  "place": "Cádiz"
+ },
+ {
+  "n": 3,
+  "out": "00c",
+  "title": "Numantia",
+  "years": "133 BC",
+  "lat": 41.81,
+  "lon": -2.44,
+  "place": "Numantia"
+ },
+ {
+  "n": 4,
+  "out": "00d",
+  "title": "711",
+  "years": "AD 711",
+  "lat": 36.0,
+  "lon": -5.6,
+  "place": "Strait of Gibraltar"
+ },
+ {
+  "n": 5,
+  "out": "00e",
+  "title": "Covadonga",
+  "years": "AD 722",
+  "lat": 43.31,
+  "lon": -5.06,
+  "place": "Covadonga"
+ },
+ {
+  "n": 6,
+  "out": "00f",
+  "title": "Córdoba",
+  "years": "AD 929",
+  "lat": 37.88,
+  "lon": -4.78,
+  "place": "Córdoba"
+ },
+ {
+  "n": 7,
+  "out": "00g",
+  "title": "Las Navas de Tolosa",
+  "years": "1212",
+  "lat": 38.28,
+  "lon": -3.58,
+  "place": "Las Navas de Tolosa"
+ },
+ {
+  "n": 8,
+  "out": "01a",
+  "title": "Granada",
+  "years": "1492",
+  "lat": 37.18,
+  "lon": -3.6,
+  "place": "Granada"
+ },
+ {
+  "n": 9,
+  "out": "01b",
+  "title": "Columbus",
+  "years": "1492",
+  "lat": 24.05,
+  "lon": -74.5,
+  "place": "San Salvador",
+  "route": [
+   [
+    37.21,
+    -6.89
+   ],
+   [
+    28.1,
+    -15.4
+   ],
+   [
+    24.05,
+    -74.5
+   ]
+  ]
+ },
+ {
+  "n": 10,
+  "out": "02a",
+  "title": "The Heir",
+  "years": "1500–1521",
+  "lat": 51.05,
+  "lon": 3.72,
+  "place": "Ghent"
+ },
+ {
+  "n": 11,
+  "out": "02b",
+  "title": "The Emperor Who Quit",
+  "years": "1521–1558",
+  "lat": 40.07,
+  "lon": -5.68,
+  "place": "Yuste"
+ },
+ {
+  "n": 12,
+  "out": "03a",
+  "title": "Philip II",
+  "years": "1556–1598",
+  "lat": 40.59,
+  "lon": -4.15,
+  "place": "El Escorial"
+ },
+ {
+  "n": 13,
+  "out": "03b",
+  "title": "The Armada",
+  "years": "1588",
+  "lat": 50.3,
+  "lon": -1.5,
+  "place": "English Channel",
+  "route": [
+   [
+    38.7,
+    -9.14
+   ],
+   [
+    50.3,
+    -1.5
+   ],
+   [
+    58.5,
+    -3.0
+   ],
+   [
+    54.0,
+    -10.5
+   ],
+   [
+    43.3,
+    -8.4
+   ]
+  ]
+ },
+ {
+  "n": 14,
+  "out": "04a",
+  "title": "Cervantes",
+  "years": "1547–1616",
+  "lat": 40.42,
+  "lon": -3.7,
+  "place": "Madrid"
+ },
+ {
+  "n": 15,
+  "out": "04b",
+  "title": "Velázquez",
+  "years": "1599–1660",
+  "lat": 40.41,
+  "lon": -3.69,
+  "place": "Madrid"
+ },
+ {
+  "n": 16,
+  "out": "06",
+  "title": "The Spanish Succession",
+  "years": "1700–1714",
+  "lat": 36.14,
+  "lon": -5.35,
+  "place": "Gibraltar"
+ },
+ {
+  "n": 17,
+  "out": "05a",
+  "title": "1808",
+  "years": "Spring 1808",
+  "lat": 40.42,
+  "lon": -3.7,
+  "place": "Madrid"
+ },
+ {
+  "n": 18,
+  "out": "05b",
+  "title": "The Little War",
+  "years": "1808–1814",
+  "lat": 41.65,
+  "lon": -0.88,
+  "place": "Zaragoza"
+ },
+ {
+  "n": 19,
+  "out": "07",
+  "title": "Cádiz 1812",
+  "years": "1812",
+  "lat": 36.53,
+  "lon": -6.29,
+  "place": "Cádiz"
+ },
+ {
+  "n": 20,
+  "out": "08",
+  "title": "1898",
+  "years": "Summer 1898",
+  "lat": 23.11,
+  "lon": -82.37,
+  "place": "Havana",
+  "route": [
+   [
+    40.42,
+    -3.7
+   ],
+   [
+    23.11,
+    -82.37
+   ]
+  ]
+ },
+ {
+  "n": 21,
+  "out": "09a",
+  "title": "The Republic",
+  "years": "1931–1936",
+  "lat": 40.42,
+  "lon": -3.7,
+  "place": "Madrid"
+ },
+ {
+  "n": 22,
+  "out": "09b",
+  "title": "The Civil War",
+  "years": "1936–1939",
+  "lat": 43.32,
+  "lon": -2.68,
+  "place": "Guernica"
+ },
+ {
+  "n": 23,
+  "out": "10",
+  "title": "The Transition",
+  "years": "1975–1982",
+  "lat": 40.42,
+  "lon": -3.7,
+  "place": "Madrid"
+ }
+]

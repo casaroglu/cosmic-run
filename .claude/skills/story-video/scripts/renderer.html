@@ -8,12 +8,13 @@
 <canvas id="c" width="1080" height="1920"></canvas>
 <script>
 // Deterministic frame renderer: drawFrame(t) paints the video at time t.
-const W = 1080, H = 1920;
+let W = 1080, H = 1920;  // setup() switches to 1920x1080 when TL.landscape
 const cv = document.getElementById('c');
 const MAIN = cv.getContext('2d');
 let ctx = MAIN;
 const OFF = Object.assign(document.createElement('canvas'), { width: 1080, height: 1920 });
-const OFFC = OFF.getContext('2d');
+let OFFC = OFF.getContext('2d');
+const LAND = () => W > H;
 const FONT = "'Inter', 'Helvetica Neue', Arial, sans-serif";
 let TL = null, PHONE_SPANS = [], MSGS = [], CUR_T = 0, IMGS = {}, SPANS = [];
 
@@ -325,6 +326,7 @@ function drawImageScene(name, span, t) {
   const im = IMGS[name]; if (!im) return SCENES.black(t);
   const mv = (span && span.move) || {};
   const p = span ? ease(clamp((CUR_T - span.start) / Math.max(0.1, span.end - span.start))) : 0;
+  if (LAND() && im.width / im.height < 1.45) return drawImageLand(name, im, mv, p);
   const a = mv.from || [0.5, 0.5, 1.0], b = mv.to || [a[0], a[1], (a[2] || 1) * 1.12];
   const cx = lerp(a[0], b[0], p), cy = lerp(a[1], b[1], p), z = lerp(a[2] || 1, b[2] || 1, p);
   const s = Math.max(W / im.width, H / im.height) * z, dw = im.width * s, dh = im.height * s;
@@ -346,6 +348,22 @@ function drawImageScene(name, span, t) {
     ctx.beginPath(); ctx.arc(px, py, sz, 0, 6.283); ctx.fill();
   }
   ctx.globalAlpha = 1;
+}
+function drawImageLand(name, im, mv, p) {
+  // landscape frame, portrait-ish painting: whole painting fills the height over a blurred, darkened copy
+  const sc = Math.max(W / im.width, H / im.height) * 1.1;
+  ctx.save(); ctx.filter = 'blur(28px) brightness(0.45) saturate(0.9)';
+  ctx.drawImage(im, (W - im.width * sc) / 2, (H - im.height * sc) / 2 - p * 30, im.width * sc, im.height * sc);
+  ctx.restore();
+  const a = mv.from || [0.5, 0.5, 1], b = mv.to || [a[0], a[1], (a[2] || 1) * 1.12];
+  const zr = clamp((b[2] || 1) / (a[2] || 1), 0.85, 1.25);           // keep the episode's zoom direction, gentler
+  const z = lerp(1, 1 + (zr - 1) * 0.6, p);
+  const fs = Math.min((W * 0.9) / im.width, (H * 0.94) / im.height) * z, dw = im.width * fs, dh = im.height * fs;
+  const fx = lerp(a[0], b[0], p) - 0.5, fy = lerp(a[1], b[1], p) - 0.5; // drift toward the episode's focus point
+  let x = (W - dw) / 2 - fx * (z - 1) * dw * 1.6, y = (H - dh) / 2 - fy * (z - 1) * dh * 1.6;
+  ctx.save(); ctx.shadowColor = 'rgba(0,0,0,0.75)'; ctx.shadowBlur = 60;
+  ctx.drawImage(im, x, y, dw, dh); ctx.restore();
+  ctx.strokeStyle = 'rgba(232,180,74,0.35)'; ctx.lineWidth = 2; ctx.strokeRect(x - 1, y - 1, dw + 2, dh + 2);
 }
 function spanFor(name, t) { return SPANS.find(s => s.scene === name && t >= s.start - 1 && t <= s.end + 1); }
 function drawScene(name, localT, alpha) {
@@ -389,7 +407,7 @@ function chunks(words) {
   if (cur.length) out.push(cur);
   return out;
 }
-function drawCaptions(b, t, y = 1440) {
+function drawCaptions(b, t, y = LAND() ? H - 150 : 1440) {
   if (!b.words) return;
   const cs = chunks(b.words);
   let c = null;
@@ -398,11 +416,11 @@ function drawCaptions(b, t, y = 1440) {
     if (t >= s - 0.02 && t < e) { c = cs[i]; c.s = s; break; }
   }
   if (!c) return;
-  font(84, 900);
+  font(LAND() ? 70 : 84, 900);
   const sp = 22;
   const widths = c.map(w => ctx.measureText(up(w.w)).width);
   let total = widths.reduce((a, b) => a + b, 0) + sp * (c.length - 1);
-  let scale = total > 960 ? 960 / total : 1;
+  const maxW = LAND() ? 1400 : 960; let scale = total > maxW ? maxW / total : 1;
   const pop = backOut((t - c.s) / 0.18);
   ctx.save(); ctx.translate(W / 2, y); ctx.scale(scale * (0.85 + 0.15 * pop), scale * (0.85 + 0.15 * pop));
   let x = -total / 2;
@@ -600,10 +618,11 @@ function drawDate(t) {
   font(30, 700); const label = cur.date.toUpperCase();
   const w = ctx.measureText(label).width;
   ctx.textBaseline = 'middle'; ctx.textAlign = 'left';
-  ctx.fillStyle = 'rgba(0,0,0,0.55)'; rr(70, 250, w + 110, 74, 14); ctx.fill();
-  ctx.fillStyle = TL.accent; ctx.fillRect(70, 250, 10, 74);
-  ctx.fillStyle = '#fff'; ctx.letterSpacing = '3px'; ctx.fillText(label, 110 + (1 - k) * 30, 289);
-  if (cur.place) { font(26, 500); ctx.fillStyle = 'rgba(255,255,255,0.85)'; ctx.fillText(cur.place, 74, 360); }
+  const dy = LAND() ? 60 : 250;
+  ctx.fillStyle = 'rgba(0,0,0,0.55)'; rr(70, dy, w + 110, 74, 14); ctx.fill();
+  ctx.fillStyle = TL.accent; ctx.fillRect(70, dy, 10, 74);
+  ctx.fillStyle = '#fff'; ctx.letterSpacing = '3px'; ctx.fillText(label, 110 + (1 - k) * 30, dy + 39);
+  if (cur.place) { font(26, 500); ctx.fillStyle = 'rgba(255,255,255,0.85)'; ctx.fillText(cur.place, 74, dy + 110); }
   ctx.restore();
 }
 function drawCredit(t, b) {
@@ -612,8 +631,9 @@ function drawCredit(t, b) {
   const c = (TL.images[span.scene] || {}).credit; if (!c) return;
   ctx.save(); font(22, 500); ctx.globalAlpha = 0.75 * clamp((t - span.start) / 0.6);
   ctx.fillStyle = 'rgba(0,0,0,0.45)'; const w = ctx.measureText(c).width;
-  rr(56, 1620, w + 28, 40, 8); ctx.fill();
-  ctx.fillStyle = '#fff'; ctx.textBaseline = 'middle'; ctx.fillText(c, 70, 1641); ctx.restore();
+  const cx = LAND() ? W - w - 84 : 56, cy = LAND() ? 52 : 1620;
+  rr(cx, cy, w + 28, 40, 8); ctx.fill();
+  ctx.fillStyle = '#fff'; ctx.textBaseline = 'middle'; ctx.fillText(c, cx + 14, cy + 21); ctx.restore();
 }
 
 // ---------- notification banner ----------
@@ -649,15 +669,17 @@ function drawTitle(b, t) {
   if (TL.part) {
     font(40, 800); const label = `PART ${TL.part}`;
     const w = ctx.measureText(label).width + 70;
-    ctx.fillStyle = TL.accent; rr(W / 2 - w / 2, 560, w, 76, 38); ctx.fill();
-    ctx.fillStyle = '#111'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(label, W / 2, 600);
+    const py = LAND() ? 250 : 560;
+    ctx.fillStyle = TL.accent; rr(W / 2 - w / 2, py, w, 76, 38); ctx.fill();
+    ctx.fillStyle = '#111'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(label, W / 2, py + 40);
   }
   font(100, 900); ctx.textAlign = 'center'; ctx.textBaseline = 'alphabetic'; ctx.lineJoin = 'round';
   const words = b.words || b.text.split(' ').map(w => ({ w, t0: b.start }));
-  const lines = wrap(words.map(w => w.w).join(' '), 900);
+  const lines = wrap(words.map(w => w.w).join(' '), LAND() ? 1500 : 900);
   let wi = 0;
+  const ty0 = LAND() ? H / 2 + 30 - (lines.length - 1) * 59 : 820;
   lines.forEach((line, li) => {
-    const lw = ctx.measureText(line.join(' ')).width; let x = W / 2 - lw / 2; const y = 820 + li * 118;
+    const lw = ctx.measureText(line.join(' ')).width; let x = W / 2 - lw / 2; const y = ty0 + li * 118;
     ctx.textAlign = 'left';
     line.forEach(w => {
       const wt = words[wi++]; const on = clamp((t - wt.t0) / 0.15);
@@ -785,6 +807,8 @@ function drawFrame(t) {
 
 async function setup(tl) {
   TL = tl;
+  if (TL.landscape) { W = 1920; H = 1080; }
+  cv.width = W; cv.height = H; OFF.width = W; OFF.height = H; OFFC = OFF.getContext('2d');
   await Promise.all(['900 80px Inter', '700 40px Inter', '500 40px Inter', '600 30px Inter', '400 36px "JetBrains Mono"'].map(f => document.fonts.load(f).catch(() => 0)));
   // phone spans
   PHONE_SPANS = []; let cur = null;

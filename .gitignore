@@ -1,3 +1,5 @@
 videos/out/
 .claude/skills/story-video/scripts/node_modules/
 __pycache__/
+videos/stories/spain/longform/geo/
+videos/stories/spain/longform/globe/node_modules/

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// timeline.json + audio.wav  ->  video.mp4 (1080x1920, H.264/AAC)
+// timeline.json + audio.wav  ->  video.mp4 (1080x1920, or 1920x1080 when timeline.landscape)
 // usage: node render.mjs OUT_DIR [--preview SECONDS...]   (preview writes PNG stills instead)
 import { createRequire } from 'node:module';
 import { spawn } from 'node:child_process';
@@ -26,7 +26,7 @@ if (tl.overlay && tl.overlay.anchors && fs.existsSync(tl.overlay.anchors)) tl.an
 
 const launchOpts = process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {};
 const browser = await chromium.launch(launchOpts);
-const page = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
+const page = await browser.newPage({ viewport: tl.landscape ? { width: 1920, height: 1080 } : { width: 1080, height: 1920 } });
 page.on('pageerror', e => console.error('page error:', e.message));
 await page.goto(pathToFileURL(path.join(here, 'renderer.html')).href);
 await page.evaluate(t => window.setup(t), tl);
