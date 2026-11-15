@@ -260,7 +260,7 @@ const SK_ITEMS = {
   counter(name, spec, it, lt) {
     const [x, y] = skPt(spec, it.pos), k = easeOut(skK(lt, it, 1.5)); if (lt < (it.at || 0)) return;
     const v = Math.round((it.from || 0) + ((it.to || 0) - (it.from || 0)) * k);
-    skWrite(`${it.prefix || ''}${v.toLocaleString('en-US')}${it.suffix || ''}`, x, y, 1, { size: it.size || 96, color: it.color || RED, align: it.align });
+    skWrite(`${it.prefix || ''}${it.plain ? v : v.toLocaleString('en-US')}${it.suffix || ''}`, x, y, 1, { size: it.size || 96, color: it.color || RED, align: it.align });
   },
   ringgem(name, spec, it, lt) {   // a gold ring with a jewel on top
     const [x, y] = skPt(spec, it.pos || [0.5, 0.55]), r = it.r || 170, k = skK(lt, it, 1.2), pts = [];
@@ -302,6 +302,30 @@ const SK_ITEMS = {
       if (ph < 0.15) { glow(a[0], a[1], 60, 'rgba(255,170,60,0.9)', 1 - ph / 0.15); }
       if (ph > 0.9) { glow(to[0] + (i * 13 % 40) - 20, to[1] + (i * 7 % 30) - 15, 70, 'rgba(255,120,40,0.85)', (ph - 0.9) * 10); }
     });
+  },
+  tree(name, spec, it, lt) {   // a tree growing branch by branch (for legends, family trees)
+    const [x, y] = skPt(spec, it.pos || [0.5, 0.75]), k = ease(skK(lt, it, 3)), depth = it.depth || 7, segs = [];
+    const grow = (x0, y0, ang, len, d) => {
+      const x1 = x0 + Math.cos(ang) * len, y1 = y0 + Math.sin(ang) * len; segs.push([[x0, y0], [x1, y1], d]);
+      if (d < depth) { const r = skRng(Math.floor(x1 * 7 + y1 * 13)); grow(x1, y1, ang - 0.32 - r() * 0.25, len * 0.74, d + 1); grow(x1, y1, ang + 0.32 + r() * 0.25, len * 0.74, d + 1); }
+    };
+    grow(x, y, -Math.PI / 2, it.size || 230, 1);
+    let tip = null;
+    for (const [a, b, d] of segs) {
+      const kk = clamp(k * depth - (d - 1)); if (kk <= 0) continue;
+      const tp = skStroke([a, b], kk, { width: Math.max(2, 14 - d * 1.8), color: it.color || INK, seed: d }); if (tp) tip = tp;
+      if (d === depth && kk >= 1) { ctx.fillStyle = it.leaf || 'rgba(46,125,50,0.55)'; ctx.beginPath(); ctx.arc(b[0], b[1], 9, 0, 6.283); ctx.fill(); }
+    }
+    return tip;
+  },
+  stamp(name, spec, it, lt) {   // a tilted rubber stamp ("LEGEND", "FACT")
+    const k = backOut(skK(lt, it, 0.35)); if (k <= 0) return;
+    const [x, y] = skPt(spec, it.pos || [0.75, 0.2]);
+    ctx.save(); ctx.translate(x, y); ctx.rotate(it.rot ?? -0.18); ctx.scale(2 - k, 2 - k); ctx.globalAlpha = Math.min(1, k) * 0.85;
+    ctx.font = `900 ${it.size || 72}px ${FONT}`; const w = ctx.measureText(it.text).width + 50, h = (it.size || 72) * 1.35;
+    ctx.strokeStyle = it.color || RED; ctx.lineWidth = 8; ctx.strokeRect(-w / 2, -h / 2, w, h);
+    ctx.fillStyle = it.color || RED; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(it.text, 0, 4);
+    ctx.restore();
   },
   derrick(name, spec, it, lt) {
     const [x, y] = skPt(spec, it.pos || [0.5, 0.62]), h = it.h || 520, w = h * 0.42, k = ease(skK(lt, it, 2));

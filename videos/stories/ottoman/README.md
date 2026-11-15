@@ -1,11 +1,11 @@
 # The Ottoman Empire (1299–1922)
 
-Dialogue Shorts: the questioner is bm_fable (British), the answerer am_santa. Sketch maps (frontiers growing, sieges,
+Dialogue Shorts: Ava asks (af_heart), Theo answers (bm_fable, British). The answerer uses no thinking words. Sketch maps (frontiers growing, sieges,
 fleets), public-domain paintings and miniatures, globe flights. Two parts where the story is big. Ends with a long-form cut.
 
 | # | Topic | Hook idea | Status |
 |---|---|---|---|
-| 01 | Osman and the beginning (c. 1299–1326) | A small frontier lord's dream of a tree that covered the world | planned |
+| 01 | Osman and the beginning (c. 1299–1326) | Where did the Ottoman Empire actually begin? | rendered |
 | 02 | Into Europe: Gallipoli 1354, Kosovo 1389 | An earthquake opened the door to Europe | planned |
 | 03 | Ankara 1402: Timur captures Bayezid | The sultan who was taken prisoner | planned |
 | 04a | 1453, Part 1: the walls of Constantinople | A thousand-year wall vs. the biggest cannon in the world | planned |
