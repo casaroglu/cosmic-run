@@ -1,0 +1,1709 @@
+{
+ "series": "The Ottoman Empire",
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
+  },
+  "a": {
+   "name": "Theo",
+   "color": "#E8B44A"
+  }
+ },
+ "accent": "#E8B44A",
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "scene_pad": 0.5,
+ "fade": 1.1,
+ "episode": "4b",
+ "title": "How do you get a fleet past a chain?",
+ "highlight": [
+  "fleet",
+  "chain?"
+ ],
+ "music": {
+  "mood": "epic",
+  "seed": 55,
+  "drums": true,
+  "level": 0.3
+ },
+ "post": {
+  "caption": "The Ottoman Empire, episode 4, Part 2: the ships hauled over the hill at Galata, and the fall of Constantinople on 29 May 1453. Images: public domain. Map data: Natural Earth, © OpenStreetMap contributors. Borders approx.",
+  "hashtags": [
+   "history",
+   "ottoman",
+   "constantinople",
+   "istanbul",
+   "1453",
+   "hagiasophia",
+   "shorts"
+  ]
+ },
+ "clips": {
+  "globe": "sketch/globe_in.mp4"
+ },
+ "images": {
+  "fall": {
+   "file": "img/fall.jpg",
+   "credit": "Theophilos Hatzimihail, The Fall of Constantinople (1928)",
+   "where": "Public domain"
+  },
+  "constantine": {
+   "file": "img/constantine.jpg",
+   "credit": "Theophilos Hatzimihail, Constantine Palaiologos (1932)",
+   "where": "Public domain"
+  },
+  "entry": {
+   "file": "img/entry.jpg",
+   "credit": "Benjamin-Constant, The Entry of Mehmed II into Constantinople (1876)",
+   "where": "Musée des Augustins, Toulouse"
+  },
+  "zonaro": {
+   "file": "img/zonaro.jpg",
+   "credit": "Fausto Zonaro, Mehmed II enters Constantinople (c. 1903)",
+   "where": "Public domain"
+  },
+  "hagia": {
+   "file": "img/hagia.jpg",
+   "credit": "Gaspare Fossati and Louis Haghe, Hagia Sophia (1852)",
+   "where": "Public domain"
+  }
+ },
+ "sketches": {
+  "start": {
+   "coast": "sketch/empire.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        26.15,
+        40.05
+       ],
+       [
+        26.0,
+        40.5
+       ],
+       [
+        25.6,
+        40.85
+       ],
+       [
+        24.9,
+        40.9
+       ],
+       [
+        24.3,
+        40.9
+       ],
+       [
+        23.7,
+        40.75
+       ],
+       [
+        22.95,
+        40.62
+       ],
+       [
+        22.6,
+        40.2
+       ],
+       [
+        22.9,
+        39.4
+       ],
+       [
+        23.1,
+        38.95
+       ],
+       [
+        22.3,
+        38.75
+       ],
+       [
+        21.4,
+        38.95
+       ],
+       [
+        20.9,
+        39.4
+       ],
+       [
+        20.6,
+        40.2
+       ],
+       [
+        20.4,
+        41.0
+       ],
+       [
+        20.5,
+        41.8
+       ],
+       [
+        21.0,
+        42.3
+       ],
+       [
+        21.4,
+        42.25
+       ],
+       [
+        22.0,
+        42.6
+       ],
+       [
+        22.4,
+        43.4
+       ],
+       [
+        22.9,
+        44.0
+       ],
+       [
+        24.0,
+        43.75
+       ],
+       [
+        25.5,
+        43.65
+       ],
+       [
+        27.0,
+        44.1
+       ],
+       [
+        28.0,
+        44.1
+       ],
+       [
+        28.7,
+        43.8
+       ],
+       [
+        27.9,
+        42.7
+       ],
+       [
+        27.75,
+        42.2
+       ],
+       [
+        27.9,
+        41.9
+       ],
+       [
+        28.3,
+        41.5
+       ],
+       [
+        28.35,
+        41.2
+       ],
+       [
+        27.9,
+        41.05
+       ],
+       [
+        27.4,
+        40.95
+       ],
+       [
+        26.9,
+        40.65
+       ],
+       [
+        26.6,
+        40.35
+       ]
+      ],
+      [
+       [
+        26.18,
+        39.97
+       ],
+       [
+        26.4,
+        40.12
+       ],
+       [
+        26.62,
+        40.28
+       ],
+       [
+        26.78,
+        40.4
+       ],
+       [
+        27.2,
+        40.45
+       ],
+       [
+        28.0,
+        40.42
+       ],
+       [
+        28.9,
+        40.45
+       ],
+       [
+        29.3,
+        40.75
+       ],
+       [
+        29.9,
+        40.85
+       ],
+       [
+        30.6,
+        41.25
+       ],
+       [
+        31.6,
+        41.45
+       ],
+       [
+        32.3,
+        41.75
+       ],
+       [
+        32.3,
+        41.6
+       ],
+       [
+        32.6,
+        40.95
+       ],
+       [
+        34.0,
+        40.85
+       ],
+       [
+        35.3,
+        41.0
+       ],
+       [
+        35.5,
+        41.6
+       ],
+       [
+        36.3,
+        41.4
+       ],
+       [
+        37.0,
+        41.2
+       ],
+       [
+        37.5,
+        41.1
+       ],
+       [
+        37.6,
+        40.4
+       ],
+       [
+        38.0,
+        39.9
+       ],
+       [
+        37.8,
+        39.3
+       ],
+       [
+        37.0,
+        38.9
+       ],
+       [
+        36.0,
+        39.2
+       ],
+       [
+        35.0,
+        39.4
+       ],
+       [
+        34.0,
+        39.0
+       ],
+       [
+        33.0,
+        38.9
+       ],
+       [
+        32.0,
+        38.7
+       ],
+       [
+        31.3,
+        38.2
+       ],
+       [
+        31.0,
+        37.6
+       ],
+       [
+        31.4,
+        37.3
+       ],
+       [
+        31.3,
+        36.75
+       ],
+       [
+        30.6,
+        36.8
+       ],
+       [
+        29.6,
+        36.2
+       ],
+       [
+        28.2,
+        36.6
+       ],
+       [
+        27.2,
+        37.0
+       ],
+       [
+        26.3,
+        38.3
+       ],
+       [
+        26.6,
+        39.3
+       ]
+      ]
+     ],
+     "at": 0.4,
+     "dur": 1.4,
+     "label": "Ottoman, 1453",
+     "labelPos": [
+      33.6,
+      39.6
+     ]
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        21.0,
+        38.35
+       ],
+       [
+        22.9,
+        38.1
+       ],
+       [
+        23.3,
+        37.4
+       ],
+       [
+        23.0,
+        36.35
+       ],
+       [
+        22.3,
+        36.35
+       ],
+       [
+        21.6,
+        36.75
+       ],
+       [
+        21.0,
+        37.6
+       ]
+      ]
+     ],
+     "color": "#1f4e8c",
+     "at": 1.2,
+     "dur": 0.8
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      28.98,
+      41.01
+     ],
+     "label": "Constantinople",
+     "lx": 20,
+     "ly": -45,
+     "at": 1.6,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "circle",
+     "pos": [
+      28.98,
+      41.01
+     ],
+     "r": 70,
+     "ry": 58,
+     "at": 2.2,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "circle",
+     "pos": [
+      28.98,
+      41.01
+     ],
+     "r": 105,
+     "ry": 88,
+     "at": 2.6,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "text",
+     "text": "April 1453: surrounded",
+     "pos": [
+      0.5,
+      0.24
+     ],
+     "at": 2.8,
+     "size": 62,
+     "color": "#b3261e",
+     "cps": 22
+    },
+    {
+     "kind": "label",
+     "text": "borders approx.",
+     "pos": [
+      0.8,
+      0.66
+     ],
+     "at": 3.0,
+     "size": 36
+    }
+   ]
+  },
+  "chain": {
+   "coast": "sketch/horn.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.6
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       28.9405,
+       41.0425
+      ],
+      [
+       28.94,
+       41.034
+      ],
+      [
+       28.936,
+       41.028
+      ],
+      [
+       28.929,
+       41.022
+      ],
+      [
+       28.921,
+       41.017
+      ],
+      [
+       28.918,
+       41.01
+      ],
+      [
+       28.917,
+       41.0
+      ],
+      [
+       28.922,
+       40.9935
+      ]
+     ],
+     "at": 0.6,
+     "dur": 0.8,
+     "color": "#2a2119",
+     "width": 10,
+     "arrow": false
+    },
+    {
+     "kind": "label",
+     "text": "Constantinople",
+     "pos": [
+      28.957,
+      41.008
+     ],
+     "at": 1.0,
+     "size": 46,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "label",
+     "text": "Golden Horn",
+     "pos": [
+      28.952,
+      41.037
+     ],
+     "at": 1.3,
+     "size": 40,
+     "color": "#1f4e8c",
+     "rot": -0.55
+    },
+    {
+     "kind": "label",
+     "text": "Bosphorus",
+     "pos": [
+      29.016,
+      41.022
+     ],
+     "at": 1.5,
+     "size": 42,
+     "color": "#1f4e8c",
+     "rot": -1.05
+    },
+    {
+     "kind": "label",
+     "text": "Galata",
+     "pos": [
+      28.969,
+      41.031
+     ],
+     "at": 1.7,
+     "size": 38,
+     "color": "#2a2119"
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       28.9815,
+       41.0168
+      ],
+      [
+       28.9745,
+       41.0225
+      ]
+     ],
+     "at": 2.4,
+     "dur": 0.9,
+     "color": "#b3261e",
+     "width": 9,
+     "arrow": false
+    },
+    {
+     "kind": "label",
+     "text": "the chain",
+     "pos": [
+      28.992,
+      41.0135
+     ],
+     "at": 3.0,
+     "size": 44,
+     "color": "#b3261e",
+     "align": "left"
+    },
+    {
+     "kind": "ships",
+     "pts": [
+      [
+       29.02,
+       41.045
+      ],
+      [
+       29.008,
+       41.037
+      ]
+     ],
+     "n": 3,
+     "period": 9,
+     "icon": "galleon",
+     "size": 40,
+     "at": 3.6,
+     "color": "#b3261e"
+    }
+   ]
+  },
+  "overland": {
+   "coast": "sketch/horn.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.0,
+     "pencil": false
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       28.9815,
+       41.0168
+      ],
+      [
+       28.9745,
+       41.0225
+      ]
+     ],
+     "at": 0.2,
+     "dur": 0.5,
+     "color": "#b3261e",
+     "width": 9,
+     "arrow": false
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       29.003,
+       41.0395
+      ],
+      [
+       28.993,
+       41.0415
+      ],
+      [
+       28.984,
+       41.0405
+      ],
+      [
+       28.976,
+       41.0385
+      ],
+      [
+       28.968,
+       41.0335
+      ]
+     ],
+     "at": 1.2,
+     "dur": 2.6,
+     "color": "#b3261e",
+     "width": 9
+    },
+    {
+     "kind": "ships",
+     "pts": [
+      [
+       29.003,
+       41.0395
+      ],
+      [
+       28.993,
+       41.0415
+      ],
+      [
+       28.984,
+       41.0405
+      ],
+      [
+       28.976,
+       41.0385
+      ],
+      [
+       28.968,
+       41.0335
+      ]
+     ],
+     "n": 5,
+     "once": true,
+     "gap": 0.7,
+     "dur": 3.4,
+     "icon": "galleon",
+     "size": 38,
+     "at": 1.6,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "text",
+     "text": "22 April 1453",
+     "pos": [
+      0.5,
+      0.22
+     ],
+     "at": 1.0,
+     "size": 64,
+     "color": "#b3261e",
+     "cps": 20
+    },
+    {
+     "kind": "label",
+     "text": "over the hill",
+     "pos": [
+      28.989,
+      41.0335
+     ],
+     "at": 2.6,
+     "size": 44,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "about 70 ships",
+     "pos": [
+      0.5,
+      0.64
+     ],
+     "at": 4.4,
+     "size": 56,
+     "color": "#2a2119"
+    },
+    {
+     "kind": "label",
+     "text": "Galata",
+     "pos": [
+      28.969,
+      41.031
+     ],
+     "at": 0.6,
+     "size": 38,
+     "color": "#2a2119"
+    }
+   ]
+  },
+  "end": {
+   "coast": "sketch/empire.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.4,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        26.15,
+        40.05
+       ],
+       [
+        26.0,
+        40.5
+       ],
+       [
+        25.6,
+        40.85
+       ],
+       [
+        24.9,
+        40.9
+       ],
+       [
+        24.3,
+        40.9
+       ],
+       [
+        23.7,
+        40.75
+       ],
+       [
+        22.95,
+        40.62
+       ],
+       [
+        22.6,
+        40.2
+       ],
+       [
+        22.9,
+        39.4
+       ],
+       [
+        23.1,
+        38.95
+       ],
+       [
+        22.3,
+        38.75
+       ],
+       [
+        21.4,
+        38.95
+       ],
+       [
+        20.9,
+        39.4
+       ],
+       [
+        20.6,
+        40.2
+       ],
+       [
+        20.4,
+        41.0
+       ],
+       [
+        20.5,
+        41.8
+       ],
+       [
+        21.0,
+        42.3
+       ],
+       [
+        21.4,
+        42.25
+       ],
+       [
+        22.0,
+        42.6
+       ],
+       [
+        22.4,
+        43.4
+       ],
+       [
+        22.9,
+        44.0
+       ],
+       [
+        24.0,
+        43.75
+       ],
+       [
+        25.5,
+        43.65
+       ],
+       [
+        27.0,
+        44.1
+       ],
+       [
+        28.0,
+        44.1
+       ],
+       [
+        28.7,
+        43.8
+       ],
+       [
+        27.9,
+        42.7
+       ],
+       [
+        27.75,
+        42.2
+       ],
+       [
+        27.9,
+        41.9
+       ],
+       [
+        28.3,
+        41.5
+       ],
+       [
+        28.35,
+        41.2
+       ],
+       [
+        27.9,
+        41.05
+       ],
+       [
+        27.4,
+        40.95
+       ],
+       [
+        26.9,
+        40.65
+       ],
+       [
+        26.6,
+        40.35
+       ]
+      ],
+      [
+       [
+        26.18,
+        39.97
+       ],
+       [
+        26.4,
+        40.12
+       ],
+       [
+        26.62,
+        40.28
+       ],
+       [
+        26.78,
+        40.4
+       ],
+       [
+        27.2,
+        40.45
+       ],
+       [
+        28.0,
+        40.42
+       ],
+       [
+        28.9,
+        40.45
+       ],
+       [
+        29.3,
+        40.75
+       ],
+       [
+        29.9,
+        40.85
+       ],
+       [
+        30.6,
+        41.25
+       ],
+       [
+        31.6,
+        41.45
+       ],
+       [
+        32.3,
+        41.75
+       ],
+       [
+        32.3,
+        41.6
+       ],
+       [
+        32.6,
+        40.95
+       ],
+       [
+        34.0,
+        40.85
+       ],
+       [
+        35.3,
+        41.0
+       ],
+       [
+        35.5,
+        41.6
+       ],
+       [
+        36.3,
+        41.4
+       ],
+       [
+        37.0,
+        41.2
+       ],
+       [
+        37.5,
+        41.1
+       ],
+       [
+        37.6,
+        40.4
+       ],
+       [
+        38.0,
+        39.9
+       ],
+       [
+        37.8,
+        39.3
+       ],
+       [
+        37.0,
+        38.9
+       ],
+       [
+        36.0,
+        39.2
+       ],
+       [
+        35.0,
+        39.4
+       ],
+       [
+        34.0,
+        39.0
+       ],
+       [
+        33.0,
+        38.9
+       ],
+       [
+        32.0,
+        38.7
+       ],
+       [
+        31.3,
+        38.2
+       ],
+       [
+        31.0,
+        37.6
+       ],
+       [
+        31.4,
+        37.3
+       ],
+       [
+        31.3,
+        36.75
+       ],
+       [
+        30.6,
+        36.8
+       ],
+       [
+        29.6,
+        36.2
+       ],
+       [
+        28.2,
+        36.6
+       ],
+       [
+        27.2,
+        37.0
+       ],
+       [
+        26.3,
+        38.3
+       ],
+       [
+        26.6,
+        39.3
+       ]
+      ]
+     ],
+     "style": "faint",
+     "at": 0.3,
+     "dur": 0.8
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        26.15,
+        40.05
+       ],
+       [
+        26.0,
+        40.5
+       ],
+       [
+        25.6,
+        40.85
+       ],
+       [
+        24.9,
+        40.9
+       ],
+       [
+        24.3,
+        40.9
+       ],
+       [
+        23.7,
+        40.75
+       ],
+       [
+        22.95,
+        40.62
+       ],
+       [
+        22.6,
+        40.2
+       ],
+       [
+        22.9,
+        39.4
+       ],
+       [
+        23.1,
+        38.95
+       ],
+       [
+        22.3,
+        38.75
+       ],
+       [
+        21.4,
+        38.95
+       ],
+       [
+        20.9,
+        39.4
+       ],
+       [
+        20.6,
+        40.2
+       ],
+       [
+        20.4,
+        41.0
+       ],
+       [
+        20.5,
+        41.8
+       ],
+       [
+        21.0,
+        42.3
+       ],
+       [
+        21.4,
+        42.25
+       ],
+       [
+        22.0,
+        42.6
+       ],
+       [
+        22.4,
+        43.4
+       ],
+       [
+        22.9,
+        44.0
+       ],
+       [
+        24.0,
+        43.75
+       ],
+       [
+        25.5,
+        43.65
+       ],
+       [
+        27.0,
+        44.1
+       ],
+       [
+        28.0,
+        44.1
+       ],
+       [
+        28.7,
+        43.8
+       ],
+       [
+        27.9,
+        42.7
+       ],
+       [
+        27.75,
+        42.2
+       ],
+       [
+        27.9,
+        41.9
+       ],
+       [
+        28.3,
+        41.5
+       ],
+       [
+        28.35,
+        41.2
+       ],
+       [
+        27.9,
+        41.05
+       ],
+       [
+        27.4,
+        40.95
+       ],
+       [
+        26.9,
+        40.65
+       ],
+       [
+        26.6,
+        40.35
+       ]
+      ],
+      [
+       [
+        26.18,
+        39.97
+       ],
+       [
+        26.4,
+        40.12
+       ],
+       [
+        26.62,
+        40.28
+       ],
+       [
+        26.78,
+        40.4
+       ],
+       [
+        27.2,
+        40.45
+       ],
+       [
+        28.0,
+        40.42
+       ],
+       [
+        28.9,
+        40.45
+       ],
+       [
+        29.3,
+        40.75
+       ],
+       [
+        29.9,
+        40.85
+       ],
+       [
+        30.6,
+        41.25
+       ],
+       [
+        31.6,
+        41.45
+       ],
+       [
+        32.3,
+        41.75
+       ],
+       [
+        32.3,
+        41.6
+       ],
+       [
+        32.6,
+        40.95
+       ],
+       [
+        34.0,
+        40.85
+       ],
+       [
+        35.3,
+        41.0
+       ],
+       [
+        35.5,
+        41.6
+       ],
+       [
+        36.3,
+        41.4
+       ],
+       [
+        37.0,
+        41.2
+       ],
+       [
+        37.5,
+        41.1
+       ],
+       [
+        37.6,
+        40.4
+       ],
+       [
+        38.0,
+        39.9
+       ],
+       [
+        37.8,
+        39.3
+       ],
+       [
+        37.0,
+        38.9
+       ],
+       [
+        36.0,
+        39.2
+       ],
+       [
+        35.0,
+        39.4
+       ],
+       [
+        34.0,
+        39.0
+       ],
+       [
+        33.0,
+        38.9
+       ],
+       [
+        32.0,
+        38.7
+       ],
+       [
+        31.3,
+        38.2
+       ],
+       [
+        31.0,
+        37.6
+       ],
+       [
+        31.4,
+        37.3
+       ],
+       [
+        31.3,
+        36.75
+       ],
+       [
+        30.6,
+        36.8
+       ],
+       [
+        29.6,
+        36.2
+       ],
+       [
+        28.2,
+        36.6
+       ],
+       [
+        27.2,
+        37.0
+       ],
+       [
+        26.3,
+        38.3
+       ],
+       [
+        26.6,
+        39.3
+       ]
+      ],
+      [
+       [
+        28.918,
+        41.043
+       ],
+       [
+        28.985,
+        41.018
+       ],
+       [
+        28.99,
+        41.005
+       ],
+       [
+        28.97,
+        40.998
+       ],
+       [
+        28.918,
+        40.993
+       ]
+      ]
+     ],
+     "at": 1.0,
+     "dur": 2.0,
+     "label": "Ottoman, 1453",
+     "labelPos": [
+      33.6,
+      39.6
+     ]
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        21.0,
+        38.35
+       ],
+       [
+        22.9,
+        38.1
+       ],
+       [
+        23.3,
+        37.4
+       ],
+       [
+        23.0,
+        36.35
+       ],
+       [
+        22.3,
+        36.35
+       ],
+       [
+        21.6,
+        36.75
+       ],
+       [
+        21.0,
+        37.6
+       ]
+      ]
+     ],
+     "color": "#1f4e8c",
+     "style": "faint",
+     "at": 2.0,
+     "dur": 0.8,
+     "label": "Morea (to 1460)",
+     "labelPos": [
+      23.6,
+      35.95
+     ]
+    },
+    {
+     "kind": "fort",
+     "pos": [
+      28.98,
+      41.01
+     ],
+     "size": 30,
+     "at": 2.6
+    },
+    {
+     "kind": "label",
+     "text": "Istanbul: the new capital",
+     "pos": [
+      0.5,
+      0.22
+     ],
+     "at": 3.0,
+     "size": 58,
+     "color": "#b3261e",
+     "cps": 22
+    },
+    {
+     "kind": "label",
+     "text": "borders approx.",
+     "pos": [
+      0.8,
+      0.66
+     ],
+     "at": 3.0,
+     "size": 36
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "globe",
+   "text": "How do you get a fleet past a chain?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "You carry it over a hill. This is Istanbul, and in April 1453 it was still Constantinople."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Who held it then?",
+   "scene": "start",
+   "date": "April 1453",
+   "place": "Ottoman lands"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Only the Byzantines, inside their walls. The Ottomans held almost everything around it."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "And a great chain across the Golden Horn kept the Ottoman fleet out of the harbour.",
+   "scene": "chain",
+   "date": "April 1453",
+   "place": "Golden Horn"
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So the fleet was stuck outside?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Right. On the twentieth of April, four Christian ships even fought their way past it and into the harbour."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So what did Mehmed do?",
+   "scene": "overland",
+   "date": "22 April 1453",
+   "place": "Galata"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "He moved his ships over land. His men laid a track of greased logs over the hill behind Galata."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "And they hauled about seventy ships up the slope and down into the Golden Horn, behind the chain."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Did the defenders see it coming?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Not exactly. One morning, Ottoman ships were simply inside their harbour. Now the walls along the water needed defenders too."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "When did the city fall?",
+   "scene": "fall",
+   "date": "29 May 1453",
+   "place": "Constantinople",
+   "move": {
+    "from": [
+     0.4,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.45,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "On the twenty-ninth of May, 1453. Before dawn, Mehmed sent wave after wave against the land walls."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "The Genoese commander Giustiniani was badly wounded and carried away, and the defence began to break."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Emperor Constantine the Eleventh died in the fighting. He was the last Byzantine emperor.",
+   "scene": "constantine",
+   "date": "",
+   "move": {
+    "from": [
+     0.6,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.62,
+     0.42,
+     1.3
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "That day, Mehmed rode into the city.",
+   "scene": "entry",
+   "move": {
+    "from": [
+     0.5,
+     0.55,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.45,
+     1.2
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "He went to Hagia Sophia, and turned the great church into a mosque.",
+   "scene": "hagia",
+   "date": "",
+   "place": "Hagia Sophia",
+   "move": {
+    "from": [
+     0.55,
+     0.45,
+     1.0
+    ],
+    "to": [
+     0.62,
+     0.4,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And the city became the Ottoman capital?",
+   "scene": "end",
+   "date": "1453",
+   "place": "Ottoman lands"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Right. For more than four hundred and sixty years, until 1922."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Next time: Selim the Grim, and eight years that changed the map. Like the video and follow History Sketches.",
+   "scene": "zonaro",
+   "date": "",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.42,
+     1.2
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And tell us in the comments what you think!"
+  },
+  {
+   "type": "end",
+   "text": "Next: Selim the Grim",
+   "sub": "Follow History Sketches"
+  }
+ ]
+}
