@@ -1,7 +1,8 @@
 # History Sketches on Instagram (@historysketches)
 
 Bio (2026-11-17): "Full videos on YouTube: youtube.com/@HistorySketches-b6s / History, sketched: maps that draw themselves + real paintings. / Every date checked twice."
-Clickable link field: only editable in the Instagram mobile app (web shows it disabled). Add https://www.youtube.com/@HistorySketches-b6s there.
+Clickable link: set by the user in the app on 2026-11-17: https://www.youtube.com/@History.Sketches (new channel handle; same channel UC4txm54Z8TCkU1daRhPJv8A, old handle @HistorySketches-b6s).
+Highlights: Instagram builds them only from Stories; the web cannot post Stories, so each Reel must be shared to the Story from the mobile app first, then added to a highlight (Hormuz, Ottoman).
 Daily task: history-sketches-instagram-daily (20:30), queue: instagram_queue.json
 
 Upload: Claude in Chrome, Reels at original 9:16, title-frame cover, caption with call to action, AI label on.
