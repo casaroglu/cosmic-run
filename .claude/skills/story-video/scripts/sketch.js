@@ -442,3 +442,29 @@ window.textAudit = function () {
   window.TEXT_AUDIT_N = n;
   return out;
 };
+
+// ---------- landscape: draw the portrait sketch as a panel ----------
+// Sketch layouts are designed (and text-audited) for 1080x1920. In a landscape timeline the scene is
+// drawn on its own portrait canvas and placed, as a panel, in the middle of the landscape frame.
+function drawSketchLand(name) {
+  const LW = W, LH = H, prev = ctx, landPaper = SK.paper;
+  ctx.drawImage(skPaper(), 0, 0); const landP = SK.paper;
+  ctx.fillStyle = 'rgba(239,228,201,0.55)'; ctx.fillRect(0, 0, W, H);   // lighter sides
+  if (!SK.pc) { SK.pc = document.createElement('canvas'); SK.pc.width = 1080; SK.pc.height = 1920; }
+  W = 1080; H = 1920; SK.paper = SK.portraitPaper || null;
+  ctx = SK.pc.getContext('2d'); ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.clearRect(0, 0, W, H);
+  try { drawSketch(name); } finally {
+    SK.portraitPaper = SK.paper; SK.paper = landP; W = LW; H = LH; ctx = prev;
+  }
+  const sy = 140, sh = 1220, dh = H - 270, s = dh / sh, dw = 1080 * s;   // portrait content band, above its caption area
+  ctx.save(); ctx.shadowColor = 'rgba(40,25,10,0.35)'; ctx.shadowBlur = 30;
+  ctx.drawImage(SK.pc, 0, sy, 1080, sh, (W - dw) / 2, 45, dw, dh); ctx.restore();
+}
+(function () {   // audit the portrait layout even when the timeline is landscape
+  const audit = window.textAudit;
+  window.textAudit = function () {
+    if (!LAND()) return audit();
+    const LW = W, LH = H, p = SK.paper; W = 1080; H = 1920; SK.paper = null;
+    try { return audit(); } finally { W = LW; H = LH; SK.paper = p; }
+  };
+})();

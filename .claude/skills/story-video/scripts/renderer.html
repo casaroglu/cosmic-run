@@ -376,7 +376,7 @@ function drawClip(name) {   // pre-rendered video (e.g. a globe flight), frames 
 function spanFor(name, t) { return SPANS.find(s => s.scene === name && t >= s.start - 1 && t <= s.end + 1); }
 function drawScene(name, localT, alpha) {
   if (alpha <= 0) return;
-  const fn = TL.sketches && TL.sketches[name] ? (() => drawSketch(name)) : CLIPS[name] ? (() => drawClip(name))
+  const fn = TL.sketches && TL.sketches[name] ? (() => (LAND() ? drawSketchLand(name) : drawSketch(name))) : CLIPS[name] ? (() => drawClip(name))
     : IMGS[name] ? (tt => drawImageScene(name, spanFor(name, CUR_T), tt)) : (SCENES[name] || SCENES.black);
   const z = IMGS[name] || CLIPS[name] || (TL.sketches && TL.sketches[name]) ? 1 : 1 + 0.05 * clamp(localT / 14);
   const target = alpha < 1 ? OFFC : MAIN;
