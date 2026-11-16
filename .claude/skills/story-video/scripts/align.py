@@ -187,3 +187,67 @@ def word_times(display_text, spoken_text, audio, sr, t0, lang="en-us"):
         a, z = at(sp[0], False), at(sp[1], True)
         out.append({"w": w, "t0": round(t0 + a, 3), "t1": round(t0 + max(a, z), 3)})
     return out
+
+
+# ---------- refinement with real word timestamps (speech recognition) ----------
+_asr = None
+
+
+def _asr_model():
+    global _asr
+    if _asr is None:
+        try:
+            from faster_whisper import WhisperModel
+            _asr = WhisperModel("base.en", device="cpu", compute_type="int8")
+        except Exception as e:
+            print(f"align: faster-whisper unavailable ({e}); captions use estimated timings", file=sys.stderr)
+            _asr = False
+    return _asr
+
+
+def heard_words(audio, sr):
+    """[(word, start, end)] the recogniser hears in this clip, voice-relative seconds."""
+    m = _asr_model()
+    if not m:
+        return None
+    x = np.asarray(audio, dtype=np.float32)
+    if sr != 16000:
+        n = int(len(x) * 16000 / sr)
+        x = np.interp(np.linspace(0, len(x) - 1, n), np.arange(len(x)), x).astype(np.float32)
+    segs, _ = m.transcribe(x, language="en", word_timestamps=True, beam_size=1,
+                           condition_on_previous_text=False, vad_filter=False)
+    return [(w.word.strip(), w.start, w.end) for s in segs for w in (s.words or [])]
+
+
+def refine(words, audio, sr, t0):
+    """Snap estimated caption words to the times the recogniser actually heard them.
+    Words the recogniser missed keep their place between snapped neighbours."""
+    heard = heard_words(audio, sr)
+    if not heard or not words:
+        return words
+    a = [_norm(w["w"]) for w in words]
+    b = [_norm(h[0]) for h in heard]
+    snap = {}
+    for op, i1, i2, j1, j2 in difflib.SequenceMatcher(None, a, b, autojunk=False).get_opcodes():
+        if op == "equal" or (op == "replace" and i2 - i1 == j2 - j1):
+            for k in range(i2 - i1):
+                snap[i1 + k] = (t0 + heard[j1 + k][1], t0 + heard[j1 + k][2])
+    if len(snap) < max(2, len(words) // 3):   # recogniser too far off: keep the estimate
+        return words
+    out = [dict(w) for w in words]
+    for i, (s, e) in snap.items():
+        out[i]["t0"], out[i]["t1"] = round(s, 3), round(max(s, e), 3)
+    # unsnapped words: rescale their estimated times into the gap between snapped neighbours
+    idx = sorted(snap)
+    for i in range(len(out)):
+        if i in snap:
+            continue
+        lo = max([k for k in idx if k < i], default=None)
+        hi = min([k for k in idx if k > i], default=None)
+        e0 = words[lo]["t1"] if lo is not None else words[0]["t0"]
+        e1 = words[hi]["t0"] if hi is not None else words[-1]["t1"]
+        r0 = out[lo]["t1"] if lo is not None else words[0]["t0"]
+        r1 = out[hi]["t0"] if hi is not None else words[-1]["t1"]
+        f = lambda t: r0 + (t - e0) * (r1 - r0) / (e1 - e0) if e1 > e0 else r0
+        out[i]["t0"], out[i]["t1"] = round(f(words[i]["t0"]), 3), round(f(words[i]["t1"]), 3)
+    return out

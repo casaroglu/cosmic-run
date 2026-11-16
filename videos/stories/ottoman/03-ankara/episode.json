@@ -1,0 +1,1649 @@
+{
+ "series": "The Ottoman Empire",
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
+  },
+  "a": {
+   "name": "Theo",
+   "color": "#E8B44A"
+  }
+ },
+ "accent": "#E8B44A",
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "scene_pad": 0.5,
+ "fade": 1.1,
+ "episode": 3,
+ "title": "Was an Ottoman sultan ever taken prisoner?",
+ "highlight": [
+  "sultan",
+  "prisoner?"
+ ],
+ "music": {
+  "mood": "epic",
+  "seed": 53,
+  "drums": true,
+  "level": 0.3
+ },
+ "post": {
+  "caption": "The Ottoman Empire, episode 3: Bayezid the Thunderbolt meets Timur at Ankara (1402), the only time an Ottoman sultan was captured in battle. Images: public domain. Map data: Natural Earth. Borders approx.",
+  "hashtags": [
+   "history",
+   "ottoman",
+   "ottomanempire",
+   "timur",
+   "tamerlane",
+   "ankara",
+   "shorts"
+  ]
+ },
+ "clips": {
+  "globe": "sketch/globe_in.mp4"
+ },
+ "images": {
+  "bayezid": {
+   "file": "img/bayezid.jpg",
+   "credit": "Cristofano dell'Altissimo, Bayezid I (1550s)",
+   "where": "Uffizi, Florence"
+  },
+  "nicopolis": {
+   "file": "img/nicopolis.jpg",
+   "credit": "Lokman, Hünername (1588): Bayezid at Nicopolis",
+   "where": "Topkapı Palace Museum"
+  },
+  "timur": {
+   "file": "img/timur.jpg",
+   "credit": "Cristofano dell'Altissimo, Tamerlane (c. 1568)",
+   "where": "Uffizi, Florence"
+  },
+  "zafarnama": {
+   "file": "img/zafarnama.jpg",
+   "credit": "Zafarnama (Safavid, 1533): Bayezid brought before Timur",
+   "where": "British Library, Or. 1359"
+  },
+  "cage": {
+   "file": "img/cage.jpg",
+   "credit": "Bayezid in a cage, German album amicorum (16th c.)",
+   "where": "Public domain"
+  },
+  "captive": {
+   "file": "img/captive.jpg",
+   "credit": "Stanisław Chlebowski, Sultan Bayezid in Timur's captivity (1870s)",
+   "where": "Public domain"
+  }
+ },
+ "sketches": {
+  "today": {
+   "coast": "sketch/anatolia.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 2.0
+    },
+    {
+     "kind": "label",
+     "text": "TÜRKİYE",
+     "pos": [
+      34.5,
+      38.6
+     ],
+     "at": 1.3,
+     "size": 64
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      32.86,
+      39.93
+     ],
+     "label": "Ankara",
+     "lx": -20,
+     "ly": -45,
+     "at": 1.8,
+     "lalign": "right"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      28.98,
+      41.01
+     ],
+     "label": "Istanbul",
+     "lx": 20,
+     "ly": -40,
+     "at": 2.2
+    },
+    {
+     "kind": "label",
+     "text": "Black Sea",
+     "pos": [
+      34.5,
+      42.25
+     ],
+     "at": 2.4,
+     "size": 44,
+     "color": "#1f4e8c"
+    }
+   ]
+  },
+  "empire1400": {
+   "coast": "sketch/empire.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.8
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        26.15,
+        40.05
+       ],
+       [
+        26.0,
+        40.5
+       ],
+       [
+        25.6,
+        40.85
+       ],
+       [
+        24.9,
+        40.9
+       ],
+       [
+        24.3,
+        40.9
+       ],
+       [
+        23.7,
+        40.75
+       ],
+       [
+        22.95,
+        40.62
+       ],
+       [
+        22.6,
+        40.2
+       ],
+       [
+        22.9,
+        39.4
+       ],
+       [
+        22.4,
+        39.0
+       ],
+       [
+        21.6,
+        39.2
+       ],
+       [
+        21.2,
+        40.0
+       ],
+       [
+        20.8,
+        40.9
+       ],
+       [
+        20.6,
+        41.8
+       ],
+       [
+        21.4,
+        42.2
+       ],
+       [
+        22.0,
+        42.6
+       ],
+       [
+        22.4,
+        43.4
+       ],
+       [
+        22.9,
+        44.0
+       ],
+       [
+        24.0,
+        43.75
+       ],
+       [
+        25.5,
+        43.65
+       ],
+       [
+        27.0,
+        44.1
+       ],
+       [
+        28.0,
+        44.1
+       ],
+       [
+        28.7,
+        43.8
+       ],
+       [
+        27.9,
+        42.7
+       ],
+       [
+        27.75,
+        42.2
+       ],
+       [
+        27.9,
+        41.9
+       ],
+       [
+        28.3,
+        41.5
+       ],
+       [
+        28.35,
+        41.2
+       ],
+       [
+        27.9,
+        41.05
+       ],
+       [
+        27.4,
+        40.95
+       ],
+       [
+        26.9,
+        40.65
+       ],
+       [
+        26.6,
+        40.35
+       ]
+      ],
+      [
+       [
+        26.18,
+        39.97
+       ],
+       [
+        26.4,
+        40.12
+       ],
+       [
+        26.62,
+        40.28
+       ],
+       [
+        26.78,
+        40.4
+       ],
+       [
+        27.2,
+        40.45
+       ],
+       [
+        28.0,
+        40.42
+       ],
+       [
+        28.9,
+        40.45
+       ],
+       [
+        29.3,
+        40.75
+       ],
+       [
+        29.9,
+        40.85
+       ],
+       [
+        30.6,
+        41.25
+       ],
+       [
+        31.6,
+        41.45
+       ],
+       [
+        32.5,
+        41.9
+       ],
+       [
+        33.5,
+        42.1
+       ],
+       [
+        34.6,
+        42.1
+       ],
+       [
+        34.7,
+        41.6
+       ],
+       [
+        35.5,
+        41.6
+       ],
+       [
+        36.3,
+        41.4
+       ],
+       [
+        37.0,
+        41.2
+       ],
+       [
+        37.5,
+        41.1
+       ],
+       [
+        37.6,
+        40.5
+       ],
+       [
+        39.0,
+        40.3
+       ],
+       [
+        39.2,
+        39.5
+       ],
+       [
+        38.8,
+        38.9
+       ],
+       [
+        38.4,
+        38.3
+       ],
+       [
+        37.4,
+        38.0
+       ],
+       [
+        37.0,
+        38.5
+       ],
+       [
+        36.2,
+        38.0
+       ],
+       [
+        35.3,
+        37.6
+       ],
+       [
+        34.6,
+        37.2
+       ],
+       [
+        33.9,
+        36.6
+       ],
+       [
+        33.0,
+        36.1
+       ],
+       [
+        32.0,
+        36.5
+       ],
+       [
+        30.6,
+        36.8
+       ],
+       [
+        29.6,
+        36.2
+       ],
+       [
+        28.2,
+        36.6
+       ],
+       [
+        27.2,
+        37.0
+       ],
+       [
+        26.3,
+        38.3
+       ],
+       [
+        26.6,
+        39.3
+       ]
+      ]
+     ],
+     "at": 0.8,
+     "dur": 2.4,
+     "label": "Ottoman, c. 1400",
+     "labelPos": [
+      33.0,
+      38.6
+     ]
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      24.9,
+      43.7
+     ],
+     "label": "Nicopolis",
+     "lx": -20,
+     "ly": -45,
+     "at": 1.6,
+     "lalign": "right"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      28.98,
+      41.01
+     ],
+     "label": "Constantinople",
+     "lx": 20,
+     "ly": 50,
+     "at": 3.0,
+     "color": "#1f4e8c",
+     "lalign": "left"
+    },
+    {
+     "kind": "circle",
+     "pos": [
+      28.98,
+      41.01
+     ],
+     "r": 60,
+     "ry": 50,
+     "at": 4.6
+    },
+    {
+     "kind": "label",
+     "text": "Danube",
+     "pos": [
+      27.6,
+      44.6
+     ],
+     "at": 2.0,
+     "size": 40,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "label",
+     "text": "Euphrates",
+     "pos": [
+      39.9,
+      38.0
+     ],
+     "at": 2.4,
+     "size": 40,
+     "color": "#1f4e8c",
+     "rot": -0.5
+    },
+    {
+     "kind": "label",
+     "text": "borders approx.",
+     "pos": [
+      0.8,
+      0.66
+     ],
+     "at": 3.0,
+     "size": 36
+    }
+   ]
+  },
+  "timurmap": {
+   "coast": "sketch/anatolia.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.4,
+     "pencil": false
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      44.3,
+      39.3
+     ],
+     "to": [
+      37.3,
+      39.75
+     ],
+     "bend": 0.12,
+     "at": 1.0,
+     "dur": 1.6,
+     "color": "#2f6b3a"
+    },
+    {
+     "kind": "label",
+     "text": "TIMUR",
+     "pos": [
+      41.8,
+      38.6
+     ],
+     "at": 0.8,
+     "size": 66,
+     "color": "#2f6b3a"
+    },
+    {
+     "kind": "fort",
+     "pos": [
+      37.02,
+      39.75
+     ],
+     "size": 40,
+     "at": 2.4
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      37.02,
+      39.75
+     ],
+     "label": "Sivas, 1400",
+     "lx": 20,
+     "ly": -50,
+     "at": 2.6
+    },
+    {
+     "kind": "circle",
+     "pos": [
+      37.02,
+      39.75
+     ],
+     "r": 80,
+     "ry": 66,
+     "at": 3.2,
+     "color": "#b3261e"
+    }
+   ]
+  },
+  "clash": {
+   "coast": "sketch/anatolia.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      32.86,
+      39.93
+     ],
+     "label": "Ankara",
+     "lx": -20,
+     "ly": 55,
+     "at": 0.6,
+     "lalign": "right"
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      37.0,
+      39.6
+     ],
+     "to": [
+      33.4,
+      39.95
+     ],
+     "bend": -0.15,
+     "at": 1.0,
+     "dur": 1.4,
+     "color": "#2f6b3a"
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      28.9,
+      40.6
+     ],
+     "to": [
+      32.3,
+      40.0
+     ],
+     "bend": -0.2,
+     "at": 1.6,
+     "dur": 1.4,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "Timur",
+     "pos": [
+      35.8,
+      40.75
+     ],
+     "at": 1.6,
+     "size": 54,
+     "color": "#2f6b3a"
+    },
+    {
+     "kind": "label",
+     "text": "Bayezid",
+     "pos": [
+      29.8,
+      39.2
+     ],
+     "at": 2.2,
+     "size": 54,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "text",
+     "text": "July 1402",
+     "pos": [
+      0.5,
+      0.22
+     ],
+     "at": 2.8,
+     "size": 80,
+     "color": "#b3261e",
+     "cps": 20
+    }
+   ],
+   "view": [
+    28.0,
+    36.6,
+    38.6,
+    42.4
+   ]
+  },
+  "defect": {
+   "coast": "sketch/anatolia.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.0,
+     "pencil": false
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      32.86,
+      39.93
+     ],
+     "label": "Ankara",
+     "lx": -20,
+     "ly": 55,
+     "at": 0.3,
+     "lalign": "right"
+    },
+    {
+     "kind": "text",
+     "text": "switched sides",
+     "pos": [
+      0.5,
+      0.22
+     ],
+     "at": 0.6,
+     "size": 76,
+     "color": "#b3261e",
+     "cps": 22
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      32.4,
+      39.5
+     ],
+     "to": [
+      34.0,
+      39.5
+     ],
+     "bend": 0.4,
+     "at": 1.2,
+     "dur": 1.0,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      32.4,
+      40.4
+     ],
+     "to": [
+      34.0,
+      40.4
+     ],
+     "bend": -0.4,
+     "at": 1.6,
+     "dur": 1.0,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "text",
+     "text": "Tatars + Anatolian beys",
+     "pos": [
+      0.5,
+      0.62
+     ],
+     "at": 2.2,
+     "size": 50
+    }
+   ],
+   "view": [
+    28.0,
+    36.6,
+    38.6,
+    42.4
+   ]
+  },
+  "lands1403": {
+   "coast": "sketch/empire.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.4,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        26.15,
+        40.05
+       ],
+       [
+        26.0,
+        40.5
+       ],
+       [
+        25.6,
+        40.85
+       ],
+       [
+        24.9,
+        40.9
+       ],
+       [
+        24.3,
+        40.9
+       ],
+       [
+        23.7,
+        40.75
+       ],
+       [
+        22.95,
+        40.62
+       ],
+       [
+        22.6,
+        40.2
+       ],
+       [
+        22.9,
+        39.4
+       ],
+       [
+        22.4,
+        39.0
+       ],
+       [
+        21.6,
+        39.2
+       ],
+       [
+        21.2,
+        40.0
+       ],
+       [
+        20.8,
+        40.9
+       ],
+       [
+        20.6,
+        41.8
+       ],
+       [
+        21.4,
+        42.2
+       ],
+       [
+        22.0,
+        42.6
+       ],
+       [
+        22.4,
+        43.4
+       ],
+       [
+        22.9,
+        44.0
+       ],
+       [
+        24.0,
+        43.75
+       ],
+       [
+        25.5,
+        43.65
+       ],
+       [
+        27.0,
+        44.1
+       ],
+       [
+        28.0,
+        44.1
+       ],
+       [
+        28.7,
+        43.8
+       ],
+       [
+        27.9,
+        42.7
+       ],
+       [
+        27.75,
+        42.2
+       ],
+       [
+        27.9,
+        41.9
+       ],
+       [
+        28.3,
+        41.5
+       ],
+       [
+        28.35,
+        41.2
+       ],
+       [
+        27.9,
+        41.05
+       ],
+       [
+        27.4,
+        40.95
+       ],
+       [
+        26.9,
+        40.65
+       ],
+       [
+        26.6,
+        40.35
+       ]
+      ],
+      [
+       [
+        26.18,
+        39.97
+       ],
+       [
+        26.4,
+        40.12
+       ],
+       [
+        26.62,
+        40.28
+       ],
+       [
+        26.78,
+        40.4
+       ],
+       [
+        27.2,
+        40.45
+       ],
+       [
+        28.0,
+        40.42
+       ],
+       [
+        28.9,
+        40.45
+       ],
+       [
+        29.3,
+        40.75
+       ],
+       [
+        29.9,
+        40.85
+       ],
+       [
+        30.6,
+        41.25
+       ],
+       [
+        31.6,
+        41.45
+       ],
+       [
+        32.5,
+        41.9
+       ],
+       [
+        33.5,
+        42.1
+       ],
+       [
+        34.6,
+        42.1
+       ],
+       [
+        34.7,
+        41.6
+       ],
+       [
+        35.5,
+        41.6
+       ],
+       [
+        36.3,
+        41.4
+       ],
+       [
+        37.0,
+        41.2
+       ],
+       [
+        37.5,
+        41.1
+       ],
+       [
+        37.6,
+        40.5
+       ],
+       [
+        39.0,
+        40.3
+       ],
+       [
+        39.2,
+        39.5
+       ],
+       [
+        38.8,
+        38.9
+       ],
+       [
+        38.4,
+        38.3
+       ],
+       [
+        37.4,
+        38.0
+       ],
+       [
+        37.0,
+        38.5
+       ],
+       [
+        36.2,
+        38.0
+       ],
+       [
+        35.3,
+        37.6
+       ],
+       [
+        34.6,
+        37.2
+       ],
+       [
+        33.9,
+        36.6
+       ],
+       [
+        33.0,
+        36.1
+       ],
+       [
+        32.0,
+        36.5
+       ],
+       [
+        30.6,
+        36.8
+       ],
+       [
+        29.6,
+        36.2
+       ],
+       [
+        28.2,
+        36.6
+       ],
+       [
+        27.2,
+        37.0
+       ],
+       [
+        26.3,
+        38.3
+       ],
+       [
+        26.6,
+        39.3
+       ]
+      ]
+     ],
+     "style": "faint",
+     "at": 0.3,
+     "dur": 0.8
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        26.15,
+        40.05
+       ],
+       [
+        26.0,
+        40.5
+       ],
+       [
+        25.6,
+        40.85
+       ],
+       [
+        24.9,
+        40.9
+       ],
+       [
+        24.3,
+        40.9
+       ],
+       [
+        23.7,
+        40.75
+       ],
+       [
+        22.95,
+        40.62
+       ],
+       [
+        22.6,
+        40.2
+       ],
+       [
+        22.9,
+        39.4
+       ],
+       [
+        22.4,
+        39.0
+       ],
+       [
+        21.6,
+        39.2
+       ],
+       [
+        21.2,
+        40.0
+       ],
+       [
+        20.8,
+        40.9
+       ],
+       [
+        20.6,
+        41.8
+       ],
+       [
+        21.4,
+        42.2
+       ],
+       [
+        22.0,
+        42.6
+       ],
+       [
+        22.4,
+        43.4
+       ],
+       [
+        22.9,
+        44.0
+       ],
+       [
+        24.0,
+        43.75
+       ],
+       [
+        25.5,
+        43.65
+       ],
+       [
+        27.0,
+        44.1
+       ],
+       [
+        28.0,
+        44.1
+       ],
+       [
+        28.7,
+        43.8
+       ],
+       [
+        27.9,
+        42.7
+       ],
+       [
+        27.75,
+        42.2
+       ],
+       [
+        27.9,
+        41.9
+       ],
+       [
+        28.3,
+        41.5
+       ],
+       [
+        28.35,
+        41.2
+       ],
+       [
+        27.9,
+        41.05
+       ],
+       [
+        27.4,
+        40.95
+       ],
+       [
+        26.9,
+        40.65
+       ],
+       [
+        26.6,
+        40.35
+       ]
+      ],
+      [
+       [
+        26.18,
+        39.97
+       ],
+       [
+        26.4,
+        40.12
+       ],
+       [
+        26.62,
+        40.28
+       ],
+       [
+        26.78,
+        40.4
+       ],
+       [
+        27.2,
+        40.45
+       ],
+       [
+        28.0,
+        40.42
+       ],
+       [
+        28.9,
+        40.45
+       ],
+       [
+        29.3,
+        40.75
+       ],
+       [
+        29.9,
+        40.85
+       ],
+       [
+        30.6,
+        41.25
+       ],
+       [
+        31.6,
+        41.45
+       ],
+       [
+        32.2,
+        41.0
+       ],
+       [
+        31.9,
+        40.4
+       ],
+       [
+        31.4,
+        39.9
+       ],
+       [
+        30.5,
+        39.65
+       ],
+       [
+        29.7,
+        39.45
+       ],
+       [
+        28.6,
+        39.3
+       ],
+       [
+        27.6,
+        39.25
+       ],
+       [
+        26.9,
+        39.3
+       ],
+       [
+        26.3,
+        39.6
+       ]
+      ],
+      [
+       [
+        35.3,
+        41.05
+       ],
+       [
+        36.4,
+        41.25
+       ],
+       [
+        37.0,
+        40.9
+       ],
+       [
+        36.9,
+        40.2
+       ],
+       [
+        36.2,
+        39.95
+       ],
+       [
+        35.3,
+        40.3
+       ]
+      ]
+     ],
+     "at": 1.4,
+     "dur": 2.4,
+     "label": "Ottoman, 1403",
+     "labelPos": [
+      22.6,
+      41.3
+     ]
+    },
+    {
+     "kind": "label",
+     "text": "Karaman",
+     "pos": [
+      33.2,
+      37.4
+     ],
+     "at": 4.4,
+     "size": 40,
+     "color": "#c77700"
+    },
+    {
+     "kind": "label",
+     "text": "Germiyan",
+     "pos": [
+      30.0,
+      38.75
+     ],
+     "at": 4.7,
+     "size": 36,
+     "color": "#c77700"
+    },
+    {
+     "kind": "label",
+     "text": "Aydın",
+     "pos": [
+      27.9,
+      37.75
+     ],
+     "at": 5.0,
+     "size": 36,
+     "color": "#c77700"
+    },
+    {
+     "kind": "label",
+     "text": "Candar",
+     "pos": [
+      33.2,
+      41.62
+     ],
+     "at": 5.3,
+     "size": 36,
+     "color": "#c77700"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      28.98,
+      41.01
+     ],
+     "label": "Constantinople",
+     "lx": 20,
+     "ly": 50,
+     "at": 2.6,
+     "color": "#1f4e8c",
+     "lalign": "left"
+    },
+    {
+     "kind": "label",
+     "text": "borders approx.",
+     "pos": [
+      0.8,
+      0.66
+     ],
+     "at": 3.0,
+     "size": 36
+    }
+   ]
+  },
+  "thunder": {
+   "coast": "sketch/empire.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "photo",
+     "key": "bayezid",
+     "pos": [
+      0.5,
+      0.38
+     ],
+     "w": 520,
+     "at": 0.3,
+     "rot": -0.03
+    },
+    {
+     "kind": "text",
+     "text": "Yıldırım = Thunderbolt",
+     "pos": [
+      0.5,
+      0.64
+     ],
+     "at": 1.4,
+     "size": 64,
+     "color": "#b3261e",
+     "cps": 22
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "globe",
+   "text": "Was an Ottoman sultan ever taken prisoner?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Just once. It happened here, near Ankara, today the capital of Türkiye."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Who was the sultan?",
+   "scene": "today",
+   "date": "Today",
+   "place": "Ankara"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Bayezid the First. His soldiers called him Yildirim: the Thunderbolt.",
+   "scene": "thunder",
+   "date": "1389–1402",
+   "place": "Ottoman Empire",
+   "say": "Bayezid the First. His soldiers called him Yuldurum: the Thunderbolt."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In 1396 he crushed a crusader army at Nicopolis, on the Danube.",
+   "scene": "nicopolis",
+   "date": "1396",
+   "place": "Nicopolis",
+   "move": {
+    "from": [
+     0.5,
+     0.3,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.6,
+     1.2
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "How big was his empire by then?",
+   "scene": "empire1400",
+   "date": "c. 1400",
+   "place": "Ottoman lands"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "From the Danube almost to the Euphrates. And for eight years, he kept Constantinople under siege."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So who could stop him?",
+   "scene": "timur",
+   "date": "",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.4,
+     1.3
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Timur, the conqueror from Samarkand. His empire stretched from India to the edge of Anatolia."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "The two traded insulting letters. Then, in 1400, Timur sacked the Ottoman city of Sivas.",
+   "scene": "timurmap",
+   "date": "1400",
+   "place": "Sivas"
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Where did they finally meet?",
+   "scene": "clash",
+   "date": "July 1402",
+   "place": "Ankara"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Near Ankara, in July 1402. Timur's army was bigger, and it even had war elephants."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Then, in the middle of the battle, Bayezid's Tatar horsemen and the troops of the Anatolian beys switched sides.",
+   "scene": "defect"
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Did anyone stay loyal?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "The Serbs did. Their prince, Stefan Lazarević, son of the Lazar who died at Kosovo, fought to the end.",
+   "say": "The Serbs did. Their prince, Stefan Lazarevitch, son of the Lazar who died at Kosovo, fought to the end."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Bayezid fled to the hills, but Timur's men caught him. He is the only Ottoman sultan ever captured in battle.",
+   "scene": "zafarnama",
+   "date": "",
+   "move": {
+    "from": [
+     0.5,
+     0.35,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.45,
+     1.3
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Is it true Timur kept him in an iron cage?",
+   "scene": "cage",
+   "move": {
+    "from": [
+     0.5,
+     0.75,
+     1.1
+    ],
+    "to": [
+     0.55,
+     0.75,
+     1.5
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Not exactly. That story comes from later writers. Accounts from the time say he was treated with respect."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Still, he never went home. He died a prisoner in Akşehir, in March 1403.",
+   "scene": "captive",
+   "date": "March 1403",
+   "place": "Akşehir",
+   "move": {
+    "from": [
+     0.75,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.8,
+     0.55,
+     1.25
+    ]
+   },
+   "say": "Still, he never went home. He died a prisoner in Aksheh-heer, in March 1403."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And what happened to his empire?",
+   "scene": "lands1403",
+   "date": "1403",
+   "place": "Ottoman lands"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Timur gave the Anatolian beys back their lands. The Ottomans kept their lands in Europe, but only a corner of Anatolia."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "And Bayezid's sons fought each other for the throne for eleven years."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And Constantinople?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "It was saved, for another fifty years. Next time: the walls of Constantinople. Like the video and follow History Sketches.",
+   "scene": "bayezid",
+   "date": "",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.4,
+     1.2
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And tell us in the comments what you think!"
+  },
+  {
+   "type": "end",
+   "text": "Next: the walls of Constantinople",
+   "sub": "Follow History Sketches"
+  }
+ ]
+}

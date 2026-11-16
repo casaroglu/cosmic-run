@@ -41,6 +41,9 @@ const page = await browser.newPage({ viewport: tl.landscape ? { width: 1920, hei
 page.on('pageerror', e => console.error('page error:', e.message));
 await page.goto(pathToFileURL(path.join(here, 'renderer.html')).href);
 await page.evaluate(t => window.setup(t), tl);
+const textIssues = await page.evaluate(() => (window.textAudit ? window.textAudit() : []));
+if (textIssues.length) { console.log(`text audit: ${textIssues.length} issue(s)`); for (const m of textIssues) console.log('  ' + m); }
+else console.log(`text audit: ok (${await page.evaluate(() => window.TEXT_AUDIT_N)} labels checked)`);
 
 if (previews) {
   for (const s of previews) {

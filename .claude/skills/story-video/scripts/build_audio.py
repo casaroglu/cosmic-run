@@ -403,7 +403,7 @@ def main(story_path, out_dir):
             dur = len(audio) / SR
             b["voiceStart"] = round(t, 3)
             b["voiceEnd"] = round(t + dur, 3)
-            b["words"] = align.word_times(b["text"], say, audio, SR, t, lang)
+            b["words"] = align.refine(align.word_times(b["text"], say, audio, SR, t, lang), audio, SR, t)
             b["speaker"] = speaker
             clips.append((t, audio * b.get("gain", 1.0)))
             t += dur + b.get("gap", GAP)

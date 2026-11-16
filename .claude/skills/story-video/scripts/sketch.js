@@ -102,8 +102,18 @@ function skWrite(text, x, y, k, o = {}) {   // handwriting: letters appear one b
   ctx.textAlign = o.align || 'center'; ctx.textBaseline = 'middle'; ctx.fillStyle = o.color || INK;
   if (o.rot) { ctx.translate(x, y); ctx.rotate(o.rot); x = 0; y = 0; }
   const lines = o.maxW ? wrap(text, o.maxW).map(l => l.join(' ')) : [text];
-  let left = n;
-  lines.forEach((l, i) => { if (left <= 0) return; const s = l.slice(0, left); left -= l.length + 1; ctx.fillText(s, x, y + i * (o.size || 54) * 1.2); });
+  let left = n; const sz = o.size || 54;
+  // paper-coloured halo: hand lettering stays readable over coastlines, hatching and coloured territory
+  ctx.lineJoin = 'round'; ctx.lineWidth = Math.max(6, sz * 0.22); ctx.strokeStyle = 'rgba(246,238,220,0.92)';
+  lines.forEach((l, i) => { if (left <= 0) return; const s = l.slice(0, left); left -= l.length + 1;
+    if (o.halo !== false) ctx.strokeText(s, x, y + i * sz * 1.2); ctx.fillText(s, x, y + i * sz * 1.2); });
+  if (SK.audit) {   // text audit: record the full text box in frame pixels
+    const tf = ctx.getTransform(), wmax = Math.max(...lines.map(l => ctx.measureText(l).width));
+    const ax = o.align === 'left' ? 0 : o.align === 'right' ? -wmax : -wmax / 2;
+    const pts = [[ax, -sz * 0.6], [ax + wmax, -sz * 0.6], [ax, sz * (0.6 + 1.2 * (lines.length - 1))], [ax + wmax, sz * (0.6 + 1.2 * (lines.length - 1))]]
+      .map(([px, py]) => { const X = (o.rot ? 0 : x) + px, Y = (o.rot ? 0 : y) + py; return [tf.a * X + tf.c * Y + tf.e, tf.b * X + tf.d * Y + tf.f]; });
+    SK.audit.push({ text, x0: Math.min(...pts.map(p => p[0])), x1: Math.max(...pts.map(p => p[0])), y0: Math.min(...pts.map(p => p[1])), y1: Math.max(...pts.map(p => p[1])) });
+  }
   ctx.restore();
 }
 function skArrowHead(x, y, ang, s = 26, color = INK) {
@@ -210,7 +220,12 @@ const SK_ITEMS = {
   photo(name, spec, it, lt) {
     const im = IMGS[it.key]; if (!im) return; const k = backOut(skK(lt, it, 0.45)); if (k <= 0) return;
     const [x, y] = skPt(spec, it.pos || [0.5, 0.35]), w = it.w || 520, h = w * im.height / im.width;
-    ctx.save(); ctx.translate(x, y); ctx.rotate(it.rot ?? -0.04); ctx.scale(k, k);
+    ctx.save(); ctx.translate(x, y);
+    if (it.cutout) {   // transparent character drawing: no paper, no tape, soft shadow only
+      ctx.scale(k, k); ctx.shadowColor = 'rgba(40,25,10,0.35)'; ctx.shadowBlur = 24; ctx.shadowOffsetY = 10;
+      ctx.drawImage(im, -w / 2, -h / 2, w, h); ctx.restore(); return;
+    }
+    ctx.rotate(it.rot ?? -0.04); ctx.scale(k, k);
     ctx.shadowColor = 'rgba(40,25,10,0.45)'; ctx.shadowBlur = 30; ctx.shadowOffsetY = 12;
     ctx.fillStyle = '#fbf6ea'; ctx.fillRect(-w / 2 - 16, -h / 2 - 16, w + 32, h + 32 + (it.caption ? 70 : 0));
     ctx.shadowColor = 'transparent'; ctx.drawImage(im, -w / 2, -h / 2, w, h);
@@ -398,3 +413,32 @@ function drawSketch(name, t) {
   skPencil(tip, lt);
   ctx.restore();
 }
+
+// ---------- text audit (run once before rendering) ----------
+// Draws every sketch scene in its final state offscreen and reports hand-written text that
+// overlaps other text, the caption band, the date tag or the logo.
+window.textAudit = function () {
+  if (!TL.sketches) return [];
+  const zones = LAND() ? [] : [
+    { text: '[captions]', x0: 0, x1: W, y0: 1290, y1: 1500 },
+    { text: '[date tag]', x0: 60, x1: 520, y0: 245, y1: 330 },
+    { text: '[logo]', x0: W - 150, x1: W, y0: 150, y1: 300 }];
+  const c = document.createElement('canvas'); c.width = W; c.height = H;
+  const prev = ctx, prevT = CUR_T, out = []; let n = 0;
+  ctx = c.getContext('2d');
+  const hit = (a, b) => a.x0 < b.x1 - 4 && b.x0 < a.x1 - 4 && a.y0 < b.y1 - 4 && b.y0 < a.y1 - 4;
+  for (const name of Object.keys(TL.sketches)) {
+    const span = SPANS.find(s => s.scene === name); if (!span) continue;
+    CUR_T = span.end - 0.05; SK.audit = [];
+    try { drawSketch(name); } catch (e) { out.push(`${name}: draw error ${e.message}`); }
+    const boxes = SK.audit; SK.audit = null; n += boxes.length;
+    for (let i = 0; i < boxes.length; i++) {
+      for (let j = i + 1; j < boxes.length; j++) if (hit(boxes[i], boxes[j])) out.push(`${name}: "${boxes[i].text}" overlaps "${boxes[j].text}"`);
+      for (const z of zones) if (hit(boxes[i], z)) out.push(`${name}: "${boxes[i].text}" overlaps ${z.text}`);
+      if (boxes[i].x0 < 10 || boxes[i].x1 > W - 10) out.push(`${name}: "${boxes[i].text}" runs off the frame`);
+    }
+  }
+  ctx = prev; CUR_T = prevT;
+  window.TEXT_AUDIT_N = n;
+  return out;
+};

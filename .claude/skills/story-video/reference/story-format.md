@@ -75,3 +75,11 @@ Use real public-domain artwork instead of drawn scenes:
 - **Sketch scenes:** `"sketches": {name: {"coast": "sketch/x.json", "view": [lon0, lat0, lon1, lat1], "items": [...]}}`; use `name` as a scene. Items draw themselves on paper with a pencil (`at`/`dur` = seconds after the scene appears; `until` fades an item out): `coast`, `label`/`text`, `route`, `arrow`, `measure`, `ships` (tanker/carrack/galleon), `marker`, `circle`, `photo` (an `images` key pinned with tape), `barrels`, `bars`, `timeline`, `counter`, `ringgem`, `flag`, `fort`, `cannon`, `derrick`. Positions are `[lon, lat]` on a map, or `[x, y]` fractions of the frame when both are 0–1. Coastlines: `scripts/coast.py LON0 LAT0 LON1 LAT1 out.json` (Natural Earth 10m in `videos/stories/headlines/_geo/`). The pencil scratch sound is off unless `"pencil_sound": true`.
 - **Globe clips:** `node scripts/globe_clip.mjs spec.json clip.mp4` (Three.js + GSAP; spec: `w`, `h`, `duration`, `fly`, `from`/`to` `{lat, lon, dist}`, `markers`, `routes`, `highlight` ISO3 list), then `"clips": {"globe": "sketch/clip.mp4"}` and use `globe` as a scene.
 - **Landscape:** `"landscape": true` in a timeline renders 1920x1080 (used by the long-form cuts).
+
+## Checks on every render (required)
+- **Caption sync:** caption words are snapped to the voice with speech recognition (`align.refine`, faster-whisper `base.en` in the Kokoro venv). After rendering run
+  `~/.cache/kokoro/venv/bin/python scripts/check_sync.py OUT_DIR` — it re-listens to the final audio and lists words off by more than 0.3 s.
+- **Readable on-screen text:** all hand lettering has a paper-coloured halo. `render.mjs` runs a text audit before the frames and prints any label that
+  overlaps another label, the caption band, the date tag or the logo, or runs off the frame. Fix the positions until it says `text audit: ok`.
+- **Dialogue:** no thinking/filler words for any speaker (Hmm, Oh, Well, Wait, Good question).
+- No generated character/portrait drawings: use the real public-domain paintings.
