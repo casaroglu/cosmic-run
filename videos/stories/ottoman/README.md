@@ -16,8 +16,8 @@ fleets), public-domain paintings and miniatures, globe flights. Two parts where 
 | 07 | Barbarossa and Preveza 1538 | A pirate became the sultan's admiral | rendered |
 | 08 | Lepanto 1571 (links to the Spain series) | The battle that "broke" a navy that was rebuilt in a winter | rendered |
 | 09 | Istanbul's water: the Taksim maksem (1730s) | Why a square is named after water (3D scene) | rendered |
-| 10 | Vienna 1683 | The last march on Vienna | planned |
-| 11 | 1826: the end of the Janissaries | The sultan who destroyed his own army | planned |
+| 10 | Vienna 1683 | Why the Ottomans never took Vienna | rendered |
+| 11 | 1826: the end of the Janissaries | The sultan who destroyed his own army | rendered |
 | 12 | Tanzimat 1839 and the "sick man of Europe" | Reform in a rose garden | planned |
 | 13 | Gallipoli 1915 | | planned |
 | 14 | 1922: the last sultan leaves | | planned |
