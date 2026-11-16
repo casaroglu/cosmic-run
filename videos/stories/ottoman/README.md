@@ -8,7 +8,7 @@ fleets), public-domain paintings and miniatures, globe flights. Two parts where 
 | 01 | Osman and the beginning (c. 1299–1326) | Where did the Ottoman Empire actually begin? | rendered |
 | 02 | Into Europe: Gallipoli 1354, Kosovo 1389 | How did the Ottomans get into Europe? | rendered |
 | 03 | Ankara 1402: Timur captures Bayezid | The sultan who was taken prisoner | rendered |
-| 04a | 1453, Part 1: the walls of Constantinople | A thousand-year wall vs. the biggest cannon in the world | planned |
+| 04a | 1453, Part 1: the walls of Constantinople | A thousand-year wall vs. the biggest cannon in the world | rendered |
 | 04b | 1453, Part 2: ships over the hill | He moved a fleet over land | planned |
 | 05 | Selim I: Chaldiran 1514, Cairo 1517 | Eight years that doubled an empire | planned |
 | 06a | Suleiman, Part 1: Mohács 1526, Vienna 1529 | Europe's most feared ruler at 26 | planned |

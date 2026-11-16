@@ -1,0 +1,1642 @@
+{
+ "series": "The Ottoman Empire",
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
+  },
+  "a": {
+   "name": "Theo",
+   "color": "#E8B44A"
+  }
+ },
+ "accent": "#E8B44A",
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "scene_pad": 0.5,
+ "fade": 1.1,
+ "episode": "4a",
+ "title": "How do you break a wall that stood for a thousand years?",
+ "highlight": [
+  "wall",
+  "thousand",
+  "years?"
+ ],
+ "music": {
+  "mood": "epic",
+  "seed": 54,
+  "drums": true,
+  "level": 0.3
+ },
+ "post": {
+  "caption": "The Ottoman Empire, episode 4, Part 1: the Theodosian Walls, Rumeli Hisarı, and Orban's great gun at the siege of Constantinople (1453). Images: public domain. Map data: Natural Earth, © OpenStreetMap contributors. Borders approx.",
+  "hashtags": [
+   "history",
+   "ottoman",
+   "constantinople",
+   "istanbul",
+   "1453",
+   "byzantine",
+   "shorts"
+  ]
+ },
+ "clips": {
+  "globe": "sketch/globe_in.mp4"
+ },
+ "images": {
+  "walls": {
+   "file": "img/walls.jpg",
+   "credit": "Thomas Allom, The Triple Wall of Constantinople (1836)",
+   "where": "Public domain"
+  },
+  "mehmed": {
+   "file": "img/mehmed.jpg",
+   "credit": "Gentile Bellini, Sultan Mehmed II (1480)",
+   "where": "National Gallery, London"
+  },
+  "rumeli": {
+   "file": "img/rumeli.jpg",
+   "credit": "Warwick Goble, Roumeli Hissar (early 1900s)",
+   "where": "Public domain"
+  },
+  "siege": {
+   "file": "img/siege.jpg",
+   "credit": "Jean Le Tavernier, The Siege of Constantinople (after 1455)",
+   "where": "Bibliothèque nationale de France"
+  },
+  "constantine": {
+   "file": "img/constantine.jpg",
+   "credit": "Constantine XI Palaiologos (15th-c. manuscript)",
+   "where": "Biblioteca Estense, Modena"
+  }
+ },
+ "sketches": {
+  "today": {
+   "coast": "sketch/city.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 2.0
+    },
+    {
+     "kind": "label",
+     "text": "Sea of Marmara",
+     "pos": [
+      28.975,
+      40.979
+     ],
+     "at": 1.0,
+     "size": 44,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "label",
+     "text": "Bosphorus",
+     "pos": [
+      29.04,
+      41.058
+     ],
+     "at": 1.2,
+     "size": 40,
+     "color": "#1f4e8c",
+     "rot": -0.95
+    },
+    {
+     "kind": "label",
+     "text": "Golden Horn",
+     "pos": [
+      28.958,
+      41.034
+     ],
+     "at": 1.4,
+     "size": 34,
+     "color": "#1f4e8c",
+     "rot": -0.6
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       28.9405,
+       41.0425
+      ],
+      [
+       28.94,
+       41.034
+      ],
+      [
+       28.936,
+       41.028
+      ],
+      [
+       28.929,
+       41.022
+      ],
+      [
+       28.921,
+       41.017
+      ],
+      [
+       28.918,
+       41.01
+      ],
+      [
+       28.917,
+       41.0
+      ],
+      [
+       28.922,
+       40.9935
+      ]
+     ],
+     "at": 2.2,
+     "dur": 2.0,
+     "color": "#2a2119",
+     "width": 10,
+     "arrow": false
+    },
+    {
+     "kind": "label",
+     "text": "the land walls",
+     "pos": [
+      28.927,
+      41.006
+     ],
+     "at": 3.4,
+     "size": 42,
+     "color": "#b3261e",
+     "align": "left"
+    },
+    {
+     "kind": "measure",
+     "a": [
+      28.905,
+      41.0425
+     ],
+     "b": [
+      28.905,
+      40.9935
+     ],
+     "text": "5.7 km",
+     "offset": [
+      -150,
+      0
+     ],
+     "at": 4.6,
+     "dur": 0.8
+    }
+   ]
+  },
+  "heights": {
+   "items": [
+    {
+     "kind": "bars",
+     "pos": [
+      0.13,
+      0.6
+     ],
+     "w": 820,
+     "h": 560,
+     "at": 0.3,
+     "title": "Height in metres",
+     "data": [
+      {
+       "label": "Outer wall",
+       "value": 9,
+       "color": "#8a7a63"
+      },
+      {
+       "label": "Inner wall",
+       "value": 12,
+       "color": "#6b5a43"
+      },
+      {
+       "label": "Towers",
+       "value": 20,
+       "color": "#b3261e"
+      }
+     ],
+     "lsize": 46
+    },
+    {
+     "kind": "text",
+     "text": "+ a moat 20 m wide",
+     "pos": [
+      0.5,
+      0.2
+     ],
+     "at": 3.0,
+     "size": 56,
+     "color": "#1f4e8c"
+    }
+   ]
+  },
+  "lands1451": {
+   "coast": "sketch/empire.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.8
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        26.15,
+        40.05
+       ],
+       [
+        26.0,
+        40.5
+       ],
+       [
+        25.6,
+        40.85
+       ],
+       [
+        24.9,
+        40.9
+       ],
+       [
+        24.3,
+        40.9
+       ],
+       [
+        23.7,
+        40.75
+       ],
+       [
+        22.95,
+        40.62
+       ],
+       [
+        22.6,
+        40.2
+       ],
+       [
+        22.9,
+        39.4
+       ],
+       [
+        23.1,
+        38.95
+       ],
+       [
+        22.3,
+        38.75
+       ],
+       [
+        21.4,
+        38.95
+       ],
+       [
+        20.9,
+        39.4
+       ],
+       [
+        20.6,
+        40.2
+       ],
+       [
+        20.4,
+        41.0
+       ],
+       [
+        20.5,
+        41.8
+       ],
+       [
+        21.0,
+        42.3
+       ],
+       [
+        21.4,
+        42.25
+       ],
+       [
+        22.0,
+        42.6
+       ],
+       [
+        22.4,
+        43.4
+       ],
+       [
+        22.9,
+        44.0
+       ],
+       [
+        24.0,
+        43.75
+       ],
+       [
+        25.5,
+        43.65
+       ],
+       [
+        27.0,
+        44.1
+       ],
+       [
+        28.0,
+        44.1
+       ],
+       [
+        28.7,
+        43.8
+       ],
+       [
+        27.9,
+        42.7
+       ],
+       [
+        27.75,
+        42.2
+       ],
+       [
+        27.9,
+        41.9
+       ],
+       [
+        28.3,
+        41.5
+       ],
+       [
+        28.35,
+        41.2
+       ],
+       [
+        27.9,
+        41.05
+       ],
+       [
+        27.4,
+        40.95
+       ],
+       [
+        26.9,
+        40.65
+       ],
+       [
+        26.6,
+        40.35
+       ]
+      ],
+      [
+       [
+        26.18,
+        39.97
+       ],
+       [
+        26.4,
+        40.12
+       ],
+       [
+        26.62,
+        40.28
+       ],
+       [
+        26.78,
+        40.4
+       ],
+       [
+        27.2,
+        40.45
+       ],
+       [
+        28.0,
+        40.42
+       ],
+       [
+        28.9,
+        40.45
+       ],
+       [
+        29.3,
+        40.75
+       ],
+       [
+        29.9,
+        40.85
+       ],
+       [
+        30.6,
+        41.25
+       ],
+       [
+        31.6,
+        41.45
+       ],
+       [
+        32.3,
+        41.75
+       ],
+       [
+        32.3,
+        41.6
+       ],
+       [
+        32.6,
+        40.95
+       ],
+       [
+        34.0,
+        40.85
+       ],
+       [
+        35.3,
+        41.0
+       ],
+       [
+        35.5,
+        41.6
+       ],
+       [
+        36.3,
+        41.4
+       ],
+       [
+        37.0,
+        41.2
+       ],
+       [
+        37.5,
+        41.1
+       ],
+       [
+        37.6,
+        40.4
+       ],
+       [
+        38.0,
+        39.9
+       ],
+       [
+        37.8,
+        39.3
+       ],
+       [
+        37.0,
+        38.9
+       ],
+       [
+        36.0,
+        39.2
+       ],
+       [
+        35.0,
+        39.4
+       ],
+       [
+        34.0,
+        39.0
+       ],
+       [
+        33.0,
+        38.9
+       ],
+       [
+        32.0,
+        38.7
+       ],
+       [
+        31.3,
+        38.2
+       ],
+       [
+        31.0,
+        37.6
+       ],
+       [
+        31.4,
+        37.3
+       ],
+       [
+        31.3,
+        36.75
+       ],
+       [
+        30.6,
+        36.8
+       ],
+       [
+        29.6,
+        36.2
+       ],
+       [
+        28.2,
+        36.6
+       ],
+       [
+        27.2,
+        37.0
+       ],
+       [
+        26.3,
+        38.3
+       ],
+       [
+        26.6,
+        39.3
+       ]
+      ]
+     ],
+     "at": 0.8,
+     "dur": 2.4,
+     "label": "Ottoman, 1451",
+     "labelPos": [
+      33.6,
+      39.6
+     ]
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        21.0,
+        38.35
+       ],
+       [
+        22.9,
+        38.1
+       ],
+       [
+        23.3,
+        37.4
+       ],
+       [
+        23.0,
+        36.35
+       ],
+       [
+        22.3,
+        36.35
+       ],
+       [
+        21.6,
+        36.75
+       ],
+       [
+        21.0,
+        37.6
+       ]
+      ]
+     ],
+     "color": "#1f4e8c",
+     "at": 3.0,
+     "dur": 1.0,
+     "label": "Morea",
+     "labelPos": [
+      22.1,
+      36.1
+     ]
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      28.98,
+      41.01
+     ],
+     "label": "Constantinople",
+     "lx": 20,
+     "ly": -45,
+     "at": 3.4,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "circle",
+     "pos": [
+      28.98,
+      41.01
+     ],
+     "r": 55,
+     "ry": 46,
+     "at": 4.0,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "label",
+     "text": "Karaman",
+     "pos": [
+      33.2,
+      37.4
+     ],
+     "at": 4.6,
+     "size": 38,
+     "color": "#c77700"
+    },
+    {
+     "kind": "label",
+     "text": "borders approx.",
+     "pos": [
+      0.8,
+      0.66
+     ],
+     "at": 3.0,
+     "size": 36
+    }
+   ]
+  },
+  "bosphorus": {
+   "coast": "sketch/city.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       28.9405,
+       41.0425
+      ],
+      [
+       28.94,
+       41.034
+      ],
+      [
+       28.936,
+       41.028
+      ],
+      [
+       28.929,
+       41.022
+      ],
+      [
+       28.921,
+       41.017
+      ],
+      [
+       28.918,
+       41.01
+      ],
+      [
+       28.917,
+       41.0
+      ],
+      [
+       28.922,
+       40.9935
+      ]
+     ],
+     "at": 0.2,
+     "dur": 0.6,
+     "color": "#2a2119",
+     "width": 10,
+     "arrow": false
+    },
+    {
+     "kind": "fort",
+     "pos": [
+      29.056,
+      41.085
+     ],
+     "size": 34,
+     "at": 0.8
+    },
+    {
+     "kind": "label",
+     "text": "Rumeli Hisarı, 1452",
+     "pos": [
+      29.03,
+      41.093
+     ],
+     "at": 1.2,
+     "size": 44,
+     "color": "#b3261e",
+     "align": "right"
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      29.075,
+      41.1
+     ],
+     "to": [
+      29.06,
+      41.072
+     ],
+     "at": 2.4,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "to the Black Sea",
+     "pos": [
+      29.085,
+      41.103
+     ],
+     "at": 2.6,
+     "size": 34,
+     "color": "#1f4e8c",
+     "align": "right"
+    }
+   ]
+  },
+  "gun": {
+   "items": [
+    {
+     "kind": "text",
+     "text": "Orban's great gun",
+     "pos": [
+      0.5,
+      0.26
+     ],
+     "at": 0.2,
+     "size": 76,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "measure",
+     "a": [
+      0.12,
+      0.37
+     ],
+     "b": [
+      0.88,
+      0.37
+     ],
+     "text": "about 8 m long",
+     "offset": [
+      -190,
+      -60
+     ],
+     "at": 1.0,
+     "dur": 1.0
+    },
+    {
+     "kind": "counter",
+     "pos": [
+      0.5,
+      0.48
+     ],
+     "from": 0,
+     "to": 270,
+     "suffix": " kg",
+     "at": 2.6,
+     "dur": 1.6,
+     "size": 120,
+     "plain": true
+    },
+    {
+     "kind": "text",
+     "text": "stone ball (approx.)",
+     "pos": [
+      0.5,
+      0.545
+     ],
+     "at": 3.4,
+     "size": 46
+    },
+    {
+     "kind": "text",
+     "text": "about 3 hours to reload",
+     "pos": [
+      0.5,
+      0.615
+     ],
+     "at": 6.0,
+     "size": 52,
+     "color": "#1f4e8c"
+    }
+   ]
+  },
+  "armies": {
+   "items": [
+    {
+     "kind": "bars",
+     "pos": [
+      0.2,
+      0.6
+     ],
+     "w": 680,
+     "h": 560,
+     "at": 0.1,
+     "data": [
+      {
+       "label": "Ottomans",
+       "value": 80,
+       "color": "#b3261e"
+      },
+      {
+       "label": "Defenders",
+       "value": 7,
+       "color": "#1f4e8c"
+      }
+     ],
+     "lsize": 50,
+     "dur": 0.8
+    },
+    {
+     "kind": "text",
+     "text": "Soldiers, in thousands (est.)",
+     "pos": [
+      0.5,
+      0.2
+     ],
+     "at": 0.2,
+     "size": 58,
+     "color": "#b3261e"
+    }
+   ]
+  },
+  "siegemap": {
+   "coast": "sketch/city.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.0,
+     "pencil": false
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       28.9405,
+       41.0425
+      ],
+      [
+       28.94,
+       41.034
+      ],
+      [
+       28.936,
+       41.028
+      ],
+      [
+       28.929,
+       41.022
+      ],
+      [
+       28.921,
+       41.017
+      ],
+      [
+       28.918,
+       41.01
+      ],
+      [
+       28.917,
+       41.0
+      ],
+      [
+       28.922,
+       40.9935
+      ]
+     ],
+     "at": 0.2,
+     "dur": 0.6,
+     "color": "#2a2119",
+     "width": 10,
+     "arrow": false
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      28.895,
+      41.02
+     ],
+     "label": "Mehmed's camp",
+     "lx": 15,
+     "ly": 60,
+     "at": 0.8,
+     "lalign": "left"
+    },
+    {
+     "kind": "cannon",
+     "from": [
+      [
+       28.9,
+       41.008
+      ],
+      [
+       28.902,
+       41.027
+      ]
+     ],
+     "to": [
+      28.921,
+      41.017
+     ],
+     "at": 1.4,
+     "rate": 0.9
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       28.9815,
+       41.0168
+      ],
+      [
+       28.9745,
+       41.0225
+      ]
+     ],
+     "at": 5.5,
+     "dur": 0.8,
+     "color": "#2a2119",
+     "width": 6,
+     "arrow": false
+    },
+    {
+     "kind": "label",
+     "text": "the chain",
+     "pos": [
+      28.993,
+      41.03
+     ],
+     "at": 6.2,
+     "size": 40,
+     "color": "#2a2119",
+     "align": "left"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      29.006,
+      41.043
+     ],
+     "label": "Ottoman fleet",
+     "lx": 20,
+     "ly": -40,
+     "at": 6.8
+    },
+    {
+     "kind": "label",
+     "text": "Galata",
+     "pos": [
+      28.966,
+      41.033
+     ],
+     "at": 7.2,
+     "size": 34,
+     "color": "#1f4e8c",
+     "align": "right"
+    }
+   ]
+  },
+  "lands1453": {
+   "coast": "sketch/empire.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        26.15,
+        40.05
+       ],
+       [
+        26.0,
+        40.5
+       ],
+       [
+        25.6,
+        40.85
+       ],
+       [
+        24.9,
+        40.9
+       ],
+       [
+        24.3,
+        40.9
+       ],
+       [
+        23.7,
+        40.75
+       ],
+       [
+        22.95,
+        40.62
+       ],
+       [
+        22.6,
+        40.2
+       ],
+       [
+        22.9,
+        39.4
+       ],
+       [
+        23.1,
+        38.95
+       ],
+       [
+        22.3,
+        38.75
+       ],
+       [
+        21.4,
+        38.95
+       ],
+       [
+        20.9,
+        39.4
+       ],
+       [
+        20.6,
+        40.2
+       ],
+       [
+        20.4,
+        41.0
+       ],
+       [
+        20.5,
+        41.8
+       ],
+       [
+        21.0,
+        42.3
+       ],
+       [
+        21.4,
+        42.25
+       ],
+       [
+        22.0,
+        42.6
+       ],
+       [
+        22.4,
+        43.4
+       ],
+       [
+        22.9,
+        44.0
+       ],
+       [
+        24.0,
+        43.75
+       ],
+       [
+        25.5,
+        43.65
+       ],
+       [
+        27.0,
+        44.1
+       ],
+       [
+        28.0,
+        44.1
+       ],
+       [
+        28.7,
+        43.8
+       ],
+       [
+        27.9,
+        42.7
+       ],
+       [
+        27.75,
+        42.2
+       ],
+       [
+        27.9,
+        41.9
+       ],
+       [
+        28.3,
+        41.5
+       ],
+       [
+        28.35,
+        41.2
+       ],
+       [
+        27.9,
+        41.05
+       ],
+       [
+        27.4,
+        40.95
+       ],
+       [
+        26.9,
+        40.65
+       ],
+       [
+        26.6,
+        40.35
+       ]
+      ],
+      [
+       [
+        26.18,
+        39.97
+       ],
+       [
+        26.4,
+        40.12
+       ],
+       [
+        26.62,
+        40.28
+       ],
+       [
+        26.78,
+        40.4
+       ],
+       [
+        27.2,
+        40.45
+       ],
+       [
+        28.0,
+        40.42
+       ],
+       [
+        28.9,
+        40.45
+       ],
+       [
+        29.3,
+        40.75
+       ],
+       [
+        29.9,
+        40.85
+       ],
+       [
+        30.6,
+        41.25
+       ],
+       [
+        31.6,
+        41.45
+       ],
+       [
+        32.3,
+        41.75
+       ],
+       [
+        32.3,
+        41.6
+       ],
+       [
+        32.6,
+        40.95
+       ],
+       [
+        34.0,
+        40.85
+       ],
+       [
+        35.3,
+        41.0
+       ],
+       [
+        35.5,
+        41.6
+       ],
+       [
+        36.3,
+        41.4
+       ],
+       [
+        37.0,
+        41.2
+       ],
+       [
+        37.5,
+        41.1
+       ],
+       [
+        37.6,
+        40.4
+       ],
+       [
+        38.0,
+        39.9
+       ],
+       [
+        37.8,
+        39.3
+       ],
+       [
+        37.0,
+        38.9
+       ],
+       [
+        36.0,
+        39.2
+       ],
+       [
+        35.0,
+        39.4
+       ],
+       [
+        34.0,
+        39.0
+       ],
+       [
+        33.0,
+        38.9
+       ],
+       [
+        32.0,
+        38.7
+       ],
+       [
+        31.3,
+        38.2
+       ],
+       [
+        31.0,
+        37.6
+       ],
+       [
+        31.4,
+        37.3
+       ],
+       [
+        31.3,
+        36.75
+       ],
+       [
+        30.6,
+        36.8
+       ],
+       [
+        29.6,
+        36.2
+       ],
+       [
+        28.2,
+        36.6
+       ],
+       [
+        27.2,
+        37.0
+       ],
+       [
+        26.3,
+        38.3
+       ],
+       [
+        26.6,
+        39.3
+       ]
+      ]
+     ],
+     "at": 0.4,
+     "dur": 1.4,
+     "label": "Ottoman, 1453",
+     "labelPos": [
+      33.6,
+      39.6
+     ]
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        21.0,
+        38.35
+       ],
+       [
+        22.9,
+        38.1
+       ],
+       [
+        23.3,
+        37.4
+       ],
+       [
+        23.0,
+        36.35
+       ],
+       [
+        22.3,
+        36.35
+       ],
+       [
+        21.6,
+        36.75
+       ],
+       [
+        21.0,
+        37.6
+       ]
+      ]
+     ],
+     "color": "#1f4e8c",
+     "at": 1.2,
+     "dur": 0.8
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      28.98,
+      41.01
+     ],
+     "label": "Constantinople",
+     "lx": 20,
+     "ly": -45,
+     "at": 1.6,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "circle",
+     "pos": [
+      28.98,
+      41.01
+     ],
+     "r": 70,
+     "ry": 58,
+     "at": 2.2,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "circle",
+     "pos": [
+      28.98,
+      41.01
+     ],
+     "r": 105,
+     "ry": 88,
+     "at": 2.6,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "text",
+     "text": "April 1453: surrounded",
+     "pos": [
+      0.5,
+      0.24
+     ],
+     "at": 2.8,
+     "size": 62,
+     "color": "#b3261e",
+     "cps": 22
+    },
+    {
+     "kind": "label",
+     "text": "borders approx.",
+     "pos": [
+      0.8,
+      0.66
+     ],
+     "at": 3.0,
+     "size": 36
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "globe",
+   "text": "How do you break a wall that stood for a thousand years?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "With the biggest cannon the world had ever seen. This is Istanbul, today Türkiye's largest city."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Are the old walls still standing?",
+   "scene": "today",
+   "date": "Today",
+   "place": "Istanbul"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Most of them, yes. Five point seven kilometres of land walls, from the Golden Horn to the Sea of Marmara, built in the early four hundreds."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "First a moat twenty metres wide. Then an outer wall, then an inner wall twelve metres high, with ninety-six towers.",
+   "scene": "heights",
+   "date": "",
+   "say": "First a moat twenty metres wide. Then an outer wall, then an inner wall twelve metres high, with ninety-six towers."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And no one ever got through?",
+   "scene": "walls",
+   "date": "1836",
+   "place": "Theodosian Walls",
+   "move": {
+    "from": [
+     0.45,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.6,
+     0.5,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "For about a thousand years, no army broke through these land walls."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So what was left of Byzantium by then?",
+   "scene": "lands1451",
+   "date": "1451",
+   "place": "Ottoman lands"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Almost nothing. The city itself, and the Morea in southern Greece. The Ottomans held everything around it."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "That year a new sultan took the throne: Mehmed the Second. And he wanted the city.",
+   "scene": "mehmed",
+   "date": "1451",
+   "place": "Edirne",
+   "move": {
+    "from": [
+     0.5,
+     0.45,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.38,
+     1.3
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "First, he built a fortress on the Bosphorus in just a few months, to cut the city off from the Black Sea.",
+   "scene": "bosphorus",
+   "date": "1452",
+   "place": "Bosphorus"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "It still stands today: Rumeli Hisarı.",
+   "scene": "rumeli",
+   "date": "",
+   "move": {
+    "from": [
+     0.45,
+     0.4,
+     1.0
+    ],
+    "to": [
+     0.4,
+     0.35,
+     1.3
+    ]
+   },
+   "say": "It still stands today: Roo-meh-lee His-sar."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "But how do you get through walls like that?",
+   "scene": "gun"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "That's where Orban comes in, a Hungarian cannon maker. He first offered his guns to the Byzantine emperor, who could not pay him."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "So he went to Mehmed, and built a bronze giant about eight metres long, firing stone balls of around two hundred and seventy kilos."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "How often could it fire?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Only a few times a day. Reloading took about three hours."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "When did the siege begin?",
+   "scene": "siege",
+   "date": "6 April 1453",
+   "place": "Constantinople",
+   "move": {
+    "from": [
+     0.5,
+     0.6,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.4,
+     1.3
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "On the sixth of April, 1453. Mehmed was just twenty-one."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "He brought up to eighty thousand soldiers.",
+   "scene": "armies"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Emperor Constantine the Eleventh had about seven thousand defenders.",
+   "scene": "constantine",
+   "move": {
+    "from": [
+     0.5,
+     0.45,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.4,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "The guns pounded the walls day after day. But every night, the defenders rebuilt the damage.",
+   "scene": "siegemap",
+   "date": "April 1453",
+   "place": "Constantinople"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "And a great chain across the Golden Horn kept the Ottoman fleet out of the harbour."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So the walls were holding?",
+   "scene": "lands1453",
+   "date": "April 1453",
+   "place": "Ottoman lands"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "They were. Mehmed needed another way in. Next time: the fleet that crossed a hill. Like the video and follow History Sketches."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And tell us in the comments what you think!"
+  },
+  {
+   "type": "end",
+   "text": "Next: ships over the hill",
+   "sub": "Follow History Sketches"
+  }
+ ]
+}
