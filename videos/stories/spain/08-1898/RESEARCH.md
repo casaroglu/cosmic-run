@@ -18,3 +18,7 @@
 
 ## Image note
 The treaty photo shows the **ratification** (Washington, 11 April 1899), not the December 1898 signing — the credit line says so.
+
+## Dialogue remake (2026-11-16)
+- War April–August 1898 (declared 21/25 April, armistice 12 August): "under four months" (✓ Britannica "Spanish-American War"; Wikipedia).
+- Maps 1895 (Cuba, Puerto Rico; Philippines, Guam) and 1899 (Cuba independent under US occupation, Puerto Rico/Guam/Philippines to the US; Carolines, Marianas sold to Germany 1899) (✓ Wikipedia "Treaty of Paris (1898)"; Wikipedia "German–Spanish Treaty (1899)"). Borders approx.

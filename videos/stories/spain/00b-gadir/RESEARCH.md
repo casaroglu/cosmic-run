@@ -15,3 +15,8 @@
 ## Left out on purpose
 - The meaning of "Gadir" ("walled place") — not confirmed in two sources.
 - The exact location of the Melqart temple (disputed).
+
+## Dialogue remake (2026-11-16)
+- Cádiz on a narrow strip of land in the Atlantic near the Strait of Gibraltar (✓ Wikipedia "Cádiz"; Britannica "Cádiz").
+- Tyre to Cádiz "about 4,000 km" by sea (✓ approx.: c. 3,800–4,000 km along the route; shown as approx.).
+- End map: Roman Hispania c. 49 BC = most of the peninsula, the far north (Cantabria, Asturias, Gallaecia) conquered only in the Cantabrian Wars, 29–19 BC (✓ Wikipedia "Cantabrian Wars"; Britannica "Hispania"). Borders approx.

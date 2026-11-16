@@ -15,3 +15,6 @@
 - Troop numbers at Bailén (sources give 17,000–23,000).
 - Exact day Zaragoza fell (20 or 21 Feb 1809).
 - The Constitution of Cádiz itself (planned as its own episode, 07).
+
+## Dialogue remake (2026-11-16)
+- Maps: Spain under King Joseph, with Bailén (1808), Zaragoza (1808–09), Vitoria (1813); end 1814: French driven out (✓ Wikipedia "Peninsular War"; Britannica "Peninsular War"). Guerrilla dots illustrative. Borders approx.

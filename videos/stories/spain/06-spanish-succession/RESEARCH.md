@@ -16,3 +16,6 @@
 - "Il n'y a plus de Pyrénées" — attribution doubtful.
 - Casualty / army sizes.
 - Gibraltar's current political dispute (stated only as "still British").
+
+## Dialogue remake (2026-11-16)
+- Maps 1700 (Spain, southern Netherlands, Milan, Naples, Sicily, Sardinia, overseas empire) and 1714 (Spain without Italy/Netherlands, mostly to Austria; Sicily to Savoy in 1713; Gibraltar and Minorca to Britain) (✓ Wikipedia "Peace of Utrecht"; Britannica "War of the Spanish Succession"). Borders approx.; Sicily shown with the Italian lands.

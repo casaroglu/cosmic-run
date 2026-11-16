@@ -12,3 +12,8 @@
 | Around Scotland & Ireland; dozens wrecked; thousands died | ✓ (exact losses disputed → no number given) | Martin & Parker, *The Spanish Armada* |
 | "Ships against men, not the wind" | Attributed, not documented → said as legend ✓ | — |
 | Died 13 Sept 1598 at El Escorial; 4th bankruptcy (1596) | ✓ | RAH DB~e; Drelichman & Voth |
+
+## Dialogue remake (2026-11-16)
+- About 130 ships (✓ title of the original Short; Wikipedia "Spanish Armada": c. 130 ships; Britannica).
+- Route: Lisbon → Channel → Calais → Gravelines → around Scotland and Ireland (✓ Wikipedia "Spanish Armada"; Royal Museums Greenwich "The Spanish Armada"). Drawn approx.
+- End map 1598: the northern Netherlands (Dutch Republic, in revolt since 1581) not under Philip; Spain, Portugal, southern Netherlands, Franche-Comté, Italy still his (✓ Wikipedia "Dutch Republic"; Britannica "Eighty Years' War"). Fourth bankruptcy 1596 (✓ original research). Borders approx.

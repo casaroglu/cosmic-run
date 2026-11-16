@@ -18,3 +18,6 @@
 
 ## Image note
 Posters are all from the Republican side (the only large PD set found); the Nationalist side is shown through the 1936 Burgos photos and the 1939 victory parade.
+
+## Dialogue remake (2026-11-16)
+- Start map November 1936: Nationalists held the west, linked north and south through Extremadura, reached Madrid (✓ Wikipedia "Siege of Madrid"; Britannica "Spanish Civil War"). End 1939: all Spain under Franco; refugees to France (La Retirada) (✓ Wikipedia "Retirada"). "Rehearsal for WWII" framing (✓ Britannica; Imperial War Museum). Front lines approx.

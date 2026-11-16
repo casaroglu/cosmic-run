@@ -1,163 +1,2263 @@
 {
-  "series": "Spain in 60 seconds",
-  "episode": 5,
-  "total_parts": 2,
-  "voices": {
-    "narrator": "am_michael"
+ "series": "The History of Spain",
+ "voices": {
+  "q": "af_heart",
+  "a": "am_michael"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
   },
-  "speed": {
-    "narrator": 1.0
-  },
-  "accent": "#E8B44A",
-  "part": 1,
-  "title": "Two kings. One crown. Napoleon took it.",
-  "highlight": [
-    "One",
-    "Napoleon"
-  ],
-  "music": {
-    "mood": "tense",
-    "seed": 51,
-    "drums": true,
-    "level": 0.34
-  },
-  "post": {
-    "caption": "Spain 1808, Part 1: how Napoleon took Spain's crown — and how Madrid rose on the 2nd of May. Paintings: public domain.",
-    "hashtags": [
-      "history",
-      "spain",
-      "napoleon",
-      "goya",
-      "historytok",
-      "shorts"
-    ]
-  },
-  "images": {
-    "family": {
-      "file": "img/family.jpg",
-      "credit": "Francisco de Goya, The Family of Charles IV (1800)",
-      "where": "Museo del Prado",
-      "search": "Goya La familia de Carlos IV Prado",
-      "prefer": "familia de Carlos IV"
-    },
-    "godoy": {
-      "file": "img/godoy.jpg",
-      "credit": "Francisco de Goya, Manuel Godoy (1801)",
-      "where": "Real Academia de Bellas Artes de San Fernando",
-      "search": "Goya Manuel Godoy 1801 Real Academia San Fernando"
-    },
-    "aranjuez": {
-      "file": "img/aranjuez.jpg",
-      "credit": "Fall and arrest of Godoy, Aranjuez, 19 March 1808 (fan print, 1813)",
-      "where": "Rijksmuseum, Amsterdam",
-      "search": "Motín de Aranjuez 1808 grabado"
-    },
-    "napoleon": {
-      "file": "img/napoleon.jpg",
-      "credit": "Jacques-Louis David, Napoleon in His Study (1812)",
-      "where": "National Gallery of Art, Washington",
-      "search": "Jacques-Louis David Napoleon in His Study Tuileries National Gallery of Art"
-    },
-    "dosmayo": {
-      "file": "img/dosmayo.jpg",
-      "credit": "Francisco de Goya, The 2nd of May 1808 (1814)",
-      "where": "Museo del Prado",
-      "search": "Goya El 2 de mayo de 1808 carga de los mamelucos Prado"
-    },
-    "tresmayo": {
-      "file": "img/tresmayo.jpg",
-      "credit": "Francisco de Goya, The 3rd of May 1808 (1814)",
-      "where": "Museo del Prado",
-      "search": "Goya El 3 de mayo de 1808 fusilamientos Prado"
-    },
-    "shirt": {
-      "file": "img/tresmayo.jpg",
-      "credit": "Francisco de Goya, The 3rd of May 1808 (1814)",
-      "where": "Museo del Prado"
-    },
-    "joseph": {
-      "file": "img/joseph.jpg",
-      "credit": "François Gérard, Joseph Bonaparte as King of Spain (c. 1808)",
-      "where": "Château de Fontainebleau",
-      "search": "Joseph Bonaparte King of Spain portrait Gérard"
-    }
-  },
-  "beats": [
-    {
-      "type": "title",
-      "scene": "family",
-      "text": "Two kings. One crown. Napoleon took it.",
-      "move": {"from": [0.5, 0.5, 1.0], "to": [0.66, 0.33, 1.4]}
-    },
-    {
-      "type": "narration",
-      "date": "1808",
-      "place": "Madrid",
-      "text": "Spain, 1808. A weak king, Charles the Fourth. And a hated favourite who really ran the country: Manuel Godoy.",
-      "say": "Spain, eighteen-oh-eight. A weak king, Charles the Fourth. And a hated favourite who really ran the country: Manuel Godoy."
-    },
-    {
-      "type": "narration",
-      "scene": "godoy",
-      "text": "Godoy let French troops march through Spain to attack Portugal. Soon they were everywhere.",
-      "move": {"from": [0.4, 0.5, 1.0], "to": [0.73, 0.25, 1.3]}
-    },
-    {
-      "type": "narration",
-      "scene": "aranjuez",
-      "date": "17 March 1808",
-      "place": "Aranjuez",
-      "text": "In March, a mob stormed Godoy's palace. Two days later, the king gave up the crown to his own son, Ferdinand.",
-      "move": {"from": [0.5, 0.5, 1.0], "to": [0.47, 0.5, 1.5]}
-    },
-    {
-      "type": "narration",
-      "scene": "napoleon",
-      "date": "April 1808",
-      "place": "Bayonne, France",
-      "text": "Napoleon invited father and son to Bayonne, in France, to settle their quarrel. It was a trap.",
-      "move": {"from": [0.5, 0.6, 1.0], "to": [0.5, 0.17, 1.4]}
-    },
-    {
-      "type": "narration",
-      "scene": "dosmayo",
-      "date": "2 May 1808",
-      "place": "Madrid",
-      "text": "In Madrid, the French moved to take away the last of the royal family. The crowd exploded. Knives and stones against cavalry.",
-      "move": {"from": [0.3, 0.55, 1.0], "to": [0.5, 0.4, 1.25]}
-    },
-    {
-      "type": "narration",
-      "scene": "tresmayo",
-      "date": "3 May 1808",
-      "text": "That night, the French shot the prisoners they had taken.",
-      "move": {"from": [0.75, 0.5, 1.0], "to": [0.55, 0.5, 1.05]}
-    },
-    {
-      "type": "narration",
-      "scene": "shirt",
-      "text": "Goya painted it six years later. A man in a white shirt, arms wide open, facing the guns.",
-      "gap": 0.5,
-      "move": {"from": [0.45, 0.5, 1.1], "to": [0.35, 0.42, 1.6]}
-    },
-    {
-      "type": "narration",
-      "scene": "joseph",
-      "date": "May 1808",
-      "place": "Bayonne",
-      "text": "Days later in Bayonne, both kings signed the crown away. Napoleon gave Spain to his brother, Joseph.",
-      "move": {"from": [0.5, 0.6, 1.0], "to": [0.5, 0.22, 1.35]}
-    },
-    {
-      "type": "narration",
-      "date": "",
-      "text": "He thought Spain was finished. Instead, the whole country rose.",
-      "gap": 0.6
-    },
-    {
-      "type": "end",
-      "text": "Part 2: The Little War",
-      "sub": "Follow so you don't miss it"
-    }
+  "a": {
+   "name": "Max",
+   "color": "#E8B44A"
+  }
+ },
+ "accent": "#E8B44A",
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "scene_pad": 0.5,
+ "fade": 1.1,
+ "episode": "05a",
+ "title": "How did Napoleon take Spain's crown without a battle?",
+ "highlight": [
+  "Napoleon",
+  "crown"
+ ],
+ "music": {
+  "mood": "epic",
+  "seed": 17,
+  "drums": true,
+  "level": 0.3
+ },
+ "post": {
+  "caption": "The History of Spain, episode 17: 1808: Charles IV, Godoy, the Mutiny of Aranjuez, the trap at Bayonne and the 2nd and 3rd of May painted by Goya. Images: public domain. Map data: Natural Earth. Borders approx.",
+  "hashtags": [
+   "history",
+   "spain",
+   "napoleon",
+   "goya",
+   "1808",
+   "shorts"
   ]
+ },
+ "images": {
+  "family": {
+   "file": "img/family.jpg",
+   "credit": "Francisco de Goya, The Family of Charles IV (1800)",
+   "where": "Museo del Prado",
+   "search": "Goya La familia de Carlos IV Prado",
+   "prefer": "familia de Carlos IV"
+  },
+  "godoy": {
+   "file": "img/godoy.jpg",
+   "credit": "Francisco de Goya, Manuel Godoy (1801)",
+   "where": "Real Academia de Bellas Artes de San Fernando",
+   "search": "Goya Manuel Godoy 1801 Real Academia San Fernando"
+  },
+  "aranjuez": {
+   "file": "img/aranjuez.jpg",
+   "credit": "Fall and arrest of Godoy, Aranjuez, 19 March 1808 (fan print, 1813)",
+   "where": "Rijksmuseum, Amsterdam",
+   "search": "Motín de Aranjuez 1808 grabado"
+  },
+  "napoleon": {
+   "file": "img/napoleon.jpg",
+   "credit": "Jacques-Louis David, Napoleon in His Study (1812)",
+   "where": "National Gallery of Art, Washington",
+   "search": "Jacques-Louis David Napoleon in His Study Tuileries National Gallery of Art"
+  },
+  "dosmayo": {
+   "file": "img/dosmayo.jpg",
+   "credit": "Francisco de Goya, The 2nd of May 1808 (1814)",
+   "where": "Museo del Prado",
+   "search": "Goya El 2 de mayo de 1808 carga de los mamelucos Prado"
+  },
+  "tresmayo": {
+   "file": "img/tresmayo.jpg",
+   "credit": "Francisco de Goya, The 3rd of May 1808 (1814)",
+   "where": "Museo del Prado",
+   "search": "Goya El 3 de mayo de 1808 fusilamientos Prado"
+  },
+  "shirt": {
+   "file": "img/tresmayo.jpg",
+   "credit": "Francisco de Goya, The 3rd of May 1808 (1814)",
+   "where": "Museo del Prado"
+  },
+  "joseph": {
+   "file": "img/joseph.jpg",
+   "credit": "François Gérard, Joseph Bonaparte as King of Spain (c. 1808)",
+   "where": "Château de Fontainebleau",
+   "search": "Joseph Bonaparte King of Spain portrait Gérard"
+  }
+ },
+ "sketches": {
+  "start": {
+   "coast": "sketch/europe.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 2.0
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        -1.8,
+        43.4
+       ],
+       [
+        -1.2,
+        46.2
+       ],
+       [
+        -4.8,
+        48.5
+       ],
+       [
+        -1.6,
+        49.7
+       ],
+       [
+        1.6,
+        50.9
+       ],
+       [
+        3.3,
+        51.4
+       ],
+       [
+        4.2,
+        52.0
+       ],
+       [
+        4.8,
+        53.3
+       ],
+       [
+        7.2,
+        53.3
+       ],
+       [
+        8.5,
+        53.6
+       ],
+       [
+        7.0,
+        51.0
+       ],
+       [
+        6.2,
+        49.5
+       ],
+       [
+        8.2,
+        49.0
+       ],
+       [
+        7.6,
+        47.6
+       ],
+       [
+        6.0,
+        46.4
+       ],
+       [
+        7.0,
+        45.9
+       ],
+       [
+        7.5,
+        44.1
+       ],
+       [
+        3.2,
+        42.45
+       ],
+       [
+        1.4,
+        42.6
+       ],
+       [
+        0.7,
+        42.8
+       ],
+       [
+        -0.5,
+        42.8
+       ]
+      ]
+     ],
+     "color": "#1f4e8c",
+     "at": 0.8,
+     "dur": 1.6,
+     "label": "Napoleon's France",
+     "labelPos": [
+      2.4,
+      46.8
+     ]
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        3.145,
+        39.79
+       ],
+       [
+        3.342,
+        39.787
+       ],
+       [
+        3.449,
+        39.761
+       ],
+       [
+        3.415,
+        39.627
+       ],
+       [
+        3.293,
+        39.477
+       ],
+       [
+        3.155,
+        39.333
+       ],
+       [
+        2.9,
+        39.368
+       ],
+       [
+        2.77,
+        39.41
+       ],
+       [
+        2.701,
+        39.542
+       ],
+       [
+        2.576,
+        39.531
+       ],
+       [
+        2.459,
+        39.53
+       ],
+       [
+        2.37,
+        39.572
+       ],
+       [
+        2.785,
+        39.855
+       ],
+       [
+        3.159,
+        39.971
+       ],
+       [
+        3.164,
+        39.924
+       ],
+       [
+        3.199,
+        39.89
+       ],
+       [
+        3.159,
+        39.837
+       ]
+      ],
+      [
+       [
+        -1.794,
+        43.407
+       ],
+       [
+        -1.753,
+        43.325
+       ],
+       [
+        -1.627,
+        43.282
+       ],
+       [
+        -1.472,
+        43.268
+       ],
+       [
+        -1.407,
+        43.197
+       ],
+       [
+        -1.459,
+        43.105
+       ],
+       [
+        -1.461,
+        43.052
+       ],
+       [
+        -1.394,
+        43.033
+       ],
+       [
+        -1.353,
+        43.064
+       ],
+       [
+        -1.3,
+        43.101
+       ],
+       [
+        -1.285,
+        43.06
+       ],
+       [
+        -0.934,
+        42.95
+       ],
+       [
+        -0.763,
+        42.94
+       ],
+       [
+        -0.586,
+        42.799
+       ],
+       [
+        -0.481,
+        42.799
+       ],
+       [
+        -0.339,
+        42.829
+       ],
+       [
+        -0.256,
+        42.804
+       ],
+       [
+        -0.14,
+        42.749
+       ],
+       [
+        -0.041,
+        42.689
+       ],
+       [
+        0.255,
+        42.693
+       ],
+       [
+        0.377,
+        42.7
+       ],
+       [
+        0.632,
+        42.69
+       ],
+       [
+        0.652,
+        42.8
+       ],
+       [
+        0.697,
+        42.845
+       ],
+       [
+        1.01,
+        42.779
+       ],
+       [
+        1.208,
+        42.713
+       ],
+       [
+        1.349,
+        42.691
+       ],
+       [
+        1.415,
+        42.548
+       ],
+       [
+        1.43,
+        42.498
+       ],
+       [
+        1.449,
+        42.437
+       ],
+       [
+        1.534,
+        42.442
+       ],
+       [
+        1.679,
+        42.497
+       ],
+       [
+        1.86,
+        42.457
+       ],
+       [
+        1.951,
+        42.393
+       ],
+       [
+        2.033,
+        42.354
+       ],
+       [
+        2.2,
+        42.421
+       ],
+       [
+        2.568,
+        42.346
+       ],
+       [
+        2.655,
+        42.362
+       ],
+       [
+        2.702,
+        42.408
+       ],
+       [
+        2.816,
+        42.429
+       ],
+       [
+        2.97,
+        42.467
+       ],
+       [
+        3.152,
+        42.431
+       ],
+       [
+        3.24,
+        42.368
+       ],
+       [
+        3.307,
+        42.289
+       ],
+       [
+        3.166,
+        42.256
+       ],
+       [
+        3.175,
+        42.136
+       ],
+       [
+        3.238,
+        42.082
+       ],
+       [
+        3.147,
+        41.861
+       ],
+       [
+        2.311,
+        41.467
+       ],
+       [
+        2.083,
+        41.287
+       ],
+       [
+        1.206,
+        41.098
+       ],
+       [
+        0.817,
+        40.892
+       ],
+       [
+        0.796,
+        40.804
+       ],
+       [
+        0.859,
+        40.686
+       ],
+       [
+        0.66,
+        40.613
+       ],
+       [
+        0.596,
+        40.615
+       ],
+       [
+        0.158,
+        40.107
+       ],
+       [
+        -0.075,
+        39.876
+       ],
+       [
+        -0.329,
+        39.417
+       ],
+       [
+        -0.134,
+        38.969
+       ],
+       [
+        0.155,
+        38.825
+       ],
+       [
+        0.136,
+        38.697
+       ],
+       [
+        -0.381,
+        38.436
+       ],
+       [
+        -0.551,
+        38.203
+       ],
+       [
+        -0.683,
+        37.992
+       ],
+       [
+        -0.753,
+        37.85
+       ],
+       [
+        -0.823,
+        37.712
+       ],
+       [
+        -0.772,
+        37.596
+       ],
+       [
+        -0.938,
+        37.571
+       ],
+       [
+        -1.641,
+        37.387
+       ],
+       [
+        -1.939,
+        36.946
+       ],
+       [
+        -2.188,
+        36.745
+       ],
+       [
+        -2.453,
+        36.831
+       ],
+       [
+        -2.671,
+        36.748
+       ],
+       [
+        -2.902,
+        36.743
+       ],
+       [
+        -3.259,
+        36.756
+       ],
+       [
+        -3.579,
+        36.74
+       ],
+       [
+        -4.367,
+        36.718
+       ],
+       [
+        -4.502,
+        36.629
+       ],
+       [
+        -4.935,
+        36.502
+       ],
+       [
+        -5.231,
+        36.374
+       ],
+       [
+        -5.361,
+        36.135
+       ],
+       [
+        -5.407,
+        36.159
+       ],
+       [
+        -5.463,
+        36.074
+       ],
+       [
+        -5.625,
+        36.026
+       ],
+       [
+        -5.961,
+        36.182
+       ],
+       [
+        -6.17,
+        36.334
+       ],
+       [
+        -6.266,
+        36.527
+       ],
+       [
+        -6.269,
+        36.597
+       ],
+       [
+        -6.412,
+        36.729
+       ],
+       [
+        -6.259,
+        36.899
+       ],
+       [
+        -6.321,
+        36.908
+       ],
+       [
+        -6.492,
+        36.955
+       ],
+       [
+        -6.859,
+        37.249
+       ],
+       [
+        -6.929,
+        37.215
+       ],
+       [
+        -7.175,
+        37.209
+       ],
+       [
+        -7.467,
+        37.428
+       ],
+       [
+        -7.504,
+        37.585
+       ],
+       [
+        -7.379,
+        37.786
+       ],
+       [
+        -7.185,
+        38.006
+       ],
+       [
+        -7.023,
+        38.045
+       ],
+       [
+        -6.958,
+        38.188
+       ],
+       [
+        -7.106,
+        38.181
+       ],
+       [
+        -7.336,
+        38.501
+       ],
+       [
+        -7.286,
+        38.649
+       ],
+       [
+        -7.22,
+        38.771
+       ],
+       [
+        -7.046,
+        38.907
+       ],
+       [
+        -6.998,
+        39.056
+       ],
+       [
+        -7.172,
+        39.135
+       ],
+       [
+        -7.335,
+        39.465
+       ],
+       [
+        -7.445,
+        39.536
+       ],
+       [
+        -7.536,
+        39.662
+       ],
+       [
+        -7.118,
+        39.682
+       ],
+       [
+        -7.037,
+        39.714
+       ],
+       [
+        -6.911,
+        39.937
+       ],
+       [
+        -6.916,
+        40.057
+       ],
+       [
+        -7.033,
+        40.168
+       ],
+       [
+        -6.948,
+        40.252
+       ],
+       [
+        -6.81,
+        40.343
+       ],
+       [
+        -6.848,
+        40.411
+       ],
+       [
+        -6.836,
+        40.483
+       ],
+       [
+        -6.818,
+        40.654
+       ],
+       [
+        -6.858,
+        40.878
+       ],
+       [
+        -6.916,
+        41.038
+       ],
+       [
+        -6.776,
+        41.108
+       ],
+       [
+        -6.566,
+        41.304
+       ],
+       [
+        -6.289,
+        41.455
+       ],
+       [
+        -6.213,
+        41.532
+       ],
+       [
+        -6.243,
+        41.602
+       ],
+       [
+        -6.392,
+        41.665
+       ],
+       [
+        -6.542,
+        41.673
+       ],
+       [
+        -6.553,
+        41.79
+       ],
+       [
+        -6.575,
+        41.913
+       ],
+       [
+        -6.704,
+        41.935
+       ],
+       [
+        -6.833,
+        41.964
+       ],
+       [
+        -7.03,
+        41.951
+       ],
+       [
+        -7.147,
+        41.981
+       ],
+       [
+        -7.195,
+        41.955
+       ],
+       [
+        -7.21,
+        41.895
+       ],
+       [
+        -7.404,
+        41.834
+       ],
+       [
+        -7.613,
+        41.858
+       ],
+       [
+        -7.693,
+        41.888
+       ],
+       [
+        -7.921,
+        41.884
+       ],
+       [
+        -8.094,
+        41.814
+       ],
+       [
+        -8.174,
+        41.82
+       ],
+       [
+        -8.225,
+        41.896
+       ],
+       [
+        -8.13,
+        42.018
+       ],
+       [
+        -8.174,
+        42.069
+       ],
+       [
+        -8.213,
+        42.134
+       ],
+       [
+        -8.323,
+        42.115
+       ],
+       [
+        -8.59,
+        42.053
+       ],
+       [
+        -8.777,
+        41.941
+       ],
+       [
+        -8.878,
+        41.947
+       ],
+       [
+        -8.772,
+        42.211
+       ],
+       [
+        -8.729,
+        42.287
+       ],
+       [
+        -8.81,
+        42.334
+       ],
+       [
+        -8.73,
+        42.412
+       ],
+       [
+        -8.812,
+        42.47
+       ],
+       [
+        -8.8,
+        42.6
+       ],
+       [
+        -8.988,
+        42.586
+       ],
+       [
+        -9.035,
+        42.662
+       ],
+       [
+        -8.927,
+        42.799
+       ],
+       [
+        -9.127,
+        42.865
+       ],
+       [
+        -9.235,
+        42.977
+       ],
+       [
+        -9.178,
+        43.174
+       ],
+       [
+        -9.025,
+        43.239
+       ],
+       [
+        -8.666,
+        43.317
+       ],
+       [
+        -8.422,
+        43.386
+       ],
+       [
+        -8.249,
+        43.439
+       ],
+       [
+        -8.289,
+        43.54
+       ],
+       [
+        -8.137,
+        43.629
+       ],
+       [
+        -7.853,
+        43.707
+       ],
+       [
+        -7.595,
+        43.727
+       ],
+       [
+        -7.399,
+        43.696
+       ],
+       [
+        -7.061,
+        43.554
+       ],
+       [
+        -6.617,
+        43.592
+       ],
+       [
+        -6.224,
+        43.604
+       ],
+       [
+        -5.847,
+        43.645
+       ],
+       [
+        -5.316,
+        43.553
+       ],
+       [
+        -4.523,
+        43.416
+       ],
+       [
+        -4.015,
+        43.463
+       ],
+       [
+        -3.774,
+        43.478
+       ],
+       [
+        -3.524,
+        43.511
+       ],
+       [
+        -3.046,
+        43.372
+       ],
+       [
+        -2.875,
+        43.454
+       ],
+       [
+        -2.337,
+        43.328
+       ],
+       [
+        -1.991,
+        43.345
+       ],
+       [
+        -1.794,
+        43.407
+       ]
+      ]
+     ],
+     "color": "#b3261e",
+     "style": "faint",
+     "at": 1.6,
+     "dur": 1.2,
+     "label": "Spain",
+     "labelPos": [
+      -3.6,
+      40.0
+     ]
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       -1.6,
+       43.3
+      ],
+      [
+       -3.7,
+       41.6
+      ],
+      [
+       -6.5,
+       40.5
+      ],
+      [
+       -9.1,
+       38.8
+      ]
+     ],
+     "at": 2.4,
+     "dur": 1.8,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "label",
+     "text": "French troops, 1807",
+     "pos": [
+      -6.0,
+      41.9
+     ],
+     "at": 3.4,
+     "size": 38,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "label",
+     "text": "borders approx.",
+     "pos": [
+      0.8,
+      0.66
+     ],
+     "at": 3.0,
+     "size": 34
+    }
+   ]
+  },
+  "end": {
+   "coast": "sketch/europe.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        -1.8,
+        43.4
+       ],
+       [
+        -1.2,
+        46.2
+       ],
+       [
+        -4.8,
+        48.5
+       ],
+       [
+        -1.6,
+        49.7
+       ],
+       [
+        1.6,
+        50.9
+       ],
+       [
+        3.3,
+        51.4
+       ],
+       [
+        4.2,
+        52.0
+       ],
+       [
+        4.8,
+        53.3
+       ],
+       [
+        7.2,
+        53.3
+       ],
+       [
+        8.5,
+        53.6
+       ],
+       [
+        7.0,
+        51.0
+       ],
+       [
+        6.2,
+        49.5
+       ],
+       [
+        8.2,
+        49.0
+       ],
+       [
+        7.6,
+        47.6
+       ],
+       [
+        6.0,
+        46.4
+       ],
+       [
+        7.0,
+        45.9
+       ],
+       [
+        7.5,
+        44.1
+       ],
+       [
+        3.2,
+        42.45
+       ],
+       [
+        1.4,
+        42.6
+       ],
+       [
+        0.7,
+        42.8
+       ],
+       [
+        -0.5,
+        42.8
+       ]
+      ]
+     ],
+     "color": "#1f4e8c",
+     "at": 0.3,
+     "dur": 1.0
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        3.145,
+        39.79
+       ],
+       [
+        3.342,
+        39.787
+       ],
+       [
+        3.449,
+        39.761
+       ],
+       [
+        3.415,
+        39.627
+       ],
+       [
+        3.293,
+        39.477
+       ],
+       [
+        3.155,
+        39.333
+       ],
+       [
+        2.9,
+        39.368
+       ],
+       [
+        2.77,
+        39.41
+       ],
+       [
+        2.701,
+        39.542
+       ],
+       [
+        2.576,
+        39.531
+       ],
+       [
+        2.459,
+        39.53
+       ],
+       [
+        2.37,
+        39.572
+       ],
+       [
+        2.785,
+        39.855
+       ],
+       [
+        3.159,
+        39.971
+       ],
+       [
+        3.164,
+        39.924
+       ],
+       [
+        3.199,
+        39.89
+       ],
+       [
+        3.159,
+        39.837
+       ]
+      ],
+      [
+       [
+        -1.794,
+        43.407
+       ],
+       [
+        -1.753,
+        43.325
+       ],
+       [
+        -1.627,
+        43.282
+       ],
+       [
+        -1.472,
+        43.268
+       ],
+       [
+        -1.407,
+        43.197
+       ],
+       [
+        -1.459,
+        43.105
+       ],
+       [
+        -1.461,
+        43.052
+       ],
+       [
+        -1.394,
+        43.033
+       ],
+       [
+        -1.353,
+        43.064
+       ],
+       [
+        -1.3,
+        43.101
+       ],
+       [
+        -1.285,
+        43.06
+       ],
+       [
+        -0.934,
+        42.95
+       ],
+       [
+        -0.763,
+        42.94
+       ],
+       [
+        -0.586,
+        42.799
+       ],
+       [
+        -0.481,
+        42.799
+       ],
+       [
+        -0.339,
+        42.829
+       ],
+       [
+        -0.256,
+        42.804
+       ],
+       [
+        -0.14,
+        42.749
+       ],
+       [
+        -0.041,
+        42.689
+       ],
+       [
+        0.255,
+        42.693
+       ],
+       [
+        0.377,
+        42.7
+       ],
+       [
+        0.632,
+        42.69
+       ],
+       [
+        0.652,
+        42.8
+       ],
+       [
+        0.697,
+        42.845
+       ],
+       [
+        1.01,
+        42.779
+       ],
+       [
+        1.208,
+        42.713
+       ],
+       [
+        1.349,
+        42.691
+       ],
+       [
+        1.415,
+        42.548
+       ],
+       [
+        1.43,
+        42.498
+       ],
+       [
+        1.449,
+        42.437
+       ],
+       [
+        1.534,
+        42.442
+       ],
+       [
+        1.679,
+        42.497
+       ],
+       [
+        1.86,
+        42.457
+       ],
+       [
+        1.951,
+        42.393
+       ],
+       [
+        2.033,
+        42.354
+       ],
+       [
+        2.2,
+        42.421
+       ],
+       [
+        2.568,
+        42.346
+       ],
+       [
+        2.655,
+        42.362
+       ],
+       [
+        2.702,
+        42.408
+       ],
+       [
+        2.816,
+        42.429
+       ],
+       [
+        2.97,
+        42.467
+       ],
+       [
+        3.152,
+        42.431
+       ],
+       [
+        3.24,
+        42.368
+       ],
+       [
+        3.307,
+        42.289
+       ],
+       [
+        3.166,
+        42.256
+       ],
+       [
+        3.175,
+        42.136
+       ],
+       [
+        3.238,
+        42.082
+       ],
+       [
+        3.147,
+        41.861
+       ],
+       [
+        2.311,
+        41.467
+       ],
+       [
+        2.083,
+        41.287
+       ],
+       [
+        1.206,
+        41.098
+       ],
+       [
+        0.817,
+        40.892
+       ],
+       [
+        0.796,
+        40.804
+       ],
+       [
+        0.859,
+        40.686
+       ],
+       [
+        0.66,
+        40.613
+       ],
+       [
+        0.596,
+        40.615
+       ],
+       [
+        0.158,
+        40.107
+       ],
+       [
+        -0.075,
+        39.876
+       ],
+       [
+        -0.329,
+        39.417
+       ],
+       [
+        -0.134,
+        38.969
+       ],
+       [
+        0.155,
+        38.825
+       ],
+       [
+        0.136,
+        38.697
+       ],
+       [
+        -0.381,
+        38.436
+       ],
+       [
+        -0.551,
+        38.203
+       ],
+       [
+        -0.683,
+        37.992
+       ],
+       [
+        -0.753,
+        37.85
+       ],
+       [
+        -0.823,
+        37.712
+       ],
+       [
+        -0.772,
+        37.596
+       ],
+       [
+        -0.938,
+        37.571
+       ],
+       [
+        -1.641,
+        37.387
+       ],
+       [
+        -1.939,
+        36.946
+       ],
+       [
+        -2.188,
+        36.745
+       ],
+       [
+        -2.453,
+        36.831
+       ],
+       [
+        -2.671,
+        36.748
+       ],
+       [
+        -2.902,
+        36.743
+       ],
+       [
+        -3.259,
+        36.756
+       ],
+       [
+        -3.579,
+        36.74
+       ],
+       [
+        -4.367,
+        36.718
+       ],
+       [
+        -4.502,
+        36.629
+       ],
+       [
+        -4.935,
+        36.502
+       ],
+       [
+        -5.231,
+        36.374
+       ],
+       [
+        -5.361,
+        36.135
+       ],
+       [
+        -5.407,
+        36.159
+       ],
+       [
+        -5.463,
+        36.074
+       ],
+       [
+        -5.625,
+        36.026
+       ],
+       [
+        -5.961,
+        36.182
+       ],
+       [
+        -6.17,
+        36.334
+       ],
+       [
+        -6.266,
+        36.527
+       ],
+       [
+        -6.269,
+        36.597
+       ],
+       [
+        -6.412,
+        36.729
+       ],
+       [
+        -6.259,
+        36.899
+       ],
+       [
+        -6.321,
+        36.908
+       ],
+       [
+        -6.492,
+        36.955
+       ],
+       [
+        -6.859,
+        37.249
+       ],
+       [
+        -6.929,
+        37.215
+       ],
+       [
+        -7.175,
+        37.209
+       ],
+       [
+        -7.467,
+        37.428
+       ],
+       [
+        -7.504,
+        37.585
+       ],
+       [
+        -7.379,
+        37.786
+       ],
+       [
+        -7.185,
+        38.006
+       ],
+       [
+        -7.023,
+        38.045
+       ],
+       [
+        -6.958,
+        38.188
+       ],
+       [
+        -7.106,
+        38.181
+       ],
+       [
+        -7.336,
+        38.501
+       ],
+       [
+        -7.286,
+        38.649
+       ],
+       [
+        -7.22,
+        38.771
+       ],
+       [
+        -7.046,
+        38.907
+       ],
+       [
+        -6.998,
+        39.056
+       ],
+       [
+        -7.172,
+        39.135
+       ],
+       [
+        -7.335,
+        39.465
+       ],
+       [
+        -7.445,
+        39.536
+       ],
+       [
+        -7.536,
+        39.662
+       ],
+       [
+        -7.118,
+        39.682
+       ],
+       [
+        -7.037,
+        39.714
+       ],
+       [
+        -6.911,
+        39.937
+       ],
+       [
+        -6.916,
+        40.057
+       ],
+       [
+        -7.033,
+        40.168
+       ],
+       [
+        -6.948,
+        40.252
+       ],
+       [
+        -6.81,
+        40.343
+       ],
+       [
+        -6.848,
+        40.411
+       ],
+       [
+        -6.836,
+        40.483
+       ],
+       [
+        -6.818,
+        40.654
+       ],
+       [
+        -6.858,
+        40.878
+       ],
+       [
+        -6.916,
+        41.038
+       ],
+       [
+        -6.776,
+        41.108
+       ],
+       [
+        -6.566,
+        41.304
+       ],
+       [
+        -6.289,
+        41.455
+       ],
+       [
+        -6.213,
+        41.532
+       ],
+       [
+        -6.243,
+        41.602
+       ],
+       [
+        -6.392,
+        41.665
+       ],
+       [
+        -6.542,
+        41.673
+       ],
+       [
+        -6.553,
+        41.79
+       ],
+       [
+        -6.575,
+        41.913
+       ],
+       [
+        -6.704,
+        41.935
+       ],
+       [
+        -6.833,
+        41.964
+       ],
+       [
+        -7.03,
+        41.951
+       ],
+       [
+        -7.147,
+        41.981
+       ],
+       [
+        -7.195,
+        41.955
+       ],
+       [
+        -7.21,
+        41.895
+       ],
+       [
+        -7.404,
+        41.834
+       ],
+       [
+        -7.613,
+        41.858
+       ],
+       [
+        -7.693,
+        41.888
+       ],
+       [
+        -7.921,
+        41.884
+       ],
+       [
+        -8.094,
+        41.814
+       ],
+       [
+        -8.174,
+        41.82
+       ],
+       [
+        -8.225,
+        41.896
+       ],
+       [
+        -8.13,
+        42.018
+       ],
+       [
+        -8.174,
+        42.069
+       ],
+       [
+        -8.213,
+        42.134
+       ],
+       [
+        -8.323,
+        42.115
+       ],
+       [
+        -8.59,
+        42.053
+       ],
+       [
+        -8.777,
+        41.941
+       ],
+       [
+        -8.878,
+        41.947
+       ],
+       [
+        -8.772,
+        42.211
+       ],
+       [
+        -8.729,
+        42.287
+       ],
+       [
+        -8.81,
+        42.334
+       ],
+       [
+        -8.73,
+        42.412
+       ],
+       [
+        -8.812,
+        42.47
+       ],
+       [
+        -8.8,
+        42.6
+       ],
+       [
+        -8.988,
+        42.586
+       ],
+       [
+        -9.035,
+        42.662
+       ],
+       [
+        -8.927,
+        42.799
+       ],
+       [
+        -9.127,
+        42.865
+       ],
+       [
+        -9.235,
+        42.977
+       ],
+       [
+        -9.178,
+        43.174
+       ],
+       [
+        -9.025,
+        43.239
+       ],
+       [
+        -8.666,
+        43.317
+       ],
+       [
+        -8.422,
+        43.386
+       ],
+       [
+        -8.249,
+        43.439
+       ],
+       [
+        -8.289,
+        43.54
+       ],
+       [
+        -8.137,
+        43.629
+       ],
+       [
+        -7.853,
+        43.707
+       ],
+       [
+        -7.595,
+        43.727
+       ],
+       [
+        -7.399,
+        43.696
+       ],
+       [
+        -7.061,
+        43.554
+       ],
+       [
+        -6.617,
+        43.592
+       ],
+       [
+        -6.224,
+        43.604
+       ],
+       [
+        -5.847,
+        43.645
+       ],
+       [
+        -5.316,
+        43.553
+       ],
+       [
+        -4.523,
+        43.416
+       ],
+       [
+        -4.015,
+        43.463
+       ],
+       [
+        -3.774,
+        43.478
+       ],
+       [
+        -3.524,
+        43.511
+       ],
+       [
+        -3.046,
+        43.372
+       ],
+       [
+        -2.875,
+        43.454
+       ],
+       [
+        -2.337,
+        43.328
+       ],
+       [
+        -1.991,
+        43.345
+       ],
+       [
+        -1.794,
+        43.407
+       ]
+      ]
+     ],
+     "color": "#6a3d8f",
+     "at": 1.0,
+     "dur": 1.4,
+     "label": "King Joseph, 1808",
+     "labelPos": [
+      -3.6,
+      40.0
+     ]
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      -1.47,
+      43.49
+     ],
+     "label": "Bayonne",
+     "lx": 15,
+     "ly": -40,
+     "at": 2.0,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "label",
+     "text": "borders approx.",
+     "pos": [
+      0.8,
+      0.66
+     ],
+     "at": 3.0,
+     "size": 34
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "globe",
+   "text": "How did Napoleon take Spain's crown without a battle?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "With a trap. In 1808, Spain had two kings, and Napoleon took the crown from both."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Who ruled Spain then?",
+   "scene": "family",
+   "date": "1808",
+   "place": "Madrid",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.5,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "A weak king, Charles the Fourth. And a hated favourite who really ran the country: Manuel Godoy."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "How did the French get in?",
+   "scene": "start",
+   "date": "1807",
+   "place": "Spain"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Godoy let French troops march through Spain to attack Portugal. Soon they were everywhere."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In March 1808, a mob stormed Godoy's palace. Two days later, the king gave up the crown to his own son, Ferdinand.",
+   "scene": "aranjuez",
+   "date": "17 March 1808",
+   "place": "Aranjuez",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.45,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And Napoleon?",
+   "scene": "napoleon",
+   "date": "April 1808",
+   "place": "Bayonne",
+   "move": {
+    "from": [
+     0.5,
+     0.4,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.33,
+     1.3
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "He invited father and son to Bayonne, in France, to settle their quarrel. It was a trap."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "How did Madrid react?",
+   "scene": "dosmayo",
+   "date": "2 May 1808",
+   "place": "Madrid",
+   "move": {
+    "from": [
+     0.4,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.5,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "When the French moved to take away the last of the royal family, the crowd exploded. Knives and stones against cavalry."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "That night, the French shot the prisoners they had taken.",
+   "scene": "tresmayo",
+   "date": "3 May 1808",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.5,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Goya painted it six years later. A man in a white shirt, arms wide open, facing the guns.",
+   "scene": "shirt",
+   "move": {
+    "from": [
+     0.4,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.42,
+     0.48,
+     1.6
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And the crown?",
+   "scene": "end",
+   "date": "May 1808",
+   "place": "Spain"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Days later in Bayonne, both kings signed it away. Napoleon gave Spain to his brother, Joseph."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "He thought Spain was finished. Instead, the whole country rose.",
+   "scene": "joseph",
+   "date": "",
+   "move": {
+    "from": [
+     0.5,
+     0.4,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.33,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Next time: the little war that gave English a new word. Like the video and follow History Sketches."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And tell us in the comments what you think!"
+  },
+  {
+   "type": "end",
+   "text": "Next: the little war that gave English a new word",
+   "sub": "Follow History Sketches"
+  }
+ ],
+ "clips": {
+  "globe": "sketch/globe_in.mp4"
+ }
 }

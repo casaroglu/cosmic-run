@@ -1,0 +1,1 @@
+{"w": 1080, "h": 1920, "duration": 8.0, "fly": 5.0, "ease": "power2.inOut", "from": {"lat": 28, "lon": -20, "dist": 4.6}, "to": {"lat": 38.28, "lon": -3.59, "dist": 1.6}, "markers": [{"lat": 38.28, "lon": -3.59, "label": "Las Navas de Tolosa", "at": 4.4}]}

@@ -13,3 +13,7 @@
 
 ## Images
 Bison close-ups and ceiling are photographs of the museum's replica (the original cave is closed); credited as such.
+
+## Dialogue remake (2026-11-16)
+- Added: location near Santillana del Mar, Cantabria, near the Bay of Biscay (✓ Wikipedia "Cave of Altamira"; Museo de Altamira); visitors see an exact replica next to the cave (✓ Museo Nacional y Centro de Investigación de Altamira "Neocueva"; Wikipedia).
+- Map: modern Spain outline (Natural Earth) for orientation; no historical state borders apply to this episode.

@@ -1,0 +1,162 @@
+[
+ {
+  "n": 1,
+  "out": "01",
+  "dir": "01-osman",
+  "title": "Osman and the beginning",
+  "years": "c. 1299–1326",
+  "lat": 40.09,
+  "lon": 30.18,
+  "place": "Söğüt"
+ },
+ {
+  "n": 2,
+  "out": "02",
+  "dir": "02-into-europe",
+  "title": "Into Europe",
+  "years": "1354–1389",
+  "lat": 40.41,
+  "lon": 26.67,
+  "place": "Gallipoli"
+ },
+ {
+  "n": 3,
+  "out": "03",
+  "dir": "03-ankara",
+  "title": "Ankara: the sultan taken prisoner",
+  "years": "1402",
+  "lat": 39.93,
+  "lon": 32.86,
+  "place": "Ankara"
+ },
+ {
+  "n": 4,
+  "out": "04a",
+  "dir": "04a-walls",
+  "title": "The walls of Constantinople",
+  "years": "1453",
+  "lat": 41.01,
+  "lon": 28.95,
+  "place": "Constantinople"
+ },
+ {
+  "n": 5,
+  "out": "04b",
+  "dir": "04b-ships",
+  "title": "Ships over the hill",
+  "years": "1453",
+  "lat": 41.03,
+  "lon": 28.97,
+  "place": "Golden Horn"
+ },
+ {
+  "n": 6,
+  "out": "05",
+  "dir": "05-selim",
+  "title": "Selim the Grim",
+  "years": "1512–1520",
+  "lat": 30.04,
+  "lon": 31.24,
+  "place": "Cairo"
+ },
+ {
+  "n": 7,
+  "out": "06a",
+  "dir": "06a-suleiman",
+  "title": "Suleiman: Mohács and Vienna",
+  "years": "1520–1529",
+  "lat": 45.99,
+  "lon": 18.68,
+  "place": "Mohács"
+ },
+ {
+  "n": 8,
+  "out": "06b",
+  "dir": "06b-lawgiver",
+  "title": "Suleiman the Lawgiver and Hürrem",
+  "years": "1520–1566",
+  "lat": 41.016,
+  "lon": 28.964,
+  "place": "Süleymaniye"
+ },
+ {
+  "n": 9,
+  "out": "07",
+  "dir": "07-barbarossa",
+  "title": "Barbarossa and Preveza",
+  "years": "1516–1546",
+  "lat": 38.96,
+  "lon": 20.75,
+  "place": "Preveza"
+ },
+ {
+  "n": 10,
+  "out": "08",
+  "dir": "08-lepanto",
+  "title": "Lepanto",
+  "years": "1571",
+  "lat": 38.39,
+  "lon": 21.83,
+  "place": "Lepanto"
+ },
+ {
+  "n": 11,
+  "out": "09",
+  "dir": "09-water",
+  "title": "Istanbul's water",
+  "years": "1730s",
+  "lat": 41.037,
+  "lon": 28.985,
+  "place": "Taksim"
+ },
+ {
+  "n": 12,
+  "out": "10",
+  "dir": "10-vienna",
+  "title": "Vienna, 1683",
+  "years": "1683–1699",
+  "lat": 48.21,
+  "lon": 16.37,
+  "place": "Vienna"
+ },
+ {
+  "n": 13,
+  "out": "11",
+  "dir": "11-janissaries",
+  "title": "The end of the Janissaries",
+  "years": "1826",
+  "lat": 41.01,
+  "lon": 28.98,
+  "place": "Istanbul"
+ },
+ {
+  "n": 14,
+  "out": "12",
+  "dir": "12-sickman",
+  "title": "The sick man of Europe",
+  "years": "1839–1878",
+  "lat": 41.01,
+  "lon": 29.02,
+  "place": "Üsküdar"
+ },
+ {
+  "n": 15,
+  "out": "13",
+  "dir": "13-gallipoli",
+  "title": "Gallipoli",
+  "years": "1915–1916",
+  "lat": 40.24,
+  "lon": 26.29,
+  "place": "Gallipoli"
+ },
+ {
+  "n": 16,
+  "out": "14",
+  "dir": "14-last-sultan",
+  "title": "The last sultan",
+  "years": "1918–1923",
+  "lat": 39.93,
+  "lon": 32.86,
+  "place": "Ankara"
+ }
+]

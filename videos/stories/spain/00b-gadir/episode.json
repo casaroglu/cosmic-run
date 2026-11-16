@@ -1,142 +1,1448 @@
 {
-  "series": "Spain in 60 seconds",
-  "episode": 0,
-  "total_parts": 1,
-  "voices": {
-    "narrator": "am_michael"
+ "series": "The History of Spain",
+ "voices": {
+  "q": "af_heart",
+  "a": "am_michael"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
   },
-  "speed": {
-    "narrator": 1.0
-  },
-  "accent": "#E8B44A",
-  "part": 1,
-  "title": "This Spanish city is older than Rome.",
-  "highlight": [
-    "older",
-    "Rome."
-  ],
-  "music": {
-    "mood": "dreamy",
-    "seed": 2,
-    "drums": false,
-    "level": 0.32
-  },
-  "post": {
-    "caption": "Gadir, today Cádiz: founded by Phoenician sailors from Tyre and often called the oldest city in Western Europe. Images: public domain / CC0.",
-    "hashtags": [
-      "history",
-      "spain",
-      "cadiz",
-      "phoenicians",
-      "ancienthistory",
-      "historytok",
-      "shorts"
-    ]
-  },
-  "images": {
-    "view": {
-      "file": "img/view.jpg",
-      "credit": "Joris Hoefnagel, View of Cádiz (engraving, 1564; published c. 1575–1617)",
-      "where": "Bibliothèque nationale de France"
-    },
-    "merchants": {
-      "file": "img/merchants.jpg",
-      "credit": "Phoenician merchants and traders (engraving, c. 1881–84)",
-      "where": ""
-    },
-    "coin": {
-      "file": "img/coin.jpg",
-      "credit": "Coin of Gades: Melqart-Hercules and two tuna fish (2nd–1st c. BC)",
-      "where": "Münzkabinett, Berlin"
-    },
-    "sarcophagus": {
-      "file": "img/sarcophagus.jpg",
-      "credit": "Rafael Rocafull, the Phoenician sarcophagus found in Cádiz (photograph, 1887)",
-      "where": ""
-    },
-    "caesar": {
-      "file": "img/caesar.jpg",
-      "credit": "Portrait of Julius Caesar (Roman marble)",
-      "where": ""
-    },
-    "view2": {
-      "file": "img/view.jpg",
-      "credit": "Joris Hoefnagel, View of Cádiz (engraving, 1564; published c. 1575–1617)",
-      "where": "Bibliothèque nationale de France"
-    },
-    "coin2": {
-      "file": "img/coin.jpg",
-      "credit": "Coin of Gades: Melqart-Hercules and two tuna fish (2nd–1st c. BC)",
-      "where": "Münzkabinett, Berlin"
-    }
-  },
-  "beats": [
-    {
-      "type": "title",
-      "scene": "view",
-      "text": "This Spanish city is older than Rome.",
-      "move": {"from": [0.3, 0.35, 1.2], "to": [0.45, 0.3, 1.4]}
-    },
-    {
-      "type": "narration",
-      "scene": "merchants",
-      "date": "c. 1100 – 800 BC",
-      "place": "Tyre → Iberia",
-      "text": "Nearly three thousand years ago, sailors from Tyre, in today's Lebanon, crossed the whole Mediterranean, and kept going.",
-      "move": {"from": [0.3, 0.5, 1.0], "to": [0.55, 0.45, 1.2]}
-    },
-    {
-      "type": "narration",
-      "scene": "view2",
-      "text": "On an island off southern Spain they built a trading port. They called it Gadir. We call it Cádiz.",
-      "move": {"from": [0.35, 0.3, 1.3], "to": [0.5, 0.25, 1.6]}
-    },
-    {
-      "type": "narration",
-      "text": "Ancient writers dated it to around 1100 BC. Archaeologists have found remains from at least the 800s BC. Either way: older than Rome.",
-      "say": "Ancient writers dated it to around eleven hundred B C. Archaeologists have found remains from at least the eight hundreds B C. Either way: older than Rome."
-    },
-    {
-      "type": "narration",
-      "scene": "coin",
-      "date": "",
-      "text": "They came for silver from the mines of southern Spain, and for tuna. The city even put tuna on its coins.",
-      "move": {"from": [0.5, 0.5, 0.5], "to": [0.75, 0.5, 0.75]}
-    },
-    {
-      "type": "narration",
-      "scene": "coin2",
-      "text": "Its great temple honoured the god Melqart. The Greeks and Romans called him Hercules.",
-      "move": {"from": [0.5, 0.5, 0.6], "to": [0.25, 0.5, 0.85]}
-    },
-    {
-      "type": "narration",
-      "scene": "sarcophagus",
-      "date": "1887",
-      "place": "Cádiz",
-      "text": "In 1887, workers in Cádiz dug up a marble Phoenician coffin, with a man's face carved on the lid.",
-      "say": "In eighteen eighty-seven, workers in Cádiz dug up a marble Phoenician coffin, with a man's face carved on the lid.",
-      "move": {"from": [0.5, 0.7, 1.0], "to": [0.5, 0.3, 1.3]}
-    },
-    {
-      "type": "narration",
-      "scene": "caesar",
-      "date": "49 BC",
-      "text": "Under Rome, Gadir became Gades. Julius Caesar made all its citizens Romans.",
-      "move": {"from": [0.5, 0.6, 1.0], "to": [0.5, 0.4, 1.2]}
-    },
-    {
-      "type": "narration",
-      "scene": "view",
-      "date": "",
-      "text": "Three thousand years on, people still live there. Many call it the oldest city in Western Europe.",
-      "gap": 0.6,
-      "move": {"from": [0.45, 0.35, 1.4], "to": [0.5, 0.5, 1.1]}
-    },
-    {
-      "type": "end",
-      "text": "Next: the town that chose death over Rome",
-      "sub": "Follow for Spain's full story"
-    }
+  "a": {
+   "name": "Max",
+   "color": "#E8B44A"
+  }
+ },
+ "accent": "#E8B44A",
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "scene_pad": 0.5,
+ "fade": 1.1,
+ "episode": "00b",
+ "title": "Which city in Western Europe is older than Rome?",
+ "highlight": [
+  "older",
+  "Rome?"
+ ],
+ "music": {
+  "mood": "dreamy",
+  "seed": 2,
+  "drums": false,
+  "level": 0.3
+ },
+ "post": {
+  "caption": "The History of Spain, episode 2: Gadir, today Cádiz, founded by Phoenician sailors from Tyre and often called the oldest city in Western Europe. Images: public domain / CC0. Map data: Natural Earth. Borders approx.",
+  "hashtags": [
+   "history",
+   "spain",
+   "cadiz",
+   "phoenicians",
+   "ancienthistory",
+   "shorts"
   ]
+ },
+ "images": {
+  "view": {
+   "file": "img/view.jpg",
+   "credit": "Joris Hoefnagel, View of Cádiz (engraving, 1564; published c. 1575–1617)",
+   "where": "Bibliothèque nationale de France"
+  },
+  "merchants": {
+   "file": "img/merchants.jpg",
+   "credit": "Phoenician merchants and traders (engraving, c. 1881–84)",
+   "where": ""
+  },
+  "coin": {
+   "file": "img/coin.jpg",
+   "credit": "Coin of Gades: Melqart-Hercules and two tuna fish (2nd–1st c. BC)",
+   "where": "Münzkabinett, Berlin"
+  },
+  "sarcophagus": {
+   "file": "img/sarcophagus.jpg",
+   "credit": "Rafael Rocafull, the Phoenician sarcophagus found in Cádiz (photograph, 1887)",
+   "where": ""
+  },
+  "caesar": {
+   "file": "img/caesar.jpg",
+   "credit": "Portrait of Julius Caesar (Roman marble)",
+   "where": ""
+  },
+  "view2": {
+   "file": "img/view.jpg",
+   "credit": "Joris Hoefnagel, View of Cádiz (engraving, 1564; published c. 1575–1617)",
+   "where": "Bibliothèque nationale de France"
+  },
+  "coin2": {
+   "file": "img/coin.jpg",
+   "credit": "Coin of Gades: Melqart-Hercules and two tuna fish (2nd–1st c. BC)",
+   "where": "Münzkabinett, Berlin"
+  }
+ },
+ "sketches": {
+  "today": {
+   "coast": "sketch/iberia.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 2.0
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        3.145,
+        39.79
+       ],
+       [
+        3.342,
+        39.787
+       ],
+       [
+        3.449,
+        39.761
+       ],
+       [
+        3.415,
+        39.627
+       ],
+       [
+        3.293,
+        39.477
+       ],
+       [
+        3.155,
+        39.333
+       ],
+       [
+        2.9,
+        39.368
+       ],
+       [
+        2.77,
+        39.41
+       ],
+       [
+        2.701,
+        39.542
+       ],
+       [
+        2.576,
+        39.531
+       ],
+       [
+        2.459,
+        39.53
+       ],
+       [
+        2.37,
+        39.572
+       ],
+       [
+        2.785,
+        39.855
+       ],
+       [
+        3.159,
+        39.971
+       ],
+       [
+        3.164,
+        39.924
+       ],
+       [
+        3.199,
+        39.89
+       ],
+       [
+        3.159,
+        39.837
+       ]
+      ],
+      [
+       [
+        -1.794,
+        43.407
+       ],
+       [
+        -1.753,
+        43.325
+       ],
+       [
+        -1.627,
+        43.282
+       ],
+       [
+        -1.472,
+        43.268
+       ],
+       [
+        -1.407,
+        43.197
+       ],
+       [
+        -1.459,
+        43.105
+       ],
+       [
+        -1.461,
+        43.052
+       ],
+       [
+        -1.394,
+        43.033
+       ],
+       [
+        -1.353,
+        43.064
+       ],
+       [
+        -1.3,
+        43.101
+       ],
+       [
+        -1.285,
+        43.06
+       ],
+       [
+        -0.934,
+        42.95
+       ],
+       [
+        -0.763,
+        42.94
+       ],
+       [
+        -0.586,
+        42.799
+       ],
+       [
+        -0.481,
+        42.799
+       ],
+       [
+        -0.339,
+        42.829
+       ],
+       [
+        -0.256,
+        42.804
+       ],
+       [
+        -0.14,
+        42.749
+       ],
+       [
+        -0.041,
+        42.689
+       ],
+       [
+        0.255,
+        42.693
+       ],
+       [
+        0.377,
+        42.7
+       ],
+       [
+        0.632,
+        42.69
+       ],
+       [
+        0.652,
+        42.8
+       ],
+       [
+        0.697,
+        42.845
+       ],
+       [
+        1.01,
+        42.779
+       ],
+       [
+        1.208,
+        42.713
+       ],
+       [
+        1.349,
+        42.691
+       ],
+       [
+        1.415,
+        42.548
+       ],
+       [
+        1.43,
+        42.498
+       ],
+       [
+        1.449,
+        42.437
+       ],
+       [
+        1.534,
+        42.442
+       ],
+       [
+        1.679,
+        42.497
+       ],
+       [
+        1.86,
+        42.457
+       ],
+       [
+        1.951,
+        42.393
+       ],
+       [
+        2.033,
+        42.354
+       ],
+       [
+        2.2,
+        42.421
+       ],
+       [
+        2.568,
+        42.346
+       ],
+       [
+        2.655,
+        42.362
+       ],
+       [
+        2.702,
+        42.408
+       ],
+       [
+        2.816,
+        42.429
+       ],
+       [
+        2.97,
+        42.467
+       ],
+       [
+        3.152,
+        42.431
+       ],
+       [
+        3.24,
+        42.368
+       ],
+       [
+        3.307,
+        42.289
+       ],
+       [
+        3.166,
+        42.256
+       ],
+       [
+        3.175,
+        42.136
+       ],
+       [
+        3.238,
+        42.082
+       ],
+       [
+        3.147,
+        41.861
+       ],
+       [
+        2.311,
+        41.467
+       ],
+       [
+        2.083,
+        41.287
+       ],
+       [
+        1.206,
+        41.098
+       ],
+       [
+        0.817,
+        40.892
+       ],
+       [
+        0.796,
+        40.804
+       ],
+       [
+        0.859,
+        40.686
+       ],
+       [
+        0.66,
+        40.613
+       ],
+       [
+        0.596,
+        40.615
+       ],
+       [
+        0.158,
+        40.107
+       ],
+       [
+        -0.075,
+        39.876
+       ],
+       [
+        -0.329,
+        39.417
+       ],
+       [
+        -0.134,
+        38.969
+       ],
+       [
+        0.155,
+        38.825
+       ],
+       [
+        0.136,
+        38.697
+       ],
+       [
+        -0.381,
+        38.436
+       ],
+       [
+        -0.551,
+        38.203
+       ],
+       [
+        -0.683,
+        37.992
+       ],
+       [
+        -0.753,
+        37.85
+       ],
+       [
+        -0.823,
+        37.712
+       ],
+       [
+        -0.772,
+        37.596
+       ],
+       [
+        -0.938,
+        37.571
+       ],
+       [
+        -1.641,
+        37.387
+       ],
+       [
+        -1.939,
+        36.946
+       ],
+       [
+        -2.188,
+        36.745
+       ],
+       [
+        -2.453,
+        36.831
+       ],
+       [
+        -2.671,
+        36.748
+       ],
+       [
+        -2.902,
+        36.743
+       ],
+       [
+        -3.259,
+        36.756
+       ],
+       [
+        -3.579,
+        36.74
+       ],
+       [
+        -4.367,
+        36.718
+       ],
+       [
+        -4.502,
+        36.629
+       ],
+       [
+        -4.935,
+        36.502
+       ],
+       [
+        -5.231,
+        36.374
+       ],
+       [
+        -5.361,
+        36.135
+       ],
+       [
+        -5.407,
+        36.159
+       ],
+       [
+        -5.463,
+        36.074
+       ],
+       [
+        -5.625,
+        36.026
+       ],
+       [
+        -5.961,
+        36.182
+       ],
+       [
+        -6.17,
+        36.334
+       ],
+       [
+        -6.266,
+        36.527
+       ],
+       [
+        -6.269,
+        36.597
+       ],
+       [
+        -6.412,
+        36.729
+       ],
+       [
+        -6.259,
+        36.899
+       ],
+       [
+        -6.321,
+        36.908
+       ],
+       [
+        -6.492,
+        36.955
+       ],
+       [
+        -6.859,
+        37.249
+       ],
+       [
+        -6.929,
+        37.215
+       ],
+       [
+        -7.175,
+        37.209
+       ],
+       [
+        -7.467,
+        37.428
+       ],
+       [
+        -7.504,
+        37.585
+       ],
+       [
+        -7.379,
+        37.786
+       ],
+       [
+        -7.185,
+        38.006
+       ],
+       [
+        -7.023,
+        38.045
+       ],
+       [
+        -6.958,
+        38.188
+       ],
+       [
+        -7.106,
+        38.181
+       ],
+       [
+        -7.336,
+        38.501
+       ],
+       [
+        -7.286,
+        38.649
+       ],
+       [
+        -7.22,
+        38.771
+       ],
+       [
+        -7.046,
+        38.907
+       ],
+       [
+        -6.998,
+        39.056
+       ],
+       [
+        -7.172,
+        39.135
+       ],
+       [
+        -7.335,
+        39.465
+       ],
+       [
+        -7.445,
+        39.536
+       ],
+       [
+        -7.536,
+        39.662
+       ],
+       [
+        -7.118,
+        39.682
+       ],
+       [
+        -7.037,
+        39.714
+       ],
+       [
+        -6.911,
+        39.937
+       ],
+       [
+        -6.916,
+        40.057
+       ],
+       [
+        -7.033,
+        40.168
+       ],
+       [
+        -6.948,
+        40.252
+       ],
+       [
+        -6.81,
+        40.343
+       ],
+       [
+        -6.848,
+        40.411
+       ],
+       [
+        -6.836,
+        40.483
+       ],
+       [
+        -6.818,
+        40.654
+       ],
+       [
+        -6.858,
+        40.878
+       ],
+       [
+        -6.916,
+        41.038
+       ],
+       [
+        -6.776,
+        41.108
+       ],
+       [
+        -6.566,
+        41.304
+       ],
+       [
+        -6.289,
+        41.455
+       ],
+       [
+        -6.213,
+        41.532
+       ],
+       [
+        -6.243,
+        41.602
+       ],
+       [
+        -6.392,
+        41.665
+       ],
+       [
+        -6.542,
+        41.673
+       ],
+       [
+        -6.553,
+        41.79
+       ],
+       [
+        -6.575,
+        41.913
+       ],
+       [
+        -6.704,
+        41.935
+       ],
+       [
+        -6.833,
+        41.964
+       ],
+       [
+        -7.03,
+        41.951
+       ],
+       [
+        -7.147,
+        41.981
+       ],
+       [
+        -7.195,
+        41.955
+       ],
+       [
+        -7.21,
+        41.895
+       ],
+       [
+        -7.404,
+        41.834
+       ],
+       [
+        -7.613,
+        41.858
+       ],
+       [
+        -7.693,
+        41.888
+       ],
+       [
+        -7.921,
+        41.884
+       ],
+       [
+        -8.094,
+        41.814
+       ],
+       [
+        -8.174,
+        41.82
+       ],
+       [
+        -8.225,
+        41.896
+       ],
+       [
+        -8.13,
+        42.018
+       ],
+       [
+        -8.174,
+        42.069
+       ],
+       [
+        -8.213,
+        42.134
+       ],
+       [
+        -8.323,
+        42.115
+       ],
+       [
+        -8.59,
+        42.053
+       ],
+       [
+        -8.777,
+        41.941
+       ],
+       [
+        -8.878,
+        41.947
+       ],
+       [
+        -8.772,
+        42.211
+       ],
+       [
+        -8.729,
+        42.287
+       ],
+       [
+        -8.81,
+        42.334
+       ],
+       [
+        -8.73,
+        42.412
+       ],
+       [
+        -8.812,
+        42.47
+       ],
+       [
+        -8.8,
+        42.6
+       ],
+       [
+        -8.988,
+        42.586
+       ],
+       [
+        -9.035,
+        42.662
+       ],
+       [
+        -8.927,
+        42.799
+       ],
+       [
+        -9.127,
+        42.865
+       ],
+       [
+        -9.235,
+        42.977
+       ],
+       [
+        -9.178,
+        43.174
+       ],
+       [
+        -9.025,
+        43.239
+       ],
+       [
+        -8.666,
+        43.317
+       ],
+       [
+        -8.422,
+        43.386
+       ],
+       [
+        -8.249,
+        43.439
+       ],
+       [
+        -8.289,
+        43.54
+       ],
+       [
+        -8.137,
+        43.629
+       ],
+       [
+        -7.853,
+        43.707
+       ],
+       [
+        -7.595,
+        43.727
+       ],
+       [
+        -7.399,
+        43.696
+       ],
+       [
+        -7.061,
+        43.554
+       ],
+       [
+        -6.617,
+        43.592
+       ],
+       [
+        -6.224,
+        43.604
+       ],
+       [
+        -5.847,
+        43.645
+       ],
+       [
+        -5.316,
+        43.553
+       ],
+       [
+        -4.523,
+        43.416
+       ],
+       [
+        -4.015,
+        43.463
+       ],
+       [
+        -3.774,
+        43.478
+       ],
+       [
+        -3.524,
+        43.511
+       ],
+       [
+        -3.046,
+        43.372
+       ],
+       [
+        -2.875,
+        43.454
+       ],
+       [
+        -2.337,
+        43.328
+       ],
+       [
+        -1.991,
+        43.345
+       ],
+       [
+        -1.794,
+        43.407
+       ]
+      ]
+     ],
+     "at": 0.8,
+     "dur": 1.6,
+     "label": "SPAIN",
+     "labelPos": [
+      -3.6,
+      39.6
+     ]
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      -6.29,
+      36.53
+     ],
+     "label": "Cádiz",
+     "lx": -20,
+     "ly": 50,
+     "at": 2.2,
+     "lalign": "right"
+    },
+    {
+     "kind": "circle",
+     "pos": [
+      -6.29,
+      36.53
+     ],
+     "r": 55,
+     "ry": 45,
+     "at": 2.8
+    },
+    {
+     "kind": "label",
+     "text": "Atlantic",
+     "pos": [
+      -8.6,
+      36.2
+     ],
+     "at": 3.0,
+     "size": 42,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      -5.35,
+      36.14
+     ],
+     "label": "Strait of Gibraltar",
+     "lx": 20,
+     "ly": 50,
+     "at": 3.4,
+     "color": "#1f4e8c"
+    }
+   ]
+  },
+  "route": {
+   "coast": "sketch/med.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.6
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      35.2,
+      33.27
+     ],
+     "label": "Tyre",
+     "lx": -20,
+     "ly": -40,
+     "at": 0.8,
+     "lalign": "right"
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       35.0,
+       33.3
+      ],
+      [
+       28.0,
+       34.2
+      ],
+      [
+       20.0,
+       35.0
+      ],
+      [
+       12.0,
+       37.3
+      ],
+      [
+       5.0,
+       37.2
+      ],
+      [
+       -2.0,
+       36.4
+      ],
+      [
+       -6.2,
+       36.5
+      ]
+     ],
+     "at": 1.4,
+     "dur": 3.0,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "ships",
+     "pts": [
+      [
+       35.0,
+       33.3
+      ],
+      [
+       28.0,
+       34.2
+      ],
+      [
+       20.0,
+       35.0
+      ],
+      [
+       12.0,
+       37.3
+      ],
+      [
+       5.0,
+       37.2
+      ],
+      [
+       -2.0,
+       36.4
+      ],
+      [
+       -6.2,
+       36.5
+      ]
+     ],
+     "n": 2,
+     "period": 6,
+     "icon": "galleon",
+     "size": 40,
+     "at": 1.4,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      -6.29,
+      36.53
+     ],
+     "label": "Gadir",
+     "lx": 15,
+     "ly": 50,
+     "at": 4.2
+    },
+    {
+     "kind": "label",
+     "text": "about 4,000 km",
+     "pos": [
+      0.5,
+      0.64
+     ],
+     "at": 4.8,
+     "size": 52,
+     "color": "#b3261e"
+    }
+   ]
+  },
+  "end": {
+   "coast": "sketch/iberia.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        -9.3,
+        42.6
+       ],
+       [
+        -6.5,
+        42.75
+       ],
+       [
+        -4.5,
+        42.75
+       ],
+       [
+        -2.5,
+        42.8
+       ],
+       [
+        -1.8,
+        43.3
+       ],
+       [
+        -0.5,
+        42.8
+       ],
+       [
+        0.7,
+        42.8
+       ],
+       [
+        1.4,
+        42.6
+       ],
+       [
+        2.5,
+        42.4
+       ],
+       [
+        3.2,
+        42.45
+       ],
+       [
+        3.5,
+        42.4
+       ],
+       [
+        3.5,
+        41.0
+       ],
+       [
+        1.5,
+        39.0
+       ],
+       [
+        0.5,
+        37.5
+       ],
+       [
+        -1.5,
+        36.4
+       ],
+       [
+        -5.6,
+        35.9
+       ],
+       [
+        -7.4,
+        36.9
+       ],
+       [
+        -9.0,
+        36.7
+       ],
+       [
+        -9.9,
+        38.5
+       ],
+       [
+        -9.8,
+        40.5
+       ]
+      ]
+     ],
+     "at": 0.6,
+     "dur": 2.0,
+     "label": "Roman, c. 49 BC",
+     "labelPos": [
+      -3.4,
+      39.4
+     ]
+    },
+    {
+     "kind": "label",
+     "text": "not yet Roman",
+     "pos": [
+      -5.6,
+      43.25
+     ],
+     "at": 2.6,
+     "size": 38,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      -6.29,
+      36.53
+     ],
+     "label": "Gades",
+     "lx": -20,
+     "ly": 50,
+     "at": 3.0,
+     "lalign": "right"
+    },
+    {
+     "kind": "label",
+     "text": "borders approx.",
+     "pos": [
+      0.8,
+      0.66
+     ],
+     "at": 3.0,
+     "size": 34
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "globe",
+   "text": "Which city in Western Europe is older than Rome?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Cádiz, in southern Spain. It was founded by sailors from the other end of the Mediterranean.",
+   "say": "Cadiz, in southern Spain. It was founded by sailors from the other end of the Mediterranean."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Where is it exactly?",
+   "scene": "today",
+   "date": "Today",
+   "place": "Cádiz, Spain"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "On a narrow strip of land in the Atlantic, close to the Strait of Gibraltar."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Who founded it?",
+   "scene": "merchants",
+   "date": "c. 1100 – 800 BC",
+   "place": "Phoenicia",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.5,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "The Phoenicians, traders from Tyre, in today's Lebanon. They crossed the whole Mediterranean, and kept going."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "On an island off southern Spain they built a trading port. They called it Gadir.",
+   "scene": "route",
+   "date": "",
+   "place": "Mediterranean"
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "When was that?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Ancient writers said around 1100 BC. Archaeologists have found remains from at least the eight hundreds BC. Either way, older than Rome."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "What did they want there?",
+   "scene": "coin",
+   "date": "",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.4,
+     0.5,
+     1.3
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Silver from the mines of southern Spain, and tuna. The city even put tuna on its coins."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Its great temple honoured the god Melqart. The Greeks and Romans called him Hercules.",
+   "scene": "coin2",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.62,
+     0.5,
+     1.3
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In 1887, workers in Cádiz dug up a marble Phoenician coffin, with a man's face carved on the lid.",
+   "scene": "sarcophagus",
+   "date": "1887",
+   "place": "Cádiz",
+   "move": {
+    "from": [
+     0.5,
+     0.45,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.4,
+     1.25
+    ]
+   },
+   "say": "In 1887, workers in Cadiz dug up a marble Phoenician coffin, with a man's face carved on the lid."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And when Rome came?",
+   "scene": "caesar",
+   "date": "49 BC",
+   "place": "Gades",
+   "move": {
+    "from": [
+     0.5,
+     0.4,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.35,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Gadir became Gades. In 49 BC, Julius Caesar made all its citizens Romans."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "How much of Spain did Rome hold by then?",
+   "scene": "end",
+   "date": "c. 49 BC",
+   "place": "Hispania"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Most of it. Only the far north was still unconquered."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And today?",
+   "scene": "view",
+   "date": "Today",
+   "place": "Cádiz",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.5,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Three thousand years on, people still live there. Many call it the oldest city in Western Europe."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Next time: the town that chose death over Rome. Like the video and follow History Sketches."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And tell us in the comments what you think!"
+  },
+  {
+   "type": "end",
+   "text": "Next: the town that chose death over Rome",
+   "sub": "Follow History Sketches"
+  }
+ ],
+ "clips": {
+  "globe": "sketch/globe_in.mp4"
+ }
 }

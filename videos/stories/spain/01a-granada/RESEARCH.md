@@ -13,3 +13,7 @@
 ## Left out on purpose
 - Number of Jews expelled (estimates 40,000 to 200,000+).
 - The mother's "weep like a woman" line (apocryphal).
+
+## Dialogue remake (2026-11-16)
+- Start map 1491: only Granada left; Castile and Aragon united in the persons of Isabella and Ferdinand (✓ Wikipedia "Emirate of Granada"; Britannica "Ferdinand II"). End map 1492: Granada joined to the Crown of Castile; first time since 711 without a Muslim state in Iberia (✓ Britannica "Reconquista"; Wikipedia "Granada War"). Borders approx.
+- Many expelled Jews found refuge in the Ottoman Empire (Bayezid II); also North Africa, Portugal, later Amsterdam (✓ Wikipedia "Expulsion of the Jews from Spain"; Britannica "Sephardi").

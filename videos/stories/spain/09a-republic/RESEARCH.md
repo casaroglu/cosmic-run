@@ -14,3 +14,6 @@
 ## Left out on purpose
 - Number of victims of the political violence of spring 1936 (disputed).
 - Who "started" the violence — the script says "on both sides".
+
+## Dialogue remake (2026-11-16)
+- End map late July 1936: rebel zone = Galicia, León, Old Castile, Navarre, western Aragon, plus Seville–Cádiz pocket (and Morocco, Canaries, Balearics except Menorca, not drawn); Republic = Madrid, Catalonia, Valencia, the Cantabrian strip, east and centre (✓ Wikipedia "Spanish coup of July 1936"; Britannica "Spanish Civil War"). Front lines approx.

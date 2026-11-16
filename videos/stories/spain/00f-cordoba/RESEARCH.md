@@ -15,3 +15,6 @@
 ## Left out on purpose
 - "Largest city in Europe" population figures (estimates vary hugely).
 - Claims of perfect religious harmony — script says Christians/Jews lived there with fewer rights (dropped for length).
+
+## Dialogue remake (2026-11-16)
+- Start map 929: the Caliphate of Córdoba held most of the peninsula south of the Duero/Ebro line; Christian kingdoms in the north (✓ Wikipedia "Caliphate of Córdoba"; Britannica "Spain: The caliphate of Córdoba"). End map 1031: taifa kingdoms (Seville, Toledo, Zaragoza, Valencia, Badajoz, Granada, Almería among them) (✓ Wikipedia "Taifa"; Britannica "taifa"). Borders approx.

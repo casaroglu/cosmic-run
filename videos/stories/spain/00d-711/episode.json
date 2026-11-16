@@ -1,137 +1,735 @@
 {
-  "series": "Spain in 60 seconds",
-  "episode": 0,
-  "total_parts": 1,
-  "voices": {
-    "narrator": "am_michael"
+ "series": "The History of Spain",
+ "voices": {
+  "q": "af_heart",
+  "a": "am_michael"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
   },
-  "speed": {
-    "narrator": 1.0
-  },
-  "accent": "#E8B44A",
-  "part": 1,
-  "title": "In 711 a king vanished in battle. Spain changed for eight centuries.",
-  "highlight": [
-    "vanished",
-    "eight"
-  ],
-  "music": {
-    "mood": "epic",
-    "seed": 4,
-    "drums": true,
-    "level": 0.32
-  },
-  "post": {
-    "caption": "711: Tariq ibn Ziyad crosses the strait, King Roderic falls at Guadalete, and al-Andalus begins. Images: public domain / CC0.",
-    "hashtags": [
-      "history",
-      "spain",
-      "alandalus",
-      "711",
-      "medieval",
-      "historytok",
-      "shorts"
-    ]
-  },
-  "images": {
-    "roderic": {
-      "file": "img/roderic.jpg",
-      "credit": "Bernardo Blanco, King Roderic Addressing his Troops at Guadalete (1871)",
-      "where": "Museo del Prado"
-    },
-    "crowns": {
-      "file": "img/crowns.jpg",
-      "credit": "T. Rufflé, Visigothic votive crowns of Guarrazar (engraving, 19th c.)",
-      "where": ""
-    },
-    "gibraltar": {
-      "file": "img/gibraltar.jpg",
-      "credit": "Ivan Aivazovsky, Gibraltar (1873)",
-      "where": ""
-    },
-    "tariq": {
-      "file": "img/tariq.jpg",
-      "credit": "Tariq ibn Ziyad opening a treasure, Persian manuscript (Baghdad, 1388)",
-      "where": "Bibliothèque nationale de France"
-    },
-    "roderic2": {
-      "file": "img/roderic.jpg",
-      "credit": "Bernardo Blanco, King Roderic Addressing his Troops at Guadalete (1871)",
-      "where": "Museo del Prado"
-    },
-    "roderic3": {
-      "file": "img/roderic.jpg",
-      "credit": "Bernardo Blanco, King Roderic Addressing his Troops at Guadalete (1871)",
-      "where": "Museo del Prado"
-    },
-    "roderic4": {
-      "file": "img/roderic.jpg",
-      "credit": "Bernardo Blanco, King Roderic Addressing his Troops at Guadalete (1871)",
-      "where": "Museo del Prado"
-    }
-  },
-  "beats": [
-    {
-      "type": "title",
-      "scene": "roderic",
-      "text": "In 711 a king vanished in battle. Spain changed for eight centuries.",
-      "move": {"from": [0.5, 0.5, 1.0], "to": [0.55, 0.4, 1.25]}
-    },
-    {
-      "type": "narration",
-      "scene": "crowns",
-      "date": "c. 700",
-      "place": "Toledo",
-      "text": "Around the year 700, Spain belonged to the Visigoths: Germanic kings with jewelled crowns, ruling from Toledo. Their nobles were at each other's throats.",
-      "move": {"from": [0.5, 0.5, 1.0], "to": [0.5, 0.3, 1.4]}
-    },
-    {
-      "type": "narration",
-      "scene": "roderic3",
-      "date": "",
-      "text": "Legend blames a woman. Count Julian's daughter, wronged by King Roderic. To take revenge, Julian opened the door to Africa.",
-      "move": {"from": [0.6, 0.4, 1.4], "to": [0.58, 0.35, 1.6]}
-    },
-    {
-      "type": "narration",
-      "scene": "gibraltar",
-      "date": "April 711",
-      "place": "Gibraltar",
-      "text": "In 711, a Berber commander, Tariq ibn Ziyad, crossed the strait with a small army. The rock where he landed still carries his name: Jabal Tariq. Gibraltar.",
-      "move": {"from": [0.3, 0.5, 1.0], "to": [0.7, 0.5, 1.2]}
-    },
-    {
-      "type": "narration",
-      "scene": "roderic2",
-      "date": "711",
-      "place": "River Guadalete",
-      "text": "King Roderic rushed south. At the river Guadalete, his army was routed. The king died, and his body was never found.",
-      "move": {"from": [0.3, 0.55, 1.1], "to": [0.6, 0.4, 1.35]}
-    },
-    {
-      "type": "narration",
-      "scene": "tariq",
-      "date": "711 – 718",
-      "text": "Within a few years, almost the whole peninsula was under Muslim rule. It became al-Andalus.",
-      "move": {"from": [0.5, 0.5, 1.0], "to": [0.5, 0.38, 1.7]}
-    },
-    {
-      "type": "narration",
-      "text": "Muslim rule in Spain would last nearly eight centuries, until 1492.",
-      "say": "Muslim rule in Spain would last nearly eight centuries, until fourteen ninety-two."
-    },
-    {
-      "type": "narration",
-      "scene": "roderic4",
-      "date": "",
-      "text": "Only a few mountain valleys in the far north never fell.",
-      "gap": 0.6,
-      "move": {"from": [0.55, 0.45, 1.3], "to": [0.5, 0.5, 1.0]}
-    },
-    {
-      "type": "end",
-      "text": "Next: Covadonga, the battle in the mountains",
-      "sub": "Follow for Spain's full story"
-    }
+  "a": {
+   "name": "Max",
+   "color": "#E8B44A"
+  }
+ },
+ "accent": "#E8B44A",
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "scene_pad": 0.5,
+ "fade": 1.1,
+ "episode": "00d",
+ "title": "How did Spain become Muslim in just a few years?",
+ "highlight": [
+  "Muslim",
+  "years?"
+ ],
+ "music": {
+  "mood": "epic",
+  "seed": 4,
+  "drums": true,
+  "level": 0.3
+ },
+ "post": {
+  "caption": "The History of Spain, episode 4: 711, the fall of the Visigothic kingdom, Tariq ibn Ziyad at Gibraltar and the birth of al-Andalus. Images: public domain. Map data: Natural Earth. Borders approx.",
+  "hashtags": [
+   "history",
+   "spain",
+   "711",
+   "alandalus",
+   "gibraltar",
+   "shorts"
   ]
+ },
+ "images": {
+  "roderic": {
+   "file": "img/roderic.jpg",
+   "credit": "Bernardo Blanco, King Roderic Addressing his Troops at Guadalete (1871)",
+   "where": "Museo del Prado"
+  },
+  "crowns": {
+   "file": "img/crowns.jpg",
+   "credit": "T. Rufflé, Visigothic votive crowns of Guarrazar (engraving, 19th c.)",
+   "where": ""
+  },
+  "gibraltar": {
+   "file": "img/gibraltar.jpg",
+   "credit": "Ivan Aivazovsky, Gibraltar (1873)",
+   "where": ""
+  },
+  "tariq": {
+   "file": "img/tariq.jpg",
+   "credit": "Tariq ibn Ziyad opening a treasure, Persian manuscript (Baghdad, 1388)",
+   "where": "Bibliothèque nationale de France"
+  },
+  "roderic2": {
+   "file": "img/roderic.jpg",
+   "credit": "Bernardo Blanco, King Roderic Addressing his Troops at Guadalete (1871)",
+   "where": "Museo del Prado"
+  },
+  "roderic3": {
+   "file": "img/roderic.jpg",
+   "credit": "Bernardo Blanco, King Roderic Addressing his Troops at Guadalete (1871)",
+   "where": "Museo del Prado"
+  },
+  "roderic4": {
+   "file": "img/roderic.jpg",
+   "credit": "Bernardo Blanco, King Roderic Addressing his Troops at Guadalete (1871)",
+   "where": "Museo del Prado"
+  }
+ },
+ "sketches": {
+  "start": {
+   "coast": "sketch/iberia.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 2.0
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        -9.6,
+        43.9
+       ],
+       [
+        -7.5,
+        44.0
+       ],
+       [
+        -1.8,
+        43.6
+       ],
+       [
+        -1.8,
+        43.4
+       ],
+       [
+        -0.5,
+        42.8
+       ],
+       [
+        0.7,
+        42.8
+       ],
+       [
+        1.4,
+        42.6
+       ],
+       [
+        2.5,
+        42.4
+       ],
+       [
+        3.2,
+        42.45
+       ],
+       [
+        3.5,
+        42.4
+       ],
+       [
+        3.5,
+        41.0
+       ],
+       [
+        1.5,
+        39.0
+       ],
+       [
+        0.5,
+        37.5
+       ],
+       [
+        -1.5,
+        36.4
+       ],
+       [
+        -5.6,
+        35.9
+       ],
+       [
+        -7.4,
+        36.9
+       ],
+       [
+        -9.0,
+        36.7
+       ],
+       [
+        -9.9,
+        38.5
+       ],
+       [
+        -9.6,
+        40.5
+       ]
+      ],
+      [
+       [
+        3.2,
+        42.45
+       ],
+       [
+        3.3,
+        43.3
+       ],
+       [
+        4.4,
+        43.6
+       ],
+       [
+        4.3,
+        44.1
+       ],
+       [
+        2.4,
+        44.0
+       ],
+       [
+        1.8,
+        43.1
+       ],
+       [
+        2.5,
+        42.4
+       ]
+      ]
+     ],
+     "at": 0.8,
+     "dur": 2.0,
+     "label": "Visigothic kingdom, c. 700",
+     "labelPos": [
+      -3.6,
+      39.4
+     ]
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      -4.02,
+      39.86
+     ],
+     "label": "Toledo",
+     "lx": 20,
+     "ly": -40,
+     "at": 2.6
+    },
+    {
+     "kind": "label",
+     "text": "borders approx.",
+     "pos": [
+      0.8,
+      0.66
+     ],
+     "at": 3.0,
+     "size": 34
+    }
+   ]
+  },
+  "crossing": {
+   "coast": "sketch/iberia.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.0,
+     "pencil": false
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      -5.6,
+      35.6
+     ],
+     "to": [
+      -5.38,
+      36.12
+     ],
+     "at": 0.6,
+     "color": "#2f6b3a"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      -5.35,
+      36.14
+     ],
+     "label": "Gibraltar",
+     "lx": 20,
+     "ly": -40,
+     "at": 1.2
+    },
+    {
+     "kind": "label",
+     "text": "Tariq, April 711",
+     "pos": [
+      -6.4,
+      35.75
+     ],
+     "at": 1.6,
+     "size": 44,
+     "color": "#2f6b3a"
+    },
+    {
+     "kind": "label",
+     "text": "Jabal Tariq = Gibraltar",
+     "pos": [
+      0.5,
+      0.22
+     ],
+     "at": 2.4,
+     "size": 56,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      -5.9,
+      36.6
+     ],
+     "label": "Guadalete",
+     "lx": -20,
+     "ly": -40,
+     "at": 3.6,
+     "lalign": "right"
+    },
+    {
+     "kind": "circle",
+     "pos": [
+      -5.9,
+      36.6
+     ],
+     "r": 50,
+     "ry": 42,
+     "at": 4.0
+    }
+   ]
+  },
+  "end": {
+   "coast": "sketch/iberia.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        -9.6,
+        43.9
+       ],
+       [
+        -7.5,
+        44.0
+       ],
+       [
+        -1.8,
+        43.6
+       ],
+       [
+        -1.8,
+        43.4
+       ],
+       [
+        -0.5,
+        42.8
+       ],
+       [
+        0.7,
+        42.8
+       ],
+       [
+        1.4,
+        42.6
+       ],
+       [
+        2.5,
+        42.4
+       ],
+       [
+        3.2,
+        42.45
+       ],
+       [
+        3.5,
+        42.4
+       ],
+       [
+        3.5,
+        41.0
+       ],
+       [
+        1.5,
+        39.0
+       ],
+       [
+        0.5,
+        37.5
+       ],
+       [
+        -1.5,
+        36.4
+       ],
+       [
+        -5.6,
+        35.9
+       ],
+       [
+        -7.4,
+        36.9
+       ],
+       [
+        -9.0,
+        36.7
+       ],
+       [
+        -9.9,
+        38.5
+       ],
+       [
+        -9.6,
+        40.5
+       ]
+      ],
+      [
+       [
+        3.2,
+        42.45
+       ],
+       [
+        3.3,
+        43.3
+       ],
+       [
+        4.4,
+        43.6
+       ],
+       [
+        4.3,
+        44.1
+       ],
+       [
+        2.4,
+        44.0
+       ],
+       [
+        1.8,
+        43.1
+       ],
+       [
+        2.5,
+        42.4
+       ]
+      ]
+     ],
+     "style": "faint",
+     "at": 0.2,
+     "dur": 0.8
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        -9.3,
+        42.6
+       ],
+       [
+        -6.5,
+        42.75
+       ],
+       [
+        -4.5,
+        42.75
+       ],
+       [
+        -2.5,
+        42.8
+       ],
+       [
+        -1.8,
+        43.3
+       ],
+       [
+        -0.5,
+        42.8
+       ],
+       [
+        0.7,
+        42.8
+       ],
+       [
+        1.4,
+        42.6
+       ],
+       [
+        2.5,
+        42.4
+       ],
+       [
+        3.2,
+        42.45
+       ],
+       [
+        3.5,
+        42.4
+       ],
+       [
+        3.5,
+        41.0
+       ],
+       [
+        1.5,
+        39.0
+       ],
+       [
+        0.5,
+        37.5
+       ],
+       [
+        -1.5,
+        36.4
+       ],
+       [
+        -5.6,
+        35.9
+       ],
+       [
+        -7.4,
+        36.9
+       ],
+       [
+        -9.0,
+        36.7
+       ],
+       [
+        -9.9,
+        38.5
+       ],
+       [
+        -9.8,
+        40.5
+       ]
+      ]
+     ],
+     "color": "#2f6b3a",
+     "at": 1.0,
+     "dur": 2.0,
+     "label": "al-Andalus, c. 720",
+     "labelPos": [
+      -3.6,
+      39.4
+     ]
+    },
+    {
+     "kind": "label",
+     "text": "the north held out",
+     "pos": [
+      -5.4,
+      43.25
+     ],
+     "at": 2.8,
+     "size": 38,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "label",
+     "text": "borders approx.",
+     "pos": [
+      0.8,
+      0.66
+     ],
+     "at": 3.0,
+     "size": 34
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "globe",
+   "text": "How did Spain become Muslim in just a few years?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "It started in 711, when a king vanished in battle. Spain changed for almost eight centuries."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Who ruled Spain before that?",
+   "scene": "start",
+   "date": "c. 700",
+   "place": "Iberia"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "The Visigoths: Germanic kings ruling from Toledo. Their lands even reached into southern France."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "They wore jewelled crowns, but their nobles were at each other's throats.",
+   "scene": "crowns",
+   "date": "",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.45,
+     1.3
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So what happened in 711?",
+   "scene": "roderic3",
+   "date": "711",
+   "move": {
+    "from": [
+     0.4,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.5,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Legend blames a wronged daughter. Her father, Count Julian, took revenge on King Roderic and opened the door to Africa."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In April 711, a Berber commander, Tariq ibn Ziyad, crossed the strait with a small army.",
+   "scene": "crossing",
+   "date": "April 711",
+   "place": "Strait of Gibraltar",
+   "say": "In April 711, a Berber commander, Tariq ibn Ziyad, crossed the strait with a small army."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "The rock where he landed still carries his name: Jabal Tariq. Gibraltar."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And King Roderic?",
+   "scene": "roderic2",
+   "date": "711",
+   "place": "Guadalete",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.6,
+     0.5,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "He rushed south. At the river Guadalete, his army was routed. The king died, and his body was never found."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "How fast did the rest fall?",
+   "scene": "tariq",
+   "date": "711 – 718",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.45,
+     1.3
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Within a few years, almost the whole peninsula was under Muslim rule. It became al-Andalus."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Almost?",
+   "scene": "end",
+   "date": "c. 720",
+   "place": "al-Andalus"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Right. A few mountain valleys in the far north never fell. Muslim rule elsewhere would last, in shrinking form, until 1492."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Next time: Covadonga, the battle in the mountains. Like the video and follow History Sketches.",
+   "scene": "roderic4",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.45,
+     1.2
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And tell us in the comments what you think!"
+  },
+  {
+   "type": "end",
+   "text": "Next: Covadonga, the battle in the mountains",
+   "sub": "Follow History Sketches"
+  }
+ ],
+ "clips": {
+  "globe": "sketch/globe_in.mp4"
+ }
 }

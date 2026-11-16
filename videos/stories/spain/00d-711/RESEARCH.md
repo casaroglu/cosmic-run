@@ -16,3 +16,8 @@
 
 ## Images
 Winterhalter's *Florinda* (CC0) was dropped: the nudity risks platform moderation.
+
+## Dialogue remake (2026-11-16)
+- Visigothic kingdom reached into southern France (Septimania) (✓ Wikipedia "Visigothic Kingdom"; Britannica "Visigoth").
+- Guadalete near the Strait (approx. location shown) (✓ Wikipedia "Battle of Guadalete").
+- End map c. 720: al-Andalus = almost all of the peninsula; the Cantabrian/Asturian north held out (✓ Wikipedia "Umayyad conquest of Hispania"; Britannica "Spain: Muslim Spain"). Borders approx.

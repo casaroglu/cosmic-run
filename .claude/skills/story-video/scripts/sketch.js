@@ -35,7 +35,7 @@ function skHatch() {
 // ---------- geometry ----------
 function skProj(spec) {   // lon/lat -> frame pixels for this sketch's map view
   const [x0, y0, x1, y1] = spec.view || (spec.coast && spec.coast.bbox) || [0, 0, 1, 1];
-  const [rx, ry, rw, rh] = spec.rect || [20, 170, W - 40, 1180];
+  const [rx, ry, rw, rh] = LAND() ? (spec.lrect || [300, 60, W - 600, H - 330]) : (spec.rect || [20, 170, W - 40, 1180]);   // landscape: above the captions
   const k = Math.cos(((y0 + y1) / 2) * Math.PI / 180);
   const sx = rw / ((x1 - x0) * k), sy = rh / (y1 - y0), s = Math.min(sx, sy);
   const ox = rx + (rw - (x1 - x0) * k * s) / 2, oy = ry + (rh - (y1 - y0) * s) / 2;
@@ -419,7 +419,7 @@ function drawSketch(name, t) {
 // overlaps other text, the caption band, the date tag or the logo.
 window.textAudit = function () {
   if (!TL.sketches) return [];
-  const zones = LAND() ? [] : [
+  const zones = LAND() ? [{ text: '[captions]', x0: 0, x1: W, y0: H - 200, y1: H - 90 }, { text: '[date tag]', x0: 60, x1: 520, y0: 55, y1: 140 }] : [
     { text: '[captions]', x0: 0, x1: W, y0: 1290, y1: 1500 },
     { text: '[date tag]', x0: 60, x1: 520, y0: 245, y1: 330 },
     { text: '[logo]', x0: W - 150, x1: W, y0: 150, y1: 300 }];

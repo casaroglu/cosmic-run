@@ -14,3 +14,6 @@
 ## Left out on purpose
 - Number of people killed / executed on 2–3 May (estimates vary widely).
 - Exact execution site (Príncipe Pío is traditional; the Prado doubts the painting shows it).
+
+## Dialogue remake (2026-11-16)
+- Maps: Napoleon's France c. 1807–10 (incl. Belgium, left bank of the Rhine, Holland from 1810) and French troops crossing Spain to Portugal (Treaty of Fontainebleau, 1807); end: Spain under King Joseph, 1808 (✓ Wikipedia "Peninsular War"; Britannica "Joseph Bonaparte"). Borders approx.

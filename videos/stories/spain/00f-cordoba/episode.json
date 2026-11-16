@@ -1,158 +1,627 @@
 {
-  "series": "Spain in 60 seconds",
-  "episode": 0,
-  "total_parts": 1,
-  "voices": {
-    "narrator": "am_michael"
+ "series": "The History of Spain",
+ "voices": {
+  "q": "af_heart",
+  "a": "am_michael"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
   },
-  "speed": {
-    "narrator": 1.0
-  },
-  "accent": "#E8B44A",
-  "part": 1,
-  "title": "A thousand years ago, this was the most dazzling city in Europe.",
-  "highlight": [
-    "thousand",
-    "dazzling"
-  ],
-  "music": {
-    "mood": "dreamy",
-    "seed": 6,
-    "drums": false,
-    "level": 0.32
-  },
-  "post": {
-    "caption": "Córdoba, capital of al-Andalus: the Great Mosque, the caliphate of 929, and the cathedral built inside it. Images: public domain / CC0.",
-    "hashtags": [
-      "history",
-      "spain",
-      "cordoba",
-      "alandalus",
-      "mezquita",
-      "historytok",
-      "shorts"
-    ]
-  },
-  "images": {
-    "columns": {
-      "file": "img/columns.jpg",
-      "credit": "The Great Mosque of Córdoba (photograph, 2010)",
-      "where": "Public domain"
-    },
-    "roberts": {
-      "file": "img/roberts.jpg",
-      "credit": "David Roberts, Interior of the Mosque of Córdoba (1838)",
-      "where": ""
-    },
-    "baixeras": {
-      "file": "img/baixeras.jpg",
-      "credit": "Dionisio Baixeras, The Caliphate of Córdoba under Abd al-Rahman III (1885)",
-      "where": "Universitat de Barcelona"
-    },
-    "azahara": {
-      "file": "img/azahara.jpg",
-      "credit": "Ruins of Medina Azahara, near Córdoba (photograph, 2016)",
-      "where": "CC0"
-    },
-    "mihrab": {
-      "file": "img/mihrab.jpg",
-      "credit": "T. Rufflé, Decoration of the mihrab vestibule, Great Mosque of Córdoba (19th-c. print)",
-      "where": ""
-    },
-    "arches": {
-      "file": "img/arches.jpg",
-      "credit": "Inside the Mosque-Cathedral of Córdoba (photograph, 2024)",
-      "where": "CC0"
-    },
-    "photo1855": {
-      "file": "img/photo1855.jpg",
-      "credit": "The Great Mosque of Córdoba (photograph, c. 1855)",
-      "where": "Library of Congress"
-    },
-    "columns2": {
-      "file": "img/columns.jpg",
-      "credit": "The Great Mosque of Córdoba (photograph, 2010)",
-      "where": "Public domain"
-    },
-    "arches2": {
-      "file": "img/arches.jpg",
-      "credit": "Inside the Mosque-Cathedral of Córdoba (photograph, 2024)",
-      "where": "CC0"
-    }
-  },
-  "beats": [
-    {
-      "type": "title",
-      "scene": "columns",
-      "text": "A thousand years ago, this was the most dazzling city in Europe.",
-      "move": {"from": [0.3, 0.5, 1.0], "to": [0.6, 0.45, 1.2]}
-    },
-    {
-      "type": "narration",
-      "scene": "roberts",
-      "date": "780s",
-      "place": "Córdoba",
-      "text": "In the 780s, a prince who had escaped a massacre of his family in Syria began a great mosque in Córdoba.",
-      "say": "In the seven-eighties, a prince who had escaped a massacre of his family in Syria began a great mosque in Córdoba.",
-      "move": {"from": [0.5, 0.7, 1.0], "to": [0.5, 0.35, 1.25]}
-    },
-    {
-      "type": "narration",
-      "scene": "arches",
-      "date": "",
-      "text": "His heirs kept enlarging it: a forest of more than eight hundred columns under red and white arches.",
-      "move": {"from": [0.5, 0.6, 1.0], "to": [0.5, 0.3, 1.3]}
-    },
-    {
-      "type": "narration",
-      "scene": "baixeras",
-      "date": "929",
-      "text": "In 929 Abd al-Rahman the Third declared himself caliph, defying Baghdad. Envoys came from Byzantium and the German emperor.",
-      "say": "In nine twenty-nine Abd al-Rahman the Third declared himself caliph, defying Baghdad. Envoys came from Byzantium and the German emperor.",
-      "move": {"from": [0.6, 0.5, 1.0], "to": [0.2, 0.5, 1.2]}
-    },
-    {
-      "type": "narration",
-      "scene": "azahara",
-      "date": "936",
-      "text": "Outside the city he built a whole palace town: Medina Azahara.",
-      "move": {"from": [0.3, 0.5, 1.0], "to": [0.5, 0.45, 1.15]}
-    },
-    {
-      "type": "narration",
-      "scene": "mihrab",
-      "date": "",
-      "text": "His son's library was said to hold four hundred thousand books. Historians doubt the number, but not the fame.",
-      "move": {"from": [0.5, 0.5, 0.7], "to": [0.45, 0.45, 1.2]}
-    },
-    {
-      "type": "narration",
-      "scene": "columns2",
-      "date": "1031",
-      "text": "Then civil war tore the caliphate apart. In 1031 it shattered into rival little kingdoms.",
-      "say": "Then civil war tore the caliphate apart. In ten thirty-one it shattered into rival little kingdoms.",
-      "move": {"from": [0.7, 0.5, 1.2], "to": [0.4, 0.5, 1.0]}
-    },
-    {
-      "type": "narration",
-      "scene": "photo1855",
-      "date": "1236",
-      "text": "Christian Castile took Córdoba in 1236. Three centuries later, a cathedral was built right in the middle of the mosque.",
-      "say": "Christian Castile took Córdoba in twelve thirty-six. Three centuries later, a cathedral was built right in the middle of the mosque.",
-      "move": {"from": [0.5, 0.6, 1.0], "to": [0.5, 0.4, 1.2]}
-    },
-    {
-      "type": "narration",
-      "scene": "arches2",
-      "date": "",
-      "text": "Mosque or cathedral? Córdoba still argues about what to call it.",
-      "gap": 0.6,
-      "move": {"from": [0.5, 0.4, 1.3], "to": [0.5, 0.5, 1.0]}
-    },
-    {
-      "type": "end",
-      "text": "Next: 1212, Las Navas de Tolosa",
-      "sub": "Follow for Spain's full story"
-    }
+  "a": {
+   "name": "Max",
+   "color": "#E8B44A"
+  }
+ },
+ "accent": "#E8B44A",
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "scene_pad": 0.5,
+ "fade": 1.1,
+ "episode": "00f",
+ "title": "Which city was the most dazzling in Europe a thousand years ago?",
+ "highlight": [
+  "dazzling",
+  "Europe"
+ ],
+ "music": {
+  "mood": "dreamy",
+  "seed": 6,
+  "drums": false,
+  "level": 0.3
+ },
+ "post": {
+  "caption": "The History of Spain, episode 6: Córdoba, capital of al-Andalus: the Great Mosque, the caliphate of 929, Medina Azahara and the fall into taifa kingdoms. Images: public domain / CC0. Map data: Natural Earth. Borders approx.",
+  "hashtags": [
+   "history",
+   "spain",
+   "cordoba",
+   "alandalus",
+   "mezquita",
+   "shorts"
   ]
+ },
+ "images": {
+  "columns": {
+   "file": "img/columns.jpg",
+   "credit": "The Great Mosque of Córdoba (photograph, 2010)",
+   "where": "Public domain"
+  },
+  "roberts": {
+   "file": "img/roberts.jpg",
+   "credit": "David Roberts, Interior of the Mosque of Córdoba (1838)",
+   "where": ""
+  },
+  "baixeras": {
+   "file": "img/baixeras.jpg",
+   "credit": "Dionisio Baixeras, The Caliphate of Córdoba under Abd al-Rahman III (1885)",
+   "where": "Universitat de Barcelona"
+  },
+  "azahara": {
+   "file": "img/azahara.jpg",
+   "credit": "Ruins of Medina Azahara, near Córdoba (photograph, 2016)",
+   "where": "CC0"
+  },
+  "mihrab": {
+   "file": "img/mihrab.jpg",
+   "credit": "T. Rufflé, Decoration of the mihrab vestibule, Great Mosque of Córdoba (19th-c. print)",
+   "where": ""
+  },
+  "arches": {
+   "file": "img/arches.jpg",
+   "credit": "Inside the Mosque-Cathedral of Córdoba (photograph, 2024)",
+   "where": "CC0"
+  },
+  "photo1855": {
+   "file": "img/photo1855.jpg",
+   "credit": "The Great Mosque of Córdoba (photograph, c. 1855)",
+   "where": "Library of Congress"
+  },
+  "columns2": {
+   "file": "img/columns.jpg",
+   "credit": "The Great Mosque of Córdoba (photograph, 2010)",
+   "where": "Public domain"
+  },
+  "arches2": {
+   "file": "img/arches.jpg",
+   "credit": "Inside the Mosque-Cathedral of Córdoba (photograph, 2024)",
+   "where": "CC0"
+  }
+ },
+ "sketches": {
+  "start": {
+   "coast": "sketch/iberia.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 2.0
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        -8.9,
+        41.0
+       ],
+       [
+        -6.5,
+        41.0
+       ],
+       [
+        -4.5,
+        41.2
+       ],
+       [
+        -3.0,
+        41.4
+       ],
+       [
+        -1.8,
+        41.9
+       ],
+       [
+        -0.5,
+        42.2
+       ],
+       [
+        0.4,
+        42.0
+       ],
+       [
+        1.0,
+        41.2
+       ],
+       [
+        1.5,
+        40.8
+       ],
+       [
+        1.5,
+        39.0
+       ],
+       [
+        0.5,
+        37.5
+       ],
+       [
+        -1.5,
+        36.4
+       ],
+       [
+        -5.6,
+        35.9
+       ],
+       [
+        -7.4,
+        36.9
+       ],
+       [
+        -9.0,
+        36.7
+       ],
+       [
+        -9.9,
+        38.5
+       ],
+       [
+        -9.4,
+        40.5
+       ]
+      ]
+     ],
+     "color": "#2f6b3a",
+     "at": 0.8,
+     "dur": 2.0,
+     "label": "Caliphate of Córdoba, 929",
+     "labelPos": [
+      -4.6,
+      38.9
+     ]
+    },
+    {
+     "kind": "label",
+     "text": "Christian kingdoms",
+     "pos": [
+      -4.0,
+      42.4
+     ],
+     "at": 2.6,
+     "size": 40,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      -4.78,
+      37.88
+     ],
+     "label": "Córdoba",
+     "lx": 20,
+     "ly": 45,
+     "at": 2.4
+    },
+    {
+     "kind": "label",
+     "text": "borders approx.",
+     "pos": [
+      0.8,
+      0.66
+     ],
+     "at": 3.0,
+     "size": 34
+    }
+   ]
+  },
+  "end": {
+   "coast": "sketch/iberia.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        -8.9,
+        41.0
+       ],
+       [
+        -6.5,
+        41.0
+       ],
+       [
+        -4.5,
+        41.2
+       ],
+       [
+        -3.0,
+        41.4
+       ],
+       [
+        -1.8,
+        41.9
+       ],
+       [
+        -0.5,
+        42.2
+       ],
+       [
+        0.4,
+        42.0
+       ],
+       [
+        1.0,
+        41.2
+       ],
+       [
+        1.5,
+        40.8
+       ],
+       [
+        1.5,
+        39.0
+       ],
+       [
+        0.5,
+        37.5
+       ],
+       [
+        -1.5,
+        36.4
+       ],
+       [
+        -5.6,
+        35.9
+       ],
+       [
+        -7.4,
+        36.9
+       ],
+       [
+        -9.0,
+        36.7
+       ],
+       [
+        -9.9,
+        38.5
+       ],
+       [
+        -9.4,
+        40.5
+       ]
+      ]
+     ],
+     "color": "#2f6b3a",
+     "style": "faint",
+     "at": 0.3,
+     "dur": 1.0,
+     "label": "taifa kingdoms, 1031",
+     "labelPos": [
+      -4.4,
+      38.6
+     ]
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      -6.0,
+      37.39
+     ],
+     "label": "Seville",
+     "lx": 15,
+     "ly": -35,
+     "at": 1.2,
+     "lsize": 34,
+     "color": "#2f6b3a"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      -4.02,
+      39.86
+     ],
+     "label": "Toledo",
+     "lx": 15,
+     "ly": -35,
+     "at": 1.5,
+     "lsize": 34,
+     "color": "#2f6b3a"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      -0.88,
+      41.65
+     ],
+     "label": "Zaragoza",
+     "lx": 15,
+     "ly": -35,
+     "at": 1.7999999999999998,
+     "lsize": 34,
+     "color": "#2f6b3a"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      -0.38,
+      39.47
+     ],
+     "label": "Valencia",
+     "lx": 15,
+     "ly": -35,
+     "at": 2.0999999999999996,
+     "lsize": 34,
+     "color": "#2f6b3a"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      -6.97,
+      38.88
+     ],
+     "label": "Badajoz",
+     "lx": 15,
+     "ly": -35,
+     "at": 2.4,
+     "lsize": 34,
+     "color": "#2f6b3a"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      -3.6,
+      37.18
+     ],
+     "label": "Granada",
+     "lx": 15,
+     "ly": -35,
+     "at": 2.7,
+     "lsize": 34,
+     "color": "#2f6b3a"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      -2.46,
+      36.84
+     ],
+     "label": "Almería",
+     "lx": 15,
+     "ly": -35,
+     "at": 3.0,
+     "lsize": 34,
+     "color": "#2f6b3a"
+    },
+    {
+     "kind": "label",
+     "text": "borders approx.",
+     "pos": [
+      0.8,
+      0.66
+     ],
+     "at": 3.0,
+     "size": 34
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "globe",
+   "text": "Which city was the most dazzling in Europe a thousand years ago?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Many would say Córdoba, in southern Spain, the capital of al-Andalus.",
+   "say": "Many would say Cordoba, in southern Spain, the capital of al-Andalus."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "What was it famous for?",
+   "scene": "roberts",
+   "date": "780s",
+   "place": "Córdoba",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.5,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In the 780s, a prince who had escaped the massacre of his family in Syria began a great mosque there."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "His heirs kept enlarging it: a forest of more than eight hundred columns under red and white arches.",
+   "scene": "arches",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.45,
+     1.3
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "How big was al-Andalus at its height?",
+   "scene": "start",
+   "date": "929",
+   "place": "al-Andalus"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In 929, it covered most of the peninsula. Only the Christian kingdoms of the north lay beyond its borders."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "That year, Abd al-Rahman the Third declared himself caliph, defying Baghdad. Envoys came from Byzantium and the German emperor.",
+   "scene": "baixeras",
+   "date": "929",
+   "move": {
+    "from": [
+     0.4,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.5,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Outside the city he built a whole palace town: Medina Azahara.",
+   "scene": "azahara",
+   "date": "936",
+   "place": "Medina Azahara",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.5,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And the famous library?",
+   "scene": "mihrab",
+   "date": "",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.45,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "His son's library was said to hold four hundred thousand books. Historians doubt the number, but not the fame."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So what went wrong?",
+   "scene": "end",
+   "date": "1031",
+   "place": "al-Andalus"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Civil war. In 1031 the caliphate shattered into rival little kingdoms, the taifas."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Christian Castile took Córdoba in 1236. Three centuries later, a cathedral was built right in the middle of the mosque.",
+   "scene": "photo1855",
+   "date": "1236",
+   "place": "Córdoba",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.45,
+     1.25
+    ]
+   },
+   "say": "Christian Castile took Cordoba in 1236. Three centuries later, a cathedral was built right in the middle of the mosque."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So is it a mosque or a cathedral?",
+   "scene": "arches2",
+   "date": "Today",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.45,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Córdoba still argues about what to call it.",
+   "say": "Cordoba still argues about what to call it."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Next time: 1212, Las Navas de Tolosa. Like the video and follow History Sketches."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And tell us in the comments what you think!"
+  },
+  {
+   "type": "end",
+   "text": "Next: 1212, Las Navas de Tolosa",
+   "sub": "Follow History Sketches"
+  }
+ ],
+ "clips": {
+  "globe": "sketch/globe_in.mp4"
+ }
 }

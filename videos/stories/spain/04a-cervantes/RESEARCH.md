@@ -16,3 +16,7 @@
 - Ransom amount (500 ducats vs 500 escudos vs 300 escudos — sources disagree).
 - The exact cause of the 1597 imprisonment (contested).
 - Exact January 1605 publication day (single weak source).
+
+## Dialogue remake (2026-11-16)
+- Shakespeare line: 23 Apr 1616 (Julian) = 3 May (Gregorian), Cervantes d. 22 Apr (Gregorian) → 11 days apart (✓ Folger; OUP blog, as above).
+- Maps: Spain vs the Ottoman Empire in the Mediterranean, 1571 (Ottoman polygons from the Ottoman series, "1570"); capture route 1575 to Algiers (approx.); Spain 1616 (Philip III: Spain, Portugal, Italy, southern Netherlands; northern Netherlands lost) (✓ Wikipedia "Iberian Union"; Wikipedia "Twelve Years' Truce"). Borders approx.

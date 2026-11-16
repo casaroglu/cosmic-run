@@ -17,3 +17,7 @@
 
 ## Images
 "CS-NUM.JPG" on Commons is the CD Numancia football stadium, not the ruins — not used. Garabal Louzao's 1890 painting is a reduced copy of Vera's — not used.
+
+## Dialogue remake (2026-11-16)
+- Numantia on a hill near Soria; ruins only (✓ Wikipedia "Numantia"; Britannica "Numantia").
+- Start map: Roman Hispania c. 154 BC = east coast, south (Baetica) and Ebro valley; Celtiberians inland (✓ Wikipedia "Celtiberian Wars"; Britannica "Hispania"). End map 133 BC: Celtiberia added; far north conquered only 29–19 BC (✓ Wikipedia "Cantabrian Wars"). Borders approx.

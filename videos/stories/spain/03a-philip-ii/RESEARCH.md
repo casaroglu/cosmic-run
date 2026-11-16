@@ -11,3 +11,7 @@
 | Crown of Portugal 1580 | Cortes of Tomar 1581 recognised him; succession crisis/invasion 1580 ✓ | Britannica |
 | "Sun never set" | Phrase commonly applied to his empire after 1580 ✓ (said as description, not a quote) | Elliott, *Imperial Spain* |
 | Borrowed silver | Crown defaults 1557, 1560, 1575, 1596 ✓ | Drelichman & Voth, *Lending to the Borrower from Hell* |
+
+## Dialogue remake (2026-11-16)
+- Lepanto line changed to "his fleet helped crush the Ottoman navy" (Holy League; see Ottoman ep. 8 research).
+- Maps 1556 (Spain, Netherlands, Franche-Comté, Milan, Naples, Sicily, Sardinia, the Americas) and 1580 (+ Portugal and its empire; Iberian Union) (✓ Wikipedia "Philip II of Spain"; Britannica "Iberian Union"). Borders approx.

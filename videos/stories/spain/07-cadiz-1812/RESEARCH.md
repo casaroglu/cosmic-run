@@ -17,3 +17,7 @@
 - Total number of years it was in force (depends on counting 1836–37).
 - The Swedish "liberal" precedent debate.
 - Siege details and casualty numbers.
+
+## Dialogue remake (2026-11-16)
+- Start map 1810: French armies held most of Spain; Cádiz besieged (1810–12) (✓ Wikipedia "Siege of Cádiz"; Britannica "Cortes of Cádiz").
+- End map: Spanish American wars of independence (1808–1826); by 1825 only Cuba and Puerto Rico remained in the Americas (plus the Philippines) (✓ Wikipedia "Spanish American wars of independence"; Britannica "Latin America: Independence"). Spanish America 1810 outline approx.

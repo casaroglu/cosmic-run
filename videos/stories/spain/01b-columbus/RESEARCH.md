@@ -14,3 +14,8 @@
 ## Left out on purpose
 - The "three more days" promise (legend).
 - Columbus's birthplace debates.
+
+## Dialogue remake (2026-11-16)
+- Route via the Canary Islands (La Gomera) (✓ Wikipedia "Voyages of Christopher Columbus"; Britannica "Christopher Columbus").
+- Treaty of Tordesillas, 7 June 1494: line 370 leagues west of Cape Verde (≈ 46°37′W); west to Spain, east to Portugal; hence Brazil Portuguese (✓ Britannica "Treaty of Tordesillas"; Wikipedia "Treaty of Tordesillas"). The line was agreed by Spain and Portugal, building on papal bulls of 1493 (script: Spain and Portugal drew the line; papal bulls of 1493 had set an earlier one). Line drawn approx.
+- Hispaniola: Columbus's main base (✓ Wikipedia "Hispaniola").

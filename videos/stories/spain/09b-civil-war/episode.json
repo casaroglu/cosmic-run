@@ -1,145 +1,2354 @@
 {
-  "series": "Spain in 60 seconds",
-  "episode": 9,
-  "total_parts": 2,
-  "voices": {
-    "narrator": "am_michael"
+ "series": "The History of Spain",
+ "voices": {
+  "q": "af_heart",
+  "a": "am_michael"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
   },
-  "speed": {
-    "narrator": 1.0
-  },
-  "accent": "#E8B44A",
-  "part": 2,
-  "title": "Spain's civil war became the world's war.",
-  "highlight": [
-    "Spain's",
-    "world's"
-  ],
-  "music": {
-    "mood": "somber",
-    "seed": 92,
-    "drums": true,
-    "level": 0.32
-  },
-  "post": {
-    "caption": "Spain 1936–1939, Part 2: Madrid, the International Brigades, Guernica, the Ebro — and the end of the Civil War. Images: public domain.",
-    "hashtags": [
-      "history",
-      "spain",
-      "spanishcivilwar",
-      "guernica",
-      "historytok",
-      "shorts"
-    ]
-  },
-  "images": {
-    "internacionales": {
-      "file": "img/internacionales.jpg",
-      "credit": "Republican poster, \"Los Internacionales\" (1936–38)",
-      "where": ""
-    },
-    "feixisme": {
-      "file": "img/feixisme.jpg",
-      "credit": "Republican poster, \"Contra el feixisme\" (1936–38)",
-      "where": ""
-    },
-    "brigade": {
-      "file": "img/brigade.jpg",
-      "credit": "International Brigade volunteers at Marçà (photograph, Oct 1938)",
-      "where": "Illustrated Daily Courier archive"
-    },
-    "guernica": {
-      "file": "img/guernica.jpg",
-      "credit": "Guernica in ruins after the bombing (photograph, 1937)",
-      "where": ""
-    },
-    "ebro": {
-      "file": "img/ebro.jpg",
-      "credit": "Republican soldiers decorated after the Ebro offensive (photograph, Aug 1938)",
-      "where": "Illustrated Daily Courier archive"
-    },
-    "parade": {
-      "file": "img/parade.jpg",
-      "credit": "Victory parade, Madrid, 19 May 1939 (photograph)",
-      "where": ""
-    },
-    "argeles": {
-      "file": "img/argeles.jpg",
-      "credit": "Spanish refugees in the camp at Argelès-sur-Mer, France (photograph, Feb 1939)",
-      "where": ""
-    }
-  },
-  "beats": [
-    {
-      "type": "title",
-      "scene": "internacionales",
-      "text": "Spain's civil war became the world's war.",
-      "move": {"from": [0.5, 0.7, 1.0], "to": [0.5, 0.4, 1.2]}
-    },
-    {
-      "type": "narration",
-      "scene": "feixisme",
-      "date": "November 1936",
-      "place": "Madrid",
-      "text": "November 1936. Franco's army reached Madrid. The city held. Its slogan went around the world: they shall not pass.",
-      "say": "November nineteen thirty-six. Franco's army reached Madrid. The city held. Its slogan went around the world: they shall not pass.",
-      "move": {"from": [0.5, 0.7, 1.0], "to": [0.6, 0.35, 1.25]}
-    },
-    {
-      "type": "narration",
-      "scene": "brigade",
-      "date": "",
-      "text": "Volunteers from dozens of countries came to fight for the Republic: the International Brigades.",
-      "move": {"from": [0.3, 0.55, 1.0], "to": [0.6, 0.55, 1.15]}
-    },
-    {
-      "type": "narration",
-      "text": "Hitler and Mussolini sent Franco planes, tanks and troops. Stalin sent the Republic weapons."
-    },
-    {
-      "type": "narration",
-      "scene": "guernica",
-      "date": "26 April 1937",
-      "place": "Guernica",
-      "text": "On a busy Monday, German and Italian bombers destroyed the Basque town of Guernica. Picasso painted it, and the world saw it.",
-      "move": {"from": [0.3, 0.5, 1.0], "to": [0.6, 0.55, 1.15]}
-    },
-    {
-      "type": "narration",
-      "text": "Behind both front lines, tens of thousands of civilians were killed for who they were, or what they believed.",
-      "gap": 0.5
-    },
-    {
-      "type": "narration",
-      "scene": "ebro",
-      "date": "July 1938",
-      "place": "River Ebro",
-      "text": "In 1938, the Republic gambled on one last offensive at the Ebro. It lasted four months, and failed.",
-      "say": "In nineteen thirty-eight, the Republic gambled on one last offensive at the Ebro. It lasted four months, and failed.",
-      "move": {"from": [0.6, 0.5, 1.0], "to": [0.4, 0.35, 1.2]}
-    },
-    {
-      "type": "narration",
-      "scene": "argeles",
-      "date": "February 1939",
-      "place": "Argelès-sur-Mer, France",
-      "text": "Catalonia fell. Hundreds of thousands fled across the snow into France, and ended up in camps on the beach.",
-      "move": {"from": [0.3, 0.5, 1.0], "to": [0.6, 0.6, 1.15]}
-    },
-    {
-      "type": "narration",
-      "scene": "parade",
-      "date": "1 April 1939",
-      "place": "Burgos",
-      "text": "On the first of April 1939, Franco announced: the war is over. He would rule Spain for thirty-six years.",
-      "say": "On the first of April nineteen thirty-nine, Franco announced: the war is over. He would rule Spain for thirty-six years.",
-      "gap": 0.6,
-      "move": {"from": [0.35, 0.7, 1.0], "to": [0.7, 0.3, 1.2]}
-    },
-    {
-      "type": "end",
-      "text": "Next: Franco, the Transition & 23-F",
-      "sub": "Follow for Spain's full story"
-    }
+  "a": {
+   "name": "Max",
+   "color": "#E8B44A"
+  }
+ },
+ "accent": "#E8B44A",
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "scene_pad": 0.5,
+ "fade": 1.1,
+ "episode": "09b",
+ "title": "How did Spain's civil war become the world's war?",
+ "highlight": [
+  "world's",
+  "war?"
+ ],
+ "music": {
+  "mood": "bittersweet",
+  "seed": 22,
+  "drums": true,
+  "level": 0.28
+ },
+ "post": {
+  "caption": "The History of Spain, episode 22: the Spanish Civil War (1936–39): Madrid, the International Brigades, Guernica, the Ebro and the exile of 1939. Images: public domain. Map data: Natural Earth. Front lines approx.",
+  "hashtags": [
+   "history",
+   "spain",
+   "civilwar",
+   "guernica",
+   "1936",
+   "shorts"
   ]
+ },
+ "images": {
+  "internacionales": {
+   "file": "img/internacionales.jpg",
+   "credit": "Republican poster, \"Los Internacionales\" (1936–38)",
+   "where": ""
+  },
+  "feixisme": {
+   "file": "img/feixisme.jpg",
+   "credit": "Republican poster, \"Contra el feixisme\" (1936–38)",
+   "where": ""
+  },
+  "brigade": {
+   "file": "img/brigade.jpg",
+   "credit": "International Brigade volunteers at Marçà (photograph, Oct 1938)",
+   "where": "Illustrated Daily Courier archive"
+  },
+  "guernica": {
+   "file": "img/guernica.jpg",
+   "credit": "Guernica in ruins after the bombing (photograph, 1937)",
+   "where": ""
+  },
+  "ebro": {
+   "file": "img/ebro.jpg",
+   "credit": "Republican soldiers decorated after the Ebro offensive (photograph, Aug 1938)",
+   "where": "Illustrated Daily Courier archive"
+  },
+  "parade": {
+   "file": "img/parade.jpg",
+   "credit": "Victory parade, Madrid, 19 May 1939 (photograph)",
+   "where": ""
+  },
+  "argeles": {
+   "file": "img/argeles.jpg",
+   "credit": "Spanish refugees in the camp at Argelès-sur-Mer, France (photograph, Feb 1939)",
+   "where": ""
+  }
+ },
+ "sketches": {
+  "start": {
+   "coast": "sketch/iberia.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 2.0
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        3.145,
+        39.79
+       ],
+       [
+        3.342,
+        39.787
+       ],
+       [
+        3.449,
+        39.761
+       ],
+       [
+        3.415,
+        39.627
+       ],
+       [
+        3.293,
+        39.477
+       ],
+       [
+        3.155,
+        39.333
+       ],
+       [
+        2.9,
+        39.368
+       ],
+       [
+        2.77,
+        39.41
+       ],
+       [
+        2.701,
+        39.542
+       ],
+       [
+        2.576,
+        39.531
+       ],
+       [
+        2.459,
+        39.53
+       ],
+       [
+        2.37,
+        39.572
+       ],
+       [
+        2.785,
+        39.855
+       ],
+       [
+        3.159,
+        39.971
+       ],
+       [
+        3.164,
+        39.924
+       ],
+       [
+        3.199,
+        39.89
+       ],
+       [
+        3.159,
+        39.837
+       ]
+      ],
+      [
+       [
+        -1.794,
+        43.407
+       ],
+       [
+        -1.753,
+        43.325
+       ],
+       [
+        -1.627,
+        43.282
+       ],
+       [
+        -1.472,
+        43.268
+       ],
+       [
+        -1.407,
+        43.197
+       ],
+       [
+        -1.459,
+        43.105
+       ],
+       [
+        -1.461,
+        43.052
+       ],
+       [
+        -1.394,
+        43.033
+       ],
+       [
+        -1.353,
+        43.064
+       ],
+       [
+        -1.3,
+        43.101
+       ],
+       [
+        -1.285,
+        43.06
+       ],
+       [
+        -0.934,
+        42.95
+       ],
+       [
+        -0.763,
+        42.94
+       ],
+       [
+        -0.586,
+        42.799
+       ],
+       [
+        -0.481,
+        42.799
+       ],
+       [
+        -0.339,
+        42.829
+       ],
+       [
+        -0.256,
+        42.804
+       ],
+       [
+        -0.14,
+        42.749
+       ],
+       [
+        -0.041,
+        42.689
+       ],
+       [
+        0.255,
+        42.693
+       ],
+       [
+        0.377,
+        42.7
+       ],
+       [
+        0.632,
+        42.69
+       ],
+       [
+        0.652,
+        42.8
+       ],
+       [
+        0.697,
+        42.845
+       ],
+       [
+        1.01,
+        42.779
+       ],
+       [
+        1.208,
+        42.713
+       ],
+       [
+        1.349,
+        42.691
+       ],
+       [
+        1.415,
+        42.548
+       ],
+       [
+        1.43,
+        42.498
+       ],
+       [
+        1.449,
+        42.437
+       ],
+       [
+        1.534,
+        42.442
+       ],
+       [
+        1.679,
+        42.497
+       ],
+       [
+        1.86,
+        42.457
+       ],
+       [
+        1.951,
+        42.393
+       ],
+       [
+        2.033,
+        42.354
+       ],
+       [
+        2.2,
+        42.421
+       ],
+       [
+        2.568,
+        42.346
+       ],
+       [
+        2.655,
+        42.362
+       ],
+       [
+        2.702,
+        42.408
+       ],
+       [
+        2.816,
+        42.429
+       ],
+       [
+        2.97,
+        42.467
+       ],
+       [
+        3.152,
+        42.431
+       ],
+       [
+        3.24,
+        42.368
+       ],
+       [
+        3.307,
+        42.289
+       ],
+       [
+        3.166,
+        42.256
+       ],
+       [
+        3.175,
+        42.136
+       ],
+       [
+        3.238,
+        42.082
+       ],
+       [
+        3.147,
+        41.861
+       ],
+       [
+        2.311,
+        41.467
+       ],
+       [
+        2.083,
+        41.287
+       ],
+       [
+        1.206,
+        41.098
+       ],
+       [
+        0.817,
+        40.892
+       ],
+       [
+        0.796,
+        40.804
+       ],
+       [
+        0.859,
+        40.686
+       ],
+       [
+        0.66,
+        40.613
+       ],
+       [
+        0.596,
+        40.615
+       ],
+       [
+        0.158,
+        40.107
+       ],
+       [
+        -0.075,
+        39.876
+       ],
+       [
+        -0.329,
+        39.417
+       ],
+       [
+        -0.134,
+        38.969
+       ],
+       [
+        0.155,
+        38.825
+       ],
+       [
+        0.136,
+        38.697
+       ],
+       [
+        -0.381,
+        38.436
+       ],
+       [
+        -0.551,
+        38.203
+       ],
+       [
+        -0.683,
+        37.992
+       ],
+       [
+        -0.753,
+        37.85
+       ],
+       [
+        -0.823,
+        37.712
+       ],
+       [
+        -0.772,
+        37.596
+       ],
+       [
+        -0.938,
+        37.571
+       ],
+       [
+        -1.641,
+        37.387
+       ],
+       [
+        -1.939,
+        36.946
+       ],
+       [
+        -2.188,
+        36.745
+       ],
+       [
+        -2.453,
+        36.831
+       ],
+       [
+        -2.671,
+        36.748
+       ],
+       [
+        -2.902,
+        36.743
+       ],
+       [
+        -3.259,
+        36.756
+       ],
+       [
+        -3.579,
+        36.74
+       ],
+       [
+        -4.367,
+        36.718
+       ],
+       [
+        -4.502,
+        36.629
+       ],
+       [
+        -4.935,
+        36.502
+       ],
+       [
+        -5.231,
+        36.374
+       ],
+       [
+        -5.361,
+        36.135
+       ],
+       [
+        -5.407,
+        36.159
+       ],
+       [
+        -5.463,
+        36.074
+       ],
+       [
+        -5.625,
+        36.026
+       ],
+       [
+        -5.961,
+        36.182
+       ],
+       [
+        -6.17,
+        36.334
+       ],
+       [
+        -6.266,
+        36.527
+       ],
+       [
+        -6.269,
+        36.597
+       ],
+       [
+        -6.412,
+        36.729
+       ],
+       [
+        -6.259,
+        36.899
+       ],
+       [
+        -6.321,
+        36.908
+       ],
+       [
+        -6.492,
+        36.955
+       ],
+       [
+        -6.859,
+        37.249
+       ],
+       [
+        -6.929,
+        37.215
+       ],
+       [
+        -7.175,
+        37.209
+       ],
+       [
+        -7.467,
+        37.428
+       ],
+       [
+        -7.504,
+        37.585
+       ],
+       [
+        -7.379,
+        37.786
+       ],
+       [
+        -7.185,
+        38.006
+       ],
+       [
+        -7.023,
+        38.045
+       ],
+       [
+        -6.958,
+        38.188
+       ],
+       [
+        -7.106,
+        38.181
+       ],
+       [
+        -7.336,
+        38.501
+       ],
+       [
+        -7.286,
+        38.649
+       ],
+       [
+        -7.22,
+        38.771
+       ],
+       [
+        -7.046,
+        38.907
+       ],
+       [
+        -6.998,
+        39.056
+       ],
+       [
+        -7.172,
+        39.135
+       ],
+       [
+        -7.335,
+        39.465
+       ],
+       [
+        -7.445,
+        39.536
+       ],
+       [
+        -7.536,
+        39.662
+       ],
+       [
+        -7.118,
+        39.682
+       ],
+       [
+        -7.037,
+        39.714
+       ],
+       [
+        -6.911,
+        39.937
+       ],
+       [
+        -6.916,
+        40.057
+       ],
+       [
+        -7.033,
+        40.168
+       ],
+       [
+        -6.948,
+        40.252
+       ],
+       [
+        -6.81,
+        40.343
+       ],
+       [
+        -6.848,
+        40.411
+       ],
+       [
+        -6.836,
+        40.483
+       ],
+       [
+        -6.818,
+        40.654
+       ],
+       [
+        -6.858,
+        40.878
+       ],
+       [
+        -6.916,
+        41.038
+       ],
+       [
+        -6.776,
+        41.108
+       ],
+       [
+        -6.566,
+        41.304
+       ],
+       [
+        -6.289,
+        41.455
+       ],
+       [
+        -6.213,
+        41.532
+       ],
+       [
+        -6.243,
+        41.602
+       ],
+       [
+        -6.392,
+        41.665
+       ],
+       [
+        -6.542,
+        41.673
+       ],
+       [
+        -6.553,
+        41.79
+       ],
+       [
+        -6.575,
+        41.913
+       ],
+       [
+        -6.704,
+        41.935
+       ],
+       [
+        -6.833,
+        41.964
+       ],
+       [
+        -7.03,
+        41.951
+       ],
+       [
+        -7.147,
+        41.981
+       ],
+       [
+        -7.195,
+        41.955
+       ],
+       [
+        -7.21,
+        41.895
+       ],
+       [
+        -7.404,
+        41.834
+       ],
+       [
+        -7.613,
+        41.858
+       ],
+       [
+        -7.693,
+        41.888
+       ],
+       [
+        -7.921,
+        41.884
+       ],
+       [
+        -8.094,
+        41.814
+       ],
+       [
+        -8.174,
+        41.82
+       ],
+       [
+        -8.225,
+        41.896
+       ],
+       [
+        -8.13,
+        42.018
+       ],
+       [
+        -8.174,
+        42.069
+       ],
+       [
+        -8.213,
+        42.134
+       ],
+       [
+        -8.323,
+        42.115
+       ],
+       [
+        -8.59,
+        42.053
+       ],
+       [
+        -8.777,
+        41.941
+       ],
+       [
+        -8.878,
+        41.947
+       ],
+       [
+        -8.772,
+        42.211
+       ],
+       [
+        -8.729,
+        42.287
+       ],
+       [
+        -8.81,
+        42.334
+       ],
+       [
+        -8.73,
+        42.412
+       ],
+       [
+        -8.812,
+        42.47
+       ],
+       [
+        -8.8,
+        42.6
+       ],
+       [
+        -8.988,
+        42.586
+       ],
+       [
+        -9.035,
+        42.662
+       ],
+       [
+        -8.927,
+        42.799
+       ],
+       [
+        -9.127,
+        42.865
+       ],
+       [
+        -9.235,
+        42.977
+       ],
+       [
+        -9.178,
+        43.174
+       ],
+       [
+        -9.025,
+        43.239
+       ],
+       [
+        -8.666,
+        43.317
+       ],
+       [
+        -8.422,
+        43.386
+       ],
+       [
+        -8.249,
+        43.439
+       ],
+       [
+        -8.289,
+        43.54
+       ],
+       [
+        -8.137,
+        43.629
+       ],
+       [
+        -7.853,
+        43.707
+       ],
+       [
+        -7.595,
+        43.727
+       ],
+       [
+        -7.399,
+        43.696
+       ],
+       [
+        -7.061,
+        43.554
+       ],
+       [
+        -6.617,
+        43.592
+       ],
+       [
+        -6.224,
+        43.604
+       ],
+       [
+        -5.847,
+        43.645
+       ],
+       [
+        -5.316,
+        43.553
+       ],
+       [
+        -4.523,
+        43.416
+       ],
+       [
+        -4.015,
+        43.463
+       ],
+       [
+        -3.774,
+        43.478
+       ],
+       [
+        -3.524,
+        43.511
+       ],
+       [
+        -3.046,
+        43.372
+       ],
+       [
+        -2.875,
+        43.454
+       ],
+       [
+        -2.337,
+        43.328
+       ],
+       [
+        -1.991,
+        43.345
+       ],
+       [
+        -1.794,
+        43.407
+       ]
+      ]
+     ],
+     "at": 0.3,
+     "dur": 1.6,
+     "color": "#b3261e",
+     "style": "faint"
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        -9.3,
+        43.8
+       ],
+       [
+        -7.6,
+        43.7
+       ],
+       [
+        -7.0,
+        43.25
+       ],
+       [
+        -6.0,
+        42.8
+       ],
+       [
+        -4.5,
+        42.7
+       ],
+       [
+        -3.6,
+        42.85
+       ],
+       [
+        -2.6,
+        42.75
+       ],
+       [
+        -1.8,
+        43.0
+       ],
+       [
+        -1.0,
+        42.8
+       ],
+       [
+        -0.3,
+        42.4
+       ],
+       [
+        -0.6,
+        41.6
+       ],
+       [
+        -1.0,
+        40.9
+       ],
+       [
+        -1.8,
+        40.6
+       ],
+       [
+        -2.5,
+        41.3
+       ],
+       [
+        -3.4,
+        41.0
+       ],
+       [
+        -3.7,
+        40.5
+       ],
+       [
+        -4.0,
+        40.2
+       ],
+       [
+        -4.5,
+        39.9
+       ],
+       [
+        -5.0,
+        39.0
+       ],
+       [
+        -5.5,
+        38.5
+       ],
+       [
+        -4.6,
+        37.5
+       ],
+       [
+        -4.0,
+        37.0
+       ],
+       [
+        -4.4,
+        36.7
+       ],
+       [
+        -5.6,
+        36.0
+       ],
+       [
+        -7.4,
+        37.2
+       ],
+       [
+        -7.3,
+        38.2
+       ],
+       [
+        -7.0,
+        39.0
+       ],
+       [
+        -7.4,
+        39.6
+       ],
+       [
+        -6.9,
+        41.0
+       ],
+       [
+        -8.9,
+        42.0
+       ]
+      ]
+     ],
+     "color": "#1f4e8c",
+     "at": 0.8,
+     "dur": 1.8,
+     "label": "Franco",
+     "labelPos": [
+      -6.2,
+      40.6
+     ]
+    },
+    {
+     "kind": "label",
+     "text": "Republic",
+     "pos": [
+      -1.6,
+      39.2
+     ],
+     "at": 2.4,
+     "size": 48,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      -3.7,
+      40.42
+     ],
+     "label": "Madrid holds",
+     "lx": 15,
+     "ly": 45,
+     "at": 2.8,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "November 1936, approx.",
+     "pos": [
+      0.76,
+      0.66
+     ],
+     "at": 3.0,
+     "size": 34
+    }
+   ]
+  },
+  "world": {
+   "items": [
+    {
+     "kind": "text",
+     "text": "Who sent help?",
+     "pos": [
+      0.5,
+      0.2
+     ],
+     "at": 0.1,
+     "size": 62
+    },
+    {
+     "kind": "text",
+     "text": "to Franco: Germany, Italy",
+     "pos": [
+      0.5,
+      0.33
+     ],
+     "at": 0.6,
+     "size": 56,
+     "color": "#1f4e8c",
+     "cps": 22
+    },
+    {
+     "kind": "text",
+     "text": "to the Republic: the USSR",
+     "pos": [
+      0.5,
+      0.43
+     ],
+     "at": 1.8,
+     "size": 56,
+     "color": "#b3261e",
+     "cps": 22
+    },
+    {
+     "kind": "text",
+     "text": "+ International Brigades",
+     "pos": [
+      0.5,
+      0.53
+     ],
+     "at": 3.0,
+     "size": 56,
+     "color": "#b3261e",
+     "cps": 22
+    }
+   ]
+  },
+  "end": {
+   "coast": "sketch/iberia.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        -9.3,
+        43.8
+       ],
+       [
+        -7.6,
+        43.7
+       ],
+       [
+        -7.0,
+        43.25
+       ],
+       [
+        -6.0,
+        42.8
+       ],
+       [
+        -4.5,
+        42.7
+       ],
+       [
+        -3.6,
+        42.85
+       ],
+       [
+        -2.6,
+        42.75
+       ],
+       [
+        -1.8,
+        43.0
+       ],
+       [
+        -1.0,
+        42.8
+       ],
+       [
+        -0.3,
+        42.4
+       ],
+       [
+        -0.6,
+        41.6
+       ],
+       [
+        -1.0,
+        40.9
+       ],
+       [
+        -1.8,
+        40.6
+       ],
+       [
+        -2.5,
+        41.3
+       ],
+       [
+        -3.4,
+        41.0
+       ],
+       [
+        -3.7,
+        40.5
+       ],
+       [
+        -4.0,
+        40.2
+       ],
+       [
+        -4.5,
+        39.9
+       ],
+       [
+        -5.0,
+        39.0
+       ],
+       [
+        -5.5,
+        38.5
+       ],
+       [
+        -4.6,
+        37.5
+       ],
+       [
+        -4.0,
+        37.0
+       ],
+       [
+        -4.4,
+        36.7
+       ],
+       [
+        -5.6,
+        36.0
+       ],
+       [
+        -7.4,
+        37.2
+       ],
+       [
+        -7.3,
+        38.2
+       ],
+       [
+        -7.0,
+        39.0
+       ],
+       [
+        -7.4,
+        39.6
+       ],
+       [
+        -6.9,
+        41.0
+       ],
+       [
+        -8.9,
+        42.0
+       ]
+      ]
+     ],
+     "color": "#1f4e8c",
+     "style": "faint",
+     "at": 0.2,
+     "dur": 0.6
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        3.145,
+        39.79
+       ],
+       [
+        3.342,
+        39.787
+       ],
+       [
+        3.449,
+        39.761
+       ],
+       [
+        3.415,
+        39.627
+       ],
+       [
+        3.293,
+        39.477
+       ],
+       [
+        3.155,
+        39.333
+       ],
+       [
+        2.9,
+        39.368
+       ],
+       [
+        2.77,
+        39.41
+       ],
+       [
+        2.701,
+        39.542
+       ],
+       [
+        2.576,
+        39.531
+       ],
+       [
+        2.459,
+        39.53
+       ],
+       [
+        2.37,
+        39.572
+       ],
+       [
+        2.785,
+        39.855
+       ],
+       [
+        3.159,
+        39.971
+       ],
+       [
+        3.164,
+        39.924
+       ],
+       [
+        3.199,
+        39.89
+       ],
+       [
+        3.159,
+        39.837
+       ]
+      ],
+      [
+       [
+        -1.794,
+        43.407
+       ],
+       [
+        -1.753,
+        43.325
+       ],
+       [
+        -1.627,
+        43.282
+       ],
+       [
+        -1.472,
+        43.268
+       ],
+       [
+        -1.407,
+        43.197
+       ],
+       [
+        -1.459,
+        43.105
+       ],
+       [
+        -1.461,
+        43.052
+       ],
+       [
+        -1.394,
+        43.033
+       ],
+       [
+        -1.353,
+        43.064
+       ],
+       [
+        -1.3,
+        43.101
+       ],
+       [
+        -1.285,
+        43.06
+       ],
+       [
+        -0.934,
+        42.95
+       ],
+       [
+        -0.763,
+        42.94
+       ],
+       [
+        -0.586,
+        42.799
+       ],
+       [
+        -0.481,
+        42.799
+       ],
+       [
+        -0.339,
+        42.829
+       ],
+       [
+        -0.256,
+        42.804
+       ],
+       [
+        -0.14,
+        42.749
+       ],
+       [
+        -0.041,
+        42.689
+       ],
+       [
+        0.255,
+        42.693
+       ],
+       [
+        0.377,
+        42.7
+       ],
+       [
+        0.632,
+        42.69
+       ],
+       [
+        0.652,
+        42.8
+       ],
+       [
+        0.697,
+        42.845
+       ],
+       [
+        1.01,
+        42.779
+       ],
+       [
+        1.208,
+        42.713
+       ],
+       [
+        1.349,
+        42.691
+       ],
+       [
+        1.415,
+        42.548
+       ],
+       [
+        1.43,
+        42.498
+       ],
+       [
+        1.449,
+        42.437
+       ],
+       [
+        1.534,
+        42.442
+       ],
+       [
+        1.679,
+        42.497
+       ],
+       [
+        1.86,
+        42.457
+       ],
+       [
+        1.951,
+        42.393
+       ],
+       [
+        2.033,
+        42.354
+       ],
+       [
+        2.2,
+        42.421
+       ],
+       [
+        2.568,
+        42.346
+       ],
+       [
+        2.655,
+        42.362
+       ],
+       [
+        2.702,
+        42.408
+       ],
+       [
+        2.816,
+        42.429
+       ],
+       [
+        2.97,
+        42.467
+       ],
+       [
+        3.152,
+        42.431
+       ],
+       [
+        3.24,
+        42.368
+       ],
+       [
+        3.307,
+        42.289
+       ],
+       [
+        3.166,
+        42.256
+       ],
+       [
+        3.175,
+        42.136
+       ],
+       [
+        3.238,
+        42.082
+       ],
+       [
+        3.147,
+        41.861
+       ],
+       [
+        2.311,
+        41.467
+       ],
+       [
+        2.083,
+        41.287
+       ],
+       [
+        1.206,
+        41.098
+       ],
+       [
+        0.817,
+        40.892
+       ],
+       [
+        0.796,
+        40.804
+       ],
+       [
+        0.859,
+        40.686
+       ],
+       [
+        0.66,
+        40.613
+       ],
+       [
+        0.596,
+        40.615
+       ],
+       [
+        0.158,
+        40.107
+       ],
+       [
+        -0.075,
+        39.876
+       ],
+       [
+        -0.329,
+        39.417
+       ],
+       [
+        -0.134,
+        38.969
+       ],
+       [
+        0.155,
+        38.825
+       ],
+       [
+        0.136,
+        38.697
+       ],
+       [
+        -0.381,
+        38.436
+       ],
+       [
+        -0.551,
+        38.203
+       ],
+       [
+        -0.683,
+        37.992
+       ],
+       [
+        -0.753,
+        37.85
+       ],
+       [
+        -0.823,
+        37.712
+       ],
+       [
+        -0.772,
+        37.596
+       ],
+       [
+        -0.938,
+        37.571
+       ],
+       [
+        -1.641,
+        37.387
+       ],
+       [
+        -1.939,
+        36.946
+       ],
+       [
+        -2.188,
+        36.745
+       ],
+       [
+        -2.453,
+        36.831
+       ],
+       [
+        -2.671,
+        36.748
+       ],
+       [
+        -2.902,
+        36.743
+       ],
+       [
+        -3.259,
+        36.756
+       ],
+       [
+        -3.579,
+        36.74
+       ],
+       [
+        -4.367,
+        36.718
+       ],
+       [
+        -4.502,
+        36.629
+       ],
+       [
+        -4.935,
+        36.502
+       ],
+       [
+        -5.231,
+        36.374
+       ],
+       [
+        -5.361,
+        36.135
+       ],
+       [
+        -5.407,
+        36.159
+       ],
+       [
+        -5.463,
+        36.074
+       ],
+       [
+        -5.625,
+        36.026
+       ],
+       [
+        -5.961,
+        36.182
+       ],
+       [
+        -6.17,
+        36.334
+       ],
+       [
+        -6.266,
+        36.527
+       ],
+       [
+        -6.269,
+        36.597
+       ],
+       [
+        -6.412,
+        36.729
+       ],
+       [
+        -6.259,
+        36.899
+       ],
+       [
+        -6.321,
+        36.908
+       ],
+       [
+        -6.492,
+        36.955
+       ],
+       [
+        -6.859,
+        37.249
+       ],
+       [
+        -6.929,
+        37.215
+       ],
+       [
+        -7.175,
+        37.209
+       ],
+       [
+        -7.467,
+        37.428
+       ],
+       [
+        -7.504,
+        37.585
+       ],
+       [
+        -7.379,
+        37.786
+       ],
+       [
+        -7.185,
+        38.006
+       ],
+       [
+        -7.023,
+        38.045
+       ],
+       [
+        -6.958,
+        38.188
+       ],
+       [
+        -7.106,
+        38.181
+       ],
+       [
+        -7.336,
+        38.501
+       ],
+       [
+        -7.286,
+        38.649
+       ],
+       [
+        -7.22,
+        38.771
+       ],
+       [
+        -7.046,
+        38.907
+       ],
+       [
+        -6.998,
+        39.056
+       ],
+       [
+        -7.172,
+        39.135
+       ],
+       [
+        -7.335,
+        39.465
+       ],
+       [
+        -7.445,
+        39.536
+       ],
+       [
+        -7.536,
+        39.662
+       ],
+       [
+        -7.118,
+        39.682
+       ],
+       [
+        -7.037,
+        39.714
+       ],
+       [
+        -6.911,
+        39.937
+       ],
+       [
+        -6.916,
+        40.057
+       ],
+       [
+        -7.033,
+        40.168
+       ],
+       [
+        -6.948,
+        40.252
+       ],
+       [
+        -6.81,
+        40.343
+       ],
+       [
+        -6.848,
+        40.411
+       ],
+       [
+        -6.836,
+        40.483
+       ],
+       [
+        -6.818,
+        40.654
+       ],
+       [
+        -6.858,
+        40.878
+       ],
+       [
+        -6.916,
+        41.038
+       ],
+       [
+        -6.776,
+        41.108
+       ],
+       [
+        -6.566,
+        41.304
+       ],
+       [
+        -6.289,
+        41.455
+       ],
+       [
+        -6.213,
+        41.532
+       ],
+       [
+        -6.243,
+        41.602
+       ],
+       [
+        -6.392,
+        41.665
+       ],
+       [
+        -6.542,
+        41.673
+       ],
+       [
+        -6.553,
+        41.79
+       ],
+       [
+        -6.575,
+        41.913
+       ],
+       [
+        -6.704,
+        41.935
+       ],
+       [
+        -6.833,
+        41.964
+       ],
+       [
+        -7.03,
+        41.951
+       ],
+       [
+        -7.147,
+        41.981
+       ],
+       [
+        -7.195,
+        41.955
+       ],
+       [
+        -7.21,
+        41.895
+       ],
+       [
+        -7.404,
+        41.834
+       ],
+       [
+        -7.613,
+        41.858
+       ],
+       [
+        -7.693,
+        41.888
+       ],
+       [
+        -7.921,
+        41.884
+       ],
+       [
+        -8.094,
+        41.814
+       ],
+       [
+        -8.174,
+        41.82
+       ],
+       [
+        -8.225,
+        41.896
+       ],
+       [
+        -8.13,
+        42.018
+       ],
+       [
+        -8.174,
+        42.069
+       ],
+       [
+        -8.213,
+        42.134
+       ],
+       [
+        -8.323,
+        42.115
+       ],
+       [
+        -8.59,
+        42.053
+       ],
+       [
+        -8.777,
+        41.941
+       ],
+       [
+        -8.878,
+        41.947
+       ],
+       [
+        -8.772,
+        42.211
+       ],
+       [
+        -8.729,
+        42.287
+       ],
+       [
+        -8.81,
+        42.334
+       ],
+       [
+        -8.73,
+        42.412
+       ],
+       [
+        -8.812,
+        42.47
+       ],
+       [
+        -8.8,
+        42.6
+       ],
+       [
+        -8.988,
+        42.586
+       ],
+       [
+        -9.035,
+        42.662
+       ],
+       [
+        -8.927,
+        42.799
+       ],
+       [
+        -9.127,
+        42.865
+       ],
+       [
+        -9.235,
+        42.977
+       ],
+       [
+        -9.178,
+        43.174
+       ],
+       [
+        -9.025,
+        43.239
+       ],
+       [
+        -8.666,
+        43.317
+       ],
+       [
+        -8.422,
+        43.386
+       ],
+       [
+        -8.249,
+        43.439
+       ],
+       [
+        -8.289,
+        43.54
+       ],
+       [
+        -8.137,
+        43.629
+       ],
+       [
+        -7.853,
+        43.707
+       ],
+       [
+        -7.595,
+        43.727
+       ],
+       [
+        -7.399,
+        43.696
+       ],
+       [
+        -7.061,
+        43.554
+       ],
+       [
+        -6.617,
+        43.592
+       ],
+       [
+        -6.224,
+        43.604
+       ],
+       [
+        -5.847,
+        43.645
+       ],
+       [
+        -5.316,
+        43.553
+       ],
+       [
+        -4.523,
+        43.416
+       ],
+       [
+        -4.015,
+        43.463
+       ],
+       [
+        -3.774,
+        43.478
+       ],
+       [
+        -3.524,
+        43.511
+       ],
+       [
+        -3.046,
+        43.372
+       ],
+       [
+        -2.875,
+        43.454
+       ],
+       [
+        -2.337,
+        43.328
+       ],
+       [
+        -1.991,
+        43.345
+       ],
+       [
+        -1.794,
+        43.407
+       ]
+      ]
+     ],
+     "at": 1.0,
+     "dur": 1.6,
+     "color": "#1f4e8c",
+     "label": "Franco's Spain, April 1939",
+     "labelPos": [
+      -3.6,
+      40.4
+     ]
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      2.2,
+      41.9
+     ],
+     "to": [
+      2.8,
+      43.0
+     ],
+     "at": 2.2,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "refugees to France",
+     "pos": [
+      3.4,
+      43.5
+     ],
+     "at": 2.6,
+     "size": 36,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "borders approx.",
+     "pos": [
+      0.8,
+      0.66
+     ],
+     "at": 3.0,
+     "size": 34
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "globe",
+   "text": "How did Spain's civil war become the world's war?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Because foreign powers sent planes, tanks and volunteers. Spain became a rehearsal for the Second World War."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Where were the front lines?",
+   "scene": "start",
+   "date": "November 1936",
+   "place": "Spain"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "By November 1936, Franco's army held the west and reached Madrid. The city held."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Its slogan went around the world: they shall not pass.",
+   "scene": "feixisme",
+   "date": "",
+   "move": {
+    "from": [
+     0.5,
+     0.45,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.4,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Who helped whom?",
+   "scene": "world"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Hitler and Mussolini sent Franco planes, tanks and troops. Stalin sent the Republic weapons."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "And volunteers from dozens of countries came to fight for the Republic: the International Brigades.",
+   "scene": "brigade",
+   "date": "",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.5,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "What was Guernica?",
+   "scene": "guernica",
+   "date": "26 April 1937",
+   "place": "Guernica",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.5,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "On a busy Monday, German and Italian bombers destroyed the Basque town of Guernica. Picasso painted it, and the world saw it."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Behind both front lines, tens of thousands of civilians were killed for who they were, or what they believed."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Did the Republic ever strike back?",
+   "scene": "ebro",
+   "date": "July 1938",
+   "place": "Ebro",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.5,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In 1938, it gambled on one last offensive at the Ebro. It lasted four months, and failed."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Catalonia fell. Hundreds of thousands fled across the snow into France, and ended up in camps on the beach.",
+   "scene": "argeles",
+   "date": "February 1939",
+   "place": "Argelès-sur-Mer",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.5,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And the end?",
+   "scene": "end",
+   "date": "1 April 1939",
+   "place": "Spain"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "On the first of April 1939, Franco announced: the war is over. He would rule Spain for thirty-six years."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Next time: how a dictator's heir gave Spain democracy. Like the video and follow History Sketches.",
+   "scene": "parade",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.5,
+     1.2
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And tell us in the comments what you think!"
+  },
+  {
+   "type": "end",
+   "text": "Next: how a dictator's heir gave Spain democracy",
+   "sub": "Follow History Sketches"
+  }
+ ],
+ "clips": {
+  "globe": "sketch/globe_in.mp4"
+ }
 }

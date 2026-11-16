@@ -10,3 +10,7 @@
 | Abdication 25 Oct 1555, wept | ✓ | Elliott, *Imperial Spain* |
 | Retired beside the monastery of Yuste; died 21 Sep 1558 | ✓ | RAH DB~e |
 | Philip inherited the debts | 1557 default ✓ | Barton |
+
+## Dialogue remake (2026-11-16)
+- Maps: Charles V's lands c. 1550 (Spain, Netherlands, Franche-Comté, Naples, Sicily, Sardinia, Milan, Austria via Ferdinand, the Americas) and the 1556 split: Ferdinand Austria + imperial crown, Philip Spain, the Netherlands, Italy and the Americas (✓ Wikipedia "Abdications of Charles V"; Britannica "Charles V"). Borders approx.
+- Abdication ceremony in Brussels, 25 Oct 1555 (✓ Wikipedia "Abdications of Charles V").

@@ -13,3 +13,7 @@
 ## Left out on purpose
 - Army and casualty numbers (unknown).
 - Bishop Oppas legend.
+
+## Dialogue remake (2026-11-16)
+- Covadonga in the Picos de Europa, Asturias; today a shrine/pilgrimage site (✓ Wikipedia "Covadonga"; Wikipedia "Holy Cave of Covadonga").
+- Kingdom of Asturias reached the Duero by c. 910 (when the capital moved to León) (✓ Wikipedia "Kingdom of Asturias"; Britannica "Asturias"). Borders approx.

@@ -1,185 +1,2117 @@
 {
-  "series": "Spain in 60 seconds",
-  "episode": 10,
-  "total_parts": 1,
-  "voices": {
-    "narrator": "am_michael"
+ "series": "The History of Spain",
+ "voices": {
+  "q": "af_heart",
+  "a": "am_michael"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
   },
-  "speed": {
-    "narrator": 1.0
-  },
-  "accent": "#E8B44A",
-  "part": 1,
-  "title": "A dictator chose a king. The king gave Spain democracy.",
-  "highlight": [
-    "dictator",
-    "democracy."
-  ],
-  "music": {
-    "mood": "hopeful",
-    "seed": 101,
-    "drums": false,
-    "level": 0.32
-  },
-  "post": {
-    "caption": "Spain 1939–1981: Franco's dictatorship, the heir he chose, and the night of 23-F. Photos: public domain / CC0.",
-    "hashtags": [
-      "history",
-      "spain",
-      "franco",
-      "juancarlos",
-      "23F",
-      "historytok",
-      "shorts"
-    ]
-  },
-  "images": {
-    "franco": {
-      "file": "img/franco.jpg",
-      "credit": "General Franco, October 1975 (photograph)",
-      "where": "Nationaal Archief, CC0"
-    },
-    "nixon": {
-      "file": "img/nixon.jpg",
-      "credit": "President Nixon in a procession in Madrid (photograph, 1970)",
-      "where": "U.S. National Archives"
-    },
-    "parade": {
-      "file": "img/parade.jpg",
-      "credit": "Franco and Prince Juan Carlos at the 30th-anniversary parade, Madrid (photograph, 1969)",
-      "where": "Nationaal Archief, CC0"
-    },
-    "heir": {
-      "file": "img/heir.jpg",
-      "credit": "General Franco and Prince Juan Carlos (photograph)",
-      "where": "Nationaal Archief, CC0"
-    },
-    "carrero": {
-      "file": "img/carrero.jpg",
-      "credit": "The street of the bomb attack on Carrero Blanco, Madrid (photograph, Dec 1973)",
-      "where": "Nationaal Archief, CC0"
-    },
-    "king": {
-      "file": "img/king.jpg",
-      "credit": "Juan Carlos sworn in as King of Spain (photograph, 22 Nov 1975)",
-      "where": "Nationaal Archief, CC0"
-    },
-    "suarez": {
-      "file": "img/suarez.jpg",
-      "credit": "Adolfo Suárez campaigning in the 1977 election (photograph)",
-      "where": "Nationaal Archief, CC0"
-    },
-    "ballot": {
-      "file": "img/ballot.jpg",
-      "credit": "Ballot paper for the 1978 constitutional referendum",
-      "where": ""
-    },
-    "cortes": {
-      "file": "img/cortes.jpg",
-      "credit": "The Congress of Deputies, Madrid (photograph, 2016)",
-      "where": "CC0"
-    },
-    "jc": {
-      "file": "img/jc.jpg",
-      "credit": "King Juan Carlos I at the White House (photograph, 1976)",
-      "where": "U.S. National Archives"
-    }
-  },
-  "beats": [
-    {
-      "type": "title",
-      "scene": "franco",
-      "text": "A dictator chose a king. The king gave Spain democracy.",
-      "move": {"from": [0.5, 0.6, 1.0], "to": [0.5, 0.25, 1.4]}
-    },
-    {
-      "type": "narration",
-      "date": "1939",
-      "place": "Madrid",
-      "text": "After 1939, Franco ruled alone: prisons, censorship, hunger. Europe shut Spain out.",
-      "say": "After nineteen thirty-nine, Franco ruled alone: prisons, censorship, hunger. Europe shut Spain out."
-    },
-    {
-      "type": "narration",
-      "scene": "nixon",
-      "date": "1953",
-      "text": "The Cold War rescued him. In 1953, American bases came to Spain, and American presidents to Madrid.",
-      "say": "The Cold War rescued him. In nineteen fifty-three, American bases came to Spain, and American presidents to Madrid.",
-      "move": {"from": [0.5, 0.3, 1.0], "to": [0.45, 0.7, 1.3]}
-    },
-    {
-      "type": "narration",
-      "scene": "parade",
-      "date": "1960s",
-      "text": "In the sixties, tourists and factories made Spain boom. But there were still no free elections.",
-      "move": {"from": [0.3, 0.5, 1.0], "to": [0.65, 0.4, 1.3]}
-    },
-    {
-      "type": "narration",
-      "scene": "heir",
-      "date": "22 July 1969",
-      "text": "In 1969 Franco named his heir: young Prince Juan Carlos. Everyone expected more of the same.",
-      "say": "In nineteen sixty-nine Franco named his heir: young Prince Juan Carlos. Everyone expected more of the same.",
-      "move": {"from": [0.75, 0.45, 1.2], "to": [0.2, 0.4, 1.25]}
-    },
-    {
-      "type": "narration",
-      "scene": "carrero",
-      "date": "20 December 1973",
-      "place": "Madrid",
-      "text": "In 1973, an ETA bomb killed Franco's prime minister. It threw his car over a five-storey building.",
-      "say": "In nineteen seventy-three, an ETA bomb killed Franco's prime minister. It threw his car over a five-storey building.",
-      "move": {"from": [0.5, 0.6, 1.0], "to": [0.4, 0.35, 1.2]}
-    },
-    {
-      "type": "narration",
-      "scene": "king",
-      "date": "22 November 1975",
-      "place": "Madrid",
-      "text": "Franco died in November 1975. Two days later, Juan Carlos became king.",
-      "say": "Franco died in November nineteen seventy-five. Two days later, Juan Carlos became king.",
-      "move": {"from": [0.4, 0.5, 1.0], "to": [0.82, 0.35, 1.25]}
-    },
-    {
-      "type": "narration",
-      "scene": "suarez",
-      "date": "15 June 1977",
-      "text": "He picked Adolfo Suárez, a man of the old regime, to take it apart. In 1977, Spain voted freely for the first time in forty-one years.",
-      "say": "He picked Adolfo Suárez, a man of the old regime, to take it apart. In nineteen seventy-seven, Spain voted freely for the first time in forty-one years.",
-      "move": {"from": [0.5, 0.5, 1.5], "to": [0.63, 0.5, 2.0]}
-    },
-    {
-      "type": "narration",
-      "scene": "ballot",
-      "date": "6 December 1978",
-      "text": "A year later, Spaniards approved a democratic constitution.",
-      "move": {"from": [0.5, 0.45, 1.1], "to": [0.5, 0.5, 1.0]}
-    },
-    {
-      "type": "narration",
-      "scene": "cortes",
-      "date": "23 February 1981",
-      "place": "Madrid",
-      "text": "Then, in 1981, a Civil Guard colonel stormed parliament with armed men and held the deputies hostage.",
-      "say": "Then, in nineteen eighty-one, a Civil Guard colonel stormed parliament with armed men and held the deputies hostage.",
-      "move": {"from": [0.3, 0.5, 1.0], "to": [0.5, 0.5, 1.15]}
-    },
-    {
-      "type": "narration",
-      "scene": "jc",
-      "date": "",
-      "text": "That night the king, in uniform, went on TV and ordered the army to stand by democracy. By the next day, the coup had collapsed.",
-      "move": {"from": [0.4, 0.5, 1.0], "to": [0.72, 0.38, 1.3]}
-    },
-    {
-      "type": "narration",
-      "text": "The heir the dictator chose had saved the democracy.",
-      "gap": 0.6
-    },
-    {
-      "type": "end",
-      "text": "Next: before Spain was Spain",
-      "sub": "Follow for Spain's full story"
-    }
+  "a": {
+   "name": "Max",
+   "color": "#E8B44A"
+  }
+ },
+ "accent": "#E8B44A",
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "scene_pad": 0.5,
+ "fade": 1.1,
+ "episode": "10",
+ "title": "How did a dictator's chosen heir give Spain democracy?",
+ "highlight": [
+  "heir",
+  "democracy?"
+ ],
+ "music": {
+  "mood": "hopeful",
+  "seed": 23,
+  "drums": false,
+  "level": 0.28
+ },
+ "post": {
+  "caption": "The History of Spain, episode 23 (final): Franco's Spain, Juan Carlos, Adolfo Suárez, the 1977 election, the 1978 constitution and the failed coup of 23-F (1981). Images: public domain. Map data: Natural Earth.",
+  "hashtags": [
+   "history",
+   "spain",
+   "juancarlos",
+   "democracy",
+   "transition",
+   "shorts"
   ]
+ },
+ "images": {
+  "franco": {
+   "file": "img/franco.jpg",
+   "credit": "General Franco, October 1975 (photograph)",
+   "where": "Nationaal Archief, CC0"
+  },
+  "nixon": {
+   "file": "img/nixon.jpg",
+   "credit": "President Nixon in a procession in Madrid (photograph, 1970)",
+   "where": "U.S. National Archives"
+  },
+  "parade": {
+   "file": "img/parade.jpg",
+   "credit": "Franco and Prince Juan Carlos at the 30th-anniversary parade, Madrid (photograph, 1969)",
+   "where": "Nationaal Archief, CC0"
+  },
+  "heir": {
+   "file": "img/heir.jpg",
+   "credit": "General Franco and Prince Juan Carlos (photograph)",
+   "where": "Nationaal Archief, CC0"
+  },
+  "carrero": {
+   "file": "img/carrero.jpg",
+   "credit": "The street of the bomb attack on Carrero Blanco, Madrid (photograph, Dec 1973)",
+   "where": "Nationaal Archief, CC0"
+  },
+  "king": {
+   "file": "img/king.jpg",
+   "credit": "Juan Carlos sworn in as King of Spain (photograph, 22 Nov 1975)",
+   "where": "Nationaal Archief, CC0"
+  },
+  "suarez": {
+   "file": "img/suarez.jpg",
+   "credit": "Adolfo Suárez campaigning in the 1977 election (photograph)",
+   "where": "Nationaal Archief, CC0"
+  },
+  "ballot": {
+   "file": "img/ballot.jpg",
+   "credit": "Ballot paper for the 1978 constitutional referendum",
+   "where": ""
+  },
+  "cortes": {
+   "file": "img/cortes.jpg",
+   "credit": "The Congress of Deputies, Madrid (photograph, 2016)",
+   "where": "CC0"
+  },
+  "jc": {
+   "file": "img/jc.jpg",
+   "credit": "King Juan Carlos I at the White House (photograph, 1976)",
+   "where": "U.S. National Archives"
+  }
+ },
+ "sketches": {
+  "start": {
+   "coast": "sketch/iberia.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 2.0
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        3.145,
+        39.79
+       ],
+       [
+        3.342,
+        39.787
+       ],
+       [
+        3.449,
+        39.761
+       ],
+       [
+        3.415,
+        39.627
+       ],
+       [
+        3.293,
+        39.477
+       ],
+       [
+        3.155,
+        39.333
+       ],
+       [
+        2.9,
+        39.368
+       ],
+       [
+        2.77,
+        39.41
+       ],
+       [
+        2.701,
+        39.542
+       ],
+       [
+        2.576,
+        39.531
+       ],
+       [
+        2.459,
+        39.53
+       ],
+       [
+        2.37,
+        39.572
+       ],
+       [
+        2.785,
+        39.855
+       ],
+       [
+        3.159,
+        39.971
+       ],
+       [
+        3.164,
+        39.924
+       ],
+       [
+        3.199,
+        39.89
+       ],
+       [
+        3.159,
+        39.837
+       ]
+      ],
+      [
+       [
+        -1.794,
+        43.407
+       ],
+       [
+        -1.753,
+        43.325
+       ],
+       [
+        -1.627,
+        43.282
+       ],
+       [
+        -1.472,
+        43.268
+       ],
+       [
+        -1.407,
+        43.197
+       ],
+       [
+        -1.459,
+        43.105
+       ],
+       [
+        -1.461,
+        43.052
+       ],
+       [
+        -1.394,
+        43.033
+       ],
+       [
+        -1.353,
+        43.064
+       ],
+       [
+        -1.3,
+        43.101
+       ],
+       [
+        -1.285,
+        43.06
+       ],
+       [
+        -0.934,
+        42.95
+       ],
+       [
+        -0.763,
+        42.94
+       ],
+       [
+        -0.586,
+        42.799
+       ],
+       [
+        -0.481,
+        42.799
+       ],
+       [
+        -0.339,
+        42.829
+       ],
+       [
+        -0.256,
+        42.804
+       ],
+       [
+        -0.14,
+        42.749
+       ],
+       [
+        -0.041,
+        42.689
+       ],
+       [
+        0.255,
+        42.693
+       ],
+       [
+        0.377,
+        42.7
+       ],
+       [
+        0.632,
+        42.69
+       ],
+       [
+        0.652,
+        42.8
+       ],
+       [
+        0.697,
+        42.845
+       ],
+       [
+        1.01,
+        42.779
+       ],
+       [
+        1.208,
+        42.713
+       ],
+       [
+        1.349,
+        42.691
+       ],
+       [
+        1.415,
+        42.548
+       ],
+       [
+        1.43,
+        42.498
+       ],
+       [
+        1.449,
+        42.437
+       ],
+       [
+        1.534,
+        42.442
+       ],
+       [
+        1.679,
+        42.497
+       ],
+       [
+        1.86,
+        42.457
+       ],
+       [
+        1.951,
+        42.393
+       ],
+       [
+        2.033,
+        42.354
+       ],
+       [
+        2.2,
+        42.421
+       ],
+       [
+        2.568,
+        42.346
+       ],
+       [
+        2.655,
+        42.362
+       ],
+       [
+        2.702,
+        42.408
+       ],
+       [
+        2.816,
+        42.429
+       ],
+       [
+        2.97,
+        42.467
+       ],
+       [
+        3.152,
+        42.431
+       ],
+       [
+        3.24,
+        42.368
+       ],
+       [
+        3.307,
+        42.289
+       ],
+       [
+        3.166,
+        42.256
+       ],
+       [
+        3.175,
+        42.136
+       ],
+       [
+        3.238,
+        42.082
+       ],
+       [
+        3.147,
+        41.861
+       ],
+       [
+        2.311,
+        41.467
+       ],
+       [
+        2.083,
+        41.287
+       ],
+       [
+        1.206,
+        41.098
+       ],
+       [
+        0.817,
+        40.892
+       ],
+       [
+        0.796,
+        40.804
+       ],
+       [
+        0.859,
+        40.686
+       ],
+       [
+        0.66,
+        40.613
+       ],
+       [
+        0.596,
+        40.615
+       ],
+       [
+        0.158,
+        40.107
+       ],
+       [
+        -0.075,
+        39.876
+       ],
+       [
+        -0.329,
+        39.417
+       ],
+       [
+        -0.134,
+        38.969
+       ],
+       [
+        0.155,
+        38.825
+       ],
+       [
+        0.136,
+        38.697
+       ],
+       [
+        -0.381,
+        38.436
+       ],
+       [
+        -0.551,
+        38.203
+       ],
+       [
+        -0.683,
+        37.992
+       ],
+       [
+        -0.753,
+        37.85
+       ],
+       [
+        -0.823,
+        37.712
+       ],
+       [
+        -0.772,
+        37.596
+       ],
+       [
+        -0.938,
+        37.571
+       ],
+       [
+        -1.641,
+        37.387
+       ],
+       [
+        -1.939,
+        36.946
+       ],
+       [
+        -2.188,
+        36.745
+       ],
+       [
+        -2.453,
+        36.831
+       ],
+       [
+        -2.671,
+        36.748
+       ],
+       [
+        -2.902,
+        36.743
+       ],
+       [
+        -3.259,
+        36.756
+       ],
+       [
+        -3.579,
+        36.74
+       ],
+       [
+        -4.367,
+        36.718
+       ],
+       [
+        -4.502,
+        36.629
+       ],
+       [
+        -4.935,
+        36.502
+       ],
+       [
+        -5.231,
+        36.374
+       ],
+       [
+        -5.361,
+        36.135
+       ],
+       [
+        -5.407,
+        36.159
+       ],
+       [
+        -5.463,
+        36.074
+       ],
+       [
+        -5.625,
+        36.026
+       ],
+       [
+        -5.961,
+        36.182
+       ],
+       [
+        -6.17,
+        36.334
+       ],
+       [
+        -6.266,
+        36.527
+       ],
+       [
+        -6.269,
+        36.597
+       ],
+       [
+        -6.412,
+        36.729
+       ],
+       [
+        -6.259,
+        36.899
+       ],
+       [
+        -6.321,
+        36.908
+       ],
+       [
+        -6.492,
+        36.955
+       ],
+       [
+        -6.859,
+        37.249
+       ],
+       [
+        -6.929,
+        37.215
+       ],
+       [
+        -7.175,
+        37.209
+       ],
+       [
+        -7.467,
+        37.428
+       ],
+       [
+        -7.504,
+        37.585
+       ],
+       [
+        -7.379,
+        37.786
+       ],
+       [
+        -7.185,
+        38.006
+       ],
+       [
+        -7.023,
+        38.045
+       ],
+       [
+        -6.958,
+        38.188
+       ],
+       [
+        -7.106,
+        38.181
+       ],
+       [
+        -7.336,
+        38.501
+       ],
+       [
+        -7.286,
+        38.649
+       ],
+       [
+        -7.22,
+        38.771
+       ],
+       [
+        -7.046,
+        38.907
+       ],
+       [
+        -6.998,
+        39.056
+       ],
+       [
+        -7.172,
+        39.135
+       ],
+       [
+        -7.335,
+        39.465
+       ],
+       [
+        -7.445,
+        39.536
+       ],
+       [
+        -7.536,
+        39.662
+       ],
+       [
+        -7.118,
+        39.682
+       ],
+       [
+        -7.037,
+        39.714
+       ],
+       [
+        -6.911,
+        39.937
+       ],
+       [
+        -6.916,
+        40.057
+       ],
+       [
+        -7.033,
+        40.168
+       ],
+       [
+        -6.948,
+        40.252
+       ],
+       [
+        -6.81,
+        40.343
+       ],
+       [
+        -6.848,
+        40.411
+       ],
+       [
+        -6.836,
+        40.483
+       ],
+       [
+        -6.818,
+        40.654
+       ],
+       [
+        -6.858,
+        40.878
+       ],
+       [
+        -6.916,
+        41.038
+       ],
+       [
+        -6.776,
+        41.108
+       ],
+       [
+        -6.566,
+        41.304
+       ],
+       [
+        -6.289,
+        41.455
+       ],
+       [
+        -6.213,
+        41.532
+       ],
+       [
+        -6.243,
+        41.602
+       ],
+       [
+        -6.392,
+        41.665
+       ],
+       [
+        -6.542,
+        41.673
+       ],
+       [
+        -6.553,
+        41.79
+       ],
+       [
+        -6.575,
+        41.913
+       ],
+       [
+        -6.704,
+        41.935
+       ],
+       [
+        -6.833,
+        41.964
+       ],
+       [
+        -7.03,
+        41.951
+       ],
+       [
+        -7.147,
+        41.981
+       ],
+       [
+        -7.195,
+        41.955
+       ],
+       [
+        -7.21,
+        41.895
+       ],
+       [
+        -7.404,
+        41.834
+       ],
+       [
+        -7.613,
+        41.858
+       ],
+       [
+        -7.693,
+        41.888
+       ],
+       [
+        -7.921,
+        41.884
+       ],
+       [
+        -8.094,
+        41.814
+       ],
+       [
+        -8.174,
+        41.82
+       ],
+       [
+        -8.225,
+        41.896
+       ],
+       [
+        -8.13,
+        42.018
+       ],
+       [
+        -8.174,
+        42.069
+       ],
+       [
+        -8.213,
+        42.134
+       ],
+       [
+        -8.323,
+        42.115
+       ],
+       [
+        -8.59,
+        42.053
+       ],
+       [
+        -8.777,
+        41.941
+       ],
+       [
+        -8.878,
+        41.947
+       ],
+       [
+        -8.772,
+        42.211
+       ],
+       [
+        -8.729,
+        42.287
+       ],
+       [
+        -8.81,
+        42.334
+       ],
+       [
+        -8.73,
+        42.412
+       ],
+       [
+        -8.812,
+        42.47
+       ],
+       [
+        -8.8,
+        42.6
+       ],
+       [
+        -8.988,
+        42.586
+       ],
+       [
+        -9.035,
+        42.662
+       ],
+       [
+        -8.927,
+        42.799
+       ],
+       [
+        -9.127,
+        42.865
+       ],
+       [
+        -9.235,
+        42.977
+       ],
+       [
+        -9.178,
+        43.174
+       ],
+       [
+        -9.025,
+        43.239
+       ],
+       [
+        -8.666,
+        43.317
+       ],
+       [
+        -8.422,
+        43.386
+       ],
+       [
+        -8.249,
+        43.439
+       ],
+       [
+        -8.289,
+        43.54
+       ],
+       [
+        -8.137,
+        43.629
+       ],
+       [
+        -7.853,
+        43.707
+       ],
+       [
+        -7.595,
+        43.727
+       ],
+       [
+        -7.399,
+        43.696
+       ],
+       [
+        -7.061,
+        43.554
+       ],
+       [
+        -6.617,
+        43.592
+       ],
+       [
+        -6.224,
+        43.604
+       ],
+       [
+        -5.847,
+        43.645
+       ],
+       [
+        -5.316,
+        43.553
+       ],
+       [
+        -4.523,
+        43.416
+       ],
+       [
+        -4.015,
+        43.463
+       ],
+       [
+        -3.774,
+        43.478
+       ],
+       [
+        -3.524,
+        43.511
+       ],
+       [
+        -3.046,
+        43.372
+       ],
+       [
+        -2.875,
+        43.454
+       ],
+       [
+        -2.337,
+        43.328
+       ],
+       [
+        -1.991,
+        43.345
+       ],
+       [
+        -1.794,
+        43.407
+       ]
+      ]
+     ],
+     "at": 0.8,
+     "dur": 1.6,
+     "color": "#1f4e8c",
+     "label": "Franco's Spain, 1939–1975",
+     "labelPos": [
+      -3.6,
+      40.4
+     ]
+    },
+    {
+     "kind": "label",
+     "text": "no free elections",
+     "pos": [
+      0.5,
+      0.2
+     ],
+     "at": 2.4,
+     "size": 54,
+     "color": "#1f4e8c",
+     "cps": 22
+    },
+    {
+     "kind": "label",
+     "text": "borders approx.",
+     "pos": [
+      0.8,
+      0.66
+     ],
+     "at": 3.0,
+     "size": 34
+    }
+   ]
+  },
+  "votes": {
+   "items": [
+    {
+     "kind": "text",
+     "text": "the road to democracy",
+     "pos": [
+      0.5,
+      0.2
+     ],
+     "at": 0.1,
+     "size": 60
+    },
+    {
+     "kind": "timeline",
+     "pos": [
+      0.08,
+      0.45
+     ],
+     "from": 1975,
+     "to": 1982,
+     "at": 0.4,
+     "dur": 1.6,
+     "ticks": [
+      {
+       "v": 1975,
+       "label": "Franco dies"
+      },
+      {
+       "v": 1977,
+       "label": "first free vote"
+      },
+      {
+       "v": 1978,
+       "label": "constitution"
+      },
+      {
+       "v": 1981,
+       "label": "coup fails"
+      }
+     ]
+    }
+   ]
+  },
+  "end": {
+   "coast": "sketch/europe.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        3.145,
+        39.79
+       ],
+       [
+        3.342,
+        39.787
+       ],
+       [
+        3.449,
+        39.761
+       ],
+       [
+        3.415,
+        39.627
+       ],
+       [
+        3.293,
+        39.477
+       ],
+       [
+        3.155,
+        39.333
+       ],
+       [
+        2.9,
+        39.368
+       ],
+       [
+        2.77,
+        39.41
+       ],
+       [
+        2.701,
+        39.542
+       ],
+       [
+        2.576,
+        39.531
+       ],
+       [
+        2.459,
+        39.53
+       ],
+       [
+        2.37,
+        39.572
+       ],
+       [
+        2.785,
+        39.855
+       ],
+       [
+        3.159,
+        39.971
+       ],
+       [
+        3.164,
+        39.924
+       ],
+       [
+        3.199,
+        39.89
+       ],
+       [
+        3.159,
+        39.837
+       ]
+      ],
+      [
+       [
+        -1.794,
+        43.407
+       ],
+       [
+        -1.753,
+        43.325
+       ],
+       [
+        -1.627,
+        43.282
+       ],
+       [
+        -1.472,
+        43.268
+       ],
+       [
+        -1.407,
+        43.197
+       ],
+       [
+        -1.459,
+        43.105
+       ],
+       [
+        -1.461,
+        43.052
+       ],
+       [
+        -1.394,
+        43.033
+       ],
+       [
+        -1.353,
+        43.064
+       ],
+       [
+        -1.3,
+        43.101
+       ],
+       [
+        -1.285,
+        43.06
+       ],
+       [
+        -0.934,
+        42.95
+       ],
+       [
+        -0.763,
+        42.94
+       ],
+       [
+        -0.586,
+        42.799
+       ],
+       [
+        -0.481,
+        42.799
+       ],
+       [
+        -0.339,
+        42.829
+       ],
+       [
+        -0.256,
+        42.804
+       ],
+       [
+        -0.14,
+        42.749
+       ],
+       [
+        -0.041,
+        42.689
+       ],
+       [
+        0.255,
+        42.693
+       ],
+       [
+        0.377,
+        42.7
+       ],
+       [
+        0.632,
+        42.69
+       ],
+       [
+        0.652,
+        42.8
+       ],
+       [
+        0.697,
+        42.845
+       ],
+       [
+        1.01,
+        42.779
+       ],
+       [
+        1.208,
+        42.713
+       ],
+       [
+        1.349,
+        42.691
+       ],
+       [
+        1.415,
+        42.548
+       ],
+       [
+        1.43,
+        42.498
+       ],
+       [
+        1.449,
+        42.437
+       ],
+       [
+        1.534,
+        42.442
+       ],
+       [
+        1.679,
+        42.497
+       ],
+       [
+        1.86,
+        42.457
+       ],
+       [
+        1.951,
+        42.393
+       ],
+       [
+        2.033,
+        42.354
+       ],
+       [
+        2.2,
+        42.421
+       ],
+       [
+        2.568,
+        42.346
+       ],
+       [
+        2.655,
+        42.362
+       ],
+       [
+        2.702,
+        42.408
+       ],
+       [
+        2.816,
+        42.429
+       ],
+       [
+        2.97,
+        42.467
+       ],
+       [
+        3.152,
+        42.431
+       ],
+       [
+        3.24,
+        42.368
+       ],
+       [
+        3.307,
+        42.289
+       ],
+       [
+        3.166,
+        42.256
+       ],
+       [
+        3.175,
+        42.136
+       ],
+       [
+        3.238,
+        42.082
+       ],
+       [
+        3.147,
+        41.861
+       ],
+       [
+        2.311,
+        41.467
+       ],
+       [
+        2.083,
+        41.287
+       ],
+       [
+        1.206,
+        41.098
+       ],
+       [
+        0.817,
+        40.892
+       ],
+       [
+        0.796,
+        40.804
+       ],
+       [
+        0.859,
+        40.686
+       ],
+       [
+        0.66,
+        40.613
+       ],
+       [
+        0.596,
+        40.615
+       ],
+       [
+        0.158,
+        40.107
+       ],
+       [
+        -0.075,
+        39.876
+       ],
+       [
+        -0.329,
+        39.417
+       ],
+       [
+        -0.134,
+        38.969
+       ],
+       [
+        0.155,
+        38.825
+       ],
+       [
+        0.136,
+        38.697
+       ],
+       [
+        -0.381,
+        38.436
+       ],
+       [
+        -0.551,
+        38.203
+       ],
+       [
+        -0.683,
+        37.992
+       ],
+       [
+        -0.753,
+        37.85
+       ],
+       [
+        -0.823,
+        37.712
+       ],
+       [
+        -0.772,
+        37.596
+       ],
+       [
+        -0.938,
+        37.571
+       ],
+       [
+        -1.641,
+        37.387
+       ],
+       [
+        -1.939,
+        36.946
+       ],
+       [
+        -2.188,
+        36.745
+       ],
+       [
+        -2.453,
+        36.831
+       ],
+       [
+        -2.671,
+        36.748
+       ],
+       [
+        -2.902,
+        36.743
+       ],
+       [
+        -3.259,
+        36.756
+       ],
+       [
+        -3.579,
+        36.74
+       ],
+       [
+        -4.367,
+        36.718
+       ],
+       [
+        -4.502,
+        36.629
+       ],
+       [
+        -4.935,
+        36.502
+       ],
+       [
+        -5.231,
+        36.374
+       ],
+       [
+        -5.361,
+        36.135
+       ],
+       [
+        -5.407,
+        36.159
+       ],
+       [
+        -5.463,
+        36.074
+       ],
+       [
+        -5.625,
+        36.026
+       ],
+       [
+        -5.961,
+        36.182
+       ],
+       [
+        -6.17,
+        36.334
+       ],
+       [
+        -6.266,
+        36.527
+       ],
+       [
+        -6.269,
+        36.597
+       ],
+       [
+        -6.412,
+        36.729
+       ],
+       [
+        -6.259,
+        36.899
+       ],
+       [
+        -6.321,
+        36.908
+       ],
+       [
+        -6.492,
+        36.955
+       ],
+       [
+        -6.859,
+        37.249
+       ],
+       [
+        -6.929,
+        37.215
+       ],
+       [
+        -7.175,
+        37.209
+       ],
+       [
+        -7.467,
+        37.428
+       ],
+       [
+        -7.504,
+        37.585
+       ],
+       [
+        -7.379,
+        37.786
+       ],
+       [
+        -7.185,
+        38.006
+       ],
+       [
+        -7.023,
+        38.045
+       ],
+       [
+        -6.958,
+        38.188
+       ],
+       [
+        -7.106,
+        38.181
+       ],
+       [
+        -7.336,
+        38.501
+       ],
+       [
+        -7.286,
+        38.649
+       ],
+       [
+        -7.22,
+        38.771
+       ],
+       [
+        -7.046,
+        38.907
+       ],
+       [
+        -6.998,
+        39.056
+       ],
+       [
+        -7.172,
+        39.135
+       ],
+       [
+        -7.335,
+        39.465
+       ],
+       [
+        -7.445,
+        39.536
+       ],
+       [
+        -7.536,
+        39.662
+       ],
+       [
+        -7.118,
+        39.682
+       ],
+       [
+        -7.037,
+        39.714
+       ],
+       [
+        -6.911,
+        39.937
+       ],
+       [
+        -6.916,
+        40.057
+       ],
+       [
+        -7.033,
+        40.168
+       ],
+       [
+        -6.948,
+        40.252
+       ],
+       [
+        -6.81,
+        40.343
+       ],
+       [
+        -6.848,
+        40.411
+       ],
+       [
+        -6.836,
+        40.483
+       ],
+       [
+        -6.818,
+        40.654
+       ],
+       [
+        -6.858,
+        40.878
+       ],
+       [
+        -6.916,
+        41.038
+       ],
+       [
+        -6.776,
+        41.108
+       ],
+       [
+        -6.566,
+        41.304
+       ],
+       [
+        -6.289,
+        41.455
+       ],
+       [
+        -6.213,
+        41.532
+       ],
+       [
+        -6.243,
+        41.602
+       ],
+       [
+        -6.392,
+        41.665
+       ],
+       [
+        -6.542,
+        41.673
+       ],
+       [
+        -6.553,
+        41.79
+       ],
+       [
+        -6.575,
+        41.913
+       ],
+       [
+        -6.704,
+        41.935
+       ],
+       [
+        -6.833,
+        41.964
+       ],
+       [
+        -7.03,
+        41.951
+       ],
+       [
+        -7.147,
+        41.981
+       ],
+       [
+        -7.195,
+        41.955
+       ],
+       [
+        -7.21,
+        41.895
+       ],
+       [
+        -7.404,
+        41.834
+       ],
+       [
+        -7.613,
+        41.858
+       ],
+       [
+        -7.693,
+        41.888
+       ],
+       [
+        -7.921,
+        41.884
+       ],
+       [
+        -8.094,
+        41.814
+       ],
+       [
+        -8.174,
+        41.82
+       ],
+       [
+        -8.225,
+        41.896
+       ],
+       [
+        -8.13,
+        42.018
+       ],
+       [
+        -8.174,
+        42.069
+       ],
+       [
+        -8.213,
+        42.134
+       ],
+       [
+        -8.323,
+        42.115
+       ],
+       [
+        -8.59,
+        42.053
+       ],
+       [
+        -8.777,
+        41.941
+       ],
+       [
+        -8.878,
+        41.947
+       ],
+       [
+        -8.772,
+        42.211
+       ],
+       [
+        -8.729,
+        42.287
+       ],
+       [
+        -8.81,
+        42.334
+       ],
+       [
+        -8.73,
+        42.412
+       ],
+       [
+        -8.812,
+        42.47
+       ],
+       [
+        -8.8,
+        42.6
+       ],
+       [
+        -8.988,
+        42.586
+       ],
+       [
+        -9.035,
+        42.662
+       ],
+       [
+        -8.927,
+        42.799
+       ],
+       [
+        -9.127,
+        42.865
+       ],
+       [
+        -9.235,
+        42.977
+       ],
+       [
+        -9.178,
+        43.174
+       ],
+       [
+        -9.025,
+        43.239
+       ],
+       [
+        -8.666,
+        43.317
+       ],
+       [
+        -8.422,
+        43.386
+       ],
+       [
+        -8.249,
+        43.439
+       ],
+       [
+        -8.289,
+        43.54
+       ],
+       [
+        -8.137,
+        43.629
+       ],
+       [
+        -7.853,
+        43.707
+       ],
+       [
+        -7.595,
+        43.727
+       ],
+       [
+        -7.399,
+        43.696
+       ],
+       [
+        -7.061,
+        43.554
+       ],
+       [
+        -6.617,
+        43.592
+       ],
+       [
+        -6.224,
+        43.604
+       ],
+       [
+        -5.847,
+        43.645
+       ],
+       [
+        -5.316,
+        43.553
+       ],
+       [
+        -4.523,
+        43.416
+       ],
+       [
+        -4.015,
+        43.463
+       ],
+       [
+        -3.774,
+        43.478
+       ],
+       [
+        -3.524,
+        43.511
+       ],
+       [
+        -3.046,
+        43.372
+       ],
+       [
+        -2.875,
+        43.454
+       ],
+       [
+        -2.337,
+        43.328
+       ],
+       [
+        -1.991,
+        43.345
+       ],
+       [
+        -1.794,
+        43.407
+       ]
+      ]
+     ],
+     "color": "#b3261e",
+     "at": 0.6,
+     "dur": 1.6,
+     "label": "Kingdom of Spain, a democracy",
+     "labelPos": [
+      -3.6,
+      40.0
+     ]
+    },
+    {
+     "kind": "label",
+     "text": "joins the European Community, 1986",
+     "pos": [
+      0.5,
+      0.2
+     ],
+     "at": 2.4,
+     "size": 48,
+     "color": "#1f4e8c",
+     "cps": 22
+    },
+    {
+     "kind": "label",
+     "text": "borders approx.",
+     "pos": [
+      0.8,
+      0.66
+     ],
+     "at": 3.0,
+     "size": 34
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "globe",
+   "text": "How did a dictator's chosen heir give Spain democracy?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "By doing the opposite of what the dictator expected. His name was Juan Carlos."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "What was Spain like under Franco?",
+   "scene": "start",
+   "date": "1939",
+   "place": "Spain"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "After 1939, Franco ruled alone: prisons, censorship, hunger. Europe shut Spain out."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "The Cold War rescued him. In 1953, American bases came to Spain, and later American presidents came to Madrid.",
+   "scene": "nixon",
+   "date": "1953",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.5,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In the sixties, tourists and factories made Spain boom. But there were still no free elections.",
+   "scene": "parade",
+   "date": "1960s",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.5,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Who was supposed to come next?",
+   "scene": "heir",
+   "date": "22 July 1969",
+   "move": {
+    "from": [
+     0.5,
+     0.45,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.4,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In 1969 Franco named his heir: young Prince Juan Carlos. Everyone expected more of the same."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In 1973, an ETA bomb killed Franco's prime minister. It threw his car over a five-storey building.",
+   "scene": "carrero",
+   "date": "20 December 1973",
+   "place": "Madrid",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.45,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And when Franco died?",
+   "scene": "king",
+   "date": "22 November 1975",
+   "move": {
+    "from": [
+     0.5,
+     0.45,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.4,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "He died in November 1975. Two days later, Juan Carlos became king."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "He picked Adolfo Suárez, a man of the old regime, to take it apart. In 1977, Spain voted freely for the first time in forty-one years.",
+   "scene": "suarez",
+   "date": "15 June 1977",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.5,
+     1.25
+    ]
+   },
+   "say": "He picked Adolfo Suarez, a man of the old regime, to take it apart. In 1977, Spain voted freely for the first time in forty-one years."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "A year later, Spaniards approved a democratic constitution.",
+   "scene": "votes",
+   "date": "6 December 1978"
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Did everyone accept it?",
+   "scene": "cortes",
+   "date": "23 February 1981",
+   "place": "Madrid",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.5,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Not everyone. In 1981, a Civil Guard colonel stormed parliament with armed men and held the deputies hostage."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "That night the king, in uniform, went on TV and ordered the army to stand by democracy. By the next day, the coup had collapsed.",
+   "scene": "jc",
+   "date": "",
+   "move": {
+    "from": [
+     0.5,
+     0.4,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.33,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And Spain after that?",
+   "scene": "end",
+   "date": "1986",
+   "place": "Europe"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "A democracy, and in 1986 a member of the European Community. The heir the dictator chose had saved the democracy."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "That's the story of Spain. Like the video and follow History Sketches."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Which episode was your favourite? Tell us in the comments!"
+  },
+  {
+   "type": "end",
+   "text": "Thanks for watching!",
+   "sub": "Like · Follow · Comment"
+  }
+ ],
+ "clips": {
+  "globe": "sketch/globe_in.mp4"
+ }
 }

@@ -13,3 +13,7 @@ Rows shared with the original episode come from `../02-charles-v/RESEARCH.md`.
 | Comuneros crushed at Villalar, leaders beheaded | 23–24 Apr 1521 ✓ | Britannica "Comuneros revolt" |
 | Same month: Luther at Worms refused to recant | 17–18 Apr 1521 ✓ | Britannica "Diet of Worms" |
 | Across the ocean, a few hundred Spaniards about to bring down an empire | Cortés's force of a few hundred (plus many indigenous allies) ✓ | Britannica "Hernán Cortés" |
+
+## Dialogue remake (2026-11-16)
+- Ghent is in today's Belgium (✓).
+- Maps: Charles's inheritance 1516 (Spain, the Burgundian Netherlands and Franche-Comté, Naples, Sicily, Sardinia, the Americas) and 1519 (+ Austrian hereditary lands, Holy Roman Emperor) (✓ Wikipedia "Charles V, Holy Roman Emperor"; Britannica "Charles V"). Austria passed to his brother Ferdinand in 1521–22; shown at 1519. Borders approx.

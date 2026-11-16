@@ -18,3 +18,7 @@
 - The legend that Philip IV painted the cross himself (unverified).
 - List of Philip IV's bankruptcy years (only 1627 confirmed in two sources here).
 - Mirror interpretation debates (script says "as if they stood where you are").
+
+## Dialogue remake (2026-11-16)
+- No filler words (questioner line "Was he really a knight?").
+- Maps 1623 (Spain, Portugal, Italy, southern Netherlands, Franche-Comté, the Americas) and 1660 (Portugal independent since 1640, recognised 1668; Roussillon to France by the Treaty of the Pyrenees, 1659) (✓ Wikipedia "Treaty of the Pyrenees"; Britannica "Portuguese Restoration War"). Borders approx.

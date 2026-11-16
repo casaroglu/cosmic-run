@@ -19,3 +19,8 @@
 
 ## Image note
 No public-domain photo of the 23-F assault exists (the famous Tejero photo is copyrighted); the Congress building is shown instead.
+
+## Dialogue remake (2026-11-16)
+- Spain joined the European Communities on 1 January 1986 (✓ Wikipedia "Spain in the European Union"; Britannica "Spain: Democratic Spain").
+- Nixon in Madrid 1970 (the 1953 Pact of Madrid brought US bases; "later American presidents came": Eisenhower 1959, Nixon 1970) (✓ Wikipedia "Pact of Madrid").
+- Last episode of the series: spoken call to action only, no teaser for another series.
