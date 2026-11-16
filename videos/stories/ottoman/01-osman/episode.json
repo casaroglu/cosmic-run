@@ -80,8 +80,8 @@
      "kind": "label",
      "text": "TÜRKİYE",
      "pos": [
-      35.8,
-      38.7
+      36.6,
+      38.3
      ],
      "at": 1.2,
      "size": 64
@@ -188,10 +188,10 @@
      "text": "BYZANTINE EMPIRE",
      "pos": [
       27.6,
-      40.75
+      40.6
      ],
      "at": 2.0,
-     "size": 52,
+     "size": 44,
      "color": "#1f4e8c",
      "rot": -0.15
     },
@@ -247,8 +247,8 @@
      "at": 10.6,
      "label": "Osman's land",
      "labelPos": [
-      31.15,
-      40.15
+      30.6,
+      39.72
      ]
     }
    ]

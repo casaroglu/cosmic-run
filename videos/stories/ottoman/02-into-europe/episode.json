@@ -314,9 +314,9 @@
       42.68
      ],
      "label": "Kosovo field",
-     "lx": -20,
+     "lx": 15,
      "ly": -45,
-     "lalign": "right",
+     "lalign": "left",
      "at": 7.6
     },
     {
@@ -471,9 +471,9 @@
       41.01
      ],
      "label": "Constantinople",
-     "lx": -20,
+     "lx": 20,
      "ly": -45,
-     "lalign": "right",
+     "lalign": "left",
      "at": 1.6,
      "color": "#1f4e8c"
     },

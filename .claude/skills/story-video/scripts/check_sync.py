@@ -39,7 +39,9 @@ for b in tl["beats"]:
     errs = []
     for op, i1, i2, j1, j2 in difflib.SequenceMatcher(None, A, B, autojunk=False).get_opcodes():
         if op == "equal":
-            errs += [(words[i1 + k]["w"], words[i1 + k]["t0"] - heard[j1 + k][1]) for k in range(i2 - i1)]
+            # the recogniser's timestamp for the last word of a clip is unreliable: skip it
+            errs += [(words[i1 + k]["w"], words[i1 + k]["t0"] - heard[j1 + k][1]) for k in range(i2 - i1)
+                     if i1 + k < len(words) - 1]
     if not errs:
         rows.append((9.9, b["start"], b["text"][:50], "not recognised"))
         continue
