@@ -515,3 +515,6 @@ Narration: synthetic voice (Kokoro TTS). Dates checked against at least two sour
 
 #history #spain #franco #juancarlos #23F #historytok #shorts
 ```
+
+---
+**2026-11-16:** all scheduled Spain Shorts (00b–02a) were set to **Private** at the user's request (not deleted; they can be rescheduled). The day-2/day-3 upload tasks are disabled. Only 00a Altamira stays public.

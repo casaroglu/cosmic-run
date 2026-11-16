@@ -10,3 +10,6 @@ Files under 10 MB: `videos/out/headlines/_ig/`, `videos/out/spain/_yt/`.
 | Date | Video | Link |
 |---|---|---|
 | 2026-11-16 | hormuz-01a | https://www.instagram.com/p/Dfx0oWts9lK/ |
+| 2026-11-16 | hormuz-01b | https://www.instagram.com/historysketches/reel/DfyzFCRMPVy/ |
+
+**2026-11-16:** schedule stopped at the user's request. The daily task is disabled; the Spain entries in the queue are `paused`. For now only the Hormuz series is posted.
