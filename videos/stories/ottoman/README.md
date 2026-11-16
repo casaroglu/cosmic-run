@@ -10,7 +10,7 @@ fleets), public-domain paintings and miniatures, globe flights. Two parts where 
 | 03 | Ankara 1402: Timur captures Bayezid | The sultan who was taken prisoner | rendered |
 | 04a | 1453, Part 1: the walls of Constantinople | A thousand-year wall vs. the biggest cannon in the world | rendered |
 | 04b | 1453, Part 2: ships over the hill | He moved a fleet over land | rendered |
-| 05 | Selim I: Chaldiran 1514, Cairo 1517 | Eight years that doubled an empire | planned |
+| 05 | Selim I: Chaldiran 1514, Cairo 1517 | Seventy percent bigger in eight years | rendered |
 | 06a | Suleiman, Part 1: Mohács 1526, Vienna 1529 | Europe's most feared ruler at 26 | planned |
 | 06b | Suleiman, Part 2: the lawgiver and Hürrem | Why Turks call him "the Lawgiver" | planned |
 | 07 | Barbarossa and Preveza 1538 | A pirate became the sultan's admiral | planned |

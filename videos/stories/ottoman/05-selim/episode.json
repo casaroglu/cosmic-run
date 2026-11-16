@@ -1,0 +1,1789 @@
+{
+ "series": "The Ottoman Empire",
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
+  },
+  "a": {
+   "name": "Theo",
+   "color": "#E8B44A"
+  }
+ },
+ "accent": "#E8B44A",
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "scene_pad": 0.5,
+ "fade": 1.1,
+ "episode": 5,
+ "title": "How did one sultan grow the empire by seventy percent in eight years?",
+ "highlight": [
+  "seventy",
+  "percent",
+  "eight",
+  "years?"
+ ],
+ "music": {
+  "mood": "epic",
+  "seed": 56,
+  "drums": true,
+  "level": 0.3
+ },
+ "post": {
+  "caption": "The Ottoman Empire, episode 5: Selim the Grim, Chaldiran (1514), Marj Dabiq (1516) and the conquest of Egypt (1517). Images: public domain. Map data: Natural Earth. Borders approx.",
+  "hashtags": [
+   "history",
+   "ottoman",
+   "selim",
+   "safavid",
+   "mamluk",
+   "egypt",
+   "shorts"
+  ]
+ },
+ "clips": {
+  "globe": "sketch/globe_in.mp4"
+ },
+ "images": {
+  "selim": {
+   "file": "img/selim1524.jpg",
+   "credit": "Sultan Selim I, Ottoman miniature (1524)",
+   "where": "Public domain"
+  },
+  "selimlate": {
+   "file": "img/selim1579.jpg",
+   "credit": "Sultan Selim I, Ottoman portrait (1579)",
+   "where": "Public domain"
+  },
+  "ismail": {
+   "file": "img/ismail.jpg",
+   "credit": "Cristofano dell'Altissimo, Shah Ismail I (1552–68)",
+   "where": "Uffizi, Florence"
+  },
+  "chaldiran": {
+   "file": "img/chaldiran2.jpg",
+   "credit": "The Battle of Chaldiran, Ottoman manuscript (16th c.)",
+   "where": "Public domain"
+  },
+  "chaldiranp": {
+   "file": "img/chaldiran.jpg",
+   "credit": "Shah Ismail at Chaldiran, Chehel Sotoun, Isfahan (mural)",
+   "where": "Public domain"
+  },
+  "marj": {
+   "file": "img/marj.jpg",
+   "credit": "Selimname (1524): the Battle of Marj Dabiq",
+   "where": "National Library of Israel"
+  },
+  "cairo": {
+   "file": "img/cairo.jpg",
+   "credit": "David Roberts, A View in Cairo (1840)",
+   "where": "Public domain"
+  }
+ },
+ "sketches": {
+  "start": {
+   "coast": "sketch/mideast.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 2.0
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        19.3,
+        39.6
+       ],
+       [
+        19.4,
+        41.0
+       ],
+       [
+        19.3,
+        41.9
+       ],
+       [
+        18.5,
+        42.5
+       ],
+       [
+        17.6,
+        43.0
+       ],
+       [
+        16.6,
+        43.9
+       ],
+       [
+        17.5,
+        44.6
+       ],
+       [
+        19.0,
+        44.85
+       ],
+       [
+        20.4,
+        44.75
+       ],
+       [
+        21.5,
+        44.6
+       ],
+       [
+        22.6,
+        44.55
+       ],
+       [
+        23.0,
+        44.0
+       ],
+       [
+        24.0,
+        43.7
+       ],
+       [
+        25.5,
+        43.65
+       ],
+       [
+        27.0,
+        44.1
+       ],
+       [
+        28.0,
+        44.2
+       ],
+       [
+        28.8,
+        45.2
+       ],
+       [
+        29.8,
+        45.3
+       ],
+       [
+        30.5,
+        45.0
+       ],
+       [
+        29.5,
+        43.5
+       ],
+       [
+        28.5,
+        42.0
+       ],
+       [
+        28.3,
+        41.4
+       ],
+       [
+        29.2,
+        41.25
+       ],
+       [
+        29.2,
+        40.9
+       ],
+       [
+        28.5,
+        40.4
+       ],
+       [
+        26.6,
+        40.0
+       ],
+       [
+        26.0,
+        40.0
+       ],
+       [
+        25.0,
+        39.0
+       ],
+       [
+        24.5,
+        37.5
+       ],
+       [
+        23.5,
+        36.0
+       ],
+       [
+        21.5,
+        36.4
+       ],
+       [
+        20.5,
+        37.8
+       ]
+      ],
+      [
+       [
+        26.1,
+        40.0
+       ],
+       [
+        29.2,
+        40.9
+       ],
+       [
+        29.2,
+        41.3
+       ],
+       [
+        33.0,
+        42.2
+       ],
+       [
+        36.0,
+        41.9
+       ],
+       [
+        39.0,
+        41.2
+       ],
+       [
+        41.6,
+        41.6
+       ],
+       [
+        41.6,
+        40.6
+       ],
+       [
+        40.0,
+        40.2
+       ],
+       [
+        39.4,
+        39.5
+       ],
+       [
+        38.0,
+        39.3
+       ],
+       [
+        37.0,
+        39.0
+       ],
+       [
+        36.2,
+        38.6
+       ],
+       [
+        35.6,
+        38.0
+       ],
+       [
+        35.0,
+        37.4
+       ],
+       [
+        34.4,
+        36.7
+       ],
+       [
+        33.5,
+        36.1
+       ],
+       [
+        32.0,
+        36.4
+       ],
+       [
+        30.6,
+        36.8
+       ],
+       [
+        29.5,
+        36.2
+       ],
+       [
+        28.0,
+        36.6
+       ],
+       [
+        27.0,
+        37.3
+       ],
+       [
+        26.2,
+        38.4
+       ],
+       [
+        26.5,
+        39.4
+       ]
+      ]
+     ],
+     "at": 0.8,
+     "dur": 2.2,
+     "label": "Ottoman, 1512",
+     "labelPos": [
+      31.5,
+      39.3
+     ]
+    },
+    {
+     "kind": "label",
+     "text": "SAFAVIDS",
+     "pos": [
+      42.3,
+      35.8
+     ],
+     "at": 2.6,
+     "size": 46,
+     "color": "#2f6b3a"
+    },
+    {
+     "kind": "label",
+     "text": "MAMLUKS",
+     "pos": [
+      31.0,
+      27.0
+     ],
+     "at": 3.0,
+     "size": 50,
+     "color": "#c77700"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      28.98,
+      41.01
+     ],
+     "label": "Istanbul",
+     "lx": -20,
+     "ly": -40,
+     "at": 2.0,
+     "lalign": "right"
+    },
+    {
+     "kind": "label",
+     "text": "borders approx.",
+     "pos": [
+      0.8,
+      0.655
+     ],
+     "at": 3.0,
+     "size": 34
+    }
+   ],
+   "rect": [
+    20,
+    300,
+    1040,
+    980
+   ]
+  },
+  "chaldiranmap": {
+   "coast": "sketch/anatolia.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.4
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       29.0,
+       40.9
+      ],
+      [
+       33.0,
+       40.2
+      ],
+      [
+       37.0,
+       39.8
+      ],
+      [
+       40.5,
+       39.6
+      ],
+      [
+       43.6,
+       39.2
+      ]
+     ],
+     "at": 0.8,
+     "dur": 2.4,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      44.0,
+      39.1
+     ],
+     "label": "Chaldiran",
+     "lx": -20,
+     "ly": 55,
+     "at": 2.8,
+     "lalign": "right"
+    },
+    {
+     "kind": "text",
+     "text": "August 1514",
+     "pos": [
+      0.5,
+      0.22
+     ],
+     "at": 2.0,
+     "size": 64,
+     "color": "#b3261e",
+     "cps": 20
+    },
+    {
+     "kind": "label",
+     "text": "Selim",
+     "pos": [
+      31.0,
+      39.5
+     ],
+     "at": 1.4,
+     "size": 50,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "Ismail",
+     "pos": [
+      41.6,
+      40.9
+     ],
+     "at": 3.2,
+     "size": 50,
+     "color": "#2f6b3a"
+    }
+   ]
+  },
+  "guns": {
+   "items": [
+    {
+     "kind": "text",
+     "text": "Cannons at Chaldiran",
+     "pos": [
+      0.5,
+      0.22
+     ],
+     "at": 0.1,
+     "size": 64,
+     "color": "#2a2119"
+    },
+    {
+     "kind": "text",
+     "text": "Ottomans: 100–200",
+     "pos": [
+      0.5,
+      0.38
+     ],
+     "at": 0.6,
+     "size": 84,
+     "color": "#b3261e",
+     "cps": 24
+    },
+    {
+     "kind": "text",
+     "text": "Safavids: 0",
+     "pos": [
+      0.5,
+      0.52
+     ],
+     "at": 1.6,
+     "size": 84,
+     "color": "#2f6b3a",
+     "cps": 24
+    },
+    {
+     "kind": "text",
+     "text": "(estimates)",
+     "pos": [
+      0.5,
+      0.62
+     ],
+     "at": 2.2,
+     "size": 40
+    }
+   ]
+  },
+  "mamlukmap": {
+   "coast": "sketch/mideast.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        19.3,
+        39.6
+       ],
+       [
+        19.4,
+        41.0
+       ],
+       [
+        19.3,
+        41.9
+       ],
+       [
+        18.5,
+        42.5
+       ],
+       [
+        17.6,
+        43.0
+       ],
+       [
+        16.6,
+        43.9
+       ],
+       [
+        17.5,
+        44.6
+       ],
+       [
+        19.0,
+        44.85
+       ],
+       [
+        20.4,
+        44.75
+       ],
+       [
+        21.5,
+        44.6
+       ],
+       [
+        22.6,
+        44.55
+       ],
+       [
+        23.0,
+        44.0
+       ],
+       [
+        24.0,
+        43.7
+       ],
+       [
+        25.5,
+        43.65
+       ],
+       [
+        27.0,
+        44.1
+       ],
+       [
+        28.0,
+        44.2
+       ],
+       [
+        28.8,
+        45.2
+       ],
+       [
+        29.8,
+        45.3
+       ],
+       [
+        30.5,
+        45.0
+       ],
+       [
+        29.5,
+        43.5
+       ],
+       [
+        28.5,
+        42.0
+       ],
+       [
+        28.3,
+        41.4
+       ],
+       [
+        29.2,
+        41.25
+       ],
+       [
+        29.2,
+        40.9
+       ],
+       [
+        28.5,
+        40.4
+       ],
+       [
+        26.6,
+        40.0
+       ],
+       [
+        26.0,
+        40.0
+       ],
+       [
+        25.0,
+        39.0
+       ],
+       [
+        24.5,
+        37.5
+       ],
+       [
+        23.5,
+        36.0
+       ],
+       [
+        21.5,
+        36.4
+       ],
+       [
+        20.5,
+        37.8
+       ]
+      ],
+      [
+       [
+        26.1,
+        40.0
+       ],
+       [
+        29.2,
+        40.9
+       ],
+       [
+        29.2,
+        41.3
+       ],
+       [
+        33.0,
+        42.2
+       ],
+       [
+        36.0,
+        41.9
+       ],
+       [
+        39.0,
+        41.2
+       ],
+       [
+        41.6,
+        41.6
+       ],
+       [
+        41.6,
+        40.6
+       ],
+       [
+        40.0,
+        40.2
+       ],
+       [
+        39.4,
+        39.5
+       ],
+       [
+        38.0,
+        39.3
+       ],
+       [
+        37.0,
+        39.0
+       ],
+       [
+        36.2,
+        38.6
+       ],
+       [
+        35.6,
+        38.0
+       ],
+       [
+        35.0,
+        37.4
+       ],
+       [
+        34.4,
+        36.7
+       ],
+       [
+        33.5,
+        36.1
+       ],
+       [
+        32.0,
+        36.4
+       ],
+       [
+        30.6,
+        36.8
+       ],
+       [
+        29.5,
+        36.2
+       ],
+       [
+        28.0,
+        36.6
+       ],
+       [
+        27.0,
+        37.3
+       ],
+       [
+        26.2,
+        38.4
+       ],
+       [
+        26.5,
+        39.4
+       ]
+      ]
+     ],
+     "style": "faint",
+     "at": 0.2,
+     "dur": 0.6
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       29.0,
+       40.8
+      ],
+      [
+       33.0,
+       39.5
+      ],
+      [
+       36.0,
+       37.6
+      ],
+      [
+       37.2,
+       36.55
+      ]
+     ],
+     "at": 0.8,
+     "dur": 2.0,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      37.2,
+      36.55
+     ],
+     "label": "Marj Dabiq, 1516",
+     "lx": -20,
+     "ly": -40,
+     "at": 2.6,
+     "lalign": "right"
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       37.0,
+       36.3
+      ],
+      [
+       36.3,
+       34.0
+      ],
+      [
+       35.2,
+       32.0
+      ],
+      [
+       33.5,
+       30.9
+      ],
+      [
+       31.4,
+       30.1
+      ]
+     ],
+     "at": 5.0,
+     "dur": 2.4,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      31.24,
+      30.04
+     ],
+     "label": "Cairo, 1517",
+     "lx": -20,
+     "ly": 50,
+     "at": 7.2,
+     "lalign": "right"
+    }
+   ],
+   "rect": [
+    20,
+    300,
+    1040,
+    980
+   ]
+  },
+  "end": {
+   "coast": "sketch/mideast.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        19.3,
+        39.6
+       ],
+       [
+        19.4,
+        41.0
+       ],
+       [
+        19.3,
+        41.9
+       ],
+       [
+        18.5,
+        42.5
+       ],
+       [
+        17.6,
+        43.0
+       ],
+       [
+        16.6,
+        43.9
+       ],
+       [
+        17.5,
+        44.6
+       ],
+       [
+        19.0,
+        44.85
+       ],
+       [
+        20.4,
+        44.75
+       ],
+       [
+        21.5,
+        44.6
+       ],
+       [
+        22.6,
+        44.55
+       ],
+       [
+        23.0,
+        44.0
+       ],
+       [
+        24.0,
+        43.7
+       ],
+       [
+        25.5,
+        43.65
+       ],
+       [
+        27.0,
+        44.1
+       ],
+       [
+        28.0,
+        44.2
+       ],
+       [
+        28.8,
+        45.2
+       ],
+       [
+        29.8,
+        45.3
+       ],
+       [
+        30.5,
+        45.0
+       ],
+       [
+        29.5,
+        43.5
+       ],
+       [
+        28.5,
+        42.0
+       ],
+       [
+        28.3,
+        41.4
+       ],
+       [
+        29.2,
+        41.25
+       ],
+       [
+        29.2,
+        40.9
+       ],
+       [
+        28.5,
+        40.4
+       ],
+       [
+        26.6,
+        40.0
+       ],
+       [
+        26.0,
+        40.0
+       ],
+       [
+        25.0,
+        39.0
+       ],
+       [
+        24.5,
+        37.5
+       ],
+       [
+        23.5,
+        36.0
+       ],
+       [
+        21.5,
+        36.4
+       ],
+       [
+        20.5,
+        37.8
+       ]
+      ],
+      [
+       [
+        26.1,
+        40.0
+       ],
+       [
+        29.2,
+        40.9
+       ],
+       [
+        29.2,
+        41.3
+       ],
+       [
+        33.0,
+        42.2
+       ],
+       [
+        36.0,
+        41.9
+       ],
+       [
+        39.0,
+        41.2
+       ],
+       [
+        41.6,
+        41.6
+       ],
+       [
+        41.6,
+        40.6
+       ],
+       [
+        40.0,
+        40.2
+       ],
+       [
+        39.4,
+        39.5
+       ],
+       [
+        38.0,
+        39.3
+       ],
+       [
+        37.0,
+        39.0
+       ],
+       [
+        36.2,
+        38.6
+       ],
+       [
+        35.6,
+        38.0
+       ],
+       [
+        35.0,
+        37.4
+       ],
+       [
+        34.4,
+        36.7
+       ],
+       [
+        33.5,
+        36.1
+       ],
+       [
+        32.0,
+        36.4
+       ],
+       [
+        30.6,
+        36.8
+       ],
+       [
+        29.5,
+        36.2
+       ],
+       [
+        28.0,
+        36.6
+       ],
+       [
+        27.0,
+        37.3
+       ],
+       [
+        26.2,
+        38.4
+       ],
+       [
+        26.5,
+        39.4
+       ]
+      ]
+     ],
+     "style": "faint",
+     "at": 0.2,
+     "dur": 0.8
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        19.3,
+        39.6
+       ],
+       [
+        19.4,
+        41.0
+       ],
+       [
+        19.3,
+        41.9
+       ],
+       [
+        18.5,
+        42.5
+       ],
+       [
+        17.6,
+        43.0
+       ],
+       [
+        16.6,
+        43.9
+       ],
+       [
+        17.5,
+        44.6
+       ],
+       [
+        19.0,
+        44.85
+       ],
+       [
+        20.4,
+        44.75
+       ],
+       [
+        21.5,
+        44.6
+       ],
+       [
+        22.6,
+        44.55
+       ],
+       [
+        23.0,
+        44.0
+       ],
+       [
+        24.0,
+        43.7
+       ],
+       [
+        25.5,
+        43.65
+       ],
+       [
+        27.0,
+        44.1
+       ],
+       [
+        28.0,
+        44.2
+       ],
+       [
+        28.8,
+        45.2
+       ],
+       [
+        29.8,
+        45.3
+       ],
+       [
+        30.5,
+        45.0
+       ],
+       [
+        29.5,
+        43.5
+       ],
+       [
+        28.5,
+        42.0
+       ],
+       [
+        28.3,
+        41.4
+       ],
+       [
+        29.2,
+        41.25
+       ],
+       [
+        29.2,
+        40.9
+       ],
+       [
+        28.5,
+        40.4
+       ],
+       [
+        26.6,
+        40.0
+       ],
+       [
+        26.0,
+        40.0
+       ],
+       [
+        25.0,
+        39.0
+       ],
+       [
+        24.5,
+        37.5
+       ],
+       [
+        23.5,
+        36.0
+       ],
+       [
+        21.5,
+        36.4
+       ],
+       [
+        20.5,
+        37.8
+       ]
+      ],
+      [
+       [
+        26.1,
+        40.0
+       ],
+       [
+        29.2,
+        40.9
+       ],
+       [
+        29.2,
+        41.3
+       ],
+       [
+        33.0,
+        42.2
+       ],
+       [
+        36.0,
+        41.9
+       ],
+       [
+        39.0,
+        41.2
+       ],
+       [
+        41.6,
+        41.6
+       ],
+       [
+        41.6,
+        40.6
+       ],
+       [
+        40.0,
+        40.2
+       ],
+       [
+        39.4,
+        39.5
+       ],
+       [
+        38.0,
+        39.3
+       ],
+       [
+        37.0,
+        39.0
+       ],
+       [
+        36.2,
+        38.6
+       ],
+       [
+        35.6,
+        38.0
+       ],
+       [
+        35.0,
+        37.4
+       ],
+       [
+        34.4,
+        36.7
+       ],
+       [
+        33.5,
+        36.1
+       ],
+       [
+        32.0,
+        36.4
+       ],
+       [
+        30.6,
+        36.8
+       ],
+       [
+        29.5,
+        36.2
+       ],
+       [
+        28.0,
+        36.6
+       ],
+       [
+        27.0,
+        37.3
+       ],
+       [
+        26.2,
+        38.4
+       ],
+       [
+        26.5,
+        39.4
+       ]
+      ],
+      [
+       [
+        35.0,
+        37.4
+       ],
+       [
+        35.6,
+        38.0
+       ],
+       [
+        36.2,
+        38.6
+       ],
+       [
+        37.0,
+        39.0
+       ],
+       [
+        38.0,
+        39.3
+       ],
+       [
+        39.4,
+        39.6
+       ],
+       [
+        40.2,
+        40.2
+       ],
+       [
+        40.8,
+        40.0
+       ],
+       [
+        41.2,
+        39.0
+       ],
+       [
+        42.2,
+        38.4
+       ],
+       [
+        42.6,
+        37.6
+       ],
+       [
+        42.0,
+        37.0
+       ],
+       [
+        41.0,
+        36.6
+       ],
+       [
+        40.3,
+        35.4
+       ],
+       [
+        38.7,
+        33.6
+       ],
+       [
+        37.3,
+        31.6
+       ],
+       [
+        36.2,
+        29.8
+       ],
+       [
+        37.2,
+        27.6
+       ],
+       [
+        38.8,
+        24.5
+       ],
+       [
+        40.2,
+        21.8
+       ],
+       [
+        40.7,
+        20.5
+       ],
+       [
+        39.9,
+        20.0
+       ],
+       [
+        38.9,
+        21.6
+       ],
+       [
+        37.6,
+        24.3
+       ],
+       [
+        36.0,
+        26.8
+       ],
+       [
+        35.0,
+        28.2
+       ],
+       [
+        33.6,
+        27.5
+       ],
+       [
+        35.5,
+        24.0
+       ],
+       [
+        32.6,
+        24.0
+       ],
+       [
+        31.0,
+        26.5
+       ],
+       [
+        29.5,
+        28.5
+       ],
+       [
+        28.0,
+        29.5
+       ],
+       [
+        25.2,
+        30.5
+       ],
+       [
+        25.0,
+        31.7
+       ],
+       [
+        29.0,
+        31.4
+       ],
+       [
+        32.0,
+        31.6
+       ],
+       [
+        34.2,
+        31.8
+       ],
+       [
+        35.0,
+        33.2
+       ],
+       [
+        35.8,
+        35.2
+       ],
+       [
+        36.0,
+        36.6
+       ],
+       [
+        35.6,
+        36.8
+       ]
+      ]
+     ],
+     "at": 1.0,
+     "dur": 2.6,
+     "label": "Ottoman, 1520",
+     "labelPos": [
+      37.5,
+      33.2
+     ]
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      39.83,
+      21.42
+     ],
+     "label": "Mecca",
+     "lx": -20,
+     "ly": -40,
+     "at": 3.0,
+     "lalign": "right"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      31.24,
+      30.04
+     ],
+     "label": "Cairo",
+     "lx": -20,
+     "ly": -40,
+     "at": 3.2,
+     "lalign": "right"
+    },
+    {
+     "kind": "text",
+     "text": "+70% in eight years",
+     "pos": [
+      0.5,
+      0.2
+     ],
+     "at": 3.6,
+     "size": 64,
+     "color": "#b3261e",
+     "cps": 20
+    },
+    {
+     "kind": "label",
+     "text": "borders approx.",
+     "pos": [
+      0.8,
+      0.655
+     ],
+     "at": 3.0,
+     "size": 34
+    }
+   ],
+   "rect": [
+    20,
+    300,
+    1040,
+    980
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "globe",
+   "text": "How did one sultan grow the empire by seventy percent in eight years?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Selim the First did it. He took eastern Anatolia, Syria, Egypt, and the holy cities of Arabia."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "How big was the empire when he took over?",
+   "scene": "start",
+   "date": "1512",
+   "place": "Ottoman lands"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "It held the Balkans and most of Anatolia. To the east was a new power in Iran: the Safavids. To the south, the Mamluks of Egypt."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In 1512, Selim pushed his own father off the throne. The Turks call him Yavuz: the stern one.",
+   "scene": "selim",
+   "date": "1512",
+   "place": "Istanbul",
+   "move": {
+    "from": [
+     0.5,
+     0.45,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.38,
+     1.3
+    ]
+   },
+   "say": "In 1512, Selim pushed his own father off the throne. The Turks call him Yavooz: the stern one."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Who were the Safavids?",
+   "scene": "ismail",
+   "date": "",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.42,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "A new dynasty led by Shah Ismail. Many Turkmen in eastern Anatolia followed him, and Selim saw that as a threat."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In August 1514, the two armies met at Chaldiran, in today's northwest Iran.",
+   "scene": "chaldiranmap",
+   "date": "August 1514",
+   "place": "Chaldiran"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "The Ottomans had cannons and muskets behind a wall of carts. The Safavids had no cannons at all.",
+   "scene": "guns"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Ismail was wounded and barely escaped.",
+   "scene": "chaldiranp",
+   "move": {
+    "from": [
+     0.5,
+     0.4,
+     1.0
+    ],
+    "to": [
+     0.45,
+     0.35,
+     1.3
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Did Selim keep Iran?",
+   "scene": "chaldiran",
+   "move": {
+    "from": [
+     0.5,
+     0.6,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.45,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Not exactly. He took the Safavid capital, Tabriz, but his soldiers would not stay, so he pulled back. He kept eastern Anatolia instead."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And after that?",
+   "scene": "mamlukmap",
+   "date": "1516",
+   "place": "Syria"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "He turned south, against the Mamluks. In August 1516, at Marj Dabiq near Aleppo, the Mamluk sultan died on the battlefield."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Five months later, Selim defeated the last Mamluk sultan outside Cairo, and took the city."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Cairo had been the Mamluk capital for over two hundred and fifty years.",
+   "scene": "cairo",
+   "date": "1517",
+   "place": "Cairo",
+   "move": {
+    "from": [
+     0.5,
+     0.6,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.4,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And Mecca?",
+   "scene": "marj",
+   "date": "",
+   "move": {
+    "from": [
+     0.5,
+     0.4,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.6,
+     1.2
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "The ruler of Mecca accepted Ottoman rule. Selim took the title Servant of the Two Holy Cities."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So how much bigger was the empire?",
+   "scene": "end",
+   "date": "1520",
+   "place": "Ottoman lands"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "About seventy percent bigger, in just eight years. Selim died in 1520."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Next time: his son, Suleiman the Magnificent. Like the video and follow History Sketches.",
+   "scene": "selimlate",
+   "date": "",
+   "move": {
+    "from": [
+     0.5,
+     0.45,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.4,
+     1.2
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And tell us in the comments what you think!"
+  },
+  {
+   "type": "end",
+   "text": "Next: Suleiman the Magnificent",
+   "sub": "Follow History Sketches"
+  }
+ ]
+}
