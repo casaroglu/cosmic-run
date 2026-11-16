@@ -16,9 +16,13 @@ ap.add_argument("src"); ap.add_argument("out")
 ap.add_argument("--accent", default="red")
 ap.add_argument("--tones", type=int, default=3)
 ap.add_argument("--size", type=int, default=1024, help="working height in px")
+ap.add_argument("--sat", type=float, default=0.55, help="min saturation for the accent colour (keeps skin out)")
+ap.add_argument("--smooth", type=int, default=15, help="median filter size for flat tones")
+ap.add_argument("--lines", type=float, default=0.32, help="line threshold: higher = only strong lines")
+ap.add_argument("--model", default="isnet-general-use", help="rembg model")
 a = ap.parse_args()
 
-HUES = {"red": [(0, 18), (335, 360)], "green": [(80, 170)], "gold": [(30, 55)], "blue": [(190, 250)]}
+HUES = {"red": [(0, 12), (345, 360)], "green": [(80, 170)], "gold": [(30, 55)], "blue": [(190, 250)]}
 FLAT = {"red": (190, 45, 40), "green": (52, 120, 72), "gold": (214, 168, 60), "blue": (40, 80, 150)}
 
 im = Image.open(a.src).convert("RGB")
@@ -26,7 +30,8 @@ im = im.resize((round(im.width * a.size / im.height), a.size), Image.LANCZOS)
 
 # 1. cut-out
 from rembg import remove
-cut = remove(im)                      # RGBA
+from rembg import new_session
+cut = remove(im, session=new_session(a.model))   # RGBA
 alpha = np.asarray(cut)[..., 3].astype(np.float32) / 255
 alpha = (alpha > 0.5).astype(np.float32)
 
@@ -35,13 +40,13 @@ from controlnet_aux import LineartDetector
 det = LineartDetector.from_pretrained("lllyasviel/Annotators")
 lines = det(im, coarse=False, detect_resolution=a.size, image_resolution=a.size)   # white lines on black
 lines = np.asarray(lines.convert("L").resize(im.size)).astype(np.float32) / 255
-lines = np.clip((lines - 0.18) / 0.5, 0, 1)                 # drop faint texture lines
-ink = 1 - lines                                             # 1 = paper, 0 = ink
+lines = np.clip((lines - a.lines) / 0.45, 0, 1)                 # drop faint texture lines
+ink = 1 - lines * alpha                                     # 1 = paper, 0 = ink (inside the figure only)
 
 # 3. flat tones from the portrait's luminance
 rgb = np.asarray(im).astype(np.float32) / 255
 lum = 0.3 * rgb[..., 0] + 0.59 * rgb[..., 1] + 0.11 * rgb[..., 2]
-lum = np.asarray(Image.fromarray((lum * 255).astype(np.uint8)).filter(ImageFilter.MedianFilter(9))).astype(np.float32) / 255
+lum = np.asarray(Image.fromarray((lum * 255).astype(np.uint8)).filter(ImageFilter.MedianFilter(a.smooth))).astype(np.float32) / 255
 lv = np.quantile(lum[alpha > 0], np.linspace(0, 1, a.tones + 1)[1:-1]) if alpha.sum() else [0.5]
 greys = np.linspace(0.62, 0.97, a.tones)                    # shadow -> highlight
 band = np.digitize(lum, lv)
@@ -54,7 +59,7 @@ if a.accent in HUES:
     m = np.zeros(h.shape, bool)
     for lo, hi in HUES[a.accent]:
         m |= (h >= lo) & (h <= hi)
-    m &= (s > 0.35) & (v > 0.18)
+    m &= (s > a.sat) & (v > 0.18)
     m = np.asarray(Image.fromarray((m * 255).astype(np.uint8)).filter(ImageFilter.MedianFilter(11)).filter(ImageFilter.MaxFilter(3))) > 127
     col = np.array(FLAT[a.accent], np.float32) / 255
     shade = np.where(band[..., None] == 0, 0.78, 1.0)       # darker accent in the shadow band
