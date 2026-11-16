@@ -8,3 +8,5 @@ Coastlines: `scripts/coast.py` from Natural Earth 10m (download into `_geo/`, se
 |---|---|---|
 | 01a | Hormuz: the gate (1272–1622) | rendered |
 | 01b | Hormuz: from spices to oil (1622–today) | rendered |
+| 02a | Suez Canal (The World's Chokepoints) | scripted |
+| 02b | Bab-el-Mandeb (The World's Chokepoints) | scripted |
