@@ -26,7 +26,8 @@ const IBERIA = { lat: 39, lon: 32, dist: 2.4 };   // home view: Anatolia
 
 const clips = [];
 const im = meta('intro');
-clips.push({ name: 'intro', kind: 'intro', duration: im.duration, meta: im, title: lf.title, from: { lat: 12, lon: -50, dist: 4.8 }, to: IBERIA, audio: 'intro.wav' });
+const ow = im.lines.flatMap(l => l.words).find(w => /^Ottoman/.test(w.w));
+clips.push({ name: 'intro', kind: 'intro', duration: im.duration, meta: im, title: lf.title, subtitle: lf.subtitle, tughraAt: ow ? ow.t0 - 2.0 : null, from: { lat: 12, lon: -50, dist: 4.8 }, to: IBERIA, audio: 'intro.wav' });
 let prev = IBERIA;
 for (const c of chapters) {
   const to = { lat: c.lat, lon: c.lon, dist: WIDE[c.out] || 1.75 };
@@ -59,7 +60,8 @@ page.on('console', m => { if (m.type() === 'error') console.error('console:', m.
 await page.goto(`http://127.0.0.1:${port}/globe/globe.html`);
 await page.waitForFunction(() => window.ready);
 const logo = 'data:image/png;base64,' + fs.readFileSync(path.join(os.homedir(), 'cosmic-run/brand/history-sketches/option_c.png')).toString('base64');
-await page.evaluate(l => window.init(l), logo);
+const tughra = 'data:image/png;base64,' + fs.readFileSync(path.join(ROOT, 'tughra.png')).toString('base64');
+await page.evaluate(([l, tg]) => window.init(l, tg), [logo, tughra]);
 
 const fixMarker = c => (c.kind === 'chapter' ? { ...c, to: { ...c.to }, markerAt: c.markerAt } : c);
 async function load(c) {

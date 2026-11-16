@@ -207,7 +207,7 @@ function fade(t, dur, fin = 0.35, fout = 0.45) {
 }
 
 // ---------- clips ----------
-let CLIP = null, TLN = null, CAM = { lat: 0, lon: 0, dist: 3 }, LOGO = null;
+let CLIP = null, TLN = null, CAM = { lat: 0, lon: 0, dist: 3 }, LOGO = null, TUGHRA = null;
 function placeCamera() {
   camera.position.copy(vec(CAM.lat, CAM.lon, CAM.dist));
   camera.up.set(0, 1, 0);
@@ -249,14 +249,36 @@ function drawAt(t) {
     vignette(); chapterText(c, t);
   } else if (c.kind === 'intro') {
     drawSpain(clamp((t - 6) / 3));
-    vignette(); captions(c.meta, t);
+    vignette();
     const k = easeOut((t - (c.duration - 4.4)) / 0.8);
+    // the sultan's tughra (seal) appears just before the narration names the empire, then moves up above the title
+    const tk = c.tughraAt != null ? easeOut((t - c.tughraAt) / 0.9) : 0;
+    if (tk > 0 && TUGHRA) {
+      g.save(); g.fillStyle = `rgba(0,0,0,${0.72 * Math.max(tk, k)})`; g.fillRect(0, 0, W, H);
+      const big = 820, small = 330, s = big + (small - big) * k, h = s * TUGHRA.height / TUGHRA.width;
+      const cy = (H / 2 - 40) + ((H / 2 - 270) - (H / 2 - 40)) * k;
+      g.globalAlpha = tk; g.shadowColor = 'rgba(255,215,140,0.35)'; g.shadowBlur = 40;
+      g.drawImage(TUGHRA, W / 2 - s / 2, cy - h / 2, s, h); g.restore();
+    }
+    if (k < 1) captions(c.meta, t);
     if (k > 0) {
-      g.save(); g.fillStyle = `rgba(0,0,0,${0.55 * k})`; g.fillRect(0, 0, W, H);
+      g.save(); if (!(tk > 0 && TUGHRA)) { g.fillStyle = `rgba(0,0,0,${0.55 * k})`; g.fillRect(0, 0, W, H); }
       g.globalAlpha = k; g.textAlign = 'center'; g.shadowColor = 'rgba(0,0,0,.9)'; g.shadowBlur = 30;
-      g.font = `800 34px ${SANS}`; g.letterSpacing = '10px'; g.fillStyle = ACC; g.fillText('HISTORY SKETCHES PRESENTS', W / 2, H / 2 - 120);
-      g.letterSpacing = '0px'; g.font = `700 120px ${SERIF}`; g.fillStyle = '#fff'; g.fillText(c.title, W / 2, H / 2 + 20);
-      g.font = `500 44px ${SANS}`; g.fillStyle = 'rgba(255,240,215,0.92)'; g.fillText('35,000 years · 23 chapters', W / 2, H / 2 + 100);
+      g.font = `800 32px ${SANS}`; g.letterSpacing = '10px'; g.fillStyle = ACC; g.fillText('HISTORY SKETCHES PRESENTS', W / 2, H / 2 - 50);
+      g.letterSpacing = '0px';
+      // fit the title: one line if it fits, otherwise two balanced lines
+      let size = 104; g.font = `700 ${size}px ${SERIF}`;
+      let lines = [c.title];
+      if (g.measureText(c.title).width > W * 0.86) {
+        const w = c.title.split(' '); let best = null;
+        for (let i = 1; i < w.length; i++) { const a = w.slice(0, i).join(' '), b = w.slice(i).join(' ');
+          const m = Math.max(g.measureText(a).width, g.measureText(b).width); if (!best || m < best[0]) best = [m, [a, b]]; }
+        lines = best[1];
+      }
+      while (Math.max(...lines.map(l => g.measureText(l).width)) > W * 0.86 && size > 50) { size -= 4; g.font = `700 ${size}px ${SERIF}`; }
+      g.fillStyle = '#fff'; lines.forEach((l, i) => g.fillText(l, W / 2, H / 2 + 50 + i * size * 1.08));
+      g.font = `500 42px ${SANS}`; g.fillStyle = 'rgba(255,240,215,0.92)';
+      g.fillText(c.subtitle || '', W / 2, H / 2 + 50 + (lines.length - 1) * size * 1.08 + 80);
       g.restore();
     }
   } else if (c.kind === 'outro') {
@@ -281,13 +303,14 @@ function frames(t0, n, fps) {
   for (let i = 0; i < n; i++) { drawAt(t0 + i / fps); res.push(out.toDataURL('image/jpeg', 0.92)); }
   return res;
 }
-async function init(logoSrc) {
+async function init(logoSrc, tughraSrc) {
   await Promise.all([`800 40px Inter`, `700 40px Inter`, `500 40px Inter`].map(f => document.fonts.load(f).catch(() => 0)));
   [land, countries] = await Promise.all(['../geo/ne_50m_land.geojson', '../geo/ne_50m_admin_0_countries.geojson'].map(u => fetch(u).then(r => r.json())));
   const globe = new THREE.Mesh(new THREE.SphereGeometry(1, 192, 192), new THREE.MeshLambertMaterial({ map: await buildTexture() }));
   scene.add(globe, coastlines(), atmosphere());
   SPAIN = spainRings();
   if (logoSrc) LOGO = await new Promise(res => { const im = new Image(); im.onload = () => res(im); im.onerror = () => res(null); im.src = logoSrc; });
+  if (tughraSrc) TUGHRA = await new Promise(res => { const im = new Image(); im.onload = () => res(im); im.onerror = () => res(null); im.src = tughraSrc; });
   return true;
 }
 Object.assign(window, { init, setClip, frames, drawAt });

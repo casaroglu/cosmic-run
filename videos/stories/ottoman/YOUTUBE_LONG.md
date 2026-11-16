@@ -1,28 +1,28 @@
 # The Entire History of the Ottoman Empire
 
 ## Title
-The Entire History of the Ottoman Empire | 623 Years in 27 Minutes
+The Entire History of the Ottoman Empire | 623 Years in 26 Minutes
 
 ## Description
 From a frontier on the edge of Byzantium to the Republic of Turkey: the whole story of the Ottoman Empire in 16 chapters, told as a conversation, with hand-drawn maps of its borders, public-domain paintings and an animated globe.
 
 0:00 Intro
 0:30 01. Osman and the beginning (c. 1299–1326)
-2:03 02. Into Europe (1354–1389)
-3:52 03. Ankara: the sultan taken prisoner (1402)
-5:46 04. The walls of Constantinople (1453)
-7:44 05. Ships over the hill (1453)
-9:20 06. Selim the Grim (1512–1520)
-11:07 07. Suleiman: Mohács and Vienna (1520–1529)
-12:39 08. Suleiman the Lawgiver and Hürrem (1520–1566)
-14:14 09. Barbarossa and Preveza (1516–1546)
-15:54 10. Lepanto (1571)
-17:34 11. Istanbul's water (1730s)
-19:00 12. Vienna, 1683 (1683–1699)
-20:24 13. The end of the Janissaries (1826)
-21:57 14. The sick man of Europe (1839–1878)
-23:27 15. Gallipoli (1915–1916)
-24:54 16. The last sultan (1918–1923)
+2:02 02. Into Europe (1354–1389)
+3:51 03. Ankara: the sultan taken prisoner (1402)
+5:44 04. The walls of Constantinople (1453)
+7:43 05. Ships over the hill (1453)
+9:17 06. Selim the Grim (1512–1520)
+11:02 07. Suleiman: Mohács and Vienna (1520–1529)
+12:33 08. Suleiman the Lawgiver and Hürrem (1520–1566)
+14:07 09. Barbarossa and Preveza (1516–1546)
+15:46 10. Lepanto (1571)
+17:27 11. Istanbul's water (1730s)
+18:52 12. Vienna, 1683 (1683–1699)
+20:15 13. The end of the Janissaries (1826)
+21:48 14. The sick man of Europe (1839–1878)
+23:17 15. Gallipoli (1915–1916)
+24:44 16. The last sultan (1918–1923)
 
 Every date is checked against two sources (Britannica, Wikipedia, World History Encyclopedia, Australian War Memorial and others). Borders are approximate.
 Narration: synthetic voices. Music: generated for this channel. Map data: Natural Earth (public domain) and © OpenStreetMap contributors. The 3D Taksim scene is a stylised illustration.
@@ -32,10 +32,11 @@ Images: public-domain paintings, engravings and photographs, plus CC0 photograph
 #history #ottomanempire #documentary
 
 ## Pinned comment
-(4519 of 10000 characters)
+(4616 of 10000 characters)
 
 Image credits, chapter by chapter (public domain / CC0):
 
+Intro: Tughra of Sultan Süleyman the Magnificent (c. 1555), The Metropolitan Museum of Art (CC0)
 01 Osman and the beginning: Imaginary portrait of Osman I (18th c.); Workshop of Paolo Veronese, Sultan Osman I (16th c.); Portrait of Orhan, son of Osman (print, c. 1700)
 02 Into Europe: Emperor John VI Kantakouzenos presiding over a synod (14th-c. manuscript); William Leighton Leitch, A street in Adrianople (c. 1835); Portrait of Murad I (Ottoman miniature); Prince Lazar, fresco at Ravanica Monastery (1380s); Adam Stefanović, The Battle of Kosovo (1870); Uroš Predić, The Kosovo Maiden (1919)
 03 Ankara: the sultan taken prisoner: Cristofano dell'Altissimo, Bayezid I (1550s); Lokman, Hünername (1588): Bayezid at Nicopolis; Cristofano dell'Altissimo, Tamerlane (c. 1568); Zafarnama (Safavid, 1533): Bayezid brought before Timur; Bayezid in a cage, German album amicorum (16th c.); Stanisław Chlebowski, Sultan Bayezid in Timur's captivity (1870s)
