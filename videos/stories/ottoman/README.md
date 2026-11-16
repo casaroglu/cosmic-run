@@ -11,10 +11,10 @@ fleets), public-domain paintings and miniatures, globe flights. Two parts where 
 | 04a | 1453, Part 1: the walls of Constantinople | A thousand-year wall vs. the biggest cannon in the world | rendered |
 | 04b | 1453, Part 2: ships over the hill | He moved a fleet over land | rendered |
 | 05 | Selim I: Chaldiran 1514, Cairo 1517 | Seventy percent bigger in eight years | rendered |
-| 06a | Suleiman, Part 1: Mohács 1526, Vienna 1529 | Europe's most feared ruler at 26 | planned |
+| 06a | Suleiman, Part 1: Mohács 1526, Vienna 1529 | The most feared ruler in Europe | rendered |
 | 06b | Suleiman, Part 2: the lawgiver and Hürrem | Why Turks call him "the Lawgiver" | planned |
-| 07 | Barbarossa and Preveza 1538 | A pirate became the sultan's admiral | planned |
-| 08 | Lepanto 1571 (links to the Spain series) | The battle that "broke" a navy that was rebuilt in a winter | planned |
+| 07 | Barbarossa and Preveza 1538 | A pirate became the sultan's admiral | rendered |
+| 08 | Lepanto 1571 (links to the Spain series) | The battle that "broke" a navy that was rebuilt in a winter | rendered |
 | 09 | Istanbul's water: the Taksim maksem (1730s) | Reuse the 3D Blender scene | planned |
 | 10 | Vienna 1683 | The last march on Vienna | planned |
 | 11 | 1826: the end of the Janissaries | The sultan who destroyed his own army | planned |

@@ -34,14 +34,19 @@ for b in tl["beats"]:
         n = int(len(x) * 16000 / sr)
         x = np.interp(np.linspace(0, len(x) - 1, n), np.arange(len(x)), x).astype(np.float32)
     segs, _ = m.transcribe(x, language="en", word_timestamps=True, beam_size=1, condition_on_previous_text=False)
-    heard = [(w.word.strip(), s0 + w.start) for s in segs for w in (s.words or [])]
+    heard = [(w.word.strip(), s0 + w.start, s0 + w.end) for s in segs for w in (s.words or [])]
     A, B = [norm(w["w"]) for w in words], [norm(h[0]) for h in heard]
     errs = []
     for op, i1, i2, j1, j2 in difflib.SequenceMatcher(None, A, B, autojunk=False).get_opcodes():
         if op == "equal":
             # the recogniser's timestamp for the last word of a clip is unreliable: skip it
-            errs += [(words[i1 + k]["w"], words[i1 + k]["t0"] - heard[j1 + k][1]) for k in range(i2 - i1)
-                     if i1 + k < len(words) - 1]
+            # a caption that starts inside the heard span of the word is in sync (the recogniser
+            # often stretches a word's start back over a preceding pause)
+            for k in range(i2 - i1):
+                if i1 + k >= len(words) - 1:
+                    continue
+                t, (_, hs, he) = words[i1 + k]["t0"], heard[j1 + k]
+                errs.append((words[i1 + k]["w"], 0.0 if hs <= t <= he else (t - hs if t < hs else t - he)))
     if not errs:
         rows.append((9.9, b["start"], b["text"][:50], "not recognised"))
         continue

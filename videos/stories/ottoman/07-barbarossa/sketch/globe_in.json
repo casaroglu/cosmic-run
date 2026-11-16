@@ -1,0 +1,1 @@
+{"w": 1080, "h": 1920, "duration": 8.0, "fly": 5.0, "ease": "power2.inOut", "from": {"lat": 28, "lon": 10, "dist": 4.6}, "to": {"lat": 37.5, "lon": 16.0, "dist": 2.2}, "markers": [{"lat": 39.2, "lon": 26.3, "label": "Lesbos", "at": 4.2}, {"lat": 36.75, "lon": 3.06, "label": "Algiers", "at": 4.5}, {"lat": 38.96, "lon": 20.75, "label": "Preveza", "at": 4.8}]}

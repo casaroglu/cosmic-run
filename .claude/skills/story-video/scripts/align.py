@@ -237,17 +237,29 @@ def refine(words, audio, sr, t0):
     out = [dict(w) for w in words]
     for i, (s, e) in snap.items():
         out[i]["t0"], out[i]["t1"] = round(s, 3), round(max(s, e), 3)
-    # unsnapped words: rescale their estimated times into the gap between snapped neighbours
+    # unsnapped words, in runs between snapped neighbours: speech is contiguous, so a run that
+    # does not end in punctuation leads straight into the next heard word (any pause comes
+    # before it); a run ending in punctuation follows the previous heard word (pause after it)
     idx = sorted(snap)
-    for i in range(len(out)):
+    i = 0
+    while i < len(out):
         if i in snap:
-            continue
+            i += 1; continue
+        j = i
+        while j + 1 < len(out) and (j + 1) not in snap:
+            j += 1
         lo = max([k for k in idx if k < i], default=None)
-        hi = min([k for k in idx if k > i], default=None)
-        e0 = words[lo]["t1"] if lo is not None else words[0]["t0"]
-        e1 = words[hi]["t0"] if hi is not None else words[-1]["t1"]
-        r0 = out[lo]["t1"] if lo is not None else words[0]["t0"]
-        r1 = out[hi]["t0"] if hi is not None else words[-1]["t1"]
-        f = lambda t: r0 + (t - e0) * (r1 - r0) / (e1 - e0) if e1 > e0 else r0
-        out[i]["t0"], out[i]["t1"] = round(f(words[i]["t0"]), 3), round(f(words[i]["t1"]), 3)
+        hi = min([k for k in idx if k > j], default=None)
+        ends_punct = bool(re.search(r"[,.;:?!…—]$", words[j]["w"]))
+        if hi is not None and (not ends_punct or lo is None):
+            shift = out[hi]["t0"] - words[j]["t1"]
+        elif lo is not None:
+            shift = out[lo]["t1"] - words[i]["t0"]
+        else:
+            shift = 0.0
+        floor = out[lo]["t1"] if lo is not None else -1e9
+        for k in range(i, j + 1):
+            out[k]["t0"] = round(max(floor, words[k]["t0"] + shift), 3)
+            out[k]["t1"] = round(max(out[k]["t0"], words[k]["t1"] + shift), 3)
+        i = j + 1
     return out
