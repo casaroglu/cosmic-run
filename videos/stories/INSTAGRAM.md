@@ -13,3 +13,5 @@ Files under 10 MB: `videos/out/headlines/_ig/`, `videos/out/spain/_yt/`.
 | 2026-11-16 | hormuz-01b | https://www.instagram.com/historysketches/reel/DfyzFCRMPVy/ |
 
 **2026-11-16:** schedule stopped at the user's request. The daily task is disabled; the Spain entries in the queue are `paused`. For now only the Hormuz series is posted.
+
+**2026-11-16 (later):** posting resumed with the Ottoman series (ottoman-01 … ottoman-14), 3 a day (12:30, 17:30, 21:30). Spain entries stay paused. Files: `videos/out/ottoman/_ig/` via `videos/stories/ottoman/make_ig.sh`.
