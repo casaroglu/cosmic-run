@@ -1,0 +1,1370 @@
+{
+ "series": "The Ottoman Empire",
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
+  },
+  "a": {
+   "name": "Theo",
+   "color": "#E8B44A"
+  }
+ },
+ "accent": "#E8B44A",
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "scene_pad": 0.5,
+ "fade": 1.1,
+ "episode": 13,
+ "title": "Why do Australians remember a beach in Turkey?",
+ "highlight": [
+  "Australians",
+  "Turkey?"
+ ],
+ "music": {
+  "mood": "bittersweet",
+  "seed": 65,
+  "drums": true,
+  "level": 0.28
+ },
+ "post": {
+  "caption": "The Ottoman Empire, episode 13: Gallipoli (1915–16): the naval attack of 18 March, the Nusret's mines, the Anzac landings and Mustafa Kemal. Images: public domain. Map data: Natural Earth. Borders approx.",
+  "hashtags": [
+   "history",
+   "ottoman",
+   "gallipoli",
+   "anzac",
+   "ww1",
+   "ataturk",
+   "shorts"
+  ]
+ },
+ "clips": {
+  "globe": "sketch/globe_in.mp4"
+ },
+ "images": {
+  "nusret": {
+   "file": "img/nusret.jpg",
+   "credit": "The Ottoman minelayer Nusret (1912)",
+   "where": "Public domain"
+  },
+  "irresistible": {
+   "file": "img/irresistible.jpg",
+   "credit": "Royal Navy, HMS Irresistible abandoned, 18 March 1915",
+   "where": "Public domain"
+  },
+  "landing": {
+   "file": "img/landing.jpg",
+   "credit": "Landing of Australian troops at Anzac Cove, 25 April 1915",
+   "where": "State Library of New South Wales"
+  },
+  "kemal": {
+   "file": "img/kemal2.jpg",
+   "credit": "Mustafa Kemal at Gallipoli (1915)",
+   "where": "Public domain"
+  },
+  "evacuation": {
+   "file": "img/evacuation.jpg",
+   "credit": "Ernest Brooks, Allied evacuation of Suvla (19 Dec 1915)",
+   "where": "Imperial War Museum"
+  }
+ },
+ "sketches": {
+  "start": {
+   "coast": "sketch/mideast.json",
+   "rect": [
+    20,
+    300,
+    1040,
+    980
+   ],
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 2.0
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        26.0,
+        40.6
+       ],
+       [
+        26.4,
+        41.3
+       ],
+       [
+        26.6,
+        41.75
+       ],
+       [
+        27.6,
+        42.0
+       ],
+       [
+        28.0,
+        41.95
+       ],
+       [
+        28.3,
+        41.4
+       ],
+       [
+        29.2,
+        41.25
+       ],
+       [
+        29.2,
+        40.9
+       ],
+       [
+        28.5,
+        40.4
+       ],
+       [
+        26.6,
+        40.0
+       ],
+       [
+        26.2,
+        40.05
+       ]
+      ],
+      [
+       [
+        26.1,
+        40.0
+       ],
+       [
+        29.2,
+        40.9
+       ],
+       [
+        29.2,
+        41.3
+       ],
+       [
+        33.0,
+        42.2
+       ],
+       [
+        36.0,
+        41.9
+       ],
+       [
+        39.0,
+        41.2
+       ],
+       [
+        41.6,
+        41.6
+       ],
+       [
+        41.6,
+        40.6
+       ],
+       [
+        40.0,
+        40.2
+       ],
+       [
+        39.4,
+        39.5
+       ],
+       [
+        38.0,
+        39.3
+       ],
+       [
+        37.0,
+        39.0
+       ],
+       [
+        36.2,
+        38.6
+       ],
+       [
+        35.6,
+        38.0
+       ],
+       [
+        35.0,
+        37.4
+       ],
+       [
+        34.4,
+        36.7
+       ],
+       [
+        33.5,
+        36.1
+       ],
+       [
+        32.0,
+        36.4
+       ],
+       [
+        30.6,
+        36.8
+       ],
+       [
+        29.5,
+        36.2
+       ],
+       [
+        28.0,
+        36.6
+       ],
+       [
+        27.0,
+        37.3
+       ],
+       [
+        26.2,
+        38.4
+       ],
+       [
+        26.5,
+        39.4
+       ]
+      ],
+      [
+       [
+        40.8,
+        40.0
+       ],
+       [
+        41.6,
+        41.2
+       ],
+       [
+        42.5,
+        41.4
+       ],
+       [
+        43.5,
+        40.6
+       ],
+       [
+        44.0,
+        39.4
+       ],
+       [
+        44.2,
+        38.3
+       ],
+       [
+        45.0,
+        37.0
+       ],
+       [
+        45.8,
+        35.5
+       ],
+       [
+        46.2,
+        33.5
+       ],
+       [
+        47.5,
+        32.0
+       ],
+       [
+        48.3,
+        30.5
+       ],
+       [
+        48.0,
+        29.5
+       ],
+       [
+        47.0,
+        29.0
+       ],
+       [
+        46.0,
+        29.3
+       ],
+       [
+        44.0,
+        31.5
+       ],
+       [
+        42.0,
+        33.0
+       ],
+       [
+        40.3,
+        35.4
+       ],
+       [
+        41.0,
+        36.6
+       ],
+       [
+        42.0,
+        37.0
+       ],
+       [
+        42.6,
+        37.6
+       ],
+       [
+        42.2,
+        38.4
+       ],
+       [
+        41.2,
+        39.0
+       ]
+      ],
+      [
+       [
+        35.6,
+        36.8
+       ],
+       [
+        36.0,
+        36.6
+       ],
+       [
+        35.8,
+        35.2
+       ],
+       [
+        35.0,
+        33.2
+       ],
+       [
+        34.2,
+        31.4
+       ],
+       [
+        34.9,
+        29.5
+       ],
+       [
+        35.5,
+        28.0
+       ],
+       [
+        37.0,
+        25.0
+       ],
+       [
+        38.6,
+        22.0
+       ],
+       [
+        40.0,
+        19.5
+       ],
+       [
+        41.5,
+        17.0
+       ],
+       [
+        42.8,
+        16.0
+       ],
+       [
+        43.3,
+        12.7
+       ],
+       [
+        44.6,
+        13.2
+       ],
+       [
+        44.5,
+        15.5
+       ],
+       [
+        44.0,
+        17.5
+       ],
+       [
+        42.5,
+        20.5
+       ],
+       [
+        41.0,
+        23.5
+       ],
+       [
+        40.0,
+        26.0
+       ],
+       [
+        39.0,
+        28.5
+       ],
+       [
+        38.8,
+        30.5
+       ],
+       [
+        40.3,
+        32.5
+       ],
+       [
+        41.0,
+        34.0
+       ],
+       [
+        40.3,
+        35.4
+       ],
+       [
+        41.0,
+        36.6
+       ],
+       [
+        42.0,
+        37.0
+       ],
+       [
+        42.6,
+        37.6
+       ],
+       [
+        42.2,
+        38.4
+       ],
+       [
+        41.2,
+        39.0
+       ],
+       [
+        38.0,
+        39.3
+       ],
+       [
+        37.0,
+        39.0
+       ],
+       [
+        36.2,
+        38.6
+       ],
+       [
+        35.6,
+        38.0
+       ],
+       [
+        35.0,
+        37.4
+       ]
+      ]
+     ],
+     "at": 0.8,
+     "dur": 2.2,
+     "label": "Ottoman, 1914",
+     "labelPos": [
+      38.0,
+      33.2
+     ]
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      26.4,
+      40.15
+     ],
+     "label": "Dardanelles",
+     "lx": -20,
+     "ly": 45,
+     "at": 2.6,
+     "lalign": "right"
+    },
+    {
+     "kind": "label",
+     "text": "RUSSIA",
+     "pos": [
+      38.0,
+      45.5
+     ],
+     "at": 3.0,
+     "size": 44,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "label",
+     "text": "borders approx.",
+     "pos": [
+      0.8,
+      0.655
+     ],
+     "at": 3.0,
+     "size": 34
+    }
+   ]
+  },
+  "straitmap": {
+   "coast": "sketch/gallipoli.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.8
+    },
+    {
+     "kind": "label",
+     "text": "Gallipoli peninsula",
+     "pos": [
+      26.33,
+      40.3
+     ],
+     "at": 1.0,
+     "size": 40,
+     "rot": -0.6
+    },
+    {
+     "kind": "label",
+     "text": "Dardanelles",
+     "pos": [
+      26.27,
+      40.0
+     ],
+     "at": 1.3,
+     "size": 42,
+     "color": "#1f4e8c",
+     "rot": 0.7
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      26.4,
+      40.15
+     ],
+     "label": "Çanakkale",
+     "lx": 20,
+     "ly": 45,
+     "at": 1.6
+    },
+    {
+     "kind": "text",
+     "text": "18 March 1915",
+     "pos": [
+      0.5,
+      0.22
+     ],
+     "at": 2.0,
+     "size": 62,
+     "color": "#b3261e",
+     "cps": 20
+    },
+    {
+     "kind": "ships",
+     "pts": [
+      [
+       26.15,
+       40.0
+      ],
+      [
+       26.35,
+       40.08
+      ]
+     ],
+     "n": 4,
+     "period": 7,
+     "icon": "galleon",
+     "size": 40,
+     "at": 2.6,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "circle",
+     "pos": [
+      26.36,
+      40.1
+     ],
+     "r": 60,
+     "ry": 45,
+     "at": 4.0,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "mines",
+     "pos": [
+      26.36,
+      40.065
+     ],
+     "at": 4.4,
+     "size": 40,
+     "color": "#b3261e"
+    }
+   ]
+  },
+  "landings": {
+   "coast": "sketch/gallipoli.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.0,
+     "pencil": false
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      26.29,
+      40.24
+     ],
+     "label": "Anzac Cove",
+     "lx": -20,
+     "ly": -40,
+     "at": 0.6,
+     "lalign": "right"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      26.18,
+      40.05
+     ],
+     "label": "Cape Helles",
+     "lx": -20,
+     "ly": 40,
+     "at": 1.2,
+     "lalign": "right"
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      26.05,
+      40.28
+     ],
+     "to": [
+      26.26,
+      40.24
+     ],
+     "at": 0.8,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      26.0,
+      39.98
+     ],
+     "to": [
+      26.16,
+      40.04
+     ],
+     "at": 1.4,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "text",
+     "text": "25 April 1915",
+     "pos": [
+      0.5,
+      0.22
+     ],
+     "at": 0.4,
+     "size": 62,
+     "color": "#b3261e",
+     "cps": 20
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      26.33,
+      40.27
+     ],
+     "label": "Chunuk Bair",
+     "lx": 20,
+     "ly": -40,
+     "at": 3.4,
+     "color": "#b3261e"
+    }
+   ]
+  },
+  "numbers": {
+   "items": [
+    {
+     "kind": "text",
+     "text": "Gallipoli, 1915–16 (estimates)",
+     "pos": [
+      0.5,
+      0.22
+     ],
+     "at": 0.1,
+     "size": 56
+    },
+    {
+     "kind": "text",
+     "text": "Allied dead: 43–61,000",
+     "pos": [
+      0.5,
+      0.34
+     ],
+     "at": 0.5,
+     "size": 64,
+     "color": "#1f4e8c",
+     "cps": 24
+    },
+    {
+     "kind": "text",
+     "text": "Ottoman dead: 57–87,000",
+     "pos": [
+      0.5,
+      0.45
+     ],
+     "at": 1.5,
+     "size": 64,
+     "color": "#b3261e",
+     "cps": 24
+    },
+    {
+     "kind": "text",
+     "text": "over 500,000 casualties in all",
+     "pos": [
+      0.5,
+      0.56
+     ],
+     "at": 2.6,
+     "size": 52,
+     "cps": 24
+    }
+   ]
+  },
+  "end": {
+   "coast": "sketch/mideast.json",
+   "rect": [
+    20,
+    300,
+    1040,
+    980
+   ],
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        26.0,
+        40.6
+       ],
+       [
+        26.4,
+        41.3
+       ],
+       [
+        26.6,
+        41.75
+       ],
+       [
+        27.6,
+        42.0
+       ],
+       [
+        28.0,
+        41.95
+       ],
+       [
+        28.3,
+        41.4
+       ],
+       [
+        29.2,
+        41.25
+       ],
+       [
+        29.2,
+        40.9
+       ],
+       [
+        28.5,
+        40.4
+       ],
+       [
+        26.6,
+        40.0
+       ],
+       [
+        26.2,
+        40.05
+       ]
+      ],
+      [
+       [
+        26.1,
+        40.0
+       ],
+       [
+        29.2,
+        40.9
+       ],
+       [
+        29.2,
+        41.3
+       ],
+       [
+        33.0,
+        42.2
+       ],
+       [
+        36.0,
+        41.9
+       ],
+       [
+        39.0,
+        41.2
+       ],
+       [
+        41.6,
+        41.6
+       ],
+       [
+        41.6,
+        40.6
+       ],
+       [
+        40.0,
+        40.2
+       ],
+       [
+        39.4,
+        39.5
+       ],
+       [
+        38.0,
+        39.3
+       ],
+       [
+        37.0,
+        39.0
+       ],
+       [
+        36.2,
+        38.6
+       ],
+       [
+        35.6,
+        38.0
+       ],
+       [
+        35.0,
+        37.4
+       ],
+       [
+        34.4,
+        36.7
+       ],
+       [
+        33.5,
+        36.1
+       ],
+       [
+        32.0,
+        36.4
+       ],
+       [
+        30.6,
+        36.8
+       ],
+       [
+        29.5,
+        36.2
+       ],
+       [
+        28.0,
+        36.6
+       ],
+       [
+        27.0,
+        37.3
+       ],
+       [
+        26.2,
+        38.4
+       ],
+       [
+        26.5,
+        39.4
+       ]
+      ],
+      [
+       [
+        40.8,
+        40.0
+       ],
+       [
+        41.6,
+        41.2
+       ],
+       [
+        42.5,
+        41.4
+       ],
+       [
+        43.5,
+        40.6
+       ],
+       [
+        44.0,
+        39.4
+       ],
+       [
+        44.2,
+        38.3
+       ],
+       [
+        45.0,
+        37.0
+       ],
+       [
+        45.8,
+        35.5
+       ],
+       [
+        46.2,
+        33.5
+       ],
+       [
+        47.5,
+        32.0
+       ],
+       [
+        48.3,
+        30.5
+       ],
+       [
+        48.0,
+        29.5
+       ],
+       [
+        47.0,
+        29.0
+       ],
+       [
+        46.0,
+        29.3
+       ],
+       [
+        44.0,
+        31.5
+       ],
+       [
+        42.0,
+        33.0
+       ],
+       [
+        40.3,
+        35.4
+       ],
+       [
+        41.0,
+        36.6
+       ],
+       [
+        42.0,
+        37.0
+       ],
+       [
+        42.6,
+        37.6
+       ],
+       [
+        42.2,
+        38.4
+       ],
+       [
+        41.2,
+        39.0
+       ]
+      ],
+      [
+       [
+        35.6,
+        36.8
+       ],
+       [
+        36.0,
+        36.6
+       ],
+       [
+        35.8,
+        35.2
+       ],
+       [
+        35.0,
+        33.2
+       ],
+       [
+        34.2,
+        31.4
+       ],
+       [
+        34.9,
+        29.5
+       ],
+       [
+        35.5,
+        28.0
+       ],
+       [
+        37.0,
+        25.0
+       ],
+       [
+        38.6,
+        22.0
+       ],
+       [
+        40.0,
+        19.5
+       ],
+       [
+        41.5,
+        17.0
+       ],
+       [
+        42.8,
+        16.0
+       ],
+       [
+        43.3,
+        12.7
+       ],
+       [
+        44.6,
+        13.2
+       ],
+       [
+        44.5,
+        15.5
+       ],
+       [
+        44.0,
+        17.5
+       ],
+       [
+        42.5,
+        20.5
+       ],
+       [
+        41.0,
+        23.5
+       ],
+       [
+        40.0,
+        26.0
+       ],
+       [
+        39.0,
+        28.5
+       ],
+       [
+        38.8,
+        30.5
+       ],
+       [
+        40.3,
+        32.5
+       ],
+       [
+        41.0,
+        34.0
+       ],
+       [
+        40.3,
+        35.4
+       ],
+       [
+        41.0,
+        36.6
+       ],
+       [
+        42.0,
+        37.0
+       ],
+       [
+        42.6,
+        37.6
+       ],
+       [
+        42.2,
+        38.4
+       ],
+       [
+        41.2,
+        39.0
+       ],
+       [
+        38.0,
+        39.3
+       ],
+       [
+        37.0,
+        39.0
+       ],
+       [
+        36.2,
+        38.6
+       ],
+       [
+        35.6,
+        38.0
+       ],
+       [
+        35.0,
+        37.4
+       ]
+      ]
+     ],
+     "at": 0.4,
+     "dur": 1.6,
+     "label": "Ottoman, 1916",
+     "labelPos": [
+      38.0,
+      33.2
+     ]
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      26.4,
+      40.15
+     ],
+     "label": "the straits held",
+     "lx": -20,
+     "ly": 45,
+     "at": 1.8,
+     "lalign": "right"
+    },
+    {
+     "kind": "circle",
+     "pos": [
+      26.5,
+      40.3
+     ],
+     "r": 55,
+     "ry": 45,
+     "at": 2.2,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "borders approx.",
+     "pos": [
+      0.8,
+      0.655
+     ],
+     "at": 3.0,
+     "size": 34
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "globe",
+   "text": "Why do Australians remember a beach in Turkey?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Because on the twenty-fifth of April 1915, their soldiers landed there, at Gallipoli. Today that day is Anzac Day."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Why was there a war there?",
+   "scene": "start",
+   "date": "1914",
+   "place": "Ottoman lands"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In 1914, the Ottomans joined the First World War on Germany's side. Britain and France wanted the straits to Istanbul, to reach their ally Russia."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So they attacked by sea?",
+   "scene": "straitmap",
+   "date": "18 March 1915",
+   "place": "Dardanelles"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Right. On the eighteenth of March 1915, a great Allied fleet tried to force the Dardanelles."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "But days earlier, a small Ottoman ship, the Nusret, had quietly laid a new line of mines.",
+   "scene": "nusret",
+   "date": "",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.5,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Three battleships sank, and the fleet turned back.",
+   "scene": "irresistible",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.45,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And then the landings?",
+   "scene": "landings",
+   "date": "25 April 1915",
+   "place": "Gallipoli"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Yes. British troops landed at Cape Helles, Australians and New Zealanders at what became Anzac Cove."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "They got ashore, but not much further.",
+   "scene": "landing",
+   "move": {
+    "from": [
+     0.35,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.6,
+     0.5,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Who stopped them?",
+   "scene": "kemal",
+   "date": "1915",
+   "place": "Gallipoli",
+   "move": {
+    "from": [
+     0.5,
+     0.4,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.33,
+     1.3
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Ottoman troops dug in on the heights. One of their commanders was a young colonel, Mustafa Kemal, later known as Atatürk.",
+   "say": "Ottoman troops dug in on the heights. One of their commanders was a young colonel, Mustafa Kemal, later known as Ataturk."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "How did it end?",
+   "scene": "evacuation",
+   "date": "January 1916",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.5,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "After eight months, the Allies quietly evacuated. The last troops left in January 1916."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "More than half a million men were killed or wounded on both sides.",
+   "scene": "numbers",
+   "date": ""
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So the Ottomans won?",
+   "scene": "end",
+   "date": "1916",
+   "place": "Ottoman lands"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "At Gallipoli, yes. The straits held, and the borders did not move. But the empire was still losing the wider war."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Next time: the last sultan leaves. Like the video and follow History Sketches."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And tell us in the comments what you think!"
+  },
+  {
+   "type": "end",
+   "text": "Next: the last sultan",
+   "sub": "Follow History Sketches"
+  }
+ ]
+}
