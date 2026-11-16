@@ -20,4 +20,4 @@ fleets), public-domain paintings and miniatures, globe flights. Two parts where 
 | 11 | 1826: the end of the Janissaries | The sultan who destroyed his own army | rendered |
 | 12 | Tanzimat 1839 and the "sick man of Europe" | Who called it the sick man of Europe | rendered |
 | 13 | Gallipoli 1915 | Why Australians remember a beach in Turkey | rendered |
-| 14 | 1922: the last sultan leaves | | planned |
+| 14 | 1922: the last sultan leaves | How a six-hundred-year empire ended (series finale, no teaser) | rendered |

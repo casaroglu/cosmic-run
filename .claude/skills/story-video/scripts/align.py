@@ -236,6 +236,9 @@ def refine(words, audio, sr, t0):
         return words
     out = [dict(w) for w in words]
     for i, (s, e) in snap.items():
+        est = max(0.05, words[i]["t1"] - words[i]["t0"])
+        if e - s > est + 0.25:   # recogniser stretched the start back over a pause: trust the end
+            s = e - est
         out[i]["t0"], out[i]["t1"] = round(s, 3), round(max(s, e), 3)
     # unsnapped words, in runs between snapped neighbours: speech is contiguous, so a run that
     # does not end in punctuation leads straight into the next heard word (any pause comes
