@@ -25,4 +25,6 @@ Upload notes: the <10 MB Instagram copies (`videos/out/<series>/_ig/`) are used,
 | 2026-11-25 13:00 | 13-gallipoli | scheduled |
 | 2026-11-25 20:00 | 14-last-sultan | scheduled |
 
-Next: Spain (23 episodes) from 26 Nov 13:00, two a day, once Spain covers exist; TikTok only schedules up to 10 days ahead, so Spain goes up in batches (e.g. on 23 Nov for 26 Nov–3 Dec). Then Chokepoints.
+Spain (2026-11-17): 23 Gemini covers in `videos/out/spain/_covers/` (see `videos/stories/spain/COVERS.md`); schedule in `videos/stories/spain/tiktok_schedule.json` (26 Nov – 7 Dec, 13:00/20:00). Scheduled so far: 00a, 00b (26 Nov), 00c, 00d (27 Nov). The rest go up in batches as their dates come within TikTok's 10-day window.
+
+Next (old note): Spain (23 episodes) from 26 Nov 13:00, two a day, once Spain covers exist; TikTok only schedules up to 10 days ahead, so Spain goes up in batches (e.g. on 23 Nov for 26 Nov–3 Dec). Then Chokepoints.
