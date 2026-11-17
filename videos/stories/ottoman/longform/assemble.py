@@ -56,7 +56,7 @@ lines += ['', 'Every date is checked against two sources (Britannica, Wikipedia,
 lines += ['', '#history #ottomanempire #documentary']
 desc_len = len('\n'.join(lines[lines.index('## Description') + 1:]))
 assert desc_len < 4900, desc_len
-comment = 'Image credits, chapter by chapter (public domain / CC0):\n\nIntro: Tughra of Sultan Süleyman the Magnificent (c. 1555), The Metropolitan Museum of Art (CC0)\n' + '\n'.join(per_ch)
+comment = 'Image credits, chapter by chapter (public domain / CC0):\n\nIntro: Coat of arms of the Ottoman Empire (1882 design; drawing by Juris Tiltins, public domain, Wikimedia Commons)\n' + '\n'.join(per_ch)
 assert len(comment) < 9800, len(comment)
 lines += ['', '## Pinned comment', f'({len(comment)} of 10000 characters)', '', comment]
 md = os.path.join(os.path.dirname(HERE), 'YOUTUBE_LONG.md')

@@ -251,18 +251,23 @@ function drawAt(t) {
     drawSpain(clamp((t - 6) / 3));
     vignette();
     const k = easeOut((t - (c.duration - 4.4)) / 0.8);
-    // the sultan's tughra (seal) appears just before the narration names the empire, then moves up above the title
-    const tk = c.tughraAt != null ? easeOut((t - c.tughraAt) / 0.9) : 0;
-    if (tk > 0 && TUGHRA) {
-      g.save(); g.fillStyle = `rgba(0,0,0,${0.72 * Math.max(tk, k)})`; g.fillRect(0, 0, W, H);
-      const big = 820, small = 330, s = big + (small - big) * k, h = s * TUGHRA.height / TUGHRA.width;
-      const cy = (H / 2 - 40) + ((H / 2 - 270) - (H / 2 - 40)) * k;
-      g.globalAlpha = tk; g.shadowColor = 'rgba(255,215,140,0.35)'; g.shadowBlur = 40;
-      g.drawImage(TUGHRA, W / 2 - s / 2, cy - h / 2, s, h); g.restore();
+    // the Ottoman coat of arms opens the film, then returns small above the title
+    const op = TUGHRA ? easeOut((t - 0.2) / 0.9) * (1 - clamp((t - 4.6) / 0.8)) : 0;
+    if (op > 0) {
+      g.save(); g.fillStyle = `rgba(0,0,0,${0.62 * op})`; g.fillRect(0, 0, W, H);
+      const h = 740, w = h * TUGHRA.width / TUGHRA.height;
+      g.globalAlpha = op; g.shadowColor = 'rgba(255,210,120,0.35)'; g.shadowBlur = 50;
+      g.drawImage(TUGHRA, W / 2 - w / 2, H / 2 - 85 - h / 2, w, h); g.restore();
+    }
+    const tk = 0;
+    if (k > 0 && TUGHRA) {
+      const h = 300, w = h * TUGHRA.width / TUGHRA.height;
+      g.save(); g.fillStyle = `rgba(0,0,0,${0.62 * k})`; g.fillRect(0, 0, W, H);
+      g.globalAlpha = k; g.drawImage(TUGHRA, W / 2 - w / 2, H / 2 - 230 - h / 2, w, h); g.restore();
     }
     if (k < 1) captions(c.meta, t);
     if (k > 0) {
-      g.save(); if (!(tk > 0 && TUGHRA)) { g.fillStyle = `rgba(0,0,0,${0.55 * k})`; g.fillRect(0, 0, W, H); }
+      g.save(); if (!TUGHRA) { g.fillStyle = `rgba(0,0,0,${0.55 * k})`; g.fillRect(0, 0, W, H); }
       g.globalAlpha = k; g.textAlign = 'center'; g.shadowColor = 'rgba(0,0,0,.9)'; g.shadowBlur = 30;
       g.font = `800 32px ${SANS}`; g.letterSpacing = '10px'; g.fillStyle = ACC; g.fillText('HISTORY SKETCHES PRESENTS', W / 2, H / 2 - 50);
       g.letterSpacing = '0px';

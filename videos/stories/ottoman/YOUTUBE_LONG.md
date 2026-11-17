@@ -32,11 +32,11 @@ Images: public-domain paintings, engravings and photographs, plus CC0 photograph
 #history #ottomanempire #documentary
 
 ## Pinned comment
-(4616 of 10000 characters)
+(4635 of 10000 characters)
 
 Image credits, chapter by chapter (public domain / CC0):
 
-Intro: Tughra of Sultan Süleyman the Magnificent (c. 1555), The Metropolitan Museum of Art (CC0)
+Intro: Coat of arms of the Ottoman Empire (1882 design; drawing by Juris Tiltins, public domain, Wikimedia Commons)
 01 Osman and the beginning: Imaginary portrait of Osman I (18th c.); Workshop of Paolo Veronese, Sultan Osman I (16th c.); Portrait of Orhan, son of Osman (print, c. 1700)
 02 Into Europe: Emperor John VI Kantakouzenos presiding over a synod (14th-c. manuscript); William Leighton Leitch, A street in Adrianople (c. 1835); Portrait of Murad I (Ottoman miniature); Prince Lazar, fresco at Ravanica Monastery (1380s); Adam Stefanović, The Battle of Kosovo (1870); Uroš Predić, The Kosovo Maiden (1919)
 03 Ankara: the sultan taken prisoner: Cristofano dell'Altissimo, Bayezid I (1550s); Lokman, Hünername (1588): Bayezid at Nicopolis; Cristofano dell'Altissimo, Tamerlane (c. 1568); Zafarnama (Safavid, 1533): Bayezid brought before Timur; Bayezid in a cage, German album amicorum (16th c.); Stanisław Chlebowski, Sultan Bayezid in Timur's captivity (1870s)
