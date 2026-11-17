@@ -25,4 +25,4 @@ Upload notes: the <10 MB Instagram copies (`videos/out/<series>/_ig/`) are used,
 | 2026-11-25 13:00 | 13-gallipoli | scheduled |
 | 2026-11-25 20:00 | 14-last-sultan | scheduled |
 
-Next: Spain (23 episodes) from 26 Nov 13:00, two a day, once Spain covers exist; it can only be scheduled from 16 Nov + 10 days, i.e. upload the first Spain batch by about 23 Nov. Then Chokepoints.
+Next: Spain (23 episodes) from 26 Nov 13:00, two a day, once Spain covers exist; TikTok only schedules up to 10 days ahead, so Spain goes up in batches (e.g. on 23 Nov for 26 Nov–3 Dec). Then Chokepoints.
