@@ -1,35 +1,35 @@
 # The Entire History of Spain
 
 ## Title
-The Entire History of Spain | 35,000 Years in 27 Minutes
+The Entire History of Spain | 35,000 Years in 40 Minutes
 
 ## Description
 From the painted caves of Altamira to the night a king saved Spanish democracy: the whole story of Spain in 23 chapters, told with public-domain paintings and an animated globe.
 
 0:00 Intro
 0:31 01. Altamira (35,000+ years ago)
-1:34 02. Gadir (c. 1100 BC)
-2:41 03. Numantia (133 BC)
-3:39 04. 711 (AD 711)
-4:47 05. Covadonga (AD 722)
-5:43 06. Córdoba (AD 929)
-6:50 07. Las Navas de Tolosa (1212)
-7:45 08. Granada (1492)
-8:59 09. Columbus (1492)
-10:04 10. The Heir (1500–1521)
-11:17 11. The Emperor Who Quit (1521–1558)
-12:17 12. Philip II (1556–1598)
-13:23 13. The Armada (1588)
-14:33 14. Cervantes (1547–1616)
-15:52 15. Velázquez (1599–1660)
-17:14 16. The Spanish Succession (1700–1714)
-18:30 17. 1808 (Spring 1808)
-19:37 18. The Little War (1808–1814)
-20:43 19. Cádiz 1812 (1812)
-21:50 20. 1898 (Summer 1898)
-22:59 21. The Republic (1931–1936)
-24:15 22. The Civil War (1936–1939)
-25:25 23. The Transition (1975–1982)
+2:12 02. Gadir (c. 1100 BC)
+3:56 03. Numantia (133 BC)
+5:37 04. 711 (AD 711)
+7:11 05. Covadonga (AD 722)
+8:44 06. Córdoba (AD 929)
+10:24 07. Las Navas de Tolosa (1212)
+11:46 08. Granada (1492)
+13:32 09. Columbus (1492)
+15:15 10. The Heir (1500–1521)
+16:56 11. The Emperor Who Quit (1521–1558)
+18:40 12. Philip II (1556–1598)
+20:15 13. The Armada (1588)
+21:52 14. Cervantes (1547–1616)
+23:52 15. Velázquez (1599–1660)
+25:45 16. The Spanish Succession (1700–1714)
+27:37 17. 1808 (Spring 1808)
+29:09 18. The Little War (1808–1814)
+30:43 19. Cádiz 1812 (1812)
+32:25 20. 1898 (Summer 1898)
+34:07 21. The Republic (1931–1936)
+35:54 22. The Civil War (1936–1939)
+37:35 23. The Transition (1975–1982)
 
 Every date is checked against two sources (Britannica, Real Academia de la Historia, Elliott, Barton and others).
 Narration: synthetic voice. Music: generated for this channel. Map data: Natural Earth (public domain).
