@@ -18,7 +18,7 @@ ep = dict(BASE, clips={'globe': 'sketch/globe_in.mp4'}, episode=7,
         {'kind': 'route', 'pts': [[95.3, 6.2], [97.5, 4.8], [99.5, 3.4], [101.0, 2.3], [102.6, 1.5], [103.8, 1.15], [104.6, 1.3], [105.4, 2.6]], 'at': 1.2, 'dur': 2.0, 'color': GOLD, 'width': 8},
         {'kind': 'label', 'text': 'MALAYSIA', 'pos': [102.2, 4.2], 'at': 1.6, 'size': 40},
         {'kind': 'label', 'text': 'SUMATRA', 'pos': [100.6, -0.4], 'at': 1.8, 'size': 40},
-        {'kind': 'marker', 'pos': [103.82, 1.35], 'label': 'Singapore', 'lx': 15, 'ly': 45, 'at': 2.4},
+        {'kind': 'marker', 'pos': [103.82, 1.35], 'label': 'Singapore', 'lx': -15, 'ly': 45, 'lalign': 'right', 'at': 2.4},
         {'kind': 'marker', 'pos': [102.25, 2.2], 'label': 'Malacca', 'lx': -15, 'ly': -40, 'lalign': 'right', 'at': 2.6},
         {'kind': 'label', 'text': 'borders: today', 'pos': [0.8, 0.66], 'at': 3.0, 'size': 34}]},
       'split': {'coast': 'sketch/malacca.json', 'items': [
