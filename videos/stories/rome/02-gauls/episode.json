@@ -1,0 +1,592 @@
+{
+ "series": "Ancient Rome",
+ "episode": 2,
+ "part": null,
+ "total_parts": null,
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
+  },
+  "a": {
+   "name": "Theo",
+   "color": "#D9A441"
+  }
+ },
+ "accent": "#D9A441",
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "scene_pad": 0.5,
+ "fade": 1.1,
+ "title": "Did Rome really pay a ransom in gold?",
+ "highlight": [
+  "ransom",
+  "gold?"
+ ],
+ "music": {
+  "mood": "epic",
+  "seed": 72,
+  "drums": true,
+  "level": 0.3
+ },
+ "post": {
+  "caption": "Ancient Rome, episode 2: the Gauls beat Rome at the Allia, the geese of Juno, a ransom of 1,000 pounds of gold and \"Vae victis\". Images: public domain / CC0. Map data: Natural Earth.",
+  "hashtags": [
+   "history",
+   "rome",
+   "ancientrome",
+   "gauls",
+   "celts",
+   "vaevictis",
+   "shorts"
+  ]
+ },
+ "clips": {
+  "globe": "sketch/globe_in.mp4",
+  "vae": "sketch/vae_hf.mp4"
+ },
+ "images": {
+  "geese": {
+   "file": "img/geese_qwen.jpg",
+   "credit": "Illustration: the geese of Juno wake the Capitol (AI-generated, Qwen-Image)",
+   "where": "History Sketches"
+  },
+  "sack": {
+   "file": "img/sack_qwen.jpg",
+   "credit": "Illustration: the Gauls burn Rome, 390 BC (AI-generated, Qwen-Image)",
+   "where": "History Sketches"
+  }
+ },
+ "sketches": {
+  "today": {
+   "coast": "sketch/latium.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.6
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       12.24,
+       41.74
+      ],
+      [
+       12.38,
+       41.8
+      ],
+      [
+       12.47,
+       41.88
+      ],
+      [
+       12.49,
+       41.95
+      ],
+      [
+       12.53,
+       42.1
+      ],
+      [
+       12.58,
+       42.4
+      ]
+     ],
+     "at": 0.8,
+     "dur": 1.4,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "label",
+     "text": "Tiber",
+     "pos": [
+      12.68,
+      42.2
+     ],
+     "at": 1.6,
+     "size": 44,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      12.483,
+      41.893
+     ],
+     "label": "Capitoline Hill",
+     "lx": -25,
+     "ly": -45,
+     "lalign": "right",
+     "at": 2.0
+    },
+    {
+     "kind": "text",
+     "text": "Rome's city hall today",
+     "pos": [
+      0.5,
+      0.62
+     ],
+     "at": 3.2,
+     "size": 50
+    }
+   ]
+  },
+  "gauls": {
+   "coast": "sketch/italy.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        11.6,
+        44.2
+       ],
+       [
+        12.6,
+        44.1
+       ],
+       [
+        13.6,
+        43.6
+       ],
+       [
+        13.9,
+        43.2
+       ],
+       [
+        12.9,
+        42.9
+       ],
+       [
+        12.2,
+        43.3
+       ],
+       [
+        11.5,
+        43.8
+       ]
+      ]
+     ],
+     "color": "#2f6b3a",
+     "label": "SENONES",
+     "labelPos": [
+      13.4,
+      44.5
+     ],
+     "at": 0.4,
+     "dur": 1.2
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      12.49,
+      41.89
+     ],
+     "label": "Rome",
+     "lx": -25,
+     "ly": 45,
+     "lalign": "right",
+     "at": 1.4
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      12.6,
+      43.1
+     ],
+     "to": [
+      12.55,
+      42.1
+     ],
+     "bend": 0.15,
+     "at": 2.2,
+     "color": "#2f6b3a"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      12.53,
+      42.03
+     ],
+     "label": "Allia",
+     "lx": 30,
+     "ly": -40,
+     "at": 3.6
+    }
+   ]
+  },
+  "wall": {
+   "coast": "sketch/latium.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "circle",
+     "pos": [
+      12.49,
+      41.895
+     ],
+     "r": 70,
+     "at": 0.4,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "new stone wall, ~11 km",
+     "pos": [
+      12.5,
+      41.66
+     ],
+     "at": 1.6,
+     "size": 46,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      12.501,
+      41.901
+     ],
+     "label": "Termini station",
+     "lx": 30,
+     "ly": -45,
+     "at": 2.8
+    }
+   ]
+  },
+  "borders": {
+   "coast": "sketch/italy.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        12.2,
+        41.75
+       ],
+       [
+        12.35,
+        42.15
+       ],
+       [
+        12.75,
+        42.1
+       ],
+       [
+        13.0,
+        41.8
+       ],
+       [
+        12.8,
+        41.55
+       ],
+       [
+        12.4,
+        41.6
+       ]
+      ]
+     ],
+     "style": "faint",
+     "at": 0.3,
+     "dur": 1.0
+    },
+    {
+     "kind": "label",
+     "text": "c. 390 BC",
+     "pos": [
+      11.2,
+      41.6
+     ],
+     "at": 1.0,
+     "size": 44
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        10.2,
+        43.95
+       ],
+       [
+        12.6,
+        44.1
+       ],
+       [
+        14.0,
+        43.0
+       ],
+       [
+        16.5,
+        41.9
+       ],
+       [
+        18.6,
+        40.4
+       ],
+       [
+        18.6,
+        39.5
+       ],
+       [
+        16.8,
+        37.7
+       ],
+       [
+        15.4,
+        37.7
+       ],
+       [
+        15.5,
+        38.9
+       ],
+       [
+        14.5,
+        40.5
+       ],
+       [
+        12.0,
+        41.4
+       ],
+       [
+        10.8,
+        42.4
+       ]
+      ]
+     ],
+     "at": 2.4,
+     "dur": 1.6,
+     "label": "Rome, 264 BC",
+     "labelPos": [
+      15.6,
+      42.9
+     ]
+    }
+   ]
+  },
+  "siege": {
+   "items": [
+    {
+     "kind": "fort",
+     "pos": [
+      0.5,
+      0.3
+     ],
+     "size": 70,
+     "at": 0.2
+    },
+    {
+     "kind": "text",
+     "text": "the Capitol under siege",
+     "pos": [
+      0.5,
+      0.4
+     ],
+     "at": 0.8,
+     "size": 52
+    },
+    {
+     "kind": "counter",
+     "pos": [
+      0.5,
+      0.53
+     ],
+     "from": 0,
+     "to": 7,
+     "suffix": " months",
+     "at": 1.4,
+     "dur": 2.0,
+     "size": 110
+    },
+    {
+     "kind": "text",
+     "text": "hunger and disease on both sides",
+     "pos": [
+      0.5,
+      0.64
+     ],
+     "at": 3.6,
+     "size": 48,
+     "color": "#b3261e"
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "globe",
+   "text": "Did Rome really pay a ransom in gold?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "It did. And Romans never forgot it. Later, they marked the day of the defeat as an unlucky day."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "today",
+   "date": "Today",
+   "place": "Rome, Italy",
+   "text": "So where did it happen?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Right in the city. The last Romans held out on the Capitoline Hill, where Rome's city hall stands today."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "gauls",
+   "text": "Who were they fighting?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Gauls. A Celtic tribe called the Senones, from northeast Italy, led by a chief named Brennus."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "date": "390 BC",
+   "place": "River Allia",
+   "text": "In 390 BC, about sixteen kilometres north of Rome, at the river Allia, they crushed the Roman army.",
+   "say": "In three ninety BC, about sixteen kilometres north of Rome, at the river Allia, they crushed the Roman army."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "sack",
+   "text": "And the city?",
+   "move": {
+    "from": [
+     0.5,
+     0.55,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.45,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Most of it fell. The Gauls burned houses and temples. Only the Capitoline Hill held out."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "geese",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.45,
+     1.3
+    ]
+   },
+   "text": "Is it true geese saved them?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "That's the story. One night the Gauls climbed the cliff, and the sacred geese of the goddess Juno woke the defenders."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "siege",
+   "text": "So why pay at all?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "After seven months, both sides were hungry and sick. Rome agreed to pay a thousand pounds of gold."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "vae",
+   "text": "When the Romans said the weights were rigged, Brennus threw his sword on the scale and said: Vae victis. Woe to the conquered.",
+   "say": "When the Romans said the weights were rigged, Brennus threw his sword on the scale and said: Why, victis. Woe to the conquered."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "wall",
+   "date": "378 BC",
+   "place": "Rome",
+   "text": "What did Rome do next?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "It built a stone wall around the city, about eleven kilometres long. Pieces of it still stand next to Termini station."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "borders",
+   "date": "264 BC",
+   "place": "Italy",
+   "text": "And did it work?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "No foreign army took Rome again for eight hundred years. And by 264 BC, Rome ruled almost all of Italy.",
+   "say": "No foreign army took Rome again for eight hundred years. And by two sixty-four BC, Rome ruled almost all of Italy."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Next time: Hannibal brings elephants over the Alps. Like the video and follow History Sketches so you don't miss it."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And tell us in the comments: would you have paid?"
+  },
+  {
+   "type": "end",
+   "text": "Next: Hannibal",
+   "sub": "Follow History Sketches"
+  }
+ ]
+}

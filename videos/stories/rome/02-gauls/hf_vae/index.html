@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=1080, height=1920" />
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+@font-face{font-family:'SketchHand';src:url('assets/BradleyHandBold.ttf') format('truetype');font-weight:700}
+:root{--paper:#efe4c9;--ink:#2a2119;--red:#b3261e;--gold:#8a6420;--hand:'SketchHand',cursive}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--paper)}
+#root{position:relative;width:1080px;height:1920px;font-family:var(--hand);color:var(--ink);
+ background:radial-gradient(ellipse at 50% 50%,rgba(0,0,0,0) 45%,rgba(70,45,15,.45) 100%),var(--paper)}
+#scale{position:absolute;left:140px;top:400px;overflow:visible;width:760px;height:560px}
+#scale path,#scale line,#scale circle{fill:none;stroke:var(--ink);stroke-width:6;stroke-linecap:round;stroke-linejoin:round}
+.draw{stroke-dasharray:1400;stroke-dashoffset:1400}
+#gold rect{fill:#d9a441;stroke:var(--gold);stroke-width:4}
+#sword path{fill:#9aa3ad;stroke:var(--ink);stroke-width:5}
+#lbl{position:absolute;left:140px;top:960px;width:760px;text-align:center;font-size:48px;font-weight:700;color:var(--gold)}
+#vae{position:absolute;left:110px;right:180px;top:1040px;text-align:center;font-family:'Helvetica Neue',Arial,sans-serif;font-weight:900;font-size:96px;color:var(--red);letter-spacing:3px;opacity:0}
+#sub{position:absolute;left:110px;right:180px;top:1170px;text-align:center;font-size:52px;font-weight:700;opacity:0}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="11" data-width="1080" data-height="1920">
+ <div id="scene" class="clip" data-start="0" data-duration="11" data-track-index="0" style="position:absolute;inset:0">
+  <svg id="scale" viewBox="0 0 760 560">
+   <line class="draw" x1="380" y1="80" x2="380" y2="520"/>
+   <path class="draw" d="M250 520 L510 520"/>
+   <circle class="draw" cx="380" cy="80" r="14"/>
+   <g id="beam"><line class="draw" x1="90" y1="110" x2="670" y2="110"/></g>
+     <g id="lp"><path class="draw" d="M90 110 L40 300 M90 110 L140 300 M20 300 Q90 350 160 300 Z"/>
+       <g id="gold"><rect x="48" y="262" width="40" height="30" rx="4"/><rect x="92" y="262" width="40" height="30" rx="4"/><rect x="70" y="232" width="40" height="30" rx="4"/></g></g>
+     <g id="rp"><path class="draw" d="M670 110 L620 300 M670 110 L720 300 M600 300 Q670 350 740 300 Z"/>
+       <g id="sword"><path d="M640 8 L700 8 L700 20 L676 20 L676 278 L670 300 L664 278 L664 20 L640 20 Z"/></g></g>
+  </svg>
+  <div id="lbl">1,000 pounds of gold</div>
+  <div id="vae">VAE VICTIS</div>
+  <div id="sub">"Woe to the conquered"</div>
+ </div>
+</div>
+<script>
+window.__timelines = window.__timelines || {};
+const tl = gsap.timeline({ paused: true });
+tl.to(".draw", { strokeDashoffset: 0, duration: 1.6, ease: "power1.inOut", stagger: 0.12 }, 0.1);
+tl.from("#gold rect", { y: -120, opacity: 0, duration: 0.5, ease: "bounce.out", stagger: 0.25 }, 1.6);
+tl.from("#lbl", { opacity: 0, y: 20, duration: 0.5 }, 2.4);
+tl.to("#beam", { rotation: -6, svgOrigin: "380 110", duration: 0.6, ease: "power2.out" }, 2.4);
+tl.to("#lp", { y: 30, duration: 0.6, ease: "power2.out" }, 2.4);
+tl.to("#rp", { y: -30, duration: 0.6, ease: "power2.out" }, 2.4);
+tl.fromTo("#sword", { y: -260, opacity: 0 }, { y: 0, opacity: 1, duration: 0.45, ease: "power3.in" }, 4.4);
+tl.to("#beam", { rotation: 10, svgOrigin: "380 110", duration: 0.5, ease: "back.out(3)" }, 4.85);
+tl.to("#lp", { y: -50, duration: 0.5, ease: "back.out(3)" }, 4.85);
+tl.to("#rp", { y: 50, duration: 0.5, ease: "back.out(3)" }, 4.85);
+tl.fromTo("#vae", { opacity: 0, scale: 1.4 }, { opacity: 1, scale: 1, duration: 0.4, ease: "power3.out" }, 5.6);
+tl.to("#sub", { opacity: 1, duration: 0.6 }, 6.6);
+window.__timelines["main"] = tl;
+tl.seek(0);
+</script></body></html>

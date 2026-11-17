@@ -1,0 +1,272 @@
+{
+  "version": 1,
+  "historyId": "a988d23c-165b-4f59-9c4d-56e16c90490d",
+  "currentRevision": "4b0a9bb0-839f-4889-9612-78210dd35dcc",
+  "pendingChanges": false,
+  "files": {
+    "assets/BradleyHandBold.ttf": {
+      "hash": "b94c10ed01e88fd8dbbee95485d3863a0719520e8637ae5a9a30cf485e18740d",
+      "content": "/Users/canberkasaroglu/.cache/hyperframes/history/a988d23c-165b-4f59-9c4d-56e16c90490d/blobs/b9/b94c10ed01e88fd8dbbee95485d3863a0719520e8637ae5a9a30cf485e18740d"
+    },
+    "hyperframes.json": {
+      "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "content": "/Users/canberkasaroglu/.cache/hyperframes/history/a988d23c-165b-4f59-9c4d-56e16c90490d/blobs/53/53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    "index.html": {
+      "hash": "1ac9babe43ac7beb4e3685b3d1fd8bc8b7a8e7e82425ba709142a87f90a7e975",
+      "content": "/Users/canberkasaroglu/.cache/hyperframes/history/a988d23c-165b-4f59-9c4d-56e16c90490d/blobs/1a/1ac9babe43ac7beb4e3685b3d1fd8bc8b7a8e7e82425ba709142a87f90a7e975"
+    },
+    "meta.json": {
+      "hash": "13b89c7c97355c0b5b66195ab409ae545d60ae36ac8c1a28d81b414ce4bd7392",
+      "content": "/Users/canberkasaroglu/.cache/hyperframes/history/a988d23c-165b-4f59-9c4d-56e16c90490d/blobs/13/13b89c7c97355c0b5b66195ab409ae545d60ae36ac8c1a28d81b414ce4bd7392"
+    },
+    "package.json": {
+      "hash": "87ec8af7e851766471cf52f413620508c8adfb9f29f270d359fc003a1a23f2a8",
+      "content": "/Users/canberkasaroglu/.cache/hyperframes/history/a988d23c-165b-4f59-9c4d-56e16c90490d/blobs/87/87ec8af7e851766471cf52f413620508c8adfb9f29f270d359fc003a1a23f2a8"
+    }
+  },
+  "revisions": {
+    "4b0a9bb0-839f-4889-9612-78210dd35dcc": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794952385227,
+      "endedAt": 1794952385230,
+      "files": {
+        "index.html": {
+          "before": "/Users/canberkasaroglu/.cache/hyperframes/history/a988d23c-165b-4f59-9c4d-56e16c90490d/blobs/38/386947e0066218e00791839adf5f1eebc4a07e2c286bce496d24a7cbc968afaf",
+          "after": "/Users/canberkasaroglu/.cache/hyperframes/history/a988d23c-165b-4f59-9c4d-56e16c90490d/blobs/1a/1ac9babe43ac7beb4e3685b3d1fd8bc8b7a8e7e82425ba709142a87f90a7e975"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": "4b0a9bb0-839f-4889-9612-78210dd35dcc",
+      "id": "bb9fa071-8ed0-49b9-8972-8ca382b0258e"
+    },
+    "revisions": {
+      "4b0a9bb0-839f-4889-9612-78210dd35dcc": [
+        {
+          "id": "bb9fa071-8ed0-49b9-8972-8ca382b0258e",
+          "scope": "project",
+          "report": "/Users/canberkasaroglu/cosmic-run/videos/stories/rome/02-gauls/hf_vae/.hyperframes/artifacts/checks/bb9fa071-8ed0-49b9-8972-8ca382b0258e.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": true,
+              "strict": false,
+              "snapshots": false,
+              "safeZones": [
+                "tiktok",
+                "reels",
+                "shorts"
+              ],
+              "browserGpuMode": "auto",
+              "includeUnmounted": false
+            }
+          },
+          "createdAt": 1794952388047,
+          "contentHash": "a9f0a8ffae776e891a2b5620bacdd98d431592cf602fcbc28b90dbbb0d9e141e",
+          "revision": "4b0a9bb0-839f-4889-9612-78210dd35dcc",
+          "inputFingerprint": "2c9eb72f0588a108dd85229559dcea86cf03a72a943816ea21bd8c468ccb3729",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "id": "d0dc0379-9774-44b3-b34a-7ddddd4bd121",
+        "scope": "project",
+        "report": "/Users/canberkasaroglu/cosmic-run/videos/stories/rome/02-gauls/hf_vae/.hyperframes/artifacts/checks/d0dc0379-9774-44b3-b34a-7ddddd4bd121.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "cache": true,
+            "contrast": true,
+            "craft": true,
+            "strict": false,
+            "snapshots": false,
+            "safeZones": [
+              "tiktok",
+              "reels",
+              "shorts"
+            ],
+            "browserGpuMode": "auto",
+            "includeUnmounted": false
+          }
+        },
+        "createdAt": 1794952350542,
+        "contentHash": "a7f761c49b271db67ce8b1d92f265552f2df1cc2735c69c9e7e77598f345c468",
+        "revision": null,
+        "inputFingerprint": "ce25aae01b983ff7edb9c355eb66d7182a9315aeede53cd9cce20bf8d2599f5b",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": {
+      "revision": "4b0a9bb0-839f-4889-9612-78210dd35dcc",
+      "id": "3ac4651a-ccbd-45d9-a704-87fd640c13ac-2"
+    },
+    "revisions": {
+      "4b0a9bb0-839f-4889-9612-78210dd35dcc": [
+        {
+          "scope": "full",
+          "id": "3ac4651a-ccbd-45d9-a704-87fd640c13ac-0",
+          "image": "/Users/canberkasaroglu/cosmic-run/videos/stories/rome/02-gauls/hf_vae/.hyperframes/artifacts/snapshots/d8a2a375-b575-4559-9e0b-f883a3e46d93/frame-00-at-3.5s.png",
+          "time": 3.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794952400149,
+          "contentHash": "4bec5c1e361a383b69f19dfb3d8030c5ddff01646ff38a941e96a8df724dfba3",
+          "revision": "4b0a9bb0-839f-4889-9612-78210dd35dcc",
+          "inputFingerprint": "2c9eb72f0588a108dd85229559dcea86cf03a72a943816ea21bd8c468ccb3729",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3ac4651a-ccbd-45d9-a704-87fd640c13ac-1",
+          "image": "/Users/canberkasaroglu/cosmic-run/videos/stories/rome/02-gauls/hf_vae/.hyperframes/artifacts/snapshots/d8a2a375-b575-4559-9e0b-f883a3e46d93/frame-01-at-8s.png",
+          "time": 8,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794952400149,
+          "contentHash": "e5963e05db502ea10f4a844caea6ae3cb529b2559e1bd917eb70b32bfbbf59ea",
+          "revision": "4b0a9bb0-839f-4889-9612-78210dd35dcc",
+          "inputFingerprint": "2c9eb72f0588a108dd85229559dcea86cf03a72a943816ea21bd8c468ccb3729",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3ac4651a-ccbd-45d9-a704-87fd640c13ac-2",
+          "image": "/Users/canberkasaroglu/cosmic-run/videos/stories/rome/02-gauls/hf_vae/.hyperframes/artifacts/snapshots/d8a2a375-b575-4559-9e0b-f883a3e46d93/frame-02-at-10.75s.png",
+          "time": 10.75,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794952400149,
+          "contentHash": "e5963e05db502ea10f4a844caea6ae3cb529b2559e1bd917eb70b32bfbbf59ea",
+          "revision": "4b0a9bb0-839f-4889-9612-78210dd35dcc",
+          "inputFingerprint": "2c9eb72f0588a108dd85229559dcea86cf03a72a943816ea21bd8c468ccb3729",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "scope": "full",
+        "id": "e27fc781-9bcc-4cd6-920c-a7bc36a259a7-0",
+        "image": "/Users/canberkasaroglu/cosmic-run/videos/stories/rome/02-gauls/hf_vae/.hyperframes/artifacts/snapshots/5951c4e7-4e8c-4396-989d-c3eb8028fc16/frame-00-at-3s.png",
+        "time": 3,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794952359073,
+        "contentHash": "70240cd84dd48d2d3df85278f061597883b607652daed0d4c9abbebad362231a",
+        "revision": null,
+        "inputFingerprint": "ce25aae01b983ff7edb9c355eb66d7182a9315aeede53cd9cce20bf8d2599f5b",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "e27fc781-9bcc-4cd6-920c-a7bc36a259a7-1",
+        "image": "/Users/canberkasaroglu/cosmic-run/videos/stories/rome/02-gauls/hf_vae/.hyperframes/artifacts/snapshots/5951c4e7-4e8c-4396-989d-c3eb8028fc16/frame-01-at-8s.png",
+        "time": 8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794952359073,
+        "contentHash": "264dd92c671d05607c2ca3e9e453e76cab84ada06a4b1c02796652991e989cf4",
+        "revision": null,
+        "inputFingerprint": "ce25aae01b983ff7edb9c355eb66d7182a9315aeede53cd9cce20bf8d2599f5b",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "e27fc781-9bcc-4cd6-920c-a7bc36a259a7-2",
+        "image": "/Users/canberkasaroglu/cosmic-run/videos/stories/rome/02-gauls/hf_vae/.hyperframes/artifacts/snapshots/5951c4e7-4e8c-4396-989d-c3eb8028fc16/frame-02-at-10.75s.png",
+        "time": 10.75,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794952359073,
+        "contentHash": "264dd92c671d05607c2ca3e9e453e76cab84ada06a4b1c02796652991e989cf4",
+        "revision": null,
+        "inputFingerprint": "ce25aae01b983ff7edb9c355eb66d7182a9315aeede53cd9cce20bf8d2599f5b",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "renders": {
+    "latest": {
+      "id": "5b105dd2-0f12-4cd4-a309-ed81aa87da23",
+      "completedAt": 1794952447917,
+      "output": "/Users/canberkasaroglu/cosmic-run/videos/stories/rome/02-gauls/sketch/vae_hf.mp4",
+      "status": "completed",
+      "revision": "4b0a9bb0-839f-4889-9612-78210dd35dcc"
+    },
+    "retainedRevisions": [
+      "4b0a9bb0-839f-4889-9612-78210dd35dcc"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}
