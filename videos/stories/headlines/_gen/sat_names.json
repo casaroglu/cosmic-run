@@ -1,0 +1,152 @@
+{
+ "01a-hormuz-gate": {
+  "gulfmap": [
+   {
+    "text": "imagery: NASA Blue Marble",
+    "pos": [
+     0.8,
+     0.215
+    ],
+    "size": 24
+   }
+  ],
+  "toll": [
+   {
+    "text": "imagery: NASA Blue Marble",
+    "pos": [
+     0.27,
+     0.66
+    ],
+    "size": 24
+   }
+  ],
+  "poloroute": [
+   {
+    "text": "imagery: NASA Blue Marble",
+    "pos": [
+     0.27,
+     0.66
+    ],
+    "size": 24
+   }
+  ]
+ },
+ "01b-hormuz-oil": {
+  "today": [
+   {
+    "text": "imagery: NASA Blue Marble",
+    "pos": [
+     0.27,
+     0.66
+    ],
+    "size": 24
+   }
+  ]
+ },
+ "02a-suez": {
+  "today": [
+   {
+    "text": "imagery: NASA Blue Marble",
+    "pos": [
+     0.27,
+     0.66
+    ],
+    "size": 24
+   }
+  ],
+  "routes": [
+   {
+    "text": "imagery: NASA Blue Marble",
+    "pos": [
+     0.27,
+     0.66
+    ],
+    "size": 24
+   }
+  ],
+  "end": [
+   {
+    "text": "imagery: NASA Blue Marble",
+    "pos": [
+     0.27,
+     0.66
+    ],
+    "size": 24
+   }
+  ]
+ },
+ "02b-bab-el-mandeb": {
+  "today": [
+   {
+    "text": "imagery: NASA Blue Marble",
+    "pos": [
+     0.27,
+     0.66
+    ],
+    "size": 24
+   }
+  ],
+  "mochamap": [
+   {
+    "text": "imagery: NASA Blue Marble",
+    "pos": [
+     0.27,
+     0.66
+    ],
+    "size": 24
+   }
+  ],
+  "reroute": [
+   {
+    "text": "imagery: NASA Blue Marble",
+    "pos": [
+     0.27,
+     0.66
+    ],
+    "size": 24
+   }
+  ]
+ },
+ "04-greenland": {
+  "today": [
+   {
+    "text": "imagery: NASA Blue Marble",
+    "pos": [
+     0.27,
+     0.66
+    ],
+    "size": 24
+   }
+  ],
+  "norse": [
+   {
+    "text": "imagery: NASA Blue Marble",
+    "pos": [
+     0.27,
+     0.66
+    ],
+    "size": 24
+   }
+  ],
+  "giuk": [
+   {
+    "text": "imagery: NASA Blue Marble",
+    "pos": [
+     0.27,
+     0.66
+    ],
+    "size": 24
+   }
+  ],
+  "end": [
+   {
+    "text": "imagery: NASA Blue Marble",
+    "pos": [
+     0.27,
+     0.66
+    ],
+    "size": 24
+   }
+  ]
+ }
+}
