@@ -3045,10 +3045,9 @@
       36.14
      ],
      "label": "Gibraltar",
-     "lx": -15,
+     "lx": 15,
      "ly": 45,
      "at": 3.0,
-     "lalign": "right",
      "color": "#1f4e8c"
     },
     {

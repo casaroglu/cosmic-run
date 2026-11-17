@@ -4,14 +4,14 @@ E = coast_copy(D, "europe.json"); globe(D, 40.41, -3.69, "Madrid", dist=2.0)
 sk = {
  "start": {"coast": E, "items": [
    {"kind": "coast", "at": 0, "dur": 2.0},
-   {"kind": "territory", "polys": MOD["ESP"] + PORTUGAL + [NL_SOUTH, FRANCHE_COMTE, NAPLES_SICILY, SARDINIA, MILAN], "color": RED, "at": 0.8, "dur": 1.8, "label": "Philip IV, 1623", "labelPos": [-3.6, 40.0]},
+   {"kind": "territory", "polys": MOD["ESP"] + PORTUGAL + [NL_SOUTH, FRANCHE_COMTE, NAPLES_SICILY, SARDINIA, MILAN], "color": RED, "at": 0.8, "dur": 1.8, "label": "Philip IV, 1623", "labelPos": [-2.2, 39.4]},
    {"kind": "label", "text": "+ the Americas", "pos": [-6.0, 52.5], "at": 2.6, "size": 44, "color": RED},
    {"kind": "label", "text": "borders approx.", "pos": [0.8, 0.66], "at": 3.0, "size": 34}]},
  "end": {"coast": E, "items": [
    {"kind": "coast", "at": 0, "dur": 1.2, "pencil": False},
    {"kind": "territory", "polys": MOD["ESP"] + PORTUGAL + [NL_SOUTH, FRANCHE_COMTE, NAPLES_SICILY, SARDINIA, MILAN], "color": RED, "style": "faint", "at": 0.2, "dur": 0.8},
-   {"kind": "territory", "polys": MOD["ESP"] + [NL_SOUTH, FRANCHE_COMTE, NAPLES_SICILY, SARDINIA, MILAN], "color": RED, "at": 1.0, "dur": 1.6, "label": "Philip IV, 1660", "labelPos": [-3.6, 40.0]},
-   {"kind": "territory", "polys": PORTUGAL, "color": GREEN, "at": 2.4, "dur": 1.0, "label": "Portugal, 1640", "labelPos": [-8.3, 39.4]},
+   {"kind": "territory", "polys": MOD["ESP"] + [NL_SOUTH, FRANCHE_COMTE, NAPLES_SICILY, SARDINIA, MILAN], "color": RED, "at": 1.0, "dur": 1.6, "label": "Philip IV, 1660", "labelPos": [-2.2, 39.4]},
+   {"kind": "territory", "polys": PORTUGAL, "color": GREEN, "at": 2.4, "dur": 1.0, "label": "Portugal, 1640", "labelPos": [-4.0, 45.2]},
    {"kind": "territory", "polys": [ROUSSILLON], "color": BLUE, "at": 3.0, "dur": 0.8},
    {"kind": "label", "text": "Roussillon to France, 1659", "pos": [3.4, 43.4], "at": 3.2, "size": 34, "color": BLUE},
    {"kind": "label", "text": "borders approx.", "pos": [0.8, 0.66], "at": 3.0, "size": 34}]},

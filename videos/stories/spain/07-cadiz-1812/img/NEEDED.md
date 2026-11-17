@@ -1,3 +1,3 @@
-# Images for: Written under French siege. It gave the world the word liberal.
+# Images for: Where does the political word liberal come from?
 
 All images present. ✅

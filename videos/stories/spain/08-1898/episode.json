@@ -147,7 +147,7 @@
      ],
      "label": "Cuba",
      "lx": -15,
-     "ly": -40,
+     "ly": 45,
      "at": 1.4,
      "lalign": "right"
     },
@@ -164,21 +164,10 @@
     },
     {
      "kind": "label",
-     "text": "UNITED STATES",
-     "pos": [
-      -98.0,
-      36.0
-     ],
-     "at": 2.4,
-     "size": 46,
-     "color": "#1f4e8c"
-    },
-    {
-     "kind": "label",
      "text": "+ the Philippines, Guam, Pacific islands",
      "pos": [
-      0.5,
-      0.2
+      0.6,
+      0.36
      ],
      "at": 2.8,
      "size": 46,
@@ -277,8 +266,8 @@
      "dur": 1.0,
      "label": "Cuba: independent (US-occupied)",
      "labelPos": [
-      -79.0,
-      25.2
+      -90.0,
+      7.0
      ]
     },
     {
@@ -316,8 +305,8 @@
      "kind": "label",
      "text": "Philippines, Guam: US",
      "pos": [
-      0.5,
-      0.2
+      0.6,
+      0.36
      ],
      "at": 2.6,
      "size": 50,

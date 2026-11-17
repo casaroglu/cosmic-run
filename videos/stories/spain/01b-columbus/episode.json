@@ -102,10 +102,11 @@
       37.23
      ],
      "label": "Palos",
-     "lx": 15,
+     "lx": -15,
      "ly": -40,
      "at": 0.8,
-     "color": "#1f4e8c"
+     "color": "#1f4e8c",
+     "lalign": "right"
     },
     {
      "kind": "route",
@@ -183,9 +184,10 @@
       28.1
      ],
      "label": "Canary Islands",
-     "lx": 15,
+     "lx": -15,
      "ly": 45,
-     "at": 2.4
+     "at": 2.4,
+     "lalign": "right"
     },
     {
      "kind": "marker",
@@ -194,10 +196,9 @@
       24.0
      ],
      "label": "San Salvador",
-     "lx": -15,
+     "lx": 15,
      "ly": -40,
-     "at": 4.6,
-     "lalign": "right"
+     "at": 4.6
     },
     {
      "kind": "text",
@@ -285,10 +286,9 @@
       19.0
      ],
      "label": "Hispaniola",
-     "lx": -15,
+     "lx": 15,
      "ly": 45,
-     "at": 3.0,
-     "lalign": "right"
+     "at": 3.0
     },
     {
      "kind": "label",

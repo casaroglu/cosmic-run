@@ -7,7 +7,7 @@ sk = {
    spain_today(0.8, label="SPAIN", labelPos=[-3.6, 39.6]),
    mk([-6.29, 36.53], "Cádiz", -20, 50, 2.2, lalign="right"),
    {"kind": "circle", "pos": [-6.29, 36.53], "r": 55, "ry": 45, "at": 2.8},
-   {"kind": "label", "text": "Atlantic", "pos": [-8.6, 36.2], "at": 3.0, "size": 42, "color": BLUE},
+   {"kind": "label", "text": "Atlantic", "pos": [-8.6, 35.2], "at": 3.0, "size": 42, "color": BLUE},
    mk([-5.35, 36.14], "Strait of Gibraltar", 20, 50, 3.4, color=BLUE)]},
  "route": {"coast": M, "items": [
    {"kind": "coast", "at": 0, "dur": 1.6},

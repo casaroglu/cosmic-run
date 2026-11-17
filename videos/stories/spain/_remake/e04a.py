@@ -5,7 +5,7 @@ sk = {
  "start": {"coast": M, "items": [
    {"kind": "coast", "at": 0, "dur": 2.0},
    {"kind": "territory", "polys": PHILIP_1556, "color": RED, "at": 0.6, "dur": 1.6, "label": "Spain, 1571", "labelPos": [-4.0, 40.0]},
-   {"kind": "territory", "polys": ottoman("1570"), "color": GREEN, "at": 1.4, "dur": 1.6, "label": "Ottoman Empire", "labelPos": [32.0, 38.8]},
+   {"kind": "territory", "polys": ottoman("1570"), "color": GREEN, "at": 1.4, "dur": 1.6, "label": "Ottoman Empire", "labelPos": [25.0, 38.8]},
    mk([21.83, 38.39], "Lepanto", -15, 45, 2.8, lalign="right"),
    {"kind": "label", "text": "borders approx.", "pos": [0.8, 0.66], "at": 3.0, "size": 34}]},
  "captive": {"coast": M, "items": [
@@ -17,7 +17,7 @@ sk = {
    {"kind": "label", "text": "5 years, 4 escape attempts", "pos": [0.5, 0.64], "at": 3.4, "size": 50, "cps": 22}]},
  "end": {"coast": M, "items": [
    {"kind": "coast", "at": 0, "dur": 1.2, "pencil": False},
-   {"kind": "territory", "polys": PHILIP_1580, "color": RED, "at": 0.4, "dur": 1.6, "label": "Spain, 1616", "labelPos": [-4.0, 40.0]},
+   {"kind": "territory", "polys": PHILIP_1580, "color": RED, "at": 0.4, "dur": 1.6, "label": "Spain, 1616", "labelPos": [-4.0, 38.4]},
    {"kind": "territory", "polys": [NL_NORTH], "color": ORANGE, "style": "faint", "at": 1.6, "dur": 0.8},
    mk([-3.7, 40.42], "Madrid", 15, -40, 2.2),
    {"kind": "label", "text": "borders approx.", "pos": [0.8, 0.66], "at": 3.0, "size": 34}]},

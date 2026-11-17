@@ -1,3 +1,3 @@
-# Images for: A dying king's will started a world war. Britain still keeps the prize.
+# Images for: How did a dying king's will start a world war?
 
 All images present. ✅

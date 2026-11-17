@@ -1,3 +1,3 @@
-# Images for: The most powerful man on Earth gave it all up, and wept.
+# Images for: Why did the most powerful man on Earth give it all up?
 
 All images present. ✅

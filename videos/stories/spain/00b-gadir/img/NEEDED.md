@@ -1,3 +1,3 @@
-# Images for: This Spanish city is older than Rome.
+# Images for: Which city in Western Europe is older than Rome?
 
 All images present. ✅

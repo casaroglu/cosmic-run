@@ -1,3 +1,3 @@
-# Images for: Columbus died convinced he had reached Asia.
+# Images for: Did Columbus know he had found a new continent?
 
 All images present. ✅

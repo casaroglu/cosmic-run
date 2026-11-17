@@ -1,3 +1,3 @@
-# Images for: He ruled four continents. From a desk.
+# Images for: How did one king rule four continents from a desk?
 
 All images present. ✅

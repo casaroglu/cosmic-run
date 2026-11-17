@@ -13,7 +13,7 @@ sk = {
  "end": {"coast": C, "items": [
    {"kind": "coast", "at": 0, "dur": 1.2, "pencil": False},
    {"kind": "territory", "polys": [CORDOBA_929], "color": GREEN, "style": "faint", "at": 0.3, "dur": 1.0, "label": "taifa kingdoms, 1031", "labelPos": [-4.4, 38.6]},
-   *[mk(p, n, 15, -35, 1.2 + i * 0.3, lsize=34, color=GREEN) for i, (p, n) in enumerate(TAIFAS)],
+   *[mk(p, n, *{"Almería": (15, 45)}.get(n, (15, -35)), 1.2 + i * 0.3, lsize=34, color=GREEN) for i, (p, n) in enumerate(TAIFAS)],
    {"kind": "label", "text": "borders approx.", "pos": [0.8, 0.66], "at": 3.0, "size": 34}]},
 }
 img = json.load(open(os.path.join(D, "episode.json")))["images"]

@@ -15,7 +15,7 @@ sk = {
    {"kind": "territory", "polys": MOD["ESP"], "color": RED, "at": 1.0, "dur": 1.4, "label": "Spain, 1714", "labelPos": [-3.6, 40.0]},
    {"kind": "territory", "polys": [NL_SOUTH, NAPLES_SICILY, SARDINIA, MILAN], "color": PURPLE, "at": 2.2, "dur": 1.0},
    {"kind": "label", "text": "to Austria", "pos": [14.6, 43.2], "at": 2.6, "size": 40, "color": PURPLE},
-   mk(GIBRALTAR, "Gibraltar", -15, 45, 3.0, lalign="right", color=BLUE),
+   mk(GIBRALTAR, "Gibraltar", 15, 45, 3.0, color=BLUE),
    {"kind": "territory", "polys": [MINORCA], "color": BLUE, "at": 3.2, "dur": 0.6},
    {"kind": "label", "text": "Minorca", "pos": [5.6, 39.6], "at": 3.4, "size": 34, "color": BLUE},
    {"kind": "label", "text": "borders approx.", "pos": [0.8, 0.66], "at": 3.0, "size": 34}]},

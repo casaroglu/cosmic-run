@@ -9,11 +9,11 @@ sk = {
    {"kind": "label", "text": "borders approx.", "pos": [0.8, 0.66], "at": 3.0, "size": 34}]},
  "votes": {"items": [
    {"kind": "text", "text": "the road to democracy", "pos": [0.5, 0.2], "at": 0.1, "size": 60},
-   {"kind": "timeline", "pos": [0.08, 0.45], "from": 1975, "to": 1982, "at": 0.4, "dur": 1.6,
+   {"kind": "timeline", "pos": [0.2, 0.45], "w": 760, "from": 1975, "to": 1982, "at": 0.4, "dur": 1.6,
     "ticks": [{"v": 1975, "label": "Franco dies"}, {"v": 1977, "label": "first free vote"}, {"v": 1978, "label": "constitution"}, {"v": 1981, "label": "coup fails"}]}]},
  "end": {"coast": E, "items": [
    {"kind": "coast", "at": 0, "dur": 1.2, "pencil": False},
-   {"kind": "territory", "polys": MOD["ESP"], "color": RED, "at": 0.6, "dur": 1.6, "label": "Kingdom of Spain, a democracy", "labelPos": [-3.6, 40.0]},
+   {"kind": "territory", "polys": MOD["ESP"], "color": RED, "at": 0.6, "dur": 1.6, "label": "Kingdom of Spain, a democracy", "labelPos": [2.0, 38.0]},
    {"kind": "label", "text": "joins the European Community, 1986", "pos": [0.5, 0.2], "at": 2.4, "size": 48, "color": BLUE, "cps": 22},
    {"kind": "label", "text": "borders approx.", "pos": [0.8, 0.66], "at": 3.0, "size": 34}]},
 }

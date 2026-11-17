@@ -1,3 +1,3 @@
-# Images for: He inherited half the world at sixteen. He couldn't speak its language.
+# Images for: Who inherited half the world at sixteen?
 
 All images present. ✅

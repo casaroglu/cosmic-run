@@ -23,7 +23,7 @@ sk = {
    {"kind": "coast", "at": 0, "dur": 1.0, "pencil": False},
    {"kind": "text", "text": "where Spain's Jews went", "pos": [0.5, 0.22], "at": 0.3, "size": 54, "color": RED, "cps": 22},
    *[{"kind": "route", "pts": [[-4.0, 38.5], p], "bend": 0.15, "at": 0.8 + i * 0.4, "dur": 1.0, "color": RED} for i, (p, n) in enumerate(SEPH[:4])],
-   *[mk(p, n, 15, -35, 1.6 + i * 0.4, lsize=36) for i, (p, n) in enumerate(SEPH[:4])]]},
+   *[mk(p, n, *{"Istanbul": (-15, -35), "Thessaloniki": (-15, 45)}.get(n, (15, -35)), 1.6 + i * 0.4, lsize=36, **({"lalign": "right"} if n in ("Istanbul", "Thessaloniki") else {})) for i, (p, n) in enumerate(SEPH[:4])]]},
 }
 img = json.load(open(os.path.join(D, "episode.json")))["images"]
 beats = [

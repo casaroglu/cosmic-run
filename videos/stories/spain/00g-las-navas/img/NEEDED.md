@@ -1,3 +1,3 @@
-# Images for: Three kings. One charge. Spain's future decided in a single day.
+# Images for: Which single day decided the future of Spain?
 
 All images present. ✅

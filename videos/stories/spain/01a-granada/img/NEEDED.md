@@ -1,3 +1,3 @@
-# Images for: 1492 began with a surrender and a promise. The promise didn't last.
+# Images for: How did 1492 begin with a surrender and a broken promise?
 
 All images present. ✅

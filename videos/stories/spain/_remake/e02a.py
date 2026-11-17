@@ -9,7 +9,7 @@ sk = {
    {"kind": "territory", "polys": SPAIN_1519, "color": RED, "at": 1.4, "dur": 1.2, "label": "Spain", "labelPos": [-3.6, 40.0]},
    {"kind": "territory", "polys": [NETHERLANDS, FRANCHE_COMTE], "color": RED, "at": 2.0, "dur": 1.0},
    {"kind": "territory", "polys": [NAPLES_SICILY, SARDINIA], "color": RED, "at": 2.4, "dur": 1.0, "label": "Naples & Sicily", "labelPos": [16.0, 39.0]},
-   {"kind": "label", "text": "+ the Americas", "pos": [-6.0, 52.5], "at": 3.2, "size": 44, "color": RED},
+   {"kind": "label", "text": "+ the Americas", "pos": [0.2, 0.42], "at": 3.2, "size": 44, "color": RED},
    {"kind": "label", "text": "Charles's inheritance, 1516", "pos": [0.5, 0.2], "at": 0.4, "size": 54, "color": INK},
    {"kind": "label", "text": "borders approx.", "pos": [0.8, 0.66], "at": 3.0, "size": 34}]},
  "end": {"coast": E, "items": [

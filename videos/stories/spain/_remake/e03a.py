@@ -16,7 +16,7 @@ sk = {
    {"kind": "coast", "at": 0, "dur": 1.2, "pencil": False},
    {"kind": "territory", "polys": PHILIP_1556, "color": RED, "style": "faint", "at": 0.2, "dur": 0.8},
    {"kind": "territory", "polys": PHILIP_1580, "color": RED, "at": 1.0, "dur": 1.8, "label": "Philip II, 1580", "labelPos": [-3.6, 40.0]},
-   {"kind": "label", "text": "+ Portugal", "pos": [-8.2, 37.6], "at": 2.4, "size": 40, "color": RED},
+   {"kind": "label", "text": "+ Portugal", "pos": [-6.0, 35.4], "at": 2.4, "size": 40, "color": RED},
    {"kind": "label", "text": "+ two empires overseas", "pos": [0.5, 0.2], "at": 2.8, "size": 52, "color": RED},
    {"kind": "label", "text": "borders approx.", "pos": [0.8, 0.66], "at": 3.0, "size": 34}]},
 }

@@ -7,7 +7,7 @@ sk = {
    {"kind": "territory", "polys": [FRANCE_1810], "color": BLUE, "at": 0.8, "dur": 1.6, "label": "Napoleon's France", "labelPos": [2.4, 46.8]},
    {"kind": "territory", "polys": MOD["ESP"], "color": RED, "style": "faint", "at": 1.6, "dur": 1.2, "label": "Spain", "labelPos": [-3.6, 40.0]},
    {"kind": "route", "pts": [[-1.6, 43.3], [-3.7, 41.6], [-6.5, 40.5], [-9.1, 38.8]], "at": 2.4, "dur": 1.8, "color": BLUE},
-   {"kind": "label", "text": "French troops, 1807", "pos": [-6.0, 41.9], "at": 3.4, "size": 38, "color": BLUE},
+   {"kind": "label", "text": "French troops, 1807", "pos": [-3.0, 43.6], "at": 3.4, "size": 38, "color": BLUE},
    {"kind": "label", "text": "borders approx.", "pos": [0.8, 0.66], "at": 3.0, "size": 34}]},
  "end": {"coast": E, "items": [
    {"kind": "coast", "at": 0, "dur": 1.2, "pencil": False},

@@ -4,7 +4,7 @@ C = coast_copy(D); globe(D, 40.42, -3.70, "Madrid", dist=1.8)
 sk = {
  "start": {"coast": C, "items": [
    {"kind": "coast", "at": 0, "dur": 2.0},
-   spain_today(0.8, color=PURPLE, label="Second Republic, 1931", labelPos=[-3.6, 40.4]),
+   spain_today(0.8, color=PURPLE, label="Second Republic, 1931", labelPos=[-3.6, 38.9]),
    mk([-3.70, 40.42], "Madrid", 15, -40, 2.2),
    {"kind": "label", "text": "borders approx.", "pos": [0.8, 0.66], "at": 3.0, "size": 34}]},
  "end": {"coast": C, "items": [

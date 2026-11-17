@@ -1,3 +1,3 @@
-# Images for: A little girl looked up. The experts called her father a fraud.
+# Images for: Why did experts call a little girl's discovery a fake?
 
 All images present. ✅

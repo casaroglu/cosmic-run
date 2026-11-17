@@ -1,3 +1,3 @@
-# Images for: A dictator chose a king. The king gave Spain democracy.
+# Images for: How did a dictator's chosen heir give Spain democracy?
 
 All images present. ✅

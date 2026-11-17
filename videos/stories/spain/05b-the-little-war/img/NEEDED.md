@@ -1,3 +1,3 @@
-# Images for: Napoleon's army lost to a country. And English got a new word.
+# Images for: Which English word comes from Spain's war against Napoleon?
 
 All images present. ✅

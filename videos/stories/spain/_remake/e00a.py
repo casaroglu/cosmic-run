@@ -5,14 +5,14 @@ sk = {
  "today": {"coast": C, "items": [
    {"kind": "coast", "at": 0, "dur": 2.0},
    spain_today(0.8, label="SPAIN", labelPos=[-3.6, 39.6]),
-   mk([-4.12, 43.38], "Altamira", 20, -40, 2.2),
+   mk([-4.12, 43.38], "Altamira", -20, 50, 2.2, lalign="right"),
    mk([-3.81, 43.46], "Santander", 20, 45, 2.6, color=BLUE),
-   {"kind": "label", "text": "Bay of Biscay", "pos": [-5.5, 44.0], "at": 3.0, "size": 42, "color": BLUE},
+   {"kind": "label", "text": "Bay of Biscay", "pos": [-1.0, 44.05], "at": 3.0, "size": 42, "color": BLUE},
    {"kind": "circle", "pos": [-4.12, 43.38], "r": 55, "ry": 45, "at": 3.4}]},
  "age": {"items": [
    {"kind": "text", "text": "How old?", "pos": [0.5, 0.22], "at": 0.1, "size": 64},
    {"kind": "counter", "pos": [0.5, 0.36], "from": 0, "to": 35000, "suffix": "+ years", "at": 0.4, "dur": 2.0, "size": 104},
-   {"kind": "timeline", "pos": [0.08, 0.52], "from": -35000, "to": 2000, "at": 1.0, "dur": 1.6,
+   {"kind": "timeline", "pos": [0.2, 0.52], "w": 760, "from": -35000, "to": 2000, "at": 1.0, "dur": 1.6,
     "ticks": [{"v": -35000, "year": "35,000 years ago", "label": "oldest marks"}, {"v": 1879, "year": "1879", "label": "found"}]}]},
 }
 img = json.load(open(os.path.join(D, "episode.json")))["images"]

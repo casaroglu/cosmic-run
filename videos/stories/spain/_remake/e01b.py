@@ -5,11 +5,11 @@ ROUTE = [[-6.9, 37.2], [-12.0, 32.0], [-17.2, 28.1], [-35.0, 27.0], [-55.0, 25.5
 sk = {
  "voyage": {"coast": A, "items": [
    {"kind": "coast", "at": 0, "dur": 1.8},
-   mk([-6.89, 37.23], "Palos", 15, -40, 0.8, color=BLUE),
+   mk([-6.89, 37.23], "Palos", -15, -40, 0.8, color=BLUE, lalign="right"),
    {"kind": "route", "pts": ROUTE, "at": 1.4, "dur": 3.2, "color": RED},
    {"kind": "ships", "pts": ROUTE, "n": 3, "once": True, "gap": 0.5, "dur": 3.6, "icon": "galleon", "size": 40, "at": 1.4, "color": RED},
-   mk([-17.2, 28.1], "Canary Islands", 15, 45, 2.4),
-   mk([-74.5, 24.0], "San Salvador", -15, -40, 4.6, lalign="right"),
+   mk([-17.2, 28.1], "Canary Islands", -15, 45, 2.4, lalign="right"),
+   mk([-74.5, 24.0], "San Salvador", 15, -40, 4.6),
    {"kind": "text", "text": "3 Aug – 12 Oct 1492", "pos": [0.5, 0.22], "at": 1.0, "size": 58, "color": RED, "cps": 20}]},
  "end": {"coast": A, "items": [
    {"kind": "coast", "at": 0, "dur": 1.2, "pencil": False},
@@ -17,7 +17,7 @@ sk = {
    {"kind": "text", "text": "Treaty of Tordesillas, 1494", "pos": [0.5, 0.2], "at": 0.6, "size": 54, "color": RED, "cps": 22},
    {"kind": "label", "text": "SPAIN", "pos": [-66.0, 31.0], "at": 2.0, "size": 54, "color": BLUE},
    {"kind": "label", "text": "PORTUGAL", "pos": [-30.0, 31.0], "at": 2.4, "size": 50, "color": GREEN},
-   mk([-70.0, 19.0], "Hispaniola", -15, 45, 3.0, lalign="right"),
+   mk([-70.0, 19.0], "Hispaniola", 15, 45, 3.0),
    {"kind": "label", "text": "line approx. 46°W", "pos": [0.8, 0.66], "at": 3.0, "size": 34}]},
 }
 img = json.load(open(os.path.join(D, "episode.json")))["images"]

@@ -1,3 +1,3 @@
-# Images for: A small Spanish town chose death over surrender to Rome.
+# Images for: Why did a town in Spain choose death over surrender to Rome?
 
 All images present. ✅

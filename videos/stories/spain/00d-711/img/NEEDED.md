@@ -1,3 +1,3 @@
-# Images for: In 711 a king vanished in battle. Spain changed for eight centuries.
+# Images for: How did Spain become Muslim in just a few years?
 
 All images present. ✅

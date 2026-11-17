@@ -981,9 +981,10 @@
     {
      "kind": "timeline",
      "pos": [
-      0.08,
+      0.2,
       0.45
      ],
+     "w": 760,
      "from": 1975,
      "to": 1982,
      "at": 0.4,
@@ -1851,8 +1852,8 @@
      "dur": 1.6,
      "label": "Kingdom of Spain, a democracy",
      "labelPos": [
-      -3.6,
-      40.0
+      2.0,
+      38.0
      ]
     },
     {

@@ -19,7 +19,7 @@ sk = {
    {"kind": "territory", "polys": [NAT_NOV36], "color": BLUE, "style": "faint", "at": 0.2, "dur": 0.6},
    spain_today(1.0, color=BLUE, label="Franco's Spain, April 1939", labelPos=[-3.6, 40.4]),
    {"kind": "arrow", "from": [2.2, 41.9], "to": [2.8, 43.0], "at": 2.2, "color": RED},
-   {"kind": "label", "text": "refugees to France", "pos": [3.4, 43.5], "at": 2.6, "size": 36, "color": RED},
+   {"kind": "label", "text": "refugees to France", "pos": [1.0, 43.9], "at": 2.6, "size": 36, "color": RED},
    {"kind": "label", "text": "borders approx.", "pos": [0.8, 0.66], "at": 3.0, "size": 34}]},
 }
 img = json.load(open(os.path.join(D, "episode.json")))["images"]

@@ -1,3 +1,3 @@
-# Images for: Sold as a slave. Then he wrote Don Quixote.
+# Images for: Who was sold as a slave, then wrote Don Quixote?
 
 All images present. ✅

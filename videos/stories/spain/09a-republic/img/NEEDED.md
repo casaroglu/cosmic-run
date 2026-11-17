@@ -1,3 +1,3 @@
-# Images for: Spain voted out its king. Five years later, it was at war with itself.
+# Images for: How did Spain go from a new republic to civil war in five years?
 
 All images present. ✅

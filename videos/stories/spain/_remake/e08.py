@@ -5,16 +5,15 @@ sk = {
  "start": {"coast": A, "items": [
    {"kind": "coast", "at": 0, "dur": 2.0},
    {"kind": "territory", "polys": [CUBA, PUERTO_RICO], "color": RED, "at": 0.8, "dur": 1.2},
-   mk([-82.38, 23.13], "Cuba", -15, -40, 1.4, lalign="right"), mk([-66.1, 18.4], "Puerto Rico", 15, -40, 1.8),
-   {"kind": "label", "text": "UNITED STATES", "pos": [-98.0, 36.0], "at": 2.4, "size": 46, "color": BLUE},
-   {"kind": "label", "text": "+ the Philippines, Guam, Pacific islands", "pos": [0.5, 0.2], "at": 2.8, "size": 46, "color": RED},
+   mk([-82.38, 23.13], "Cuba", -15, 45, 1.4, lalign="right"), mk([-66.1, 18.4], "Puerto Rico", 15, -40, 1.8),
+   {"kind": "label", "text": "+ the Philippines, Guam, Pacific islands", "pos": [0.6, 0.36], "at": 2.8, "size": 46, "color": RED},
    {"kind": "label", "text": "Spain overseas, 1895 (approx.)", "pos": [0.72, 0.66], "at": 3.0, "size": 34}]},
  "end": {"coast": A, "items": [
    {"kind": "coast", "at": 0, "dur": 1.2, "pencil": False},
    {"kind": "territory", "polys": [CUBA, PUERTO_RICO], "color": RED, "style": "faint", "at": 0.2, "dur": 0.6},
-   {"kind": "territory", "polys": [CUBA], "color": GREEN, "at": 1.0, "dur": 1.0, "label": "Cuba: independent (US-occupied)", "labelPos": [-79.0, 25.2]},
+   {"kind": "territory", "polys": [CUBA], "color": GREEN, "at": 1.0, "dur": 1.0, "label": "Cuba: independent (US-occupied)", "labelPos": [-90.0, 7.0]},
    {"kind": "territory", "polys": [PUERTO_RICO], "color": BLUE, "at": 1.8, "dur": 0.8, "label": "Puerto Rico: US", "labelPos": [-66.0, 16.6]},
-   {"kind": "label", "text": "Philippines, Guam: US", "pos": [0.5, 0.2], "at": 2.6, "size": 50, "color": BLUE, "cps": 22},
+   {"kind": "label", "text": "Philippines, Guam: US", "pos": [0.6, 0.36], "at": 2.6, "size": 50, "color": BLUE, "cps": 22},
    {"kind": "label", "text": "1899, borders approx.", "pos": [0.76, 0.66], "at": 3.0, "size": 34}]},
 }
 img = json.load(open(os.path.join(D, "episode.json")))["images"]
