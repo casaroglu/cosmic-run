@@ -1,0 +1,624 @@
+{
+ "series": "Ancient Rome",
+ "episode": 1,
+ "part": null,
+ "total_parts": null,
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
+  },
+  "a": {
+   "name": "Theo",
+   "color": "#D9A441"
+  }
+ },
+ "accent": "#D9A441",
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "scene_pad": 0.5,
+ "fade": 1.1,
+ "title": "Was Rome really founded by twins raised by a wolf?",
+ "highlight": [
+  "Rome",
+  "wolf?"
+ ],
+ "music": {
+  "mood": "epic",
+  "seed": 71,
+  "drums": true,
+  "level": 0.3
+ },
+ "post": {
+  "caption": "Ancient Rome, episode 1: the she-wolf legend, the village on the Palatine Hill and the end of the kings in 509 BC. Images: public domain / CC0. Map data: Natural Earth.",
+  "hashtags": [
+   "history",
+   "rome",
+   "ancientrome",
+   "romulus",
+   "romulusandremus",
+   "italy",
+   "shorts"
+  ]
+ },
+ "clips": {
+  "globe": "sketch/globe_in.mp4",
+  "kings_hf": "sketch/kings_hf.mp4"
+ },
+ "images": {
+  "rubens": {
+   "file": "img/rubens.jpg",
+   "search": "Rubens Romulus and Remus Capitoline",
+   "prefer": "Rubens",
+   "credit": "Peter Paul Rubens, Romulus and Remus (c. 1615)",
+   "where": "Capitoline Museums, public domain"
+  },
+  "brutus": {
+   "file": "img/brutus.jpg",
+   "search": "Gavin Hamilton Oath of Brutus",
+   "prefer": "Hamilton",
+   "credit": "Gavin Hamilton, The Death of Lucretia (Brutus swears to drive out the kings), 1763–67 (detail)",
+   "where": "Yale Center for British Art, public domain"
+  },
+  "village_ai": {
+   "file": "img/village_qwen.jpg",
+   "credit": "Illustration of a Palatine hut village, c. 750 BC (AI-generated, Qwen-Image)",
+   "where": "History Sketches"
+  }
+ },
+ "sketches": {
+  "today": {
+   "coast": "sketch/italy.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 2.0
+    },
+    {
+     "kind": "label",
+     "text": "ITALY",
+     "pos": [
+      15.3,
+      41.4
+     ],
+     "at": 1.2,
+     "size": 64
+    },
+    {
+     "kind": "label",
+     "text": "Mediterranean",
+     "pos": [
+      10.2,
+      38.6
+     ],
+     "at": 1.4,
+     "size": 46,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      12.49,
+      41.89
+     ],
+     "label": "Rome",
+     "lx": -25,
+     "ly": 45,
+     "lalign": "right",
+     "at": 1.8
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       12.25,
+       41.74
+      ],
+      [
+       12.47,
+       41.88
+      ],
+      [
+       12.52,
+       42.15
+      ],
+      [
+       12.45,
+       42.6
+      ],
+      [
+       12.25,
+       43.0
+      ]
+     ],
+     "at": 2.4,
+     "dur": 1.4,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "label",
+     "text": "Tiber",
+     "pos": [
+      12.95,
+      42.7
+     ],
+     "at": 3.0,
+     "size": 44,
+     "color": "#1f4e8c"
+    }
+   ]
+  },
+  "hills": {
+   "coast": "sketch/latium.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.6
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       12.24,
+       41.74
+      ],
+      [
+       12.38,
+       41.8
+      ],
+      [
+       12.47,
+       41.88
+      ],
+      [
+       12.49,
+       41.95
+      ],
+      [
+       12.53,
+       42.1
+      ],
+      [
+       12.58,
+       42.4
+      ]
+     ],
+     "at": 0.8,
+     "dur": 1.4,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "label",
+     "text": "Tiber",
+     "pos": [
+      12.68,
+      42.2
+     ],
+     "at": 1.6,
+     "size": 44,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      12.487,
+      41.889
+     ],
+     "label": "Palatine Hill",
+     "lx": 30,
+     "ly": -40,
+     "at": 2.0
+    },
+    {
+     "kind": "circle",
+     "pos": [
+      12.487,
+      41.889
+     ],
+     "r": 46,
+     "at": 2.6,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "Tyrrhenian Sea",
+     "pos": [
+      11.95,
+      41.45
+     ],
+     "at": 3.0,
+     "size": 44,
+     "color": "#1f4e8c"
+    }
+   ]
+  },
+  "village": {
+   "coast": "sketch/latium.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      12.487,
+      41.889
+     ],
+     "label": "huts on the Palatine",
+     "lx": 30,
+     "ly": -40,
+     "at": 0.6
+    },
+    {
+     "kind": "stamp",
+     "text": "c. 750 BC",
+     "pos": [
+      0.3,
+      0.2
+     ],
+     "at": 1.6
+    },
+    {
+     "kind": "text",
+     "text": "a village of shepherds",
+     "pos": [
+      0.5,
+      0.62
+     ],
+     "at": 2.6,
+     "size": 54
+    }
+   ]
+  },
+  "legend": {
+   "items": [
+    {
+     "kind": "stamp",
+     "text": "LEGEND",
+     "pos": [
+      0.28,
+      0.17
+     ],
+     "at": 0.4
+    },
+    {
+     "kind": "text",
+     "text": "written ~700 years later",
+     "pos": [
+      0.5,
+      0.62
+     ],
+     "at": 2.0,
+     "size": 52
+    }
+   ]
+  },
+  "kings": {
+   "items": [
+    {
+     "kind": "timeline",
+     "pos": [
+      0.2,
+      0.45
+     ],
+     "w": 640,
+     "from": 753,
+     "to": 509,
+     "at": 0.3,
+     "dur": 2.4,
+     "ticks": [
+      {
+       "v": 753,
+       "label": "Romulus"
+      },
+      {
+       "v": 509,
+       "label": "kings out"
+      }
+     ]
+    },
+    {
+     "kind": "counter",
+     "pos": [
+      0.5,
+      0.62
+     ],
+     "from": 0,
+     "to": 7,
+     "suffix": " kings",
+     "at": 3.0,
+     "dur": 2.0,
+     "size": 120
+    }
+   ]
+  },
+  "borders": {
+   "coast": "sketch/latium.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        12.46,
+        41.875
+       ],
+       [
+        12.47,
+        41.9
+       ],
+       [
+        12.505,
+        41.9
+       ],
+       [
+        12.51,
+        41.878
+       ],
+       [
+        12.49,
+        41.868
+       ]
+      ]
+     ],
+     "style": "faint",
+     "at": 0.3,
+     "dur": 1.0
+    },
+    {
+     "kind": "label",
+     "text": "c. 750 BC",
+     "pos": [
+      12.2,
+      42.0
+     ],
+     "at": 1.0,
+     "size": 44
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        12.24,
+        41.76
+       ],
+       [
+        12.3,
+        41.95
+       ],
+       [
+        12.45,
+        42.06
+       ],
+       [
+        12.63,
+        42.02
+       ],
+       [
+        12.76,
+        41.9
+       ],
+       [
+        12.72,
+        41.76
+       ],
+       [
+        12.56,
+        41.68
+       ],
+       [
+        12.38,
+        41.7
+       ]
+      ]
+     ],
+     "at": 2.4,
+     "dur": 1.4
+    },
+    {
+     "kind": "label",
+     "text": "Rome, c. 509 BC",
+     "pos": [
+      12.62,
+      41.58
+     ],
+     "at": 3.4,
+     "size": 46,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "ETRUSCANS",
+     "pos": [
+      12.1,
+      42.3
+     ],
+     "at": 4.2,
+     "size": 42,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "label",
+     "text": "LATINS",
+     "pos": [
+      13.0,
+      41.5
+     ],
+     "at": 4.4,
+     "size": 42,
+     "color": "#1f4e8c"
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "globe",
+   "text": "Was Rome really founded by twins raised by a wolf?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "That's the story the Romans told. And Rome still celebrates its birthday every year, on the twenty-first of April."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "today",
+   "date": "Today",
+   "place": "Rome, Italy",
+   "text": "So where did it all start?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "On the river Tiber, in the middle of Italy."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "hills",
+   "text": "On one hill in particular: the Palatine, right next to where the Colosseum stands today."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "rubens",
+   "move": {
+    "from": [
+     0.45,
+     0.6,
+     1.0
+    ],
+    "to": [
+     0.42,
+     0.62,
+     1.35
+    ]
+   },
+   "text": "And the wolf?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Twin baby boys, Romulus and Remus, were left by the Tiber. A she-wolf found them and fed them, and a shepherd raised them."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "legend",
+   "text": "When they grew up, they set out to build a city, but they argued over where. Remus was killed, and the city took Romulus's name."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "date": "21 April 753 BC",
+   "place": "Rome",
+   "text": "Romans later dated that day to the twenty-first of April, 753 BC.",
+   "say": "Romans later dated that day to the twenty-first of April, seven fifty-three BC."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "village_ai",
+   "text": "Is any of it true?",
+   "move": {
+    "from": [
+     0.5,
+     0.55,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.45,
+     1.25
+    ]
+   },
+   "date": "c. 750 BC",
+   "place": "Palatine Hill"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "The twins, probably not. But archaeologists found traces of huts on the Palatine from around that time. A small village of shepherds."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "kings_hf",
+   "text": "So how did a village become Rome?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "According to the Romans, seven kings ruled it, one after another. The last one, Tarquin the Proud, was so hated that the people threw him out."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "brutus",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.42,
+     1.3
+    ]
+   },
+   "date": "509 BC",
+   "place": "Rome",
+   "text": "In 509 BC, Rome became a republic. No more kings, just two leaders, elected every year.",
+   "say": "In five oh-nine BC, Rome became a republic. No more kings, just two leaders, elected every year."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "borders",
+   "text": "How big was Rome by then?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Still small. A strip of land along the Tiber, with Etruscan cities to the north and other Latin towns all around."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Next time: how this small republic took over Italy. Like the video and follow History Sketches so you don't miss it."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And tell us in the comments what you'd like to know about Rome!"
+  },
+  {
+   "type": "end",
+   "text": "Next: Rome takes Italy",
+   "sub": "Follow History Sketches"
+  }
+ ]
+}

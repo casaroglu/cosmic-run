@@ -1,0 +1,812 @@
+{
+  "ok": false,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": false,
+    "errorCount": 2,
+    "warningCount": 2,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div data-start=\"0\" data-track-index=\"0\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/canberkasaroglu/cosmic-run/videos/stories/rome/01-wolf/hf_kings/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "gsap_css_transform_conflict",
+        "severity": "error",
+        "message": "\"#stamp\" has CSS `transform: translate(-50%,-50%) rotate(-8deg) scale(0)` and a GSAP tween animates scale. GSAP will overwrite the full CSS transform, discarding any translateX(-50%) centering or CSS scale value.",
+        "selector": "#stamp",
+        "dataAttributes": {},
+        "sourceFile": "/Users/canberkasaroglu/cosmic-run/videos/stories/rome/01-wolf/hf_kings/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Remove `transform: translate(-50%,-50%) rotate(-8deg) scale(0)` from CSS and replace with GSAP properties: xPercent: -50, yPercent: -50, scale: 0. Example: tl.fromTo('#stamp', { xPercent: -50, yPercent: -50, scale: 0 }, { xPercent: -50, yPercent: -50, scale: 0, ...yourAnimation }). tl.fromTo is exempt from this rule."
+      },
+      {
+        "code": "font_family_without_font_face",
+        "severity": "error",
+        "message": "Font families used without @font-face declaration: bradley hand, chalkboard se. These are not in the auto-resolved font list, so the renderer cannot supply them automatically. Text will fall back to a generic font, producing incorrect typography in the video.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/canberkasaroglu/cosmic-run/videos/stories/rome/01-wolf/hf_kings/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add @font-face { font-family: '...'; src: url('capture/assets/fonts/...woff2'); } for each font family, pointing to the captured .woff2 files, or switch to a Google Fonts family. An OS font such as PingFang SC or Hiragino Sans renders locally from the installed copy, but a cloud render has no copy and refuses it."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div> is a timeline element that contains nested <div id=\"title\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/canberkasaroglu/cosmic-run/videos/stories/rome/01-wolf/hf_kings/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div> and its contents into a sub-composition file and mount it with data-composition-src."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": false,
+    "errorCount": 2,
+    "warningCount": 9,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 10.111,
+        "selector": "#r6 > span:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 268,
+          "top": 1132,
+          "right": 704.44,
+          "bottom": 1200,
+          "width": 436.44,
+          "height": 68
+        },
+        "containerSelector": "#strike",
+        "text": "Tarquin the Proud",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 0.19,
+        "lifetime": {
+          "start": 0,
+          "end": 14
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 268,
+          "y": 1132,
+          "width": 436.44,
+          "height": 68
+        },
+        "firstSeen": 10.111,
+        "lastSeen": 13.222,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          10.111,
+          11.667,
+          13.222
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 10.111,
+        "selector": "#r6 > span:nth-of-type(3)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 757.88,
+          "top": 1142.5,
+          "right": 970,
+          "bottom": 1189.5,
+          "width": 212.13,
+          "height": 47
+        },
+        "containerSelector": "#strike",
+        "text": "535–509 BC",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 0.19,
+        "lifetime": {
+          "start": 0,
+          "end": 14
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 757.88,
+          "y": 1142.5,
+          "width": 212.13,
+          "height": 47
+        },
+        "firstSeen": 10.111,
+        "lastSeen": 13.222,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          10.111,
+          11.667,
+          13.222
+        ]
+      },
+      {
+        "selector": "#title",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 59.27,
+          "y": 359.71,
+          "width": 961.45,
+          "height": 105
+        },
+        "time": 0.778,
+        "rect": {
+          "left": 59.27,
+          "top": 359.71,
+          "right": 1020.72,
+          "bottom": 464.71,
+          "width": 961.45,
+          "height": 105
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "The kings of Rome seven",
+        "message": "<div> \"The kings of Rome seven\" is outside the safe area: TikTok (left and right edges), Instagram Reels (left and right edges), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 0.778,
+        "lastSeen": 13.222,
+        "occurrences": 9,
+        "heldMs": 0,
+        "times": [
+          0.778,
+          2.333,
+          3.889,
+          5.444,
+          7,
+          8.556,
+          10.111,
+          11.667,
+          13.222
+        ]
+      },
+      {
+        "selector": "#r0 > span:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 749.63,
+          "y": 494.5,
+          "width": 220.37,
+          "height": 47
+        },
+        "time": 2.333,
+        "rect": {
+          "left": 749.63,
+          "top": 494.5,
+          "right": 970,
+          "bottom": 541.5,
+          "width": 220.37,
+          "height": 47
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "753–716 BC",
+        "message": "<span> \"753–716 BC\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 2.333,
+        "lastSeen": 13.222,
+        "occurrences": 8,
+        "heldMs": 0,
+        "times": [
+          2.333,
+          3.889,
+          5.444,
+          7,
+          8.556,
+          10.111,
+          11.667,
+          13.222
+        ]
+      },
+      {
+        "selector": "#r1 > span:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 749.58,
+          "y": 602.5,
+          "width": 220.37,
+          "height": 47
+        },
+        "time": 2.333,
+        "rect": {
+          "left": 749.58,
+          "top": 602.5,
+          "right": 969.95,
+          "bottom": 649.5,
+          "width": 220.37,
+          "height": 47
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "715–673 BC",
+        "message": "<span> \"715–673 BC\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 2.333,
+        "lastSeen": 13.222,
+        "occurrences": 8,
+        "heldMs": 0,
+        "times": [
+          2.333,
+          3.889,
+          5.444,
+          7,
+          8.556,
+          10.111,
+          11.667,
+          13.222
+        ]
+      },
+      {
+        "selector": "#r2 > span:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 746.97,
+          "y": 710.5,
+          "width": 223.03,
+          "height": 47
+        },
+        "time": 3.889,
+        "rect": {
+          "left": 746.97,
+          "top": 710.5,
+          "right": 970,
+          "bottom": 757.5,
+          "width": 223.03,
+          "height": 47
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "673–642 BC",
+        "message": "<span> \"673–642 BC\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 3.889,
+        "lastSeen": 13.222,
+        "occurrences": 7,
+        "heldMs": 0,
+        "times": [
+          3.889,
+          5.444,
+          7,
+          8.556,
+          10.111,
+          11.667,
+          13.222
+        ]
+      },
+      {
+        "selector": "#r3 > span:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 747.47,
+          "y": 818.5,
+          "width": 220.07,
+          "height": 47
+        },
+        "time": 3.889,
+        "rect": {
+          "left": 747.47,
+          "top": 818.5,
+          "right": 967.54,
+          "bottom": 865.5,
+          "width": 220.07,
+          "height": 47
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "642–617 BC",
+        "message": "<span> \"642–617 BC\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 3.889,
+        "lastSeen": 13.222,
+        "occurrences": 7,
+        "heldMs": 0,
+        "times": [
+          3.889,
+          5.444,
+          7,
+          8.556,
+          10.111,
+          11.667,
+          13.222
+        ]
+      },
+      {
+        "selector": "#r4 > span:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 753.58,
+          "y": 926.5,
+          "width": 216.42,
+          "height": 47
+        },
+        "time": 5.444,
+        "rect": {
+          "left": 753.58,
+          "top": 926.5,
+          "right": 970,
+          "bottom": 973.5,
+          "width": 216.42,
+          "height": 47
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "616–579 BC",
+        "message": "<span> \"616–579 BC\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 5.444,
+        "lastSeen": 13.222,
+        "occurrences": 6,
+        "heldMs": 0,
+        "times": [
+          5.444,
+          7,
+          8.556,
+          10.111,
+          11.667,
+          13.222
+        ]
+      },
+      {
+        "selector": "#r5 > span:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 739.2,
+          "y": 1034.5,
+          "width": 218.1,
+          "height": 47
+        },
+        "time": 5.444,
+        "rect": {
+          "left": 739.2,
+          "top": 1034.5,
+          "right": 957.3,
+          "bottom": 1081.5,
+          "width": 218.1,
+          "height": 47
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "578–535 BC",
+        "message": "<span> \"578–535 BC\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 5.444,
+        "lastSeen": 13.222,
+        "occurrences": 6,
+        "heldMs": 0,
+        "times": [
+          5.444,
+          7,
+          8.556,
+          10.111,
+          11.667,
+          13.222
+        ]
+      },
+      {
+        "selector": "#r6 > span:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 757.88,
+          "y": 1142.5,
+          "width": 212.12,
+          "height": 47
+        },
+        "time": 7,
+        "rect": {
+          "left": 757.88,
+          "top": 1142.5,
+          "right": 970,
+          "bottom": 1189.5,
+          "width": 212.12,
+          "height": 47
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "535–509 BC",
+        "message": "<span> \"535–509 BC\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 7,
+        "lastSeen": 13.222,
+        "occurrences": 5,
+        "heldMs": 0,
+        "times": [
+          7,
+          8.556,
+          10.111,
+          11.667,
+          13.222
+        ]
+      },
+      {
+        "selector": "#stamp",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 231.45,
+          "y": 1260,
+          "width": 617.05,
+          "height": 80
+        },
+        "time": 10.111,
+        "rect": {
+          "left": 231.45,
+          "top": 1260,
+          "right": 848.5,
+          "bottom": 1340,
+          "width": 617.05,
+          "height": 80
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "509 BC · REPUBLIC",
+        "message": "<div> \"509 BC · REPUBLIC\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 10.111,
+        "lastSeen": 13.222,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          10.111,
+          11.667,
+          13.222
+        ]
+      }
+    ],
+    "duration": 14,
+    "samples": [
+      0.778,
+      2.333,
+      3.889,
+      5.444,
+      7,
+      8.556,
+      10.111,
+      11.667,
+      13.222
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 11,
+    "truncated": false,
+    "faceCheck": {
+      "ran": true,
+      "candidates": 0,
+      "faces": 0
+    }
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": false,
+    "errorCount": 7,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "contrast_aa_failure",
+        "severity": "error",
+        "message": "Contrast is 2.31:1; WCAG AA requires 3:1.",
+        "text": "1",
+        "fg": "rgb(184,134,43)",
+        "bg": "rgb(229,217,190)",
+        "ratio": 2.31,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(159,116,37)",
+        "large": true,
+        "selector": "div > div > div:nth-of-type(2) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 212,
+          "y": 493,
+          "width": 34,
+          "height": 50
+        },
+        "time": 3.889,
+        "times": [
+          3.889,
+          7,
+          10.111,
+          13.222
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "error",
+        "message": "Contrast is 2.47:1; WCAG AA requires 3:1.",
+        "text": "2",
+        "fg": "rgb(184,134,43)",
+        "bg": "rgb(235,224,197)",
+        "ratio": 2.47,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(165,120,39)",
+        "large": true,
+        "selector": "div > div > div:nth-of-type(3) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 212,
+          "y": 601,
+          "width": 34,
+          "height": 50
+        },
+        "time": 3.889,
+        "times": [
+          3.889,
+          7,
+          10.111,
+          13.222
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "error",
+        "message": "Contrast is 2.56:1; WCAG AA requires 3:1.",
+        "text": "3",
+        "fg": "rgb(184,134,43)",
+        "bg": "rgb(239,228,201)",
+        "ratio": 2.56,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(168,122,39)",
+        "large": true,
+        "selector": "div > div > div:nth-of-type(4) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 212,
+          "y": 709,
+          "width": 34,
+          "height": 50
+        },
+        "time": 3.889,
+        "times": [
+          3.889,
+          7,
+          10.111,
+          13.222
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "error",
+        "message": "Contrast is 2.56:1; WCAG AA requires 3:1.",
+        "text": "4",
+        "fg": "rgb(184,134,43)",
+        "bg": "rgb(239,228,201)",
+        "ratio": 2.56,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(168,122,39)",
+        "large": true,
+        "selector": "div > div > div:nth-of-type(5) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 209.5352020263672,
+          "y": 817,
+          "width": 34,
+          "height": 50
+        },
+        "time": 3.889,
+        "times": [
+          3.889,
+          7,
+          10.111,
+          13.222
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "error",
+        "message": "Contrast is 2.56:1; WCAG AA requires 3:1.",
+        "text": "5",
+        "fg": "rgb(184,134,43)",
+        "bg": "rgb(239,228,201)",
+        "ratio": 2.56,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(168,122,39)",
+        "large": true,
+        "selector": "div > div > div:nth-of-type(6) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 212,
+          "y": 925,
+          "width": 31.125,
+          "height": 50
+        },
+        "time": 7,
+        "times": [
+          7,
+          10.111,
+          13.222
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "error",
+        "message": "Contrast is 2.56:1; WCAG AA requires 3:1.",
+        "text": "6",
+        "fg": "rgb(184,134,43)",
+        "bg": "rgb(239,228,201)",
+        "ratio": 2.56,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(168,122,39)",
+        "large": true,
+        "selector": "div > div > div:nth-of-type(7) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 212,
+          "y": 1033,
+          "width": 34,
+          "height": 50
+        },
+        "time": 7,
+        "times": [
+          7,
+          10.111,
+          13.222
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "error",
+        "message": "Contrast is 2.56:1; WCAG AA requires 3:1.",
+        "text": "7",
+        "fg": "rgb(184,134,43)",
+        "bg": "rgb(239,228,201)",
+        "ratio": 2.56,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(168,122,39)",
+        "large": true,
+        "selector": "div > div > div:nth-of-type(8) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 212,
+          "y": 1141,
+          "width": 34,
+          "height": 50
+        },
+        "time": 7,
+        "times": [
+          7,
+          10.111,
+          13.222
+        ]
+      }
+    ],
+    "enabled": true,
+    "samples": [
+      0.778,
+      3.889,
+      7,
+      10.111,
+      13.222
+    ],
+    "checked": 82,
+    "passed": 57
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "first_frame_empty",
+        "severity": "warning",
+        "message": "Frame 0 shows only the background, and the first frame is the thumbnail on social players: have the title or key image already on screen at 0 s instead of entering from nothing; see references/review.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      }
+    ],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 112
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "audio_none",
+        "severity": "info",
+        "message": "The film has no sound: no clip in it plays audio.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      }
+    ]
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

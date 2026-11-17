@@ -1,0 +1,210 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"scene\"> is a timeline element that contains nested <div id=\"title\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#scene",
+        "dataAttributes": {},
+        "sourceFile": "/Users/canberkasaroglu/cosmic-run/videos/stories/rome/01-wolf/hf_kings/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"scene\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 2,
+    "infoCount": 0,
+    "findings": [
+      {
+        "selector": "#title",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 207.06,
+          "y": 300,
+          "width": 785.88,
+          "height": 88
+        },
+        "time": 0.778,
+        "rect": {
+          "left": 207.06,
+          "top": 300,
+          "right": 992.94,
+          "bottom": 388,
+          "width": 785.88,
+          "height": 88
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "The kings of Rome seven",
+        "message": "<div> \"The kings of Rome seven\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 0.778,
+        "lastSeen": 13.222,
+        "occurrences": 9,
+        "heldMs": 0,
+        "times": [
+          0.778,
+          2.333,
+          3.889,
+          5.444,
+          7,
+          8.556,
+          10.111,
+          11.667,
+          13.222
+        ]
+      },
+      {
+        "selector": "#stamp",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 155.77,
+          "y": 1117.61,
+          "width": 546.71,
+          "height": 144.78
+        },
+        "time": 10.111,
+        "rect": {
+          "left": 155.77,
+          "top": 1117.61,
+          "right": 702.48,
+          "bottom": 1262.39,
+          "width": 546.71,
+          "height": 144.78
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "509 BC · REPUBLIC",
+        "message": "<div> \"509 BC · REPUBLIC\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 10.111,
+        "lastSeen": 13.222,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          10.111,
+          11.667,
+          13.222
+        ]
+      }
+    ],
+    "duration": 14,
+    "samples": [
+      0.778,
+      2.333,
+      3.889,
+      5.444,
+      7,
+      8.556,
+      10.111,
+      11.667,
+      13.222
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 2,
+    "truncated": false,
+    "faceCheck": {
+      "ran": true,
+      "candidates": 0,
+      "faces": 0
+    }
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      0.778,
+      3.889,
+      7,
+      10.111,
+      13.222
+    ],
+    "checked": 82,
+    "passed": 82
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 112
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "audio_none",
+        "severity": "info",
+        "message": "The film has no sound: no clip in it plays audio.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      }
+    ]
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

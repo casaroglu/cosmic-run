@@ -1,0 +1,455 @@
+{
+  "version": 1,
+  "historyId": "1f65e61b-f369-48e9-815e-4a0c46bbfd70",
+  "currentRevision": "3025cd8f-9566-4f8d-be23-7412008dca61",
+  "pendingChanges": false,
+  "files": {
+    "hyperframes.json": {
+      "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "content": "/Users/canberkasaroglu/.cache/hyperframes/history/1f65e61b-f369-48e9-815e-4a0c46bbfd70/blobs/53/53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    "index.html": {
+      "hash": "0addee3408c414951f919b85067289b67d63b7057dfab1654c070ca94e2765ba",
+      "content": "/Users/canberkasaroglu/.cache/hyperframes/history/1f65e61b-f369-48e9-815e-4a0c46bbfd70/blobs/0a/0addee3408c414951f919b85067289b67d63b7057dfab1654c070ca94e2765ba"
+    },
+    "meta.json": {
+      "hash": "236d8fc5929ae24e3bffc78bef1e6decbffb3ac7e1f8262c45ca4caa9ed392af",
+      "content": "/Users/canberkasaroglu/.cache/hyperframes/history/1f65e61b-f369-48e9-815e-4a0c46bbfd70/blobs/23/236d8fc5929ae24e3bffc78bef1e6decbffb3ac7e1f8262c45ca4caa9ed392af"
+    },
+    "package.json": {
+      "hash": "87ec8af7e851766471cf52f413620508c8adfb9f29f270d359fc003a1a23f2a8",
+      "content": "/Users/canberkasaroglu/.cache/hyperframes/history/1f65e61b-f369-48e9-815e-4a0c46bbfd70/blobs/87/87ec8af7e851766471cf52f413620508c8adfb9f29f270d359fc003a1a23f2a8"
+    },
+    "assets/BradleyHandBold.ttf": {
+      "hash": "b94c10ed01e88fd8dbbee95485d3863a0719520e8637ae5a9a30cf485e18740d",
+      "content": "/Users/canberkasaroglu/.cache/hyperframes/history/1f65e61b-f369-48e9-815e-4a0c46bbfd70/blobs/b9/b94c10ed01e88fd8dbbee95485d3863a0719520e8637ae5a9a30cf485e18740d"
+    }
+  },
+  "revisions": {
+    "d2c03391-04fd-4eed-a877-fc0f9c6ca9c4": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794948924297,
+      "endedAt": 1794948924298,
+      "files": {
+        "index.html": {
+          "before": "/Users/canberkasaroglu/.cache/hyperframes/history/1f65e61b-f369-48e9-815e-4a0c46bbfd70/blobs/5b/5bb263d0c3cb99288fa3667b5b7687c60f923ff063026fa821e99abf6ad4e561",
+          "after": "/Users/canberkasaroglu/.cache/hyperframes/history/1f65e61b-f369-48e9-815e-4a0c46bbfd70/blobs/1d/1d6b7aa969628f7559173c25f0bcccf1ed2eeda44151c31f25ce743b74a34b74"
+        }
+      }
+    },
+    "fd4deb5b-131b-4bd3-ab36-2537a797b6a3": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794948976150,
+      "endedAt": 1794948976163,
+      "files": {
+        "assets/BradleyHandBold.ttf": {
+          "before": null,
+          "after": "/Users/canberkasaroglu/.cache/hyperframes/history/1f65e61b-f369-48e9-815e-4a0c46bbfd70/blobs/b9/b94c10ed01e88fd8dbbee95485d3863a0719520e8637ae5a9a30cf485e18740d"
+        },
+        "index.html": {
+          "before": "/Users/canberkasaroglu/.cache/hyperframes/history/1f65e61b-f369-48e9-815e-4a0c46bbfd70/blobs/1d/1d6b7aa969628f7559173c25f0bcccf1ed2eeda44151c31f25ce743b74a34b74",
+          "after": "/Users/canberkasaroglu/.cache/hyperframes/history/1f65e61b-f369-48e9-815e-4a0c46bbfd70/blobs/2e/2e5fa11a4fb3c45f87c4dcd9a6a1db206485191645f05caaac64cddae19a27d9"
+        }
+      }
+    },
+    "82fe0960-3728-4523-8a11-ef04f30af77a": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794948996136,
+      "endedAt": 1794948996142,
+      "files": {
+        "index.html": {
+          "before": "/Users/canberkasaroglu/.cache/hyperframes/history/1f65e61b-f369-48e9-815e-4a0c46bbfd70/blobs/2e/2e5fa11a4fb3c45f87c4dcd9a6a1db206485191645f05caaac64cddae19a27d9",
+          "after": "/Users/canberkasaroglu/.cache/hyperframes/history/1f65e61b-f369-48e9-815e-4a0c46bbfd70/blobs/9b/9b2ee2769d59d5045df9a43c2a24accdff2f29b2c2ddc4ce14f5c321c46edf71"
+        }
+      }
+    },
+    "02f26eb0-e5ee-4b65-b669-1a8382264962": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794949040907,
+      "endedAt": 1794949040912,
+      "files": {
+        "index.html": {
+          "before": "/Users/canberkasaroglu/.cache/hyperframes/history/1f65e61b-f369-48e9-815e-4a0c46bbfd70/blobs/9b/9b2ee2769d59d5045df9a43c2a24accdff2f29b2c2ddc4ce14f5c321c46edf71",
+          "after": "/Users/canberkasaroglu/.cache/hyperframes/history/1f65e61b-f369-48e9-815e-4a0c46bbfd70/blobs/49/49f448546ab910b4ec0d485e0a3f33d7ae716d773871dea8fd16752604931d91"
+        }
+      }
+    },
+    "3025cd8f-9566-4f8d-be23-7412008dca61": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794949690497,
+      "endedAt": 1794949690497,
+      "files": {
+        "index.html": {
+          "before": "/Users/canberkasaroglu/.cache/hyperframes/history/1f65e61b-f369-48e9-815e-4a0c46bbfd70/blobs/49/49f448546ab910b4ec0d485e0a3f33d7ae716d773871dea8fd16752604931d91",
+          "after": "/Users/canberkasaroglu/.cache/hyperframes/history/1f65e61b-f369-48e9-815e-4a0c46bbfd70/blobs/0a/0addee3408c414951f919b85067289b67d63b7057dfab1654c070ca94e2765ba"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": "02f26eb0-e5ee-4b65-b669-1a8382264962",
+      "id": "38380e9a-610a-49f1-864c-1bd39b38fed8"
+    },
+    "revisions": {
+      "d2c03391-04fd-4eed-a877-fc0f9c6ca9c4": [
+        {
+          "id": "727e6683-5380-44c2-a830-22e6799cde34",
+          "scope": "project",
+          "metadata": {
+            "ok": false,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": true,
+              "strict": false,
+              "snapshots": false,
+              "safeZones": [
+                "tiktok",
+                "reels",
+                "shorts"
+              ],
+              "browserGpuMode": "auto",
+              "includeUnmounted": false
+            }
+          },
+          "createdAt": 1794948932428,
+          "contentHash": "41dd8666cedc6dcf5660f67d3ae55148c5aa93bfaf2686b1240b3e629dc01cc4",
+          "revision": "d2c03391-04fd-4eed-a877-fc0f9c6ca9c4",
+          "inputFingerprint": "6ea4e9343132171327257e5b19d83bda901b946cca74cfc0eada0e9cba267b8e",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "c4018e1c-1939-4284-bb1f-b495a7c849ea"
+        }
+      ],
+      "fd4deb5b-131b-4bd3-ab36-2537a797b6a3": [
+        {
+          "id": "724d6f78-fe10-4467-8300-3ef32af4c7be",
+          "scope": "project",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": true,
+              "strict": false,
+              "snapshots": false,
+              "safeZones": [
+                "tiktok",
+                "reels",
+                "shorts"
+              ],
+              "browserGpuMode": "auto",
+              "includeUnmounted": false
+            }
+          },
+          "createdAt": 1794948981815,
+          "contentHash": "9e26cd414c7732f38d3c5deb40683636b5cc039df18c222d0bf5718564d5fe35",
+          "revision": "fd4deb5b-131b-4bd3-ab36-2537a797b6a3",
+          "inputFingerprint": "6aad6bbc56aa5236866bd9095ddbe1d42582362b071d5fa908feb0dafa50c532",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "c4018e1c-1939-4284-bb1f-b495a7c849ea"
+        }
+      ],
+      "82fe0960-3728-4523-8a11-ef04f30af77a": [
+        {
+          "id": "14288bba-14c4-468d-bee6-b019912443ad",
+          "scope": "project",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": true,
+              "strict": false,
+              "snapshots": false,
+              "safeZones": [
+                "tiktok",
+                "reels",
+                "shorts"
+              ],
+              "browserGpuMode": "auto",
+              "includeUnmounted": false
+            }
+          },
+          "createdAt": 1794949000652,
+          "contentHash": "3151f385ac060c1c40bcc969d95b53abdc37e6c8589f2a0b36e55a8626b4ff46",
+          "revision": "82fe0960-3728-4523-8a11-ef04f30af77a",
+          "inputFingerprint": "03559a2a3d16ffe30f0f7be6a308eb7502066f0bb4a0471c26beaaacdb2d6b42",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "c4018e1c-1939-4284-bb1f-b495a7c849ea"
+        }
+      ],
+      "02f26eb0-e5ee-4b65-b669-1a8382264962": [
+        {
+          "id": "38380e9a-610a-49f1-864c-1bd39b38fed8",
+          "scope": "project",
+          "report": "/Users/canberkasaroglu/cosmic-run/videos/stories/rome/01-wolf/hf_kings/.hyperframes/artifacts/checks/38380e9a-610a-49f1-864c-1bd39b38fed8.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": true,
+              "strict": false,
+              "snapshots": false,
+              "safeZones": [
+                "tiktok",
+                "reels",
+                "shorts"
+              ],
+              "browserGpuMode": "auto",
+              "includeUnmounted": false
+            }
+          },
+          "createdAt": 1794949044239,
+          "contentHash": "24d84ca23f3099c938be6146e432fb856c1a506a32155238cbe4f2aa610ab075",
+          "revision": "02f26eb0-e5ee-4b65-b669-1a8382264962",
+          "inputFingerprint": "1e90b09a62a8e310398da3642388deb787e63b828234b491e18dff9837e91ac5",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "id": "30442e2d-dfa2-4f8d-97e4-bfc63ad998ad",
+        "scope": "project",
+        "report": "/Users/canberkasaroglu/cosmic-run/videos/stories/rome/01-wolf/hf_kings/.hyperframes/artifacts/checks/30442e2d-dfa2-4f8d-97e4-bfc63ad998ad.json",
+        "metadata": {
+          "ok": false,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "cache": true,
+            "contrast": true,
+            "craft": true,
+            "strict": false,
+            "snapshots": false,
+            "safeZones": [
+              "tiktok",
+              "reels",
+              "shorts"
+            ],
+            "browserGpuMode": "auto",
+            "includeUnmounted": false
+          }
+        },
+        "createdAt": 1794948915870,
+        "contentHash": "25dcb9b04c9ef0d45b5f2d8fc4635156f3ba5fb848bc3e11d08551fd205c65a5",
+        "revision": null,
+        "inputFingerprint": "8d5a209b4235969f455803e34c1ed4bc4f59af034f3418510e76997aae46c448",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {
+      "d2c03391-04fd-4eed-a877-fc0f9c6ca9c4": [
+        {
+          "scope": "full",
+          "id": "e1f16ce4-43c5-468f-836d-6d18b3148d0e-0",
+          "time": 4,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794948953019,
+          "contentHash": "03c317c6d520fb55f2b8d03f894752de88d5ae74d85bbae8219d33341ec62a5d",
+          "revision": "d2c03391-04fd-4eed-a877-fc0f9c6ca9c4",
+          "inputFingerprint": "6ea4e9343132171327257e5b19d83bda901b946cca74cfc0eada0e9cba267b8e",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "c4018e1c-1939-4284-bb1f-b495a7c849ea"
+        },
+        {
+          "scope": "full",
+          "id": "e1f16ce4-43c5-468f-836d-6d18b3148d0e-1",
+          "time": 9,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794948953019,
+          "contentHash": "401ed1211b6150861afb9e3cdc9b607792178583c4e118b9439db908db3ddfa5",
+          "revision": "d2c03391-04fd-4eed-a877-fc0f9c6ca9c4",
+          "inputFingerprint": "6ea4e9343132171327257e5b19d83bda901b946cca74cfc0eada0e9cba267b8e",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "c4018e1c-1939-4284-bb1f-b495a7c849ea"
+        },
+        {
+          "scope": "full",
+          "id": "e1f16ce4-43c5-468f-836d-6d18b3148d0e-2",
+          "time": 12,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794948953019,
+          "contentHash": "06db9efd99aa1cd0cc4a22122d1e59e46d80aa23b0ce14eb24456a0d10660bcf",
+          "revision": "d2c03391-04fd-4eed-a877-fc0f9c6ca9c4",
+          "inputFingerprint": "6ea4e9343132171327257e5b19d83bda901b946cca74cfc0eada0e9cba267b8e",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "c4018e1c-1939-4284-bb1f-b495a7c849ea"
+        },
+        {
+          "scope": "full",
+          "id": "e1f16ce4-43c5-468f-836d-6d18b3148d0e-3",
+          "time": 13.75,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794948953019,
+          "contentHash": "06db9efd99aa1cd0cc4a22122d1e59e46d80aa23b0ce14eb24456a0d10660bcf",
+          "revision": "d2c03391-04fd-4eed-a877-fc0f9c6ca9c4",
+          "inputFingerprint": "6ea4e9343132171327257e5b19d83bda901b946cca74cfc0eada0e9cba267b8e",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "c4018e1c-1939-4284-bb1f-b495a7c849ea"
+        }
+      ],
+      "82fe0960-3728-4523-8a11-ef04f30af77a": [
+        {
+          "scope": "full",
+          "id": "619b6770-00d2-4930-a5e3-4074f0447141-0",
+          "time": 12,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794949022836,
+          "contentHash": "3212de98c44c0283c080eb08a0027c849f9710e5e31e3b8be4116d0af97f7476",
+          "revision": "82fe0960-3728-4523-8a11-ef04f30af77a",
+          "inputFingerprint": "03559a2a3d16ffe30f0f7be6a308eb7502066f0bb4a0471c26beaaacdb2d6b42",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "c4018e1c-1939-4284-bb1f-b495a7c849ea"
+        },
+        {
+          "scope": "full",
+          "id": "619b6770-00d2-4930-a5e3-4074f0447141-1",
+          "time": 13.75,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794949022836,
+          "contentHash": "3212de98c44c0283c080eb08a0027c849f9710e5e31e3b8be4116d0af97f7476",
+          "revision": "82fe0960-3728-4523-8a11-ef04f30af77a",
+          "inputFingerprint": "03559a2a3d16ffe30f0f7be6a308eb7502066f0bb4a0471c26beaaacdb2d6b42",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "c4018e1c-1939-4284-bb1f-b495a7c849ea"
+        }
+      ]
+    },
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "cf9831f2-4887-4ab8-92a4-68bf03aedf54",
+      "completedAt": 1794949715526,
+      "output": "/Users/canberkasaroglu/cosmic-run/videos/stories/rome/01-wolf/sketch/kings_hf.mp4",
+      "status": "completed",
+      "revision": "3025cd8f-9566-4f8d-be23-7412008dca61"
+    },
+    "retainedRevisions": [
+      "3025cd8f-9566-4f8d-be23-7412008dca61",
+      "02f26eb0-e5ee-4b65-b669-1a8382264962"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}

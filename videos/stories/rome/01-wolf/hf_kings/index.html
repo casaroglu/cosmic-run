@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=1080, height=1920" />
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+@font-face{font-family:'SketchHand';src:url('assets/BradleyHandBold.ttf') format('truetype');font-weight:700}
+:root{--paper:#efe4c9;--ink:#2a2119;--red:#b3261e;--gold:#8a6420;--hand:'SketchHand',cursive}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--paper)}
+#root{position:relative;width:1080px;height:1920px;font-family:var(--hand);color:var(--ink);
+ background:radial-gradient(ellipse at 50% 50%,rgba(0,0,0,0) 45%,rgba(70,45,15,.45) 100%),var(--paper)}
+#title{position:absolute;top:300px;left:60px;right:160px;width:auto;width:100%;text-align:center;font-size:70px;font-weight:700;letter-spacing:1px}
+#title u{text-decoration:none;border-bottom:6px solid var(--gold)}
+.row{position:absolute;left:110px;width:700px;height:96px;display:flex;align-items:center;gap:22px;opacity:0}
+.crown{width:80px;height:60px;flex:none}
+.crown path{fill:none;stroke:var(--gold);stroke-width:4.5;stroke-linejoin:round;stroke-dasharray:320;stroke-dashoffset:320}
+.num{font-size:40px;width:34px;color:var(--gold);font-weight:700}
+.txt{display:flex;flex-direction:column;line-height:1.05}.name{font-size:46px;font-weight:700;white-space:nowrap}
+.name.x{background-image:linear-gradient(var(--red),var(--red));background-repeat:no-repeat;background-position:0 55%;background-size:0% 7px}
+.yrs{font-size:30px;opacity:.75;white-space:nowrap}
+#stamp{position:absolute;left:50%;top:1300px;border:8px solid var(--red);color:var(--red);
+ font-family:'Helvetica Neue',Arial,sans-serif;font-weight:900;font-size:58px;padding:12px 30px;border-radius:14px;white-space:nowrap;opacity:0}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="14" data-width="1080" data-height="1920">
+ <div id="scene" class="clip" data-start="0" data-duration="14" data-track-index="0" style="position:absolute;inset:0">
+  <div id="title">The <u>seven</u> kings of Rome</div>
+<div class="row" id="r0" style="top:455px">
+  <svg class="crown" viewBox="0 0 80 60"><path id="c0" d="M6 52 L10 16 L26 34 L40 8 L54 34 L70 16 L74 52 Z M6 52 L74 52" /></svg>
+  <span class="num">1</span><span class="txt"><span class="name">Romulus</span><span class="yrs">c. 753–716 BC</span></span></div>
+<div class="row" id="r1" style="top:550px">
+  <svg class="crown" viewBox="0 0 80 60"><path id="c1" d="M6 52 L10 16 L26 34 L40 8 L54 34 L70 16 L74 52 Z M6 52 L74 52" /></svg>
+  <span class="num">2</span><span class="txt"><span class="name">Numa Pompilius</span><span class="yrs">c. 715–672 BC</span></span></div>
+<div class="row" id="r2" style="top:645px">
+  <svg class="crown" viewBox="0 0 80 60"><path id="c2" d="M6 52 L10 16 L26 34 L40 8 L54 34 L70 16 L74 52 Z M6 52 L74 52" /></svg>
+  <span class="num">3</span><span class="txt"><span class="name">Tullus Hostilius</span><span class="yrs">c. 672–640 BC</span></span></div>
+<div class="row" id="r3" style="top:740px">
+  <svg class="crown" viewBox="0 0 80 60"><path id="c3" d="M6 52 L10 16 L26 34 L40 8 L54 34 L70 16 L74 52 Z M6 52 L74 52" /></svg>
+  <span class="num">4</span><span class="txt"><span class="name">Ancus Marcius</span><span class="yrs">c. 640–616 BC</span></span></div>
+<div class="row" id="r4" style="top:835px">
+  <svg class="crown" viewBox="0 0 80 60"><path id="c4" d="M6 52 L10 16 L26 34 L40 8 L54 34 L70 16 L74 52 Z M6 52 L74 52" /></svg>
+  <span class="num">5</span><span class="txt"><span class="name">Tarquinius Priscus</span><span class="yrs">c. 616–578 BC</span></span></div>
+<div class="row" id="r5" style="top:930px">
+  <svg class="crown" viewBox="0 0 80 60"><path id="c5" d="M6 52 L10 16 L26 34 L40 8 L54 34 L70 16 L74 52 Z M6 52 L74 52" /></svg>
+  <span class="num">6</span><span class="txt"><span class="name">Servius Tullius</span><span class="yrs">c. 578–534 BC</span></span></div>
+<div class="row" id="r6" style="top:1025px">
+  <svg class="crown" viewBox="0 0 80 60"><path id="c6" d="M6 52 L10 16 L26 34 L40 8 L54 34 L70 16 L74 52 Z M6 52 L74 52" /></svg>
+  <span class="num">7</span><span class="txt"><span class="name x" id="tq">Tarquin the Proud</span><span class="yrs">c. 534–509 BC</span></span></div>
+  <div id="stampwrap" style="position:absolute;left:0;right:0;top:1135px;display:flex;justify-content:flex-start;padding-left:120px"><div id="stamp" style="position:static">509 BC · REPUBLIC</div></div>
+ </div>
+</div>
+<script>
+window.__timelines = window.__timelines || {};
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#title", { scale: 0.96 }, { scale: 1, duration: 0.8, ease: "power3.out" }, 0);
+for (let i = 0; i < 7; i++) {
+  const t = 1.0 + i * 0.85;
+  tl.fromTo("#r" + i, { opacity: 0, x: -50 }, { opacity: 1, x: 0, duration: 0.5, ease: "power2.out" }, t);
+  tl.to("#c" + i, { strokeDashoffset: 0, duration: 0.7, ease: "power1.inOut" }, t);
+}
+tl.to("#tq", { backgroundSize: "100% 7px", duration: 0.6, ease: "power2.in" }, 8.2);
+tl.to("#r6", { color: "#b3261e", duration: 0.3 }, 8.5);
+tl.to("#r0,#r1,#r2,#r3,#r4,#r5", { opacity: 0.45, duration: 0.6 }, 8.6);
+tl.fromTo("#stamp", { opacity: 0, scale: 0, rotation: -8 }, { opacity: 1, scale: 1, rotation: -8, duration: 0.45, ease: "back.out(2.2)" }, 9.3);
+window.__timelines["main"] = tl;
+tl.seek(0);
+</script></body></html>
