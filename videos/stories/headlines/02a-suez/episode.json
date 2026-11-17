@@ -1164,7 +1164,7 @@
      ],
      "label": "Port Said",
      "lx": 15,
-     "ly": -40,
+     "ly": 45,
      "at": 2.6
     },
     {
@@ -1177,17 +1177,6 @@
      "lx": 15,
      "ly": 45,
      "at": 3.0
-    },
-    {
-     "kind": "label",
-     "text": "Mediterranean",
-     "pos": [
-      28.0,
-      32.5
-     ],
-     "at": 3.2,
-     "size": 42,
-     "color": "#1f4e8c"
     },
     {
      "kind": "label",
@@ -1285,7 +1274,7 @@
      ],
      "label": "Port Said",
      "lx": 15,
-     "ly": -40,
+     "ly": 45,
      "at": 1.0
     },
     {
@@ -1497,7 +1486,7 @@
      ],
      "label": "Rotterdam",
      "lx": 15,
-     "ly": -40,
+     "ly": 75,
      "at": 1.4
     }
    ]
