@@ -5,8 +5,8 @@ Thumbnail: `videos/out/ottoman/long/thumbnail_gemini.jpg` (Gemini, based on the 
 An earlier upload (byX7g-x7jpo) was removed as too long before phone verification.
 
 ## Title
-The Ottoman Empire in 26 Minutes
-(first published as "The Entire History of the Ottoman Empire | 623 Years in 26 Minutes", renamed 2026-11-17)
+How a Tiny Tribe Became the Ottoman Empire (26 Minutes)
+(first published as "The Entire History of the Ottoman Empire | 623 Years in 26 Minutes", then "The Ottoman Empire in 26 Minutes"; renamed 2026-11-17)
 
 ## Description
 From a frontier on the edge of Byzantium to the Republic of Turkey: the whole story of the Ottoman Empire in 16 chapters, told as a conversation, with hand-drawn maps of its borders, public-domain paintings and an animated globe.
