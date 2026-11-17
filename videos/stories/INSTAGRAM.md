@@ -19,3 +19,4 @@ Files under 10 MB: `videos/out/headlines/_ig/`, `videos/out/spain/_yt/`.
 | 2026-11-16 | ottoman-01 | https://www.instagram.com/historysketches/reel/Df0JxFLsqUv/ |
 | 2026-11-17 | ottoman-02 | https://www.instagram.com/historysketches/reel/Df0htoEMH-g/ |
 | 2026-11-17 | ottoman-03 | https://www.instagram.com/historysketches/reel/Df0mVgOMEIp/ |
+| 2026-11-17 | ottoman-04a | https://www.instagram.com/historysketches/reel/Df150pDshnK/ |
