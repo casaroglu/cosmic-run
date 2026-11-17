@@ -1,5 +1,9 @@
 # The Entire History of the Ottoman Empire
 
+Published 2026-11-17 (public): https://youtu.be/8oWwpZWmCIE
+Thumbnail: `videos/out/ottoman/long/thumbnail_gemini.jpg` (Gemini, based on the workshop-of-Titian portrait of Suleiman, public domain). The credits comment is posted but not pinned: pinning needs YouTube advanced-features verification.
+An earlier upload (byX7g-x7jpo) was removed as too long before phone verification.
+
 ## Title
 The Entire History of the Ottoman Empire | 623 Years in 26 Minutes
 
@@ -25,7 +29,7 @@ From a frontier on the edge of Byzantium to the Republic of Turkey: the whole st
 24:44 16. The last sultan (1918–1923)
 
 Every date is checked against two sources (Britannica, Wikipedia, World History Encyclopedia, Australian War Memorial and others). Borders are approximate.
-Narration: synthetic voices. Music: generated for this channel. Map data: Natural Earth (public domain) and © OpenStreetMap contributors. The 3D Taksim scene is a stylised illustration.
+Narration: synthetic voices. Music: generated for this channel. Map data: Natural Earth (public domain) and © OpenStreetMap contributors. The 3D Taksim scene is a stylised illustration. Thumbnail: AI-generated, based on a portrait of Suleiman the Magnificent (workshop of Titian, public domain).
 
 Images: public-domain paintings, engravings and photographs, plus CC0 photographs. Full credits in the pinned comment.
 
