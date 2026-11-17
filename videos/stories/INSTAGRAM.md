@@ -20,3 +20,14 @@ Files under 10 MB: `videos/out/headlines/_ig/`, `videos/out/spain/_yt/`.
 | 2026-11-17 | ottoman-02 | https://www.instagram.com/historysketches/reel/Df0htoEMH-g/ |
 | 2026-11-17 | ottoman-03 | https://www.instagram.com/historysketches/reel/Df0mVgOMEIp/ |
 | 2026-11-17 | ottoman-04a | https://www.instagram.com/historysketches/reel/Df150pDshnK/ |
+
+## @historysketchesdaily
+
+The previous account @historysketches was permanently disabled on 2026-11-17/18 (no reason given; the appeal was rejected).
+The new account was opened by the user on 2026-11-18. Profile: History Sketches logo (`brand/history-sketches/profile_1080.png`), bio "Every day, one History Sketch 🗺️ / History told in pencil maps & real paintings. / More on our YouTube channel 👇", link youtube.com/@history.sketches.
+Plan: 1 Reel per day at 19:00 Istanbul until 1 Dec, then 2 per day (13:00, 19:00) if the account has no warnings. Reels are scheduled with Instagram's own "İçeriği planla" every 2 days (task `history-sketches-ig-plan-2days`); the old 2-per-day posting task is disabled. AI label on, Facebook cross-post off.
+Queue: `instagram_daily_queue.json` (Chokepoints 01a–08, then Ottoman 01–14).
+
+| date | id | url |
+|---|---|---|
+| 2026-11-18 | chokepoints-01a | https://www.instagram.com/historysketchesdaily/reel/Df27y1UtOIY/ |
