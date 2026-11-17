@@ -32,7 +32,7 @@ def main(d, scenes):
         items = [i for i in spec['items'] if i['kind'] != 'satellite']
         ci = next(i for i, it in enumerate(items) if it['kind'] == 'coast')
         cd = items[ci].get('dur', 1.5)
-        names = SAT_NAMES.get(os.path.basename(d.rstrip('/')), {}).get(sc, [])
+        names = SAT_NAMES.get(os.path.basename(d.rstrip('/')), {}).get(sc) or [{'text': 'imagery: NASA Blue Marble', 'pos': [0.27, 0.66], 'size': 24}]
         sat = {'kind': 'satellite', 'key': key, 'at': round(cd * 0.6, 2), 'dur': 1.0, 'borders': rings_in(bb), 'names': names}
         items.insert(ci + 1, sat); spec['items'] = items
         print(sc, bb, len(sat['borders']), 'border rings', len(names), 'names')
