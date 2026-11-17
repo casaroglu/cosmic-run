@@ -104,7 +104,7 @@ function skWrite(text, x, y, k, o = {}) {   // handwriting: letters appear one b
   const lines = o.maxW ? wrap(text, o.maxW).map(l => l.join(' ')) : [text];
   let left = n; const sz = o.size || 54;
   // paper-coloured halo: hand lettering stays readable over coastlines, hatching and coloured territory
-  ctx.lineJoin = 'round'; ctx.lineWidth = Math.max(6, sz * 0.22); ctx.strokeStyle = 'rgba(246,238,220,0.92)';
+  ctx.lineJoin = 'round'; ctx.lineWidth = Math.max(6, sz * 0.22); ctx.strokeStyle = o.haloColor || 'rgba(246,238,220,0.92)';
   lines.forEach((l, i) => { if (left <= 0) return; const s = l.slice(0, left); left -= l.length + 1;
     if (o.halo !== false) ctx.strokeText(s, x, y + i * sz * 1.2); ctx.fillText(s, x, y + i * sz * 1.2); });
   if (SK.audit) {   // text audit: record the full text box in frame pixels
@@ -232,6 +232,33 @@ const SK_ITEMS = {
     ctx.fillStyle = 'rgba(230,215,170,0.85)'; ctx.save(); ctx.rotate(0.06); ctx.fillRect(-70, -h / 2 - 36, 140, 40); ctx.restore();
     if (it.caption) { ctx.font = `700 40px ${HAND}`; ctx.fillStyle = INK; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(it.caption, 0, h / 2 + 40); }
     ctx.restore();
+  },
+  satellite(name, spec, it, lt) {
+    // realistic layer: a public-domain satellite image of exactly this map's bbox (equirectangular, e.g. NASA GIBS
+    // Blue Marble) fades in over the hand-drawn map; it.borders = today's borders [[[lon, lat], ...], ...] in white;
+    // it.names = [{text, pos, size, italic}] written in white once the image is in. Items listed after it stay on top.
+    const im = IMGS[it.key]; if (!im) return; const k = ease(skK(lt, it, 1.2)); if (k <= 0) return;
+    const [x0, y0, x1, y1] = spec.view || spec.coast.bbox, P = skProj(spec), a = P([x0, y1]), b = P([x1, y0]);
+    const w = b[0] - a[0], h = b[1] - a[1], r = 26;
+    ctx.save(); ctx.globalAlpha = k;
+    ctx.shadowColor = 'rgba(40,25,10,0.45)'; ctx.shadowBlur = 30; ctx.shadowOffsetY = 10;
+    ctx.beginPath(); ctx.roundRect(a[0], a[1], w, h, r); ctx.fillStyle = '#0b2545'; ctx.fill(); ctx.shadowColor = 'transparent';
+    ctx.clip(); ctx.drawImage(im, a[0], a[1], w, h);
+    if (it.borders) {
+      ctx.lineJoin = 'round'; ctx.setLineDash([10, 6]);
+      for (const [lw, col] of [[6, 'rgba(0,0,0,0.35)'], [2.6, 'rgba(255,255,255,0.9)']]) {
+        ctx.lineWidth = lw; ctx.strokeStyle = col; ctx.beginPath();
+        for (const ring of it.borders) ring.map(P).forEach((p, i) => i ? ctx.lineTo(p[0], p[1]) : ctx.moveTo(p[0], p[1]));
+        ctx.stroke();
+      }
+      ctx.setLineDash([]);
+    }
+    ctx.restore();
+    const kn = (lt - (it.at || 0) - (it.dur || 1.2)) * 18;
+    for (const n of it.names || []) {
+      const [x, y] = skPt(spec, n.pos);
+      skWrite(n.text, x, y, kn / n.text.length, { size: n.size || 40, color: '#ffffff', haloColor: 'rgba(5,20,40,0.75)', font: 'sans', weight: n.italic ? 'italic 600' : 700 });
+    }
   },
   barrels(name, spec, it, lt) {
     const [x0, y0] = skPt(spec, it.pos || [0.5, 0.4]), n = it.n || 5, s = it.size || 120, gap = s * 0.35;
