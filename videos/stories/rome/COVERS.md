@@ -10,3 +10,4 @@
 | 04 | ROME ERASED THIS CITY | Carthage burning at night, circular harbour, legionaries from behind | - |
 | 05 | THE RIVER OF NO RETURN | Caesar on horseback at the river at night, torchlit legion | Rubens, *Julius Caesar* (PD) |
 | 06 | BETRAYED BY HIS FRIENDS | Caesar surrounded by hooded senators with daggers in the senate hall, no blood | Rubens, *Julius Caesar* (PD) |
+| 07 | HE NAMED A MONTH | Augustus in armour raising his arm over marble Rome, AUGUST calendar page in the sky | Augustus of Prima Porta (PD photo) |

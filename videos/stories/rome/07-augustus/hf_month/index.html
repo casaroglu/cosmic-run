@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=1080, height=1920" />
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+@font-face{font-family:'SketchHand';src:url('assets/BradleyHandBold.ttf') format('truetype');font-weight:700}
+:root{--paper:#efe4c9;--ink:#2a2119;--red:#b3261e;--hand:'SketchHand',cursive}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--paper)}
+#root{position:relative;width:1080px;height:1920px;font-family:var(--hand);color:var(--ink);
+ background:radial-gradient(ellipse at 50% 50%,rgba(0,0,0,0) 45%,rgba(70,45,15,.45) 100%),var(--paper)}
+#cal{position:absolute;left:290px;top:380px;width:500px;height:440px;background:#fbf6ea;border:7px solid var(--ink);border-radius:18px;box-shadow:0 14px 24px rgba(60,40,10,.3)}
+#bar{position:absolute;left:0;right:0;top:0;height:110px;background:var(--red);border-radius:10px 10px 0 0}
+#year{position:absolute;left:0;right:0;top:22px;text-align:center;color:#fff;font-size:52px;font-weight:700}
+#old{position:absolute;left:0;right:0;top:150px;text-align:center;font-size:84px;font-weight:700}
+#olds{background:linear-gradient(var(--red),var(--red)) no-repeat 0 55%/0% 9px;padding:0 10px}
+#new{position:absolute;left:0;right:0;top:270px;text-align:center;font-family:'Helvetica Neue',Arial,sans-serif;font-weight:900;font-size:76px;color:var(--red);letter-spacing:2px}
+#sub{position:absolute;left:190px;width:660px;top:850px;text-align:center;font-size:46px;font-weight:700}
+#myth1{position:absolute;left:220px;width:600px;top:1000px;text-align:center;font-size:42px;font-weight:700;color:#5a4a36}
+#stamp{position:absolute;left:390px;top:1080px;width:300px;text-align:center;border:8px solid var(--red);color:var(--red);font-family:'Helvetica Neue',Arial,sans-serif;font-weight:900;font-size:80px;border-radius:8px;transform:rotate(-8deg)}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="16" data-width="1080" data-height="1920">
+ <div id="scene" class="clip" data-start="0" data-duration="16" data-track-index="0" style="position:absolute;inset:0">
+  <div id="cal"><div id="bar"></div><div id="year">8 BC</div><div id="old"><span id="olds">Sextilis</span></div><div id="new">AUGUSTUS</div></div>
+  <div id="sub">(Sextilis = "sixth month")</div>
+  <div id="myth1">a day stolen from February?</div>
+  <div id="stamp">MYTH</div>
+ </div>
+</div>
+<script>
+window.__timelines = window.__timelines || {};
+const tl = gsap.timeline({ paused: true });
+tl.from("#cal", { y: -60, opacity: 0, duration: 0.6, ease: "power2.out" }, 0.1);
+tl.to("#olds", { backgroundSize: "100% 9px", duration: 0.5, ease: "power2.inOut" }, 1.6);
+tl.fromTo("#new", { opacity: 0, scale: 1.5 }, { opacity: 1, scale: 1, duration: 0.4, ease: "power3.out" }, 2.3);
+tl.from("#sub", { opacity: 0, y: 20, duration: 0.5 }, 3.2);
+tl.from("#myth1", { opacity: 0, duration: 0.5 }, 9.0);
+tl.fromTo("#stamp", { opacity: 0, scale: 1.8 }, { opacity: 1, scale: 1, duration: 0.3, ease: "power3.out" }, 11.0);
+window.__timelines["main"] = tl;
+tl.seek(0);
+</script></body></html>
