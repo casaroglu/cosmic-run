@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=1080, height=1920" />
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+@font-face{font-family:'SketchHand';src:url('assets/BradleyHandBold.ttf') format('truetype');font-weight:700}
+:root{--paper:#efe4c9;--ink:#2a2119;--red:#b3261e;--hand:'SketchHand',cursive}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--paper)}
+#root{position:relative;width:1080px;height:1920px;font-family:var(--hand);color:var(--ink);
+ background:radial-gradient(ellipse at 50% 50%,rgba(0,0,0,0) 45%,rgba(70,45,15,.45) 100%),var(--paper)}
+#head{position:absolute;left:190px;width:660px;top:380px;text-align:center;font-size:58px;font-weight:700}
+.row{position:absolute;left:190px;width:660px;text-align:center}
+.num{font-family:'Helvetica Neue',Arial,sans-serif;font-weight:900;font-size:130px;line-height:1}
+.lab{font-size:50px;font-weight:700;margin-top:4px}
+#r1{top:480px} #r2{top:700px} #r3{top:920px}
+#r2 .num,#r3 .num{color:var(--red)}
+#note{position:absolute;left:190px;width:660px;top:1130px;text-align:center;font-size:42px;font-weight:700;color:#5a4a36}
+.tick{position:absolute;top:640px;width:8px;height:44px;background:var(--red);border-radius:3px}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="12" data-width="1080" data-height="1920">
+ <div id="scene" class="clip" data-start="0" data-duration="12" data-track-index="0" style="position:absolute;inset:0">
+  <div id="head">15 March, 44 BC</div>
+  <div class="row" id="r1"><div class="num" id="n1">0</div><div class="lab">conspirators</div></div>
+  <div class="row" id="r2"><div class="num" id="n2">0</div><div class="lab">stab wounds</div></div>
+  <div class="row" id="r3"><div class="num">1</div><div class="lab">was fatal: the second</div></div>
+  <div id="note">the first recorded autopsy (Suetonius)</div>
+ </div>
+</div>
+<script>
+window.__timelines = window.__timelines || {};
+const tl = gsap.timeline({ paused: true });
+const c1 = { v: 0 }, c2 = { v: 0 };
+tl.from("#head", { opacity: 0, y: 20, duration: 0.5 }, 0.1);
+tl.from("#r1", { opacity: 0, duration: 0.3 }, 0.5);
+tl.to(c1, { v: 60, duration: 1.2, ease: "power2.out", onUpdate: () => document.getElementById('n1').textContent = Math.round(c1.v) + (c1.v > 59.5 ? '+' : '') }, 0.5);
+tl.from("#r2", { opacity: 0, duration: 0.3 }, 2.2);
+tl.to(c2, { v: 23, duration: 2.0, ease: "none", onUpdate: () => document.getElementById('n2').textContent = Math.round(c2.v) }, 2.2);
+tl.fromTo("#r3", { opacity: 0, scale: 1.5 }, { opacity: 1, scale: 1, duration: 0.4, ease: "power3.out" }, 5.4);
+tl.from("#note", { opacity: 0, duration: 0.6 }, 6.6);
+window.__timelines["main"] = tl;
+tl.seek(0);
+</script></body></html>

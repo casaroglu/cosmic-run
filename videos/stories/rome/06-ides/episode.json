@@ -1,0 +1,558 @@
+{
+ "series": "Ancient Rome",
+ "episode": 6,
+ "part": null,
+ "total_parts": null,
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
+  },
+  "a": {
+   "name": "Theo",
+   "color": "#D9A441"
+  }
+ },
+ "accent": "#D9A441",
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "scene_pad": 0.5,
+ "fade": 1.1,
+ "title": "Who stabbed Julius Caesar 23 times?",
+ "highlight": [
+  "23",
+  "times?"
+ ],
+ "music": {
+  "mood": "epic",
+  "seed": 76,
+  "drums": true,
+  "level": 0.3
+ },
+ "post": {
+  "caption": "Ancient Rome, episode 6: the Ides of March, 44 BC. Sixty conspirators, 23 wounds, the first recorded autopsy, Brutus's EID MAR coin and the battle of Philippi. Images: public domain / CC0 (Camuccini, Gérôme, Rubens), AI illustrations marked. Map data: Natural Earth.",
+  "hashtags": [
+   "history",
+   "rome",
+   "ancientrome",
+   "juliuscaesar",
+   "idesofmarch",
+   "brutus",
+   "shorts"
+  ]
+ },
+ "clips": {
+  "globe": "sketch/globe_in.mp4",
+  "wounds": "sketch/wounds_hf.mp4"
+ },
+ "images": {
+  "cats": {
+   "file": "img/cats_qwen.jpg",
+   "credit": "Illustration: Largo di Torre Argentina today (AI-generated, Qwen-Image)",
+   "where": "History Sketches"
+  },
+  "camuccini": {
+   "file": "img/camuccini_crop.jpg",
+   "credit": "Vincenzo Camuccini, The Death of Caesar (1804-05, detail)",
+   "where": "Galleria Nazionale d'Arte Moderna, Rome, public domain"
+  },
+  "gerome": {
+   "file": "img/gerome.jpg",
+   "credit": "Jean-Léon Gérôme, The Death of Caesar (1859-67)",
+   "where": "Walters Art Museum, public domain"
+  },
+  "caesar": {
+   "file": "img/caesar_rubens.jpg",
+   "credit": "Peter Paul Rubens, Julius Caesar (c. 1625)",
+   "where": "The Leiden Collection, public domain"
+  },
+  "coin_brutus": {
+   "file": "img/coin_brutus.jpg",
+   "credit": "Denarius of Brutus, 42 BC (19th-century drawing)",
+   "where": "public domain"
+  },
+  "coin_eidmar": {
+   "file": "img/coin_eidmar.jpg",
+   "credit": "EID MAR denarius of Brutus, 42 BC (19th-century drawing)",
+   "where": "public domain"
+  },
+  "senator": {
+   "file": "img/senator.png",
+   "credit": "Illustration: Roman senator (AI-generated, Qwen-Image)",
+   "where": "History Sketches"
+  }
+ },
+ "sketches": {
+  "why": {
+   "items": [
+    {
+     "kind": "text",
+     "text": "February 44 BC",
+     "pos": [
+      0.5,
+      0.3
+     ],
+     "at": 0.3,
+     "size": 54
+    },
+    {
+     "kind": "stamp",
+     "text": "DICTATOR FOR LIFE",
+     "pos": [
+      0.5,
+      0.42
+     ],
+     "at": 1.6,
+     "size": 70
+    },
+    {
+     "kind": "text",
+     "text": "a king in all but name?",
+     "pos": [
+      0.5,
+      0.56
+     ],
+     "at": 4.0,
+     "size": 50,
+     "color": "#b3261e"
+    }
+   ]
+  },
+  "plot": {
+   "items": [
+    {
+     "kind": "text",
+     "text": "the conspiracy",
+     "pos": [
+      0.5,
+      0.3
+     ],
+     "at": 0.3,
+     "size": 60
+    },
+    {
+     "kind": "text",
+     "text": "Brutus",
+     "pos": [
+      0.62,
+      0.42
+     ],
+     "at": 2.6,
+     "size": 64,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "text",
+     "text": "Cassius",
+     "pos": [
+      0.62,
+      0.5
+     ],
+     "at": 3.2,
+     "size": 64,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "text",
+     "text": "+ about 60 senators",
+     "pos": [
+      0.6,
+      0.58
+     ],
+     "at": 3.8,
+     "size": 46
+    }
+   ]
+  },
+  "warning": {
+   "items": [
+    {
+     "kind": "text",
+     "text": "MARCH",
+     "pos": [
+      0.5,
+      0.27
+     ],
+     "at": 0.2,
+     "size": 96
+    },
+    {
+     "kind": "counter",
+     "pos": [
+      0.5,
+      0.42
+     ],
+     "from": 1,
+     "to": 15,
+     "at": 0.6,
+     "dur": 1.6,
+     "size": 200,
+     "plain": true,
+     "color": "#2a2119"
+    },
+    {
+     "kind": "circle",
+     "pos": [
+      0.5,
+      0.405
+     ],
+     "r": 150,
+     "at": 2.4,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "text",
+     "text": "Idus Martiae: the Ides of March",
+     "pos": [
+      0.5,
+      0.55
+     ],
+     "at": 3.0,
+     "size": 46
+    },
+    {
+     "kind": "text",
+     "text": "\"Beware the Ides\"",
+     "pos": [
+      0.5,
+      0.62
+     ],
+     "at": 5.0,
+     "size": 54,
+     "color": "#b3261e"
+    }
+   ]
+  },
+  "philippi": {
+   "coast": "sketch/civil.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.0,
+     "pencil": false
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      12.49,
+      41.89
+     ],
+     "label": "Rome",
+     "lx": 30,
+     "ly": -40,
+     "at": 0.4
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      12.7,
+      41.7
+     ],
+     "to": [
+      24.0,
+      41.0
+     ],
+     "bend": -0.15,
+     "at": 3.0,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      24.29,
+      41.01
+     ],
+     "label": "Philippi, 42 BC",
+     "lx": -25,
+     "ly": 50,
+     "at": 4.2,
+     "lalign": "right"
+    }
+   ]
+  },
+  "names": {
+   "items": [
+    {
+     "kind": "text",
+     "text": "CAESAR",
+     "pos": [
+      0.5,
+      0.3
+     ],
+     "at": 0.2,
+     "size": 100
+    },
+    {
+     "kind": "text",
+     "text": "Kaiser (German)",
+     "pos": [
+      0.5,
+      0.42
+     ],
+     "at": 1.4,
+     "size": 56,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "text",
+     "text": "Tsar (Russian)",
+     "pos": [
+      0.5,
+      0.5
+     ],
+     "at": 2.2,
+     "size": 56,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "text",
+     "text": "July: his month",
+     "pos": [
+      0.5,
+      0.6
+     ],
+     "at": 3.4,
+     "size": 56
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "globe",
+   "text": "Who stabbed Julius Caesar 23 times?",
+   "say": "Who stabbed Julius Caesar twenty-three times?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "His own senators. On the fifteenth of March, 44 BC, the day Romans called the Ides.",
+   "say": "His own senators. On the fifteenth of March, forty-four BC, the day Romans called the Ides.",
+   "cameo": {
+    "key": "caesar",
+    "side": "right",
+    "y": 0.34,
+    "w": 300,
+    "caption": "Julius Caesar"
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Where did it happen?",
+   "scene": "cats",
+   "date": "Today",
+   "place": "Largo di Torre Argentina, Rome",
+   "move": {
+    "from": [
+     0.5,
+     0.55,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.45,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In a meeting hall built by Pompey. Its ruins lie in a square in central Rome, now home to a sanctuary for hundreds of cats."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Why kill him?",
+   "scene": "why",
+   "cameo": {
+    "key": "caesar",
+    "side": "right",
+    "y": 0.25,
+    "w": 200,
+    "hold": 2,
+    "delay": 0.8
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "A few weeks earlier, Caesar had been named dictator for life. Many senators feared he would make himself king."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Who was behind it?",
+   "scene": "plot",
+   "cameo": [
+    {
+     "key": "senator",
+     "style": "cutout",
+     "side": "left",
+     "y": 0.42,
+     "w": 230,
+     "bleed": 20,
+     "hold": 2
+    }
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "More than sixty men, led by Brutus and Cassius. Caesar had pardoned Brutus after the civil war and treated him almost like a son.",
+   "cameo": {
+    "key": "coin_brutus",
+    "style": "coin",
+    "side": "right",
+    "y": 0.25,
+    "w": 220,
+    "zoom": 1.0,
+    "caption": "Brutus",
+    "delay": 1.0
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Was he warned?",
+   "scene": "warning"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Twice. A seer named Spurinna warned him of danger by the Ides. And his wife Calpurnia dreamed of his death and begged him to stay home."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "On the way, Caesar joked: the Ides of March have come. Spurinna replied: yes, but they have not gone."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "What happened inside?",
+   "scene": "camuccini",
+   "date": "15 March 44 BC",
+   "place": "Curia of Pompey, Rome",
+   "move": {
+    "from": [
+     0.42,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.4,
+     0.55,
+     1.3
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "The senators surrounded him and pulled out daggers hidden in their togas. He fell at the foot of a statue of Pompey, his old rival."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Twenty-three wounds?",
+   "scene": "wounds"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Yes. A doctor named Antistius examined the body. Only one wound, the second, was fatal. It's the first autopsy in recorded history."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Did he really say: Et tu, Brute?",
+   "scene": "gerome",
+   "move": {
+    "from": [
+     0.35,
+     0.6,
+     1.0
+    ],
+    "to": [
+     0.3,
+     0.65,
+     1.3
+    ]
+   },
+   "say": "Did he really say: Et too, Brootay?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "No, that line comes from Shakespeare. One Roman writer says Caesar died in silence. Others say his last words were, in Greek: you too, child?"
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Did the killers win?",
+   "scene": "philippi",
+   "cameo": {
+    "key": "coin_eidmar",
+    "style": "coin",
+    "side": "right",
+    "y": 0.5,
+    "w": 260,
+    "zoom": 1.0,
+    "caption": "EID MAR",
+    "hold": 2
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Brutus even minted coins with two daggers and the words EID MAR, the Ides of March. But in 42 BC, Caesar's heir Octavian and Mark Antony defeated them at Philippi, and Brutus and Cassius took their own lives.",
+   "say": "Brutus even minted coins with two daggers and the words: eed mar, the Ides of March. But in forty-two BC, Caesar's heir Octavian and Mark Antony defeated them at Philippi, and Brutus and Cassius took their own lives.",
+   "date": "42 BC",
+   "place": "Philippi, Greece"
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So is Caesar forgotten?",
+   "scene": "names",
+   "cameo": {
+    "key": "caesar",
+    "side": "right",
+    "y": 0.25,
+    "w": 200,
+    "hold": 2
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Far from it. The month of July is named after him, and his name became the word for emperor: Kaiser in German, Tsar in Russian."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Next time: Octavian becomes Augustus, the first emperor. Like the video and follow History Sketches so you don't miss it."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And tell us in the comments: was Brutus a hero or a traitor?"
+  },
+  {
+   "type": "end",
+   "text": "Next: Augustus",
+   "sub": "Follow History Sketches"
+  }
+ ]
+}

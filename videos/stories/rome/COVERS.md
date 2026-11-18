@@ -9,3 +9,4 @@
 | 03 | ELEPHANTS OVER THE ALPS? | War elephants and army on a snowy pass, torches, rider seen from behind | - (no reliable portrait of Hannibal) |
 | 04 | ROME ERASED THIS CITY | Carthage burning at night, circular harbour, legionaries from behind | - |
 | 05 | THE RIVER OF NO RETURN | Caesar on horseback at the river at night, torchlit legion | Rubens, *Julius Caesar* (PD) |
+| 06 | BETRAYED BY HIS FRIENDS | Caesar surrounded by hooded senators with daggers in the senate hall, no blood | Rubens, *Julius Caesar* (PD) |

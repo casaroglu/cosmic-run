@@ -466,6 +466,12 @@ window.textAudit = function () {
       if (boxes[i].x0 < 10 || boxes[i].x1 > W - 10) out.push(`${name}: "${boxes[i].text}" runs off the frame`);
     }
   }
+  if (typeof cameoBox === 'function' && !LAND()) for (const b of TL.beats) for (const c of (b.cameo ? [].concat(b.cameo) : [])) {
+    if (!IMGS[c.key]) { out.push(`cameo ${c.key}: image missing`); continue; }
+    const bx = cameoBox(c); n++;
+    if (bx.y1 > 1290 && bx.y0 < 1500) out.push(`cameo ${c.key} @${b.start.toFixed(1)}s overlaps [captions]`);
+    if (bx.y0 < 300 && bx.right && bx.x1 > W - 150) out.push(`cameo ${c.key} @${b.start.toFixed(1)}s overlaps [logo]`);
+  }
   ctx = prev; CUR_T = prevT;
   window.TEXT_AUDIT_N = n;
   return out;
