@@ -1,0 +1,1 @@
+{"w": 1080, "h": 1920, "duration": 8.0, "fly": 5.0, "ease": "power2.inOut", "from": {"lat": 50, "lon": -10, "dist": 4.6}, "to": {"lat": 42.5, "lon": 12.0, "dist": 1.6}, "markers": [{"lat": 41.899, "lon": 12.477, "label": "Pantheon", "at": 4.2}, {"lat": 43.947, "lon": 4.535, "label": "Pont du Gard", "at": 4.8}]}

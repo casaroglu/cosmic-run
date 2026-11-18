@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=1080, height=1920" />
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+@font-face{font-family:'SketchHand';src:url('assets/BradleyHandBold.ttf') format('truetype');font-weight:700}
+:root{--paper:#efe4c9;--ink:#2a2119;--red:#b3261e;--hand:'SketchHand',cursive}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--paper)}
+#root{position:relative;width:1080px;height:1920px;font-family:var(--hand);color:var(--ink);
+ background:radial-gradient(ellipse at 50% 50%,rgba(0,0,0,0) 45%,rgba(70,45,15,.45) 100%),var(--paper)}
+#head{position:absolute;left:190px;width:660px;top:300px;text-align:center;font-size:58px;font-weight:700}
+#svg{position:absolute;left:240px;top:385px;width:600px;height:560px;overflow:visible}
+#svg path,#svg line,#svg rect{fill:none;stroke:var(--ink);stroke-width:6;stroke-linecap:round;stroke-linejoin:round}
+#svg circle{fill:none;stroke:var(--red);stroke-width:5;stroke-dasharray:14 10}
+.draw{stroke-dasharray:1800;stroke-dashoffset:1800}
+#dim{stroke:var(--red)!important;stroke-width:4!important}
+#n1{position:absolute;left:190px;width:660px;top:955px;text-align:center;font-family:'Helvetica Neue',Arial,sans-serif;font-weight:900;font-size:96px;color:var(--red)}
+#n1s{position:absolute;left:190px;width:660px;top:1060px;text-align:center;font-size:42px;font-weight:700}
+#n2{position:absolute;left:190px;width:660px;top:1115px;text-align:center;font-size:42px;font-weight:700;color:#5a4a36}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="14" data-width="1080" data-height="1920">
+ <div id="scene" class="clip" data-start="0" data-duration="14" data-track-index="0" style="position:absolute;inset:0">
+  <div id="head">The Pantheon dome</div>
+  <svg id="svg" viewBox="0 0 600 560">
+   <path class="draw" d="M40 520 L40 280 A260 260 0 0 1 560 280 L560 520 Z"/>
+   <rect class="draw" x="262" y="14" width="76" height="12" rx="4"/>
+   <circle id="sph" cx="300" cy="280" r="258"/>
+   <line id="dim" class="draw" x1="40" y1="545" x2="560" y2="545"/>
+  </svg>
+  <div id="n1">43.3 m</div>
+  <div id="n1s">no steel inside, a sphere fits exactly</div>
+  <div id="n2">still standing after ~1,900 years</div>
+ </div>
+</div>
+<script>
+window.__timelines = window.__timelines || {};
+const tl = gsap.timeline({ paused: true });
+tl.from("#head", { opacity: 0, y: 20, duration: 0.5 }, 0.1);
+tl.to(".draw", { strokeDashoffset: 0, duration: 1.8, ease: "power1.inOut", stagger: 0.2 }, 0.4);
+tl.fromTo("#n1", { opacity: 0, scale: 1.4 }, { opacity: 1, scale: 1, duration: 0.4, ease: "power3.out" }, 2.6);
+tl.from("#sph", { opacity: 0, scale: 0.2, svgOrigin: "300 280", duration: 0.9, ease: "back.out(1.6)" }, 4.0);
+tl.from("#n1s", { opacity: 0, duration: 0.5 }, 4.4);
+tl.from("#n2", { opacity: 0, duration: 0.6 }, 7.0);
+window.__timelines["main"] = tl;
+tl.seek(0);
+</script></body></html>

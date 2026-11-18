@@ -1,0 +1,401 @@
+{
+ "series": "Ancient Rome",
+ "episode": 8,
+ "part": null,
+ "total_parts": null,
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
+  },
+  "a": {
+   "name": "Theo",
+   "color": "#D9A441"
+  }
+ },
+ "accent": "#D9A441",
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "scene_pad": 0.5,
+ "fade": 1.1,
+ "title": "Why is Roman concrete still standing after 2,000 years?",
+ "highlight": [
+  "concrete"
+ ],
+ "music": {
+  "mood": "epic",
+  "seed": 78,
+  "drums": true,
+  "level": 0.3
+ },
+ "post": {
+  "caption": "Ancient Rome, episode 8: the Pantheon dome, self-healing Roman concrete, the Via Appia, the Pont du Gard and an aqueduct that still feeds the Trevi Fountain. Images: public domain / CC0 (Panini, Piranesi, Hubert Robert, Rijksmuseum), AI illustrations marked. Map data: Natural Earth.",
+  "hashtags": [
+   "history",
+   "rome",
+   "ancientrome",
+   "romanconcrete",
+   "pantheon",
+   "engineering",
+   "shorts"
+  ]
+ },
+ "clips": {
+  "globe": "sketch/globe_in.mp4",
+  "dome": "sketch/dome_hf.mp4"
+ },
+ "images": {
+  "panini": {
+   "file": "img/panini.jpg",
+   "credit": "Giovanni Paolo Panini, Interior of the Pantheon (c. 1734)",
+   "where": "National Gallery of Art, Washington, CC0"
+  },
+  "mixing": {
+   "file": "img/mixing_qwen.jpg",
+   "credit": "Illustration: Roman builders hot-mixing concrete (AI-generated, Qwen-Image)",
+   "where": "History Sketches"
+  },
+  "appia": {
+   "file": "img/appia.jpg",
+   "credit": "Giovanni Battista Piranesi, The paving of the Via Appia (1756)",
+   "where": "The Metropolitan Museum of Art, CC0"
+  },
+  "pontdugard": {
+   "file": "img/pontdugard.jpg",
+   "credit": "Hubert Robert, The Pont du Gard (1787)",
+   "where": "Louvre, public domain"
+  },
+  "trevi": {
+   "file": "img/trevi_crop.jpg",
+   "credit": "Giovanni Battista Piranesi, The Trevi Fountain (c. 1773)",
+   "where": "public domain"
+  },
+  "hadrian": {
+   "file": "img/hadrian_medal.jpg",
+   "credit": "Hadrian, from Les images presque de tous les empereurs",
+   "where": "Rijksmuseum, CC0"
+  },
+  "surveyor": {
+   "file": "img/surveyor.png",
+   "credit": "Illustration: Roman surveyor with a groma (AI-generated, Qwen-Image)",
+   "where": "History Sketches"
+  },
+  "legionary": {
+   "file": "img/legionary.png",
+   "credit": "Illustration: Roman legionary (AI-generated, Qwen-Image)",
+   "where": "History Sketches"
+  }
+ },
+ "sketches": {
+  "roads": {
+   "coast": "sketch/italy.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.0,
+     "pencil": false
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      12.49,
+      41.89
+     ],
+     "label": "Rome",
+     "lx": -25,
+     "ly": -45,
+     "at": 0.4,
+     "lalign": "right"
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       12.49,
+       41.89
+      ],
+      [
+       13.25,
+       41.29
+      ],
+      [
+       14.25,
+       41.08
+      ],
+      [
+       14.78,
+       41.13
+      ],
+      [
+       16.0,
+       40.9
+      ],
+      [
+       17.24,
+       40.47
+      ],
+      [
+       17.94,
+       40.64
+      ]
+     ],
+     "at": 1.2,
+     "dur": 3.0,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "Via Appia, 312 BC",
+     "pos": [
+      15.2,
+      40.3
+     ],
+     "at": 3.0,
+     "size": 46,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      17.94,
+      40.64
+     ],
+     "label": "Brindisi",
+     "lx": -25,
+     "ly": -45,
+     "at": 4.2,
+     "lalign": "right"
+    },
+    {
+     "kind": "text",
+     "text": "80,000+ km of stone roads",
+     "pos": [
+      0.5,
+      0.62
+     ],
+     "at": 5.0,
+     "size": 50
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "globe",
+   "text": "Why is Roman concrete still standing after 2,000 years?",
+   "say": "Why is Roman concrete still standing after two thousand years?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Mostly thanks to volcanic ash, and a trick scientists only figured out recently. Some Roman harbour walls have stood in seawater for two thousand years.",
+   "cameo": {
+    "key": "legionary",
+    "style": "cutout",
+    "side": "left",
+    "y": 0.42,
+    "w": 230,
+    "bleed": 20
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "What's the best example?",
+   "scene": "panini",
+   "date": "c. AD 126",
+   "place": "Pantheon, Rome",
+   "move": {
+    "from": [
+     0.5,
+     0.3,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.25,
+     1.2
+    ]
+   },
+   "cameo": {
+    "key": "hadrian",
+    "style": "coin",
+    "side": "right",
+    "y": 0.5,
+    "w": 230,
+    "zoom": 1.05,
+    "caption": "Hadrian",
+    "hold": 2
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "The Pantheon in Rome. Its dome, finished under Emperor Hadrian around AD 126, is still the largest unreinforced concrete dome in the world.",
+   "say": "The Pantheon in Rome. Its dome, finished under Emperor Hadrian around A D one twenty-six, is still the largest unreinforced concrete dome in the world."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "How big is it?",
+   "scene": "dome"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Forty-three metres across, and exactly as tall as it is wide, so a giant ball would fit inside. And there's no steel in it at all."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So what was the secret?",
+   "scene": "mixing",
+   "move": {
+    "from": [
+     0.5,
+     0.55,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.45,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Volcanic ash from near Naples, mixed with lime. And in 2023, scientists at MIT showed the Romans used hot quicklime, which left tiny white lumps in the concrete.",
+   "say": "Volcanic ash from near Naples, mixed with lime. And in twenty twenty-three, scientists at M I T showed the Romans used hot quicklime, which left tiny white lumps in the concrete."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "When water seeps into a crack, those lumps dissolve and seal it again. In their lab, cracked samples healed themselves within two weeks."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So why do modern buildings crack?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Most modern concrete hides steel bars inside. When water reaches the steel, it rusts, swells and breaks the concrete apart. Roman concrete had no steel to rust."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "What about Roman roads?",
+   "scene": "roads",
+   "cameo": {
+    "key": "surveyor",
+    "style": "cutout",
+    "side": "left",
+    "y": 0.47,
+    "w": 240,
+    "bleed": 20,
+    "hold": 2
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "The Romans built more than eighty thousand kilometres of stone-paved roads. The most famous, the Via Appia, was begun in 312 BC, and you can still walk on parts of it.",
+   "say": "The Romans built more than eighty thousand kilometres of stone-paved roads. The most famous, the Via Appia, was begun in three twelve BC, and you can still walk on parts of it."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Each road was built in layers: a deep trench, rubble, gravel, concrete, and finally tightly fitted paving stones.",
+   "scene": "appia",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.55,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And water?",
+   "scene": "pontdugard",
+   "place": "Pont du Gard, France",
+   "move": {
+    "from": [
+     0.35,
+     0.55,
+     1.0
+    ],
+    "to": [
+     0.3,
+     0.55,
+     1.3
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Aqueducts. They carried water into cities using nothing but gravity, sometimes across giant bridges like the Pont du Gard in France."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Do any still work?",
+   "scene": "trevi",
+   "date": "19 BC",
+   "place": "Aqua Virgo, Rome",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.4,
+     0.5,
+     1.35
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "One does. The Aqua Virgo, built by Agrippa in 19 BC, was restored, and its water still feeds the Trevi Fountain in Rome.",
+   "say": "One does. The Aqua Virgo, built by Agrippa in nineteen BC, was restored, and its water still feeds the Trevi Fountain in Rome."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Next time: Pompeii, a city frozen in a single day. Like the video and follow History Sketches so you don't miss it."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And tell us in the comments: which Roman invention would you bring back?"
+  },
+  {
+   "type": "end",
+   "text": "Next: Pompeii",
+   "sub": "Follow History Sketches"
+  }
+ ]
+}
