@@ -1,0 +1,803 @@
+{
+ "series": "Ancient Rome",
+ "episode": 4,
+ "part": null,
+ "total_parts": null,
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
+  },
+  "a": {
+   "name": "Theo",
+   "color": "#D9A441"
+  }
+ },
+ "accent": "#D9A441",
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "scene_pad": 0.5,
+ "fade": 1.1,
+ "title": "Did Rome really wipe out two cities in one year?",
+ "highlight": [
+  "two",
+  "cities"
+ ],
+ "music": {
+  "mood": "epic",
+  "seed": 74,
+  "drums": true,
+  "level": 0.3
+ },
+ "post": {
+  "caption": "Ancient Rome, episode 4: Cato's figs, Rome's impossible demands, the three-year siege and the fall of Carthage and Corinth in 146 BC. Images: public domain / CC0, AI illustration marked. Map data: Natural Earth.",
+  "hashtags": [
+   "history",
+   "rome",
+   "ancientrome",
+   "carthage",
+   "punicwars",
+   "corinth",
+   "shorts"
+  ]
+ },
+ "clips": {
+  "globe": "sketch/globe_in.mp4",
+  "demands": "sketch/demands_hf.mp4"
+ },
+ "images": {
+  "dido": {
+   "file": "img/dido.jpg",
+   "credit": "J. M. W. Turner, Dido Building Carthage (1815)",
+   "where": "National Gallery, London, public domain"
+  },
+  "burn": {
+   "file": "img/burn_qwen.jpg",
+   "credit": "Illustration: Carthage burns, 146 BC (AI-generated, Qwen-Image)",
+   "where": "History Sketches"
+  }
+ },
+ "sketches": {
+  "today": {
+   "coast": "sketch/tunis.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.4
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      10.323,
+      36.853
+     ],
+     "label": "Carthage ruins",
+     "lx": 30,
+     "ly": -40,
+     "at": 1.0
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      10.18,
+      36.8
+     ],
+     "label": "Tunis",
+     "lx": -25,
+     "ly": 50,
+     "at": 1.6,
+     "lalign": "right"
+    },
+    {
+     "kind": "label",
+     "text": "Gulf of Tunis",
+     "pos": [
+      10.45,
+      36.98
+     ],
+     "at": 2.2,
+     "size": 44,
+     "color": "#1f4e8c"
+    }
+   ]
+  },
+  "sea": {
+   "coast": "sketch/sea.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      10.32,
+      36.85
+     ],
+     "label": "Carthage",
+     "lx": 30,
+     "ly": 45,
+     "at": 0.5
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      12.49,
+      41.89
+     ],
+     "label": "Rome",
+     "lx": 30,
+     "ly": -40,
+     "at": 0.9
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      10.6,
+      37.3
+     ],
+     "to": [
+      12.3,
+      41.5
+     ],
+     "bend": -0.2,
+     "at": 4.0,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "3 days by sea",
+     "pos": [
+      12.9,
+      39.4
+     ],
+     "at": 5.0,
+     "size": 46,
+     "color": "#b3261e"
+    }
+   ]
+  },
+  "siege": {
+   "items": [
+    {
+     "kind": "fort",
+     "pos": [
+      0.5,
+      0.3
+     ],
+     "size": 70,
+     "at": 0.2
+    },
+    {
+     "kind": "text",
+     "text": "the siege of Carthage",
+     "pos": [
+      0.5,
+      0.4
+     ],
+     "at": 0.8,
+     "size": 52
+    },
+    {
+     "kind": "counter",
+     "pos": [
+      0.5,
+      0.53
+     ],
+     "from": 0,
+     "to": 3,
+     "suffix": " years",
+     "at": 6.0,
+     "dur": 1.6,
+     "size": 110
+    },
+    {
+     "kind": "text",
+     "text": "then 6 days of street fighting",
+     "pos": [
+      0.5,
+      0.64
+     ],
+     "at": 11.0,
+     "size": 48,
+     "color": "#b3261e"
+    }
+   ]
+  },
+  "salt": {
+   "items": [
+    {
+     "kind": "text",
+     "text": "\"they salted the earth\"",
+     "pos": [
+      0.5,
+      0.36
+     ],
+     "at": 0.3,
+     "size": 62
+    },
+    {
+     "kind": "stamp",
+     "text": "MYTH",
+     "pos": [
+      0.5,
+      0.48
+     ],
+     "at": 2.2,
+     "size": 110
+    },
+    {
+     "kind": "text",
+     "text": "a modern invention",
+     "pos": [
+      0.5,
+      0.6
+     ],
+     "at": 4.0,
+     "size": 50,
+     "color": "#b3261e"
+    }
+   ]
+  },
+  "corinth": {
+   "coast": "sketch/greece.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      22.88,
+      37.91
+     ],
+     "label": "Corinth",
+     "lx": -25,
+     "ly": 50,
+     "at": 0.6,
+     "lalign": "right"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      23.73,
+      37.98
+     ],
+     "label": "Athens",
+     "lx": 30,
+     "ly": -40,
+     "at": 1.0
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      22.7,
+      38.0
+     ],
+     "to": [
+      20.9,
+      38.7
+     ],
+     "bend": 0.2,
+     "at": 4.6,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "statues to Rome",
+     "pos": [
+      21.6,
+      39.4
+     ],
+     "at": 5.4,
+     "size": 46,
+     "color": "#b3261e"
+    }
+   ]
+  },
+  "empire": {
+   "coast": "sketch/med.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        7.5,
+        44.0
+       ],
+       [
+        12.5,
+        45.6
+       ],
+       [
+        13.8,
+        45.6
+       ],
+       [
+        12.5,
+        44.0
+       ],
+       [
+        14,
+        42.5
+       ],
+       [
+        18.5,
+        40.2
+       ],
+       [
+        16,
+        38
+       ],
+       [
+        15.6,
+        38
+       ],
+       [
+        12,
+        41.6
+       ],
+       [
+        10.5,
+        43
+       ],
+       [
+        8,
+        44
+       ]
+      ],
+      [
+       [
+        12.4,
+        38.1
+       ],
+       [
+        15.6,
+        38.3
+       ],
+       [
+        15.1,
+        36.7
+       ],
+       [
+        12.5,
+        37.6
+       ]
+      ],
+      [
+       [
+        8.4,
+        39.0
+       ],
+       [
+        9.6,
+        39.1
+       ],
+       [
+        9.8,
+        41.0
+       ],
+       [
+        9.5,
+        43.0
+       ],
+       [
+        8.6,
+        42.6
+       ],
+       [
+        8.2,
+        40.6
+       ]
+      ],
+      [
+       [
+        -6.3,
+        36.8
+       ],
+       [
+        -5.6,
+        36.0
+       ],
+       [
+        -2.0,
+        36.7
+       ],
+       [
+        -0.5,
+        38.3
+       ],
+       [
+        0.2,
+        38.8
+       ],
+       [
+        -0.3,
+        39.5
+       ],
+       [
+        0.9,
+        41.0
+       ],
+       [
+        3.2,
+        41.9
+       ],
+       [
+        3.1,
+        42.4
+       ],
+       [
+        1.0,
+        42.0
+       ],
+       [
+        -1.5,
+        41.0
+       ],
+       [
+        -3.0,
+        39.5
+       ],
+       [
+        -5.0,
+        38.5
+       ],
+       [
+        -6.8,
+        37.8
+       ]
+      ],
+      [
+       [
+        8.7,
+        36.9
+       ],
+       [
+        9.8,
+        37.3
+       ],
+       [
+        10.3,
+        37.1
+       ],
+       [
+        11.1,
+        37.0
+       ],
+       [
+        10.9,
+        36.4
+       ],
+       [
+        10.5,
+        35.8
+       ],
+       [
+        9.0,
+        35.6
+       ],
+       [
+        8.4,
+        36.2
+       ]
+      ],
+      [
+       [
+        19.4,
+        41.8
+       ],
+       [
+        24.5,
+        41.4
+       ],
+       [
+        24.5,
+        40.4
+       ],
+       [
+        23.5,
+        39.8
+       ],
+       [
+        22.5,
+        38.0
+       ],
+       [
+        23.2,
+        36.5
+       ],
+       [
+        21.7,
+        36.8
+       ],
+       [
+        21.1,
+        38.3
+       ],
+       [
+        19.3,
+        40.4
+       ]
+      ]
+     ],
+     "at": 0.5,
+     "dur": 1.8,
+     "label": "Rome, 146 BC",
+     "labelPos": [
+      5.5,
+      38.2
+     ]
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      10.32,
+      36.85
+     ],
+     "label": "Carthage",
+     "lx": 30,
+     "ly": 45,
+     "at": 2.6
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      22.88,
+      37.91
+     ],
+     "label": "Corinth",
+     "lx": -25,
+     "ly": 45,
+     "at": 3.0,
+     "lalign": "right"
+    }
+   ]
+  },
+  "rebuilt": {
+   "coast": "sketch/tunis.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.0,
+     "pencil": false
+    },
+    {
+     "kind": "circle",
+     "pos": [
+      10.323,
+      36.853
+     ],
+     "r": 90,
+     "at": 0.4,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "Roman Carthage",
+     "pos": [
+      10.323,
+      36.98
+     ],
+     "at": 1.2,
+     "size": 50,
+     "color": "#b3261e"
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "globe",
+   "text": "Did Rome really wipe out two cities in one year?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "It did. In 146 BC, Rome destroyed Carthage in Africa and Corinth in Greece.",
+   "say": "It did. In one forty-six BC, Rome destroyed Carthage in Africa and Corinth in Greece."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Where was Carthage?",
+   "scene": "today",
+   "date": "Today",
+   "place": "Tunis, Tunisia"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "On the coast of Tunisia. Its ruins lie in a suburb of Tunis today."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "What was it like?",
+   "scene": "dido",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.48,
+     1.3
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Rich. Founded by traders from Phoenicia, it ruled the sea trade of the western Mediterranean for centuries."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So why did Rome want it gone?",
+   "scene": "sea"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Fear. A senator named Cato ended every vote with: Carthage must be destroyed. He even showed the Senate fresh figs from Africa, just three days' sail away."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Did Carthage start the war?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "It fought a neighbouring king without Rome's permission, which the old peace treaty banned. In 149 BC, Rome sent an army.",
+   "date": "149 BC",
+   "place": "Carthage",
+   "say": "It fought a neighbouring king without Rome's permission, which the old peace treaty banned. In one forty-nine BC, Rome sent an army."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Couldn't they just give in?",
+   "scene": "demands"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "They tried. They sent three hundred children as hostages and gave up all their weapons. Then Rome told them to leave their city and move inland."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "That, they refused."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "With no weapons?",
+   "scene": "siege"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "They made new ones every day. Women even cut off their hair to make ropes for catapults. The siege lasted three years."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In 146 BC, the Romans broke in, and the fighting went on street by street for six days.",
+   "date": "146 BC",
+   "place": "Carthage",
+   "say": "In one forty-six BC, the Romans broke in, and the fighting went on street by street for six days."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And then?",
+   "scene": "burn",
+   "move": {
+    "from": [
+     0.5,
+     0.55,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.45,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "The city burned. About fifty thousand survivors were sold as slaves. The Roman commander, Scipio, is said to have wept, fearing Rome might one day share the same fate."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Did they really salt the earth?",
+   "scene": "salt"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "That's a myth. No ancient writer mentions it. The story was invented in modern times."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And Corinth?",
+   "scene": "corinth",
+   "date": "146 BC",
+   "place": "Corinth, Greece"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "The same year, a Roman army sacked Corinth. The men were killed, women and children enslaved, and its statues shipped to Rome."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Why so brutal?",
+   "scene": "empire"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "As a warning. After 146 BC, no power around the Mediterranean could stand up to Rome.",
+   "say": "As a warning. After one forty-six BC, no power around the Mediterranean could stand up to Rome."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So were they gone forever?",
+   "scene": "rebuilt"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "No. Julius Caesar planned to rebuild both. Roman Carthage grew into one of the biggest cities of the empire."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Next time: Julius Caesar crosses the Rubicon. Like the video and follow History Sketches so you don't miss it."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And tell us in the comments: was Rome right to fear Carthage?"
+  },
+  {
+   "type": "end",
+   "text": "Next: the Rubicon",
+   "sub": "Follow History Sketches"
+  }
+ ]
+}

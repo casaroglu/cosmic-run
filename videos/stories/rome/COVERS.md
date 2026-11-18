@@ -7,3 +7,4 @@
 | 01 | TWINS RAISED BY A WOLF? | She-wolf over the twins by the Tiber, hut village on the Palatine at dusk | - |
 | 02 | ROME PAID A GOLD RANSOM | Brennus slams his sword on the gold scale, Rome burning behind | - (no portrait of Brennus exists) |
 | 03 | ELEPHANTS OVER THE ALPS? | War elephants and army on a snowy pass, torches, rider seen from behind | - (no reliable portrait of Hannibal) |
+| 04 | ROME ERASED THIS CITY | Carthage burning at night, circular harbour, legionaries from behind | - |

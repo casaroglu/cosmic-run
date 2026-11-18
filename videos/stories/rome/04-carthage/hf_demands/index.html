@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=1080, height=1920" />
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+@font-face{font-family:'SketchHand';src:url('assets/BradleyHandBold.ttf') format('truetype');font-weight:700}
+:root{--paper:#efe4c9;--ink:#2a2119;--red:#b3261e;--green:#2f6b3a;--hand:'SketchHand',cursive}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--paper)}
+#root{position:relative;width:1080px;height:1920px;font-family:var(--hand);color:var(--ink);
+ background:radial-gradient(ellipse at 50% 50%,rgba(0,0,0,0) 45%,rgba(70,45,15,.45) 100%),var(--paper)}
+#head{position:absolute;left:170px;width:700px;top:380px;text-align:center;font-size:60px;font-weight:700}
+#hr{position:absolute;left:200px;width:600px;top:478px;height:6px;background:var(--ink);transform-origin:left center}
+.row{position:absolute;left:160px;width:700px;display:flex;align-items:flex-start;gap:28px}
+.box{flex:0 0 84px;height:84px;border:6px solid var(--ink);border-radius:8px;position:relative;margin-top:4px}
+.mark{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:'Helvetica Neue',Arial,sans-serif;font-weight:900;font-size:76px}
+.ok .mark{color:var(--green)} .no .mark{color:var(--red)}
+.txt{font-size:50px;font-weight:700;line-height:1.15}
+.sub{font-size:38px;color:#5a4a36}
+#r1{top:520px} #r2{top:715px} #r3{top:910px} .row>div:last-child{flex:1;min-width:0}
+#r3 .txt{color:var(--red)}
+#no{position:absolute;left:170px;width:700px;top:1060px;text-align:center;font-family:'Helvetica Neue',Arial,sans-serif;font-weight:900;font-size:96px;color:var(--red);letter-spacing:4px}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="12" data-width="1080" data-height="1920">
+ <div id="scene" class="clip" data-start="0" data-duration="12" data-track-index="0" style="position:absolute;inset:0">
+  <div id="head">Rome's demands, 149 BC</div>
+  <div id="hr"></div>
+  <div class="row ok" id="r1"><div class="box"><div class="mark" id="m1">✓</div></div><div><div class="txt">300 children as hostages</div><div class="sub">from the noblest families</div></div></div>
+  <div class="row ok" id="r2"><div class="box"><div class="mark" id="m2">✓</div></div><div><div class="txt">hand over all weapons</div><div class="sub">200,000 sets of armour, 2,000 catapults</div></div></div>
+  <div class="row no" id="r3"><div class="box"><div class="mark" id="m3">✗</div></div><div><div class="txt">leave the city,<br>move 16 km inland</div></div></div>
+  <div id="no">REFUSED</div>
+ </div>
+</div>
+<script>
+window.__timelines = window.__timelines || {};
+const tl = gsap.timeline({ paused: true });
+tl.from("#hr", { scaleX: 0, duration: 0.6, ease: "power2.out" }, 0.2);
+tl.from("#r1", { opacity: 0, x: -30, duration: 0.5 }, 0.8);
+tl.from("#m1", { opacity: 0, scale: 2, duration: 0.35, ease: "back.out(3)" }, 1.9);
+tl.from("#r2", { opacity: 0, x: -30, duration: 0.5 }, 2.6);
+tl.from("#m2", { opacity: 0, scale: 2, duration: 0.35, ease: "back.out(3)" }, 3.8);
+tl.from("#r3", { opacity: 0, x: -30, duration: 0.5 }, 6.3);
+tl.from("#m3", { opacity: 0, scale: 2, duration: 0.35, ease: "back.out(3)" }, 8.6);
+tl.fromTo("#no", { opacity: 0, scale: 1.6, rotation: -8 }, { opacity: 1, scale: 1, rotation: -6, duration: 0.35, ease: "power3.out" }, 9.4);
+window.__timelines["main"] = tl;
+tl.seek(0);
+</script></body></html>
