@@ -8,7 +8,7 @@ locally generated scene illustrations (Qwen-Image 2.1 Turbo via stable-diffusion
 |---|---|---|---|
 | 01 | Romulus, the Palatine village, the kings (753–509 BC) | Was Rome really founded by twins raised by a wolf? | rendered (plus version is final) |
 | 02 | The Gauls sack Rome (390 BC), Vae victis, Rome takes Italy by 264 BC | Did Rome really pay a ransom in gold? | rendered |
-| 03 | Punic Wars: Hannibal's elephants over the Alps (218 BC) | He marched elephants over the Alps | idea |
+| 03 | Punic Wars: Hannibal's elephants over the Alps (218 BC) | Did Hannibal really march elephants over the Alps? | rendered |
 | 04 | Carthage destroyed, Greece taken (146 BC) | The year Rome erased two cities | idea |
 | 05 | Caesar crosses the Rubicon (49 BC) | Why "crossing the Rubicon" means no way back | idea |
 | 06 | Ides of March (44 BC) | 23 stab wounds | idea |

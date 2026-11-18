@@ -1,0 +1,663 @@
+{
+ "series": "Ancient Rome",
+ "episode": 3,
+ "part": null,
+ "total_parts": null,
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
+  },
+  "a": {
+   "name": "Theo",
+   "color": "#D9A441"
+  }
+ },
+ "accent": "#D9A441",
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "scene_pad": 0.5,
+ "fade": 1.1,
+ "title": "Did Hannibal really march elephants over the Alps?",
+ "highlight": [
+  "elephants",
+  "Alps?"
+ ],
+ "music": {
+  "mood": "epic",
+  "seed": 73,
+  "drums": true,
+  "level": 0.3
+ },
+ "post": {
+  "caption": "Ancient Rome, episode 3: Hannibal leaves Spain in 218 BC, floats elephants over the Rhône, crosses the Alps, wins at Cannae and loses at Zama. Images: public domain / CC0, AI illustration marked. Map data: Natural Earth.",
+  "hashtags": [
+   "history",
+   "rome",
+   "ancientrome",
+   "hannibal",
+   "carthage",
+   "punicwars",
+   "shorts"
+  ]
+ },
+ "clips": {
+  "globe": "sketch/globe_in.mp4",
+  "count": "sketch/count_hf.mp4"
+ },
+ "images": {
+  "rhone": {
+   "file": "img/rhone.jpg",
+   "credit": "Henri Motte, Hannibal's army crossing the Rhône (1878)",
+   "where": "public domain"
+  },
+  "alps": {
+   "file": "img/alps_qwen.jpg",
+   "credit": "Illustration: Hannibal's army in the Alps, 218 BC (AI-generated, Qwen-Image)",
+   "where": "History Sketches"
+  },
+  "cannae": {
+   "file": "img/cannae.jpg",
+   "credit": "John Trumbull, The Death of Paulus Aemilius at the Battle of Cannae (1773)",
+   "where": "Yale University Art Gallery, public domain"
+  }
+ },
+ "sketches": {
+  "route": {
+   "coast": "sketch/wmed.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.4
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      -0.98,
+      37.6
+     ],
+     "label": "Cartagena",
+     "lx": 30,
+     "ly": 45,
+     "at": 0.8
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      10.32,
+      36.85
+     ],
+     "label": "Carthage",
+     "lx": -25,
+     "ly": 45,
+     "at": 1.4,
+     "lalign": "right"
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       -0.98,
+       37.6
+      ],
+      [
+       -0.4,
+       39.4
+      ],
+      [
+       1.0,
+       41.0
+      ],
+      [
+       2.6,
+       42.3
+      ],
+      [
+       3.6,
+       43.4
+      ],
+      [
+       4.7,
+       43.95
+      ],
+      [
+       5.6,
+       44.9
+      ],
+      [
+       6.6,
+       45.1
+      ],
+      [
+       7.7,
+       45.1
+      ]
+     ],
+     "at": 3.4,
+     "dur": 3.2,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "Pyrenees",
+     "pos": [
+      1.2,
+      43.3
+     ],
+     "at": 4.4,
+     "size": 42
+    },
+    {
+     "kind": "label",
+     "text": "Rhône",
+     "pos": [
+      3.4,
+      45.0
+     ],
+     "at": 5.2,
+     "size": 42,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "label",
+     "text": "Alps",
+     "pos": [
+      7.4,
+      46.5
+     ],
+     "at": 6.0,
+     "size": 48
+    },
+    {
+     "kind": "text",
+     "text": "over 1,500 km on foot",
+     "pos": [
+      0.62,
+      0.42
+     ],
+     "at": 6.6,
+     "size": 50,
+     "color": "#b3261e"
+    }
+   ]
+  },
+  "elephants": {
+   "items": [
+    {
+     "kind": "text",
+     "text": "Hannibal's elephants",
+     "pos": [
+      0.5,
+      0.3
+     ],
+     "at": 0.2,
+     "size": 60
+    },
+    {
+     "kind": "counter",
+     "pos": [
+      0.5,
+      0.45
+     ],
+     "from": 37,
+     "to": 1,
+     "at": 0.8,
+     "dur": 2.6,
+     "size": 170,
+     "plain": true
+    },
+    {
+     "kind": "text",
+     "text": "left after the first winter",
+     "pos": [
+      0.5,
+      0.55
+     ],
+     "at": 3.2,
+     "size": 50,
+     "color": "#b3261e"
+    }
+   ]
+  },
+  "italy": {
+   "coast": "sketch/italy.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      12.49,
+      41.89
+     ],
+     "label": "Rome",
+     "lx": -25,
+     "ly": 45,
+     "at": 0.6,
+     "lalign": "right"
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       7.0,
+       45.3
+      ],
+      [
+       8.5,
+       45.2
+      ],
+      [
+       9.6,
+       45.0
+      ],
+      [
+       10.6,
+       44.3
+      ],
+      [
+       11.4,
+       43.6
+      ],
+      [
+       12.1,
+       43.15
+      ],
+      [
+       13.6,
+       42.5
+      ],
+      [
+       15.0,
+       41.9
+      ],
+      [
+       16.13,
+       41.31
+      ]
+     ],
+     "at": 1.0,
+     "dur": 3.4,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      9.6,
+      45.0
+     ],
+     "label": "Trebia, 218 BC",
+     "lx": 30,
+     "ly": -40,
+     "at": 1.6
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      12.1,
+      43.15
+     ],
+     "label": "Trasimene, 217 BC",
+     "lx": 30,
+     "ly": -40,
+     "at": 2.6
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      16.13,
+      41.31
+     ],
+     "label": "Cannae, 216 BC",
+     "lx": -25,
+     "ly": 50,
+     "at": 3.8,
+     "lalign": "right"
+    }
+   ]
+  },
+  "zama": {
+   "coast": "sketch/zama.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      12.49,
+      41.89
+     ],
+     "label": "Rome",
+     "lx": 30,
+     "ly": -40,
+     "at": 0.5
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      10.32,
+      36.85
+     ],
+     "label": "Carthage",
+     "lx": 30,
+     "ly": -40,
+     "at": 0.9
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      13.0,
+      37.9
+     ],
+     "to": [
+      10.6,
+      36.6
+     ],
+     "bend": 0.25,
+     "at": 1.8,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "label",
+     "text": "Scipio",
+     "pos": [
+      14.6,
+      37.1
+     ],
+     "at": 2.4,
+     "size": 46,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      9.4,
+      36.2
+     ],
+     "label": "Zama, 202 BC",
+     "lx": 20,
+     "ly": 60,
+     "at": 3.4
+    }
+   ]
+  },
+  "mystery": {
+   "coast": "sketch/nalps.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "circle",
+     "pos": [
+      7.0,
+      45.1
+     ],
+     "r": 110,
+     "at": 0.4,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "Alps",
+     "pos": [
+      10.2,
+      46.4
+     ],
+     "at": 0.8,
+     "size": 48
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      7.68,
+      45.07
+     ],
+     "label": "Turin",
+     "lx": 30,
+     "ly": -40,
+     "at": 1.2
+    },
+    {
+     "kind": "label",
+     "text": "FRANCE",
+     "pos": [
+      5.6,
+      45.6
+     ],
+     "at": 1.0,
+     "size": 44
+    },
+    {
+     "kind": "label",
+     "text": "ITALY",
+     "pos": [
+      9.6,
+      44.9
+     ],
+     "at": 1.0,
+     "size": 44
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      7.05,
+      44.68
+     ],
+     "label": "Col de la Traversette?",
+     "lx": 30,
+     "ly": 45,
+     "at": 1.8
+    },
+    {
+     "kind": "stamp",
+     "text": "MYSTERY",
+     "pos": [
+      0.5,
+      0.62
+     ],
+     "at": 3.0
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "globe",
+   "text": "Did Hannibal really march elephants over the Alps?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "He did. Around three dozen war elephants. And we still don't know which mountain pass he took."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Where did he start?",
+   "scene": "route",
+   "date": "218 BC",
+   "place": "Cartagena, Spain"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In Spain, at Cartagena. It belonged to Carthage, a city in today's Tunisia, and Rome's great rival."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Why not go by sea?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Rome had beaten Carthage at sea in the first war. So in 218 BC, Hannibal went by land: over the Pyrenees, across southern France, and into the Alps.",
+   "say": "Rome had beaten Carthage at sea in the first war. So in two eighteen BC, Hannibal went by land: over the Pyrenees, across southern France, and into the Alps."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "How do you get elephants across a river?",
+   "scene": "rhone",
+   "place": "River Rhône",
+   "move": {
+    "from": [
+     0.55,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.56,
+     0.45,
+     1.3
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "At the Rhône, his men built huge rafts and covered them with soil, so the elephants thought they were still on solid ground."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And the mountains?",
+   "scene": "alps",
+   "date": "Autumn 218 BC",
+   "place": "The Alps",
+   "move": {
+    "from": [
+     0.5,
+     0.55,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.45,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "It was late autumn. Snow, ice, landslides, and mountain tribes attacking from above. The crossing took about fifteen days."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "How many men made it?",
+   "scene": "count"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "After the Pyrenees, he had about fifty-nine thousand. He came down into Italy with twenty-six thousand."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And the elephants?",
+   "scene": "elephants"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Most died in the first winter. Hannibal rode the last one through flooded marshes, and lost an eye to infection."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Was it worth it?",
+   "scene": "italy",
+   "place": "Italy"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "For Rome, it was a nightmare. He beat three Roman armies in three years."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "At Cannae, he surrounded a much bigger Roman army. About fifty thousand Romans died in a single day.",
+   "scene": "cannae",
+   "date": "216 BC",
+   "place": "Cannae, Italy",
+   "move": {
+    "from": [
+     0.5,
+     0.55,
+     1.0
+    ],
+    "to": [
+     0.48,
+     0.6,
+     1.3
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So why didn't Rome fall?",
+   "scene": "zama",
+   "date": "202 BC",
+   "place": "Zama, Tunisia"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Hannibal never besieged the city. Rome kept raising new armies, then invaded Africa. In 202 BC, at Zama, Scipio finally beat him.",
+   "say": "Hannibal never besieged the city. Rome kept raising new armies, then invaded Africa. In two oh-two BC, at Zama, Scipio finally beat him."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So which pass did he take?",
+   "scene": "mystery"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Nobody knows for sure. One team found a thick layer of ancient horse dung, dated to Hannibal's time, below a high pass called the Col de la Traversette.",
+   "say": "Nobody knows for sure. One team found a thick layer of ancient horse dung, dated to Hannibal's time, below a high pass called the Coll de la Traverset."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Next time: Rome wipes Carthage off the map. Like the video and follow History Sketches so you don't miss it."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And tell us in the comments: would you have crossed the Alps?"
+  },
+  {
+   "type": "end",
+   "text": "Next: Carthage",
+   "sub": "Follow History Sketches"
+  }
+ ]
+}
