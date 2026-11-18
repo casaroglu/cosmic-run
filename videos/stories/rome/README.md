@@ -10,7 +10,7 @@ locally generated scene illustrations (Qwen-Image 2.1 Turbo via stable-diffusion
 | 02 | The Gauls sack Rome (390 BC), Vae victis, Rome takes Italy by 264 BC | Did Rome really pay a ransom in gold? | rendered |
 | 03 | Punic Wars: Hannibal's elephants over the Alps (218 BC) | Did Hannibal really march elephants over the Alps? | rendered |
 | 04 | Carthage destroyed, Greece taken (146 BC) | Did Rome really wipe out two cities in one year? | rendered |
-| 05 | Caesar crosses the Rubicon (49 BC) | Why "crossing the Rubicon" means no way back | idea |
+| 05 | Caesar crosses the Rubicon (49 BC) | Why does crossing the Rubicon mean there's no way back? | rendered (side cameos) |
 | 06 | Ides of March (44 BC) | 23 stab wounds | idea |
 | 07 | Augustus: the first emperor (27 BC) | Why August is named after him | idea |
 | 08 | Roads, aqueducts, concrete | Roman concrete still stands; ours cracks | idea |
@@ -21,3 +21,5 @@ locally generated scene illustrations (Qwen-Image 2.1 Turbo via stable-diffusion
 | 13 | Constantine and Constantinople (AD 330) | The emperor who moved Rome | idea |
 | 14 | 476: the West falls | Rome didn't fall in 476 | idea |
 | 15 | 1453: the last Roman emperor (links to Ottoman 04a/04b) | Rome ended in Istanbul | idea |
+
+**From episode 05: side cameos.** Any beat can carry `"cameo": {key, side, y, w, style: photo|coin|cutout, caption, hold}`: a PD/CC0 portrait, a coin or a cut-out figure slides in from the frame edge (renderer `drawCameos`); the text audit treats active cameos as no-go zones for map labels. Cut-out figures: Qwen-Image on white, background removed with `/tmp`-style flood fill (see 05-rubicon/RESEARCH.md).

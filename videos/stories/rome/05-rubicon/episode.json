@@ -1,0 +1,597 @@
+{
+ "series": "Ancient Rome",
+ "episode": 5,
+ "part": null,
+ "total_parts": null,
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
+  },
+  "a": {
+   "name": "Theo",
+   "color": "#D9A441"
+  }
+ },
+ "accent": "#D9A441",
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "scene_pad": 0.5,
+ "fade": 1.1,
+ "title": "Why does crossing the Rubicon mean there's no way back?",
+ "highlight": [
+  "Rubicon"
+ ],
+ "music": {
+  "mood": "epic",
+  "seed": 75,
+  "drums": true,
+  "level": 0.3
+ },
+ "post": {
+  "caption": "Ancient Rome, episode 5: Caesar conquers Gaul, the Senate orders him to give up his army, and in January 49 BC he crosses the Rubicon. Alea iacta est. Images: public domain / CC0 (Rubens, Boulanger, Fouquet, Royer, The Met, Rijksmuseum), AI illustration marked. Map data: Natural Earth.",
+  "hashtags": [
+   "history",
+   "rome",
+   "ancientrome",
+   "juliuscaesar",
+   "rubicon",
+   "aleaiactaest",
+   "shorts"
+  ]
+ },
+ "clips": {
+  "globe": "sketch/globe_in.mp4",
+  "dice": "sketch/dice_hf.mp4"
+ },
+ "images": {
+  "royer": {
+   "file": "img/royer.jpg",
+   "credit": "Lionel Royer, Vercingetorix throws down his arms at the feet of Caesar (1899)",
+   "where": "Musée Crozatier, public domain"
+  },
+  "boulanger": {
+   "file": "img/boulanger.jpg",
+   "credit": "Gustave Boulanger, Caesar at the Rubicon (1854)",
+   "where": "Musée de Picardie, public domain"
+  },
+  "fouquet": {
+   "file": "img/fouquet.jpg",
+   "credit": "Jean Fouquet, Caesar crossing the Rubicon (c. 1470)",
+   "where": "Louvre, public domain"
+  },
+  "caesar": {
+   "file": "img/caesar_rubens.jpg",
+   "credit": "Peter Paul Rubens, Julius Caesar (c. 1625)",
+   "where": "The Leiden Collection, public domain"
+  },
+  "pompey": {
+   "file": "img/pompey_medal.jpg",
+   "credit": "Portrait medallion of Pompey the Great (engraving)",
+   "where": "Rijksmuseum, CC0"
+  },
+  "denarius": {
+   "file": "img/denarius.jpg",
+   "credit": "Silver denarius of Julius Caesar, 47-46 BC",
+   "where": "The Metropolitan Museum of Art, CC0"
+  },
+  "legionary": {
+   "file": "img/legionary.png",
+   "credit": "Illustration: Roman legionary (AI-generated, Qwen-Image)",
+   "where": "History Sketches"
+  }
+ },
+ "sketches": {
+  "today": {
+   "coast": "sketch/romagna.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       12.2,
+       43.93
+      ],
+      [
+       12.27,
+       43.98
+      ],
+      [
+       12.33,
+       44.03
+      ],
+      [
+       12.38,
+       44.08
+      ],
+      [
+       12.41,
+       44.12
+      ],
+      [
+       12.43,
+       44.16
+      ]
+     ],
+     "at": 0.6,
+     "dur": 1.4,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "label",
+     "text": "Rubicon",
+     "pos": [
+      12.16,
+      44.06
+     ],
+     "at": 1.6,
+     "size": 50,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      12.57,
+      44.06
+     ],
+     "label": "Rimini",
+     "lx": -25,
+     "ly": 50,
+     "at": 2.0,
+     "lalign": "right"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      12.24,
+      44.14
+     ],
+     "label": "Cesena",
+     "lx": -25,
+     "ly": -45,
+     "at": 2.4,
+     "lalign": "right"
+    },
+    {
+     "kind": "text",
+     "text": "about 80 km long",
+     "pos": [
+      0.5,
+      0.6
+     ],
+     "at": 3.4,
+     "size": 50,
+     "color": "#b3261e"
+    }
+   ]
+  },
+  "law": {
+   "coast": "sketch/italy.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.0,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        7.0,
+        45.9
+       ],
+       [
+        9.0,
+        46.4
+       ],
+       [
+        12.5,
+        46.6
+       ],
+       [
+        13.7,
+        45.7
+       ],
+       [
+        12.4,
+        44.9
+       ],
+       [
+        12.43,
+        44.16
+       ],
+       [
+        11.2,
+        44.1
+       ],
+       [
+        9.6,
+        44.3
+       ],
+       [
+        7.6,
+        44.0
+       ],
+       [
+        6.9,
+        44.6
+       ]
+      ]
+     ],
+     "color": "#2f6b3a",
+     "label": "Caesar's province",
+     "labelPos": [
+      9.6,
+      45.2
+     ],
+     "at": 0.4,
+     "dur": 1.0
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      12.43,
+      44.16
+     ],
+     "label": "Rubicon",
+     "lx": 30,
+     "ly": -10,
+     "at": 1.4
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      12.49,
+      41.89
+     ],
+     "label": "Rome",
+     "lx": 30,
+     "ly": 45,
+     "at": 1.8
+    },
+    {
+     "kind": "text",
+     "text": "no army past this line",
+     "pos": [
+      0.62,
+      0.6
+     ],
+     "at": 3.0,
+     "size": 46,
+     "color": "#b3261e"
+    }
+   ]
+  },
+  "civil": {
+   "coast": "sketch/civil.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.0,
+     "pencil": false
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      12.49,
+      41.89
+     ],
+     "label": "Rome",
+     "lx": 30,
+     "ly": -40,
+     "at": 0.4
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      12.6,
+      41.6
+     ],
+     "to": [
+      21.9,
+      39.4
+     ],
+     "bend": -0.2,
+     "at": 1.2,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      22.38,
+      39.3
+     ],
+     "label": "Pharsalus, 48 BC",
+     "lx": -25,
+     "ly": -45,
+     "at": 2.6,
+     "lalign": "right"
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      22.5,
+      38.9
+     ],
+     "to": [
+      29.9,
+      31.6
+     ],
+     "bend": 0.2,
+     "at": 5.0,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      29.9,
+      31.2
+     ],
+     "label": "Egypt",
+     "lx": -25,
+     "ly": -45,
+     "at": 6.2,
+     "lalign": "right"
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "globe",
+   "text": "Why does crossing the Rubicon mean there's no way back?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Because of one night in January, 49 BC. Julius Caesar led his army across a small river, and Rome was never the same.",
+   "say": "Because of one night in January, forty-nine BC. Julius Caesar led his army across a small river, and Rome was never the same.",
+   "cameo": {
+    "key": "caesar",
+    "side": "right",
+    "y": 0.34,
+    "w": 300,
+    "caption": "Julius Caesar"
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Is it a big river?",
+   "scene": "today",
+   "date": "Today",
+   "place": "Emilia-Romagna, Italy"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Not at all. It's a small river between Rimini and Cesena, about eighty kilometres long."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Where was Caesar coming from?",
+   "scene": "royer",
+   "move": {
+    "from": [
+     0.55,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.6,
+     0.5,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Gaul. In eight years, he had conquered what is now France and Belgium. In 52 BC, the Gallic leader Vercingetorix surrendered to him.",
+   "say": "Gaul. In eight years, he had conquered what is now France and Belgium. In fifty-two BC, the Gallic leader Vercingetorix surrendered to him.",
+   "date": "52 BC",
+   "place": "Alesia, Gaul"
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So why was the river a problem?",
+   "scene": "law",
+   "cameo": {
+    "key": "legionary",
+    "style": "cutout",
+    "side": "left",
+    "y": 0.5,
+    "w": 330,
+    "bleed": 30,
+    "hold": 2
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "It was the border of Italy. A general had to leave his army behind before crossing it. Bringing troops into Italy was treason, punishable by death."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Why not just leave the army?",
+   "cameo": {
+    "key": "pompey",
+    "style": "coin",
+    "side": "left",
+    "y": 0.36,
+    "w": 260,
+    "zoom": 1.05,
+    "caption": "Pompey",
+    "hold": 2
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "His rivals in the Senate, led by Pompey, ordered him to give up his command. Without his army, Caesar expected to be put on trial."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So what did he do?",
+   "scene": "boulanger",
+   "date": "January 49 BC",
+   "place": "River Rubicon",
+   "move": {
+    "from": [
+     0.5,
+     0.45,
+     1.0
+    ],
+    "to": [
+     0.48,
+     0.4,
+     1.3
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "He stopped at the river with a single legion, the Thirteenth. Then he gave the order to cross."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Did he say anything?",
+   "scene": "dice"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "According to the historian Suetonius, he said: alea iacta est. The die is cast.",
+   "say": "According to the historian Suetonius, he said: ah-lay-ah, yak-ta est. The die is cast."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And how did Rome react?",
+   "scene": "fouquet",
+   "move": {
+    "from": [
+     0.5,
+     0.4,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.35,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "With panic. Pompey and much of the Senate fled Rome, and then Italy itself."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Did Pompey fight back?",
+   "scene": "civil",
+   "date": "48 BC",
+   "place": "Pharsalus, Greece",
+   "cameo": {
+    "key": "pompey",
+    "style": "coin",
+    "side": "left",
+    "y": 0.48,
+    "w": 220,
+    "zoom": 1.05,
+    "caption": "Pompey",
+    "hold": 2
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "He did, in Greece. In 48 BC, Caesar crushed him at Pharsalus. Pompey fled to Egypt, where he was killed.",
+   "say": "He did, in Greece. In forty-eight BC, Caesar crushed him at Pharsalus. Pompey fled to Egypt, where he was killed."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And Caesar?",
+   "cameo": {
+    "key": "denarius",
+    "style": "coin",
+    "side": "left",
+    "y": 0.58,
+    "w": 260,
+    "zoom": 1.75,
+    "caption": "Caesar's own coin",
+    "hold": 2
+   },
+   "scene": "caesar",
+   "move": {
+    "from": [
+     0.5,
+     0.4,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.35,
+     1.2
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "He became the master of Rome. His name was now on Roman coins, like this silver denarius."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Is today's Rubicon the real one?",
+   "scene": "today"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Nobody is completely sure. Rivers here changed course over the centuries. In 1933, Mussolini's government declared the Fiumicino river to be the Rubicon.",
+   "say": "Nobody is completely sure. Rivers here changed course over the centuries. In nineteen thirty-three, Mussolini's government declared the Fiumicino river to be the Rubicon."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Next time: the Ides of March. Like the video and follow History Sketches so you don't miss it."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And tell us in the comments: what was your Rubicon?"
+  },
+  {
+   "type": "end",
+   "text": "Next: the Ides of March",
+   "sub": "Follow History Sketches"
+  }
+ ]
+}

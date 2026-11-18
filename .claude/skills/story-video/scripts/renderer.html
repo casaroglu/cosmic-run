@@ -652,6 +652,60 @@ function drawCredit(t, b) {
   ctx.fillStyle = '#fff'; ctx.textBaseline = 'middle'; ctx.fillText(c, cx + 14, cy + 21); ctx.restore();
 }
 
+
+// ---------- cameos: a portrait, coin or cut-out figure that slides in from the frame edge ----------
+// beat.cameo = {key, side: 'left'|'right', y: 0..1 (centre), w: px, style: 'photo'|'coin'|'cutout', caption, hold: beats, bleed: px off-frame}
+function activeCameos(t) {
+  const out = [], bs = TL.beats;
+  for (let i = 0; i < bs.length; i++) {
+    const cs = bs[i].cameo ? [].concat(bs[i].cameo) : []; if (!cs.length) continue;
+    for (const c of cs) {
+      const last = bs[Math.min(bs.length - 1, i + (c.hold || 1) - 1)];
+      const t0 = bs[i].start + (c.delay ?? 0.3), t1 = last.end;
+      if (t >= t0 && t < t1 + 0.45 && IMGS[c.key]) out.push({ c, t0, t1 });
+    }
+  }
+  return out;
+}
+function cameoBox(c) {
+  const im = IMGS[c.key], w = c.w || 300, h = c.style === 'coin' ? w : w * im.height / im.width;
+  const right = (c.side || 'right') === 'right', bleed = c.bleed || 0, m = c.style === 'cutout' ? 0 : 56;
+  const cx = right ? W - m - w / 2 + bleed : m + w / 2 - bleed, cy = (c.y ?? 0.42) * H;
+  return { cx, cy, w, h, right, x0: cx - w / 2 - 20, x1: cx + w / 2 + 20, y0: cy - h / 2 - 20, y1: cy + h / 2 + (c.caption ? 90 : 20) };
+}
+function drawCameos(t) {
+  for (const { c, t0, t1 } of activeCameos(t)) {
+    const k = Math.min(backOut(clamp((t - t0) / 0.55)), easeOut(clamp((t1 + 0.45 - t) / 0.45)));
+    if (k <= 0) continue;
+    const im = IMGS[c.key], bx = cameoBox(c), { w, h } = bx, off = (1 - k) * (w + 120) * (bx.right ? 1 : -1);
+    const bob = c.style === 'cutout' ? Math.sin((t - t0) * 1.6) * 4 : 0;
+    ctx.save(); ctx.translate(bx.cx + off, bx.cy + bob); ctx.rotate((c.rot ?? (bx.right ? 0.05 : -0.05)) * k);
+    if (c.style === 'cutout') {
+      ctx.shadowColor = 'rgba(0,0,0,0.55)'; ctx.shadowBlur = 26; ctx.shadowOffsetY = 10; ctx.drawImage(im, -w / 2, -h / 2, w, h);
+    } else if (c.style === 'coin') {
+      ctx.shadowColor = 'rgba(0,0,0,0.55)'; ctx.shadowBlur = 26; ctx.shadowOffsetY = 10;
+      ctx.fillStyle = '#c99a3c'; ctx.beginPath(); ctx.arc(0, 0, w / 2 + 12, 0, 6.283); ctx.fill();
+      ctx.shadowColor = 'transparent'; ctx.save(); ctx.beginPath(); ctx.arc(0, 0, w / 2, 0, 6.283); ctx.clip();
+      const s = Math.max(w / im.width, w / im.height) * (c.zoom || 1);
+      ctx.drawImage(im, -im.width * s / 2 + (c.ox || 0) * w, -im.height * s / 2 + (c.oy || 0) * w, im.width * s, im.height * s); ctx.restore();
+      ctx.strokeStyle = '#7a5a20'; ctx.lineWidth = 4; ctx.beginPath(); ctx.arc(0, 0, w / 2 + 12, 0, 6.283); ctx.stroke();
+    } else {
+      ctx.shadowColor = 'rgba(0,0,0,0.55)'; ctx.shadowBlur = 28; ctx.shadowOffsetY = 12;
+      ctx.fillStyle = '#fbf6ea'; ctx.fillRect(-w / 2 - 14, -h / 2 - 14, w + 28, h + 28);
+      ctx.shadowColor = 'transparent'; ctx.drawImage(im, -w / 2, -h / 2, w, h);
+      ctx.fillStyle = 'rgba(230,215,170,0.9)'; ctx.save(); ctx.rotate(0.08); ctx.fillRect(-55, -h / 2 - 32, 110, 36); ctx.restore();
+    }
+    if (c.caption) {
+      const cyc = (c.style === 'coin' ? w / 2 + 12 : h / 2 + 14) + 46;
+      ctx.font = `700 40px ${HAND}`; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+      const tw = ctx.measureText(c.caption).width;
+      ctx.fillStyle = 'rgba(251,246,234,0.92)'; rr(-tw / 2 - 18, cyc - 30, tw + 36, 60, 10); ctx.fill();
+      ctx.fillStyle = '#2a2119'; ctx.fillText(c.caption, 0, cyc + 2);
+    }
+    ctx.restore();
+  }
+}
+
 // ---------- notification banner ----------
 let NOTIFS = [];
 function drawNotify(n, t) {
@@ -807,7 +861,7 @@ function drawFrame(t) {
   drawPhone(t, pv);
 
   for (const nb of NOTIFS) drawNotify(nb, t);
-  drawDate(t); drawCredit(t, b);
+  drawDate(t); drawCredit(t, b); drawCameos(t);
   if (b.type === 'title') { ctx.fillStyle = 'rgba(0,0,0,0.35)'; ctx.fillRect(0, 0, W, H); drawTitle(b, t); }
   else if (b.type === 'narration') { ctx.save(); ctx.globalAlpha = 1 - pv; drawCaptions(b, t); ctx.restore(); }
   else if (b.type === 'end') drawEnd(b, t);

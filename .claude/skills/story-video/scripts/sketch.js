@@ -459,9 +459,10 @@ window.textAudit = function () {
     CUR_T = span.end - 0.05; SK.audit = [];
     try { drawSketch(name); } catch (e) { out.push(`${name}: draw error ${e.message}`); }
     const boxes = SK.audit; SK.audit = null; n += boxes.length;
+    const zs = zones.concat(typeof activeCameos === 'function' ? activeCameos(CUR_T).map(({ c }) => ({ text: `[cameo ${c.key}]`, ...cameoBox(c) })) : []);
     for (let i = 0; i < boxes.length; i++) {
       for (let j = i + 1; j < boxes.length; j++) if (hit(boxes[i], boxes[j])) out.push(`${name}: "${boxes[i].text}" overlaps "${boxes[j].text}"`);
-      for (const z of zones) if (hit(boxes[i], z)) out.push(`${name}: "${boxes[i].text}" overlaps ${z.text}`);
+      for (const z of zs) if (hit(boxes[i], z)) out.push(`${name}: "${boxes[i].text}" overlaps ${z.text}`);
       if (boxes[i].x0 < 10 || boxes[i].x1 > W - 10) out.push(`${name}: "${boxes[i].text}" runs off the frame`);
     }
   }
