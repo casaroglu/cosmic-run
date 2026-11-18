@@ -1,6 +1,4 @@
-# YouTube Shorts queue (3 a day: 13:00, 17:00, 21:00 Istanbul)
-
-Order: Ottoman → Chokepoints → Spain. Set 2026-11-17 at the user's request. Each Short gets a Gemini cover (4-5 word hook). Daily upload limit: ~8-10 uploads/day on this channel, so uploads are spread over several days, always ahead of their slot.
+# YouTube Shorts queue
 
 | Publish | Series | Episode | Status | Link |
 |---|---|---|---|---|
@@ -11,11 +9,11 @@ Order: Ottoman → Chokepoints → Spain. Set 2026-11-17 at the user's request. 
 | 2026-11-19 17:00 | ottoman | 05-selim | scheduled (3/day slot) | https://youtube.com/shorts/EzSJH6cEGBc |
 | 2026-11-19 21:00 | ottoman | 06a-suleiman | scheduled (3/day slot) | https://youtube.com/shorts/t0mbgqVsA_0 |
 | 2026-11-20 13:00 | ottoman | 06b-lawgiver | scheduled (3/day slot) | https://youtube.com/shorts/3zu4YOS3xCA |
-| 2026-11-20 17:00 | ottoman | 07-barbarossa | todo |  |
-| 2026-11-20 21:00 | ottoman | 08-lepanto | todo |  |
-| 2026-11-21 13:00 | ottoman | 09-water | todo |  |
-| 2026-11-21 17:00 | ottoman | 10-vienna | todo |  |
-| 2026-11-21 21:00 | ottoman | 11-janissaries | todo |  |
+| 2026-11-20 17:00 | ottoman | 07-barbarossa | scheduled | https://youtube.com/shorts/zc65OzA8b0c |
+| 2026-11-20 21:00 | ottoman | 08-lepanto | scheduled | https://youtube.com/shorts/r6MWNC8BF8Y |
+| 2026-11-21 13:00 | ottoman | 09-water | scheduled | https://youtube.com/shorts/8LU1JQ2w6sc |
+| 2026-11-21 17:00 | ottoman | 10-vienna | scheduled | https://youtube.com/shorts/OEzIRGDhKVw |
+| 2026-11-21 21:00 | ottoman | 11-janissaries | draft (thumbnail blocked: YouTube verification needed) | https://youtube.com/shorts/osPaSmXkzic |
 | 2026-11-22 13:00 | ottoman | 12-sickman | todo |  |
 | 2026-11-22 17:00 | ottoman | 13-gallipoli | todo |  |
 | 2026-11-22 21:00 | ottoman | 14-last-sultan | todo |  |
