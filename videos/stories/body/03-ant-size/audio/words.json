@@ -1,0 +1,7541 @@
+{
+ "duration": 478.69,
+ "lines": [
+  {
+   "id": "c1",
+   "speaker": "q",
+   "text": "What if you shrank to the size of an ant?",
+   "start": 0.35,
+   "end": 2.175
+  },
+  {
+   "id": "c2",
+   "speaker": "a",
+   "text": "Let's do it. You're now two millimetres tall, a thousand times smaller. You could stand on a grain of rice.",
+   "start": 2.625,
+   "end": 8.962
+  },
+  {
+   "id": "c3",
+   "speaker": "a",
+   "text": "And if all eight billion people shrank with you, the whole of humanity would fit into about two bathtubs.",
+   "start": 9.202,
+   "end": 15.357
+  },
+  {
+   "id": "c3b",
+   "speaker": "a",
+   "text": "And your living room? Crossing it would feel like walking across a city.",
+   "start": 15.597,
+   "end": 19.841
+  },
+  {
+   "id": "c4q",
+   "speaker": "q",
+   "text": "Okay, that's cute. What's the catch?",
+   "start": 20.081,
+   "end": 22.052
+  },
+  {
+   "id": "c4",
+   "speaker": "a",
+   "text": "Physics. At this size, the rules you've lived by your whole life stop working. Gravity barely matters, water turns into a trap, and you'd be hungry all the time.",
+   "start": 22.502,
+   "end": 31.515
+  },
+  {
+   "id": "s1",
+   "speaker": "q",
+   "text": "Wouldn't everything just be the same, only smaller?",
+   "start": 33.715,
+   "end": 36.26
+  },
+  {
+   "id": "s2",
+   "speaker": "a",
+   "text": "No, and here's why. When you shrink, your length goes down a thousand times. But the area of your muscles goes down a million times.",
+   "start": 36.71,
+   "end": 44.039
+  },
+  {
+   "id": "s3",
+   "speaker": "a",
+   "text": "And your volume, which is your weight, goes down a billion times.",
+   "start": 44.279,
+   "end": 48.273
+  },
+  {
+   "id": "s4",
+   "speaker": "a",
+   "text": "So compared to your weight, your muscles are now a thousand times stronger. This is called the square-cube law, and it changes everything.",
+   "start": 48.513,
+   "end": 55.717
+  },
+  {
+   "id": "s5q",
+   "speaker": "q",
+   "text": "Who figured that out?",
+   "start": 55.957,
+   "end": 57.102
+  },
+  {
+   "id": "s5",
+   "speaker": "a",
+   "text": "Galileo, back in 1638. He noticed that big animals need much thicker bones than small ones, and wrote that a small dog could probably carry two or three dogs its own size on its back, while a horse couldn't carry even one horse.",
+   "start": 57.552,
+   "end": 70.459
+  },
+  {
+   "id": "s6",
+   "speaker": "a",
+   "text": "Now flip that around. Shrink yourself, and you become the small dog. Very, very small.",
+   "start": 70.699,
+   "end": 76.347
+  },
+  {
+   "id": "f1",
+   "speaker": "q",
+   "text": "So could I jump off a table?",
+   "start": 78.547,
+   "end": 80.054
+  },
+  {
+   "id": "f2",
+   "speaker": "a",
+   "text": "You could jump off a skyscraper. A falling object speeds up until air resistance balances its weight. For you, that happens almost immediately.",
+   "start": 80.504,
+   "end": 88.784
+  },
+  {
+   "id": "f3",
+   "speaker": "a",
+   "text": "Your weight shrank a billion times, but your surface, which catches the air, only a million. So you'd drift down slowly, like a speck of dust, and land at a gentle walking pace.",
+   "start": 89.024,
+   "end": 98.796
+  },
+  {
+   "id": "f3b",
+   "speaker": "a",
+   "text": "A full-size skydiver, by comparison, falls at around two hundred kilometres an hour.",
+   "start": 99.036,
+   "end": 104.633
+  },
+  {
+   "id": "f4",
+   "speaker": "a",
+   "text": "Back in 1926, the biologist J. B. S. Haldane wrote that a mouse dropped down a deep mine shaft lands on soft ground, gets a small shock, and walks away. A rat is killed. A man is broken.",
+   "start": 104.873,
+   "end": 116.972
+  },
+  {
+   "id": "f5",
+   "speaker": "a",
+   "text": "Some tiny spiders even fly on purpose. They let out silk threads that catch the wind, and float away. It's called ballooning, and they've been found kilometres up in the sky.",
+   "start": 117.212,
+   "end": 126.86
+  },
+  {
+   "id": "g1",
+   "speaker": "q",
+   "text": "And would I be super strong, like an ant?",
+   "start": 129.06,
+   "end": 131.144
+  },
+  {
+   "id": "g2",
+   "speaker": "a",
+   "text": "Yes. Many ants carry ten to fifty times their own weight. In 2014, engineers spun ants in a centrifuge, and their necks only gave way at three to five thousand times their body weight.",
+   "start": 131.594,
+   "end": 142.528
+  },
+  {
+   "id": "g3",
+   "speaker": "a",
+   "text": "You'd be the same. A crumb that weighs more than you? Easy. You could carry it over your head all day.",
+   "start": 142.768,
+   "end": 148.548
+  },
+  {
+   "id": "g3b",
+   "speaker": "a",
+   "text": "Leafcutter ants do this every day, carrying leaf pieces much heavier than themselves back home to feed the fungus gardens they farm underground.",
+   "start": 148.788,
+   "end": 156.955
+  },
+  {
+   "id": "g4",
+   "speaker": "a",
+   "text": "You could even walk up a wall. At this scale, the tiny sticky forces between surfaces start to beat gravity. It's why dust clings to a wall instead of falling off.",
+   "start": 157.195,
+   "end": 166.363
+  },
+  {
+   "id": "t1q",
+   "speaker": "q",
+   "text": "And getting around? My legs would be tiny.",
+   "start": 168.563,
+   "end": 171.013
+  },
+  {
+   "id": "t1",
+   "speaker": "a",
+   "text": "That's the problem. If you walked the way you do now, crossing a football pitch would take you almost a full day.",
+   "start": 171.463,
+   "end": 177.535
+  },
+  {
+   "id": "t2",
+   "speaker": "a",
+   "text": "Ants are much better at it. The Saharan silver ant runs at about eighty-five centimetres a second. That's a hundred and eight of its own body lengths every second.",
+   "start": 177.775,
+   "end": 186.97
+  },
+  {
+   "id": "t3",
+   "speaker": "a",
+   "text": "For you, that would be like sprinting at seven hundred kilometres an hour, faster than a Formula One car. Ants also don't get lost: they lay down chemical trails and follow them home, like invisible roads.",
+   "start": 187.21,
+   "end": 198.692
+  },
+  {
+   "id": "z1",
+   "speaker": "q",
+   "text": "What would everyday things look like?",
+   "start": 200.892,
+   "end": 202.569
+  },
+  {
+   "id": "z2",
+   "speaker": "a",
+   "text": "Enormous. A grain of sand would look like a boulder. A raindrop would be the size of a beach ball. And a house cat would tower about two hundred and fifty metres over you, most of the way up the Eiffel Tower.",
+   "start": 203.019,
+   "end": 213.826
+  },
+  {
+   "id": "z3",
+   "speaker": "a",
+   "text": "A one-centimetre jumping spider would be as big as a bus, with large forward-facing eyes that can track you as you move.",
+   "start": 214.066,
+   "end": 221.314
+  },
+  {
+   "id": "z4",
+   "speaker": "a",
+   "text": "And a single strand of spider silk would look as thick as a rope. Weight for weight, spider silk is about as strong as steel.",
+   "start": 221.554,
+   "end": 228.579
+  },
+  {
+   "id": "w1",
+   "speaker": "q",
+   "text": "What about a drink of water?",
+   "start": 230.779,
+   "end": 232.066
+  },
+  {
+   "id": "w2",
+   "speaker": "a",
+   "text": "That's where it gets dangerous. Water molecules pull on each other, creating surface tension. For you, a water droplet behaves like a giant ball of sticky jelly.",
+   "start": 232.516,
+   "end": 241.744
+  },
+  {
+   "id": "w3",
+   "speaker": "a",
+   "text": "Fall in, and the water wraps around you and won't let go. Haldane wrote that an insect going for a drink is in as much danger as a man leaning out over a cliff.",
+   "start": 241.984,
+   "end": 250.879
+  },
+  {
+   "id": "w3b",
+   "speaker": "a",
+   "text": "Some insects turn this into a superpower. Water striders are so light that they walk on the surface of ponds without ever breaking through.",
+   "start": 251.119,
+   "end": 258.761
+  },
+  {
+   "id": "w4q",
+   "speaker": "q",
+   "text": "And if it rains?",
+   "start": 259.001,
+   "end": 260.003
+  },
+  {
+   "id": "w4",
+   "speaker": "a",
+   "text": "A single raindrop would weigh about sixty times more than you. That sounds deadly, but mosquitoes survive raindrops that are fifty times heavier than they are.",
+   "start": 260.453,
+   "end": 268.995
+  },
+  {
+   "id": "w5",
+   "speaker": "a",
+   "text": "Because they're so light, the drop hardly slows down when it hits. The mosquito just rides it for a moment, then slips off the side. You'd do the same.",
+   "start": 269.235,
+   "end": 277.355
+  },
+  {
+   "id": "h1",
+   "speaker": "q",
+   "text": "Would I get cold?",
+   "start": 279.555,
+   "end": 280.569
+  },
+  {
+   "id": "h2",
+   "speaker": "a",
+   "text": "Very. You lose heat through your skin, and compared to your body, you now have a thousand times more skin. Your warmth would pour out of you.",
+   "start": 281.019,
+   "end": 288.342
+  },
+  {
+   "id": "h3",
+   "speaker": "a",
+   "text": "Look at the Etruscan shrew, one of the smallest mammals on Earth. Its heart beats up to fifteen hundred times a minute, and every day it eats about one and a half to two times its own body weight.",
+   "start": 288.582,
+   "end": 298.526
+  },
+  {
+   "id": "h4",
+   "speaker": "a",
+   "text": "That would be you. A single crumb of bread would be a feast, and you'd need to eat almost all the time just to stay warm.",
+   "start": 298.766,
+   "end": 305.336
+  },
+  {
+   "id": "h5",
+   "speaker": "a",
+   "text": "Then again, food would be everywhere. By a rough estimate, one grain of rice would feed you for months.",
+   "start": 305.576,
+   "end": 311.737
+  },
+  {
+   "id": "v1",
+   "speaker": "q",
+   "text": "What would the world look like?",
+   "start": 313.937,
+   "end": 315.225
+  },
+  {
+   "id": "v2",
+   "speaker": "a",
+   "text": "Blurry. Your pupils would be just a few wavelengths of light across, too small to focus a sharp image. That's one reason insects use compound eyes made of many tiny lenses.",
+   "start": 315.675,
+   "end": 325.593
+  },
+  {
+   "id": "v3",
+   "speaker": "a",
+   "text": "But time would feel slower. Small animals with fast metabolisms take in more snapshots per second. Some flies see flickering light more than four times faster than we do. A swatting hand looks like slow motion to them.",
+   "start": 325.833,
+   "end": 337.976
+  },
+  {
+   "id": "v4q",
+   "speaker": "q",
+   "text": "And could I still talk to people?",
+   "start": 338.216,
+   "end": 339.813
+  },
+  {
+   "id": "v4",
+   "speaker": "a",
+   "text": "Not really. Your vocal cords would be a thousand times shorter, so your voice would shoot up into ultrasound. Normal-sized people couldn't hear you at all. Bats probably could.",
+   "start": 340.263,
+   "end": 350.001
+  },
+  {
+   "id": "v5",
+   "speaker": "a",
+   "text": "And our deep human voices would be just as hard for you to catch. You'd shout, and nobody would ever hear.",
+   "start": 350.241,
+   "end": 356.35
+  },
+  {
+   "id": "b1",
+   "speaker": "q",
+   "text": "Would I still be able to think?",
+   "start": 358.55,
+   "end": 359.967
+  },
+  {
+   "id": "b2",
+   "speaker": "a",
+   "text": "This is the biggest problem. Your brain cells can't shrink with you. A cell is a cell. Shrink a human brain a thousand times, and by our rough estimate it would have room for only a few thousand neurons, instead of eighty-six billion.",
+   "start": 360.417,
+   "end": 372.854
+  },
+  {
+   "id": "b3",
+   "speaker": "a",
+   "text": "Ants solve this with enormous brains. In the smallest ants, the brain makes up around fifteen percent of the body. Yours is about two percent.",
+   "start": 373.094,
+   "end": 380.924
+  },
+  {
+   "id": "b4",
+   "speaker": "a",
+   "text": "So to stay you, you'd need a head bigger than the rest of your body.",
+   "start": 381.164,
+   "end": 384.995
+  },
+  {
+   "id": "b5",
+   "speaker": "a",
+   "text": "It's also why a single ant isn't very clever. The intelligence of an ant colony comes from thousands of ants following simple rules together.",
+   "start": 385.235,
+   "end": 393.257
+  },
+  {
+   "id": "i1",
+   "speaker": "q",
+   "text": "So why aren't insects big, then?",
+   "start": 395.457,
+   "end": 397.159
+  },
+  {
+   "id": "i2",
+   "speaker": "a",
+   "text": "Mostly breathing. Insects have no lungs. Air seeps in through tiny tubes, and that only works over short distances.",
+   "start": 397.609,
+   "end": 404.546
+  },
+  {
+   "id": "i3",
+   "speaker": "a",
+   "text": "About three hundred million years ago, there were griffinflies with wings seventy centimetres wide. One idea is that the air then held much more oxygen, though scientists still argue about it.",
+   "start": 404.786,
+   "end": 415.613
+  },
+  {
+   "id": "a1",
+   "speaker": "q",
+   "text": "And down there, who would I be up against?",
+   "start": 417.813,
+   "end": 419.835
+  },
+  {
+   "id": "a2",
+   "speaker": "a",
+   "text": "Ants. A 2022 study estimated there are about twenty quadrillion ants on Earth. Together they outweigh all the wild birds and wild mammals combined.",
+   "start": 420.285,
+   "end": 429.567
+  },
+  {
+   "id": "a3",
+   "speaker": "a",
+   "text": "That's two and a half million ants for every person. At their size, you'd be badly outnumbered, and many of them hunt anything that moves.",
+   "start": 429.807,
+   "end": 437.402
+  },
+  {
+   "id": "a4",
+   "speaker": "a",
+   "text": "Some ants don't even fight each other. In southern Europe, Argentine ants form one giant supercolony that stretches more than six thousand kilometres, from Italy to the Atlantic coast of Spain.",
+   "start": 437.642,
+   "end": 448.668
+  },
+  {
+   "id": "a5",
+   "speaker": "a",
+   "text": "And there are traps everywhere. Antlion larvae dig cone-shaped pits in the sand and wait at the bottom. Anything that slides in, gets eaten.",
+   "start": 448.908,
+   "end": 456.655
+  },
+  {
+   "id": "o1",
+   "speaker": "q",
+   "text": "So, would you shrink?",
+   "start": 457.655,
+   "end": 458.67
+  },
+  {
+   "id": "o2",
+   "speaker": "a",
+   "text": "You'd float down from rooftops, lift a hundred times your weight, and see the world in slow motion. But you'd fear raindrops, eat all day, and need a head the size of a hot-air balloon.",
+   "start": 459.12,
+   "end": 468.763
+  },
+  {
+   "id": "o3",
+   "speaker": "a",
+   "text": "Maybe being human-sized isn't so bad after all.",
+   "start": 469.003,
+   "end": 472.758
+  },
+  {
+   "id": "o4",
+   "speaker": "q",
+   "text": "Subscribe for more what ifs, and tell us in the comments how small you'd go.",
+   "start": 473.258,
+   "end": 477.49
+  }
+ ],
+ "words": [
+  {
+   "w": "What",
+   "s": 0.0,
+   "e": 0.48
+  },
+  {
+   "w": "if",
+   "s": 0.48,
+   "e": 0.56
+  },
+  {
+   "w": "you",
+   "s": 0.56,
+   "e": 0.66
+  },
+  {
+   "w": "shrank",
+   "s": 0.66,
+   "e": 0.96
+  },
+  {
+   "w": "to",
+   "s": 0.96,
+   "e": 1.1
+  },
+  {
+   "w": "the",
+   "s": 1.1,
+   "e": 1.18
+  },
+  {
+   "w": "size",
+   "s": 1.18,
+   "e": 1.46
+  },
+  {
+   "w": "of",
+   "s": 1.46,
+   "e": 1.64
+  },
+  {
+   "w": "an",
+   "s": 1.64,
+   "e": 1.76
+  },
+  {
+   "w": "ant?",
+   "s": 1.76,
+   "e": 1.96
+  },
+  {
+   "w": "Let's",
+   "s": 2.6,
+   "e": 2.9
+  },
+  {
+   "w": "do",
+   "s": 2.9,
+   "e": 3.02
+  },
+  {
+   "w": "it.",
+   "s": 3.02,
+   "e": 3.18
+  },
+  {
+   "w": "You're",
+   "s": 3.36,
+   "e": 3.38
+  },
+  {
+   "w": "now",
+   "s": 3.38,
+   "e": 3.56
+  },
+  {
+   "w": "two",
+   "s": 3.56,
+   "e": 3.8
+  },
+  {
+   "w": "millimeters",
+   "s": 3.8,
+   "e": 4.26
+  },
+  {
+   "w": "tall,",
+   "s": 4.26,
+   "e": 4.6
+  },
+  {
+   "w": "a",
+   "s": 4.92,
+   "e": 5.02
+  },
+  {
+   "w": "thousand",
+   "s": 5.02,
+   "e": 5.36
+  },
+  {
+   "w": "times",
+   "s": 5.36,
+   "e": 5.68
+  },
+  {
+   "w": "smaller.",
+   "s": 5.68,
+   "e": 6.1
+  },
+  {
+   "w": "You",
+   "s": 6.74,
+   "e": 6.82
+  },
+  {
+   "w": "could",
+   "s": 6.82,
+   "e": 6.94
+  },
+  {
+   "w": "stand",
+   "s": 6.94,
+   "e": 7.18
+  },
+  {
+   "w": "on",
+   "s": 7.18,
+   "e": 7.4
+  },
+  {
+   "w": "a",
+   "s": 7.4,
+   "e": 7.48
+  },
+  {
+   "w": "grain",
+   "s": 7.48,
+   "e": 7.66
+  },
+  {
+   "w": "of",
+   "s": 7.66,
+   "e": 7.86
+  },
+  {
+   "w": "rice.",
+   "s": 7.86,
+   "e": 8.12
+  },
+  {
+   "w": "And",
+   "s": 9.1,
+   "e": 9.32
+  },
+  {
+   "w": "if",
+   "s": 9.32,
+   "e": 9.42
+  },
+  {
+   "w": "all",
+   "s": 9.42,
+   "e": 9.6
+  },
+  {
+   "w": "eight",
+   "s": 9.6,
+   "e": 9.86
+  },
+  {
+   "w": "billion",
+   "s": 9.86,
+   "e": 10.1
+  },
+  {
+   "w": "people",
+   "s": 10.1,
+   "e": 10.68
+  },
+  {
+   "w": "shrank",
+   "s": 10.68,
+   "e": 10.98
+  },
+  {
+   "w": "with",
+   "s": 10.98,
+   "e": 11.18
+  },
+  {
+   "w": "you,",
+   "s": 11.18,
+   "e": 11.36
+  },
+  {
+   "w": "the",
+   "s": 11.36,
+   "e": 11.84
+  },
+  {
+   "w": "whole",
+   "s": 11.84,
+   "e": 12.02
+  },
+  {
+   "w": "of",
+   "s": 12.02,
+   "e": 12.18
+  },
+  {
+   "w": "humanity",
+   "s": 12.18,
+   "e": 12.62
+  },
+  {
+   "w": "would",
+   "s": 12.62,
+   "e": 12.94
+  },
+  {
+   "w": "fit",
+   "s": 12.94,
+   "e": 13.14
+  },
+  {
+   "w": "into",
+   "s": 13.14,
+   "e": 13.34
+  },
+  {
+   "w": "about",
+   "s": 13.34,
+   "e": 13.64
+  },
+  {
+   "w": "two",
+   "s": 13.64,
+   "e": 13.92
+  },
+  {
+   "w": "bathtubs.",
+   "s": 13.92,
+   "e": 14.5
+  },
+  {
+   "w": "And",
+   "s": 15.34,
+   "e": 15.74
+  },
+  {
+   "w": "your",
+   "s": 15.74,
+   "e": 15.88
+  },
+  {
+   "w": "living",
+   "s": 15.88,
+   "e": 16.14
+  },
+  {
+   "w": "room,",
+   "s": 16.14,
+   "e": 16.46
+  },
+  {
+   "w": "crossing",
+   "s": 16.76,
+   "e": 17.08
+  },
+  {
+   "w": "it",
+   "s": 17.08,
+   "e": 17.32
+  },
+  {
+   "w": "would",
+   "s": 17.32,
+   "e": 17.4
+  },
+  {
+   "w": "feel",
+   "s": 17.4,
+   "e": 17.62
+  },
+  {
+   "w": "like",
+   "s": 17.62,
+   "e": 17.88
+  },
+  {
+   "w": "walking",
+   "s": 17.88,
+   "e": 18.24
+  },
+  {
+   "w": "across",
+   "s": 18.24,
+   "e": 18.5
+  },
+  {
+   "w": "a",
+   "s": 18.5,
+   "e": 18.74
+  },
+  {
+   "w": "city.",
+   "s": 18.74,
+   "e": 19.0
+  },
+  {
+   "w": "Okay,",
+   "s": 20.0,
+   "e": 20.2
+  },
+  {
+   "w": "that's",
+   "s": 20.38,
+   "e": 20.72
+  },
+  {
+   "w": "cute.",
+   "s": 20.72,
+   "e": 20.9
+  },
+  {
+   "w": "What's",
+   "s": 21.3,
+   "e": 21.42
+  },
+  {
+   "w": "the",
+   "s": 21.42,
+   "e": 21.52
+  },
+  {
+   "w": "catch?",
+   "s": 21.52,
+   "e": 21.68
+  },
+  {
+   "w": "Physics,",
+   "s": 22.44,
+   "e": 22.76
+  },
+  {
+   "w": "at",
+   "s": 23.08,
+   "e": 23.2
+  },
+  {
+   "w": "this",
+   "s": 23.2,
+   "e": 23.36
+  },
+  {
+   "w": "size,",
+   "s": 23.36,
+   "e": 23.74
+  },
+  {
+   "w": "the",
+   "s": 24.04,
+   "e": 24.08
+  },
+  {
+   "w": "rules",
+   "s": 24.08,
+   "e": 24.28
+  },
+  {
+   "w": "you've",
+   "s": 24.28,
+   "e": 24.62
+  },
+  {
+   "w": "lived",
+   "s": 24.62,
+   "e": 24.78
+  },
+  {
+   "w": "by",
+   "s": 24.78,
+   "e": 25.02
+  },
+  {
+   "w": "your",
+   "s": 25.02,
+   "e": 25.16
+  },
+  {
+   "w": "whole",
+   "s": 25.16,
+   "e": 25.34
+  },
+  {
+   "w": "life",
+   "s": 25.34,
+   "e": 25.64
+  },
+  {
+   "w": "stop",
+   "s": 25.64,
+   "e": 25.9
+  },
+  {
+   "w": "working.",
+   "s": 25.9,
+   "e": 26.24
+  },
+  {
+   "w": "Gravity",
+   "s": 26.86,
+   "e": 27.34
+  },
+  {
+   "w": "barely",
+   "s": 27.34,
+   "e": 27.66
+  },
+  {
+   "w": "matters.",
+   "s": 27.66,
+   "e": 28.16
+  },
+  {
+   "w": "Water",
+   "s": 28.58,
+   "e": 28.78
+  },
+  {
+   "w": "turns",
+   "s": 28.78,
+   "e": 29.14
+  },
+  {
+   "w": "into",
+   "s": 29.14,
+   "e": 29.4
+  },
+  {
+   "w": "a",
+   "s": 29.4,
+   "e": 29.52
+  },
+  {
+   "w": "trap,",
+   "s": 29.52,
+   "e": 29.74
+  },
+  {
+   "w": "and",
+   "s": 30.06,
+   "e": 30.18
+  },
+  {
+   "w": "you'd",
+   "s": 30.18,
+   "e": 30.38
+  },
+  {
+   "w": "be",
+   "s": 30.38,
+   "e": 30.44
+  },
+  {
+   "w": "hungry",
+   "s": 30.44,
+   "e": 30.7
+  },
+  {
+   "w": "all",
+   "s": 30.7,
+   "e": 30.94
+  },
+  {
+   "w": "the",
+   "s": 30.94,
+   "e": 31.06
+  },
+  {
+   "w": "time.",
+   "s": 31.06,
+   "e": 31.34
+  },
+  {
+   "w": "Wouldn't",
+   "s": 33.56,
+   "e": 33.9
+  },
+  {
+   "w": "everything",
+   "s": 33.9,
+   "e": 34.14
+  },
+  {
+   "w": "just",
+   "s": 34.14,
+   "e": 34.5
+  },
+  {
+   "w": "be",
+   "s": 34.5,
+   "e": 34.68
+  },
+  {
+   "w": "the",
+   "s": 34.68,
+   "e": 34.78
+  },
+  {
+   "w": "same?",
+   "s": 34.78,
+   "e": 35.04
+  },
+  {
+   "w": "Only",
+   "s": 35.46,
+   "e": 35.64
+  },
+  {
+   "w": "smaller.",
+   "s": 35.64,
+   "e": 35.86
+  },
+  {
+   "w": "No,",
+   "s": 36.64,
+   "e": 36.86
+  },
+  {
+   "w": "and",
+   "s": 36.92,
+   "e": 37.16
+  },
+  {
+   "w": "here's",
+   "s": 37.16,
+   "e": 37.46
+  },
+  {
+   "w": "why.",
+   "s": 37.46,
+   "e": 37.68
+  },
+  {
+   "w": "When",
+   "s": 38.32,
+   "e": 38.36
+  },
+  {
+   "w": "you",
+   "s": 38.36,
+   "e": 38.48
+  },
+  {
+   "w": "shrink,",
+   "s": 38.48,
+   "e": 38.72
+  },
+  {
+   "w": "your",
+   "s": 39.12,
+   "e": 39.18
+  },
+  {
+   "w": "length",
+   "s": 39.18,
+   "e": 39.36
+  },
+  {
+   "w": "goes",
+   "s": 39.36,
+   "e": 39.64
+  },
+  {
+   "w": "down",
+   "s": 39.64,
+   "e": 39.9
+  },
+  {
+   "w": "a",
+   "s": 39.9,
+   "e": 40.04
+  },
+  {
+   "w": "thousand",
+   "s": 40.04,
+   "e": 40.34
+  },
+  {
+   "w": "times.",
+   "s": 40.34,
+   "e": 40.76
+  },
+  {
+   "w": "But",
+   "s": 41.3,
+   "e": 41.38
+  },
+  {
+   "w": "the",
+   "s": 41.38,
+   "e": 41.48
+  },
+  {
+   "w": "area",
+   "s": 41.48,
+   "e": 41.72
+  },
+  {
+   "w": "of",
+   "s": 41.72,
+   "e": 41.98
+  },
+  {
+   "w": "your",
+   "s": 41.98,
+   "e": 42.06
+  },
+  {
+   "w": "muscles",
+   "s": 42.06,
+   "e": 42.32
+  },
+  {
+   "w": "goes",
+   "s": 42.32,
+   "e": 42.6
+  },
+  {
+   "w": "down",
+   "s": 42.6,
+   "e": 42.9
+  },
+  {
+   "w": "a",
+   "s": 42.9,
+   "e": 43.0
+  },
+  {
+   "w": "million",
+   "s": 43.0,
+   "e": 43.2
+  },
+  {
+   "w": "times.",
+   "s": 43.2,
+   "e": 43.64
+  },
+  {
+   "w": "And",
+   "s": 44.32,
+   "e": 44.42
+  },
+  {
+   "w": "your",
+   "s": 44.42,
+   "e": 44.56
+  },
+  {
+   "w": "volume,",
+   "s": 44.56,
+   "e": 44.9
+  },
+  {
+   "w": "which",
+   "s": 45.12,
+   "e": 45.24
+  },
+  {
+   "w": "is",
+   "s": 45.24,
+   "e": 45.36
+  },
+  {
+   "w": "your",
+   "s": 45.36,
+   "e": 45.52
+  },
+  {
+   "w": "weight,",
+   "s": 45.52,
+   "e": 45.76
+  },
+  {
+   "w": "goes",
+   "s": 46.06,
+   "e": 46.26
+  },
+  {
+   "w": "down",
+   "s": 46.26,
+   "e": 46.5
+  },
+  {
+   "w": "a",
+   "s": 46.5,
+   "e": 46.66
+  },
+  {
+   "w": "billion",
+   "s": 46.66,
+   "e": 46.86
+  },
+  {
+   "w": "times.",
+   "s": 46.86,
+   "e": 47.3
+  },
+  {
+   "w": "So",
+   "s": 48.44,
+   "e": 48.64
+  },
+  {
+   "w": "compared",
+   "s": 48.64,
+   "e": 48.84
+  },
+  {
+   "w": "to",
+   "s": 48.84,
+   "e": 49.14
+  },
+  {
+   "w": "your",
+   "s": 49.14,
+   "e": 49.28
+  },
+  {
+   "w": "weight,",
+   "s": 49.28,
+   "e": 49.5
+  },
+  {
+   "w": "your",
+   "s": 49.76,
+   "e": 49.88
+  },
+  {
+   "w": "muscles",
+   "s": 49.88,
+   "e": 50.18
+  },
+  {
+   "w": "are",
+   "s": 50.18,
+   "e": 50.42
+  },
+  {
+   "w": "now",
+   "s": 50.42,
+   "e": 50.6
+  },
+  {
+   "w": "a",
+   "s": 50.6,
+   "e": 50.74
+  },
+  {
+   "w": "thousand",
+   "s": 50.74,
+   "e": 50.98
+  },
+  {
+   "w": "times",
+   "s": 50.98,
+   "e": 51.44
+  },
+  {
+   "w": "stronger.",
+   "s": 51.44,
+   "e": 51.8
+  },
+  {
+   "w": "This",
+   "s": 52.58,
+   "e": 52.72
+  },
+  {
+   "w": "is",
+   "s": 52.72,
+   "e": 52.86
+  },
+  {
+   "w": "called",
+   "s": 52.86,
+   "e": 53.1
+  },
+  {
+   "w": "the",
+   "s": 53.1,
+   "e": 53.32
+  },
+  {
+   "w": "square",
+   "s": 53.32,
+   "e": 53.5
+  },
+  {
+   "w": "cube",
+   "s": 53.5,
+   "e": 53.76
+  },
+  {
+   "w": "law,",
+   "s": 53.76,
+   "e": 54.04
+  },
+  {
+   "w": "and",
+   "s": 54.26,
+   "e": 54.48
+  },
+  {
+   "w": "it",
+   "s": 54.48,
+   "e": 54.58
+  },
+  {
+   "w": "changes",
+   "s": 54.58,
+   "e": 54.78
+  },
+  {
+   "w": "everything.",
+   "s": 54.78,
+   "e": 55.36
+  },
+  {
+   "w": "Who",
+   "s": 55.36,
+   "e": 56.02
+  },
+  {
+   "w": "figured",
+   "s": 56.02,
+   "e": 56.32
+  },
+  {
+   "w": "that",
+   "s": 56.32,
+   "e": 56.62
+  },
+  {
+   "w": "out?",
+   "s": 56.62,
+   "e": 56.88
+  },
+  {
+   "w": "Galileo,",
+   "s": 57.42,
+   "e": 57.68
+  },
+  {
+   "w": "back",
+   "s": 58.04,
+   "e": 58.32
+  },
+  {
+   "w": "in",
+   "s": 58.32,
+   "e": 58.5
+  },
+  {
+   "w": "1638.",
+   "s": 58.5,
+   "e": 59.38
+  },
+  {
+   "w": "He",
+   "s": 60.02,
+   "e": 60.16
+  },
+  {
+   "w": "noticed",
+   "s": 60.16,
+   "e": 60.38
+  },
+  {
+   "w": "that",
+   "s": 60.38,
+   "e": 60.66
+  },
+  {
+   "w": "big",
+   "s": 60.66,
+   "e": 60.82
+  },
+  {
+   "w": "animals",
+   "s": 60.82,
+   "e": 61.14
+  },
+  {
+   "w": "need",
+   "s": 61.14,
+   "e": 61.48
+  },
+  {
+   "w": "much",
+   "s": 61.48,
+   "e": 61.68
+  },
+  {
+   "w": "thicker",
+   "s": 61.68,
+   "e": 61.98
+  },
+  {
+   "w": "bones",
+   "s": 61.98,
+   "e": 62.32
+  },
+  {
+   "w": "than",
+   "s": 62.32,
+   "e": 62.64
+  },
+  {
+   "w": "small",
+   "s": 62.64,
+   "e": 62.9
+  },
+  {
+   "w": "ones,",
+   "s": 62.9,
+   "e": 63.28
+  },
+  {
+   "w": "and",
+   "s": 63.6,
+   "e": 63.8
+  },
+  {
+   "w": "wrote",
+   "s": 63.8,
+   "e": 63.98
+  },
+  {
+   "w": "that",
+   "s": 63.98,
+   "e": 64.18
+  },
+  {
+   "w": "a",
+   "s": 64.18,
+   "e": 64.26
+  },
+  {
+   "w": "small",
+   "s": 64.26,
+   "e": 64.5
+  },
+  {
+   "w": "dog",
+   "s": 64.5,
+   "e": 64.8
+  },
+  {
+   "w": "could",
+   "s": 64.8,
+   "e": 65.02
+  },
+  {
+   "w": "probably",
+   "s": 65.02,
+   "e": 65.36
+  },
+  {
+   "w": "carry",
+   "s": 65.36,
+   "e": 65.72
+  },
+  {
+   "w": "two",
+   "s": 65.72,
+   "e": 66.0
+  },
+  {
+   "w": "or",
+   "s": 66.0,
+   "e": 66.14
+  },
+  {
+   "w": "three",
+   "s": 66.14,
+   "e": 66.32
+  },
+  {
+   "w": "dogs",
+   "s": 66.32,
+   "e": 66.52
+  },
+  {
+   "w": "its",
+   "s": 66.52,
+   "e": 66.76
+  },
+  {
+   "w": "own",
+   "s": 66.76,
+   "e": 66.98
+  },
+  {
+   "w": "size",
+   "s": 66.98,
+   "e": 67.24
+  },
+  {
+   "w": "on",
+   "s": 67.24,
+   "e": 67.52
+  },
+  {
+   "w": "its",
+   "s": 67.52,
+   "e": 67.64
+  },
+  {
+   "w": "back,",
+   "s": 67.64,
+   "e": 67.9
+  },
+  {
+   "w": "while",
+   "s": 68.32,
+   "e": 68.5
+  },
+  {
+   "w": "a",
+   "s": 68.5,
+   "e": 68.58
+  },
+  {
+   "w": "horse",
+   "s": 68.58,
+   "e": 68.78
+  },
+  {
+   "w": "couldn't",
+   "s": 68.78,
+   "e": 69.08
+  },
+  {
+   "w": "carry",
+   "s": 69.08,
+   "e": 69.34
+  },
+  {
+   "w": "even",
+   "s": 69.34,
+   "e": 69.62
+  },
+  {
+   "w": "one",
+   "s": 69.62,
+   "e": 69.82
+  },
+  {
+   "w": "horse.",
+   "s": 69.82,
+   "e": 70.14
+  },
+  {
+   "w": "Now",
+   "s": 70.7,
+   "e": 70.86
+  },
+  {
+   "w": "flip",
+   "s": 70.86,
+   "e": 71.06
+  },
+  {
+   "w": "that",
+   "s": 71.06,
+   "e": 71.32
+  },
+  {
+   "w": "around,",
+   "s": 71.32,
+   "e": 71.62
+  },
+  {
+   "w": "shrink",
+   "s": 72.12,
+   "e": 72.3
+  },
+  {
+   "w": "yourself",
+   "s": 72.3,
+   "e": 72.62
+  },
+  {
+   "w": "and",
+   "s": 72.62,
+   "e": 73.0
+  },
+  {
+   "w": "you",
+   "s": 73.0,
+   "e": 73.1
+  },
+  {
+   "w": "become",
+   "s": 73.1,
+   "e": 73.26
+  },
+  {
+   "w": "the",
+   "s": 73.26,
+   "e": 73.54
+  },
+  {
+   "w": "small",
+   "s": 73.54,
+   "e": 73.72
+  },
+  {
+   "w": "dog.",
+   "s": 73.72,
+   "e": 74.12
+  },
+  {
+   "w": "Very,",
+   "s": 74.64,
+   "e": 74.82
+  },
+  {
+   "w": "very",
+   "s": 74.96,
+   "e": 75.14
+  },
+  {
+   "w": "small.",
+   "s": 75.14,
+   "e": 75.46
+  },
+  {
+   "w": "So",
+   "s": 78.14,
+   "e": 78.66
+  },
+  {
+   "w": "could",
+   "s": 78.66,
+   "e": 78.8
+  },
+  {
+   "w": "I",
+   "s": 78.8,
+   "e": 78.92
+  },
+  {
+   "w": "jump",
+   "s": 78.92,
+   "e": 79.2
+  },
+  {
+   "w": "off",
+   "s": 79.2,
+   "e": 79.44
+  },
+  {
+   "w": "a",
+   "s": 79.44,
+   "e": 79.46
+  },
+  {
+   "w": "table?",
+   "s": 79.46,
+   "e": 79.7
+  },
+  {
+   "w": "You",
+   "s": 80.4,
+   "e": 80.58
+  },
+  {
+   "w": "could",
+   "s": 80.58,
+   "e": 80.7
+  },
+  {
+   "w": "jump",
+   "s": 80.7,
+   "e": 80.92
+  },
+  {
+   "w": "off",
+   "s": 80.92,
+   "e": 81.14
+  },
+  {
+   "w": "a",
+   "s": 81.14,
+   "e": 81.2
+  },
+  {
+   "w": "skyscraper.",
+   "s": 81.2,
+   "e": 81.84
+  },
+  {
+   "w": "A",
+   "s": 81.84,
+   "e": 82.5
+  },
+  {
+   "w": "falling",
+   "s": 82.5,
+   "e": 82.74
+  },
+  {
+   "w": "object",
+   "s": 82.74,
+   "e": 83.1
+  },
+  {
+   "w": "speeds",
+   "s": 83.1,
+   "e": 83.52
+  },
+  {
+   "w": "up",
+   "s": 83.52,
+   "e": 83.84
+  },
+  {
+   "w": "until",
+   "s": 83.84,
+   "e": 84.18
+  },
+  {
+   "w": "air",
+   "s": 84.18,
+   "e": 84.4
+  },
+  {
+   "w": "resistance",
+   "s": 84.4,
+   "e": 84.82
+  },
+  {
+   "w": "balances",
+   "s": 84.82,
+   "e": 85.32
+  },
+  {
+   "w": "its",
+   "s": 85.32,
+   "e": 85.78
+  },
+  {
+   "w": "weight.",
+   "s": 85.78,
+   "e": 86.04
+  },
+  {
+   "w": "For",
+   "s": 86.56,
+   "e": 86.76
+  },
+  {
+   "w": "you,",
+   "s": 86.76,
+   "e": 86.94
+  },
+  {
+   "w": "that",
+   "s": 87.18,
+   "e": 87.26
+  },
+  {
+   "w": "happens",
+   "s": 87.26,
+   "e": 87.56
+  },
+  {
+   "w": "almost",
+   "s": 87.56,
+   "e": 87.9
+  },
+  {
+   "w": "immediately.",
+   "s": 87.9,
+   "e": 88.42
+  },
+  {
+   "w": "Your",
+   "s": 89.08,
+   "e": 89.14
+  },
+  {
+   "w": "weight",
+   "s": 89.14,
+   "e": 89.34
+  },
+  {
+   "w": "shrank",
+   "s": 89.34,
+   "e": 89.66
+  },
+  {
+   "w": "a",
+   "s": 89.66,
+   "e": 89.78
+  },
+  {
+   "w": "billion",
+   "s": 89.78,
+   "e": 89.96
+  },
+  {
+   "w": "times,",
+   "s": 89.96,
+   "e": 90.34
+  },
+  {
+   "w": "but",
+   "s": 90.44,
+   "e": 90.76
+  },
+  {
+   "w": "your",
+   "s": 90.76,
+   "e": 90.88
+  },
+  {
+   "w": "surface,",
+   "s": 90.88,
+   "e": 91.32
+  },
+  {
+   "w": "which",
+   "s": 91.62,
+   "e": 91.76
+  },
+  {
+   "w": "catches",
+   "s": 91.76,
+   "e": 92.08
+  },
+  {
+   "w": "the",
+   "s": 92.08,
+   "e": 92.34
+  },
+  {
+   "w": "air",
+   "s": 92.34,
+   "e": 92.56
+  },
+  {
+   "w": "only",
+   "s": 92.56,
+   "e": 92.96
+  },
+  {
+   "w": "a",
+   "s": 92.96,
+   "e": 93.14
+  },
+  {
+   "w": "million.",
+   "s": 93.14,
+   "e": 93.32
+  },
+  {
+   "w": "So",
+   "s": 93.92,
+   "e": 94.22
+  },
+  {
+   "w": "you",
+   "s": 94.22,
+   "e": 94.34
+  },
+  {
+   "w": "drift",
+   "s": 94.34,
+   "e": 94.48
+  },
+  {
+   "w": "down",
+   "s": 94.48,
+   "e": 94.8
+  },
+  {
+   "w": "slowly,",
+   "s": 94.8,
+   "e": 95.18
+  },
+  {
+   "w": "like",
+   "s": 95.62,
+   "e": 95.76
+  },
+  {
+   "w": "a",
+   "s": 95.76,
+   "e": 95.86
+  },
+  {
+   "w": "speck",
+   "s": 95.86,
+   "e": 96.12
+  },
+  {
+   "w": "of",
+   "s": 96.12,
+   "e": 96.2
+  },
+  {
+   "w": "dust,",
+   "s": 96.2,
+   "e": 96.42
+  },
+  {
+   "w": "and",
+   "s": 96.8,
+   "e": 96.98
+  },
+  {
+   "w": "land",
+   "s": 96.98,
+   "e": 97.18
+  },
+  {
+   "w": "at",
+   "s": 97.18,
+   "e": 97.42
+  },
+  {
+   "w": "a",
+   "s": 97.42,
+   "e": 97.48
+  },
+  {
+   "w": "gentle",
+   "s": 97.48,
+   "e": 97.76
+  },
+  {
+   "w": "walking",
+   "s": 97.76,
+   "e": 98.1
+  },
+  {
+   "w": "pace.",
+   "s": 98.1,
+   "e": 98.46
+  },
+  {
+   "w": "A",
+   "s": 99.08,
+   "e": 99.12
+  },
+  {
+   "w": "full",
+   "s": 99.12,
+   "e": 99.36
+  },
+  {
+   "w": "-size",
+   "s": 99.36,
+   "e": 99.66
+  },
+  {
+   "w": "skydiver,",
+   "s": 99.66,
+   "e": 100.32
+  },
+  {
+   "w": "by",
+   "s": 100.32,
+   "e": 100.66
+  },
+  {
+   "w": "comparison,",
+   "s": 100.66,
+   "e": 100.9
+  },
+  {
+   "w": "falls",
+   "s": 101.84,
+   "e": 101.86
+  },
+  {
+   "w": "at",
+   "s": 101.86,
+   "e": 102.06
+  },
+  {
+   "w": "around",
+   "s": 102.06,
+   "e": 102.24
+  },
+  {
+   "w": "200",
+   "s": 102.24,
+   "e": 102.56
+  },
+  {
+   "w": "kilometers",
+   "s": 102.56,
+   "e": 103.06
+  },
+  {
+   "w": "an",
+   "s": 103.06,
+   "e": 103.58
+  },
+  {
+   "w": "hour.",
+   "s": 103.58,
+   "e": 103.84
+  },
+  {
+   "w": "Back",
+   "s": 104.44,
+   "e": 104.92
+  },
+  {
+   "w": "in",
+   "s": 104.92,
+   "e": 105.12
+  },
+  {
+   "w": "1926,",
+   "s": 105.12,
+   "e": 105.84
+  },
+  {
+   "w": "the",
+   "s": 105.9,
+   "e": 106.48
+  },
+  {
+   "w": "biologist",
+   "s": 106.48,
+   "e": 106.92
+  },
+  {
+   "w": "JBS",
+   "s": 106.92,
+   "e": 107.58
+  },
+  {
+   "w": "Haldane",
+   "s": 107.58,
+   "e": 108.12
+  },
+  {
+   "w": "wrote",
+   "s": 108.12,
+   "e": 108.36
+  },
+  {
+   "w": "that",
+   "s": 108.36,
+   "e": 108.66
+  },
+  {
+   "w": "a",
+   "s": 108.66,
+   "e": 108.72
+  },
+  {
+   "w": "mouse",
+   "s": 108.72,
+   "e": 108.94
+  },
+  {
+   "w": "dropped",
+   "s": 108.94,
+   "e": 109.22
+  },
+  {
+   "w": "down",
+   "s": 109.22,
+   "e": 109.6
+  },
+  {
+   "w": "a",
+   "s": 109.6,
+   "e": 109.68
+  },
+  {
+   "w": "deep",
+   "s": 109.68,
+   "e": 109.88
+  },
+  {
+   "w": "mind",
+   "s": 109.88,
+   "e": 110.14
+  },
+  {
+   "w": "shaft",
+   "s": 110.14,
+   "e": 110.48
+  },
+  {
+   "w": "lands",
+   "s": 110.48,
+   "e": 110.78
+  },
+  {
+   "w": "on",
+   "s": 110.78,
+   "e": 111.04
+  },
+  {
+   "w": "soft",
+   "s": 111.04,
+   "e": 111.26
+  },
+  {
+   "w": "ground,",
+   "s": 111.26,
+   "e": 111.62
+  },
+  {
+   "w": "gets",
+   "s": 112.1,
+   "e": 112.3
+  },
+  {
+   "w": "a",
+   "s": 112.3,
+   "e": 112.48
+  },
+  {
+   "w": "small",
+   "s": 112.48,
+   "e": 112.7
+  },
+  {
+   "w": "shock,",
+   "s": 112.7,
+   "e": 113.04
+  },
+  {
+   "w": "and",
+   "s": 113.32,
+   "e": 113.42
+  },
+  {
+   "w": "walks",
+   "s": 113.42,
+   "e": 113.6
+  },
+  {
+   "w": "away.",
+   "s": 113.6,
+   "e": 113.92
+  },
+  {
+   "w": "A",
+   "s": 114.62,
+   "e": 114.66
+  },
+  {
+   "w": "rat",
+   "s": 114.66,
+   "e": 114.84
+  },
+  {
+   "w": "is",
+   "s": 114.84,
+   "e": 115.08
+  },
+  {
+   "w": "killed.",
+   "s": 115.08,
+   "e": 115.28
+  },
+  {
+   "w": "A",
+   "s": 115.96,
+   "e": 115.98
+  },
+  {
+   "w": "man",
+   "s": 115.98,
+   "e": 116.18
+  },
+  {
+   "w": "is",
+   "s": 116.18,
+   "e": 116.36
+  },
+  {
+   "w": "broken.",
+   "s": 116.36,
+   "e": 116.56
+  },
+  {
+   "w": "Some",
+   "s": 117.28,
+   "e": 117.38
+  },
+  {
+   "w": "tiny",
+   "s": 117.38,
+   "e": 117.64
+  },
+  {
+   "w": "spiders",
+   "s": 117.64,
+   "e": 118.04
+  },
+  {
+   "w": "even",
+   "s": 118.04,
+   "e": 118.56
+  },
+  {
+   "w": "fly",
+   "s": 118.56,
+   "e": 118.86
+  },
+  {
+   "w": "on",
+   "s": 118.86,
+   "e": 119.04
+  },
+  {
+   "w": "purpose.",
+   "s": 119.04,
+   "e": 119.36
+  },
+  {
+   "w": "They",
+   "s": 120.04,
+   "e": 120.12
+  },
+  {
+   "w": "let",
+   "s": 120.12,
+   "e": 120.28
+  },
+  {
+   "w": "out",
+   "s": 120.28,
+   "e": 120.48
+  },
+  {
+   "w": "silk",
+   "s": 120.48,
+   "e": 120.76
+  },
+  {
+   "w": "threads",
+   "s": 120.76,
+   "e": 121.2
+  },
+  {
+   "w": "that",
+   "s": 121.2,
+   "e": 121.46
+  },
+  {
+   "w": "catch",
+   "s": 121.46,
+   "e": 121.64
+  },
+  {
+   "w": "the",
+   "s": 121.64,
+   "e": 121.88
+  },
+  {
+   "w": "wind",
+   "s": 121.88,
+   "e": 122.06
+  },
+  {
+   "w": "and",
+   "s": 122.06,
+   "e": 122.44
+  },
+  {
+   "w": "float",
+   "s": 122.44,
+   "e": 122.66
+  },
+  {
+   "w": "away.",
+   "s": 122.66,
+   "e": 122.98
+  },
+  {
+   "w": "It's",
+   "s": 123.58,
+   "e": 123.72
+  },
+  {
+   "w": "called",
+   "s": 123.72,
+   "e": 123.94
+  },
+  {
+   "w": "ballooning,",
+   "s": 123.94,
+   "e": 124.58
+  },
+  {
+   "w": "and",
+   "s": 124.76,
+   "e": 124.86
+  },
+  {
+   "w": "they've",
+   "s": 124.86,
+   "e": 125.02
+  },
+  {
+   "w": "been",
+   "s": 125.02,
+   "e": 125.12
+  },
+  {
+   "w": "found",
+   "s": 125.12,
+   "e": 125.36
+  },
+  {
+   "w": "kilometers",
+   "s": 125.36,
+   "e": 125.68
+  },
+  {
+   "w": "up",
+   "s": 125.68,
+   "e": 126.1
+  },
+  {
+   "w": "in",
+   "s": 126.1,
+   "e": 126.26
+  },
+  {
+   "w": "the",
+   "s": 126.26,
+   "e": 126.36
+  },
+  {
+   "w": "sky.",
+   "s": 126.36,
+   "e": 126.62
+  },
+  {
+   "w": "And",
+   "s": 128.64,
+   "e": 129.12
+  },
+  {
+   "w": "would",
+   "s": 129.12,
+   "e": 129.24
+  },
+  {
+   "w": "I",
+   "s": 129.24,
+   "e": 129.36
+  },
+  {
+   "w": "be",
+   "s": 129.36,
+   "e": 129.5
+  },
+  {
+   "w": "super",
+   "s": 129.5,
+   "e": 129.72
+  },
+  {
+   "w": "strong,",
+   "s": 129.72,
+   "e": 130.16
+  },
+  {
+   "w": "like",
+   "s": 130.16,
+   "e": 130.58
+  },
+  {
+   "w": "an",
+   "s": 130.58,
+   "e": 130.68
+  },
+  {
+   "w": "ant?",
+   "s": 130.68,
+   "e": 130.86
+  },
+  {
+   "w": "Yes,",
+   "s": 130.86,
+   "e": 131.14
+  },
+  {
+   "w": "many",
+   "s": 132.02,
+   "e": 132.24
+  },
+  {
+   "w": "ants",
+   "s": 132.24,
+   "e": 132.48
+  },
+  {
+   "w": "carry",
+   "s": 132.48,
+   "e": 132.76
+  },
+  {
+   "w": "ten",
+   "s": 132.76,
+   "e": 133.12
+  },
+  {
+   "w": "to",
+   "s": 133.12,
+   "e": 133.28
+  },
+  {
+   "w": "fifty",
+   "s": 133.28,
+   "e": 133.46
+  },
+  {
+   "w": "times",
+   "s": 133.46,
+   "e": 133.84
+  },
+  {
+   "w": "their",
+   "s": 133.84,
+   "e": 134.08
+  },
+  {
+   "w": "own",
+   "s": 134.08,
+   "e": 134.3
+  },
+  {
+   "w": "weight.",
+   "s": 134.3,
+   "e": 134.54
+  },
+  {
+   "w": "In",
+   "s": 135.2,
+   "e": 135.3
+  },
+  {
+   "w": "2014,",
+   "s": 135.3,
+   "e": 135.88
+  },
+  {
+   "w": "engineers",
+   "s": 136.32,
+   "e": 136.78
+  },
+  {
+   "w": "spun",
+   "s": 136.78,
+   "e": 137.18
+  },
+  {
+   "w": "ants",
+   "s": 137.18,
+   "e": 137.44
+  },
+  {
+   "w": "in",
+   "s": 137.44,
+   "e": 137.72
+  },
+  {
+   "w": "a",
+   "s": 137.72,
+   "e": 137.8
+  },
+  {
+   "w": "centrifuge,",
+   "s": 137.8,
+   "e": 138.44
+  },
+  {
+   "w": "and",
+   "s": 138.78,
+   "e": 138.92
+  },
+  {
+   "w": "their",
+   "s": 138.92,
+   "e": 139.04
+  },
+  {
+   "w": "necks",
+   "s": 139.04,
+   "e": 139.18
+  },
+  {
+   "w": "only",
+   "s": 139.18,
+   "e": 139.54
+  },
+  {
+   "w": "gave",
+   "s": 139.54,
+   "e": 139.76
+  },
+  {
+   "w": "way",
+   "s": 139.76,
+   "e": 140.06
+  },
+  {
+   "w": "at",
+   "s": 140.06,
+   "e": 140.22
+  },
+  {
+   "w": "three",
+   "s": 140.22,
+   "e": 140.44
+  },
+  {
+   "w": "to",
+   "s": 140.44,
+   "e": 140.58
+  },
+  {
+   "w": "five",
+   "s": 140.58,
+   "e": 140.86
+  },
+  {
+   "w": "thousand",
+   "s": 140.86,
+   "e": 141.2
+  },
+  {
+   "w": "times",
+   "s": 141.2,
+   "e": 141.56
+  },
+  {
+   "w": "their",
+   "s": 141.56,
+   "e": 141.82
+  },
+  {
+   "w": "body",
+   "s": 141.82,
+   "e": 142.04
+  },
+  {
+   "w": "weight.",
+   "s": 142.04,
+   "e": 142.26
+  },
+  {
+   "w": "You'd",
+   "s": 142.76,
+   "e": 142.86
+  },
+  {
+   "w": "be",
+   "s": 142.86,
+   "e": 142.96
+  },
+  {
+   "w": "the",
+   "s": 142.96,
+   "e": 143.06
+  },
+  {
+   "w": "same,",
+   "s": 143.06,
+   "e": 143.3
+  },
+  {
+   "w": "a",
+   "s": 143.7,
+   "e": 143.72
+  },
+  {
+   "w": "crumb",
+   "s": 143.72,
+   "e": 144.02
+  },
+  {
+   "w": "that",
+   "s": 144.02,
+   "e": 144.16
+  },
+  {
+   "w": "weighs",
+   "s": 144.16,
+   "e": 144.3
+  },
+  {
+   "w": "more",
+   "s": 144.3,
+   "e": 144.6
+  },
+  {
+   "w": "than",
+   "s": 144.6,
+   "e": 144.78
+  },
+  {
+   "w": "you.",
+   "s": 144.78,
+   "e": 144.94
+  },
+  {
+   "w": "Easy,",
+   "s": 145.5,
+   "e": 145.6
+  },
+  {
+   "w": "you",
+   "s": 146.08,
+   "e": 146.2
+  },
+  {
+   "w": "could",
+   "s": 146.2,
+   "e": 146.32
+  },
+  {
+   "w": "carry",
+   "s": 146.32,
+   "e": 146.6
+  },
+  {
+   "w": "it",
+   "s": 146.6,
+   "e": 146.78
+  },
+  {
+   "w": "over",
+   "s": 146.78,
+   "e": 146.96
+  },
+  {
+   "w": "your",
+   "s": 146.96,
+   "e": 147.12
+  },
+  {
+   "w": "head",
+   "s": 147.12,
+   "e": 147.34
+  },
+  {
+   "w": "all",
+   "s": 147.34,
+   "e": 147.5
+  },
+  {
+   "w": "day.",
+   "s": 147.5,
+   "e": 147.78
+  },
+  {
+   "w": "Leafcutter",
+   "s": 148.8,
+   "e": 149.32
+  },
+  {
+   "w": "ants",
+   "s": 149.32,
+   "e": 149.54
+  },
+  {
+   "w": "do",
+   "s": 149.54,
+   "e": 149.82
+  },
+  {
+   "w": "this",
+   "s": 149.82,
+   "e": 149.96
+  },
+  {
+   "w": "every",
+   "s": 149.96,
+   "e": 150.24
+  },
+  {
+   "w": "day,",
+   "s": 150.24,
+   "e": 150.58
+  },
+  {
+   "w": "carrying",
+   "s": 151.04,
+   "e": 151.3
+  },
+  {
+   "w": "leaf",
+   "s": 151.3,
+   "e": 151.6
+  },
+  {
+   "w": "pieces",
+   "s": 151.6,
+   "e": 152.0
+  },
+  {
+   "w": "much",
+   "s": 152.0,
+   "e": 152.28
+  },
+  {
+   "w": "heavier",
+   "s": 152.28,
+   "e": 152.62
+  },
+  {
+   "w": "than",
+   "s": 152.62,
+   "e": 152.98
+  },
+  {
+   "w": "themselves",
+   "s": 152.98,
+   "e": 153.24
+  },
+  {
+   "w": "back",
+   "s": 153.24,
+   "e": 153.66
+  },
+  {
+   "w": "home,",
+   "s": 153.66,
+   "e": 153.98
+  },
+  {
+   "w": "to",
+   "s": 154.32,
+   "e": 154.44
+  },
+  {
+   "w": "feed",
+   "s": 154.44,
+   "e": 154.6
+  },
+  {
+   "w": "the",
+   "s": 154.6,
+   "e": 154.74
+  },
+  {
+   "w": "fungus",
+   "s": 154.74,
+   "e": 155.1
+  },
+  {
+   "w": "gardens",
+   "s": 155.1,
+   "e": 155.36
+  },
+  {
+   "w": "they",
+   "s": 155.36,
+   "e": 155.82
+  },
+  {
+   "w": "farm",
+   "s": 155.82,
+   "e": 156.02
+  },
+  {
+   "w": "underground.",
+   "s": 156.02,
+   "e": 156.44
+  },
+  {
+   "w": "You",
+   "s": 156.44,
+   "e": 157.26
+  },
+  {
+   "w": "could",
+   "s": 157.26,
+   "e": 157.38
+  },
+  {
+   "w": "even",
+   "s": 157.38,
+   "e": 157.52
+  },
+  {
+   "w": "walk",
+   "s": 157.52,
+   "e": 157.84
+  },
+  {
+   "w": "up",
+   "s": 157.84,
+   "e": 158.02
+  },
+  {
+   "w": "a",
+   "s": 158.02,
+   "e": 158.12
+  },
+  {
+   "w": "wall.",
+   "s": 158.12,
+   "e": 158.38
+  },
+  {
+   "w": "At",
+   "s": 158.9,
+   "e": 159.06
+  },
+  {
+   "w": "this",
+   "s": 159.06,
+   "e": 159.2
+  },
+  {
+   "w": "scale,",
+   "s": 159.2,
+   "e": 159.56
+  },
+  {
+   "w": "the",
+   "s": 159.86,
+   "e": 159.9
+  },
+  {
+   "w": "tiny",
+   "s": 159.9,
+   "e": 160.14
+  },
+  {
+   "w": "sticky",
+   "s": 160.14,
+   "e": 160.46
+  },
+  {
+   "w": "forces",
+   "s": 160.46,
+   "e": 160.84
+  },
+  {
+   "w": "between",
+   "s": 160.84,
+   "e": 161.22
+  },
+  {
+   "w": "surfaces",
+   "s": 161.22,
+   "e": 161.72
+  },
+  {
+   "w": "start",
+   "s": 161.72,
+   "e": 162.16
+  },
+  {
+   "w": "to",
+   "s": 162.16,
+   "e": 162.38
+  },
+  {
+   "w": "beat",
+   "s": 162.38,
+   "e": 162.54
+  },
+  {
+   "w": "gravity.",
+   "s": 162.54,
+   "e": 162.82
+  },
+  {
+   "w": "It's",
+   "s": 163.58,
+   "e": 163.72
+  },
+  {
+   "w": "why",
+   "s": 163.72,
+   "e": 163.86
+  },
+  {
+   "w": "dust",
+   "s": 163.86,
+   "e": 164.08
+  },
+  {
+   "w": "clings",
+   "s": 164.08,
+   "e": 164.5
+  },
+  {
+   "w": "to",
+   "s": 164.5,
+   "e": 164.68
+  },
+  {
+   "w": "a",
+   "s": 164.68,
+   "e": 164.78
+  },
+  {
+   "w": "wall",
+   "s": 164.78,
+   "e": 165.02
+  },
+  {
+   "w": "instead",
+   "s": 165.02,
+   "e": 165.32
+  },
+  {
+   "w": "of",
+   "s": 165.32,
+   "e": 165.58
+  },
+  {
+   "w": "falling",
+   "s": 165.58,
+   "e": 165.76
+  },
+  {
+   "w": "off.",
+   "s": 165.76,
+   "e": 166.06
+  },
+  {
+   "w": "And",
+   "s": 168.12,
+   "e": 168.64
+  },
+  {
+   "w": "getting",
+   "s": 168.64,
+   "e": 168.8
+  },
+  {
+   "w": "around,",
+   "s": 168.8,
+   "e": 169.16
+  },
+  {
+   "w": "my",
+   "s": 169.58,
+   "e": 169.86
+  },
+  {
+   "w": "legs",
+   "s": 169.86,
+   "e": 170.14
+  },
+  {
+   "w": "would",
+   "s": 170.14,
+   "e": 170.36
+  },
+  {
+   "w": "be",
+   "s": 170.36,
+   "e": 170.46
+  },
+  {
+   "w": "tiny.",
+   "s": 170.46,
+   "e": 170.72
+  },
+  {
+   "w": "That's",
+   "s": 171.44,
+   "e": 171.74
+  },
+  {
+   "w": "the",
+   "s": 171.74,
+   "e": 171.82
+  },
+  {
+   "w": "problem.",
+   "s": 171.82,
+   "e": 172.04
+  },
+  {
+   "w": "If",
+   "s": 172.5,
+   "e": 172.6
+  },
+  {
+   "w": "you",
+   "s": 172.6,
+   "e": 172.7
+  },
+  {
+   "w": "walk",
+   "s": 172.7,
+   "e": 172.86
+  },
+  {
+   "w": "the",
+   "s": 172.86,
+   "e": 173.06
+  },
+  {
+   "w": "way",
+   "s": 173.06,
+   "e": 173.2
+  },
+  {
+   "w": "you",
+   "s": 173.2,
+   "e": 173.4
+  },
+  {
+   "w": "do",
+   "s": 173.4,
+   "e": 173.52
+  },
+  {
+   "w": "now,",
+   "s": 173.52,
+   "e": 173.8
+  },
+  {
+   "w": "crossing",
+   "s": 174.14,
+   "e": 174.34
+  },
+  {
+   "w": "a",
+   "s": 174.34,
+   "e": 174.58
+  },
+  {
+   "w": "football",
+   "s": 174.58,
+   "e": 174.74
+  },
+  {
+   "w": "pitch",
+   "s": 174.74,
+   "e": 175.14
+  },
+  {
+   "w": "would",
+   "s": 175.14,
+   "e": 175.34
+  },
+  {
+   "w": "take",
+   "s": 175.34,
+   "e": 175.54
+  },
+  {
+   "w": "you",
+   "s": 175.54,
+   "e": 175.76
+  },
+  {
+   "w": "almost",
+   "s": 175.76,
+   "e": 176.02
+  },
+  {
+   "w": "a",
+   "s": 176.02,
+   "e": 176.2
+  },
+  {
+   "w": "full",
+   "s": 176.2,
+   "e": 176.38
+  },
+  {
+   "w": "day.",
+   "s": 176.38,
+   "e": 176.76
+  },
+  {
+   "w": "Ants",
+   "s": 177.76,
+   "e": 178.18
+  },
+  {
+   "w": "are",
+   "s": 178.18,
+   "e": 178.22
+  },
+  {
+   "w": "much",
+   "s": 178.22,
+   "e": 178.38
+  },
+  {
+   "w": "better",
+   "s": 178.38,
+   "e": 178.74
+  },
+  {
+   "w": "at",
+   "s": 178.74,
+   "e": 178.98
+  },
+  {
+   "w": "it.",
+   "s": 178.98,
+   "e": 179.18
+  },
+  {
+   "w": "The",
+   "s": 179.76,
+   "e": 179.82
+  },
+  {
+   "w": "Sahara",
+   "s": 179.82,
+   "e": 180.08
+  },
+  {
+   "w": "and",
+   "s": 180.08,
+   "e": 180.28
+  },
+  {
+   "w": "silver",
+   "s": 180.28,
+   "e": 180.56
+  },
+  {
+   "w": "ant",
+   "s": 180.56,
+   "e": 180.9
+  },
+  {
+   "w": "runs",
+   "s": 180.9,
+   "e": 181.28
+  },
+  {
+   "w": "at",
+   "s": 181.28,
+   "e": 181.56
+  },
+  {
+   "w": "about",
+   "s": 181.56,
+   "e": 181.72
+  },
+  {
+   "w": "eighty",
+   "s": 181.72,
+   "e": 181.98
+  },
+  {
+   "w": "-five",
+   "s": 181.98,
+   "e": 182.42
+  },
+  {
+   "w": "centimeters",
+   "s": 182.42,
+   "e": 182.84
+  },
+  {
+   "w": "a",
+   "s": 182.84,
+   "e": 183.18
+  },
+  {
+   "w": "second.",
+   "s": 183.18,
+   "e": 183.48
+  },
+  {
+   "w": "That's",
+   "s": 183.48,
+   "e": 184.24
+  },
+  {
+   "w": "a",
+   "s": 184.24,
+   "e": 184.28
+  },
+  {
+   "w": "hundred",
+   "s": 184.28,
+   "e": 184.5
+  },
+  {
+   "w": "and",
+   "s": 184.5,
+   "e": 184.72
+  },
+  {
+   "w": "eight",
+   "s": 184.72,
+   "e": 184.9
+  },
+  {
+   "w": "of",
+   "s": 184.9,
+   "e": 185.08
+  },
+  {
+   "w": "its",
+   "s": 185.08,
+   "e": 185.2
+  },
+  {
+   "w": "own",
+   "s": 185.2,
+   "e": 185.32
+  },
+  {
+   "w": "body",
+   "s": 185.32,
+   "e": 185.54
+  },
+  {
+   "w": "lengths",
+   "s": 185.54,
+   "e": 185.92
+  },
+  {
+   "w": "every",
+   "s": 185.92,
+   "e": 186.26
+  },
+  {
+   "w": "second.",
+   "s": 186.26,
+   "e": 186.76
+  },
+  {
+   "w": "For",
+   "s": 187.24,
+   "e": 187.34
+  },
+  {
+   "w": "you,",
+   "s": 187.34,
+   "e": 187.48
+  },
+  {
+   "w": "that",
+   "s": 187.62,
+   "e": 187.72
+  },
+  {
+   "w": "would",
+   "s": 187.72,
+   "e": 187.84
+  },
+  {
+   "w": "be",
+   "s": 187.84,
+   "e": 187.94
+  },
+  {
+   "w": "like",
+   "s": 187.94,
+   "e": 188.08
+  },
+  {
+   "w": "sprinting",
+   "s": 188.08,
+   "e": 188.58
+  },
+  {
+   "w": "at",
+   "s": 188.58,
+   "e": 188.68
+  },
+  {
+   "w": "seven",
+   "s": 188.68,
+   "e": 188.98
+  },
+  {
+   "w": "hundred",
+   "s": 188.98,
+   "e": 189.36
+  },
+  {
+   "w": "kilometers",
+   "s": 189.36,
+   "e": 189.78
+  },
+  {
+   "w": "an",
+   "s": 189.78,
+   "e": 190.06
+  },
+  {
+   "w": "hour,",
+   "s": 190.06,
+   "e": 190.28
+  },
+  {
+   "w": "faster",
+   "s": 190.66,
+   "e": 190.86
+  },
+  {
+   "w": "than",
+   "s": 190.86,
+   "e": 191.2
+  },
+  {
+   "w": "a",
+   "s": 191.2,
+   "e": 191.26
+  },
+  {
+   "w": "formula",
+   "s": 191.26,
+   "e": 191.58
+  },
+  {
+   "w": "one",
+   "s": 191.58,
+   "e": 191.86
+  },
+  {
+   "w": "car.",
+   "s": 191.86,
+   "e": 192.18
+  },
+  {
+   "w": "Ants",
+   "s": 192.8,
+   "e": 193.16
+  },
+  {
+   "w": "also",
+   "s": 193.16,
+   "e": 193.46
+  },
+  {
+   "w": "don't",
+   "s": 193.46,
+   "e": 193.76
+  },
+  {
+   "w": "get",
+   "s": 193.76,
+   "e": 193.88
+  },
+  {
+   "w": "lost.",
+   "s": 193.88,
+   "e": 194.12
+  },
+  {
+   "w": "They",
+   "s": 194.7,
+   "e": 194.72
+  },
+  {
+   "w": "lay",
+   "s": 194.72,
+   "e": 194.84
+  },
+  {
+   "w": "down",
+   "s": 194.84,
+   "e": 195.16
+  },
+  {
+   "w": "chemical",
+   "s": 195.16,
+   "e": 195.46
+  },
+  {
+   "w": "trails",
+   "s": 195.46,
+   "e": 195.9
+  },
+  {
+   "w": "and",
+   "s": 195.9,
+   "e": 196.24
+  },
+  {
+   "w": "follow",
+   "s": 196.24,
+   "e": 196.5
+  },
+  {
+   "w": "them",
+   "s": 196.5,
+   "e": 196.7
+  },
+  {
+   "w": "home,",
+   "s": 196.7,
+   "e": 196.9
+  },
+  {
+   "w": "like",
+   "s": 197.3,
+   "e": 197.48
+  },
+  {
+   "w": "invisible",
+   "s": 197.48,
+   "e": 197.78
+  },
+  {
+   "w": "roads.",
+   "s": 197.78,
+   "e": 198.2
+  },
+  {
+   "w": "What",
+   "s": 200.6,
+   "e": 201.0
+  },
+  {
+   "w": "would",
+   "s": 201.0,
+   "e": 201.1
+  },
+  {
+   "w": "everyday",
+   "s": 201.1,
+   "e": 201.36
+  },
+  {
+   "w": "things",
+   "s": 201.36,
+   "e": 201.84
+  },
+  {
+   "w": "look",
+   "s": 201.84,
+   "e": 202.14
+  },
+  {
+   "w": "like?",
+   "s": 202.14,
+   "e": 202.38
+  },
+  {
+   "w": "Enormous,",
+   "s": 202.96,
+   "e": 203.46
+  },
+  {
+   "w": "a",
+   "s": 203.78,
+   "e": 203.86
+  },
+  {
+   "w": "grain",
+   "s": 203.86,
+   "e": 204.04
+  },
+  {
+   "w": "of",
+   "s": 204.04,
+   "e": 204.24
+  },
+  {
+   "w": "sand",
+   "s": 204.24,
+   "e": 204.48
+  },
+  {
+   "w": "would",
+   "s": 204.48,
+   "e": 204.74
+  },
+  {
+   "w": "look",
+   "s": 204.74,
+   "e": 204.92
+  },
+  {
+   "w": "like",
+   "s": 204.92,
+   "e": 205.12
+  },
+  {
+   "w": "a",
+   "s": 205.12,
+   "e": 205.22
+  },
+  {
+   "w": "boulder.",
+   "s": 205.22,
+   "e": 205.4
+  },
+  {
+   "w": "A",
+   "s": 206.16,
+   "e": 206.16
+  },
+  {
+   "w": "raindrop",
+   "s": 206.16,
+   "e": 206.64
+  },
+  {
+   "w": "would",
+   "s": 206.64,
+   "e": 206.86
+  },
+  {
+   "w": "be",
+   "s": 206.86,
+   "e": 206.96
+  },
+  {
+   "w": "the",
+   "s": 206.96,
+   "e": 207.06
+  },
+  {
+   "w": "size",
+   "s": 207.06,
+   "e": 207.34
+  },
+  {
+   "w": "of",
+   "s": 207.34,
+   "e": 207.54
+  },
+  {
+   "w": "a",
+   "s": 207.54,
+   "e": 207.62
+  },
+  {
+   "w": "beach",
+   "s": 207.62,
+   "e": 207.82
+  },
+  {
+   "w": "ball.",
+   "s": 207.82,
+   "e": 208.08
+  },
+  {
+   "w": "And",
+   "s": 208.08,
+   "e": 208.72
+  },
+  {
+   "w": "a",
+   "s": 208.72,
+   "e": 208.8
+  },
+  {
+   "w": "house",
+   "s": 208.8,
+   "e": 209.0
+  },
+  {
+   "w": "cat",
+   "s": 209.0,
+   "e": 209.26
+  },
+  {
+   "w": "would",
+   "s": 209.26,
+   "e": 209.42
+  },
+  {
+   "w": "tower",
+   "s": 209.42,
+   "e": 209.62
+  },
+  {
+   "w": "about",
+   "s": 209.62,
+   "e": 210.0
+  },
+  {
+   "w": "250",
+   "s": 210.0,
+   "e": 210.32
+  },
+  {
+   "w": "meters",
+   "s": 210.32,
+   "e": 211.26
+  },
+  {
+   "w": "over",
+   "s": 211.26,
+   "e": 211.62
+  },
+  {
+   "w": "you,",
+   "s": 211.62,
+   "e": 211.84
+  },
+  {
+   "w": "most",
+   "s": 212.08,
+   "e": 212.38
+  },
+  {
+   "w": "of",
+   "s": 212.38,
+   "e": 212.52
+  },
+  {
+   "w": "the",
+   "s": 212.52,
+   "e": 212.6
+  },
+  {
+   "w": "way",
+   "s": 212.6,
+   "e": 212.74
+  },
+  {
+   "w": "up",
+   "s": 212.74,
+   "e": 212.86
+  },
+  {
+   "w": "the",
+   "s": 212.86,
+   "e": 212.98
+  },
+  {
+   "w": "Eiffel",
+   "s": 212.98,
+   "e": 213.34
+  },
+  {
+   "w": "Tower.",
+   "s": 213.34,
+   "e": 213.48
+  },
+  {
+   "w": "A",
+   "s": 214.1,
+   "e": 214.16
+  },
+  {
+   "w": "one",
+   "s": 214.16,
+   "e": 214.32
+  },
+  {
+   "w": "-centimeter",
+   "s": 214.32,
+   "e": 214.76
+  },
+  {
+   "w": "jumping",
+   "s": 214.76,
+   "e": 215.18
+  },
+  {
+   "w": "spider",
+   "s": 215.18,
+   "e": 215.64
+  },
+  {
+   "w": "would",
+   "s": 215.64,
+   "e": 216.02
+  },
+  {
+   "w": "be",
+   "s": 216.02,
+   "e": 216.14
+  },
+  {
+   "w": "as",
+   "s": 216.14,
+   "e": 216.24
+  },
+  {
+   "w": "big",
+   "s": 216.24,
+   "e": 216.42
+  },
+  {
+   "w": "as",
+   "s": 216.42,
+   "e": 216.56
+  },
+  {
+   "w": "a",
+   "s": 216.56,
+   "e": 216.66
+  },
+  {
+   "w": "bus,",
+   "s": 216.66,
+   "e": 216.88
+  },
+  {
+   "w": "with",
+   "s": 217.36,
+   "e": 217.56
+  },
+  {
+   "w": "large",
+   "s": 217.56,
+   "e": 217.78
+  },
+  {
+   "w": "forward",
+   "s": 217.78,
+   "e": 218.22
+  },
+  {
+   "w": "-facing",
+   "s": 218.22,
+   "e": 218.56
+  },
+  {
+   "w": "eyes",
+   "s": 218.56,
+   "e": 219.02
+  },
+  {
+   "w": "that",
+   "s": 219.02,
+   "e": 219.46
+  },
+  {
+   "w": "can",
+   "s": 219.46,
+   "e": 219.58
+  },
+  {
+   "w": "track",
+   "s": 219.58,
+   "e": 219.8
+  },
+  {
+   "w": "you",
+   "s": 219.8,
+   "e": 220.04
+  },
+  {
+   "w": "as",
+   "s": 220.04,
+   "e": 220.16
+  },
+  {
+   "w": "you",
+   "s": 220.16,
+   "e": 220.28
+  },
+  {
+   "w": "move.",
+   "s": 220.28,
+   "e": 220.52
+  },
+  {
+   "w": "And",
+   "s": 221.52,
+   "e": 221.66
+  },
+  {
+   "w": "a",
+   "s": 221.66,
+   "e": 221.74
+  },
+  {
+   "w": "single",
+   "s": 221.74,
+   "e": 221.92
+  },
+  {
+   "w": "strand",
+   "s": 221.92,
+   "e": 222.38
+  },
+  {
+   "w": "of",
+   "s": 222.38,
+   "e": 222.6
+  },
+  {
+   "w": "spider",
+   "s": 222.6,
+   "e": 222.84
+  },
+  {
+   "w": "silk",
+   "s": 222.84,
+   "e": 223.24
+  },
+  {
+   "w": "would",
+   "s": 223.24,
+   "e": 223.52
+  },
+  {
+   "w": "look",
+   "s": 223.52,
+   "e": 223.7
+  },
+  {
+   "w": "as",
+   "s": 223.7,
+   "e": 223.86
+  },
+  {
+   "w": "thick",
+   "s": 223.86,
+   "e": 224.06
+  },
+  {
+   "w": "as",
+   "s": 224.06,
+   "e": 224.26
+  },
+  {
+   "w": "a",
+   "s": 224.26,
+   "e": 224.34
+  },
+  {
+   "w": "rope.",
+   "s": 224.34,
+   "e": 224.54
+  },
+  {
+   "w": "Wait",
+   "s": 225.32,
+   "e": 225.4
+  },
+  {
+   "w": "for",
+   "s": 225.4,
+   "e": 225.62
+  },
+  {
+   "w": "wait,",
+   "s": 225.62,
+   "e": 225.8
+  },
+  {
+   "w": "spider",
+   "s": 226.14,
+   "e": 226.42
+  },
+  {
+   "w": "silk",
+   "s": 226.42,
+   "e": 226.84
+  },
+  {
+   "w": "is",
+   "s": 226.84,
+   "e": 227.08
+  },
+  {
+   "w": "about",
+   "s": 227.08,
+   "e": 227.26
+  },
+  {
+   "w": "as",
+   "s": 227.26,
+   "e": 227.4
+  },
+  {
+   "w": "strong",
+   "s": 227.4,
+   "e": 227.6
+  },
+  {
+   "w": "as",
+   "s": 227.6,
+   "e": 227.82
+  },
+  {
+   "w": "steel.",
+   "s": 227.82,
+   "e": 228.12
+  },
+  {
+   "w": "What",
+   "s": 230.44,
+   "e": 230.88
+  },
+  {
+   "w": "about",
+   "s": 230.88,
+   "e": 231.02
+  },
+  {
+   "w": "a",
+   "s": 231.02,
+   "e": 231.18
+  },
+  {
+   "w": "drink",
+   "s": 231.18,
+   "e": 231.34
+  },
+  {
+   "w": "of",
+   "s": 231.34,
+   "e": 231.54
+  },
+  {
+   "w": "water?",
+   "s": 231.54,
+   "e": 231.82
+  },
+  {
+   "w": "That's",
+   "s": 232.44,
+   "e": 232.76
+  },
+  {
+   "w": "where",
+   "s": 232.76,
+   "e": 232.9
+  },
+  {
+   "w": "it",
+   "s": 232.9,
+   "e": 233.0
+  },
+  {
+   "w": "gets",
+   "s": 233.0,
+   "e": 233.14
+  },
+  {
+   "w": "dangerous.",
+   "s": 233.14,
+   "e": 233.6
+  },
+  {
+   "w": "Water",
+   "s": 234.58,
+   "e": 234.58
+  },
+  {
+   "w": "molecules",
+   "s": 234.58,
+   "e": 235.06
+  },
+  {
+   "w": "pull",
+   "s": 235.06,
+   "e": 235.44
+  },
+  {
+   "w": "on",
+   "s": 235.44,
+   "e": 235.6
+  },
+  {
+   "w": "each",
+   "s": 235.6,
+   "e": 235.72
+  },
+  {
+   "w": "other,",
+   "s": 235.72,
+   "e": 236.0
+  },
+  {
+   "w": "creating",
+   "s": 236.24,
+   "e": 236.5
+  },
+  {
+   "w": "surface",
+   "s": 236.5,
+   "e": 236.9
+  },
+  {
+   "w": "tension.",
+   "s": 236.9,
+   "e": 237.3
+  },
+  {
+   "w": "For",
+   "s": 237.3,
+   "e": 238.14
+  },
+  {
+   "w": "you,",
+   "s": 238.14,
+   "e": 238.38
+  },
+  {
+   "w": "a",
+   "s": 238.66,
+   "e": 238.72
+  },
+  {
+   "w": "water",
+   "s": 238.72,
+   "e": 238.9
+  },
+  {
+   "w": "droplet",
+   "s": 238.9,
+   "e": 239.36
+  },
+  {
+   "w": "behaves",
+   "s": 239.36,
+   "e": 239.62
+  },
+  {
+   "w": "like",
+   "s": 239.62,
+   "e": 240.02
+  },
+  {
+   "w": "a",
+   "s": 240.02,
+   "e": 240.12
+  },
+  {
+   "w": "giant",
+   "s": 240.12,
+   "e": 240.42
+  },
+  {
+   "w": "ball",
+   "s": 240.42,
+   "e": 240.72
+  },
+  {
+   "w": "of",
+   "s": 240.72,
+   "e": 240.9
+  },
+  {
+   "w": "sticky",
+   "s": 240.9,
+   "e": 241.12
+  },
+  {
+   "w": "jelly.",
+   "s": 241.12,
+   "e": 241.5
+  },
+  {
+   "w": "Fall",
+   "s": 242.0,
+   "e": 242.18
+  },
+  {
+   "w": "in",
+   "s": 242.18,
+   "e": 242.44
+  },
+  {
+   "w": "and",
+   "s": 242.44,
+   "e": 242.68
+  },
+  {
+   "w": "the",
+   "s": 242.68,
+   "e": 242.76
+  },
+  {
+   "w": "water",
+   "s": 242.76,
+   "e": 243.0
+  },
+  {
+   "w": "wraps",
+   "s": 243.0,
+   "e": 243.26
+  },
+  {
+   "w": "around",
+   "s": 243.26,
+   "e": 243.64
+  },
+  {
+   "w": "you",
+   "s": 243.64,
+   "e": 243.84
+  },
+  {
+   "w": "and",
+   "s": 243.84,
+   "e": 244.02
+  },
+  {
+   "w": "won't",
+   "s": 244.02,
+   "e": 244.28
+  },
+  {
+   "w": "let",
+   "s": 244.28,
+   "e": 244.4
+  },
+  {
+   "w": "go.",
+   "s": 244.4,
+   "e": 244.7
+  },
+  {
+   "w": "Haldane",
+   "s": 245.32,
+   "e": 245.68
+  },
+  {
+   "w": "wrote",
+   "s": 245.68,
+   "e": 245.9
+  },
+  {
+   "w": "that",
+   "s": 245.9,
+   "e": 246.22
+  },
+  {
+   "w": "an",
+   "s": 246.22,
+   "e": 246.3
+  },
+  {
+   "w": "insect",
+   "s": 246.3,
+   "e": 246.62
+  },
+  {
+   "w": "going",
+   "s": 246.62,
+   "e": 246.92
+  },
+  {
+   "w": "for",
+   "s": 246.92,
+   "e": 247.14
+  },
+  {
+   "w": "a",
+   "s": 247.14,
+   "e": 247.2
+  },
+  {
+   "w": "drink",
+   "s": 247.2,
+   "e": 247.4
+  },
+  {
+   "w": "is",
+   "s": 247.4,
+   "e": 247.96
+  },
+  {
+   "w": "in",
+   "s": 247.96,
+   "e": 248.08
+  },
+  {
+   "w": "as",
+   "s": 248.08,
+   "e": 248.2
+  },
+  {
+   "w": "much",
+   "s": 248.2,
+   "e": 248.36
+  },
+  {
+   "w": "danger",
+   "s": 248.36,
+   "e": 248.66
+  },
+  {
+   "w": "as",
+   "s": 248.66,
+   "e": 249.08
+  },
+  {
+   "w": "a",
+   "s": 249.08,
+   "e": 249.16
+  },
+  {
+   "w": "man",
+   "s": 249.16,
+   "e": 249.38
+  },
+  {
+   "w": "leaning",
+   "s": 249.38,
+   "e": 249.72
+  },
+  {
+   "w": "out",
+   "s": 249.72,
+   "e": 250.02
+  },
+  {
+   "w": "over",
+   "s": 250.02,
+   "e": 250.3
+  },
+  {
+   "w": "a",
+   "s": 250.3,
+   "e": 250.36
+  },
+  {
+   "w": "cliff.",
+   "s": 250.36,
+   "e": 250.56
+  },
+  {
+   "w": "Some",
+   "s": 251.14,
+   "e": 251.3
+  },
+  {
+   "w": "insects",
+   "s": 251.3,
+   "e": 251.62
+  },
+  {
+   "w": "turn",
+   "s": 251.62,
+   "e": 252.04
+  },
+  {
+   "w": "this",
+   "s": 252.04,
+   "e": 252.26
+  },
+  {
+   "w": "into",
+   "s": 252.26,
+   "e": 252.46
+  },
+  {
+   "w": "a",
+   "s": 252.46,
+   "e": 252.66
+  },
+  {
+   "w": "superpower.",
+   "s": 252.66,
+   "e": 253.0
+  },
+  {
+   "w": "Water",
+   "s": 253.82,
+   "e": 254.02
+  },
+  {
+   "w": "striders",
+   "s": 254.02,
+   "e": 254.48
+  },
+  {
+   "w": "are",
+   "s": 254.48,
+   "e": 254.64
+  },
+  {
+   "w": "so",
+   "s": 254.64,
+   "e": 254.86
+  },
+  {
+   "w": "light",
+   "s": 254.86,
+   "e": 255.16
+  },
+  {
+   "w": "that",
+   "s": 255.16,
+   "e": 255.54
+  },
+  {
+   "w": "they",
+   "s": 255.54,
+   "e": 255.68
+  },
+  {
+   "w": "walk",
+   "s": 255.68,
+   "e": 255.86
+  },
+  {
+   "w": "on",
+   "s": 255.86,
+   "e": 256.06
+  },
+  {
+   "w": "the",
+   "s": 256.06,
+   "e": 256.14
+  },
+  {
+   "w": "surface",
+   "s": 256.14,
+   "e": 256.44
+  },
+  {
+   "w": "of",
+   "s": 256.44,
+   "e": 256.62
+  },
+  {
+   "w": "ponds",
+   "s": 256.62,
+   "e": 256.88
+  },
+  {
+   "w": "without",
+   "s": 256.88,
+   "e": 257.46
+  },
+  {
+   "w": "ever",
+   "s": 257.46,
+   "e": 257.9
+  },
+  {
+   "w": "breaking",
+   "s": 257.9,
+   "e": 258.18
+  },
+  {
+   "w": "through.",
+   "s": 258.18,
+   "e": 258.54
+  },
+  {
+   "w": "And",
+   "s": 258.98,
+   "e": 259.1
+  },
+  {
+   "w": "if",
+   "s": 259.1,
+   "e": 259.22
+  },
+  {
+   "w": "it",
+   "s": 259.22,
+   "e": 259.32
+  },
+  {
+   "w": "rains?",
+   "s": 259.32,
+   "e": 259.56
+  },
+  {
+   "w": "A",
+   "s": 260.32,
+   "e": 260.54
+  },
+  {
+   "w": "single",
+   "s": 260.54,
+   "e": 260.78
+  },
+  {
+   "w": "raindrop",
+   "s": 260.78,
+   "e": 261.4
+  },
+  {
+   "w": "would",
+   "s": 261.4,
+   "e": 261.62
+  },
+  {
+   "w": "weigh",
+   "s": 261.62,
+   "e": 261.78
+  },
+  {
+   "w": "about",
+   "s": 261.78,
+   "e": 262.08
+  },
+  {
+   "w": "60",
+   "s": 262.08,
+   "e": 262.44
+  },
+  {
+   "w": "times",
+   "s": 262.44,
+   "e": 262.78
+  },
+  {
+   "w": "more",
+   "s": 262.78,
+   "e": 263.1
+  },
+  {
+   "w": "than",
+   "s": 263.1,
+   "e": 263.26
+  },
+  {
+   "w": "you.",
+   "s": 263.26,
+   "e": 263.42
+  },
+  {
+   "w": "That",
+   "s": 263.42,
+   "e": 264.08
+  },
+  {
+   "w": "sounds",
+   "s": 264.08,
+   "e": 264.44
+  },
+  {
+   "w": "deadly,",
+   "s": 264.44,
+   "e": 264.76
+  },
+  {
+   "w": "but",
+   "s": 265.26,
+   "e": 265.38
+  },
+  {
+   "w": "mosquitoes",
+   "s": 265.38,
+   "e": 265.56
+  },
+  {
+   "w": "survive",
+   "s": 265.56,
+   "e": 266.16
+  },
+  {
+   "w": "raindrops",
+   "s": 266.16,
+   "e": 266.76
+  },
+  {
+   "w": "that",
+   "s": 266.76,
+   "e": 267.08
+  },
+  {
+   "w": "are",
+   "s": 267.08,
+   "e": 267.16
+  },
+  {
+   "w": "50",
+   "s": 267.16,
+   "e": 267.38
+  },
+  {
+   "w": "times",
+   "s": 267.38,
+   "e": 267.7
+  },
+  {
+   "w": "heavier",
+   "s": 267.7,
+   "e": 268.16
+  },
+  {
+   "w": "than",
+   "s": 268.16,
+   "e": 268.46
+  },
+  {
+   "w": "they",
+   "s": 268.46,
+   "e": 268.6
+  },
+  {
+   "w": "are.",
+   "s": 268.6,
+   "e": 268.82
+  },
+  {
+   "w": "Because",
+   "s": 269.18,
+   "e": 269.44
+  },
+  {
+   "w": "they",
+   "s": 269.44,
+   "e": 269.62
+  },
+  {
+   "w": "are",
+   "s": 269.62,
+   "e": 269.72
+  },
+  {
+   "w": "so",
+   "s": 269.72,
+   "e": 269.92
+  },
+  {
+   "w": "light,",
+   "s": 269.92,
+   "e": 270.18
+  },
+  {
+   "w": "the",
+   "s": 270.5,
+   "e": 270.54
+  },
+  {
+   "w": "drop",
+   "s": 270.54,
+   "e": 270.72
+  },
+  {
+   "w": "hardly",
+   "s": 270.72,
+   "e": 271.14
+  },
+  {
+   "w": "slows",
+   "s": 271.14,
+   "e": 271.42
+  },
+  {
+   "w": "down",
+   "s": 271.42,
+   "e": 271.8
+  },
+  {
+   "w": "when",
+   "s": 271.8,
+   "e": 272.02
+  },
+  {
+   "w": "it",
+   "s": 272.02,
+   "e": 272.12
+  },
+  {
+   "w": "hits.",
+   "s": 272.12,
+   "e": 272.3
+  },
+  {
+   "w": "The",
+   "s": 273.02,
+   "e": 273.04
+  },
+  {
+   "w": "mosquito",
+   "s": 273.04,
+   "e": 273.24
+  },
+  {
+   "w": "just",
+   "s": 273.24,
+   "e": 273.76
+  },
+  {
+   "w": "rides",
+   "s": 273.76,
+   "e": 274.02
+  },
+  {
+   "w": "it",
+   "s": 274.02,
+   "e": 274.22
+  },
+  {
+   "w": "for",
+   "s": 274.22,
+   "e": 274.38
+  },
+  {
+   "w": "a",
+   "s": 274.38,
+   "e": 274.4
+  },
+  {
+   "w": "moment,",
+   "s": 274.4,
+   "e": 274.7
+  },
+  {
+   "w": "then",
+   "s": 274.7,
+   "e": 275.02
+  },
+  {
+   "w": "slips",
+   "s": 275.02,
+   "e": 275.24
+  },
+  {
+   "w": "off",
+   "s": 275.24,
+   "e": 275.52
+  },
+  {
+   "w": "the",
+   "s": 275.52,
+   "e": 275.64
+  },
+  {
+   "w": "side.",
+   "s": 275.64,
+   "e": 275.98
+  },
+  {
+   "w": "You",
+   "s": 276.52,
+   "e": 276.58
+  },
+  {
+   "w": "do",
+   "s": 276.58,
+   "e": 276.7
+  },
+  {
+   "w": "the",
+   "s": 276.7,
+   "e": 276.84
+  },
+  {
+   "w": "same.",
+   "s": 276.84,
+   "e": 277.1
+  },
+  {
+   "w": "Would",
+   "s": 279.16,
+   "e": 279.64
+  },
+  {
+   "w": "I",
+   "s": 279.64,
+   "e": 279.78
+  },
+  {
+   "w": "get",
+   "s": 279.78,
+   "e": 279.96
+  },
+  {
+   "w": "called?",
+   "s": 279.96,
+   "e": 280.22
+  },
+  {
+   "w": "Very,",
+   "s": 280.94,
+   "e": 281.14
+  },
+  {
+   "w": "you",
+   "s": 281.44,
+   "e": 281.56
+  },
+  {
+   "w": "lose",
+   "s": 281.56,
+   "e": 281.7
+  },
+  {
+   "w": "heat",
+   "s": 281.7,
+   "e": 282.0
+  },
+  {
+   "w": "through",
+   "s": 282.0,
+   "e": 282.22
+  },
+  {
+   "w": "your",
+   "s": 282.22,
+   "e": 282.42
+  },
+  {
+   "w": "skin,",
+   "s": 282.42,
+   "e": 282.74
+  },
+  {
+   "w": "and",
+   "s": 283.08,
+   "e": 283.2
+  },
+  {
+   "w": "compared",
+   "s": 283.2,
+   "e": 283.48
+  },
+  {
+   "w": "to",
+   "s": 283.48,
+   "e": 283.72
+  },
+  {
+   "w": "your",
+   "s": 283.72,
+   "e": 283.86
+  },
+  {
+   "w": "body,",
+   "s": 283.86,
+   "e": 284.1
+  },
+  {
+   "w": "you",
+   "s": 284.34,
+   "e": 284.4
+  },
+  {
+   "w": "now",
+   "s": 284.4,
+   "e": 284.54
+  },
+  {
+   "w": "have",
+   "s": 284.54,
+   "e": 284.76
+  },
+  {
+   "w": "a",
+   "s": 284.76,
+   "e": 284.84
+  },
+  {
+   "w": "thousand",
+   "s": 284.84,
+   "e": 285.18
+  },
+  {
+   "w": "times",
+   "s": 285.18,
+   "e": 285.52
+  },
+  {
+   "w": "more",
+   "s": 285.52,
+   "e": 285.82
+  },
+  {
+   "w": "skin.",
+   "s": 285.82,
+   "e": 286.1
+  },
+  {
+   "w": "Your",
+   "s": 286.8,
+   "e": 286.92
+  },
+  {
+   "w": "warmth",
+   "s": 286.92,
+   "e": 287.24
+  },
+  {
+   "w": "would",
+   "s": 287.24,
+   "e": 287.48
+  },
+  {
+   "w": "pour",
+   "s": 287.48,
+   "e": 287.64
+  },
+  {
+   "w": "out",
+   "s": 287.64,
+   "e": 287.9
+  },
+  {
+   "w": "of",
+   "s": 287.9,
+   "e": 288.04
+  },
+  {
+   "w": "you.",
+   "s": 288.04,
+   "e": 288.2
+  },
+  {
+   "w": "Look",
+   "s": 288.58,
+   "e": 288.7
+  },
+  {
+   "w": "at",
+   "s": 288.7,
+   "e": 288.82
+  },
+  {
+   "w": "the",
+   "s": 288.82,
+   "e": 288.92
+  },
+  {
+   "w": "Etruscan",
+   "s": 288.92,
+   "e": 289.4
+  },
+  {
+   "w": "Shrew,",
+   "s": 289.4,
+   "e": 289.72
+  },
+  {
+   "w": "one",
+   "s": 290.06,
+   "e": 290.22
+  },
+  {
+   "w": "of",
+   "s": 290.22,
+   "e": 290.32
+  },
+  {
+   "w": "the",
+   "s": 290.32,
+   "e": 290.42
+  },
+  {
+   "w": "smallest",
+   "s": 290.42,
+   "e": 290.72
+  },
+  {
+   "w": "mammals",
+   "s": 290.72,
+   "e": 291.1
+  },
+  {
+   "w": "on",
+   "s": 291.1,
+   "e": 291.46
+  },
+  {
+   "w": "Earth.",
+   "s": 291.46,
+   "e": 291.64
+  },
+  {
+   "w": "Its",
+   "s": 291.64,
+   "e": 292.12
+  },
+  {
+   "w": "heart",
+   "s": 292.12,
+   "e": 292.62
+  },
+  {
+   "w": "beats",
+   "s": 292.62,
+   "e": 292.88
+  },
+  {
+   "w": "up",
+   "s": 292.88,
+   "e": 293.1
+  },
+  {
+   "w": "to",
+   "s": 293.1,
+   "e": 293.24
+  },
+  {
+   "w": "1500",
+   "s": 293.24,
+   "e": 293.6
+  },
+  {
+   "w": "times",
+   "s": 293.6,
+   "e": 294.12
+  },
+  {
+   "w": "a",
+   "s": 294.12,
+   "e": 294.32
+  },
+  {
+   "w": "minute,",
+   "s": 294.32,
+   "e": 294.52
+  },
+  {
+   "w": "and",
+   "s": 294.9,
+   "e": 295.06
+  },
+  {
+   "w": "every",
+   "s": 295.06,
+   "e": 295.24
+  },
+  {
+   "w": "day",
+   "s": 295.24,
+   "e": 295.44
+  },
+  {
+   "w": "it",
+   "s": 295.44,
+   "e": 295.56
+  },
+  {
+   "w": "eats",
+   "s": 295.56,
+   "e": 295.74
+  },
+  {
+   "w": "about",
+   "s": 295.74,
+   "e": 295.96
+  },
+  {
+   "w": "one",
+   "s": 295.96,
+   "e": 296.26
+  },
+  {
+   "w": "and",
+   "s": 296.26,
+   "e": 296.36
+  },
+  {
+   "w": "a",
+   "s": 296.36,
+   "e": 296.42
+  },
+  {
+   "w": "half",
+   "s": 296.42,
+   "e": 296.6
+  },
+  {
+   "w": "to",
+   "s": 296.6,
+   "e": 296.78
+  },
+  {
+   "w": "two",
+   "s": 296.78,
+   "e": 296.96
+  },
+  {
+   "w": "times",
+   "s": 296.96,
+   "e": 297.26
+  },
+  {
+   "w": "its",
+   "s": 297.26,
+   "e": 297.5
+  },
+  {
+   "w": "own",
+   "s": 297.5,
+   "e": 297.74
+  },
+  {
+   "w": "body",
+   "s": 297.74,
+   "e": 298.02
+  },
+  {
+   "w": "weight.",
+   "s": 298.02,
+   "e": 298.26
+  },
+  {
+   "w": "That",
+   "s": 298.76,
+   "e": 298.92
+  },
+  {
+   "w": "would",
+   "s": 298.92,
+   "e": 299.08
+  },
+  {
+   "w": "be",
+   "s": 299.08,
+   "e": 299.24
+  },
+  {
+   "w": "you.",
+   "s": 299.24,
+   "e": 299.44
+  },
+  {
+   "w": "A",
+   "s": 299.8,
+   "e": 299.82
+  },
+  {
+   "w": "single",
+   "s": 299.82,
+   "e": 300.04
+  },
+  {
+   "w": "crumb",
+   "s": 300.04,
+   "e": 300.46
+  },
+  {
+   "w": "of",
+   "s": 300.46,
+   "e": 300.54
+  },
+  {
+   "w": "bread",
+   "s": 300.54,
+   "e": 300.78
+  },
+  {
+   "w": "would",
+   "s": 300.78,
+   "e": 300.96
+  },
+  {
+   "w": "be",
+   "s": 300.96,
+   "e": 301.1
+  },
+  {
+   "w": "a",
+   "s": 301.1,
+   "e": 301.16
+  },
+  {
+   "w": "feast,",
+   "s": 301.16,
+   "e": 301.38
+  },
+  {
+   "w": "and",
+   "s": 301.58,
+   "e": 302.12
+  },
+  {
+   "w": "you'd",
+   "s": 302.12,
+   "e": 302.24
+  },
+  {
+   "w": "need",
+   "s": 302.24,
+   "e": 302.36
+  },
+  {
+   "w": "to",
+   "s": 302.36,
+   "e": 302.5
+  },
+  {
+   "w": "eat",
+   "s": 302.5,
+   "e": 302.66
+  },
+  {
+   "w": "almost",
+   "s": 302.66,
+   "e": 302.96
+  },
+  {
+   "w": "all",
+   "s": 302.96,
+   "e": 303.18
+  },
+  {
+   "w": "the",
+   "s": 303.18,
+   "e": 303.28
+  },
+  {
+   "w": "time",
+   "s": 303.28,
+   "e": 303.52
+  },
+  {
+   "w": "just",
+   "s": 303.52,
+   "e": 303.84
+  },
+  {
+   "w": "to",
+   "s": 303.84,
+   "e": 304.02
+  },
+  {
+   "w": "stay",
+   "s": 304.02,
+   "e": 304.22
+  },
+  {
+   "w": "warm.",
+   "s": 304.22,
+   "e": 304.54
+  },
+  {
+   "w": "Then",
+   "s": 305.48,
+   "e": 305.7
+  },
+  {
+   "w": "again,",
+   "s": 305.7,
+   "e": 305.9
+  },
+  {
+   "w": "food",
+   "s": 306.18,
+   "e": 306.44
+  },
+  {
+   "w": "would",
+   "s": 306.44,
+   "e": 306.62
+  },
+  {
+   "w": "be",
+   "s": 306.62,
+   "e": 306.76
+  },
+  {
+   "w": "everywhere.",
+   "s": 306.76,
+   "e": 307.02
+  },
+  {
+   "w": "By",
+   "s": 307.82,
+   "e": 307.86
+  },
+  {
+   "w": "a",
+   "s": 307.86,
+   "e": 307.98
+  },
+  {
+   "w": "rough",
+   "s": 307.98,
+   "e": 308.14
+  },
+  {
+   "w": "estimate,",
+   "s": 308.14,
+   "e": 308.54
+  },
+  {
+   "w": "one",
+   "s": 309.06,
+   "e": 309.12
+  },
+  {
+   "w": "grain",
+   "s": 309.12,
+   "e": 309.38
+  },
+  {
+   "w": "of",
+   "s": 309.38,
+   "e": 309.58
+  },
+  {
+   "w": "rice",
+   "s": 309.58,
+   "e": 309.82
+  },
+  {
+   "w": "would",
+   "s": 309.82,
+   "e": 310.12
+  },
+  {
+   "w": "feed",
+   "s": 310.12,
+   "e": 310.3
+  },
+  {
+   "w": "you",
+   "s": 310.3,
+   "e": 310.52
+  },
+  {
+   "w": "for",
+   "s": 310.52,
+   "e": 310.66
+  },
+  {
+   "w": "months.",
+   "s": 310.66,
+   "e": 310.86
+  },
+  {
+   "w": "What",
+   "s": 313.68,
+   "e": 314.08
+  },
+  {
+   "w": "would",
+   "s": 314.08,
+   "e": 314.18
+  },
+  {
+   "w": "the",
+   "s": 314.18,
+   "e": 314.28
+  },
+  {
+   "w": "world",
+   "s": 314.28,
+   "e": 314.46
+  },
+  {
+   "w": "look",
+   "s": 314.46,
+   "e": 314.74
+  },
+  {
+   "w": "like?",
+   "s": 314.74,
+   "e": 315.64
+  },
+  {
+   "w": "Blurry,",
+   "s": 315.64,
+   "e": 315.94
+  },
+  {
+   "w": "your",
+   "s": 316.2,
+   "e": 316.32
+  },
+  {
+   "w": "pupils",
+   "s": 316.32,
+   "e": 316.56
+  },
+  {
+   "w": "would",
+   "s": 316.56,
+   "e": 316.86
+  },
+  {
+   "w": "be",
+   "s": 316.86,
+   "e": 316.96
+  },
+  {
+   "w": "just",
+   "s": 316.96,
+   "e": 317.14
+  },
+  {
+   "w": "a",
+   "s": 317.14,
+   "e": 317.28
+  },
+  {
+   "w": "few",
+   "s": 317.28,
+   "e": 317.42
+  },
+  {
+   "w": "wavelengths",
+   "s": 317.42,
+   "e": 317.74
+  },
+  {
+   "w": "of",
+   "s": 317.74,
+   "e": 318.08
+  },
+  {
+   "w": "light",
+   "s": 318.08,
+   "e": 318.3
+  },
+  {
+   "w": "across,",
+   "s": 318.3,
+   "e": 318.6
+  },
+  {
+   "w": "too",
+   "s": 319.28,
+   "e": 319.34
+  },
+  {
+   "w": "small",
+   "s": 319.34,
+   "e": 319.66
+  },
+  {
+   "w": "to",
+   "s": 319.66,
+   "e": 319.9
+  },
+  {
+   "w": "focus",
+   "s": 319.9,
+   "e": 320.18
+  },
+  {
+   "w": "a",
+   "s": 320.18,
+   "e": 320.34
+  },
+  {
+   "w": "sharp",
+   "s": 320.34,
+   "e": 320.52
+  },
+  {
+   "w": "image.",
+   "s": 320.52,
+   "e": 320.94
+  },
+  {
+   "w": "That's",
+   "s": 321.62,
+   "e": 321.84
+  },
+  {
+   "w": "one",
+   "s": 321.84,
+   "e": 321.98
+  },
+  {
+   "w": "reason",
+   "s": 321.98,
+   "e": 322.3
+  },
+  {
+   "w": "insects",
+   "s": 322.3,
+   "e": 322.72
+  },
+  {
+   "w": "use",
+   "s": 322.72,
+   "e": 323.1
+  },
+  {
+   "w": "compound",
+   "s": 323.1,
+   "e": 323.46
+  },
+  {
+   "w": "eyes",
+   "s": 323.46,
+   "e": 323.92
+  },
+  {
+   "w": "made",
+   "s": 323.92,
+   "e": 324.2
+  },
+  {
+   "w": "of",
+   "s": 324.2,
+   "e": 324.32
+  },
+  {
+   "w": "many",
+   "s": 324.32,
+   "e": 324.46
+  },
+  {
+   "w": "tiny",
+   "s": 324.46,
+   "e": 324.76
+  },
+  {
+   "w": "lenses,",
+   "s": 324.76,
+   "e": 325.1
+  },
+  {
+   "w": "but",
+   "s": 325.74,
+   "e": 325.88
+  },
+  {
+   "w": "time",
+   "s": 325.88,
+   "e": 326.12
+  },
+  {
+   "w": "would",
+   "s": 326.12,
+   "e": 326.36
+  },
+  {
+   "w": "feel",
+   "s": 326.36,
+   "e": 326.54
+  },
+  {
+   "w": "slower.",
+   "s": 326.54,
+   "e": 326.9
+  },
+  {
+   "w": "Small",
+   "s": 327.54,
+   "e": 327.66
+  },
+  {
+   "w": "animals",
+   "s": 327.66,
+   "e": 328.04
+  },
+  {
+   "w": "with",
+   "s": 328.04,
+   "e": 328.36
+  },
+  {
+   "w": "fast",
+   "s": 328.36,
+   "e": 328.66
+  },
+  {
+   "w": "metabolisms",
+   "s": 328.66,
+   "e": 329.46
+  },
+  {
+   "w": "take",
+   "s": 329.46,
+   "e": 329.72
+  },
+  {
+   "w": "in",
+   "s": 329.72,
+   "e": 329.92
+  },
+  {
+   "w": "more",
+   "s": 329.92,
+   "e": 330.08
+  },
+  {
+   "w": "snapshots",
+   "s": 330.08,
+   "e": 330.36
+  },
+  {
+   "w": "per",
+   "s": 330.36,
+   "e": 330.8
+  },
+  {
+   "w": "second.",
+   "s": 330.8,
+   "e": 331.1
+  },
+  {
+   "w": "Some",
+   "s": 331.72,
+   "e": 331.8
+  },
+  {
+   "w": "flies",
+   "s": 331.8,
+   "e": 332.1
+  },
+  {
+   "w": "see",
+   "s": 332.1,
+   "e": 332.4
+  },
+  {
+   "w": "flickering",
+   "s": 332.4,
+   "e": 332.66
+  },
+  {
+   "w": "light",
+   "s": 332.66,
+   "e": 333.02
+  },
+  {
+   "w": "more",
+   "s": 333.02,
+   "e": 333.34
+  },
+  {
+   "w": "than",
+   "s": 333.34,
+   "e": 333.52
+  },
+  {
+   "w": "four",
+   "s": 333.52,
+   "e": 333.72
+  },
+  {
+   "w": "times",
+   "s": 333.72,
+   "e": 334.1
+  },
+  {
+   "w": "faster",
+   "s": 334.1,
+   "e": 334.34
+  },
+  {
+   "w": "than",
+   "s": 334.34,
+   "e": 334.74
+  },
+  {
+   "w": "we",
+   "s": 334.74,
+   "e": 334.84
+  },
+  {
+   "w": "do.",
+   "s": 334.84,
+   "e": 335.0
+  },
+  {
+   "w": "A",
+   "s": 335.44,
+   "e": 335.52
+  },
+  {
+   "w": "swatting",
+   "s": 335.52,
+   "e": 335.94
+  },
+  {
+   "w": "hand",
+   "s": 335.94,
+   "e": 336.14
+  },
+  {
+   "w": "looks",
+   "s": 336.14,
+   "e": 336.44
+  },
+  {
+   "w": "like",
+   "s": 336.44,
+   "e": 336.7
+  },
+  {
+   "w": "slow",
+   "s": 336.7,
+   "e": 336.96
+  },
+  {
+   "w": "motion",
+   "s": 336.96,
+   "e": 337.38
+  },
+  {
+   "w": "to",
+   "s": 337.38,
+   "e": 337.64
+  },
+  {
+   "w": "them.",
+   "s": 337.64,
+   "e": 337.82
+  },
+  {
+   "w": "And",
+   "s": 338.2,
+   "e": 338.28
+  },
+  {
+   "w": "could",
+   "s": 338.28,
+   "e": 338.42
+  },
+  {
+   "w": "I",
+   "s": 338.42,
+   "e": 338.56
+  },
+  {
+   "w": "still",
+   "s": 338.56,
+   "e": 338.8
+  },
+  {
+   "w": "talk",
+   "s": 338.8,
+   "e": 339.08
+  },
+  {
+   "w": "to",
+   "s": 339.08,
+   "e": 339.3
+  },
+  {
+   "w": "people?",
+   "s": 339.3,
+   "e": 339.56
+  },
+  {
+   "w": "Not",
+   "s": 339.56,
+   "e": 340.4
+  },
+  {
+   "w": "really.",
+   "s": 340.4,
+   "e": 340.68
+  },
+  {
+   "w": "Your",
+   "s": 341.2,
+   "e": 341.24
+  },
+  {
+   "w": "vocal",
+   "s": 341.24,
+   "e": 341.48
+  },
+  {
+   "w": "cords",
+   "s": 341.48,
+   "e": 341.9
+  },
+  {
+   "w": "would",
+   "s": 341.9,
+   "e": 342.06
+  },
+  {
+   "w": "be",
+   "s": 342.06,
+   "e": 342.18
+  },
+  {
+   "w": "a",
+   "s": 342.18,
+   "e": 342.24
+  },
+  {
+   "w": "thousand",
+   "s": 342.24,
+   "e": 342.54
+  },
+  {
+   "w": "times",
+   "s": 342.54,
+   "e": 342.9
+  },
+  {
+   "w": "shorter,",
+   "s": 342.9,
+   "e": 343.26
+  },
+  {
+   "w": "so",
+   "s": 343.74,
+   "e": 343.86
+  },
+  {
+   "w": "your",
+   "s": 343.86,
+   "e": 343.96
+  },
+  {
+   "w": "voice",
+   "s": 343.96,
+   "e": 344.26
+  },
+  {
+   "w": "would",
+   "s": 344.26,
+   "e": 344.4
+  },
+  {
+   "w": "shoot",
+   "s": 344.4,
+   "e": 344.68
+  },
+  {
+   "w": "up",
+   "s": 344.68,
+   "e": 344.88
+  },
+  {
+   "w": "into",
+   "s": 344.88,
+   "e": 345.02
+  },
+  {
+   "w": "ultrasound.",
+   "s": 345.02,
+   "e": 345.6
+  },
+  {
+   "w": "Normal",
+   "s": 346.34,
+   "e": 346.58
+  },
+  {
+   "w": "-sized",
+   "s": 346.58,
+   "e": 346.9
+  },
+  {
+   "w": "people",
+   "s": 346.9,
+   "e": 347.32
+  },
+  {
+   "w": "couldn't",
+   "s": 347.32,
+   "e": 347.68
+  },
+  {
+   "w": "hear",
+   "s": 347.68,
+   "e": 347.86
+  },
+  {
+   "w": "you",
+   "s": 347.86,
+   "e": 348.02
+  },
+  {
+   "w": "at",
+   "s": 348.02,
+   "e": 348.14
+  },
+  {
+   "w": "all.",
+   "s": 348.14,
+   "e": 348.28
+  },
+  {
+   "w": "Bats",
+   "s": 348.78,
+   "e": 348.92
+  },
+  {
+   "w": "probably",
+   "s": 348.92,
+   "e": 349.3
+  },
+  {
+   "w": "could.",
+   "s": 349.3,
+   "e": 349.68
+  },
+  {
+   "w": "And",
+   "s": 350.3,
+   "e": 350.36
+  },
+  {
+   "w": "our",
+   "s": 350.36,
+   "e": 350.46
+  },
+  {
+   "w": "deep",
+   "s": 350.46,
+   "e": 350.64
+  },
+  {
+   "w": "human",
+   "s": 350.64,
+   "e": 350.98
+  },
+  {
+   "w": "voices",
+   "s": 350.98,
+   "e": 351.34
+  },
+  {
+   "w": "would",
+   "s": 351.34,
+   "e": 351.68
+  },
+  {
+   "w": "be",
+   "s": 351.68,
+   "e": 351.8
+  },
+  {
+   "w": "just",
+   "s": 351.8,
+   "e": 351.98
+  },
+  {
+   "w": "as",
+   "s": 351.98,
+   "e": 352.12
+  },
+  {
+   "w": "hard",
+   "s": 352.12,
+   "e": 352.38
+  },
+  {
+   "w": "for",
+   "s": 352.38,
+   "e": 352.58
+  },
+  {
+   "w": "you",
+   "s": 352.58,
+   "e": 352.7
+  },
+  {
+   "w": "to",
+   "s": 352.7,
+   "e": 352.8
+  },
+  {
+   "w": "catch.",
+   "s": 352.8,
+   "e": 352.98
+  },
+  {
+   "w": "You'd",
+   "s": 353.76,
+   "e": 353.88
+  },
+  {
+   "w": "shout,",
+   "s": 353.88,
+   "e": 354.08
+  },
+  {
+   "w": "and",
+   "s": 354.58,
+   "e": 354.62
+  },
+  {
+   "w": "nobody",
+   "s": 354.62,
+   "e": 354.84
+  },
+  {
+   "w": "would",
+   "s": 354.84,
+   "e": 355.18
+  },
+  {
+   "w": "ever",
+   "s": 355.18,
+   "e": 355.36
+  },
+  {
+   "w": "hear.",
+   "s": 355.36,
+   "e": 355.58
+  },
+  {
+   "w": "Would",
+   "s": 358.18,
+   "e": 358.62
+  },
+  {
+   "w": "I",
+   "s": 358.62,
+   "e": 358.76
+  },
+  {
+   "w": "still",
+   "s": 358.76,
+   "e": 358.98
+  },
+  {
+   "w": "be",
+   "s": 358.98,
+   "e": 359.16
+  },
+  {
+   "w": "able",
+   "s": 359.16,
+   "e": 359.3
+  },
+  {
+   "w": "to",
+   "s": 359.3,
+   "e": 359.48
+  },
+  {
+   "w": "think?",
+   "s": 359.48,
+   "e": 359.7
+  },
+  {
+   "w": "This",
+   "s": 360.32,
+   "e": 360.54
+  },
+  {
+   "w": "is",
+   "s": 360.54,
+   "e": 360.68
+  },
+  {
+   "w": "the",
+   "s": 360.68,
+   "e": 360.84
+  },
+  {
+   "w": "biggest",
+   "s": 360.84,
+   "e": 361.04
+  },
+  {
+   "w": "problem.",
+   "s": 361.04,
+   "e": 361.38
+  },
+  {
+   "w": "Your",
+   "s": 362.04,
+   "e": 362.08
+  },
+  {
+   "w": "brain",
+   "s": 362.08,
+   "e": 362.32
+  },
+  {
+   "w": "cells",
+   "s": 362.32,
+   "e": 362.58
+  },
+  {
+   "w": "can't",
+   "s": 362.58,
+   "e": 363.08
+  },
+  {
+   "w": "shrink",
+   "s": 363.08,
+   "e": 363.24
+  },
+  {
+   "w": "with",
+   "s": 363.24,
+   "e": 363.5
+  },
+  {
+   "w": "you.",
+   "s": 363.5,
+   "e": 363.66
+  },
+  {
+   "w": "A",
+   "s": 364.1,
+   "e": 364.14
+  },
+  {
+   "w": "cell",
+   "s": 364.14,
+   "e": 364.36
+  },
+  {
+   "w": "is",
+   "s": 364.36,
+   "e": 364.58
+  },
+  {
+   "w": "a",
+   "s": 364.58,
+   "e": 364.68
+  },
+  {
+   "w": "cell.",
+   "s": 364.68,
+   "e": 364.9
+  },
+  {
+   "w": "Shrink",
+   "s": 364.9,
+   "e": 365.68
+  },
+  {
+   "w": "a",
+   "s": 365.68,
+   "e": 365.8
+  },
+  {
+   "w": "human",
+   "s": 365.8,
+   "e": 366.02
+  },
+  {
+   "w": "brain",
+   "s": 366.02,
+   "e": 366.34
+  },
+  {
+   "w": "a",
+   "s": 366.34,
+   "e": 366.5
+  },
+  {
+   "w": "thousand",
+   "s": 366.5,
+   "e": 366.8
+  },
+  {
+   "w": "times,",
+   "s": 366.8,
+   "e": 367.26
+  },
+  {
+   "w": "and",
+   "s": 367.76,
+   "e": 367.78
+  },
+  {
+   "w": "by",
+   "s": 367.78,
+   "e": 367.94
+  },
+  {
+   "w": "our",
+   "s": 367.94,
+   "e": 368.06
+  },
+  {
+   "w": "rough",
+   "s": 368.06,
+   "e": 368.26
+  },
+  {
+   "w": "estimate",
+   "s": 368.26,
+   "e": 368.58
+  },
+  {
+   "w": "it",
+   "s": 368.58,
+   "e": 368.98
+  },
+  {
+   "w": "would",
+   "s": 368.98,
+   "e": 369.08
+  },
+  {
+   "w": "have",
+   "s": 369.08,
+   "e": 369.22
+  },
+  {
+   "w": "room",
+   "s": 369.22,
+   "e": 369.4
+  },
+  {
+   "w": "for",
+   "s": 369.4,
+   "e": 369.62
+  },
+  {
+   "w": "only",
+   "s": 369.62,
+   "e": 369.9
+  },
+  {
+   "w": "a",
+   "s": 369.9,
+   "e": 370.02
+  },
+  {
+   "w": "few",
+   "s": 370.02,
+   "e": 370.16
+  },
+  {
+   "w": "thousand",
+   "s": 370.16,
+   "e": 370.5
+  },
+  {
+   "w": "neurons",
+   "s": 370.5,
+   "e": 370.82
+  },
+  {
+   "w": "instead",
+   "s": 370.82,
+   "e": 371.58
+  },
+  {
+   "w": "of",
+   "s": 371.58,
+   "e": 371.74
+  },
+  {
+   "w": "86",
+   "s": 371.74,
+   "e": 371.98
+  },
+  {
+   "w": "billion.",
+   "s": 371.98,
+   "e": 372.62
+  },
+  {
+   "w": "Ants",
+   "s": 373.2,
+   "e": 373.44
+  },
+  {
+   "w": "solve",
+   "s": 373.44,
+   "e": 373.6
+  },
+  {
+   "w": "this",
+   "s": 373.6,
+   "e": 373.88
+  },
+  {
+   "w": "with",
+   "s": 373.88,
+   "e": 374.1
+  },
+  {
+   "w": "enormous",
+   "s": 374.1,
+   "e": 374.34
+  },
+  {
+   "w": "brains.",
+   "s": 374.34,
+   "e": 374.82
+  },
+  {
+   "w": "In",
+   "s": 375.56,
+   "e": 375.6
+  },
+  {
+   "w": "the",
+   "s": 375.6,
+   "e": 375.7
+  },
+  {
+   "w": "smallest",
+   "s": 375.7,
+   "e": 375.98
+  },
+  {
+   "w": "ants,",
+   "s": 375.98,
+   "e": 376.36
+  },
+  {
+   "w": "the",
+   "s": 376.76,
+   "e": 376.8
+  },
+  {
+   "w": "brain",
+   "s": 376.8,
+   "e": 376.98
+  },
+  {
+   "w": "makes",
+   "s": 376.98,
+   "e": 377.24
+  },
+  {
+   "w": "up",
+   "s": 377.24,
+   "e": 377.44
+  },
+  {
+   "w": "around",
+   "s": 377.44,
+   "e": 377.68
+  },
+  {
+   "w": "15",
+   "s": 377.68,
+   "e": 377.94
+  },
+  {
+   "w": "%",
+   "s": 377.94,
+   "e": 378.34
+  },
+  {
+   "w": "of",
+   "s": 378.34,
+   "e": 378.52
+  },
+  {
+   "w": "the",
+   "s": 378.52,
+   "e": 378.62
+  },
+  {
+   "w": "body.",
+   "s": 378.62,
+   "e": 378.82
+  },
+  {
+   "w": "Yours",
+   "s": 379.56,
+   "e": 379.72
+  },
+  {
+   "w": "is",
+   "s": 379.72,
+   "e": 379.8
+  },
+  {
+   "w": "about",
+   "s": 379.8,
+   "e": 380.02
+  },
+  {
+   "w": "2%.",
+   "s": 380.02,
+   "e": 380.92
+  },
+  {
+   "w": "So",
+   "s": 380.92,
+   "e": 381.3
+  },
+  {
+   "w": "to",
+   "s": 381.3,
+   "e": 381.44
+  },
+  {
+   "w": "stay",
+   "s": 381.44,
+   "e": 381.68
+  },
+  {
+   "w": "you,",
+   "s": 381.68,
+   "e": 381.94
+  },
+  {
+   "w": "you'd",
+   "s": 382.1,
+   "e": 382.28
+  },
+  {
+   "w": "need",
+   "s": 382.28,
+   "e": 382.4
+  },
+  {
+   "w": "a",
+   "s": 382.4,
+   "e": 382.48
+  },
+  {
+   "w": "head",
+   "s": 382.48,
+   "e": 382.7
+  },
+  {
+   "w": "bigger",
+   "s": 382.7,
+   "e": 382.92
+  },
+  {
+   "w": "than",
+   "s": 382.92,
+   "e": 383.24
+  },
+  {
+   "w": "the",
+   "s": 383.24,
+   "e": 383.32
+  },
+  {
+   "w": "rest",
+   "s": 383.32,
+   "e": 383.48
+  },
+  {
+   "w": "of",
+   "s": 383.48,
+   "e": 383.7
+  },
+  {
+   "w": "your",
+   "s": 383.7,
+   "e": 383.8
+  },
+  {
+   "w": "body.",
+   "s": 383.8,
+   "e": 384.1
+  },
+  {
+   "w": "It's",
+   "s": 385.2,
+   "e": 385.38
+  },
+  {
+   "w": "also",
+   "s": 385.38,
+   "e": 385.64
+  },
+  {
+   "w": "why",
+   "s": 385.64,
+   "e": 385.88
+  },
+  {
+   "w": "a",
+   "s": 385.88,
+   "e": 386.02
+  },
+  {
+   "w": "single",
+   "s": 386.02,
+   "e": 386.28
+  },
+  {
+   "w": "ant",
+   "s": 386.28,
+   "e": 386.58
+  },
+  {
+   "w": "isn't",
+   "s": 386.58,
+   "e": 387.16
+  },
+  {
+   "w": "very",
+   "s": 387.16,
+   "e": 387.32
+  },
+  {
+   "w": "clever.",
+   "s": 387.32,
+   "e": 387.64
+  },
+  {
+   "w": "The",
+   "s": 388.34,
+   "e": 388.44
+  },
+  {
+   "w": "intelligence",
+   "s": 388.44,
+   "e": 388.68
+  },
+  {
+   "w": "of",
+   "s": 388.68,
+   "e": 389.16
+  },
+  {
+   "w": "an",
+   "s": 389.16,
+   "e": 389.28
+  },
+  {
+   "w": "ant",
+   "s": 389.28,
+   "e": 389.44
+  },
+  {
+   "w": "colony",
+   "s": 389.44,
+   "e": 389.74
+  },
+  {
+   "w": "comes",
+   "s": 389.74,
+   "e": 390.36
+  },
+  {
+   "w": "from",
+   "s": 390.36,
+   "e": 390.62
+  },
+  {
+   "w": "thousands",
+   "s": 390.62,
+   "e": 390.96
+  },
+  {
+   "w": "of",
+   "s": 390.96,
+   "e": 391.26
+  },
+  {
+   "w": "ants",
+   "s": 391.26,
+   "e": 391.42
+  },
+  {
+   "w": "following",
+   "s": 391.42,
+   "e": 391.92
+  },
+  {
+   "w": "simple",
+   "s": 391.92,
+   "e": 392.3
+  },
+  {
+   "w": "rules",
+   "s": 392.3,
+   "e": 392.64
+  },
+  {
+   "w": "together.",
+   "s": 392.64,
+   "e": 393.02
+  },
+  {
+   "w": "So",
+   "s": 395.06,
+   "e": 395.58
+  },
+  {
+   "w": "why",
+   "s": 395.58,
+   "e": 395.8
+  },
+  {
+   "w": "aren't",
+   "s": 395.8,
+   "e": 396.02
+  },
+  {
+   "w": "insects",
+   "s": 396.02,
+   "e": 396.2
+  },
+  {
+   "w": "big",
+   "s": 396.2,
+   "e": 396.66
+  },
+  {
+   "w": "then?",
+   "s": 396.66,
+   "e": 396.92
+  },
+  {
+   "w": "Mostly",
+   "s": 397.56,
+   "e": 397.82
+  },
+  {
+   "w": "breathing.",
+   "s": 397.82,
+   "e": 398.12
+  },
+  {
+   "w": "Insects",
+   "s": 399.0,
+   "e": 399.22
+  },
+  {
+   "w": "have",
+   "s": 399.22,
+   "e": 399.32
+  },
+  {
+   "w": "no",
+   "s": 399.32,
+   "e": 399.54
+  },
+  {
+   "w": "lungs.",
+   "s": 399.54,
+   "e": 399.8
+  },
+  {
+   "w": "Air",
+   "s": 400.64,
+   "e": 400.64
+  },
+  {
+   "w": "seeps",
+   "s": 400.64,
+   "e": 400.98
+  },
+  {
+   "w": "in",
+   "s": 400.98,
+   "e": 401.14
+  },
+  {
+   "w": "through",
+   "s": 401.14,
+   "e": 401.34
+  },
+  {
+   "w": "tiny",
+   "s": 401.34,
+   "e": 401.6
+  },
+  {
+   "w": "tubes,",
+   "s": 401.6,
+   "e": 401.98
+  },
+  {
+   "w": "and",
+   "s": 402.32,
+   "e": 402.42
+  },
+  {
+   "w": "that",
+   "s": 402.42,
+   "e": 402.52
+  },
+  {
+   "w": "only",
+   "s": 402.52,
+   "e": 402.68
+  },
+  {
+   "w": "works",
+   "s": 402.68,
+   "e": 403.0
+  },
+  {
+   "w": "over",
+   "s": 403.0,
+   "e": 403.28
+  },
+  {
+   "w": "short",
+   "s": 403.28,
+   "e": 403.5
+  },
+  {
+   "w": "distances.",
+   "s": 403.5,
+   "e": 404.06
+  },
+  {
+   "w": "About",
+   "s": 404.78,
+   "e": 404.9
+  },
+  {
+   "w": "300",
+   "s": 404.9,
+   "e": 405.32
+  },
+  {
+   "w": "million",
+   "s": 405.32,
+   "e": 405.86
+  },
+  {
+   "w": "years",
+   "s": 405.86,
+   "e": 406.2
+  },
+  {
+   "w": "ago,",
+   "s": 406.2,
+   "e": 406.5
+  },
+  {
+   "w": "there",
+   "s": 406.88,
+   "e": 406.96
+  },
+  {
+   "w": "were",
+   "s": 406.96,
+   "e": 407.06
+  },
+  {
+   "w": "griffon",
+   "s": 407.06,
+   "e": 407.4
+  },
+  {
+   "w": "flies",
+   "s": 407.4,
+   "e": 407.62
+  },
+  {
+   "w": "with",
+   "s": 407.62,
+   "e": 407.94
+  },
+  {
+   "w": "wings",
+   "s": 407.94,
+   "e": 408.14
+  },
+  {
+   "w": "70",
+   "s": 408.14,
+   "e": 408.7
+  },
+  {
+   "w": "centimetres",
+   "s": 408.7,
+   "e": 409.44
+  },
+  {
+   "w": "wide.",
+   "s": 409.44,
+   "e": 409.64
+  },
+  {
+   "w": "One",
+   "s": 410.42,
+   "e": 410.5
+  },
+  {
+   "w": "idea",
+   "s": 410.5,
+   "e": 410.88
+  },
+  {
+   "w": "is",
+   "s": 410.88,
+   "e": 411.22
+  },
+  {
+   "w": "that",
+   "s": 411.22,
+   "e": 411.38
+  },
+  {
+   "w": "the",
+   "s": 411.38,
+   "e": 411.52
+  },
+  {
+   "w": "air",
+   "s": 411.52,
+   "e": 411.78
+  },
+  {
+   "w": "then",
+   "s": 411.78,
+   "e": 411.98
+  },
+  {
+   "w": "held",
+   "s": 411.98,
+   "e": 412.2
+  },
+  {
+   "w": "much",
+   "s": 412.2,
+   "e": 412.48
+  },
+  {
+   "w": "more",
+   "s": 412.48,
+   "e": 412.74
+  },
+  {
+   "w": "oxygen,",
+   "s": 412.74,
+   "e": 413.06
+  },
+  {
+   "w": "though",
+   "s": 413.62,
+   "e": 413.72
+  },
+  {
+   "w": "scientists",
+   "s": 413.72,
+   "e": 414.16
+  },
+  {
+   "w": "still",
+   "s": 414.16,
+   "e": 414.66
+  },
+  {
+   "w": "argue",
+   "s": 414.66,
+   "e": 414.9
+  },
+  {
+   "w": "about",
+   "s": 414.9,
+   "e": 415.24
+  },
+  {
+   "w": "it.",
+   "s": 415.24,
+   "e": 415.44
+  },
+  {
+   "w": "And",
+   "s": 417.38,
+   "e": 417.9
+  },
+  {
+   "w": "down",
+   "s": 417.9,
+   "e": 418.1
+  },
+  {
+   "w": "there,",
+   "s": 418.1,
+   "e": 418.34
+  },
+  {
+   "w": "who",
+   "s": 418.58,
+   "e": 418.76
+  },
+  {
+   "w": "would",
+   "s": 418.76,
+   "e": 418.82
+  },
+  {
+   "w": "I",
+   "s": 418.82,
+   "e": 418.96
+  },
+  {
+   "w": "be",
+   "s": 418.96,
+   "e": 419.1
+  },
+  {
+   "w": "up",
+   "s": 419.1,
+   "e": 419.24
+  },
+  {
+   "w": "against?",
+   "s": 419.24,
+   "e": 419.52
+  },
+  {
+   "w": "Ants,",
+   "s": 420.26,
+   "e": 420.78
+  },
+  {
+   "w": "a",
+   "s": 420.86,
+   "e": 420.96
+  },
+  {
+   "w": "2022",
+   "s": 420.96,
+   "e": 421.32
+  },
+  {
+   "w": "study,",
+   "s": 421.32,
+   "e": 422.1
+  },
+  {
+   "w": "estimated",
+   "s": 422.38,
+   "e": 422.68
+  },
+  {
+   "w": "there",
+   "s": 422.68,
+   "e": 423.14
+  },
+  {
+   "w": "are",
+   "s": 423.14,
+   "e": 423.3
+  },
+  {
+   "w": "about",
+   "s": 423.3,
+   "e": 423.48
+  },
+  {
+   "w": "20",
+   "s": 423.48,
+   "e": 423.88
+  },
+  {
+   "w": "quadrillion",
+   "s": 423.88,
+   "e": 424.44
+  },
+  {
+   "w": "ants",
+   "s": 424.44,
+   "e": 424.76
+  },
+  {
+   "w": "on",
+   "s": 424.76,
+   "e": 425.0
+  },
+  {
+   "w": "earth.",
+   "s": 425.0,
+   "e": 425.24
+  },
+  {
+   "w": "Together,",
+   "s": 425.78,
+   "e": 426.0
+  },
+  {
+   "w": "they",
+   "s": 426.34,
+   "e": 426.4
+  },
+  {
+   "w": "outweigh",
+   "s": 426.4,
+   "e": 426.6
+  },
+  {
+   "w": "all",
+   "s": 426.6,
+   "e": 427.08
+  },
+  {
+   "w": "the",
+   "s": 427.08,
+   "e": 427.2
+  },
+  {
+   "w": "wild",
+   "s": 427.2,
+   "e": 427.44
+  },
+  {
+   "w": "birds",
+   "s": 427.44,
+   "e": 427.78
+  },
+  {
+   "w": "and",
+   "s": 427.78,
+   "e": 428.12
+  },
+  {
+   "w": "wild",
+   "s": 428.12,
+   "e": 428.32
+  },
+  {
+   "w": "mammals",
+   "s": 428.32,
+   "e": 428.72
+  },
+  {
+   "w": "combined.",
+   "s": 428.72,
+   "e": 429.1
+  },
+  {
+   "w": "That's",
+   "s": 429.82,
+   "e": 430.02
+  },
+  {
+   "w": "two",
+   "s": 430.02,
+   "e": 430.22
+  },
+  {
+   "w": "and",
+   "s": 430.22,
+   "e": 430.38
+  },
+  {
+   "w": "a",
+   "s": 430.38,
+   "e": 430.42
+  },
+  {
+   "w": "half",
+   "s": 430.42,
+   "e": 430.66
+  },
+  {
+   "w": "million",
+   "s": 430.66,
+   "e": 430.9
+  },
+  {
+   "w": "ants",
+   "s": 430.9,
+   "e": 431.24
+  },
+  {
+   "w": "for",
+   "s": 431.24,
+   "e": 431.54
+  },
+  {
+   "w": "every",
+   "s": 431.54,
+   "e": 431.74
+  },
+  {
+   "w": "person.",
+   "s": 431.74,
+   "e": 432.2
+  },
+  {
+   "w": "At",
+   "s": 432.82,
+   "e": 432.94
+  },
+  {
+   "w": "their",
+   "s": 432.94,
+   "e": 433.1
+  },
+  {
+   "w": "size,",
+   "s": 433.1,
+   "e": 433.42
+  },
+  {
+   "w": "you'd",
+   "s": 433.84,
+   "e": 434.02
+  },
+  {
+   "w": "be",
+   "s": 434.02,
+   "e": 434.1
+  },
+  {
+   "w": "badly",
+   "s": 434.1,
+   "e": 434.34
+  },
+  {
+   "w": "outnumbered,",
+   "s": 434.34,
+   "e": 434.66
+  },
+  {
+   "w": "and",
+   "s": 435.3,
+   "e": 435.4
+  },
+  {
+   "w": "many",
+   "s": 435.4,
+   "e": 435.6
+  },
+  {
+   "w": "of",
+   "s": 435.6,
+   "e": 435.74
+  },
+  {
+   "w": "them",
+   "s": 435.74,
+   "e": 435.86
+  },
+  {
+   "w": "hunt",
+   "s": 435.86,
+   "e": 436.04
+  },
+  {
+   "w": "anything",
+   "s": 436.04,
+   "e": 436.34
+  },
+  {
+   "w": "that",
+   "s": 436.34,
+   "e": 436.74
+  },
+  {
+   "w": "moves.",
+   "s": 436.74,
+   "e": 436.94
+  },
+  {
+   "w": "Some",
+   "s": 437.64,
+   "e": 437.82
+  },
+  {
+   "w": "ants",
+   "s": 437.82,
+   "e": 438.02
+  },
+  {
+   "w": "don't",
+   "s": 438.02,
+   "e": 438.42
+  },
+  {
+   "w": "even",
+   "s": 438.42,
+   "e": 438.56
+  },
+  {
+   "w": "fight",
+   "s": 438.56,
+   "e": 438.82
+  },
+  {
+   "w": "each",
+   "s": 438.82,
+   "e": 439.04
+  },
+  {
+   "w": "other.",
+   "s": 439.04,
+   "e": 439.26
+  },
+  {
+   "w": "In",
+   "s": 439.96,
+   "e": 440.02
+  },
+  {
+   "w": "southern",
+   "s": 440.02,
+   "e": 440.24
+  },
+  {
+   "w": "Europe,",
+   "s": 440.24,
+   "e": 440.7
+  },
+  {
+   "w": "Argentine",
+   "s": 441.1,
+   "e": 441.36
+  },
+  {
+   "w": "ants",
+   "s": 441.36,
+   "e": 441.94
+  },
+  {
+   "w": "form",
+   "s": 441.94,
+   "e": 442.26
+  },
+  {
+   "w": "one",
+   "s": 442.26,
+   "e": 442.5
+  },
+  {
+   "w": "giant",
+   "s": 442.5,
+   "e": 442.8
+  },
+  {
+   "w": "supercolony",
+   "s": 442.8,
+   "e": 443.54
+  },
+  {
+   "w": "that",
+   "s": 443.54,
+   "e": 443.96
+  },
+  {
+   "w": "stretches",
+   "s": 443.96,
+   "e": 444.22
+  },
+  {
+   "w": "more",
+   "s": 444.22,
+   "e": 444.58
+  },
+  {
+   "w": "than",
+   "s": 444.58,
+   "e": 444.76
+  },
+  {
+   "w": "6",
+   "s": 444.76,
+   "e": 445.02
+  },
+  {
+   "w": ",000",
+   "s": 445.02,
+   "e": 445.5
+  },
+  {
+   "w": "kilometres",
+   "s": 445.5,
+   "e": 445.72
+  },
+  {
+   "w": "from",
+   "s": 445.72,
+   "e": 446.6
+  },
+  {
+   "w": "Italy",
+   "s": 446.6,
+   "e": 446.84
+  },
+  {
+   "w": "to",
+   "s": 446.84,
+   "e": 447.18
+  },
+  {
+   "w": "the",
+   "s": 447.18,
+   "e": 447.24
+  },
+  {
+   "w": "Atlantic",
+   "s": 447.24,
+   "e": 447.54
+  },
+  {
+   "w": "coast",
+   "s": 447.54,
+   "e": 447.92
+  },
+  {
+   "w": "of",
+   "s": 447.92,
+   "e": 448.14
+  },
+  {
+   "w": "Spain.",
+   "s": 448.14,
+   "e": 448.4
+  },
+  {
+   "w": "And",
+   "s": 448.4,
+   "e": 449.0
+  },
+  {
+   "w": "there",
+   "s": 449.0,
+   "e": 449.14
+  },
+  {
+   "w": "are",
+   "s": 449.14,
+   "e": 449.24
+  },
+  {
+   "w": "traps",
+   "s": 449.24,
+   "e": 449.48
+  },
+  {
+   "w": "everywhere.",
+   "s": 449.48,
+   "e": 449.9
+  },
+  {
+   "w": "Antle",
+   "s": 450.68,
+   "e": 450.84
+  },
+  {
+   "w": "and",
+   "s": 450.84,
+   "e": 450.96
+  },
+  {
+   "w": "larvae",
+   "s": 450.96,
+   "e": 451.16
+  },
+  {
+   "w": "dig",
+   "s": 451.16,
+   "e": 451.48
+  },
+  {
+   "w": "cone",
+   "s": 451.48,
+   "e": 451.78
+  },
+  {
+   "w": "-shaped",
+   "s": 451.78,
+   "e": 452.02
+  },
+  {
+   "w": "pits",
+   "s": 452.02,
+   "e": 452.34
+  },
+  {
+   "w": "in",
+   "s": 452.34,
+   "e": 452.56
+  },
+  {
+   "w": "the",
+   "s": 452.56,
+   "e": 452.66
+  },
+  {
+   "w": "sand",
+   "s": 452.66,
+   "e": 452.94
+  },
+  {
+   "w": "and",
+   "s": 452.94,
+   "e": 453.18
+  },
+  {
+   "w": "wait",
+   "s": 453.18,
+   "e": 453.36
+  },
+  {
+   "w": "at",
+   "s": 453.36,
+   "e": 453.54
+  },
+  {
+   "w": "the",
+   "s": 453.54,
+   "e": 453.6
+  },
+  {
+   "w": "bottom.",
+   "s": 453.6,
+   "e": 453.88
+  },
+  {
+   "w": "Anything",
+   "s": 454.46,
+   "e": 454.62
+  },
+  {
+   "w": "that",
+   "s": 454.62,
+   "e": 454.92
+  },
+  {
+   "w": "slides",
+   "s": 454.92,
+   "e": 455.18
+  },
+  {
+   "w": "in",
+   "s": 455.18,
+   "e": 455.62
+  },
+  {
+   "w": "gets",
+   "s": 455.62,
+   "e": 456.02
+  },
+  {
+   "w": "eaten.",
+   "s": 456.02,
+   "e": 456.3
+  },
+  {
+   "w": "So",
+   "s": 457.46,
+   "e": 457.84
+  },
+  {
+   "w": "would",
+   "s": 457.84,
+   "e": 458.02
+  },
+  {
+   "w": "you",
+   "s": 458.02,
+   "e": 458.12
+  },
+  {
+   "w": "shrink?",
+   "s": 458.12,
+   "e": 458.3
+  },
+  {
+   "w": "You'd",
+   "s": 459.0,
+   "e": 459.26
+  },
+  {
+   "w": "float",
+   "s": 459.26,
+   "e": 459.36
+  },
+  {
+   "w": "down",
+   "s": 459.36,
+   "e": 459.64
+  },
+  {
+   "w": "from",
+   "s": 459.64,
+   "e": 459.86
+  },
+  {
+   "w": "rooftops,",
+   "s": 459.86,
+   "e": 460.3
+  },
+  {
+   "w": "lift",
+   "s": 460.8,
+   "e": 460.98
+  },
+  {
+   "w": "100",
+   "s": 460.98,
+   "e": 461.22
+  },
+  {
+   "w": "times",
+   "s": 461.22,
+   "e": 461.68
+  },
+  {
+   "w": "your",
+   "s": 461.68,
+   "e": 461.9
+  },
+  {
+   "w": "weight,",
+   "s": 461.9,
+   "e": 462.1
+  },
+  {
+   "w": "and",
+   "s": 462.4,
+   "e": 462.44
+  },
+  {
+   "w": "see",
+   "s": 462.44,
+   "e": 462.62
+  },
+  {
+   "w": "the",
+   "s": 462.62,
+   "e": 462.78
+  },
+  {
+   "w": "world",
+   "s": 462.78,
+   "e": 462.98
+  },
+  {
+   "w": "in",
+   "s": 462.98,
+   "e": 463.14
+  },
+  {
+   "w": "slow",
+   "s": 463.14,
+   "e": 463.36
+  },
+  {
+   "w": "motion.",
+   "s": 463.36,
+   "e": 463.86
+  },
+  {
+   "w": "But",
+   "s": 464.5,
+   "e": 464.54
+  },
+  {
+   "w": "you'd",
+   "s": 464.54,
+   "e": 464.74
+  },
+  {
+   "w": "fear",
+   "s": 464.74,
+   "e": 464.9
+  },
+  {
+   "w": "raindrops,",
+   "s": 464.9,
+   "e": 465.42
+  },
+  {
+   "w": "eat",
+   "s": 465.74,
+   "e": 465.86
+  },
+  {
+   "w": "all",
+   "s": 465.86,
+   "e": 466.1
+  },
+  {
+   "w": "day,",
+   "s": 466.1,
+   "e": 466.36
+  },
+  {
+   "w": "and",
+   "s": 466.68,
+   "e": 466.76
+  },
+  {
+   "w": "need",
+   "s": 466.76,
+   "e": 466.92
+  },
+  {
+   "w": "to",
+   "s": 466.92,
+   "e": 467.0
+  },
+  {
+   "w": "head",
+   "s": 467.0,
+   "e": 467.16
+  },
+  {
+   "w": "the",
+   "s": 467.16,
+   "e": 467.32
+  },
+  {
+   "w": "size",
+   "s": 467.32,
+   "e": 467.64
+  },
+  {
+   "w": "of",
+   "s": 467.64,
+   "e": 467.82
+  },
+  {
+   "w": "a",
+   "s": 467.82,
+   "e": 467.9
+  },
+  {
+   "w": "hot",
+   "s": 467.9,
+   "e": 468.04
+  },
+  {
+   "w": "-air",
+   "s": 468.04,
+   "e": 468.22
+  },
+  {
+   "w": "balloon.",
+   "s": 468.22,
+   "e": 468.42
+  },
+  {
+   "w": "Maybe",
+   "s": 469.04,
+   "e": 469.18
+  },
+  {
+   "w": "being",
+   "s": 469.18,
+   "e": 469.54
+  },
+  {
+   "w": "human",
+   "s": 469.54,
+   "e": 469.82
+  },
+  {
+   "w": "-sized",
+   "s": 469.82,
+   "e": 470.12
+  },
+  {
+   "w": "isn't",
+   "s": 470.12,
+   "e": 470.88
+  },
+  {
+   "w": "so",
+   "s": 470.88,
+   "e": 471.14
+  },
+  {
+   "w": "bad",
+   "s": 471.14,
+   "e": 471.42
+  },
+  {
+   "w": "after",
+   "s": 471.42,
+   "e": 471.76
+  },
+  {
+   "w": "all.",
+   "s": 471.76,
+   "e": 471.98
+  },
+  {
+   "w": "Thanks",
+   "s": 478.4,
+   "e": 478.66
+  },
+  {
+   "w": "for",
+   "s": 478.66,
+   "e": 478.66
+  },
+  {
+   "w": "watching!",
+   "s": 478.66,
+   "e": 478.66
+  }
+ ]
+}

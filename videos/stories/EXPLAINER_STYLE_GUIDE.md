@@ -70,6 +70,17 @@ Make a flat-vector animated science explainer, drawn entirely in code. Use one 2
 - Icons are 2–3 flat colours, chunky, slightly 3/4 tilted, with a highlight capsule. They sit in free screen space and never cover a face or a number.
 - **Icon grids.** For lists ("masks, gloves, sanitizer…"), use a 3×2 grid of coloured tiles, each tile one hue with one icon, revealed tile by tile 0.12 s apart.
 - **Organs must read as the real organ.** A brain is a side view with folds, a lateral fissure, cerebellum and stem. Lungs are two lobes with a speckled texture. A heart has four chambers or a stylised heart with vessels. Never use a sphere as a stand-in.
+- **Size.** Icons are big enough to read on a phone:
+  - At least 200 px tall on a 1080p frame (about 18% of frame height). Typical icons are 220–300 px.
+  - Hero objects (organs, animals, the mascot) take 45–60% of frame height.
+  - Use fewer, larger elements rather than many small ones. Space is still checked by the overlap audit.
+- **Every icon is animated, not just popped in.** On top of the pop-in spring, each icon has its own idle motion that shows what it is:
+  - Eyes blink.
+  - Trains, cups and chimneys puff smoke.
+  - Wheels turn, clocks tick, hearts beat, flames flicker.
+  - Glasses slosh and bubble, plants sway, phones buzz.
+  - Shiny things get a travelling glint, and bins pop their lids.
+  - No icon sits completely still for more than a second.
 - **Icons never sit on top of other elements.** An icon must not overlap the hero object (brain, planet, mascot), another icon, a label, a counter, a meter, a panel edge, or the frame edge.
   - Before an icon pops in, its slot is checked against the screen boxes of everything visible at that moment. Pick a free slot instead, or shrink the icon. Never let it cover the drawing behind it.
   - Hallucination ghosts, particles and other ambient sprites are kept out of the hero's and labels' boxes too.
@@ -193,6 +204,7 @@ Make a flat-vector animated science explainer, drawn entirely in code. Use one 2
 ## QA checklist before render
 
 - [ ] Every concrete word in the script has an icon or illustration on its timestamp.
+- [ ] Icons ≥ 200 px tall, heroes 45–60% of frame height. Every icon has an idle animation (blink, smoke, spin, beat…).
 - [ ] Organs and objects read correctly in silhouette alone.
 - [ ] No label overlaps another label, a counter, a face or the frame edge.
 - [ ] Overlap audit (every 0.1 s): no icon or ambient sprite on top of the hero object, the mascot, another icon, a label, a counter or a meter.

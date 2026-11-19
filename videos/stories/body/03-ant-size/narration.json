@@ -1,0 +1,326 @@
+{
+ "voice": "bm_fable",
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "q_pause": 0.45,
+ "speed": 0.92,
+ "gap": 0.24,
+ "lines": [
+  {
+   "id": "c1",
+   "speaker": "q",
+   "text": "What if you shrank to the size of an ant?"
+  },
+  {
+   "id": "c2",
+   "text": "Let's do it. You're now two millimetres tall, a thousand times smaller. You could stand on a grain of rice."
+  },
+  {
+   "id": "c3",
+   "text": "And if all eight billion people shrank with you, the whole of humanity would fit into about two bathtubs."
+  },
+  {
+   "id": "c3b",
+   "text": "And your living room? Crossing it would feel like walking across a city."
+  },
+  {
+   "id": "c4q",
+   "speaker": "q",
+   "text": "Okay, that's cute. What's the catch?"
+  },
+  {
+   "id": "c4",
+   "text": "Physics. At this size, the rules you've lived by your whole life stop working. Gravity barely matters, water turns into a trap, and you'd be hungry all the time."
+  },
+  {
+   "id": "s1",
+   "speaker": "q",
+   "ch": "The square-cube law",
+   "gap_before": 2.2,
+   "text": "Wouldn't everything just be the same, only smaller?"
+  },
+  {
+   "id": "s2",
+   "text": "No, and here's why. When you shrink, your length goes down a thousand times. But the area of your muscles goes down a million times."
+  },
+  {
+   "id": "s3",
+   "text": "And your volume, which is your weight, goes down a billion times."
+  },
+  {
+   "id": "s4",
+   "text": "So compared to your weight, your muscles are now a thousand times stronger. This is called the square-cube law, and it changes everything."
+  },
+  {
+   "id": "s5q",
+   "speaker": "q",
+   "text": "Who figured that out?"
+  },
+  {
+   "id": "s5",
+   "text": "Galileo, back in 1638. He noticed that big animals need much thicker bones than small ones, and wrote that a small dog could probably carry two or three dogs its own size on its back, while a horse couldn't carry even one horse.",
+   "say": "Galileo, back in sixteen thirty-eight. He noticed that big animals need much thicker bones than small ones, and wrote that a small dog could probably carry two or three dogs its own size on its back, while a horse couldn't carry even one horse."
+  },
+  {
+   "id": "s6",
+   "text": "Now flip that around. Shrink yourself, and you become the small dog. Very, very small."
+  },
+  {
+   "id": "f1",
+   "speaker": "q",
+   "ch": "Falling",
+   "gap_before": 2.2,
+   "text": "So could I jump off a table?"
+  },
+  {
+   "id": "f2",
+   "text": "You could jump off a skyscraper. A falling object speeds up until air resistance balances its weight. For you, that happens almost immediately."
+  },
+  {
+   "id": "f3",
+   "text": "Your weight shrank a billion times, but your surface, which catches the air, only a million. So you'd drift down slowly, like a speck of dust, and land at a gentle walking pace."
+  },
+  {
+   "id": "f3b",
+   "text": "A full-size skydiver, by comparison, falls at around two hundred kilometres an hour."
+  },
+  {
+   "id": "f4",
+   "text": "Back in 1926, the biologist J. B. S. Haldane wrote that a mouse dropped down a deep mine shaft lands on soft ground, gets a small shock, and walks away. A rat is killed. A man is broken.",
+   "say": "Back in nineteen twenty-six, the biologist J B S Haldane wrote that a mouse dropped down a deep mine shaft lands on soft ground, gets a small shock, and walks away. A rat is killed. A man is broken."
+  },
+  {
+   "id": "f5",
+   "text": "Some tiny spiders even fly on purpose. They let out silk threads that catch the wind, and float away. It's called ballooning, and they've been found kilometres up in the sky."
+  },
+  {
+   "id": "g1",
+   "speaker": "q",
+   "ch": "Super strength",
+   "gap_before": 2.2,
+   "text": "And would I be super strong, like an ant?"
+  },
+  {
+   "id": "g2",
+   "text": "Yes. Many ants carry ten to fifty times their own weight. In 2014, engineers spun ants in a centrifuge, and their necks only gave way at three to five thousand times their body weight.",
+   "say": "Yes. Many ants carry ten to fifty times their own weight. In twenty fourteen, engineers spun ants in a centrifuge, and their necks only gave way at three to five thousand times their body weight."
+  },
+  {
+   "id": "g3",
+   "text": "You'd be the same. A crumb that weighs more than you? Easy. You could carry it over your head all day."
+  },
+  {
+   "id": "g3b",
+   "text": "Leafcutter ants do this every day, carrying leaf pieces much heavier than themselves back home to feed the fungus gardens they farm underground."
+  },
+  {
+   "id": "g4",
+   "text": "You could even walk up a wall. At this scale, the tiny sticky forces between surfaces start to beat gravity. It's why dust clings to a wall instead of falling off."
+  },
+  {
+   "id": "t1q",
+   "speaker": "q",
+   "text": "And getting around? My legs would be tiny.",
+   "ch": "Getting around",
+   "gap_before": 2.2
+  },
+  {
+   "id": "t1",
+   "text": "That's the problem. If you walked the way you do now, crossing a football pitch would take you almost a full day."
+  },
+  {
+   "id": "t2",
+   "text": "Ants are much better at it. The Saharan silver ant runs at about eighty-five centimetres a second. That's a hundred and eight of its own body lengths every second."
+  },
+  {
+   "id": "t3",
+   "text": "For you, that would be like sprinting at seven hundred kilometres an hour, faster than a Formula One car. Ants also don't get lost: they lay down chemical trails and follow them home, like invisible roads."
+  },
+  {
+   "id": "z1",
+   "speaker": "q",
+   "ch": "A giant world",
+   "gap_before": 2.2,
+   "text": "What would everyday things look like?"
+  },
+  {
+   "id": "z2",
+   "text": "Enormous. A grain of sand would look like a boulder. A raindrop would be the size of a beach ball. And a house cat would tower about two hundred and fifty metres over you, most of the way up the Eiffel Tower."
+  },
+  {
+   "id": "z3",
+   "text": "A one-centimetre jumping spider would be as big as a bus, with large forward-facing eyes that can track you as you move."
+  },
+  {
+   "id": "z4",
+   "text": "And a single strand of spider silk would look as thick as a rope. Weight for weight, spider silk is about as strong as steel."
+  },
+  {
+   "id": "w1",
+   "speaker": "q",
+   "ch": "Water is a trap",
+   "gap_before": 2.2,
+   "text": "What about a drink of water?"
+  },
+  {
+   "id": "w2",
+   "text": "That's where it gets dangerous. Water molecules pull on each other, creating surface tension. For you, a water droplet behaves like a giant ball of sticky jelly."
+  },
+  {
+   "id": "w3",
+   "text": "Fall in, and the water wraps around you and won't let go. Haldane wrote that an insect going for a drink is in as much danger as a man leaning out over a cliff."
+  },
+  {
+   "id": "w3b",
+   "text": "Some insects turn this into a superpower. Water striders are so light that they walk on the surface of ponds without ever breaking through."
+  },
+  {
+   "id": "w4q",
+   "speaker": "q",
+   "text": "And if it rains?"
+  },
+  {
+   "id": "w4",
+   "text": "A single raindrop would weigh about sixty times more than you. That sounds deadly, but mosquitoes survive raindrops that are fifty times heavier than they are."
+  },
+  {
+   "id": "w5",
+   "text": "Because they're so light, the drop hardly slows down when it hits. The mosquito just rides it for a moment, then slips off the side. You'd do the same."
+  },
+  {
+   "id": "h1",
+   "speaker": "q",
+   "ch": "Always hungry",
+   "gap_before": 2.2,
+   "text": "Would I get cold?"
+  },
+  {
+   "id": "h2",
+   "text": "Very. You lose heat through your skin, and compared to your body, you now have a thousand times more skin. Your warmth would pour out of you."
+  },
+  {
+   "id": "h3",
+   "text": "Look at the Etruscan shrew, one of the smallest mammals on Earth. Its heart beats up to fifteen hundred times a minute, and every day it eats about one and a half to two times its own body weight."
+  },
+  {
+   "id": "h4",
+   "text": "That would be you. A single crumb of bread would be a feast, and you'd need to eat almost all the time just to stay warm."
+  },
+  {
+   "id": "h5",
+   "text": "Then again, food would be everywhere. By a rough estimate, one grain of rice would feed you for months."
+  },
+  {
+   "id": "v1",
+   "speaker": "q",
+   "ch": "Your senses",
+   "gap_before": 2.2,
+   "text": "What would the world look like?"
+  },
+  {
+   "id": "v2",
+   "text": "Blurry. Your pupils would be just a few wavelengths of light across, too small to focus a sharp image. That's one reason insects use compound eyes made of many tiny lenses."
+  },
+  {
+   "id": "v3",
+   "text": "But time would feel slower. Small animals with fast metabolisms take in more snapshots per second. Some flies see flickering light more than four times faster than we do. A swatting hand looks like slow motion to them."
+  },
+  {
+   "id": "v4q",
+   "speaker": "q",
+   "text": "And could I still talk to people?"
+  },
+  {
+   "id": "v4",
+   "text": "Not really. Your vocal cords would be a thousand times shorter, so your voice would shoot up into ultrasound. Normal-sized people couldn't hear you at all. Bats probably could."
+  },
+  {
+   "id": "v5",
+   "text": "And our deep human voices would be just as hard for you to catch. You'd shout, and nobody would ever hear."
+  },
+  {
+   "id": "b1",
+   "speaker": "q",
+   "ch": "Would you still be you?",
+   "gap_before": 2.2,
+   "text": "Would I still be able to think?"
+  },
+  {
+   "id": "b2",
+   "text": "This is the biggest problem. Your brain cells can't shrink with you. A cell is a cell. Shrink a human brain a thousand times, and by our rough estimate it would have room for only a few thousand neurons, instead of eighty-six billion."
+  },
+  {
+   "id": "b3",
+   "text": "Ants solve this with enormous brains. In the smallest ants, the brain makes up around fifteen percent of the body. Yours is about two percent."
+  },
+  {
+   "id": "b4",
+   "text": "So to stay you, you'd need a head bigger than the rest of your body."
+  },
+  {
+   "id": "b5",
+   "text": "It's also why a single ant isn't very clever. The intelligence of an ant colony comes from thousands of ants following simple rules together."
+  },
+  {
+   "id": "i1",
+   "speaker": "q",
+   "ch": "Why insects stay small",
+   "gap_before": 2.2,
+   "text": "So why aren't insects big, then?"
+  },
+  {
+   "id": "i2",
+   "text": "Mostly breathing. Insects have no lungs. Air seeps in through tiny tubes, and that only works over short distances."
+  },
+  {
+   "id": "i3",
+   "text": "About three hundred million years ago, there were griffinflies with wings seventy centimetres wide. One idea is that the air then held much more oxygen, though scientists still argue about it."
+  },
+  {
+   "id": "a1",
+   "speaker": "q",
+   "ch": "The ant world",
+   "gap_before": 2.2,
+   "text": "And down there, who would I be up against?"
+  },
+  {
+   "id": "a2",
+   "text": "Ants. A 2022 study estimated there are about twenty quadrillion ants on Earth. Together they outweigh all the wild birds and wild mammals combined.",
+   "say": "Ants. A twenty twenty-two study estimated there are about twenty quadrillion ants on Earth. Together they outweigh all the wild birds and wild mammals combined."
+  },
+  {
+   "id": "a3",
+   "text": "That's two and a half million ants for every person. At their size, you'd be badly outnumbered, and many of them hunt anything that moves."
+  },
+  {
+   "id": "a4",
+   "text": "Some ants don't even fight each other. In southern Europe, Argentine ants form one giant supercolony that stretches more than six thousand kilometres, from Italy to the Atlantic coast of Spain."
+  },
+  {
+   "id": "a5",
+   "text": "And there are traps everywhere. Antlion larvae dig cone-shaped pits in the sand and wait at the bottom. Anything that slides in, gets eaten."
+  },
+  {
+   "id": "o1",
+   "speaker": "q",
+   "gap_before": 1.0,
+   "text": "So, would you shrink?"
+  },
+  {
+   "id": "o2",
+   "text": "You'd float down from rooftops, lift a hundred times your weight, and see the world in slow motion. But you'd fear raindrops, eat all day, and need a head the size of a hot-air balloon."
+  },
+  {
+   "id": "o3",
+   "text": "Maybe being human-sized isn't so bad after all."
+  },
+  {
+   "id": "o4",
+   "speaker": "q",
+   "gap_before": 0.5,
+   "text": "Subscribe for more what ifs, and tell us in the comments how small you'd go."
+  }
+ ]
+}
