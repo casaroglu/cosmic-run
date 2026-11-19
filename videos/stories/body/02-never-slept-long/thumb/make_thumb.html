@@ -1,0 +1,8 @@
+<!doctype html><html><head><link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=block" rel="stylesheet"></head><body style="margin:0">
+<canvas id="c" width="1920" height="1080"></canvas><script>
+window.make = async () => { await document.fonts.load('700 44px Fredoka'); const img = new Image(); img.src = 'base.jpg'; await img.decode();
+  const c = document.getElementById('c'), x = c.getContext('2d'); x.drawImage(img, 0, 0, 1920, 1080);
+  x.fillStyle = '#50a6b7'; x.beginPath(); x.roundRect(1260, 354, 610, 74, 37); x.fill();
+  x.font = '700 44px Fredoka'; x.letterSpacing = '1.5px'; x.fillStyle = '#16244f'; x.textAlign = 'center'; x.textBaseline = 'middle'; x.fillText('EXPLAINED IN 8 MINUTES', 1565, 393);
+  return c.toDataURL('image/jpeg', 0.95); };
+</script></body></html>
