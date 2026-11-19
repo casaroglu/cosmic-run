@@ -16,3 +16,7 @@ Code-drawn animated explainer (no AI images): one 2D canvas + one WebGL canvas (
 | Perceptual distortions → hallucinations by ~day 3 | Waters et al., *Frontiers in Psychiatry* (2018) |
 | Randy Gardner, 17, 264.4 h (11 days 25 min), Dec 1963–Jan 1964; first slept 14 h 46 min | Wikipedia "Randy Gardner sleep deprivation experiment"; Dement, *The Promise of Sleep* |
 | Totally sleep-deprived rats died in 11–32 days | Rechtschaffen et al., *Sleep* 12 (1989) |
+
+## Publishing
+- **Title:** What If You Never Slept? Explained in 60 Seconds
+- **Thumbnail:** `thumb/thumbnail.jpg` (Gemini, from `thumb/style_ref.jpg`, a 2x2 sheet of our own frames; final layout pass asked for nothing to overlap). It is also the first 1.5 s of the video (slow push-in, 0.3 s crossfade into the animation); audio delayed 1.2 s. Total 59.7 s.

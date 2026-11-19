@@ -153,6 +153,16 @@ Make a flat-vector animated science explainer, drawn entirely in code. Use one 2
 
 ---
 
+## Thumbnail and title
+
+- **Title format:** `What If <topic>? Explained in <N> Seconds`, where N is the real final length rounded to 5 s (including the thumbnail intro).
+- **Thumbnail (Gemini, 16:9):**
+  - Upload a 2×2 sheet of our own frames as the style reference: mascot, hero object, a key scene, and a character.
+  - Ask for exactly our art style: flat vector, no outlines, 2–4 flat tones, soft radial glows, highlight capsules, subtle grain.
+  - Layout: our mascot large on the left third, the hero object on the lower right, two-line title top right (white setup line, bigger gold payoff), and a small teal pill "EXPLAINED IN N SECONDS".
+  - If any element overlaps another, regenerate with an explicit layout. Overlaps are not allowed on the thumbnail either.
+- **Intro:** the thumbnail is also the first 1.5 s of the video, with a slow 3.5% push-in and a 0.3 s crossfade into the first scene. Delay the audio by 1.2 s.
+
 ## Our identity (what makes it ours)
 
 - **Cast.** The pyjama sleepyhead mascot (visor face, nightcap, orange slippers). Future mascots are our own designs.
