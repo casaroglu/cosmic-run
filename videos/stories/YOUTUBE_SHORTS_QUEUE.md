@@ -14,10 +14,10 @@
 | 2026-11-21 13:00 | ottoman | 09-water | scheduled | https://youtube.com/shorts/8LU1JQ2w6sc |
 | 2026-11-21 17:00 | ottoman | 10-vienna | scheduled | https://youtube.com/shorts/OEzIRGDhKVw |
 | 2026-11-21 21:00 | ottoman | 11-janissaries | draft (thumbnail blocked: YouTube verification needed) | https://youtube.com/shorts/osPaSmXkzic |
-| 2026-11-22 13:00 | ottoman | 12-sickman | todo |  |
-| 2026-11-22 17:00 | ottoman | 13-gallipoli | todo |  |
-| 2026-11-22 21:00 | ottoman | 14-last-sultan | todo |  |
-| 2026-11-23 13:00 | chokepoints | 01a-hormuz-gate | todo |  |
+| 2026-11-22 13:00 | ottoman | 12-sickman | scheduled | https://youtube.com/shorts/sN1fgkS9bWI |
+| 2026-11-22 17:00 | ottoman | 13-gallipoli | scheduled | https://youtube.com/shorts/_aQ1TGKBIfk |
+| 2026-11-22 21:00 | ottoman | 14-last-sultan | scheduled | https://youtube.com/shorts/Ytf5bWZF01A |
+| 2026-11-23 13:00 | chokepoints | 01a-hormuz-gate | draft (thumbnail blocked: YouTube verification needed) | https://youtube.com/shorts/fK76cMkkDy0 |
 | 2026-11-23 17:00 | chokepoints | 01b-hormuz-oil | todo |  |
 | 2026-11-23 21:00 | chokepoints | 02a-suez | todo |  |
 | 2026-11-24 13:00 | chokepoints | 02b-bab-el-mandeb | todo |  |
