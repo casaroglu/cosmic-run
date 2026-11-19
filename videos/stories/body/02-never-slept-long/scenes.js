@@ -529,9 +529,9 @@ function sOutro2(t) {
   if (t > C.calls) { reg('label', 'title', 1010, 370, 1760, 640);
     LABELQ.push(() => { riseText('WHAT IF YOU', 1385, 440, C.calls + 0.1, t, { size: 92, weight: 700, color: WHITE, ls: 6, pill: false, dur: 0.8 });
       riseText('NEVER SLEPT', 1385, 570, C.calls + 0.3, t, { size: 120, weight: 700, color: GOLD, ls: 6, pill: false, dur: 0.8 }); }); }
-  if (t > LN('o3').start - 0.2) { placeIcon('subscribe', [[1385, 760]], 1.2, t, W_('o3', 'subscribe'), 999, { hw: 124, hh: 38 }); }
+  if (t > LN('o3').start - 0.2) { placeIcon('subscribe', [[1385, 690]], 1.2, t, W_('o3', 'subscribe'), 999, { hw: 124, hh: 38 }); }
   if (t > C.end) {   // end screen: two video slots for YouTube end-screen elements
-    for (const [x, y] of [[1190, 840], [1580, 840]]) { const k = spring(t - C.end - 0.2, 0.5, 12); rr2(x - 170 * k, y - 96 * k, 340 * k, 192 * k, 18, 'rgba(6,20,40,0.55)'); reg('panel', 'endslot', x - 170, y - 96, x + 170, y + 96); }
+    for (const [x, y] of [[1190, 870], [1580, 870]]) { const k = spring(t - C.end - 0.2, 0.5, 12); rr2(x - 170 * k, y - 96 * k, 340 * k, 192 * k, 18, 'rgba(6,20,40,0.55)'); reg('hero', 'endslot', x - 170, y - 96, x + 170, y + 96); }
   }
 }
 

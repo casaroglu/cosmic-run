@@ -18,9 +18,9 @@ if (mode === 'contact') {
   for (const [i, t] of ts.entries()) fs.writeFileSync(path.join(D, `render/contact/${String(i).padStart(2, '0')}_${t.toFixed(2)}.jpg`), await shot(t));
   console.log('contact frames', ts.length, JSON.stringify(C));
 } else {
-  const fps = 30, n = Math.ceil(info.DUR * fps), shutter = 0.6;
+  const fps = 30, shutter = 0.6, f0 = Number(process.argv[4] || 0), n = process.argv[5] ? Number(process.argv[5]) : Math.ceil(info.DUR * fps);
   const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(fps * 2), '-i', '-', '-vf', 'tmix=frames=2:weights=1 1,select=not(mod(n\\,2)),setpts=N/30/TB', '-r', '30', '-c:v', 'libx264', '-crf', '16', '-preset', 'slow', '-pix_fmt', 'yuv420p', out], { stdio: ['pipe', 'inherit', 'inherit'] });
-  for (let i = 0; i < n; i++) {
+  for (let i = f0; i < n; i++) {
     const t = i / fps;
     for (const s of [0, shutter / fps / 2]) { const b = await shot(t + s); if (!ff.stdin.write(b)) await new Promise(r => ff.stdin.once('drain', r)); }
     if (i % 150 === 0) console.log('frame', i, '/', n);
