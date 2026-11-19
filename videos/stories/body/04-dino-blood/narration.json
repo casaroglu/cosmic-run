@@ -1,0 +1,361 @@
+{
+ "voice": "bm_fable",
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "q_pause": 0.45,
+ "speed": 0.92,
+ "gap": 0.24,
+ "lines": [
+  {
+   "id": "c1",
+   "speaker": "q",
+   "text": "Did scientists really just find dinosaur blood?"
+  },
+  {
+   "id": "c2",
+   "text": "Something very close. In November 2026, a team published a study about a dinosaur bone from Brazil. Inside it, they found tiny oval cells, and the chemical heart of blood, a molecule called heme.",
+   "say": "Something very close. In November twenty twenty-six, a team published a study about a dinosaur bone from Brazil. Inside it, they found tiny oval cells, and the chemical heart of blood, a molecule called heme."
+  },
+  {
+   "id": "c3",
+   "text": "That bone is 115 million years old. The team says it's the oldest blood ever found, and the first proven with chemistry.",
+   "say": "That bone is a hundred and fifteen million years old. The team says it's the oldest blood ever found, and the first proven with chemistry."
+  },
+  {
+   "id": "c4q",
+   "speaker": "q",
+   "text": "So can we finally clone a dinosaur?"
+  },
+  {
+   "id": "c4",
+   "text": "That's the Jurassic Park question. To answer it, we need three things. What blood is, how a bone turns to stone, and how long the molecules of life can last."
+  },
+  {
+   "id": "c5",
+   "text": "In the movie, scientists pull dinosaur DNA out of a mosquito that bit a dinosaur and got stuck in amber. Let's see how much of that holds up."
+  },
+  {
+   "id": "b1",
+   "speaker": "q",
+   "ch": "What blood is made of",
+   "gap_before": 2.2,
+   "text": "Okay, what is blood actually made of?"
+  },
+  {
+   "id": "b2",
+   "text": "Mostly red blood cells. You have about 25 trillion of them. That's more than eight out of every ten cells in your body.",
+   "say": "Mostly red blood cells. You have about twenty-five trillion of them. That's more than eight out of every ten cells in your body."
+  },
+  {
+   "id": "b3",
+   "text": "Each one is stuffed with around 270 million molecules of hemoglobin. And every hemoglobin holds four small rings called heme, with an iron atom in the middle.",
+   "say": "Each one is stuffed with around two hundred and seventy million molecules of hemoglobin. And every hemoglobin holds four small rings called heme, with an iron atom in the middle."
+  },
+  {
+   "id": "b3b",
+   "text": "Put a drop of your blood under a microscope and you'd see them. Soft red discs, dented in the middle, like a doughnut that forgot to make the hole."
+  },
+  {
+   "id": "b4q",
+   "speaker": "q",
+   "text": "Is the iron why blood is red?"
+  },
+  {
+   "id": "b5",
+   "text": "Yes. The iron in heme grabs oxygen in your lungs and lets it go in your muscles. That iron chemistry is what makes blood red."
+  },
+  {
+   "id": "b6",
+   "text": "But a red blood cell only lives about four months. So your bone marrow makes roughly two million new ones every second."
+  },
+  {
+   "id": "b7q",
+   "speaker": "q",
+   "text": "Is all blood red?"
+  },
+  {
+   "id": "b8",
+   "text": "No. Octopuses, for example, carry oxygen with copper instead of iron, and their blood turns blue. But dinosaurs were built like birds and reptiles, so their blood ran red, with heme, just like yours."
+  },
+  {
+   "id": "f1",
+   "speaker": "q",
+   "ch": "How a bone turns to stone",
+   "gap_before": 2.2,
+   "text": "How does a bone become a fossil?"
+  },
+  {
+   "id": "f2",
+   "text": "Most of the time, it doesn't. When an animal dies, bacteria eat the soft parts within weeks. Skin, muscle and blood."
+  },
+  {
+   "id": "f3",
+   "text": "But if the bones are buried fast, water seeps through them and leaves minerals behind in every tiny pore. Over millions of years, bone becomes rock in the shape of bone."
+  },
+  {
+   "id": "f4q",
+   "speaker": "q",
+   "text": "So the blood should be long gone."
+  },
+  {
+   "id": "f5",
+   "text": "That's what scientists assumed for over a century. Soft tissue rots, big molecules fall apart, and only the hard parts stay."
+  },
+  {
+   "id": "f6",
+   "text": "So a fossil is usually a copy in stone. The shape survives. The original molecules don't."
+  },
+  {
+   "id": "d1",
+   "speaker": "q",
+   "ch": "A dinosaur from Brazil",
+   "gap_before": 2.2,
+   "text": "So which dinosaur is this?"
+  },
+  {
+   "id": "d2",
+   "text": "It's called Aratasaurus. A small, feathered meat-eater, about three metres long, that ran around northeastern Brazil 115 million years ago.",
+   "say": "It's called Aratasaurus. A small, feathered meat-eater, about three metres long, that ran around northeastern Brazil a hundred and fifteen million years ago."
+  },
+  {
+   "id": "d3",
+   "text": "All we have of it is part of one leg. Its name honours Brazil's National Museum, which burned in 2018. This fossil survived the fire.",
+   "say": "All we have of it is part of one leg. Its name honours Brazil's National Museum, which burned in twenty eighteen. This fossil survived the fire."
+  },
+  {
+   "id": "d3b",
+   "text": "It was dug up in 2008, in a gypsum mine near the town of Santana do Cariri. Its bones show it was only about four years old when it died.",
+   "say": "It was dug up in two thousand and eight, in a gypsum mine near the town of Santana do Cariri. Its bones show it was only about four years old when it died."
+  },
+  {
+   "id": "d4q",
+   "speaker": "q",
+   "text": "And the blood was inside that leg?"
+  },
+  {
+   "id": "d5",
+   "text": "Inside the tiny canals where blood vessels once ran through the bone. The team cut it into thin slices and scanned them with an electron microscope."
+  },
+  {
+   "id": "d6",
+   "text": "They saw clusters of little oval bodies, each about 20 micrometres across. Far thinner than a human hair, but more than twice as wide as your own red blood cells.",
+   "say": "They saw clusters of little oval bodies, each about twenty micrometres across. Far thinner than a human hair, but more than twice as wide as your own red blood cells."
+  },
+  {
+   "id": "p1",
+   "speaker": "q",
+   "ch": "Proving it's blood",
+   "gap_before": 2.2,
+   "text": "How do you prove a speck in a rock is blood?"
+  },
+  {
+   "id": "p2",
+   "text": "Shape alone isn't enough. In 1997, round specks in another fossil looked like blood cells. They turned out to be pyrite, fool's gold, that grew there after death.",
+   "say": "Shape alone isn't enough. In nineteen ninety-seven, round specks in another fossil looked like blood cells. They turned out to be pyrite, fool's gold, that grew there after death."
+  },
+  {
+   "id": "p3",
+   "text": "So this team tested the chemistry too. The specks contain iron, carbon and nitrogen, the building blocks of heme. Laser tests found ring-shaped molecules called porphyrins, and a lab analysis pointed to heme itself."
+  },
+  {
+   "id": "p4",
+   "text": "They even ruled out chlorophyll, the green pigment in plants, which has a very similar ring."
+  },
+  {
+   "id": "p5q",
+   "speaker": "q",
+   "text": "But how did it last a hundred million years?"
+  },
+  {
+   "id": "p6",
+   "text": "The team thinks the dinosaur was buried quickly, in mud with very little oxygen. Then a manganese mineral called hausmannite coated the cells, and sealed the molecules inside, like a tiny stone coffin."
+  },
+  {
+   "id": "k1",
+   "speaker": "q",
+   "ch": "The skeptics",
+   "gap_before": 2.2,
+   "text": "Is everyone convinced?"
+  },
+  {
+   "id": "k2",
+   "text": "No. Paleontologist Mary Schweitzer points out that the heme signal came from the whole bone, not just from the round cells. And the cells don't match the size or shape of blood cells in living birds or reptiles."
+  },
+  {
+   "id": "k3",
+   "text": "In her words, I am not convinced."
+  },
+  {
+   "id": "k4q",
+   "speaker": "q",
+   "text": "Has anyone found something like this before?"
+  },
+  {
+   "id": "k5",
+   "text": "Schweitzer herself did. In 2005, she dissolved a piece of a 68-million-year-old T. rex leg bone, and found soft, stretchy blood vessels inside. Scientists argued about it for years.",
+   "say": "Schweitzer herself did. In two thousand and five, she dissolved a piece of a sixty-eight-million-year-old T rex leg bone, and found soft, stretchy blood vessels inside. Scientists argued about it for years."
+  },
+  {
+   "id": "k6",
+   "text": "The lead author, Professor Kliti Grice, replies that nobody knows what a dinosaur's blood cell looked like, or how a hundred million years would squash it. A bold claim, then years of testing. That's how science works.",
+   "say": "The lead author, Professor Grice, replies that nobody knows what a dinosaur's blood cell looked like, or how a hundred million years would squash it. A bold claim, then years of testing. That's how science works."
+  },
+  {
+   "id": "m1",
+   "speaker": "q",
+   "ch": "The Jurassic Park mosquito",
+   "gap_before": 2.2,
+   "text": "What about the mosquito trapped in amber?"
+  },
+  {
+   "id": "m2",
+   "text": "Now here's the strange part. In 2013, scientists studied a 46-million-year-old mosquito from Montana. Not in amber, but in stone. Its belly was swollen with blood, and they found heme in it too.",
+   "say": "Now here's the strange part. In twenty thirteen, scientists studied a forty-six-million-year-old mosquito from Montana. Not in amber, but in stone. Its belly was swollen with blood, and they found heme in it too."
+  },
+  {
+   "id": "m3",
+   "text": "But no DNA. The researchers wrote that fragile molecules like DNA don't survive fossilization, while tough ones, like iron-bound heme, can."
+  },
+  {
+   "id": "m3b",
+   "text": "And amber isn't much better. In 2013, a team in Manchester tested bees trapped in copal, a young kind of amber. One was about ten thousand years old, the other less than sixty. Neither had any convincing DNA.",
+   "say": "And amber isn't much better. In twenty thirteen, a team in Manchester tested bees trapped in copal, a young kind of amber. One was about ten thousand years old, the other less than sixty. Neither had any convincing DNA."
+  },
+  {
+   "id": "m4",
+   "text": "And that mosquito lived 20 million years after the last giant dinosaurs had died out.",
+   "say": "And that mosquito lived twenty million years after the last giant dinosaurs had died out."
+  },
+  {
+   "id": "x1",
+   "speaker": "q",
+   "ch": "Where's the DNA?",
+   "gap_before": 2.2,
+   "text": "Don't blood cells carry DNA, though?"
+  },
+  {
+   "id": "x2",
+   "text": "Yours don't. Mammal red blood cells throw out their nucleus as they mature, to make room for more hemoglobin."
+  },
+  {
+   "id": "x3",
+   "text": "But birds and reptiles keep it, which is why their blood cells are oval. Dinosaurs were close relatives of birds, so their blood cells probably carried DNA too."
+  },
+  {
+   "id": "x4q",
+   "speaker": "q",
+   "text": "So the dinosaur's DNA was in there?"
+  },
+  {
+   "id": "x5",
+   "text": "Once. But DNA falls apart on a schedule. In 2012, scientists measured the DNA in 158 bones of moa, giant extinct birds from New Zealand.",
+   "say": "Once. But DNA falls apart on a schedule. In twenty twelve, scientists measured the DNA in a hundred and fifty-eight bones of moa, giant extinct birds from New Zealand."
+  },
+  {
+   "id": "x6",
+   "text": "The bonds that hold a DNA strand together have a half-life of about 521 years. Every five centuries or so, half of them break.",
+   "say": "The bonds that hold a DNA strand together have a half-life of about five hundred and twenty-one years. Every five centuries or so, half of them break."
+  },
+  {
+   "id": "n1",
+   "speaker": "q",
+   "ch": "The DNA clock",
+   "gap_before": 2.2,
+   "text": "How long until nothing is left?"
+  },
+  {
+   "id": "n2",
+   "text": "By their estimate, even in a frozen bone, DNA becomes unreadable after about one and a half million years. And every last bond is gone by 6.8 million.",
+   "say": "By their estimate, even in a frozen bone, DNA becomes unreadable after about one and a half million years. And every last bond is gone by six point eight million."
+  },
+  {
+   "id": "n2b",
+   "text": "Think of a book where, every five centuries, half the stitches in its binding snap. The pages split into smaller and smaller scraps. After a million years or so, the scraps are too tiny to read."
+  },
+  {
+   "id": "n3",
+   "text": "The oldest DNA ever read is about two million years old, from frozen soil in northern Greenland. The last giant dinosaurs died 66 million years ago. That's more than thirty times further back.",
+   "say": "The oldest DNA ever read is about two million years old, from frozen soil in northern Greenland. The last giant dinosaurs died sixty-six million years ago. That's more than thirty times further back."
+  },
+  {
+   "id": "n4",
+   "text": "So as far as we know, there's no dinosaur DNA left to clone. Not in bones, and not in mosquitoes."
+  },
+  {
+   "id": "r1",
+   "speaker": "q",
+   "ch": "What blood can still tell us",
+   "gap_before": 2.2,
+   "text": "Then why does finding blood matter?"
+  },
+  {
+   "id": "r2",
+   "text": "Because some molecules outlast DNA by a lot. In 2025, scientists read pieces of proteins from a rhino tooth in the Canadian Arctic, more than 20 million years old.",
+   "say": "Because some molecules outlast DNA by a lot. In twenty twenty-five, scientists read pieces of proteins from a rhino tooth in the Canadian Arctic, more than twenty million years old."
+  },
+  {
+   "id": "r2b",
+   "text": "The tooth's enamel, the hardest material an animal makes, worked like an armoured box around those proteins."
+  },
+  {
+   "id": "r3",
+   "text": "Heme and proteins like these can hint at how much oxygen an animal's blood carried, how active it was, and who its relatives were."
+  },
+  {
+   "id": "r3b",
+   "text": "Grice hopes blood molecules like these could help answer an old question. Just how warm-blooded and active were the dinosaurs?"
+  },
+  {
+   "id": "r4",
+   "text": "And the team thinks this kind of preservation may not be so rare. Old fossils sitting in museum drawers could be hiding more."
+  },
+  {
+   "id": "y1",
+   "speaker": "q",
+   "ch": "The dinosaur in your kitchen",
+   "gap_before": 2.2,
+   "text": "So we'll never see a living dinosaur?"
+  },
+  {
+   "id": "y2",
+   "text": "You already have. Birds are living dinosaurs. They descend from small feathered meat-eaters, cousins of Aratasaurus."
+  },
+  {
+   "id": "y2b",
+   "text": "In 2008, scientists compared scraps of collagen protein from a T. rex bone with dozens of living animals. Its closest matches were chickens and ostriches.",
+   "say": "In two thousand and eight, scientists compared scraps of collagen protein from a T rex bone with dozens of living animals. Its closest matches were chickens and ostriches."
+  },
+  {
+   "id": "y3",
+   "text": "In 2015, scientists blocked two growth signals in chicken embryos. Instead of a beak, they grew a broad snout, much more like a dinosaur's. None of them were allowed to hatch.",
+   "say": "In twenty fifteen, scientists blocked two growth signals in chicken embryos. Instead of a beak, they grew a broad snout, much more like a dinosaur's. None of them were allowed to hatch."
+  },
+  {
+   "id": "y4",
+   "text": "So part of the old dinosaur blueprint is still there, hiding in every chicken egg."
+  },
+  {
+   "id": "o1",
+   "speaker": "q",
+   "gap_before": 1.0,
+   "text": "So, what did we actually find?"
+  },
+  {
+   "id": "o2",
+   "text": "Not a living dinosaur. Something stranger. A molecule that carried oxygen through a dinosaur's body 115 million years ago, sealed in stone ever since.",
+   "say": "Not a living dinosaur. Something stranger. A molecule that carried oxygen through a dinosaur's body a hundred and fifteen million years ago, sealed in stone ever since."
+  },
+  {
+   "id": "o3",
+   "text": "Scientists found dinosaur blood. Now the search begins in every fossil drawer on Earth."
+  },
+  {
+   "id": "o4",
+   "speaker": "q",
+   "gap_before": 0.5,
+   "text": "Subscribe for more strange science, and tell us in the comments which extinct animal you'd bring back."
+  }
+ ]
+}

@@ -1,0 +1,7609 @@
+{
+ "duration": 520.827,
+ "lines": [
+  {
+   "id": "c1",
+   "speaker": "q",
+   "text": "Did scientists really just find dinosaur blood?",
+   "start": 0.35,
+   "end": 3.199
+  },
+  {
+   "id": "c2",
+   "speaker": "a",
+   "text": "Something very close. In November 2026, a team published a study about a dinosaur bone from Brazil. Inside it, they found tiny oval cells, and the chemical heart of blood, a molecule called heme.",
+   "start": 3.649,
+   "end": 15.973
+  },
+  {
+   "id": "c3",
+   "speaker": "a",
+   "text": "That bone is 115 million years old. The team says it's the oldest blood ever found, and the first proven with chemistry.",
+   "start": 16.212,
+   "end": 23.586
+  },
+  {
+   "id": "c4q",
+   "speaker": "q",
+   "text": "So can we finally clone a dinosaur?",
+   "start": 23.826,
+   "end": 25.777
+  },
+  {
+   "id": "c4",
+   "speaker": "a",
+   "text": "That's the Jurassic Park question. To answer it, we need three things. What blood is, how a bone turns to stone, and how long the molecules of life can last.",
+   "start": 26.227,
+   "end": 35.436
+  },
+  {
+   "id": "c5",
+   "speaker": "a",
+   "text": "In the movie, scientists pull dinosaur DNA out of a mosquito that bit a dinosaur and got stuck in amber. Let's see how much of that holds up.",
+   "start": 35.676,
+   "end": 43.896
+  },
+  {
+   "id": "b1",
+   "speaker": "q",
+   "text": "Okay, what is blood actually made of?",
+   "start": 46.096,
+   "end": 48.33
+  },
+  {
+   "id": "b2",
+   "speaker": "a",
+   "text": "Mostly red blood cells. You have about 25 trillion of them. That's more than eight out of every ten cells in your body.",
+   "start": 48.78,
+   "end": 55.779
+  },
+  {
+   "id": "b3",
+   "speaker": "a",
+   "text": "Each one is stuffed with around 270 million molecules of hemoglobin. And every hemoglobin holds four small rings called heme, with an iron atom in the middle.",
+   "start": 56.019,
+   "end": 65.594
+  },
+  {
+   "id": "b3b",
+   "speaker": "a",
+   "text": "Put a drop of your blood under a microscope and you'd see them. Soft red discs, dented in the middle, like a doughnut that forgot to make the hole.",
+   "start": 65.834,
+   "end": 73.897
+  },
+  {
+   "id": "b4q",
+   "speaker": "q",
+   "text": "Is the iron why blood is red?",
+   "start": 74.137,
+   "end": 75.784
+  },
+  {
+   "id": "b5",
+   "speaker": "a",
+   "text": "Yes. The iron in heme grabs oxygen in your lungs and lets it go in your muscles. That iron chemistry is what makes blood red.",
+   "start": 76.234,
+   "end": 83.463
+  },
+  {
+   "id": "b6",
+   "speaker": "a",
+   "text": "But a red blood cell only lives about four months. So your bone marrow makes roughly two million new ones every second.",
+   "start": 83.703,
+   "end": 90.529
+  },
+  {
+   "id": "b7q",
+   "speaker": "q",
+   "text": "Is all blood red?",
+   "start": 90.769,
+   "end": 91.839
+  },
+  {
+   "id": "b8",
+   "speaker": "a",
+   "text": "No. Octopuses, for example, carry oxygen with copper instead of iron, and their blood turns blue. But dinosaurs were built like birds and reptiles, so their blood ran red, with heme, just like yours.",
+   "start": 92.289,
+   "end": 103.449
+  },
+  {
+   "id": "f1",
+   "speaker": "q",
+   "text": "How does a bone become a fossil?",
+   "start": 105.649,
+   "end": 107.309
+  },
+  {
+   "id": "f2",
+   "speaker": "a",
+   "text": "Most of the time, it doesn't. When an animal dies, bacteria eat the soft parts within weeks. Skin, muscle and blood.",
+   "start": 107.759,
+   "end": 115.194
+  },
+  {
+   "id": "f3",
+   "speaker": "a",
+   "text": "But if the bones are buried fast, water seeps through them and leaves minerals behind in every tiny pore. Over millions of years, bone becomes rock in the shape of bone.",
+   "start": 115.434,
+   "end": 124.942
+  },
+  {
+   "id": "f4q",
+   "speaker": "q",
+   "text": "So the blood should be long gone.",
+   "start": 125.182,
+   "end": 126.728
+  },
+  {
+   "id": "f5",
+   "speaker": "a",
+   "text": "That's what scientists assumed for over a century. Soft tissue rots, big molecules fall apart, and only the hard parts stay.",
+   "start": 127.178,
+   "end": 134.745
+  },
+  {
+   "id": "f6",
+   "speaker": "a",
+   "text": "So a fossil is usually a copy in stone. The shape survives. The original molecules don't.",
+   "start": 134.985,
+   "end": 140.585
+  },
+  {
+   "id": "d1",
+   "speaker": "q",
+   "text": "So which dinosaur is this?",
+   "start": 142.785,
+   "end": 144.288
+  },
+  {
+   "id": "d2",
+   "speaker": "a",
+   "text": "It's called Aratasaurus. A small, feathered meat-eater, about three metres long, that ran around northeastern Brazil 115 million years ago.",
+   "start": 144.738,
+   "end": 153.529
+  },
+  {
+   "id": "d3",
+   "speaker": "a",
+   "text": "All we have of it is part of one leg. Its name honours Brazil's National Museum, which burned in 2018. This fossil survived the fire.",
+   "start": 153.769,
+   "end": 162.139
+  },
+  {
+   "id": "d3b",
+   "speaker": "a",
+   "text": "It was dug up in 2008, in a gypsum mine near the town of Santana do Cariri. Its bones show it was only about four years old when it died.",
+   "start": 162.379,
+   "end": 170.836
+  },
+  {
+   "id": "d4q",
+   "speaker": "q",
+   "text": "And the blood was inside that leg?",
+   "start": 171.076,
+   "end": 172.784
+  },
+  {
+   "id": "d5",
+   "speaker": "a",
+   "text": "Inside the tiny canals where blood vessels once ran through the bone. The team cut it into thin slices and scanned them with an electron microscope.",
+   "start": 173.234,
+   "end": 181.854
+  },
+  {
+   "id": "d6",
+   "speaker": "a",
+   "text": "They saw clusters of little oval bodies, each about 20 micrometres across. Far thinner than a human hair, but more than twice as wide as your own red blood cells.",
+   "start": 182.094,
+   "end": 191.629
+  },
+  {
+   "id": "p1",
+   "speaker": "q",
+   "text": "How do you prove a speck in a rock is blood?",
+   "start": 193.829,
+   "end": 195.888
+  },
+  {
+   "id": "p2",
+   "speaker": "a",
+   "text": "Shape alone isn't enough. In 1997, round specks in another fossil looked like blood cells. They turned out to be pyrite, fool's gold, that grew there after death.",
+   "start": 196.338,
+   "end": 206.374
+  },
+  {
+   "id": "p3",
+   "speaker": "a",
+   "text": "So this team tested the chemistry too. The specks contain iron, carbon and nitrogen, the building blocks of heme. Laser tests found ring-shaped molecules called porphyrins, and a lab analysis pointed to heme itself.",
+   "start": 206.614,
+   "end": 218.9
+  },
+  {
+   "id": "p4",
+   "speaker": "a",
+   "text": "They even ruled out chlorophyll, the green pigment in plants, which has a very similar ring.",
+   "start": 219.14,
+   "end": 224.558
+  },
+  {
+   "id": "p5q",
+   "speaker": "q",
+   "text": "But how did it last a hundred million years?",
+   "start": 224.798,
+   "end": 227.032
+  },
+  {
+   "id": "p6",
+   "speaker": "a",
+   "text": "The team thinks the dinosaur was buried quickly, in mud with very little oxygen. Then a manganese mineral called hausmannite coated the cells, and sealed the molecules inside, like a tiny stone coffin.",
+   "start": 227.482,
+   "end": 239.135
+  },
+  {
+   "id": "k1",
+   "speaker": "q",
+   "text": "Is everyone convinced?",
+   "start": 241.335,
+   "end": 242.609
+  },
+  {
+   "id": "k2",
+   "speaker": "a",
+   "text": "No. Paleontologist Mary Schweitzer points out that the heme signal came from the whole bone, not just from the round cells. And the cells don't match the size or shape of blood cells in living birds or reptiles.",
+   "start": 243.059,
+   "end": 255.072
+  },
+  {
+   "id": "k3",
+   "speaker": "a",
+   "text": "In her words, I am not convinced.",
+   "start": 255.312,
+   "end": 258.049
+  },
+  {
+   "id": "k4q",
+   "speaker": "q",
+   "text": "Has anyone found something like this before?",
+   "start": 258.289,
+   "end": 260.506
+  },
+  {
+   "id": "k5",
+   "speaker": "a",
+   "text": "Schweitzer herself did. In 2005, she dissolved a piece of a 68-million-year-old T. rex leg bone, and found soft, stretchy blood vessels inside. Scientists argued about it for years.",
+   "start": 260.956,
+   "end": 272.764
+  },
+  {
+   "id": "k6",
+   "speaker": "a",
+   "text": "The lead author, Professor Kliti Grice, replies that nobody knows what a dinosaur's blood cell looked like, or how a hundred million years would squash it. A bold claim, then years of testing. That's how science works.",
+   "start": 273.004,
+   "end": 284.424
+  },
+  {
+   "id": "m1",
+   "speaker": "q",
+   "text": "What about the mosquito trapped in amber?",
+   "start": 286.624,
+   "end": 288.421
+  },
+  {
+   "id": "m2",
+   "speaker": "a",
+   "text": "Now here's the strange part. In 2013, scientists studied a 46-million-year-old mosquito from Montana. Not in amber, but in stone. Its belly was swollen with blood, and they found heme in it too.",
+   "start": 288.871,
+   "end": 301.042
+  },
+  {
+   "id": "m3",
+   "speaker": "a",
+   "text": "But no DNA. The researchers wrote that fragile molecules like DNA don't survive fossilization, while tough ones, like iron-bound heme, can.",
+   "start": 301.282,
+   "end": 310.094
+  },
+  {
+   "id": "m3b",
+   "speaker": "a",
+   "text": "And amber isn't much better. In 2013, a team in Manchester tested bees trapped in copal, a young kind of amber. One was about ten thousand years old, the other less than sixty. Neither had any convincing DNA.",
+   "start": 310.334,
+   "end": 323.18
+  },
+  {
+   "id": "m4",
+   "speaker": "a",
+   "text": "And that mosquito lived 20 million years after the last giant dinosaurs had died out.",
+   "start": 323.42,
+   "end": 328.737
+  },
+  {
+   "id": "x1",
+   "speaker": "q",
+   "text": "Don't blood cells carry DNA, though?",
+   "start": 330.937,
+   "end": 332.781
+  },
+  {
+   "id": "x2",
+   "speaker": "a",
+   "text": "Yours don't. Mammal red blood cells throw out their nucleus as they mature, to make room for more hemoglobin.",
+   "start": 333.231,
+   "end": 339.375
+  },
+  {
+   "id": "x3",
+   "speaker": "a",
+   "text": "But birds and reptiles keep it, which is why their blood cells are oval. Dinosaurs were close relatives of birds, so their blood cells probably carried DNA too.",
+   "start": 339.615,
+   "end": 348.554
+  },
+  {
+   "id": "x4q",
+   "speaker": "q",
+   "text": "So the dinosaur's DNA was in there?",
+   "start": 348.794,
+   "end": 350.888
+  },
+  {
+   "id": "x5",
+   "speaker": "a",
+   "text": "Once. But DNA falls apart on a schedule. In 2012, scientists measured the DNA in 158 bones of moa, giant extinct birds from New Zealand.",
+   "start": 351.338,
+   "end": 361.276
+  },
+  {
+   "id": "x6",
+   "speaker": "a",
+   "text": "The bonds that hold a DNA strand together have a half-life of about 521 years. Every five centuries or so, half of them break.",
+   "start": 361.516,
+   "end": 370.062
+  },
+  {
+   "id": "n1",
+   "speaker": "q",
+   "text": "How long until nothing is left?",
+   "start": 372.262,
+   "end": 373.999
+  },
+  {
+   "id": "n2",
+   "speaker": "a",
+   "text": "By their estimate, even in a frozen bone, DNA becomes unreadable after about one and a half million years. And every last bond is gone by 6.8 million.",
+   "start": 374.449,
+   "end": 384.292
+  },
+  {
+   "id": "n2b",
+   "speaker": "a",
+   "text": "Think of a book where, every five centuries, half the stitches in its binding snap. The pages split into smaller and smaller scraps. After a million years or so, the scraps are too tiny to read.",
+   "start": 384.532,
+   "end": 395.073
+  },
+  {
+   "id": "n3",
+   "speaker": "a",
+   "text": "The oldest DNA ever read is about two million years old, from frozen soil in northern Greenland. The last giant dinosaurs died 66 million years ago. That's more than thirty times further back.",
+   "start": 395.313,
+   "end": 406.797
+  },
+  {
+   "id": "n4",
+   "speaker": "a",
+   "text": "So as far as we know, there's no dinosaur DNA left to clone. Not in bones, and not in mosquitoes.",
+   "start": 407.037,
+   "end": 413.131
+  },
+  {
+   "id": "r1",
+   "speaker": "q",
+   "text": "Then why does finding blood matter?",
+   "start": 415.331,
+   "end": 417.159
+  },
+  {
+   "id": "r2",
+   "speaker": "a",
+   "text": "Because some molecules outlast DNA by a lot. In 2025, scientists read pieces of proteins from a rhino tooth in the Canadian Arctic, more than 20 million years old.",
+   "start": 417.609,
+   "end": 428.565
+  },
+  {
+   "id": "r2b",
+   "speaker": "a",
+   "text": "The tooth's enamel, the hardest material an animal makes, worked like an armoured box around those proteins.",
+   "start": 428.805,
+   "end": 435.515
+  },
+  {
+   "id": "r3",
+   "speaker": "a",
+   "text": "Heme and proteins like these can hint at how much oxygen an animal's blood carried, how active it was, and who its relatives were.",
+   "start": 435.755,
+   "end": 443.619
+  },
+  {
+   "id": "r3b",
+   "speaker": "a",
+   "text": "Grice hopes blood molecules like these could help answer an old question. Just how warm-blooded and active were the dinosaurs?",
+   "start": 443.859,
+   "end": 450.95
+  },
+  {
+   "id": "r4",
+   "speaker": "a",
+   "text": "And the team thinks this kind of preservation may not be so rare. Old fossils sitting in museum drawers could be hiding more.",
+   "start": 451.19,
+   "end": 457.756
+  },
+  {
+   "id": "y1",
+   "speaker": "q",
+   "text": "So we'll never see a living dinosaur?",
+   "start": 459.956,
+   "end": 461.825
+  },
+  {
+   "id": "y2",
+   "speaker": "a",
+   "text": "You already have. Birds are living dinosaurs. They descend from small feathered meat-eaters, cousins of Aratasaurus.",
+   "start": 462.275,
+   "end": 468.802
+  },
+  {
+   "id": "y2b",
+   "speaker": "a",
+   "text": "In 2008, scientists compared scraps of collagen protein from a T. rex bone with dozens of living animals. Its closest matches were chickens and ostriches.",
+   "start": 469.042,
+   "end": 479.128
+  },
+  {
+   "id": "y3",
+   "speaker": "a",
+   "text": "In 2015, scientists blocked two growth signals in chicken embryos. Instead of a beak, they grew a broad snout, much more like a dinosaur's. None of them were allowed to hatch.",
+   "start": 479.368,
+   "end": 489.592
+  },
+  {
+   "id": "y4",
+   "speaker": "a",
+   "text": "So part of the old dinosaur blueprint is still there, hiding in every chicken egg.",
+   "start": 489.832,
+   "end": 494.927
+  },
+  {
+   "id": "o1",
+   "speaker": "q",
+   "text": "So, what did we actually find?",
+   "start": 495.927,
+   "end": 497.606
+  },
+  {
+   "id": "o2",
+   "speaker": "a",
+   "text": "Not a living dinosaur. Something stranger. A molecule that carried oxygen through a dinosaur's body 115 million years ago, sealed in stone ever since.",
+   "start": 498.056,
+   "end": 507.476
+  },
+  {
+   "id": "o3",
+   "speaker": "a",
+   "text": "Scientists found dinosaur blood. Now the search begins in every fossil drawer on Earth.",
+   "start": 507.716,
+   "end": 513.408
+  },
+  {
+   "id": "o4",
+   "speaker": "q",
+   "text": "Subscribe for more strange science, and tell us in the comments which extinct animal you'd bring back.",
+   "start": 513.908,
+   "end": 519.628
+  }
+ ],
+ "words": [
+  {
+   "w": "Did",
+   "s": 0.0,
+   "e": 0.42
+  },
+  {
+   "w": "scientists",
+   "s": 0.42,
+   "e": 0.82
+  },
+  {
+   "w": "really",
+   "s": 0.82,
+   "e": 1.52
+  },
+  {
+   "w": "just",
+   "s": 1.52,
+   "e": 1.84
+  },
+  {
+   "w": "find",
+   "s": 1.84,
+   "e": 2.1
+  },
+  {
+   "w": "dinosaur",
+   "s": 2.1,
+   "e": 2.44
+  },
+  {
+   "w": "blood?",
+   "s": 2.44,
+   "e": 3.0
+  },
+  {
+   "w": "Something",
+   "s": 3.64,
+   "e": 3.94
+  },
+  {
+   "w": "very",
+   "s": 3.94,
+   "e": 4.16
+  },
+  {
+   "w": "close.",
+   "s": 4.16,
+   "e": 4.56
+  },
+  {
+   "w": "In",
+   "s": 5.26,
+   "e": 5.32
+  },
+  {
+   "w": "November,",
+   "s": 5.32,
+   "e": 5.52
+  },
+  {
+   "w": "2026,",
+   "s": 5.9,
+   "e": 6.62
+  },
+  {
+   "w": "a",
+   "s": 6.96,
+   "e": 7.02
+  },
+  {
+   "w": "team",
+   "s": 7.02,
+   "e": 7.26
+  },
+  {
+   "w": "published",
+   "s": 7.26,
+   "e": 7.62
+  },
+  {
+   "w": "a",
+   "s": 7.62,
+   "e": 7.82
+  },
+  {
+   "w": "study",
+   "s": 7.82,
+   "e": 8.12
+  },
+  {
+   "w": "about",
+   "s": 8.12,
+   "e": 8.38
+  },
+  {
+   "w": "a",
+   "s": 8.38,
+   "e": 8.5
+  },
+  {
+   "w": "dinosaur",
+   "s": 8.5,
+   "e": 8.92
+  },
+  {
+   "w": "bone",
+   "s": 8.92,
+   "e": 9.18
+  },
+  {
+   "w": "from",
+   "s": 9.18,
+   "e": 9.46
+  },
+  {
+   "w": "Brazil.",
+   "s": 9.46,
+   "e": 9.72
+  },
+  {
+   "w": "Inside",
+   "s": 10.44,
+   "e": 10.74
+  },
+  {
+   "w": "it,",
+   "s": 10.74,
+   "e": 11.12
+  },
+  {
+   "w": "they",
+   "s": 11.2,
+   "e": 11.32
+  },
+  {
+   "w": "found",
+   "s": 11.32,
+   "e": 11.54
+  },
+  {
+   "w": "tiny",
+   "s": 11.54,
+   "e": 11.88
+  },
+  {
+   "w": "oval",
+   "s": 11.88,
+   "e": 12.22
+  },
+  {
+   "w": "cells",
+   "s": 12.22,
+   "e": 12.66
+  },
+  {
+   "w": "and",
+   "s": 12.66,
+   "e": 13.2
+  },
+  {
+   "w": "the",
+   "s": 13.2,
+   "e": 13.28
+  },
+  {
+   "w": "chemical",
+   "s": 13.28,
+   "e": 13.54
+  },
+  {
+   "w": "heart",
+   "s": 13.54,
+   "e": 13.92
+  },
+  {
+   "w": "of",
+   "s": 13.92,
+   "e": 14.08
+  },
+  {
+   "w": "blood,",
+   "s": 14.08,
+   "e": 14.34
+  },
+  {
+   "w": "a",
+   "s": 14.6,
+   "e": 14.76
+  },
+  {
+   "w": "molecule",
+   "s": 14.76,
+   "e": 15.02
+  },
+  {
+   "w": "called",
+   "s": 15.02,
+   "e": 15.56
+  },
+  {
+   "w": "heme.",
+   "s": 15.56,
+   "e": 15.9
+  },
+  {
+   "w": "That",
+   "s": 16.22,
+   "e": 16.32
+  },
+  {
+   "w": "bone",
+   "s": 16.32,
+   "e": 16.56
+  },
+  {
+   "w": "is",
+   "s": 16.56,
+   "e": 16.86
+  },
+  {
+   "w": "115",
+   "s": 16.86,
+   "e": 17.04
+  },
+  {
+   "w": "million",
+   "s": 17.04,
+   "e": 17.94
+  },
+  {
+   "w": "years",
+   "s": 17.94,
+   "e": 18.34
+  },
+  {
+   "w": "old.",
+   "s": 18.34,
+   "e": 18.64
+  },
+  {
+   "w": "The",
+   "s": 19.12,
+   "e": 19.24
+  },
+  {
+   "w": "team",
+   "s": 19.24,
+   "e": 19.42
+  },
+  {
+   "w": "says",
+   "s": 19.42,
+   "e": 19.7
+  },
+  {
+   "w": "it's",
+   "s": 19.7,
+   "e": 19.94
+  },
+  {
+   "w": "the",
+   "s": 19.94,
+   "e": 20.04
+  },
+  {
+   "w": "oldest",
+   "s": 20.04,
+   "e": 20.34
+  },
+  {
+   "w": "blood",
+   "s": 20.34,
+   "e": 20.68
+  },
+  {
+   "w": "ever",
+   "s": 20.68,
+   "e": 20.98
+  },
+  {
+   "w": "found",
+   "s": 20.98,
+   "e": 21.38
+  },
+  {
+   "w": "and",
+   "s": 21.38,
+   "e": 21.9
+  },
+  {
+   "w": "the",
+   "s": 21.9,
+   "e": 22.0
+  },
+  {
+   "w": "first",
+   "s": 22.0,
+   "e": 22.24
+  },
+  {
+   "w": "proven",
+   "s": 22.24,
+   "e": 22.6
+  },
+  {
+   "w": "with",
+   "s": 22.6,
+   "e": 22.86
+  },
+  {
+   "w": "chemistry.",
+   "s": 22.86,
+   "e": 23.1
+  },
+  {
+   "w": "So",
+   "s": 23.82,
+   "e": 23.94
+  },
+  {
+   "w": "can",
+   "s": 23.94,
+   "e": 24.08
+  },
+  {
+   "w": "we",
+   "s": 24.08,
+   "e": 24.18
+  },
+  {
+   "w": "finally",
+   "s": 24.18,
+   "e": 24.52
+  },
+  {
+   "w": "clone",
+   "s": 24.52,
+   "e": 24.88
+  },
+  {
+   "w": "a",
+   "s": 24.88,
+   "e": 25.06
+  },
+  {
+   "w": "dinosaur?",
+   "s": 25.06,
+   "e": 25.34
+  },
+  {
+   "w": "That's",
+   "s": 26.06,
+   "e": 26.44
+  },
+  {
+   "w": "the",
+   "s": 26.44,
+   "e": 26.56
+  },
+  {
+   "w": "Jurassic",
+   "s": 26.56,
+   "e": 26.82
+  },
+  {
+   "w": "Park",
+   "s": 26.82,
+   "e": 27.26
+  },
+  {
+   "w": "question.",
+   "s": 27.26,
+   "e": 27.62
+  },
+  {
+   "w": "To",
+   "s": 27.62,
+   "e": 28.48
+  },
+  {
+   "w": "answer",
+   "s": 28.48,
+   "e": 28.82
+  },
+  {
+   "w": "it,",
+   "s": 28.82,
+   "e": 29.04
+  },
+  {
+   "w": "we",
+   "s": 29.12,
+   "e": 29.18
+  },
+  {
+   "w": "need",
+   "s": 29.18,
+   "e": 29.32
+  },
+  {
+   "w": "three",
+   "s": 29.32,
+   "e": 29.58
+  },
+  {
+   "w": "things.",
+   "s": 29.58,
+   "e": 29.96
+  },
+  {
+   "w": "What",
+   "s": 30.54,
+   "e": 30.68
+  },
+  {
+   "w": "blood",
+   "s": 30.68,
+   "e": 30.88
+  },
+  {
+   "w": "is,",
+   "s": 30.88,
+   "e": 31.22
+  },
+  {
+   "w": "how",
+   "s": 31.36,
+   "e": 31.5
+  },
+  {
+   "w": "a",
+   "s": 31.5,
+   "e": 31.58
+  },
+  {
+   "w": "bone",
+   "s": 31.58,
+   "e": 31.76
+  },
+  {
+   "w": "turns",
+   "s": 31.76,
+   "e": 32.12
+  },
+  {
+   "w": "to",
+   "s": 32.12,
+   "e": 32.34
+  },
+  {
+   "w": "stone,",
+   "s": 32.34,
+   "e": 32.62
+  },
+  {
+   "w": "and",
+   "s": 32.96,
+   "e": 33.16
+  },
+  {
+   "w": "how",
+   "s": 33.16,
+   "e": 33.36
+  },
+  {
+   "w": "long",
+   "s": 33.36,
+   "e": 33.56
+  },
+  {
+   "w": "the",
+   "s": 33.56,
+   "e": 33.74
+  },
+  {
+   "w": "molecules",
+   "s": 33.74,
+   "e": 34.14
+  },
+  {
+   "w": "of",
+   "s": 34.14,
+   "e": 34.38
+  },
+  {
+   "w": "life",
+   "s": 34.38,
+   "e": 34.58
+  },
+  {
+   "w": "can",
+   "s": 34.58,
+   "e": 34.82
+  },
+  {
+   "w": "last.",
+   "s": 34.82,
+   "e": 35.06
+  },
+  {
+   "w": "In",
+   "s": 35.72,
+   "e": 35.78
+  },
+  {
+   "w": "the",
+   "s": 35.78,
+   "e": 35.86
+  },
+  {
+   "w": "movie,",
+   "s": 35.86,
+   "e": 36.14
+  },
+  {
+   "w": "scientists",
+   "s": 36.28,
+   "e": 36.84
+  },
+  {
+   "w": "pull",
+   "s": 36.84,
+   "e": 37.26
+  },
+  {
+   "w": "dinosaur",
+   "s": 37.26,
+   "e": 37.56
+  },
+  {
+   "w": "DNA",
+   "s": 37.56,
+   "e": 38.0
+  },
+  {
+   "w": "out",
+   "s": 38.0,
+   "e": 38.48
+  },
+  {
+   "w": "of",
+   "s": 38.48,
+   "e": 38.58
+  },
+  {
+   "w": "a",
+   "s": 38.58,
+   "e": 38.64
+  },
+  {
+   "w": "mosquito",
+   "s": 38.64,
+   "e": 38.94
+  },
+  {
+   "w": "that",
+   "s": 38.94,
+   "e": 39.58
+  },
+  {
+   "w": "bit",
+   "s": 39.58,
+   "e": 39.7
+  },
+  {
+   "w": "a",
+   "s": 39.7,
+   "e": 39.82
+  },
+  {
+   "w": "dinosaur",
+   "s": 39.82,
+   "e": 40.24
+  },
+  {
+   "w": "and",
+   "s": 40.24,
+   "e": 40.52
+  },
+  {
+   "w": "got",
+   "s": 40.52,
+   "e": 40.68
+  },
+  {
+   "w": "stuck",
+   "s": 40.68,
+   "e": 41.02
+  },
+  {
+   "w": "in",
+   "s": 41.02,
+   "e": 41.22
+  },
+  {
+   "w": "amber.",
+   "s": 41.22,
+   "e": 41.4
+  },
+  {
+   "w": "Let's",
+   "s": 42.06,
+   "e": 42.28
+  },
+  {
+   "w": "see",
+   "s": 42.28,
+   "e": 42.4
+  },
+  {
+   "w": "how",
+   "s": 42.4,
+   "e": 42.58
+  },
+  {
+   "w": "much",
+   "s": 42.58,
+   "e": 42.78
+  },
+  {
+   "w": "of",
+   "s": 42.78,
+   "e": 42.98
+  },
+  {
+   "w": "that",
+   "s": 42.98,
+   "e": 43.12
+  },
+  {
+   "w": "holds",
+   "s": 43.12,
+   "e": 43.36
+  },
+  {
+   "w": "up.",
+   "s": 43.36,
+   "e": 43.66
+  },
+  {
+   "w": "Okay,",
+   "s": 45.9,
+   "e": 46.38
+  },
+  {
+   "w": "what",
+   "s": 46.68,
+   "e": 46.8
+  },
+  {
+   "w": "is",
+   "s": 46.8,
+   "e": 46.92
+  },
+  {
+   "w": "blood",
+   "s": 46.92,
+   "e": 47.12
+  },
+  {
+   "w": "actually",
+   "s": 47.12,
+   "e": 47.64
+  },
+  {
+   "w": "made",
+   "s": 47.64,
+   "e": 47.94
+  },
+  {
+   "w": "of?",
+   "s": 47.94,
+   "e": 48.18
+  },
+  {
+   "w": "Mostly",
+   "s": 48.74,
+   "e": 49.08
+  },
+  {
+   "w": "red",
+   "s": 49.08,
+   "e": 49.34
+  },
+  {
+   "w": "blood",
+   "s": 49.34,
+   "e": 49.62
+  },
+  {
+   "w": "cells.",
+   "s": 49.62,
+   "e": 49.9
+  },
+  {
+   "w": "You",
+   "s": 50.52,
+   "e": 50.58
+  },
+  {
+   "w": "have",
+   "s": 50.58,
+   "e": 50.7
+  },
+  {
+   "w": "about",
+   "s": 50.7,
+   "e": 50.9
+  },
+  {
+   "w": "25",
+   "s": 50.9,
+   "e": 51.34
+  },
+  {
+   "w": "trillion",
+   "s": 51.34,
+   "e": 51.8
+  },
+  {
+   "w": "of",
+   "s": 51.8,
+   "e": 52.14
+  },
+  {
+   "w": "them.",
+   "s": 52.14,
+   "e": 52.3
+  },
+  {
+   "w": "That's",
+   "s": 52.82,
+   "e": 53.12
+  },
+  {
+   "w": "more",
+   "s": 53.12,
+   "e": 53.28
+  },
+  {
+   "w": "than",
+   "s": 53.28,
+   "e": 53.42
+  },
+  {
+   "w": "eight",
+   "s": 53.42,
+   "e": 53.64
+  },
+  {
+   "w": "out",
+   "s": 53.64,
+   "e": 53.92
+  },
+  {
+   "w": "of",
+   "s": 53.92,
+   "e": 54.04
+  },
+  {
+   "w": "every",
+   "s": 54.04,
+   "e": 54.32
+  },
+  {
+   "w": "ten",
+   "s": 54.32,
+   "e": 54.56
+  },
+  {
+   "w": "cells",
+   "s": 54.56,
+   "e": 54.82
+  },
+  {
+   "w": "in",
+   "s": 54.82,
+   "e": 55.08
+  },
+  {
+   "w": "your",
+   "s": 55.08,
+   "e": 55.2
+  },
+  {
+   "w": "body.",
+   "s": 55.2,
+   "e": 55.46
+  },
+  {
+   "w": "Each",
+   "s": 55.46,
+   "e": 56.08
+  },
+  {
+   "w": "one",
+   "s": 56.08,
+   "e": 56.36
+  },
+  {
+   "w": "is",
+   "s": 56.36,
+   "e": 56.44
+  },
+  {
+   "w": "stuffed",
+   "s": 56.44,
+   "e": 56.66
+  },
+  {
+   "w": "with",
+   "s": 56.66,
+   "e": 57.02
+  },
+  {
+   "w": "around",
+   "s": 57.02,
+   "e": 57.24
+  },
+  {
+   "w": "270",
+   "s": 57.24,
+   "e": 57.56
+  },
+  {
+   "w": "million",
+   "s": 57.56,
+   "e": 58.62
+  },
+  {
+   "w": "molecules",
+   "s": 58.62,
+   "e": 59.16
+  },
+  {
+   "w": "of",
+   "s": 59.16,
+   "e": 59.42
+  },
+  {
+   "w": "hemoglobin.",
+   "s": 59.42,
+   "e": 59.86
+  },
+  {
+   "w": "And",
+   "s": 60.6,
+   "e": 60.8
+  },
+  {
+   "w": "every",
+   "s": 60.8,
+   "e": 60.98
+  },
+  {
+   "w": "hemoglobin",
+   "s": 60.98,
+   "e": 61.58
+  },
+  {
+   "w": "holds",
+   "s": 61.58,
+   "e": 61.94
+  },
+  {
+   "w": "four",
+   "s": 61.94,
+   "e": 62.32
+  },
+  {
+   "w": "small",
+   "s": 62.32,
+   "e": 62.64
+  },
+  {
+   "w": "rings",
+   "s": 62.64,
+   "e": 62.94
+  },
+  {
+   "w": "called",
+   "s": 62.94,
+   "e": 63.28
+  },
+  {
+   "w": "heme,",
+   "s": 63.28,
+   "e": 63.7
+  },
+  {
+   "w": "with",
+   "s": 64.06,
+   "e": 64.1
+  },
+  {
+   "w": "an",
+   "s": 64.1,
+   "e": 64.2
+  },
+  {
+   "w": "iron",
+   "s": 64.2,
+   "e": 64.44
+  },
+  {
+   "w": "atom",
+   "s": 64.44,
+   "e": 64.78
+  },
+  {
+   "w": "in",
+   "s": 64.78,
+   "e": 65.06
+  },
+  {
+   "w": "the",
+   "s": 65.06,
+   "e": 65.18
+  },
+  {
+   "w": "middle.",
+   "s": 65.18,
+   "e": 65.4
+  },
+  {
+   "w": "Put",
+   "s": 65.86,
+   "e": 65.92
+  },
+  {
+   "w": "a",
+   "s": 65.92,
+   "e": 66.0
+  },
+  {
+   "w": "drop",
+   "s": 66.0,
+   "e": 66.2
+  },
+  {
+   "w": "of",
+   "s": 66.2,
+   "e": 66.32
+  },
+  {
+   "w": "your",
+   "s": 66.32,
+   "e": 66.42
+  },
+  {
+   "w": "blood",
+   "s": 66.42,
+   "e": 66.6
+  },
+  {
+   "w": "under",
+   "s": 66.6,
+   "e": 66.8
+  },
+  {
+   "w": "a",
+   "s": 66.8,
+   "e": 66.94
+  },
+  {
+   "w": "microscope",
+   "s": 66.94,
+   "e": 67.28
+  },
+  {
+   "w": "and",
+   "s": 67.28,
+   "e": 67.84
+  },
+  {
+   "w": "you'd",
+   "s": 67.84,
+   "e": 68.04
+  },
+  {
+   "w": "see",
+   "s": 68.04,
+   "e": 68.18
+  },
+  {
+   "w": "them.",
+   "s": 68.18,
+   "e": 68.42
+  },
+  {
+   "w": "Soft",
+   "s": 69.06,
+   "e": 69.36
+  },
+  {
+   "w": "red",
+   "s": 69.36,
+   "e": 69.62
+  },
+  {
+   "w": "discs",
+   "s": 69.62,
+   "e": 70.04
+  },
+  {
+   "w": "dented",
+   "s": 70.04,
+   "e": 70.66
+  },
+  {
+   "w": "in",
+   "s": 70.66,
+   "e": 70.9
+  },
+  {
+   "w": "the",
+   "s": 70.9,
+   "e": 71.0
+  },
+  {
+   "w": "middle",
+   "s": 71.0,
+   "e": 71.24
+  },
+  {
+   "w": "like",
+   "s": 71.24,
+   "e": 71.58
+  },
+  {
+   "w": "a",
+   "s": 71.58,
+   "e": 71.72
+  },
+  {
+   "w": "donut",
+   "s": 71.72,
+   "e": 72.1
+  },
+  {
+   "w": "that",
+   "s": 72.1,
+   "e": 72.28
+  },
+  {
+   "w": "forgot",
+   "s": 72.28,
+   "e": 72.5
+  },
+  {
+   "w": "to",
+   "s": 72.5,
+   "e": 72.72
+  },
+  {
+   "w": "make",
+   "s": 72.72,
+   "e": 72.86
+  },
+  {
+   "w": "the",
+   "s": 72.86,
+   "e": 73.02
+  },
+  {
+   "w": "hole.",
+   "s": 73.02,
+   "e": 73.18
+  },
+  {
+   "w": "Is",
+   "s": 74.08,
+   "e": 74.2
+  },
+  {
+   "w": "the",
+   "s": 74.2,
+   "e": 74.34
+  },
+  {
+   "w": "iron",
+   "s": 74.34,
+   "e": 74.64
+  },
+  {
+   "w": "why",
+   "s": 74.64,
+   "e": 74.88
+  },
+  {
+   "w": "blood",
+   "s": 74.88,
+   "e": 75.14
+  },
+  {
+   "w": "is",
+   "s": 75.14,
+   "e": 75.36
+  },
+  {
+   "w": "red?",
+   "s": 75.36,
+   "e": 75.54
+  },
+  {
+   "w": "Yes,",
+   "s": 76.12,
+   "e": 76.36
+  },
+  {
+   "w": "the",
+   "s": 76.66,
+   "e": 76.78
+  },
+  {
+   "w": "iron",
+   "s": 76.78,
+   "e": 77.06
+  },
+  {
+   "w": "in",
+   "s": 77.06,
+   "e": 77.2
+  },
+  {
+   "w": "heme",
+   "s": 77.2,
+   "e": 77.5
+  },
+  {
+   "w": "grabs",
+   "s": 77.5,
+   "e": 77.74
+  },
+  {
+   "w": "oxygen",
+   "s": 77.74,
+   "e": 78.18
+  },
+  {
+   "w": "in",
+   "s": 78.18,
+   "e": 78.46
+  },
+  {
+   "w": "your",
+   "s": 78.46,
+   "e": 78.56
+  },
+  {
+   "w": "lungs",
+   "s": 78.56,
+   "e": 78.78
+  },
+  {
+   "w": "and",
+   "s": 78.78,
+   "e": 79.36
+  },
+  {
+   "w": "lets",
+   "s": 79.36,
+   "e": 79.5
+  },
+  {
+   "w": "it",
+   "s": 79.5,
+   "e": 79.66
+  },
+  {
+   "w": "go",
+   "s": 79.66,
+   "e": 79.8
+  },
+  {
+   "w": "in",
+   "s": 79.8,
+   "e": 79.94
+  },
+  {
+   "w": "your",
+   "s": 79.94,
+   "e": 80.02
+  },
+  {
+   "w": "muscles.",
+   "s": 80.02,
+   "e": 80.32
+  },
+  {
+   "w": "That",
+   "s": 80.32,
+   "e": 81.12
+  },
+  {
+   "w": "iron",
+   "s": 81.12,
+   "e": 81.4
+  },
+  {
+   "w": "chemistry",
+   "s": 81.4,
+   "e": 81.82
+  },
+  {
+   "w": "is",
+   "s": 81.82,
+   "e": 82.32
+  },
+  {
+   "w": "what",
+   "s": 82.32,
+   "e": 82.5
+  },
+  {
+   "w": "makes",
+   "s": 82.5,
+   "e": 82.72
+  },
+  {
+   "w": "blood",
+   "s": 82.72,
+   "e": 82.94
+  },
+  {
+   "w": "red.",
+   "s": 82.94,
+   "e": 83.22
+  },
+  {
+   "w": "But",
+   "s": 83.74,
+   "e": 83.8
+  },
+  {
+   "w": "a",
+   "s": 83.8,
+   "e": 83.9
+  },
+  {
+   "w": "red",
+   "s": 83.9,
+   "e": 84.06
+  },
+  {
+   "w": "blood",
+   "s": 84.06,
+   "e": 84.34
+  },
+  {
+   "w": "cell",
+   "s": 84.34,
+   "e": 84.66
+  },
+  {
+   "w": "only",
+   "s": 84.66,
+   "e": 85.16
+  },
+  {
+   "w": "lives",
+   "s": 85.16,
+   "e": 85.5
+  },
+  {
+   "w": "about",
+   "s": 85.5,
+   "e": 85.76
+  },
+  {
+   "w": "four",
+   "s": 85.76,
+   "e": 86.06
+  },
+  {
+   "w": "months,",
+   "s": 86.06,
+   "e": 86.3
+  },
+  {
+   "w": "so",
+   "s": 86.86,
+   "e": 87.1
+  },
+  {
+   "w": "your",
+   "s": 87.1,
+   "e": 87.24
+  },
+  {
+   "w": "bone",
+   "s": 87.24,
+   "e": 87.46
+  },
+  {
+   "w": "marrow",
+   "s": 87.46,
+   "e": 87.74
+  },
+  {
+   "w": "makes",
+   "s": 87.74,
+   "e": 88.1
+  },
+  {
+   "w": "roughly",
+   "s": 88.1,
+   "e": 88.38
+  },
+  {
+   "w": "two",
+   "s": 88.38,
+   "e": 88.72
+  },
+  {
+   "w": "million",
+   "s": 88.72,
+   "e": 88.98
+  },
+  {
+   "w": "new",
+   "s": 88.98,
+   "e": 89.26
+  },
+  {
+   "w": "ones",
+   "s": 89.26,
+   "e": 89.5
+  },
+  {
+   "w": "every",
+   "s": 89.5,
+   "e": 89.8
+  },
+  {
+   "w": "second.",
+   "s": 89.8,
+   "e": 90.32
+  },
+  {
+   "w": "Is",
+   "s": 90.78,
+   "e": 90.86
+  },
+  {
+   "w": "all",
+   "s": 90.86,
+   "e": 91.04
+  },
+  {
+   "w": "blood",
+   "s": 91.04,
+   "e": 91.3
+  },
+  {
+   "w": "red?",
+   "s": 91.3,
+   "e": 91.6
+  },
+  {
+   "w": "No,",
+   "s": 92.2,
+   "e": 92.48
+  },
+  {
+   "w": "octopuses,",
+   "s": 92.9,
+   "e": 93.34
+  },
+  {
+   "w": "for",
+   "s": 93.36,
+   "e": 93.62
+  },
+  {
+   "w": "example,",
+   "s": 93.62,
+   "e": 93.86
+  },
+  {
+   "w": "carry",
+   "s": 94.28,
+   "e": 94.48
+  },
+  {
+   "w": "oxygen",
+   "s": 94.48,
+   "e": 94.84
+  },
+  {
+   "w": "with",
+   "s": 94.84,
+   "e": 95.1
+  },
+  {
+   "w": "copper",
+   "s": 95.1,
+   "e": 95.32
+  },
+  {
+   "w": "instead",
+   "s": 95.32,
+   "e": 95.74
+  },
+  {
+   "w": "of",
+   "s": 95.74,
+   "e": 95.88
+  },
+  {
+   "w": "iron,",
+   "s": 95.88,
+   "e": 96.08
+  },
+  {
+   "w": "and",
+   "s": 96.5,
+   "e": 96.62
+  },
+  {
+   "w": "their",
+   "s": 96.62,
+   "e": 96.72
+  },
+  {
+   "w": "blood",
+   "s": 96.72,
+   "e": 96.92
+  },
+  {
+   "w": "turns",
+   "s": 96.92,
+   "e": 97.2
+  },
+  {
+   "w": "blue.",
+   "s": 97.2,
+   "e": 97.56
+  },
+  {
+   "w": "But",
+   "s": 98.14,
+   "e": 98.2
+  },
+  {
+   "w": "dinosaurs",
+   "s": 98.2,
+   "e": 98.48
+  },
+  {
+   "w": "were",
+   "s": 98.48,
+   "e": 98.92
+  },
+  {
+   "w": "built",
+   "s": 98.92,
+   "e": 99.1
+  },
+  {
+   "w": "like",
+   "s": 99.1,
+   "e": 99.34
+  },
+  {
+   "w": "birds",
+   "s": 99.34,
+   "e": 99.64
+  },
+  {
+   "w": "and",
+   "s": 99.64,
+   "e": 99.86
+  },
+  {
+   "w": "reptiles,",
+   "s": 99.86,
+   "e": 100.2
+  },
+  {
+   "w": "so",
+   "s": 100.2,
+   "e": 100.86
+  },
+  {
+   "w": "their",
+   "s": 100.86,
+   "e": 100.96
+  },
+  {
+   "w": "blood",
+   "s": 100.96,
+   "e": 101.18
+  },
+  {
+   "w": "ran",
+   "s": 101.18,
+   "e": 101.4
+  },
+  {
+   "w": "red",
+   "s": 101.4,
+   "e": 101.7
+  },
+  {
+   "w": "with",
+   "s": 101.7,
+   "e": 101.94
+  },
+  {
+   "w": "heme,",
+   "s": 101.94,
+   "e": 102.3
+  },
+  {
+   "w": "just",
+   "s": 102.42,
+   "e": 102.62
+  },
+  {
+   "w": "like",
+   "s": 102.62,
+   "e": 102.8
+  },
+  {
+   "w": "yours.",
+   "s": 102.8,
+   "e": 103.06
+  },
+  {
+   "w": "How",
+   "s": 105.26,
+   "e": 105.78
+  },
+  {
+   "w": "does",
+   "s": 105.78,
+   "e": 105.9
+  },
+  {
+   "w": "a",
+   "s": 105.9,
+   "e": 105.98
+  },
+  {
+   "w": "bone",
+   "s": 105.98,
+   "e": 106.18
+  },
+  {
+   "w": "become",
+   "s": 106.18,
+   "e": 106.54
+  },
+  {
+   "w": "a",
+   "s": 106.54,
+   "e": 106.68
+  },
+  {
+   "w": "fossil?",
+   "s": 106.68,
+   "e": 106.94
+  },
+  {
+   "w": "Most",
+   "s": 107.46,
+   "e": 107.94
+  },
+  {
+   "w": "of",
+   "s": 107.94,
+   "e": 108.12
+  },
+  {
+   "w": "the",
+   "s": 108.12,
+   "e": 108.2
+  },
+  {
+   "w": "time",
+   "s": 108.2,
+   "e": 108.44
+  },
+  {
+   "w": "it",
+   "s": 108.44,
+   "e": 108.62
+  },
+  {
+   "w": "doesn't.",
+   "s": 108.62,
+   "e": 109.02
+  },
+  {
+   "w": "When",
+   "s": 109.52,
+   "e": 109.54
+  },
+  {
+   "w": "an",
+   "s": 109.54,
+   "e": 109.62
+  },
+  {
+   "w": "animal",
+   "s": 109.62,
+   "e": 109.94
+  },
+  {
+   "w": "dies,",
+   "s": 109.94,
+   "e": 110.32
+  },
+  {
+   "w": "bacteria",
+   "s": 110.32,
+   "e": 110.9
+  },
+  {
+   "w": "eat",
+   "s": 110.9,
+   "e": 111.32
+  },
+  {
+   "w": "the",
+   "s": 111.32,
+   "e": 111.46
+  },
+  {
+   "w": "soft",
+   "s": 111.46,
+   "e": 111.64
+  },
+  {
+   "w": "parts",
+   "s": 111.64,
+   "e": 111.94
+  },
+  {
+   "w": "within",
+   "s": 111.94,
+   "e": 112.3
+  },
+  {
+   "w": "weeks,",
+   "s": 112.3,
+   "e": 112.56
+  },
+  {
+   "w": "skin,",
+   "s": 113.0,
+   "e": 113.42
+  },
+  {
+   "w": "muscle",
+   "s": 113.76,
+   "e": 113.98
+  },
+  {
+   "w": "and",
+   "s": 113.98,
+   "e": 114.28
+  },
+  {
+   "w": "blood.",
+   "s": 114.28,
+   "e": 114.52
+  },
+  {
+   "w": "But",
+   "s": 115.26,
+   "e": 115.48
+  },
+  {
+   "w": "if",
+   "s": 115.48,
+   "e": 115.56
+  },
+  {
+   "w": "the",
+   "s": 115.56,
+   "e": 115.68
+  },
+  {
+   "w": "bones",
+   "s": 115.68,
+   "e": 115.9
+  },
+  {
+   "w": "are",
+   "s": 115.9,
+   "e": 116.12
+  },
+  {
+   "w": "buried",
+   "s": 116.12,
+   "e": 116.32
+  },
+  {
+   "w": "fast,",
+   "s": 116.32,
+   "e": 116.72
+  },
+  {
+   "w": "water",
+   "s": 117.22,
+   "e": 117.42
+  },
+  {
+   "w": "seeps",
+   "s": 117.42,
+   "e": 117.82
+  },
+  {
+   "w": "through",
+   "s": 117.82,
+   "e": 118.06
+  },
+  {
+   "w": "them",
+   "s": 118.06,
+   "e": 118.26
+  },
+  {
+   "w": "and",
+   "s": 118.26,
+   "e": 118.5
+  },
+  {
+   "w": "leaves",
+   "s": 118.5,
+   "e": 118.72
+  },
+  {
+   "w": "minerals",
+   "s": 118.72,
+   "e": 119.06
+  },
+  {
+   "w": "behind",
+   "s": 119.06,
+   "e": 119.54
+  },
+  {
+   "w": "in",
+   "s": 119.54,
+   "e": 119.8
+  },
+  {
+   "w": "every",
+   "s": 119.8,
+   "e": 120.06
+  },
+  {
+   "w": "tiny",
+   "s": 120.06,
+   "e": 120.36
+  },
+  {
+   "w": "pore.",
+   "s": 120.36,
+   "e": 120.8
+  },
+  {
+   "w": "Over",
+   "s": 121.4,
+   "e": 121.52
+  },
+  {
+   "w": "millions",
+   "s": 121.52,
+   "e": 121.76
+  },
+  {
+   "w": "of",
+   "s": 121.76,
+   "e": 122.08
+  },
+  {
+   "w": "years,",
+   "s": 122.08,
+   "e": 122.32
+  },
+  {
+   "w": "bone",
+   "s": 122.72,
+   "e": 122.86
+  },
+  {
+   "w": "becomes",
+   "s": 122.86,
+   "e": 123.28
+  },
+  {
+   "w": "rock",
+   "s": 123.28,
+   "e": 123.52
+  },
+  {
+   "w": "in",
+   "s": 123.52,
+   "e": 123.76
+  },
+  {
+   "w": "the",
+   "s": 123.76,
+   "e": 123.86
+  },
+  {
+   "w": "shape",
+   "s": 123.86,
+   "e": 124.08
+  },
+  {
+   "w": "of",
+   "s": 124.08,
+   "e": 124.22
+  },
+  {
+   "w": "bone.",
+   "s": 124.22,
+   "e": 124.46
+  },
+  {
+   "w": "So",
+   "s": 125.14,
+   "e": 125.28
+  },
+  {
+   "w": "the",
+   "s": 125.28,
+   "e": 125.4
+  },
+  {
+   "w": "blood",
+   "s": 125.4,
+   "e": 125.64
+  },
+  {
+   "w": "should",
+   "s": 125.64,
+   "e": 125.82
+  },
+  {
+   "w": "be",
+   "s": 125.82,
+   "e": 125.96
+  },
+  {
+   "w": "long",
+   "s": 125.96,
+   "e": 126.16
+  },
+  {
+   "w": "gone.",
+   "s": 126.16,
+   "e": 126.44
+  },
+  {
+   "w": "That's",
+   "s": 127.1,
+   "e": 127.4
+  },
+  {
+   "w": "what",
+   "s": 127.4,
+   "e": 127.52
+  },
+  {
+   "w": "scientists",
+   "s": 127.52,
+   "e": 127.98
+  },
+  {
+   "w": "assumed",
+   "s": 127.98,
+   "e": 128.56
+  },
+  {
+   "w": "for",
+   "s": 128.56,
+   "e": 128.9
+  },
+  {
+   "w": "over",
+   "s": 128.9,
+   "e": 129.12
+  },
+  {
+   "w": "a",
+   "s": 129.12,
+   "e": 129.2
+  },
+  {
+   "w": "century.",
+   "s": 129.2,
+   "e": 129.62
+  },
+  {
+   "w": "Soft",
+   "s": 130.36,
+   "e": 130.58
+  },
+  {
+   "w": "tissue",
+   "s": 130.58,
+   "e": 130.84
+  },
+  {
+   "w": "rots,",
+   "s": 130.84,
+   "e": 131.26
+  },
+  {
+   "w": "big",
+   "s": 131.44,
+   "e": 131.62
+  },
+  {
+   "w": "molecules",
+   "s": 131.62,
+   "e": 132.1
+  },
+  {
+   "w": "fall",
+   "s": 132.1,
+   "e": 132.38
+  },
+  {
+   "w": "apart,",
+   "s": 132.38,
+   "e": 132.64
+  },
+  {
+   "w": "and",
+   "s": 133.2,
+   "e": 133.28
+  },
+  {
+   "w": "only",
+   "s": 133.28,
+   "e": 133.52
+  },
+  {
+   "w": "the",
+   "s": 133.52,
+   "e": 133.68
+  },
+  {
+   "w": "hard",
+   "s": 133.68,
+   "e": 133.88
+  },
+  {
+   "w": "parts",
+   "s": 133.88,
+   "e": 134.1
+  },
+  {
+   "w": "stay.",
+   "s": 134.1,
+   "e": 134.52
+  },
+  {
+   "w": "So",
+   "s": 134.52,
+   "e": 135.14
+  },
+  {
+   "w": "a",
+   "s": 135.14,
+   "e": 135.24
+  },
+  {
+   "w": "fossil",
+   "s": 135.24,
+   "e": 135.44
+  },
+  {
+   "w": "is",
+   "s": 135.44,
+   "e": 135.76
+  },
+  {
+   "w": "usually",
+   "s": 135.76,
+   "e": 136.1
+  },
+  {
+   "w": "a",
+   "s": 136.1,
+   "e": 136.24
+  },
+  {
+   "w": "copy",
+   "s": 136.24,
+   "e": 136.52
+  },
+  {
+   "w": "in",
+   "s": 136.52,
+   "e": 136.72
+  },
+  {
+   "w": "stone.",
+   "s": 136.72,
+   "e": 136.98
+  },
+  {
+   "w": "The",
+   "s": 137.68,
+   "e": 137.7
+  },
+  {
+   "w": "shape",
+   "s": 137.7,
+   "e": 137.88
+  },
+  {
+   "w": "survives,",
+   "s": 137.88,
+   "e": 138.2
+  },
+  {
+   "w": "the",
+   "s": 138.82,
+   "e": 138.96
+  },
+  {
+   "w": "original",
+   "s": 138.96,
+   "e": 139.18
+  },
+  {
+   "w": "molecules",
+   "s": 139.18,
+   "e": 139.7
+  },
+  {
+   "w": "don't.",
+   "s": 139.7,
+   "e": 140.38
+  },
+  {
+   "w": "So",
+   "s": 142.34,
+   "e": 142.9
+  },
+  {
+   "w": "which",
+   "s": 142.9,
+   "e": 143.04
+  },
+  {
+   "w": "dinosaur",
+   "s": 143.04,
+   "e": 143.36
+  },
+  {
+   "w": "is",
+   "s": 143.36,
+   "e": 143.84
+  },
+  {
+   "w": "this?",
+   "s": 143.84,
+   "e": 144.02
+  },
+  {
+   "w": "It's",
+   "s": 144.64,
+   "e": 144.88
+  },
+  {
+   "w": "called",
+   "s": 144.88,
+   "e": 145.06
+  },
+  {
+   "w": "Aratosaurus,",
+   "s": 145.06,
+   "e": 145.62
+  },
+  {
+   "w": "a",
+   "s": 146.5,
+   "e": 146.64
+  },
+  {
+   "w": "small",
+   "s": 146.64,
+   "e": 146.9
+  },
+  {
+   "w": "feathered",
+   "s": 146.9,
+   "e": 147.42
+  },
+  {
+   "w": "meat",
+   "s": 147.42,
+   "e": 147.62
+  },
+  {
+   "w": "eater",
+   "s": 147.62,
+   "e": 147.84
+  },
+  {
+   "w": "about",
+   "s": 147.84,
+   "e": 148.34
+  },
+  {
+   "w": "three",
+   "s": 148.34,
+   "e": 148.68
+  },
+  {
+   "w": "meters",
+   "s": 148.68,
+   "e": 148.96
+  },
+  {
+   "w": "long",
+   "s": 148.96,
+   "e": 149.26
+  },
+  {
+   "w": "that",
+   "s": 149.26,
+   "e": 149.76
+  },
+  {
+   "w": "ran",
+   "s": 149.76,
+   "e": 149.92
+  },
+  {
+   "w": "around",
+   "s": 149.92,
+   "e": 150.26
+  },
+  {
+   "w": "northeastern",
+   "s": 150.26,
+   "e": 150.66
+  },
+  {
+   "w": "Brazil",
+   "s": 150.66,
+   "e": 151.06
+  },
+  {
+   "w": "a",
+   "s": 151.06,
+   "e": 151.62
+  },
+  {
+   "w": "hundred",
+   "s": 151.62,
+   "e": 151.88
+  },
+  {
+   "w": "and",
+   "s": 151.88,
+   "e": 152.14
+  },
+  {
+   "w": "fifteen",
+   "s": 152.14,
+   "e": 152.3
+  },
+  {
+   "w": "million",
+   "s": 152.3,
+   "e": 152.68
+  },
+  {
+   "w": "years",
+   "s": 152.68,
+   "e": 153.02
+  },
+  {
+   "w": "ago.",
+   "s": 153.02,
+   "e": 153.3
+  },
+  {
+   "w": "All",
+   "s": 153.84,
+   "e": 153.94
+  },
+  {
+   "w": "we",
+   "s": 153.94,
+   "e": 154.06
+  },
+  {
+   "w": "have",
+   "s": 154.06,
+   "e": 154.26
+  },
+  {
+   "w": "of",
+   "s": 154.26,
+   "e": 154.44
+  },
+  {
+   "w": "it",
+   "s": 154.44,
+   "e": 154.58
+  },
+  {
+   "w": "is",
+   "s": 154.58,
+   "e": 154.72
+  },
+  {
+   "w": "part",
+   "s": 154.72,
+   "e": 154.94
+  },
+  {
+   "w": "of",
+   "s": 154.94,
+   "e": 155.12
+  },
+  {
+   "w": "one",
+   "s": 155.12,
+   "e": 155.28
+  },
+  {
+   "w": "leg.",
+   "s": 155.28,
+   "e": 155.56
+  },
+  {
+   "w": "Its",
+   "s": 156.08,
+   "e": 156.18
+  },
+  {
+   "w": "name",
+   "s": 156.18,
+   "e": 156.44
+  },
+  {
+   "w": "honors",
+   "s": 156.44,
+   "e": 156.7
+  },
+  {
+   "w": "Brazil's",
+   "s": 156.7,
+   "e": 157.42
+  },
+  {
+   "w": "National",
+   "s": 157.42,
+   "e": 157.6
+  },
+  {
+   "w": "Museum,",
+   "s": 157.6,
+   "e": 158.1
+  },
+  {
+   "w": "which",
+   "s": 158.64,
+   "e": 158.7
+  },
+  {
+   "w": "burned",
+   "s": 158.7,
+   "e": 158.94
+  },
+  {
+   "w": "in",
+   "s": 158.94,
+   "e": 159.26
+  },
+  {
+   "w": "2018.",
+   "s": 159.26,
+   "e": 159.72
+  },
+  {
+   "w": "This",
+   "s": 159.72,
+   "e": 160.58
+  },
+  {
+   "w": "fossil",
+   "s": 160.58,
+   "e": 160.84
+  },
+  {
+   "w": "survived",
+   "s": 160.84,
+   "e": 161.34
+  },
+  {
+   "w": "the",
+   "s": 161.34,
+   "e": 161.64
+  },
+  {
+   "w": "fire.",
+   "s": 161.64,
+   "e": 161.88
+  },
+  {
+   "w": "It",
+   "s": 162.38,
+   "e": 162.44
+  },
+  {
+   "w": "was",
+   "s": 162.44,
+   "e": 162.52
+  },
+  {
+   "w": "dug",
+   "s": 162.52,
+   "e": 162.7
+  },
+  {
+   "w": "up",
+   "s": 162.7,
+   "e": 162.88
+  },
+  {
+   "w": "in",
+   "s": 162.88,
+   "e": 163.02
+  },
+  {
+   "w": "2008",
+   "s": 163.02,
+   "e": 163.9
+  },
+  {
+   "w": "in",
+   "s": 163.9,
+   "e": 164.52
+  },
+  {
+   "w": "a",
+   "s": 164.52,
+   "e": 164.58
+  },
+  {
+   "w": "gypsum",
+   "s": 164.58,
+   "e": 165.0
+  },
+  {
+   "w": "mine",
+   "s": 165.0,
+   "e": 165.24
+  },
+  {
+   "w": "near",
+   "s": 165.24,
+   "e": 165.64
+  },
+  {
+   "w": "the",
+   "s": 165.64,
+   "e": 165.74
+  },
+  {
+   "w": "town",
+   "s": 165.74,
+   "e": 165.98
+  },
+  {
+   "w": "of",
+   "s": 165.98,
+   "e": 166.1
+  },
+  {
+   "w": "Santana",
+   "s": 166.1,
+   "e": 166.58
+  },
+  {
+   "w": "du",
+   "s": 166.58,
+   "e": 166.78
+  },
+  {
+   "w": "Cariri.",
+   "s": 166.78,
+   "e": 167.2
+  },
+  {
+   "w": "Its",
+   "s": 167.82,
+   "e": 168.0
+  },
+  {
+   "w": "bones",
+   "s": 168.0,
+   "e": 168.28
+  },
+  {
+   "w": "show",
+   "s": 168.28,
+   "e": 168.66
+  },
+  {
+   "w": "it",
+   "s": 168.66,
+   "e": 168.78
+  },
+  {
+   "w": "was",
+   "s": 168.78,
+   "e": 168.88
+  },
+  {
+   "w": "only",
+   "s": 168.88,
+   "e": 169.1
+  },
+  {
+   "w": "about",
+   "s": 169.1,
+   "e": 169.3
+  },
+  {
+   "w": "four",
+   "s": 169.3,
+   "e": 169.66
+  },
+  {
+   "w": "years",
+   "s": 169.66,
+   "e": 169.92
+  },
+  {
+   "w": "old",
+   "s": 169.92,
+   "e": 170.14
+  },
+  {
+   "w": "when",
+   "s": 170.14,
+   "e": 170.28
+  },
+  {
+   "w": "it",
+   "s": 170.28,
+   "e": 170.36
+  },
+  {
+   "w": "died.",
+   "s": 170.36,
+   "e": 170.6
+  },
+  {
+   "w": "And",
+   "s": 171.08,
+   "e": 171.14
+  },
+  {
+   "w": "the",
+   "s": 171.14,
+   "e": 171.24
+  },
+  {
+   "w": "blood",
+   "s": 171.24,
+   "e": 171.42
+  },
+  {
+   "w": "was",
+   "s": 171.42,
+   "e": 171.64
+  },
+  {
+   "w": "inside",
+   "s": 171.64,
+   "e": 171.96
+  },
+  {
+   "w": "that",
+   "s": 171.96,
+   "e": 172.28
+  },
+  {
+   "w": "leg.",
+   "s": 172.28,
+   "e": 172.58
+  },
+  {
+   "w": "Inside",
+   "s": 173.14,
+   "e": 173.42
+  },
+  {
+   "w": "the",
+   "s": 173.42,
+   "e": 173.78
+  },
+  {
+   "w": "tiny",
+   "s": 173.78,
+   "e": 174.02
+  },
+  {
+   "w": "canals",
+   "s": 174.02,
+   "e": 174.48
+  },
+  {
+   "w": "where",
+   "s": 174.48,
+   "e": 174.9
+  },
+  {
+   "w": "blood",
+   "s": 174.9,
+   "e": 175.12
+  },
+  {
+   "w": "vessels",
+   "s": 175.12,
+   "e": 175.46
+  },
+  {
+   "w": "once",
+   "s": 175.46,
+   "e": 175.88
+  },
+  {
+   "w": "ran",
+   "s": 175.88,
+   "e": 176.14
+  },
+  {
+   "w": "through",
+   "s": 176.14,
+   "e": 176.4
+  },
+  {
+   "w": "the",
+   "s": 176.4,
+   "e": 176.5
+  },
+  {
+   "w": "bone.",
+   "s": 176.5,
+   "e": 176.74
+  },
+  {
+   "w": "The",
+   "s": 177.5,
+   "e": 177.58
+  },
+  {
+   "w": "team",
+   "s": 177.58,
+   "e": 177.8
+  },
+  {
+   "w": "cut",
+   "s": 177.8,
+   "e": 178.04
+  },
+  {
+   "w": "it",
+   "s": 178.04,
+   "e": 178.18
+  },
+  {
+   "w": "into",
+   "s": 178.18,
+   "e": 178.36
+  },
+  {
+   "w": "thin",
+   "s": 178.36,
+   "e": 178.6
+  },
+  {
+   "w": "slices",
+   "s": 178.6,
+   "e": 179.06
+  },
+  {
+   "w": "and",
+   "s": 179.06,
+   "e": 179.74
+  },
+  {
+   "w": "scanned",
+   "s": 179.74,
+   "e": 179.96
+  },
+  {
+   "w": "them",
+   "s": 179.96,
+   "e": 180.28
+  },
+  {
+   "w": "with",
+   "s": 180.28,
+   "e": 180.44
+  },
+  {
+   "w": "an",
+   "s": 180.44,
+   "e": 180.56
+  },
+  {
+   "w": "electron",
+   "s": 180.56,
+   "e": 180.76
+  },
+  {
+   "w": "microscope.",
+   "s": 180.76,
+   "e": 181.36
+  },
+  {
+   "w": "They",
+   "s": 182.16,
+   "e": 182.2
+  },
+  {
+   "w": "saw",
+   "s": 182.2,
+   "e": 182.38
+  },
+  {
+   "w": "clusters",
+   "s": 182.38,
+   "e": 182.7
+  },
+  {
+   "w": "of",
+   "s": 182.7,
+   "e": 183.0
+  },
+  {
+   "w": "little",
+   "s": 183.0,
+   "e": 183.22
+  },
+  {
+   "w": "oval",
+   "s": 183.22,
+   "e": 183.46
+  },
+  {
+   "w": "bodies,",
+   "s": 183.46,
+   "e": 183.9
+  },
+  {
+   "w": "each",
+   "s": 183.92,
+   "e": 184.5
+  },
+  {
+   "w": "about",
+   "s": 184.5,
+   "e": 184.8
+  },
+  {
+   "w": "20",
+   "s": 184.8,
+   "e": 185.14
+  },
+  {
+   "w": "micrometers",
+   "s": 185.14,
+   "e": 185.76
+  },
+  {
+   "w": "across.",
+   "s": 185.76,
+   "e": 186.04
+  },
+  {
+   "w": "Far",
+   "s": 186.64,
+   "e": 187.16
+  },
+  {
+   "w": "thinner",
+   "s": 187.16,
+   "e": 187.4
+  },
+  {
+   "w": "than",
+   "s": 187.4,
+   "e": 187.64
+  },
+  {
+   "w": "a",
+   "s": 187.64,
+   "e": 187.68
+  },
+  {
+   "w": "human",
+   "s": 187.68,
+   "e": 187.96
+  },
+  {
+   "w": "hair,",
+   "s": 187.96,
+   "e": 188.26
+  },
+  {
+   "w": "but",
+   "s": 188.56,
+   "e": 188.64
+  },
+  {
+   "w": "more",
+   "s": 188.64,
+   "e": 188.82
+  },
+  {
+   "w": "than",
+   "s": 188.82,
+   "e": 188.96
+  },
+  {
+   "w": "twice",
+   "s": 188.96,
+   "e": 189.14
+  },
+  {
+   "w": "as",
+   "s": 189.14,
+   "e": 189.4
+  },
+  {
+   "w": "wide",
+   "s": 189.4,
+   "e": 189.64
+  },
+  {
+   "w": "as",
+   "s": 189.64,
+   "e": 190.08
+  },
+  {
+   "w": "your",
+   "s": 190.08,
+   "e": 190.2
+  },
+  {
+   "w": "own",
+   "s": 190.2,
+   "e": 190.46
+  },
+  {
+   "w": "red",
+   "s": 190.46,
+   "e": 190.66
+  },
+  {
+   "w": "blood",
+   "s": 190.66,
+   "e": 190.92
+  },
+  {
+   "w": "cells.",
+   "s": 190.92,
+   "e": 191.18
+  },
+  {
+   "w": "How",
+   "s": 193.6,
+   "e": 193.94
+  },
+  {
+   "w": "do",
+   "s": 193.94,
+   "e": 194.02
+  },
+  {
+   "w": "you",
+   "s": 194.02,
+   "e": 194.12
+  },
+  {
+   "w": "prove",
+   "s": 194.12,
+   "e": 194.34
+  },
+  {
+   "w": "a",
+   "s": 194.34,
+   "e": 194.44
+  },
+  {
+   "w": "speck",
+   "s": 194.44,
+   "e": 194.82
+  },
+  {
+   "w": "in",
+   "s": 194.82,
+   "e": 194.92
+  },
+  {
+   "w": "a",
+   "s": 194.92,
+   "e": 194.96
+  },
+  {
+   "w": "rock",
+   "s": 194.96,
+   "e": 195.16
+  },
+  {
+   "w": "is",
+   "s": 195.16,
+   "e": 195.38
+  },
+  {
+   "w": "blood?",
+   "s": 195.38,
+   "e": 195.58
+  },
+  {
+   "w": "Shape",
+   "s": 196.26,
+   "e": 196.52
+  },
+  {
+   "w": "alone",
+   "s": 196.52,
+   "e": 196.82
+  },
+  {
+   "w": "isn't",
+   "s": 196.82,
+   "e": 197.3
+  },
+  {
+   "w": "enough.",
+   "s": 197.3,
+   "e": 197.6
+  },
+  {
+   "w": "In",
+   "s": 198.14,
+   "e": 198.18
+  },
+  {
+   "w": "1997,",
+   "s": 198.18,
+   "e": 199.04
+  },
+  {
+   "w": "round",
+   "s": 199.38,
+   "e": 199.64
+  },
+  {
+   "w": "specks",
+   "s": 199.64,
+   "e": 200.26
+  },
+  {
+   "w": "in",
+   "s": 200.26,
+   "e": 200.34
+  },
+  {
+   "w": "another",
+   "s": 200.34,
+   "e": 200.52
+  },
+  {
+   "w": "fossil",
+   "s": 200.52,
+   "e": 200.82
+  },
+  {
+   "w": "looked",
+   "s": 200.82,
+   "e": 201.22
+  },
+  {
+   "w": "like",
+   "s": 201.22,
+   "e": 201.44
+  },
+  {
+   "w": "blood",
+   "s": 201.44,
+   "e": 201.64
+  },
+  {
+   "w": "cells.",
+   "s": 201.64,
+   "e": 201.92
+  },
+  {
+   "w": "They",
+   "s": 202.74,
+   "e": 202.82
+  },
+  {
+   "w": "turned",
+   "s": 202.82,
+   "e": 202.98
+  },
+  {
+   "w": "out",
+   "s": 202.98,
+   "e": 203.2
+  },
+  {
+   "w": "to",
+   "s": 203.2,
+   "e": 203.38
+  },
+  {
+   "w": "be",
+   "s": 203.38,
+   "e": 203.5
+  },
+  {
+   "w": "pyrite,",
+   "s": 203.5,
+   "e": 203.94
+  },
+  {
+   "w": "fools",
+   "s": 204.34,
+   "e": 204.4
+  },
+  {
+   "w": "gold,",
+   "s": 204.4,
+   "e": 204.66
+  },
+  {
+   "w": "that",
+   "s": 205.08,
+   "e": 205.16
+  },
+  {
+   "w": "grew",
+   "s": 205.16,
+   "e": 205.32
+  },
+  {
+   "w": "thereafter",
+   "s": 205.32,
+   "e": 205.58
+  },
+  {
+   "w": "death.",
+   "s": 205.58,
+   "e": 206.08
+  },
+  {
+   "w": "So",
+   "s": 206.64,
+   "e": 206.74
+  },
+  {
+   "w": "this",
+   "s": 206.74,
+   "e": 206.86
+  },
+  {
+   "w": "team",
+   "s": 206.86,
+   "e": 207.12
+  },
+  {
+   "w": "tested",
+   "s": 207.12,
+   "e": 207.42
+  },
+  {
+   "w": "the",
+   "s": 207.42,
+   "e": 207.66
+  },
+  {
+   "w": "chemistry",
+   "s": 207.66,
+   "e": 207.9
+  },
+  {
+   "w": "too.",
+   "s": 207.9,
+   "e": 208.34
+  },
+  {
+   "w": "The",
+   "s": 208.88,
+   "e": 208.92
+  },
+  {
+   "w": "specks",
+   "s": 208.92,
+   "e": 209.28
+  },
+  {
+   "w": "contain",
+   "s": 209.28,
+   "e": 209.56
+  },
+  {
+   "w": "iron,",
+   "s": 209.56,
+   "e": 209.94
+  },
+  {
+   "w": "carbon",
+   "s": 210.36,
+   "e": 210.64
+  },
+  {
+   "w": "and",
+   "s": 210.64,
+   "e": 210.84
+  },
+  {
+   "w": "nitrogen,",
+   "s": 210.84,
+   "e": 211.22
+  },
+  {
+   "w": "the",
+   "s": 211.72,
+   "e": 211.8
+  },
+  {
+   "w": "building",
+   "s": 211.8,
+   "e": 212.08
+  },
+  {
+   "w": "blocks",
+   "s": 212.08,
+   "e": 212.3
+  },
+  {
+   "w": "of",
+   "s": 212.3,
+   "e": 212.56
+  },
+  {
+   "w": "heme.",
+   "s": 212.56,
+   "e": 212.86
+  },
+  {
+   "w": "Laser",
+   "s": 212.86,
+   "e": 213.5
+  },
+  {
+   "w": "tests",
+   "s": 213.5,
+   "e": 213.84
+  },
+  {
+   "w": "found",
+   "s": 213.84,
+   "e": 214.26
+  },
+  {
+   "w": "ring",
+   "s": 214.26,
+   "e": 214.46
+  },
+  {
+   "w": "-shaped",
+   "s": 214.46,
+   "e": 214.72
+  },
+  {
+   "w": "molecules",
+   "s": 214.72,
+   "e": 215.16
+  },
+  {
+   "w": "called",
+   "s": 215.16,
+   "e": 215.62
+  },
+  {
+   "w": "porphyrins",
+   "s": 215.62,
+   "e": 216.2
+  },
+  {
+   "w": "and",
+   "s": 216.2,
+   "e": 216.66
+  },
+  {
+   "w": "a",
+   "s": 216.66,
+   "e": 216.72
+  },
+  {
+   "w": "lab",
+   "s": 216.72,
+   "e": 216.88
+  },
+  {
+   "w": "analysis",
+   "s": 216.88,
+   "e": 217.34
+  },
+  {
+   "w": "pointed",
+   "s": 217.34,
+   "e": 217.72
+  },
+  {
+   "w": "to",
+   "s": 217.72,
+   "e": 218.0
+  },
+  {
+   "w": "heme",
+   "s": 218.0,
+   "e": 218.24
+  },
+  {
+   "w": "itself.",
+   "s": 218.24,
+   "e": 218.6
+  },
+  {
+   "w": "They",
+   "s": 219.14,
+   "e": 219.22
+  },
+  {
+   "w": "even",
+   "s": 219.22,
+   "e": 219.44
+  },
+  {
+   "w": "ruled",
+   "s": 219.44,
+   "e": 219.66
+  },
+  {
+   "w": "out",
+   "s": 219.66,
+   "e": 219.94
+  },
+  {
+   "w": "chlorophyll,",
+   "s": 219.94,
+   "e": 220.58
+  },
+  {
+   "w": "the",
+   "s": 220.86,
+   "e": 220.94
+  },
+  {
+   "w": "green",
+   "s": 220.94,
+   "e": 221.14
+  },
+  {
+   "w": "pigment",
+   "s": 221.14,
+   "e": 221.44
+  },
+  {
+   "w": "in",
+   "s": 221.44,
+   "e": 221.78
+  },
+  {
+   "w": "plants,",
+   "s": 221.78,
+   "e": 222.0
+  },
+  {
+   "w": "which",
+   "s": 222.48,
+   "e": 222.62
+  },
+  {
+   "w": "has",
+   "s": 222.62,
+   "e": 222.76
+  },
+  {
+   "w": "a",
+   "s": 222.76,
+   "e": 222.86
+  },
+  {
+   "w": "very",
+   "s": 222.86,
+   "e": 223.08
+  },
+  {
+   "w": "similar",
+   "s": 223.08,
+   "e": 223.38
+  },
+  {
+   "w": "ring.",
+   "s": 223.38,
+   "e": 223.76
+  },
+  {
+   "w": "But",
+   "s": 224.7,
+   "e": 224.84
+  },
+  {
+   "w": "how",
+   "s": 224.84,
+   "e": 225.04
+  },
+  {
+   "w": "did",
+   "s": 225.04,
+   "e": 225.18
+  },
+  {
+   "w": "it",
+   "s": 225.18,
+   "e": 225.28
+  },
+  {
+   "w": "last",
+   "s": 225.28,
+   "e": 225.48
+  },
+  {
+   "w": "a",
+   "s": 225.48,
+   "e": 225.78
+  },
+  {
+   "w": "hundred",
+   "s": 225.78,
+   "e": 226.06
+  },
+  {
+   "w": "million",
+   "s": 226.06,
+   "e": 226.3
+  },
+  {
+   "w": "years?",
+   "s": 226.3,
+   "e": 226.7
+  },
+  {
+   "w": "The",
+   "s": 227.44,
+   "e": 227.56
+  },
+  {
+   "w": "team",
+   "s": 227.56,
+   "e": 227.76
+  },
+  {
+   "w": "thinks",
+   "s": 227.76,
+   "e": 227.98
+  },
+  {
+   "w": "the",
+   "s": 227.98,
+   "e": 228.2
+  },
+  {
+   "w": "dinosaur",
+   "s": 228.2,
+   "e": 228.48
+  },
+  {
+   "w": "was",
+   "s": 228.48,
+   "e": 228.88
+  },
+  {
+   "w": "buried",
+   "s": 228.88,
+   "e": 229.14
+  },
+  {
+   "w": "quickly,",
+   "s": 229.14,
+   "e": 229.5
+  },
+  {
+   "w": "in",
+   "s": 230.14,
+   "e": 230.22
+  },
+  {
+   "w": "mud",
+   "s": 230.22,
+   "e": 230.4
+  },
+  {
+   "w": "with",
+   "s": 230.4,
+   "e": 230.56
+  },
+  {
+   "w": "very",
+   "s": 230.56,
+   "e": 230.84
+  },
+  {
+   "w": "little",
+   "s": 230.84,
+   "e": 231.14
+  },
+  {
+   "w": "oxygen.",
+   "s": 231.14,
+   "e": 231.46
+  },
+  {
+   "w": "Then",
+   "s": 232.44,
+   "e": 232.52
+  },
+  {
+   "w": "a",
+   "s": 232.52,
+   "e": 232.64
+  },
+  {
+   "w": "manganese",
+   "s": 232.64,
+   "e": 233.1
+  },
+  {
+   "w": "mineral",
+   "s": 233.1,
+   "e": 233.34
+  },
+  {
+   "w": "called",
+   "s": 233.34,
+   "e": 233.8
+  },
+  {
+   "w": "horsemanite",
+   "s": 233.8,
+   "e": 234.44
+  },
+  {
+   "w": "coated",
+   "s": 234.44,
+   "e": 234.74
+  },
+  {
+   "w": "the",
+   "s": 234.74,
+   "e": 235.0
+  },
+  {
+   "w": "cells",
+   "s": 235.0,
+   "e": 235.24
+  },
+  {
+   "w": "and",
+   "s": 235.24,
+   "e": 235.82
+  },
+  {
+   "w": "sealed",
+   "s": 235.82,
+   "e": 236.06
+  },
+  {
+   "w": "the",
+   "s": 236.06,
+   "e": 236.26
+  },
+  {
+   "w": "molecules",
+   "s": 236.26,
+   "e": 236.6
+  },
+  {
+   "w": "inside,",
+   "s": 236.6,
+   "e": 237.06
+  },
+  {
+   "w": "like",
+   "s": 237.6,
+   "e": 237.76
+  },
+  {
+   "w": "a",
+   "s": 237.76,
+   "e": 237.88
+  },
+  {
+   "w": "tiny",
+   "s": 237.88,
+   "e": 238.16
+  },
+  {
+   "w": "stone",
+   "s": 238.16,
+   "e": 238.5
+  },
+  {
+   "w": "coffin.",
+   "s": 238.5,
+   "e": 238.8
+  },
+  {
+   "w": "Is",
+   "s": 240.68,
+   "e": 241.2
+  },
+  {
+   "w": "everyone",
+   "s": 241.2,
+   "e": 241.72
+  },
+  {
+   "w": "convinced?",
+   "s": 241.72,
+   "e": 242.12
+  },
+  {
+   "w": "No,",
+   "s": 243.32,
+   "e": 243.84
+  },
+  {
+   "w": "paleontologist",
+   "s": 243.84,
+   "e": 244.36
+  },
+  {
+   "w": "Mary",
+   "s": 244.36,
+   "e": 244.72
+  },
+  {
+   "w": "Schweitzer",
+   "s": 244.72,
+   "e": 245.16
+  },
+  {
+   "w": "points",
+   "s": 245.16,
+   "e": 245.56
+  },
+  {
+   "w": "out",
+   "s": 245.56,
+   "e": 245.8
+  },
+  {
+   "w": "that",
+   "s": 245.8,
+   "e": 246.06
+  },
+  {
+   "w": "the",
+   "s": 246.06,
+   "e": 246.16
+  },
+  {
+   "w": "heme",
+   "s": 246.16,
+   "e": 246.4
+  },
+  {
+   "w": "signal",
+   "s": 246.4,
+   "e": 246.62
+  },
+  {
+   "w": "came",
+   "s": 246.62,
+   "e": 246.96
+  },
+  {
+   "w": "from",
+   "s": 246.96,
+   "e": 247.2
+  },
+  {
+   "w": "the",
+   "s": 247.2,
+   "e": 247.32
+  },
+  {
+   "w": "whole",
+   "s": 247.32,
+   "e": 247.48
+  },
+  {
+   "w": "bone,",
+   "s": 247.48,
+   "e": 247.74
+  },
+  {
+   "w": "not",
+   "s": 248.22,
+   "e": 248.46
+  },
+  {
+   "w": "just",
+   "s": 248.46,
+   "e": 248.68
+  },
+  {
+   "w": "from",
+   "s": 248.68,
+   "e": 248.9
+  },
+  {
+   "w": "the",
+   "s": 248.9,
+   "e": 249.04
+  },
+  {
+   "w": "round",
+   "s": 249.04,
+   "e": 249.22
+  },
+  {
+   "w": "cells.",
+   "s": 249.22,
+   "e": 249.52
+  },
+  {
+   "w": "And",
+   "s": 250.36,
+   "e": 250.42
+  },
+  {
+   "w": "the",
+   "s": 250.42,
+   "e": 250.5
+  },
+  {
+   "w": "cells",
+   "s": 250.5,
+   "e": 250.68
+  },
+  {
+   "w": "don't",
+   "s": 250.68,
+   "e": 251.1
+  },
+  {
+   "w": "match",
+   "s": 251.1,
+   "e": 251.26
+  },
+  {
+   "w": "the",
+   "s": 251.26,
+   "e": 251.48
+  },
+  {
+   "w": "size",
+   "s": 251.48,
+   "e": 251.84
+  },
+  {
+   "w": "or",
+   "s": 251.84,
+   "e": 252.02
+  },
+  {
+   "w": "shape",
+   "s": 252.02,
+   "e": 252.3
+  },
+  {
+   "w": "of",
+   "s": 252.3,
+   "e": 252.48
+  },
+  {
+   "w": "blood",
+   "s": 252.48,
+   "e": 252.64
+  },
+  {
+   "w": "cells",
+   "s": 252.64,
+   "e": 252.98
+  },
+  {
+   "w": "in",
+   "s": 252.98,
+   "e": 253.42
+  },
+  {
+   "w": "living",
+   "s": 253.42,
+   "e": 253.6
+  },
+  {
+   "w": "birds",
+   "s": 253.6,
+   "e": 254.0
+  },
+  {
+   "w": "or",
+   "s": 254.0,
+   "e": 254.28
+  },
+  {
+   "w": "reptiles.",
+   "s": 254.28,
+   "e": 254.46
+  },
+  {
+   "w": "In",
+   "s": 255.44,
+   "e": 255.46
+  },
+  {
+   "w": "her",
+   "s": 255.46,
+   "e": 255.62
+  },
+  {
+   "w": "words,",
+   "s": 255.62,
+   "e": 255.92
+  },
+  {
+   "w": "I",
+   "s": 256.3,
+   "e": 256.36
+  },
+  {
+   "w": "am",
+   "s": 256.36,
+   "e": 256.48
+  },
+  {
+   "w": "not",
+   "s": 256.48,
+   "e": 256.68
+  },
+  {
+   "w": "convinced.",
+   "s": 256.68,
+   "e": 257.06
+  },
+  {
+   "w": "Has",
+   "s": 258.26,
+   "e": 258.38
+  },
+  {
+   "w": "anyone",
+   "s": 258.38,
+   "e": 258.68
+  },
+  {
+   "w": "found",
+   "s": 258.68,
+   "e": 259.1
+  },
+  {
+   "w": "something",
+   "s": 259.1,
+   "e": 259.48
+  },
+  {
+   "w": "like",
+   "s": 259.48,
+   "e": 259.68
+  },
+  {
+   "w": "this",
+   "s": 259.68,
+   "e": 259.88
+  },
+  {
+   "w": "before?",
+   "s": 259.88,
+   "e": 260.22
+  },
+  {
+   "w": "Schweitzer",
+   "s": 260.78,
+   "e": 261.3
+  },
+  {
+   "w": "herself",
+   "s": 261.3,
+   "e": 261.58
+  },
+  {
+   "w": "did.",
+   "s": 261.58,
+   "e": 261.92
+  },
+  {
+   "w": "In",
+   "s": 262.46,
+   "e": 262.52
+  },
+  {
+   "w": "2005,",
+   "s": 262.52,
+   "e": 262.82
+  },
+  {
+   "w": "she",
+   "s": 263.86,
+   "e": 263.94
+  },
+  {
+   "w": "dissolved",
+   "s": 263.94,
+   "e": 264.06
+  },
+  {
+   "w": "a",
+   "s": 264.06,
+   "e": 264.06
+  },
+  {
+   "w": "piece",
+   "s": 264.06,
+   "e": 264.62
+  },
+  {
+   "w": "of",
+   "s": 264.62,
+   "e": 264.74
+  },
+  {
+   "w": "a",
+   "s": 264.74,
+   "e": 264.82
+  },
+  {
+   "w": "68",
+   "s": 264.82,
+   "e": 265.14
+  },
+  {
+   "w": "million",
+   "s": 265.14,
+   "e": 265.52
+  },
+  {
+   "w": "year",
+   "s": 265.52,
+   "e": 265.86
+  },
+  {
+   "w": "old",
+   "s": 265.86,
+   "e": 266.08
+  },
+  {
+   "w": "T",
+   "s": 266.08,
+   "e": 266.28
+  },
+  {
+   "w": "-rex",
+   "s": 266.28,
+   "e": 266.46
+  },
+  {
+   "w": "leg",
+   "s": 266.46,
+   "e": 266.78
+  },
+  {
+   "w": "bone",
+   "s": 266.78,
+   "e": 267.02
+  },
+  {
+   "w": "and",
+   "s": 267.02,
+   "e": 267.56
+  },
+  {
+   "w": "found",
+   "s": 267.56,
+   "e": 267.78
+  },
+  {
+   "w": "soft,",
+   "s": 267.78,
+   "e": 268.14
+  },
+  {
+   "w": "stretchy",
+   "s": 268.42,
+   "e": 268.86
+  },
+  {
+   "w": "blood",
+   "s": 268.86,
+   "e": 269.08
+  },
+  {
+   "w": "vessels",
+   "s": 269.08,
+   "e": 269.36
+  },
+  {
+   "w": "inside.",
+   "s": 269.36,
+   "e": 269.78
+  },
+  {
+   "w": "Scientists",
+   "s": 271.0,
+   "e": 271.0
+  },
+  {
+   "w": "argued",
+   "s": 271.0,
+   "e": 271.46
+  },
+  {
+   "w": "about",
+   "s": 271.46,
+   "e": 271.82
+  },
+  {
+   "w": "it",
+   "s": 271.82,
+   "e": 272.02
+  },
+  {
+   "w": "for",
+   "s": 272.02,
+   "e": 272.16
+  },
+  {
+   "w": "years.",
+   "s": 272.16,
+   "e": 272.4
+  },
+  {
+   "w": "The",
+   "s": 273.04,
+   "e": 273.08
+  },
+  {
+   "w": "lead",
+   "s": 273.08,
+   "e": 273.22
+  },
+  {
+   "w": "author,",
+   "s": 273.22,
+   "e": 273.46
+  },
+  {
+   "w": "Professor",
+   "s": 273.68,
+   "e": 274.14
+  },
+  {
+   "w": "Grace,",
+   "s": 274.14,
+   "e": 274.36
+  },
+  {
+   "w": "replies",
+   "s": 274.84,
+   "e": 275.14
+  },
+  {
+   "w": "that",
+   "s": 275.14,
+   "e": 275.48
+  },
+  {
+   "w": "nobody",
+   "s": 275.48,
+   "e": 275.72
+  },
+  {
+   "w": "knows",
+   "s": 275.72,
+   "e": 276.08
+  },
+  {
+   "w": "what",
+   "s": 276.08,
+   "e": 276.32
+  },
+  {
+   "w": "a",
+   "s": 276.32,
+   "e": 276.42
+  },
+  {
+   "w": "dinosaur's",
+   "s": 276.42,
+   "e": 277.02
+  },
+  {
+   "w": "blood",
+   "s": 277.02,
+   "e": 277.18
+  },
+  {
+   "w": "cell",
+   "s": 277.18,
+   "e": 277.44
+  },
+  {
+   "w": "looked",
+   "s": 277.44,
+   "e": 277.7
+  },
+  {
+   "w": "like,",
+   "s": 277.7,
+   "e": 278.02
+  },
+  {
+   "w": "or",
+   "s": 278.24,
+   "e": 278.4
+  },
+  {
+   "w": "how",
+   "s": 278.4,
+   "e": 278.56
+  },
+  {
+   "w": "a",
+   "s": 278.56,
+   "e": 278.66
+  },
+  {
+   "w": "hundred",
+   "s": 278.66,
+   "e": 278.92
+  },
+  {
+   "w": "million",
+   "s": 278.92,
+   "e": 279.18
+  },
+  {
+   "w": "years",
+   "s": 279.18,
+   "e": 279.6
+  },
+  {
+   "w": "would",
+   "s": 279.6,
+   "e": 279.82
+  },
+  {
+   "w": "squash",
+   "s": 279.82,
+   "e": 280.06
+  },
+  {
+   "w": "it.",
+   "s": 280.06,
+   "e": 280.32
+  },
+  {
+   "w": "A",
+   "s": 280.86,
+   "e": 280.96
+  },
+  {
+   "w": "bold",
+   "s": 280.96,
+   "e": 281.14
+  },
+  {
+   "w": "claim,",
+   "s": 281.14,
+   "e": 281.46
+  },
+  {
+   "w": "then",
+   "s": 281.82,
+   "e": 281.86
+  },
+  {
+   "w": "years",
+   "s": 281.86,
+   "e": 282.08
+  },
+  {
+   "w": "of",
+   "s": 282.08,
+   "e": 282.26
+  },
+  {
+   "w": "testing.",
+   "s": 282.26,
+   "e": 282.46
+  },
+  {
+   "w": "That's",
+   "s": 283.06,
+   "e": 283.26
+  },
+  {
+   "w": "how",
+   "s": 283.26,
+   "e": 283.38
+  },
+  {
+   "w": "science",
+   "s": 283.38,
+   "e": 283.6
+  },
+  {
+   "w": "works.",
+   "s": 283.6,
+   "e": 284.06
+  },
+  {
+   "w": "What",
+   "s": 286.2,
+   "e": 286.72
+  },
+  {
+   "w": "about",
+   "s": 286.72,
+   "e": 286.86
+  },
+  {
+   "w": "the",
+   "s": 286.86,
+   "e": 287.0
+  },
+  {
+   "w": "mosquito",
+   "s": 287.0,
+   "e": 287.28
+  },
+  {
+   "w": "trapped",
+   "s": 287.28,
+   "e": 287.68
+  },
+  {
+   "w": "in",
+   "s": 287.68,
+   "e": 287.96
+  },
+  {
+   "w": "amber?",
+   "s": 287.96,
+   "e": 288.12
+  },
+  {
+   "w": "Now",
+   "s": 288.12,
+   "e": 289.02
+  },
+  {
+   "w": "here's",
+   "s": 289.02,
+   "e": 289.42
+  },
+  {
+   "w": "the",
+   "s": 289.42,
+   "e": 289.56
+  },
+  {
+   "w": "strange",
+   "s": 289.56,
+   "e": 289.78
+  },
+  {
+   "w": "part.",
+   "s": 289.78,
+   "e": 290.2
+  },
+  {
+   "w": "In",
+   "s": 290.9,
+   "e": 290.92
+  },
+  {
+   "w": "2013,",
+   "s": 290.92,
+   "e": 291.42
+  },
+  {
+   "w": "scientists",
+   "s": 291.68,
+   "e": 292.38
+  },
+  {
+   "w": "studied",
+   "s": 292.38,
+   "e": 292.84
+  },
+  {
+   "w": "a",
+   "s": 292.84,
+   "e": 292.94
+  },
+  {
+   "w": "46",
+   "s": 292.94,
+   "e": 293.24
+  },
+  {
+   "w": "million",
+   "s": 293.24,
+   "e": 293.74
+  },
+  {
+   "w": "year",
+   "s": 293.74,
+   "e": 294.02
+  },
+  {
+   "w": "old",
+   "s": 294.02,
+   "e": 294.26
+  },
+  {
+   "w": "mosquito",
+   "s": 294.26,
+   "e": 294.54
+  },
+  {
+   "w": "from",
+   "s": 294.54,
+   "e": 295.04
+  },
+  {
+   "w": "Montana,",
+   "s": 295.04,
+   "e": 295.26
+  },
+  {
+   "w": "not",
+   "s": 296.0,
+   "e": 296.18
+  },
+  {
+   "w": "in",
+   "s": 296.18,
+   "e": 296.32
+  },
+  {
+   "w": "amber,",
+   "s": 296.32,
+   "e": 296.5
+  },
+  {
+   "w": "but",
+   "s": 296.84,
+   "e": 296.9
+  },
+  {
+   "w": "in",
+   "s": 296.9,
+   "e": 297.02
+  },
+  {
+   "w": "stone.",
+   "s": 297.02,
+   "e": 297.28
+  },
+  {
+   "w": "Its",
+   "s": 298.0,
+   "e": 298.1
+  },
+  {
+   "w": "belly",
+   "s": 298.1,
+   "e": 298.3
+  },
+  {
+   "w": "was",
+   "s": 298.3,
+   "e": 298.52
+  },
+  {
+   "w": "swollen",
+   "s": 298.52,
+   "e": 298.8
+  },
+  {
+   "w": "with",
+   "s": 298.8,
+   "e": 299.14
+  },
+  {
+   "w": "blood,",
+   "s": 299.14,
+   "e": 299.46
+  },
+  {
+   "w": "and",
+   "s": 299.72,
+   "e": 299.78
+  },
+  {
+   "w": "they",
+   "s": 299.78,
+   "e": 299.88
+  },
+  {
+   "w": "found",
+   "s": 299.88,
+   "e": 300.1
+  },
+  {
+   "w": "heme",
+   "s": 300.1,
+   "e": 300.42
+  },
+  {
+   "w": "in",
+   "s": 300.42,
+   "e": 300.5
+  },
+  {
+   "w": "it",
+   "s": 300.5,
+   "e": 300.6
+  },
+  {
+   "w": "too.",
+   "s": 300.6,
+   "e": 300.84
+  },
+  {
+   "w": "But",
+   "s": 301.28,
+   "e": 301.38
+  },
+  {
+   "w": "no",
+   "s": 301.38,
+   "e": 301.54
+  },
+  {
+   "w": "DNA.",
+   "s": 301.54,
+   "e": 301.86
+  },
+  {
+   "w": "The",
+   "s": 302.6,
+   "e": 302.64
+  },
+  {
+   "w": "researchers",
+   "s": 302.64,
+   "e": 302.9
+  },
+  {
+   "w": "wrote",
+   "s": 302.9,
+   "e": 303.38
+  },
+  {
+   "w": "that",
+   "s": 303.38,
+   "e": 303.58
+  },
+  {
+   "w": "fragile",
+   "s": 303.58,
+   "e": 303.86
+  },
+  {
+   "w": "molecules",
+   "s": 303.86,
+   "e": 304.56
+  },
+  {
+   "w": "like",
+   "s": 304.56,
+   "e": 304.92
+  },
+  {
+   "w": "DNA",
+   "s": 304.92,
+   "e": 305.2
+  },
+  {
+   "w": "don't",
+   "s": 305.2,
+   "e": 305.78
+  },
+  {
+   "w": "survive",
+   "s": 305.78,
+   "e": 306.08
+  },
+  {
+   "w": "fossilization,",
+   "s": 306.08,
+   "e": 306.9
+  },
+  {
+   "w": "while",
+   "s": 307.36,
+   "e": 307.62
+  },
+  {
+   "w": "tough",
+   "s": 307.62,
+   "e": 307.86
+  },
+  {
+   "w": "ones,",
+   "s": 307.86,
+   "e": 308.16
+  },
+  {
+   "w": "like",
+   "s": 308.44,
+   "e": 308.58
+  },
+  {
+   "w": "iron",
+   "s": 308.58,
+   "e": 308.78
+  },
+  {
+   "w": "-bound",
+   "s": 308.78,
+   "e": 309.06
+  },
+  {
+   "w": "heme,",
+   "s": 309.06,
+   "e": 309.52
+  },
+  {
+   "w": "can.",
+   "s": 309.72,
+   "e": 309.82
+  },
+  {
+   "w": "And",
+   "s": 310.38,
+   "e": 310.46
+  },
+  {
+   "w": "amber",
+   "s": 310.46,
+   "e": 310.72
+  },
+  {
+   "w": "isn't",
+   "s": 310.72,
+   "e": 311.1
+  },
+  {
+   "w": "much",
+   "s": 311.1,
+   "e": 311.26
+  },
+  {
+   "w": "better.",
+   "s": 311.26,
+   "e": 311.56
+  },
+  {
+   "w": "In",
+   "s": 312.18,
+   "e": 312.26
+  },
+  {
+   "w": "2013,",
+   "s": 312.26,
+   "e": 312.76
+  },
+  {
+   "w": "a",
+   "s": 313.28,
+   "e": 313.4
+  },
+  {
+   "w": "team",
+   "s": 313.4,
+   "e": 313.62
+  },
+  {
+   "w": "in",
+   "s": 313.62,
+   "e": 313.76
+  },
+  {
+   "w": "Manchester",
+   "s": 313.76,
+   "e": 314.12
+  },
+  {
+   "w": "tested",
+   "s": 314.12,
+   "e": 314.58
+  },
+  {
+   "w": "bees",
+   "s": 314.58,
+   "e": 314.94
+  },
+  {
+   "w": "trapped",
+   "s": 314.94,
+   "e": 315.22
+  },
+  {
+   "w": "in",
+   "s": 315.22,
+   "e": 315.44
+  },
+  {
+   "w": "cople,",
+   "s": 315.44,
+   "e": 315.88
+  },
+  {
+   "w": "a",
+   "s": 316.1,
+   "e": 316.28
+  },
+  {
+   "w": "young",
+   "s": 316.28,
+   "e": 316.44
+  },
+  {
+   "w": "kind",
+   "s": 316.44,
+   "e": 316.68
+  },
+  {
+   "w": "of",
+   "s": 316.68,
+   "e": 316.8
+  },
+  {
+   "w": "amber.",
+   "s": 316.8,
+   "e": 316.98
+  },
+  {
+   "w": "One",
+   "s": 316.98,
+   "e": 317.7
+  },
+  {
+   "w": "was",
+   "s": 317.7,
+   "e": 317.84
+  },
+  {
+   "w": "about",
+   "s": 317.84,
+   "e": 317.98
+  },
+  {
+   "w": "10",
+   "s": 317.98,
+   "e": 318.36
+  },
+  {
+   "w": ",000",
+   "s": 318.36,
+   "e": 318.8
+  },
+  {
+   "w": "years",
+   "s": 318.8,
+   "e": 319.0
+  },
+  {
+   "w": "old,",
+   "s": 319.0,
+   "e": 319.34
+  },
+  {
+   "w": "the",
+   "s": 319.58,
+   "e": 319.64
+  },
+  {
+   "w": "other",
+   "s": 319.64,
+   "e": 319.78
+  },
+  {
+   "w": "less",
+   "s": 319.78,
+   "e": 320.04
+  },
+  {
+   "w": "than",
+   "s": 320.04,
+   "e": 320.26
+  },
+  {
+   "w": "60.",
+   "s": 320.26,
+   "e": 320.52
+  },
+  {
+   "w": "Neither",
+   "s": 321.28,
+   "e": 321.44
+  },
+  {
+   "w": "had",
+   "s": 321.44,
+   "e": 321.8
+  },
+  {
+   "w": "any",
+   "s": 321.8,
+   "e": 321.98
+  },
+  {
+   "w": "convincing",
+   "s": 321.98,
+   "e": 322.3
+  },
+  {
+   "w": "DNA.",
+   "s": 322.3,
+   "e": 322.8
+  },
+  {
+   "w": "And",
+   "s": 323.48,
+   "e": 323.56
+  },
+  {
+   "w": "that",
+   "s": 323.56,
+   "e": 323.68
+  },
+  {
+   "w": "mosquito",
+   "s": 323.68,
+   "e": 323.98
+  },
+  {
+   "w": "lived",
+   "s": 323.98,
+   "e": 324.44
+  },
+  {
+   "w": "20",
+   "s": 324.44,
+   "e": 324.76
+  },
+  {
+   "w": "million",
+   "s": 324.76,
+   "e": 325.08
+  },
+  {
+   "w": "years",
+   "s": 325.08,
+   "e": 325.52
+  },
+  {
+   "w": "after",
+   "s": 325.52,
+   "e": 326.06
+  },
+  {
+   "w": "the",
+   "s": 326.06,
+   "e": 326.28
+  },
+  {
+   "w": "last",
+   "s": 326.28,
+   "e": 326.56
+  },
+  {
+   "w": "giant",
+   "s": 326.56,
+   "e": 326.98
+  },
+  {
+   "w": "dinosaurs",
+   "s": 326.98,
+   "e": 327.48
+  },
+  {
+   "w": "had",
+   "s": 327.48,
+   "e": 327.84
+  },
+  {
+   "w": "died",
+   "s": 327.84,
+   "e": 328.08
+  },
+  {
+   "w": "out.",
+   "s": 328.08,
+   "e": 328.38
+  },
+  {
+   "w": "Don't",
+   "s": 330.56,
+   "e": 331.12
+  },
+  {
+   "w": "blood",
+   "s": 331.12,
+   "e": 331.28
+  },
+  {
+   "w": "cells",
+   "s": 331.28,
+   "e": 331.5
+  },
+  {
+   "w": "carry",
+   "s": 331.5,
+   "e": 331.92
+  },
+  {
+   "w": "DNA",
+   "s": 331.92,
+   "e": 332.24
+  },
+  {
+   "w": "though?",
+   "s": 332.24,
+   "e": 332.6
+  },
+  {
+   "w": "Yours",
+   "s": 333.14,
+   "e": 333.52
+  },
+  {
+   "w": "don't.",
+   "s": 333.52,
+   "e": 333.88
+  },
+  {
+   "w": "Mammal",
+   "s": 334.3,
+   "e": 334.46
+  },
+  {
+   "w": "red",
+   "s": 334.46,
+   "e": 334.6
+  },
+  {
+   "w": "blood",
+   "s": 334.6,
+   "e": 334.86
+  },
+  {
+   "w": "cells",
+   "s": 334.86,
+   "e": 335.2
+  },
+  {
+   "w": "throw",
+   "s": 335.2,
+   "e": 335.6
+  },
+  {
+   "w": "out",
+   "s": 335.6,
+   "e": 335.8
+  },
+  {
+   "w": "their",
+   "s": 335.8,
+   "e": 335.98
+  },
+  {
+   "w": "nucleus",
+   "s": 335.98,
+   "e": 336.28
+  },
+  {
+   "w": "as",
+   "s": 336.28,
+   "e": 336.64
+  },
+  {
+   "w": "they",
+   "s": 336.64,
+   "e": 336.8
+  },
+  {
+   "w": "mature,",
+   "s": 336.8,
+   "e": 337.1
+  },
+  {
+   "w": "to",
+   "s": 337.56,
+   "e": 337.72
+  },
+  {
+   "w": "make",
+   "s": 337.72,
+   "e": 337.86
+  },
+  {
+   "w": "room",
+   "s": 337.86,
+   "e": 338.06
+  },
+  {
+   "w": "for",
+   "s": 338.06,
+   "e": 338.3
+  },
+  {
+   "w": "more",
+   "s": 338.3,
+   "e": 338.44
+  },
+  {
+   "w": "hemoglobin.",
+   "s": 338.44,
+   "e": 338.84
+  },
+  {
+   "w": "But",
+   "s": 339.62,
+   "e": 339.72
+  },
+  {
+   "w": "birds",
+   "s": 339.72,
+   "e": 339.94
+  },
+  {
+   "w": "and",
+   "s": 339.94,
+   "e": 340.24
+  },
+  {
+   "w": "reptiles",
+   "s": 340.24,
+   "e": 340.48
+  },
+  {
+   "w": "keep",
+   "s": 340.48,
+   "e": 340.98
+  },
+  {
+   "w": "it,",
+   "s": 340.98,
+   "e": 341.18
+  },
+  {
+   "w": "which",
+   "s": 341.4,
+   "e": 341.62
+  },
+  {
+   "w": "is",
+   "s": 341.62,
+   "e": 341.76
+  },
+  {
+   "w": "why",
+   "s": 341.76,
+   "e": 341.96
+  },
+  {
+   "w": "their",
+   "s": 341.96,
+   "e": 342.14
+  },
+  {
+   "w": "blood",
+   "s": 342.14,
+   "e": 342.34
+  },
+  {
+   "w": "cells",
+   "s": 342.34,
+   "e": 342.6
+  },
+  {
+   "w": "are",
+   "s": 342.6,
+   "e": 342.86
+  },
+  {
+   "w": "oval.",
+   "s": 342.86,
+   "e": 343.14
+  },
+  {
+   "w": "Dinosaurs",
+   "s": 343.14,
+   "e": 344.16
+  },
+  {
+   "w": "were",
+   "s": 344.16,
+   "e": 344.44
+  },
+  {
+   "w": "close",
+   "s": 344.44,
+   "e": 344.62
+  },
+  {
+   "w": "relatives",
+   "s": 344.62,
+   "e": 344.96
+  },
+  {
+   "w": "of",
+   "s": 344.96,
+   "e": 345.34
+  },
+  {
+   "w": "birds,",
+   "s": 345.34,
+   "e": 345.6
+  },
+  {
+   "w": "so",
+   "s": 346.06,
+   "e": 346.18
+  },
+  {
+   "w": "their",
+   "s": 346.18,
+   "e": 346.3
+  },
+  {
+   "w": "blood",
+   "s": 346.3,
+   "e": 346.5
+  },
+  {
+   "w": "cells",
+   "s": 346.5,
+   "e": 346.74
+  },
+  {
+   "w": "probably",
+   "s": 346.74,
+   "e": 347.14
+  },
+  {
+   "w": "carried",
+   "s": 347.14,
+   "e": 347.6
+  },
+  {
+   "w": "DNA",
+   "s": 347.6,
+   "e": 347.9
+  },
+  {
+   "w": "too.",
+   "s": 347.9,
+   "e": 348.44
+  },
+  {
+   "w": "So",
+   "s": 348.8,
+   "e": 348.9
+  },
+  {
+   "w": "the",
+   "s": 348.9,
+   "e": 349.0
+  },
+  {
+   "w": "dinosaurs'",
+   "s": 349.0,
+   "e": 349.38
+  },
+  {
+   "w": "DNA",
+   "s": 349.74,
+   "e": 349.94
+  },
+  {
+   "w": "was",
+   "s": 349.94,
+   "e": 350.32
+  },
+  {
+   "w": "in",
+   "s": 350.32,
+   "e": 350.5
+  },
+  {
+   "w": "there?",
+   "s": 350.5,
+   "e": 350.7
+  },
+  {
+   "w": "Once,",
+   "s": 351.26,
+   "e": 351.56
+  },
+  {
+   "w": "but",
+   "s": 351.72,
+   "e": 351.8
+  },
+  {
+   "w": "DNA",
+   "s": 351.8,
+   "e": 352.04
+  },
+  {
+   "w": "falls",
+   "s": 352.04,
+   "e": 352.48
+  },
+  {
+   "w": "apart",
+   "s": 352.48,
+   "e": 352.74
+  },
+  {
+   "w": "on",
+   "s": 352.74,
+   "e": 353.06
+  },
+  {
+   "w": "a",
+   "s": 353.06,
+   "e": 353.12
+  },
+  {
+   "w": "schedule.",
+   "s": 353.12,
+   "e": 353.32
+  },
+  {
+   "w": "In",
+   "s": 354.12,
+   "e": 354.22
+  },
+  {
+   "w": "2012,",
+   "s": 354.22,
+   "e": 354.74
+  },
+  {
+   "w": "scientists",
+   "s": 354.86,
+   "e": 355.66
+  },
+  {
+   "w": "measured",
+   "s": 355.66,
+   "e": 356.1
+  },
+  {
+   "w": "the",
+   "s": 356.1,
+   "e": 356.36
+  },
+  {
+   "w": "DNA",
+   "s": 356.36,
+   "e": 356.62
+  },
+  {
+   "w": "in",
+   "s": 356.62,
+   "e": 356.94
+  },
+  {
+   "w": "158",
+   "s": 356.94,
+   "e": 357.66
+  },
+  {
+   "w": "bones",
+   "s": 357.66,
+   "e": 358.18
+  },
+  {
+   "w": "of",
+   "s": 358.18,
+   "e": 358.4
+  },
+  {
+   "w": "Moa,",
+   "s": 358.4,
+   "e": 358.72
+  },
+  {
+   "w": "giant",
+   "s": 358.98,
+   "e": 359.32
+  },
+  {
+   "w": "extinct",
+   "s": 359.32,
+   "e": 359.7
+  },
+  {
+   "w": "birds",
+   "s": 359.7,
+   "e": 360.22
+  },
+  {
+   "w": "from",
+   "s": 360.22,
+   "e": 360.56
+  },
+  {
+   "w": "New",
+   "s": 360.56,
+   "e": 360.7
+  },
+  {
+   "w": "Zealand.",
+   "s": 360.7,
+   "e": 361.04
+  },
+  {
+   "w": "The",
+   "s": 361.5,
+   "e": 361.6
+  },
+  {
+   "w": "bonds",
+   "s": 361.6,
+   "e": 361.86
+  },
+  {
+   "w": "that",
+   "s": 361.86,
+   "e": 362.08
+  },
+  {
+   "w": "hold",
+   "s": 362.08,
+   "e": 362.28
+  },
+  {
+   "w": "a",
+   "s": 362.28,
+   "e": 362.42
+  },
+  {
+   "w": "DNA",
+   "s": 362.42,
+   "e": 362.78
+  },
+  {
+   "w": "strand",
+   "s": 362.78,
+   "e": 363.06
+  },
+  {
+   "w": "together",
+   "s": 363.06,
+   "e": 363.48
+  },
+  {
+   "w": "have",
+   "s": 363.48,
+   "e": 363.96
+  },
+  {
+   "w": "a",
+   "s": 363.96,
+   "e": 364.04
+  },
+  {
+   "w": "half",
+   "s": 364.04,
+   "e": 364.26
+  },
+  {
+   "w": "-life",
+   "s": 364.26,
+   "e": 364.54
+  },
+  {
+   "w": "of",
+   "s": 364.54,
+   "e": 364.76
+  },
+  {
+   "w": "about",
+   "s": 364.76,
+   "e": 364.96
+  },
+  {
+   "w": "521",
+   "s": 364.96,
+   "e": 366.1
+  },
+  {
+   "w": "years.",
+   "s": 366.1,
+   "e": 366.6
+  },
+  {
+   "w": "Every",
+   "s": 367.18,
+   "e": 367.44
+  },
+  {
+   "w": "five",
+   "s": 367.44,
+   "e": 367.8
+  },
+  {
+   "w": "centuries",
+   "s": 367.8,
+   "e": 368.16
+  },
+  {
+   "w": "or",
+   "s": 368.16,
+   "e": 368.38
+  },
+  {
+   "w": "so,",
+   "s": 368.38,
+   "e": 368.72
+  },
+  {
+   "w": "half",
+   "s": 368.9,
+   "e": 369.12
+  },
+  {
+   "w": "of",
+   "s": 369.12,
+   "e": 369.3
+  },
+  {
+   "w": "them",
+   "s": 369.3,
+   "e": 369.42
+  },
+  {
+   "w": "break.",
+   "s": 369.42,
+   "e": 369.68
+  },
+  {
+   "w": "How",
+   "s": 371.88,
+   "e": 372.38
+  },
+  {
+   "w": "long",
+   "s": 372.38,
+   "e": 372.62
+  },
+  {
+   "w": "until",
+   "s": 372.62,
+   "e": 372.96
+  },
+  {
+   "w": "nothing",
+   "s": 372.96,
+   "e": 373.3
+  },
+  {
+   "w": "is",
+   "s": 373.3,
+   "e": 373.46
+  },
+  {
+   "w": "left?",
+   "s": 373.46,
+   "e": 373.72
+  },
+  {
+   "w": "By",
+   "s": 374.36,
+   "e": 374.52
+  },
+  {
+   "w": "their",
+   "s": 374.52,
+   "e": 374.7
+  },
+  {
+   "w": "estimate,",
+   "s": 374.7,
+   "e": 374.98
+  },
+  {
+   "w": "even",
+   "s": 375.42,
+   "e": 375.66
+  },
+  {
+   "w": "in",
+   "s": 375.66,
+   "e": 375.78
+  },
+  {
+   "w": "a",
+   "s": 375.78,
+   "e": 375.86
+  },
+  {
+   "w": "frozen",
+   "s": 375.86,
+   "e": 376.04
+  },
+  {
+   "w": "bone,",
+   "s": 376.04,
+   "e": 376.52
+  },
+  {
+   "w": "DNA",
+   "s": 377.02,
+   "e": 377.2
+  },
+  {
+   "w": "becomes",
+   "s": 377.2,
+   "e": 377.8
+  },
+  {
+   "w": "unreadable",
+   "s": 377.8,
+   "e": 378.38
+  },
+  {
+   "w": "after",
+   "s": 378.38,
+   "e": 378.82
+  },
+  {
+   "w": "about",
+   "s": 378.82,
+   "e": 379.1
+  },
+  {
+   "w": "1",
+   "s": 379.1,
+   "e": 379.48
+  },
+  {
+   "w": ".5",
+   "s": 379.48,
+   "e": 379.92
+  },
+  {
+   "w": "million",
+   "s": 379.92,
+   "e": 380.18
+  },
+  {
+   "w": "years.",
+   "s": 380.18,
+   "e": 380.58
+  },
+  {
+   "w": "And",
+   "s": 381.24,
+   "e": 381.36
+  },
+  {
+   "w": "every",
+   "s": 381.36,
+   "e": 381.6
+  },
+  {
+   "w": "last",
+   "s": 381.6,
+   "e": 381.82
+  },
+  {
+   "w": "bond",
+   "s": 381.82,
+   "e": 382.12
+  },
+  {
+   "w": "is",
+   "s": 382.12,
+   "e": 382.3
+  },
+  {
+   "w": "gone",
+   "s": 382.3,
+   "e": 382.52
+  },
+  {
+   "w": "by",
+   "s": 382.52,
+   "e": 382.8
+  },
+  {
+   "w": "6",
+   "s": 382.8,
+   "e": 383.12
+  },
+  {
+   "w": ".8",
+   "s": 383.12,
+   "e": 383.72
+  },
+  {
+   "w": "million.",
+   "s": 383.72,
+   "e": 383.98
+  },
+  {
+   "w": "Think",
+   "s": 384.58,
+   "e": 384.64
+  },
+  {
+   "w": "of",
+   "s": 384.64,
+   "e": 384.82
+  },
+  {
+   "w": "a",
+   "s": 384.82,
+   "e": 384.88
+  },
+  {
+   "w": "book",
+   "s": 384.88,
+   "e": 385.04
+  },
+  {
+   "w": "where,",
+   "s": 385.04,
+   "e": 385.28
+  },
+  {
+   "w": "every",
+   "s": 385.52,
+   "e": 385.66
+  },
+  {
+   "w": "five",
+   "s": 385.66,
+   "e": 385.98
+  },
+  {
+   "w": "centuries,",
+   "s": 385.98,
+   "e": 386.38
+  },
+  {
+   "w": "half",
+   "s": 386.84,
+   "e": 386.98
+  },
+  {
+   "w": "the",
+   "s": 386.98,
+   "e": 387.16
+  },
+  {
+   "w": "stitches",
+   "s": 387.16,
+   "e": 387.42
+  },
+  {
+   "w": "in",
+   "s": 387.42,
+   "e": 387.72
+  },
+  {
+   "w": "its",
+   "s": 387.72,
+   "e": 387.84
+  },
+  {
+   "w": "binding",
+   "s": 387.84,
+   "e": 388.08
+  },
+  {
+   "w": "snap.",
+   "s": 388.08,
+   "e": 388.56
+  },
+  {
+   "w": "The",
+   "s": 389.16,
+   "e": 389.22
+  },
+  {
+   "w": "pages",
+   "s": 389.22,
+   "e": 389.5
+  },
+  {
+   "w": "split",
+   "s": 389.5,
+   "e": 389.82
+  },
+  {
+   "w": "into",
+   "s": 389.82,
+   "e": 390.04
+  },
+  {
+   "w": "smaller",
+   "s": 390.04,
+   "e": 390.44
+  },
+  {
+   "w": "and",
+   "s": 390.44,
+   "e": 390.64
+  },
+  {
+   "w": "smaller",
+   "s": 390.64,
+   "e": 390.98
+  },
+  {
+   "w": "scraps.",
+   "s": 390.98,
+   "e": 391.28
+  },
+  {
+   "w": "After",
+   "s": 392.0,
+   "e": 392.2
+  },
+  {
+   "w": "a",
+   "s": 392.2,
+   "e": 392.3
+  },
+  {
+   "w": "million",
+   "s": 392.3,
+   "e": 392.44
+  },
+  {
+   "w": "years",
+   "s": 392.44,
+   "e": 392.78
+  },
+  {
+   "w": "or",
+   "s": 392.78,
+   "e": 392.92
+  },
+  {
+   "w": "so,",
+   "s": 392.92,
+   "e": 393.16
+  },
+  {
+   "w": "the",
+   "s": 393.36,
+   "e": 393.46
+  },
+  {
+   "w": "scraps",
+   "s": 393.46,
+   "e": 393.68
+  },
+  {
+   "w": "are",
+   "s": 393.68,
+   "e": 393.9
+  },
+  {
+   "w": "too",
+   "s": 393.9,
+   "e": 394.06
+  },
+  {
+   "w": "tiny",
+   "s": 394.06,
+   "e": 394.36
+  },
+  {
+   "w": "to",
+   "s": 394.36,
+   "e": 394.6
+  },
+  {
+   "w": "read.",
+   "s": 394.6,
+   "e": 394.78
+  },
+  {
+   "w": "The",
+   "s": 394.78,
+   "e": 395.42
+  },
+  {
+   "w": "oldest",
+   "s": 395.42,
+   "e": 395.7
+  },
+  {
+   "w": "DNA",
+   "s": 395.7,
+   "e": 396.02
+  },
+  {
+   "w": "ever",
+   "s": 396.02,
+   "e": 396.5
+  },
+  {
+   "w": "read",
+   "s": 396.5,
+   "e": 396.74
+  },
+  {
+   "w": "is",
+   "s": 396.74,
+   "e": 396.98
+  },
+  {
+   "w": "about",
+   "s": 396.98,
+   "e": 397.14
+  },
+  {
+   "w": "2",
+   "s": 397.14,
+   "e": 397.46
+  },
+  {
+   "w": "million",
+   "s": 397.46,
+   "e": 397.7
+  },
+  {
+   "w": "years",
+   "s": 397.7,
+   "e": 398.06
+  },
+  {
+   "w": "old,",
+   "s": 398.06,
+   "e": 398.32
+  },
+  {
+   "w": "from",
+   "s": 398.7,
+   "e": 398.88
+  },
+  {
+   "w": "frozen",
+   "s": 398.88,
+   "e": 399.14
+  },
+  {
+   "w": "soil",
+   "s": 399.14,
+   "e": 399.58
+  },
+  {
+   "w": "in",
+   "s": 399.58,
+   "e": 399.9
+  },
+  {
+   "w": "northern",
+   "s": 399.9,
+   "e": 400.04
+  },
+  {
+   "w": "Greenland.",
+   "s": 400.04,
+   "e": 400.46
+  },
+  {
+   "w": "The",
+   "s": 401.24,
+   "e": 401.3
+  },
+  {
+   "w": "last",
+   "s": 401.3,
+   "e": 401.5
+  },
+  {
+   "w": "giant",
+   "s": 401.5,
+   "e": 401.88
+  },
+  {
+   "w": "dinosaurs",
+   "s": 401.88,
+   "e": 402.36
+  },
+  {
+   "w": "died",
+   "s": 402.36,
+   "e": 402.76
+  },
+  {
+   "w": "66",
+   "s": 402.76,
+   "e": 403.14
+  },
+  {
+   "w": "million",
+   "s": 403.14,
+   "e": 403.7
+  },
+  {
+   "w": "years",
+   "s": 403.7,
+   "e": 404.04
+  },
+  {
+   "w": "ago.",
+   "s": 404.04,
+   "e": 404.28
+  },
+  {
+   "w": "That's",
+   "s": 404.78,
+   "e": 405.04
+  },
+  {
+   "w": "more",
+   "s": 405.04,
+   "e": 405.18
+  },
+  {
+   "w": "than",
+   "s": 405.18,
+   "e": 405.32
+  },
+  {
+   "w": "30",
+   "s": 405.32,
+   "e": 405.6
+  },
+  {
+   "w": "times",
+   "s": 405.6,
+   "e": 405.94
+  },
+  {
+   "w": "further",
+   "s": 405.94,
+   "e": 406.26
+  },
+  {
+   "w": "back.",
+   "s": 406.26,
+   "e": 406.56
+  },
+  {
+   "w": "So",
+   "s": 407.1,
+   "e": 407.16
+  },
+  {
+   "w": "as",
+   "s": 407.16,
+   "e": 407.28
+  },
+  {
+   "w": "far",
+   "s": 407.28,
+   "e": 407.46
+  },
+  {
+   "w": "as",
+   "s": 407.46,
+   "e": 407.62
+  },
+  {
+   "w": "we",
+   "s": 407.62,
+   "e": 407.7
+  },
+  {
+   "w": "know,",
+   "s": 407.7,
+   "e": 407.88
+  },
+  {
+   "w": "there's",
+   "s": 408.12,
+   "e": 408.3
+  },
+  {
+   "w": "no",
+   "s": 408.3,
+   "e": 408.48
+  },
+  {
+   "w": "dinosaur",
+   "s": 408.48,
+   "e": 408.92
+  },
+  {
+   "w": "DNA",
+   "s": 408.92,
+   "e": 409.26
+  },
+  {
+   "w": "left",
+   "s": 409.26,
+   "e": 409.68
+  },
+  {
+   "w": "to",
+   "s": 409.68,
+   "e": 409.86
+  },
+  {
+   "w": "clone,",
+   "s": 409.86,
+   "e": 410.0
+  },
+  {
+   "w": "not",
+   "s": 410.72,
+   "e": 410.92
+  },
+  {
+   "w": "in",
+   "s": 410.92,
+   "e": 411.08
+  },
+  {
+   "w": "bones",
+   "s": 411.08,
+   "e": 411.32
+  },
+  {
+   "w": "and",
+   "s": 411.32,
+   "e": 411.96
+  },
+  {
+   "w": "not",
+   "s": 411.96,
+   "e": 412.18
+  },
+  {
+   "w": "in",
+   "s": 412.18,
+   "e": 412.28
+  },
+  {
+   "w": "mosquitoes.",
+   "s": 412.28,
+   "e": 412.46
+  },
+  {
+   "w": "Then",
+   "s": 414.86,
+   "e": 415.42
+  },
+  {
+   "w": "why",
+   "s": 415.42,
+   "e": 415.7
+  },
+  {
+   "w": "does",
+   "s": 415.7,
+   "e": 415.92
+  },
+  {
+   "w": "finding",
+   "s": 415.92,
+   "e": 416.2
+  },
+  {
+   "w": "blood",
+   "s": 416.2,
+   "e": 416.58
+  },
+  {
+   "w": "matter?",
+   "s": 416.58,
+   "e": 417.0
+  },
+  {
+   "w": "Because",
+   "s": 417.54,
+   "e": 417.74
+  },
+  {
+   "w": "some",
+   "s": 417.74,
+   "e": 417.92
+  },
+  {
+   "w": "molecules",
+   "s": 417.92,
+   "e": 418.3
+  },
+  {
+   "w": "outlast",
+   "s": 418.3,
+   "e": 418.98
+  },
+  {
+   "w": "DNA",
+   "s": 418.98,
+   "e": 419.42
+  },
+  {
+   "w": "by",
+   "s": 419.42,
+   "e": 419.82
+  },
+  {
+   "w": "a",
+   "s": 419.82,
+   "e": 419.96
+  },
+  {
+   "w": "lot.",
+   "s": 419.96,
+   "e": 420.12
+  },
+  {
+   "w": "In",
+   "s": 420.12,
+   "e": 420.7
+  },
+  {
+   "w": "2025,",
+   "s": 420.7,
+   "e": 421.46
+  },
+  {
+   "w": "scientists",
+   "s": 422.18,
+   "e": 422.82
+  },
+  {
+   "w": "read",
+   "s": 422.82,
+   "e": 423.14
+  },
+  {
+   "w": "pieces",
+   "s": 423.14,
+   "e": 423.56
+  },
+  {
+   "w": "of",
+   "s": 423.56,
+   "e": 423.76
+  },
+  {
+   "w": "proteins",
+   "s": 423.76,
+   "e": 424.1
+  },
+  {
+   "w": "from",
+   "s": 424.1,
+   "e": 424.48
+  },
+  {
+   "w": "a",
+   "s": 424.48,
+   "e": 424.56
+  },
+  {
+   "w": "rhino",
+   "s": 424.56,
+   "e": 424.92
+  },
+  {
+   "w": "tooth",
+   "s": 424.92,
+   "e": 425.12
+  },
+  {
+   "w": "in",
+   "s": 425.12,
+   "e": 425.5
+  },
+  {
+   "w": "the",
+   "s": 425.5,
+   "e": 425.62
+  },
+  {
+   "w": "Canadian",
+   "s": 425.62,
+   "e": 425.98
+  },
+  {
+   "w": "Arctic,",
+   "s": 425.98,
+   "e": 426.4
+  },
+  {
+   "w": "more",
+   "s": 426.92,
+   "e": 427.1
+  },
+  {
+   "w": "than",
+   "s": 427.1,
+   "e": 427.24
+  },
+  {
+   "w": "20",
+   "s": 427.24,
+   "e": 427.46
+  },
+  {
+   "w": "million",
+   "s": 427.46,
+   "e": 427.76
+  },
+  {
+   "w": "years",
+   "s": 427.76,
+   "e": 428.1
+  },
+  {
+   "w": "old.",
+   "s": 428.1,
+   "e": 428.38
+  },
+  {
+   "w": "The",
+   "s": 428.82,
+   "e": 428.9
+  },
+  {
+   "w": "tooth's",
+   "s": 428.9,
+   "e": 429.32
+  },
+  {
+   "w": "enamel,",
+   "s": 429.32,
+   "e": 429.68
+  },
+  {
+   "w": "the",
+   "s": 430.0,
+   "e": 430.08
+  },
+  {
+   "w": "hardest",
+   "s": 430.08,
+   "e": 430.4
+  },
+  {
+   "w": "material",
+   "s": 430.4,
+   "e": 430.88
+  },
+  {
+   "w": "an",
+   "s": 430.88,
+   "e": 431.2
+  },
+  {
+   "w": "animal",
+   "s": 431.2,
+   "e": 431.44
+  },
+  {
+   "w": "makes,",
+   "s": 431.44,
+   "e": 431.9
+  },
+  {
+   "w": "worked",
+   "s": 432.28,
+   "e": 432.5
+  },
+  {
+   "w": "like",
+   "s": 432.5,
+   "e": 432.76
+  },
+  {
+   "w": "an",
+   "s": 432.76,
+   "e": 432.9
+  },
+  {
+   "w": "armoured",
+   "s": 432.9,
+   "e": 433.14
+  },
+  {
+   "w": "box",
+   "s": 433.14,
+   "e": 433.44
+  },
+  {
+   "w": "around",
+   "s": 433.44,
+   "e": 433.84
+  },
+  {
+   "w": "those",
+   "s": 433.84,
+   "e": 434.08
+  },
+  {
+   "w": "proteins.",
+   "s": 434.08,
+   "e": 434.54
+  },
+  {
+   "w": "Human",
+   "s": 435.64,
+   "e": 436.02
+  },
+  {
+   "w": "proteins",
+   "s": 436.02,
+   "e": 436.48
+  },
+  {
+   "w": "like",
+   "s": 436.48,
+   "e": 436.82
+  },
+  {
+   "w": "these",
+   "s": 436.82,
+   "e": 437.04
+  },
+  {
+   "w": "can",
+   "s": 437.04,
+   "e": 437.3
+  },
+  {
+   "w": "hint",
+   "s": 437.3,
+   "e": 437.52
+  },
+  {
+   "w": "at",
+   "s": 437.52,
+   "e": 437.74
+  },
+  {
+   "w": "how",
+   "s": 437.74,
+   "e": 437.92
+  },
+  {
+   "w": "much",
+   "s": 437.92,
+   "e": 438.08
+  },
+  {
+   "w": "oxygen",
+   "s": 438.08,
+   "e": 438.56
+  },
+  {
+   "w": "an",
+   "s": 438.56,
+   "e": 438.84
+  },
+  {
+   "w": "animal's",
+   "s": 438.84,
+   "e": 439.32
+  },
+  {
+   "w": "blood",
+   "s": 439.32,
+   "e": 439.52
+  },
+  {
+   "w": "carried,",
+   "s": 439.52,
+   "e": 439.84
+  },
+  {
+   "w": "how",
+   "s": 440.4,
+   "e": 440.62
+  },
+  {
+   "w": "active",
+   "s": 440.62,
+   "e": 440.9
+  },
+  {
+   "w": "it",
+   "s": 440.9,
+   "e": 441.06
+  },
+  {
+   "w": "was,",
+   "s": 441.06,
+   "e": 441.3
+  },
+  {
+   "w": "and",
+   "s": 441.76,
+   "e": 441.88
+  },
+  {
+   "w": "who",
+   "s": 441.88,
+   "e": 442.04
+  },
+  {
+   "w": "its",
+   "s": 442.04,
+   "e": 442.16
+  },
+  {
+   "w": "relatives",
+   "s": 442.16,
+   "e": 442.46
+  },
+  {
+   "w": "were.",
+   "s": 442.46,
+   "e": 442.92
+  },
+  {
+   "w": "Grice",
+   "s": 443.62,
+   "e": 444.14
+  },
+  {
+   "w": "hopes",
+   "s": 444.14,
+   "e": 444.36
+  },
+  {
+   "w": "blood",
+   "s": 444.36,
+   "e": 444.68
+  },
+  {
+   "w": "molecules",
+   "s": 444.68,
+   "e": 445.16
+  },
+  {
+   "w": "like",
+   "s": 445.16,
+   "e": 445.5
+  },
+  {
+   "w": "these",
+   "s": 445.5,
+   "e": 445.76
+  },
+  {
+   "w": "could",
+   "s": 445.76,
+   "e": 446.12
+  },
+  {
+   "w": "help",
+   "s": 446.12,
+   "e": 446.32
+  },
+  {
+   "w": "answer",
+   "s": 446.32,
+   "e": 446.76
+  },
+  {
+   "w": "an",
+   "s": 446.76,
+   "e": 446.86
+  },
+  {
+   "w": "old",
+   "s": 446.86,
+   "e": 446.98
+  },
+  {
+   "w": "question.",
+   "s": 446.98,
+   "e": 447.3
+  },
+  {
+   "w": "Just",
+   "s": 448.12,
+   "e": 448.3
+  },
+  {
+   "w": "how",
+   "s": 448.3,
+   "e": 448.52
+  },
+  {
+   "w": "warm",
+   "s": 448.52,
+   "e": 448.82
+  },
+  {
+   "w": "blooded",
+   "s": 448.82,
+   "e": 449.22
+  },
+  {
+   "w": "and",
+   "s": 449.22,
+   "e": 449.4
+  },
+  {
+   "w": "active",
+   "s": 449.4,
+   "e": 449.74
+  },
+  {
+   "w": "were",
+   "s": 449.74,
+   "e": 449.96
+  },
+  {
+   "w": "the",
+   "s": 449.96,
+   "e": 450.08
+  },
+  {
+   "w": "dinosaurs.",
+   "s": 450.08,
+   "e": 450.4
+  },
+  {
+   "w": "And",
+   "s": 451.22,
+   "e": 451.3
+  },
+  {
+   "w": "the",
+   "s": 451.3,
+   "e": 451.38
+  },
+  {
+   "w": "team",
+   "s": 451.38,
+   "e": 451.56
+  },
+  {
+   "w": "thinks",
+   "s": 451.56,
+   "e": 451.82
+  },
+  {
+   "w": "this",
+   "s": 451.82,
+   "e": 452.12
+  },
+  {
+   "w": "kind",
+   "s": 452.12,
+   "e": 452.34
+  },
+  {
+   "w": "of",
+   "s": 452.34,
+   "e": 452.44
+  },
+  {
+   "w": "preservation",
+   "s": 452.44,
+   "e": 452.78
+  },
+  {
+   "w": "may",
+   "s": 452.78,
+   "e": 453.38
+  },
+  {
+   "w": "not",
+   "s": 453.38,
+   "e": 453.56
+  },
+  {
+   "w": "be",
+   "s": 453.56,
+   "e": 453.72
+  },
+  {
+   "w": "so",
+   "s": 453.72,
+   "e": 453.94
+  },
+  {
+   "w": "rare.",
+   "s": 453.94,
+   "e": 454.28
+  },
+  {
+   "w": "Old",
+   "s": 455.0,
+   "e": 455.0
+  },
+  {
+   "w": "fossils",
+   "s": 455.0,
+   "e": 455.24
+  },
+  {
+   "w": "sitting",
+   "s": 455.24,
+   "e": 455.7
+  },
+  {
+   "w": "in",
+   "s": 455.7,
+   "e": 455.9
+  },
+  {
+   "w": "museum",
+   "s": 455.9,
+   "e": 456.14
+  },
+  {
+   "w": "drawers",
+   "s": 456.14,
+   "e": 456.74
+  },
+  {
+   "w": "could",
+   "s": 456.74,
+   "e": 456.9
+  },
+  {
+   "w": "be",
+   "s": 456.9,
+   "e": 457.0
+  },
+  {
+   "w": "hiding",
+   "s": 457.0,
+   "e": 457.26
+  },
+  {
+   "w": "more.",
+   "s": 457.26,
+   "e": 457.56
+  },
+  {
+   "w": "So",
+   "s": 459.78,
+   "e": 460.06
+  },
+  {
+   "w": "we'll",
+   "s": 460.06,
+   "e": 460.2
+  },
+  {
+   "w": "never",
+   "s": 460.2,
+   "e": 460.34
+  },
+  {
+   "w": "see",
+   "s": 460.34,
+   "e": 460.64
+  },
+  {
+   "w": "a",
+   "s": 460.64,
+   "e": 460.72
+  },
+  {
+   "w": "living",
+   "s": 460.72,
+   "e": 460.94
+  },
+  {
+   "w": "dinosaur.",
+   "s": 460.94,
+   "e": 461.26
+  },
+  {
+   "w": "You",
+   "s": 462.24,
+   "e": 462.34
+  },
+  {
+   "w": "already",
+   "s": 462.34,
+   "e": 462.52
+  },
+  {
+   "w": "have.",
+   "s": 462.52,
+   "e": 462.94
+  },
+  {
+   "w": "Birds",
+   "s": 463.44,
+   "e": 463.52
+  },
+  {
+   "w": "are",
+   "s": 463.52,
+   "e": 463.72
+  },
+  {
+   "w": "living",
+   "s": 463.72,
+   "e": 463.9
+  },
+  {
+   "w": "dinosaurs.",
+   "s": 463.9,
+   "e": 464.3
+  },
+  {
+   "w": "They",
+   "s": 465.12,
+   "e": 465.12
+  },
+  {
+   "w": "descend",
+   "s": 465.12,
+   "e": 465.28
+  },
+  {
+   "w": "from",
+   "s": 465.28,
+   "e": 465.66
+  },
+  {
+   "w": "small",
+   "s": 465.66,
+   "e": 465.98
+  },
+  {
+   "w": "feathered",
+   "s": 465.98,
+   "e": 466.38
+  },
+  {
+   "w": "meat",
+   "s": 466.38,
+   "e": 466.58
+  },
+  {
+   "w": "eaters,",
+   "s": 466.58,
+   "e": 467.08
+  },
+  {
+   "w": "cousins",
+   "s": 467.28,
+   "e": 467.56
+  },
+  {
+   "w": "of",
+   "s": 467.56,
+   "e": 467.82
+  },
+  {
+   "w": "Aratosaurus.",
+   "s": 467.82,
+   "e": 468.26
+  },
+  {
+   "w": "In",
+   "s": 468.26,
+   "e": 469.12
+  },
+  {
+   "w": "2008,",
+   "s": 469.12,
+   "e": 469.84
+  },
+  {
+   "w": "scientists",
+   "s": 470.38,
+   "e": 470.9
+  },
+  {
+   "w": "compared",
+   "s": 470.9,
+   "e": 471.3
+  },
+  {
+   "w": "scraps",
+   "s": 471.3,
+   "e": 471.76
+  },
+  {
+   "w": "of",
+   "s": 471.76,
+   "e": 472.08
+  },
+  {
+   "w": "collagen",
+   "s": 472.08,
+   "e": 472.4
+  },
+  {
+   "w": "protein",
+   "s": 472.4,
+   "e": 472.76
+  },
+  {
+   "w": "from",
+   "s": 472.76,
+   "e": 473.3
+  },
+  {
+   "w": "a",
+   "s": 473.3,
+   "e": 473.36
+  },
+  {
+   "w": "T",
+   "s": 473.36,
+   "e": 473.52
+  },
+  {
+   "w": "-rex",
+   "s": 473.52,
+   "e": 473.74
+  },
+  {
+   "w": "bone",
+   "s": 473.74,
+   "e": 474.14
+  },
+  {
+   "w": "with",
+   "s": 474.14,
+   "e": 474.64
+  },
+  {
+   "w": "dozens",
+   "s": 474.64,
+   "e": 474.82
+  },
+  {
+   "w": "of",
+   "s": 474.82,
+   "e": 475.16
+  },
+  {
+   "w": "living",
+   "s": 475.16,
+   "e": 475.32
+  },
+  {
+   "w": "animals.",
+   "s": 475.32,
+   "e": 475.72
+  },
+  {
+   "w": "Its",
+   "s": 476.48,
+   "e": 476.6
+  },
+  {
+   "w": "closest",
+   "s": 476.6,
+   "e": 476.86
+  },
+  {
+   "w": "matches",
+   "s": 476.86,
+   "e": 477.24
+  },
+  {
+   "w": "were",
+   "s": 477.24,
+   "e": 477.68
+  },
+  {
+   "w": "chickens",
+   "s": 477.68,
+   "e": 477.86
+  },
+  {
+   "w": "and",
+   "s": 477.86,
+   "e": 478.28
+  },
+  {
+   "w": "ostriches.",
+   "s": 478.28,
+   "e": 478.78
+  },
+  {
+   "w": "In",
+   "s": 479.34,
+   "e": 479.46
+  },
+  {
+   "w": "2015,",
+   "s": 479.46,
+   "e": 480.06
+  },
+  {
+   "w": "scientists",
+   "s": 480.38,
+   "e": 480.94
+  },
+  {
+   "w": "blocked",
+   "s": 480.94,
+   "e": 481.28
+  },
+  {
+   "w": "two",
+   "s": 481.28,
+   "e": 481.64
+  },
+  {
+   "w": "growth",
+   "s": 481.64,
+   "e": 481.86
+  },
+  {
+   "w": "signals",
+   "s": 481.86,
+   "e": 482.2
+  },
+  {
+   "w": "in",
+   "s": 482.2,
+   "e": 482.58
+  },
+  {
+   "w": "chicken",
+   "s": 482.58,
+   "e": 482.84
+  },
+  {
+   "w": "embryos.",
+   "s": 482.84,
+   "e": 483.06
+  },
+  {
+   "w": "Instead",
+   "s": 484.16,
+   "e": 484.16
+  },
+  {
+   "w": "of",
+   "s": 484.16,
+   "e": 484.3
+  },
+  {
+   "w": "a",
+   "s": 484.3,
+   "e": 484.36
+  },
+  {
+   "w": "beak,",
+   "s": 484.36,
+   "e": 484.74
+  },
+  {
+   "w": "they",
+   "s": 484.9,
+   "e": 484.94
+  },
+  {
+   "w": "grew",
+   "s": 484.94,
+   "e": 485.08
+  },
+  {
+   "w": "a",
+   "s": 485.08,
+   "e": 485.2
+  },
+  {
+   "w": "broad",
+   "s": 485.2,
+   "e": 485.38
+  },
+  {
+   "w": "snout,",
+   "s": 485.38,
+   "e": 485.88
+  },
+  {
+   "w": "much",
+   "s": 486.16,
+   "e": 486.34
+  },
+  {
+   "w": "more",
+   "s": 486.34,
+   "e": 486.58
+  },
+  {
+   "w": "like",
+   "s": 486.58,
+   "e": 486.8
+  },
+  {
+   "w": "a",
+   "s": 486.8,
+   "e": 486.88
+  },
+  {
+   "w": "dinosaur's.",
+   "s": 486.88,
+   "e": 487.62
+  },
+  {
+   "w": "None",
+   "s": 488.12,
+   "e": 488.16
+  },
+  {
+   "w": "of",
+   "s": 488.16,
+   "e": 488.32
+  },
+  {
+   "w": "them",
+   "s": 488.32,
+   "e": 488.44
+  },
+  {
+   "w": "were",
+   "s": 488.44,
+   "e": 488.54
+  },
+  {
+   "w": "allowed",
+   "s": 488.54,
+   "e": 488.76
+  },
+  {
+   "w": "to",
+   "s": 488.76,
+   "e": 489.0
+  },
+  {
+   "w": "hatch.",
+   "s": 489.0,
+   "e": 489.22
+  },
+  {
+   "w": "So",
+   "s": 489.88,
+   "e": 489.96
+  },
+  {
+   "w": "part",
+   "s": 489.96,
+   "e": 490.16
+  },
+  {
+   "w": "of",
+   "s": 490.16,
+   "e": 490.3
+  },
+  {
+   "w": "the",
+   "s": 490.3,
+   "e": 490.4
+  },
+  {
+   "w": "old",
+   "s": 490.4,
+   "e": 490.56
+  },
+  {
+   "w": "dinosaur",
+   "s": 490.56,
+   "e": 491.08
+  },
+  {
+   "w": "blueprint",
+   "s": 491.08,
+   "e": 491.4
+  },
+  {
+   "w": "is",
+   "s": 491.4,
+   "e": 491.84
+  },
+  {
+   "w": "still",
+   "s": 491.84,
+   "e": 492.08
+  },
+  {
+   "w": "there,",
+   "s": 492.08,
+   "e": 492.34
+  },
+  {
+   "w": "hiding",
+   "s": 492.7,
+   "e": 492.98
+  },
+  {
+   "w": "in",
+   "s": 492.98,
+   "e": 493.26
+  },
+  {
+   "w": "every",
+   "s": 493.26,
+   "e": 493.52
+  },
+  {
+   "w": "chicken",
+   "s": 493.52,
+   "e": 493.82
+  },
+  {
+   "w": "egg.",
+   "s": 493.82,
+   "e": 494.08
+  },
+  {
+   "w": "So",
+   "s": 495.58,
+   "e": 496.14
+  },
+  {
+   "w": "what",
+   "s": 496.14,
+   "e": 496.42
+  },
+  {
+   "w": "did",
+   "s": 496.42,
+   "e": 496.54
+  },
+  {
+   "w": "we",
+   "s": 496.54,
+   "e": 496.66
+  },
+  {
+   "w": "actually",
+   "s": 496.66,
+   "e": 496.92
+  },
+  {
+   "w": "find?",
+   "s": 496.92,
+   "e": 497.32
+  },
+  {
+   "w": "Not",
+   "s": 497.32,
+   "e": 498.18
+  },
+  {
+   "w": "a",
+   "s": 498.18,
+   "e": 498.3
+  },
+  {
+   "w": "living",
+   "s": 498.3,
+   "e": 498.52
+  },
+  {
+   "w": "dinosaur,",
+   "s": 498.52,
+   "e": 498.84
+  },
+  {
+   "w": "something",
+   "s": 499.46,
+   "e": 499.78
+  },
+  {
+   "w": "stranger.",
+   "s": 499.78,
+   "e": 500.08
+  },
+  {
+   "w": "A",
+   "s": 501.08,
+   "e": 501.08
+  },
+  {
+   "w": "molecule",
+   "s": 501.08,
+   "e": 501.44
+  },
+  {
+   "w": "that",
+   "s": 501.44,
+   "e": 501.68
+  },
+  {
+   "w": "carried",
+   "s": 501.68,
+   "e": 501.96
+  },
+  {
+   "w": "oxygen",
+   "s": 501.96,
+   "e": 502.34
+  },
+  {
+   "w": "through",
+   "s": 502.34,
+   "e": 502.68
+  },
+  {
+   "w": "a",
+   "s": 502.68,
+   "e": 502.76
+  },
+  {
+   "w": "dinosaur's",
+   "s": 502.76,
+   "e": 503.36
+  },
+  {
+   "w": "body",
+   "s": 503.36,
+   "e": 503.6
+  },
+  {
+   "w": "a",
+   "s": 503.6,
+   "e": 503.78
+  },
+  {
+   "w": "hundred",
+   "s": 503.78,
+   "e": 504.06
+  },
+  {
+   "w": "and",
+   "s": 504.06,
+   "e": 504.26
+  },
+  {
+   "w": "fifteen",
+   "s": 504.26,
+   "e": 504.44
+  },
+  {
+   "w": "million",
+   "s": 504.44,
+   "e": 504.84
+  },
+  {
+   "w": "years",
+   "s": 504.84,
+   "e": 505.18
+  },
+  {
+   "w": "ago,",
+   "s": 505.18,
+   "e": 505.46
+  },
+  {
+   "w": "sealed",
+   "s": 505.94,
+   "e": 506.04
+  },
+  {
+   "w": "in",
+   "s": 506.04,
+   "e": 506.26
+  },
+  {
+   "w": "stone",
+   "s": 506.26,
+   "e": 506.48
+  },
+  {
+   "w": "ever",
+   "s": 506.48,
+   "e": 506.78
+  },
+  {
+   "w": "since.",
+   "s": 506.78,
+   "e": 507.12
+  },
+  {
+   "w": "Scientists",
+   "s": 507.72,
+   "e": 508.06
+  },
+  {
+   "w": "found",
+   "s": 508.06,
+   "e": 508.56
+  },
+  {
+   "w": "dinosaur",
+   "s": 508.56,
+   "e": 508.92
+  },
+  {
+   "w": "blood.",
+   "s": 508.92,
+   "e": 509.42
+  },
+  {
+   "w": "Now",
+   "s": 510.04,
+   "e": 510.08
+  },
+  {
+   "w": "the",
+   "s": 510.08,
+   "e": 510.28
+  },
+  {
+   "w": "search",
+   "s": 510.28,
+   "e": 510.5
+  },
+  {
+   "w": "begins",
+   "s": 510.5,
+   "e": 510.88
+  },
+  {
+   "w": "in",
+   "s": 510.88,
+   "e": 511.16
+  },
+  {
+   "w": "every",
+   "s": 511.16,
+   "e": 511.42
+  },
+  {
+   "w": "fossil",
+   "s": 511.42,
+   "e": 511.82
+  },
+  {
+   "w": "drawer",
+   "s": 511.82,
+   "e": 512.06
+  },
+  {
+   "w": "on",
+   "s": 512.06,
+   "e": 512.38
+  },
+  {
+   "w": "Earth.",
+   "s": 512.38,
+   "e": 512.6
+  }
+ ]
+}

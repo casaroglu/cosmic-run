@@ -1,0 +1,960 @@
+{
+ "DUR": 530.827,
+ "CUE": {
+  "title": 508.016,
+  "end": 520.827,
+  "calls": 507.716
+ },
+ "chapters": [
+  [
+   "What blood is made of",
+   46.096
+  ],
+  [
+   "How a bone turns to stone",
+   105.649
+  ],
+  [
+   "A dinosaur from Brazil",
+   142.785
+  ],
+  [
+   "Proving it's blood",
+   193.829
+  ],
+  [
+   "The skeptics",
+   241.335
+  ],
+  [
+   "The Jurassic Park mosquito",
+   286.624
+  ],
+  [
+   "Where's the DNA?",
+   330.937
+  ],
+  [
+   "The DNA clock",
+   372.262
+  ],
+  [
+   "What blood can still tell us",
+   415.331
+  ],
+  [
+   "The dinosaur in your kitchen",
+   459.956
+  ]
+ ],
+ "events": [
+  {
+   "kind": "label",
+   "t": 0.6
+  },
+  {
+   "kind": "label",
+   "t": 5.32
+  },
+  {
+   "kind": "icon",
+   "t": 8.72
+  },
+  {
+   "kind": "label",
+   "t": 9.46
+  },
+  {
+   "kind": "icon",
+   "t": 11.54
+  },
+  {
+   "kind": "label",
+   "t": 11.88
+  },
+  {
+   "kind": "icon",
+   "t": 15.56
+  },
+  {
+   "kind": "tag",
+   "t": 15.56
+  },
+  {
+   "kind": "tag",
+   "t": 16.86
+  },
+  {
+   "kind": "label",
+   "t": 20.04
+  },
+  {
+   "kind": "label",
+   "t": 22.56
+  },
+  {
+   "kind": "icon",
+   "t": 24.22
+  },
+  {
+   "kind": "label",
+   "t": 24.52
+  },
+  {
+   "kind": "label",
+   "t": 26.36
+  },
+  {
+   "kind": "label",
+   "t": 35.676
+  },
+  {
+   "kind": "icon",
+   "t": 37.56
+  },
+  {
+   "kind": "label",
+   "t": 37.760000000000005
+  },
+  {
+   "kind": "icon",
+   "t": 38.44
+  },
+  {
+   "kind": "label",
+   "t": 41.22
+  },
+  {
+   "kind": "label",
+   "t": 42.72
+  },
+  {
+   "kind": "card",
+   "t": 44.046
+  },
+  {
+   "kind": "section",
+   "t": 47.296
+  },
+  {
+   "kind": "tag",
+   "t": 50.9
+  },
+  {
+   "kind": "label",
+   "t": 53.42
+  },
+  {
+   "kind": "label",
+   "t": 57.24
+  },
+  {
+   "kind": "icon",
+   "t": 59.42
+  },
+  {
+   "kind": "icon",
+   "t": 63.18
+  },
+  {
+   "kind": "label",
+   "t": 64.2
+  },
+  {
+   "kind": "label",
+   "t": 69.06
+  },
+  {
+   "kind": "label",
+   "t": 70.04
+  },
+  {
+   "kind": "icon",
+   "t": 71.42
+  },
+  {
+   "kind": "icon",
+   "t": 74.137
+  },
+  {
+   "kind": "label",
+   "t": 74.337
+  },
+  {
+   "kind": "icon",
+   "t": 77.2
+  },
+  {
+   "kind": "label",
+   "t": 77.5
+  },
+  {
+   "kind": "icon",
+   "t": 78.26
+  },
+  {
+   "kind": "icon",
+   "t": 79.72
+  },
+  {
+   "kind": "label",
+   "t": 82.94
+  },
+  {
+   "kind": "icon",
+   "t": 85.46000000000001
+  },
+  {
+   "kind": "label",
+   "t": 86.06
+  },
+  {
+   "kind": "tag",
+   "t": 88.38
+  },
+  {
+   "kind": "icon",
+   "t": 90.769
+  },
+  {
+   "kind": "label",
+   "t": 90.96900000000001
+  },
+  {
+   "kind": "icon",
+   "t": 91.069
+  },
+  {
+   "kind": "icon",
+   "t": 92.60000000000001
+  },
+  {
+   "kind": "label",
+   "t": 95.1
+  },
+  {
+   "kind": "label",
+   "t": 101.4
+  },
+  {
+   "kind": "label",
+   "t": 102.8
+  },
+  {
+   "kind": "card",
+   "t": 103.599
+  },
+  {
+   "kind": "section",
+   "t": 106.849
+  },
+  {
+   "kind": "icon",
+   "t": 110.11999999999999
+  },
+  {
+   "kind": "icon",
+   "t": 110.72
+  },
+  {
+   "kind": "label",
+   "t": 112.3
+  },
+  {
+   "kind": "label",
+   "t": 116.12
+  },
+  {
+   "kind": "label",
+   "t": 118.72
+  },
+  {
+   "kind": "label",
+   "t": 121.52
+  },
+  {
+   "kind": "icon",
+   "t": 125.182
+  },
+  {
+   "kind": "label",
+   "t": 125.382
+  },
+  {
+   "kind": "label",
+   "t": 127.68
+  },
+  {
+   "kind": "icon",
+   "t": 134.985
+  },
+  {
+   "kind": "icon",
+   "t": 136.24
+  },
+  {
+   "kind": "label",
+   "t": 136.24
+  },
+  {
+   "kind": "label",
+   "t": 137.7
+  },
+  {
+   "kind": "label",
+   "t": 138.96
+  },
+  {
+   "kind": "card",
+   "t": 140.735
+  },
+  {
+   "kind": "section",
+   "t": 143.98499999999999
+  },
+  {
+   "kind": "tag",
+   "t": 145.06
+  },
+  {
+   "kind": "label",
+   "t": 146.9
+  },
+  {
+   "kind": "icon",
+   "t": 148.04
+  },
+  {
+   "kind": "label",
+   "t": 148.34
+  },
+  {
+   "kind": "label",
+   "t": 151.42000000000002
+  },
+  {
+   "kind": "label",
+   "t": 154.72
+  },
+  {
+   "kind": "icon",
+   "t": 154.98
+  },
+  {
+   "kind": "label",
+   "t": 156.18
+  },
+  {
+   "kind": "icon",
+   "t": 157.29999999999998
+  },
+  {
+   "kind": "label",
+   "t": 158.7
+  },
+  {
+   "kind": "tag",
+   "t": 160.84
+  },
+  {
+   "kind": "icon",
+   "t": 164.38000000000002
+  },
+  {
+   "kind": "label",
+   "t": 165.44
+  },
+  {
+   "kind": "tag",
+   "t": 169.3
+  },
+  {
+   "kind": "label",
+   "t": 174.02
+  },
+  {
+   "kind": "label",
+   "t": 178.36
+  },
+  {
+   "kind": "icon",
+   "t": 180.26
+  },
+  {
+   "kind": "label",
+   "t": 180.56
+  },
+  {
+   "kind": "label",
+   "t": 182.38
+  },
+  {
+   "kind": "label",
+   "t": 184.8
+  },
+  {
+   "kind": "label",
+   "t": 187.96
+  },
+  {
+   "kind": "label",
+   "t": 188.96
+  },
+  {
+   "kind": "card",
+   "t": 191.779
+  },
+  {
+   "kind": "section",
+   "t": 195.029
+  },
+  {
+   "kind": "label",
+   "t": 198.18
+  },
+  {
+   "kind": "label",
+   "t": 199.38
+  },
+  {
+   "kind": "icon",
+   "t": 203.3
+  },
+  {
+   "kind": "tag",
+   "t": 203.5
+  },
+  {
+   "kind": "icon",
+   "t": 209.46
+  },
+  {
+   "kind": "icon",
+   "t": 210.26000000000002
+  },
+  {
+   "kind": "icon",
+   "t": 210.74
+  },
+  {
+   "kind": "icon",
+   "t": 212.66000000000003
+  },
+  {
+   "kind": "label",
+   "t": 215.62
+  },
+  {
+   "kind": "icon",
+   "t": 217.8
+  },
+  {
+   "kind": "label",
+   "t": 218
+  },
+  {
+   "kind": "label",
+   "t": 219.44
+  },
+  {
+   "kind": "icon",
+   "t": 219.64
+  },
+  {
+   "kind": "icon",
+   "t": 222.78
+  },
+  {
+   "kind": "label",
+   "t": 223.08
+  },
+  {
+   "kind": "label",
+   "t": 224.998
+  },
+  {
+   "kind": "icon",
+   "t": 227.182
+  },
+  {
+   "kind": "label",
+   "t": 230.22
+  },
+  {
+   "kind": "icon",
+   "t": 230.83999999999997
+  },
+  {
+   "kind": "label",
+   "t": 232.64
+  },
+  {
+   "kind": "tag",
+   "t": 233.8
+  },
+  {
+   "kind": "label",
+   "t": 235.82
+  },
+  {
+   "kind": "card",
+   "t": 239.285
+  },
+  {
+   "kind": "section",
+   "t": 242.535
+  },
+  {
+   "kind": "icon",
+   "t": 246.1
+  },
+  {
+   "kind": "label",
+   "t": 247.32
+  },
+  {
+   "kind": "icon",
+   "t": 250.2
+  },
+  {
+   "kind": "label",
+   "t": 251.1
+  },
+  {
+   "kind": "label",
+   "t": 251.1
+  },
+  {
+   "kind": "icon",
+   "t": 253.29999999999998
+  },
+  {
+   "kind": "label",
+   "t": 254.28
+  },
+  {
+   "kind": "icon",
+   "t": 255.312
+  },
+  {
+   "kind": "label",
+   "t": 255.512
+  },
+  {
+   "kind": "label",
+   "t": 256.48
+  },
+  {
+   "kind": "icon",
+   "t": 258.489
+  },
+  {
+   "kind": "label",
+   "t": 262.52
+  },
+  {
+   "kind": "icon",
+   "t": 263.74
+  },
+  {
+   "kind": "label",
+   "t": 264.82
+  },
+  {
+   "kind": "tag",
+   "t": 267.78
+  },
+  {
+   "kind": "icon",
+   "t": 268.12
+  },
+  {
+   "kind": "label",
+   "t": 271
+  },
+  {
+   "kind": "label",
+   "t": 273.08
+  },
+  {
+   "kind": "label",
+   "t": 275.48
+  },
+  {
+   "kind": "icon",
+   "t": 280.56
+  },
+  {
+   "kind": "tag",
+   "t": 280.96
+  },
+  {
+   "kind": "card",
+   "t": 284.57399999999996
+  },
+  {
+   "kind": "icon",
+   "t": 287.624
+  },
+  {
+   "kind": "section",
+   "t": 287.824
+  },
+  {
+   "kind": "label",
+   "t": 294.64000000000004
+  },
+  {
+   "kind": "label",
+   "t": 297.02
+  },
+  {
+   "kind": "tag",
+   "t": 298.1
+  },
+  {
+   "kind": "tag",
+   "t": 300.1
+  },
+  {
+   "kind": "label",
+   "t": 303.58
+  },
+  {
+   "kind": "label",
+   "t": 307.62
+  },
+  {
+   "kind": "icon",
+   "t": 309.934
+  },
+  {
+   "kind": "label",
+   "t": 313.76
+  },
+  {
+   "kind": "label",
+   "t": 316.28
+  },
+  {
+   "kind": "label",
+   "t": 317.98
+  },
+  {
+   "kind": "label",
+   "t": 319.78
+  },
+  {
+   "kind": "tag",
+   "t": 321.28
+  },
+  {
+   "kind": "icon",
+   "t": 323.68
+  },
+  {
+   "kind": "label",
+   "t": 323.68
+  },
+  {
+   "kind": "label",
+   "t": 323.72
+  },
+  {
+   "kind": "icon",
+   "t": 323.72
+  },
+  {
+   "kind": "label",
+   "t": 323.72
+  },
+  {
+   "kind": "tag",
+   "t": 324.44
+  },
+  {
+   "kind": "card",
+   "t": 328.887
+  },
+  {
+   "kind": "section",
+   "t": 332.137
+  },
+  {
+   "kind": "label",
+   "t": 335.2
+  },
+  {
+   "kind": "label",
+   "t": 337.86
+  },
+  {
+   "kind": "icon",
+   "t": 339.615
+  },
+  {
+   "kind": "label",
+   "t": 340.48
+  },
+  {
+   "kind": "label",
+   "t": 342.86
+  },
+  {
+   "kind": "icon",
+   "t": 342.94
+  },
+  {
+   "kind": "icon",
+   "t": 345.03999999999996
+  },
+  {
+   "kind": "tag",
+   "t": 346.74
+  },
+  {
+   "kind": "icon",
+   "t": 348.794
+  },
+  {
+   "kind": "label",
+   "t": 348.99399999999997
+  },
+  {
+   "kind": "label",
+   "t": 356.94
+  },
+  {
+   "kind": "icon",
+   "t": 358
+  },
+  {
+   "kind": "tag",
+   "t": 358.4
+  },
+  {
+   "kind": "label",
+   "t": 358.98
+  },
+  {
+   "kind": "tag",
+   "t": 364.04
+  },
+  {
+   "kind": "label",
+   "t": 367.18
+  },
+  {
+   "kind": "card",
+   "t": 370.212
+  },
+  {
+   "kind": "label",
+   "t": 373.062
+  },
+  {
+   "kind": "section",
+   "t": 373.462
+  },
+  {
+   "kind": "icon",
+   "t": 375.56
+  },
+  {
+   "kind": "label",
+   "t": 375.86
+  },
+  {
+   "kind": "icon",
+   "t": 384.532
+  },
+  {
+   "kind": "label",
+   "t": 387.16
+  },
+  {
+   "kind": "label",
+   "t": 394.06
+  },
+  {
+   "kind": "tag",
+   "t": 395.313
+  },
+  {
+   "kind": "label",
+   "t": 395.42
+  },
+  {
+   "kind": "label",
+   "t": 395.613
+  },
+  {
+   "kind": "icon",
+   "t": 398.88
+  },
+  {
+   "kind": "label",
+   "t": 401.5
+  },
+  {
+   "kind": "card",
+   "t": 413.28099999999995
+  },
+  {
+   "kind": "icon",
+   "t": 416.231
+  },
+  {
+   "kind": "label",
+   "t": 416.331
+  },
+  {
+   "kind": "section",
+   "t": 416.531
+  },
+  {
+   "kind": "label",
+   "t": 420.7
+  },
+  {
+   "kind": "tag",
+   "t": 423.76
+  },
+  {
+   "kind": "icon",
+   "t": 424.16
+  },
+  {
+   "kind": "label",
+   "t": 425.68
+  },
+  {
+   "kind": "label",
+   "t": 429.32
+  },
+  {
+   "kind": "icon",
+   "t": 432.5
+  },
+  {
+   "kind": "icon",
+   "t": 448.12
+  },
+  {
+   "kind": "label",
+   "t": 448.52
+  },
+  {
+   "kind": "label",
+   "t": 449.4
+  },
+  {
+   "kind": "label",
+   "t": 453.94
+  },
+  {
+   "kind": "icon",
+   "t": 455.53999999999996
+  },
+  {
+   "kind": "label",
+   "t": 457
+  },
+  {
+   "kind": "card",
+   "t": 457.90599999999995
+  },
+  {
+   "kind": "label",
+   "t": 460.956
+  },
+  {
+   "kind": "section",
+   "t": 461.156
+  },
+  {
+   "kind": "icon",
+   "t": 462.275
+  },
+  {
+   "kind": "tag",
+   "t": 463.44
+  },
+  {
+   "kind": "label",
+   "t": 467.28
+  },
+  {
+   "kind": "label",
+   "t": 472.08
+  },
+  {
+   "kind": "icon",
+   "t": 473.12
+  },
+  {
+   "kind": "tag",
+   "t": 476.6
+  },
+  {
+   "kind": "icon",
+   "t": 477.48
+  },
+  {
+   "kind": "icon",
+   "t": 477.97999999999996
+  },
+  {
+   "kind": "icon",
+   "t": 479.368
+  },
+  {
+   "kind": "label",
+   "t": 480.94
+  },
+  {
+   "kind": "label",
+   "t": 482.58
+  },
+  {
+   "kind": "tag",
+   "t": 485.38
+  },
+  {
+   "kind": "label",
+   "t": 488.12
+  },
+  {
+   "kind": "icon",
+   "t": 489.832
+  },
+  {
+   "kind": "label",
+   "t": 491.08
+  },
+  {
+   "kind": "label",
+   "t": 493.42
+  },
+  {
+   "kind": "section",
+   "t": 495.827
+  },
+  {
+   "kind": "label",
+   "t": 498.3
+  },
+  {
+   "kind": "label",
+   "t": 501.08
+  },
+  {
+   "kind": "sfx:title",
+   "t": 508.016
+  },
+  {
+   "kind": "icon",
+   "t": 513.908
+  }
+ ]
+}
