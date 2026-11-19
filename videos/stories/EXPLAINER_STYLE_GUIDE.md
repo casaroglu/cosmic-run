@@ -132,6 +132,21 @@ Make a flat-vector animated science explainer, drawn entirely in code. Use one 2
 9. A funny beat with the mascot.
 10. A callback to the hook, then the two-line title.
 
+### 8b. Script format: question and answer (default)
+
+- **Two voices.** A curious questioner (Ava, Kokoro `af_heart`) asks and an expert narrator (Theo, Kokoro `bm_fable`) answers.
+- **Questions:**
+  - Keep them short (≤ 8 words).
+  - Phrase them the way a viewer would think them ("Is that why I crave junk food when I'm tired?").
+  - Use one question every 2–4 answer lines.
+  - Every chapter opens with Ava's question, shown on the chapter card.
+- **Answers:**
+  - Answers carry all the facts.
+  - The first answer line starts with the payoff ("Yes.", "Not quite.", "That's real.").
+- **Timing:** a 0.45 s pause after each question. Ava reads 4% faster than Theo.
+- **Ending:** Ava asks the hook at the start and gives the subscribe line at the end. Theo delivers the facts and the callback.
+- **Why:** each question opens a curiosity gap that carries the viewer into the next line, and the voice change resets attention. There is no public A/B data for this, so compare retention graphs between videos.
+
 ### 9. Sound
 
 - A calm ambient bed about 7 dB under the voice, swelling 5 dB under the title.
@@ -168,7 +183,7 @@ Make a flat-vector animated science explainer, drawn entirely in code. Use one 2
 - **Cast.** The pyjama sleepyhead mascot (visor face, nightcap, orange slippers). Future mascots are our own designs.
 - **Labels.** Navy pills with teal `#8fd8e6`, gold `#ffd98a` and white text in Fredoka.
 - **Default worlds.** A night sky (`#081d2c` → `#102348`) with nebula blobs for space and sleep topics. Warm cream or coral worlds for body interiors.
-- **Narrator.** Kokoro `bm_fable` (calm British male) unless an ElevenLabs key is given.
+- **Voices.** Ava (Kokoro `af_heart`) asks, Theo (Kokoro `bm_fable`) answers, unless an ElevenLabs key is given.
 - **Pipeline.**
   - `videos/stories/body/01-never-slept/` is the reference implementation: `index.html`, `make_voice.py`, `make_sound.py`, `render.mjs`.
   - Make a contact sheet of every beat before rendering.

@@ -592,6 +592,8 @@ const ORBS2 = Array.from({ length: 12 }, (_, i) => ({ x: [0.1, 0.9, 0.2, 0.8, 0.
 
 
 
+
+
 // =====================================================================
 // Human Body 02: "What if you never slept?" long version (~8 min)
 // Scenes keyed to narration lines (audio/words.json "lines") and words.
@@ -611,7 +613,7 @@ function buildCues() {
   C.h16 = W_('d1', ['16', 'sixteen']); C.h17 = W_('d2', ['17', 'seventeen']); C.drinks = W_('d2', 'drinks'); C.h24 = W_('d4', ['24', 'twenty']); C.drunk = W_('d4', 'drunk');
   C.trash = LN('b5').start; C.during = W_('b5', 'during'); C.washes = W_('b5', 'washes'); C.alz = W_('b5', 'alzheimer'); C.nosleep = W_('b6', 'no'); C.wash = W_('b6', 'wash');
   C.day2 = LN('m1').start; C.micro = W_('m1', 'micro'); C.eyes = W_('m1', 'eyes'); C.day3 = LN('m3').start; C.breathe = W_('m3', 'breathe'); C.record = LN('r1').start;
-  C.eleven = W_('r1', ['11', 'eleven']); C.randy2 = LN('v1').start; C.hours15 = W_('v1', 'hours'); C.woke = W_('v2', 'woke'); C.fine = W_('v2', 'fine'); C.tonight = W_('o2', 'tonight'); C.calls = W_('o2', 'calls');
+  C.eleven = W_('r1', ['11', 'eleven']); C.randy2 = LN('v1').start; C.hours15 = W_('v1b', 'hours'); C.woke = W_('v2', 'woke'); C.fine = W_('v2', 'fine'); C.tonight = W_('o2', 'tonight'); C.calls = W_('o2', 'calls');
   C.end = DUR - TAIL;
 }
 // ---------- story clock: hours awake (only shown in the narrative chapters) ----------
@@ -622,7 +624,7 @@ function hoursAt(t) {
   for (let i = 0; i < K.length - 1; i++) if (t < K[i + 1][0]) { const k = clamp((t - K[i][0]) / Math.max(1e-3, K[i + 1][0] - K[i][0])); return lerp(K[i][1], K[i + 1][1], k); }
   return K[K.length - 1][1];
 }
-function counterOn(t) { const C = CUE; const spans = [[C.zero, LN('c4').end + 0.3], [LN('d1').start, LN('d4').end + 0.3], [LN('m1').start, LN('m3').end + 0.3], [LN('r1').start, LN('r4').end], [LN('v1').start, LN('v2').end + 0.6]]; return spans.some(([a, b]) => t >= a && t < b); }
+function counterOn(t) { const C = CUE; const spans = [[C.zero, LN('c4').end + 0.3], [LN('d1').start, LN('d4').end + 0.3], [LN('m1').start, LN('m3').end + 0.3], [LN('r1').start, LN('r4').end], [LN('v1b').start, LN('v2').end + 0.6]]; return spans.some(([a, b]) => t >= a && t < b); }
 function drawCounter(t) {
   if (!counterOn(t)) return; const C = CUE;
   const v = Math.floor(hoursAt(t) + 1e-6), gold = t > C.eleven - 0.2 && t < C.woke, x = 1600, y = 120;
@@ -799,8 +801,8 @@ function chapterCard(t, title, idx, world, iconName, t0) {
     const k = popK(t, t0 + 0.4, 99); if (k > 0) { ctx.save(); ctx.translate(960, 680); ctx.scale(1.3 * k, 1.3 * k); ICONS[iconName](t, {}); ctx.restore(); }
   });
 }
-const CHAPTERS = [['w1', 'Why you get sleepy', 'indigo', 'hexmol'], ['a1', "Even animals can't skip it", 'teal', 'moon'], ['d1', 'The first night', 'night', 'clock'], ['b1', 'The night shift in your head', 'indigo', 'brainmini'],
-  ['y1', 'Your body', 'coral', 'heart'], ['m1', 'Day two and three', 'indigo', 'eye'], ['r1', 'The record', 'gold', 'trophy'], ['s1', 'Can you need less?', 'teal', 'dna'], ['k1', 'Can it kill you?', 'grey', 'alarm'], ['v1', 'Getting it back', 'night', 'bed']];
+const CHAPTERS = [['w1', 'Why you get sleepy', 'indigo', 'hexmol'], ['a1', "Even animals can't skip it", 'teal', 'moon'], ['d1q', 'The first night', 'night', 'clock'], ['b1q', 'The night shift in your head', 'indigo', 'brainmini'],
+  ['y1q', 'Your body', 'coral', 'heart'], ['m1q', 'Day two and three', 'indigo', 'eye'], ['r1q', 'The record', 'gold', 'trophy'], ['s1', 'Can you need less?', 'teal', 'dna'], ['k1q', 'Can it kill you?', 'grey', 'alarm'], ['v1', 'Getting it back', 'night', 'bed']];
 
 function sOpen(t) {   // cold open: moon collapse, life meter, delete, YOU, then brain/body/mind tiles
   const C = CUE;
@@ -1137,15 +1139,15 @@ function SECTIONS() {
   const card = (id) => { const c = chapterAt[id], t0 = prevEnd(id); add(t0, tt => chapterCard(tt, c.title, c.i, c.world, c.icon, t0), 'flood', [960, 540]); return L(id).start + 1.2; };
   let s;
   s = card('w1'); add(Math.min(s, L('w2').start), sClock, 'flood', [860, 560]); add(L('w4').start - 0.1, sHourglass, 'flood', [760, 540]);
-  s = card('a1'); add(Math.min(s, L('a2').start - 0.2), sAnimals, 'slide');
-  s = card('d1'); add(Math.min(s, L('d1').end - 1), sFirstNight, 'flood', [960, 600]);
-  s = card('b1'); add(Math.min(s, L('b1').end - 1), sNightShift, 'flood', [860, 560]); add(L('b5').start - 0.1, sCleaning, 'flood', [700, 560]);
-  s = card('y1'); add(Math.min(s, L('y1').start + 1.5), sBody, 'flood', [960, 540]);
-  s = card('m1'); add(Math.min(s, L('m1').start + 1.2), sMicro2, 'flood', [960, 420]);
-  s = card('r1'); add(Math.min(s, L('r1').start + 1.5), sRecord2, 'flood', [520, 600]);
-  s = card('s1'); add(Math.min(s, L('s1').end - 0.5), sShort, 'flood', [960, 540]);
-  s = card('k1'); add(Math.min(s, L('k1').start + 1.5), sKill, 'flood', [960, 640]);
-  s = card('v1'); add(Math.min(s, L('v1').start + 1.0), sRecover, 'flood', [960, 540]);
+  s = card('a1'); add(Math.min(s, L('a1b').start + 0.2), sAnimals, 'slide');
+  s = card('d1q'); add(Math.min(s, L('d1').start + 0.4), sFirstNight, 'flood', [960, 600]);
+  s = card('b1q'); add(Math.min(s, L('b1').start + 0.3), sNightShift, 'flood', [860, 560]); add(L('b5').start - 0.1, sCleaning, 'flood', [700, 560]);
+  s = card('y1q'); add(Math.min(s, L('y1').start + 0.3), sBody, 'flood', [960, 540]);
+  s = card('m1q'); add(Math.min(s, L('m1').start + 0.2), sMicro2, 'flood', [960, 420]);
+  s = card('r1q'); add(Math.min(s, L('r1').start + 0.2), sRecord2, 'flood', [520, 600]);
+  s = card('s1'); add(Math.min(s, L('s2').start), sShort, 'flood', [960, 540]);
+  s = card('k1q'); add(Math.min(s, L('k1').start + 0.2), sKill, 'flood', [960, 640]);
+  s = card('v1'); add(Math.min(s, L('v1b').start), sRecover, 'flood', [960, 540]);
   out.sort((a, b) => a.t0 - b.t0); out.forEach((s2, i) => s2.t1 = i + 1 < out.length ? out[i + 1].t0 : 1e9);
   return out;
 }

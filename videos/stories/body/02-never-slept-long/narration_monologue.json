@@ -1,0 +1,280 @@
+{
+ "voice": "bm_fable",
+ "speed": 0.92,
+ "gap": 0.24,
+ "lines": [
+  {
+   "id": "c1",
+   "ch": "open",
+   "text": "What if you never slept again?"
+  },
+  {
+   "id": "c2",
+   "text": "Sleep eats about a third of your life. Twenty-six years, just lying there, doing nothing."
+  },
+  {
+   "id": "c3",
+   "text": "So let's delete it. No more nights. Eight extra hours, every single day. Here's you, at hour zero."
+  },
+  {
+   "id": "c4",
+   "text": "Over the next few days, we'll watch what happens to your brain, your body, and your mind. And it gets strange, fast."
+  },
+  {
+   "id": "w1",
+   "ch": "Why you get sleepy",
+   "gap_before": 1.6,
+   "text": "First, why do you get sleepy at all?"
+  },
+  {
+   "id": "w2",
+   "text": "Two systems run in the background. One is a clock. Deep in your brain, a cluster of about twenty thousand cells keeps time, and it uses light from your eyes to set it."
+  },
+  {
+   "id": "w3",
+   "text": "When it gets dark, it tells your body to release melatonin, the hormone that says: it's night."
+  },
+  {
+   "id": "w4",
+   "text": "The second system is pressure. Every hour you're awake, a molecule called adenosine builds up in your brain, like sand piling up in an hourglass."
+  },
+  {
+   "id": "w5",
+   "text": "The more sand, the sleepier you feel. Sleep empties the hourglass."
+  },
+  {
+   "id": "w6",
+   "text": "Coffee doesn't remove the sand. Caffeine just blocks adenosine from docking, so you don't feel it. The pile keeps growing anyway."
+  },
+  {
+   "id": "w7",
+   "text": "And it lingers. About half the caffeine from a cup of coffee is still in your blood five or six hours later. That afternoon coffee is still working at bedtime."
+  },
+  {
+   "id": "a1",
+   "ch": "Even animals can't skip it",
+   "gap_before": 1.6,
+   "text": "And this isn't just a human thing. Almost every animal scientists have studied closely sleeps in some way."
+  },
+  {
+   "id": "a2",
+   "text": "Dolphins have to keep swimming to breathe, so they sleep with one half of the brain at a time, and keep one eye open."
+  },
+  {
+   "id": "a3",
+   "text": "Frigatebirds fly over the ocean for weeks without landing. Researchers found that they sleep in the air, in bursts of a few seconds, about forty minutes a day. Back on land, they sleep for twelve hours."
+  },
+  {
+   "id": "a3b",
+   "text": "Even upside-down jellyfish, which don't have a brain at all, have a sleep-like state at night."
+  },
+  {
+   "id": "a4",
+   "text": "Evolution found ways to sleep while swimming and flying. It never found a way to skip it."
+  },
+  {
+   "id": "d1",
+   "ch": "The first night",
+   "gap_before": 1.6,
+   "text": "Back to you. Hour sixteen. It's midnight, and your inner clock is begging for bed."
+  },
+  {
+   "id": "d2",
+   "text": "By hour seventeen, your reactions are as slow as if you'd had a couple of drinks."
+  },
+  {
+   "id": "d3",
+   "text": "Around four in the morning, your body temperature and alertness hit their lowest point. In the United States alone, police reports link drowsy drivers to around ninety thousand crashes a year."
+  },
+  {
+   "id": "d3b",
+   "text": "Then the sun comes up, and your inner clock hands you a second wind. You feel almost normal. But the sand in the hourglass never stopped piling up."
+  },
+  {
+   "id": "d4",
+   "text": "At twenty-four, you're driving like you're legally drunk."
+  },
+  {
+   "id": "b1",
+   "ch": "The night shift in your head",
+   "gap_before": 1.6,
+   "text": "So what are you missing? Sleep isn't your brain switching off. It's your brain switching to a different job."
+  },
+  {
+   "id": "b2",
+   "text": "Every night you go through about five cycles, each roughly ninety minutes long: light sleep, deep sleep, and then dreaming sleep, called REM."
+  },
+  {
+   "id": "b2b",
+   "text": "REM is when most vivid dreams happen. Your brain is almost as active as when you're awake, but your muscles are switched off, so you don't act your dreams out. Most adults spend about an hour and a half to two hours a night in REM."
+  },
+  {
+   "id": "b3",
+   "text": "During sleep, the hippocampus, your brain's short-term memory, replays the day. In rats, the same brain cells fired in the same order as they had while running a maze, as if rehearsing."
+  },
+  {
+   "id": "b4",
+   "text": "Those memories get copied into long-term storage. Skip sleep, and much of today simply doesn't get saved."
+  },
+  {
+   "id": "b4b",
+   "text": "In one experiment, students who had been kept awake for a night remembered nineteen percent less from a set of pictures, even after they had caught up on sleep."
+  },
+  {
+   "id": "b5",
+   "text": "And then there's the cleaning. During sleep, your brain cells shrink apart, and fluid washes out waste, like proteins linked to Alzheimer's."
+  },
+  {
+   "id": "b6",
+   "text": "In mice, the space between brain cells grew by sixty percent during sleep. No sleep, no wash."
+  },
+  {
+   "id": "y1",
+   "ch": "Your body",
+   "gap_before": 1.6,
+   "text": "Your body notices too. After just two short nights, the hormone that says 'I'm full' dropped by eighteen percent, and the one that says 'I'm hungry' rose by twenty-eight."
+  },
+  {
+   "id": "y2",
+   "text": "Which is why tired people crave sugar and fat."
+  },
+  {
+   "id": "y3",
+   "text": "After six nights of only four hours, healthy young men handled sugar like people on their way to diabetes."
+  },
+  {
+   "id": "y3b",
+   "text": "Even repairs wait for the night. Much of your growth hormone, which helps rebuild muscle and tissue, is released during deep sleep."
+  },
+  {
+   "id": "y4",
+   "text": "And your defences weaken. People who slept six hours or less were about four times more likely to catch a cold after being exposed to the virus."
+  },
+  {
+   "id": "y4b",
+   "text": "And over the years, people who regularly sleep less than six hours have higher rates of heart disease, obesity and diabetes."
+  },
+  {
+   "id": "m1",
+   "ch": "Day two and three",
+   "gap_before": 1.6,
+   "text": "Day two. Your brain starts shutting off without asking. Microsleeps, a few seconds at a time, sometimes with your eyes open."
+  },
+  {
+   "id": "m2",
+   "text": "Your emotions go haywire. After a night without sleep, the brain's alarm centre, the amygdala, reacted over sixty percent more strongly to upsetting images. The calm, rational front of the brain loses its grip on it."
+  },
+  {
+   "id": "m3",
+   "text": "Day three. The walls start to breathe. You see and hear things that aren't there. Hallucinations."
+  },
+  {
+   "id": "m4",
+   "text": "In 1959, a New York radio DJ named Peter Tripp stayed awake for two hundred and one hours for charity, broadcasting from a glass booth in Times Square.",
+   "say": "In nineteen fifty-nine, a New York radio DJ named Peter Tripp stayed awake for two hundred and one hours for charity, broadcasting from a glass booth in Times Square."
+  },
+  {
+   "id": "m5",
+   "text": "He saw spiders in his shoes and mice in the studio. Doctors had also given him stimulants to keep him going, which probably made it worse."
+  },
+  {
+   "id": "r1",
+   "ch": "The record",
+   "gap_before": 1.6,
+   "text": "Has anyone gone further? In 1964, seventeen-year-old Randy Gardner stayed awake for eleven days straight, for a school science fair, watched over by the sleep researcher William Dement.",
+   "say": "Has anyone gone further? In nineteen sixty-four, seventeen-year-old Randy Gardner stayed awake for eleven days straight, for a school science fair, watched over by the sleep researcher William Dement."
+  },
+  {
+   "id": "r2",
+   "text": "By the end, he was moody and paranoid, and couldn't count backwards from a hundred in sevens."
+  },
+  {
+   "id": "r3",
+   "text": "Yet on day ten, he still beat a sleep scientist at pinball."
+  },
+  {
+   "id": "r4",
+   "text": "Today, Guinness World Records no longer accepts attempts. It's considered too dangerous."
+  },
+  {
+   "id": "s1",
+   "ch": "Can you need less?",
+   "gap_before": 1.6,
+   "text": "But wait. Don't some people get by on five or six hours?"
+  },
+  {
+   "id": "s2",
+   "text": "A tiny number really do. In 2009, scientists found a mutation in a gene called DEC2 in a mother and daughter who naturally slept about six hours and felt completely rested.",
+   "say": "A tiny number really do. In two thousand nine, scientists found a mutation in a gene called DEK two in a mother and daughter who naturally slept about six hours and felt completely rested."
+  },
+  {
+   "id": "s3",
+   "text": "A few more genes like it have turned up since, but only in a handful of families worldwide. For everyone else, the advice is clear: adults need seven hours or more."
+  },
+  {
+   "id": "s4",
+   "text": "And here's the trap. In one study, people who slept six hours a night for two weeks performed as badly as people who had pulled one or two all-nighters. But they felt only slightly sleepy. You don't notice how tired you are."
+  },
+  {
+   "id": "s5",
+   "text": "If you can't get a full night, a short nap helps. In a NASA study, long-haul pilots who napped for about twenty-six minutes during the flight were up to fifty-four percent more alert."
+  },
+  {
+   "id": "k1",
+   "ch": "Can it kill you?",
+   "gap_before": 1.6,
+   "text": "So could you die from it? In lab experiments, rats kept fully awake died within eleven to thirty-two days."
+  },
+  {
+   "id": "k2",
+   "text": "In 2020, Harvard researchers found a clue to why. In sleepless flies and mice, toxic molecules piled up, not in the brain, but in the gut.",
+   "say": "In twenty twenty, Harvard researchers found a clue to why. In sleepless flies and mice, toxic molecules piled up, not in the brain, but in the gut."
+  },
+  {
+   "id": "k3",
+   "text": "When the flies were given antioxidants, they lived a normal lifespan, with almost no sleep."
+  },
+  {
+   "id": "k4",
+   "text": "In humans, there's a rare genetic disease called fatal familial insomnia, first described in an Italian family in 1986. Misfolded proteins destroy the thalamus, a relay deep in the brain that helps switch sleep on. Patients slowly lose the ability to sleep.",
+   "say": "In humans, there's a rare genetic disease called fatal familial insomnia, first described in an Italian family in nineteen eighty-six. Misfolded proteins destroy the thalamus, a relay deep in the brain that helps switch sleep on. Patients slowly lose the ability to sleep."
+  },
+  {
+   "id": "k5",
+   "text": "Only about seventy families in the world carry it. There is no cure, and on average patients live about eighteen months after symptoms begin."
+  },
+  {
+   "id": "v1",
+   "ch": "Getting it back",
+   "gap_before": 1.6,
+   "text": "And Randy? He slept almost fifteen hours."
+  },
+  {
+   "id": "v2",
+   "gap_before": 0.36,
+   "text": "And woke up fine."
+  },
+  {
+   "id": "v3",
+   "text": "When you finally sleep, you don't make up every lost hour. Instead, your brain dives straight into deep sleep and stays there longer. But sleep isn't a bank account. A weekend lie-in can't fully undo weeks of short nights."
+  },
+  {
+   "id": "v4",
+   "text": "So keep it simple: a regular bedtime, a cool, dark bedroom, daylight in the morning, and no coffee in the afternoon."
+  },
+  {
+   "id": "o1",
+   "gap_before": 0.4,
+   "text": "Because sleep isn't time you lose. It's when your brain files the day, cleans itself, and your body rebuilds. Tonight you'll go through those five cycles again."
+  },
+  {
+   "id": "o2",
+   "text": "So tonight, when your pillow calls, pick up. Sweet dreams."
+  },
+  {
+   "id": "o3",
+   "gap_before": 0.5,
+   "text": "And subscribe for more what ifs about the strangest machine you'll ever own: your body."
+  }
+ ]
+}

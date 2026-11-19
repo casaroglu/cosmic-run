@@ -1,23 +1,24 @@
 # Human Body 02: What If You Never Slept? (long version, ~8 min, 1920x1080)
 
 **Title:** What If You Never Slept? Explained in 8 Minutes
+**Format:** question and answer. Ava (`af_heart`) asks, Theo (`bm_fable`) answers; 27 questions. Monologue script kept as `narration_monologue.json`.
 **Thumbnail:** `thumb/thumbnail.jpg` (the 60 s thumbnail, pill re-lettered in Fredoka). Also the first 1.5 s of the video.
 
 ## YouTube chapters
 0:00 Intro: what if you never slept again?
-0:23 Why you get sleepy
-1:12 Even animals can't skip it
-1:50 The first night
-2:24 The night shift in your head
-3:33 Your body
-4:17 Day two and three
-5:03 The record
-5:32 Can you need less?
-6:20 Can it kill you?
-7:07 Getting it back
+0:25 Why you get sleepy
+1:17 Even animals can't skip it
+1:56 The first night
+2:33 The night shift in your head
+3:48 Your body
+4:39 Day two and three
+5:30 The record
+6:00 Can you need less?
+6:48 Can it kill you?
+7:38 Getting it back
 
 Built on `../01-never-slept` (engine) and `../../EXPLAINER_STYLE_GUIDE.md`: chapter cards, colour worlds with flood/slide transitions, word icons placed in free slots, overlap audit at 0.1 s = 0 issues, 10 s end screen.
-Voice: Kokoro `bm_fable`, speed 0.92 (~170 wpm), `narration.json` → `make_voice.py`. Sound: `make_sound.py` (events from `dump_events.mjs`), −14.1 LUFS / −2.3 dBTP.
+Voices: Kokoro `af_heart` (questions) + `bm_fable` (answers), speed 0.92, `narration.json` → `make_voice.py`. Sound: `make_sound.py` (events from `dump_events.mjs`), −14.1 LUFS / −2.3 dBTP.
 
 ## Fact check (each claim against two sources)
 | Claim | Sources |

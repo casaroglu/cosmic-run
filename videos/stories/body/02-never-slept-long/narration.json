@@ -6,275 +6,456 @@
   {
    "id": "c1",
    "ch": "open",
-   "text": "What if you never slept again?"
+   "text": "What if you never slept again?",
+   "speaker": "q"
   },
   {
    "id": "c2",
-   "text": "Sleep eats about a third of your life. Twenty-six years, just lying there, doing nothing."
+   "text": "Sleep eats about a third of your life. Twenty-six years, just lying there, doing nothing.",
+   "speaker": "a"
+  },
+  {
+   "id": "c3q",
+   "speaker": "q",
+   "text": "Honestly? That sounds kind of great."
   },
   {
    "id": "c3",
-   "text": "So let's delete it. No more nights. Eight extra hours, every single day. Here's you, at hour zero."
+   "text": "Let's try it. Delete sleep. No more nights. Eight extra hours, every single day. Here's you, at hour zero.",
+   "speaker": "a"
   },
   {
    "id": "c4",
-   "text": "Over the next few days, we'll watch what happens to your brain, your body, and your mind. And it gets strange, fast."
+   "text": "Over the next few days, we'll watch what happens to your brain, your body, and your mind. And it gets strange, fast.",
+   "speaker": "a"
   },
   {
    "id": "w1",
    "ch": "Why you get sleepy",
    "gap_before": 1.6,
-   "text": "First, why do you get sleepy at all?"
+   "text": "Okay, but first: why do we get sleepy at all?",
+   "speaker": "q"
   },
   {
    "id": "w2",
-   "text": "Two systems run in the background. One is a clock. Deep in your brain, a cluster of about twenty thousand cells keeps time, and it uses light from your eyes to set it."
+   "text": "Two systems run in the background. One is a clock. Deep in your brain, a cluster of about twenty thousand cells keeps time, and it uses light from your eyes to set it.",
+   "speaker": "a"
   },
   {
    "id": "w3",
-   "text": "When it gets dark, it tells your body to release melatonin, the hormone that says: it's night."
+   "text": "When it gets dark, it tells your body to release melatonin, the hormone that says: it's night.",
+   "speaker": "a"
   },
   {
    "id": "w4",
-   "text": "The second system is pressure. Every hour you're awake, a molecule called adenosine builds up in your brain, like sand piling up in an hourglass."
+   "text": "The second system is pressure. Every hour you're awake, a molecule called adenosine builds up in your brain, like sand piling up in an hourglass.",
+   "speaker": "a"
   },
   {
    "id": "w5",
-   "text": "The more sand, the sleepier you feel. Sleep empties the hourglass."
+   "text": "The more sand, the sleepier you feel. Sleep empties the hourglass.",
+   "speaker": "a"
+  },
+  {
+   "id": "w6q",
+   "speaker": "q",
+   "text": "So what does coffee actually do?"
   },
   {
    "id": "w6",
-   "text": "Coffee doesn't remove the sand. Caffeine just blocks adenosine from docking, so you don't feel it. The pile keeps growing anyway."
+   "text": "Coffee doesn't remove the sand. Caffeine just blocks adenosine from docking, so you don't feel it. The pile keeps growing anyway.",
+   "speaker": "a"
   },
   {
    "id": "w7",
-   "text": "And it lingers. About half the caffeine from a cup of coffee is still in your blood five or six hours later. That afternoon coffee is still working at bedtime."
+   "text": "And it lingers. About half the caffeine from a cup of coffee is still in your blood five or six hours later. That afternoon coffee is still working at bedtime.",
+   "speaker": "a"
   },
   {
    "id": "a1",
    "ch": "Even animals can't skip it",
    "gap_before": 1.6,
-   "text": "And this isn't just a human thing. Almost every animal scientists have studied closely sleeps in some way."
+   "text": "Is it just us? Do animals sleep too?",
+   "speaker": "q"
+  },
+  {
+   "id": "a1b",
+   "speaker": "a",
+   "text": "Almost every animal scientists have studied closely sleeps in some way."
   },
   {
    "id": "a2",
-   "text": "Dolphins have to keep swimming to breathe, so they sleep with one half of the brain at a time, and keep one eye open."
+   "text": "Dolphins have to keep swimming to breathe, so they sleep with one half of the brain at a time, and keep one eye open.",
+   "speaker": "a"
+  },
+  {
+   "id": "a2q",
+   "speaker": "q",
+   "text": "And birds that fly for weeks without landing?"
   },
   {
    "id": "a3",
-   "text": "Frigatebirds fly over the ocean for weeks without landing. Researchers found that they sleep in the air, in bursts of a few seconds, about forty minutes a day. Back on land, they sleep for twelve hours."
+   "text": "Frigatebirds do exactly that. Researchers found that they sleep in the air, in bursts of a few seconds, about forty minutes a day. Back on land, they sleep for twelve hours.",
+   "speaker": "a"
   },
   {
    "id": "a3b",
-   "text": "Even upside-down jellyfish, which don't have a brain at all, have a sleep-like state at night."
+   "text": "Even upside-down jellyfish, which don't have a brain at all, have a sleep-like state at night.",
+   "speaker": "a"
   },
   {
    "id": "a4",
-   "text": "Evolution found ways to sleep while swimming and flying. It never found a way to skip it."
+   "text": "Evolution found ways to sleep while swimming and flying. It never found a way to skip it.",
+   "speaker": "a"
+  },
+  {
+   "id": "d1q",
+   "speaker": "q",
+   "text": "So what happens on that first night?",
+   "ch": "The first night"
   },
   {
    "id": "d1",
-   "ch": "The first night",
    "gap_before": 1.6,
-   "text": "Back to you. Hour sixteen. It's midnight, and your inner clock is begging for bed."
+   "text": "Hour sixteen. It's midnight, and your inner clock is begging for bed.",
+   "speaker": "a"
   },
   {
    "id": "d2",
-   "text": "By hour seventeen, your reactions are as slow as if you'd had a couple of drinks."
+   "text": "By hour seventeen, your reactions are as slow as if you'd had a couple of drinks.",
+   "speaker": "a"
+  },
+  {
+   "id": "d3q",
+   "speaker": "q",
+   "text": "And the worst moment?"
   },
   {
    "id": "d3",
-   "text": "Around four in the morning, your body temperature and alertness hit their lowest point. In the United States alone, police reports link drowsy drivers to around ninety thousand crashes a year."
+   "text": "Around four in the morning, your body temperature and alertness hit their lowest point. In the United States alone, police reports link drowsy drivers to around ninety thousand crashes a year.",
+   "speaker": "a"
   },
   {
    "id": "d3b",
-   "text": "Then the sun comes up, and your inner clock hands you a second wind. You feel almost normal. But the sand in the hourglass never stopped piling up."
+   "text": "Then the sun comes up, and your inner clock hands you a second wind. You feel almost normal. But the sand in the hourglass never stopped piling up.",
+   "speaker": "a"
   },
   {
    "id": "d4",
-   "text": "At twenty-four, you're driving like you're legally drunk."
+   "text": "At twenty-four, you're driving like you're legally drunk.",
+   "speaker": "a"
+  },
+  {
+   "id": "b1q",
+   "speaker": "q",
+   "text": "But what are we actually missing? What does the brain do all night?",
+   "ch": "The night shift in your head"
   },
   {
    "id": "b1",
-   "ch": "The night shift in your head",
    "gap_before": 1.6,
-   "text": "So what are you missing? Sleep isn't your brain switching off. It's your brain switching to a different job."
+   "text": "Sleep isn't your brain switching off. It's your brain switching to a different job.",
+   "speaker": "a"
   },
   {
    "id": "b2",
-   "text": "Every night you go through about five cycles, each roughly ninety minutes long: light sleep, deep sleep, and then dreaming sleep, called REM."
+   "text": "Every night you go through about five cycles, each roughly ninety minutes long: light sleep, deep sleep, and then dreaming sleep, called REM.",
+   "speaker": "a"
+  },
+  {
+   "id": "b2q",
+   "speaker": "q",
+   "text": "Is that when we dream?"
   },
   {
    "id": "b2b",
-   "text": "REM is when most vivid dreams happen. Your brain is almost as active as when you're awake, but your muscles are switched off, so you don't act your dreams out. Most adults spend about an hour and a half to two hours a night in REM."
+   "text": "Mostly, yes. REM is when most vivid dreams happen. Your brain is almost as active as when you're awake, but your muscles are switched off, so you don't act your dreams out. Most adults spend about an hour and a half to two hours a night in REM.",
+   "speaker": "a"
   },
   {
    "id": "b3",
-   "text": "During sleep, the hippocampus, your brain's short-term memory, replays the day. In rats, the same brain cells fired in the same order as they had while running a maze, as if rehearsing."
+   "text": "During sleep, the hippocampus, your brain's short-term memory, replays the day. In rats, the same brain cells fired in the same order as they had while running a maze, as if rehearsing.",
+   "speaker": "a"
   },
   {
    "id": "b4",
-   "text": "Those memories get copied into long-term storage. Skip sleep, and much of today simply doesn't get saved."
+   "text": "Those memories get copied into long-term storage. Skip sleep, and much of today simply doesn't get saved.",
+   "speaker": "a"
   },
   {
    "id": "b4b",
-   "text": "In one experiment, students who had been kept awake for a night remembered nineteen percent less from a set of pictures, even after they had caught up on sleep."
+   "text": "In one experiment, students who had been kept awake for a night remembered nineteen percent less from a set of pictures, even after they had caught up on sleep.",
+   "speaker": "a"
+  },
+  {
+   "id": "b5q",
+   "speaker": "q",
+   "text": "And the brain cleaning I keep hearing about?"
   },
   {
    "id": "b5",
-   "text": "And then there's the cleaning. During sleep, your brain cells shrink apart, and fluid washes out waste, like proteins linked to Alzheimer's."
+   "text": "That's real. During sleep, your brain cells shrink apart, and fluid washes out waste, like proteins linked to Alzheimer's.",
+   "speaker": "a"
   },
   {
    "id": "b6",
-   "text": "In mice, the space between brain cells grew by sixty percent during sleep. No sleep, no wash."
+   "text": "In mice, the space between brain cells grew by sixty percent during sleep. No sleep, no wash.",
+   "speaker": "a"
+  },
+  {
+   "id": "y1q",
+   "speaker": "q",
+   "text": "What about the rest of the body?",
+   "ch": "Your body"
   },
   {
    "id": "y1",
-   "ch": "Your body",
    "gap_before": 1.6,
-   "text": "Your body notices too. After just two short nights, the hormone that says 'I'm full' dropped by eighteen percent, and the one that says 'I'm hungry' rose by twenty-eight."
+   "text": "It notices too. After just two short nights, the hormone that says 'I'm full' dropped by eighteen percent, and the one that says 'I'm hungry' rose by twenty-eight.",
+   "speaker": "a"
+  },
+  {
+   "id": "y2q",
+   "speaker": "q",
+   "text": "Is that why I crave junk food when I'm tired?"
   },
   {
    "id": "y2",
-   "text": "Which is why tired people crave sugar and fat."
+   "text": "Exactly. Tired brains crave sugar and fat.",
+   "speaker": "a"
   },
   {
    "id": "y3",
-   "text": "After six nights of only four hours, healthy young men handled sugar like people on their way to diabetes."
+   "text": "After six nights of only four hours, healthy young men handled sugar like people on their way to diabetes.",
+   "speaker": "a"
   },
   {
    "id": "y3b",
-   "text": "Even repairs wait for the night. Much of your growth hormone, which helps rebuild muscle and tissue, is released during deep sleep."
+   "text": "Even repairs wait for the night. Much of your growth hormone, which helps rebuild muscle and tissue, is released during deep sleep.",
+   "speaker": "a"
+  },
+  {
+   "id": "y4q",
+   "speaker": "q",
+   "text": "Does it make you sick, too?"
   },
   {
    "id": "y4",
-   "text": "And your defences weaken. People who slept six hours or less were about four times more likely to catch a cold after being exposed to the virus."
+   "text": "It can. Your defences weaken. People who slept six hours or less were about four times more likely to catch a cold after being exposed to the virus.",
+   "speaker": "a"
   },
   {
    "id": "y4b",
-   "text": "And over the years, people who regularly sleep less than six hours have higher rates of heart disease, obesity and diabetes."
+   "text": "And over the years, people who regularly sleep less than six hours have higher rates of heart disease, obesity and diabetes.",
+   "speaker": "a"
+  },
+  {
+   "id": "m1q",
+   "speaker": "q",
+   "text": "Back to our experiment. What happens on day two?",
+   "ch": "Day two and three"
   },
   {
    "id": "m1",
-   "ch": "Day two and three",
    "gap_before": 1.6,
-   "text": "Day two. Your brain starts shutting off without asking. Microsleeps, a few seconds at a time, sometimes with your eyes open."
+   "text": "Your brain starts shutting off without asking. Microsleeps, a few seconds at a time, sometimes with your eyes open.",
+   "speaker": "a"
   },
   {
    "id": "m2",
-   "text": "Your emotions go haywire. After a night without sleep, the brain's alarm centre, the amygdala, reacted over sixty percent more strongly to upsetting images. The calm, rational front of the brain loses its grip on it."
+   "text": "Your emotions go haywire. After a night without sleep, the brain's alarm centre, the amygdala, reacted over sixty percent more strongly to upsetting images. The calm, rational front of the brain loses its grip on it.",
+   "speaker": "a"
+  },
+  {
+   "id": "m3q",
+   "speaker": "q",
+   "text": "And day three?"
   },
   {
    "id": "m3",
-   "text": "Day three. The walls start to breathe. You see and hear things that aren't there. Hallucinations."
+   "text": "The walls start to breathe. You see and hear things that aren't there. Hallucinations.",
+   "speaker": "a"
+  },
+  {
+   "id": "m4q",
+   "speaker": "q",
+   "text": "Has anyone really lived through this?"
   },
   {
    "id": "m4",
-   "text": "In 1959, a New York radio DJ named Peter Tripp stayed awake for two hundred and one hours for charity, broadcasting from a glass booth in Times Square.",
-   "say": "In nineteen fifty-nine, a New York radio DJ named Peter Tripp stayed awake for two hundred and one hours for charity, broadcasting from a glass booth in Times Square."
+   "text": "Yes. In 1959, a New York radio DJ named Peter Tripp stayed awake for two hundred and one hours for charity, broadcasting from a glass booth in Times Square.",
+   "say": "Yes. In nineteen fifty-nine, a New York radio DJ named Peter Tripp stayed awake for two hundred and one hours for charity, broadcasting from a glass booth in Times Square.",
+   "speaker": "a"
   },
   {
    "id": "m5",
-   "text": "He saw spiders in his shoes and mice in the studio. Doctors had also given him stimulants to keep him going, which probably made it worse."
+   "text": "He saw spiders in his shoes and mice in the studio. Doctors had also given him stimulants to keep him going, which probably made it worse.",
+   "speaker": "a"
+  },
+  {
+   "id": "r1q",
+   "speaker": "q",
+   "text": "So who holds the record?",
+   "ch": "The record"
   },
   {
    "id": "r1",
-   "ch": "The record",
    "gap_before": 1.6,
-   "text": "Has anyone gone further? In 1964, seventeen-year-old Randy Gardner stayed awake for eleven days straight, for a school science fair, watched over by the sleep researcher William Dement.",
-   "say": "Has anyone gone further? In nineteen sixty-four, seventeen-year-old Randy Gardner stayed awake for eleven days straight, for a school science fair, watched over by the sleep researcher William Dement."
+   "text": "In 1964, seventeen-year-old Randy Gardner stayed awake for eleven days straight, for a school science fair, watched over by the sleep researcher William Dement.",
+   "say": "In nineteen sixty-four, seventeen-year-old Randy Gardner stayed awake for eleven days straight, for a school science fair, watched over by the sleep researcher William Dement.",
+   "speaker": "a"
   },
   {
    "id": "r2",
-   "text": "By the end, he was moody and paranoid, and couldn't count backwards from a hundred in sevens."
+   "text": "By the end, he was moody and paranoid, and couldn't count backwards from a hundred in sevens.",
+   "speaker": "a"
   },
   {
    "id": "r3",
-   "text": "Yet on day ten, he still beat a sleep scientist at pinball."
+   "text": "Yet on day ten, he still beat a sleep scientist at pinball.",
+   "speaker": "a"
   },
   {
    "id": "r4",
-   "text": "Today, Guinness World Records no longer accepts attempts. It's considered too dangerous."
+   "text": "Today, Guinness World Records no longer accepts attempts. It's considered too dangerous.",
+   "speaker": "a"
   },
   {
    "id": "s1",
    "ch": "Can you need less?",
    "gap_before": 1.6,
-   "text": "But wait. Don't some people get by on five or six hours?"
+   "text": "But don't some people get by on five or six hours?",
+   "speaker": "q"
   },
   {
    "id": "s2",
    "text": "A tiny number really do. In 2009, scientists found a mutation in a gene called DEC2 in a mother and daughter who naturally slept about six hours and felt completely rested.",
-   "say": "A tiny number really do. In two thousand nine, scientists found a mutation in a gene called DEK two in a mother and daughter who naturally slept about six hours and felt completely rested."
+   "say": "A tiny number really do. In two thousand nine, scientists found a mutation in a gene called DEK two in a mother and daughter who naturally slept about six hours and felt completely rested.",
+   "speaker": "a"
   },
   {
    "id": "s3",
-   "text": "A few more genes like it have turned up since, but only in a handful of families worldwide. For everyone else, the advice is clear: adults need seven hours or more."
+   "text": "A few more genes like it have turned up since, but only in a handful of families worldwide. For everyone else, the advice is clear: adults need seven hours or more.",
+   "speaker": "a"
+  },
+  {
+   "id": "s4q",
+   "speaker": "q",
+   "text": "So what if I feel fine on six hours?"
   },
   {
    "id": "s4",
-   "text": "And here's the trap. In one study, people who slept six hours a night for two weeks performed as badly as people who had pulled one or two all-nighters. But they felt only slightly sleepy. You don't notice how tired you are."
+   "text": "Here's the trap. In one study, people who slept six hours a night for two weeks performed as badly as people who had pulled one or two all-nighters. But they felt only slightly sleepy. You don't notice how tired you are.",
+   "speaker": "a"
+  },
+  {
+   "id": "s5q",
+   "speaker": "q",
+   "text": "And naps?"
   },
   {
    "id": "s5",
-   "text": "If you can't get a full night, a short nap helps. In a NASA study, long-haul pilots who napped for about twenty-six minutes during the flight were up to fifty-four percent more alert."
+   "text": "A short nap helps. In a NASA study, long-haul pilots who napped for about twenty-six minutes during the flight were up to fifty-four percent more alert.",
+   "speaker": "a"
+  },
+  {
+   "id": "k1q",
+   "speaker": "q",
+   "text": "Could you actually die from it?",
+   "ch": "Can it kill you?"
   },
   {
    "id": "k1",
-   "ch": "Can it kill you?",
    "gap_before": 1.6,
-   "text": "So could you die from it? In lab experiments, rats kept fully awake died within eleven to thirty-two days."
+   "text": "In lab experiments, rats kept fully awake died within eleven to thirty-two days.",
+   "speaker": "a"
   },
   {
    "id": "k2",
    "text": "In 2020, Harvard researchers found a clue to why. In sleepless flies and mice, toxic molecules piled up, not in the brain, but in the gut.",
-   "say": "In twenty twenty, Harvard researchers found a clue to why. In sleepless flies and mice, toxic molecules piled up, not in the brain, but in the gut."
+   "say": "In twenty twenty, Harvard researchers found a clue to why. In sleepless flies and mice, toxic molecules piled up, not in the brain, but in the gut.",
+   "speaker": "a"
   },
   {
    "id": "k3",
-   "text": "When the flies were given antioxidants, they lived a normal lifespan, with almost no sleep."
+   "text": "When the flies were given antioxidants, they lived a normal lifespan, with almost no sleep.",
+   "speaker": "a"
+  },
+  {
+   "id": "k4q",
+   "speaker": "q",
+   "text": "And in humans?"
   },
   {
    "id": "k4",
-   "text": "In humans, there's a rare genetic disease called fatal familial insomnia, first described in an Italian family in 1986. Misfolded proteins destroy the thalamus, a relay deep in the brain that helps switch sleep on. Patients slowly lose the ability to sleep.",
-   "say": "In humans, there's a rare genetic disease called fatal familial insomnia, first described in an Italian family in nineteen eighty-six. Misfolded proteins destroy the thalamus, a relay deep in the brain that helps switch sleep on. Patients slowly lose the ability to sleep."
+   "text": "There's a rare genetic disease called fatal familial insomnia, first described in an Italian family in 1986. Misfolded proteins destroy the thalamus, a relay deep in the brain that helps switch sleep on. Patients slowly lose the ability to sleep.",
+   "say": "There's a rare genetic disease called fatal familial insomnia, first described in an Italian family in nineteen eighty-six. Misfolded proteins destroy the thalamus, a relay deep in the brain that helps switch sleep on. Patients slowly lose the ability to sleep.",
+   "speaker": "a"
   },
   {
    "id": "k5",
-   "text": "Only about seventy families in the world carry it. There is no cure, and on average patients live about eighteen months after symptoms begin."
+   "text": "Only about seventy families in the world carry it. There is no cure, and on average patients live about eighteen months after symptoms begin.",
+   "speaker": "a"
   },
   {
    "id": "v1",
    "ch": "Getting it back",
    "gap_before": 1.6,
-   "text": "And Randy? He slept almost fifteen hours."
+   "text": "And Randy? What happened to him?",
+   "speaker": "q"
+  },
+  {
+   "id": "v1b",
+   "speaker": "a",
+   "text": "He slept almost fifteen hours."
   },
   {
    "id": "v2",
    "gap_before": 0.36,
-   "text": "And woke up fine."
+   "text": "And woke up fine.",
+   "speaker": "a"
+  },
+  {
+   "id": "v3q",
+   "speaker": "q",
+   "text": "So can I just catch up at the weekend?"
   },
   {
    "id": "v3",
-   "text": "When you finally sleep, you don't make up every lost hour. Instead, your brain dives straight into deep sleep and stays there longer. But sleep isn't a bank account. A weekend lie-in can't fully undo weeks of short nights."
+   "text": "Not quite. When you finally sleep, you don't make up every lost hour. Instead, your brain dives straight into deep sleep and stays there longer. But sleep isn't a bank account. A weekend lie-in can't fully undo weeks of short nights.",
+   "speaker": "a"
+  },
+  {
+   "id": "v4q",
+   "speaker": "q",
+   "text": "So what actually helps?"
   },
   {
    "id": "v4",
-   "text": "So keep it simple: a regular bedtime, a cool, dark bedroom, daylight in the morning, and no coffee in the afternoon."
+   "text": "Keep it simple: a regular bedtime, a cool, dark bedroom, daylight in the morning, and no coffee in the afternoon.",
+   "speaker": "a"
   },
   {
    "id": "o1",
    "gap_before": 0.4,
-   "text": "Because sleep isn't time you lose. It's when your brain files the day, cleans itself, and your body rebuilds. Tonight you'll go through those five cycles again."
+   "text": "Because sleep isn't time you lose. It's when your brain files the day, cleans itself, and your body rebuilds. Tonight you'll go through those five cycles again.",
+   "speaker": "a"
   },
   {
    "id": "o2",
-   "text": "So tonight, when your pillow calls, pick up. Sweet dreams."
+   "text": "So tonight, when your pillow calls, pick up. Sweet dreams.",
+   "speaker": "a"
   },
   {
    "id": "o3",
    "gap_before": 0.5,
-   "text": "And subscribe for more what ifs about the strangest machine you'll ever own: your body."
+   "text": "And subscribe for more what ifs about the strangest machine you'll ever own: your body.",
+   "speaker": "q"
   }
- ]
+ ],
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "q_pause": 0.45
 }

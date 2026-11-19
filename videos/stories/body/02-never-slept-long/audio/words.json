@@ -1,7108 +1,7860 @@
 {
- "duration": 470.895,
+ "duration": 507.841,
  "lines": [
   {
    "id": "c1",
+   "speaker": "q",
    "text": "What if you never slept again?",
    "start": 0.35,
-   "end": 2.687
+   "end": 1.787
   },
   {
    "id": "c2",
+   "speaker": "a",
    "text": "Sleep eats about a third of your life. Twenty-six years, just lying there, doing nothing.",
-   "start": 2.927,
-   "end": 8.291
+   "start": 2.237,
+   "end": 7.601
+  },
+  {
+   "id": "c3q",
+   "speaker": "q",
+   "text": "Honestly? That sounds kind of great.",
+   "start": 7.841,
+   "end": 9.894
   },
   {
    "id": "c3",
-   "text": "So let's delete it. No more nights. Eight extra hours, every single day. Here's you, at hour zero.",
-   "start": 8.531,
-   "end": 14.801
+   "speaker": "a",
+   "text": "Let's try it. Delete sleep. No more nights. Eight extra hours, every single day. Here's you, at hour zero.",
+   "start": 10.344,
+   "end": 16.888
   },
   {
    "id": "c4",
+   "speaker": "a",
    "text": "Over the next few days, we'll watch what happens to your brain, your body, and your mind. And it gets strange, fast.",
-   "start": 15.041,
-   "end": 21.287
+   "start": 17.128,
+   "end": 23.373
   },
   {
    "id": "w1",
-   "text": "First, why do you get sleepy at all?",
-   "start": 22.887,
-   "end": 25.578
+   "speaker": "q",
+   "text": "Okay, but first: why do we get sleepy at all?",
+   "start": 24.973,
+   "end": 27.711
   },
   {
    "id": "w2",
+   "speaker": "a",
    "text": "Two systems run in the background. One is a clock. Deep in your brain, a cluster of about twenty thousand cells keeps time, and it uses light from your eyes to set it.",
-   "start": 25.818,
-   "end": 35.28
+   "start": 28.161,
+   "end": 37.623
   },
   {
    "id": "w3",
+   "speaker": "a",
    "text": "When it gets dark, it tells your body to release melatonin, the hormone that says: it's night.",
-   "start": 35.52,
-   "end": 41.11
+   "start": 37.863,
+   "end": 43.453
   },
   {
    "id": "w4",
+   "speaker": "a",
    "text": "The second system is pressure. Every hour you're awake, a molecule called adenosine builds up in your brain, like sand piling up in an hourglass.",
-   "start": 41.35,
-   "end": 49.92
+   "start": 43.693,
+   "end": 52.264
   },
   {
    "id": "w5",
+   "speaker": "a",
    "text": "The more sand, the sleepier you feel. Sleep empties the hourglass.",
-   "start": 50.16,
-   "end": 54.527
+   "start": 52.504,
+   "end": 56.87
+  },
+  {
+   "id": "w6q",
+   "speaker": "q",
+   "text": "So what does coffee actually do?",
+   "start": 57.11,
+   "end": 58.833
   },
   {
    "id": "w6",
+   "speaker": "a",
    "text": "Coffee doesn't remove the sand. Caffeine just blocks adenosine from docking, so you don't feel it. The pile keeps growing anyway.",
-   "start": 54.767,
-   "end": 62.09
+   "start": 59.283,
+   "end": 66.606
   },
   {
    "id": "w7",
+   "speaker": "a",
    "text": "And it lingers. About half the caffeine from a cup of coffee is still in your blood five or six hours later. That afternoon coffee is still working at bedtime.",
-   "start": 62.33,
-   "end": 70.723
+   "start": 66.846,
+   "end": 75.239
   },
   {
    "id": "a1",
-   "text": "And this isn't just a human thing. Almost every animal scientists have studied closely sleeps in some way.",
-   "start": 72.323,
-   "end": 78.313
+   "speaker": "q",
+   "text": "Is it just us? Do animals sleep too?",
+   "start": 76.839,
+   "end": 78.934
+  },
+  {
+   "id": "a1b",
+   "speaker": "a",
+   "text": "Almost every animal scientists have studied closely sleeps in some way.",
+   "start": 79.384,
+   "end": 84.305
   },
   {
    "id": "a2",
+   "speaker": "a",
    "text": "Dolphins have to keep swimming to breathe, so they sleep with one half of the brain at a time, and keep one eye open.",
-   "start": 78.553,
-   "end": 85.173
+   "start": 84.545,
+   "end": 91.165
+  },
+  {
+   "id": "a2q",
+   "speaker": "q",
+   "text": "And birds that fly for weeks without landing?",
+   "start": 91.405,
+   "end": 93.639
   },
   {
    "id": "a3",
-   "text": "Frigatebirds fly over the ocean for weeks without landing. Researchers found that they sleep in the air, in bursts of a few seconds, about forty minutes a day. Back on land, they sleep for twelve hours.",
-   "start": 85.413,
-   "end": 96.374
+   "speaker": "a",
+   "text": "Frigatebirds do exactly that. Researchers found that they sleep in the air, in bursts of a few seconds, about forty minutes a day. Back on land, they sleep for twelve hours.",
+   "start": 94.089,
+   "end": 103.776
   },
   {
    "id": "a3b",
+   "speaker": "a",
    "text": "Even upside-down jellyfish, which don't have a brain at all, have a sleep-like state at night.",
-   "start": 96.614,
-   "end": 102.157
+   "start": 104.016,
+   "end": 109.56
   },
   {
    "id": "a4",
+   "speaker": "a",
    "text": "Evolution found ways to sleep while swimming and flying. It never found a way to skip it.",
-   "start": 102.397,
-   "end": 108.076
+   "start": 109.8,
+   "end": 115.478
+  },
+  {
+   "id": "d1q",
+   "speaker": "q",
+   "text": "So what happens on that first night?",
+   "start": 115.718,
+   "end": 117.464
   },
   {
    "id": "d1",
-   "text": "Back to you. Hour sixteen. It's midnight, and your inner clock is begging for bed.",
-   "start": 109.676,
-   "end": 114.743
+   "speaker": "a",
+   "text": "Hour sixteen. It's midnight, and your inner clock is begging for bed.",
+   "start": 119.064,
+   "end": 123.491
   },
   {
    "id": "d2",
+   "speaker": "a",
    "text": "By hour seventeen, your reactions are as slow as if you'd had a couple of drinks.",
-   "start": 114.983,
-   "end": 119.947
+   "start": 123.731,
+   "end": 128.695
+  },
+  {
+   "id": "d3q",
+   "speaker": "q",
+   "text": "And the worst moment?",
+   "start": 128.935,
+   "end": 130.039
   },
   {
    "id": "d3",
+   "speaker": "a",
    "text": "Around four in the morning, your body temperature and alertness hit their lowest point. In the United States alone, police reports link drowsy drivers to around ninety thousand crashes a year.",
-   "start": 120.187,
-   "end": 130.839
+   "start": 130.489,
+   "end": 141.141
   },
   {
    "id": "d3b",
+   "speaker": "a",
    "text": "Then the sun comes up, and your inner clock hands you a second wind. You feel almost normal. But the sand in the hourglass never stopped piling up.",
-   "start": 131.079,
-   "end": 138.857
+   "start": 141.381,
+   "end": 149.159
   },
   {
    "id": "d4",
+   "speaker": "a",
    "text": "At twenty-four, you're driving like you're legally drunk.",
-   "start": 139.097,
-   "end": 142.601
+   "start": 149.399,
+   "end": 152.903
+  },
+  {
+   "id": "b1q",
+   "speaker": "q",
+   "text": "But what are we actually missing? What does the brain do all night?",
+   "start": 153.143,
+   "end": 156.297
   },
   {
    "id": "b1",
-   "text": "So what are you missing? Sleep isn't your brain switching off. It's your brain switching to a different job.",
-   "start": 144.201,
-   "end": 150.073
+   "speaker": "a",
+   "text": "Sleep isn't your brain switching off. It's your brain switching to a different job.",
+   "start": 157.897,
+   "end": 162.571
   },
   {
    "id": "b2",
+   "speaker": "a",
    "text": "Every night you go through about five cycles, each roughly ninety minutes long: light sleep, deep sleep, and then dreaming sleep, called REM.",
-   "start": 150.313,
-   "end": 158.436
+   "start": 162.811,
+   "end": 170.933
+  },
+  {
+   "id": "b2q",
+   "speaker": "q",
+   "text": "Is that when we dream?",
+   "start": 171.173,
+   "end": 172.327
   },
   {
    "id": "b2b",
-   "text": "REM is when most vivid dreams happen. Your brain is almost as active as when you're awake, but your muscles are switched off, so you don't act your dreams out. Most adults spend about an hour and a half to two hours a night in REM.",
-   "start": 158.676,
-   "end": 170.918
+   "speaker": "a",
+   "text": "Mostly, yes. REM is when most vivid dreams happen. Your brain is almost as active as when you're awake, but your muscles are switched off, so you don't act your dreams out. Most adults spend about an hour and a half to two hours a night in REM.",
+   "start": 172.777,
+   "end": 185.853
   },
   {
    "id": "b3",
+   "speaker": "a",
    "text": "During sleep, the hippocampus, your brain's short-term memory, replays the day. In rats, the same brain cells fired in the same order as they had while running a maze, as if rehearsing.",
-   "start": 171.158,
-   "end": 181.605
+   "start": 186.093,
+   "end": 196.54
   },
   {
    "id": "b4",
+   "speaker": "a",
    "text": "Those memories get copied into long-term storage. Skip sleep, and much of today simply doesn't get saved.",
-   "start": 181.845,
-   "end": 188.44
+   "start": 196.78,
+   "end": 203.374
   },
   {
    "id": "b4b",
+   "speaker": "a",
    "text": "In one experiment, students who had been kept awake for a night remembered nineteen percent less from a set of pictures, even after they had caught up on sleep.",
-   "start": 188.68,
-   "end": 197.143
+   "start": 203.614,
+   "end": 212.078
+  },
+  {
+   "id": "b5q",
+   "speaker": "q",
+   "text": "And the brain cleaning I keep hearing about?",
+   "start": 212.318,
+   "end": 214.43
   },
   {
    "id": "b5",
-   "text": "And then there's the cleaning. During sleep, your brain cells shrink apart, and fluid washes out waste, like proteins linked to Alzheimer's.",
-   "start": 197.383,
-   "end": 205.089
+   "speaker": "a",
+   "text": "That's real. During sleep, your brain cells shrink apart, and fluid washes out waste, like proteins linked to Alzheimer's.",
+   "start": 214.88,
+   "end": 221.852
   },
   {
    "id": "b6",
+   "speaker": "a",
    "text": "In mice, the space between brain cells grew by sixty percent during sleep. No sleep, no wash.",
-   "start": 205.329,
-   "end": 211.474
+   "start": 222.092,
+   "end": 228.238
+  },
+  {
+   "id": "y1q",
+   "speaker": "q",
+   "text": "What about the rest of the body?",
+   "start": 228.478,
+   "end": 229.901
   },
   {
    "id": "y1",
-   "text": "Your body notices too. After just two short nights, the hormone that says 'I'm full' dropped by eighteen percent, and the one that says 'I'm hungry' rose by twenty-eight.",
-   "start": 213.074,
-   "end": 222.246
+   "speaker": "a",
+   "text": "It notices too. After just two short nights, the hormone that says 'I'm full' dropped by eighteen percent, and the one that says 'I'm hungry' rose by twenty-eight.",
+   "start": 231.501,
+   "end": 240.305
+  },
+  {
+   "id": "y2q",
+   "speaker": "q",
+   "text": "Is that why I crave junk food when I'm tired?",
+   "start": 240.545,
+   "end": 242.8
   },
   {
    "id": "y2",
-   "text": "Which is why tired people crave sugar and fat.",
-   "start": 222.486,
-   "end": 225.903
+   "speaker": "a",
+   "text": "Exactly. Tired brains crave sugar and fat.",
+   "start": 243.25,
+   "end": 246.677
   },
   {
    "id": "y3",
+   "speaker": "a",
    "text": "After six nights of only four hours, healthy young men handled sugar like people on their way to diabetes.",
-   "start": 226.143,
-   "end": 232.437
+   "start": 246.917,
+   "end": 253.211
   },
   {
    "id": "y3b",
+   "speaker": "a",
    "text": "Even repairs wait for the night. Much of your growth hormone, which helps rebuild muscle and tissue, is released during deep sleep.",
-   "start": 232.677,
-   "end": 239.874
+   "start": 253.451,
+   "end": 260.648
+  },
+  {
+   "id": "y4q",
+   "speaker": "q",
+   "text": "Does it make you sick, too?",
+   "start": 260.888,
+   "end": 262.127
   },
   {
    "id": "y4",
-   "text": "And your defences weaken. People who slept six hours or less were about four times more likely to catch a cold after being exposed to the virus.",
-   "start": 240.114,
-   "end": 248.143
+   "speaker": "a",
+   "text": "It can. Your defences weaken. People who slept six hours or less were about four times more likely to catch a cold after being exposed to the virus.",
+   "start": 262.577,
+   "end": 270.928
   },
   {
    "id": "y4b",
+   "speaker": "a",
    "text": "And over the years, people who regularly sleep less than six hours have higher rates of heart disease, obesity and diabetes.",
-   "start": 248.383,
-   "end": 255.674
+   "start": 271.168,
+   "end": 278.459
+  },
+  {
+   "id": "m1q",
+   "speaker": "q",
+   "text": "Back to our experiment. What happens on day two?",
+   "start": 278.699,
+   "end": 281.412
   },
   {
    "id": "m1",
-   "text": "Day two. Your brain starts shutting off without asking. Microsleeps, a few seconds at a time, sometimes with your eyes open.",
-   "start": 257.274,
-   "end": 264.302
+   "speaker": "a",
+   "text": "Your brain starts shutting off without asking. Microsleeps, a few seconds at a time, sometimes with your eyes open.",
+   "start": 283.012,
+   "end": 289.62
   },
   {
    "id": "m2",
+   "speaker": "a",
    "text": "Your emotions go haywire. After a night without sleep, the brain's alarm centre, the amygdala, reacted over sixty percent more strongly to upsetting images. The calm, rational front of the brain loses its grip on it.",
-   "start": 264.542,
-   "end": 277.231
+   "start": 289.86,
+   "end": 302.549
+  },
+  {
+   "id": "m3q",
+   "speaker": "q",
+   "text": "And day three?",
+   "start": 302.789,
+   "end": 303.646
   },
   {
    "id": "m3",
-   "text": "Day three. The walls start to breathe. You see and hear things that aren't there. Hallucinations.",
-   "start": 277.471,
-   "end": 283.117
+   "speaker": "a",
+   "text": "The walls start to breathe. You see and hear things that aren't there. Hallucinations.",
+   "start": 304.096,
+   "end": 309.167
+  },
+  {
+   "id": "m4q",
+   "speaker": "q",
+   "text": "Has anyone really lived through this?",
+   "start": 309.407,
+   "end": 311.225
   },
   {
    "id": "m4",
-   "text": "In 1959, a New York radio DJ named Peter Tripp stayed awake for two hundred and one hours for charity, broadcasting from a glass booth in Times Square.",
-   "start": 283.357,
-   "end": 292.783
+   "speaker": "a",
+   "text": "Yes. In 1959, a New York radio DJ named Peter Tripp stayed awake for two hundred and one hours for charity, broadcasting from a glass booth in Times Square.",
+   "start": 311.675,
+   "end": 321.426
   },
   {
    "id": "m5",
+   "speaker": "a",
    "text": "He saw spiders in his shoes and mice in the studio. Doctors had also given him stimulants to keep him going, which probably made it worse.",
-   "start": 293.023,
-   "end": 301.04
+   "start": 321.666,
+   "end": 329.683
+  },
+  {
+   "id": "r1q",
+   "speaker": "q",
+   "text": "So who holds the record?",
+   "start": 329.923,
+   "end": 331.238
   },
   {
    "id": "r1",
-   "text": "Has anyone gone further? In 1964, seventeen-year-old Randy Gardner stayed awake for eleven days straight, for a school science fair, watched over by the sleep researcher William Dement.",
-   "start": 302.64,
-   "end": 313.845
+   "speaker": "a",
+   "text": "In 1964, seventeen-year-old Randy Gardner stayed awake for eleven days straight, for a school science fair, watched over by the sleep researcher William Dement.",
+   "start": 332.838,
+   "end": 342.617
   },
   {
    "id": "r2",
+   "speaker": "a",
    "text": "By the end, he was moody and paranoid, and couldn't count backwards from a hundred in sevens.",
-   "start": 314.085,
-   "end": 319.68
+   "start": 342.857,
+   "end": 348.453
   },
   {
    "id": "r3",
+   "speaker": "a",
    "text": "Yet on day ten, he still beat a sleep scientist at pinball.",
-   "start": 319.92,
-   "end": 323.953
+   "start": 348.693,
+   "end": 352.725
   },
   {
    "id": "r4",
+   "speaker": "a",
    "text": "Today, Guinness World Records no longer accepts attempts. It's considered too dangerous.",
-   "start": 324.193,
-   "end": 329.917
+   "start": 352.965,
+   "end": 358.689
   },
   {
    "id": "s1",
-   "text": "But wait. Don't some people get by on five or six hours?",
-   "start": 331.517,
-   "end": 335.243
+   "speaker": "q",
+   "text": "But don't some people get by on five or six hours?",
+   "start": 360.289,
+   "end": 363.042
   },
   {
    "id": "s2",
+   "speaker": "a",
    "text": "A tiny number really do. In 2009, scientists found a mutation in a gene called DEC2 in a mother and daughter who naturally slept about six hours and felt completely rested.",
-   "start": 335.483,
-   "end": 346.727
+   "start": 363.492,
+   "end": 374.735
   },
   {
    "id": "s3",
+   "speaker": "a",
    "text": "A few more genes like it have turned up since, but only in a handful of families worldwide. For everyone else, the advice is clear: adults need seven hours or more.",
-   "start": 346.967,
-   "end": 355.9
+   "start": 374.975,
+   "end": 383.908
+  },
+  {
+   "id": "s4q",
+   "speaker": "q",
+   "text": "So what if I feel fine on six hours?",
+   "start": 384.148,
+   "end": 386.3
   },
   {
    "id": "s4",
-   "text": "And here's the trap. In one study, people who slept six hours a night for two weeks performed as badly as people who had pulled one or two all-nighters. But they felt only slightly sleepy. You don't notice how tired you are.",
-   "start": 356.14,
-   "end": 368.056
+   "speaker": "a",
+   "text": "Here's the trap. In one study, people who slept six hours a night for two weeks performed as badly as people who had pulled one or two all-nighters. But they felt only slightly sleepy. You don't notice how tired you are.",
+   "start": 386.75,
+   "end": 398.362
+  },
+  {
+   "id": "s5q",
+   "speaker": "q",
+   "text": "And naps?",
+   "start": 398.602,
+   "end": 399.307
   },
   {
    "id": "s5",
-   "text": "If you can't get a full night, a short nap helps. In a NASA study, long-haul pilots who napped for about twenty-six minutes during the flight were up to fifty-four percent more alert.",
-   "start": 368.296,
-   "end": 377.954
+   "speaker": "a",
+   "text": "A short nap helps. In a NASA study, long-haul pilots who napped for about twenty-six minutes during the flight were up to fifty-four percent more alert.",
+   "start": 399.757,
+   "end": 408.116
+  },
+  {
+   "id": "k1q",
+   "speaker": "q",
+   "text": "Could you actually die from it?",
+   "start": 408.356,
+   "end": 409.808
   },
   {
    "id": "k1",
-   "text": "So could you die from it? In lab experiments, rats kept fully awake died within eleven to thirty-two days.",
-   "start": 379.554,
-   "end": 386.391
+   "speaker": "a",
+   "text": "In lab experiments, rats kept fully awake died within eleven to thirty-two days.",
+   "start": 411.408,
+   "end": 417.06
   },
   {
    "id": "k2",
+   "speaker": "a",
    "text": "In 2020, Harvard researchers found a clue to why. In sleepless flies and mice, toxic molecules piled up, not in the brain, but in the gut.",
-   "start": 386.631,
-   "end": 395.303
+   "start": 417.3,
+   "end": 425.973
   },
   {
    "id": "k3",
+   "speaker": "a",
    "text": "When the flies were given antioxidants, they lived a normal lifespan, with almost no sleep.",
-   "start": 395.543,
-   "end": 400.76
+   "start": 426.213,
+   "end": 431.43
+  },
+  {
+   "id": "k4q",
+   "speaker": "q",
+   "text": "And in humans?",
+   "start": 431.67,
+   "end": 432.629
   },
   {
    "id": "k4",
-   "text": "In humans, there's a rare genetic disease called fatal familial insomnia, first described in an Italian family in 1986. Misfolded proteins destroy the thalamus, a relay deep in the brain that helps switch sleep on. Patients slowly lose the ability to sleep.",
-   "start": 401.0,
-   "end": 416.77
+   "speaker": "a",
+   "text": "There's a rare genetic disease called fatal familial insomnia, first described in an Italian family in 1986. Misfolded proteins destroy the thalamus, a relay deep in the brain that helps switch sleep on. Patients slowly lose the ability to sleep.",
+   "start": 433.079,
+   "end": 448.197
   },
   {
    "id": "k5",
+   "speaker": "a",
    "text": "Only about seventy families in the world carry it. There is no cure, and on average patients live about eighteen months after symptoms begin.",
-   "start": 417.01,
-   "end": 425.0
+   "start": 448.437,
+   "end": 456.427
   },
   {
    "id": "v1",
-   "text": "And Randy? He slept almost fifteen hours.",
-   "start": 426.6,
-   "end": 429.717
+   "speaker": "q",
+   "text": "And Randy? What happened to him?",
+   "start": 458.027,
+   "end": 459.731
+  },
+  {
+   "id": "v1b",
+   "speaker": "a",
+   "text": "He slept almost fifteen hours.",
+   "start": 460.181,
+   "end": 462.722
   },
   {
    "id": "v2",
+   "speaker": "a",
    "text": "And woke up fine.",
-   "start": 430.077,
-   "end": 431.869
+   "start": 463.082,
+   "end": 464.874
+  },
+  {
+   "id": "v3q",
+   "speaker": "q",
+   "text": "So can I just catch up at the weekend?",
+   "start": 465.114,
+   "end": 466.985
   },
   {
    "id": "v3",
-   "text": "When you finally sleep, you don't make up every lost hour. Instead, your brain dives straight into deep sleep and stays there longer. But sleep isn't a bank account. A weekend lie-in can't fully undo weeks of short nights.",
-   "start": 432.109,
-   "end": 443.779
+   "speaker": "a",
+   "text": "Not quite. When you finally sleep, you don't make up every lost hour. Instead, your brain dives straight into deep sleep and stays there longer. But sleep isn't a bank account. A weekend lie-in can't fully undo weeks of short nights.",
+   "start": 467.435,
+   "end": 479.663
+  },
+  {
+   "id": "v4q",
+   "speaker": "q",
+   "text": "So what actually helps?",
+   "start": 479.903,
+   "end": 481.178
   },
   {
    "id": "v4",
-   "text": "So keep it simple: a regular bedtime, a cool, dark bedroom, daylight in the morning, and no coffee in the afternoon.",
-   "start": 444.019,
-   "end": 450.727
+   "speaker": "a",
+   "text": "Keep it simple: a regular bedtime, a cool, dark bedroom, daylight in the morning, and no coffee in the afternoon.",
+   "start": 481.628,
+   "end": 487.898
   },
   {
    "id": "o1",
+   "speaker": "a",
    "text": "Because sleep isn't time you lose. It's when your brain files the day, cleans itself, and your body rebuilds. Tonight you'll go through those five cycles again.",
-   "start": 451.127,
-   "end": 459.668
+   "start": 488.298,
+   "end": 496.839
   },
   {
    "id": "o2",
+   "speaker": "a",
    "text": "So tonight, when your pillow calls, pick up. Sweet dreams.",
-   "start": 459.908,
-   "end": 464.001
+   "start": 497.079,
+   "end": 501.172
   },
   {
    "id": "o3",
+   "speaker": "q",
    "text": "And subscribe for more what ifs about the strangest machine you'll ever own: your body.",
-   "start": 464.501,
-   "end": 469.695
+   "start": 501.672,
+   "end": 506.641
   }
  ],
  "words": [
   {
    "w": "What",
    "s": 0.0,
-   "e": 0.5
+   "e": 0.52
   },
   {
    "w": "if",
-   "s": 0.5,
+   "s": 0.52,
    "e": 0.62
   },
   {
    "w": "you",
    "s": 0.62,
-   "e": 0.76
+   "e": 0.74
   },
   {
    "w": "never",
-   "s": 0.76,
-   "e": 0.94
+   "s": 0.74,
+   "e": 0.9
   },
   {
    "w": "slept",
-   "s": 0.94,
-   "e": 1.26
+   "s": 0.9,
+   "e": 1.2
   },
   {
    "w": "again?",
-   "s": 1.26,
-   "e": 1.74
+   "s": 1.2,
+   "e": 1.6
   },
   {
    "w": "Sleep",
-   "s": 2.96,
-   "e": 3.18
+   "s": 2.28,
+   "e": 2.48
   },
   {
    "w": "eats",
-   "s": 3.18,
-   "e": 3.42
+   "s": 2.48,
+   "e": 2.72
   },
   {
    "w": "about",
-   "s": 3.42,
-   "e": 3.74
+   "s": 2.72,
+   "e": 3.04
   },
   {
    "w": "a",
-   "s": 3.74,
-   "e": 3.82
+   "s": 3.04,
+   "e": 3.16
   },
   {
    "w": "third",
-   "s": 3.82,
-   "e": 4.08
+   "s": 3.16,
+   "e": 3.38
   },
   {
    "w": "of",
-   "s": 4.08,
-   "e": 4.22
+   "s": 3.38,
+   "e": 3.54
   },
   {
    "w": "your",
-   "s": 4.22,
-   "e": 4.32
+   "s": 3.54,
+   "e": 3.62
   },
   {
    "w": "life,",
-   "s": 4.32,
-   "e": 4.58
+   "s": 3.62,
+   "e": 3.9
   },
   {
    "w": "26",
-   "s": 5.02,
-   "e": 5.36
+   "s": 3.9,
+   "e": 4.64
   },
   {
-   "w": "years",
-   "s": 5.36,
-   "e": 6.0
+   "w": "years,",
+   "s": 4.64,
+   "e": 5.32
   },
   {
    "w": "just",
-   "s": 6.0,
-   "e": 6.38
+   "s": 5.6,
+   "e": 5.74
   },
   {
    "w": "lying",
-   "s": 6.38,
-   "e": 6.7
+   "s": 5.74,
+   "e": 6.02
   },
   {
    "w": "there",
-   "s": 6.7,
-   "e": 6.96
+   "s": 6.02,
+   "e": 6.28
   },
   {
    "w": "doing",
-   "s": 6.96,
-   "e": 7.16
+   "s": 6.28,
+   "e": 6.48
   },
   {
    "w": "nothing.",
-   "s": 7.16,
-   "e": 7.52
+   "s": 6.48,
+   "e": 6.82
   },
   {
-   "w": "So",
-   "s": 8.22,
-   "e": 8.66
+   "w": "Honestly,",
+   "s": 7.64,
+   "e": 8.12
   },
   {
-   "w": "let's",
-   "s": 8.66,
-   "e": 8.92
+   "w": "that",
+   "s": 8.54,
+   "e": 8.7
   },
   {
-   "w": "delete",
-   "s": 8.92,
-   "e": 9.18
+   "w": "sounds",
+   "s": 8.7,
+   "e": 9.0
   },
   {
-   "w": "it,",
-   "s": 9.18,
-   "e": 9.42
+   "w": "kind",
+   "s": 9.0,
+   "e": 9.22
   },
   {
-   "w": "no",
-   "s": 9.74,
-   "e": 9.84
+   "w": "of",
+   "s": 9.22,
+   "e": 9.36
+  },
+  {
+   "w": "great.",
+   "s": 9.36,
+   "e": 9.58
+  },
+  {
+   "w": "Let's",
+   "s": 10.32,
+   "e": 10.58
+  },
+  {
+   "w": "try",
+   "s": 10.58,
+   "e": 10.78
+  },
+  {
+   "w": "it.",
+   "s": 10.78,
+   "e": 11.0
+  },
+  {
+   "w": "Delete",
+   "s": 11.18,
+   "e": 11.3
+  },
+  {
+   "w": "sleep.",
+   "s": 11.3,
+   "e": 11.62
+  },
+  {
+   "w": "No",
+   "s": 12.22,
+   "e": 12.24
   },
   {
    "w": "more",
-   "s": 9.84,
-   "e": 10.06
+   "s": 12.24,
+   "e": 12.48
   },
   {
-   "w": "nights,",
-   "s": 10.06,
-   "e": 10.24
+   "w": "nights.",
+   "s": 12.48,
+   "e": 12.66
   },
   {
    "w": "8",
-   "s": 10.86,
-   "e": 11.1
+   "s": 13.34,
+   "e": 13.38
   },
   {
    "w": "extra",
-   "s": 11.1,
-   "e": 11.5
+   "s": 13.38,
+   "e": 13.8
   },
   {
    "w": "hours",
-   "s": 11.5,
-   "e": 11.92
+   "s": 13.8,
+   "e": 14.2
   },
   {
    "w": "every",
-   "s": 11.92,
-   "e": 12.16
+   "s": 14.2,
+   "e": 14.44
   },
   {
    "w": "single",
-   "s": 12.16,
-   "e": 12.5
-  },
-  {
-   "w": "day,",
-   "s": 12.5,
-   "e": 12.92
-  },
-  {
-   "w": "here's",
-   "s": 13.28,
-   "e": 13.5
-  },
-  {
-   "w": "you",
-   "s": 13.5,
-   "e": 13.64
-  },
-  {
-   "w": "at",
-   "s": 13.64,
-   "e": 13.82
-  },
-  {
-   "w": "hour",
-   "s": 13.82,
-   "e": 13.96
-  },
-  {
-   "w": "zero.",
-   "s": 13.96,
-   "e": 14.34
-  },
-  {
-   "w": "Over",
-   "s": 15.08,
-   "e": 15.14
-  },
-  {
-   "w": "the",
-   "s": 15.14,
-   "e": 15.28
-  },
-  {
-   "w": "next",
-   "s": 15.28,
-   "e": 15.44
-  },
-  {
-   "w": "few",
-   "s": 15.44,
-   "e": 15.68
-  },
-  {
-   "w": "days",
-   "s": 15.68,
-   "e": 15.92
-  },
-  {
-   "w": "we'll",
-   "s": 15.92,
-   "e": 16.22
-  },
-  {
-   "w": "watch",
-   "s": 16.22,
-   "e": 16.4
-  },
-  {
-   "w": "what",
-   "s": 16.4,
-   "e": 16.62
-  },
-  {
-   "w": "happens",
-   "s": 16.62,
-   "e": 16.94
-  },
-  {
-   "w": "to",
-   "s": 16.94,
-   "e": 17.16
-  },
-  {
-   "w": "your",
-   "s": 17.16,
-   "e": 17.28
-  },
-  {
-   "w": "brain,",
-   "s": 17.28,
-   "e": 17.56
-  },
-  {
-   "w": "your",
-   "s": 18.0,
-   "e": 18.08
-  },
-  {
-   "w": "body",
-   "s": 18.08,
-   "e": 18.36
-  },
-  {
-   "w": "and",
-   "s": 18.36,
-   "e": 18.56
-  },
-  {
-   "w": "your",
-   "s": 18.56,
-   "e": 18.74
-  },
-  {
-   "w": "mind,",
-   "s": 18.74,
-   "e": 19.06
-  },
-  {
-   "w": "and",
-   "s": 19.56,
-   "e": 19.72
-  },
-  {
-   "w": "it",
-   "s": 19.72,
-   "e": 19.82
-  },
-  {
-   "w": "gets",
-   "s": 19.82,
-   "e": 19.94
-  },
-  {
-   "w": "strange",
-   "s": 19.94,
-   "e": 20.34
-  },
-  {
-   "w": "fast.",
-   "s": 20.34,
-   "e": 20.86
-  },
-  {
-   "w": "First,",
-   "s": 22.62,
-   "e": 23.14
-  },
-  {
-   "w": "why",
-   "s": 23.44,
-   "e": 23.54
-  },
-  {
-   "w": "do",
-   "s": 23.54,
-   "e": 23.66
-  },
-  {
-   "w": "you",
-   "s": 23.66,
-   "e": 23.76
-  },
-  {
-   "w": "get",
-   "s": 23.76,
-   "e": 23.9
-  },
-  {
-   "w": "sleepy",
-   "s": 23.9,
-   "e": 24.16
-  },
-  {
-   "w": "at",
-   "s": 24.16,
-   "e": 24.48
-  },
-  {
-   "w": "all?",
-   "s": 24.48,
-   "e": 24.64
-  },
-  {
-   "w": "Two",
-   "s": 25.36,
-   "e": 25.88
-  },
-  {
-   "w": "systems",
-   "s": 25.88,
-   "e": 26.34
-  },
-  {
-   "w": "run",
-   "s": 26.34,
-   "e": 26.74
-  },
-  {
-   "w": "in",
-   "s": 26.74,
-   "e": 26.9
-  },
-  {
-   "w": "the",
-   "s": 26.9,
-   "e": 26.98
-  },
-  {
-   "w": "background,",
-   "s": 26.98,
-   "e": 27.26
-  },
-  {
-   "w": "one",
-   "s": 28.0,
-   "e": 28.18
-  },
-  {
-   "w": "is",
-   "s": 28.18,
-   "e": 28.32
-  },
-  {
-   "w": "a",
-   "s": 28.32,
-   "e": 28.42
-  },
-  {
-   "w": "clock,",
-   "s": 28.42,
-   "e": 28.66
-  },
-  {
-   "w": "deep",
-   "s": 29.32,
-   "e": 29.42
-  },
-  {
-   "w": "in",
-   "s": 29.42,
-   "e": 29.58
-  },
-  {
-   "w": "your",
-   "s": 29.58,
-   "e": 29.7
-  },
-  {
-   "w": "brain",
-   "s": 29.7,
-   "e": 30.0
-  },
-  {
-   "w": "a",
-   "s": 30.0,
-   "e": 30.36
-  },
-  {
-   "w": "cluster",
-   "s": 30.36,
-   "e": 30.6
-  },
-  {
-   "w": "of",
-   "s": 30.6,
-   "e": 30.86
-  },
-  {
-   "w": "about",
-   "s": 30.86,
-   "e": 31.0
-  },
-  {
-   "w": "20",
-   "s": 31.0,
-   "e": 31.3
-  },
-  {
-   "w": ",000",
-   "s": 31.3,
-   "e": 31.76
-  },
-  {
-   "w": "cells",
-   "s": 31.76,
-   "e": 32.06
-  },
-  {
-   "w": "keeps",
-   "s": 32.06,
-   "e": 32.32
-  },
-  {
-   "w": "time",
-   "s": 32.32,
-   "e": 32.74
-  },
-  {
-   "w": "and",
-   "s": 32.74,
-   "e": 33.3
-  },
-  {
-   "w": "it",
-   "s": 33.3,
-   "e": 33.38
-  },
-  {
-   "w": "uses",
-   "s": 33.38,
-   "e": 33.6
-  },
-  {
-   "w": "light",
-   "s": 33.6,
-   "e": 33.92
-  },
-  {
-   "w": "from",
-   "s": 33.92,
-   "e": 34.16
-  },
-  {
-   "w": "your",
-   "s": 34.16,
-   "e": 34.3
-  },
-  {
-   "w": "eyes",
-   "s": 34.3,
-   "e": 34.54
-  },
-  {
-   "w": "to",
-   "s": 34.54,
-   "e": 34.74
-  },
-  {
-   "w": "set",
-   "s": 34.74,
-   "e": 34.96
-  },
-  {
-   "w": "it.",
-   "s": 34.96,
-   "e": 35.1
-  },
-  {
-   "w": "When",
-   "s": 35.46,
-   "e": 35.56
-  },
-  {
-   "w": "it",
-   "s": 35.56,
-   "e": 35.66
-  },
-  {
-   "w": "gets",
-   "s": 35.66,
-   "e": 35.8
-  },
-  {
-   "w": "dark",
-   "s": 35.8,
-   "e": 36.12
-  },
-  {
-   "w": "it",
-   "s": 36.12,
-   "e": 36.48
-  },
-  {
-   "w": "tells",
-   "s": 36.48,
-   "e": 36.68
-  },
-  {
-   "w": "your",
-   "s": 36.68,
-   "e": 36.86
-  },
-  {
-   "w": "body",
-   "s": 36.86,
-   "e": 37.12
-  },
-  {
-   "w": "to",
-   "s": 37.12,
-   "e": 37.28
-  },
-  {
-   "w": "release",
-   "s": 37.28,
-   "e": 37.56
-  },
-  {
-   "w": "melatonin,",
-   "s": 37.56,
-   "e": 38.0
-  },
-  {
-   "w": "the",
-   "s": 38.54,
-   "e": 38.58
-  },
-  {
-   "w": "hormone",
-   "s": 38.58,
-   "e": 38.74
-  },
-  {
-   "w": "that",
-   "s": 38.74,
-   "e": 39.08
-  },
-  {
-   "w": "says,",
-   "s": 39.08,
-   "e": 39.3
-  },
-  {
-   "w": "it's",
-   "s": 39.96,
-   "e": 40.06
-  },
-  {
-   "w": "night.",
-   "s": 40.06,
-   "e": 40.24
-  },
-  {
-   "w": "The",
-   "s": 41.42,
-   "e": 41.44
-  },
-  {
-   "w": "second",
-   "s": 41.44,
-   "e": 41.72
-  },
-  {
-   "w": "system",
-   "s": 41.72,
-   "e": 42.12
-  },
-  {
-   "w": "is",
-   "s": 42.12,
-   "e": 42.3
-  },
-  {
-   "w": "pressure,",
-   "s": 42.3,
-   "e": 42.52
-  },
-  {
-   "w": "every",
-   "s": 43.38,
-   "e": 43.54
-  },
-  {
-   "w": "hour",
-   "s": 43.54,
-   "e": 43.84
-  },
-  {
-   "w": "you're",
-   "s": 43.84,
-   "e": 44.1
-  },
-  {
-   "w": "awake",
-   "s": 44.1,
-   "e": 44.32
-  },
-  {
-   "w": "a",
-   "s": 44.32,
-   "e": 44.78
-  },
-  {
-   "w": "molecule",
-   "s": 44.78,
-   "e": 45.02
-  },
-  {
-   "w": "called",
-   "s": 45.02,
-   "e": 45.6
-  },
-  {
-   "w": "adenosine",
-   "s": 45.6,
-   "e": 46.28
-  },
-  {
-   "w": "builds",
-   "s": 46.28,
-   "e": 46.52
-  },
-  {
-   "w": "up",
-   "s": 46.52,
-   "e": 46.8
-  },
-  {
-   "w": "in",
-   "s": 46.8,
-   "e": 46.92
-  },
-  {
-   "w": "your",
-   "s": 46.92,
-   "e": 47.04
-  },
-  {
-   "w": "brain",
-   "s": 47.04,
-   "e": 47.3
-  },
-  {
-   "w": "like",
-   "s": 47.3,
-   "e": 47.94
-  },
-  {
-   "w": "sand",
-   "s": 47.94,
-   "e": 48.26
-  },
-  {
-   "w": "piling",
-   "s": 48.26,
-   "e": 48.6
-  },
-  {
-   "w": "up",
-   "s": 48.6,
-   "e": 48.94
-  },
-  {
-   "w": "in",
-   "s": 48.94,
-   "e": 49.06
-  },
-  {
-   "w": "an",
-   "s": 49.06,
-   "e": 49.14
-  },
-  {
-   "w": "hourglass.",
-   "s": 49.14,
-   "e": 49.54
-  },
-  {
-   "w": "The",
-   "s": 50.2,
-   "e": 50.24
-  },
-  {
-   "w": "more",
-   "s": 50.24,
-   "e": 50.4
-  },
-  {
-   "w": "sand",
-   "s": 50.4,
-   "e": 50.74
-  },
-  {
-   "w": "the",
-   "s": 50.74,
-   "e": 51.02
-  },
-  {
-   "w": "sleepier",
-   "s": 51.02,
-   "e": 51.44
-  },
-  {
-   "w": "you",
-   "s": 51.44,
-   "e": 51.58
-  },
-  {
-   "w": "feel,",
-   "s": 51.58,
-   "e": 51.88
-  },
-  {
-   "w": "sleep",
-   "s": 52.28,
-   "e": 52.54
-  },
-  {
-   "w": "empties",
-   "s": 52.54,
-   "e": 53.06
-  },
-  {
-   "w": "the",
-   "s": 53.06,
-   "e": 53.2
-  },
-  {
-   "w": "hourglass.",
-   "s": 53.2,
-   "e": 53.62
-  },
-  {
-   "w": "Coffee",
-   "s": 54.3,
-   "e": 54.86
-  },
-  {
-   "w": "doesn't",
-   "s": 54.86,
-   "e": 55.34
-  },
-  {
-   "w": "remove",
-   "s": 55.34,
-   "e": 55.6
-  },
-  {
-   "w": "the",
-   "s": 55.6,
-   "e": 55.88
-  },
-  {
-   "w": "sand,",
-   "s": 55.88,
-   "e": 56.14
-  },
-  {
-   "w": "caffeine",
-   "s": 56.7,
-   "e": 56.9
-  },
-  {
-   "w": "just",
-   "s": 56.9,
-   "e": 57.36
-  },
-  {
-   "w": "blocks",
-   "s": 57.36,
-   "e": 57.58
-  },
-  {
-   "w": "adenosine",
-   "s": 57.58,
-   "e": 58.34
-  },
-  {
-   "w": "from",
-   "s": 58.34,
-   "e": 58.52
-  },
-  {
-   "w": "docking",
-   "s": 58.52,
-   "e": 58.82
-  },
-  {
-   "w": "so",
-   "s": 58.82,
-   "e": 59.28
-  },
-  {
-   "w": "you",
-   "s": 59.28,
-   "e": 59.42
-  },
-  {
-   "w": "don't",
-   "s": 59.42,
-   "e": 59.62
-  },
-  {
-   "w": "feel",
-   "s": 59.62,
-   "e": 59.82
-  },
-  {
-   "w": "it.",
-   "s": 59.82,
-   "e": 60.0
-  },
-  {
-   "w": "The",
-   "s": 60.52,
-   "e": 60.56
-  },
-  {
-   "w": "pile",
-   "s": 60.56,
-   "e": 60.76
-  },
-  {
-   "w": "keeps",
-   "s": 60.76,
-   "e": 61.08
-  },
-  {
-   "w": "growing",
-   "s": 61.08,
-   "e": 61.38
-  },
-  {
-   "w": "anyway,",
-   "s": 61.38,
-   "e": 61.76
-  },
-  {
-   "w": "and",
-   "s": 62.32,
-   "e": 62.46
-  },
-  {
-   "w": "it",
-   "s": 62.46,
-   "e": 62.56
-  },
-  {
-   "w": "lingers,",
-   "s": 62.56,
-   "e": 62.94
-  },
-  {
-   "w": "about",
-   "s": 63.38,
-   "e": 63.54
-  },
-  {
-   "w": "half",
-   "s": 63.54,
-   "e": 63.78
-  },
-  {
-   "w": "the",
-   "s": 63.78,
-   "e": 64.0
-  },
-  {
-   "w": "caffeine",
-   "s": 64.0,
-   "e": 64.38
-  },
-  {
-   "w": "from",
-   "s": 64.38,
-   "e": 64.6
-  },
-  {
-   "w": "a",
-   "s": 64.6,
-   "e": 64.68
-  },
-  {
-   "w": "cup",
-   "s": 64.68,
-   "e": 64.84
-  },
-  {
-   "w": "of",
-   "s": 64.84,
-   "e": 64.92
-  },
-  {
-   "w": "coffee",
-   "s": 64.92,
-   "e": 65.12
-  },
-  {
-   "w": "is",
-   "s": 65.12,
-   "e": 65.64
-  },
-  {
-   "w": "still",
-   "s": 65.64,
-   "e": 65.84
-  },
-  {
-   "w": "in",
-   "s": 65.84,
-   "e": 66.0
-  },
-  {
-   "w": "your",
-   "s": 66.0,
-   "e": 66.12
-  },
-  {
-   "w": "blood",
-   "s": 66.12,
-   "e": 66.32
-  },
-  {
-   "w": "five",
-   "s": 66.32,
-   "e": 66.7
-  },
-  {
-   "w": "or",
-   "s": 66.7,
-   "e": 66.88
-  },
-  {
-   "w": "six",
-   "s": 66.88,
-   "e": 67.08
-  },
-  {
-   "w": "hours",
-   "s": 67.08,
-   "e": 67.32
-  },
-  {
-   "w": "later,",
-   "s": 67.32,
-   "e": 67.7
-  },
-  {
-   "w": "that",
-   "s": 68.24,
-   "e": 68.34
-  },
-  {
-   "w": "afternoon",
-   "s": 68.34,
-   "e": 68.7
-  },
-  {
-   "w": "coffee",
-   "s": 68.7,
-   "e": 69.08
-  },
-  {
-   "w": "is",
-   "s": 69.08,
-   "e": 69.38
-  },
-  {
-   "w": "still",
-   "s": 69.38,
-   "e": 69.56
-  },
-  {
-   "w": "working",
-   "s": 69.56,
-   "e": 69.9
-  },
-  {
-   "w": "at",
-   "s": 69.9,
-   "e": 70.08
-  },
-  {
-   "w": "bedtime.",
-   "s": 70.08,
-   "e": 70.52
-  },
-  {
-   "w": "And",
-   "s": 72.0,
-   "e": 72.46
-  },
-  {
-   "w": "this",
-   "s": 72.46,
-   "e": 72.58
-  },
-  {
-   "w": "isn't",
-   "s": 72.58,
-   "e": 72.86
-  },
-  {
-   "w": "just",
-   "s": 72.86,
-   "e": 73.04
-  },
-  {
-   "w": "a",
-   "s": 73.04,
-   "e": 73.18
-  },
-  {
-   "w": "human",
-   "s": 73.18,
-   "e": 73.4
-  },
-  {
-   "w": "thing,",
-   "s": 73.4,
-   "e": 73.7
-  },
-  {
-   "w": "almost",
-   "s": 74.26,
-   "e": 74.48
-  },
-  {
-   "w": "every",
-   "s": 74.48,
-   "e": 74.84
-  },
-  {
-   "w": "animal",
-   "s": 74.84,
-   "e": 75.28
-  },
-  {
-   "w": "scientists",
-   "s": 75.28,
-   "e": 75.8
-  },
-  {
-   "w": "have",
-   "s": 75.8,
-   "e": 76.24
-  },
-  {
-   "w": "studied",
-   "s": 76.24,
-   "e": 76.58
-  },
-  {
-   "w": "closely",
-   "s": 76.58,
-   "e": 76.88
-  },
-  {
-   "w": "sleeps",
-   "s": 76.88,
-   "e": 77.28
-  },
-  {
-   "w": "in",
-   "s": 77.28,
-   "e": 77.68
-  },
-  {
-   "w": "some",
-   "s": 77.68,
-   "e": 77.88
-  },
-  {
-   "w": "way.",
-   "s": 77.88,
-   "e": 78.16
-  },
-  {
-   "w": "Dolphins",
-   "s": 78.16,
-   "e": 78.64
-  },
-  {
-   "w": "have",
-   "s": 78.64,
-   "e": 79.12
-  },
-  {
-   "w": "to",
-   "s": 79.12,
-   "e": 79.28
-  },
-  {
-   "w": "keep",
-   "s": 79.28,
-   "e": 79.42
-  },
-  {
-   "w": "swimming",
-   "s": 79.42,
-   "e": 79.7
-  },
-  {
-   "w": "to",
-   "s": 79.7,
-   "e": 79.96
-  },
-  {
-   "w": "breathe,",
-   "s": 79.96,
-   "e": 80.18
-  },
-  {
-   "w": "so",
-   "s": 80.8,
-   "e": 80.88
-  },
-  {
-   "w": "they",
-   "s": 80.88,
-   "e": 81.0
-  },
-  {
-   "w": "sleep",
-   "s": 81.0,
-   "e": 81.24
-  },
-  {
-   "w": "with",
-   "s": 81.24,
-   "e": 81.5
-  },
-  {
-   "w": "one",
-   "s": 81.5,
-   "e": 81.7
-  },
-  {
-   "w": "half",
-   "s": 81.7,
-   "e": 81.96
-  },
-  {
-   "w": "of",
-   "s": 81.96,
-   "e": 82.1
-  },
-  {
-   "w": "the",
-   "s": 82.1,
-   "e": 82.18
-  },
-  {
-   "w": "brain",
-   "s": 82.18,
-   "e": 82.38
-  },
-  {
-   "w": "at",
-   "s": 82.38,
-   "e": 82.6
-  },
-  {
-   "w": "a",
-   "s": 82.6,
-   "e": 82.64
-  },
-  {
-   "w": "time,",
-   "s": 82.64,
-   "e": 83.0
-  },
-  {
-   "w": "and",
-   "s": 83.3,
-   "e": 83.4
-  },
-  {
-   "w": "keep",
-   "s": 83.4,
-   "e": 83.6
-  },
-  {
-   "w": "one",
-   "s": 83.6,
-   "e": 83.84
-  },
-  {
-   "w": "eye",
-   "s": 83.84,
-   "e": 84.0
-  },
-  {
-   "w": "open.",
-   "s": 84.0,
-   "e": 84.42
-  },
-  {
-   "w": "Frigate",
-   "s": 85.36,
-   "e": 85.66
-  },
-  {
-   "w": "birds",
-   "s": 85.66,
-   "e": 85.96
-  },
-  {
-   "w": "fly",
-   "s": 85.96,
-   "e": 86.26
-  },
-  {
-   "w": "over",
-   "s": 86.26,
-   "e": 86.54
-  },
-  {
-   "w": "the",
-   "s": 86.54,
-   "e": 86.66
-  },
-  {
-   "w": "ocean",
-   "s": 86.66,
-   "e": 86.86
-  },
-  {
-   "w": "for",
-   "s": 86.86,
-   "e": 87.18
-  },
-  {
-   "w": "weeks",
-   "s": 87.18,
-   "e": 87.38
-  },
-  {
-   "w": "without",
-   "s": 87.38,
-   "e": 87.68
-  },
-  {
-   "w": "landing,",
-   "s": 87.68,
-   "e": 88.24
-  },
-  {
-   "w": "researchers",
-   "s": 88.74,
-   "e": 89.08
-  },
-  {
-   "w": "found",
-   "s": 89.08,
-   "e": 89.56
-  },
-  {
-   "w": "that",
-   "s": 89.56,
-   "e": 89.72
-  },
-  {
-   "w": "they",
-   "s": 89.72,
-   "e": 89.84
-  },
-  {
-   "w": "sleep",
-   "s": 89.84,
-   "e": 90.08
-  },
-  {
-   "w": "in",
-   "s": 90.08,
-   "e": 90.3
-  },
-  {
-   "w": "the",
-   "s": 90.3,
-   "e": 90.4
-  },
-  {
-   "w": "air",
-   "s": 90.4,
-   "e": 90.64
-  },
-  {
-   "w": "in",
-   "s": 90.64,
-   "e": 91.02
-  },
-  {
-   "w": "bursts",
-   "s": 91.02,
-   "e": 91.24
-  },
-  {
-   "w": "of",
-   "s": 91.24,
-   "e": 91.54
-  },
-  {
-   "w": "a",
-   "s": 91.54,
-   "e": 91.58
-  },
-  {
-   "w": "few",
-   "s": 91.58,
-   "e": 91.74
-  },
-  {
-   "w": "seconds,",
-   "s": 91.74,
-   "e": 92.06
-  },
-  {
-   "w": "about",
-   "s": 92.44,
-   "e": 92.68
-  },
-  {
-   "w": "40",
-   "s": 92.68,
-   "e": 93.04
-  },
-  {
-   "w": "minutes",
-   "s": 93.04,
-   "e": 93.3
-  },
-  {
-   "w": "a",
-   "s": 93.3,
-   "e": 93.5
+   "s": 14.44,
+   "e": 14.78
   },
   {
    "w": "day.",
-   "s": 93.5,
-   "e": 93.7
+   "s": 14.78,
+   "e": 15.2
   },
   {
-   "w": "Back",
-   "s": 94.22,
-   "e": 94.32
+   "w": "Here's",
+   "s": 15.56,
+   "e": 15.78
   },
   {
-   "w": "on",
-   "s": 94.32,
-   "e": 94.48
-  },
-  {
-   "w": "land",
-   "s": 94.48,
-   "e": 94.7
-  },
-  {
-   "w": "they",
-   "s": 94.7,
-   "e": 95.02
-  },
-  {
-   "w": "sleep",
-   "s": 95.02,
-   "e": 95.22
-  },
-  {
-   "w": "for",
-   "s": 95.22,
-   "e": 95.5
-  },
-  {
-   "w": "12",
-   "s": 95.5,
-   "e": 95.76
-  },
-  {
-   "w": "hours,",
-   "s": 95.76,
-   "e": 96.06
-  },
-  {
-   "w": "even",
-   "s": 96.52,
-   "e": 96.8
-  },
-  {
-   "w": "upside",
-   "s": 96.8,
-   "e": 97.06
-  },
-  {
-   "w": "down",
-   "s": 97.06,
-   "e": 97.52
-  },
-  {
-   "w": "jellyfish,",
-   "s": 97.52,
-   "e": 98.0
-  },
-  {
-   "w": "which",
-   "s": 98.34,
-   "e": 98.48
-  },
-  {
-   "w": "don't",
-   "s": 98.48,
-   "e": 98.78
-  },
-  {
-   "w": "have",
-   "s": 98.78,
-   "e": 98.9
-  },
-  {
-   "w": "a",
-   "s": 98.9,
-   "e": 98.96
-  },
-  {
-   "w": "brain",
-   "s": 98.96,
-   "e": 99.2
+   "w": "you",
+   "s": 15.78,
+   "e": 15.94
   },
   {
    "w": "at",
-   "s": 99.2,
-   "e": 99.38
+   "s": 15.94,
+   "e": 16.12
   },
   {
-   "w": "all,",
-   "s": 99.38,
-   "e": 99.56
+   "w": "hour",
+   "s": 16.12,
+   "e": 16.26
   },
   {
-   "w": "have",
-   "s": 99.88,
-   "e": 100.06
+   "w": "zero.",
+   "s": 16.26,
+   "e": 16.64
   },
   {
-   "w": "a",
-   "s": 100.06,
-   "e": 100.14
+   "w": "Over",
+   "s": 17.22,
+   "e": 17.22
   },
   {
-   "w": "sleep",
-   "s": 100.14,
-   "e": 100.38
+   "w": "the",
+   "s": 17.22,
+   "e": 17.36
   },
   {
-   "w": "like",
-   "s": 100.38,
-   "e": 100.58
+   "w": "next",
+   "s": 17.36,
+   "e": 17.52
   },
   {
-   "w": "state",
-   "s": 100.58,
-   "e": 100.88
+   "w": "few",
+   "s": 17.52,
+   "e": 17.76
   },
   {
-   "w": "at",
-   "s": 100.88,
-   "e": 101.14
+   "w": "days,",
+   "s": 17.76,
+   "e": 18.0
   },
   {
-   "w": "night.",
-   "s": 101.14,
-   "e": 101.34
+   "w": "we'll",
+   "s": 18.0,
+   "e": 18.28
   },
   {
-   "w": "Evolution",
-   "s": 102.22,
-   "e": 102.72
+   "w": "watch",
+   "s": 18.28,
+   "e": 18.5
   },
   {
-   "w": "found",
-   "s": 102.72,
-   "e": 103.18
+   "w": "what",
+   "s": 18.5,
+   "e": 18.74
   },
   {
-   "w": "ways",
-   "s": 103.18,
-   "e": 103.46
+   "w": "happens",
+   "s": 18.74,
+   "e": 19.02
   },
   {
    "w": "to",
-   "s": 103.46,
-   "e": 103.66
+   "s": 19.02,
+   "e": 19.24
   },
   {
-   "w": "sleep",
-   "s": 103.66,
-   "e": 103.94
+   "w": "your",
+   "s": 19.24,
+   "e": 19.36
   },
   {
-   "w": "while",
-   "s": 103.94,
-   "e": 104.3
+   "w": "brain,",
+   "s": 19.36,
+   "e": 19.66
   },
   {
-   "w": "swimming",
-   "s": 104.3,
-   "e": 104.58
+   "w": "your",
+   "s": 20.08,
+   "e": 20.16
+  },
+  {
+   "w": "body",
+   "s": 20.16,
+   "e": 20.46
   },
   {
    "w": "and",
-   "s": 104.58,
-   "e": 104.94
+   "s": 20.46,
+   "e": 20.66
   },
   {
-   "w": "flying,",
-   "s": 104.94,
-   "e": 105.22
+   "w": "your",
+   "s": 20.66,
+   "e": 20.82
+  },
+  {
+   "w": "mind,",
+   "s": 20.82,
+   "e": 21.14
+  },
+  {
+   "w": "and",
+   "s": 21.7,
+   "e": 21.8
   },
   {
    "w": "it",
-   "s": 105.92,
-   "e": 106.0
+   "s": 21.8,
+   "e": 21.9
   },
   {
-   "w": "never",
-   "s": 106.0,
-   "e": 106.16
+   "w": "gets",
+   "s": 21.9,
+   "e": 22.04
   },
   {
-   "w": "found",
-   "s": 106.16,
-   "e": 106.5
+   "w": "strange",
+   "s": 22.04,
+   "e": 22.44
   },
   {
-   "w": "a",
-   "s": 106.5,
-   "e": 106.62
+   "w": "fast.",
+   "s": 22.44,
+   "e": 22.96
   },
   {
-   "w": "way",
-   "s": 106.62,
-   "e": 106.78
+   "w": "Okay,",
+   "s": 24.78,
+   "e": 25.26
   },
   {
-   "w": "to",
-   "s": 106.78,
-   "e": 106.96
+   "w": "but",
+   "s": 25.26,
+   "e": 25.52
   },
   {
-   "w": "skip",
-   "s": 106.96,
-   "e": 107.18
+   "w": "first,",
+   "s": 25.52,
+   "e": 25.74
   },
   {
-   "w": "it.",
-   "s": 107.18,
-   "e": 107.36
+   "w": "why",
+   "s": 26.14,
+   "e": 26.42
   },
   {
-   "w": "Back",
-   "s": 109.26,
-   "e": 109.78
+   "w": "do",
+   "s": 26.42,
+   "e": 26.54
   },
   {
-   "w": "to",
-   "s": 109.78,
-   "e": 110.04
+   "w": "we",
+   "s": 26.54,
+   "e": 26.64
   },
   {
-   "w": "you,",
-   "s": 110.04,
-   "e": 110.2
+   "w": "get",
+   "s": 26.64,
+   "e": 26.78
   },
   {
-   "w": "hour",
-   "s": 110.34,
-   "e": 110.5
+   "w": "sleepy",
+   "s": 26.78,
+   "e": 26.98
   },
   {
-   "w": "16,",
-   "s": 110.5,
-   "e": 110.92
+   "w": "at",
+   "s": 26.98,
+   "e": 27.34
   },
   {
-   "w": "it's",
-   "s": 111.54,
-   "e": 111.78
+   "w": "all?",
+   "s": 27.34,
+   "e": 27.54
   },
   {
-   "w": "midnight",
-   "s": 111.78,
-   "e": 111.98
+   "w": "Two",
+   "s": 27.54,
+   "e": 28.24
   },
   {
-   "w": "and",
-   "s": 111.98,
-   "e": 112.44
+   "w": "systems",
+   "s": 28.24,
+   "e": 28.68
   },
   {
-   "w": "your",
-   "s": 112.44,
-   "e": 112.56
+   "w": "run",
+   "s": 28.68,
+   "e": 29.08
   },
   {
-   "w": "inner",
-   "s": 112.56,
-   "e": 112.68
+   "w": "in",
+   "s": 29.08,
+   "e": 29.24
   },
   {
-   "w": "clock",
-   "s": 112.68,
-   "e": 112.96
+   "w": "the",
+   "s": 29.24,
+   "e": 29.34
+  },
+  {
+   "w": "background.",
+   "s": 29.34,
+   "e": 29.6
+  },
+  {
+   "w": "One",
+   "s": 30.5,
+   "e": 30.52
   },
   {
    "w": "is",
-   "s": 112.96,
-   "e": 113.16
+   "s": 30.52,
+   "e": 30.66
   },
   {
-   "w": "begging",
-   "s": 113.16,
-   "e": 113.38
+   "w": "a",
+   "s": 30.66,
+   "e": 30.76
   },
   {
-   "w": "for",
-   "s": 113.38,
-   "e": 113.68
+   "w": "clock.",
+   "s": 30.76,
+   "e": 31.0
   },
   {
-   "w": "bed.",
-   "s": 113.68,
-   "e": 113.9
+   "w": "Deep",
+   "s": 31.74,
+   "e": 31.76
   },
   {
-   "w": "By",
-   "s": 114.94,
-   "e": 115.1
-  },
-  {
-   "w": "hour",
-   "s": 115.1,
-   "e": 115.36
-  },
-  {
-   "w": "17,",
-   "s": 115.36,
-   "e": 115.78
+   "w": "in",
+   "s": 31.76,
+   "e": 31.92
   },
   {
    "w": "your",
-   "s": 116.36,
-   "e": 116.5
+   "s": 31.92,
+   "e": 32.04
   },
   {
-   "w": "reactions",
-   "s": 116.5,
+   "w": "brain,",
+   "s": 32.04,
+   "e": 32.34
+  },
+  {
+   "w": "a",
+   "s": 32.68,
+   "e": 32.7
+  },
+  {
+   "w": "cluster",
+   "s": 32.7,
+   "e": 32.96
+  },
+  {
+   "w": "of",
+   "s": 32.96,
+   "e": 33.2
+  },
+  {
+   "w": "about",
+   "s": 33.2,
+   "e": 33.36
+  },
+  {
+   "w": "20",
+   "s": 33.36,
+   "e": 33.62
+  },
+  {
+   "w": ",000",
+   "s": 33.62,
+   "e": 34.1
+  },
+  {
+   "w": "cells",
+   "s": 34.1,
+   "e": 34.4
+  },
+  {
+   "w": "keeps",
+   "s": 34.4,
+   "e": 34.68
+  },
+  {
+   "w": "time,",
+   "s": 34.68,
+   "e": 35.08
+  },
+  {
+   "w": "and",
+   "s": 35.56,
+   "e": 35.64
+  },
+  {
+   "w": "it",
+   "s": 35.64,
+   "e": 35.74
+  },
+  {
+   "w": "uses",
+   "s": 35.74,
+   "e": 35.94
+  },
+  {
+   "w": "light",
+   "s": 35.94,
+   "e": 36.26
+  },
+  {
+   "w": "from",
+   "s": 36.26,
+   "e": 36.5
+  },
+  {
+   "w": "your",
+   "s": 36.5,
+   "e": 36.62
+  },
+  {
+   "w": "eyes",
+   "s": 36.62,
+   "e": 36.88
+  },
+  {
+   "w": "to",
+   "s": 36.88,
+   "e": 37.08
+  },
+  {
+   "w": "set",
+   "s": 37.08,
+   "e": 37.3
+  },
+  {
+   "w": "it.",
+   "s": 37.3,
+   "e": 37.44
+  },
+  {
+   "w": "When",
+   "s": 37.82,
+   "e": 37.9
+  },
+  {
+   "w": "it",
+   "s": 37.9,
+   "e": 38.0
+  },
+  {
+   "w": "gets",
+   "s": 38.0,
+   "e": 38.14
+  },
+  {
+   "w": "dark,",
+   "s": 38.14,
+   "e": 38.48
+  },
+  {
+   "w": "it",
+   "s": 38.7,
+   "e": 38.82
+  },
+  {
+   "w": "tells",
+   "s": 38.82,
+   "e": 39.02
+  },
+  {
+   "w": "your",
+   "s": 39.02,
+   "e": 39.22
+  },
+  {
+   "w": "body",
+   "s": 39.22,
+   "e": 39.46
+  },
+  {
+   "w": "to",
+   "s": 39.46,
+   "e": 39.62
+  },
+  {
+   "w": "release",
+   "s": 39.62,
+   "e": 39.9
+  },
+  {
+   "w": "melatonin,",
+   "s": 39.9,
+   "e": 40.34
+  },
+  {
+   "w": "the",
+   "s": 40.82,
+   "e": 40.92
+  },
+  {
+   "w": "hormone",
+   "s": 40.92,
+   "e": 41.1
+  },
+  {
+   "w": "that",
+   "s": 41.1,
+   "e": 41.42
+  },
+  {
+   "w": "says,",
+   "s": 41.42,
+   "e": 41.66
+  },
+  {
+   "w": "it's",
+   "s": 42.3,
+   "e": 42.4
+  },
+  {
+   "w": "night.",
+   "s": 42.4,
+   "e": 42.56
+  },
+  {
+   "w": "The",
+   "s": 43.76,
+   "e": 43.78
+  },
+  {
+   "w": "second",
+   "s": 43.78,
+   "e": 44.04
+  },
+  {
+   "w": "system",
+   "s": 44.04,
+   "e": 44.48
+  },
+  {
+   "w": "is",
+   "s": 44.48,
+   "e": 44.64
+  },
+  {
+   "w": "pressure.",
+   "s": 44.64,
+   "e": 44.86
+  },
+  {
+   "w": "Every",
+   "s": 45.74,
+   "e": 45.86
+  },
+  {
+   "w": "hour",
+   "s": 45.86,
+   "e": 46.18
+  },
+  {
+   "w": "you're",
+   "s": 46.18,
+   "e": 46.44
+  },
+  {
+   "w": "awake,",
+   "s": 46.44,
+   "e": 46.7
+  },
+  {
+   "w": "a",
+   "s": 47.04,
+   "e": 47.12
+  },
+  {
+   "w": "molecule",
+   "s": 47.12,
+   "e": 47.38
+  },
+  {
+   "w": "called",
+   "s": 47.38,
+   "e": 47.94
+  },
+  {
+   "w": "adenosine",
+   "s": 47.94,
+   "e": 48.64
+  },
+  {
+   "w": "builds",
+   "s": 48.64,
+   "e": 48.86
+  },
+  {
+   "w": "up",
+   "s": 48.86,
+   "e": 49.14
+  },
+  {
+   "w": "in",
+   "s": 49.14,
+   "e": 49.28
+  },
+  {
+   "w": "your",
+   "s": 49.28,
+   "e": 49.38
+  },
+  {
+   "w": "brain,",
+   "s": 49.38,
+   "e": 49.66
+  },
+  {
+   "w": "like",
+   "s": 50.08,
+   "e": 50.3
+  },
+  {
+   "w": "sand",
+   "s": 50.3,
+   "e": 50.6
+  },
+  {
+   "w": "piling",
+   "s": 50.6,
+   "e": 50.96
+  },
+  {
+   "w": "up",
+   "s": 50.96,
+   "e": 51.28
+  },
+  {
+   "w": "in",
+   "s": 51.28,
+   "e": 51.4
+  },
+  {
+   "w": "an",
+   "s": 51.4,
+   "e": 51.48
+  },
+  {
+   "w": "hourglass.",
+   "s": 51.48,
+   "e": 51.86
+  },
+  {
+   "w": "The",
+   "s": 52.5,
+   "e": 52.6
+  },
+  {
+   "w": "more",
+   "s": 52.6,
+   "e": 52.72
+  },
+  {
+   "w": "sand,",
+   "s": 52.72,
+   "e": 53.08
+  },
+  {
+   "w": "the",
+   "s": 53.34,
+   "e": 53.36
+  },
+  {
+   "w": "sleepier",
+   "s": 53.36,
+   "e": 53.78
+  },
+  {
+   "w": "you",
+   "s": 53.78,
+   "e": 53.94
+  },
+  {
+   "w": "feel.",
+   "s": 53.94,
+   "e": 54.2
+  },
+  {
+   "w": "Sleep",
+   "s": 54.66,
+   "e": 54.84
+  },
+  {
+   "w": "empties",
+   "s": 54.84,
+   "e": 55.4
+  },
+  {
+   "w": "the",
+   "s": 55.4,
+   "e": 55.54
+  },
+  {
+   "w": "hourglass.",
+   "s": 55.54,
+   "e": 55.94
+  },
+  {
+   "w": "So",
+   "s": 55.94,
+   "e": 56.86
+  },
+  {
+   "w": "what",
+   "s": 56.86,
+   "e": 57.4
+  },
+  {
+   "w": "does",
+   "s": 57.4,
+   "e": 57.54
+  },
+  {
+   "w": "coffee",
+   "s": 57.54,
+   "e": 57.74
+  },
+  {
+   "w": "actually",
+   "s": 57.74,
+   "e": 58.36
+  },
+  {
+   "w": "do?",
+   "s": 58.36,
+   "e": 58.64
+  },
+  {
+   "w": "Coffee",
+   "s": 59.2,
+   "e": 59.5
+  },
+  {
+   "w": "doesn't",
+   "s": 59.5,
+   "e": 59.86
+  },
+  {
+   "w": "remove",
+   "s": 59.86,
+   "e": 60.12
+  },
+  {
+   "w": "the",
+   "s": 60.12,
+   "e": 60.4
+  },
+  {
+   "w": "sand.",
+   "s": 60.4,
+   "e": 60.66
+  },
+  {
+   "w": "Caffeine",
+   "s": 61.24,
+   "e": 61.66
+  },
+  {
+   "w": "just",
+   "s": 61.66,
+   "e": 61.88
+  },
+  {
+   "w": "blocks",
+   "s": 61.88,
+   "e": 62.1
+  },
+  {
+   "w": "adenosine",
+   "s": 62.1,
+   "e": 62.86
+  },
+  {
+   "w": "from",
+   "s": 62.86,
+   "e": 63.04
+  },
+  {
+   "w": "docking",
+   "s": 63.04,
+   "e": 63.3
+  },
+  {
+   "w": "so",
+   "s": 63.3,
+   "e": 63.8
+  },
+  {
+   "w": "you",
+   "s": 63.8,
+   "e": 63.94
+  },
+  {
+   "w": "don't",
+   "s": 63.94,
+   "e": 64.14
+  },
+  {
+   "w": "feel",
+   "s": 64.14,
+   "e": 64.32
+  },
+  {
+   "w": "it.",
+   "s": 64.32,
+   "e": 64.52
+  },
+  {
+   "w": "The",
+   "s": 65.06,
+   "e": 65.08
+  },
+  {
+   "w": "pile",
+   "s": 65.08,
+   "e": 65.28
+  },
+  {
+   "w": "keeps",
+   "s": 65.28,
+   "e": 65.58
+  },
+  {
+   "w": "growing",
+   "s": 65.58,
+   "e": 65.9
+  },
+  {
+   "w": "anyway,",
+   "s": 65.9,
+   "e": 66.32
+  },
+  {
+   "w": "and",
+   "s": 66.82,
+   "e": 66.96
+  },
+  {
+   "w": "it",
+   "s": 66.96,
+   "e": 67.08
+  },
+  {
+   "w": "lingers.",
+   "s": 67.08,
+   "e": 67.46
+  },
+  {
+   "w": "About",
+   "s": 68.04,
+   "e": 68.06
+  },
+  {
+   "w": "half",
+   "s": 68.06,
+   "e": 68.28
+  },
+  {
+   "w": "the",
+   "s": 68.28,
+   "e": 68.52
+  },
+  {
+   "w": "caffeine",
+   "s": 68.52,
+   "e": 68.8
+  },
+  {
+   "w": "from",
+   "s": 68.8,
+   "e": 69.12
+  },
+  {
+   "w": "a",
+   "s": 69.12,
+   "e": 69.18
+  },
+  {
+   "w": "cup",
+   "s": 69.18,
+   "e": 69.34
+  },
+  {
+   "w": "of",
+   "s": 69.34,
+   "e": 69.44
+  },
+  {
+   "w": "coffee",
+   "s": 69.44,
+   "e": 69.74
+  },
+  {
+   "w": "is",
+   "s": 69.74,
+   "e": 70.14
+  },
+  {
+   "w": "still",
+   "s": 70.14,
+   "e": 70.36
+  },
+  {
+   "w": "in",
+   "s": 70.36,
+   "e": 70.52
+  },
+  {
+   "w": "your",
+   "s": 70.52,
+   "e": 70.62
+  },
+  {
+   "w": "blood",
+   "s": 70.62,
+   "e": 70.84
+  },
+  {
+   "w": "five",
+   "s": 70.84,
+   "e": 71.22
+  },
+  {
+   "w": "or",
+   "s": 71.22,
+   "e": 71.38
+  },
+  {
+   "w": "six",
+   "s": 71.38,
+   "e": 71.58
+  },
+  {
+   "w": "hours",
+   "s": 71.58,
+   "e": 71.84
+  },
+  {
+   "w": "later.",
+   "s": 71.84,
+   "e": 72.22
+  },
+  {
+   "w": "That",
+   "s": 72.84,
+   "e": 72.86
+  },
+  {
+   "w": "afternoon",
+   "s": 72.86,
+   "e": 73.2
+  },
+  {
+   "w": "coffee",
+   "s": 73.2,
+   "e": 73.6
+  },
+  {
+   "w": "is",
+   "s": 73.6,
+   "e": 73.88
+  },
+  {
+   "w": "still",
+   "s": 73.88,
+   "e": 74.08
+  },
+  {
+   "w": "working",
+   "s": 74.08,
+   "e": 74.38
+  },
+  {
+   "w": "at",
+   "s": 74.38,
+   "e": 74.6
+  },
+  {
+   "w": "bedtime.",
+   "s": 74.6,
+   "e": 75.04
+  },
+  {
+   "w": "Is",
+   "s": 76.32,
+   "e": 76.9
+  },
+  {
+   "w": "it",
+   "s": 76.9,
+   "e": 76.98
+  },
+  {
+   "w": "just",
+   "s": 76.98,
+   "e": 77.12
+  },
+  {
+   "w": "us?",
+   "s": 77.12,
+   "e": 77.34
+  },
+  {
+   "w": "Do",
+   "s": 77.74,
+   "e": 77.78
+  },
+  {
+   "w": "animals",
+   "s": 77.78,
+   "e": 78.08
+  },
+  {
+   "w": "sleep",
+   "s": 78.08,
+   "e": 78.42
+  },
+  {
+   "w": "too?",
+   "s": 78.42,
+   "e": 78.7
+  },
+  {
+   "w": "Almost",
+   "s": 79.28,
+   "e": 79.62
+  },
+  {
+   "w": "every",
+   "s": 79.62,
+   "e": 79.94
+  },
+  {
+   "w": "animal",
+   "s": 79.94,
+   "e": 80.38
+  },
+  {
+   "w": "scientists",
+   "s": 80.38,
+   "e": 80.82
+  },
+  {
+   "w": "have",
+   "s": 80.82,
+   "e": 81.52
+  },
+  {
+   "w": "studied",
+   "s": 81.52,
+   "e": 81.82
+  },
+  {
+   "w": "closely",
+   "s": 81.82,
+   "e": 82.14
+  },
+  {
+   "w": "sleeps",
+   "s": 82.14,
+   "e": 82.56
+  },
+  {
+   "w": "in",
+   "s": 82.56,
+   "e": 83.08
+  },
+  {
+   "w": "some",
+   "s": 83.08,
+   "e": 83.28
+  },
+  {
+   "w": "way.",
+   "s": 83.28,
+   "e": 83.56
+  },
+  {
+   "w": "Dolphins",
+   "s": 84.16,
+   "e": 84.64
+  },
+  {
+   "w": "have",
+   "s": 84.64,
+   "e": 85.12
+  },
+  {
+   "w": "to",
+   "s": 85.12,
+   "e": 85.26
+  },
+  {
+   "w": "keep",
+   "s": 85.26,
+   "e": 85.42
+  },
+  {
+   "w": "swimming",
+   "s": 85.42,
+   "e": 85.7
+  },
+  {
+   "w": "to",
+   "s": 85.7,
+   "e": 85.94
+  },
+  {
+   "w": "breathe,",
+   "s": 85.94,
+   "e": 86.18
+  },
+  {
+   "w": "so",
+   "s": 86.76,
+   "e": 86.86
+  },
+  {
+   "w": "they",
+   "s": 86.86,
+   "e": 86.98
+  },
+  {
+   "w": "sleep",
+   "s": 86.98,
+   "e": 87.24
+  },
+  {
+   "w": "with",
+   "s": 87.24,
+   "e": 87.48
+  },
+  {
+   "w": "one",
+   "s": 87.48,
+   "e": 87.7
+  },
+  {
+   "w": "half",
+   "s": 87.7,
+   "e": 87.94
+  },
+  {
+   "w": "of",
+   "s": 87.94,
+   "e": 88.08
+  },
+  {
+   "w": "the",
+   "s": 88.08,
+   "e": 88.18
+  },
+  {
+   "w": "brain",
+   "s": 88.18,
+   "e": 88.4
+  },
+  {
+   "w": "at",
+   "s": 88.4,
+   "e": 88.58
+  },
+  {
+   "w": "a",
+   "s": 88.58,
+   "e": 88.64
+  },
+  {
+   "w": "time",
+   "s": 88.64,
+   "e": 89.0
+  },
+  {
+   "w": "and",
+   "s": 89.0,
+   "e": 89.38
+  },
+  {
+   "w": "keep",
+   "s": 89.38,
+   "e": 89.58
+  },
+  {
+   "w": "one",
+   "s": 89.58,
+   "e": 89.82
+  },
+  {
+   "w": "eye",
+   "s": 89.82,
+   "e": 89.98
+  },
+  {
+   "w": "open.",
+   "s": 89.98,
+   "e": 90.4
+  },
+  {
+   "w": "And",
+   "s": 91.42,
+   "e": 91.48
+  },
+  {
+   "w": "birds",
+   "s": 91.48,
+   "e": 91.72
+  },
+  {
+   "w": "that",
+   "s": 91.72,
+   "e": 92.04
+  },
+  {
+   "w": "fly",
+   "s": 92.04,
+   "e": 92.22
+  },
+  {
+   "w": "for",
+   "s": 92.22,
+   "e": 92.48
+  },
+  {
+   "w": "weeks",
+   "s": 92.48,
+   "e": 92.7
+  },
+  {
+   "w": "without",
+   "s": 92.7,
+   "e": 92.94
+  },
+  {
+   "w": "landing.",
+   "s": 92.94,
+   "e": 93.48
+  },
+  {
+   "w": "Frigate",
+   "s": 94.06,
+   "e": 94.34
+  },
+  {
+   "w": "birds",
+   "s": 94.34,
+   "e": 94.62
+  },
+  {
+   "w": "do",
+   "s": 94.62,
+   "e": 94.92
+  },
+  {
+   "w": "exactly",
+   "s": 94.92,
+   "e": 95.2
+  },
+  {
+   "w": "that.",
+   "s": 95.2,
+   "e": 95.7
+  },
+  {
+   "w": "Researchers",
+   "s": 96.14,
+   "e": 96.34
+  },
+  {
+   "w": "found",
+   "s": 96.34,
+   "e": 96.94
+  },
+  {
+   "w": "that",
+   "s": 96.94,
+   "e": 97.12
+  },
+  {
+   "w": "they",
+   "s": 97.12,
+   "e": 97.24
+  },
+  {
+   "w": "sleep",
+   "s": 97.24,
+   "e": 97.48
+  },
+  {
+   "w": "in",
+   "s": 97.48,
+   "e": 97.7
+  },
+  {
+   "w": "the",
+   "s": 97.7,
+   "e": 97.8
+  },
+  {
+   "w": "air",
+   "s": 97.8,
+   "e": 98.04
+  },
+  {
+   "w": "in",
+   "s": 98.04,
+   "e": 98.32
+  },
+  {
+   "w": "bursts",
+   "s": 98.32,
+   "e": 98.58
+  },
+  {
+   "w": "of",
+   "s": 98.58,
+   "e": 98.86
+  },
+  {
+   "w": "a",
+   "s": 98.86,
+   "e": 98.92
+  },
+  {
+   "w": "few",
+   "s": 98.92,
+   "e": 99.08
+  },
+  {
+   "w": "seconds,",
+   "s": 99.08,
+   "e": 99.4
+  },
+  {
+   "w": "about",
+   "s": 99.74,
+   "e": 99.98
+  },
+  {
+   "w": "40",
+   "s": 99.98,
+   "e": 100.38
+  },
+  {
+   "w": "minutes",
+   "s": 100.38,
+   "e": 100.64
+  },
+  {
+   "w": "a",
+   "s": 100.64,
+   "e": 100.82
+  },
+  {
+   "w": "day.",
+   "s": 100.82,
+   "e": 101.02
+  },
+  {
+   "w": "Back",
+   "s": 101.62,
+   "e": 101.72
+  },
+  {
+   "w": "on",
+   "s": 101.72,
+   "e": 101.88
+  },
+  {
+   "w": "land,",
+   "s": 101.88,
+   "e": 102.14
+  },
+  {
+   "w": "they",
+   "s": 102.32,
+   "e": 102.44
+  },
+  {
+   "w": "sleep",
+   "s": 102.44,
+   "e": 102.64
+  },
+  {
+   "w": "for",
+   "s": 102.64,
+   "e": 102.9
+  },
+  {
+   "w": "12",
+   "s": 102.9,
+   "e": 103.16
+  },
+  {
+   "w": "hours.",
+   "s": 103.16,
+   "e": 103.44
+  },
+  {
+   "w": "Even",
+   "s": 104.02,
+   "e": 104.2
+  },
+  {
+   "w": "upside",
+   "s": 104.2,
+   "e": 104.42
+  },
+  {
+   "w": "down",
+   "s": 104.42,
+   "e": 104.9
+  },
+  {
+   "w": "jellyfish,",
+   "s": 104.9,
+   "e": 105.42
+  },
+  {
+   "w": "which",
+   "s": 105.72,
+   "e": 105.9
+  },
+  {
+   "w": "don't",
+   "s": 105.9,
+   "e": 106.2
+  },
+  {
+   "w": "have",
+   "s": 106.2,
+   "e": 106.3
+  },
+  {
+   "w": "a",
+   "s": 106.3,
+   "e": 106.36
+  },
+  {
+   "w": "brain",
+   "s": 106.36,
+   "e": 106.58
+  },
+  {
+   "w": "at",
+   "s": 106.58,
+   "e": 106.78
+  },
+  {
+   "w": "all,",
+   "s": 106.78,
+   "e": 106.94
+  },
+  {
+   "w": "have",
+   "s": 107.28,
+   "e": 107.46
+  },
+  {
+   "w": "a",
+   "s": 107.46,
+   "e": 107.54
+  },
+  {
+   "w": "sleep",
+   "s": 107.54,
+   "e": 107.78
+  },
+  {
+   "w": "-like",
+   "s": 107.78,
+   "e": 108.0
+  },
+  {
+   "w": "state",
+   "s": 108.0,
+   "e": 108.28
+  },
+  {
+   "w": "at",
+   "s": 108.28,
+   "e": 108.54
+  },
+  {
+   "w": "night.",
+   "s": 108.54,
+   "e": 108.76
+  },
+  {
+   "w": "Evolution",
+   "s": 109.68,
+   "e": 110.2
+  },
+  {
+   "w": "found",
+   "s": 110.2,
+   "e": 110.58
+  },
+  {
+   "w": "ways",
+   "s": 110.58,
+   "e": 110.88
+  },
+  {
+   "w": "to",
+   "s": 110.88,
+   "e": 111.08
+  },
+  {
+   "w": "sleep",
+   "s": 111.08,
+   "e": 111.36
+  },
+  {
+   "w": "while",
+   "s": 111.36,
+   "e": 111.7
+  },
+  {
+   "w": "swimming",
+   "s": 111.7,
+   "e": 112.0
+  },
+  {
+   "w": "and",
+   "s": 112.0,
+   "e": 112.34
+  },
+  {
+   "w": "flying.",
+   "s": 112.34,
+   "e": 112.66
+  },
+  {
+   "w": "It",
+   "s": 113.38,
+   "e": 113.4
+  },
+  {
+   "w": "never",
+   "s": 113.4,
+   "e": 113.56
+  },
+  {
+   "w": "found",
+   "s": 113.56,
+   "e": 113.9
+  },
+  {
+   "w": "a",
+   "s": 113.9,
+   "e": 114.04
+  },
+  {
+   "w": "way",
+   "s": 114.04,
+   "e": 114.18
+  },
+  {
+   "w": "to",
+   "s": 114.18,
+   "e": 114.34
+  },
+  {
+   "w": "skip",
+   "s": 114.34,
+   "e": 114.6
+  },
+  {
+   "w": "it.",
+   "s": 114.6,
+   "e": 114.78
+  },
+  {
+   "w": "So",
+   "s": 115.66,
+   "e": 115.82
+  },
+  {
+   "w": "what",
+   "s": 115.82,
+   "e": 115.98
+  },
+  {
+   "w": "happens",
+   "s": 115.98,
+   "e": 116.32
+  },
+  {
+   "w": "on",
+   "s": 116.32,
+   "e": 116.54
+  },
+  {
+   "w": "that",
+   "s": 116.54,
+   "e": 116.7
+  },
+  {
+   "w": "first",
+   "s": 116.7,
    "e": 116.94
   },
   {
-   "w": "are",
+   "w": "night?",
    "s": 116.94,
    "e": 117.22
   },
   {
-   "w": "as",
-   "s": 117.22,
-   "e": 117.32
+   "w": "Hour",
+   "s": 118.92,
+   "e": 119.28
   },
   {
-   "w": "slow",
-   "s": 117.32,
-   "e": 117.58
-  },
-  {
-   "w": "as",
-   "s": 117.58,
-   "e": 117.88
-  },
-  {
-   "w": "if",
-   "s": 117.88,
-   "e": 118.0
-  },
-  {
-   "w": "you'd",
-   "s": 118.0,
-   "e": 118.14
-  },
-  {
-   "w": "had",
-   "s": 118.14,
-   "e": 118.28
-  },
-  {
-   "w": "a",
-   "s": 118.28,
-   "e": 118.38
-  },
-  {
-   "w": "couple",
-   "s": 118.38,
-   "e": 118.64
-  },
-  {
-   "w": "of",
-   "s": 118.64,
-   "e": 118.74
-  },
-  {
-   "w": "drinks.",
-   "s": 118.74,
-   "e": 118.94
-  },
-  {
-   "w": "Around",
-   "s": 120.16,
-   "e": 120.36
-  },
-  {
-   "w": "four",
-   "s": 120.36,
-   "e": 120.62
-  },
-  {
-   "w": "in",
-   "s": 120.62,
-   "e": 120.76
-  },
-  {
-   "w": "the",
-   "s": 120.76,
-   "e": 120.84
-  },
-  {
-   "w": "morning,",
-   "s": 120.84,
-   "e": 121.1
-  },
-  {
-   "w": "your",
-   "s": 121.4,
-   "e": 121.5
-  },
-  {
-   "w": "body",
-   "s": 121.5,
-   "e": 121.7
-  },
-  {
-   "w": "temperature",
-   "s": 121.7,
-   "e": 122.1
-  },
-  {
-   "w": "and",
-   "s": 122.1,
-   "e": 122.52
-  },
-  {
-   "w": "alertness",
-   "s": 122.52,
-   "e": 123.0
-  },
-  {
-   "w": "hit",
-   "s": 123.0,
-   "e": 123.36
-  },
-  {
-   "w": "their",
-   "s": 123.36,
-   "e": 123.62
-  },
-  {
-   "w": "lowest",
-   "s": 123.62,
-   "e": 123.9
-  },
-  {
-   "w": "point.",
-   "s": 123.9,
-   "e": 124.24
-  },
-  {
-   "w": "In",
-   "s": 125.02,
-   "e": 125.1
-  },
-  {
-   "w": "the",
-   "s": 125.1,
-   "e": 125.2
-  },
-  {
-   "w": "United",
-   "s": 125.2,
-   "e": 125.42
-  },
-  {
-   "w": "States",
-   "s": 125.42,
-   "e": 125.78
-  },
-  {
-   "w": "alone,",
-   "s": 125.78,
-   "e": 126.12
-  },
-  {
-   "w": "police",
-   "s": 126.58,
-   "e": 126.84
-  },
-  {
-   "w": "reports",
-   "s": 126.84,
-   "e": 127.26
-  },
-  {
-   "w": "link",
-   "s": 127.26,
-   "e": 127.6
-  },
-  {
-   "w": "drowsy",
-   "s": 127.6,
-   "e": 128.14
-  },
-  {
-   "w": "drivers",
-   "s": 128.14,
-   "e": 128.42
-  },
-  {
-   "w": "to",
-   "s": 128.42,
-   "e": 128.88
-  },
-  {
-   "w": "around",
-   "s": 128.88,
-   "e": 129.1
-  },
-  {
-   "w": "90",
-   "s": 129.1,
-   "e": 129.44
-  },
-  {
-   "w": ",000",
-   "s": 129.44,
-   "e": 129.9
-  },
-  {
-   "w": "crashes",
-   "s": 129.9,
-   "e": 130.1
-  },
-  {
-   "w": "a",
-   "s": 130.1,
-   "e": 130.42
-  },
-  {
-   "w": "year.",
-   "s": 130.42,
-   "e": 130.66
-  },
-  {
-   "w": "Then",
-   "s": 131.12,
-   "e": 131.14
-  },
-  {
-   "w": "the",
-   "s": 131.14,
-   "e": 131.24
-  },
-  {
-   "w": "sun",
-   "s": 131.24,
-   "e": 131.42
-  },
-  {
-   "w": "comes",
-   "s": 131.42,
-   "e": 131.7
-  },
-  {
-   "w": "up",
-   "s": 131.7,
-   "e": 131.96
-  },
-  {
-   "w": "and",
-   "s": 131.96,
-   "e": 132.26
-  },
-  {
-   "w": "your",
-   "s": 132.26,
-   "e": 132.38
-  },
-  {
-   "w": "inner",
-   "s": 132.38,
-   "e": 132.5
-  },
-  {
-   "w": "clock",
-   "s": 132.5,
-   "e": 132.78
-  },
-  {
-   "w": "hands",
-   "s": 132.78,
-   "e": 133.08
-  },
-  {
-   "w": "you",
-   "s": 133.08,
-   "e": 133.3
-  },
-  {
-   "w": "a",
-   "s": 133.3,
-   "e": 133.38
-  },
-  {
-   "w": "second",
-   "s": 133.38,
-   "e": 133.68
-  },
-  {
-   "w": "wind.",
-   "s": 133.68,
-   "e": 133.9
-  },
-  {
-   "w": "You",
-   "s": 133.9,
-   "e": 134.6
-  },
-  {
-   "w": "feel",
-   "s": 134.6,
-   "e": 134.78
-  },
-  {
-   "w": "almost",
-   "s": 134.78,
-   "e": 135.1
-  },
-  {
-   "w": "normal,",
-   "s": 135.1,
-   "e": 135.46
-  },
-  {
-   "w": "but",
-   "s": 135.98,
-   "e": 136.14
-  },
-  {
-   "w": "the",
-   "s": 136.14,
-   "e": 136.24
-  },
-  {
-   "w": "sand",
-   "s": 136.24,
-   "e": 136.48
-  },
-  {
-   "w": "in",
-   "s": 136.48,
-   "e": 136.7
-  },
-  {
-   "w": "the",
-   "s": 136.7,
-   "e": 136.8
-  },
-  {
-   "w": "hourglass",
-   "s": 136.8,
-   "e": 137.2
-  },
-  {
-   "w": "never",
-   "s": 137.2,
-   "e": 137.54
-  },
-  {
-   "w": "stopped",
-   "s": 137.54,
-   "e": 137.92
-  },
-  {
-   "w": "piling",
-   "s": 137.92,
-   "e": 138.26
-  },
-  {
-   "w": "up.",
-   "s": 138.26,
-   "e": 138.62
-  },
-  {
-   "w": "At",
-   "s": 139.14,
-   "e": 139.22
-  },
-  {
-   "w": "24,",
-   "s": 139.22,
-   "e": 139.58
-  },
-  {
-   "w": "you're",
-   "s": 140.16,
-   "e": 140.22
-  },
-  {
-   "w": "driving",
-   "s": 140.22,
-   "e": 140.58
-  },
-  {
-   "w": "like",
-   "s": 140.58,
-   "e": 140.88
-  },
-  {
-   "w": "you're",
-   "s": 140.88,
-   "e": 141.12
-  },
-  {
-   "w": "legally",
-   "s": 141.12,
-   "e": 141.3
-  },
-  {
-   "w": "drunk.",
-   "s": 141.3,
-   "e": 141.7
-  },
-  {
-   "w": "So",
-   "s": 144.06,
-   "e": 144.34
-  },
-  {
-   "w": "what",
-   "s": 144.34,
-   "e": 144.52
-  },
-  {
-   "w": "are",
-   "s": 144.52,
-   "e": 144.62
-  },
-  {
-   "w": "you",
-   "s": 144.62,
-   "e": 144.74
-  },
-  {
-   "w": "missing?",
-   "s": 144.74,
-   "e": 144.96
-  },
-  {
-   "w": "Sleep",
-   "s": 145.5,
-   "e": 145.68
-  },
-  {
-   "w": "isn't",
-   "s": 145.68,
-   "e": 146.06
-  },
-  {
-   "w": "your",
-   "s": 146.06,
-   "e": 146.16
-  },
-  {
-   "w": "brain",
-   "s": 146.16,
-   "e": 146.44
-  },
-  {
-   "w": "switching",
-   "s": 146.44,
-   "e": 146.74
-  },
-  {
-   "w": "off,",
-   "s": 146.74,
-   "e": 147.12
+   "w": "16,",
+   "s": 119.28,
+   "e": 119.68
   },
   {
    "w": "it's",
-   "s": 147.48,
-   "e": 147.68
+   "s": 120.14,
+   "e": 120.3
   },
   {
-   "w": "your",
-   "s": 147.68,
-   "e": 147.76
-  },
-  {
-   "w": "brain",
-   "s": 147.76,
-   "e": 148.02
-  },
-  {
-   "w": "switching",
-   "s": 148.02,
-   "e": 148.34
-  },
-  {
-   "w": "to",
-   "s": 148.34,
-   "e": 148.64
-  },
-  {
-   "w": "a",
-   "s": 148.64,
-   "e": 148.7
-  },
-  {
-   "w": "different",
-   "s": 148.7,
-   "e": 148.92
-  },
-  {
-   "w": "job.",
-   "s": 148.92,
-   "e": 149.28
-  },
-  {
-   "w": "Every",
-   "s": 150.28,
-   "e": 150.4
-  },
-  {
-   "w": "night",
-   "s": 150.4,
-   "e": 150.72
-  },
-  {
-   "w": "you",
-   "s": 150.72,
-   "e": 150.92
-  },
-  {
-   "w": "go",
-   "s": 150.92,
-   "e": 151.04
-  },
-  {
-   "w": "through",
-   "s": 151.04,
-   "e": 151.24
-  },
-  {
-   "w": "about",
-   "s": 151.24,
-   "e": 151.48
-  },
-  {
-   "w": "five",
-   "s": 151.48,
-   "e": 151.86
-  },
-  {
-   "w": "cycles,",
-   "s": 151.86,
-   "e": 152.4
-  },
-  {
-   "w": "each",
-   "s": 152.7,
-   "e": 152.9
-  },
-  {
-   "w": "roughly",
-   "s": 152.9,
-   "e": 153.18
-  },
-  {
-   "w": "90",
-   "s": 153.18,
-   "e": 153.52
-  },
-  {
-   "w": "minutes",
-   "s": 153.52,
-   "e": 153.78
-  },
-  {
-   "w": "long,",
-   "s": 153.78,
-   "e": 154.08
-  },
-  {
-   "w": "light",
-   "s": 154.6,
-   "e": 154.86
-  },
-  {
-   "w": "sleep,",
-   "s": 154.86,
-   "e": 155.16
-  },
-  {
-   "w": "deep",
-   "s": 155.5,
-   "e": 155.58
-  },
-  {
-   "w": "sleep,",
-   "s": 155.58,
-   "e": 155.86
+   "w": "midnight,",
+   "s": 120.3,
+   "e": 120.46
   },
   {
    "w": "and",
-   "s": 156.16,
-   "e": 156.3
-  },
-  {
-   "w": "then",
-   "s": 156.3,
-   "e": 156.42
-  },
-  {
-   "w": "dreaming",
-   "s": 156.42,
-   "e": 156.66
-  },
-  {
-   "w": "sleep,",
-   "s": 156.66,
-   "e": 157.06
-  },
-  {
-   "w": "called",
-   "s": 157.38,
-   "e": 157.58
-  },
-  {
-   "w": "REM.",
-   "s": 157.58,
-   "e": 157.9
-  },
-  {
-   "w": "REM",
-   "s": 157.9,
-   "e": 158.22
-  },
-  {
-   "w": "is",
-   "s": 158.22,
-   "e": 159.38
-  },
-  {
-   "w": "when",
-   "s": 159.38,
-   "e": 159.54
-  },
-  {
-   "w": "most",
-   "s": 159.54,
-   "e": 159.78
-  },
-  {
-   "w": "vivid",
-   "s": 159.78,
-   "e": 160.04
-  },
-  {
-   "w": "dreams",
-   "s": 160.04,
-   "e": 160.4
-  },
-  {
-   "w": "happen.",
-   "s": 160.4,
-   "e": 160.84
-  },
-  {
-   "w": "Your",
-   "s": 161.48,
-   "e": 161.56
-  },
-  {
-   "w": "brain",
-   "s": 161.56,
-   "e": 161.82
-  },
-  {
-   "w": "is",
-   "s": 161.82,
-   "e": 161.98
-  },
-  {
-   "w": "almost",
-   "s": 161.98,
-   "e": 162.2
-  },
-  {
-   "w": "as",
-   "s": 162.2,
-   "e": 162.44
-  },
-  {
-   "w": "active",
-   "s": 162.44,
-   "e": 162.78
-  },
-  {
-   "w": "as",
-   "s": 162.78,
-   "e": 162.92
-  },
-  {
-   "w": "when",
-   "s": 162.92,
-   "e": 163.08
-  },
-  {
-   "w": "you're",
-   "s": 163.08,
-   "e": 163.3
-  },
-  {
-   "w": "awake,",
-   "s": 163.3,
-   "e": 163.52
-  },
-  {
-   "w": "but",
-   "s": 163.9,
-   "e": 164.0
+   "s": 121.06,
+   "e": 121.18
   },
   {
    "w": "your",
-   "s": 164.0,
-   "e": 164.12
+   "s": 121.18,
+   "e": 121.28
   },
   {
-   "w": "muscles",
-   "s": 164.12,
-   "e": 164.38
+   "w": "inner",
+   "s": 121.28,
+   "e": 121.4
+  },
+  {
+   "w": "clock",
+   "s": 121.4,
+   "e": 121.68
+  },
+  {
+   "w": "is",
+   "s": 121.68,
+   "e": 121.88
+  },
+  {
+   "w": "begging",
+   "s": 121.88,
+   "e": 122.12
+  },
+  {
+   "w": "for",
+   "s": 122.12,
+   "e": 122.42
+  },
+  {
+   "w": "bed.",
+   "s": 122.42,
+   "e": 122.66
+  },
+  {
+   "w": "By",
+   "s": 123.68,
+   "e": 123.86
+  },
+  {
+   "w": "hour",
+   "s": 123.86,
+   "e": 124.1
+  },
+  {
+   "w": "17,",
+   "s": 124.1,
+   "e": 124.52
+  },
+  {
+   "w": "your",
+   "s": 125.12,
+   "e": 125.24
+  },
+  {
+   "w": "reactions",
+   "s": 125.24,
+   "e": 125.7
   },
   {
    "w": "are",
-   "s": 164.38,
-   "e": 164.56
+   "s": 125.7,
+   "e": 125.98
   },
   {
-   "w": "switched",
-   "s": 164.56,
-   "e": 164.74
+   "w": "as",
+   "s": 125.98,
+   "e": 126.08
   },
   {
-   "w": "off,",
-   "s": 164.74,
-   "e": 165.04
+   "w": "slow",
+   "s": 126.08,
+   "e": 126.34
   },
   {
-   "w": "so",
-   "s": 165.32,
-   "e": 165.5
+   "w": "as",
+   "s": 126.34,
+   "e": 126.62
   },
   {
-   "w": "you",
-   "s": 165.5,
-   "e": 165.62
+   "w": "if",
+   "s": 126.62,
+   "e": 126.76
   },
   {
-   "w": "don't",
-   "s": 165.62,
-   "e": 165.82
+   "w": "you'd",
+   "s": 126.76,
+   "e": 126.92
   },
   {
-   "w": "act",
-   "s": 165.82,
-   "e": 165.92
+   "w": "had",
+   "s": 126.92,
+   "e": 127.04
+  },
+  {
+   "w": "a",
+   "s": 127.04,
+   "e": 127.1
+  },
+  {
+   "w": "couple",
+   "s": 127.1,
+   "e": 127.38
+  },
+  {
+   "w": "of",
+   "s": 127.38,
+   "e": 127.5
+  },
+  {
+   "w": "drinks.",
+   "s": 127.5,
+   "e": 127.72
+  },
+  {
+   "w": "And",
+   "s": 128.92,
+   "e": 129.0
+  },
+  {
+   "w": "the",
+   "s": 129.0,
+   "e": 129.1
+  },
+  {
+   "w": "worst",
+   "s": 129.1,
+   "e": 129.3
+  },
+  {
+   "w": "moment?",
+   "s": 129.3,
+   "e": 129.76
+  },
+  {
+   "w": "Around",
+   "s": 130.36,
+   "e": 130.68
+  },
+  {
+   "w": "four",
+   "s": 130.68,
+   "e": 130.92
+  },
+  {
+   "w": "in",
+   "s": 130.92,
+   "e": 131.06
+  },
+  {
+   "w": "the",
+   "s": 131.06,
+   "e": 131.14
+  },
+  {
+   "w": "morning,",
+   "s": 131.14,
+   "e": 131.4
   },
   {
    "w": "your",
-   "s": 165.92,
-   "e": 166.1
+   "s": 131.68,
+   "e": 131.8
   },
   {
-   "w": "dreams",
-   "s": 166.1,
-   "e": 166.32
+   "w": "body",
+   "s": 131.8,
+   "e": 132.02
   },
   {
-   "w": "out.",
-   "s": 166.32,
-   "e": 166.64
+   "w": "temperature",
+   "s": 132.02,
+   "e": 132.4
   },
   {
-   "w": "Most",
-   "s": 167.22,
+   "w": "and",
+   "s": 132.4,
+   "e": 132.82
+  },
+  {
+   "w": "alertness",
+   "s": 132.82,
+   "e": 133.3
+  },
+  {
+   "w": "hit",
+   "s": 133.3,
+   "e": 133.66
+  },
+  {
+   "w": "their",
+   "s": 133.66,
+   "e": 133.92
+  },
+  {
+   "w": "lowest",
+   "s": 133.92,
+   "e": 134.2
+  },
+  {
+   "w": "point.",
+   "s": 134.2,
+   "e": 134.54
+  },
+  {
+   "w": "In",
+   "s": 134.54,
+   "e": 135.38
+  },
+  {
+   "w": "the",
+   "s": 135.38,
+   "e": 135.5
+  },
+  {
+   "w": "United",
+   "s": 135.5,
+   "e": 135.74
+  },
+  {
+   "w": "States",
+   "s": 135.74,
+   "e": 136.06
+  },
+  {
+   "w": "alone,",
+   "s": 136.06,
+   "e": 136.4
+  },
+  {
+   "w": "police",
+   "s": 136.88,
+   "e": 137.14
+  },
+  {
+   "w": "reports",
+   "s": 137.14,
+   "e": 137.58
+  },
+  {
+   "w": "link",
+   "s": 137.58,
+   "e": 137.9
+  },
+  {
+   "w": "drowsy",
+   "s": 137.9,
+   "e": 138.46
+  },
+  {
+   "w": "drivers",
+   "s": 138.46,
+   "e": 138.72
+  },
+  {
+   "w": "to",
+   "s": 138.72,
+   "e": 139.18
+  },
+  {
+   "w": "around",
+   "s": 139.18,
+   "e": 139.38
+  },
+  {
+   "w": "90",
+   "s": 139.38,
+   "e": 139.76
+  },
+  {
+   "w": ",000",
+   "s": 139.76,
+   "e": 140.2
+  },
+  {
+   "w": "crashes",
+   "s": 140.2,
+   "e": 140.42
+  },
+  {
+   "w": "a",
+   "s": 140.42,
+   "e": 140.7
+  },
+  {
+   "w": "year.",
+   "s": 140.7,
+   "e": 140.98
+  },
+  {
+   "w": "Then",
+   "s": 141.38,
+   "e": 141.44
+  },
+  {
+   "w": "the",
+   "s": 141.44,
+   "e": 141.54
+  },
+  {
+   "w": "sun",
+   "s": 141.54,
+   "e": 141.72
+  },
+  {
+   "w": "comes",
+   "s": 141.72,
+   "e": 142.0
+  },
+  {
+   "w": "up",
+   "s": 142.0,
+   "e": 142.26
+  },
+  {
+   "w": "and",
+   "s": 142.26,
+   "e": 142.56
+  },
+  {
+   "w": "your",
+   "s": 142.56,
+   "e": 142.68
+  },
+  {
+   "w": "inner",
+   "s": 142.68,
+   "e": 142.8
+  },
+  {
+   "w": "clock",
+   "s": 142.8,
+   "e": 143.06
+  },
+  {
+   "w": "hands",
+   "s": 143.06,
+   "e": 143.38
+  },
+  {
+   "w": "you",
+   "s": 143.38,
+   "e": 143.6
+  },
+  {
+   "w": "a",
+   "s": 143.6,
+   "e": 143.66
+  },
+  {
+   "w": "second",
+   "s": 143.66,
+   "e": 143.96
+  },
+  {
+   "w": "wind.",
+   "s": 143.96,
+   "e": 144.2
+  },
+  {
+   "w": "You",
+   "s": 144.74,
+   "e": 144.92
+  },
+  {
+   "w": "feel",
+   "s": 144.92,
+   "e": 145.08
+  },
+  {
+   "w": "almost",
+   "s": 145.08,
+   "e": 145.4
+  },
+  {
+   "w": "normal,",
+   "s": 145.4,
+   "e": 145.76
+  },
+  {
+   "w": "but",
+   "s": 146.28,
+   "e": 146.44
+  },
+  {
+   "w": "the",
+   "s": 146.44,
+   "e": 146.54
+  },
+  {
+   "w": "sand",
+   "s": 146.54,
+   "e": 146.78
+  },
+  {
+   "w": "in",
+   "s": 146.78,
+   "e": 147.0
+  },
+  {
+   "w": "the",
+   "s": 147.0,
+   "e": 147.1
+  },
+  {
+   "w": "hourglass",
+   "s": 147.1,
+   "e": 147.5
+  },
+  {
+   "w": "never",
+   "s": 147.5,
+   "e": 147.86
+  },
+  {
+   "w": "stopped",
+   "s": 147.86,
+   "e": 148.22
+  },
+  {
+   "w": "piling",
+   "s": 148.22,
+   "e": 148.54
+  },
+  {
+   "w": "up.",
+   "s": 148.54,
+   "e": 148.92
+  },
+  {
+   "w": "At",
+   "s": 149.44,
+   "e": 149.52
+  },
+  {
+   "w": "24,",
+   "s": 149.52,
+   "e": 149.9
+  },
+  {
+   "w": "you're",
+   "s": 150.4,
+   "e": 150.52
+  },
+  {
+   "w": "driving",
+   "s": 150.52,
+   "e": 150.88
+  },
+  {
+   "w": "like",
+   "s": 150.88,
+   "e": 151.18
+  },
+  {
+   "w": "you're",
+   "s": 151.18,
+   "e": 151.42
+  },
+  {
+   "w": "legally",
+   "s": 151.42,
+   "e": 151.58
+  },
+  {
+   "w": "drunk.",
+   "s": 151.58,
+   "e": 152.02
+  },
+  {
+   "w": "But",
+   "s": 152.96,
+   "e": 153.2
+  },
+  {
+   "w": "what",
+   "s": 153.2,
+   "e": 153.34
+  },
+  {
+   "w": "are",
+   "s": 153.34,
+   "e": 153.48
+  },
+  {
+   "w": "we",
+   "s": 153.48,
+   "e": 153.56
+  },
+  {
+   "w": "actually",
+   "s": 153.56,
+   "e": 153.82
+  },
+  {
+   "w": "missing?",
+   "s": 153.82,
+   "e": 154.28
+  },
+  {
+   "w": "What",
+   "s": 154.92,
+   "e": 154.94
+  },
+  {
+   "w": "does",
+   "s": 154.94,
+   "e": 155.06
+  },
+  {
+   "w": "the",
+   "s": 155.06,
+   "e": 155.16
+  },
+  {
+   "w": "brain",
+   "s": 155.16,
+   "e": 155.38
+  },
+  {
+   "w": "do",
+   "s": 155.38,
+   "e": 155.64
+  },
+  {
+   "w": "all",
+   "s": 155.64,
+   "e": 155.82
+  },
+  {
+   "w": "night?",
+   "s": 155.82,
+   "e": 156.02
+  },
+  {
+   "w": "Sleep",
+   "s": 157.56,
+   "e": 158.12
+  },
+  {
+   "w": "isn't",
+   "s": 158.12,
+   "e": 158.52
+  },
+  {
+   "w": "your",
+   "s": 158.52,
+   "e": 158.64
+  },
+  {
+   "w": "brain",
+   "s": 158.64,
+   "e": 158.92
+  },
+  {
+   "w": "switching",
+   "s": 158.92,
+   "e": 159.2
+  },
+  {
+   "w": "off.",
+   "s": 159.2,
+   "e": 159.58
+  },
+  {
+   "w": "It's",
+   "s": 160.0,
+   "e": 160.14
+  },
+  {
+   "w": "your",
+   "s": 160.14,
+   "e": 160.2
+  },
+  {
+   "w": "brain",
+   "s": 160.2,
+   "e": 160.42
+  },
+  {
+   "w": "switching",
+   "s": 160.42,
+   "e": 160.76
+  },
+  {
+   "w": "to",
+   "s": 160.76,
+   "e": 161.08
+  },
+  {
+   "w": "a",
+   "s": 161.08,
+   "e": 161.18
+  },
+  {
+   "w": "different",
+   "s": 161.18,
+   "e": 161.38
+  },
+  {
+   "w": "job.",
+   "s": 161.38,
+   "e": 161.72
+  },
+  {
+   "w": "Every",
+   "s": 161.72,
+   "e": 162.18
+  },
+  {
+   "w": "night",
+   "s": 162.18,
+   "e": 163.2
+  },
+  {
+   "w": "you",
+   "s": 163.2,
+   "e": 163.42
+  },
+  {
+   "w": "go",
+   "s": 163.42,
+   "e": 163.54
+  },
+  {
+   "w": "through",
+   "s": 163.54,
+   "e": 163.74
+  },
+  {
+   "w": "about",
+   "s": 163.74,
+   "e": 163.98
+  },
+  {
+   "w": "five",
+   "s": 163.98,
+   "e": 164.36
+  },
+  {
+   "w": "cycles,",
+   "s": 164.36,
+   "e": 164.9
+  },
+  {
+   "w": "each",
+   "s": 165.2,
+   "e": 165.38
+  },
+  {
+   "w": "roughly",
+   "s": 165.38,
+   "e": 165.66
+  },
+  {
+   "w": "90",
+   "s": 165.66,
+   "e": 166.02
+  },
+  {
+   "w": "minutes",
+   "s": 166.02,
+   "e": 166.3
+  },
+  {
+   "w": "long,",
+   "s": 166.3,
+   "e": 166.58
+  },
+  {
+   "w": "light",
+   "s": 167.04,
    "e": 167.36
   },
   {
-   "w": "adults",
+   "w": "sleep,",
    "s": 167.36,
    "e": 167.68
   },
   {
-   "w": "spend",
-   "s": 167.68,
-   "e": 168.0
-  },
-  {
-   "w": "about",
-   "s": 168.0,
-   "e": 168.24
-  },
-  {
-   "w": "an",
-   "s": 168.24,
-   "e": 168.38
-  },
-  {
-   "w": "hour",
-   "s": 168.38,
-   "e": 168.6
-  },
-  {
-   "w": "and",
-   "s": 168.6,
-   "e": 168.86
-  },
-  {
-   "w": "a",
-   "s": 168.86,
-   "e": 168.92
-  },
-  {
-   "w": "half",
-   "s": 168.92,
-   "e": 169.1
-  },
-  {
-   "w": "to",
-   "s": 169.1,
-   "e": 169.28
-  },
-  {
-   "w": "two",
-   "s": 169.28,
-   "e": 169.44
-  },
-  {
-   "w": "hours",
-   "s": 169.44,
-   "e": 169.7
-  },
-  {
-   "w": "a",
-   "s": 169.7,
-   "e": 169.8
-  },
-  {
-   "w": "night",
-   "s": 169.8,
-   "e": 170.02
-  },
-  {
-   "w": "in",
-   "s": 170.02,
-   "e": 170.24
-  },
-  {
-   "w": "REM.",
-   "s": 170.24,
-   "e": 170.54
-  },
-  {
-   "w": "During",
-   "s": 171.1,
-   "e": 171.32
+   "w": "deep",
+   "s": 167.96,
+   "e": 168.06
   },
   {
    "w": "sleep,",
-   "s": 171.32,
-   "e": 171.58
+   "s": 168.06,
+   "e": 168.38
   },
   {
-   "w": "the",
-   "s": 171.86,
-   "e": 171.92
+   "w": "and",
+   "s": 168.66,
+   "e": 168.78
   },
   {
-   "w": "hippocampus,",
-   "s": 171.92,
-   "e": 172.14
+   "w": "then",
+   "s": 168.78,
+   "e": 168.92
   },
   {
-   "w": "your",
-   "s": 172.74,
-   "e": 172.82
+   "w": "dreaming",
+   "s": 168.92,
+   "e": 169.16
   },
   {
-   "w": "brain's",
-   "s": 172.82,
-   "e": 173.24
+   "w": "sleep,",
+   "s": 169.16,
+   "e": 169.58
   },
   {
-   "w": "short",
-   "s": 173.24,
-   "e": 173.46
+   "w": "called",
+   "s": 169.86,
+   "e": 170.06
   },
   {
-   "w": "-term",
-   "s": 173.46,
-   "e": 173.68
+   "w": "REM.",
+   "s": 170.06,
+   "e": 170.48
   },
   {
-   "w": "memory,",
-   "s": 173.68,
-   "e": 174.1
+   "w": "Is",
+   "s": 171.18,
+   "e": 171.26
   },
   {
-   "w": "replays",
-   "s": 174.36,
-   "e": 174.74
+   "w": "that",
+   "s": 171.26,
+   "e": 171.44
   },
   {
-   "w": "the",
-   "s": 174.74,
-   "e": 174.88
+   "w": "when",
+   "s": 171.44,
+   "e": 171.62
   },
   {
-   "w": "day.",
-   "s": 174.88,
-   "e": 175.08
+   "w": "we",
+   "s": 171.62,
+   "e": 171.76
   },
   {
-   "w": "In",
-   "s": 175.78,
-   "e": 175.86
+   "w": "dream?",
+   "s": 171.76,
+   "e": 171.96
   },
   {
-   "w": "rats,",
-   "s": 175.86,
-   "e": 176.06
+   "w": "Mostly",
+   "s": 172.7,
+   "e": 173.02
   },
   {
-   "w": "the",
-   "s": 176.46,
-   "e": 176.56
+   "w": "yes,",
+   "s": 173.02,
+   "e": 173.36
   },
   {
-   "w": "same",
-   "s": 176.56,
-   "e": 176.8
+   "w": "REM",
+   "s": 173.8,
+   "e": 174.04
+  },
+  {
+   "w": "is",
+   "s": 174.04,
+   "e": 174.44
+  },
+  {
+   "w": "when",
+   "s": 174.44,
+   "e": 174.58
+  },
+  {
+   "w": "most",
+   "s": 174.58,
+   "e": 174.82
+  },
+  {
+   "w": "vivid",
+   "s": 174.82,
+   "e": 175.04
+  },
+  {
+   "w": "dreams",
+   "s": 175.04,
+   "e": 175.36
+  },
+  {
+   "w": "happen.",
+   "s": 175.36,
+   "e": 175.84
+  },
+  {
+   "w": "Your",
+   "s": 176.48,
+   "e": 176.54
   },
   {
    "w": "brain",
-   "s": 176.8,
-   "e": 177.06
+   "s": 176.54,
+   "e": 176.78
   },
   {
-   "w": "cells",
-   "s": 177.06,
-   "e": 177.4
+   "w": "is",
+   "s": 176.78,
+   "e": 176.94
   },
   {
-   "w": "fired",
-   "s": 177.4,
-   "e": 177.76
-  },
-  {
-   "w": "in",
-   "s": 177.76,
-   "e": 178.04
-  },
-  {
-   "w": "the",
-   "s": 178.04,
-   "e": 178.16
-  },
-  {
-   "w": "same",
-   "s": 178.16,
-   "e": 178.38
-  },
-  {
-   "w": "order",
-   "s": 178.38,
-   "e": 178.66
+   "w": "almost",
+   "s": 176.94,
+   "e": 177.16
   },
   {
    "w": "as",
-   "s": 178.66,
+   "s": 177.16,
+   "e": 177.42
+  },
+  {
+   "w": "active",
+   "s": 177.42,
+   "e": 177.72
+  },
+  {
+   "w": "as",
+   "s": 177.72,
+   "e": 177.86
+  },
+  {
+   "w": "when",
+   "s": 177.86,
+   "e": 178.04
+  },
+  {
+   "w": "you're",
+   "s": 178.04,
+   "e": 178.24
+  },
+  {
+   "w": "awake,",
+   "s": 178.24,
+   "e": 178.5
+  },
+  {
+   "w": "but",
+   "s": 178.82,
    "e": 178.92
   },
   {
-   "w": "they",
+   "w": "your",
    "s": 178.92,
    "e": 179.04
   },
   {
-   "w": "had",
+   "w": "muscles",
    "s": 179.04,
-   "e": 179.24
+   "e": 179.28
   },
   {
-   "w": "while",
-   "s": 179.24,
-   "e": 179.44
+   "w": "are",
+   "s": 179.28,
+   "e": 179.48
   },
   {
-   "w": "running",
-   "s": 179.44,
-   "e": 179.7
+   "w": "switched",
+   "s": 179.48,
+   "e": 179.66
   },
   {
-   "w": "a",
-   "s": 179.7,
-   "e": 179.84
+   "w": "off,",
+   "s": 179.66,
+   "e": 179.96
   },
   {
-   "w": "maze,",
-   "s": 179.84,
-   "e": 180.04
+   "w": "so",
+   "s": 180.2,
+   "e": 180.38
   },
   {
-   "w": "as",
-   "s": 180.56,
-   "e": 180.7
+   "w": "you",
+   "s": 180.38,
+   "e": 180.48
   },
   {
-   "w": "if",
-   "s": 180.7,
-   "e": 180.84
+   "w": "don't",
+   "s": 180.48,
+   "e": 180.68
   },
   {
-   "w": "rehearsing.",
-   "s": 180.84,
-   "e": 181.08
+   "w": "act",
+   "s": 180.68,
+   "e": 180.8
   },
   {
-   "w": "Those",
-   "s": 181.82,
-   "e": 181.98
+   "w": "your",
+   "s": 180.8,
+   "e": 180.98
   },
   {
-   "w": "memories",
-   "s": 181.98,
-   "e": 182.34
+   "w": "dreams",
+   "s": 180.98,
+   "e": 181.2
   },
   {
-   "w": "get",
-   "s": 182.34,
-   "e": 182.68
+   "w": "out.",
+   "s": 181.2,
+   "e": 181.5
   },
   {
-   "w": "copied",
-   "s": 182.68,
-   "e": 182.92
+   "w": "Most",
+   "s": 182.16,
+   "e": 182.24
   },
   {
-   "w": "into",
-   "s": 182.92,
-   "e": 183.2
+   "w": "adults",
+   "s": 182.24,
+   "e": 182.58
   },
   {
-   "w": "long",
-   "s": 183.2,
-   "e": 183.44
+   "w": "spend",
+   "s": 182.58,
+   "e": 182.9
   },
   {
-   "w": "-term",
-   "s": 183.44,
-   "e": 183.72
+   "w": "about",
+   "s": 182.9,
+   "e": 183.12
   },
   {
-   "w": "storage.",
-   "s": 183.72,
-   "e": 184.08
+   "w": "an",
+   "s": 183.12,
+   "e": 183.24
   },
   {
-   "w": "Skip",
-   "s": 184.08,
-   "e": 185.0
-  },
-  {
-   "w": "sleep,",
-   "s": 185.0,
-   "e": 185.3
+   "w": "hour",
+   "s": 183.24,
+   "e": 183.48
   },
   {
    "w": "and",
-   "s": 185.66,
-   "e": 185.84
-  },
-  {
-   "w": "much",
-   "s": 185.84,
-   "e": 185.98
-  },
-  {
-   "w": "of",
-   "s": 185.98,
-   "e": 186.14
-  },
-  {
-   "w": "today",
-   "s": 186.14,
-   "e": 186.38
-  },
-  {
-   "w": "simply",
-   "s": 186.38,
-   "e": 186.68
-  },
-  {
-   "w": "doesn't",
-   "s": 186.68,
-   "e": 187.16
-  },
-  {
-   "w": "get",
-   "s": 187.16,
-   "e": 187.26
-  },
-  {
-   "w": "saved.",
-   "s": 187.26,
-   "e": 187.66
-  },
-  {
-   "w": "In",
-   "s": 188.7,
-   "e": 188.8
-  },
-  {
-   "w": "one",
-   "s": 188.8,
-   "e": 188.96
-  },
-  {
-   "w": "experiment,",
-   "s": 188.96,
-   "e": 189.42
-  },
-  {
-   "w": "students",
-   "s": 189.84,
-   "e": 190.26
-  },
-  {
-   "w": "who",
-   "s": 190.26,
-   "e": 190.52
-  },
-  {
-   "w": "had",
-   "s": 190.52,
-   "e": 190.62
-  },
-  {
-   "w": "been",
-   "s": 190.62,
-   "e": 190.74
-  },
-  {
-   "w": "kept",
-   "s": 190.74,
-   "e": 190.94
-  },
-  {
-   "w": "awake",
-   "s": 190.94,
-   "e": 191.24
-  },
-  {
-   "w": "for",
-   "s": 191.24,
-   "e": 191.5
+   "s": 183.48,
+   "e": 183.74
   },
   {
    "w": "a",
-   "s": 191.5,
-   "e": 191.52
+   "s": 183.74,
+   "e": 183.82
+  },
+  {
+   "w": "half",
+   "s": 183.82,
+   "e": 184.0
+  },
+  {
+   "w": "to",
+   "s": 184.0,
+   "e": 184.18
+  },
+  {
+   "w": "two",
+   "s": 184.18,
+   "e": 184.34
+  },
+  {
+   "w": "hours",
+   "s": 184.34,
+   "e": 184.6
+  },
+  {
+   "w": "a",
+   "s": 184.6,
+   "e": 184.72
   },
   {
    "w": "night",
-   "s": 191.52,
-   "e": 191.76
+   "s": 184.72,
+   "e": 184.94
   },
   {
-   "w": "remembered",
-   "s": 191.76,
-   "e": 192.3
+   "w": "in",
+   "s": 184.94,
+   "e": 185.18
   },
   {
-   "w": "19",
-   "s": 192.3,
-   "e": 192.84
-  },
-  {
-   "w": "%",
-   "s": 192.84,
-   "e": 193.34
-  },
-  {
-   "w": "less",
-   "s": 193.34,
-   "e": 193.64
-  },
-  {
-   "w": "from",
-   "s": 193.64,
-   "e": 193.94
-  },
-  {
-   "w": "a",
-   "s": 193.94,
-   "e": 194.02
-  },
-  {
-   "w": "set",
-   "s": 194.02,
-   "e": 194.2
-  },
-  {
-   "w": "of",
-   "s": 194.2,
-   "e": 194.3
-  },
-  {
-   "w": "pictures,",
-   "s": 194.3,
-   "e": 194.54
-  },
-  {
-   "w": "even",
-   "s": 195.12,
-   "e": 195.48
-  },
-  {
-   "w": "after",
-   "s": 195.48,
-   "e": 195.74
-  },
-  {
-   "w": "they",
-   "s": 195.74,
-   "e": 195.94
-  },
-  {
-   "w": "had",
-   "s": 195.94,
-   "e": 196.04
-  },
-  {
-   "w": "caught",
-   "s": 196.04,
-   "e": 196.22
-  },
-  {
-   "w": "up",
-   "s": 196.22,
-   "e": 196.44
-  },
-  {
-   "w": "on",
-   "s": 196.44,
-   "e": 196.58
-  },
-  {
-   "w": "sleep.",
-   "s": 196.58,
-   "e": 196.86
-  },
-  {
-   "w": "And",
-   "s": 197.44,
-   "e": 197.5
-  },
-  {
-   "w": "then",
-   "s": 197.5,
-   "e": 197.62
-  },
-  {
-   "w": "there's",
-   "s": 197.62,
-   "e": 197.84
-  },
-  {
-   "w": "the",
-   "s": 197.84,
-   "e": 197.94
-  },
-  {
-   "w": "cleaning.",
-   "s": 197.94,
-   "e": 198.12
+   "w": "REM.",
+   "s": 185.18,
+   "e": 185.48
   },
   {
    "w": "During",
-   "s": 199.06,
-   "e": 199.06
+   "s": 186.06,
+   "e": 186.24
   },
   {
    "w": "sleep,",
-   "s": 199.06,
-   "e": 199.34
+   "s": 186.24,
+   "e": 186.52
+  },
+  {
+   "w": "the",
+   "s": 186.76,
+   "e": 186.86
+  },
+  {
+   "w": "hippocampus,",
+   "s": 186.86,
+   "e": 187.04
   },
   {
    "w": "your",
-   "s": 199.6,
-   "e": 199.66
-  },
-  {
-   "w": "brain",
-   "s": 199.66,
-   "e": 199.88
-  },
-  {
-   "w": "cells",
-   "s": 199.88,
-   "e": 200.18
-  },
-  {
-   "w": "shrink",
-   "s": 200.18,
-   "e": 200.5
-  },
-  {
-   "w": "apart",
-   "s": 200.5,
-   "e": 200.86
-  },
-  {
-   "w": "and",
-   "s": 200.86,
-   "e": 201.34
-  },
-  {
-   "w": "fluid",
-   "s": 201.34,
-   "e": 201.58
-  },
-  {
-   "w": "washes",
-   "s": 201.58,
-   "e": 202.02
-  },
-  {
-   "w": "out",
-   "s": 202.02,
-   "e": 202.24
-  },
-  {
-   "w": "waste,",
-   "s": 202.24,
-   "e": 202.56
-  },
-  {
-   "w": "like",
-   "s": 202.96,
-   "e": 203.16
-  },
-  {
-   "w": "proteins",
-   "s": 203.16,
-   "e": 203.54
-  },
-  {
-   "w": "linked",
-   "s": 203.54,
-   "e": 203.92
-  },
-  {
-   "w": "to",
-   "s": 203.92,
-   "e": 204.14
-  },
-  {
-   "w": "Alzheimer's.",
-   "s": 204.14,
-   "e": 204.9
-  },
-  {
-   "w": "In",
-   "s": 205.4,
-   "e": 205.48
-  },
-  {
-   "w": "mice,",
-   "s": 205.48,
-   "e": 205.66
-  },
-  {
-   "w": "the",
-   "s": 206.04,
-   "e": 206.1
-  },
-  {
-   "w": "space",
-   "s": 206.1,
-   "e": 206.36
-  },
-  {
-   "w": "between",
-   "s": 206.36,
-   "e": 206.68
-  },
-  {
-   "w": "brain",
-   "s": 206.68,
-   "e": 206.9
-  },
-  {
-   "w": "cells",
-   "s": 206.9,
-   "e": 207.24
-  },
-  {
-   "w": "grew",
-   "s": 207.24,
-   "e": 207.64
-  },
-  {
-   "w": "by",
-   "s": 207.64,
-   "e": 207.84
-  },
-  {
-   "w": "60",
-   "s": 207.84,
-   "e": 208.16
-  },
-  {
-   "w": "%",
-   "s": 208.16,
-   "e": 208.56
-  },
-  {
-   "w": "during",
-   "s": 208.56,
-   "e": 208.92
-  },
-  {
-   "w": "sleep.",
-   "s": 208.92,
-   "e": 209.2
-  },
-  {
-   "w": "No",
-   "s": 209.92,
-   "e": 210.12
-  },
-  {
-   "w": "sleep,",
-   "s": 210.12,
-   "e": 210.4
-  },
-  {
-   "w": "no",
-   "s": 210.74,
-   "e": 210.84
-  },
-  {
-   "w": "wash.",
-   "s": 210.84,
-   "e": 211.06
-  },
-  {
-   "w": "Your",
-   "s": 212.64,
-   "e": 213.2
-  },
-  {
-   "w": "body",
-   "s": 213.2,
-   "e": 213.46
-  },
-  {
-   "w": "notices",
-   "s": 213.46,
-   "e": 213.88
-  },
-  {
-   "w": "too.",
-   "s": 213.88,
-   "e": 214.26
-  },
-  {
-   "w": "After",
-   "s": 214.88,
-   "e": 215.04
-  },
-  {
-   "w": "just",
-   "s": 215.04,
-   "e": 215.3
-  },
-  {
-   "w": "two",
-   "s": 215.3,
-   "e": 215.52
-  },
-  {
-   "w": "short",
-   "s": 215.52,
-   "e": 215.8
-  },
-  {
-   "w": "nights,",
-   "s": 215.8,
-   "e": 216.1
-  },
-  {
-   "w": "the",
-   "s": 216.6,
-   "e": 216.66
-  },
-  {
-   "w": "hormone",
-   "s": 216.66,
-   "e": 216.84
-  },
-  {
-   "w": "that",
-   "s": 216.84,
-   "e": 217.14
-  },
-  {
-   "w": "says",
-   "s": 217.14,
-   "e": 217.28
-  },
-  {
-   "w": "I'm",
-   "s": 217.28,
-   "e": 217.58
-  },
-  {
-   "w": "full",
-   "s": 217.58,
-   "e": 217.76
-  },
-  {
-   "w": "dropped",
-   "s": 217.76,
-   "e": 218.0
-  },
-  {
-   "w": "by",
-   "s": 218.0,
-   "e": 218.34
-  },
-  {
-   "w": "18",
-   "s": 218.34,
-   "e": 218.62
-  },
-  {
-   "w": "%",
-   "s": 218.62,
-   "e": 219.22
-  },
-  {
-   "w": "and",
-   "s": 219.22,
-   "e": 219.62
-  },
-  {
-   "w": "the",
-   "s": 219.62,
-   "e": 219.72
-  },
-  {
-   "w": "one",
-   "s": 219.72,
-   "e": 219.86
-  },
-  {
-   "w": "that",
-   "s": 219.86,
-   "e": 219.98
-  },
-  {
-   "w": "says",
-   "s": 219.98,
-   "e": 220.14
-  },
-  {
-   "w": "I'm",
-   "s": 220.14,
-   "e": 220.42
-  },
-  {
-   "w": "hungry",
-   "s": 220.42,
-   "e": 220.76
-  },
-  {
-   "w": "rose",
-   "s": 220.76,
-   "e": 221.02
-  },
-  {
-   "w": "by",
-   "s": 221.02,
-   "e": 221.36
-  },
-  {
-   "w": "28,",
-   "s": 221.36,
-   "e": 221.72
-  },
-  {
-   "w": "which",
-   "s": 222.38,
-   "e": 222.62
-  },
-  {
-   "w": "is",
-   "s": 222.62,
-   "e": 222.78
-  },
-  {
-   "w": "why",
-   "s": 222.78,
-   "e": 222.98
-  },
-  {
-   "w": "tired",
-   "s": 222.98,
-   "e": 223.26
-  },
-  {
-   "w": "people",
-   "s": 223.26,
-   "e": 223.68
-  },
-  {
-   "w": "crave",
-   "s": 223.68,
-   "e": 224.04
-  },
-  {
-   "w": "sugar",
-   "s": 224.04,
-   "e": 224.52
-  },
-  {
-   "w": "and",
-   "s": 224.52,
-   "e": 224.72
-  },
-  {
-   "w": "fat.",
-   "s": 224.72,
-   "e": 224.96
-  },
-  {
-   "w": "After",
-   "s": 226.14,
-   "e": 226.4
-  },
-  {
-   "w": "six",
-   "s": 226.4,
-   "e": 226.64
-  },
-  {
-   "w": "nights",
-   "s": 226.64,
-   "e": 226.88
-  },
-  {
-   "w": "of",
-   "s": 226.88,
-   "e": 227.12
-  },
-  {
-   "w": "only",
-   "s": 227.12,
-   "e": 227.34
-  },
-  {
-   "w": "four",
-   "s": 227.34,
-   "e": 227.58
-  },
-  {
-   "w": "hours,",
-   "s": 227.58,
-   "e": 228.0
-  },
-  {
-   "w": "healthy",
-   "s": 228.36,
-   "e": 228.64
-  },
-  {
-   "w": "young",
-   "s": 228.64,
-   "e": 228.94
-  },
-  {
-   "w": "men",
-   "s": 228.94,
-   "e": 229.22
-  },
-  {
-   "w": "handled",
-   "s": 229.22,
-   "e": 229.64
-  },
-  {
-   "w": "sugar",
-   "s": 229.64,
-   "e": 229.96
-  },
-  {
-   "w": "like",
-   "s": 229.96,
-   "e": 230.38
-  },
-  {
-   "w": "people",
-   "s": 230.38,
-   "e": 230.72
-  },
-  {
-   "w": "on",
-   "s": 230.72,
-   "e": 230.94
-  },
-  {
-   "w": "their",
-   "s": 230.94,
-   "e": 231.06
-  },
-  {
-   "w": "way",
-   "s": 231.06,
-   "e": 231.26
-  },
-  {
-   "w": "to",
-   "s": 231.26,
-   "e": 231.46
-  },
-  {
-   "w": "diabetes.",
-   "s": 231.46,
-   "e": 231.78
-  },
-  {
-   "w": "Even",
-   "s": 232.68,
-   "e": 232.86
-  },
-  {
-   "w": "repairs",
-   "s": 232.86,
-   "e": 233.16
-  },
-  {
-   "w": "wait",
-   "s": 233.16,
-   "e": 233.5
-  },
-  {
-   "w": "for",
-   "s": 233.5,
-   "e": 233.76
-  },
-  {
-   "w": "the",
-   "s": 233.76,
-   "e": 233.84
-  },
-  {
-   "w": "night.",
-   "s": 233.84,
-   "e": 234.04
-  },
-  {
-   "w": "Much",
-   "s": 234.72,
-   "e": 234.82
-  },
-  {
-   "w": "of",
-   "s": 234.82,
-   "e": 235.0
-  },
-  {
-   "w": "your",
-   "s": 235.0,
-   "e": 235.08
-  },
-  {
-   "w": "growth",
-   "s": 235.08,
-   "e": 235.28
-  },
-  {
-   "w": "hormone,",
-   "s": 235.28,
-   "e": 235.66
-  },
-  {
-   "w": "which",
-   "s": 236.08,
-   "e": 236.22
-  },
-  {
-   "w": "helps",
-   "s": 236.22,
-   "e": 236.44
-  },
-  {
-   "w": "rebuild",
-   "s": 236.44,
-   "e": 236.72
-  },
-  {
-   "w": "muscle",
-   "s": 236.72,
-   "e": 237.18
-  },
-  {
-   "w": "and",
-   "s": 237.18,
-   "e": 237.4
-  },
-  {
-   "w": "tissue,",
-   "s": 237.4,
-   "e": 237.62
-  },
-  {
-   "w": "is",
-   "s": 238.14,
-   "e": 238.24
-  },
-  {
-   "w": "released",
-   "s": 238.24,
-   "e": 238.42
-  },
-  {
-   "w": "during",
-   "s": 238.42,
-   "e": 238.92
-  },
-  {
-   "w": "deep",
-   "s": 238.92,
-   "e": 239.16
-  },
-  {
-   "w": "sleep.",
-   "s": 239.16,
-   "e": 239.5
-  },
-  {
-   "w": "And",
-   "s": 239.5,
-   "e": 240.22
-  },
-  {
-   "w": "your",
-   "s": 240.22,
-   "e": 240.34
-  },
-  {
-   "w": "defenses",
-   "s": 240.34,
-   "e": 240.64
-  },
-  {
-   "w": "weaken.",
-   "s": 240.64,
-   "e": 241.1
-  },
-  {
-   "w": "People",
-   "s": 241.84,
-   "e": 242.12
-  },
-  {
-   "w": "who",
-   "s": 242.12,
-   "e": 242.28
-  },
-  {
-   "w": "slept",
-   "s": 242.28,
-   "e": 242.46
-  },
-  {
-   "w": "six",
-   "s": 242.46,
-   "e": 242.82
-  },
-  {
-   "w": "hours",
-   "s": 242.82,
-   "e": 243.12
-  },
-  {
-   "w": "or",
-   "s": 243.12,
-   "e": 243.3
-  },
-  {
-   "w": "less",
-   "s": 243.3,
-   "e": 243.5
-  },
-  {
-   "w": "were",
-   "s": 243.5,
-   "e": 243.88
-  },
-  {
-   "w": "about",
-   "s": 243.88,
-   "e": 244.04
-  },
-  {
-   "w": "four",
-   "s": 244.04,
-   "e": 244.38
-  },
-  {
-   "w": "times",
-   "s": 244.38,
-   "e": 244.7
-  },
-  {
-   "w": "more",
-   "s": 244.7,
-   "e": 244.94
-  },
-  {
-   "w": "likely",
-   "s": 244.94,
-   "e": 245.24
-  },
-  {
-   "w": "to",
-   "s": 245.24,
-   "e": 245.52
-  },
-  {
-   "w": "catch",
-   "s": 245.52,
-   "e": 245.76
-  },
-  {
-   "w": "a",
-   "s": 245.76,
-   "e": 245.88
-  },
-  {
-   "w": "cold",
-   "s": 245.88,
-   "e": 246.08
-  },
-  {
-   "w": "after",
-   "s": 246.08,
-   "e": 246.42
-  },
-  {
-   "w": "being",
-   "s": 246.42,
-   "e": 246.68
-  },
-  {
-   "w": "exposed",
-   "s": 246.68,
-   "e": 247.04
-  },
-  {
-   "w": "to",
-   "s": 247.04,
-   "e": 247.4
-  },
-  {
-   "w": "the",
-   "s": 247.4,
-   "e": 247.48
-  },
-  {
-   "w": "virus.",
-   "s": 247.48,
-   "e": 247.8
-  },
-  {
-   "w": "And",
-   "s": 248.42,
-   "e": 248.5
-  },
-  {
-   "w": "over",
-   "s": 248.5,
-   "e": 248.68
-  },
-  {
-   "w": "the",
-   "s": 248.68,
-   "e": 248.8
-  },
-  {
-   "w": "years,",
-   "s": 248.8,
-   "e": 249.08
-  },
-  {
-   "w": "people",
-   "s": 249.08,
-   "e": 249.6
-  },
-  {
-   "w": "who",
-   "s": 249.6,
-   "e": 249.82
-  },
-  {
-   "w": "regularly",
-   "s": 249.82,
-   "e": 250.12
-  },
-  {
-   "w": "sleep",
-   "s": 250.12,
-   "e": 250.5
-  },
-  {
-   "w": "less",
-   "s": 250.5,
-   "e": 250.82
-  },
-  {
-   "w": "than",
-   "s": 250.82,
-   "e": 251.02
-  },
-  {
-   "w": "six",
-   "s": 251.02,
-   "e": 251.22
-  },
-  {
-   "w": "hours",
-   "s": 251.22,
-   "e": 251.58
-  },
-  {
-   "w": "have",
-   "s": 251.58,
-   "e": 252.04
-  },
-  {
-   "w": "higher",
-   "s": 252.04,
-   "e": 252.22
-  },
-  {
-   "w": "rates",
-   "s": 252.22,
-   "e": 252.64
-  },
-  {
-   "w": "of",
-   "s": 252.64,
-   "e": 252.78
-  },
-  {
-   "w": "heart",
-   "s": 252.78,
-   "e": 252.96
-  },
-  {
-   "w": "disease,",
-   "s": 252.96,
-   "e": 253.28
-  },
-  {
-   "w": "obesity,",
-   "s": 253.96,
-   "e": 254.2
-  },
-  {
-   "w": "and",
-   "s": 254.72,
-   "e": 254.76
-  },
-  {
-   "w": "diabetes.",
-   "s": 254.76,
-   "e": 255.02
-  },
-  {
-   "w": "Day",
-   "s": 256.82,
-   "e": 257.38
-  },
-  {
-   "w": "two,",
-   "s": 257.38,
-   "e": 257.64
-  },
-  {
-   "w": "your",
-   "s": 257.86,
-   "e": 257.92
-  },
-  {
-   "w": "brain",
-   "s": 257.92,
-   "e": 258.16
-  },
-  {
-   "w": "starts",
-   "s": 258.16,
-   "e": 258.46
-  },
-  {
-   "w": "shutting",
-   "s": 258.46,
-   "e": 258.8
-  },
-  {
-   "w": "off",
-   "s": 258.8,
-   "e": 259.06
-  },
-  {
-   "w": "without",
-   "s": 259.06,
-   "e": 259.22
-  },
-  {
-   "w": "asking.",
-   "s": 259.22,
-   "e": 259.76
-  },
-  {
-   "w": "Micro",
-   "s": 260.36,
-   "e": 260.68
-  },
-  {
-   "w": "-sleeps,",
-   "s": 260.68,
-   "e": 261.24
-  },
-  {
-   "w": "a",
-   "s": 261.3,
-   "e": 261.36
-  },
-  {
-   "w": "few",
-   "s": 261.36,
-   "e": 261.48
-  },
-  {
-   "w": "seconds",
-   "s": 261.48,
-   "e": 261.76
-  },
-  {
-   "w": "at",
-   "s": 261.76,
-   "e": 261.94
-  },
-  {
-   "w": "a",
-   "s": 261.94,
-   "e": 261.98
-  },
-  {
-   "w": "time,",
-   "s": 261.98,
-   "e": 262.28
-  },
-  {
-   "w": "sometimes",
-   "s": 262.62,
-   "e": 262.88
-  },
-  {
-   "w": "with",
-   "s": 262.88,
-   "e": 263.3
-  },
-  {
-   "w": "your",
-   "s": 263.3,
-   "e": 263.44
-  },
-  {
-   "w": "eyes",
-   "s": 263.44,
-   "e": 263.7
-  },
-  {
-   "w": "open.",
-   "s": 263.7,
-   "e": 264.0
-  },
-  {
-   "w": "Your",
-   "s": 264.0,
-   "e": 264.6
-  },
-  {
-   "w": "emotions",
-   "s": 264.6,
-   "e": 264.96
-  },
-  {
-   "w": "go",
-   "s": 264.96,
-   "e": 265.32
-  },
-  {
-   "w": "haywire.",
-   "s": 265.32,
-   "e": 265.88
-  },
-  {
-   "w": "After",
-   "s": 266.32,
-   "e": 266.6
-  },
-  {
-   "w": "a",
-   "s": 266.6,
-   "e": 266.68
-  },
-  {
-   "w": "night",
-   "s": 266.68,
-   "e": 266.86
-  },
-  {
-   "w": "without",
-   "s": 266.86,
-   "e": 267.04
-  },
-  {
-   "w": "sleep,",
-   "s": 267.04,
-   "e": 267.48
-  },
-  {
-   "w": "the",
-   "s": 267.88,
-   "e": 267.9
+   "s": 187.68,
+   "e": 187.76
   },
   {
    "w": "brain's",
-   "s": 267.9,
-   "e": 268.28
-  },
-  {
-   "w": "alarm",
-   "s": 268.28,
-   "e": 268.46
-  },
-  {
-   "w": "center,",
-   "s": 268.46,
-   "e": 269.0
-  },
-  {
-   "w": "the",
-   "s": 269.38,
-   "e": 269.42
-  },
-  {
-   "w": "amygdala,",
-   "s": 269.42,
-   "e": 269.6
-  },
-  {
-   "w": "reacted",
-   "s": 270.32,
-   "e": 270.52
-  },
-  {
-   "w": "over",
-   "s": 270.52,
-   "e": 270.92
-  },
-  {
-   "w": "60",
-   "s": 270.92,
-   "e": 271.2
-  },
-  {
-   "w": "%",
-   "s": 271.2,
-   "e": 271.64
-  },
-  {
-   "w": "more",
-   "s": 271.64,
-   "e": 271.88
-  },
-  {
-   "w": "strongly",
-   "s": 271.88,
-   "e": 272.26
-  },
-  {
-   "w": "to",
-   "s": 272.26,
-   "e": 272.56
-  },
-  {
-   "w": "upsetting",
-   "s": 272.56,
-   "e": 272.86
-  },
-  {
-   "w": "images.",
-   "s": 272.86,
-   "e": 273.26
-  },
-  {
-   "w": "The",
-   "s": 274.14,
-   "e": 274.18
-  },
-  {
-   "w": "calm,",
-   "s": 274.18,
-   "e": 274.4
-  },
-  {
-   "w": "rational",
-   "s": 274.68,
-   "e": 275.08
-  },
-  {
-   "w": "front",
-   "s": 275.08,
-   "e": 275.32
-  },
-  {
-   "w": "of",
-   "s": 275.32,
-   "e": 275.54
-  },
-  {
-   "w": "the",
-   "s": 275.54,
-   "e": 275.62
-  },
-  {
-   "w": "brain",
-   "s": 275.62,
-   "e": 275.86
-  },
-  {
-   "w": "loses",
-   "s": 275.86,
-   "e": 276.2
-  },
-  {
-   "w": "its",
-   "s": 276.2,
-   "e": 276.48
-  },
-  {
-   "w": "grip",
-   "s": 276.48,
-   "e": 276.68
-  },
-  {
-   "w": "on",
-   "s": 276.68,
-   "e": 276.92
-  },
-  {
-   "w": "it.",
-   "s": 276.92,
-   "e": 277.06
-  },
-  {
-   "w": "Day",
-   "s": 277.5,
-   "e": 277.6
-  },
-  {
-   "w": "three,",
-   "s": 277.6,
-   "e": 277.92
-  },
-  {
-   "w": "the",
-   "s": 278.12,
-   "e": 278.2
-  },
-  {
-   "w": "walls",
-   "s": 278.2,
-   "e": 278.38
-  },
-  {
-   "w": "start",
-   "s": 278.38,
-   "e": 278.66
-  },
-  {
-   "w": "to",
-   "s": 278.66,
-   "e": 278.88
-  },
-  {
-   "w": "breathe.",
-   "s": 278.88,
-   "e": 279.1
-  },
-  {
-   "w": "You",
-   "s": 279.68,
-   "e": 279.7
-  },
-  {
-   "w": "see",
-   "s": 279.7,
-   "e": 279.86
-  },
-  {
-   "w": "and",
-   "s": 279.86,
-   "e": 280.0
-  },
-  {
-   "w": "hear",
-   "s": 280.0,
-   "e": 280.16
-  },
-  {
-   "w": "things",
-   "s": 280.16,
-   "e": 280.48
-  },
-  {
-   "w": "that",
-   "s": 280.48,
-   "e": 280.68
-  },
-  {
-   "w": "aren't",
-   "s": 280.68,
-   "e": 280.9
-  },
-  {
-   "w": "there,",
-   "s": 280.9,
-   "e": 281.14
-  },
-  {
-   "w": "hallucinations.",
-   "s": 281.5,
-   "e": 281.7
-  },
-  {
-   "w": "In",
-   "s": 283.32,
-   "e": 283.42
-  },
-  {
-   "w": "1959,",
-   "s": 283.42,
-   "e": 284.3
-  },
-  {
-   "w": "a",
-   "s": 284.74,
-   "e": 284.96
-  },
-  {
-   "w": "New",
-   "s": 284.96,
-   "e": 285.1
-  },
-  {
-   "w": "York",
-   "s": 285.1,
-   "e": 285.32
-  },
-  {
-   "w": "radio",
-   "s": 285.32,
-   "e": 285.62
-  },
-  {
-   "w": "DJ",
-   "s": 285.62,
-   "e": 285.92
-  },
-  {
-   "w": "named",
-   "s": 285.92,
-   "e": 286.44
-  },
-  {
-   "w": "Peter",
-   "s": 286.44,
-   "e": 286.66
-  },
-  {
-   "w": "Trip",
-   "s": 286.66,
-   "e": 286.98
-  },
-  {
-   "w": "stayed",
-   "s": 286.98,
-   "e": 287.42
-  },
-  {
-   "w": "awake",
-   "s": 287.42,
-   "e": 287.72
-  },
-  {
-   "w": "for",
-   "s": 287.72,
-   "e": 287.98
-  },
-  {
-   "w": "201",
-   "s": 287.98,
-   "e": 288.34
-  },
-  {
-   "w": "hours",
-   "s": 288.34,
-   "e": 289.12
-  },
-  {
-   "w": "for",
-   "s": 289.12,
-   "e": 289.3
-  },
-  {
-   "w": "charity,",
-   "s": 289.3,
-   "e": 289.54
-  },
-  {
-   "w": "broadcasting",
-   "s": 290.26,
-   "e": 290.5
-  },
-  {
-   "w": "from",
-   "s": 290.5,
-   "e": 291.02
-  },
-  {
-   "w": "a",
-   "s": 291.02,
-   "e": 291.12
-  },
-  {
-   "w": "glass",
-   "s": 291.12,
-   "e": 291.28
-  },
-  {
-   "w": "booth",
-   "s": 291.28,
-   "e": 291.6
-  },
-  {
-   "w": "in",
-   "s": 291.6,
-   "e": 291.9
-  },
-  {
-   "w": "Times",
-   "s": 291.9,
-   "e": 292.1
-  },
-  {
-   "w": "Square.",
-   "s": 292.1,
-   "e": 292.52
-  },
-  {
-   "w": "He",
-   "s": 292.52,
-   "e": 293.08
-  },
-  {
-   "w": "saw",
-   "s": 293.08,
-   "e": 293.3
-  },
-  {
-   "w": "spiders",
-   "s": 293.3,
-   "e": 293.7
-  },
-  {
-   "w": "in",
-   "s": 293.7,
-   "e": 293.98
-  },
-  {
-   "w": "his",
-   "s": 293.98,
-   "e": 294.1
-  },
-  {
-   "w": "shoes",
-   "s": 294.1,
-   "e": 294.42
-  },
-  {
-   "w": "and",
-   "s": 294.42,
-   "e": 294.72
-  },
-  {
-   "w": "mice",
-   "s": 294.72,
-   "e": 294.96
-  },
-  {
-   "w": "in",
-   "s": 294.96,
-   "e": 295.32
-  },
-  {
-   "w": "the",
-   "s": 295.32,
-   "e": 295.42
-  },
-  {
-   "w": "studio.",
-   "s": 295.42,
-   "e": 295.88
-  },
-  {
-   "w": "Doctors",
-   "s": 296.36,
-   "e": 296.82
-  },
-  {
-   "w": "had",
-   "s": 296.82,
-   "e": 297.06
-  },
-  {
-   "w": "also",
-   "s": 297.06,
-   "e": 297.22
-  },
-  {
-   "w": "given",
-   "s": 297.22,
-   "e": 297.54
-  },
-  {
-   "w": "him",
-   "s": 297.54,
-   "e": 297.7
-  },
-  {
-   "w": "stimulants",
-   "s": 297.7,
-   "e": 298.28
-  },
-  {
-   "w": "to",
-   "s": 298.28,
-   "e": 298.4
-  },
-  {
-   "w": "keep",
-   "s": 298.4,
-   "e": 298.56
-  },
-  {
-   "w": "him",
-   "s": 298.56,
-   "e": 298.76
-  },
-  {
-   "w": "going,",
-   "s": 298.76,
-   "e": 299.1
-  },
-  {
-   "w": "which",
-   "s": 299.48,
-   "e": 299.62
-  },
-  {
-   "w": "probably",
-   "s": 299.62,
-   "e": 299.94
-  },
-  {
-   "w": "made",
-   "s": 299.94,
-   "e": 300.3
-  },
-  {
-   "w": "it",
-   "s": 300.3,
-   "e": 300.42
-  },
-  {
-   "w": "worse.",
-   "s": 300.42,
-   "e": 300.68
-  },
-  {
-   "w": "Has",
-   "s": 302.46,
-   "e": 302.74
-  },
-  {
-   "w": "anyone",
-   "s": 302.74,
-   "e": 303.0
-  },
-  {
-   "w": "gone",
-   "s": 303.0,
-   "e": 303.24
-  },
-  {
-   "w": "further?",
-   "s": 303.24,
-   "e": 303.66
-  },
-  {
-   "w": "In",
-   "s": 304.28,
-   "e": 304.34
-  },
-  {
-   "w": "1964,",
-   "s": 304.34,
-   "e": 305.04
-  },
-  {
-   "w": "17",
-   "s": 305.62,
-   "e": 306.06
-  },
-  {
-   "w": "-year",
-   "s": 306.06,
-   "e": 306.46
-  },
-  {
-   "w": "-old",
-   "s": 306.46,
-   "e": 306.74
-  },
-  {
-   "w": "Randy",
-   "s": 306.74,
-   "e": 306.96
-  },
-  {
-   "w": "Gardner",
-   "s": 306.96,
-   "e": 307.32
-  },
-  {
-   "w": "stayed",
-   "s": 307.32,
-   "e": 307.76
-  },
-  {
-   "w": "awake",
-   "s": 307.76,
-   "e": 308.04
-  },
-  {
-   "w": "for",
-   "s": 308.04,
-   "e": 308.34
-  },
-  {
-   "w": "11",
-   "s": 308.34,
-   "e": 308.56
-  },
-  {
-   "w": "days",
-   "s": 308.56,
-   "e": 308.9
-  },
-  {
-   "w": "straight",
-   "s": 308.9,
-   "e": 309.26
-  },
-  {
-   "w": "for",
-   "s": 309.26,
-   "e": 309.82
-  },
-  {
-   "w": "a",
-   "s": 309.82,
-   "e": 309.9
-  },
-  {
-   "w": "school",
-   "s": 309.9,
-   "e": 310.1
-  },
-  {
-   "w": "science",
-   "s": 310.1,
-   "e": 310.54
-  },
-  {
-   "w": "fair,",
-   "s": 310.54,
-   "e": 310.84
-  },
-  {
-   "w": "watched",
-   "s": 311.2,
-   "e": 311.42
-  },
-  {
-   "w": "over",
-   "s": 311.42,
-   "e": 311.72
-  },
-  {
-   "w": "by",
-   "s": 311.72,
-   "e": 311.98
-  },
-  {
-   "w": "the",
-   "s": 311.98,
-   "e": 312.1
-  },
-  {
-   "w": "sleep",
-   "s": 312.1,
-   "e": 312.36
-  },
-  {
-   "w": "researcher",
-   "s": 312.36,
-   "e": 312.78
-  },
-  {
-   "w": "William",
-   "s": 312.78,
-   "e": 313.16
-  },
-  {
-   "w": "Dement.",
-   "s": 313.16,
-   "e": 313.56
-  },
-  {
-   "w": "By",
-   "s": 314.0,
-   "e": 314.14
-  },
-  {
-   "w": "the",
-   "s": 314.14,
-   "e": 314.28
-  },
-  {
-   "w": "end,",
-   "s": 314.28,
-   "e": 314.5
-  },
-  {
-   "w": "he",
-   "s": 314.76,
-   "e": 314.8
-  },
-  {
-   "w": "was",
-   "s": 314.8,
-   "e": 314.9
-  },
-  {
-   "w": "moody",
-   "s": 314.9,
-   "e": 315.36
-  },
-  {
-   "w": "and",
-   "s": 315.36,
-   "e": 315.48
-  },
-  {
-   "w": "paranoid,",
-   "s": 315.48,
-   "e": 315.82
-  },
-  {
-   "w": "and",
-   "s": 316.46,
-   "e": 316.56
-  },
-  {
-   "w": "couldn't",
-   "s": 316.56,
-   "e": 316.82
-  },
-  {
-   "w": "count",
-   "s": 316.82,
-   "e": 317.02
-  },
-  {
-   "w": "backwards",
-   "s": 317.02,
-   "e": 317.32
-  },
-  {
-   "w": "from",
-   "s": 317.32,
-   "e": 317.78
-  },
-  {
-   "w": "100",
-   "s": 317.78,
-   "e": 318.0
-  },
-  {
-   "w": "in",
-   "s": 318.0,
-   "e": 318.38
-  },
-  {
-   "w": "7s.",
-   "s": 318.38,
-   "e": 318.98
-  },
-  {
-   "w": "Yet",
-   "s": 318.98,
-   "e": 320.04
-  },
-  {
-   "w": "on",
-   "s": 320.04,
-   "e": 320.16
-  },
-  {
-   "w": "day",
-   "s": 320.16,
-   "e": 320.34
-  },
-  {
-   "w": "10,",
-   "s": 320.34,
-   "e": 320.66
-  },
-  {
-   "w": "he",
-   "s": 320.96,
-   "e": 321.0
-  },
-  {
-   "w": "still",
-   "s": 321.0,
-   "e": 321.2
-  },
-  {
-   "w": "beat",
-   "s": 321.2,
-   "e": 321.44
-  },
-  {
-   "w": "a",
-   "s": 321.44,
-   "e": 321.58
-  },
-  {
-   "w": "sleep",
-   "s": 321.58,
-   "e": 321.8
-  },
-  {
-   "w": "scientist",
-   "s": 321.8,
-   "e": 322.34
-  },
-  {
-   "w": "at",
-   "s": 322.34,
-   "e": 322.7
-  },
-  {
-   "w": "pinball.",
-   "s": 322.7,
-   "e": 323.12
-  },
-  {
-   "w": "Today,",
-   "s": 324.06,
-   "e": 324.44
-  },
-  {
-   "w": "Guinness",
-   "s": 324.72,
-   "e": 324.84
-  },
-  {
-   "w": "World",
-   "s": 324.84,
-   "e": 325.2
-  },
-  {
-   "w": "Records",
-   "s": 325.2,
-   "e": 325.5
-  },
-  {
-   "w": "no",
-   "s": 325.5,
-   "e": 325.88
-  },
-  {
-   "w": "longer",
-   "s": 325.88,
-   "e": 326.14
-  },
-  {
-   "w": "accepts",
-   "s": 326.14,
-   "e": 326.54
-  },
-  {
-   "w": "attempts.",
-   "s": 326.54,
-   "e": 326.92
-  },
-  {
-   "w": "It's",
-   "s": 327.62,
-   "e": 327.78
-  },
-  {
-   "w": "considered",
-   "s": 327.78,
-   "e": 328.1
-  },
-  {
-   "w": "too",
-   "s": 328.1,
-   "e": 328.4
-  },
-  {
-   "w": "dangerous.",
-   "s": 328.4,
-   "e": 328.94
-  },
-  {
-   "w": "But",
-   "s": 331.36,
-   "e": 331.58
-  },
-  {
-   "w": "wait,",
-   "s": 331.58,
-   "e": 331.8
-  },
-  {
-   "w": "don't",
-   "s": 332.22,
-   "e": 332.4
-  },
-  {
-   "w": "some",
-   "s": 332.4,
-   "e": 332.54
-  },
-  {
-   "w": "people",
-   "s": 332.54,
-   "e": 332.82
-  },
-  {
-   "w": "get",
-   "s": 332.82,
-   "e": 333.04
-  },
-  {
-   "w": "by",
-   "s": 333.04,
-   "e": 333.22
-  },
-  {
-   "w": "on",
-   "s": 333.22,
-   "e": 333.34
-  },
-  {
-   "w": "five",
-   "s": 333.34,
-   "e": 333.64
-  },
-  {
-   "w": "or",
-   "s": 333.64,
-   "e": 333.82
-  },
-  {
-   "w": "six",
-   "s": 333.82,
-   "e": 334.06
-  },
-  {
-   "w": "hours?",
-   "s": 334.06,
-   "e": 334.38
-  },
-  {
-   "w": "A",
-   "s": 335.4,
-   "e": 335.52
-  },
-  {
-   "w": "tiny",
-   "s": 335.52,
-   "e": 335.74
-  },
-  {
-   "w": "number",
-   "s": 335.74,
-   "e": 336.16
-  },
-  {
-   "w": "really",
-   "s": 336.16,
-   "e": 336.5
-  },
-  {
-   "w": "do.",
-   "s": 336.5,
-   "e": 336.74
-  },
-  {
-   "w": "In",
-   "s": 337.36,
-   "e": 337.44
-  },
-  {
-   "w": "2009,",
-   "s": 337.44,
-   "e": 338.24
-  },
-  {
-   "w": "scientists",
-   "s": 338.62,
-   "e": 339.04
-  },
-  {
-   "w": "found",
-   "s": 339.04,
-   "e": 339.48
-  },
-  {
-   "w": "a",
-   "s": 339.48,
-   "e": 339.6
-  },
-  {
-   "w": "mutation",
-   "s": 339.6,
-   "e": 339.94
-  },
-  {
-   "w": "in",
-   "s": 339.94,
-   "e": 340.24
-  },
-  {
-   "w": "a",
-   "s": 340.24,
-   "e": 340.32
-  },
-  {
-   "w": "gene",
-   "s": 340.32,
-   "e": 340.5
-  },
-  {
-   "w": "called",
-   "s": 340.5,
-   "e": 340.92
-  },
-  {
-   "w": "DK2",
-   "s": 340.92,
-   "e": 341.72
-  },
-  {
-   "w": "in",
-   "s": 341.72,
-   "e": 342.0
-  },
-  {
-   "w": "a",
-   "s": 342.0,
-   "e": 342.08
-  },
-  {
-   "w": "mother",
-   "s": 342.08,
-   "e": 342.28
-  },
-  {
-   "w": "and",
-   "s": 342.28,
-   "e": 342.46
-  },
-  {
-   "w": "daughter",
-   "s": 342.46,
-   "e": 342.74
-  },
-  {
-   "w": "who",
-   "s": 342.74,
-   "e": 343.28
-  },
-  {
-   "w": "naturally",
-   "s": 343.28,
-   "e": 343.56
-  },
-  {
-   "w": "slept",
-   "s": 343.56,
-   "e": 343.88
-  },
-  {
-   "w": "about",
-   "s": 343.88,
-   "e": 344.24
-  },
-  {
-   "w": "six",
-   "s": 344.24,
-   "e": 344.5
-  },
-  {
-   "w": "hours",
-   "s": 344.5,
-   "e": 344.88
-  },
-  {
-   "w": "and",
-   "s": 344.88,
-   "e": 345.32
-  },
-  {
-   "w": "felt",
-   "s": 345.32,
-   "e": 345.5
-  },
-  {
-   "w": "completely",
-   "s": 345.5,
-   "e": 345.94
-  },
-  {
-   "w": "rested.",
-   "s": 345.94,
-   "e": 346.34
-  },
-  {
-   "w": "A",
-   "s": 346.34,
-   "e": 347.0
-  },
-  {
-   "w": "few",
-   "s": 347.0,
-   "e": 347.2
-  },
-  {
-   "w": "more",
-   "s": 347.2,
-   "e": 347.4
-  },
-  {
-   "w": "genes",
-   "s": 347.4,
-   "e": 347.58
-  },
-  {
-   "w": "like",
-   "s": 347.58,
-   "e": 347.92
-  },
-  {
-   "w": "it",
-   "s": 347.92,
-   "e": 348.08
-  },
-  {
-   "w": "have",
-   "s": 348.08,
-   "e": 348.18
-  },
-  {
-   "w": "turned",
-   "s": 348.18,
-   "e": 348.42
-  },
-  {
-   "w": "up",
-   "s": 348.42,
-   "e": 348.62
-  },
-  {
-   "w": "since,",
-   "s": 348.62,
-   "e": 348.86
-  },
-  {
-   "w": "but",
-   "s": 349.38,
-   "e": 349.5
-  },
-  {
-   "w": "only",
-   "s": 349.5,
-   "e": 349.78
-  },
-  {
-   "w": "in",
-   "s": 349.78,
-   "e": 349.96
-  },
-  {
-   "w": "a",
-   "s": 349.96,
-   "e": 350.0
-  },
-  {
-   "w": "handful",
-   "s": 350.0,
-   "e": 350.32
-  },
-  {
-   "w": "of",
-   "s": 350.32,
-   "e": 350.46
-  },
-  {
-   "w": "families",
-   "s": 350.46,
-   "e": 350.8
-  },
-  {
-   "w": "worldwide.",
-   "s": 350.8,
-   "e": 351.16
-  },
-  {
-   "w": "For",
-   "s": 351.94,
-   "e": 352.04
-  },
-  {
-   "w": "everyone",
-   "s": 352.04,
-   "e": 352.28
-  },
-  {
-   "w": "else,",
-   "s": 352.28,
-   "e": 352.6
-  },
-  {
-   "w": "the",
-   "s": 352.8,
-   "e": 352.82
-  },
-  {
-   "w": "advice",
-   "s": 352.82,
-   "e": 353.0
-  },
-  {
-   "w": "is",
-   "s": 353.0,
-   "e": 353.32
-  },
-  {
-   "w": "clear.",
-   "s": 353.32,
-   "e": 353.54
-  },
-  {
-   "w": "Adults",
-   "s": 354.08,
-   "e": 354.3
-  },
-  {
-   "w": "need",
-   "s": 354.3,
-   "e": 354.54
-  },
-  {
-   "w": "seven",
-   "s": 354.54,
-   "e": 354.98
-  },
-  {
-   "w": "hours",
-   "s": 354.98,
-   "e": 355.28
-  },
-  {
-   "w": "or",
-   "s": 355.28,
-   "e": 355.48
-  },
-  {
-   "w": "more.",
-   "s": 355.48,
-   "e": 355.7
-  },
-  {
-   "w": "And",
-   "s": 356.16,
-   "e": 356.26
-  },
-  {
-   "w": "here's",
-   "s": 356.26,
-   "e": 356.56
-  },
-  {
-   "w": "the",
-   "s": 356.56,
-   "e": 356.68
-  },
-  {
-   "w": "trap.",
-   "s": 356.68,
-   "e": 356.9
-  },
-  {
-   "w": "In",
-   "s": 357.5,
-   "e": 357.56
-  },
-  {
-   "w": "one",
-   "s": 357.56,
-   "e": 357.72
-  },
-  {
-   "w": "study,",
-   "s": 357.72,
-   "e": 358.08
-  },
-  {
-   "w": "people",
-   "s": 358.34,
-   "e": 358.62
-  },
-  {
-   "w": "who",
-   "s": 358.62,
-   "e": 358.8
-  },
-  {
-   "w": "slept",
-   "s": 358.8,
-   "e": 358.96
-  },
-  {
-   "w": "six",
-   "s": 358.96,
-   "e": 359.34
-  },
-  {
-   "w": "hours",
-   "s": 359.34,
-   "e": 359.6
-  },
-  {
-   "w": "a",
-   "s": 359.6,
-   "e": 359.7
-  },
-  {
-   "w": "night",
-   "s": 359.7,
-   "e": 359.9
-  },
-  {
-   "w": "for",
-   "s": 359.9,
-   "e": 360.1
-  },
-  {
-   "w": "two",
-   "s": 360.1,
-   "e": 360.28
-  },
-  {
-   "w": "weeks",
-   "s": 360.28,
-   "e": 360.48
-  },
-  {
-   "w": "performed",
-   "s": 360.48,
-   "e": 360.86
-  },
-  {
-   "w": "as",
-   "s": 360.86,
-   "e": 361.18
-  },
-  {
-   "w": "badly",
-   "s": 361.18,
-   "e": 361.4
-  },
-  {
-   "w": "as",
-   "s": 361.4,
-   "e": 361.78
-  },
-  {
-   "w": "people",
-   "s": 361.78,
-   "e": 362.0
-  },
-  {
-   "w": "who",
-   "s": 362.0,
-   "e": 362.28
-  },
-  {
-   "w": "had",
-   "s": 362.28,
-   "e": 362.36
-  },
-  {
-   "w": "pulled",
-   "s": 362.36,
-   "e": 362.54
-  },
-  {
-   "w": "one",
-   "s": 362.54,
-   "e": 362.84
-  },
-  {
-   "w": "or",
-   "s": 362.84,
-   "e": 362.98
-  },
-  {
-   "w": "two",
-   "s": 362.98,
-   "e": 363.14
-  },
-  {
-   "w": "all",
-   "s": 363.14,
-   "e": 363.3
-  },
-  {
-   "w": "-nighters.",
-   "s": 363.3,
-   "e": 363.62
-  },
-  {
-   "w": "But",
-   "s": 364.18,
-   "e": 364.34
-  },
-  {
-   "w": "they",
-   "s": 364.34,
-   "e": 364.46
-  },
-  {
-   "w": "felt",
-   "s": 364.46,
-   "e": 364.62
-  },
-  {
-   "w": "only",
-   "s": 364.62,
-   "e": 364.98
-  },
-  {
-   "w": "slightly",
-   "s": 364.98,
-   "e": 365.3
-  },
-  {
-   "w": "sleepy.",
-   "s": 365.3,
-   "e": 365.7
-  },
-  {
-   "w": "You",
-   "s": 366.34,
-   "e": 366.44
-  },
-  {
-   "w": "don't",
-   "s": 366.44,
-   "e": 366.62
-  },
-  {
-   "w": "notice",
-   "s": 366.62,
-   "e": 366.88
-  },
-  {
-   "w": "how",
-   "s": 366.88,
-   "e": 367.12
-  },
-  {
-   "w": "tired",
-   "s": 367.12,
-   "e": 367.5
-  },
-  {
-   "w": "you",
-   "s": 367.5,
-   "e": 367.7
-  },
-  {
-   "w": "are.",
-   "s": 367.7,
-   "e": 367.88
-  },
-  {
-   "w": "If",
-   "s": 368.26,
-   "e": 368.38
-  },
-  {
-   "w": "you",
-   "s": 368.38,
-   "e": 368.48
-  },
-  {
-   "w": "can't",
-   "s": 368.48,
-   "e": 368.74
-  },
-  {
-   "w": "get",
-   "s": 368.74,
-   "e": 368.86
-  },
-  {
-   "w": "a",
-   "s": 368.86,
-   "e": 368.92
-  },
-  {
-   "w": "full",
-   "s": 368.92,
-   "e": 369.08
-  },
-  {
-   "w": "night,",
-   "s": 369.08,
-   "e": 369.28
-  },
-  {
-   "w": "a",
-   "s": 369.66,
-   "e": 369.76
+   "s": 187.76,
+   "e": 188.16
   },
   {
    "w": "short",
-   "s": 369.76,
-   "e": 370.0
+   "s": 188.16,
+   "e": 188.38
   },
   {
-   "w": "nap",
-   "s": 370.0,
-   "e": 370.2
+   "w": "-term",
+   "s": 188.38,
+   "e": 188.62
   },
   {
-   "w": "helps.",
-   "s": 370.2,
-   "e": 370.5
+   "w": "memory,",
+   "s": 188.62,
+   "e": 189.04
   },
   {
-   "w": "In",
-   "s": 370.5,
-   "e": 371.42
-  },
-  {
-   "w": "a",
-   "s": 371.42,
-   "e": 371.5
-  },
-  {
-   "w": "NASA",
-   "s": 371.5,
-   "e": 371.66
-  },
-  {
-   "w": "study,",
-   "s": 371.66,
-   "e": 372.14
-  },
-  {
-   "w": "long",
-   "s": 372.42,
-   "e": 372.6
-  },
-  {
-   "w": "-haul",
-   "s": 372.6,
-   "e": 372.88
-  },
-  {
-   "w": "pilots",
-   "s": 372.88,
-   "e": 373.26
-  },
-  {
-   "w": "who",
-   "s": 373.26,
-   "e": 373.5
-  },
-  {
-   "w": "napped",
-   "s": 373.5,
-   "e": 373.72
-  },
-  {
-   "w": "for",
-   "s": 373.72,
-   "e": 373.92
-  },
-  {
-   "w": "about",
-   "s": 373.92,
-   "e": 374.04
-  },
-  {
-   "w": "26",
-   "s": 374.04,
-   "e": 374.44
-  },
-  {
-   "w": "minutes",
-   "s": 374.44,
-   "e": 374.9
-  },
-  {
-   "w": "during",
-   "s": 374.9,
-   "e": 375.22
+   "w": "replays",
+   "s": 189.32,
+   "e": 189.66
   },
   {
    "w": "the",
-   "s": 375.22,
-   "e": 375.38
+   "s": 189.66,
+   "e": 189.82
   },
   {
-   "w": "flight",
-   "s": 375.38,
-   "e": 375.6
-  },
-  {
-   "w": "were",
-   "s": 375.6,
-   "e": 376.02
-  },
-  {
-   "w": "up",
-   "s": 376.02,
-   "e": 376.16
-  },
-  {
-   "w": "to",
-   "s": 376.16,
-   "e": 376.28
-  },
-  {
-   "w": "54",
-   "s": 376.28,
-   "e": 376.54
-  },
-  {
-   "w": "%",
-   "s": 376.54,
-   "e": 377.08
-  },
-  {
-   "w": "more",
-   "s": 377.08,
-   "e": 377.36
-  },
-  {
-   "w": "alert.",
-   "s": 377.36,
-   "e": 377.6
-  },
-  {
-   "w": "So",
-   "s": 379.44,
-   "e": 379.68
-  },
-  {
-   "w": "could",
-   "s": 379.68,
-   "e": 379.82
-  },
-  {
-   "w": "you",
-   "s": 379.82,
-   "e": 379.92
-  },
-  {
-   "w": "die",
-   "s": 379.92,
-   "e": 380.12
-  },
-  {
-   "w": "from",
-   "s": 380.12,
-   "e": 380.34
-  },
-  {
-   "w": "it?",
-   "s": 380.34,
-   "e": 380.52
+   "w": "day.",
+   "s": 189.82,
+   "e": 190.0
   },
   {
    "w": "In",
-   "s": 380.98,
-   "e": 381.06
+   "s": 190.0,
+   "e": 190.78
   },
   {
-   "w": "lab",
-   "s": 381.06,
-   "e": 381.26
+   "w": "rats,",
+   "s": 190.78,
+   "e": 190.98
   },
   {
-   "w": "experiments,",
-   "s": 381.26,
-   "e": 381.84
+   "w": "the",
+   "s": 191.38,
+   "e": 191.5
   },
   {
-   "w": "rats",
-   "s": 382.32,
-   "e": 382.52
+   "w": "same",
+   "s": 191.5,
+   "e": 191.74
   },
   {
-   "w": "kept",
-   "s": 382.52,
-   "e": 382.84
+   "w": "brain",
+   "s": 191.74,
+   "e": 191.98
   },
   {
-   "w": "fully",
-   "s": 382.84,
-   "e": 383.2
+   "w": "cells",
+   "s": 191.98,
+   "e": 192.3
   },
   {
-   "w": "awake",
-   "s": 383.2,
-   "e": 383.52
+   "w": "fired",
+   "s": 192.3,
+   "e": 192.7
   },
   {
-   "w": "died",
-   "s": 383.52,
-   "e": 383.78
+   "w": "in",
+   "s": 192.7,
+   "e": 192.98
   },
   {
-   "w": "within",
-   "s": 383.78,
-   "e": 384.14
+   "w": "the",
+   "s": 192.98,
+   "e": 193.08
   },
   {
-   "w": "11",
-   "s": 384.14,
-   "e": 384.44
+   "w": "same",
+   "s": 193.08,
+   "e": 193.32
   },
   {
-   "w": "to",
-   "s": 384.44,
-   "e": 384.76
+   "w": "order",
+   "s": 193.32,
+   "e": 193.58
   },
   {
-   "w": "32",
-   "s": 384.76,
-   "e": 385.16
+   "w": "as",
+   "s": 193.58,
+   "e": 193.88
   },
   {
-   "w": "days.",
-   "s": 385.16,
-   "e": 385.54
+   "w": "they",
+   "s": 193.88,
+   "e": 193.98
   },
   {
-   "w": "In",
-   "s": 386.52,
-   "e": 386.74
+   "w": "had",
+   "s": 193.98,
+   "e": 194.18
   },
   {
-   "w": "2020,",
-   "s": 386.74,
-   "e": 387.18
+   "w": "while",
+   "s": 194.18,
+   "e": 194.38
   },
   {
-   "w": "Harvard",
-   "s": 387.58,
-   "e": 387.88
-  },
-  {
-   "w": "researchers",
-   "s": 387.88,
-   "e": 388.26
-  },
-  {
-   "w": "found",
-   "s": 388.26,
-   "e": 388.8
+   "w": "running",
+   "s": 194.38,
+   "e": 194.62
   },
   {
    "w": "a",
-   "s": 388.8,
-   "e": 388.88
+   "s": 194.62,
+   "e": 194.78
   },
   {
-   "w": "clue",
-   "s": 388.88,
-   "e": 389.04
+   "w": "maze,",
+   "s": 194.78,
+   "e": 195.0
+  },
+  {
+   "w": "as",
+   "s": 195.48,
+   "e": 195.66
+  },
+  {
+   "w": "if",
+   "s": 195.66,
+   "e": 195.78
+  },
+  {
+   "w": "rehearsing.",
+   "s": 195.78,
+   "e": 196.4
+  },
+  {
+   "w": "Those",
+   "s": 196.74,
+   "e": 196.92
+  },
+  {
+   "w": "memories",
+   "s": 196.92,
+   "e": 197.28
+  },
+  {
+   "w": "get",
+   "s": 197.28,
+   "e": 197.6
+  },
+  {
+   "w": "copied",
+   "s": 197.6,
+   "e": 197.86
+  },
+  {
+   "w": "into",
+   "s": 197.86,
+   "e": 198.12
+  },
+  {
+   "w": "long",
+   "s": 198.12,
+   "e": 198.38
+  },
+  {
+   "w": "-term",
+   "s": 198.38,
+   "e": 198.64
+  },
+  {
+   "w": "storage.",
+   "s": 198.64,
+   "e": 199.12
+  },
+  {
+   "w": "Skip",
+   "s": 199.92,
+   "e": 199.92
+  },
+  {
+   "w": "sleep,",
+   "s": 199.92,
+   "e": 200.24
+  },
+  {
+   "w": "and",
+   "s": 200.56,
+   "e": 200.76
+  },
+  {
+   "w": "much",
+   "s": 200.76,
+   "e": 200.9
+  },
+  {
+   "w": "of",
+   "s": 200.9,
+   "e": 201.08
+  },
+  {
+   "w": "today",
+   "s": 201.08,
+   "e": 201.32
+  },
+  {
+   "w": "simply",
+   "s": 201.32,
+   "e": 201.62
+  },
+  {
+   "w": "doesn't",
+   "s": 201.62,
+   "e": 202.08
+  },
+  {
+   "w": "get",
+   "s": 202.08,
+   "e": 202.2
+  },
+  {
+   "w": "saved.",
+   "s": 202.2,
+   "e": 202.64
+  },
+  {
+   "w": "In",
+   "s": 203.58,
+   "e": 203.72
+  },
+  {
+   "w": "one",
+   "s": 203.72,
+   "e": 203.88
+  },
+  {
+   "w": "experiment,",
+   "s": 203.88,
+   "e": 204.54
+  },
+  {
+   "w": "students",
+   "s": 204.78,
+   "e": 205.2
+  },
+  {
+   "w": "who",
+   "s": 205.2,
+   "e": 205.44
+  },
+  {
+   "w": "had",
+   "s": 205.44,
+   "e": 205.54
+  },
+  {
+   "w": "been",
+   "s": 205.54,
+   "e": 205.68
+  },
+  {
+   "w": "kept",
+   "s": 205.68,
+   "e": 205.88
+  },
+  {
+   "w": "awake",
+   "s": 205.88,
+   "e": 206.18
+  },
+  {
+   "w": "for",
+   "s": 206.18,
+   "e": 206.44
+  },
+  {
+   "w": "a",
+   "s": 206.44,
+   "e": 206.44
+  },
+  {
+   "w": "night",
+   "s": 206.44,
+   "e": 206.68
+  },
+  {
+   "w": "remembered",
+   "s": 206.68,
+   "e": 207.22
+  },
+  {
+   "w": "19",
+   "s": 207.22,
+   "e": 207.76
+  },
+  {
+   "w": "%",
+   "s": 207.76,
+   "e": 208.28
+  },
+  {
+   "w": "less",
+   "s": 208.28,
+   "e": 208.6
+  },
+  {
+   "w": "from",
+   "s": 208.6,
+   "e": 208.88
+  },
+  {
+   "w": "a",
+   "s": 208.88,
+   "e": 208.96
+  },
+  {
+   "w": "set",
+   "s": 208.96,
+   "e": 209.12
+  },
+  {
+   "w": "of",
+   "s": 209.12,
+   "e": 209.22
+  },
+  {
+   "w": "pictures,",
+   "s": 209.22,
+   "e": 209.56
+  },
+  {
+   "w": "even",
+   "s": 210.04,
+   "e": 210.44
+  },
+  {
+   "w": "after",
+   "s": 210.44,
+   "e": 210.64
+  },
+  {
+   "w": "they",
+   "s": 210.64,
+   "e": 210.88
+  },
+  {
+   "w": "had",
+   "s": 210.88,
+   "e": 210.98
+  },
+  {
+   "w": "caught",
+   "s": 210.98,
+   "e": 211.16
+  },
+  {
+   "w": "up",
+   "s": 211.16,
+   "e": 211.36
+  },
+  {
+   "w": "on",
+   "s": 211.36,
+   "e": 211.52
+  },
+  {
+   "w": "sleep.",
+   "s": 211.52,
+   "e": 211.8
+  },
+  {
+   "w": "And",
+   "s": 212.3,
+   "e": 212.38
+  },
+  {
+   "w": "the",
+   "s": 212.38,
+   "e": 212.46
+  },
+  {
+   "w": "brain",
+   "s": 212.46,
+   "e": 212.68
+  },
+  {
+   "w": "cleaning",
+   "s": 212.68,
+   "e": 212.94
+  },
+  {
+   "w": "I",
+   "s": 212.94,
+   "e": 213.32
+  },
+  {
+   "w": "keep",
+   "s": 213.32,
+   "e": 213.52
+  },
+  {
+   "w": "hearing",
+   "s": 213.52,
+   "e": 213.76
+  },
+  {
+   "w": "about.",
+   "s": 213.76,
+   "e": 214.14
+  },
+  {
+   "w": "That's",
+   "s": 214.76,
+   "e": 215.14
+  },
+  {
+   "w": "real.",
+   "s": 215.14,
+   "e": 215.26
+  },
+  {
+   "w": "During",
+   "s": 215.8,
+   "e": 215.8
+  },
+  {
+   "w": "sleep,",
+   "s": 215.8,
+   "e": 216.08
+  },
+  {
+   "w": "your",
+   "s": 216.38,
+   "e": 216.46
+  },
+  {
+   "w": "brain",
+   "s": 216.46,
+   "e": 216.68
+  },
+  {
+   "w": "cells",
+   "s": 216.68,
+   "e": 216.96
+  },
+  {
+   "w": "shrink",
+   "s": 216.96,
+   "e": 217.28
+  },
+  {
+   "w": "apart",
+   "s": 217.28,
+   "e": 217.62
+  },
+  {
+   "w": "and",
+   "s": 217.62,
+   "e": 217.98
+  },
+  {
+   "w": "fluid",
+   "s": 217.98,
+   "e": 218.22
+  },
+  {
+   "w": "washes",
+   "s": 218.22,
+   "e": 218.66
+  },
+  {
+   "w": "out",
+   "s": 218.66,
+   "e": 218.88
+  },
+  {
+   "w": "waste,",
+   "s": 218.88,
+   "e": 219.12
+  },
+  {
+   "w": "like",
+   "s": 219.12,
+   "e": 219.88
+  },
+  {
+   "w": "proteins",
+   "s": 219.88,
+   "e": 220.3
+  },
+  {
+   "w": "linked",
+   "s": 220.3,
+   "e": 220.66
   },
   {
    "w": "to",
+   "s": 220.66,
+   "e": 220.88
+  },
+  {
+   "w": "Alzheimer's.",
+   "s": 220.88,
+   "e": 221.68
+  },
+  {
+   "w": "In",
+   "s": 222.16,
+   "e": 222.24
+  },
+  {
+   "w": "mice,",
+   "s": 222.24,
+   "e": 222.44
+  },
+  {
+   "w": "the",
+   "s": 222.84,
+   "e": 222.86
+  },
+  {
+   "w": "space",
+   "s": 222.86,
+   "e": 223.16
+  },
+  {
+   "w": "between",
+   "s": 223.16,
+   "e": 223.46
+  },
+  {
+   "w": "brain",
+   "s": 223.46,
+   "e": 223.66
+  },
+  {
+   "w": "cells",
+   "s": 223.66,
+   "e": 224.02
+  },
+  {
+   "w": "grew",
+   "s": 224.02,
+   "e": 224.42
+  },
+  {
+   "w": "by",
+   "s": 224.42,
+   "e": 224.6
+  },
+  {
+   "w": "60",
+   "s": 224.6,
+   "e": 224.92
+  },
+  {
+   "w": "%",
+   "s": 224.92,
+   "e": 225.4
+  },
+  {
+   "w": "during",
+   "s": 225.4,
+   "e": 225.66
+  },
+  {
+   "w": "sleep.",
+   "s": 225.66,
+   "e": 225.98
+  },
+  {
+   "w": "No",
+   "s": 226.78,
+   "e": 226.88
+  },
+  {
+   "w": "sleep,",
+   "s": 226.88,
+   "e": 227.18
+  },
+  {
+   "w": "no",
+   "s": 227.44,
+   "e": 227.6
+  },
+  {
+   "w": "wash.",
+   "s": 227.6,
+   "e": 227.86
+  },
+  {
+   "w": "What",
+   "s": 228.44,
+   "e": 228.56
+  },
+  {
+   "w": "about",
+   "s": 228.56,
+   "e": 228.72
+  },
+  {
+   "w": "the",
+   "s": 228.72,
+   "e": 228.88
+  },
+  {
+   "w": "rest",
+   "s": 228.88,
+   "e": 229.04
+  },
+  {
+   "w": "of",
+   "s": 229.04,
+   "e": 229.24
+  },
+  {
+   "w": "the",
+   "s": 229.24,
+   "e": 229.32
+  },
+  {
+   "w": "body?",
+   "s": 229.32,
+   "e": 229.64
+  },
+  {
+   "w": "It",
+   "s": 231.38,
+   "e": 231.6
+  },
+  {
+   "w": "notices",
+   "s": 231.6,
+   "e": 232.0
+  },
+  {
+   "w": "too.",
+   "s": 232.0,
+   "e": 232.44
+  },
+  {
+   "w": "After",
+   "s": 232.96,
+   "e": 233.1
+  },
+  {
+   "w": "just",
+   "s": 233.1,
+   "e": 233.4
+  },
+  {
+   "w": "two",
+   "s": 233.4,
+   "e": 233.62
+  },
+  {
+   "w": "short",
+   "s": 233.62,
+   "e": 233.92
+  },
+  {
+   "w": "nights,",
+   "s": 233.92,
+   "e": 234.18
+  },
+  {
+   "w": "the",
+   "s": 234.68,
+   "e": 234.78
+  },
+  {
+   "w": "hormone",
+   "s": 234.78,
+   "e": 234.98
+  },
+  {
+   "w": "that",
+   "s": 234.98,
+   "e": 235.26
+  },
+  {
+   "w": "says",
+   "s": 235.26,
+   "e": 235.4
+  },
+  {
+   "w": "I'm",
+   "s": 235.4,
+   "e": 235.7
+  },
+  {
+   "w": "full",
+   "s": 235.7,
+   "e": 235.88
+  },
+  {
+   "w": "dropped",
+   "s": 235.88,
+   "e": 236.14
+  },
+  {
+   "w": "by",
+   "s": 236.14,
+   "e": 236.46
+  },
+  {
+   "w": "18%,",
+   "s": 236.46,
+   "e": 237.2
+  },
+  {
+   "w": "and",
+   "s": 237.2,
+   "e": 237.78
+  },
+  {
+   "w": "the",
+   "s": 237.78,
+   "e": 237.86
+  },
+  {
+   "w": "one",
+   "s": 237.86,
+   "e": 238.0
+  },
+  {
+   "w": "that",
+   "s": 238.0,
+   "e": 238.14
+  },
+  {
+   "w": "says",
+   "s": 238.14,
+   "e": 238.28
+  },
+  {
+   "w": "I'm",
+   "s": 238.28,
+   "e": 238.58
+  },
+  {
+   "w": "hungry",
+   "s": 238.58,
+   "e": 238.92
+  },
+  {
+   "w": "rose",
+   "s": 238.92,
+   "e": 239.18
+  },
+  {
+   "w": "by",
+   "s": 239.18,
+   "e": 239.52
+  },
+  {
+   "w": "28.",
+   "s": 239.52,
+   "e": 239.88
+  },
+  {
+   "w": "Is",
+   "s": 240.5,
+   "e": 240.62
+  },
+  {
+   "w": "that",
+   "s": 240.62,
+   "e": 240.72
+  },
+  {
+   "w": "why",
+   "s": 240.72,
+   "e": 240.9
+  },
+  {
+   "w": "I",
+   "s": 240.9,
+   "e": 241.08
+  },
+  {
+   "w": "crave",
+   "s": 241.08,
+   "e": 241.26
+  },
+  {
+   "w": "junk",
+   "s": 241.26,
+   "e": 241.62
+  },
+  {
+   "w": "food",
+   "s": 241.62,
+   "e": 241.9
+  },
+  {
+   "w": "when",
+   "s": 241.9,
+   "e": 242.12
+  },
+  {
+   "w": "I'm",
+   "s": 242.12,
+   "e": 242.26
+  },
+  {
+   "w": "tired?",
+   "s": 242.26,
+   "e": 242.54
+  },
+  {
+   "w": "Exactly,",
+   "s": 243.24,
+   "e": 243.62
+  },
+  {
+   "w": "tired",
+   "s": 244.04,
+   "e": 244.22
+  },
+  {
+   "w": "brains",
+   "s": 244.22,
+   "e": 244.6
+  },
+  {
+   "w": "crave",
+   "s": 244.6,
+   "e": 244.9
+  },
+  {
+   "w": "sugar",
+   "s": 244.9,
+   "e": 245.3
+  },
+  {
+   "w": "and",
+   "s": 245.3,
+   "e": 245.56
+  },
+  {
+   "w": "fat.",
+   "s": 245.56,
+   "e": 245.8
+  },
+  {
+   "w": "After",
+   "s": 246.58,
+   "e": 247.1
+  },
+  {
+   "w": "six",
+   "s": 247.1,
+   "e": 247.42
+  },
+  {
+   "w": "nights",
+   "s": 247.42,
+   "e": 247.66
+  },
+  {
+   "w": "of",
+   "s": 247.66,
+   "e": 247.88
+  },
+  {
+   "w": "only",
+   "s": 247.88,
+   "e": 248.1
+  },
+  {
+   "w": "four",
+   "s": 248.1,
+   "e": 248.34
+  },
+  {
+   "w": "hours,",
+   "s": 248.34,
+   "e": 248.84
+  },
+  {
+   "w": "healthy",
+   "s": 249.06,
+   "e": 249.4
+  },
+  {
+   "w": "young",
+   "s": 249.4,
+   "e": 249.72
+  },
+  {
+   "w": "men",
+   "s": 249.72,
+   "e": 250.0
+  },
+  {
+   "w": "handled",
+   "s": 250.0,
+   "e": 250.42
+  },
+  {
+   "w": "sugar",
+   "s": 250.42,
+   "e": 250.74
+  },
+  {
+   "w": "like",
+   "s": 250.74,
+   "e": 251.16
+  },
+  {
+   "w": "people",
+   "s": 251.16,
+   "e": 251.54
+  },
+  {
+   "w": "on",
+   "s": 251.54,
+   "e": 251.7
+  },
+  {
+   "w": "their",
+   "s": 251.7,
+   "e": 251.84
+  },
+  {
+   "w": "way",
+   "s": 251.84,
+   "e": 252.04
+  },
+  {
+   "w": "to",
+   "s": 252.04,
+   "e": 252.24
+  },
+  {
+   "w": "diabetes.",
+   "s": 252.24,
+   "e": 252.54
+  },
+  {
+   "w": "Even",
+   "s": 253.46,
+   "e": 253.6
+  },
+  {
+   "w": "repairs",
+   "s": 253.6,
+   "e": 253.94
+  },
+  {
+   "w": "wait",
+   "s": 253.94,
+   "e": 254.28
+  },
+  {
+   "w": "for",
+   "s": 254.28,
+   "e": 254.52
+  },
+  {
+   "w": "the",
+   "s": 254.52,
+   "e": 254.6
+  },
+  {
+   "w": "night.",
+   "s": 254.6,
+   "e": 254.82
+  },
+  {
+   "w": "Much",
+   "s": 255.5,
+   "e": 255.58
+  },
+  {
+   "w": "of",
+   "s": 255.58,
+   "e": 255.78
+  },
+  {
+   "w": "your",
+   "s": 255.78,
+   "e": 255.86
+  },
+  {
+   "w": "growth",
+   "s": 255.86,
+   "e": 256.1
+  },
+  {
+   "w": "hormone,",
+   "s": 256.1,
+   "e": 256.42
+  },
+  {
+   "w": "which",
+   "s": 256.86,
+   "e": 257.0
+  },
+  {
+   "w": "helps",
+   "s": 257.0,
+   "e": 257.2
+  },
+  {
+   "w": "rebuild",
+   "s": 257.2,
+   "e": 257.48
+  },
+  {
+   "w": "muscle",
+   "s": 257.48,
+   "e": 258.0
+  },
+  {
+   "w": "and",
+   "s": 258.0,
+   "e": 258.18
+  },
+  {
+   "w": "tissue,",
+   "s": 258.18,
+   "e": 258.42
+  },
+  {
+   "w": "is",
+   "s": 258.88,
+   "e": 259.0
+  },
+  {
+   "w": "released",
+   "s": 259.0,
+   "e": 259.22
+  },
+  {
+   "w": "during",
+   "s": 259.22,
+   "e": 259.66
+  },
+  {
+   "w": "deep",
+   "s": 259.66,
+   "e": 259.94
+  },
+  {
+   "w": "sleep.",
+   "s": 259.94,
+   "e": 260.28
+  },
+  {
+   "w": "Does",
+   "s": 260.82,
+   "e": 260.96
+  },
+  {
+   "w": "it",
+   "s": 260.96,
+   "e": 261.04
+  },
+  {
+   "w": "make",
+   "s": 261.04,
+   "e": 261.16
+  },
+  {
+   "w": "you",
+   "s": 261.16,
+   "e": 261.34
+  },
+  {
+   "w": "sick",
+   "s": 261.34,
+   "e": 261.52
+  },
+  {
+   "w": "too?",
+   "s": 261.52,
+   "e": 261.82
+  },
+  {
+   "w": "It",
+   "s": 262.48,
+   "e": 262.64
+  },
+  {
+   "w": "can,",
+   "s": 262.64,
+   "e": 262.88
+  },
+  {
+   "w": "your",
+   "s": 263.26,
+   "e": 263.34
+  },
+  {
+   "w": "defense",
+   "s": 263.34,
+   "e": 263.6
+  },
+  {
+   "w": "is",
+   "s": 263.6,
+   "e": 263.86
+  },
+  {
+   "w": "weakened.",
+   "s": 263.86,
+   "e": 264.1
+  },
+  {
+   "w": "People",
+   "s": 264.84,
+   "e": 265.02
+  },
+  {
+   "w": "who",
+   "s": 265.02,
+   "e": 265.2
+  },
+  {
+   "w": "slept",
+   "s": 265.2,
+   "e": 265.38
+  },
+  {
+   "w": "six",
+   "s": 265.38,
+   "e": 265.76
+  },
+  {
+   "w": "hours",
+   "s": 265.76,
+   "e": 266.06
+  },
+  {
+   "w": "or",
+   "s": 266.06,
+   "e": 266.24
+  },
+  {
+   "w": "less",
+   "s": 266.24,
+   "e": 266.46
+  },
+  {
+   "w": "were",
+   "s": 266.46,
+   "e": 266.78
+  },
+  {
+   "w": "about",
+   "s": 266.78,
+   "e": 266.96
+  },
+  {
+   "w": "four",
+   "s": 266.96,
+   "e": 267.3
+  },
+  {
+   "w": "times",
+   "s": 267.3,
+   "e": 267.62
+  },
+  {
+   "w": "more",
+   "s": 267.62,
+   "e": 267.88
+  },
+  {
+   "w": "likely",
+   "s": 267.88,
+   "e": 268.14
+  },
+  {
+   "w": "to",
+   "s": 268.14,
+   "e": 268.4
+  },
+  {
+   "w": "catch",
+   "s": 268.4,
+   "e": 268.6
+  },
+  {
+   "w": "a",
+   "s": 268.6,
+   "e": 268.74
+  },
+  {
+   "w": "cold",
+   "s": 268.74,
+   "e": 268.94
+  },
+  {
+   "w": "after",
+   "s": 268.94,
+   "e": 269.24
+  },
+  {
+   "w": "being",
+   "s": 269.24,
+   "e": 269.52
+  },
+  {
+   "w": "exposed",
+   "s": 269.52,
+   "e": 269.82
+  },
+  {
+   "w": "to",
+   "s": 269.82,
+   "e": 270.18
+  },
+  {
+   "w": "the",
+   "s": 270.18,
+   "e": 270.26
+  },
+  {
+   "w": "virus.",
+   "s": 270.26,
+   "e": 270.58
+  },
+  {
+   "w": "And",
+   "s": 270.58,
+   "e": 271.3
+  },
+  {
+   "w": "over",
+   "s": 271.3,
+   "e": 271.44
+  },
+  {
+   "w": "the",
+   "s": 271.44,
+   "e": 271.58
+  },
+  {
+   "w": "years,",
+   "s": 271.58,
+   "e": 271.88
+  },
+  {
+   "w": "people",
+   "s": 272.22,
+   "e": 272.42
+  },
+  {
+   "w": "who",
+   "s": 272.42,
+   "e": 272.6
+  },
+  {
+   "w": "regularly",
+   "s": 272.6,
+   "e": 272.88
+  },
+  {
+   "w": "sleep",
+   "s": 272.88,
+   "e": 273.28
+  },
+  {
+   "w": "less",
+   "s": 273.28,
+   "e": 273.64
+  },
+  {
+   "w": "than",
+   "s": 273.64,
+   "e": 273.8
+  },
+  {
+   "w": "six",
+   "s": 273.8,
+   "e": 274.02
+  },
+  {
+   "w": "hours",
+   "s": 274.02,
+   "e": 274.36
+  },
+  {
+   "w": "have",
+   "s": 274.36,
+   "e": 274.82
+  },
+  {
+   "w": "higher",
+   "s": 274.82,
+   "e": 275.02
+  },
+  {
+   "w": "rates",
+   "s": 275.02,
+   "e": 275.46
+  },
+  {
+   "w": "of",
+   "s": 275.46,
+   "e": 275.56
+  },
+  {
+   "w": "heart",
+   "s": 275.56,
+   "e": 275.74
+  },
+  {
+   "w": "disease,",
+   "s": 275.74,
+   "e": 276.08
+  },
+  {
+   "w": "obesity",
+   "s": 276.68,
+   "e": 276.98
+  },
+  {
+   "w": "and",
+   "s": 276.98,
+   "e": 277.54
+  },
+  {
+   "w": "diabetes.",
+   "s": 277.54,
+   "e": 277.88
+  },
+  {
+   "w": "Back",
+   "s": 278.66,
+   "e": 278.82
+  },
+  {
+   "w": "to",
+   "s": 278.82,
+   "e": 279.04
+  },
+  {
+   "w": "our",
+   "s": 279.04,
+   "e": 279.16
+  },
+  {
+   "w": "experiment.",
+   "s": 279.16,
+   "e": 279.46
+  },
+  {
+   "w": "What",
+   "s": 280.2,
+   "e": 280.22
+  },
+  {
+   "w": "happens",
+   "s": 280.22,
+   "e": 280.52
+  },
+  {
+   "w": "on",
+   "s": 280.52,
+   "e": 280.74
+  },
+  {
+   "w": "day",
+   "s": 280.74,
+   "e": 280.92
+  },
+  {
+   "w": "two?",
+   "s": 280.92,
+   "e": 281.22
+  },
+  {
+   "w": "Your",
+   "s": 282.86,
+   "e": 283.1
+  },
+  {
+   "w": "brain",
+   "s": 283.1,
+   "e": 283.32
+  },
+  {
+   "w": "starts",
+   "s": 283.32,
+   "e": 283.64
+  },
+  {
+   "w": "shutting",
+   "s": 283.64,
+   "e": 283.98
+  },
+  {
+   "w": "off",
+   "s": 283.98,
+   "e": 284.28
+  },
+  {
+   "w": "without",
+   "s": 284.28,
+   "e": 284.44
+  },
+  {
+   "w": "asking.",
+   "s": 284.44,
+   "e": 284.98
+  },
+  {
+   "w": "Micro",
+   "s": 285.7,
+   "e": 285.92
+  },
+  {
+   "w": "-sleeps",
+   "s": 285.92,
+   "e": 286.5
+  },
+  {
+   "w": "a",
+   "s": 286.5,
+   "e": 286.6
+  },
+  {
+   "w": "few",
+   "s": 286.6,
+   "e": 286.74
+  },
+  {
+   "w": "seconds",
+   "s": 286.74,
+   "e": 287.02
+  },
+  {
+   "w": "at",
+   "s": 287.02,
+   "e": 287.2
+  },
+  {
+   "w": "a",
+   "s": 287.2,
+   "e": 287.24
+  },
+  {
+   "w": "time,",
+   "s": 287.24,
+   "e": 287.58
+  },
+  {
+   "w": "sometimes",
+   "s": 287.88,
+   "e": 288.18
+  },
+  {
+   "w": "with",
+   "s": 288.18,
+   "e": 288.62
+  },
+  {
+   "w": "your",
+   "s": 288.62,
+   "e": 288.74
+  },
+  {
+   "w": "eyes",
+   "s": 288.74,
+   "e": 289.02
+  },
+  {
+   "w": "open.",
+   "s": 289.02,
+   "e": 289.32
+  },
+  {
+   "w": "Your",
+   "s": 289.9,
+   "e": 289.92
+  },
+  {
+   "w": "emotions",
+   "s": 289.92,
+   "e": 290.3
+  },
+  {
+   "w": "go",
+   "s": 290.3,
+   "e": 290.64
+  },
+  {
+   "w": "haywire.",
+   "s": 290.64,
+   "e": 291.14
+  },
+  {
+   "w": "After",
+   "s": 291.74,
+   "e": 291.92
+  },
+  {
+   "w": "a",
+   "s": 291.92,
+   "e": 292.0
+  },
+  {
+   "w": "night",
+   "s": 292.0,
+   "e": 292.18
+  },
+  {
+   "w": "without",
+   "s": 292.18,
+   "e": 292.38
+  },
+  {
+   "w": "sleep,",
+   "s": 292.38,
+   "e": 292.78
+  },
+  {
+   "w": "the",
+   "s": 293.18,
+   "e": 293.22
+  },
+  {
+   "w": "brain's",
+   "s": 293.22,
+   "e": 293.6
+  },
+  {
+   "w": "alarm",
+   "s": 293.6,
+   "e": 293.78
+  },
+  {
+   "w": "center,",
+   "s": 293.78,
+   "e": 294.3
+  },
+  {
+   "w": "the",
+   "s": 294.64,
+   "e": 294.74
+  },
+  {
+   "w": "amygdala,",
+   "s": 294.74,
+   "e": 294.92
+  },
+  {
+   "w": "reacted",
+   "s": 295.68,
+   "e": 295.84
+  },
+  {
+   "w": "over",
+   "s": 295.84,
+   "e": 296.24
+  },
+  {
+   "w": "60",
+   "s": 296.24,
+   "e": 296.5
+  },
+  {
+   "w": "%",
+   "s": 296.5,
+   "e": 296.94
+  },
+  {
+   "w": "more",
+   "s": 296.94,
+   "e": 297.2
+  },
+  {
+   "w": "strongly",
+   "s": 297.2,
+   "e": 297.58
+  },
+  {
+   "w": "to",
+   "s": 297.58,
+   "e": 297.88
+  },
+  {
+   "w": "upsetting",
+   "s": 297.88,
+   "e": 298.2
+  },
+  {
+   "w": "images.",
+   "s": 298.2,
+   "e": 298.6
+  },
+  {
+   "w": "The",
+   "s": 298.6,
+   "e": 299.48
+  },
+  {
+   "w": "calm,",
+   "s": 299.48,
+   "e": 299.74
+  },
+  {
+   "w": "rational",
+   "s": 299.88,
+   "e": 300.38
+  },
+  {
+   "w": "front",
+   "s": 300.38,
+   "e": 300.66
+  },
+  {
+   "w": "of",
+   "s": 300.66,
+   "e": 300.86
+  },
+  {
+   "w": "the",
+   "s": 300.86,
+   "e": 300.92
+  },
+  {
+   "w": "brain",
+   "s": 300.92,
+   "e": 301.18
+  },
+  {
+   "w": "loses",
+   "s": 301.18,
+   "e": 301.52
+  },
+  {
+   "w": "its",
+   "s": 301.52,
+   "e": 301.8
+  },
+  {
+   "w": "grip",
+   "s": 301.8,
+   "e": 302.02
+  },
+  {
+   "w": "on",
+   "s": 302.02,
+   "e": 302.24
+  },
+  {
+   "w": "it.",
+   "s": 302.24,
+   "e": 302.38
+  },
+  {
+   "w": "And",
+   "s": 302.8,
+   "e": 302.9
+  },
+  {
+   "w": "day",
+   "s": 302.9,
+   "e": 303.06
+  },
+  {
+   "w": "three?",
+   "s": 303.06,
+   "e": 303.38
+  },
+  {
+   "w": "The",
+   "s": 304.02,
+   "e": 304.2
+  },
+  {
+   "w": "walls",
+   "s": 304.2,
+   "e": 304.4
+  },
+  {
+   "w": "start",
+   "s": 304.4,
+   "e": 304.72
+  },
+  {
+   "w": "to",
+   "s": 304.72,
+   "e": 304.94
+  },
+  {
+   "w": "breathe.",
+   "s": 304.94,
+   "e": 305.18
+  },
+  {
+   "w": "You",
+   "s": 305.72,
+   "e": 305.72
+  },
+  {
+   "w": "see",
+   "s": 305.72,
+   "e": 305.9
+  },
+  {
+   "w": "and",
+   "s": 305.9,
+   "e": 306.04
+  },
+  {
+   "w": "hear",
+   "s": 306.04,
+   "e": 306.22
+  },
+  {
+   "w": "things",
+   "s": 306.22,
+   "e": 306.52
+  },
+  {
+   "w": "that",
+   "s": 306.52,
+   "e": 306.72
+  },
+  {
+   "w": "aren't",
+   "s": 306.72,
+   "e": 306.94
+  },
+  {
+   "w": "there,",
+   "s": 306.94,
+   "e": 307.18
+  },
+  {
+   "w": "hallucinations.",
+   "s": 307.54,
+   "e": 307.74
+  },
+  {
+   "w": "Has",
+   "s": 309.34,
+   "e": 309.5
+  },
+  {
+   "w": "anyone",
+   "s": 309.5,
+   "e": 309.78
+  },
+  {
+   "w": "really",
+   "s": 309.78,
+   "e": 310.14
+  },
+  {
+   "w": "lived",
+   "s": 310.14,
+   "e": 310.52
+  },
+  {
+   "w": "through",
+   "s": 310.52,
+   "e": 310.74
+  },
+  {
+   "w": "this?",
+   "s": 310.74,
+   "e": 311.06
+  },
+  {
+   "w": "Yes,",
+   "s": 311.58,
+   "e": 311.82
+  },
+  {
+   "w": "in",
+   "s": 312.12,
+   "e": 312.22
+  },
+  {
+   "w": "1959,",
+   "s": 312.22,
+   "e": 313.02
+  },
+  {
+   "w": "a",
+   "s": 313.54,
+   "e": 313.7
+  },
+  {
+   "w": "New",
+   "s": 313.7,
+   "e": 313.86
+  },
+  {
+   "w": "York",
+   "s": 313.86,
+   "e": 314.08
+  },
+  {
+   "w": "radio",
+   "s": 314.08,
+   "e": 314.42
+  },
+  {
+   "w": "DJ",
+   "s": 314.42,
+   "e": 314.7
+  },
+  {
+   "w": "named",
+   "s": 314.7,
+   "e": 315.2
+  },
+  {
+   "w": "Peter",
+   "s": 315.2,
+   "e": 315.42
+  },
+  {
+   "w": "Trip",
+   "s": 315.42,
+   "e": 315.76
+  },
+  {
+   "w": "stayed",
+   "s": 315.76,
+   "e": 316.16
+  },
+  {
+   "w": "awake",
+   "s": 316.16,
+   "e": 316.46
+  },
+  {
+   "w": "for",
+   "s": 316.46,
+   "e": 316.72
+  },
+  {
+   "w": "201",
+   "s": 316.72,
+   "e": 317.14
+  },
+  {
+   "w": "hours",
+   "s": 317.14,
+   "e": 317.82
+  },
+  {
+   "w": "for",
+   "s": 317.82,
+   "e": 318.02
+  },
+  {
+   "w": "charity,",
+   "s": 318.02,
+   "e": 318.24
+  },
+  {
+   "w": "broadcasting",
+   "s": 318.96,
+   "e": 319.22
+  },
+  {
+   "w": "from",
+   "s": 319.22,
+   "e": 319.74
+  },
+  {
+   "w": "a",
+   "s": 319.74,
+   "e": 319.82
+  },
+  {
+   "w": "glass",
+   "s": 319.82,
+   "e": 319.98
+  },
+  {
+   "w": "booth",
+   "s": 319.98,
+   "e": 320.3
+  },
+  {
+   "w": "in",
+   "s": 320.3,
+   "e": 320.56
+  },
+  {
+   "w": "Times",
+   "s": 320.56,
+   "e": 320.78
+  },
+  {
+   "w": "Square.",
+   "s": 320.78,
+   "e": 321.16
+  },
+  {
+   "w": "He",
+   "s": 321.7,
+   "e": 321.76
+  },
+  {
+   "w": "saw",
+   "s": 321.76,
+   "e": 321.92
+  },
+  {
+   "w": "spiders",
+   "s": 321.92,
+   "e": 322.18
+  },
+  {
+   "w": "in",
+   "s": 322.18,
+   "e": 322.62
+  },
+  {
+   "w": "his",
+   "s": 322.62,
+   "e": 322.74
+  },
+  {
+   "w": "shoes",
+   "s": 322.74,
+   "e": 323.02
+  },
+  {
+   "w": "and",
+   "s": 323.02,
+   "e": 323.36
+  },
+  {
+   "w": "mice",
+   "s": 323.36,
+   "e": 323.56
+  },
+  {
+   "w": "in",
+   "s": 323.56,
+   "e": 323.96
+  },
+  {
+   "w": "the",
+   "s": 323.96,
+   "e": 324.06
+  },
+  {
+   "w": "studio.",
+   "s": 324.06,
+   "e": 324.42
+  },
+  {
+   "w": "Doctors",
+   "s": 324.42,
+   "e": 325.46
+  },
+  {
+   "w": "had",
+   "s": 325.46,
+   "e": 325.7
+  },
+  {
+   "w": "also",
+   "s": 325.7,
+   "e": 325.82
+  },
+  {
+   "w": "given",
+   "s": 325.82,
+   "e": 326.16
+  },
+  {
+   "w": "him",
+   "s": 326.16,
+   "e": 326.36
+  },
+  {
+   "w": "stimulants",
+   "s": 326.36,
+   "e": 326.92
+  },
+  {
+   "w": "to",
+   "s": 326.92,
+   "e": 327.04
+  },
+  {
+   "w": "keep",
+   "s": 327.04,
+   "e": 327.22
+  },
+  {
+   "w": "him",
+   "s": 327.22,
+   "e": 327.4
+  },
+  {
+   "w": "going,",
+   "s": 327.4,
+   "e": 327.72
+  },
+  {
+   "w": "which",
+   "s": 328.16,
+   "e": 328.28
+  },
+  {
+   "w": "probably",
+   "s": 328.28,
+   "e": 328.58
+  },
+  {
+   "w": "made",
+   "s": 328.58,
+   "e": 328.96
+  },
+  {
+   "w": "it",
+   "s": 328.96,
+   "e": 329.06
+  },
+  {
+   "w": "worse.",
+   "s": 329.06,
+   "e": 329.32
+  },
+  {
+   "w": "So",
+   "s": 329.92,
+   "e": 330.06
+  },
+  {
+   "w": "who",
+   "s": 330.06,
+   "e": 330.24
+  },
+  {
+   "w": "holds",
+   "s": 330.24,
+   "e": 330.48
+  },
+  {
+   "w": "the",
+   "s": 330.48,
+   "e": 330.7
+  },
+  {
+   "w": "record?",
+   "s": 330.7,
+   "e": 330.94
+  },
+  {
+   "w": "In",
+   "s": 332.46,
+   "e": 333.02
+  },
+  {
+   "w": "1964,",
+   "s": 333.02,
+   "e": 333.58
+  },
+  {
+   "w": "17",
+   "s": 334.22,
+   "e": 334.7
+  },
+  {
+   "w": "-year",
+   "s": 334.7,
+   "e": 335.1
+  },
+  {
+   "w": "-old",
+   "s": 335.1,
+   "e": 335.38
+  },
+  {
+   "w": "Randy",
+   "s": 335.38,
+   "e": 335.6
+  },
+  {
+   "w": "Gardner",
+   "s": 335.6,
+   "e": 335.98
+  },
+  {
+   "w": "stayed",
+   "s": 335.98,
+   "e": 336.42
+  },
+  {
+   "w": "awake",
+   "s": 336.42,
+   "e": 336.7
+  },
+  {
+   "w": "for",
+   "s": 336.7,
+   "e": 337.0
+  },
+  {
+   "w": "11",
+   "s": 337.0,
+   "e": 337.22
+  },
+  {
+   "w": "days",
+   "s": 337.22,
+   "e": 337.6
+  },
+  {
+   "w": "straight",
+   "s": 337.6,
+   "e": 337.96
+  },
+  {
+   "w": "for",
+   "s": 337.96,
+   "e": 338.6
+  },
+  {
+   "w": "a",
+   "s": 338.6,
+   "e": 338.66
+  },
+  {
+   "w": "school",
+   "s": 338.66,
+   "e": 338.84
+  },
+  {
+   "w": "science",
+   "s": 338.84,
+   "e": 339.28
+  },
+  {
+   "w": "fair,",
+   "s": 339.28,
+   "e": 339.62
+  },
+  {
+   "w": "watched",
+   "s": 340.0,
+   "e": 340.22
+  },
+  {
+   "w": "over",
+   "s": 340.22,
+   "e": 340.52
+  },
+  {
+   "w": "by",
+   "s": 340.52,
+   "e": 340.78
+  },
+  {
+   "w": "the",
+   "s": 340.78,
+   "e": 340.9
+  },
+  {
+   "w": "sleep",
+   "s": 340.9,
+   "e": 341.12
+  },
+  {
+   "w": "researcher",
+   "s": 341.12,
+   "e": 341.58
+  },
+  {
+   "w": "William",
+   "s": 341.58,
+   "e": 341.92
+  },
+  {
+   "w": "Dement.",
+   "s": 341.92,
+   "e": 342.34
+  },
+  {
+   "w": "By",
+   "s": 342.78,
+   "e": 342.9
+  },
+  {
+   "w": "the",
+   "s": 342.9,
+   "e": 343.06
+  },
+  {
+   "w": "end,",
+   "s": 343.06,
+   "e": 343.26
+  },
+  {
+   "w": "he",
+   "s": 343.54,
+   "e": 343.58
+  },
+  {
+   "w": "was",
+   "s": 343.58,
+   "e": 343.68
+  },
+  {
+   "w": "moody",
+   "s": 343.68,
+   "e": 344.12
+  },
+  {
+   "w": "and",
+   "s": 344.12,
+   "e": 344.26
+  },
+  {
+   "w": "paranoid,",
+   "s": 344.26,
+   "e": 344.64
+  },
+  {
+   "w": "and",
+   "s": 345.24,
+   "e": 345.32
+  },
+  {
+   "w": "couldn't",
+   "s": 345.32,
+   "e": 345.6
+  },
+  {
+   "w": "count",
+   "s": 345.6,
+   "e": 345.8
+  },
+  {
+   "w": "backwards",
+   "s": 345.8,
+   "e": 346.1
+  },
+  {
+   "w": "from",
+   "s": 346.1,
+   "e": 346.56
+  },
+  {
+   "w": "100",
+   "s": 346.56,
+   "e": 346.8
+  },
+  {
+   "w": "in",
+   "s": 346.8,
+   "e": 347.16
+  },
+  {
+   "w": "7s.",
+   "s": 347.16,
+   "e": 347.76
+  },
+  {
+   "w": "Yet",
+   "s": 348.6,
+   "e": 348.8
+  },
+  {
+   "w": "on",
+   "s": 348.8,
+   "e": 348.94
+  },
+  {
+   "w": "day",
+   "s": 348.94,
+   "e": 349.1
+  },
+  {
+   "w": "10,",
+   "s": 349.1,
+   "e": 349.46
+  },
+  {
+   "w": "he",
+   "s": 349.74,
+   "e": 349.76
+  },
+  {
+   "w": "still",
+   "s": 349.76,
+   "e": 349.96
+  },
+  {
+   "w": "beat",
+   "s": 349.96,
+   "e": 350.22
+  },
+  {
+   "w": "a",
+   "s": 350.22,
+   "e": 350.34
+  },
+  {
+   "w": "sleep",
+   "s": 350.34,
+   "e": 350.58
+  },
+  {
+   "w": "scientist",
+   "s": 350.58,
+   "e": 351.12
+  },
+  {
+   "w": "at",
+   "s": 351.12,
+   "e": 351.48
+  },
+  {
+   "w": "pinball.",
+   "s": 351.48,
+   "e": 351.88
+  },
+  {
+   "w": "Today,",
+   "s": 352.58,
+   "e": 353.18
+  },
+  {
+   "w": "Guinness",
+   "s": 353.46,
+   "e": 353.6
+  },
+  {
+   "w": "World",
+   "s": 353.6,
+   "e": 353.98
+  },
+  {
+   "w": "Records",
+   "s": 353.98,
+   "e": 354.28
+  },
+  {
+   "w": "no",
+   "s": 354.28,
+   "e": 354.66
+  },
+  {
+   "w": "longer",
+   "s": 354.66,
+   "e": 354.94
+  },
+  {
+   "w": "accepts",
+   "s": 354.94,
+   "e": 355.32
+  },
+  {
+   "w": "attempts.",
+   "s": 355.32,
+   "e": 355.68
+  },
+  {
+   "w": "It's",
+   "s": 356.4,
+   "e": 356.56
+  },
+  {
+   "w": "considered",
+   "s": 356.56,
+   "e": 356.88
+  },
+  {
+   "w": "too",
+   "s": 356.88,
+   "e": 357.18
+  },
+  {
+   "w": "dangerous.",
+   "s": 357.18,
+   "e": 357.76
+  },
+  {
+   "w": "But",
+   "s": 360.24,
+   "e": 360.34
+  },
+  {
+   "w": "don't",
+   "s": 360.34,
+   "e": 360.6
+  },
+  {
+   "w": "some",
+   "s": 360.6,
+   "e": 360.72
+  },
+  {
+   "w": "people",
+   "s": 360.72,
+   "e": 361.06
+  },
+  {
+   "w": "get",
+   "s": 361.06,
+   "e": 361.26
+  },
+  {
+   "w": "by",
+   "s": 361.26,
+   "e": 361.48
+  },
+  {
+   "w": "on",
+   "s": 361.48,
+   "e": 361.76
+  },
+  {
+   "w": "five",
+   "s": 361.76,
+   "e": 362.04
+  },
+  {
+   "w": "or",
+   "s": 362.04,
+   "e": 362.24
+  },
+  {
+   "w": "six",
+   "s": 362.24,
+   "e": 362.44
+  },
+  {
+   "w": "hours?",
+   "s": 362.44,
+   "e": 362.74
+  },
+  {
+   "w": "A",
+   "s": 363.42,
+   "e": 363.52
+  },
+  {
+   "w": "tiny",
+   "s": 363.52,
+   "e": 363.76
+  },
+  {
+   "w": "number",
+   "s": 363.76,
+   "e": 364.16
+  },
+  {
+   "w": "really",
+   "s": 364.16,
+   "e": 364.48
+  },
+  {
+   "w": "do.",
+   "s": 364.48,
+   "e": 364.76
+  },
+  {
+   "w": "In",
+   "s": 365.36,
+   "e": 365.44
+  },
+  {
+   "w": "2009,",
+   "s": 365.44,
+   "e": 366.24
+  },
+  {
+   "w": "scientists",
+   "s": 366.6,
+   "e": 367.06
+  },
+  {
+   "w": "found",
+   "s": 367.06,
+   "e": 367.48
+  },
+  {
+   "w": "a",
+   "s": 367.48,
+   "e": 367.6
+  },
+  {
+   "w": "mutation",
+   "s": 367.6,
+   "e": 367.96
+  },
+  {
+   "w": "in",
+   "s": 367.96,
+   "e": 368.24
+  },
+  {
+   "w": "a",
+   "s": 368.24,
+   "e": 368.32
+  },
+  {
+   "w": "gene",
+   "s": 368.32,
+   "e": 368.52
+  },
+  {
+   "w": "called",
+   "s": 368.52,
+   "e": 368.92
+  },
+  {
+   "w": "DK2",
+   "s": 368.92,
+   "e": 369.72
+  },
+  {
+   "w": "in",
+   "s": 369.72,
+   "e": 370.02
+  },
+  {
+   "w": "a",
+   "s": 370.02,
+   "e": 370.1
+  },
+  {
+   "w": "mother",
+   "s": 370.1,
+   "e": 370.3
+  },
+  {
+   "w": "and",
+   "s": 370.3,
+   "e": 370.46
+  },
+  {
+   "w": "daughter",
+   "s": 370.46,
+   "e": 370.8
+  },
+  {
+   "w": "who",
+   "s": 370.8,
+   "e": 371.28
+  },
+  {
+   "w": "naturally",
+   "s": 371.28,
+   "e": 371.58
+  },
+  {
+   "w": "slept",
+   "s": 371.58,
+   "e": 371.9
+  },
+  {
+   "w": "about",
+   "s": 371.9,
+   "e": 372.22
+  },
+  {
+   "w": "six",
+   "s": 372.22,
+   "e": 372.5
+  },
+  {
+   "w": "hours",
+   "s": 372.5,
+   "e": 372.9
+  },
+  {
+   "w": "and",
+   "s": 372.9,
+   "e": 373.34
+  },
+  {
+   "w": "felt",
+   "s": 373.34,
+   "e": 373.5
+  },
+  {
+   "w": "completely",
+   "s": 373.5,
+   "e": 373.96
+  },
+  {
+   "w": "rested.",
+   "s": 373.96,
+   "e": 374.34
+  },
+  {
+   "w": "A",
+   "s": 374.98,
+   "e": 375.02
+  },
+  {
+   "w": "few",
+   "s": 375.02,
+   "e": 375.22
+  },
+  {
+   "w": "more",
+   "s": 375.22,
+   "e": 375.4
+  },
+  {
+   "w": "genes",
+   "s": 375.4,
+   "e": 375.58
+  },
+  {
+   "w": "like",
+   "s": 375.58,
+   "e": 375.92
+  },
+  {
+   "w": "it",
+   "s": 375.92,
+   "e": 376.08
+  },
+  {
+   "w": "have",
+   "s": 376.08,
+   "e": 376.18
+  },
+  {
+   "w": "turned",
+   "s": 376.18,
+   "e": 376.42
+  },
+  {
+   "w": "up",
+   "s": 376.42,
+   "e": 376.62
+  },
+  {
+   "w": "since,",
+   "s": 376.62,
+   "e": 376.86
+  },
+  {
+   "w": "but",
+   "s": 377.42,
+   "e": 377.5
+  },
+  {
+   "w": "only",
+   "s": 377.5,
+   "e": 377.78
+  },
+  {
+   "w": "in",
+   "s": 377.78,
+   "e": 377.96
+  },
+  {
+   "w": "a",
+   "s": 377.96,
+   "e": 378.02
+  },
+  {
+   "w": "handful",
+   "s": 378.02,
+   "e": 378.34
+  },
+  {
+   "w": "of",
+   "s": 378.34,
+   "e": 378.48
+  },
+  {
+   "w": "families",
+   "s": 378.48,
+   "e": 378.78
+  },
+  {
+   "w": "worldwide.",
+   "s": 378.78,
+   "e": 379.18
+  },
+  {
+   "w": "For",
+   "s": 379.18,
+   "e": 380.02
+  },
+  {
+   "w": "everyone",
+   "s": 380.02,
+   "e": 380.32
+  },
+  {
+   "w": "else,",
+   "s": 380.32,
+   "e": 380.62
+  },
+  {
+   "w": "the",
+   "s": 380.78,
+   "e": 380.84
+  },
+  {
+   "w": "advice",
+   "s": 380.84,
+   "e": 381.04
+  },
+  {
+   "w": "is",
+   "s": 381.04,
+   "e": 381.32
+  },
+  {
+   "w": "clear.",
+   "s": 381.32,
+   "e": 381.58
+  },
+  {
+   "w": "Adults",
+   "s": 382.1,
+   "e": 382.34
+  },
+  {
+   "w": "need",
+   "s": 382.34,
+   "e": 382.56
+  },
+  {
+   "w": "seven",
+   "s": 382.56,
+   "e": 382.98
+  },
+  {
+   "w": "hours",
+   "s": 382.98,
+   "e": 383.3
+  },
+  {
+   "w": "or",
+   "s": 383.3,
+   "e": 383.48
+  },
+  {
+   "w": "more.",
+   "s": 383.48,
+   "e": 383.7
+  },
+  {
+   "w": "So",
+   "s": 384.14,
+   "e": 384.24
+  },
+  {
+   "w": "what",
+   "s": 384.24,
+   "e": 384.42
+  },
+  {
+   "w": "if",
+   "s": 384.42,
+   "e": 384.54
+  },
+  {
+   "w": "I",
+   "s": 384.54,
+   "e": 384.64
+  },
+  {
+   "w": "feel",
+   "s": 384.64,
+   "e": 384.86
+  },
+  {
+   "w": "fine",
+   "s": 384.86,
+   "e": 385.16
+  },
+  {
+   "w": "on",
+   "s": 385.16,
+   "e": 385.42
+  },
+  {
+   "w": "six",
+   "s": 385.42,
+   "e": 385.64
+  },
+  {
+   "w": "hours?",
+   "s": 385.64,
+   "e": 385.98
+  },
+  {
+   "w": "He",
+   "s": 386.68,
+   "e": 386.84
+  },
+  {
+   "w": "is",
+   "s": 386.84,
+   "e": 386.98
+  },
+  {
+   "w": "the",
+   "s": 386.98,
+   "e": 387.12
+  },
+  {
+   "w": "trap.",
+   "s": 387.12,
+   "e": 387.38
+  },
+  {
+   "w": "In",
+   "s": 387.86,
+   "e": 387.88
+  },
+  {
+   "w": "one",
+   "s": 387.88,
+   "e": 388.04
+  },
+  {
+   "w": "study,",
+   "s": 388.04,
+   "e": 388.42
+  },
+  {
+   "w": "people",
+   "s": 388.7,
+   "e": 389.04
+  },
+  {
+   "w": "who",
    "s": 389.04,
    "e": 389.2
   },
   {
-   "w": "why.",
+   "w": "slept",
    "s": 389.2,
-   "e": 389.44
+   "e": 389.4
   },
   {
-   "w": "In",
-   "s": 390.2,
-   "e": 390.22
+   "w": "six",
+   "s": 389.4,
+   "e": 389.7
   },
   {
-   "w": "sleepless",
-   "s": 390.22,
-   "e": 390.6
+   "w": "hours",
+   "s": 389.7,
+   "e": 390.0
   },
   {
-   "w": "flies",
-   "s": 390.6,
-   "e": 390.92
+   "w": "a",
+   "s": 390.0,
+   "e": 390.12
   },
   {
-   "w": "and",
-   "s": 390.92,
-   "e": 391.14
+   "w": "night",
+   "s": 390.12,
+   "e": 390.3
   },
   {
-   "w": "mice,",
-   "s": 391.14,
-   "e": 391.36
+   "w": "for",
+   "s": 390.3,
+   "e": 390.5
   },
   {
-   "w": "toxic",
-   "s": 391.76,
-   "e": 391.96
+   "w": "two",
+   "s": 390.5,
+   "e": 390.68
   },
   {
-   "w": "molecules",
-   "s": 391.96,
-   "e": 392.54
+   "w": "weeks",
+   "s": 390.68,
+   "e": 390.88
   },
   {
-   "w": "piled",
-   "s": 392.54,
-   "e": 392.86
+   "w": "performed",
+   "s": 390.88,
+   "e": 391.2
   },
   {
-   "w": "up,",
-   "s": 392.86,
-   "e": 393.26
+   "w": "as",
+   "s": 391.2,
+   "e": 391.58
   },
   {
-   "w": "not",
+   "w": "badly",
+   "s": 391.58,
+   "e": 391.84
+  },
+  {
+   "w": "as",
+   "s": 391.84,
+   "e": 392.18
+  },
+  {
+   "w": "people",
+   "s": 392.18,
+   "e": 392.38
+  },
+  {
+   "w": "who",
+   "s": 392.38,
+   "e": 392.68
+  },
+  {
+   "w": "had",
+   "s": 392.68,
+   "e": 392.78
+  },
+  {
+   "w": "pulled",
+   "s": 392.78,
+   "e": 392.98
+  },
+  {
+   "w": "one",
+   "s": 392.98,
+   "e": 393.24
+  },
+  {
+   "w": "or",
+   "s": 393.24,
+   "e": 393.38
+  },
+  {
+   "w": "two",
+   "s": 393.38,
+   "e": 393.52
+  },
+  {
+   "w": "all",
    "s": 393.52,
-   "e": 393.72
+   "e": 393.66
   },
   {
-   "w": "in",
-   "s": 393.72,
-   "e": 393.86
+   "w": "-nighters.",
+   "s": 393.66,
+   "e": 394.0
   },
   {
-   "w": "the",
-   "s": 393.86,
-   "e": 393.94
-  },
-  {
-   "w": "brain",
-   "s": 393.94,
-   "e": 394.14
-  },
-  {
-   "w": "but",
-   "s": 394.14,
-   "e": 394.6
-  },
-  {
-   "w": "in",
-   "s": 394.6,
+   "w": "But",
+   "s": 394.52,
    "e": 394.7
   },
   {
-   "w": "the",
+   "w": "they",
    "s": 394.7,
    "e": 394.82
   },
   {
-   "w": "gut.",
+   "w": "felt",
    "s": 394.82,
-   "e": 395.0
+   "e": 394.96
   },
   {
-   "w": "When",
-   "s": 395.0,
+   "w": "only",
+   "s": 394.96,
+   "e": 395.34
+  },
+  {
+   "w": "slightly",
+   "s": 395.34,
    "e": 395.66
   },
   {
-   "w": "the",
+   "w": "sleepy.",
    "s": 395.66,
-   "e": 395.76
+   "e": 396.06
   },
   {
-   "w": "flies",
-   "s": 395.76,
-   "e": 396.02
-  },
-  {
-   "w": "were",
-   "s": 396.02,
-   "e": 396.3
-  },
-  {
-   "w": "given",
-   "s": 396.3,
-   "e": 396.5
-  },
-  {
-   "w": "antioxidants,",
-   "s": 396.5,
-   "e": 396.86
-  },
-  {
-   "w": "they",
-   "s": 397.7,
-   "e": 397.82
-  },
-  {
-   "w": "lived",
-   "s": 397.82,
-   "e": 398.0
-  },
-  {
-   "w": "a",
-   "s": 398.0,
-   "e": 398.16
-  },
-  {
-   "w": "normal",
-   "s": 398.16,
-   "e": 398.38
-  },
-  {
-   "w": "lifespan",
-   "s": 398.38,
-   "e": 398.92
-  },
-  {
-   "w": "with",
-   "s": 398.92,
-   "e": 399.5
-  },
-  {
-   "w": "almost",
-   "s": 399.5,
-   "e": 399.7
-  },
-  {
-   "w": "no",
-   "s": 399.7,
-   "e": 400.04
-  },
-  {
-   "w": "sleep.",
-   "s": 400.04,
-   "e": 400.4
-  },
-  {
-   "w": "In",
-   "s": 401.02,
-   "e": 401.1
-  },
-  {
-   "w": "humans,",
-   "s": 401.1,
-   "e": 401.4
-  },
-  {
-   "w": "there's",
-   "s": 401.74,
-   "e": 401.96
-  },
-  {
-   "w": "a",
-   "s": 401.96,
-   "e": 402.04
-  },
-  {
-   "w": "rare",
-   "s": 402.04,
-   "e": 402.24
-  },
-  {
-   "w": "genetic",
-   "s": 402.24,
-   "e": 402.6
-  },
-  {
-   "w": "disease",
-   "s": 402.6,
-   "e": 403.04
-  },
-  {
-   "w": "called",
-   "s": 403.04,
-   "e": 403.44
-  },
-  {
-   "w": "fatal",
-   "s": 403.44,
-   "e": 403.7
-  },
-  {
-   "w": "familial",
-   "s": 403.7,
-   "e": 404.24
-  },
-  {
-   "w": "insomnia,",
-   "s": 404.24,
-   "e": 404.74
-  },
-  {
-   "w": "first",
-   "s": 404.86,
-   "e": 405.6
-  },
-  {
-   "w": "described",
-   "s": 405.6,
-   "e": 405.92
-  },
-  {
-   "w": "in",
-   "s": 405.92,
-   "e": 406.3
-  },
-  {
-   "w": "an",
-   "s": 406.3,
-   "e": 406.36
-  },
-  {
-   "w": "Italian",
-   "s": 406.36,
-   "e": 406.64
-  },
-  {
-   "w": "family",
-   "s": 406.64,
-   "e": 407.12
-  },
-  {
-   "w": "in",
-   "s": 407.12,
-   "e": 407.44
-  },
-  {
-   "w": "1986.",
-   "s": 407.44,
-   "e": 408.12
-  },
-  {
-   "w": "Misfolded",
-   "s": 409.18,
-   "e": 409.56
-  },
-  {
-   "w": "proteins",
-   "s": 409.56,
-   "e": 409.94
-  },
-  {
-   "w": "destroy",
-   "s": 409.94,
-   "e": 410.42
-  },
-  {
-   "w": "the",
-   "s": 410.42,
-   "e": 410.66
-  },
-  {
-   "w": "thalamus,",
-   "s": 410.66,
-   "e": 411.12
-  },
-  {
-   "w": "a",
-   "s": 411.56,
-   "e": 411.64
-  },
-  {
-   "w": "relay",
-   "s": 411.64,
-   "e": 411.82
-  },
-  {
-   "w": "deep",
-   "s": 411.82,
-   "e": 412.14
-  },
-  {
-   "w": "in",
-   "s": 412.14,
-   "e": 412.38
-  },
-  {
-   "w": "the",
-   "s": 412.38,
-   "e": 412.46
-  },
-  {
-   "w": "brain",
-   "s": 412.46,
-   "e": 412.68
-  },
-  {
-   "w": "that",
-   "s": 412.68,
-   "e": 412.98
-  },
-  {
-   "w": "helps",
-   "s": 412.98,
-   "e": 413.16
-  },
-  {
-   "w": "switch",
-   "s": 413.16,
-   "e": 413.44
-  },
-  {
-   "w": "sleep",
-   "s": 413.44,
-   "e": 413.8
-  },
-  {
-   "w": "on.",
-   "s": 413.8,
-   "e": 414.0
-  },
-  {
-   "w": "Patients",
-   "s": 414.5,
-   "e": 414.8
-  },
-  {
-   "w": "slowly",
-   "s": 414.8,
-   "e": 415.22
-  },
-  {
-   "w": "lose",
-   "s": 415.22,
-   "e": 415.54
-  },
-  {
-   "w": "the",
-   "s": 415.54,
-   "e": 415.72
-  },
-  {
-   "w": "ability",
-   "s": 415.72,
-   "e": 416.0
-  },
-  {
-   "w": "to",
-   "s": 416.0,
-   "e": 416.26
-  },
-  {
-   "w": "sleep.",
-   "s": 416.26,
-   "e": 416.48
-  },
-  {
-   "w": "Only",
-   "s": 417.08,
-   "e": 417.28
-  },
-  {
-   "w": "about",
-   "s": 417.28,
-   "e": 417.5
-  },
-  {
-   "w": "70",
-   "s": 417.5,
-   "e": 417.94
-  },
-  {
-   "w": "families",
-   "s": 417.94,
-   "e": 418.36
-  },
-  {
-   "w": "in",
-   "s": 418.36,
-   "e": 418.66
-  },
-  {
-   "w": "the",
-   "s": 418.66,
-   "e": 418.76
-  },
-  {
-   "w": "world",
-   "s": 418.76,
-   "e": 418.92
-  },
-  {
-   "w": "carry",
-   "s": 418.92,
-   "e": 419.24
-  },
-  {
-   "w": "it.",
-   "s": 419.24,
-   "e": 419.56
-  },
-  {
-   "w": "There",
-   "s": 419.56,
-   "e": 420.1
-  },
-  {
-   "w": "is",
-   "s": 420.1,
-   "e": 420.24
-  },
-  {
-   "w": "no",
-   "s": 420.24,
-   "e": 420.42
-  },
-  {
-   "w": "cure,",
-   "s": 420.42,
-   "e": 420.74
-  },
-  {
-   "w": "and",
-   "s": 421.2,
-   "e": 421.36
-  },
-  {
-   "w": "on",
-   "s": 421.36,
-   "e": 421.44
-  },
-  {
-   "w": "average",
-   "s": 421.44,
-   "e": 421.74
-  },
-  {
-   "w": "patients",
-   "s": 421.74,
-   "e": 422.26
-  },
-  {
-   "w": "live",
-   "s": 422.26,
-   "e": 422.58
-  },
-  {
-   "w": "about",
-   "s": 422.58,
-   "e": 422.9
-  },
-  {
-   "w": "18",
-   "s": 422.9,
-   "e": 423.26
-  },
-  {
-   "w": "months",
-   "s": 423.26,
-   "e": 423.52
-  },
-  {
-   "w": "after",
-   "s": 423.52,
-   "e": 423.94
-  },
-  {
-   "w": "symptoms",
-   "s": 423.94,
-   "e": 424.38
-  },
-  {
-   "w": "begin.",
-   "s": 424.38,
-   "e": 424.76
-  },
-  {
-   "w": "And",
-   "s": 426.34,
-   "e": 426.74
-  },
-  {
-   "w": "Randy,",
-   "s": 426.74,
-   "e": 426.94
-  },
-  {
-   "w": "he",
-   "s": 427.48,
-   "e": 427.5
-  },
-  {
-   "w": "slept",
-   "s": 427.5,
-   "e": 427.64
-  },
-  {
-   "w": "almost",
-   "s": 427.64,
-   "e": 428.04
-  },
-  {
-   "w": "15",
-   "s": 428.04,
-   "e": 428.46
-  },
-  {
-   "w": "hours.",
-   "s": 428.46,
-   "e": 428.8
-  },
-  {
-   "w": "And",
-   "s": 430.06,
-   "e": 430.24
-  },
-  {
-   "w": "woke",
-   "s": 430.24,
-   "e": 430.38
-  },
-  {
-   "w": "up",
-   "s": 430.38,
-   "e": 430.62
-  },
-  {
-   "w": "fine.",
-   "s": 430.62,
-   "e": 431.0
-  },
-  {
-   "w": "When",
-   "s": 431.94,
-   "e": 432.18
-  },
-  {
-   "w": "you",
-   "s": 432.18,
-   "e": 432.28
-  },
-  {
-   "w": "finally",
-   "s": 432.28,
-   "e": 432.58
-  },
-  {
-   "w": "sleep,",
-   "s": 432.58,
-   "e": 432.98
-  },
-  {
-   "w": "you",
-   "s": 433.26,
-   "e": 433.32
+   "w": "You",
+   "s": 396.74,
+   "e": 396.8
   },
   {
    "w": "don't",
-   "s": 433.32,
-   "e": 433.5
+   "s": 396.8,
+   "e": 396.96
   },
   {
-   "w": "make",
-   "s": 433.5,
-   "e": 433.62
+   "w": "notice",
+   "s": 396.96,
+   "e": 397.22
   },
   {
-   "w": "up",
-   "s": 433.62,
-   "e": 433.78
+   "w": "how",
+   "s": 397.22,
+   "e": 397.46
   },
   {
-   "w": "every",
-   "s": 433.78,
-   "e": 434.08
-  },
-  {
-   "w": "lost",
-   "s": 434.08,
-   "e": 434.3
-  },
-  {
-   "w": "hour.",
-   "s": 434.3,
-   "e": 434.6
-  },
-  {
-   "w": "Instead,",
-   "s": 435.12,
-   "e": 435.42
-  },
-  {
-   "w": "your",
-   "s": 435.78,
-   "e": 435.84
-  },
-  {
-   "w": "brain",
-   "s": 435.84,
-   "e": 436.1
-  },
-  {
-   "w": "dives",
-   "s": 436.1,
-   "e": 436.32
-  },
-  {
-   "w": "straight",
-   "s": 436.32,
-   "e": 436.7
-  },
-  {
-   "w": "into",
-   "s": 436.7,
-   "e": 437.0
-  },
-  {
-   "w": "deep",
-   "s": 437.0,
-   "e": 437.24
-  },
-  {
-   "w": "sleep",
-   "s": 437.24,
-   "e": 437.52
-  },
-  {
-   "w": "and",
-   "s": 437.52,
-   "e": 437.74
-  },
-  {
-   "w": "stays",
-   "s": 437.74,
-   "e": 437.96
-  },
-  {
-   "w": "there",
-   "s": 437.96,
-   "e": 438.2
-  },
-  {
-   "w": "longer.",
-   "s": 438.2,
-   "e": 438.4
-  },
-  {
-   "w": "But",
-   "s": 439.02,
-   "e": 439.04
-  },
-  {
-   "w": "sleep",
-   "s": 439.04,
-   "e": 439.2
-  },
-  {
-   "w": "isn't",
-   "s": 439.2,
-   "e": 439.56
-  },
-  {
-   "w": "a",
-   "s": 439.56,
-   "e": 439.66
-  },
-  {
-   "w": "bank",
-   "s": 439.66,
-   "e": 439.78
-  },
-  {
-   "w": "account.",
-   "s": 439.78,
-   "e": 440.04
-  },
-  {
-   "w": "A",
-   "s": 440.8,
-   "e": 440.82
-  },
-  {
-   "w": "weekend",
-   "s": 440.82,
-   "e": 441.06
-  },
-  {
-   "w": "lion",
-   "s": 441.06,
-   "e": 441.44
-  },
-  {
-   "w": "can't",
-   "s": 441.44,
-   "e": 441.96
-  },
-  {
-   "w": "fully",
-   "s": 441.96,
-   "e": 442.14
-  },
-  {
-   "w": "undo",
-   "s": 442.14,
-   "e": 442.46
-  },
-  {
-   "w": "weeks",
-   "s": 442.46,
-   "e": 442.7
-  },
-  {
-   "w": "of",
-   "s": 442.7,
-   "e": 442.9
-  },
-  {
-   "w": "short",
-   "s": 442.9,
-   "e": 443.08
-  },
-  {
-   "w": "nights.",
-   "s": 443.08,
-   "e": 443.38
-  },
-  {
-   "w": "So",
-   "s": 443.38,
-   "e": 444.14
-  },
-  {
-   "w": "keep",
-   "s": 444.14,
-   "e": 444.34
-  },
-  {
-   "w": "it",
-   "s": 444.34,
-   "e": 444.48
-  },
-  {
-   "w": "simple.",
-   "s": 444.48,
-   "e": 444.74
-  },
-  {
-   "w": "A",
-   "s": 445.42,
-   "e": 445.44
-  },
-  {
-   "w": "regular",
-   "s": 445.44,
-   "e": 445.7
-  },
-  {
-   "w": "bedtime,",
-   "s": 445.7,
-   "e": 446.24
-  },
-  {
-   "w": "a",
-   "s": 446.56,
-   "e": 446.68
-  },
-  {
-   "w": "cool,",
-   "s": 446.68,
-   "e": 446.94
-  },
-  {
-   "w": "dark",
-   "s": 447.22,
-   "e": 447.42
-  },
-  {
-   "w": "bedroom,",
-   "s": 447.42,
-   "e": 447.92
-  },
-  {
-   "w": "daylight",
-   "s": 448.16,
-   "e": 448.42
-  },
-  {
-   "w": "in",
-   "s": 448.42,
-   "e": 448.66
-  },
-  {
-   "w": "the",
-   "s": 448.66,
-   "e": 448.72
-  },
-  {
-   "w": "morning,",
-   "s": 448.72,
-   "e": 449.02
-  },
-  {
-   "w": "and",
-   "s": 449.3,
-   "e": 449.36
-  },
-  {
-   "w": "no",
-   "s": 449.36,
-   "e": 449.54
-  },
-  {
-   "w": "coffee",
-   "s": 449.54,
-   "e": 449.88
-  },
-  {
-   "w": "in",
-   "s": 449.88,
-   "e": 450.04
-  },
-  {
-   "w": "the",
-   "s": 450.04,
-   "e": 450.1
-  },
-  {
-   "w": "afternoon.",
-   "s": 450.1,
-   "e": 450.48
-  },
-  {
-   "w": "Because",
-   "s": 451.18,
-   "e": 451.3
-  },
-  {
-   "w": "sleep",
-   "s": 451.3,
-   "e": 451.56
-  },
-  {
-   "w": "isn't",
-   "s": 451.56,
-   "e": 451.94
-  },
-  {
-   "w": "time",
-   "s": 451.94,
-   "e": 452.16
+   "w": "tired",
+   "s": 397.46,
+   "e": 397.82
   },
   {
    "w": "you",
-   "s": 452.16,
-   "e": 452.34
+   "s": 397.82,
+   "e": 398.02
   },
   {
-   "w": "lose.",
-   "s": 452.34,
-   "e": 452.5
-  },
-  {
-   "w": "It's",
-   "s": 453.16,
-   "e": 453.24
-  },
-  {
-   "w": "when",
-   "s": 453.24,
-   "e": 453.38
-  },
-  {
-   "w": "your",
-   "s": 453.38,
-   "e": 453.5
-  },
-  {
-   "w": "brain",
-   "s": 453.5,
-   "e": 453.76
-  },
-  {
-   "w": "files",
-   "s": 453.76,
-   "e": 454.08
-  },
-  {
-   "w": "the",
-   "s": 454.08,
-   "e": 454.38
-  },
-  {
-   "w": "day,",
-   "s": 454.38,
-   "e": 454.6
-  },
-  {
-   "w": "cleans",
-   "s": 454.86,
-   "e": 455.04
-  },
-  {
-   "w": "itself,",
-   "s": 455.04,
-   "e": 455.32
-  },
-  {
-   "w": "and",
-   "s": 455.86,
-   "e": 455.88
-  },
-  {
-   "w": "your",
-   "s": 455.88,
-   "e": 456.0
-  },
-  {
-   "w": "body",
-   "s": 456.0,
-   "e": 456.26
-  },
-  {
-   "w": "rebuilds.",
-   "s": 456.26,
-   "e": 456.52
-  },
-  {
-   "w": "Tonight",
-   "s": 457.54,
-   "e": 457.54
-  },
-  {
-   "w": "you'll",
-   "s": 457.54,
-   "e": 457.78
-  },
-  {
-   "w": "go",
-   "s": 457.78,
-   "e": 457.98
-  },
-  {
-   "w": "through",
-   "s": 457.98,
-   "e": 458.18
-  },
-  {
-   "w": "those",
-   "s": 458.18,
-   "e": 458.44
-  },
-  {
-   "w": "five",
-   "s": 458.44,
-   "e": 458.68
-  },
-  {
-   "w": "cycles",
-   "s": 458.68,
-   "e": 459.16
-  },
-  {
-   "w": "again.",
-   "s": 459.16,
-   "e": 459.42
-  },
-  {
-   "w": "So",
-   "s": 459.96,
-   "e": 460.08
-  },
-  {
-   "w": "tonight",
-   "s": 460.08,
-   "e": 460.34
-  },
-  {
-   "w": "when",
-   "s": 460.34,
-   "e": 460.62
-  },
-  {
-   "w": "your",
-   "s": 460.62,
-   "e": 460.74
-  },
-  {
-   "w": "pillow",
-   "s": 460.74,
-   "e": 460.94
-  },
-  {
-   "w": "calls,",
-   "s": 460.94,
-   "e": 461.28
-  },
-  {
-   "w": "pick",
-   "s": 461.28,
-   "e": 461.72
-  },
-  {
-   "w": "up,",
-   "s": 461.72,
-   "e": 461.96
-  },
-  {
-   "w": "sweet",
-   "s": 462.3,
-   "e": 462.56
-  },
-  {
-   "w": "dreams.",
-   "s": 462.56,
-   "e": 462.9
+   "w": "are.",
+   "s": 398.02,
+   "e": 398.24
   },
   {
    "w": "And",
-   "s": 464.46,
-   "e": 464.62
+   "s": 398.62,
+   "e": 398.7
   },
   {
-   "w": "subscribe",
-   "s": 464.62,
-   "e": 464.84
+   "w": "naps.",
+   "s": 398.7,
+   "e": 399.0
+  },
+  {
+   "w": "A",
+   "s": 399.7,
+   "e": 399.84
+  },
+  {
+   "w": "short",
+   "s": 399.84,
+   "e": 400.1
+  },
+  {
+   "w": "nap",
+   "s": 400.1,
+   "e": 400.34
+  },
+  {
+   "w": "helps.",
+   "s": 400.34,
+   "e": 400.62
+  },
+  {
+   "w": "In",
+   "s": 401.42,
+   "e": 401.46
+  },
+  {
+   "w": "a",
+   "s": 401.46,
+   "e": 401.54
+  },
+  {
+   "w": "NASA",
+   "s": 401.54,
+   "e": 401.7
+  },
+  {
+   "w": "study,",
+   "s": 401.7,
+   "e": 402.16
+  },
+  {
+   "w": "long",
+   "s": 402.46,
+   "e": 402.64
+  },
+  {
+   "w": "-haul",
+   "s": 402.64,
+   "e": 402.94
+  },
+  {
+   "w": "pilots",
+   "s": 402.94,
+   "e": 403.2
+  },
+  {
+   "w": "who",
+   "s": 403.2,
+   "e": 403.56
+  },
+  {
+   "w": "napped",
+   "s": 403.56,
+   "e": 403.78
   },
   {
    "w": "for",
-   "s": 464.84,
-   "e": 465.36
-  },
-  {
-   "w": "more",
-   "s": 465.36,
-   "e": 465.58
-  },
-  {
-   "w": "what",
-   "s": 465.58,
-   "e": 465.76
-  },
-  {
-   "w": "-ifs",
-   "s": 465.76,
-   "e": 466.12
+   "s": 403.78,
+   "e": 403.98
   },
   {
    "w": "about",
-   "s": 466.12,
+   "s": 403.98,
+   "e": 404.12
+  },
+  {
+   "w": "26",
+   "s": 404.12,
+   "e": 404.52
+  },
+  {
+   "w": "minutes",
+   "s": 404.52,
+   "e": 404.98
+  },
+  {
+   "w": "during",
+   "s": 404.98,
+   "e": 405.28
+  },
+  {
+   "w": "the",
+   "s": 405.28,
+   "e": 405.46
+  },
+  {
+   "w": "flight",
+   "s": 405.46,
+   "e": 405.7
+  },
+  {
+   "w": "were",
+   "s": 405.7,
+   "e": 406.18
+  },
+  {
+   "w": "up",
+   "s": 406.18,
+   "e": 406.3
+  },
+  {
+   "w": "to",
+   "s": 406.3,
+   "e": 406.46
+  },
+  {
+   "w": "54",
+   "s": 406.46,
+   "e": 406.72
+  },
+  {
+   "w": "%",
+   "s": 406.72,
+   "e": 407.24
+  },
+  {
+   "w": "more",
+   "s": 407.24,
+   "e": 407.54
+  },
+  {
+   "w": "alert.",
+   "s": 407.54,
+   "e": 407.76
+  },
+  {
+   "w": "Could",
+   "s": 407.76,
+   "e": 408.42
+  },
+  {
+   "w": "you",
+   "s": 408.42,
+   "e": 408.56
+  },
+  {
+   "w": "actually",
+   "s": 408.56,
+   "e": 408.94
+  },
+  {
+   "w": "die",
+   "s": 408.94,
+   "e": 409.24
+  },
+  {
+   "w": "from",
+   "s": 409.24,
+   "e": 409.5
+  },
+  {
+   "w": "it?",
+   "s": 409.5,
+   "e": 409.64
+  },
+  {
+   "w": "In",
+   "s": 411.3,
+   "e": 411.54
+  },
+  {
+   "w": "lab",
+   "s": 411.54,
+   "e": 411.76
+  },
+  {
+   "w": "experiments,",
+   "s": 411.76,
+   "e": 412.36
+  },
+  {
+   "w": "rats",
+   "s": 412.76,
+   "e": 412.98
+  },
+  {
+   "w": "kept",
+   "s": 412.98,
+   "e": 413.3
+  },
+  {
+   "w": "fully",
+   "s": 413.3,
+   "e": 413.66
+  },
+  {
+   "w": "awake,",
+   "s": 413.66,
+   "e": 413.98
+  },
+  {
+   "w": "died",
+   "s": 413.98,
+   "e": 414.32
+  },
+  {
+   "w": "within",
+   "s": 414.32,
+   "e": 414.76
+  },
+  {
+   "w": "11",
+   "s": 414.76,
+   "e": 415.08
+  },
+  {
+   "w": "to",
+   "s": 415.08,
+   "e": 415.36
+  },
+  {
+   "w": "32",
+   "s": 415.36,
+   "e": 415.78
+  },
+  {
+   "w": "days.",
+   "s": 415.78,
+   "e": 416.14
+  },
+  {
+   "w": "In",
+   "s": 417.26,
+   "e": 417.4
+  },
+  {
+   "w": "2020,",
+   "s": 417.4,
+   "e": 417.9
+  },
+  {
+   "w": "Harvard",
+   "s": 418.12,
+   "e": 418.54
+  },
+  {
+   "w": "researchers",
+   "s": 418.54,
+   "e": 419.04
+  },
+  {
+   "w": "found",
+   "s": 419.04,
+   "e": 419.44
+  },
+  {
+   "w": "a",
+   "s": 419.44,
+   "e": 419.54
+  },
+  {
+   "w": "clue",
+   "s": 419.54,
+   "e": 419.72
+  },
+  {
+   "w": "to",
+   "s": 419.72,
+   "e": 419.86
+  },
+  {
+   "w": "why.",
+   "s": 419.86,
+   "e": 420.14
+  },
+  {
+   "w": "In",
+   "s": 420.86,
+   "e": 420.86
+  },
+  {
+   "w": "sleepless",
+   "s": 420.86,
+   "e": 421.28
+  },
+  {
+   "w": "flies",
+   "s": 421.28,
+   "e": 421.6
+  },
+  {
+   "w": "and",
+   "s": 421.6,
+   "e": 421.8
+  },
+  {
+   "w": "mice,",
+   "s": 421.8,
+   "e": 422.04
+  },
+  {
+   "w": "toxic",
+   "s": 422.4,
+   "e": 422.6
+  },
+  {
+   "w": "molecules",
+   "s": 422.6,
+   "e": 423.22
+  },
+  {
+   "w": "piled",
+   "s": 423.22,
+   "e": 423.54
+  },
+  {
+   "w": "up,",
+   "s": 423.54,
+   "e": 423.92
+  },
+  {
+   "w": "not",
+   "s": 424.18,
+   "e": 424.38
+  },
+  {
+   "w": "in",
+   "s": 424.38,
+   "e": 424.52
+  },
+  {
+   "w": "the",
+   "s": 424.52,
+   "e": 424.62
+  },
+  {
+   "w": "brain",
+   "s": 424.62,
+   "e": 424.84
+  },
+  {
+   "w": "but",
+   "s": 424.84,
+   "e": 425.26
+  },
+  {
+   "w": "in",
+   "s": 425.26,
+   "e": 425.38
+  },
+  {
+   "w": "the",
+   "s": 425.38,
+   "e": 425.48
+  },
+  {
+   "w": "gut.",
+   "s": 425.48,
+   "e": 425.68
+  },
+  {
+   "w": "When",
+   "s": 426.22,
+   "e": 426.34
+  },
+  {
+   "w": "the",
+   "s": 426.34,
+   "e": 426.44
+  },
+  {
+   "w": "flies",
+   "s": 426.44,
+   "e": 426.7
+  },
+  {
+   "w": "were",
+   "s": 426.7,
+   "e": 426.96
+  },
+  {
+   "w": "given",
+   "s": 426.96,
+   "e": 427.16
+  },
+  {
+   "w": "antioxidants,",
+   "s": 427.16,
+   "e": 427.64
+  },
+  {
+   "w": "they",
+   "s": 428.38,
+   "e": 428.5
+  },
+  {
+   "w": "lived",
+   "s": 428.5,
+   "e": 428.68
+  },
+  {
+   "w": "a",
+   "s": 428.68,
+   "e": 428.82
+  },
+  {
+   "w": "normal",
+   "s": 428.82,
+   "e": 429.08
+  },
+  {
+   "w": "lifespan",
+   "s": 429.08,
+   "e": 429.58
+  },
+  {
+   "w": "with",
+   "s": 429.58,
+   "e": 430.16
+  },
+  {
+   "w": "almost",
+   "s": 430.16,
+   "e": 430.42
+  },
+  {
+   "w": "no",
+   "s": 430.42,
+   "e": 430.72
+  },
+  {
+   "w": "sleep.",
+   "s": 430.72,
+   "e": 431.06
+  },
+  {
+   "w": "And",
+   "s": 431.64,
+   "e": 431.76
+  },
+  {
+   "w": "in",
+   "s": 431.76,
+   "e": 431.88
+  },
+  {
+   "w": "humans?",
+   "s": 431.88,
+   "e": 432.22
+  },
+  {
+   "w": "There's",
+   "s": 432.22,
+   "e": 433.28
+  },
+  {
+   "w": "a",
+   "s": 433.28,
+   "e": 433.34
+  },
+  {
+   "w": "rare",
+   "s": 433.34,
+   "e": 433.54
+  },
+  {
+   "w": "genetic",
+   "s": 433.54,
+   "e": 433.96
+  },
+  {
+   "w": "disease",
+   "s": 433.96,
+   "e": 434.38
+  },
+  {
+   "w": "called",
+   "s": 434.38,
+   "e": 434.84
+  },
+  {
+   "w": "fatal",
+   "s": 434.84,
+   "e": 435.1
+  },
+  {
+   "w": "familial",
+   "s": 435.1,
+   "e": 435.68
+  },
+  {
+   "w": "insomnia,",
+   "s": 435.68,
+   "e": 436.14
+  },
+  {
+   "w": "first",
+   "s": 436.14,
+   "e": 437.0
+  },
+  {
+   "w": "described",
+   "s": 437.0,
+   "e": 437.38
+  },
+  {
+   "w": "in",
+   "s": 437.38,
+   "e": 437.74
+  },
+  {
+   "w": "an",
+   "s": 437.74,
+   "e": 437.82
+  },
+  {
+   "w": "Italian",
+   "s": 437.82,
+   "e": 438.12
+  },
+  {
+   "w": "family",
+   "s": 438.12,
+   "e": 438.66
+  },
+  {
+   "w": "in",
+   "s": 438.66,
+   "e": 438.94
+  },
+  {
+   "w": "1986.",
+   "s": 438.94,
+   "e": 439.88
+  },
+  {
+   "w": "Misfolded",
+   "s": 440.5,
+   "e": 440.98
+  },
+  {
+   "w": "proteins",
+   "s": 440.98,
+   "e": 441.4
+  },
+  {
+   "w": "destroy",
+   "s": 441.4,
+   "e": 441.84
+  },
+  {
+   "w": "the",
+   "s": 441.84,
+   "e": 442.1
+  },
+  {
+   "w": "thalamus,",
+   "s": 442.1,
+   "e": 442.58
+  },
+  {
+   "w": "a",
+   "s": 442.96,
+   "e": 443.06
+  },
+  {
+   "w": "relay",
+   "s": 443.06,
+   "e": 443.24
+  },
+  {
+   "w": "deep",
+   "s": 443.24,
+   "e": 443.58
+  },
+  {
+   "w": "in",
+   "s": 443.58,
+   "e": 443.8
+  },
+  {
+   "w": "the",
+   "s": 443.8,
+   "e": 443.88
+  },
+  {
+   "w": "brain",
+   "s": 443.88,
+   "e": 444.1
+  },
+  {
+   "w": "that",
+   "s": 444.1,
+   "e": 444.42
+  },
+  {
+   "w": "helps",
+   "s": 444.42,
+   "e": 444.58
+  },
+  {
+   "w": "switch",
+   "s": 444.58,
+   "e": 444.86
+  },
+  {
+   "w": "sleep",
+   "s": 444.86,
+   "e": 445.22
+  },
+  {
+   "w": "on.",
+   "s": 445.22,
+   "e": 445.44
+  },
+  {
+   "w": "Patients",
+   "s": 445.94,
+   "e": 446.18
+  },
+  {
+   "w": "slowly",
+   "s": 446.18,
+   "e": 446.64
+  },
+  {
+   "w": "lose",
+   "s": 446.64,
+   "e": 446.96
+  },
+  {
+   "w": "the",
+   "s": 446.96,
+   "e": 447.16
+  },
+  {
+   "w": "ability",
+   "s": 447.16,
+   "e": 447.42
+  },
+  {
+   "w": "to",
+   "s": 447.42,
+   "e": 447.68
+  },
+  {
+   "w": "sleep.",
+   "s": 447.68,
+   "e": 447.92
+  },
+  {
+   "w": "Only",
+   "s": 448.5,
+   "e": 448.72
+  },
+  {
+   "w": "about",
+   "s": 448.72,
+   "e": 448.92
+  },
+  {
+   "w": "70",
+   "s": 448.92,
+   "e": 449.36
+  },
+  {
+   "w": "families",
+   "s": 449.36,
+   "e": 449.8
+  },
+  {
+   "w": "in",
+   "s": 449.8,
+   "e": 450.08
+  },
+  {
+   "w": "the",
+   "s": 450.08,
+   "e": 450.18
+  },
+  {
+   "w": "world",
+   "s": 450.18,
+   "e": 450.34
+  },
+  {
+   "w": "carry",
+   "s": 450.34,
+   "e": 450.7
+  },
+  {
+   "w": "it.",
+   "s": 450.7,
+   "e": 450.98
+  },
+  {
+   "w": "There",
+   "s": 451.48,
+   "e": 451.54
+  },
+  {
+   "w": "is",
+   "s": 451.54,
+   "e": 451.66
+  },
+  {
+   "w": "no",
+   "s": 451.66,
+   "e": 451.86
+  },
+  {
+   "w": "cure,",
+   "s": 451.86,
+   "e": 452.18
+  },
+  {
+   "w": "and",
+   "s": 452.7,
+   "e": 452.76
+  },
+  {
+   "w": "on",
+   "s": 452.76,
+   "e": 452.86
+  },
+  {
+   "w": "average",
+   "s": 452.86,
+   "e": 453.16
+  },
+  {
+   "w": "patients",
+   "s": 453.16,
+   "e": 453.76
+  },
+  {
+   "w": "live",
+   "s": 453.76,
+   "e": 454.0
+  },
+  {
+   "w": "about",
+   "s": 454.0,
+   "e": 454.34
+  },
+  {
+   "w": "18",
+   "s": 454.34,
+   "e": 454.68
+  },
+  {
+   "w": "months",
+   "s": 454.68,
+   "e": 454.96
+  },
+  {
+   "w": "after",
+   "s": 454.96,
+   "e": 455.38
+  },
+  {
+   "w": "symptoms",
+   "s": 455.38,
+   "e": 455.76
+  },
+  {
+   "w": "begin.",
+   "s": 455.76,
+   "e": 456.18
+  },
+  {
+   "w": "And",
+   "s": 457.48,
+   "e": 458.12
+  },
+  {
+   "w": "Randy,",
+   "s": 458.12,
+   "e": 458.32
+  },
+  {
+   "w": "what",
+   "s": 458.82,
+   "e": 458.94
+  },
+  {
+   "w": "happened",
+   "s": 458.94,
+   "e": 459.16
+  },
+  {
+   "w": "to",
+   "s": 459.16,
+   "e": 459.38
+  },
+  {
+   "w": "him?",
+   "s": 459.38,
+   "e": 459.58
+  },
+  {
+   "w": "He",
+   "s": 459.58,
+   "e": 460.28
+  },
+  {
+   "w": "slept",
+   "s": 460.28,
+   "e": 460.46
+  },
+  {
+   "w": "almost",
+   "s": 460.46,
+   "e": 460.86
+  },
+  {
+   "w": "15",
+   "s": 460.86,
+   "e": 461.3
+  },
+  {
+   "w": "hours.",
+   "s": 461.3,
+   "e": 461.76
+  },
+  {
+   "w": "And",
+   "s": 463.02,
+   "e": 463.24
+  },
+  {
+   "w": "woke",
+   "s": 463.24,
+   "e": 463.38
+  },
+  {
+   "w": "up",
+   "s": 463.38,
+   "e": 463.62
+  },
+  {
+   "w": "fine.",
+   "s": 463.62,
+   "e": 463.98
+  },
+  {
+   "w": "So",
+   "s": 464.9,
+   "e": 465.22
+  },
+  {
+   "w": "can",
+   "s": 465.22,
+   "e": 465.38
+  },
+  {
+   "w": "I",
+   "s": 465.38,
+   "e": 465.48
+  },
+  {
+   "w": "just",
+   "s": 465.48,
+   "e": 465.7
+  },
+  {
+   "w": "catch",
+   "s": 465.7,
+   "e": 465.96
+  },
+  {
+   "w": "up",
+   "s": 465.96,
+   "e": 466.16
+  },
+  {
+   "w": "at",
+   "s": 466.16,
    "e": 466.28
   },
   {
    "w": "the",
    "s": 466.28,
-   "e": 466.42
+   "e": 466.34
   },
   {
-   "w": "strangest",
-   "s": 466.42,
-   "e": 466.98
+   "w": "weekend?",
+   "s": 466.34,
+   "e": 466.56
   },
   {
-   "w": "machine",
-   "s": 466.98,
-   "e": 467.2
-  },
-  {
-   "w": "you'll",
-   "s": 467.2,
+   "w": "Not",
+   "s": 467.4,
    "e": 467.58
   },
   {
-   "w": "ever",
+   "w": "quite.",
    "s": 467.58,
-   "e": 467.78
+   "e": 467.82
   },
   {
-   "w": "own,",
-   "s": 467.78,
-   "e": 468.08
+   "w": "When",
+   "s": 468.22,
+   "e": 468.24
+  },
+  {
+   "w": "you",
+   "s": 468.24,
+   "e": 468.34
+  },
+  {
+   "w": "finally",
+   "s": 468.34,
+   "e": 468.6
+  },
+  {
+   "w": "sleep,",
+   "s": 468.6,
+   "e": 469.06
+  },
+  {
+   "w": "you",
+   "s": 469.26,
+   "e": 469.3
+  },
+  {
+   "w": "don't",
+   "s": 469.3,
+   "e": 469.48
+  },
+  {
+   "w": "make",
+   "s": 469.48,
+   "e": 469.58
+  },
+  {
+   "w": "up",
+   "s": 469.58,
+   "e": 469.76
+  },
+  {
+   "w": "every",
+   "s": 469.76,
+   "e": 470.06
+  },
+  {
+   "w": "lost",
+   "s": 470.06,
+   "e": 470.28
+  },
+  {
+   "w": "hour.",
+   "s": 470.28,
+   "e": 470.62
+  },
+  {
+   "w": "Instead,",
+   "s": 471.1,
+   "e": 471.38
   },
   {
    "w": "your",
-   "s": 468.48,
-   "e": 468.64
+   "s": 471.68,
+   "e": 471.72
+  },
+  {
+   "w": "brain",
+   "s": 471.72,
+   "e": 472.0
+  },
+  {
+   "w": "dives",
+   "s": 472.0,
+   "e": 472.22
+  },
+  {
+   "w": "straight",
+   "s": 472.22,
+   "e": 472.6
+  },
+  {
+   "w": "into",
+   "s": 472.6,
+   "e": 472.88
+  },
+  {
+   "w": "deep",
+   "s": 472.88,
+   "e": 473.14
+  },
+  {
+   "w": "sleep",
+   "s": 473.14,
+   "e": 473.4
+  },
+  {
+   "w": "and",
+   "s": 473.4,
+   "e": 473.6
+  },
+  {
+   "w": "stays",
+   "s": 473.6,
+   "e": 473.84
+  },
+  {
+   "w": "there",
+   "s": 473.84,
+   "e": 474.08
+  },
+  {
+   "w": "longer.",
+   "s": 474.08,
+   "e": 474.36
+  },
+  {
+   "w": "But",
+   "s": 474.9,
+   "e": 474.92
+  },
+  {
+   "w": "sleep",
+   "s": 474.92,
+   "e": 475.08
+  },
+  {
+   "w": "isn't",
+   "s": 475.08,
+   "e": 475.44
+  },
+  {
+   "w": "a",
+   "s": 475.44,
+   "e": 475.52
+  },
+  {
+   "w": "bank",
+   "s": 475.52,
+   "e": 475.66
+  },
+  {
+   "w": "account.",
+   "s": 475.66,
+   "e": 475.92
+  },
+  {
+   "w": "A",
+   "s": 476.64,
+   "e": 476.7
+  },
+  {
+   "w": "weekend",
+   "s": 476.7,
+   "e": 476.96
+  },
+  {
+   "w": "lion",
+   "s": 476.96,
+   "e": 477.32
+  },
+  {
+   "w": "can't",
+   "s": 477.32,
+   "e": 477.84
+  },
+  {
+   "w": "fully",
+   "s": 477.84,
+   "e": 478.02
+  },
+  {
+   "w": "undo",
+   "s": 478.02,
+   "e": 478.32
+  },
+  {
+   "w": "weeks",
+   "s": 478.32,
+   "e": 478.58
+  },
+  {
+   "w": "of",
+   "s": 478.58,
+   "e": 478.8
+  },
+  {
+   "w": "short",
+   "s": 478.8,
+   "e": 478.98
+  },
+  {
+   "w": "nights.",
+   "s": 478.98,
+   "e": 479.28
+  },
+  {
+   "w": "So",
+   "s": 479.88,
+   "e": 480.04
+  },
+  {
+   "w": "what",
+   "s": 480.04,
+   "e": 480.18
+  },
+  {
+   "w": "actually",
+   "s": 480.18,
+   "e": 480.42
+  },
+  {
+   "w": "helps?",
+   "s": 480.42,
+   "e": 480.86
+  },
+  {
+   "w": "Keep",
+   "s": 481.52,
+   "e": 481.74
+  },
+  {
+   "w": "it",
+   "s": 481.74,
+   "e": 481.88
+  },
+  {
+   "w": "simple,",
+   "s": 481.88,
+   "e": 482.16
+  },
+  {
+   "w": "a",
+   "s": 482.48,
+   "e": 482.6
+  },
+  {
+   "w": "regular",
+   "s": 482.6,
+   "e": 482.9
+  },
+  {
+   "w": "bedtime,",
+   "s": 482.9,
+   "e": 483.44
+  },
+  {
+   "w": "a",
+   "s": 483.82,
+   "e": 483.92
+  },
+  {
+   "w": "cool",
+   "s": 483.92,
+   "e": 484.14
+  },
+  {
+   "w": "dark",
+   "s": 484.14,
+   "e": 484.54
+  },
+  {
+   "w": "bedroom,",
+   "s": 484.54,
+   "e": 485.06
+  },
+  {
+   "w": "daylight",
+   "s": 485.34,
+   "e": 485.54
+  },
+  {
+   "w": "in",
+   "s": 485.54,
+   "e": 485.82
+  },
+  {
+   "w": "the",
+   "s": 485.82,
+   "e": 485.9
+  },
+  {
+   "w": "morning,",
+   "s": 485.9,
+   "e": 486.18
+  },
+  {
+   "w": "and",
+   "s": 486.44,
+   "e": 486.54
+  },
+  {
+   "w": "no",
+   "s": 486.54,
+   "e": 486.74
+  },
+  {
+   "w": "coffee",
+   "s": 486.74,
+   "e": 487.0
+  },
+  {
+   "w": "in",
+   "s": 487.0,
+   "e": 487.2
+  },
+  {
+   "w": "the",
+   "s": 487.2,
+   "e": 487.3
+  },
+  {
+   "w": "afternoon.",
+   "s": 487.3,
+   "e": 487.62
+  },
+  {
+   "w": "Because",
+   "s": 487.62,
+   "e": 488.44
+  },
+  {
+   "w": "sleep",
+   "s": 488.44,
+   "e": 488.72
+  },
+  {
+   "w": "isn't",
+   "s": 488.72,
+   "e": 489.12
+  },
+  {
+   "w": "time",
+   "s": 489.12,
+   "e": 489.34
+  },
+  {
+   "w": "you",
+   "s": 489.34,
+   "e": 489.52
+  },
+  {
+   "w": "lose.",
+   "s": 489.52,
+   "e": 489.66
+  },
+  {
+   "w": "It's",
+   "s": 490.38,
+   "e": 490.44
+  },
+  {
+   "w": "when",
+   "s": 490.44,
+   "e": 490.54
+  },
+  {
+   "w": "your",
+   "s": 490.54,
+   "e": 490.68
+  },
+  {
+   "w": "brain",
+   "s": 490.68,
+   "e": 490.94
+  },
+  {
+   "w": "files",
+   "s": 490.94,
+   "e": 491.26
+  },
+  {
+   "w": "the",
+   "s": 491.26,
+   "e": 491.54
+  },
+  {
+   "w": "day,",
+   "s": 491.54,
+   "e": 491.76
+  },
+  {
+   "w": "cleans",
+   "s": 492.04,
+   "e": 492.2
+  },
+  {
+   "w": "itself,",
+   "s": 492.2,
+   "e": 492.5
+  },
+  {
+   "w": "and",
+   "s": 493.04,
+   "e": 493.06
+  },
+  {
+   "w": "your",
+   "s": 493.06,
+   "e": 493.18
+  },
+  {
+   "w": "body",
+   "s": 493.18,
+   "e": 493.44
+  },
+  {
+   "w": "rebuilds.",
+   "s": 493.44,
+   "e": 494.12
+  },
+  {
+   "w": "Tonight",
+   "s": 494.72,
+   "e": 494.72
+  },
+  {
+   "w": "you'll",
+   "s": 494.72,
+   "e": 494.96
+  },
+  {
+   "w": "go",
+   "s": 494.96,
+   "e": 495.14
+  },
+  {
+   "w": "through",
+   "s": 495.14,
+   "e": 495.36
+  },
+  {
+   "w": "those",
+   "s": 495.36,
+   "e": 495.6
+  },
+  {
+   "w": "five",
+   "s": 495.6,
+   "e": 495.86
+  },
+  {
+   "w": "cycles",
+   "s": 495.86,
+   "e": 496.34
+  },
+  {
+   "w": "again.",
+   "s": 496.34,
+   "e": 496.6
+  },
+  {
+   "w": "So",
+   "s": 497.16,
+   "e": 497.26
+  },
+  {
+   "w": "tonight,",
+   "s": 497.26,
+   "e": 497.5
+  },
+  {
+   "w": "when",
+   "s": 497.64,
+   "e": 497.8
+  },
+  {
+   "w": "your",
+   "s": 497.8,
+   "e": 497.92
+  },
+  {
+   "w": "pillow",
+   "s": 497.92,
+   "e": 498.12
+  },
+  {
+   "w": "calls,",
+   "s": 498.12,
+   "e": 498.48
+  },
+  {
+   "w": "pick",
+   "s": 498.48,
+   "e": 498.88
+  },
+  {
+   "w": "up,",
+   "s": 498.88,
+   "e": 499.18
+  },
+  {
+   "w": "sweet",
+   "s": 499.42,
+   "e": 499.74
+  },
+  {
+   "w": "dreams.",
+   "s": 499.74,
+   "e": 500.08
+  },
+  {
+   "w": "And",
+   "s": 501.22,
+   "e": 501.74
+  },
+  {
+   "w": "subscribe",
+   "s": 501.74,
+   "e": 502.02
+  },
+  {
+   "w": "for",
+   "s": 502.02,
+   "e": 502.52
+  },
+  {
+   "w": "more",
+   "s": 502.52,
+   "e": 502.72
+  },
+  {
+   "w": "What",
+   "s": 502.72,
+   "e": 502.96
+  },
+  {
+   "w": "Ifs",
+   "s": 502.96,
+   "e": 503.3
+  },
+  {
+   "w": "about",
+   "s": 503.3,
+   "e": 503.44
+  },
+  {
+   "w": "the",
+   "s": 503.44,
+   "e": 503.58
+  },
+  {
+   "w": "strangest",
+   "s": 503.58,
+   "e": 504.16
+  },
+  {
+   "w": "machine",
+   "s": 504.16,
+   "e": 504.4
+  },
+  {
+   "w": "you'll",
+   "s": 504.4,
+   "e": 504.86
+  },
+  {
+   "w": "ever",
+   "s": 504.86,
+   "e": 505.06
+  },
+  {
+   "w": "own.",
+   "s": 505.06,
+   "e": 505.42
+  },
+  {
+   "w": "Your",
+   "s": 505.96,
+   "e": 506.06
   },
   {
    "w": "body.",
-   "s": 468.64,
-   "e": 468.96
+   "s": 506.06,
+   "e": 506.36
   }
  ]
 }
