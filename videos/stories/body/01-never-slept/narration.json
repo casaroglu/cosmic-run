@@ -1,0 +1,17 @@
+{"voice": "bm_fable", "speed": 1.08, "gap": 0.24, "lines": [
+ {"id": "n1", "text": "What if you never slept again?"},
+ {"id": "n2", "text": "Sleep eats about a third of your life. Twenty-six years, just lying there."},
+ {"id": "n3", "text": "So let's delete it. Here's you, at hour zero."},
+ {"id": "n4", "text": "By hour seventeen, your reactions are as slow as if you'd had a couple of drinks."},
+ {"id": "n5", "text": "At twenty-four, you're driving like you're legally drunk."},
+ {"id": "n6", "text": "Meanwhile, inside your head, the trash is piling up."},
+ {"id": "n7", "text": "During sleep, your brain cells shrink apart, and fluid washes out waste, like proteins linked to Alzheimer's."},
+ {"id": "n8", "text": "No sleep, no wash."},
+ {"id": "n9", "text": "Day two. Your brain starts shutting off without asking. Microsleeps, a few seconds at a time, sometimes with your eyes open."},
+ {"id": "n10", "text": "Day three. The walls start to breathe."},
+ {"id": "n11", "text": "The record? In 1964, seventeen-year-old Randy Gardner stayed awake for eleven days straight.", "say": "The record? In nineteen sixty-four, seventeen-year-old Randy Gardner stayed awake for eleven days straight."},
+ {"id": "n12", "text": "Lab rats kept fully awake died within a few weeks."},
+ {"id": "n13a", "text": "And Randy? He slept almost fifteen hours."},
+ {"id": "n13b", "text": "And woke up fine.", "gap_before": 0.36},
+ {"id": "n14", "text": "So tonight, when your pillow calls, pick up."}
+]}
