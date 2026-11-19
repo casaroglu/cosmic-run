@@ -47,30 +47,6 @@ const WASTE = Array.from({ length: 160 }, () => ({ a: R() * 6.28, d: Math.sqrt(R
 const STREAK = Array.from({ length: 46 }, () => ({ y: R() * 2 - 1, sp: 0.5 + R(), len: 0.15 + R() * 0.35, ph: R() }));
 const SHARDS = Array.from({ length: 40 }, () => ({ x: R(), y: R(), vx: (R() - .5) * 700, vy: -200 - R() * 500, rot: (R() - .5) * 8, s: 6 + R() * 16 }));
 
-// ---------- world layout ----------
-const MOON = { x: 0, y: 540, r: 300 };
-const KID = { x: 780, y: 690 };            // mascot feet
-const BRAIN = { x: 1460, y: 500, r: 230 };
-const BAR = { x: 560, y: 250, w: 800, h: 46 };
-
-// ---------- camera (center x, y, zoom; zoom interpolated in log space) ----------
-function camKeys() { const C = CUE; return [
-  [0, 300, 540, 2.25], [C.slept + 0.75, 300, 540, 2.25], [C.slept + 2.1, 960, 540, 1.0],
-  [C.delete - 0.3, 960, 520, 1.06], [C.you - 0.2, 790, 545, 2.3], [C.h17, 820, 560, 2.15], [C.drunk + 0.6, 900, 590, 1.55],
-  [C.meanwhile, 1000, 560, 1.35], [C.head + 0.4, BRAIN.x, BRAIN.y, 2.4], [C.wash + 0.6, BRAIN.x - 20, BRAIN.y + 10, 2.25],
-  [C.day2 + 1.2, 960, 540, 1.0], [C.micro, 900, 560, 1.25], [C.day3, 960, 540, 1.1], [C.breathe + 1.0, 960, 540, 1.2],
-  [C.record + 0.8, 960, 540, 0.82], [C.eleven + 1.0, 960, 540, 0.9], [C.rats + 0.8, 1020, 690, 1.3], [C.weeks + 0.8, 1000, 680, 1.25],
-  [C.randy2 + 0.8, 790, 560, 2.0], [C.fine + 0.5, 790, 560, 2.1], [C.tonight + 1.2, 900, 540, 1.0], [99, 880, 540, 0.97]]; }
-let KEYS = null;
-function camera(t) {
-  let a = KEYS[0], b = KEYS[KEYS.length - 1];
-  for (let i = 0; i < KEYS.length - 1; i++) if (t >= KEYS[i][0] && t < KEYS[i + 1][0]) { a = KEYS[i]; b = KEYS[i + 1]; break; }
-  if (t < KEYS[0][0]) b = a;
-  const k = eic((t - a[0]) / Math.max(1e-3, b[0] - a[0]));
-  const drift = Math.sin(t * 0.37) * 6, driftZ = 1 + Math.sin(t * 0.21) * 0.012;   // nothing holds still
-  return { x: lerp(a[1], b[1], k) + drift, y: lerp(a[2], b[2], k) + Math.cos(t * 0.29) * 4, z: Math.exp(lerp(Math.log(a[3]), Math.log(b[3]), k)) * driftZ };
-}
-
 // ---------- text: caps pill, every line rises 1.3x its height through a clip (ease-out-quint) ----------
 function font(px, w = 600) { ctx.font = `${w} ${px}px Fredoka`; }
 function riseText(txt, x, y, t0, t, o = {}) {
@@ -90,6 +66,7 @@ function riseText(txt, x, y, t0, t, o = {}) {
   return w;
 }
 const TEAL = '#8fd8e6', GOLD = '#ffd98a', WHITE = '#ffffff';
+
 
 // ---------- background ----------
 function drawBackground(t, cam, warp, dark) {
@@ -121,6 +98,7 @@ function drawBackground(t, cam, warp, dark) {
   ctx.restore(); ctx.globalAlpha = 1;
 }
 
+
 // ---------- the Moon (the thing that vanishes) ----------
 function drawMoon(t, scale, alpha) {
   if (scale <= 0.001 || alpha <= 0) return;
@@ -148,6 +126,7 @@ function drawMoon(t, scale, alpha) {
   }
   ctx.restore(); ctx.restore();
 }
+
 
 // ---------- mascot: a little sleepyhead in pyjamas (rounded rects, no outlines) ----------
 function drawKid(t, o) {
@@ -212,6 +191,7 @@ function drawZ(t, t0, t1) {
   }
 }
 
+
 // ---------- YOU pin ----------
 function drawPin(t, t0, morph) {
   if (t < t0) return;
@@ -222,31 +202,6 @@ function drawPin(t, t0, morph) {
   riseText('YOU', x, y - 104, t0 + 0.15, t, { size: 30, color: WHITE, ls: 5 });
 }
 
-// ---------- life bar (26 years asleep) ----------
-function drawLifeBar(t) {
-  const C = CUE, t0 = C.sleep - 0.1; if (t < t0) return;
-  const out = clamp((C.delete + 1.6 - t) / 0.4); if (out <= 0) return;
-  const k = eoq((t - t0) / 0.9), { x, y, w, h } = BAR;
-  ctx.save(); ctx.globalAlpha = out;
-  ctx.fillStyle = 'rgba(6,20,40,0.62)'; ctx.beginPath(); ctx.roundRect(x, y, w * k, h, h / 2); ctx.fill();
-  const sw = w * 26 / 79, sx = x + w - sw;
-  const del = t >= C.delete;
-  if (!del) {
-    const sk = eoq((t - C.lying + 1.2) / 0.8);
-    ctx.fillStyle = TEAL; ctx.globalAlpha = out * (0.85 + 0.15 * Math.sin(t * 8) * (t > C.lying ? 1 : 0));
-    ctx.beginPath(); ctx.roundRect(sx, y, sw * clamp(sk), h, h / 2); ctx.fill();
-  } else {
-    for (const s of SHARDS) {   // shatter
-      const dt = t - C.delete, px = sx + s.x * sw + s.vx * dt, py = y + s.y * h + s.vy * dt + 900 * dt * dt;
-      ctx.save(); ctx.globalAlpha = out * clamp(1 - dt / 1.4); ctx.translate(px, py); ctx.rotate(s.rot * dt); ctx.fillStyle = TEAL;
-      ctx.beginPath(); ctx.roundRect(-s.s / 2, -s.s / 2, s.s, s.s, 3); ctx.fill(); ctx.restore();
-    }
-  }
-  ctx.restore();
-  riseText('A LIFETIME · 79 YEARS', x, y - 52, t0 + 0.2, t, { size: 30, color: WHITE, align: 'left', out: C.delete + 1.6 });
-  if (!del) riseText('26 YEARS ASLEEP', sx + sw / 2, y + h + 56, C.lying - 1.0, t, { size: 34, color: TEAL });
-  else riseText('DELETED', sx + sw / 2, y + h + 56, C.delete + 0.1, t, { size: 34, color: GOLD, out: C.delete + 1.6 });
-}
 
 // ---------- brain (WebGL sphere with folds, firing synapses, waste and wash) ----------
 const gcv = document.getElementById('gl'), gl = gcv.getContext('webgl', { premultipliedAlpha: true, preserveDrawingBuffer: true, antialias: false });
@@ -301,38 +256,6 @@ function renderBrain(t, tired, glow, dim) {
   const lx = MOON.x - BRAIN.x, ly = -(MOON.y - BRAIN.y); gl.uniform3f(U('L'), lx / 1000, ly / 1000 + 0.25, 0.7);   // light from the Moon, recomputed every frame
   gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
 }
-function drawBrain(t, cam, st) {
-  const { x, y, r } = BRAIN; if (st.alpha <= 0) return;
-  // atmosphere halo, stronger on the lit (Moon) side
-  ctx.save(); ctx.globalCompositeOperation = 'lighter'; ctx.globalAlpha = st.alpha;
-  ctx.translate(x, y - r * 0.1); ctx.scale(1, 0.8); const hg = ctx.createRadialGradient(-r * 0.25, 0, r * 0.8, 0, 0, r * 1.45);
-  hg.addColorStop(0, 'rgba(143,216,230,0.22)'); hg.addColorStop(1, 'rgba(143,216,230,0)');
-  ctx.fillStyle = hg; ctx.beginPath(); ctx.arc(0, 0, r * 1.45, 0, 6.283); ctx.fill(); ctx.restore();
-  renderBrain(t, st.tired, st.glow, st.dim);
-  const S = r * 2 * 1.12;   // GL canvas maps uv*1.12 -> sphere radius r
-  ctx.save(); ctx.globalAlpha = st.alpha; ctx.drawImage(gcv, x - S / 2 * 1.0, y - S / 2, S, S); ctx.restore();
-  // waste particles: pile up while awake, get flushed on "washes", clump after "wash"
-  const C = CUE;
-  for (const p of WASTE) {
-    const appear = C.trash + p.t0 * 2.6; if (t < appear) continue;
-    let a = eoc((t - appear) / 0.4) * st.alpha, px = x + Math.cos(p.a + t * 0.05) * p.d * r * 0.88, py = y - r * 0.1 + Math.sin(p.a + t * 0.05) * p.d * r * 0.5;
-    if (t > C.washes && t < C.wash) { const f = clamp((t - C.washes - p.t0 * 1.5) / 1.2); px += f * 700; a *= 1 - f; }
-    if (t >= C.wash) { const f = eoq((t - C.wash) / 1.2); a = st.alpha * eoc((t - C.wash) / 0.5); const ci = Math.floor(p.ph / 6.283 * 6), cx = x + Math.cos(ci * 1.9 + 0.4) * r * 0.55, cy = y - r * 0.1 + Math.sin(ci * 1.9 + 0.4) * r * 0.32; px = lerp(px, cx + Math.cos(p.a) * 26, f * 0.8); py = lerp(py, cy + Math.sin(p.a) * 22, f * 0.8); }
-    ctx.save(); ctx.globalAlpha = a; ctx.fillStyle = '#ffb35c'; ctx.shadowColor = '#ffb35c'; ctx.shadowBlur = 8;
-    ctx.beginPath(); ctx.arc(px, py, p.s * (t >= C.wash ? 1.5 : 1), 0, 6.283); ctx.fill(); ctx.restore();
-  }
-  // washing fluid streaks
-  if (t > C.washes - 0.2 && t < C.wash + 0.5) {
-    const on = clamp((t - C.washes + 0.2) / 0.4) * clamp((C.wash + 0.5 - t) / 0.5);
-    ctx.save(); ctx.globalCompositeOperation = 'lighter';
-    for (const s of STREAK) {
-      const prog = ((t - C.washes) * s.sp * 0.8 + s.ph) % 1, sx = x - r * 1.6 + prog * r * 3.2, sy = y + s.y * r * 0.8;
-      const lg = ctx.createLinearGradient(sx - s.len * r, sy, sx, sy); lg.addColorStop(0, 'rgba(143,216,230,0)'); lg.addColorStop(1, `rgba(143,216,230,${0.55 * on})`);
-      ctx.strokeStyle = lg; ctx.lineWidth = 3; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(sx - s.len * r, sy); ctx.lineTo(sx, sy); ctx.stroke();
-    }
-    ctx.restore();
-  }
-}
 
 // ---------- rat ----------
 function drawRat(t) {
@@ -347,6 +270,7 @@ function drawRat(t) {
   ctx.strokeStyle = '#9aa6c4'; ctx.lineWidth = 6; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(56, -24); ctx.quadraticCurveTo(110, -10, 120, -50); ctx.stroke();
   ctx.restore();
 }
+
 
 // ---------- HUD counter: HOURS AWAKE ----------
 function hoursAt(t) {
@@ -368,6 +292,7 @@ function drawCounter(t) {
   ctx.restore(); ctx.letterSpacing = '0px';
 }
 
+
 // ---------- microsleep blinks, hallucination warp, flash, vignette, grain ----------
 function blinkAmt(t) { const C = CUE; let b = 0; for (const o of [0, 0.85, 1.6]) { const d = t - C.micro - o; if (d > 0 && d < 0.42) b = Math.max(b, Math.sin(d / 0.42 * Math.PI)); } return b; }
 function warpAmt(t) { const C = CUE; return clamp((t - C.breathe + 0.5) / 0.8) * clamp((C.record + 0.3 - t) / 0.8); }
@@ -378,6 +303,7 @@ function grain(t) {
   gctx.putImageData(img, 0, 0);
   ctx.save(); ctx.globalAlpha = 0.06; ctx.globalCompositeOperation = 'overlay'; ctx.imageSmoothingEnabled = false; ctx.drawImage(GRAIN, 0, 0, W, H); ctx.restore();
 }
+
 
 
 // ---------- word icons (filled shapes, no outlines): pop in on their word with a spring ----------
@@ -417,34 +343,7 @@ function icon(name, x, y, s, t, t0, t1, o = {}) {
   const k = popK(t, t0, t1); if (k <= 0) return;
   ctx.save(); ctx.translate(x, y + Math.sin(t * 2.2 + x * 0.01) * 6); ctx.scale(s * k, s * (k + (1 - k) * 0.2)); ICONS[name](t, o); ctx.restore();
 }
-// hallucinations: drifting ghosts, glowing orbs and breathing walls
-const GHOSTS = Array.from({ length: 4 }, (_, i) => ({ x: 0.15 + i * 0.24, y: 0.25 + (i % 2) * 0.3, ph: i * 1.7 }));
-const ORBS = Array.from({ length: 14 }, (_, i) => ({ x: R(), y: R(), r: 20 + R() * 40, ph: R() * 6.28, hue: [[255,143,74],[143,216,230],[255,217,138],[200,120,255]][i % 4] }));
-function drawHallucinations(t, w) {
-  if (w <= 0) return;
-  ctx.save(); ctx.globalAlpha = w;
-  for (const side of [-1, 1]) {   // walls at the frame edges, breathing in and out
-    const b = 60 + 40 * Math.sin(t * 2.4 + (side > 0 ? 1 : 0));
-    ctx.fillStyle = 'rgba(75,111,214,0.55)'; ctx.beginPath();
-    const x0 = side < 0 ? 0 : W; ctx.moveTo(x0, 0);
-    for (let y = 0; y <= H; y += 60) ctx.lineTo(x0 - side * (b + 30 * Math.sin(y * 0.01 + t * 3)), y);
-    ctx.lineTo(x0, H); ctx.closePath(); ctx.fill();
-    ctx.fillStyle = 'rgba(16,35,72,0.45)'; for (let y = 20; y < H; y += 70) for (let k = 0; k < 2; k++) { const bx = side < 0 ? 8 + k * 50 + (Math.floor(y / 70) % 2) * 25 : W - 70 - k * 50 - (Math.floor(y / 70) % 2) * 25; rr2(bx, y, 40, 22, 6, 'rgba(16,35,72,0.45)'); }
-  }
-  ctx.globalCompositeOperation = 'lighter';
-  for (const o of ORBS) {
-    const x = o.x * W + Math.sin(t * 0.9 + o.ph) * 60, y = o.y * H + Math.cos(t * 0.7 + o.ph) * 40, r = o.r * (1 + 0.3 * Math.sin(t * 3 + o.ph));
-    const g = ctx.createRadialGradient(x, y, 0, x, y, r); g.addColorStop(0, `rgba(${o.hue},0.8)`); g.addColorStop(1, `rgba(${o.hue},0)`);
-    ctx.fillStyle = g; ctx.beginPath(); ctx.arc(x, y, r, 0, 6.283); ctx.fill();
-  }
-  ctx.globalCompositeOperation = 'source-over';
-  for (const [i, g] of GHOSTS.entries()) {
-    const k = clamp((t - CUE.breathe - i * 0.25) / 0.6); if (k <= 0) continue;
-    const x = g.x * W + Math.sin(t * 0.8 + g.ph) * 80, y = g.y * H + Math.sin(t * 1.3 + g.ph) * 30;
-    ctx.save(); ctx.globalAlpha = w * k * (0.85 + 0.15 * Math.sin(t * 2 + g.ph)); ctx.translate(x, y); ctx.scale(1.9, 1.9); ICONS.ghost(t); ctx.restore();
-  }
-  ctx.restore();
-}
+
 // Randy's bed: slides in under the mascot, he lies down, then springs up on "fine"
 function bedState(t) { const C = CUE; return { inK: t < C.randy2 ? 0 : eoq((t - C.randy2) / 0.9), outK: t < C.fine + 0.5 ? 0 : eoc((t - C.fine - 0.5) / 0.8),
   lie: t < C.hours15 ? 0 : t < C.fine ? spring(t - C.hours15, 0.5, 9) : 1 - spring(t - C.fine, 0.42, 14) }; }
@@ -462,102 +361,428 @@ function drawBlanket(t) {
   ctx.save(); ctx.globalAlpha = clamp(b.lie); rr2(KID.x - 180, KID.y - 132, 175, 62, 26, '#8fd8e6'); rr2(KID.x - 165, KID.y - 114, 145, 10, 5, 'rgba(255,255,255,0.35)'); ctx.restore();
 }
 
-// ---------- frame ----------
-function draw(t) {
-  const C = CUE, cam = camera(t);
-  const warp = warpAmt(t), dark = clamp((t - C.rats + 0.3) / 0.8) * clamp((C.randy2 + 0.4 - t) / 0.6) * 0.6;
-  ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.globalAlpha = 1;
-  drawBackground(t, cam, warp, dark);
-  // world
-  ctx.save(); ctx.translate(W / 2, H / 2); ctx.scale(cam.z, cam.z); ctx.translate(-cam.x, -cam.y);
-  // moon: swells 6% for .22s on "slept", collapses in .33s; returns on "tonight"
+
+
+// =====================================================================
+// v3 scene system (EXPLAINER_STYLE_GUIDE): colour worlds, transitions,
+// overlap registry (icons never sit on other elements) + overlap audit
+// =====================================================================
+const MOON = { x: 0, y: 540, r: 300 };
+let KID = { x: 960, y: 800 };
+let BRAIN = { x: 700, y: 560, r: 300 };
+const BAR = { x: 560, y: 230, w: 800, h: 46 };
+
+// ---------- overlap registry ----------
+let BOX = [], LABELQ = [];
+const AUDIT = { on: false };
+function reg(kind, name, x0, y0, x1, y1) { BOX.push({ kind, name, x0, y0, x1, y1 }); }
+const hitB = (a, b, m = 4) => a.x0 < b.x1 - m && b.x0 < a.x1 - m && a.y0 < b.y1 - m && b.y0 < a.y1 - m;
+let CAM = { x: 960, y: 540, z: 1 };
+const toS = (x, y) => [W / 2 + (x - CAM.x) * CAM.z, H / 2 + (y - CAM.y) * CAM.z];
+function regKid(kx, ky, s, lie) {   // screen box of the mascot drawn at world (kx, ky) with scale s
+  const [x, y] = toS(kx, ky), z = CAM.z * s;
+  if (lie > 0.5) reg('hero', 'mascot', x - 190 * z, y - 140 * z, x + 90 * z, y + 10 * z);
+  else reg('hero', 'mascot', x - 64 * z, y - 290 * z, x + 64 * z, y + 12 * z);
+}
+
+// ---------- labels (registered first, drawn last) ----------
+function labelBox(txt, x, y, size, align = 'center') {
+  font(size, 600); ctx.letterSpacing = '4px'; const w = ctx.measureText(txt).width; ctx.letterSpacing = '0px';
+  const ph = size * 1.15 + size * 0.55, ax = align === 'left' ? x : x - w / 2;
+  return { x0: ax - size * 0.55, x1: ax - size * 0.55 + w + size * 1.1, y0: y - ph / 2, y1: y + ph / 2 };
+}
+function label(txt, x, y, t, t0, t1, color = WHITE, size = 34, o = {}) {
+  if (t < t0 || t > t1 + 0.35) return;
+  const b = labelBox(txt, x, y, size, o.align); reg('label', txt, b.x0, b.y0, b.x1, b.y1);
+  LABELQ.push(() => riseText(txt, x, y, t0, t, { size, color, out: t1, ...o }));
+}
+// key-term tag: solid accent block with white bold text
+function tag(txt, x, y, t, t0, t1, bg = '#e2457a', size = 40) {
+  if (t < t0 || t > t1 + 0.35) return;
+  font(size, 700); ctx.letterSpacing = '3px'; const w = ctx.measureText(txt).width; ctx.letterSpacing = '0px';
+  const bw = w + 48, bh = size * 1.55; reg('label', txt, x - bw / 2, y - bh / 2, x + bw / 2, y + bh / 2);
+  LABELQ.push(() => {
+    const k = spring(t - t0, 0.5, 14), out = clamp((t1 + 0.35 - t) / 0.35);
+    ctx.save(); ctx.globalAlpha = out; ctx.translate(x, y); ctx.scale(lerp(0.6, 1, k), lerp(0.6, 1, k));
+    ctx.fillStyle = bg; ctx.beginPath(); ctx.roundRect(-bw / 2, -bh / 2, bw, bh, 10); ctx.fill(); ctx.restore();
+    riseText(txt, x - w / 2, y, t0 + 0.08, t, { size, weight: 700, color: WHITE, ls: 3, pill: false, align: 'left', out: t1 });
+  });
+}
+// meter: rounded track with a gradient fill animating to a value
+function meter(x, y, w, frac, t, t0, t1, cA, cB, cap) {
+  if (t < t0 || t > t1 + 0.35) return;
+  reg('meter', cap, x - 10, y - 66, x + w + 10, y + 30);
+  LABELQ.push(() => {
+    const out = clamp((t1 + 0.35 - t) / 0.35), k = eoq((t - t0 - 0.2) / 1.0);
+    ctx.save(); ctx.globalAlpha = out * eoc((t - t0) / 0.3);
+    ctx.fillStyle = 'rgba(6,20,40,0.55)'; ctx.beginPath(); ctx.roundRect(x, y - 14, w, 28, 14); ctx.fill();
+    const g = ctx.createLinearGradient(x, 0, x + w, 0); g.addColorStop(0, cA); g.addColorStop(1, cB);
+    ctx.fillStyle = g; ctx.beginPath(); ctx.roundRect(x, y - 14, Math.max(28, w * frac * k), 28, 14); ctx.fill(); ctx.restore();
+    riseText(cap, x, y - 44, t0, t, { size: 28, color: WHITE, align: 'left', pill: false, out: t1 });
+  });
+}
+
+// ---------- icons placed in the first free slot ----------
+function placeIcon(name, slots, s, t, t0, t1, o = {}) {
+  const k = popK(t, t0, t1); if (k <= 0) return;
+  const hw = (o.hw || 72) * s, hh = (o.hh || 66) * s;
+  let pick = null;
+  for (const [x, y] of slots) {
+    const b = { x0: x - hw, y0: y - hh, x1: x + hw, y1: y + hh };
+    if (b.x0 < 8 || b.x1 > W - 8 || b.y0 < 8 || b.y1 > H - 8) continue;
+    if (!BOX.some(o2 => o2.kind !== 'panel' && hitB(b, o2))) { pick = [x, y, b]; break; }
+  }
+  if (!pick) { const [x, y] = slots[slots.length - 1]; pick = [x, y, { x0: x - hw, y0: y - hh, x1: x + hw, y1: y + hh }]; if (AUDIT.on) AUDIT.log(`${name}: no free slot`, t); }
+  reg('icon', name, pick[2].x0, pick[2].y0, pick[2].x1, pick[2].y1);
+  icon(name, pick[0], pick[1], s, t, t0, t1, o);
+}
+
+// ---------- colour worlds ----------
+const WORLDS = {
+  night: { a: '#081d2c', b: '#102348', blobs: [[24,150,160,.2],[40,95,195,.16],[220,95,110,.1],[60,70,175,.15]], stars: 1 },
+  teal: { a: '#127b84', b: '#0b4f5c', blobs: [[143,230,230,.18],[40,160,170,.2],[255,217,138,.08]], dots: 'rgba(200,255,250,0.10)' },
+  coral: { a: '#d4566a', b: '#9b3352', blobs: [[255,160,120,.18],[255,90,110,.16],[255,217,138,.1]], dots: 'rgba(255,220,220,0.10)' },
+  cream: { a: '#f8e6d4', b: '#efc7ae', blobs: [[255,150,140,.16],[255,190,150,.2],[230,120,150,.1]], dots: 'rgba(214,110,120,0.10)' },
+  indigo: { a: '#2d2b7c', b: '#18164a', blobs: [[120,90,230,.18],[60,140,220,.12],[220,95,170,.1]], stars: 0.5 },
+  gold: { a: '#f7c970', b: '#ea9a52', blobs: [[255,240,190,.25],[255,170,90,.18],[230,110,80,.1]], dots: 'rgba(255,250,230,0.14)' },
+  grey: { a: '#2b3244', b: '#171c28', blobs: [[90,110,150,.14],[60,70,100,.12]], stars: 0.25 },
+};
+const BOKEH = Array.from({ length: 40 }, () => ({ x: R(), y: R(), r: 8 + R() * 40, ph: R() * 6.28 }));
+function worldBG(t, name, warp = 0, cam = null) {
+  const P = WORLDS[name], g = ctx.createLinearGradient(0, 0, 0, H); g.addColorStop(0, P.a); g.addColorStop(1, P.b);
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  ctx.save(); ctx.globalCompositeOperation = name === 'cream' || name === 'gold' ? 'source-over' : 'lighter';
+  P.blobs.forEach(([r, gg, b, a], i) => {
+    const px = W * (0.2 + 0.3 * i) + Math.sin(t * 0.21 + i) * 60 - (cam ? (cam.x - 960) * 0.1 : 0), py = H * (0.3 + 0.25 * (i % 2)) + Math.cos(t * 0.17 + i) * 40;
+    const s = 800 * (1 + 0.06 * Math.sin(t * 0.3 + i) + warp * 0.35 * Math.sin(t * 2.2 + i));
+    const rg = ctx.createRadialGradient(px, py, 0, px, py, s); rg.addColorStop(0, `rgba(${r},${gg},${b},${a})`); rg.addColorStop(1, `rgba(${r},${gg},${b},0)`);
+    ctx.filter = warp ? `hue-rotate(${warp * 70 * Math.sin(t * 1.3 + i)}deg)` : 'none'; ctx.fillStyle = rg; ctx.fillRect(px - s, py - s, s * 2, s * 2);
+  });
+  ctx.filter = 'none';
+  if (P.dots) for (const d of BOKEH) { ctx.fillStyle = P.dots; ctx.beginPath(); ctx.arc(d.x * W + Math.sin(t * 0.3 + d.ph) * 20, d.y * H + Math.cos(t * 0.25 + d.ph) * 16, d.r, 0, 6.283); ctx.fill(); }
+  ctx.restore();
+  if (P.stars) {
+    ctx.save();
+    for (const layer of STARS) for (const s of layer) {
+      const px = cam ? W / 2 + (s.x - cam.x) * s.depth * cam.z : (s.x + 1100) / 4200 * W, py = cam ? H / 2 + (s.y - cam.y) * s.depth * cam.z : (s.y + 760) / 2600 * H;
+      if (px < -10 || px > W + 10 || py < -10 || py > H + 10) continue;
+      const tw = 0.55 + 0.45 * Math.sin(t * s.sp + s.ph); ctx.globalAlpha = tw * P.stars; ctx.fillStyle = '#e8f3ff';
+      if (s.spark) { const r = s.r * 3.2 * tw; ctx.beginPath(); ctx.moveTo(px, py - r); ctx.quadraticCurveTo(px, py, px + r, py); ctx.quadraticCurveTo(px, py, px, py + r); ctx.quadraticCurveTo(px, py, px - r, py); ctx.quadraticCurveTo(px, py, px, py - r); ctx.fill(); }
+      else { ctx.beginPath(); ctx.arc(px, py, s.r, 0, 6.283); ctx.fill(); }
+    }
+    ctx.restore();
+  }
+}
+function camAt(keys, t) {
+  let a = keys[0], b = keys[keys.length - 1];
+  for (let i = 0; i < keys.length - 1; i++) if (t >= keys[i][0] && t < keys[i + 1][0]) { a = keys[i]; b = keys[i + 1]; break; }
+  if (t < keys[0][0]) b = a; if (t >= keys[keys.length - 1][0]) a = b;
+  const k = eic((t - a[0]) / Math.max(1e-3, b[0] - a[0]));
+  return { x: lerp(a[1], b[1], k) + Math.sin(t * 0.37) * 5, y: lerp(a[2], b[2], k) + Math.cos(t * 0.29) * 4, z: Math.exp(lerp(Math.log(a[3]), Math.log(b[3]), k)) * (1 + Math.sin(t * 0.21) * 0.012) };
+}
+function beginWorld(cam) { CAM = cam; ctx.save(); ctx.translate(W / 2, H / 2); ctx.scale(cam.z, cam.z); ctx.translate(-cam.x, -cam.y); }
+
+// ---------- brain at any place ----------
+function drawBrainAt(t, B, st) {
+  BRAIN = B; const { x, y, r } = B;
+  reg('hero', 'brain', x - r, y - 0.82 * r, x + r, y + 0.92 * r);
+  ctx.save(); ctx.translate(x, y - r * 0.1); ctx.scale(1, 0.8); const hg = ctx.createRadialGradient(-r * 0.25, 0, r * 0.8, 0, 0, r * 1.4);
+  hg.addColorStop(0, st.halo || 'rgba(255,255,255,0.35)'); hg.addColorStop(1, 'rgba(255,255,255,0)');
+  ctx.fillStyle = hg; ctx.beginPath(); ctx.arc(0, 0, r * 1.4, 0, 6.283); ctx.fill(); ctx.restore();
+  renderBrain(t, st.tired, st.glow, st.dim);
+  const S = r * 2 * 1.12; ctx.drawImage(gcv, x - S / 2, y - S / 2, S, S);
+  const C = CUE;
+  for (const p of WASTE) {
+    const appear = C.trash + p.t0 * 2.6; if (t < appear) continue;
+    let a = eoc((t - appear) / 0.4), px = x + Math.cos(p.a + t * 0.05) * p.d * r * 0.85, py = y - r * 0.12 + Math.sin(p.a + t * 0.05) * p.d * r * 0.48;
+    if (t > C.washes && t < C.wash) { const f = clamp((t - C.washes - p.t0 * 1.5) / 1.2); a *= 1 - f; }
+    if (t >= C.wash) { const f = eoq((t - C.wash) / 1.2); a = eoc((t - C.wash) / 0.5); const ci = Math.floor(p.ph / 6.283 * 6), cx = x + Math.cos(ci * 1.9 + 0.4) * r * 0.5, cy = y - r * 0.12 + Math.sin(ci * 1.9 + 0.4) * r * 0.3; px = lerp(px, cx + Math.cos(p.a) * 24, f * 0.8); py = lerp(py, cy + Math.sin(p.a) * 20, f * 0.8); }
+    ctx.save(); ctx.globalAlpha = a; ctx.fillStyle = '#ff9a3c'; ctx.beginPath(); ctx.arc(px, py, p.s * (t >= C.wash ? 1.4 : 1), 0, 6.283); ctx.fill(); ctx.restore();
+  }
+}
+// focus ring: zoomed-in view of brain cells shrinking apart while fluid washes the gaps
+const CELLS = Array.from({ length: 9 }, (_, i) => ({ x: [-1, 0, 1][i % 3], y: [-1, 0, 1][Math.floor(i / 3)], ph: R() * 6.28 }));
+const RDOTS = Array.from({ length: 24 }, () => ({ x: R() * 2 - 1, y: R() * 2 - 1, ph: R() }));
+function focusRing(t, cx, cy, R0) {
+  const C = CUE, k = spring(t - C.during + 0.1, 0.5, 12); if (k <= 0) return;
+  const rr = R0 * k; reg('hero', 'focus ring', cx - R0, cy - R0, cx + R0, cy + R0);
+  ctx.save(); ctx.fillStyle = 'rgba(80,30,70,0.18)'; ctx.beginPath(); ctx.arc(cx + 10, cy + 16, rr * 1.04, 0, 6.283); ctx.fill();
+  ctx.fillStyle = '#4a2346'; ctx.beginPath(); ctx.arc(cx, cy, rr, 0, 6.283); ctx.fill(); ctx.clip();
+  const sk = t < C.washes ? eoq((t - C.during - 0.4) / 1.2) * 0.45 : t < C.wash ? 0.45 + 0.55 * eoq((t - C.washes) / 0.8) : 1 - 0.7 * eoq((t - C.wash) / 1.0);
+  const gap = lerp(8, 46, sk), cs = rr * 0.30 * lerp(1, 0.86, sk);
+  const flowOn = clamp((t - C.washes + 0.2) / 0.4) * clamp((C.wash + 0.3 - t) / 0.5);
+  // fluid between cells
+  ctx.fillStyle = `rgba(143,216,230,${0.15 + 0.35 * flowOn})`; ctx.fillRect(cx - rr, cy - rr, rr * 2, rr * 2);
+  for (const c of CELLS) {
+    const px = cx + c.x * (cs * 2 + gap) * 0.95, py = cy + c.y * (cs * 2 + gap) * 0.95, b = 1 + 0.03 * Math.sin(t * 2 + c.ph);
+    ctx.fillStyle = '#f29db0'; ctx.beginPath(); ctx.roundRect(px - cs * b, py - cs * b, cs * 2 * b, cs * 2 * b, cs * 0.8); ctx.fill();
+    ctx.fillStyle = '#c95a7c'; ctx.beginPath(); ctx.arc(px + cs * 0.15, py, cs * 0.35, 0, 6.283); ctx.fill();
+    ctx.fillStyle = 'rgba(255,255,255,0.35)'; ctx.beginPath(); ctx.roundRect(px - cs * 0.6, py - cs * 0.7, cs * 0.5, cs * 0.18, cs * 0.09); ctx.fill();
+  }
+  for (const d of RDOTS) {   // waste in the gaps, washed out to the right while the fluid flows
+    const run = flowOn > 0 ? ((t - C.washes) * 0.5 + d.ph) % 1 : 0;
+    const px = flowOn > 0.05 ? cx - rr + run * rr * 2 : cx + d.x * rr * 0.8, py = cy + Math.round(d.y * 1.5) / 1.5 * (cs + gap / 2);
+    ctx.fillStyle = '#ff9a3c'; ctx.beginPath(); ctx.arc(px, py, 6, 0, 6.283); ctx.fill();
+  }
+  ctx.restore();
+  ctx.save(); ctx.globalCompositeOperation = 'source-over'; ctx.fillStyle = 'rgba(255,255,255,0.55)';
+  ctx.beginPath(); ctx.arc(cx, cy, rr + 10, 0, 6.283); ctx.arc(cx, cy, rr, 0, 6.283, true); ctx.fill(); ctx.restore();
+}
+
+// ---------- our own teen character (Randy), never a likeness ----------
+function drawTeen(t, x, y, s, o = {}) {
+  const bob = Math.sin(t * 2.2) * 4, sw = Math.sin(t * 1.6) * 0.04;
+  ctx.save(); ctx.translate(x, y); ctx.scale(s, s); ctx.rotate(sw);
+  ctx.fillStyle = 'rgba(0,0,0,0.18)'; ctx.beginPath(); ctx.ellipse(0, 4, 70, 12, 0, 0, 6.283); ctx.fill();
+  ctx.translate(0, bob);
+  rr2(-38, -96, 32, 96, 14, '#3b5aa8'); rr2(6, -96, 32, 96, 14, '#3b5aa8'); rr2(-44, -10, 42, 16, 8, '#f3f7fb'); rr2(2, -10, 42, 16, 8, '#f3f7fb');
+  rr2(-56, -210, 112, 124, 34, '#d64550'); rr2(-56, -210, 112, 30, 15, '#e86068');
+  for (const sd of [-1, 1]) { ctx.save(); ctx.translate(sd * 54, -196); ctx.rotate(sd * 0.18); rr2(-14, 0, 28, 92, 14, '#d64550'); rr2(-12, 84, 24, 24, 12, '#f2b38f'); ctx.restore(); }
+  rr2(-16, -230, 32, 28, 10, '#e9a27f');
+  rr2(-62, -350, 124, 128, 54, '#f2b38f'); rr2(28, -320, 30, 60, 15, '#e9a27f');           // head + shaded side plane
+  ctx.fillStyle = '#4a2c22'; ctx.beginPath(); ctx.moveTo(-70, -290); ctx.quadraticCurveTo(-74, -372, 0, -372); ctx.quadraticCurveTo(70, -374, 70, -300); ctx.quadraticCurveTo(30, -334, -20, -318); ctx.quadraticCurveTo(-50, -312, -70, -290); ctx.fill();
+  rr2(-30, -360, 40, 10, 5, 'rgba(255,255,255,0.18)');
+  const lid = o.lid ?? 0.55;
+  for (const sd of [-1, 1]) { ctx.fillStyle = '#ffffff'; ctx.beginPath(); ctx.ellipse(sd * 24, -286, 13, 11, 0, 0, 6.283); ctx.fill(); ctx.fillStyle = '#20232f'; ctx.beginPath(); ctx.arc(sd * 24 + 2, -284, 6, 0, 6.283); ctx.fill();
+    ctx.fillStyle = '#f2b38f'; ctx.fillRect(sd * 24 - 15, -300, 30, 14 * lid + 2); ctx.fillStyle = 'rgba(120,70,110,0.35)'; ctx.beginPath(); ctx.ellipse(sd * 24, -270, 12, 4, 0, 0, 6.283); ctx.fill(); }
+  ctx.fillStyle = 'rgba(230,110,110,0.45)'; ctx.beginPath(); ctx.arc(-40, -262, 9, 0, 6.283); ctx.arc(40, -262, 9, 0, 6.283); ctx.fill();
+  rr2(-12, -250, 24, 6, 3, '#9b4b4b');
+  ctx.restore();
+}
+// cute lab rat (own design)
+function drawRat2(t, x, y, s) {
+  ctx.save(); ctx.translate(x, y + Math.sin(t * 2) * 3); ctx.scale(s, s);
+  ctx.fillStyle = 'rgba(0,0,0,0.25)'; ctx.beginPath(); ctx.ellipse(0, 6, 90, 12, 0, 0, 6.283); ctx.fill();
+  ctx.fillStyle = '#aeb6cc'; ctx.beginPath(); ctx.ellipse(10, -40, 80, 46, 0, 0, 6.283); ctx.fill();
+  ctx.fillStyle = '#c7cee0'; ctx.beginPath(); ctx.ellipse(-62, -58, 40, 34, -0.2, 0, 6.283); ctx.fill();
+  ctx.fillStyle = '#e9a7b8'; ctx.beginPath(); ctx.arc(-60, -98, 18, 0, 6.283); ctx.arc(-24, -92, 15, 0, 6.283); ctx.fill();
+  ctx.fillStyle = '#20232f'; ctx.beginPath(); ctx.ellipse(-74, -64, 8, 10, 0, 0, 6.283); ctx.fill(); ctx.fillStyle = '#fff'; ctx.beginPath(); ctx.arc(-71, -68, 3, 0, 6.283); ctx.fill();
+  ctx.fillStyle = '#e9a7b8'; ctx.beginPath(); ctx.arc(-102, -52, 7, 0, 6.283); ctx.fill();
+  ctx.fillStyle = '#9aa3bb'; ctx.beginPath(); ctx.moveTo(88, -34); ctx.quadraticCurveTo(150, -30, 160, -80); ctx.quadraticCurveTo(152, -24, 88, -22); ctx.fill();
+  rr2(-40, -8, 18, 12, 6, '#e9a7b8'); rr2(30, -8, 18, 12, 6, '#e9a7b8');
+  ctx.restore();
+}
+// hallucination sprites in fixed lanes away from the mascot and labels
+const GLANES = [[330, 380, 0], [1600, 470, 1.7], [960, 150, 3.1], [560, 760, 4.4]];
+function hallucinations(t, w) {
+  if (w <= 0) return;
+  ctx.save(); ctx.globalAlpha = w;
+  for (const side of [-1, 1]) {
+    const b = 60 + 40 * Math.sin(t * 2.4 + (side > 0 ? 1 : 0)), x0 = side < 0 ? 0 : W;
+    ctx.fillStyle = 'rgba(110,100,230,0.55)'; ctx.beginPath(); ctx.moveTo(x0, 0);
+    for (let y = 0; y <= H; y += 60) ctx.lineTo(x0 - side * (b + 30 * Math.sin(y * 0.01 + t * 3)), y);
+    ctx.lineTo(x0, H); ctx.closePath(); ctx.fill();
+  }
+  ctx.globalCompositeOperation = 'lighter';
+  for (const o of ORBS2) { const x = o.x * W + Math.sin(t * 0.9 + o.ph) * 50, y = o.y * H + Math.cos(t * 0.7 + o.ph) * 30, r = o.r * (1 + 0.3 * Math.sin(t * 3 + o.ph));
+    const g = ctx.createRadialGradient(x, y, 0, x, y, r); g.addColorStop(0, `rgba(${o.hue},0.75)`); g.addColorStop(1, `rgba(${o.hue},0)`); ctx.fillStyle = g; ctx.beginPath(); ctx.arc(x, y, r, 0, 6.283); ctx.fill(); }
+  ctx.restore();
+  GLANES.forEach(([gx, gy, ph], i) => {
+    const k = clamp((t - CUE.breathe + 0.6 - i * 0.2) / 0.6) * w; if (k <= 0) return;
+    const x = gx + Math.sin(t * 0.8 + ph) * 26, y = gy + Math.sin(t * 1.3 + ph) * 16, s = 1.5;
+    reg('sprite', 'ghost' + i, x - 62 * s, y - 52 * s, x + 62 * s, y + 56 * s);
+    ctx.save(); ctx.globalAlpha = k * 0.9; ctx.translate(x, y); ctx.scale(s, s); ICONS.ghost(t); ctx.restore();
+  });
+}
+const ORBS2 = Array.from({ length: 12 }, (_, i) => ({ x: [0.1, 0.9, 0.2, 0.8, 0.35, 0.65][i % 6] + (R() - 0.5) * 0.06, y: [0.15, 0.2, 0.85, 0.8, 0.12, 0.9][i % 6], r: 24 + R() * 30, ph: R() * 6.28, hue: ['255,143,74', '143,216,230', '255,217,138', '200,120,255'][i % 4] }));
+
+// ---------- sections ----------
+function SECTIONS() { const C = CUE; return [
+  { id: 'night', t0: 0, t1: C.h17 - 0.35, draw: sNight },
+  { id: 'split', t0: C.h17 - 0.35, t1: C.meanwhile + 0.1, draw: sSplit, tr: 'slide' },
+  { id: 'brain', t0: C.meanwhile + 0.1, t1: C.day2, draw: sBrain, tr: 'flood', at: [960, 540] },
+  { id: 'micro', t0: C.day2, t1: C.day3, draw: sMicro, tr: 'flood', at: [960, 420] },
+  { id: 'halluc', t0: C.day3, t1: C.record, draw: sHalluc, tr: 'cut' },
+  { id: 'record', t0: C.record, t1: C.rats, draw: sRecord, tr: 'flood', at: [1600, 120] },
+  { id: 'rats', t0: C.rats, t1: C.randy2, draw: sRats, tr: 'flood', at: [960, 640] },
+  { id: 'bed', t0: C.randy2, t1: C.tonight, draw: sBed, tr: 'flood', at: [960, 540] },
+  { id: 'outro', t0: C.tonight, t1: 999, draw: sOutro, tr: 'cut' },
+]; }
+let SECS = null;
+
+function sNight(t) {
+  const C = CUE;
+  const cam = camAt([[0, 300, 540, 2.25], [C.slept + 0.75, 300, 540, 2.25], [C.slept + 2.1, 960, 540, 1.0], [C.delete - 0.3, 960, 540, 1.04], [C.you - 0.2, 960, 620, 2.0], [C.h17, 960, 620, 2.1]], t);
+  worldBG(t, 'night', 0, cam); beginWorld(cam);
   let ms = 1; const d0 = t - C.slept;
   if (d0 > 0) ms = d0 < 0.22 ? 1 + 0.06 * Math.sin(d0 / 0.22 * Math.PI / 2) : Math.max(0, 1.06 * (1 - eic((d0 - 0.22) / 0.33)));
-  if (t > C.tonight) ms = spring(t - C.tonight - 0.1, 0.5, 9);
   drawMoon(t, ms, 1);
-  if (d0 > 0.55 && d0 < 1.6) {   // shockwave ring (no outlines: a soft gradient band)
-    const k = (d0 - 0.55) / 1.05, rr = 60 + k * 1500;
-    const rg = ctx.createRadialGradient(MOON.x, MOON.y, rr * 0.9, MOON.x, MOON.y, rr);
-    rg.addColorStop(0, 'rgba(200,225,255,0)'); rg.addColorStop(0.8, `rgba(200,225,255,${0.35 * (1 - k)})`); rg.addColorStop(1, 'rgba(200,225,255,0)');
-    ctx.fillStyle = rg; ctx.beginPath(); ctx.arc(MOON.x, MOON.y, rr, 0, 6.283); ctx.fill();
+  if (d0 > 0.55 && d0 < 1.6) { const k = (d0 - 0.55) / 1.05, rr = 60 + k * 1500; const rg = ctx.createRadialGradient(0, 540, rr * 0.9, 0, 540, rr);
+    rg.addColorStop(0, 'rgba(200,225,255,0)'); rg.addColorStop(0.8, `rgba(200,225,255,${0.35 * (1 - k)})`); rg.addColorStop(1, 'rgba(200,225,255,0)'); ctx.fillStyle = rg; ctx.beginPath(); ctx.arc(0, 540, rr, 0, 6.283); ctx.fill(); }
+  if (t > C.slept + 1.6 && t < C.delete) { ctx.save(); ctx.globalAlpha = clamp((t - C.slept - 1.6) / 0.5) * clamp((C.delete - t) / 0.4) * 0.5; ctx.fillStyle = TEAL; for (let i = 0; i < 48; i++) { const a = i / 48 * 6.283 + t * 0.1; ctx.beginPath(); ctx.arc(Math.cos(a) * 300, 540 + Math.sin(a) * 300, 4, 0, 6.283); ctx.fill(); } ctx.restore(); }
+  // life meter (world)
+  const lt0 = C.sleep - 0.1;
+  if (t > lt0 && t < C.delete + 1.6) {
+    const out = clamp((C.delete + 1.6 - t) / 0.4), k = eoq((t - lt0) / 0.9), { x, y, w, h } = BAR, sw = w * 26 / 79, sx = x + w - sw;
+    const [bx0, by0] = toS(x, y - 60), [bx1, by1] = toS(x + w, y + h + 90); reg('meter', 'life', bx0, by0, bx1, by1);
+    ctx.save(); ctx.globalAlpha = out; ctx.fillStyle = 'rgba(6,20,40,0.62)'; ctx.beginPath(); ctx.roundRect(x, y, w * k, h, h / 2); ctx.fill();
+    if (t < C.delete) { ctx.fillStyle = TEAL; ctx.beginPath(); ctx.roundRect(sx, y, sw * clamp(eoq((t - C.lying + 1.2) / 0.8)), h, h / 2); ctx.fill(); }
+    else for (const s of SHARDS) { const dt = t - C.delete, px = sx + s.x * sw + s.vx * dt, py = y + s.y * h + s.vy * dt + 900 * dt * dt; ctx.save(); ctx.globalAlpha = out * clamp(1 - dt / 1.4); ctx.translate(px, py); ctx.rotate(s.rot * dt); ctx.fillStyle = TEAL; ctx.beginPath(); ctx.roundRect(-s.s / 2, -s.s / 2, s.s, s.s, 3); ctx.fill(); ctx.restore(); }
+    ctx.restore();
+    riseText('A LIFETIME · 79 YEARS', x, y - 40, lt0 + 0.2, t, { size: 26, color: WHITE, align: 'left', pill: false, out: C.delete + 1.6 });
+    riseText(t < C.delete ? '26 YEARS ASLEEP' : 'DELETED', sx + sw / 2, y + h + 46, t < C.delete ? C.lying - 1.0 : C.delete + 0.1, t, { size: 30, color: t < C.delete ? TEAL : GOLD, out: C.delete + 1.6 });
   }
-  // "where the Moon was": a dotted circle on "slept" pull-back
-  if (t > C.slept + 1.6 && t < C.sleep + 1.2) { ctx.save(); ctx.globalAlpha = clamp((t - C.slept - 1.6) / 0.5) * clamp((C.sleep + 1.2 - t) / 0.4) * 0.5; ctx.fillStyle = TEAL; for (let i = 0; i < 48; i++) { const a = i / 48 * 6.283 + t * 0.1; ctx.beginPath(); ctx.arc(MOON.x + Math.cos(a) * 300, MOON.y + Math.sin(a) * 300, 4, 0, 6.283); ctx.fill(); } ctx.restore(); }
-  // brain
-  const bA = clamp((t - C.meanwhile + 0.6) / 0.8) * clamp((C.record - t) / 0.8);
-  const tired = clamp((hoursAt(t) - 10) / 50), washDim = t > C.wash ? eoc((t - C.wash) / 0.8) : 0;
-  drawBrain(t, cam, { alpha: bA, tired, glow: 1 - washDim * 0.7, dim: washDim * 0.8 });
-  // mascot
-  const h = hoursAt(t), asleep = t > C.hours15 + 0.25 && t < C.fine;
-  const pose = t > C.fine ? spring(t - C.fine, 0.42, 14) : 0;
-  let sq = 0; for (const e of [C.you, C.drinks, C.drunk, C.fine]) { const d = t - e; if (d > 0 && d < 0.6) sq += Math.sin(d * 18) * Math.exp(-d * 7) * 0.9; }
-  const lookBrain = t > C.meanwhile && t < C.day2 + 1 ? [1, -0.6] : t < C.slept + 3 ? [-1, -0.2] : t > C.rats && t < C.randy2 ? [1, 0.4] : [0.3, 0];
-  drawBed(t);
-  drawPillow(t, C.hours15 - 0.1, true);
-  drawKid(t, { lie: bedState(t).lie, squash: sq, lid: asleep ? 1 : clamp(h / 90) * 0.75, blink: blinkAmt(t), look: lookBrain,
-    wobble: t > C.drunk && t < C.meanwhile + 0.5 ? Math.sin(t * 5) * 10 : 0, tilt: t > C.drunk && t < C.meanwhile + 0.5 ? Math.sin(t * 3.3) * 0.07 : 0,
-    mask: asleep, armsUp: t > C.fine && t < C.tonight + 1, scale: 1 + pose * 0.04 });
-  drawBlanket(t);
-  if (t > C.fine + 0.2) { /* pillow flies off when fine */ }
-  drawZ(t, C.hours15 + 0.3, C.fine - 0.2);
-  if (t < C.meanwhile + 0.6) { ctx.save(); ctx.globalAlpha = clamp((C.meanwhile + 0.6 - t) / 0.5); drawPin(t, C.you, 0); ctx.restore(); }
-  drawRat(t);
-  drawLifeBar(t);
+  KID = { x: 960, y: 800 }; regKid(960, 800, 1, 0);
+  let sq = 0; for (const e of [C.you]) { const dd = t - e; if (dd > 0 && dd < 0.6) sq += Math.sin(dd * 18) * Math.exp(-dd * 7) * 0.9; }
+  drawKid(t, { squash: sq, look: t < C.slept + 3 ? [-1, -0.4] : t < C.delete + 0.5 ? [0.2, -1] : [0, 0], lid: 0 });
+  if (t > C.you) { const [px, py] = toS(960, 800 - 300), z = CAM.z; reg('icon', 'YOU pin', px - 50 * z, py - 128 * z, px + 50 * z, py + 8 * z); drawPin(t, C.you, 0); }
   ctx.restore();
-  // screen-space icons on their words
-  drawHallucinations(t, warp);
-  { const sw = BAR.w * 26 / 79, bx = BAR.x + BAR.w - sw / 2, sc = cam.z; const bxS = W / 2 + (bx - cam.x) * sc, byS = H / 2 + (BAR.y + 150 - cam.y) * sc; icon('bed', bxS, byS, 1.7 * sc, t, C.sleep + 0.2, C.delete - 0.1); }
-  icon('wine', 1250, 600, 1.4, t, C.drinks - 0.05, C.h24 - 0.3); icon('beer', 1390, 610, 1.4, t, C.drinks + 0.12, C.h24 - 0.3);
-  icon('car', 1330, 640, 1.5, t, C.drunk - 0.6, C.meanwhile);
-  icon('bin', 210, 640, 1.3, t, C.trash, C.during);
-  for (let i = 0; i < 3; i++) icon('drop', 200 + i * 40, 420 + i * 150, 1.0, t, C.washes + i * 0.12, C.nosleep);
-  icon('plaque', 1720, 640, 1.4, t, C.alz, C.nosleep);
-  icon('eye', 1270, 330, 1.7, t, C.micro, C.day3 - 0.2, { open: t < C.eyes ? Math.max(0, 1 - (t - C.micro) * 3) * 0 + (blinkAmt(t) > 0.3 ? 0 : 0.0) : eoq((t - C.eyes) / 0.4) });
-  icon('watch', 1460, 330, 1.2, t, C.micro + 0.4, C.day3 - 0.2);
-  icon('trophy', 1250, 400, 1.6, t, C.record, C.rats - 0.3);
-  icon('calendar', 1450, 400, 1.4, t, C.y1964, C.rats - 0.3, { text: t < C.eleven - 1.1 ? '1964' : 'DAY ' + Math.min(11, Math.max(1, Math.ceil((t - C.eleven + 1.1) / 1.1 * 11))), small: t >= C.eleven - 1.1 });
-  icon('flask', 1420, 560, 1.4, t, C.rats + 0.3, C.randy2 - 0.1);
-  { const px = W / 2 + (600 - cam.x) * cam.z, py = H / 2 + (330 - cam.y) * cam.z; icon('pillow', px, py, 1.1, t, C.calls - 0.05, 99); }
-  // screen-space labels
-  drawCounter(t);
-  const L = (txt, x, y, t0, t1, color, size = 34) => riseText(txt, x, y, t0, t, { size, color, out: t1 });
-  L('ZZZ CANCELLED', 960, 930, C.slept + 1.0, C.sleep - 0.2, GOLD);
-  L('≈ 0.05% BLOOD ALCOHOL', 1600, 240, C.drinks, C.h24 - 0.2, GOLD, 30);
-  L('≈ 0.10% · OVER THE LIMIT', 1600, 240, C.drunk, C.meanwhile, GOLD, 30);
-  L('WASTE PILING UP', 960, 960, C.trash, C.during, '#ffc27a');
-  L('BRAIN CELLS SHRINK APART', 960, 900, C.during + 0.3, C.washes - 0.1, TEAL);
-  L('+60% ROOM TO FLUSH', 960, 900, C.washes, C.nosleep, TEAL);
-  L('MOUSE STUDY · 2013', 960, 968, C.washes + 0.3, C.nosleep, WHITE, 24);
-  L('NO WASH', 960, 930, C.wash, C.day2, GOLD);
-  L('MICROSLEEPS', 960, 930, C.micro, C.day3 - 0.2, TEAL);
-  L('HALLUCINATIONS', 960, 930, C.breathe - 0.2, C.record - 0.1, GOLD, 40);
-  L('RANDY GARDNER · 1964', 960, 880, C.randy, C.rats - 0.3, WHITE);
-  L('264 HOURS · 11 DAYS', 960, 948, C.eleven, C.rats - 0.3, GOLD, 40);
-  L('LAB RATS · DEAD WITHIN WEEKS', 960, 930, C.rats + 0.2, C.randy2 - 0.1, TEAL);
-  L('SLEPT 14 H 46 MIN', 960, 930, C.hours15, C.fine - 0.1, TEAL);
-  L('WOKE UP FINE', 960, 930, C.fine, C.tonight, GOLD, 40);
-  // title
-  if (t > C.calls) {
-    riseText('WHAT IF YOU', 1360, 440, C.calls + 0.1, t, { size: 92, weight: 700, color: WHITE, ls: 6, pill: false, dur: 0.8 });
-    riseText('NEVER SLEPT', 1360, 570, C.calls + 0.3, t, { size: 120, weight: 700, color: GOLD, ls: 6, pill: false, dur: 0.8 });
+  // bed icon: above the 26-year segment (screen slots derived from world)
+  const [bx, by] = toS(BAR.x + BAR.w + 150, BAR.y + 23);
+  placeIcon('bed', [[bx, by], [bx, by + 200 * CAM.z]], 1.3 * CAM.z, t, C.sleep + 0.2, C.delete - 0.1);
+}
+function splitK(t) { return eoq((t - CUE.h24 + 0.25) / 0.6); }
+function sSplit(t) {
+  const C = CUE, k = splitK(t), mid = lerp(W, W / 2, k);
+  worldBG(t, 'teal'); reg('panel', 'left', 0, 0, mid, H);
+  if (k > 0) { ctx.save(); ctx.beginPath(); ctx.rect(mid, 0, W - mid, H); ctx.clip(); worldBG(t, 'coral'); ctx.restore(); reg('panel', 'right', mid, 0, W, H); }
+  // left panel: hour 17
+  const kx = lerp(700, 300, k); CAM = { x: 960, y: 540, z: 1 }; KID = { x: kx, y: 900 };
+  const wob = t > C.drunk ? Math.sin(t * 5) * 8 : 0;
+  ctx.save(); ctx.translate(kx, 900); ctx.scale(1.25, 1.25); ctx.translate(-kx, -900);
+  drawKid(t, { lid: 0.35, look: [1, 0], wobble: wob, tilt: t > C.drunk ? Math.sin(t * 3.3) * 0.06 : 0 }); ctx.restore();
+  reg('hero', 'mascot', kx - 80, 900 - 360, kx + 80, 915);
+  const lc = lerp(960, 480, k);
+  tag('17 HOURS AWAKE', lc, 300, t, C.h17 - 0.1, C.meanwhile, '#0b4f5c', 40);
+  meter(lc - 230, 410, 460, 0.05 / 0.12, t, C.drinks - 0.2, C.meanwhile, '#ffd98a', '#ff8f4a', 'LIKE 0.05% BLOOD ALCOHOL');
+  placeIcon('wine', [[lerp(980, 520, k), 650], [lerp(980, 520, k), 830]], 1.4, t, C.drinks - 0.05, C.meanwhile);
+  placeIcon('beer', [[lerp(1210, 760, k), 660], [lerp(1210, 760, k), 830]], 1.4, t, C.drinks + 0.12, C.meanwhile);
+  // right panel: hour 24
+  if (k > 0) {
+    const rc = lerp(W + 480, 1440, k);
+    tag('24 HOURS AWAKE', rc, 300, t, C.h24 - 0.1, C.meanwhile, '#9b3352', 40);
+    meter(rc - 230, 410, 460, 0.10 / 0.12, t, C.h24 + 0.1, C.meanwhile, '#ffd98a', '#e2457a', 'LIKE 0.10% · OVER THE LIMIT');
+    placeIcon('car', [[rc, 690], [rc, 820]], 2.2, t, C.drunk - 0.5, C.meanwhile, { hw: 78, hh: 60 });
   }
-  // white flash after the collapse
+}
+function sBrain(t) {
+  const C = CUE; worldBG(t, 'cream');
+  const tired = clamp((hoursAt(t) - 10) / 50), washDim = t > C.wash ? eoc((t - C.wash) / 0.8) : 0;
+  const pz = 1 + 0.03 * Math.sin(t * 0.4);
+  drawBrainAt(t, { x: 700, y: 560, r: 300 * pz }, { tired, glow: 1 - washDim * 0.7, dim: washDim * 0.8, halo: 'rgba(255,255,255,0.55)' });
+  focusRing(t, 1480, 470, 250);
+  tag('YOUR BRAIN', 700, 905, t, C.head - 0.1, C.during, '#c95a7c', 36);
+  tag('GLYMPHATIC FLUSH', 1480, 790, t, C.washes, C.nosleep, '#2a8fa3', 34);
+  label('WASTE PILING UP', 700, 990, t, C.trash + 0.4, C.nosleep, GOLD, 30);
+  label('CELLS SHRINK APART', 1480, 790, t, C.during + 0.3, C.washes - 0.45, TEAL, 30);
+  label('+60% SPACE · MOUSE STUDY 2013', 1480, 862, t, C.washes + 0.3, C.nosleep, WHITE, 26);
+  label('NO SLEEP · NO WASH', 1480, 790, t, C.wash, C.day2, GOLD, 34);
+  placeIcon('bin', [[1400, 520], [1180, 700]], 1.3, t, C.trash, C.during - 0.5);
+  for (let i = 0; i < 3; i++) placeIcon('drop', [[1115, 300 + i * 130], [1115, 690 + i * 90]], 0.9, t, C.washes + i * 0.12, C.nosleep, { hw: 34, hh: 46 });
+  placeIcon('plaque', [[1840, 560], [1840, 920]], 1.2, t, C.alz, C.nosleep, { hw: 48, hh: 44 });
+}
+function sMicro(t) {
+  const C = CUE; worldBG(t, 'indigo');
+  CAM = { x: 960, y: 540, z: 1 }; KID = { x: 960, y: 880 };
+  ctx.save(); ctx.translate(960, 880); ctx.scale(1.3, 1.3); ctx.translate(-960, -880);
+  drawKid(t, { lid: 0.6, blink: blinkAmt(t), look: [0, 0.3] }); ctx.restore();
+  reg('hero', 'mascot', 960 - 85, 880 - 380, 960 + 85, 896);
+  tag('DAY 2', 960, 300, t, C.day2, C.day3, '#5b4fd6', 44);
+  label('MICROSLEEPS', 960, 975, t, C.micro, C.day3 - 0.1, TEAL, 36);
+  placeIcon('eye', [[520, 470], [480, 300]], 1.7, t, C.micro, C.day3 - 0.2, { open: t < C.eyes ? 0 : eoq((t - C.eyes) / 0.4), hw: 62, hh: 40 });
+  placeIcon('watch', [[1400, 470], [1440, 300]], 1.3, t, C.micro + 0.4, C.day3 - 0.2, { hw: 50, hh: 70 });
+}
+function sHalluc(t) {
+  const C = CUE, w = warpAmt(t); worldBG(t, 'indigo', w);
+  CAM = { x: 960, y: 540, z: 1 }; KID = { x: 960, y: 880 };
+  ctx.save(); ctx.translate(960, 880); ctx.scale(1.3, 1.3); ctx.translate(-960, -880);
+  drawKid(t, { lid: 0.75, look: [Math.sin(t * 1.5), -0.4] }); ctx.restore();
+  reg('hero', 'mascot', 960 - 85, 880 - 380, 960 + 85, 896);
+  tag('DAY 3', 960, 300, t, C.day3, C.record, '#5b4fd6', 44);
+  label('HALLUCINATIONS', 960, 975, t, C.breathe - 0.2, C.record - 0.1, GOLD, 40);
+  hallucinations(t, w);
+}
+function sRecord(t) {
+  const C = CUE; worldBG(t, 'gold');
+  drawTeen(t, 560, 900, 1.45, { lid: 0.6 }); reg('hero', 'teen', 560 - 110, 900 - 545, 560 + 110, 915);
+  label('RANDY GARDNER · AGE 17', 560, 985, t, C.randy, C.rats - 0.3, WHITE, 32);
+  label('264 HOURS · 11 DAYS', 1370, 650, t, C.eleven, C.rats - 0.3, GOLD, 40);
+  placeIcon('trophy', [[1230, 420], [1230, 820]], 1.6, t, C.record, C.rats - 0.3, { hw: 66, hh: 60 });
+  placeIcon('calendar', [[1500, 420], [1500, 820]], 1.4, t, C.y1964, C.rats - 0.3, { text: t < C.eleven - 1.1 ? '1964' : 'DAY ' + Math.min(11, Math.max(1, Math.ceil((t - C.eleven + 1.1) / 1.1 * 11))), small: t >= C.eleven - 1.1, hw: 56, hh: 62 });
+}
+function sRats(t) {
+  const C = CUE; worldBG(t, 'grey');
+  const k = eoq((t - C.rats) / 1.0); drawRat2(t, lerp(1200, 900, k), 700, 2.0); reg('hero', 'rat', lerp(1200, 900, k) - 220, 460, lerp(1200, 900, k) + 330, 720);
+  label('LAB RATS · DEAD WITHIN WEEKS', 960, 900, t, C.rats + 0.2, C.randy2 - 0.1, TEAL, 34);
+  placeIcon('flask', [[1520, 470], [400, 470]], 1.5, t, C.rats + 0.3, C.randy2 - 0.1, { hw: 62, hh: 72 });
+}
+function sBed(t) {
+  const C = CUE, cam = camAt([[C.randy2, 900, 640, 1.55], [C.fine + 0.6, 900, 630, 1.65]], t);
+  worldBG(t, 'night', 0, cam); beginWorld(cam);
+  KID = { x: 900, y: 800 }; const b = bedState(t);
+  drawBed(t); drawPillow(t, C.hours15 - 0.1, true);
+  let sq = 0; const dd = t - C.fine; if (dd > 0 && dd < 0.6) sq = Math.sin(dd * 18) * Math.exp(-dd * 7) * 0.9;
+  const asleep = t > C.hours15 + 0.25 && t < C.fine;
+  drawKid(t, { lie: b.lie, squash: sq, lid: asleep ? 1 : 0.7 * (1 - clamp((t - C.fine) * 3)), mask: asleep, armsUp: t > C.fine, look: [0.3, 0] });
+  drawBlanket(t); drawZ(t, C.hours15 + 0.3, C.fine - 0.2);
+  ctx.restore();
+  const [bx0, by0] = toS(900 - 200, 800 - 300), [bx1, by1] = toS(900 + 200, 815); reg('hero', 'bed', bx0, by0, bx1, by1);
+  label('SLEPT 14 H 46 MIN', 960, 975, t, C.hours15, C.fine - 0.45, TEAL, 36);
+  label('WOKE UP FINE', 960, 975, t, C.fine, C.tonight, GOLD, 40);
+}
+function sOutro(t) {
+  const C = CUE, cam = camAt([[C.tonight, 900, 630, 1.65], [C.tonight + 1.3, 880, 540, 1.0], [99, 860, 540, 0.97]], t);
+  worldBG(t, 'night', 0, cam); beginWorld(cam);
+  drawMoon(t, spring(t - C.tonight - 0.1, 0.5, 9), 1);
+  KID = { x: 740, y: 800 }; drawKid(t, { look: [-1, -0.5], lid: 0.2 }); regKid(740, 800, 1, 0);
+  ctx.restore();
+  const [px, py] = toS(520, 330);
+  placeIcon('pillow', [[px, py], [px, py + 160]], 1.1, t, C.calls - 0.05, 99, { hw: 130, hh: 70 });
+  if (t > C.calls) {
+    reg('label', 'title', 1010, 370, 1760, 640);
+    LABELQ.push(() => { riseText('WHAT IF YOU', 1385, 440, C.calls + 0.1, t, { size: 92, weight: 700, color: WHITE, ls: 6, pill: false, dur: 0.8 });
+      riseText('NEVER SLEPT', 1385, 570, C.calls + 0.3, t, { size: 120, weight: 700, color: GOLD, ls: 6, pill: false, dur: 0.8 }); });
+  }
+}
+
+// ---------- frame ----------
+function drawSection(sec, t) { ctx.save(); sec.draw(t); ctx.restore(); }
+function draw(t) {
+  const C = CUE; BOX = []; LABELQ = [];
+  ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.globalAlpha = 1; ctx.letterSpacing = '0px';
+  const i = SECS.findIndex(s => t >= s.t0 && t < s.t1), sec = SECS[Math.max(0, i)], prev = SECS[i - 1];
+  const lt = t - sec.t0, TD = 0.55;
+  if (prev && sec.tr !== 'cut' && lt < TD) {
+    drawSection(prev, t); for (const f of LABELQ) f(); const keepB = BOX; BOX = []; LABELQ = [];
+    const k = eic(lt / TD);
+    ctx.save(); ctx.beginPath();
+    if (sec.tr === 'flood') { const [fx, fy] = sec.at; ctx.arc(fx, fy, k * 2300, 0, 6.283); }
+    else ctx.rect(0, 0, W * k, H);
+    ctx.clip(); drawSection(sec, t); for (const f of LABELQ) f(); ctx.restore();
+    if (k < 0.5) BOX = keepB;   // audit the dominant scene only
+  } else { drawSection(sec, t); for (const f of LABELQ) f(); }
+  // HUD counter (registered)
+  if (t > C.zero && t < C.tonight + 0.6) reg('hud', 'counter', 1390, 58, 1810, 182);
+  drawCounter(t);
+  // flash after the collapse, microsleep eyelids, vignette, grain, fades
   const fl = t - C.slept - 0.55; if (fl > 0 && fl < 0.6) { ctx.fillStyle = `rgba(255,255,255,${0.85 * (1 - fl / 0.6) ** 2})`; ctx.fillRect(0, 0, W, H); }
-  // microsleep eyelids
   const bl = blinkAmt(t); if (bl > 0) { ctx.fillStyle = '#02040a'; ctx.fillRect(0, 0, W, H / 2 * bl); ctx.fillRect(0, H - H / 2 * bl, W, H / 2 * bl); }
-  // vignette + grain
-  const vg = ctx.createRadialGradient(W / 2, H / 2, H * 0.35, W / 2, H / 2, H * 0.95); vg.addColorStop(0, 'rgba(4,4,20,0)'); vg.addColorStop(1, 'rgba(4,4,20,0.45)');
+  const vg = ctx.createRadialGradient(W / 2, H / 2, H * 0.35, W / 2, H / 2, H * 0.95); vg.addColorStop(0, 'rgba(4,4,20,0)'); vg.addColorStop(1, 'rgba(4,4,20,0.4)');
   ctx.fillStyle = vg; ctx.fillRect(0, 0, W, H);
-  if (dark > 0) { ctx.fillStyle = `rgba(2,3,10,${dark * 0.5})`; ctx.fillRect(0, 0, W, H); }
   grain(t);
   const fo = Math.min(clamp(t / 0.3), clamp((DUR - t) / 0.6)); if (fo < 1) { ctx.fillStyle = `rgba(0,0,0,${1 - fo})`; ctx.fillRect(0, 0, W, H); }
 }
 
+// overlap audit: icons and ambient sprites must not touch anything else (every 0.1 s)
+window.overlapAudit = (step = 0.1) => {
+  const out = new Map(); AUDIT.on = true; AUDIT.log = (m, t) => { if (!out.has(m)) out.set(m, t); };
+  for (let t = 0; t < DUR; t += step) {
+    draw(t);
+    for (const a of BOX) if (a.kind === 'icon' || a.kind === 'sprite') {
+      if (a.x0 < 4 || a.x1 > W - 4 || a.y0 < 4 || a.y1 > H - 4) AUDIT.log(`${a.name} runs off the frame`, t);
+      for (const b of BOX) if (b !== a && b.kind !== 'panel' && hitB(a, b)) AUDIT.log(`${a.name} overlaps ${b.kind} "${b.name}"`, t);
+    }
+    for (const a of BOX) if (a.kind === 'label') for (const b of BOX) if (b !== a && ['hero', 'hud', 'meter', 'label'].includes(b.kind) && hitB(a, b) && !(b.kind === 'label' && b.name === a.name)) AUDIT.log(`label "${a.name}" overlaps ${b.kind} "${b.name}"`, t);
+  }
+  AUDIT.on = false; return [...out].map(([m, t]) => `${t.toFixed(1)}s ${m}`);
+};
+
 window.ready = (async () => {
   const d = await (await fetch('audio/words.json')).json(); WORDS = d.words; DUR = d.duration;
-  buildCues(); KEYS = camKeys(); await document.fonts.load('700 40px Fredoka'); await document.fonts.load('600 40px Fredoka');
+  buildCues(); SECS = SECTIONS(); await document.fonts.load('700 40px Fredoka'); await document.fonts.load('600 40px Fredoka');
   return { DUR, CUE };
 })();
 window.seek = t => draw(t);
 window.frame = (t, q = 0.95) => { draw(t); return cv.toDataURL('image/jpeg', q); };
+
 </script></body></html>

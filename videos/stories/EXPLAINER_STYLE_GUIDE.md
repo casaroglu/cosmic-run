@@ -70,6 +70,10 @@ Make a flat-vector animated science explainer, drawn entirely in code. Use one 2
 - Icons are 2–3 flat colours, chunky, slightly 3/4 tilted, with a highlight capsule. They sit in free screen space and never cover a face or a number.
 - **Icon grids.** For lists ("masks, gloves, sanitizer…"), use a 3×2 grid of coloured tiles, each tile one hue with one icon, revealed tile by tile 0.12 s apart.
 - **Organs must read as the real organ.** A brain is a side view with folds, a lateral fissure, cerebellum and stem. Lungs are two lobes with a speckled texture. A heart has four chambers or a stylised heart with vessels. Never use a sphere as a stand-in.
+- **Icons never sit on top of other elements.** An icon must not overlap the hero object (brain, planet, mascot), another icon, a label, a counter, a meter, a panel edge, or the frame edge.
+  - Before an icon pops in, its slot is checked against the screen boxes of everything visible at that moment. Pick a free slot instead, or shrink the icon. Never let it cover the drawing behind it.
+  - Hallucination ghosts, particles and other ambient sprites are kept out of the hero's and labels' boxes too.
+  - The overlap audit runs on every 0.1 s of the video before rendering, and must report zero icon overlaps.
 - Abstract ideas get visual metaphors:
   - Hallucinations: ghosts, floating light orbs, walls that breathe, hue drift.
   - Fatigue: drooping eyelids, a desaturating world.
@@ -166,6 +170,7 @@ Make a flat-vector animated science explainer, drawn entirely in code. Use one 2
 - [ ] Every concrete word in the script has an icon or illustration on its timestamp.
 - [ ] Organs and objects read correctly in silhouette alone.
 - [ ] No label overlaps another label, a counter, a face or the frame edge.
+- [ ] Overlap audit (every 0.1 s): no icon or ambient sprite on top of the hero object, the mascot, another icon, a label, a counter or a meter.
 - [ ] Every line of narration has a camera move or transformation.
 - [ ] At most 3 simultaneous new elements. Spring pops, no linear fades.
 - [ ] Facts in the script are checked against two sources and listed in the episode README.
