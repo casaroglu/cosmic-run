@@ -1,10 +1,14 @@
 # The Entire History of Spain
 
+Status: ready, not uploaded yet (2026-11-19 upload blocked by YouTube's daily upload limit).
+Thumbnail: `videos/out/spain/long/thumbnail_gemini.jpg` (Gemini, based on Titian's Charles V at Mühlberg, public domain).
+
 ## Title
-The Entire History of Spain | 35,000 Years in 40 Minutes
+How Spain Went From Cave Art to World Empire (40 Minutes)
+(earlier draft: "The Entire History of Spain | 35,000 Years in 40 Minutes"; changed to match the Ottoman long-form style)
 
 ## Description
-From the painted caves of Altamira to the night a king saved Spanish democracy: the whole story of Spain in 23 chapters, told with public-domain paintings and an animated globe.
+From the painted caves of Altamira to the night a king saved Spanish democracy: the whole story of Spain in 23 chapters, told as a conversation, with hand-drawn maps of its borders, public-domain paintings and an animated globe.
 
 0:00 Intro
 0:31 01. Altamira (35,000+ years ago)
@@ -32,9 +36,10 @@ From the painted caves of Altamira to the night a king saved Spanish democracy: 
 37:35 23. The Transition (1975–1982)
 
 Every date is checked against two sources (Britannica, Real Academia de la Historia, Elliott, Barton and others).
-Narration: synthetic voice. Music: generated for this channel. Map data: Natural Earth (public domain).
+Narration: synthetic voices. Music: generated for this channel. Map data: Natural Earth (public domain). Borders are approximate.
 
 Images: public-domain paintings, engravings and photographs, plus CC0 photographs. Full credits in the pinned comment.
+Thumbnail: AI-generated, based on Titian, Emperor Charles V at Mühlberg (1548, public domain).
 
 #history #spain #documentary
 
