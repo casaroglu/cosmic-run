@@ -13,14 +13,14 @@
 | 2026-11-20 21:00 | ottoman | 08-lepanto | scheduled | https://youtube.com/shorts/r6MWNC8BF8Y |
 | 2026-11-21 13:00 | ottoman | 09-water | scheduled | https://youtube.com/shorts/8LU1JQ2w6sc |
 | 2026-11-21 17:00 | ottoman | 10-vienna | scheduled | https://youtube.com/shorts/OEzIRGDhKVw |
-| 2026-11-21 21:00 | ottoman | 11-janissaries | draft (thumbnail blocked: YouTube verification needed) | https://youtube.com/shorts/osPaSmXkzic |
+| 2026-11-21 21:00 | ottoman | 11-janissaries | scheduled | https://youtube.com/shorts/osPaSmXkzic |
 | 2026-11-22 13:00 | ottoman | 12-sickman | scheduled | https://youtube.com/shorts/sN1fgkS9bWI |
 | 2026-11-22 17:00 | ottoman | 13-gallipoli | scheduled | https://youtube.com/shorts/_aQ1TGKBIfk |
 | 2026-11-22 21:00 | ottoman | 14-last-sultan | scheduled | https://youtube.com/shorts/Ytf5bWZF01A |
-| 2026-11-23 13:00 | chokepoints | 01a-hormuz-gate | draft (thumbnail blocked: YouTube verification needed) | https://youtube.com/shorts/fK76cMkkDy0 |
-| 2026-11-23 17:00 | chokepoints | 01b-hormuz-oil | todo |  |
-| 2026-11-23 21:00 | chokepoints | 02a-suez | todo |  |
-| 2026-11-24 13:00 | chokepoints | 02b-bab-el-mandeb | todo |  |
+| 2026-11-23 13:00 | chokepoints | 01a-hormuz-gate | scheduled | https://youtube.com/shorts/fK76cMkkDy0 |
+| 2026-11-23 17:00 | chokepoints | 01b-hormuz-oil | scheduled | https://youtube.com/shorts/u8FiLcyxlPo |
+| 2026-11-23 21:00 | chokepoints | 02a-suez | scheduled | https://youtube.com/shorts/ZEgyS4Hqhpw |
+| 2026-11-24 13:00 | chokepoints | 02b-bab-el-mandeb | draft (thumbnail blocked: YouTube verification needed) | https://youtube.com/shorts/doFmJhPl9bI |
 | 2026-11-24 17:00 | chokepoints | 03-panama | todo |  |
 | 2026-11-24 21:00 | chokepoints | 04-greenland | todo |  |
 | 2026-11-25 13:00 | chokepoints | 05-taiwan | todo |  |
