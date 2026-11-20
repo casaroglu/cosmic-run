@@ -1,0 +1,330 @@
+{
+ "voice": "bm_fable",
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "q_pause": 0.45,
+ "speed": 0.92,
+ "gap": 0.24,
+ "lines": [
+  {
+   "id": "c1",
+   "speaker": "q",
+   "text": "Does cold weather actually give you a cold?"
+  },
+  {
+   "id": "c2",
+   "text": "Not directly. Every cold and every flu starts with a virus. Cold air can't make one out of nothing. But cold air does something sneaky to the inside of your nose."
+  },
+  {
+   "id": "c3",
+   "text": "In 2022, scientists in Boston found that when cold air chills the nose lining, it fires out about 42 percent fewer tiny decoys, the little bubbles that normally trap viruses before they get in.",
+   "say": "In twenty twenty-two, scientists in Boston found that when cold air chills the nose lining, it fires out about forty-two percent fewer tiny decoys, the little bubbles that normally trap viruses before they get in."
+  },
+  {
+   "id": "c4q",
+   "speaker": "q",
+   "text": "So winter disarms my nose?"
+  },
+  {
+   "id": "c5",
+   "text": "That's one piece. Winter stacks up at least six things at once: a colder nose, viruses that like the cold, dry air, slower mucus, crowded rooms, and less sunshine. Let's take them one by one."
+  },
+  {
+   "id": "d1",
+   "speaker": "q",
+   "text": "What are these decoys in my nose?",
+   "ch": "The decoy swarm",
+   "gap_before": 2.2
+  },
+  {
+   "id": "d2",
+   "text": "When a virus lands on the lining of your nose, the cells there notice it and release a swarm of microscopic bubbles called extracellular vesicles. They pour into the mucus like a cloud of bees."
+  },
+  {
+   "id": "d3",
+   "text": "Each bubble is covered in the same docking hooks the virus normally grabs on your cells. So the virus latches onto a bubble instead, like a fish biting a fake lure, and gets stuck."
+  },
+  {
+   "id": "d3b",
+   "text": "Some bubbles also carry tiny antiviral messages, strands called micro R N A, that block the virus from copying itself.",
+   "say": "Some bubbles also carry tiny antiviral messages, strands called micro R N A, that block the virus from copying itself."
+  },
+  {
+   "id": "d4q",
+   "speaker": "q",
+   "text": "And the cold breaks this?"
+  },
+  {
+   "id": "d5",
+   "text": "Partly. Volunteers walked from a warm room into air at about 40 degrees Fahrenheit for 15 minutes. The temperature inside their noses dropped by about 9 degrees, or 5 Celsius.",
+   "say": "Partly. Volunteers walked from a warm room into air at about forty degrees Fahrenheit for fifteen minutes. The temperature inside their noses dropped by about nine degrees, or five Celsius."
+  },
+  {
+   "id": "d6",
+   "text": "Then the team chilled nasal cells and tissue by that same amount in the lab. The cells released nearly 42 percent fewer bubbles, and the bubbles they did release grabbed viruses less well.",
+   "say": "Then the team chilled nasal cells and tissue by that same amount in the lab. The cells released nearly forty-two percent fewer bubbles, and the bubbles they did release grabbed viruses less well."
+  },
+  {
+   "id": "d7",
+   "text": "They tested two common cold viruses and one coronavirus. One caveat: this was lab tissue, not people catching real colds. But it fits what our grandmothers suspected."
+  },
+  {
+   "id": "r1",
+   "speaker": "q",
+   "text": "Do viruses actually prefer the cold?",
+   "ch": "A virus that likes it cool",
+   "gap_before": 2.2
+  },
+  {
+   "id": "r2",
+   "text": "The most common cold virus does. Rhinovirus causes most colds, and its name literally means nose virus. Your nose runs cooler than your body, around 91 degrees Fahrenheit instead of 98.6.",
+   "say": "The most common cold virus does. Rhinovirus causes most colds, and its name literally means nose virus. Your nose runs cooler than your body, around ninety-one degrees Fahrenheit instead of ninety-eight point six."
+  },
+  {
+   "id": "r3",
+   "text": "In 2015, a Yale team grew airway cells at both temperatures and infected them. At body temperature, infected cells rang a loud alarm, a chemical called interferon, and the virus was held back.",
+   "say": "In twenty fifteen, a Yale team grew airway cells at both temperatures and infected them. At body temperature, infected cells rang a loud alarm, a chemical called interferon, and the virus was held back."
+  },
+  {
+   "id": "r4",
+   "text": "At nose temperature, the alarm was quieter, and the virus copied itself more. So a nose cooled further by winter air may tilt the fight toward the virus."
+  },
+  {
+   "id": "r5q",
+   "speaker": "q",
+   "text": "Were those human cells?"
+  },
+  {
+   "id": "r6",
+   "text": "No, they were mouse airway cells, so it's a clue, not proof. A follow-up study found most rhinovirus strains do grow better at nose temperature than at lung temperature."
+  },
+  {
+   "id": "h1",
+   "speaker": "q",
+   "text": "Why does flu explode in winter?",
+   "ch": "Cold, dry air",
+   "gap_before": 2.2
+  },
+  {
+   "id": "h2",
+   "text": "Flu has a clear rhythm. In the U.S., it starts climbing in October and usually peaks between December and February. February is the most common peak month."
+  },
+  {
+   "id": "h3",
+   "text": "A clue came from guinea pigs. Researchers read that lab guinea pigs at an army base died during the 1918 flu pandemic, so in 2007 a New York team tried infecting them on purpose.",
+   "say": "A clue came from guinea pigs. Researchers read that lab guinea pigs at an army base died during the nineteen eighteen flu pandemic, so in two thousand seven a New York team tried infecting them on purpose."
+  },
+  {
+   "id": "h4",
+   "text": "They put sick guinea pigs in cages next to healthy ones and changed the air. At 20 to 35 percent humidity, flu jumped across easily. At 80 percent humidity, it didn't jump at all.",
+   "say": "They put sick guinea pigs in cages next to healthy ones and changed the air. At twenty to thirty-five percent humidity, flu jumped across easily. At eighty percent humidity, it didn't jump at all."
+  },
+  {
+   "id": "h5",
+   "text": "Temperature mattered too. At 41 degrees Fahrenheit, flu spread better than at room temperature, and the cold guinea pigs shed virus about 40 hours longer. At 86 degrees, no spread at all.",
+   "say": "Temperature mattered too. At forty-one degrees Fahrenheit, flu spread better than at room temperature, and the cold guinea pigs shed virus about forty hours longer. At eighty-six degrees, no spread at all."
+  },
+  {
+   "id": "h6q",
+   "speaker": "q",
+   "text": "Why would dry air help it?"
+  },
+  {
+   "id": "h7",
+   "text": "When you cough in humid air, the droplets stay heavy and drop to the floor. In dry air, they shrink into tiny specks that float for a long time, and the flu virus inside survives longer."
+  },
+  {
+   "id": "h8",
+   "text": "In 2009, two scientists reran the numbers using absolute humidity, the actual amount of water in the air. It explained about 90 percent of how long flu survived.",
+   "say": "In two thousand nine, two scientists reran the numbers using absolute humidity, the actual amount of water in the air. It explained about ninety percent of how long flu survived."
+  },
+  {
+   "id": "h9",
+   "text": "And winter air holds very little water. When you heat it indoors, it gets even drier. Heated homes can drop below 30 percent humidity, drier than many deserts.",
+   "say": "And winter air holds very little water. When you heat it indoors, it gets even drier. Heated homes can drop below thirty percent humidity, drier than many deserts."
+  },
+  {
+   "id": "m1",
+   "speaker": "q",
+   "text": "Does dry air hurt my body too?",
+   "ch": "The mucus conveyor belt",
+   "gap_before": 2.2
+  },
+  {
+   "id": "m2",
+   "text": "It does. Your airways are lined with a sticky layer of mucus sitting on millions of tiny hairs called cilia. They beat together like oars and push the mucus, and any trapped germs, up and out."
+  },
+  {
+   "id": "m3",
+   "text": "You swallow that mucus without noticing, and stomach acid destroys the germs. It's a conveyor belt that runs all day."
+  },
+  {
+   "id": "m4q",
+   "speaker": "q",
+   "text": "And dry air jams the belt?"
+  },
+  {
+   "id": "m5",
+   "text": "In mice, yes. A Yale team kept mice in very dry air, 10 to 20 percent humidity, and others at 50 percent, then gave them flu.",
+   "say": "In mice, yes. A Yale team kept mice in very dry air, ten to twenty percent humidity, and others at fifty percent, then gave them flu."
+  },
+  {
+   "id": "m6",
+   "text": "In the dry cages, the cilia swept mucus out more slowly, damaged airway cells repaired themselves more poorly, and the antiviral alarm stayed weaker. Those mice got sicker."
+  },
+  {
+   "id": "m7",
+   "text": "Again, mice aren't people. But it's one more way the same dry winter air works against us twice: the virus floats better, and the defenses slow down."
+  },
+  {
+   "id": "i1",
+   "speaker": "q",
+   "text": "Is it also just being indoors?",
+   "ch": "Locked inside together",
+   "gap_before": 2.2
+  },
+  {
+   "id": "i2",
+   "text": "Absolutely. Americans already spend about 90 percent of their time indoors, and winter pushes it even higher. Windows close, doors stay shut, and everyone breathes the same air.",
+   "say": "Absolutely. Americans already spend about ninety percent of their time indoors, and winter pushes it even higher. Windows close, doors stay shut, and everyone breathes the same air."
+  },
+  {
+   "id": "i3",
+   "text": "Picture an office with sealed windows. One person with flu breathes out tiny virus specks. With no fresh air coming in, the specks build up like smoke in a closed room."
+  },
+  {
+   "id": "i4",
+   "text": "Fresh air dilutes them. An open window or a running ventilation fan pushes the specks out, so each breath you take carries fewer of them."
+  },
+  {
+   "id": "i4b",
+   "text": "A portable air purifier with a HEPA filter does the same job. Its fan pulls room air through a dense mesh that catches the floating specks.",
+   "say": "A portable air purifier with a HEPA filter does the same job. Its fan pulls room air through a dense mesh that catches the floating specks."
+  },
+  {
+   "id": "i5",
+   "text": "Then add packed classrooms, crowded buses, and holiday gatherings, where kids and travelers carry viruses from house to house. Crowding alone can't explain winter, but it pours fuel on it."
+  },
+  {
+   "id": "v1",
+   "speaker": "q",
+   "text": "Does less sunshine matter, too?",
+   "ch": "The missing sunshine",
+   "gap_before": 2.2
+  },
+  {
+   "id": "v2",
+   "text": "Maybe a little. Your skin makes vitamin D when ultraviolet B rays from the sun hit it. Immune cells use vitamin D to make their own natural antibiotics."
+  },
+  {
+   "id": "v3",
+   "text": "But in winter, the sun sits low and those rays get filtered out. In Boston, from November through February, sunlight makes almost no vitamin D in your skin at all."
+  },
+  {
+   "id": "v4q",
+   "speaker": "q",
+   "text": "So should everyone take vitamin D?"
+  },
+  {
+   "id": "v5",
+   "text": "The evidence is modest. A big 2017 analysis pooled 25 trials with about 11,000 people. Vitamin D pills cut respiratory infections only slightly overall.",
+   "say": "The evidence is modest. A big twenty seventeen analysis pooled twenty-five trials with about eleven thousand people. Vitamin D pills cut respiratory infections only slightly overall."
+  },
+  {
+   "id": "v6",
+   "text": "The clearest benefit was in people who were very low in vitamin D and took small daily or weekly doses. Giant one-time doses didn't help. If you're unsure about your levels, talk to your doctor."
+  },
+  {
+   "id": "n1",
+   "speaker": "q",
+   "text": "Why do stomach bugs hit in winter?",
+   "ch": "The winter stomach bug",
+   "gap_before": 2.2
+  },
+  {
+   "id": "n2",
+   "text": "That's norovirus, the stomach bug that brings sudden vomiting and diarrhea. In the U.S., it causes about 19 to 21 million illnesses a year, and most outbreaks happen from November to April.",
+   "say": "That's norovirus, the stomach bug that brings sudden vomiting and diarrhea. In the U S, it causes about nineteen to twenty-one million illnesses a year, and most outbreaks happen from November to April."
+  },
+  {
+   "id": "n3",
+   "text": "It's frighteningly contagious. Just a few dozen virus particles can be enough to make you sick, and a sick person sheds enormous numbers of them. One unwashed hand on a doorknob can seed a whole family."
+  },
+  {
+   "id": "n4q",
+   "speaker": "q",
+   "text": "Doesn't hand sanitizer kill it?"
+  },
+  {
+   "id": "n5",
+   "text": "Not well. Many viruses wear a fatty coat that alcohol rips apart. Norovirus has no fatty coat, just a tough protein shell, so alcohol gel often leaves it standing."
+  },
+  {
+   "id": "n6",
+   "text": "Soap and water work better, because scrubbing and rinsing physically lift the virus off your skin and wash it down the drain. And washing hands cuts colds and other respiratory illnesses too, by about 16 to 21 percent.",
+   "say": "Soap and water work better, because scrubbing and rinsing physically lift the virus off your skin and wash it down the drain. And washing hands cuts colds and other respiratory illnesses too, by about sixteen to twenty-one percent."
+  },
+  {
+   "id": "n7",
+   "text": "On kitchen counters and bathroom handles, norovirus can survive for days. To kill it there, use a bleach-based cleaner or a disinfectant labeled for norovirus."
+  },
+  {
+   "id": "w1",
+   "speaker": "q",
+   "text": "So is going out with wet hair fine?",
+   "ch": "Wet hair and cold feet",
+   "gap_before": 2.2
+  },
+  {
+   "id": "w2",
+   "text": "Mostly, yes. Wet hair can't create a virus. If no virus reaches you, you won't catch a cold, no matter how cold your head gets."
+  },
+  {
+   "id": "w3",
+   "text": "But there's one odd experiment. In 2005, researchers in Wales had 90 volunteers sit with bare feet in cold water for 20 minutes. Another 90 sat with their feet in empty bowls.",
+   "say": "But there's one odd experiment. In two thousand five, researchers in Wales had ninety volunteers sit with bare feet in cold water for twenty minutes. Another ninety sat with their feet in empty bowls."
+  },
+  {
+   "id": "w4",
+   "text": "Over the next four to five days, 13 of the chilled people reported a cold, versus 5 in the other group. The idea is that chilling squeezes blood vessels in the nose, which may let a virus already hiding there take hold.",
+   "say": "Over the next four to five days, thirteen of the chilled people reported a cold, versus five in the other group. The idea is that chilling squeezes blood vessels in the nose, which may let a virus already hiding there take hold."
+  },
+  {
+   "id": "w5",
+   "text": "But the numbers were small, colds were self-reported, and nobody tested for viruses. So it's an interesting hint, not a rule."
+  },
+  {
+   "id": "w6q",
+   "speaker": "q",
+   "text": "What weakens defenses more reliably?"
+  },
+  {
+   "id": "w7",
+   "text": "Short sleep. In a 2015 study, 164 adults got cold virus dripped into their noses. Those who slept under six hours a night were about four times more likely to get sick than those sleeping over seven.",
+   "say": "Short sleep. In a twenty fifteen study, a hundred sixty-four adults got cold virus dripped into their noses. Those who slept under six hours a night were about four times more likely to get sick than those sleeping over seven."
+  },
+  {
+   "id": "o1",
+   "speaker": "q",
+   "text": "So what actually keeps me healthy?",
+   "gap_before": 1.0
+  },
+  {
+   "id": "o2",
+   "text": "Wash your hands with soap and water. Let fresh air in. Keep indoor humidity around 40 to 60 percent. Get your yearly flu shot and other recommended vaccines. And protect your sleep.",
+   "say": "Wash your hands with soap and water. Let fresh air in. Keep indoor humidity around forty to sixty percent. Get your yearly flu shot and other recommended vaccines. And protect your sleep."
+  },
+  {
+   "id": "o3",
+   "text": "It's not the cold itself. That's why we really get sick in winter."
+  },
+  {
+   "id": "o4",
+   "speaker": "q",
+   "text": "Subscribe for more of what's happening inside your body, and tell us in the comments what you do to dodge winter colds.",
+   "gap_before": 0.5
+  }
+ ]
+}
