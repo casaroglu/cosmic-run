@@ -1,0 +1,7952 @@
+{
+ "duration": 546.975,
+ "lines": [
+  {
+   "id": "c1",
+   "speaker": "q",
+   "text": "Can measles really erase my immune memory?",
+   "start": 0.35,
+   "end": 2.758
+  },
+  {
+   "id": "c2",
+   "speaker": "a",
+   "text": "Yes. Measles doesn't just give you a rash and a fever. It slips into the cells that remember your old infections and wipes many of them out, so germs you already beat can come back.",
+   "start": 3.208,
+   "end": 12.967
+  },
+  {
+   "id": "c3",
+   "speaker": "a",
+   "text": "And the timing matters. On November 17, 2026, the Pan American Health Organization announced that the United States had lost its measles elimination status, held since 2000.",
+   "start": 13.207,
+   "end": 25.277
+  },
+  {
+   "id": "c4",
+   "speaker": "a",
+   "text": "That happens when one chain of measles keeps spreading for a full year. By mid-November, the CDC had counted 5,412 cases in 2026, and states had reported 10 deaths.",
+   "start": 25.517,
+   "end": 37.754
+  },
+  {
+   "id": "c4b",
+   "speaker": "a",
+   "text": "Canada lost the same status a year earlier, in November 2025. Measles is settling back into North America, one unvaccinated classroom at a time.",
+   "start": 37.994,
+   "end": 47.568
+  },
+  {
+   "id": "c5q",
+   "speaker": "q",
+   "text": "So what does measles actually do?",
+   "start": 47.808,
+   "end": 49.612
+  },
+  {
+   "id": "c6",
+   "speaker": "a",
+   "text": "Let's start with the illness itself, then follow the virus into your immune system's memory bank.",
+   "start": 50.062,
+   "end": 55.864
+  },
+  {
+   "id": "a1",
+   "speaker": "q",
+   "text": "What happens when you catch measles?",
+   "start": 58.064,
+   "end": 59.834
+  },
+  {
+   "id": "a2",
+   "speaker": "a",
+   "text": "First comes a high fever, a cough, a runny nose and red, watery eyes. It looks like a bad cold.",
+   "start": 60.284,
+   "end": 66.857
+  },
+  {
+   "id": "a3",
+   "speaker": "a",
+   "text": "Two or three days later, tiny white spots appear inside the cheeks, like grains of salt on red skin. Doctors call them Koplik spots, and they're a giveaway for measles.",
+   "start": 67.097,
+   "end": 76.793
+  },
+  {
+   "id": "a4",
+   "speaker": "a",
+   "text": "Then the rash erupts. Flat red blotches start at the hairline and spread down the face, the neck, the chest, all the way to the feet.",
+   "start": 77.033,
+   "end": 84.555
+  },
+  {
+   "id": "a4b",
+   "speaker": "a",
+   "text": "About one in five unvaccinated Americans who catch measles ends up in the hospital.",
+   "start": 84.795,
+   "end": 90.67
+  },
+  {
+   "id": "a5q",
+   "speaker": "q",
+   "text": "Is it usually just a rash?",
+   "start": 90.91,
+   "end": 92.559
+  },
+  {
+   "id": "a6",
+   "speaker": "a",
+   "text": "Not always. Up to one in twenty children with measles gets pneumonia, as the lungs fill with fluid. That's the most common way measles kills young children.",
+   "start": 93.009,
+   "end": 101.869
+  },
+  {
+   "id": "a6b",
+   "speaker": "a",
+   "text": "Overall, about one to three of every thousand children who catch it die from lung or brain complications.",
+   "start": 102.109,
+   "end": 108.203
+  },
+  {
+   "id": "a7",
+   "speaker": "a",
+   "text": "In about one in a thousand cases, the virus inflames the brain. That's encephalitis, and it can leave a child deaf or with lasting brain damage.",
+   "start": 108.443,
+   "end": 117.202
+  },
+  {
+   "id": "a8",
+   "speaker": "a",
+   "text": "And rarely, the virus hides in the brain for years. Seven to ten years later, it wakes up as SSPE, a slow brain disease that is always fatal.",
+   "start": 117.442,
+   "end": 126.512
+  },
+  {
+   "id": "b1",
+   "speaker": "q",
+   "text": "Why does measles spread so easily?",
+   "start": 128.712,
+   "end": 130.525
+  },
+  {
+   "id": "b2",
+   "speaker": "a",
+   "text": "Because it floats. A cough sprays tiny droplets into the air, and they hang there like invisible smoke.",
+   "start": 130.975,
+   "end": 137.266
+  },
+  {
+   "id": "b3",
+   "speaker": "a",
+   "text": "Measles can stay in a room's air for up to two hours after the sick person has left. You can walk in later and breathe it in.",
+   "start": 137.506,
+   "end": 144.452
+  },
+  {
+   "id": "b3b",
+   "speaker": "a",
+   "text": "Worse, people spread it for four days before the rash appears, while they still think it's just a cold, and for four days after.",
+   "start": 144.692,
+   "end": 152.064
+  },
+  {
+   "id": "b4",
+   "speaker": "a",
+   "text": "If ten unprotected people share a room with someone who has measles, up to nine of them will catch it.",
+   "start": 152.304,
+   "end": 157.66
+  },
+  {
+   "id": "b5q",
+   "speaker": "q",
+   "text": "How does that compare to other viruses?",
+   "start": 157.9,
+   "end": 159.938
+  },
+  {
+   "id": "b6",
+   "speaker": "a",
+   "text": "Scientists use a number called R naught: how many people one case infects in a crowd with no immunity. For measles, it's often quoted at twelve to eighteen.",
+   "start": 160.388,
+   "end": 169.505
+  },
+  {
+   "id": "b7",
+   "speaker": "a",
+   "text": "For the seasonal flu, it's only about one and a quarter. That's why measles is the first disease to come back when vaccination rates slip.",
+   "start": 169.745,
+   "end": 177.434
+  },
+  {
+   "id": "d1",
+   "speaker": "q",
+   "text": "How does measles reach my immune memory?",
+   "start": 179.634,
+   "end": 182.05
+  },
+  {
+   "id": "d2",
+   "speaker": "a",
+   "text": "Your immune memory lives in white blood cells called memory B cells and memory T cells. Each one carries a record of a germ you've met or been vaccinated against.",
+   "start": 182.5,
+   "end": 192.333
+  },
+  {
+   "id": "d3",
+   "speaker": "a",
+   "text": "Measles carries a key that fits a lock on their surface, a receptor called CD150. Memory T cells carry more of these locks than fresh, untrained ones.",
+   "start": 192.573,
+   "end": 202.156
+  },
+  {
+   "id": "d4",
+   "speaker": "a",
+   "text": "So the virus heads straight for them. It unlocks the memory cells, moves in, copies itself, and the infected cells are destroyed.",
+   "start": 202.396,
+   "end": 209.733
+  },
+  {
+   "id": "d5q",
+   "speaker": "q",
+   "text": "Doesn't the body just replace them?",
+   "start": 209.973,
+   "end": 211.733
+  },
+  {
+   "id": "d6",
+   "speaker": "a",
+   "text": "It replaces the numbers, not the records. New white blood cells flood in to fight measles, so blood counts look normal again within weeks.",
+   "start": 212.183,
+   "end": 220.088
+  },
+  {
+   "id": "d7",
+   "speaker": "a",
+   "text": "But many of those new cells only know measles. The old cells that remembered your past colds, flu and other infections are gone.",
+   "start": 220.328,
+   "end": 227.728
+  },
+  {
+   "id": "d8",
+   "speaker": "a",
+   "text": "It's like a library fire. The shelves get restocked fast, but with copies of one book, while the rare volumes you collected are ash.",
+   "start": 227.968,
+   "end": 235.166
+  },
+  {
+   "id": "e1",
+   "speaker": "q",
+   "text": "How do we know memory really gets erased?",
+   "start": 237.366,
+   "end": 239.618
+  },
+  {
+   "id": "e2",
+   "speaker": "a",
+   "text": "Surprisingly, the best evidence came from an outbreak. In 2019, a team led by Michael Mina at Harvard tested blood from 77 unvaccinated children in the Netherlands, before and after they caught measles.",
+   "start": 240.068,
+   "end": 253.027
+  },
+  {
+   "id": "e3",
+   "speaker": "a",
+   "text": "They used a tool called VirScan. It dips a drop of blood into thousands of tiny virus fragments and reads which ones your antibodies grab.",
+   "start": 253.267,
+   "end": 261.351
+  },
+  {
+   "id": "e4",
+   "speaker": "a",
+   "text": "Two months after measles, the children had lost between eleven and seventy-three percent of their antibodies against other germs.",
+   "start": 261.591,
+   "end": 268.679
+  },
+  {
+   "id": "e5q",
+   "speaker": "q",
+   "text": "Seventy-three percent? Of everything?",
+   "start": 268.919,
+   "end": 270.948
+  },
+  {
+   "id": "e6",
+   "speaker": "a",
+   "text": "Of their antibody variety, in the hardest-hit child. Antibodies against viruses and bacteria they had already beaten, from flu viruses to common bacteria, simply vanished from the blood.",
+   "start": 271.398,
+   "end": 282.631
+  },
+  {
+   "id": "e6b",
+   "speaker": "a",
+   "text": "Healthy children followed over the same months kept about ninety percent of their antibody variety. So this was not normal forgetting.",
+   "start": 282.871,
+   "end": 290.537
+  },
+  {
+   "id": "e7",
+   "speaker": "a",
+   "text": "Children who had a severe case tended to lose more. And in monkeys infected on purpose, roughly half their old antibodies were still missing five months later.",
+   "start": 290.777,
+   "end": 299.792
+  },
+  {
+   "id": "f1",
+   "speaker": "q",
+   "text": "Does the immune system ever reset fully?",
+   "start": 301.992,
+   "end": 304.222
+  },
+  {
+   "id": "f2",
+   "speaker": "a",
+   "text": "Not quickly. The same year, a team in Britain and the Netherlands, led by Velislava Petrova, read the genes of the B cells in twenty-six unvaccinated Dutch children, before and after measles.",
+   "start": 304.672,
+   "end": 315.808
+  },
+  {
+   "id": "f3",
+   "speaker": "a",
+   "text": "Memory B cells built up against old infections had disappeared from the blood. And the fresh B cells that replaced them were immature, like a newborn's.",
+   "start": 316.048,
+   "end": 324.662
+  },
+  {
+   "id": "f4",
+   "speaker": "a",
+   "text": "The researchers called it a more baby-like immune system. Their defenses looked less experienced, closer to an infant's than a school kid's.",
+   "start": 324.902,
+   "end": 332.746
+  },
+  {
+   "id": "f4b",
+   "speaker": "a",
+   "text": "Some children show signs of a weakened immune system for up to five years, even when their white blood cell counts look perfectly normal.",
+   "start": 332.986,
+   "end": 340.579
+  },
+  {
+   "id": "f5q",
+   "speaker": "q",
+   "text": "Does that actually make people sicker?",
+   "start": 340.819,
+   "end": 342.714
+  },
+  {
+   "id": "f6",
+   "speaker": "a",
+   "text": "In ferrets, yes. Ferrets vaccinated against flu caught a measles-like virus, their flu antibodies dropped, and when flu hit them, they got sicker.",
+   "start": 343.164,
+   "end": 352.15
+  },
+  {
+   "id": "g1",
+   "speaker": "q",
+   "text": "How long does the danger last?",
+   "start": 354.35,
+   "end": 356.063
+  },
+  {
+   "id": "g2",
+   "speaker": "a",
+   "text": "About two to three years. In 2015, Mina's team lined up decades of death records from the United States, England and Denmark.",
+   "start": 356.513,
+   "end": 364.833
+  },
+  {
+   "id": "g3",
+   "speaker": "a",
+   "text": "Every measles wave was followed, about two to three years later, by a wave of children dying from other infections, the ones measles had left them open to.",
+   "start": 365.073,
+   "end": 373.739
+  },
+  {
+   "id": "g4",
+   "speaker": "a",
+   "text": "When the vaccine wiped out measles, those other deaths dropped too. A puzzle that had sat there since the nineteen sixties suddenly made sense.",
+   "start": 373.979,
+   "end": 381.775
+  },
+  {
+   "id": "g4b",
+   "speaker": "a",
+   "text": "Mina put it simply: if your child gets measles and then pneumonia two years later, you wouldn't tie the two together. But they can be linked.",
+   "start": 382.015,
+   "end": 389.712
+  },
+  {
+   "id": "g5q",
+   "speaker": "q",
+   "text": "How many deaths are we talking about?",
+   "start": 389.952,
+   "end": 391.811
+  },
+  {
+   "id": "g6",
+   "speaker": "a",
+   "text": "Before vaccines, their model suggests measles may have been behind up to half of all childhood deaths from infectious disease in rich countries, mostly through this hidden shadow.",
+   "start": 392.261,
+   "end": 402.155
+  },
+  {
+   "id": "g7",
+   "speaker": "a",
+   "text": "Before 1963, the U.S. saw an estimated three to four million measles cases a year, and about four to five hundred deaths from measles itself.",
+   "start": 402.395,
+   "end": 411.133
+  },
+  {
+   "id": "h1",
+   "speaker": "q",
+   "text": "Can the vaccine cause the same amnesia?",
+   "start": 413.333,
+   "end": 415.355
+  },
+  {
+   "id": "h2",
+   "speaker": "a",
+   "text": "No. Mina's team also tested children before and after their first MMR shot. Their antibody libraries stayed intact.",
+   "start": 415.805,
+   "end": 423.076
+  },
+  {
+   "id": "h3",
+   "speaker": "a",
+   "text": "The vaccine virus is weakened. It trains your immune system to recognize measles without wiping out the antibody library you already have.",
+   "start": 423.316,
+   "end": 431.812
+  },
+  {
+   "id": "h4",
+   "speaker": "a",
+   "text": "Two doses of MMR are about ninety-seven percent effective at stopping measles. One dose, about ninety-three.",
+   "start": 432.052,
+   "end": 439.032
+  },
+  {
+   "id": "h4b",
+   "speaker": "a",
+   "text": "Kids get the first dose at twelve to fifteen months, and the second between four and six years old.",
+   "start": 439.272,
+   "end": 445.143
+  },
+  {
+   "id": "h5q",
+   "speaker": "q",
+   "text": "So why are cases rising again?",
+   "start": 445.383,
+   "end": 447.278
+  },
+  {
+   "id": "h6",
+   "speaker": "a",
+   "text": "Because fewer kids are getting the shots. Kindergarten MMR coverage fell from ninety-five percent in 2019 to about ninety-two percent now.",
+   "start": 447.728,
+   "end": 456.773
+  },
+  {
+   "id": "h7",
+   "speaker": "a",
+   "text": "That sounds small, but it leaves almost three hundred thousand kindergartners unprotected each year. And measles needs about ninety-five percent coverage to be kept out.",
+   "start": 457.013,
+   "end": 466.411
+  },
+  {
+   "id": "h8",
+   "speaker": "a",
+   "text": "Exemptions keep hitting new records, and outbreaks flare wherever many kids in one school or town are unvaccinated, then spread outward.",
+   "start": 466.651,
+   "end": 474.846
+  },
+  {
+   "id": "i1",
+   "speaker": "q",
+   "text": "Can you get your immune memory back?",
+   "start": 477.046,
+   "end": 478.835
+  },
+  {
+   "id": "i2",
+   "speaker": "a",
+   "text": "Partly. Every time a survivor meets an old germ again, the immune system relearns it, cell by cell. But that takes months to years.",
+   "start": 479.285,
+   "end": 486.829
+  },
+  {
+   "id": "i3",
+   "speaker": "a",
+   "text": "And until then, old enemies can strike again: another flu, another ear infection, another chest infection, right when defenses are at their weakest.",
+   "start": 487.069,
+   "end": 495.736
+  },
+  {
+   "id": "i4",
+   "speaker": "a",
+   "text": "So Mina's team suggested a shortcut. After measles, doctors could consider booster shots of earlier routine vaccines, like polio and hepatitis, to refill the lost shelves.",
+   "start": 495.976,
+   "end": 506.608
+  },
+  {
+   "id": "i5q",
+   "speaker": "q",
+   "text": "Do adults lose memory too?",
+   "start": 506.848,
+   "end": 508.382
+  },
+  {
+   "id": "i6",
+   "speaker": "a",
+   "text": "The big studies were done in children. Adults are less studied, but adults over twenty are more likely to have measles complications, so protection matters at every age.",
+   "start": 508.832,
+   "end": 518.323
+  },
+  {
+   "id": "o1",
+   "speaker": "q",
+   "text": "So what should I actually do?",
+   "start": 519.323,
+   "end": 520.835
+  },
+  {
+   "id": "o2",
+   "speaker": "a",
+   "text": "Check your vaccine records. If you're not sure you had two MMR doses, ask your doctor about a blood test or an extra dose. And after a measles infection, ask about catching up on routine vaccines.",
+   "start": 521.285,
+   "end": 532.452
+  },
+  {
+   "id": "o3",
+   "speaker": "a",
+   "text": "Measles doesn't just make you sick. It erases your immune memory.",
+   "start": 532.692,
+   "end": 537.094
+  },
+  {
+   "id": "o4",
+   "speaker": "q",
+   "text": "Subscribe for more of the science inside your body, and tell us in the comments: did you ever have measles, or do you know your vaccine record?",
+   "start": 537.594,
+   "end": 545.775
+  }
+ ],
+ "words": [
+  {
+   "w": "Can",
+   "s": 0.0,
+   "e": 0.48
+  },
+  {
+   "w": "measles",
+   "s": 0.48,
+   "e": 0.64
+  },
+  {
+   "w": "really",
+   "s": 0.64,
+   "e": 1.22
+  },
+  {
+   "w": "erase",
+   "s": 1.22,
+   "e": 1.6
+  },
+  {
+   "w": "my",
+   "s": 1.6,
+   "e": 1.92
+  },
+  {
+   "w": "immune",
+   "s": 1.92,
+   "e": 2.12
+  },
+  {
+   "w": "memory?",
+   "s": 2.12,
+   "e": 2.58
+  },
+  {
+   "w": "Yes,",
+   "s": 3.12,
+   "e": 3.4
+  },
+  {
+   "w": "measles",
+   "s": 3.68,
+   "e": 3.94
+  },
+  {
+   "w": "doesn't",
+   "s": 3.94,
+   "e": 4.36
+  },
+  {
+   "w": "just",
+   "s": 4.36,
+   "e": 4.52
+  },
+  {
+   "w": "give",
+   "s": 4.52,
+   "e": 4.7
+  },
+  {
+   "w": "you",
+   "s": 4.7,
+   "e": 4.84
+  },
+  {
+   "w": "a",
+   "s": 4.84,
+   "e": 4.92
+  },
+  {
+   "w": "rash",
+   "s": 4.92,
+   "e": 5.22
+  },
+  {
+   "w": "and",
+   "s": 5.22,
+   "e": 5.52
+  },
+  {
+   "w": "a",
+   "s": 5.52,
+   "e": 5.6
+  },
+  {
+   "w": "fever.",
+   "s": 5.6,
+   "e": 5.82
+  },
+  {
+   "w": "It",
+   "s": 6.54,
+   "e": 6.6
+  },
+  {
+   "w": "slips",
+   "s": 6.6,
+   "e": 6.74
+  },
+  {
+   "w": "into",
+   "s": 6.74,
+   "e": 7.0
+  },
+  {
+   "w": "the",
+   "s": 7.0,
+   "e": 7.16
+  },
+  {
+   "w": "cells",
+   "s": 7.16,
+   "e": 7.38
+  },
+  {
+   "w": "that",
+   "s": 7.38,
+   "e": 7.7
+  },
+  {
+   "w": "remember",
+   "s": 7.7,
+   "e": 7.88
+  },
+  {
+   "w": "your",
+   "s": 7.88,
+   "e": 8.26
+  },
+  {
+   "w": "old",
+   "s": 8.26,
+   "e": 8.46
+  },
+  {
+   "w": "infections",
+   "s": 8.46,
+   "e": 8.78
+  },
+  {
+   "w": "and",
+   "s": 8.78,
+   "e": 9.28
+  },
+  {
+   "w": "wipes",
+   "s": 9.28,
+   "e": 9.48
+  },
+  {
+   "w": "many",
+   "s": 9.48,
+   "e": 9.82
+  },
+  {
+   "w": "of",
+   "s": 9.82,
+   "e": 9.98
+  },
+  {
+   "w": "them",
+   "s": 9.98,
+   "e": 10.1
+  },
+  {
+   "w": "out,",
+   "s": 10.1,
+   "e": 10.34
+  },
+  {
+   "w": "so",
+   "s": 10.7,
+   "e": 10.88
+  },
+  {
+   "w": "germs",
+   "s": 10.88,
+   "e": 11.26
+  },
+  {
+   "w": "you",
+   "s": 11.26,
+   "e": 11.4
+  },
+  {
+   "w": "already",
+   "s": 11.4,
+   "e": 11.66
+  },
+  {
+   "w": "beat",
+   "s": 11.66,
+   "e": 11.92
+  },
+  {
+   "w": "can",
+   "s": 11.92,
+   "e": 12.14
+  },
+  {
+   "w": "come",
+   "s": 12.14,
+   "e": 12.34
+  },
+  {
+   "w": "back.",
+   "s": 12.34,
+   "e": 12.6
+  },
+  {
+   "w": "And",
+   "s": 13.26,
+   "e": 13.28
+  },
+  {
+   "w": "the",
+   "s": 13.28,
+   "e": 13.38
+  },
+  {
+   "w": "timing",
+   "s": 13.38,
+   "e": 13.62
+  },
+  {
+   "w": "matters.",
+   "s": 13.62,
+   "e": 14.1
+  },
+  {
+   "w": "On",
+   "s": 14.92,
+   "e": 14.96
+  },
+  {
+   "w": "November",
+   "s": 14.96,
+   "e": 15.2
+  },
+  {
+   "w": "17th,",
+   "s": 15.2,
+   "e": 16.28
+  },
+  {
+   "w": "2026,",
+   "s": 16.3,
+   "e": 17.2
+  },
+  {
+   "w": "the",
+   "s": 17.7,
+   "e": 17.82
+  },
+  {
+   "w": "Pan",
+   "s": 17.82,
+   "e": 17.96
+  },
+  {
+   "w": "-American",
+   "s": 17.96,
+   "e": 18.36
+  },
+  {
+   "w": "Health",
+   "s": 18.36,
+   "e": 18.7
+  },
+  {
+   "w": "Organization",
+   "s": 18.7,
+   "e": 19.1
+  },
+  {
+   "w": "announced",
+   "s": 19.1,
+   "e": 19.88
+  },
+  {
+   "w": "that",
+   "s": 19.88,
+   "e": 20.24
+  },
+  {
+   "w": "the",
+   "s": 20.24,
+   "e": 20.38
+  },
+  {
+   "w": "United",
+   "s": 20.38,
+   "e": 20.6
+  },
+  {
+   "w": "States",
+   "s": 20.6,
+   "e": 21.08
+  },
+  {
+   "w": "had",
+   "s": 21.08,
+   "e": 21.36
+  },
+  {
+   "w": "lost",
+   "s": 21.36,
+   "e": 21.56
+  },
+  {
+   "w": "its",
+   "s": 21.56,
+   "e": 21.82
+  },
+  {
+   "w": "measles",
+   "s": 21.82,
+   "e": 22.1
+  },
+  {
+   "w": "elimination",
+   "s": 22.1,
+   "e": 22.56
+  },
+  {
+   "w": "status,",
+   "s": 22.56,
+   "e": 23.28
+  },
+  {
+   "w": "held",
+   "s": 23.82,
+   "e": 24.04
+  },
+  {
+   "w": "since",
+   "s": 24.04,
+   "e": 24.26
+  },
+  {
+   "w": "2000.",
+   "s": 24.26,
+   "e": 24.72
+  },
+  {
+   "w": "That",
+   "s": 25.48,
+   "e": 25.64
+  },
+  {
+   "w": "happens",
+   "s": 25.64,
+   "e": 25.94
+  },
+  {
+   "w": "when",
+   "s": 25.94,
+   "e": 26.22
+  },
+  {
+   "w": "one",
+   "s": 26.22,
+   "e": 26.42
+  },
+  {
+   "w": "chain",
+   "s": 26.42,
+   "e": 26.7
+  },
+  {
+   "w": "of",
+   "s": 26.7,
+   "e": 26.88
+  },
+  {
+   "w": "measles",
+   "s": 26.88,
+   "e": 27.12
+  },
+  {
+   "w": "keeps",
+   "s": 27.12,
+   "e": 27.48
+  },
+  {
+   "w": "spreading",
+   "s": 27.48,
+   "e": 27.84
+  },
+  {
+   "w": "for",
+   "s": 27.84,
+   "e": 28.16
+  },
+  {
+   "w": "a",
+   "s": 28.16,
+   "e": 28.22
+  },
+  {
+   "w": "full",
+   "s": 28.22,
+   "e": 28.42
+  },
+  {
+   "w": "year.",
+   "s": 28.42,
+   "e": 28.72
+  },
+  {
+   "w": "By",
+   "s": 28.72,
+   "e": 29.46
+  },
+  {
+   "w": "mid",
+   "s": 29.46,
+   "e": 29.64
+  },
+  {
+   "w": "-November,",
+   "s": 29.64,
+   "e": 29.98
+  },
+  {
+   "w": "the",
+   "s": 30.46,
+   "e": 30.5
+  },
+  {
+   "w": "CDC",
+   "s": 30.5,
+   "e": 30.76
+  },
+  {
+   "w": "had",
+   "s": 30.76,
+   "e": 31.3
+  },
+  {
+   "w": "counted",
+   "s": 31.3,
+   "e": 31.54
+  },
+  {
+   "w": "5",
+   "s": 31.54,
+   "e": 32.06
+  },
+  {
+   "w": ",412",
+   "s": 32.06,
+   "e": 32.54
+  },
+  {
+   "w": "cases",
+   "s": 32.54,
+   "e": 34.18
+  },
+  {
+   "w": "in",
+   "s": 34.18,
+   "e": 34.42
+  },
+  {
+   "w": "2026,",
+   "s": 34.42,
+   "e": 35.22
+  },
+  {
+   "w": "and",
+   "s": 35.72,
+   "e": 35.9
+  },
+  {
+   "w": "states",
+   "s": 35.9,
+   "e": 36.12
+  },
+  {
+   "w": "had",
+   "s": 36.12,
+   "e": 36.38
+  },
+  {
+   "w": "reported",
+   "s": 36.38,
+   "e": 36.62
+  },
+  {
+   "w": "10",
+   "s": 36.62,
+   "e": 37.06
+  },
+  {
+   "w": "deaths.",
+   "s": 37.06,
+   "e": 37.54
+  },
+  {
+   "w": "Canada",
+   "s": 38.0,
+   "e": 38.22
+  },
+  {
+   "w": "lost",
+   "s": 38.22,
+   "e": 38.48
+  },
+  {
+   "w": "the",
+   "s": 38.48,
+   "e": 38.7
+  },
+  {
+   "w": "same",
+   "s": 38.7,
+   "e": 38.9
+  },
+  {
+   "w": "status",
+   "s": 38.9,
+   "e": 39.38
+  },
+  {
+   "w": "a",
+   "s": 39.38,
+   "e": 39.66
+  },
+  {
+   "w": "year",
+   "s": 39.66,
+   "e": 39.88
+  },
+  {
+   "w": "earlier,",
+   "s": 39.88,
+   "e": 40.26
+  },
+  {
+   "w": "in",
+   "s": 40.7,
+   "e": 40.76
+  },
+  {
+   "w": "November",
+   "s": 40.76,
+   "e": 41.0
+  },
+  {
+   "w": "2025.",
+   "s": 41.0,
+   "e": 41.74
+  },
+  {
+   "w": "Measles",
+   "s": 42.74,
+   "e": 43.1
+  },
+  {
+   "w": "is",
+   "s": 43.1,
+   "e": 43.28
+  },
+  {
+   "w": "settling",
+   "s": 43.28,
+   "e": 43.56
+  },
+  {
+   "w": "back",
+   "s": 43.56,
+   "e": 43.9
+  },
+  {
+   "w": "into",
+   "s": 43.9,
+   "e": 44.08
+  },
+  {
+   "w": "North",
+   "s": 44.08,
+   "e": 44.36
+  },
+  {
+   "w": "America,",
+   "s": 44.36,
+   "e": 44.74
+  },
+  {
+   "w": "one",
+   "s": 45.32,
+   "e": 45.42
+  },
+  {
+   "w": "unvaccinated",
+   "s": 45.42,
+   "e": 46.26
+  },
+  {
+   "w": "classroom",
+   "s": 46.26,
+   "e": 46.54
+  },
+  {
+   "w": "at",
+   "s": 46.54,
+   "e": 47.0
+  },
+  {
+   "w": "a",
+   "s": 47.0,
+   "e": 47.08
+  },
+  {
+   "w": "time.",
+   "s": 47.08,
+   "e": 47.42
+  },
+  {
+   "w": "So",
+   "s": 47.78,
+   "e": 47.94
+  },
+  {
+   "w": "what",
+   "s": 47.94,
+   "e": 48.12
+  },
+  {
+   "w": "does",
+   "s": 48.12,
+   "e": 48.28
+  },
+  {
+   "w": "measles",
+   "s": 48.28,
+   "e": 48.5
+  },
+  {
+   "w": "actually",
+   "s": 48.5,
+   "e": 49.08
+  },
+  {
+   "w": "do?",
+   "s": 49.08,
+   "e": 49.46
+  },
+  {
+   "w": "Let's",
+   "s": 50.0,
+   "e": 50.3
+  },
+  {
+   "w": "start",
+   "s": 50.3,
+   "e": 50.52
+  },
+  {
+   "w": "with",
+   "s": 50.52,
+   "e": 50.78
+  },
+  {
+   "w": "the",
+   "s": 50.78,
+   "e": 50.92
+  },
+  {
+   "w": "illness",
+   "s": 50.92,
+   "e": 51.14
+  },
+  {
+   "w": "itself,",
+   "s": 51.14,
+   "e": 51.54
+  },
+  {
+   "w": "then",
+   "s": 52.12,
+   "e": 52.3
+  },
+  {
+   "w": "follow",
+   "s": 52.3,
+   "e": 52.6
+  },
+  {
+   "w": "the",
+   "s": 52.6,
+   "e": 52.74
+  },
+  {
+   "w": "virus",
+   "s": 52.74,
+   "e": 53.08
+  },
+  {
+   "w": "into",
+   "s": 53.08,
+   "e": 53.44
+  },
+  {
+   "w": "your",
+   "s": 53.44,
+   "e": 53.64
+  },
+  {
+   "w": "immune",
+   "s": 53.64,
+   "e": 53.82
+  },
+  {
+   "w": "system's",
+   "s": 53.82,
+   "e": 54.46
+  },
+  {
+   "w": "memory",
+   "s": 54.46,
+   "e": 54.76
+  },
+  {
+   "w": "bank.",
+   "s": 54.76,
+   "e": 55.04
+  },
+  {
+   "w": "What",
+   "s": 57.66,
+   "e": 58.14
+  },
+  {
+   "w": "happens",
+   "s": 58.14,
+   "e": 58.38
+  },
+  {
+   "w": "when",
+   "s": 58.38,
+   "e": 58.78
+  },
+  {
+   "w": "you",
+   "s": 58.78,
+   "e": 58.88
+  },
+  {
+   "w": "catch",
+   "s": 58.88,
+   "e": 59.08
+  },
+  {
+   "w": "measles?",
+   "s": 59.08,
+   "e": 59.36
+  },
+  {
+   "w": "First",
+   "s": 60.28,
+   "e": 60.52
+  },
+  {
+   "w": "comes",
+   "s": 60.52,
+   "e": 60.78
+  },
+  {
+   "w": "a",
+   "s": 60.78,
+   "e": 60.9
+  },
+  {
+   "w": "high",
+   "s": 60.9,
+   "e": 61.1
+  },
+  {
+   "w": "fever,",
+   "s": 61.1,
+   "e": 61.4
+  },
+  {
+   "w": "a",
+   "s": 61.8,
+   "e": 61.8
+  },
+  {
+   "w": "cough,",
+   "s": 61.8,
+   "e": 62.06
+  },
+  {
+   "w": "a",
+   "s": 62.5,
+   "e": 62.52
+  },
+  {
+   "w": "runny",
+   "s": 62.52,
+   "e": 62.8
+  },
+  {
+   "w": "nose",
+   "s": 62.8,
+   "e": 63.0
+  },
+  {
+   "w": "and",
+   "s": 63.0,
+   "e": 63.3
+  },
+  {
+   "w": "red,",
+   "s": 63.3,
+   "e": 63.52
+  },
+  {
+   "w": "watery",
+   "s": 63.7,
+   "e": 64.12
+  },
+  {
+   "w": "eyes.",
+   "s": 64.12,
+   "e": 64.36
+  },
+  {
+   "w": "It",
+   "s": 64.96,
+   "e": 65.04
+  },
+  {
+   "w": "looks",
+   "s": 65.04,
+   "e": 65.18
+  },
+  {
+   "w": "like",
+   "s": 65.18,
+   "e": 65.4
+  },
+  {
+   "w": "a",
+   "s": 65.4,
+   "e": 65.46
+  },
+  {
+   "w": "bad",
+   "s": 65.46,
+   "e": 65.7
+  },
+  {
+   "w": "cold.",
+   "s": 65.7,
+   "e": 65.94
+  },
+  {
+   "w": "Two",
+   "s": 66.8,
+   "e": 67.22
+  },
+  {
+   "w": "or",
+   "s": 67.22,
+   "e": 67.34
+  },
+  {
+   "w": "three",
+   "s": 67.34,
+   "e": 67.52
+  },
+  {
+   "w": "days",
+   "s": 67.52,
+   "e": 67.68
+  },
+  {
+   "w": "later,",
+   "s": 67.68,
+   "e": 68.1
+  },
+  {
+   "w": "tiny",
+   "s": 68.1,
+   "e": 68.56
+  },
+  {
+   "w": "white",
+   "s": 68.56,
+   "e": 68.82
+  },
+  {
+   "w": "spots",
+   "s": 68.82,
+   "e": 69.2
+  },
+  {
+   "w": "appear",
+   "s": 69.2,
+   "e": 69.54
+  },
+  {
+   "w": "inside",
+   "s": 69.54,
+   "e": 69.9
+  },
+  {
+   "w": "the",
+   "s": 69.9,
+   "e": 70.2
+  },
+  {
+   "w": "cheeks,",
+   "s": 70.2,
+   "e": 70.38
+  },
+  {
+   "w": "like",
+   "s": 70.86,
+   "e": 71.02
+  },
+  {
+   "w": "grains",
+   "s": 71.02,
+   "e": 71.32
+  },
+  {
+   "w": "of",
+   "s": 71.32,
+   "e": 71.62
+  },
+  {
+   "w": "salt",
+   "s": 71.62,
+   "e": 71.88
+  },
+  {
+   "w": "on",
+   "s": 71.88,
+   "e": 72.12
+  },
+  {
+   "w": "red",
+   "s": 72.12,
+   "e": 72.3
+  },
+  {
+   "w": "skin.",
+   "s": 72.3,
+   "e": 72.62
+  },
+  {
+   "w": "Doctors",
+   "s": 73.4,
+   "e": 73.58
+  },
+  {
+   "w": "call",
+   "s": 73.58,
+   "e": 73.9
+  },
+  {
+   "w": "them",
+   "s": 73.9,
+   "e": 74.1
+  },
+  {
+   "w": "Coplic",
+   "s": 74.1,
+   "e": 74.46
+  },
+  {
+   "w": "Spots,",
+   "s": 74.46,
+   "e": 74.92
+  },
+  {
+   "w": "and",
+   "s": 75.2,
+   "e": 75.32
+  },
+  {
+   "w": "they're",
+   "s": 75.32,
+   "e": 75.48
+  },
+  {
+   "w": "a",
+   "s": 75.48,
+   "e": 75.56
+  },
+  {
+   "w": "giveaway",
+   "s": 75.56,
+   "e": 75.72
+  },
+  {
+   "w": "for",
+   "s": 75.72,
+   "e": 76.06
+  },
+  {
+   "w": "measles.",
+   "s": 76.06,
+   "e": 76.22
+  },
+  {
+   "w": "Then",
+   "s": 77.18,
+   "e": 77.2
+  },
+  {
+   "w": "the",
+   "s": 77.2,
+   "e": 77.32
+  },
+  {
+   "w": "rash",
+   "s": 77.32,
+   "e": 77.5
+  },
+  {
+   "w": "erupts.",
+   "s": 77.5,
+   "e": 78.2
+  },
+  {
+   "w": "Flat",
+   "s": 78.7,
+   "e": 78.88
+  },
+  {
+   "w": "red",
+   "s": 78.88,
+   "e": 79.16
+  },
+  {
+   "w": "blotches",
+   "s": 79.16,
+   "e": 79.64
+  },
+  {
+   "w": "start",
+   "s": 79.64,
+   "e": 79.88
+  },
+  {
+   "w": "at",
+   "s": 79.88,
+   "e": 80.12
+  },
+  {
+   "w": "the",
+   "s": 80.12,
+   "e": 80.2
+  },
+  {
+   "w": "hairline",
+   "s": 80.2,
+   "e": 80.58
+  },
+  {
+   "w": "and",
+   "s": 80.58,
+   "e": 80.74
+  },
+  {
+   "w": "spread",
+   "s": 80.74,
+   "e": 80.98
+  },
+  {
+   "w": "down",
+   "s": 80.98,
+   "e": 81.26
+  },
+  {
+   "w": "the",
+   "s": 81.26,
+   "e": 81.38
+  },
+  {
+   "w": "face,",
+   "s": 81.38,
+   "e": 81.64
+  },
+  {
+   "w": "the",
+   "s": 82.0,
+   "e": 82.12
+  },
+  {
+   "w": "neck,",
+   "s": 82.12,
+   "e": 82.3
+  },
+  {
+   "w": "the",
+   "s": 82.56,
+   "e": 82.6
+  },
+  {
+   "w": "chest,",
+   "s": 82.6,
+   "e": 82.86
+  },
+  {
+   "w": "all",
+   "s": 83.24,
+   "e": 83.44
+  },
+  {
+   "w": "the",
+   "s": 83.44,
+   "e": 83.56
+  },
+  {
+   "w": "way",
+   "s": 83.56,
+   "e": 83.7
+  },
+  {
+   "w": "to",
+   "s": 83.7,
+   "e": 83.88
+  },
+  {
+   "w": "the",
+   "s": 83.88,
+   "e": 83.96
+  },
+  {
+   "w": "feet.",
+   "s": 83.96,
+   "e": 84.18
+  },
+  {
+   "w": "About",
+   "s": 84.18,
+   "e": 84.98
+  },
+  {
+   "w": "one",
+   "s": 84.98,
+   "e": 85.3
+  },
+  {
+   "w": "in",
+   "s": 85.3,
+   "e": 85.46
+  },
+  {
+   "w": "five",
+   "s": 85.46,
+   "e": 85.74
+  },
+  {
+   "w": "unvaccinated",
+   "s": 85.74,
+   "e": 86.74
+  },
+  {
+   "w": "Americans,",
+   "s": 86.74,
+   "e": 87.3
+  },
+  {
+   "w": "who",
+   "s": 87.7,
+   "e": 87.82
+  },
+  {
+   "w": "catch",
+   "s": 87.82,
+   "e": 88.04
+  },
+  {
+   "w": "measles,",
+   "s": 88.04,
+   "e": 88.32
+  },
+  {
+   "w": "ends",
+   "s": 88.82,
+   "e": 88.92
+  },
+  {
+   "w": "up",
+   "s": 88.92,
+   "e": 89.16
+  },
+  {
+   "w": "in",
+   "s": 89.16,
+   "e": 89.3
+  },
+  {
+   "w": "the",
+   "s": 89.3,
+   "e": 89.4
+  },
+  {
+   "w": "hospital.",
+   "s": 89.4,
+   "e": 89.68
+  },
+  {
+   "w": "Is",
+   "s": 90.84,
+   "e": 91.0
+  },
+  {
+   "w": "it",
+   "s": 91.0,
+   "e": 91.12
+  },
+  {
+   "w": "usually",
+   "s": 91.12,
+   "e": 91.4
+  },
+  {
+   "w": "just",
+   "s": 91.4,
+   "e": 91.86
+  },
+  {
+   "w": "a",
+   "s": 91.86,
+   "e": 92.0
+  },
+  {
+   "w": "rash?",
+   "s": 92.0,
+   "e": 92.22
+  },
+  {
+   "w": "Not",
+   "s": 92.98,
+   "e": 93.16
+  },
+  {
+   "w": "always,",
+   "s": 93.16,
+   "e": 93.54
+  },
+  {
+   "w": "up",
+   "s": 93.84,
+   "e": 94.02
+  },
+  {
+   "w": "to",
+   "s": 94.02,
+   "e": 94.18
+  },
+  {
+   "w": "one",
+   "s": 94.18,
+   "e": 94.38
+  },
+  {
+   "w": "in",
+   "s": 94.38,
+   "e": 94.5
+  },
+  {
+   "w": "20",
+   "s": 94.5,
+   "e": 94.66
+  },
+  {
+   "w": "children",
+   "s": 94.66,
+   "e": 95.14
+  },
+  {
+   "w": "with",
+   "s": 95.14,
+   "e": 95.38
+  },
+  {
+   "w": "measles",
+   "s": 95.38,
+   "e": 95.68
+  },
+  {
+   "w": "gets",
+   "s": 95.68,
+   "e": 96.04
+  },
+  {
+   "w": "pneumonia,",
+   "s": 96.04,
+   "e": 96.34
+  },
+  {
+   "w": "as",
+   "s": 97.04,
+   "e": 97.16
+  },
+  {
+   "w": "the",
+   "s": 97.16,
+   "e": 97.3
+  },
+  {
+   "w": "lungs",
+   "s": 97.3,
+   "e": 97.48
+  },
+  {
+   "w": "fill",
+   "s": 97.48,
+   "e": 97.88
+  },
+  {
+   "w": "with",
+   "s": 97.88,
+   "e": 98.12
+  },
+  {
+   "w": "fluid.",
+   "s": 98.12,
+   "e": 98.38
+  },
+  {
+   "w": "That's",
+   "s": 99.1,
+   "e": 99.32
+  },
+  {
+   "w": "the",
+   "s": 99.32,
+   "e": 99.42
+  },
+  {
+   "w": "most",
+   "s": 99.42,
+   "e": 99.58
+  },
+  {
+   "w": "common",
+   "s": 99.58,
+   "e": 99.9
+  },
+  {
+   "w": "way",
+   "s": 99.9,
+   "e": 100.2
+  },
+  {
+   "w": "measles",
+   "s": 100.2,
+   "e": 100.46
+  },
+  {
+   "w": "kills",
+   "s": 100.46,
+   "e": 100.88
+  },
+  {
+   "w": "young",
+   "s": 100.88,
+   "e": 101.18
+  },
+  {
+   "w": "children.",
+   "s": 101.18,
+   "e": 101.72
+  },
+  {
+   "w": "Overall,",
+   "s": 102.02,
+   "e": 102.28
+  },
+  {
+   "w": "about",
+   "s": 102.58,
+   "e": 102.94
+  },
+  {
+   "w": "one",
+   "s": 102.94,
+   "e": 103.16
+  },
+  {
+   "w": "to",
+   "s": 103.16,
+   "e": 103.32
+  },
+  {
+   "w": "three",
+   "s": 103.32,
+   "e": 103.54
+  },
+  {
+   "w": "of",
+   "s": 103.54,
+   "e": 103.66
+  },
+  {
+   "w": "every",
+   "s": 103.66,
+   "e": 103.9
+  },
+  {
+   "w": "thousand",
+   "s": 103.9,
+   "e": 104.32
+  },
+  {
+   "w": "children",
+   "s": 104.32,
+   "e": 104.66
+  },
+  {
+   "w": "who",
+   "s": 104.66,
+   "e": 105.08
+  },
+  {
+   "w": "catch",
+   "s": 105.08,
+   "e": 105.36
+  },
+  {
+   "w": "it",
+   "s": 105.36,
+   "e": 105.52
+  },
+  {
+   "w": "die",
+   "s": 105.52,
+   "e": 105.82
+  },
+  {
+   "w": "from",
+   "s": 105.82,
+   "e": 106.1
+  },
+  {
+   "w": "lung",
+   "s": 106.1,
+   "e": 106.34
+  },
+  {
+   "w": "or",
+   "s": 106.34,
+   "e": 106.8
+  },
+  {
+   "w": "brain",
+   "s": 106.8,
+   "e": 107.04
+  },
+  {
+   "w": "complications.",
+   "s": 107.04,
+   "e": 107.36
+  },
+  {
+   "w": "In",
+   "s": 108.48,
+   "e": 108.56
+  },
+  {
+   "w": "about",
+   "s": 108.56,
+   "e": 108.72
+  },
+  {
+   "w": "one",
+   "s": 108.72,
+   "e": 109.04
+  },
+  {
+   "w": "in",
+   "s": 109.04,
+   "e": 109.16
+  },
+  {
+   "w": "a",
+   "s": 109.16,
+   "e": 109.22
+  },
+  {
+   "w": "thousand",
+   "s": 109.22,
+   "e": 109.48
+  },
+  {
+   "w": "cases,",
+   "s": 109.48,
+   "e": 109.96
+  },
+  {
+   "w": "the",
+   "s": 110.48,
+   "e": 110.58
+  },
+  {
+   "w": "virus",
+   "s": 110.58,
+   "e": 110.88
+  },
+  {
+   "w": "inflames",
+   "s": 110.88,
+   "e": 111.46
+  },
+  {
+   "w": "the",
+   "s": 111.46,
+   "e": 111.64
+  },
+  {
+   "w": "brain.",
+   "s": 111.64,
+   "e": 111.84
+  },
+  {
+   "w": "That's",
+   "s": 112.52,
+   "e": 113.04
+  },
+  {
+   "w": "encephalitis,",
+   "s": 113.04,
+   "e": 113.56
+  },
+  {
+   "w": "and",
+   "s": 114.04,
+   "e": 114.16
+  },
+  {
+   "w": "it",
+   "s": 114.16,
+   "e": 114.24
+  },
+  {
+   "w": "can",
+   "s": 114.24,
+   "e": 114.36
+  },
+  {
+   "w": "leave",
+   "s": 114.36,
+   "e": 114.56
+  },
+  {
+   "w": "a",
+   "s": 114.56,
+   "e": 114.66
+  },
+  {
+   "w": "child",
+   "s": 114.66,
+   "e": 114.92
+  },
+  {
+   "w": "deaf",
+   "s": 114.92,
+   "e": 115.28
+  },
+  {
+   "w": "or",
+   "s": 115.28,
+   "e": 115.64
+  },
+  {
+   "w": "with",
+   "s": 115.64,
+   "e": 115.78
+  },
+  {
+   "w": "lasting",
+   "s": 115.78,
+   "e": 116.02
+  },
+  {
+   "w": "brain",
+   "s": 116.02,
+   "e": 116.44
+  },
+  {
+   "w": "damage.",
+   "s": 116.44,
+   "e": 116.92
+  },
+  {
+   "w": "And",
+   "s": 117.5,
+   "e": 117.56
+  },
+  {
+   "w": "rarely,",
+   "s": 117.56,
+   "e": 117.76
+  },
+  {
+   "w": "the",
+   "s": 118.14,
+   "e": 118.18
+  },
+  {
+   "w": "virus",
+   "s": 118.18,
+   "e": 118.44
+  },
+  {
+   "w": "hides",
+   "s": 118.44,
+   "e": 118.76
+  },
+  {
+   "w": "in",
+   "s": 118.76,
+   "e": 118.98
+  },
+  {
+   "w": "the",
+   "s": 118.98,
+   "e": 119.06
+  },
+  {
+   "w": "brain",
+   "s": 119.06,
+   "e": 119.26
+  },
+  {
+   "w": "for",
+   "s": 119.26,
+   "e": 119.5
+  },
+  {
+   "w": "years.",
+   "s": 119.5,
+   "e": 119.76
+  },
+  {
+   "w": "Seven",
+   "s": 120.52,
+   "e": 120.82
+  },
+  {
+   "w": "to",
+   "s": 120.82,
+   "e": 120.98
+  },
+  {
+   "w": "ten",
+   "s": 120.98,
+   "e": 121.2
+  },
+  {
+   "w": "years",
+   "s": 121.2,
+   "e": 121.46
+  },
+  {
+   "w": "later,",
+   "s": 121.46,
+   "e": 121.82
+  },
+  {
+   "w": "it",
+   "s": 122.14,
+   "e": 122.26
+  },
+  {
+   "w": "wakes",
+   "s": 122.26,
+   "e": 122.4
+  },
+  {
+   "w": "up",
+   "s": 122.4,
+   "e": 122.64
+  },
+  {
+   "w": "as",
+   "s": 122.64,
+   "e": 122.86
+  },
+  {
+   "w": "SSPE,",
+   "s": 122.86,
+   "e": 123.78
+  },
+  {
+   "w": "a",
+   "s": 123.9,
+   "e": 124.16
+  },
+  {
+   "w": "slow",
+   "s": 124.16,
+   "e": 124.38
+  },
+  {
+   "w": "brain",
+   "s": 124.38,
+   "e": 124.68
+  },
+  {
+   "w": "disease",
+   "s": 124.68,
+   "e": 125.04
+  },
+  {
+   "w": "that",
+   "s": 125.04,
+   "e": 125.4
+  },
+  {
+   "w": "is",
+   "s": 125.4,
+   "e": 125.5
+  },
+  {
+   "w": "always",
+   "s": 125.5,
+   "e": 125.86
+  },
+  {
+   "w": "fatal.",
+   "s": 125.86,
+   "e": 126.14
+  },
+  {
+   "w": "Why",
+   "s": 128.68,
+   "e": 128.84
+  },
+  {
+   "w": "does",
+   "s": 128.84,
+   "e": 129.0
+  },
+  {
+   "w": "measles",
+   "s": 129.0,
+   "e": 129.18
+  },
+  {
+   "w": "spread",
+   "s": 129.18,
+   "e": 129.62
+  },
+  {
+   "w": "so",
+   "s": 129.62,
+   "e": 129.88
+  },
+  {
+   "w": "easily?",
+   "s": 129.88,
+   "e": 130.16
+  },
+  {
+   "w": "Because",
+   "s": 130.92,
+   "e": 131.16
+  },
+  {
+   "w": "it",
+   "s": 131.16,
+   "e": 131.36
+  },
+  {
+   "w": "floats,",
+   "s": 131.36,
+   "e": 131.62
+  },
+  {
+   "w": "a",
+   "s": 132.3,
+   "e": 132.32
+  },
+  {
+   "w": "cough",
+   "s": 132.32,
+   "e": 132.48
+  },
+  {
+   "w": "sprays",
+   "s": 132.48,
+   "e": 132.92
+  },
+  {
+   "w": "tiny",
+   "s": 132.92,
+   "e": 133.34
+  },
+  {
+   "w": "droplets",
+   "s": 133.34,
+   "e": 133.76
+  },
+  {
+   "w": "into",
+   "s": 133.76,
+   "e": 134.0
+  },
+  {
+   "w": "the",
+   "s": 134.0,
+   "e": 134.14
+  },
+  {
+   "w": "air,",
+   "s": 134.14,
+   "e": 134.38
+  },
+  {
+   "w": "and",
+   "s": 134.76,
+   "e": 134.8
+  },
+  {
+   "w": "they",
+   "s": 134.8,
+   "e": 134.9
+  },
+  {
+   "w": "hang",
+   "s": 134.9,
+   "e": 135.1
+  },
+  {
+   "w": "there",
+   "s": 135.1,
+   "e": 135.3
+  },
+  {
+   "w": "like",
+   "s": 135.3,
+   "e": 135.52
+  },
+  {
+   "w": "invisible",
+   "s": 135.52,
+   "e": 135.82
+  },
+  {
+   "w": "smoke.",
+   "s": 135.82,
+   "e": 136.38
+  },
+  {
+   "w": "Measles",
+   "s": 137.48,
+   "e": 137.88
+  },
+  {
+   "w": "can",
+   "s": 137.88,
+   "e": 138.06
+  },
+  {
+   "w": "stay",
+   "s": 138.06,
+   "e": 138.32
+  },
+  {
+   "w": "in",
+   "s": 138.32,
+   "e": 138.48
+  },
+  {
+   "w": "a",
+   "s": 138.48,
+   "e": 138.52
+  },
+  {
+   "w": "room's",
+   "s": 138.52,
+   "e": 138.84
+  },
+  {
+   "w": "air",
+   "s": 138.84,
+   "e": 139.0
+  },
+  {
+   "w": "for",
+   "s": 139.0,
+   "e": 139.24
+  },
+  {
+   "w": "up",
+   "s": 139.24,
+   "e": 139.36
+  },
+  {
+   "w": "to",
+   "s": 139.36,
+   "e": 139.5
+  },
+  {
+   "w": "two",
+   "s": 139.5,
+   "e": 139.68
+  },
+  {
+   "w": "hours",
+   "s": 139.68,
+   "e": 140.0
+  },
+  {
+   "w": "after",
+   "s": 140.0,
+   "e": 140.4
+  },
+  {
+   "w": "the",
+   "s": 140.4,
+   "e": 140.58
+  },
+  {
+   "w": "sick",
+   "s": 140.58,
+   "e": 140.74
+  },
+  {
+   "w": "person",
+   "s": 140.74,
+   "e": 141.18
+  },
+  {
+   "w": "has",
+   "s": 141.18,
+   "e": 141.34
+  },
+  {
+   "w": "left.",
+   "s": 141.34,
+   "e": 141.6
+  },
+  {
+   "w": "You",
+   "s": 142.38,
+   "e": 142.42
+  },
+  {
+   "w": "can",
+   "s": 142.42,
+   "e": 142.54
+  },
+  {
+   "w": "walk",
+   "s": 142.54,
+   "e": 142.74
+  },
+  {
+   "w": "in",
+   "s": 142.74,
+   "e": 142.88
+  },
+  {
+   "w": "later",
+   "s": 142.88,
+   "e": 143.14
+  },
+  {
+   "w": "and",
+   "s": 143.14,
+   "e": 143.56
+  },
+  {
+   "w": "breathe",
+   "s": 143.56,
+   "e": 143.8
+  },
+  {
+   "w": "it",
+   "s": 143.8,
+   "e": 143.98
+  },
+  {
+   "w": "in.",
+   "s": 143.98,
+   "e": 144.2
+  },
+  {
+   "w": "Worse,",
+   "s": 144.68,
+   "e": 144.9
+  },
+  {
+   "w": "people",
+   "s": 145.22,
+   "e": 145.44
+  },
+  {
+   "w": "spread",
+   "s": 145.44,
+   "e": 145.72
+  },
+  {
+   "w": "it",
+   "s": 145.72,
+   "e": 145.92
+  },
+  {
+   "w": "for",
+   "s": 145.92,
+   "e": 146.06
+  },
+  {
+   "w": "four",
+   "s": 146.06,
+   "e": 146.24
+  },
+  {
+   "w": "days",
+   "s": 146.24,
+   "e": 146.52
+  },
+  {
+   "w": "before",
+   "s": 146.52,
+   "e": 146.82
+  },
+  {
+   "w": "the",
+   "s": 146.82,
+   "e": 147.02
+  },
+  {
+   "w": "rash",
+   "s": 147.02,
+   "e": 147.18
+  },
+  {
+   "w": "appears,",
+   "s": 147.18,
+   "e": 147.62
+  },
+  {
+   "w": "while",
+   "s": 148.1,
+   "e": 148.26
+  },
+  {
+   "w": "they",
+   "s": 148.26,
+   "e": 148.4
+  },
+  {
+   "w": "still",
+   "s": 148.4,
+   "e": 148.6
+  },
+  {
+   "w": "think",
+   "s": 148.6,
+   "e": 148.9
+  },
+  {
+   "w": "it's",
+   "s": 148.9,
+   "e": 149.1
+  },
+  {
+   "w": "just",
+   "s": 149.1,
+   "e": 149.3
+  },
+  {
+   "w": "a",
+   "s": 149.3,
+   "e": 149.44
+  },
+  {
+   "w": "cold,",
+   "s": 149.44,
+   "e": 149.64
+  },
+  {
+   "w": "and",
+   "s": 150.18,
+   "e": 150.3
+  },
+  {
+   "w": "for",
+   "s": 150.3,
+   "e": 150.44
+  },
+  {
+   "w": "four",
+   "s": 150.44,
+   "e": 150.64
+  },
+  {
+   "w": "days",
+   "s": 150.64,
+   "e": 150.9
+  },
+  {
+   "w": "after.",
+   "s": 150.9,
+   "e": 151.12
+  },
+  {
+   "w": "If",
+   "s": 152.36,
+   "e": 152.38
+  },
+  {
+   "w": "ten",
+   "s": 152.38,
+   "e": 152.6
+  },
+  {
+   "w": "unprotected",
+   "s": 152.6,
+   "e": 153.06
+  },
+  {
+   "w": "people",
+   "s": 153.06,
+   "e": 153.6
+  },
+  {
+   "w": "share",
+   "s": 153.6,
+   "e": 154.02
+  },
+  {
+   "w": "a",
+   "s": 154.02,
+   "e": 154.14
+  },
+  {
+   "w": "room",
+   "s": 154.14,
+   "e": 154.34
+  },
+  {
+   "w": "with",
+   "s": 154.34,
+   "e": 154.52
+  },
+  {
+   "w": "someone",
+   "s": 154.52,
+   "e": 154.78
+  },
+  {
+   "w": "who",
+   "s": 154.78,
+   "e": 155.02
+  },
+  {
+   "w": "has",
+   "s": 155.02,
+   "e": 155.18
+  },
+  {
+   "w": "measles,",
+   "s": 155.18,
+   "e": 155.36
+  },
+  {
+   "w": "up",
+   "s": 156.08,
+   "e": 156.12
+  },
+  {
+   "w": "to",
+   "s": 156.12,
+   "e": 156.28
+  },
+  {
+   "w": "nine",
+   "s": 156.28,
+   "e": 156.5
+  },
+  {
+   "w": "of",
+   "s": 156.5,
+   "e": 156.66
+  },
+  {
+   "w": "them",
+   "s": 156.66,
+   "e": 156.82
+  },
+  {
+   "w": "will",
+   "s": 156.82,
+   "e": 156.96
+  },
+  {
+   "w": "catch",
+   "s": 156.96,
+   "e": 157.18
+  },
+  {
+   "w": "it.",
+   "s": 157.18,
+   "e": 157.48
+  },
+  {
+   "w": "How",
+   "s": 157.86,
+   "e": 158.02
+  },
+  {
+   "w": "does",
+   "s": 158.02,
+   "e": 158.14
+  },
+  {
+   "w": "that",
+   "s": 158.14,
+   "e": 158.28
+  },
+  {
+   "w": "compare",
+   "s": 158.28,
+   "e": 158.54
+  },
+  {
+   "w": "to",
+   "s": 158.54,
+   "e": 158.84
+  },
+  {
+   "w": "other",
+   "s": 158.84,
+   "e": 159.06
+  },
+  {
+   "w": "viruses?",
+   "s": 159.06,
+   "e": 159.38
+  },
+  {
+   "w": "Scientists",
+   "s": 160.2,
+   "e": 160.8
+  },
+  {
+   "w": "use",
+   "s": 160.8,
+   "e": 161.24
+  },
+  {
+   "w": "a",
+   "s": 161.24,
+   "e": 161.24
+  },
+  {
+   "w": "number",
+   "s": 161.24,
+   "e": 161.64
+  },
+  {
+   "w": "called",
+   "s": 161.64,
+   "e": 162.0
+  },
+  {
+   "w": "R0T.",
+   "s": 162.0,
+   "e": 162.62
+  },
+  {
+   "w": "How",
+   "s": 162.92,
+   "e": 163.02
+  },
+  {
+   "w": "many",
+   "s": 163.02,
+   "e": 163.14
+  },
+  {
+   "w": "people",
+   "s": 163.14,
+   "e": 163.52
+  },
+  {
+   "w": "one",
+   "s": 163.52,
+   "e": 163.7
+  },
+  {
+   "w": "case",
+   "s": 163.7,
+   "e": 164.0
+  },
+  {
+   "w": "infects",
+   "s": 164.0,
+   "e": 164.68
+  },
+  {
+   "w": "in",
+   "s": 164.68,
+   "e": 164.78
+  },
+  {
+   "w": "a",
+   "s": 164.78,
+   "e": 164.82
+  },
+  {
+   "w": "crowd",
+   "s": 164.82,
+   "e": 165.06
+  },
+  {
+   "w": "with",
+   "s": 165.06,
+   "e": 165.44
+  },
+  {
+   "w": "no",
+   "s": 165.44,
+   "e": 165.64
+  },
+  {
+   "w": "immunity?",
+   "s": 165.64,
+   "e": 165.96
+  },
+  {
+   "w": "For",
+   "s": 166.82,
+   "e": 166.88
+  },
+  {
+   "w": "measles,",
+   "s": 166.88,
+   "e": 167.06
+  },
+  {
+   "w": "it's",
+   "s": 167.64,
+   "e": 167.74
+  },
+  {
+   "w": "often",
+   "s": 167.74,
+   "e": 167.96
+  },
+  {
+   "w": "quoted",
+   "s": 167.96,
+   "e": 168.24
+  },
+  {
+   "w": "at",
+   "s": 168.24,
+   "e": 168.46
+  },
+  {
+   "w": "twelve",
+   "s": 168.46,
+   "e": 168.68
+  },
+  {
+   "w": "to",
+   "s": 168.68,
+   "e": 168.92
+  },
+  {
+   "w": "eighteen.",
+   "s": 168.92,
+   "e": 169.16
+  },
+  {
+   "w": "For",
+   "s": 169.8,
+   "e": 169.86
+  },
+  {
+   "w": "the",
+   "s": 169.86,
+   "e": 169.96
+  },
+  {
+   "w": "seasonal",
+   "s": 169.96,
+   "e": 170.3
+  },
+  {
+   "w": "flu,",
+   "s": 170.3,
+   "e": 170.64
+  },
+  {
+   "w": "it's",
+   "s": 171.06,
+   "e": 171.18
+  },
+  {
+   "w": "only",
+   "s": 171.18,
+   "e": 171.38
+  },
+  {
+   "w": "about",
+   "s": 171.38,
+   "e": 171.58
+  },
+  {
+   "w": "one",
+   "s": 171.58,
+   "e": 171.96
+  },
+  {
+   "w": "and",
+   "s": 171.96,
+   "e": 172.08
+  },
+  {
+   "w": "a",
+   "s": 172.08,
+   "e": 172.16
+  },
+  {
+   "w": "quarter.",
+   "s": 172.16,
+   "e": 172.42
+  },
+  {
+   "w": "That's",
+   "s": 173.22,
+   "e": 173.36
+  },
+  {
+   "w": "why",
+   "s": 173.36,
+   "e": 173.5
+  },
+  {
+   "w": "measles",
+   "s": 173.5,
+   "e": 173.76
+  },
+  {
+   "w": "is",
+   "s": 173.76,
+   "e": 174.12
+  },
+  {
+   "w": "the",
+   "s": 174.12,
+   "e": 174.26
+  },
+  {
+   "w": "first",
+   "s": 174.26,
+   "e": 174.5
+  },
+  {
+   "w": "disease",
+   "s": 174.5,
+   "e": 174.8
+  },
+  {
+   "w": "to",
+   "s": 174.8,
+   "e": 175.12
+  },
+  {
+   "w": "come",
+   "s": 175.12,
+   "e": 175.3
+  },
+  {
+   "w": "back",
+   "s": 175.3,
+   "e": 175.58
+  },
+  {
+   "w": "when",
+   "s": 175.58,
+   "e": 175.92
+  },
+  {
+   "w": "vaccination",
+   "s": 175.92,
+   "e": 176.26
+  },
+  {
+   "w": "rates",
+   "s": 176.26,
+   "e": 176.78
+  },
+  {
+   "w": "slip.",
+   "s": 176.78,
+   "e": 177.2
+  },
+  {
+   "w": "How",
+   "s": 179.44,
+   "e": 179.78
+  },
+  {
+   "w": "does",
+   "s": 179.78,
+   "e": 179.96
+  },
+  {
+   "w": "measles",
+   "s": 179.96,
+   "e": 180.2
+  },
+  {
+   "w": "reach",
+   "s": 180.2,
+   "e": 180.9
+  },
+  {
+   "w": "my",
+   "s": 180.9,
+   "e": 181.2
+  },
+  {
+   "w": "immune",
+   "s": 181.2,
+   "e": 181.4
+  },
+  {
+   "w": "memory?",
+   "s": 181.4,
+   "e": 181.84
+  },
+  {
+   "w": "Your",
+   "s": 182.52,
+   "e": 182.62
+  },
+  {
+   "w": "immune",
+   "s": 182.62,
+   "e": 182.86
+  },
+  {
+   "w": "memory",
+   "s": 182.86,
+   "e": 183.36
+  },
+  {
+   "w": "lives",
+   "s": 183.36,
+   "e": 183.58
+  },
+  {
+   "w": "in",
+   "s": 183.58,
+   "e": 183.92
+  },
+  {
+   "w": "white",
+   "s": 183.92,
+   "e": 184.12
+  },
+  {
+   "w": "blood",
+   "s": 184.12,
+   "e": 184.4
+  },
+  {
+   "w": "cells",
+   "s": 184.4,
+   "e": 184.76
+  },
+  {
+   "w": "called",
+   "s": 184.76,
+   "e": 185.3
+  },
+  {
+   "w": "memory",
+   "s": 185.3,
+   "e": 185.66
+  },
+  {
+   "w": "B",
+   "s": 185.66,
+   "e": 185.92
+  },
+  {
+   "w": "cells",
+   "s": 185.92,
+   "e": 186.22
+  },
+  {
+   "w": "and",
+   "s": 186.22,
+   "e": 186.82
+  },
+  {
+   "w": "memory",
+   "s": 186.82,
+   "e": 187.12
+  },
+  {
+   "w": "T",
+   "s": 187.12,
+   "e": 187.36
+  },
+  {
+   "w": "cells.",
+   "s": 187.36,
+   "e": 187.66
+  },
+  {
+   "w": "Each",
+   "s": 187.66,
+   "e": 188.62
+  },
+  {
+   "w": "one",
+   "s": 188.62,
+   "e": 188.88
+  },
+  {
+   "w": "carries",
+   "s": 188.88,
+   "e": 189.14
+  },
+  {
+   "w": "a",
+   "s": 189.14,
+   "e": 189.36
+  },
+  {
+   "w": "record",
+   "s": 189.36,
+   "e": 189.66
+  },
+  {
+   "w": "of",
+   "s": 189.66,
+   "e": 189.84
+  },
+  {
+   "w": "a",
+   "s": 189.84,
+   "e": 189.92
+  },
+  {
+   "w": "germ",
+   "s": 189.92,
+   "e": 190.1
+  },
+  {
+   "w": "you've",
+   "s": 190.1,
+   "e": 190.46
+  },
+  {
+   "w": "met",
+   "s": 190.46,
+   "e": 190.68
+  },
+  {
+   "w": "or",
+   "s": 190.68,
+   "e": 191.0
+  },
+  {
+   "w": "been",
+   "s": 191.0,
+   "e": 191.1
+  },
+  {
+   "w": "vaccinated",
+   "s": 191.1,
+   "e": 191.54
+  },
+  {
+   "w": "against.",
+   "s": 191.54,
+   "e": 191.98
+  },
+  {
+   "w": "Measles",
+   "s": 192.52,
+   "e": 192.9
+  },
+  {
+   "w": "carries",
+   "s": 192.9,
+   "e": 193.2
+  },
+  {
+   "w": "a",
+   "s": 193.2,
+   "e": 193.36
+  },
+  {
+   "w": "key",
+   "s": 193.36,
+   "e": 193.58
+  },
+  {
+   "w": "that",
+   "s": 193.58,
+   "e": 193.84
+  },
+  {
+   "w": "fits",
+   "s": 193.84,
+   "e": 194.02
+  },
+  {
+   "w": "a",
+   "s": 194.02,
+   "e": 194.18
+  },
+  {
+   "w": "lock",
+   "s": 194.18,
+   "e": 194.34
+  },
+  {
+   "w": "on",
+   "s": 194.34,
+   "e": 194.5
+  },
+  {
+   "w": "their",
+   "s": 194.5,
+   "e": 194.64
+  },
+  {
+   "w": "surface,",
+   "s": 194.64,
+   "e": 195.08
+  },
+  {
+   "w": "a",
+   "s": 195.46,
+   "e": 195.66
+  },
+  {
+   "w": "receptor",
+   "s": 195.66,
+   "e": 195.96
+  },
+  {
+   "w": "called",
+   "s": 195.96,
+   "e": 196.4
+  },
+  {
+   "w": "CD150.",
+   "s": 196.4,
+   "e": 197.26
+  },
+  {
+   "w": "Memory",
+   "s": 198.18,
+   "e": 198.44
+  },
+  {
+   "w": "T",
+   "s": 198.44,
+   "e": 198.72
+  },
+  {
+   "w": "cells",
+   "s": 198.72,
+   "e": 198.96
+  },
+  {
+   "w": "carry",
+   "s": 198.96,
+   "e": 199.36
+  },
+  {
+   "w": "more",
+   "s": 199.36,
+   "e": 199.64
+  },
+  {
+   "w": "of",
+   "s": 199.64,
+   "e": 199.76
+  },
+  {
+   "w": "these",
+   "s": 199.76,
+   "e": 199.9
+  },
+  {
+   "w": "locks",
+   "s": 199.9,
+   "e": 200.12
+  },
+  {
+   "w": "than",
+   "s": 200.12,
+   "e": 200.46
+  },
+  {
+   "w": "fresh,",
+   "s": 200.46,
+   "e": 200.74
+  },
+  {
+   "w": "untrained",
+   "s": 201.18,
+   "e": 201.52
+  },
+  {
+   "w": "ones,",
+   "s": 201.52,
+   "e": 201.82
+  },
+  {
+   "w": "so",
+   "s": 202.34,
+   "e": 202.54
+  },
+  {
+   "w": "the",
+   "s": 202.54,
+   "e": 202.64
+  },
+  {
+   "w": "virus",
+   "s": 202.64,
+   "e": 202.94
+  },
+  {
+   "w": "heads",
+   "s": 202.94,
+   "e": 203.2
+  },
+  {
+   "w": "straight",
+   "s": 203.2,
+   "e": 203.52
+  },
+  {
+   "w": "for",
+   "s": 203.52,
+   "e": 203.78
+  },
+  {
+   "w": "them.",
+   "s": 203.78,
+   "e": 203.96
+  },
+  {
+   "w": "It",
+   "s": 204.56,
+   "e": 204.62
+  },
+  {
+   "w": "unlocks",
+   "s": 204.62,
+   "e": 204.8
+  },
+  {
+   "w": "the",
+   "s": 204.8,
+   "e": 205.14
+  },
+  {
+   "w": "memory",
+   "s": 205.14,
+   "e": 205.38
+  },
+  {
+   "w": "cells,",
+   "s": 205.38,
+   "e": 205.74
+  },
+  {
+   "w": "moves",
+   "s": 206.1,
+   "e": 206.32
+  },
+  {
+   "w": "in,",
+   "s": 206.32,
+   "e": 206.56
+  },
+  {
+   "w": "copies",
+   "s": 206.88,
+   "e": 207.02
+  },
+  {
+   "w": "itself,",
+   "s": 207.02,
+   "e": 207.42
+  },
+  {
+   "w": "and",
+   "s": 207.84,
+   "e": 207.94
+  },
+  {
+   "w": "the",
+   "s": 207.94,
+   "e": 208.06
+  },
+  {
+   "w": "infected",
+   "s": 208.06,
+   "e": 208.34
+  },
+  {
+   "w": "cells",
+   "s": 208.34,
+   "e": 208.76
+  },
+  {
+   "w": "are",
+   "s": 208.76,
+   "e": 209.04
+  },
+  {
+   "w": "destroyed.",
+   "s": 209.04,
+   "e": 209.44
+  },
+  {
+   "w": "Doesn't",
+   "s": 209.94,
+   "e": 210.2
+  },
+  {
+   "w": "the",
+   "s": 210.2,
+   "e": 210.3
+  },
+  {
+   "w": "body",
+   "s": 210.3,
+   "e": 210.48
+  },
+  {
+   "w": "just",
+   "s": 210.48,
+   "e": 210.9
+  },
+  {
+   "w": "replace",
+   "s": 210.9,
+   "e": 211.24
+  },
+  {
+   "w": "them?",
+   "s": 211.24,
+   "e": 211.56
+  },
+  {
+   "w": "It",
+   "s": 212.12,
+   "e": 212.26
+  },
+  {
+   "w": "replaces",
+   "s": 212.26,
+   "e": 212.54
+  },
+  {
+   "w": "the",
+   "s": 212.54,
+   "e": 212.92
+  },
+  {
+   "w": "numbers,",
+   "s": 212.92,
+   "e": 213.24
+  },
+  {
+   "w": "not",
+   "s": 213.6,
+   "e": 213.78
+  },
+  {
+   "w": "the",
+   "s": 213.78,
+   "e": 213.92
+  },
+  {
+   "w": "records.",
+   "s": 213.92,
+   "e": 214.22
+  },
+  {
+   "w": "New",
+   "s": 214.22,
+   "e": 215.1
+  },
+  {
+   "w": "white",
+   "s": 215.1,
+   "e": 215.38
+  },
+  {
+   "w": "blood",
+   "s": 215.38,
+   "e": 215.6
+  },
+  {
+   "w": "cells",
+   "s": 215.6,
+   "e": 215.94
+  },
+  {
+   "w": "flood",
+   "s": 215.94,
+   "e": 216.22
+  },
+  {
+   "w": "into",
+   "s": 216.22,
+   "e": 216.44
+  },
+  {
+   "w": "fight",
+   "s": 216.44,
+   "e": 216.78
+  },
+  {
+   "w": "measles,",
+   "s": 216.78,
+   "e": 217.06
+  },
+  {
+   "w": "so",
+   "s": 217.62,
+   "e": 217.72
+  },
+  {
+   "w": "blood",
+   "s": 217.72,
+   "e": 217.9
+  },
+  {
+   "w": "counts",
+   "s": 217.9,
+   "e": 218.16
+  },
+  {
+   "w": "look",
+   "s": 218.16,
+   "e": 218.56
+  },
+  {
+   "w": "normal",
+   "s": 218.56,
+   "e": 218.8
+  },
+  {
+   "w": "again",
+   "s": 218.8,
+   "e": 219.16
+  },
+  {
+   "w": "within",
+   "s": 219.16,
+   "e": 219.44
+  },
+  {
+   "w": "weeks.",
+   "s": 219.44,
+   "e": 219.7
+  },
+  {
+   "w": "But",
+   "s": 220.32,
+   "e": 220.38
+  },
+  {
+   "w": "many",
+   "s": 220.38,
+   "e": 220.58
+  },
+  {
+   "w": "of",
+   "s": 220.58,
+   "e": 220.76
+  },
+  {
+   "w": "those",
+   "s": 220.76,
+   "e": 220.92
+  },
+  {
+   "w": "new",
+   "s": 220.92,
+   "e": 221.14
+  },
+  {
+   "w": "cells",
+   "s": 221.14,
+   "e": 221.4
+  },
+  {
+   "w": "only",
+   "s": 221.4,
+   "e": 221.84
+  },
+  {
+   "w": "know",
+   "s": 221.84,
+   "e": 222.14
+  },
+  {
+   "w": "measles.",
+   "s": 222.14,
+   "e": 222.4
+  },
+  {
+   "w": "The",
+   "s": 223.2,
+   "e": 223.26
+  },
+  {
+   "w": "old",
+   "s": 223.26,
+   "e": 223.44
+  },
+  {
+   "w": "cells",
+   "s": 223.44,
+   "e": 223.74
+  },
+  {
+   "w": "that",
+   "s": 223.74,
+   "e": 224.06
+  },
+  {
+   "w": "remembered",
+   "s": 224.06,
+   "e": 224.3
+  },
+  {
+   "w": "your",
+   "s": 224.3,
+   "e": 224.68
+  },
+  {
+   "w": "past",
+   "s": 224.68,
+   "e": 224.96
+  },
+  {
+   "w": "colds,",
+   "s": 224.96,
+   "e": 225.58
+  },
+  {
+   "w": "flu",
+   "s": 225.84,
+   "e": 226.02
+  },
+  {
+   "w": "and",
+   "s": 226.02,
+   "e": 226.36
+  },
+  {
+   "w": "other",
+   "s": 226.36,
+   "e": 226.48
+  },
+  {
+   "w": "infections",
+   "s": 226.48,
+   "e": 226.98
+  },
+  {
+   "w": "are",
+   "s": 226.98,
+   "e": 227.3
+  },
+  {
+   "w": "gone.",
+   "s": 227.3,
+   "e": 227.46
+  },
+  {
+   "w": "It's",
+   "s": 228.02,
+   "e": 228.14
+  },
+  {
+   "w": "like",
+   "s": 228.14,
+   "e": 228.28
+  },
+  {
+   "w": "a",
+   "s": 228.28,
+   "e": 228.42
+  },
+  {
+   "w": "library",
+   "s": 228.42,
+   "e": 228.64
+  },
+  {
+   "w": "fire.",
+   "s": 228.64,
+   "e": 229.06
+  },
+  {
+   "w": "The",
+   "s": 229.76,
+   "e": 229.8
+  },
+  {
+   "w": "shelves",
+   "s": 229.8,
+   "e": 229.98
+  },
+  {
+   "w": "get",
+   "s": 229.98,
+   "e": 230.32
+  },
+  {
+   "w": "restocked",
+   "s": 230.32,
+   "e": 230.7
+  },
+  {
+   "w": "fast,",
+   "s": 230.7,
+   "e": 231.08
+  },
+  {
+   "w": "but",
+   "s": 231.5,
+   "e": 231.62
+  },
+  {
+   "w": "with",
+   "s": 231.62,
+   "e": 231.72
+  },
+  {
+   "w": "copies",
+   "s": 231.72,
+   "e": 231.96
+  },
+  {
+   "w": "of",
+   "s": 231.96,
+   "e": 232.24
+  },
+  {
+   "w": "one",
+   "s": 232.24,
+   "e": 232.38
+  },
+  {
+   "w": "book,",
+   "s": 232.38,
+   "e": 232.66
+  },
+  {
+   "w": "while",
+   "s": 232.98,
+   "e": 233.08
+  },
+  {
+   "w": "the",
+   "s": 233.08,
+   "e": 233.2
+  },
+  {
+   "w": "rare",
+   "s": 233.2,
+   "e": 233.34
+  },
+  {
+   "w": "volumes",
+   "s": 233.34,
+   "e": 233.7
+  },
+  {
+   "w": "you",
+   "s": 233.7,
+   "e": 233.98
+  },
+  {
+   "w": "collected",
+   "s": 233.98,
+   "e": 234.22
+  },
+  {
+   "w": "are",
+   "s": 234.22,
+   "e": 234.6
+  },
+  {
+   "w": "ash.",
+   "s": 234.6,
+   "e": 234.78
+  },
+  {
+   "w": "How",
+   "s": 236.94,
+   "e": 237.48
+  },
+  {
+   "w": "do",
+   "s": 237.48,
+   "e": 237.6
+  },
+  {
+   "w": "we",
+   "s": 237.6,
+   "e": 237.7
+  },
+  {
+   "w": "know",
+   "s": 237.7,
+   "e": 237.84
+  },
+  {
+   "w": "memory",
+   "s": 237.84,
+   "e": 238.12
+  },
+  {
+   "w": "really",
+   "s": 238.12,
+   "e": 238.58
+  },
+  {
+   "w": "gets",
+   "s": 238.58,
+   "e": 238.92
+  },
+  {
+   "w": "erased?",
+   "s": 238.92,
+   "e": 239.16
+  },
+  {
+   "w": "Surprisingly,",
+   "s": 240.04,
+   "e": 240.38
+  },
+  {
+   "w": "the",
+   "s": 240.92,
+   "e": 240.96
+  },
+  {
+   "w": "best",
+   "s": 240.96,
+   "e": 241.16
+  },
+  {
+   "w": "evidence",
+   "s": 241.16,
+   "e": 241.54
+  },
+  {
+   "w": "came",
+   "s": 241.54,
+   "e": 241.86
+  },
+  {
+   "w": "from",
+   "s": 241.86,
+   "e": 242.06
+  },
+  {
+   "w": "an",
+   "s": 242.06,
+   "e": 242.16
+  },
+  {
+   "w": "outbreak.",
+   "s": 242.16,
+   "e": 242.4
+  },
+  {
+   "w": "In",
+   "s": 242.4,
+   "e": 243.06
+  },
+  {
+   "w": "2019,",
+   "s": 243.06,
+   "e": 243.78
+  },
+  {
+   "w": "a",
+   "s": 244.46,
+   "e": 244.58
+  },
+  {
+   "w": "team",
+   "s": 244.58,
+   "e": 244.82
+  },
+  {
+   "w": "led",
+   "s": 244.82,
+   "e": 245.1
+  },
+  {
+   "w": "by",
+   "s": 245.1,
+   "e": 245.28
+  },
+  {
+   "w": "Michael",
+   "s": 245.28,
+   "e": 245.64
+  },
+  {
+   "w": "Meener",
+   "s": 245.64,
+   "e": 245.98
+  },
+  {
+   "w": "at",
+   "s": 245.98,
+   "e": 246.3
+  },
+  {
+   "w": "Harvard",
+   "s": 246.3,
+   "e": 246.66
+  },
+  {
+   "w": "tested",
+   "s": 246.66,
+   "e": 247.02
+  },
+  {
+   "w": "blood",
+   "s": 247.02,
+   "e": 247.42
+  },
+  {
+   "w": "from",
+   "s": 247.42,
+   "e": 247.98
+  },
+  {
+   "w": "77",
+   "s": 247.98,
+   "e": 248.5
+  },
+  {
+   "w": "unvaccinated",
+   "s": 248.5,
+   "e": 249.64
+  },
+  {
+   "w": "children",
+   "s": 249.64,
+   "e": 249.94
+  },
+  {
+   "w": "in",
+   "s": 249.94,
+   "e": 250.26
+  },
+  {
+   "w": "the",
+   "s": 250.26,
+   "e": 250.34
+  },
+  {
+   "w": "Netherlands",
+   "s": 250.34,
+   "e": 250.68
+  },
+  {
+   "w": "before",
+   "s": 250.68,
+   "e": 251.4
+  },
+  {
+   "w": "and",
+   "s": 251.4,
+   "e": 251.72
+  },
+  {
+   "w": "after",
+   "s": 251.72,
+   "e": 251.92
+  },
+  {
+   "w": "they",
+   "s": 251.92,
+   "e": 252.06
+  },
+  {
+   "w": "caught",
+   "s": 252.06,
+   "e": 252.28
+  },
+  {
+   "w": "measles.",
+   "s": 252.28,
+   "e": 252.52
+  },
+  {
+   "w": "They",
+   "s": 253.3,
+   "e": 253.36
+  },
+  {
+   "w": "used",
+   "s": 253.36,
+   "e": 253.52
+  },
+  {
+   "w": "a",
+   "s": 253.52,
+   "e": 253.68
+  },
+  {
+   "w": "tool",
+   "s": 253.68,
+   "e": 253.92
+  },
+  {
+   "w": "called",
+   "s": 253.92,
+   "e": 254.3
+  },
+  {
+   "w": "Verscan.",
+   "s": 254.3,
+   "e": 254.82
+  },
+  {
+   "w": "It",
+   "s": 255.64,
+   "e": 255.64
+  },
+  {
+   "w": "dips",
+   "s": 255.64,
+   "e": 255.78
+  },
+  {
+   "w": "a",
+   "s": 255.78,
+   "e": 255.96
+  },
+  {
+   "w": "drop",
+   "s": 255.96,
+   "e": 256.16
+  },
+  {
+   "w": "of",
+   "s": 256.16,
+   "e": 256.3
+  },
+  {
+   "w": "blood",
+   "s": 256.3,
+   "e": 256.56
+  },
+  {
+   "w": "into",
+   "s": 256.56,
+   "e": 256.8
+  },
+  {
+   "w": "thousands",
+   "s": 256.8,
+   "e": 257.22
+  },
+  {
+   "w": "of",
+   "s": 257.22,
+   "e": 257.54
+  },
+  {
+   "w": "tiny",
+   "s": 257.54,
+   "e": 257.78
+  },
+  {
+   "w": "virus",
+   "s": 257.78,
+   "e": 258.26
+  },
+  {
+   "w": "fragments",
+   "s": 258.26,
+   "e": 258.7
+  },
+  {
+   "w": "and",
+   "s": 258.7,
+   "e": 259.34
+  },
+  {
+   "w": "reads",
+   "s": 259.34,
+   "e": 259.52
+  },
+  {
+   "w": "which",
+   "s": 259.52,
+   "e": 259.82
+  },
+  {
+   "w": "ones",
+   "s": 259.82,
+   "e": 260.04
+  },
+  {
+   "w": "your",
+   "s": 260.04,
+   "e": 260.26
+  },
+  {
+   "w": "antibodies",
+   "s": 260.26,
+   "e": 260.64
+  },
+  {
+   "w": "grab.",
+   "s": 260.64,
+   "e": 261.04
+  },
+  {
+   "w": "Two",
+   "s": 261.6,
+   "e": 261.68
+  },
+  {
+   "w": "months",
+   "s": 261.68,
+   "e": 261.86
+  },
+  {
+   "w": "after",
+   "s": 261.86,
+   "e": 262.2
+  },
+  {
+   "w": "measles,",
+   "s": 262.2,
+   "e": 262.56
+  },
+  {
+   "w": "the",
+   "s": 263.12,
+   "e": 263.22
+  },
+  {
+   "w": "children",
+   "s": 263.22,
+   "e": 263.5
+  },
+  {
+   "w": "had",
+   "s": 263.5,
+   "e": 263.74
+  },
+  {
+   "w": "lost",
+   "s": 263.74,
+   "e": 263.92
+  },
+  {
+   "w": "between",
+   "s": 263.92,
+   "e": 264.3
+  },
+  {
+   "w": "11",
+   "s": 264.3,
+   "e": 264.66
+  },
+  {
+   "w": "and",
+   "s": 264.66,
+   "e": 264.94
+  },
+  {
+   "w": "73",
+   "s": 264.94,
+   "e": 265.42
+  },
+  {
+   "w": "%",
+   "s": 265.42,
+   "e": 265.98
+  },
+  {
+   "w": "of",
+   "s": 265.98,
+   "e": 266.26
+  },
+  {
+   "w": "their",
+   "s": 266.26,
+   "e": 266.38
+  },
+  {
+   "w": "antibodies",
+   "s": 266.38,
+   "e": 266.86
+  },
+  {
+   "w": "against",
+   "s": 266.86,
+   "e": 267.5
+  },
+  {
+   "w": "other",
+   "s": 267.5,
+   "e": 267.9
+  },
+  {
+   "w": "germs.",
+   "s": 267.9,
+   "e": 268.52
+  },
+  {
+   "w": "73",
+   "s": 268.68,
+   "e": 269.22
+  },
+  {
+   "w": "%",
+   "s": 269.22,
+   "e": 269.84
+  },
+  {
+   "w": "of",
+   "s": 269.84,
+   "e": 270.28
+  },
+  {
+   "w": "everything.",
+   "s": 270.28,
+   "e": 270.64
+  },
+  {
+   "w": "Of",
+   "s": 270.64,
+   "e": 271.48
+  },
+  {
+   "w": "their",
+   "s": 271.48,
+   "e": 271.62
+  },
+  {
+   "w": "antibody",
+   "s": 271.62,
+   "e": 271.88
+  },
+  {
+   "w": "variety",
+   "s": 271.88,
+   "e": 272.54
+  },
+  {
+   "w": "in",
+   "s": 272.54,
+   "e": 273.06
+  },
+  {
+   "w": "the",
+   "s": 273.06,
+   "e": 273.16
+  },
+  {
+   "w": "hardest",
+   "s": 273.16,
+   "e": 273.4
+  },
+  {
+   "w": "hit",
+   "s": 273.4,
+   "e": 273.66
+  },
+  {
+   "w": "child,",
+   "s": 273.66,
+   "e": 274.06
+  },
+  {
+   "w": "antibodies",
+   "s": 275.12,
+   "e": 275.12
+  },
+  {
+   "w": "against",
+   "s": 275.12,
+   "e": 275.62
+  },
+  {
+   "w": "viruses",
+   "s": 275.62,
+   "e": 276.24
+  },
+  {
+   "w": "and",
+   "s": 276.24,
+   "e": 276.56
+  },
+  {
+   "w": "bacteria,",
+   "s": 276.56,
+   "e": 276.94
+  },
+  {
+   "w": "they",
+   "s": 277.46,
+   "e": 277.6
+  },
+  {
+   "w": "had",
+   "s": 277.6,
+   "e": 277.76
+  },
+  {
+   "w": "already",
+   "s": 277.76,
+   "e": 278.04
+  },
+  {
+   "w": "beaten",
+   "s": 278.04,
+   "e": 278.38
+  },
+  {
+   "w": "from",
+   "s": 278.38,
+   "e": 278.9
+  },
+  {
+   "w": "flu",
+   "s": 278.9,
+   "e": 279.12
+  },
+  {
+   "w": "viruses",
+   "s": 279.12,
+   "e": 279.58
+  },
+  {
+   "w": "to",
+   "s": 279.58,
+   "e": 279.92
+  },
+  {
+   "w": "common",
+   "s": 279.92,
+   "e": 280.16
+  },
+  {
+   "w": "bacteria,",
+   "s": 280.16,
+   "e": 280.52
+  },
+  {
+   "w": "simply",
+   "s": 280.52,
+   "e": 281.48
+  },
+  {
+   "w": "vanished",
+   "s": 281.48,
+   "e": 281.7
+  },
+  {
+   "w": "from",
+   "s": 281.7,
+   "e": 282.06
+  },
+  {
+   "w": "the",
+   "s": 282.06,
+   "e": 282.18
+  },
+  {
+   "w": "blood.",
+   "s": 282.18,
+   "e": 282.42
+  },
+  {
+   "w": "Healthy",
+   "s": 282.94,
+   "e": 283.08
+  },
+  {
+   "w": "children",
+   "s": 283.08,
+   "e": 283.58
+  },
+  {
+   "w": "followed",
+   "s": 283.58,
+   "e": 283.9
+  },
+  {
+   "w": "over",
+   "s": 283.9,
+   "e": 284.22
+  },
+  {
+   "w": "the",
+   "s": 284.22,
+   "e": 284.36
+  },
+  {
+   "w": "same",
+   "s": 284.36,
+   "e": 284.58
+  },
+  {
+   "w": "months,",
+   "s": 284.58,
+   "e": 284.88
+  },
+  {
+   "w": "kept",
+   "s": 284.9,
+   "e": 285.42
+  },
+  {
+   "w": "about",
+   "s": 285.42,
+   "e": 285.74
+  },
+  {
+   "w": "90",
+   "s": 285.74,
+   "e": 286.08
+  },
+  {
+   "w": "%",
+   "s": 286.08,
+   "e": 286.54
+  },
+  {
+   "w": "of",
+   "s": 286.54,
+   "e": 286.8
+  },
+  {
+   "w": "their",
+   "s": 286.8,
+   "e": 286.92
+  },
+  {
+   "w": "antibody",
+   "s": 286.92,
+   "e": 287.32
+  },
+  {
+   "w": "variety,",
+   "s": 287.32,
+   "e": 287.86
+  },
+  {
+   "w": "so",
+   "s": 288.5,
+   "e": 288.8
+  },
+  {
+   "w": "this",
+   "s": 288.8,
+   "e": 288.96
+  },
+  {
+   "w": "was",
+   "s": 288.96,
+   "e": 289.18
+  },
+  {
+   "w": "not",
+   "s": 289.18,
+   "e": 289.42
+  },
+  {
+   "w": "normal",
+   "s": 289.42,
+   "e": 289.74
+  },
+  {
+   "w": "for",
+   "s": 289.74,
+   "e": 289.98
+  },
+  {
+   "w": "getting.",
+   "s": 289.98,
+   "e": 290.22
+  },
+  {
+   "w": "Children",
+   "s": 290.74,
+   "e": 291.06
+  },
+  {
+   "w": "who",
+   "s": 291.06,
+   "e": 291.36
+  },
+  {
+   "w": "had",
+   "s": 291.36,
+   "e": 291.46
+  },
+  {
+   "w": "a",
+   "s": 291.46,
+   "e": 291.56
+  },
+  {
+   "w": "severe",
+   "s": 291.56,
+   "e": 291.72
+  },
+  {
+   "w": "case",
+   "s": 291.72,
+   "e": 292.12
+  },
+  {
+   "w": "tended",
+   "s": 292.12,
+   "e": 292.5
+  },
+  {
+   "w": "to",
+   "s": 292.5,
+   "e": 292.76
+  },
+  {
+   "w": "lose",
+   "s": 292.76,
+   "e": 292.98
+  },
+  {
+   "w": "more,",
+   "s": 292.98,
+   "e": 293.24
+  },
+  {
+   "w": "and",
+   "s": 293.76,
+   "e": 293.86
+  },
+  {
+   "w": "in",
+   "s": 293.86,
+   "e": 293.96
+  },
+  {
+   "w": "monkeys",
+   "s": 293.96,
+   "e": 294.3
+  },
+  {
+   "w": "infected",
+   "s": 294.3,
+   "e": 294.78
+  },
+  {
+   "w": "on",
+   "s": 294.78,
+   "e": 295.12
+  },
+  {
+   "w": "purpose,",
+   "s": 295.12,
+   "e": 295.48
+  },
+  {
+   "w": "roughly",
+   "s": 296.06,
+   "e": 296.18
+  },
+  {
+   "w": "half",
+   "s": 296.18,
+   "e": 296.52
+  },
+  {
+   "w": "their",
+   "s": 296.52,
+   "e": 296.78
+  },
+  {
+   "w": "old",
+   "s": 296.78,
+   "e": 296.96
+  },
+  {
+   "w": "antibodies",
+   "s": 296.96,
+   "e": 297.32
+  },
+  {
+   "w": "were",
+   "s": 297.32,
+   "e": 297.96
+  },
+  {
+   "w": "still",
+   "s": 297.96,
+   "e": 298.16
+  },
+  {
+   "w": "missing",
+   "s": 298.16,
+   "e": 298.38
+  },
+  {
+   "w": "five",
+   "s": 298.38,
+   "e": 298.88
+  },
+  {
+   "w": "months",
+   "s": 298.88,
+   "e": 299.14
+  },
+  {
+   "w": "later.",
+   "s": 299.14,
+   "e": 299.58
+  },
+  {
+   "w": "Does",
+   "s": 301.56,
+   "e": 302.08
+  },
+  {
+   "w": "the",
+   "s": 302.08,
+   "e": 302.24
+  },
+  {
+   "w": "immune",
+   "s": 302.24,
+   "e": 302.38
+  },
+  {
+   "w": "system",
+   "s": 302.38,
+   "e": 302.94
+  },
+  {
+   "w": "ever",
+   "s": 302.94,
+   "e": 303.3
+  },
+  {
+   "w": "reset",
+   "s": 303.3,
+   "e": 303.66
+  },
+  {
+   "w": "fully?",
+   "s": 303.66,
+   "e": 304.0
+  },
+  {
+   "w": "Not",
+   "s": 304.62,
+   "e": 304.82
+  },
+  {
+   "w": "quickly.",
+   "s": 304.82,
+   "e": 305.08
+  },
+  {
+   "w": "The",
+   "s": 305.68,
+   "e": 305.68
+  },
+  {
+   "w": "same",
+   "s": 305.68,
+   "e": 305.9
+  },
+  {
+   "w": "year,",
+   "s": 305.9,
+   "e": 306.28
+  },
+  {
+   "w": "a",
+   "s": 306.58,
+   "e": 306.68
+  },
+  {
+   "w": "team",
+   "s": 306.68,
+   "e": 306.92
+  },
+  {
+   "w": "in",
+   "s": 306.92,
+   "e": 307.08
+  },
+  {
+   "w": "Britain",
+   "s": 307.08,
+   "e": 307.3
+  },
+  {
+   "w": "and",
+   "s": 307.3,
+   "e": 307.5
+  },
+  {
+   "w": "the",
+   "s": 307.5,
+   "e": 307.58
+  },
+  {
+   "w": "Netherlands,",
+   "s": 307.58,
+   "e": 307.92
+  },
+  {
+   "w": "led",
+   "s": 308.36,
+   "e": 308.5
+  },
+  {
+   "w": "by",
+   "s": 308.5,
+   "e": 308.72
+  },
+  {
+   "w": "Velislava",
+   "s": 308.72,
+   "e": 309.28
+  },
+  {
+   "w": "Petrova,",
+   "s": 309.28,
+   "e": 309.96
+  },
+  {
+   "w": "read",
+   "s": 310.52,
+   "e": 310.58
+  },
+  {
+   "w": "the",
+   "s": 310.58,
+   "e": 310.78
+  },
+  {
+   "w": "genes",
+   "s": 310.78,
+   "e": 310.98
+  },
+  {
+   "w": "of",
+   "s": 310.98,
+   "e": 311.2
+  },
+  {
+   "w": "the",
+   "s": 311.2,
+   "e": 311.28
+  },
+  {
+   "w": "B",
+   "s": 311.28,
+   "e": 311.38
+  },
+  {
+   "w": "cells",
+   "s": 311.38,
+   "e": 311.62
+  },
+  {
+   "w": "in",
+   "s": 311.62,
+   "e": 311.94
+  },
+  {
+   "w": "26",
+   "s": 311.94,
+   "e": 312.36
+  },
+  {
+   "w": "unvaccinated",
+   "s": 312.36,
+   "e": 313.3
+  },
+  {
+   "w": "Dutch",
+   "s": 313.3,
+   "e": 313.5
+  },
+  {
+   "w": "children",
+   "s": 313.5,
+   "e": 313.92
+  },
+  {
+   "w": "before",
+   "s": 313.92,
+   "e": 314.58
+  },
+  {
+   "w": "and",
+   "s": 314.58,
+   "e": 314.84
+  },
+  {
+   "w": "after",
+   "s": 314.84,
+   "e": 315.12
+  },
+  {
+   "w": "measles.",
+   "s": 315.12,
+   "e": 315.36
+  },
+  {
+   "w": "Memory",
+   "s": 316.04,
+   "e": 316.18
+  },
+  {
+   "w": "B",
+   "s": 316.18,
+   "e": 316.54
+  },
+  {
+   "w": "cells",
+   "s": 316.54,
+   "e": 316.88
+  },
+  {
+   "w": "built",
+   "s": 316.88,
+   "e": 317.22
+  },
+  {
+   "w": "up",
+   "s": 317.22,
+   "e": 317.44
+  },
+  {
+   "w": "against",
+   "s": 317.44,
+   "e": 317.72
+  },
+  {
+   "w": "old",
+   "s": 317.72,
+   "e": 318.0
+  },
+  {
+   "w": "infections",
+   "s": 318.0,
+   "e": 318.38
+  },
+  {
+   "w": "had",
+   "s": 318.38,
+   "e": 319.08
+  },
+  {
+   "w": "disappeared",
+   "s": 319.08,
+   "e": 319.44
+  },
+  {
+   "w": "from",
+   "s": 319.44,
+   "e": 319.84
+  },
+  {
+   "w": "the",
+   "s": 319.84,
+   "e": 319.98
+  },
+  {
+   "w": "blood,",
+   "s": 319.98,
+   "e": 320.22
+  },
+  {
+   "w": "and",
+   "s": 320.72,
+   "e": 320.96
+  },
+  {
+   "w": "the",
+   "s": 320.96,
+   "e": 321.06
+  },
+  {
+   "w": "fresh",
+   "s": 321.06,
+   "e": 321.2
+  },
+  {
+   "w": "B",
+   "s": 321.2,
+   "e": 321.46
+  },
+  {
+   "w": "cells",
+   "s": 321.46,
+   "e": 321.78
+  },
+  {
+   "w": "that",
+   "s": 321.78,
+   "e": 321.98
+  },
+  {
+   "w": "replaced",
+   "s": 321.98,
+   "e": 322.2
+  },
+  {
+   "w": "them",
+   "s": 322.2,
+   "e": 322.54
+  },
+  {
+   "w": "were",
+   "s": 322.54,
+   "e": 322.72
+  },
+  {
+   "w": "immature,",
+   "s": 322.72,
+   "e": 322.96
+  },
+  {
+   "w": "like",
+   "s": 323.12,
+   "e": 323.78
+  },
+  {
+   "w": "a",
+   "s": 323.78,
+   "e": 323.88
+  },
+  {
+   "w": "newborns.",
+   "s": 323.88,
+   "e": 324.54
+  },
+  {
+   "w": "The",
+   "s": 324.54,
+   "e": 324.98
+  },
+  {
+   "w": "researchers",
+   "s": 324.98,
+   "e": 325.28
+  },
+  {
+   "w": "called",
+   "s": 325.28,
+   "e": 325.78
+  },
+  {
+   "w": "it",
+   "s": 325.78,
+   "e": 325.98
+  },
+  {
+   "w": "a",
+   "s": 325.98,
+   "e": 326.12
+  },
+  {
+   "w": "more",
+   "s": 326.12,
+   "e": 326.28
+  },
+  {
+   "w": "baby",
+   "s": 326.28,
+   "e": 326.56
+  },
+  {
+   "w": "-like",
+   "s": 326.56,
+   "e": 326.92
+  },
+  {
+   "w": "immune",
+   "s": 326.92,
+   "e": 327.12
+  },
+  {
+   "w": "system.",
+   "s": 327.12,
+   "e": 327.72
+  },
+  {
+   "w": "Their",
+   "s": 328.3,
+   "e": 328.4
+  },
+  {
+   "w": "defenses",
+   "s": 328.4,
+   "e": 328.76
+  },
+  {
+   "w": "looked",
+   "s": 328.76,
+   "e": 329.12
+  },
+  {
+   "w": "less",
+   "s": 329.12,
+   "e": 329.34
+  },
+  {
+   "w": "experienced,",
+   "s": 329.34,
+   "e": 330.0
+  },
+  {
+   "w": "closer",
+   "s": 330.5,
+   "e": 330.76
+  },
+  {
+   "w": "to",
+   "s": 330.76,
+   "e": 331.04
+  },
+  {
+   "w": "an",
+   "s": 331.04,
+   "e": 331.14
+  },
+  {
+   "w": "infant's",
+   "s": 331.14,
+   "e": 331.58
+  },
+  {
+   "w": "than",
+   "s": 331.58,
+   "e": 331.74
+  },
+  {
+   "w": "a",
+   "s": 331.74,
+   "e": 331.8
+  },
+  {
+   "w": "school",
+   "s": 331.8,
+   "e": 332.0
+  },
+  {
+   "w": "kids.",
+   "s": 332.0,
+   "e": 332.34
+  },
+  {
+   "w": "Some",
+   "s": 333.0,
+   "e": 333.18
+  },
+  {
+   "w": "children",
+   "s": 333.18,
+   "e": 333.52
+  },
+  {
+   "w": "show",
+   "s": 333.52,
+   "e": 333.88
+  },
+  {
+   "w": "signs",
+   "s": 333.88,
+   "e": 334.32
+  },
+  {
+   "w": "of",
+   "s": 334.32,
+   "e": 334.5
+  },
+  {
+   "w": "a",
+   "s": 334.5,
+   "e": 334.58
+  },
+  {
+   "w": "weakened",
+   "s": 334.58,
+   "e": 334.78
+  },
+  {
+   "w": "immune",
+   "s": 334.78,
+   "e": 335.16
+  },
+  {
+   "w": "system",
+   "s": 335.16,
+   "e": 335.5
+  },
+  {
+   "w": "for",
+   "s": 335.5,
+   "e": 335.88
+  },
+  {
+   "w": "up",
+   "s": 335.88,
+   "e": 336.0
+  },
+  {
+   "w": "to",
+   "s": 336.0,
+   "e": 336.16
+  },
+  {
+   "w": "five",
+   "s": 336.16,
+   "e": 336.44
+  },
+  {
+   "w": "years,",
+   "s": 336.44,
+   "e": 336.76
+  },
+  {
+   "w": "even",
+   "s": 337.18,
+   "e": 337.54
+  },
+  {
+   "w": "when",
+   "s": 337.54,
+   "e": 337.74
+  },
+  {
+   "w": "their",
+   "s": 337.74,
+   "e": 337.9
+  },
+  {
+   "w": "white",
+   "s": 337.9,
+   "e": 338.14
+  },
+  {
+   "w": "blood",
+   "s": 338.14,
+   "e": 338.46
+  },
+  {
+   "w": "cell",
+   "s": 338.46,
+   "e": 338.72
+  },
+  {
+   "w": "counts",
+   "s": 338.72,
+   "e": 339.18
+  },
+  {
+   "w": "look",
+   "s": 339.18,
+   "e": 339.52
+  },
+  {
+   "w": "perfectly",
+   "s": 339.52,
+   "e": 339.86
+  },
+  {
+   "w": "normal.",
+   "s": 339.86,
+   "e": 340.42
+  },
+  {
+   "w": "Does",
+   "s": 340.82,
+   "e": 340.9
+  },
+  {
+   "w": "that",
+   "s": 340.9,
+   "e": 341.04
+  },
+  {
+   "w": "actually",
+   "s": 341.04,
+   "e": 341.42
+  },
+  {
+   "w": "make",
+   "s": 341.42,
+   "e": 341.76
+  },
+  {
+   "w": "people",
+   "s": 341.76,
+   "e": 342.04
+  },
+  {
+   "w": "sicker?",
+   "s": 342.04,
+   "e": 342.58
+  },
+  {
+   "w": "In",
+   "s": 343.22,
+   "e": 343.3
+  },
+  {
+   "w": "ferrets,",
+   "s": 343.3,
+   "e": 343.68
+  },
+  {
+   "w": "yes.",
+   "s": 343.9,
+   "e": 344.06
+  },
+  {
+   "w": "Ferrets",
+   "s": 344.82,
+   "e": 344.94
+  },
+  {
+   "w": "vaccinated",
+   "s": 344.94,
+   "e": 345.42
+  },
+  {
+   "w": "against",
+   "s": 345.42,
+   "e": 345.88
+  },
+  {
+   "w": "flu",
+   "s": 345.88,
+   "e": 346.24
+  },
+  {
+   "w": "caught",
+   "s": 346.24,
+   "e": 346.56
+  },
+  {
+   "w": "a",
+   "s": 346.56,
+   "e": 346.64
+  },
+  {
+   "w": "measles",
+   "s": 346.64,
+   "e": 346.9
+  },
+  {
+   "w": "-like",
+   "s": 346.9,
+   "e": 347.28
+  },
+  {
+   "w": "virus.",
+   "s": 347.28,
+   "e": 347.74
+  },
+  {
+   "w": "Their",
+   "s": 348.24,
+   "e": 348.26
+  },
+  {
+   "w": "flu",
+   "s": 348.26,
+   "e": 348.46
+  },
+  {
+   "w": "antibodies",
+   "s": 348.46,
+   "e": 348.78
+  },
+  {
+   "w": "dropped,",
+   "s": 348.78,
+   "e": 349.32
+  },
+  {
+   "w": "and",
+   "s": 349.68,
+   "e": 349.86
+  },
+  {
+   "w": "when",
+   "s": 349.86,
+   "e": 349.98
+  },
+  {
+   "w": "flu",
+   "s": 349.98,
+   "e": 350.2
+  },
+  {
+   "w": "hit",
+   "s": 350.2,
+   "e": 350.46
+  },
+  {
+   "w": "them,",
+   "s": 350.46,
+   "e": 350.68
+  },
+  {
+   "w": "they",
+   "s": 350.9,
+   "e": 350.94
+  },
+  {
+   "w": "got",
+   "s": 350.94,
+   "e": 351.06
+  },
+  {
+   "w": "sicker.",
+   "s": 351.06,
+   "e": 351.54
+  },
+  {
+   "w": "How",
+   "s": 353.92,
+   "e": 354.48
+  },
+  {
+   "w": "long",
+   "s": 354.48,
+   "e": 354.7
+  },
+  {
+   "w": "does",
+   "s": 354.7,
+   "e": 354.94
+  },
+  {
+   "w": "the",
+   "s": 354.94,
+   "e": 355.08
+  },
+  {
+   "w": "danger",
+   "s": 355.08,
+   "e": 355.34
+  },
+  {
+   "w": "last?",
+   "s": 355.34,
+   "e": 355.78
+  },
+  {
+   "w": "About",
+   "s": 356.48,
+   "e": 356.66
+  },
+  {
+   "w": "two",
+   "s": 356.66,
+   "e": 356.94
+  },
+  {
+   "w": "to",
+   "s": 356.94,
+   "e": 357.08
+  },
+  {
+   "w": "three",
+   "s": 357.08,
+   "e": 357.32
+  },
+  {
+   "w": "years.",
+   "s": 357.32,
+   "e": 357.64
+  },
+  {
+   "w": "In",
+   "s": 358.38,
+   "e": 358.48
+  },
+  {
+   "w": "2015,",
+   "s": 358.48,
+   "e": 359.1
+  },
+  {
+   "w": "Mina's",
+   "s": 359.54,
+   "e": 359.88
+  },
+  {
+   "w": "team",
+   "s": 359.88,
+   "e": 360.12
+  },
+  {
+   "w": "lined",
+   "s": 360.12,
+   "e": 360.46
+  },
+  {
+   "w": "up",
+   "s": 360.46,
+   "e": 360.74
+  },
+  {
+   "w": "decades",
+   "s": 360.74,
+   "e": 361.08
+  },
+  {
+   "w": "of",
+   "s": 361.08,
+   "e": 361.34
+  },
+  {
+   "w": "death",
+   "s": 361.34,
+   "e": 361.52
+  },
+  {
+   "w": "records",
+   "s": 361.52,
+   "e": 361.88
+  },
+  {
+   "w": "from",
+   "s": 361.88,
+   "e": 362.24
+  },
+  {
+   "w": "the",
+   "s": 362.24,
+   "e": 362.34
+  },
+  {
+   "w": "United",
+   "s": 362.34,
+   "e": 362.52
+  },
+  {
+   "w": "States,",
+   "s": 362.52,
+   "e": 362.96
+  },
+  {
+   "w": "England",
+   "s": 363.5,
+   "e": 363.7
+  },
+  {
+   "w": "and",
+   "s": 363.7,
+   "e": 364.02
+  },
+  {
+   "w": "Denmark.",
+   "s": 364.02,
+   "e": 364.34
+  },
+  {
+   "w": "Every",
+   "s": 365.14,
+   "e": 365.3
+  },
+  {
+   "w": "measles",
+   "s": 365.3,
+   "e": 365.54
+  },
+  {
+   "w": "wave",
+   "s": 365.54,
+   "e": 365.98
+  },
+  {
+   "w": "was",
+   "s": 365.98,
+   "e": 366.2
+  },
+  {
+   "w": "followed,",
+   "s": 366.2,
+   "e": 366.56
+  },
+  {
+   "w": "about",
+   "s": 366.98,
+   "e": 367.2
+  },
+  {
+   "w": "two",
+   "s": 367.2,
+   "e": 367.5
+  },
+  {
+   "w": "to",
+   "s": 367.5,
+   "e": 367.64
+  },
+  {
+   "w": "three",
+   "s": 367.64,
+   "e": 367.86
+  },
+  {
+   "w": "years",
+   "s": 367.86,
+   "e": 368.08
+  },
+  {
+   "w": "later.",
+   "s": 368.08,
+   "e": 368.42
+  },
+  {
+   "w": "By",
+   "s": 368.96,
+   "e": 368.98
+  },
+  {
+   "w": "a",
+   "s": 368.98,
+   "e": 369.1
+  },
+  {
+   "w": "wave",
+   "s": 369.1,
+   "e": 369.32
+  },
+  {
+   "w": "of",
+   "s": 369.32,
+   "e": 369.44
+  },
+  {
+   "w": "children",
+   "s": 369.44,
+   "e": 369.8
+  },
+  {
+   "w": "dying",
+   "s": 369.8,
+   "e": 370.1
+  },
+  {
+   "w": "from",
+   "s": 370.1,
+   "e": 370.44
+  },
+  {
+   "w": "other",
+   "s": 370.44,
+   "e": 370.64
+  },
+  {
+   "w": "infections,",
+   "s": 370.64,
+   "e": 371.08
+  },
+  {
+   "w": "the",
+   "s": 371.78,
+   "e": 371.8
+  },
+  {
+   "w": "ones",
+   "s": 371.8,
+   "e": 371.94
+  },
+  {
+   "w": "measles",
+   "s": 371.94,
+   "e": 372.3
+  },
+  {
+   "w": "had",
+   "s": 372.3,
+   "e": 372.62
+  },
+  {
+   "w": "left",
+   "s": 372.62,
+   "e": 372.8
+  },
+  {
+   "w": "them",
+   "s": 372.8,
+   "e": 373.04
+  },
+  {
+   "w": "open",
+   "s": 373.04,
+   "e": 373.18
+  },
+  {
+   "w": "to.",
+   "s": 373.18,
+   "e": 373.54
+  },
+  {
+   "w": "When",
+   "s": 373.98,
+   "e": 374.08
+  },
+  {
+   "w": "the",
+   "s": 374.08,
+   "e": 374.18
+  },
+  {
+   "w": "vaccine",
+   "s": 374.18,
+   "e": 374.46
+  },
+  {
+   "w": "wiped",
+   "s": 374.46,
+   "e": 374.82
+  },
+  {
+   "w": "out",
+   "s": 374.82,
+   "e": 375.12
+  },
+  {
+   "w": "measles,",
+   "s": 375.12,
+   "e": 375.32
+  },
+  {
+   "w": "those",
+   "s": 375.94,
+   "e": 376.04
+  },
+  {
+   "w": "other",
+   "s": 376.04,
+   "e": 376.22
+  },
+  {
+   "w": "deaths",
+   "s": 376.22,
+   "e": 376.5
+  },
+  {
+   "w": "dropped",
+   "s": 376.5,
+   "e": 376.86
+  },
+  {
+   "w": "too.",
+   "s": 376.86,
+   "e": 377.2
+  },
+  {
+   "w": "A",
+   "s": 377.2,
+   "e": 377.9
+  },
+  {
+   "w": "puzzle",
+   "s": 377.9,
+   "e": 378.18
+  },
+  {
+   "w": "that",
+   "s": 378.18,
+   "e": 378.38
+  },
+  {
+   "w": "had",
+   "s": 378.38,
+   "e": 378.48
+  },
+  {
+   "w": "sat",
+   "s": 378.48,
+   "e": 378.68
+  },
+  {
+   "w": "there",
+   "s": 378.68,
+   "e": 378.98
+  },
+  {
+   "w": "since",
+   "s": 378.98,
+   "e": 379.18
+  },
+  {
+   "w": "the",
+   "s": 379.18,
+   "e": 379.34
+  },
+  {
+   "w": "1960s",
+   "s": 379.34,
+   "e": 380.32
+  },
+  {
+   "w": "suddenly",
+   "s": 380.32,
+   "e": 380.74
+  },
+  {
+   "w": "made",
+   "s": 380.74,
+   "e": 381.08
+  },
+  {
+   "w": "sense.",
+   "s": 381.08,
+   "e": 381.4
+  },
+  {
+   "w": "Mina",
+   "s": 382.0,
+   "e": 382.24
+  },
+  {
+   "w": "put",
+   "s": 382.24,
+   "e": 382.46
+  },
+  {
+   "w": "it",
+   "s": 382.46,
+   "e": 382.6
+  },
+  {
+   "w": "simply,",
+   "s": 382.6,
+   "e": 382.84
+  },
+  {
+   "w": "if",
+   "s": 383.48,
+   "e": 383.58
+  },
+  {
+   "w": "your",
+   "s": 383.58,
+   "e": 383.7
+  },
+  {
+   "w": "child",
+   "s": 383.7,
+   "e": 384.08
+  },
+  {
+   "w": "gets",
+   "s": 384.08,
+   "e": 384.34
+  },
+  {
+   "w": "measles",
+   "s": 384.34,
+   "e": 384.6
+  },
+  {
+   "w": "and",
+   "s": 384.6,
+   "e": 385.0
+  },
+  {
+   "w": "their",
+   "s": 385.0,
+   "e": 385.1
+  },
+  {
+   "w": "pneumonia",
+   "s": 385.1,
+   "e": 385.4
+  },
+  {
+   "w": "two",
+   "s": 385.4,
+   "e": 385.8
+  },
+  {
+   "w": "years",
+   "s": 385.8,
+   "e": 386.08
+  },
+  {
+   "w": "later,",
+   "s": 386.08,
+   "e": 386.38
+  },
+  {
+   "w": "you",
+   "s": 386.8,
+   "e": 386.92
+  },
+  {
+   "w": "wouldn't",
+   "s": 386.92,
+   "e": 387.18
+  },
+  {
+   "w": "tie",
+   "s": 387.18,
+   "e": 387.4
+  },
+  {
+   "w": "the",
+   "s": 387.4,
+   "e": 387.52
+  },
+  {
+   "w": "two",
+   "s": 387.52,
+   "e": 387.68
+  },
+  {
+   "w": "together,",
+   "s": 387.68,
+   "e": 388.02
+  },
+  {
+   "w": "but",
+   "s": 388.5,
+   "e": 388.66
+  },
+  {
+   "w": "they",
+   "s": 388.66,
+   "e": 388.78
+  },
+  {
+   "w": "can",
+   "s": 388.78,
+   "e": 388.92
+  },
+  {
+   "w": "be",
+   "s": 388.92,
+   "e": 389.06
+  },
+  {
+   "w": "linked.",
+   "s": 389.06,
+   "e": 389.28
+  },
+  {
+   "w": "How",
+   "s": 389.94,
+   "e": 390.06
+  },
+  {
+   "w": "many",
+   "s": 390.06,
+   "e": 390.2
+  },
+  {
+   "w": "deaths",
+   "s": 390.2,
+   "e": 390.48
+  },
+  {
+   "w": "are",
+   "s": 390.48,
+   "e": 390.84
+  },
+  {
+   "w": "we",
+   "s": 390.84,
+   "e": 390.94
+  },
+  {
+   "w": "talking",
+   "s": 390.94,
+   "e": 391.12
+  },
+  {
+   "w": "about?",
+   "s": 391.12,
+   "e": 391.58
+  },
+  {
+   "w": "Before",
+   "s": 392.24,
+   "e": 392.48
+  },
+  {
+   "w": "vaccines,",
+   "s": 392.48,
+   "e": 392.86
+  },
+  {
+   "w": "their",
+   "s": 393.46,
+   "e": 393.56
+  },
+  {
+   "w": "model",
+   "s": 393.56,
+   "e": 393.76
+  },
+  {
+   "w": "suggests",
+   "s": 393.76,
+   "e": 394.18
+  },
+  {
+   "w": "measles",
+   "s": 394.18,
+   "e": 394.58
+  },
+  {
+   "w": "may",
+   "s": 394.58,
+   "e": 394.96
+  },
+  {
+   "w": "have",
+   "s": 394.96,
+   "e": 395.06
+  },
+  {
+   "w": "been",
+   "s": 395.06,
+   "e": 395.2
+  },
+  {
+   "w": "behind",
+   "s": 395.2,
+   "e": 395.54
+  },
+  {
+   "w": "up",
+   "s": 395.54,
+   "e": 395.82
+  },
+  {
+   "w": "to",
+   "s": 395.82,
+   "e": 395.98
+  },
+  {
+   "w": "half",
+   "s": 395.98,
+   "e": 396.18
+  },
+  {
+   "w": "of",
+   "s": 396.18,
+   "e": 396.36
+  },
+  {
+   "w": "all",
+   "s": 396.36,
+   "e": 396.54
+  },
+  {
+   "w": "childhood",
+   "s": 396.54,
+   "e": 396.98
+  },
+  {
+   "w": "deaths",
+   "s": 396.98,
+   "e": 397.32
+  },
+  {
+   "w": "from",
+   "s": 397.32,
+   "e": 397.9
+  },
+  {
+   "w": "infectious",
+   "s": 397.9,
+   "e": 398.28
+  },
+  {
+   "w": "disease",
+   "s": 398.28,
+   "e": 398.74
+  },
+  {
+   "w": "in",
+   "s": 398.74,
+   "e": 399.14
+  },
+  {
+   "w": "rich",
+   "s": 399.14,
+   "e": 399.28
+  },
+  {
+   "w": "countries,",
+   "s": 399.28,
+   "e": 399.78
+  },
+  {
+   "w": "mostly",
+   "s": 400.3,
+   "e": 400.72
+  },
+  {
+   "w": "through",
+   "s": 400.72,
+   "e": 401.08
+  },
+  {
+   "w": "this",
+   "s": 401.08,
+   "e": 401.3
+  },
+  {
+   "w": "hidden",
+   "s": 401.3,
+   "e": 401.5
+  },
+  {
+   "w": "shadow.",
+   "s": 401.5,
+   "e": 401.9
+  },
+  {
+   "w": "Before",
+   "s": 401.9,
+   "e": 402.5
+  },
+  {
+   "w": "1963,",
+   "s": 402.5,
+   "e": 403.3
+  },
+  {
+   "w": "the",
+   "s": 404.02,
+   "e": 404.16
+  },
+  {
+   "w": "US",
+   "s": 404.16,
+   "e": 404.32
+  },
+  {
+   "w": "saw",
+   "s": 404.32,
+   "e": 404.66
+  },
+  {
+   "w": "an",
+   "s": 404.66,
+   "e": 404.74
+  },
+  {
+   "w": "estimated",
+   "s": 404.74,
+   "e": 405.06
+  },
+  {
+   "w": "three",
+   "s": 405.06,
+   "e": 405.64
+  },
+  {
+   "w": "to",
+   "s": 405.64,
+   "e": 405.82
+  },
+  {
+   "w": "four",
+   "s": 405.82,
+   "e": 406.04
+  },
+  {
+   "w": "million",
+   "s": 406.04,
+   "e": 406.38
+  },
+  {
+   "w": "measles",
+   "s": 406.38,
+   "e": 406.62
+  },
+  {
+   "w": "cases",
+   "s": 406.62,
+   "e": 407.06
+  },
+  {
+   "w": "a",
+   "s": 407.06,
+   "e": 407.38
+  },
+  {
+   "w": "year,",
+   "s": 407.38,
+   "e": 407.6
+  },
+  {
+   "w": "and",
+   "s": 408.14,
+   "e": 408.16
+  },
+  {
+   "w": "about",
+   "s": 408.16,
+   "e": 408.32
+  },
+  {
+   "w": "four",
+   "s": 408.32,
+   "e": 408.68
+  },
+  {
+   "w": "to",
+   "s": 408.68,
+   "e": 408.84
+  },
+  {
+   "w": "five",
+   "s": 408.84,
+   "e": 409.16
+  },
+  {
+   "w": "hundred",
+   "s": 409.16,
+   "e": 409.46
+  },
+  {
+   "w": "deaths",
+   "s": 409.46,
+   "e": 409.74
+  },
+  {
+   "w": "from",
+   "s": 409.74,
+   "e": 410.02
+  },
+  {
+   "w": "measles",
+   "s": 410.02,
+   "e": 410.28
+  },
+  {
+   "w": "itself.",
+   "s": 410.28,
+   "e": 410.84
+  },
+  {
+   "w": "Can",
+   "s": 412.78,
+   "e": 413.42
+  },
+  {
+   "w": "the",
+   "s": 413.42,
+   "e": 413.52
+  },
+  {
+   "w": "vaccine",
+   "s": 413.52,
+   "e": 413.76
+  },
+  {
+   "w": "cause",
+   "s": 413.76,
+   "e": 414.24
+  },
+  {
+   "w": "the",
+   "s": 414.24,
+   "e": 414.44
+  },
+  {
+   "w": "same",
+   "s": 414.44,
+   "e": 414.64
+  },
+  {
+   "w": "amnesia?",
+   "s": 414.64,
+   "e": 415.02
+  },
+  {
+   "w": "No,",
+   "s": 415.8,
+   "e": 416.04
+  },
+  {
+   "w": "Mina's",
+   "s": 416.4,
+   "e": 416.68
+  },
+  {
+   "w": "team",
+   "s": 416.68,
+   "e": 416.92
+  },
+  {
+   "w": "also",
+   "s": 416.92,
+   "e": 417.28
+  },
+  {
+   "w": "tested",
+   "s": 417.28,
+   "e": 417.62
+  },
+  {
+   "w": "children",
+   "s": 417.62,
+   "e": 418.06
+  },
+  {
+   "w": "before",
+   "s": 418.06,
+   "e": 418.44
+  },
+  {
+   "w": "and",
+   "s": 418.44,
+   "e": 418.78
+  },
+  {
+   "w": "after",
+   "s": 418.78,
+   "e": 418.94
+  },
+  {
+   "w": "their",
+   "s": 418.94,
+   "e": 419.14
+  },
+  {
+   "w": "first",
+   "s": 419.14,
+   "e": 419.46
+  },
+  {
+   "w": "MMR",
+   "s": 419.46,
+   "e": 419.7
+  },
+  {
+   "w": "shot.",
+   "s": 419.7,
+   "e": 420.34
+  },
+  {
+   "w": "Their",
+   "s": 420.94,
+   "e": 421.0
+  },
+  {
+   "w": "antibody",
+   "s": 421.0,
+   "e": 421.28
+  },
+  {
+   "w": "libraries",
+   "s": 421.28,
+   "e": 421.84
+  },
+  {
+   "w": "stayed",
+   "s": 421.84,
+   "e": 422.22
+  },
+  {
+   "w": "intact.",
+   "s": 422.22,
+   "e": 422.66
+  },
+  {
+   "w": "The",
+   "s": 423.38,
+   "e": 423.4
+  },
+  {
+   "w": "vaccine",
+   "s": 423.4,
+   "e": 423.62
+  },
+  {
+   "w": "virus",
+   "s": 423.62,
+   "e": 424.16
+  },
+  {
+   "w": "is",
+   "s": 424.16,
+   "e": 424.56
+  },
+  {
+   "w": "weakened.",
+   "s": 424.56,
+   "e": 424.8
+  },
+  {
+   "w": "It",
+   "s": 424.8,
+   "e": 425.66
+  },
+  {
+   "w": "trains",
+   "s": 425.66,
+   "e": 425.92
+  },
+  {
+   "w": "your",
+   "s": 425.92,
+   "e": 426.16
+  },
+  {
+   "w": "immune",
+   "s": 426.16,
+   "e": 426.34
+  },
+  {
+   "w": "system",
+   "s": 426.34,
+   "e": 426.82
+  },
+  {
+   "w": "to",
+   "s": 426.82,
+   "e": 427.1
+  },
+  {
+   "w": "recognize",
+   "s": 427.1,
+   "e": 427.42
+  },
+  {
+   "w": "measles",
+   "s": 427.42,
+   "e": 427.88
+  },
+  {
+   "w": "without",
+   "s": 427.88,
+   "e": 428.6
+  },
+  {
+   "w": "wiping",
+   "s": 428.6,
+   "e": 429.2
+  },
+  {
+   "w": "out",
+   "s": 429.2,
+   "e": 429.38
+  },
+  {
+   "w": "the",
+   "s": 429.38,
+   "e": 429.5
+  },
+  {
+   "w": "antibody",
+   "s": 429.5,
+   "e": 429.78
+  },
+  {
+   "w": "library",
+   "s": 429.78,
+   "e": 430.38
+  },
+  {
+   "w": "you",
+   "s": 430.38,
+   "e": 430.88
+  },
+  {
+   "w": "already",
+   "s": 430.88,
+   "e": 431.16
+  },
+  {
+   "w": "have.",
+   "s": 431.16,
+   "e": 431.52
+  },
+  {
+   "w": "Two",
+   "s": 432.06,
+   "e": 432.16
+  },
+  {
+   "w": "doses",
+   "s": 432.16,
+   "e": 432.5
+  },
+  {
+   "w": "of",
+   "s": 432.5,
+   "e": 432.74
+  },
+  {
+   "w": "MMR",
+   "s": 432.74,
+   "e": 432.9
+  },
+  {
+   "w": "are",
+   "s": 432.9,
+   "e": 433.56
+  },
+  {
+   "w": "about",
+   "s": 433.56,
+   "e": 433.72
+  },
+  {
+   "w": "97",
+   "s": 433.72,
+   "e": 434.24
+  },
+  {
+   "w": "%",
+   "s": 434.24,
+   "e": 434.88
+  },
+  {
+   "w": "effective",
+   "s": 434.88,
+   "e": 435.26
+  },
+  {
+   "w": "at",
+   "s": 435.26,
+   "e": 435.68
+  },
+  {
+   "w": "stopping",
+   "s": 435.68,
+   "e": 435.94
+  },
+  {
+   "w": "measles.",
+   "s": 435.94,
+   "e": 436.32
+  },
+  {
+   "w": "One",
+   "s": 437.2,
+   "e": 437.4
+  },
+  {
+   "w": "dose,",
+   "s": 437.4,
+   "e": 437.68
+  },
+  {
+   "w": "about",
+   "s": 438.0,
+   "e": 438.26
+  },
+  {
+   "w": "93.",
+   "s": 438.26,
+   "e": 438.64
+  },
+  {
+   "w": "Kids",
+   "s": 439.26,
+   "e": 439.46
+  },
+  {
+   "w": "get",
+   "s": 439.46,
+   "e": 439.72
+  },
+  {
+   "w": "the",
+   "s": 439.72,
+   "e": 439.84
+  },
+  {
+   "w": "first",
+   "s": 439.84,
+   "e": 440.08
+  },
+  {
+   "w": "dose",
+   "s": 440.08,
+   "e": 440.36
+  },
+  {
+   "w": "at",
+   "s": 440.36,
+   "e": 440.64
+  },
+  {
+   "w": "12",
+   "s": 440.64,
+   "e": 440.88
+  },
+  {
+   "w": "to",
+   "s": 440.88,
+   "e": 441.1
+  },
+  {
+   "w": "15",
+   "s": 441.1,
+   "e": 441.38
+  },
+  {
+   "w": "months,",
+   "s": 441.38,
+   "e": 441.62
+  },
+  {
+   "w": "and",
+   "s": 442.1,
+   "e": 442.24
+  },
+  {
+   "w": "the",
+   "s": 442.24,
+   "e": 442.34
+  },
+  {
+   "w": "second",
+   "s": 442.34,
+   "e": 442.66
+  },
+  {
+   "w": "between",
+   "s": 442.66,
+   "e": 442.96
+  },
+  {
+   "w": "four",
+   "s": 442.96,
+   "e": 443.38
+  },
+  {
+   "w": "and",
+   "s": 443.38,
+   "e": 443.58
+  },
+  {
+   "w": "six",
+   "s": 443.58,
+   "e": 443.82
+  },
+  {
+   "w": "years",
+   "s": 443.82,
+   "e": 444.1
+  },
+  {
+   "w": "old.",
+   "s": 444.1,
+   "e": 444.36
+  },
+  {
+   "w": "So",
+   "s": 445.22,
+   "e": 445.5
+  },
+  {
+   "w": "why",
+   "s": 445.5,
+   "e": 445.66
+  },
+  {
+   "w": "are",
+   "s": 445.66,
+   "e": 445.78
+  },
+  {
+   "w": "cases",
+   "s": 445.78,
+   "e": 446.06
+  },
+  {
+   "w": "rising",
+   "s": 446.06,
+   "e": 446.52
+  },
+  {
+   "w": "again?",
+   "s": 446.52,
+   "e": 447.08
+  },
+  {
+   "w": "Because",
+   "s": 447.08,
+   "e": 447.92
+  },
+  {
+   "w": "fewer",
+   "s": 447.92,
+   "e": 448.12
+  },
+  {
+   "w": "kids",
+   "s": 448.12,
+   "e": 448.48
+  },
+  {
+   "w": "are",
+   "s": 448.48,
+   "e": 448.66
+  },
+  {
+   "w": "getting",
+   "s": 448.66,
+   "e": 448.88
+  },
+  {
+   "w": "the",
+   "s": 448.88,
+   "e": 449.02
+  },
+  {
+   "w": "shots,",
+   "s": 449.02,
+   "e": 449.22
+  },
+  {
+   "w": "kindergarten",
+   "s": 450.38,
+   "e": 450.38
+  },
+  {
+   "w": "MMR",
+   "s": 450.38,
+   "e": 451.0
+  },
+  {
+   "w": "coverage",
+   "s": 451.0,
+   "e": 451.92
+  },
+  {
+   "w": "fell",
+   "s": 451.92,
+   "e": 452.3
+  },
+  {
+   "w": "from",
+   "s": 452.3,
+   "e": 452.56
+  },
+  {
+   "w": "95",
+   "s": 452.56,
+   "e": 452.88
+  },
+  {
+   "w": "%",
+   "s": 452.88,
+   "e": 453.58
+  },
+  {
+   "w": "in",
+   "s": 453.58,
+   "e": 453.82
+  },
+  {
+   "w": "2019",
+   "s": 453.82,
+   "e": 454.26
+  },
+  {
+   "w": "to",
+   "s": 454.26,
+   "e": 455.06
+  },
+  {
+   "w": "about",
+   "s": 455.06,
+   "e": 455.28
+  },
+  {
+   "w": "92",
+   "s": 455.28,
+   "e": 455.8
+  },
+  {
+   "w": "%",
+   "s": 455.8,
+   "e": 456.28
+  },
+  {
+   "w": "now.",
+   "s": 456.28,
+   "e": 456.58
+  },
+  {
+   "w": "That",
+   "s": 457.06,
+   "e": 457.14
+  },
+  {
+   "w": "sounds",
+   "s": 457.14,
+   "e": 457.38
+  },
+  {
+   "w": "small,",
+   "s": 457.38,
+   "e": 457.84
+  },
+  {
+   "w": "but",
+   "s": 458.18,
+   "e": 458.32
+  },
+  {
+   "w": "it",
+   "s": 458.32,
+   "e": 458.4
+  },
+  {
+   "w": "leaves",
+   "s": 458.4,
+   "e": 458.56
+  },
+  {
+   "w": "almost",
+   "s": 458.56,
+   "e": 458.92
+  },
+  {
+   "w": "300",
+   "s": 458.92,
+   "e": 459.32
+  },
+  {
+   "w": ",000",
+   "s": 459.32,
+   "e": 460.1
+  },
+  {
+   "w": "kindergartners",
+   "s": 460.1,
+   "e": 460.86
+  },
+  {
+   "w": "unprotected",
+   "s": 460.86,
+   "e": 461.24
+  },
+  {
+   "w": "each",
+   "s": 461.24,
+   "e": 461.88
+  },
+  {
+   "w": "year,",
+   "s": 461.88,
+   "e": 462.26
+  },
+  {
+   "w": "and",
+   "s": 462.84,
+   "e": 462.92
+  },
+  {
+   "w": "measles",
+   "s": 462.92,
+   "e": 463.12
+  },
+  {
+   "w": "needs",
+   "s": 463.12,
+   "e": 463.48
+  },
+  {
+   "w": "about",
+   "s": 463.48,
+   "e": 463.78
+  },
+  {
+   "w": "95",
+   "s": 463.78,
+   "e": 464.22
+  },
+  {
+   "w": "%",
+   "s": 464.22,
+   "e": 464.9
+  },
+  {
+   "w": "coverage",
+   "s": 464.9,
+   "e": 465.24
+  },
+  {
+   "w": "to",
+   "s": 465.24,
+   "e": 465.56
+  },
+  {
+   "w": "be",
+   "s": 465.56,
+   "e": 465.66
+  },
+  {
+   "w": "kept",
+   "s": 465.66,
+   "e": 465.82
+  },
+  {
+   "w": "out.",
+   "s": 465.82,
+   "e": 466.28
+  },
+  {
+   "w": "Exemptions",
+   "s": 466.68,
+   "e": 467.2
+  },
+  {
+   "w": "keep",
+   "s": 467.2,
+   "e": 467.46
+  },
+  {
+   "w": "hitting",
+   "s": 467.46,
+   "e": 467.82
+  },
+  {
+   "w": "new",
+   "s": 467.82,
+   "e": 468.0
+  },
+  {
+   "w": "records,",
+   "s": 468.0,
+   "e": 468.36
+  },
+  {
+   "w": "and",
+   "s": 468.96,
+   "e": 469.08
+  },
+  {
+   "w": "outbreaks",
+   "s": 469.08,
+   "e": 469.46
+  },
+  {
+   "w": "flare",
+   "s": 469.46,
+   "e": 469.82
+  },
+  {
+   "w": "wherever",
+   "s": 469.82,
+   "e": 470.16
+  },
+  {
+   "w": "many",
+   "s": 470.16,
+   "e": 470.54
+  },
+  {
+   "w": "kids",
+   "s": 470.54,
+   "e": 470.8
+  },
+  {
+   "w": "in",
+   "s": 470.8,
+   "e": 471.08
+  },
+  {
+   "w": "one",
+   "s": 471.08,
+   "e": 471.24
+  },
+  {
+   "w": "school",
+   "s": 471.24,
+   "e": 471.54
+  },
+  {
+   "w": "or",
+   "s": 471.54,
+   "e": 471.74
+  },
+  {
+   "w": "town",
+   "s": 471.74,
+   "e": 472.0
+  },
+  {
+   "w": "are",
+   "s": 472.0,
+   "e": 472.42
+  },
+  {
+   "w": "unvaccinated,",
+   "s": 472.42,
+   "e": 473.32
+  },
+  {
+   "w": "then",
+   "s": 473.76,
+   "e": 473.96
+  },
+  {
+   "w": "spread",
+   "s": 473.96,
+   "e": 474.18
+  },
+  {
+   "w": "outward.",
+   "s": 474.18,
+   "e": 474.56
+  },
+  {
+   "w": "Can",
+   "s": 476.16,
+   "e": 476.7
+  },
+  {
+   "w": "you",
+   "s": 476.7,
+   "e": 477.24
+  },
+  {
+   "w": "get",
+   "s": 477.24,
+   "e": 477.4
+  },
+  {
+   "w": "your",
+   "s": 477.4,
+   "e": 477.54
+  },
+  {
+   "w": "immune",
+   "s": 477.54,
+   "e": 477.72
+  },
+  {
+   "w": "memory",
+   "s": 477.72,
+   "e": 478.22
+  },
+  {
+   "w": "back?",
+   "s": 478.22,
+   "e": 478.6
+  },
+  {
+   "w": "Partly,",
+   "s": 479.2,
+   "e": 479.64
+  },
+  {
+   "w": "every",
+   "s": 479.82,
+   "e": 480.0
+  },
+  {
+   "w": "time",
+   "s": 480.0,
+   "e": 480.32
+  },
+  {
+   "w": "a",
+   "s": 480.32,
+   "e": 480.46
+  },
+  {
+   "w": "survivor",
+   "s": 480.46,
+   "e": 480.78
+  },
+  {
+   "w": "meets",
+   "s": 480.78,
+   "e": 481.14
+  },
+  {
+   "w": "an",
+   "s": 481.14,
+   "e": 481.28
+  },
+  {
+   "w": "old",
+   "s": 481.28,
+   "e": 481.44
+  },
+  {
+   "w": "germ",
+   "s": 481.44,
+   "e": 481.72
+  },
+  {
+   "w": "again,",
+   "s": 481.72,
+   "e": 482.04
+  },
+  {
+   "w": "the",
+   "s": 482.46,
+   "e": 482.52
+  },
+  {
+   "w": "immune",
+   "s": 482.52,
+   "e": 482.68
+  },
+  {
+   "w": "system",
+   "s": 482.68,
+   "e": 483.16
+  },
+  {
+   "w": "relearns",
+   "s": 483.16,
+   "e": 483.68
+  },
+  {
+   "w": "it,",
+   "s": 483.68,
+   "e": 483.8
+  },
+  {
+   "w": "cell",
+   "s": 483.98,
+   "e": 484.2
+  },
+  {
+   "w": "by",
+   "s": 484.2,
+   "e": 484.44
+  },
+  {
+   "w": "cell,",
+   "s": 484.44,
+   "e": 484.74
+  },
+  {
+   "w": "but",
+   "s": 485.16,
+   "e": 485.32
+  },
+  {
+   "w": "that",
+   "s": 485.32,
+   "e": 485.44
+  },
+  {
+   "w": "takes",
+   "s": 485.44,
+   "e": 485.7
+  },
+  {
+   "w": "months",
+   "s": 485.7,
+   "e": 485.92
+  },
+  {
+   "w": "to",
+   "s": 485.92,
+   "e": 486.22
+  },
+  {
+   "w": "years.",
+   "s": 486.22,
+   "e": 486.46
+  },
+  {
+   "w": "And",
+   "s": 487.1,
+   "e": 487.18
+  },
+  {
+   "w": "until",
+   "s": 487.18,
+   "e": 487.38
+  },
+  {
+   "w": "then,",
+   "s": 487.38,
+   "e": 487.7
+  },
+  {
+   "w": "old",
+   "s": 487.84,
+   "e": 487.96
+  },
+  {
+   "w": "enemies",
+   "s": 487.96,
+   "e": 488.32
+  },
+  {
+   "w": "can",
+   "s": 488.32,
+   "e": 488.6
+  },
+  {
+   "w": "strike",
+   "s": 488.6,
+   "e": 488.84
+  },
+  {
+   "w": "again.",
+   "s": 488.84,
+   "e": 489.2
+  },
+  {
+   "w": "Another",
+   "s": 490.14,
+   "e": 490.14
+  },
+  {
+   "w": "flu,",
+   "s": 490.14,
+   "e": 490.42
+  },
+  {
+   "w": "another",
+   "s": 490.68,
+   "e": 490.88
+  },
+  {
+   "w": "ear",
+   "s": 490.88,
+   "e": 491.16
+  },
+  {
+   "w": "infection,",
+   "s": 491.16,
+   "e": 491.44
+  },
+  {
+   "w": "another",
+   "s": 492.12,
+   "e": 492.26
+  },
+  {
+   "w": "chest",
+   "s": 492.26,
+   "e": 492.52
+  },
+  {
+   "w": "infection,",
+   "s": 492.52,
+   "e": 493.16
+  },
+  {
+   "w": "right",
+   "s": 493.6,
+   "e": 493.76
+  },
+  {
+   "w": "when",
+   "s": 493.76,
+   "e": 494.0
+  },
+  {
+   "w": "defenses",
+   "s": 494.0,
+   "e": 494.28
+  },
+  {
+   "w": "are",
+   "s": 494.28,
+   "e": 494.78
+  },
+  {
+   "w": "at",
+   "s": 494.78,
+   "e": 494.86
+  },
+  {
+   "w": "their",
+   "s": 494.86,
+   "e": 495.02
+  },
+  {
+   "w": "weakest.",
+   "s": 495.02,
+   "e": 495.28
+  },
+  {
+   "w": "So",
+   "s": 496.04,
+   "e": 496.12
+  },
+  {
+   "w": "Mina's",
+   "s": 496.12,
+   "e": 496.46
+  },
+  {
+   "w": "team",
+   "s": 496.46,
+   "e": 496.72
+  },
+  {
+   "w": "suggested",
+   "s": 496.72,
+   "e": 497.08
+  },
+  {
+   "w": "a",
+   "s": 497.08,
+   "e": 497.46
+  },
+  {
+   "w": "shortcut.",
+   "s": 497.46,
+   "e": 497.68
+  },
+  {
+   "w": "After",
+   "s": 498.34,
+   "e": 498.9
+  },
+  {
+   "w": "measles,",
+   "s": 498.9,
+   "e": 499.1
+  },
+  {
+   "w": "doctors",
+   "s": 499.58,
+   "e": 499.92
+  },
+  {
+   "w": "could",
+   "s": 499.92,
+   "e": 500.2
+  },
+  {
+   "w": "consider",
+   "s": 500.2,
+   "e": 500.52
+  },
+  {
+   "w": "booster",
+   "s": 500.52,
+   "e": 500.8
+  },
+  {
+   "w": "shots",
+   "s": 500.8,
+   "e": 501.26
+  },
+  {
+   "w": "of",
+   "s": 501.26,
+   "e": 501.42
+  },
+  {
+   "w": "earlier",
+   "s": 501.42,
+   "e": 501.7
+  },
+  {
+   "w": "routine",
+   "s": 501.7,
+   "e": 502.12
+  },
+  {
+   "w": "vaccines,",
+   "s": 502.12,
+   "e": 502.6
+  },
+  {
+   "w": "like",
+   "s": 502.76,
+   "e": 503.38
+  },
+  {
+   "w": "polio",
+   "s": 503.38,
+   "e": 503.68
+  },
+  {
+   "w": "and",
+   "s": 503.68,
+   "e": 504.0
+  },
+  {
+   "w": "hepatitis,",
+   "s": 504.0,
+   "e": 504.34
+  },
+  {
+   "w": "to",
+   "s": 505.0,
+   "e": 505.2
+  },
+  {
+   "w": "refill",
+   "s": 505.2,
+   "e": 505.42
+  },
+  {
+   "w": "the",
+   "s": 505.42,
+   "e": 505.7
+  },
+  {
+   "w": "lost",
+   "s": 505.7,
+   "e": 505.86
+  },
+  {
+   "w": "shelves.",
+   "s": 505.86,
+   "e": 506.2
+  },
+  {
+   "w": "Do",
+   "s": 506.84,
+   "e": 506.9
+  },
+  {
+   "w": "adults",
+   "s": 506.9,
+   "e": 507.12
+  },
+  {
+   "w": "lose",
+   "s": 507.12,
+   "e": 507.44
+  },
+  {
+   "w": "memory,",
+   "s": 507.44,
+   "e": 507.78
+  },
+  {
+   "w": "too?",
+   "s": 507.78,
+   "e": 508.18
+  },
+  {
+   "w": "The",
+   "s": 508.8,
+   "e": 508.92
+  },
+  {
+   "w": "big",
+   "s": 508.92,
+   "e": 509.04
+  },
+  {
+   "w": "studies",
+   "s": 509.04,
+   "e": 509.42
+  },
+  {
+   "w": "were",
+   "s": 509.42,
+   "e": 509.66
+  },
+  {
+   "w": "done",
+   "s": 509.66,
+   "e": 509.84
+  },
+  {
+   "w": "in",
+   "s": 509.84,
+   "e": 509.96
+  },
+  {
+   "w": "children.",
+   "s": 509.96,
+   "e": 510.32
+  },
+  {
+   "w": "Adults",
+   "s": 511.04,
+   "e": 511.24
+  },
+  {
+   "w": "are",
+   "s": 511.24,
+   "e": 511.52
+  },
+  {
+   "w": "less",
+   "s": 511.52,
+   "e": 511.64
+  },
+  {
+   "w": "studied,",
+   "s": 511.64,
+   "e": 512.04
+  },
+  {
+   "w": "but",
+   "s": 512.48,
+   "e": 512.62
+  },
+  {
+   "w": "adults",
+   "s": 512.62,
+   "e": 512.84
+  },
+  {
+   "w": "over",
+   "s": 512.84,
+   "e": 513.12
+  },
+  {
+   "w": "20",
+   "s": 513.12,
+   "e": 513.44
+  },
+  {
+   "w": "are",
+   "s": 513.44,
+   "e": 513.84
+  },
+  {
+   "w": "more",
+   "s": 513.84,
+   "e": 513.96
+  },
+  {
+   "w": "likely",
+   "s": 513.96,
+   "e": 514.32
+  },
+  {
+   "w": "to",
+   "s": 514.32,
+   "e": 514.5
+  },
+  {
+   "w": "have",
+   "s": 514.5,
+   "e": 514.66
+  },
+  {
+   "w": "measles",
+   "s": 514.66,
+   "e": 514.92
+  },
+  {
+   "w": "complications,",
+   "s": 514.92,
+   "e": 515.46
+  },
+  {
+   "w": "so",
+   "s": 516.32,
+   "e": 516.4
+  },
+  {
+   "w": "protection",
+   "s": 516.4,
+   "e": 516.68
+  },
+  {
+   "w": "matters",
+   "s": 516.68,
+   "e": 517.14
+  },
+  {
+   "w": "at",
+   "s": 517.14,
+   "e": 517.46
+  },
+  {
+   "w": "every",
+   "s": 517.46,
+   "e": 517.7
+  },
+  {
+   "w": "age.",
+   "s": 517.7,
+   "e": 518.02
+  },
+  {
+   "w": "So",
+   "s": 519.28,
+   "e": 519.46
+  },
+  {
+   "w": "what",
+   "s": 519.46,
+   "e": 519.66
+  },
+  {
+   "w": "should",
+   "s": 519.66,
+   "e": 519.8
+  },
+  {
+   "w": "I",
+   "s": 519.8,
+   "e": 519.96
+  },
+  {
+   "w": "actually",
+   "s": 519.96,
+   "e": 520.24
+  },
+  {
+   "w": "do?",
+   "s": 520.24,
+   "e": 520.66
+  },
+  {
+   "w": "Check",
+   "s": 520.66,
+   "e": 521.42
+  },
+  {
+   "w": "your",
+   "s": 521.42,
+   "e": 521.62
+  },
+  {
+   "w": "vaccine",
+   "s": 521.62,
+   "e": 521.88
+  },
+  {
+   "w": "records.",
+   "s": 521.88,
+   "e": 522.34
+  },
+  {
+   "w": "If",
+   "s": 523.12,
+   "e": 523.12
+  },
+  {
+   "w": "you're",
+   "s": 523.12,
+   "e": 523.24
+  },
+  {
+   "w": "not",
+   "s": 523.24,
+   "e": 523.36
+  },
+  {
+   "w": "sure",
+   "s": 523.36,
+   "e": 523.62
+  },
+  {
+   "w": "you",
+   "s": 523.62,
+   "e": 523.78
+  },
+  {
+   "w": "had",
+   "s": 523.78,
+   "e": 523.9
+  },
+  {
+   "w": "two",
+   "s": 523.9,
+   "e": 524.12
+  },
+  {
+   "w": "MMR",
+   "s": 524.12,
+   "e": 524.32
+  },
+  {
+   "w": "doses,",
+   "s": 524.32,
+   "e": 524.98
+  },
+  {
+   "w": "ask",
+   "s": 525.4,
+   "e": 525.6
+  },
+  {
+   "w": "your",
+   "s": 525.6,
+   "e": 525.72
+  },
+  {
+   "w": "doctor",
+   "s": 525.72,
+   "e": 525.9
+  },
+  {
+   "w": "about",
+   "s": 525.9,
+   "e": 526.26
+  },
+  {
+   "w": "a",
+   "s": 526.26,
+   "e": 526.36
+  },
+  {
+   "w": "blood",
+   "s": 526.36,
+   "e": 526.5
+  },
+  {
+   "w": "test",
+   "s": 526.5,
+   "e": 526.82
+  },
+  {
+   "w": "or",
+   "s": 526.82,
+   "e": 527.2
+  },
+  {
+   "w": "an",
+   "s": 527.2,
+   "e": 527.28
+  },
+  {
+   "w": "extra",
+   "s": 527.28,
+   "e": 527.44
+  },
+  {
+   "w": "dose.",
+   "s": 527.44,
+   "e": 527.86
+  },
+  {
+   "w": "And",
+   "s": 528.66,
+   "e": 528.66
+  },
+  {
+   "w": "after",
+   "s": 528.66,
+   "e": 528.9
+  },
+  {
+   "w": "a",
+   "s": 528.9,
+   "e": 529.02
+  },
+  {
+   "w": "measles",
+   "s": 529.02,
+   "e": 529.2
+  },
+  {
+   "w": "infection,",
+   "s": 529.2,
+   "e": 529.5
+  },
+  {
+   "w": "ask",
+   "s": 530.1,
+   "e": 530.36
+  },
+  {
+   "w": "about",
+   "s": 530.36,
+   "e": 530.52
+  },
+  {
+   "w": "catching",
+   "s": 530.52,
+   "e": 530.9
+  },
+  {
+   "w": "up",
+   "s": 530.9,
+   "e": 531.08
+  },
+  {
+   "w": "on",
+   "s": 531.08,
+   "e": 531.22
+  },
+  {
+   "w": "routine",
+   "s": 531.22,
+   "e": 531.36
+  },
+  {
+   "w": "vaccines.",
+   "s": 531.36,
+   "e": 532.0
+  },
+  {
+   "w": "Measles",
+   "s": 532.82,
+   "e": 533.06
+  },
+  {
+   "w": "doesn't",
+   "s": 533.06,
+   "e": 533.48
+  },
+  {
+   "w": "just",
+   "s": 533.48,
+   "e": 533.64
+  },
+  {
+   "w": "make",
+   "s": 533.64,
+   "e": 533.86
+  },
+  {
+   "w": "you",
+   "s": 533.86,
+   "e": 534.04
+  },
+  {
+   "w": "sick.",
+   "s": 534.04,
+   "e": 534.3
+  },
+  {
+   "w": "It",
+   "s": 534.86,
+   "e": 534.88
+  },
+  {
+   "w": "erases",
+   "s": 534.88,
+   "e": 535.28
+  },
+  {
+   "w": "your",
+   "s": 535.28,
+   "e": 535.58
+  },
+  {
+   "w": "immune",
+   "s": 535.58,
+   "e": 535.76
+  },
+  {
+   "w": "memory.",
+   "s": 535.76,
+   "e": 536.28
+  },
+  {
+   "w": "Subscribe",
+   "s": 537.42,
+   "e": 537.76
+  },
+  {
+   "w": "for",
+   "s": 537.76,
+   "e": 538.3
+  },
+  {
+   "w": "more",
+   "s": 538.3,
+   "e": 538.48
+  },
+  {
+   "w": "of",
+   "s": 538.48,
+   "e": 538.68
+  },
+  {
+   "w": "the",
+   "s": 538.68,
+   "e": 538.78
+  },
+  {
+   "w": "science",
+   "s": 538.78,
+   "e": 539.12
+  },
+  {
+   "w": "inside",
+   "s": 539.12,
+   "e": 539.44
+  },
+  {
+   "w": "your",
+   "s": 539.44,
+   "e": 539.82
+  },
+  {
+   "w": "body,",
+   "s": 539.82,
+   "e": 540.16
+  },
+  {
+   "w": "and",
+   "s": 540.42,
+   "e": 540.62
+  },
+  {
+   "w": "tell",
+   "s": 540.62,
+   "e": 540.84
+  },
+  {
+   "w": "us",
+   "s": 540.84,
+   "e": 541.02
+  },
+  {
+   "w": "in",
+   "s": 541.02,
+   "e": 541.16
+  },
+  {
+   "w": "the",
+   "s": 541.16,
+   "e": 541.26
+  },
+  {
+   "w": "comments.",
+   "s": 541.26,
+   "e": 541.54
+  },
+  {
+   "w": "Did",
+   "s": 542.4,
+   "e": 542.48
+  },
+  {
+   "w": "you",
+   "s": 542.48,
+   "e": 542.6
+  },
+  {
+   "w": "ever",
+   "s": 542.6,
+   "e": 542.8
+  },
+  {
+   "w": "have",
+   "s": 542.8,
+   "e": 543.08
+  },
+  {
+   "w": "measles,",
+   "s": 543.08,
+   "e": 543.34
+  },
+  {
+   "w": "or",
+   "s": 543.92,
+   "e": 544.12
+  },
+  {
+   "w": "do",
+   "s": 544.12,
+   "e": 544.28
+  },
+  {
+   "w": "you",
+   "s": 544.28,
+   "e": 544.38
+  },
+  {
+   "w": "know",
+   "s": 544.38,
+   "e": 544.54
+  },
+  {
+   "w": "your",
+   "s": 544.54,
+   "e": 544.72
+  },
+  {
+   "w": "vaccine",
+   "s": 544.72,
+   "e": 545.1
+  },
+  {
+   "w": "record?",
+   "s": 545.1,
+   "e": 545.46
+  }
+ ]
+}

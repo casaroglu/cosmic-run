@@ -864,7 +864,7 @@ window.overlapAudit = (step = 0.1, from = 0, to = 1e9) => {
     draw(t);
     for (const a of BOX) if (a.kind === 'icon' || a.kind === 'sprite') {
       if (a.x0 < 4 || a.x1 > W - 4 || a.y0 < 4 || a.y1 > H - 4) AUDIT.log(`${a.name} runs off the frame`, t);
-      for (const b of BOX) if (b !== a && b.kind !== 'panel' && hitB(a, b)) AUDIT.log(`${a.name} overlaps ${b.kind} "${b.name}"`, t);
+      for (const b of BOX) if (b !== a && b.kind !== 'panel' && !(a.grp && a.grp === b.grp) && hitB(a, b)) AUDIT.log(`${a.name} overlaps ${b.kind} "${b.name}"`, t);
     }
     for (const a of BOX) if (a.kind === 'label') for (const b of BOX) if (b !== a && ['hero', 'hud', 'meter', 'label'].includes(b.kind) && hitB(a, b) && !(b.kind === 'label' && b.name === a.name)) AUDIT.log(`label "${a.name}" overlaps ${b.kind} "${b.name}"`, t);
   }

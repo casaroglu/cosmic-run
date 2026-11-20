@@ -85,6 +85,11 @@ Make a flat-vector animated science explainer, drawn entirely in code. Use one 2
   - Before an icon pops in, its slot is checked against the screen boxes of everything visible at that moment. Pick a free slot instead, or shrink the icon. Never let it cover the drawing behind it.
   - Hallucination ghosts, particles and other ambient sprites are kept out of the hero's and labels' boxes too.
   - The overlap audit runs on every 0.1 s of the video before rendering, and must report zero icon overlaps.
+- **Many icons, and they act on each other (since episode 11).** Roughly every phrase gets its own picture, so a typical line shows 3–5 icons instead of one hero plus text labels. The pictures carry the story; labels are short and secondary.
+  - Icons interact on their words: a virus flies into a memory cell and the cell crumbles; cold air hits the nose and decoy bubbles shoot out; an eraser rubs out an album page; caffeine caps plug a receptor and push adenosine away; a clot grows on a cracked plaque; a shield cracks when a virus hits it.
+  - Interaction verbs available in `_engine/common.js` (`cast`, `A(...)`, `beats`, `chainB`, `QB`): fly along a path with a hop (`mv`), hit with squash and sparks (`hit`), get shoved (`push`), morph into another icon (`morph`), crumble away (`erase`), fade to grey (`grey`), pulse, shake, follow or orbit another icon, plus `stream`, `zap` and `burst` effects between icons.
+  - Icons in one beat share a group id, so the overlap audit lets them touch each other during the scripted interaction; they must still stay clear of labels, numbers, other groups and the frame edge.
+  - Shared icon library for these: `_engine/icons2.js`.
 - Abstract ideas get visual metaphors:
   - Hallucinations: ghosts, floating light orbs, walls that breathe, hue drift.
   - Fatigue: drooping eyelids, a desaturating world.

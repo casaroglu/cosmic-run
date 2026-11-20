@@ -1,0 +1,363 @@
+{
+ "voice": "bm_fable",
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "q_pause": 0.45,
+ "speed": 0.92,
+ "gap": 0.24,
+ "lines": [
+  {
+   "id": "c1",
+   "speaker": "q",
+   "text": "Can measles really erase my immune memory?"
+  },
+  {
+   "id": "c2",
+   "text": "Yes. Measles doesn't just give you a rash and a fever. It slips into the cells that remember your old infections and wipes many of them out, so germs you already beat can come back."
+  },
+  {
+   "id": "c3",
+   "text": "And the timing matters. On November 17, 2026, the Pan American Health Organization announced that the United States had lost its measles elimination status, held since 2000.",
+   "say": "And the timing matters. On November seventeenth, twenty twenty-six, the Pan American Health Organization announced that the United States had lost its measles elimination status, held since two thousand."
+  },
+  {
+   "id": "c4",
+   "text": "That happens when one chain of measles keeps spreading for a full year. By mid-November, the CDC had counted 5,412 cases in 2026, and states had reported 10 deaths.",
+   "say": "That happens when one chain of measles keeps spreading for a full year. By mid-November, the C D C had counted five thousand, four hundred and twelve cases in twenty twenty-six, and states had reported ten deaths."
+  },
+  {
+   "id": "c4b",
+   "text": "Canada lost the same status a year earlier, in November 2025. Measles is settling back into North America, one unvaccinated classroom at a time.",
+   "say": "Canada lost the same status a year earlier, in November twenty twenty-five. Measles is settling back into North America, one unvaccinated classroom at a time."
+  },
+  {
+   "id": "c5q",
+   "speaker": "q",
+   "text": "So what does measles actually do?"
+  },
+  {
+   "id": "c6",
+   "text": "Let's start with the illness itself, then follow the virus into your immune system's memory bank."
+  },
+  {
+   "id": "a1",
+   "speaker": "q",
+   "text": "What happens when you catch measles?",
+   "ch": "The illness itself",
+   "gap_before": 2.2
+  },
+  {
+   "id": "a2",
+   "text": "First comes a high fever, a cough, a runny nose and red, watery eyes. It looks like a bad cold."
+  },
+  {
+   "id": "a3",
+   "text": "Two or three days later, tiny white spots appear inside the cheeks, like grains of salt on red skin. Doctors call them Koplik spots, and they're a giveaway for measles."
+  },
+  {
+   "id": "a4",
+   "text": "Then the rash erupts. Flat red blotches start at the hairline and spread down the face, the neck, the chest, all the way to the feet."
+  },
+  {
+   "id": "a4b",
+   "text": "About one in five unvaccinated Americans who catch measles ends up in the hospital."
+  },
+  {
+   "id": "a5q",
+   "speaker": "q",
+   "text": "Is it usually just a rash?"
+  },
+  {
+   "id": "a6",
+   "text": "Not always. Up to one in twenty children with measles gets pneumonia, as the lungs fill with fluid. That's the most common way measles kills young children."
+  },
+  {
+   "id": "a6b",
+   "text": "Overall, about one to three of every thousand children who catch it die from lung or brain complications."
+  },
+  {
+   "id": "a7",
+   "text": "In about one in a thousand cases, the virus inflames the brain. That's encephalitis, and it can leave a child deaf or with lasting brain damage."
+  },
+  {
+   "id": "a8",
+   "text": "And rarely, the virus hides in the brain for years. Seven to ten years later, it wakes up as SSPE, a slow brain disease that is always fatal.",
+   "say": "And rarely, the virus hides in the brain for years. Seven to ten years later, it wakes up as S S P E, a slow brain disease that is always fatal."
+  },
+  {
+   "id": "b1",
+   "speaker": "q",
+   "text": "Why does measles spread so easily?",
+   "ch": "The most contagious virus",
+   "gap_before": 2.2
+  },
+  {
+   "id": "b2",
+   "text": "Because it floats. A cough sprays tiny droplets into the air, and they hang there like invisible smoke."
+  },
+  {
+   "id": "b3",
+   "text": "Measles can stay in a room's air for up to two hours after the sick person has left. You can walk in later and breathe it in."
+  },
+  {
+   "id": "b3b",
+   "text": "Worse, people spread it for four days before the rash appears, while they still think it's just a cold, and for four days after."
+  },
+  {
+   "id": "b4",
+   "text": "If ten unprotected people share a room with someone who has measles, up to nine of them will catch it."
+  },
+  {
+   "id": "b5q",
+   "speaker": "q",
+   "text": "How does that compare to other viruses?"
+  },
+  {
+   "id": "b6",
+   "text": "Scientists use a number called R naught: how many people one case infects in a crowd with no immunity. For measles, it's often quoted at twelve to eighteen."
+  },
+  {
+   "id": "b7",
+   "text": "For the seasonal flu, it's only about one and a quarter. That's why measles is the first disease to come back when vaccination rates slip."
+  },
+  {
+   "id": "d1",
+   "speaker": "q",
+   "text": "How does measles reach my immune memory?",
+   "ch": "Hijacking memory cells",
+   "gap_before": 2.2
+  },
+  {
+   "id": "d2",
+   "text": "Your immune memory lives in white blood cells called memory B cells and memory T cells. Each one carries a record of a germ you've met or been vaccinated against."
+  },
+  {
+   "id": "d3",
+   "text": "Measles carries a key that fits a lock on their surface, a receptor called CD150. Memory T cells carry more of these locks than fresh, untrained ones.",
+   "say": "Measles carries a key that fits a lock on their surface, a receptor called C D one fifty. Memory T cells carry more of these locks than fresh, untrained ones."
+  },
+  {
+   "id": "d4",
+   "text": "So the virus heads straight for them. It unlocks the memory cells, moves in, copies itself, and the infected cells are destroyed."
+  },
+  {
+   "id": "d5q",
+   "speaker": "q",
+   "text": "Doesn't the body just replace them?"
+  },
+  {
+   "id": "d6",
+   "text": "It replaces the numbers, not the records. New white blood cells flood in to fight measles, so blood counts look normal again within weeks."
+  },
+  {
+   "id": "d7",
+   "text": "But many of those new cells only know measles. The old cells that remembered your past colds, flu and other infections are gone."
+  },
+  {
+   "id": "d8",
+   "text": "It's like a library fire. The shelves get restocked fast, but with copies of one book, while the rare volumes you collected are ash."
+  },
+  {
+   "id": "e1",
+   "speaker": "q",
+   "text": "How do we know memory really gets erased?",
+   "ch": "The 2019 proof",
+   "gap_before": 2.2
+  },
+  {
+   "id": "e2",
+   "text": "Surprisingly, the best evidence came from an outbreak. In 2019, a team led by Michael Mina at Harvard tested blood from 77 unvaccinated children in the Netherlands, before and after they caught measles.",
+   "say": "Surprisingly, the best evidence came from an outbreak. In twenty nineteen, a team led by Michael Mina at Harvard tested blood from seventy-seven unvaccinated children in the Netherlands, before and after they caught measles."
+  },
+  {
+   "id": "e3",
+   "text": "They used a tool called VirScan. It dips a drop of blood into thousands of tiny virus fragments and reads which ones your antibodies grab.",
+   "say": "They used a tool called Vir Scan. It dips a drop of blood into thousands of tiny virus fragments and reads which ones your antibodies grab."
+  },
+  {
+   "id": "e4",
+   "text": "Two months after measles, the children had lost between eleven and seventy-three percent of their antibodies against other germs."
+  },
+  {
+   "id": "e5q",
+   "speaker": "q",
+   "text": "Seventy-three percent? Of everything?"
+  },
+  {
+   "id": "e6",
+   "text": "Of their antibody variety, in the hardest-hit child. Antibodies against viruses and bacteria they had already beaten, from flu viruses to common bacteria, simply vanished from the blood."
+  },
+  {
+   "id": "e6b",
+   "text": "Healthy children followed over the same months kept about ninety percent of their antibody variety. So this was not normal forgetting."
+  },
+  {
+   "id": "e7",
+   "text": "Children who had a severe case tended to lose more. And in monkeys infected on purpose, roughly half their old antibodies were still missing five months later."
+  },
+  {
+   "id": "f1",
+   "speaker": "q",
+   "text": "Does the immune system ever reset fully?",
+   "ch": "A baby-like immune system",
+   "gap_before": 2.2
+  },
+  {
+   "id": "f2",
+   "text": "Not quickly. The same year, a team in Britain and the Netherlands, led by Velislava Petrova, read the genes of the B cells in twenty-six unvaccinated Dutch children, before and after measles."
+  },
+  {
+   "id": "f3",
+   "text": "Memory B cells built up against old infections had disappeared from the blood. And the fresh B cells that replaced them were immature, like a newborn's."
+  },
+  {
+   "id": "f4",
+   "text": "The researchers called it a more baby-like immune system. Their defenses looked less experienced, closer to an infant's than a school kid's."
+  },
+  {
+   "id": "f4b",
+   "text": "Some children show signs of a weakened immune system for up to five years, even when their white blood cell counts look perfectly normal."
+  },
+  {
+   "id": "f5q",
+   "speaker": "q",
+   "text": "Does that actually make people sicker?"
+  },
+  {
+   "id": "f6",
+   "text": "In ferrets, yes. Ferrets vaccinated against flu caught a measles-like virus, their flu antibodies dropped, and when flu hit them, they got sicker."
+  },
+  {
+   "id": "g1",
+   "speaker": "q",
+   "text": "How long does the danger last?",
+   "ch": "The deadly shadow",
+   "gap_before": 2.2
+  },
+  {
+   "id": "g2",
+   "text": "About two to three years. In 2015, Mina's team lined up decades of death records from the United States, England and Denmark.",
+   "say": "About two to three years. In twenty fifteen, Mina's team lined up decades of death records from the United States, England and Denmark."
+  },
+  {
+   "id": "g3",
+   "text": "Every measles wave was followed, about two to three years later, by a wave of children dying from other infections, the ones measles had left them open to."
+  },
+  {
+   "id": "g4",
+   "text": "When the vaccine wiped out measles, those other deaths dropped too. A puzzle that had sat there since the nineteen sixties suddenly made sense."
+  },
+  {
+   "id": "g4b",
+   "text": "Mina put it simply: if your child gets measles and then pneumonia two years later, you wouldn't tie the two together. But they can be linked."
+  },
+  {
+   "id": "g5q",
+   "speaker": "q",
+   "text": "How many deaths are we talking about?"
+  },
+  {
+   "id": "g6",
+   "text": "Before vaccines, their model suggests measles may have been behind up to half of all childhood deaths from infectious disease in rich countries, mostly through this hidden shadow."
+  },
+  {
+   "id": "g7",
+   "text": "Before 1963, the U.S. saw an estimated three to four million measles cases a year, and about four to five hundred deaths from measles itself.",
+   "say": "Before nineteen sixty-three, the U S saw an estimated three to four million measles cases a year, and about four to five hundred deaths from measles itself."
+  },
+  {
+   "id": "h1",
+   "speaker": "q",
+   "text": "Can the vaccine cause the same amnesia?",
+   "ch": "Why the vaccine is different",
+   "gap_before": 2.2
+  },
+  {
+   "id": "h2",
+   "text": "No. Mina's team also tested children before and after their first MMR shot. Their antibody libraries stayed intact.",
+   "say": "No. Mina's team also tested children before and after their first M M R shot. Their antibody libraries stayed intact."
+  },
+  {
+   "id": "h3",
+   "text": "The vaccine virus is weakened. It trains your immune system to recognize measles without wiping out the antibody library you already have."
+  },
+  {
+   "id": "h4",
+   "text": "Two doses of MMR are about ninety-seven percent effective at stopping measles. One dose, about ninety-three.",
+   "say": "Two doses of M M R are about ninety-seven percent effective at stopping measles. One dose, about ninety-three."
+  },
+  {
+   "id": "h4b",
+   "text": "Kids get the first dose at twelve to fifteen months, and the second between four and six years old."
+  },
+  {
+   "id": "h5q",
+   "speaker": "q",
+   "text": "So why are cases rising again?"
+  },
+  {
+   "id": "h6",
+   "text": "Because fewer kids are getting the shots. Kindergarten MMR coverage fell from ninety-five percent in 2019 to about ninety-two percent now.",
+   "say": "Because fewer kids are getting the shots. Kindergarten M M R coverage fell from ninety-five percent in twenty nineteen to about ninety-two percent now."
+  },
+  {
+   "id": "h7",
+   "text": "That sounds small, but it leaves almost three hundred thousand kindergartners unprotected each year. And measles needs about ninety-five percent coverage to be kept out."
+  },
+  {
+   "id": "h8",
+   "text": "Exemptions keep hitting new records, and outbreaks flare wherever many kids in one school or town are unvaccinated, then spread outward."
+  },
+  {
+   "id": "i1",
+   "speaker": "q",
+   "text": "Can you get your immune memory back?",
+   "ch": "Rebuilding the memory",
+   "gap_before": 2.2
+  },
+  {
+   "id": "i2",
+   "text": "Partly. Every time a survivor meets an old germ again, the immune system relearns it, cell by cell. But that takes months to years."
+  },
+  {
+   "id": "i3",
+   "text": "And until then, old enemies can strike again: another flu, another ear infection, another chest infection, right when defenses are at their weakest."
+  },
+  {
+   "id": "i4",
+   "text": "So Mina's team suggested a shortcut. After measles, doctors could consider booster shots of earlier routine vaccines, like polio and hepatitis, to refill the lost shelves."
+  },
+  {
+   "id": "i5q",
+   "speaker": "q",
+   "text": "Do adults lose memory too?"
+  },
+  {
+   "id": "i6",
+   "text": "The big studies were done in children. Adults are less studied, but adults over twenty are more likely to have measles complications, so protection matters at every age."
+  },
+  {
+   "id": "o1",
+   "speaker": "q",
+   "text": "So what should I actually do?",
+   "gap_before": 1.0
+  },
+  {
+   "id": "o2",
+   "text": "Check your vaccine records. If you're not sure you had two MMR doses, ask your doctor about a blood test or an extra dose. And after a measles infection, ask about catching up on routine vaccines.",
+   "say": "Check your vaccine records. If you're not sure you had two M M R doses, ask your doctor about a blood test or an extra dose. And after a measles infection, ask about catching up on routine vaccines."
+  },
+  {
+   "id": "o3",
+   "text": "Measles doesn't just make you sick. It erases your immune memory."
+  },
+  {
+   "id": "o4",
+   "speaker": "q",
+   "text": "Subscribe for more of the science inside your body, and tell us in the comments: did you ever have measles, or do you know your vaccine record?",
+   "gap_before": 0.5
+  }
+ ]
+}
