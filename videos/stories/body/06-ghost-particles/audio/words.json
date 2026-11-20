@@ -1,0 +1,7584 @@
+{
+ "duration": 501.574,
+ "lines": [
+  {
+   "id": "c1",
+   "speaker": "q",
+   "text": "Is something passing through my body right now?",
+   "start": 0.35,
+   "end": 2.718
+  },
+  {
+   "id": "c2",
+   "speaker": "a",
+   "text": "Yes. Trillions of tiny particles every second. They came from the Sun, they fly straight through your skin, your bones and your brain, and out the other side. You never feel a thing.",
+   "start": 3.168,
+   "end": 13.004
+  },
+  {
+   "id": "c3",
+   "speaker": "a",
+   "text": "They're called neutrinos. Physicists call them ghost particles. And this year, catching them won the Nobel Prize in Physics.",
+   "start": 13.244,
+   "end": 20.567
+  },
+  {
+   "id": "c4q",
+   "speaker": "q",
+   "text": "Wait, how many are we talking about?",
+   "start": 20.807,
+   "end": 22.663
+  },
+  {
+   "id": "c5",
+   "speaker": "a",
+   "text": "Every square centimetre of you, about the size of a fingernail, is crossed by roughly sixty-five billion neutrinos from the Sun every second. Over your whole body, that's on the order of a hundred trillion.",
+   "start": 23.113,
+   "end": 34.272
+  },
+  {
+   "id": "g1",
+   "speaker": "q",
+   "text": "So what exactly is a neutrino?",
+   "start": 36.472,
+   "end": 38.276
+  },
+  {
+   "id": "g2",
+   "speaker": "a",
+   "text": "One of the most common particles in the universe. It has no electric charge, and it's incredibly light, at least a million times lighter than an electron.",
+   "start": 38.726,
+   "end": 47.089
+  },
+  {
+   "id": "g2b",
+   "speaker": "a",
+   "text": "Some are leftovers from the Big Bang. Every sugar-cube-sized bit of space around you holds about three hundred and thirty of them. Only particles of light are more common.",
+   "start": 47.329,
+   "end": 56.42
+  },
+  {
+   "id": "g3",
+   "speaker": "a",
+   "text": "Because it has no charge, electricity and magnetism don't touch it. It only feels the weak force, which almost never acts. So it slips between atoms like they're not even there.",
+   "start": 56.66,
+   "end": 66.476
+  },
+  {
+   "id": "g4q",
+   "speaker": "q",
+   "text": "How easily does it slip through?",
+   "start": 66.716,
+   "end": 68.317
+  },
+  {
+   "id": "g5",
+   "speaker": "a",
+   "text": "Physicists like to say a neutrino could cross a wall of lead a light-year thick, and still have a good chance of coming out the other side.",
+   "start": 68.767,
+   "end": 75.871
+  },
+  {
+   "id": "g6",
+   "speaker": "a",
+   "text": "The Earth is nothing to them. At night, neutrinos from the Sun come up through the whole planet, through your mattress, and through you.",
+   "start": 76.111,
+   "end": 82.954
+  },
+  {
+   "id": "g6b",
+   "speaker": "a",
+   "text": "A detector deep underground in Japan has even made a picture of the Sun out of neutrinos, day and night, straight through solid rock.",
+   "start": 83.194,
+   "end": 90.815
+  },
+  {
+   "id": "h1",
+   "speaker": "q",
+   "text": "How did anyone find something like that?",
+   "start": 93.015,
+   "end": 94.968
+  },
+  {
+   "id": "h2",
+   "speaker": "a",
+   "text": "First, someone had to imagine it. In 1930, physicist Wolfgang Pauli noticed that some energy seemed to vanish in radioactive decay. So he proposed an invisible particle that carried it away.",
+   "start": 95.418,
+   "end": 107.083
+  },
+  {
+   "id": "h3",
+   "speaker": "a",
+   "text": "He called it a desperate remedy, and worried that he had predicted something that could never be detected.",
+   "start": 107.323,
+   "end": 113.241
+  },
+  {
+   "id": "h4q",
+   "speaker": "q",
+   "text": "Was he right about that?",
+   "start": 113.481,
+   "end": 114.636
+  },
+  {
+   "id": "h5",
+   "speaker": "a",
+   "text": "Luckily, no. In 1956, Clyde Cowan and Frederick Reines put tanks of liquid next to a nuclear reactor in South Carolina, which pours out huge numbers of them. A few, just a few, were caught.",
+   "start": 115.086,
+   "end": 126.826
+  },
+  {
+   "id": "h6",
+   "speaker": "a",
+   "text": "They sent Pauli a telegram. His reply: everything comes to him who knows how to wait. Reines finally won a Nobel Prize for it in 1995.",
+   "start": 127.066,
+   "end": 136.113
+  },
+  {
+   "id": "s1",
+   "speaker": "q",
+   "text": "Why does the Sun make so many?",
+   "start": 138.313,
+   "end": 139.908
+  },
+  {
+   "id": "s2",
+   "speaker": "a",
+   "text": "Because it's a giant fusion reactor. Deep in its core, hydrogen nuclei fuse into helium, and every reaction chain spits out neutrinos.",
+   "start": 140.358,
+   "end": 148.892
+  },
+  {
+   "id": "s2b",
+   "speaker": "a",
+   "text": "Every second, the Sun turns about four million tonnes of its own mass into energy. That's what keeps you warm, and what floods you with neutrinos.",
+   "start": 149.132,
+   "end": 157.312
+  },
+  {
+   "id": "s3",
+   "speaker": "a",
+   "text": "Light has a hard time getting out. It bumps from atom to atom, and estimates say it takes thousands to hundreds of thousands of years to reach the surface.",
+   "start": 157.552,
+   "end": 166.025
+  },
+  {
+   "id": "s4",
+   "speaker": "a",
+   "text": "Neutrinos just fly straight out. They leave the core in about two seconds, and reach you about eight minutes later.",
+   "start": 166.265,
+   "end": 173.012
+  },
+  {
+   "id": "s5q",
+   "speaker": "q",
+   "text": "So they're news from inside the Sun?",
+   "start": 173.252,
+   "end": 174.991
+  },
+  {
+   "id": "s6",
+   "speaker": "a",
+   "text": "Exactly. The sunlight on your face is ancient. The neutrinos passing through you right now tell us what the Sun's core was doing eight minutes ago. That's how we know it really runs on fusion.",
+   "start": 175.441,
+   "end": 185.653
+  },
+  {
+   "id": "m1",
+   "speaker": "q",
+   "text": "Did the Sun's neutrinos match the theory?",
+   "start": 187.853,
+   "end": 189.968
+  },
+  {
+   "id": "m2",
+   "speaker": "a",
+   "text": "Not at first. In the 1960s, chemist Ray Davis filled a tank with about a hundred thousand gallons of dry-cleaning fluid, almost a mile and a half underground in a gold mine in South Dakota.",
+   "start": 190.418,
+   "end": 201.979
+  },
+  {
+   "id": "m3",
+   "speaker": "a",
+   "text": "Once in a while, a solar neutrino would turn a chlorine atom into argon. Davis flushed out the argon and counted it, almost atom by atom. But he only ever found about a third of what the theory predicted.",
+   "start": 202.219,
+   "end": 213.811
+  },
+  {
+   "id": "m4q",
+   "speaker": "q",
+   "text": "So where did the rest go?",
+   "start": 214.051,
+   "end": 215.263
+  },
+  {
+   "id": "m5",
+   "speaker": "a",
+   "text": "Nowhere. Neutrinos come in three types, and they shape-shift between them as they travel. His detector could only see one type. Experiments in Japan and Canada proved it, and the shape-shifting earned another Nobel Prize in 2015.",
+   "start": 215.713,
+   "end": 228.672
+  },
+  {
+   "id": "b1",
+   "speaker": "q",
+   "text": "Do neutrinos only come from space?",
+   "start": 230.872,
+   "end": 232.948
+  },
+  {
+   "id": "b2",
+   "speaker": "a",
+   "text": "No, and here's a strange one. You make them too. Your body contains a little radioactive potassium, the same kind that's in bananas.",
+   "start": 233.398,
+   "end": 241.23
+  },
+  {
+   "id": "b3",
+   "speaker": "a",
+   "text": "In an adult, a few thousand of those atoms decay every second, and most decays fire off a ghost particle. By our rough estimate, that's a few hundred million neutrinos leaving you every day.",
+   "start": 241.47,
+   "end": 252.29
+  },
+  {
+   "id": "b4q",
+   "speaker": "q",
+   "text": "Should I be worried about that?",
+   "start": 252.53,
+   "end": 253.883
+  },
+  {
+   "id": "b5",
+   "speaker": "a",
+   "text": "Not at all. It's natural, it's always been there, and the neutrinos themselves fly off into space without touching anything.",
+   "start": 254.333,
+   "end": 261.372
+  },
+  {
+   "id": "x1",
+   "speaker": "q",
+   "text": "Out of all those trillions, will one ever hit me?",
+   "start": 263.572,
+   "end": 266.03
+  },
+  {
+   "id": "x2",
+   "speaker": "a",
+   "text": "Maybe one. Estimates vary, but physicists put the chance that a single neutrino ever bumps into an atom in your body, in your whole life, somewhere between one in ten and about one in four.",
+   "start": 266.48,
+   "end": 277.071
+  },
+  {
+   "id": "x3",
+   "speaker": "a",
+   "text": "Trillions every second, for eighty years, and maybe one collision. That's how ghostly they are.",
+   "start": 277.311,
+   "end": 282.842
+  },
+  {
+   "id": "x4q",
+   "speaker": "q",
+   "text": "And if one does hit me?",
+   "start": 283.082,
+   "end": 284.36
+  },
+  {
+   "id": "x5",
+   "speaker": "a",
+   "text": "Nothing you'd notice. It would nudge a single atom, among the billions of billions in your body.",
+   "start": 284.81,
+   "end": 290.655
+  },
+  {
+   "id": "d1",
+   "speaker": "q",
+   "text": "So how do scientists ever catch them?",
+   "start": 292.855,
+   "end": 294.928
+  },
+  {
+   "id": "d2",
+   "speaker": "a",
+   "text": "By making the trap enormous. If a neutrino almost never hits anything, you need a huge amount of stuff, and you need to watch it very carefully.",
+   "start": 295.378,
+   "end": 303.199
+  },
+  {
+   "id": "d3",
+   "speaker": "a",
+   "text": "In Japan, a detector called Super-Kamiokande sits a kilometre underground. It's a tank holding fifty thousand tonnes of ultra-pure water, lined with about eleven thousand light sensors.",
+   "start": 303.439,
+   "end": 314.3
+  },
+  {
+   "id": "d4",
+   "speaker": "a",
+   "text": "When a neutrino finally hits, it knocks out a particle that races through the water faster than light can travel in water, and leaves a faint ring of blue light. The sensors catch that flash.",
+   "start": 314.54,
+   "end": 324.956
+  },
+  {
+   "id": "d4b",
+   "speaker": "a",
+   "text": "Super-Kamiokande is also where neutrinos were first caught shape-shifting. That work earned its leader, Takaaki Kajita, a share of the 2015 Nobel Prize.",
+   "start": 325.196,
+   "end": 334.629
+  },
+  {
+   "id": "d5q",
+   "speaker": "q",
+   "text": "Can we make our own neutrinos?",
+   "start": 334.869,
+   "end": 336.572
+  },
+  {
+   "id": "d6",
+   "speaker": "a",
+   "text": "We already do. An experiment called DUNE is being built to fire a beam of neutrinos from near Chicago to South Dakota, about thirteen hundred kilometres. No tunnel needed. The beam goes straight through the Earth.",
+   "start": 337.022,
+   "end": 348.832
+  },
+  {
+   "id": "d7",
+   "speaker": "a",
+   "text": "And the giant detectors waiting for it sit deep inside the very same mine where Ray Davis once counted his argon atoms.",
+   "start": 349.072,
+   "end": 356.292
+  },
+  {
+   "id": "i1",
+   "speaker": "q",
+   "text": "And what won the Nobel Prize this year?",
+   "start": 358.492,
+   "end": 360.381
+  },
+  {
+   "id": "i2",
+   "speaker": "a",
+   "text": "A detector at the South Pole called IceCube. Scientists drilled holes up to two and a half kilometres deep into the Antarctic ice, and lowered more than five thousand light sensors into a full cubic kilometre of it.",
+   "start": 360.831,
+   "end": 372.967
+  },
+  {
+   "id": "i2b",
+   "speaker": "a",
+   "text": "When a neutrino smashes into the ice, the sensors catch the same kind of faint blue flash, and work out which direction in the sky it came from.",
+   "start": 373.207,
+   "end": 381.221
+  },
+  {
+   "id": "i3",
+   "speaker": "a",
+   "text": "The 2026 Nobel Prize in Physics went to Francis Halzen, the scientist who led IceCube, for discovering high-energy neutrinos coming from deep space. He receives it in Stockholm on December the tenth.",
+   "start": 381.461,
+   "end": 393.9
+  },
+  {
+   "id": "i4q",
+   "speaker": "q",
+   "text": "What did it actually find?",
+   "start": 394.14,
+   "end": 395.594
+  },
+  {
+   "id": "i5",
+   "speaker": "a",
+   "text": "In 2017, one neutrino was traced back to a blazar, a giant black hole firing a jet almost straight at us, about four billion light-years away. And in 2023, IceCube made the first picture of our own galaxy in neutrinos.",
+   "start": 396.044,
+   "end": 409.704
+  },
+  {
+   "id": "e1",
+   "speaker": "q",
+   "text": "Can neutrinos warn us about anything?",
+   "start": 411.904,
+   "end": 413.956
+  },
+  {
+   "id": "e2",
+   "speaker": "a",
+   "text": "Yes. When a giant star collapses and explodes as a supernova, most of its energy pours out as neutrinos, and they escape before the light does.",
+   "start": 414.406,
+   "end": 422.78
+  },
+  {
+   "id": "e3",
+   "speaker": "a",
+   "text": "In 1987, a star exploded in a nearby galaxy. Three detectors on Earth caught twenty-five neutrinos from it, in about thirteen seconds, a few hours before anyone saw the flash of light.",
+   "start": 423.02,
+   "end": 434.63
+  },
+  {
+   "id": "e4",
+   "speaker": "a",
+   "text": "Today, neutrino detectors are linked in an alert network. If a star in our galaxy explodes, the neutrinos will tell astronomers where to point their telescopes.",
+   "start": 434.87,
+   "end": 444.243
+  },
+  {
+   "id": "e4b",
+   "speaker": "a",
+   "text": "It could be a long wait. Astronomers estimate that a star explodes in our galaxy only once or twice a century, and the last one anyone saw was more than four hundred years ago.",
+   "start": 444.483,
+   "end": 454.37
+  },
+  {
+   "id": "e5q",
+   "speaker": "q",
+   "text": "What's the most powerful one ever seen?",
+   "start": 454.61,
+   "end": 456.462
+  },
+  {
+   "id": "e6",
+   "speaker": "a",
+   "text": "In 2025, scientists announced a neutrino caught in a detector deep in the Mediterranean Sea. It carried about two hundred and twenty peta electron volts, thousands of times more than the collisions in the world's biggest particle collider. Where it came from is still a mystery.",
+   "start": 456.912,
+   "end": 472.35
+  },
+  {
+   "id": "o1",
+   "speaker": "q",
+   "text": "So, what's passing through me right now?",
+   "start": 473.35,
+   "end": 475.125
+  },
+  {
+   "id": "o2",
+   "speaker": "a",
+   "text": "News from the core of the Sun, a little of your own radioactive potassium, and maybe, once in a while, a messenger from a black hole billions of light-years away. All of it, straight through you.",
+   "start": 475.575,
+   "end": 485.938
+  },
+  {
+   "id": "o3",
+   "speaker": "a",
+   "text": "A hundred trillion ghost particles just passed through you. And they'll keep coming, every second, for the rest of your life.",
+   "start": 486.178,
+   "end": 493.077
+  },
+  {
+   "id": "o4",
+   "speaker": "q",
+   "text": "Subscribe for more of the invisible science happening inside you, and tell us in the comments what surprised you most.",
+   "start": 493.577,
+   "end": 500.374
+  }
+ ],
+ "words": [
+  {
+   "w": "Is",
+   "s": 0.0,
+   "e": 0.42
+  },
+  {
+   "w": "something",
+   "s": 0.42,
+   "e": 0.62
+  },
+  {
+   "w": "passing",
+   "s": 0.62,
+   "e": 1.04
+  },
+  {
+   "w": "through",
+   "s": 1.04,
+   "e": 1.5
+  },
+  {
+   "w": "my",
+   "s": 1.5,
+   "e": 1.66
+  },
+  {
+   "w": "body",
+   "s": 1.66,
+   "e": 2.0
+  },
+  {
+   "w": "right",
+   "s": 2.0,
+   "e": 2.28
+  },
+  {
+   "w": "now?",
+   "s": 2.28,
+   "e": 2.6
+  },
+  {
+   "w": "Yes,",
+   "s": 3.1,
+   "e": 3.32
+  },
+  {
+   "w": "trillions",
+   "s": 3.58,
+   "e": 3.76
+  },
+  {
+   "w": "of",
+   "s": 3.76,
+   "e": 4.1
+  },
+  {
+   "w": "tiny",
+   "s": 4.1,
+   "e": 4.36
+  },
+  {
+   "w": "particles",
+   "s": 4.36,
+   "e": 4.8
+  },
+  {
+   "w": "every",
+   "s": 4.8,
+   "e": 5.18
+  },
+  {
+   "w": "second.",
+   "s": 5.18,
+   "e": 5.68
+  },
+  {
+   "w": "They",
+   "s": 6.22,
+   "e": 6.34
+  },
+  {
+   "w": "came",
+   "s": 6.34,
+   "e": 6.52
+  },
+  {
+   "w": "from",
+   "s": 6.52,
+   "e": 6.7
+  },
+  {
+   "w": "the",
+   "s": 6.7,
+   "e": 6.84
+  },
+  {
+   "w": "sun,",
+   "s": 6.84,
+   "e": 7.08
+  },
+  {
+   "w": "they",
+   "s": 7.36,
+   "e": 7.44
+  },
+  {
+   "w": "fly",
+   "s": 7.44,
+   "e": 7.62
+  },
+  {
+   "w": "straight",
+   "s": 7.62,
+   "e": 7.98
+  },
+  {
+   "w": "through",
+   "s": 7.98,
+   "e": 8.3
+  },
+  {
+   "w": "your",
+   "s": 8.3,
+   "e": 8.48
+  },
+  {
+   "w": "skin,",
+   "s": 8.48,
+   "e": 8.78
+  },
+  {
+   "w": "your",
+   "s": 9.22,
+   "e": 9.26
+  },
+  {
+   "w": "bones",
+   "s": 9.26,
+   "e": 9.56
+  },
+  {
+   "w": "and",
+   "s": 9.56,
+   "e": 9.84
+  },
+  {
+   "w": "your",
+   "s": 9.84,
+   "e": 9.96
+  },
+  {
+   "w": "brain,",
+   "s": 9.96,
+   "e": 10.24
+  },
+  {
+   "w": "and",
+   "s": 10.48,
+   "e": 10.6
+  },
+  {
+   "w": "out",
+   "s": 10.6,
+   "e": 10.74
+  },
+  {
+   "w": "the",
+   "s": 10.74,
+   "e": 10.9
+  },
+  {
+   "w": "other",
+   "s": 10.9,
+   "e": 11.02
+  },
+  {
+   "w": "side.",
+   "s": 11.02,
+   "e": 11.34
+  },
+  {
+   "w": "You",
+   "s": 11.92,
+   "e": 12.02
+  },
+  {
+   "w": "never",
+   "s": 12.02,
+   "e": 12.14
+  },
+  {
+   "w": "feel",
+   "s": 12.14,
+   "e": 12.44
+  },
+  {
+   "w": "a",
+   "s": 12.44,
+   "e": 12.56
+  },
+  {
+   "w": "thing.",
+   "s": 12.56,
+   "e": 12.8
+  },
+  {
+   "w": "They",
+   "s": 13.3,
+   "e": 13.34
+  },
+  {
+   "w": "are",
+   "s": 13.34,
+   "e": 13.44
+  },
+  {
+   "w": "called",
+   "s": 13.44,
+   "e": 13.68
+  },
+  {
+   "w": "neutrinos.",
+   "s": 13.68,
+   "e": 14.24
+  },
+  {
+   "w": "Physicists",
+   "s": 14.88,
+   "e": 15.34
+  },
+  {
+   "w": "call",
+   "s": 15.34,
+   "e": 15.6
+  },
+  {
+   "w": "them",
+   "s": 15.6,
+   "e": 15.8
+  },
+  {
+   "w": "ghost",
+   "s": 15.8,
+   "e": 16.02
+  },
+  {
+   "w": "particles.",
+   "s": 16.02,
+   "e": 16.38
+  },
+  {
+   "w": "And",
+   "s": 17.28,
+   "e": 17.3
+  },
+  {
+   "w": "this",
+   "s": 17.3,
+   "e": 17.46
+  },
+  {
+   "w": "year,",
+   "s": 17.46,
+   "e": 17.78
+  },
+  {
+   "w": "catching",
+   "s": 17.78,
+   "e": 18.32
+  },
+  {
+   "w": "them",
+   "s": 18.32,
+   "e": 18.58
+  },
+  {
+   "w": "won",
+   "s": 18.58,
+   "e": 18.76
+  },
+  {
+   "w": "the",
+   "s": 18.76,
+   "e": 18.94
+  },
+  {
+   "w": "Nobel",
+   "s": 18.94,
+   "e": 19.06
+  },
+  {
+   "w": "Prize",
+   "s": 19.06,
+   "e": 19.54
+  },
+  {
+   "w": "in",
+   "s": 19.54,
+   "e": 19.84
+  },
+  {
+   "w": "physics.",
+   "s": 19.84,
+   "e": 20.08
+  },
+  {
+   "w": "Wait,",
+   "s": 20.76,
+   "e": 20.92
+  },
+  {
+   "w": "how",
+   "s": 21.24,
+   "e": 21.4
+  },
+  {
+   "w": "many",
+   "s": 21.4,
+   "e": 21.54
+  },
+  {
+   "w": "are",
+   "s": 21.54,
+   "e": 21.7
+  },
+  {
+   "w": "we",
+   "s": 21.7,
+   "e": 21.8
+  },
+  {
+   "w": "talking",
+   "s": 21.8,
+   "e": 22.0
+  },
+  {
+   "w": "about?",
+   "s": 22.0,
+   "e": 22.4
+  },
+  {
+   "w": "Every",
+   "s": 22.92,
+   "e": 23.24
+  },
+  {
+   "w": "square",
+   "s": 23.24,
+   "e": 23.58
+  },
+  {
+   "w": "centimeter",
+   "s": 23.58,
+   "e": 24.04
+  },
+  {
+   "w": "of",
+   "s": 24.04,
+   "e": 24.36
+  },
+  {
+   "w": "you,",
+   "s": 24.36,
+   "e": 24.5
+  },
+  {
+   "w": "about",
+   "s": 24.62,
+   "e": 24.86
+  },
+  {
+   "w": "the",
+   "s": 24.86,
+   "e": 25.02
+  },
+  {
+   "w": "size",
+   "s": 25.02,
+   "e": 25.22
+  },
+  {
+   "w": "of",
+   "s": 25.22,
+   "e": 25.42
+  },
+  {
+   "w": "a",
+   "s": 25.42,
+   "e": 25.48
+  },
+  {
+   "w": "fingernail,",
+   "s": 25.48,
+   "e": 25.98
+  },
+  {
+   "w": "is",
+   "s": 25.98,
+   "e": 26.52
+  },
+  {
+   "w": "crossed",
+   "s": 26.52,
+   "e": 26.74
+  },
+  {
+   "w": "by",
+   "s": 26.74,
+   "e": 27.02
+  },
+  {
+   "w": "roughly",
+   "s": 27.02,
+   "e": 27.28
+  },
+  {
+   "w": "65",
+   "s": 27.28,
+   "e": 27.72
+  },
+  {
+   "w": "billion",
+   "s": 27.72,
+   "e": 28.44
+  },
+  {
+   "w": "neutrinos",
+   "s": 28.44,
+   "e": 28.98
+  },
+  {
+   "w": "from",
+   "s": 28.98,
+   "e": 29.26
+  },
+  {
+   "w": "the",
+   "s": 29.26,
+   "e": 29.38
+  },
+  {
+   "w": "sun",
+   "s": 29.38,
+   "e": 29.64
+  },
+  {
+   "w": "every",
+   "s": 29.64,
+   "e": 29.98
+  },
+  {
+   "w": "second.",
+   "s": 29.98,
+   "e": 30.46
+  },
+  {
+   "w": "Over",
+   "s": 31.02,
+   "e": 31.18
+  },
+  {
+   "w": "your",
+   "s": 31.18,
+   "e": 31.42
+  },
+  {
+   "w": "whole",
+   "s": 31.42,
+   "e": 31.6
+  },
+  {
+   "w": "body,",
+   "s": 31.6,
+   "e": 31.98
+  },
+  {
+   "w": "that's",
+   "s": 32.3,
+   "e": 32.58
+  },
+  {
+   "w": "on",
+   "s": 32.58,
+   "e": 32.68
+  },
+  {
+   "w": "the",
+   "s": 32.68,
+   "e": 32.78
+  },
+  {
+   "w": "order",
+   "s": 32.78,
+   "e": 33.02
+  },
+  {
+   "w": "of",
+   "s": 33.02,
+   "e": 33.24
+  },
+  {
+   "w": "100",
+   "s": 33.24,
+   "e": 33.56
+  },
+  {
+   "w": "trillion.",
+   "s": 33.56,
+   "e": 33.94
+  },
+  {
+   "w": "So",
+   "s": 36.02,
+   "e": 36.58
+  },
+  {
+   "w": "what",
+   "s": 36.58,
+   "e": 36.74
+  },
+  {
+   "w": "exactly",
+   "s": 36.74,
+   "e": 37.12
+  },
+  {
+   "w": "is",
+   "s": 37.12,
+   "e": 37.52
+  },
+  {
+   "w": "a",
+   "s": 37.52,
+   "e": 37.62
+  },
+  {
+   "w": "neutrino?",
+   "s": 37.62,
+   "e": 38.12
+  },
+  {
+   "w": "One",
+   "s": 38.64,
+   "e": 38.82
+  },
+  {
+   "w": "of",
+   "s": 38.82,
+   "e": 38.92
+  },
+  {
+   "w": "the",
+   "s": 38.92,
+   "e": 39.0
+  },
+  {
+   "w": "most",
+   "s": 39.0,
+   "e": 39.16
+  },
+  {
+   "w": "common",
+   "s": 39.16,
+   "e": 39.52
+  },
+  {
+   "w": "particles",
+   "s": 39.52,
+   "e": 39.96
+  },
+  {
+   "w": "in",
+   "s": 39.96,
+   "e": 40.38
+  },
+  {
+   "w": "the",
+   "s": 40.38,
+   "e": 40.48
+  },
+  {
+   "w": "universe.",
+   "s": 40.48,
+   "e": 40.78
+  },
+  {
+   "w": "It",
+   "s": 41.52,
+   "e": 41.64
+  },
+  {
+   "w": "has",
+   "s": 41.64,
+   "e": 41.76
+  },
+  {
+   "w": "no",
+   "s": 41.76,
+   "e": 41.96
+  },
+  {
+   "w": "electric",
+   "s": 41.96,
+   "e": 42.26
+  },
+  {
+   "w": "charge,",
+   "s": 42.26,
+   "e": 42.8
+  },
+  {
+   "w": "and",
+   "s": 43.3,
+   "e": 43.42
+  },
+  {
+   "w": "it's",
+   "s": 43.42,
+   "e": 43.56
+  },
+  {
+   "w": "incredibly",
+   "s": 43.56,
+   "e": 43.9
+  },
+  {
+   "w": "light,",
+   "s": 43.9,
+   "e": 44.36
+  },
+  {
+   "w": "at",
+   "s": 44.7,
+   "e": 44.86
+  },
+  {
+   "w": "least",
+   "s": 44.86,
+   "e": 44.98
+  },
+  {
+   "w": "a",
+   "s": 44.98,
+   "e": 45.14
+  },
+  {
+   "w": "million",
+   "s": 45.14,
+   "e": 45.36
+  },
+  {
+   "w": "times",
+   "s": 45.36,
+   "e": 45.68
+  },
+  {
+   "w": "lighter",
+   "s": 45.68,
+   "e": 46.0
+  },
+  {
+   "w": "than",
+   "s": 46.0,
+   "e": 46.34
+  },
+  {
+   "w": "an",
+   "s": 46.34,
+   "e": 46.42
+  },
+  {
+   "w": "electron.",
+   "s": 46.42,
+   "e": 46.62
+  },
+  {
+   "w": "Some",
+   "s": 47.36,
+   "e": 47.52
+  },
+  {
+   "w": "are",
+   "s": 47.52,
+   "e": 47.62
+  },
+  {
+   "w": "leftovers",
+   "s": 47.62,
+   "e": 48.02
+  },
+  {
+   "w": "from",
+   "s": 48.02,
+   "e": 48.4
+  },
+  {
+   "w": "the",
+   "s": 48.4,
+   "e": 48.52
+  },
+  {
+   "w": "big",
+   "s": 48.52,
+   "e": 48.64
+  },
+  {
+   "w": "bang.",
+   "s": 48.64,
+   "e": 48.86
+  },
+  {
+   "w": "Every",
+   "s": 49.52,
+   "e": 49.72
+  },
+  {
+   "w": "sugar",
+   "s": 49.72,
+   "e": 50.02
+  },
+  {
+   "w": "cube",
+   "s": 50.02,
+   "e": 50.26
+  },
+  {
+   "w": "-sized",
+   "s": 50.26,
+   "e": 50.54
+  },
+  {
+   "w": "bit",
+   "s": 50.54,
+   "e": 50.88
+  },
+  {
+   "w": "of",
+   "s": 50.88,
+   "e": 51.0
+  },
+  {
+   "w": "space",
+   "s": 51.0,
+   "e": 51.24
+  },
+  {
+   "w": "around",
+   "s": 51.24,
+   "e": 51.58
+  },
+  {
+   "w": "you",
+   "s": 51.58,
+   "e": 51.84
+  },
+  {
+   "w": "holds",
+   "s": 51.84,
+   "e": 52.06
+  },
+  {
+   "w": "about",
+   "s": 52.06,
+   "e": 52.44
+  },
+  {
+   "w": "330",
+   "s": 52.44,
+   "e": 52.8
+  },
+  {
+   "w": "of",
+   "s": 52.8,
+   "e": 53.7
+  },
+  {
+   "w": "them.",
+   "s": 53.7,
+   "e": 53.84
+  },
+  {
+   "w": "Only",
+   "s": 53.84,
+   "e": 54.5
+  },
+  {
+   "w": "particles",
+   "s": 54.5,
+   "e": 54.86
+  },
+  {
+   "w": "of",
+   "s": 54.86,
+   "e": 55.26
+  },
+  {
+   "w": "light",
+   "s": 55.26,
+   "e": 55.5
+  },
+  {
+   "w": "are",
+   "s": 55.5,
+   "e": 55.76
+  },
+  {
+   "w": "more",
+   "s": 55.76,
+   "e": 55.88
+  },
+  {
+   "w": "common.",
+   "s": 55.88,
+   "e": 56.2
+  },
+  {
+   "w": "Because",
+   "s": 56.68,
+   "e": 56.88
+  },
+  {
+   "w": "it",
+   "s": 56.88,
+   "e": 56.98
+  },
+  {
+   "w": "has",
+   "s": 56.98,
+   "e": 57.1
+  },
+  {
+   "w": "no",
+   "s": 57.1,
+   "e": 57.28
+  },
+  {
+   "w": "charge,",
+   "s": 57.28,
+   "e": 57.74
+  },
+  {
+   "w": "electricity",
+   "s": 58.14,
+   "e": 58.48
+  },
+  {
+   "w": "and",
+   "s": 58.48,
+   "e": 59.0
+  },
+  {
+   "w": "magnetism",
+   "s": 59.0,
+   "e": 59.62
+  },
+  {
+   "w": "don't",
+   "s": 59.62,
+   "e": 59.94
+  },
+  {
+   "w": "touch",
+   "s": 59.94,
+   "e": 60.22
+  },
+  {
+   "w": "it.",
+   "s": 60.22,
+   "e": 60.36
+  },
+  {
+   "w": "It",
+   "s": 60.86,
+   "e": 60.96
+  },
+  {
+   "w": "only",
+   "s": 60.96,
+   "e": 61.1
+  },
+  {
+   "w": "feels",
+   "s": 61.1,
+   "e": 61.4
+  },
+  {
+   "w": "the",
+   "s": 61.4,
+   "e": 61.64
+  },
+  {
+   "w": "weak",
+   "s": 61.64,
+   "e": 61.76
+  },
+  {
+   "w": "force,",
+   "s": 61.76,
+   "e": 62.12
+  },
+  {
+   "w": "which",
+   "s": 62.14,
+   "e": 62.58
+  },
+  {
+   "w": "almost",
+   "s": 62.58,
+   "e": 62.74
+  },
+  {
+   "w": "never",
+   "s": 62.74,
+   "e": 63.1
+  },
+  {
+   "w": "acts.",
+   "s": 63.1,
+   "e": 63.48
+  },
+  {
+   "w": "So",
+   "s": 64.08,
+   "e": 64.16
+  },
+  {
+   "w": "it",
+   "s": 64.16,
+   "e": 64.26
+  },
+  {
+   "w": "slips",
+   "s": 64.26,
+   "e": 64.38
+  },
+  {
+   "w": "between",
+   "s": 64.38,
+   "e": 64.8
+  },
+  {
+   "w": "atoms",
+   "s": 64.8,
+   "e": 65.0
+  },
+  {
+   "w": "like",
+   "s": 65.0,
+   "e": 65.42
+  },
+  {
+   "w": "they're",
+   "s": 65.42,
+   "e": 65.58
+  },
+  {
+   "w": "not",
+   "s": 65.58,
+   "e": 65.76
+  },
+  {
+   "w": "even",
+   "s": 65.76,
+   "e": 65.94
+  },
+  {
+   "w": "there.",
+   "s": 65.94,
+   "e": 66.24
+  },
+  {
+   "w": "How",
+   "s": 66.72,
+   "e": 66.88
+  },
+  {
+   "w": "easily",
+   "s": 66.88,
+   "e": 67.16
+  },
+  {
+   "w": "does",
+   "s": 67.16,
+   "e": 67.54
+  },
+  {
+   "w": "it",
+   "s": 67.54,
+   "e": 67.64
+  },
+  {
+   "w": "slip",
+   "s": 67.64,
+   "e": 67.8
+  },
+  {
+   "w": "through?",
+   "s": 67.8,
+   "e": 68.08
+  },
+  {
+   "w": "Physicists",
+   "s": 68.76,
+   "e": 69.24
+  },
+  {
+   "w": "like",
+   "s": 69.24,
+   "e": 69.4
+  },
+  {
+   "w": "to",
+   "s": 69.4,
+   "e": 69.54
+  },
+  {
+   "w": "say",
+   "s": 69.54,
+   "e": 69.76
+  },
+  {
+   "w": "a",
+   "s": 69.76,
+   "e": 69.88
+  },
+  {
+   "w": "neutrino",
+   "s": 69.88,
+   "e": 70.34
+  },
+  {
+   "w": "could",
+   "s": 70.34,
+   "e": 70.66
+  },
+  {
+   "w": "cross",
+   "s": 70.66,
+   "e": 70.92
+  },
+  {
+   "w": "a",
+   "s": 70.92,
+   "e": 71.08
+  },
+  {
+   "w": "wall",
+   "s": 71.08,
+   "e": 71.28
+  },
+  {
+   "w": "of",
+   "s": 71.28,
+   "e": 71.46
+  },
+  {
+   "w": "lead,",
+   "s": 71.46,
+   "e": 71.64
+  },
+  {
+   "w": "a",
+   "s": 71.64,
+   "e": 71.8
+  },
+  {
+   "w": "light",
+   "s": 71.8,
+   "e": 71.98
+  },
+  {
+   "w": "year",
+   "s": 71.98,
+   "e": 72.22
+  },
+  {
+   "w": "thick,",
+   "s": 72.22,
+   "e": 72.54
+  },
+  {
+   "w": "and",
+   "s": 73.02,
+   "e": 73.16
+  },
+  {
+   "w": "still",
+   "s": 73.16,
+   "e": 73.4
+  },
+  {
+   "w": "have",
+   "s": 73.4,
+   "e": 73.66
+  },
+  {
+   "w": "a",
+   "s": 73.66,
+   "e": 73.7
+  },
+  {
+   "w": "good",
+   "s": 73.7,
+   "e": 73.88
+  },
+  {
+   "w": "chance",
+   "s": 73.88,
+   "e": 74.14
+  },
+  {
+   "w": "of",
+   "s": 74.14,
+   "e": 74.48
+  },
+  {
+   "w": "coming",
+   "s": 74.48,
+   "e": 74.72
+  },
+  {
+   "w": "out",
+   "s": 74.72,
+   "e": 74.94
+  },
+  {
+   "w": "the",
+   "s": 74.94,
+   "e": 75.06
+  },
+  {
+   "w": "other",
+   "s": 75.06,
+   "e": 75.18
+  },
+  {
+   "w": "side.",
+   "s": 75.18,
+   "e": 75.52
+  },
+  {
+   "w": "The",
+   "s": 76.12,
+   "e": 76.22
+  },
+  {
+   "w": "Earth",
+   "s": 76.22,
+   "e": 76.42
+  },
+  {
+   "w": "is",
+   "s": 76.42,
+   "e": 76.62
+  },
+  {
+   "w": "nothing",
+   "s": 76.62,
+   "e": 76.9
+  },
+  {
+   "w": "to",
+   "s": 76.9,
+   "e": 77.2
+  },
+  {
+   "w": "them.",
+   "s": 77.2,
+   "e": 77.38
+  },
+  {
+   "w": "At",
+   "s": 77.88,
+   "e": 78.06
+  },
+  {
+   "w": "night,",
+   "s": 78.06,
+   "e": 78.26
+  },
+  {
+   "w": "neutrinos",
+   "s": 78.68,
+   "e": 79.06
+  },
+  {
+   "w": "from",
+   "s": 79.06,
+   "e": 79.32
+  },
+  {
+   "w": "the",
+   "s": 79.32,
+   "e": 79.48
+  },
+  {
+   "w": "sun",
+   "s": 79.48,
+   "e": 79.66
+  },
+  {
+   "w": "come",
+   "s": 79.66,
+   "e": 79.88
+  },
+  {
+   "w": "up",
+   "s": 79.88,
+   "e": 80.02
+  },
+  {
+   "w": "through",
+   "s": 80.02,
+   "e": 80.22
+  },
+  {
+   "w": "the",
+   "s": 80.22,
+   "e": 80.36
+  },
+  {
+   "w": "whole",
+   "s": 80.36,
+   "e": 80.48
+  },
+  {
+   "w": "planet,",
+   "s": 80.48,
+   "e": 80.9
+  },
+  {
+   "w": "through",
+   "s": 81.18,
+   "e": 81.42
+  },
+  {
+   "w": "your",
+   "s": 81.42,
+   "e": 81.6
+  },
+  {
+   "w": "mattress",
+   "s": 81.6,
+   "e": 81.86
+  },
+  {
+   "w": "and",
+   "s": 81.86,
+   "e": 82.32
+  },
+  {
+   "w": "through",
+   "s": 82.32,
+   "e": 82.54
+  },
+  {
+   "w": "you.",
+   "s": 82.54,
+   "e": 82.8
+  },
+  {
+   "w": "A",
+   "s": 82.8,
+   "e": 83.26
+  },
+  {
+   "w": "detector",
+   "s": 83.26,
+   "e": 83.5
+  },
+  {
+   "w": "deep",
+   "s": 83.5,
+   "e": 83.9
+  },
+  {
+   "w": "underground",
+   "s": 83.9,
+   "e": 84.2
+  },
+  {
+   "w": "in",
+   "s": 84.2,
+   "e": 84.7
+  },
+  {
+   "w": "Japan",
+   "s": 84.7,
+   "e": 84.88
+  },
+  {
+   "w": "has",
+   "s": 84.88,
+   "e": 85.52
+  },
+  {
+   "w": "even",
+   "s": 85.52,
+   "e": 85.74
+  },
+  {
+   "w": "made",
+   "s": 85.74,
+   "e": 86.0
+  },
+  {
+   "w": "a",
+   "s": 86.0,
+   "e": 86.0
+  },
+  {
+   "w": "picture",
+   "s": 86.0,
+   "e": 86.44
+  },
+  {
+   "w": "of",
+   "s": 86.44,
+   "e": 86.6
+  },
+  {
+   "w": "the",
+   "s": 86.6,
+   "e": 86.7
+  },
+  {
+   "w": "sun",
+   "s": 86.7,
+   "e": 86.92
+  },
+  {
+   "w": "out",
+   "s": 86.92,
+   "e": 87.16
+  },
+  {
+   "w": "of",
+   "s": 87.16,
+   "e": 87.28
+  },
+  {
+   "w": "neutrinos,",
+   "s": 87.28,
+   "e": 87.84
+  },
+  {
+   "w": "day",
+   "s": 88.12,
+   "e": 88.34
+  },
+  {
+   "w": "and",
+   "s": 88.34,
+   "e": 88.48
+  },
+  {
+   "w": "night,",
+   "s": 88.48,
+   "e": 88.7
+  },
+  {
+   "w": "straight",
+   "s": 89.08,
+   "e": 89.4
+  },
+  {
+   "w": "through",
+   "s": 89.4,
+   "e": 89.82
+  },
+  {
+   "w": "solid",
+   "s": 89.82,
+   "e": 90.14
+  },
+  {
+   "w": "rock.",
+   "s": 90.14,
+   "e": 90.42
+  },
+  {
+   "w": "How",
+   "s": 92.6,
+   "e": 93.16
+  },
+  {
+   "w": "did",
+   "s": 93.16,
+   "e": 93.28
+  },
+  {
+   "w": "anyone",
+   "s": 93.28,
+   "e": 93.5
+  },
+  {
+   "w": "find",
+   "s": 93.5,
+   "e": 93.88
+  },
+  {
+   "w": "something",
+   "s": 93.88,
+   "e": 94.2
+  },
+  {
+   "w": "like",
+   "s": 94.2,
+   "e": 94.46
+  },
+  {
+   "w": "that?",
+   "s": 94.46,
+   "e": 94.74
+  },
+  {
+   "w": "First,",
+   "s": 95.4,
+   "e": 95.66
+  },
+  {
+   "w": "someone",
+   "s": 95.82,
+   "e": 96.2
+  },
+  {
+   "w": "had",
+   "s": 96.2,
+   "e": 96.36
+  },
+  {
+   "w": "to",
+   "s": 96.36,
+   "e": 96.52
+  },
+  {
+   "w": "imagine",
+   "s": 96.52,
+   "e": 96.84
+  },
+  {
+   "w": "it.",
+   "s": 96.84,
+   "e": 97.16
+  },
+  {
+   "w": "In",
+   "s": 97.68,
+   "e": 97.78
+  },
+  {
+   "w": "1930,",
+   "s": 97.78,
+   "e": 98.36
+  },
+  {
+   "w": "physicist",
+   "s": 98.84,
+   "e": 99.16
+  },
+  {
+   "w": "Wolfgang",
+   "s": 99.16,
+   "e": 99.72
+  },
+  {
+   "w": "Pauli",
+   "s": 99.72,
+   "e": 100.2
+  },
+  {
+   "w": "noticed",
+   "s": 100.2,
+   "e": 100.5
+  },
+  {
+   "w": "that",
+   "s": 100.5,
+   "e": 100.84
+  },
+  {
+   "w": "some",
+   "s": 100.84,
+   "e": 101.1
+  },
+  {
+   "w": "energy",
+   "s": 101.1,
+   "e": 101.4
+  },
+  {
+   "w": "seemed",
+   "s": 101.4,
+   "e": 101.82
+  },
+  {
+   "w": "to",
+   "s": 101.82,
+   "e": 101.96
+  },
+  {
+   "w": "vanish",
+   "s": 101.96,
+   "e": 102.18
+  },
+  {
+   "w": "in",
+   "s": 102.18,
+   "e": 102.46
+  },
+  {
+   "w": "radioactive",
+   "s": 102.46,
+   "e": 102.84
+  },
+  {
+   "w": "decay,",
+   "s": 102.84,
+   "e": 103.48
+  },
+  {
+   "w": "so",
+   "s": 104.06,
+   "e": 104.24
+  },
+  {
+   "w": "he",
+   "s": 104.24,
+   "e": 104.34
+  },
+  {
+   "w": "proposed",
+   "s": 104.34,
+   "e": 104.62
+  },
+  {
+   "w": "an",
+   "s": 104.62,
+   "e": 104.94
+  },
+  {
+   "w": "invisible",
+   "s": 104.94,
+   "e": 105.18
+  },
+  {
+   "w": "particle",
+   "s": 105.18,
+   "e": 105.7
+  },
+  {
+   "w": "that",
+   "s": 105.7,
+   "e": 106.2
+  },
+  {
+   "w": "carried",
+   "s": 106.2,
+   "e": 106.48
+  },
+  {
+   "w": "it",
+   "s": 106.48,
+   "e": 106.62
+  },
+  {
+   "w": "away.",
+   "s": 106.62,
+   "e": 106.84
+  },
+  {
+   "w": "He",
+   "s": 107.34,
+   "e": 107.42
+  },
+  {
+   "w": "called",
+   "s": 107.42,
+   "e": 107.64
+  },
+  {
+   "w": "it",
+   "s": 107.64,
+   "e": 107.84
+  },
+  {
+   "w": "a",
+   "s": 107.84,
+   "e": 107.94
+  },
+  {
+   "w": "desperate",
+   "s": 107.94,
+   "e": 108.28
+  },
+  {
+   "w": "remedy",
+   "s": 108.28,
+   "e": 108.7
+  },
+  {
+   "w": "and",
+   "s": 108.7,
+   "e": 109.4
+  },
+  {
+   "w": "worried",
+   "s": 109.4,
+   "e": 109.62
+  },
+  {
+   "w": "that",
+   "s": 109.62,
+   "e": 109.9
+  },
+  {
+   "w": "he",
+   "s": 109.9,
+   "e": 110.04
+  },
+  {
+   "w": "had",
+   "s": 110.04,
+   "e": 110.14
+  },
+  {
+   "w": "predicted",
+   "s": 110.14,
+   "e": 110.4
+  },
+  {
+   "w": "something",
+   "s": 110.4,
+   "e": 110.94
+  },
+  {
+   "w": "that",
+   "s": 110.94,
+   "e": 111.32
+  },
+  {
+   "w": "could",
+   "s": 111.32,
+   "e": 111.46
+  },
+  {
+   "w": "never",
+   "s": 111.46,
+   "e": 111.76
+  },
+  {
+   "w": "be",
+   "s": 111.76,
+   "e": 111.94
+  },
+  {
+   "w": "detected.",
+   "s": 111.94,
+   "e": 112.28
+  },
+  {
+   "w": "Was",
+   "s": 113.1,
+   "e": 113.58
+  },
+  {
+   "w": "he",
+   "s": 113.58,
+   "e": 113.7
+  },
+  {
+   "w": "right",
+   "s": 113.7,
+   "e": 113.86
+  },
+  {
+   "w": "about",
+   "s": 113.86,
+   "e": 114.08
+  },
+  {
+   "w": "that?",
+   "s": 114.08,
+   "e": 114.6
+  },
+  {
+   "w": "Luckily,",
+   "s": 115.02,
+   "e": 115.34
+  },
+  {
+   "w": "no.",
+   "s": 115.4,
+   "e": 115.68
+  },
+  {
+   "w": "In",
+   "s": 116.22,
+   "e": 116.24
+  },
+  {
+   "w": "1956,",
+   "s": 116.24,
+   "e": 116.9
+  },
+  {
+   "w": "Clyde",
+   "s": 117.14,
+   "e": 117.76
+  },
+  {
+   "w": "Cowan",
+   "s": 117.76,
+   "e": 118.26
+  },
+  {
+   "w": "and",
+   "s": 118.26,
+   "e": 118.38
+  },
+  {
+   "w": "Frederick",
+   "s": 118.38,
+   "e": 118.6
+  },
+  {
+   "w": "Rains",
+   "s": 118.6,
+   "e": 119.02
+  },
+  {
+   "w": "put",
+   "s": 119.02,
+   "e": 119.26
+  },
+  {
+   "w": "tanks",
+   "s": 119.26,
+   "e": 119.48
+  },
+  {
+   "w": "of",
+   "s": 119.48,
+   "e": 119.7
+  },
+  {
+   "w": "liquid",
+   "s": 119.7,
+   "e": 119.86
+  },
+  {
+   "w": "next",
+   "s": 119.86,
+   "e": 120.28
+  },
+  {
+   "w": "to",
+   "s": 120.28,
+   "e": 120.5
+  },
+  {
+   "w": "a",
+   "s": 120.5,
+   "e": 120.58
+  },
+  {
+   "w": "nuclear",
+   "s": 120.58,
+   "e": 120.76
+  },
+  {
+   "w": "reactor",
+   "s": 120.76,
+   "e": 121.32
+  },
+  {
+   "w": "in",
+   "s": 121.32,
+   "e": 121.52
+  },
+  {
+   "w": "South",
+   "s": 121.52,
+   "e": 121.72
+  },
+  {
+   "w": "Carolina,",
+   "s": 121.72,
+   "e": 122.22
+  },
+  {
+   "w": "which",
+   "s": 122.72,
+   "e": 122.88
+  },
+  {
+   "w": "pours",
+   "s": 122.88,
+   "e": 123.14
+  },
+  {
+   "w": "out",
+   "s": 123.14,
+   "e": 123.36
+  },
+  {
+   "w": "huge",
+   "s": 123.36,
+   "e": 123.6
+  },
+  {
+   "w": "numbers",
+   "s": 123.6,
+   "e": 124.0
+  },
+  {
+   "w": "of",
+   "s": 124.0,
+   "e": 124.28
+  },
+  {
+   "w": "them.",
+   "s": 124.28,
+   "e": 124.44
+  },
+  {
+   "w": "A",
+   "s": 125.08,
+   "e": 125.12
+  },
+  {
+   "w": "few,",
+   "s": 125.12,
+   "e": 125.38
+  },
+  {
+   "w": "just",
+   "s": 125.54,
+   "e": 125.76
+  },
+  {
+   "w": "a",
+   "s": 125.76,
+   "e": 125.9
+  },
+  {
+   "w": "few,",
+   "s": 125.9,
+   "e": 126.1
+  },
+  {
+   "w": "were",
+   "s": 126.28,
+   "e": 126.32
+  },
+  {
+   "w": "caught.",
+   "s": 126.32,
+   "e": 126.5
+  },
+  {
+   "w": "They",
+   "s": 127.12,
+   "e": 127.16
+  },
+  {
+   "w": "sent",
+   "s": 127.16,
+   "e": 127.36
+  },
+  {
+   "w": "Pauli",
+   "s": 127.36,
+   "e": 127.8
+  },
+  {
+   "w": "a",
+   "s": 127.8,
+   "e": 127.88
+  },
+  {
+   "w": "telegram.",
+   "s": 127.88,
+   "e": 128.26
+  },
+  {
+   "w": "His",
+   "s": 128.9,
+   "e": 128.94
+  },
+  {
+   "w": "reply,",
+   "s": 128.94,
+   "e": 129.2
+  },
+  {
+   "w": "everything",
+   "s": 129.84,
+   "e": 130.12
+  },
+  {
+   "w": "comes",
+   "s": 130.12,
+   "e": 130.5
+  },
+  {
+   "w": "to",
+   "s": 130.5,
+   "e": 130.76
+  },
+  {
+   "w": "him",
+   "s": 130.76,
+   "e": 130.92
+  },
+  {
+   "w": "who",
+   "s": 130.92,
+   "e": 131.1
+  },
+  {
+   "w": "knows",
+   "s": 131.1,
+   "e": 131.3
+  },
+  {
+   "w": "how",
+   "s": 131.3,
+   "e": 131.56
+  },
+  {
+   "w": "to",
+   "s": 131.56,
+   "e": 131.72
+  },
+  {
+   "w": "wait.",
+   "s": 131.72,
+   "e": 131.92
+  },
+  {
+   "w": "Rains",
+   "s": 132.56,
+   "e": 132.82
+  },
+  {
+   "w": "finally",
+   "s": 132.82,
+   "e": 133.12
+  },
+  {
+   "w": "won",
+   "s": 133.12,
+   "e": 133.54
+  },
+  {
+   "w": "a",
+   "s": 133.54,
+   "e": 133.68
+  },
+  {
+   "w": "Nobel",
+   "s": 133.68,
+   "e": 133.82
+  },
+  {
+   "w": "Prize",
+   "s": 133.82,
+   "e": 134.36
+  },
+  {
+   "w": "for",
+   "s": 134.36,
+   "e": 134.62
+  },
+  {
+   "w": "it",
+   "s": 134.62,
+   "e": 134.76
+  },
+  {
+   "w": "in",
+   "s": 134.76,
+   "e": 134.92
+  },
+  {
+   "w": "1995.",
+   "s": 134.92,
+   "e": 135.44
+  },
+  {
+   "w": "Why",
+   "s": 138.02,
+   "e": 138.5
+  },
+  {
+   "w": "does",
+   "s": 138.5,
+   "e": 138.64
+  },
+  {
+   "w": "the",
+   "s": 138.64,
+   "e": 138.8
+  },
+  {
+   "w": "sun",
+   "s": 138.8,
+   "e": 138.98
+  },
+  {
+   "w": "make",
+   "s": 138.98,
+   "e": 139.22
+  },
+  {
+   "w": "so",
+   "s": 139.22,
+   "e": 139.42
+  },
+  {
+   "w": "many?",
+   "s": 139.42,
+   "e": 139.7
+  },
+  {
+   "w": "Because",
+   "s": 139.7,
+   "e": 140.5
+  },
+  {
+   "w": "it's",
+   "s": 140.5,
+   "e": 140.7
+  },
+  {
+   "w": "a",
+   "s": 140.7,
+   "e": 140.78
+  },
+  {
+   "w": "giant",
+   "s": 140.78,
+   "e": 141.02
+  },
+  {
+   "w": "fusion",
+   "s": 141.02,
+   "e": 141.32
+  },
+  {
+   "w": "reactor.",
+   "s": 141.32,
+   "e": 141.76
+  },
+  {
+   "w": "Deep",
+   "s": 142.52,
+   "e": 142.66
+  },
+  {
+   "w": "in",
+   "s": 142.66,
+   "e": 142.84
+  },
+  {
+   "w": "its",
+   "s": 142.84,
+   "e": 142.98
+  },
+  {
+   "w": "core,",
+   "s": 142.98,
+   "e": 143.26
+  },
+  {
+   "w": "hydrogen",
+   "s": 143.56,
+   "e": 143.9
+  },
+  {
+   "w": "nuclei",
+   "s": 143.9,
+   "e": 144.64
+  },
+  {
+   "w": "fuse",
+   "s": 144.64,
+   "e": 144.86
+  },
+  {
+   "w": "into",
+   "s": 144.86,
+   "e": 145.02
+  },
+  {
+   "w": "helium,",
+   "s": 145.02,
+   "e": 145.38
+  },
+  {
+   "w": "and",
+   "s": 145.94,
+   "e": 145.98
+  },
+  {
+   "w": "every",
+   "s": 145.98,
+   "e": 146.16
+  },
+  {
+   "w": "reaction",
+   "s": 146.16,
+   "e": 146.56
+  },
+  {
+   "w": "chains",
+   "s": 146.56,
+   "e": 147.04
+  },
+  {
+   "w": "spits",
+   "s": 147.04,
+   "e": 147.5
+  },
+  {
+   "w": "out",
+   "s": 147.5,
+   "e": 147.62
+  },
+  {
+   "w": "neutrinos.",
+   "s": 147.62,
+   "e": 148.08
+  },
+  {
+   "w": "Every",
+   "s": 148.94,
+   "e": 149.22
+  },
+  {
+   "w": "second,",
+   "s": 149.22,
+   "e": 149.72
+  },
+  {
+   "w": "the",
+   "s": 149.94,
+   "e": 150.04
+  },
+  {
+   "w": "sun",
+   "s": 150.04,
+   "e": 150.24
+  },
+  {
+   "w": "turns",
+   "s": 150.24,
+   "e": 150.48
+  },
+  {
+   "w": "about",
+   "s": 150.48,
+   "e": 150.82
+  },
+  {
+   "w": "4",
+   "s": 150.82,
+   "e": 151.18
+  },
+  {
+   "w": "million",
+   "s": 151.18,
+   "e": 151.5
+  },
+  {
+   "w": "tons",
+   "s": 151.5,
+   "e": 151.8
+  },
+  {
+   "w": "of",
+   "s": 151.8,
+   "e": 152.1
+  },
+  {
+   "w": "its",
+   "s": 152.1,
+   "e": 152.22
+  },
+  {
+   "w": "own",
+   "s": 152.22,
+   "e": 152.38
+  },
+  {
+   "w": "mass",
+   "s": 152.38,
+   "e": 152.66
+  },
+  {
+   "w": "into",
+   "s": 152.66,
+   "e": 152.9
+  },
+  {
+   "w": "energy.",
+   "s": 152.9,
+   "e": 153.3
+  },
+  {
+   "w": "That's",
+   "s": 154.16,
+   "e": 154.38
+  },
+  {
+   "w": "what",
+   "s": 154.38,
+   "e": 154.5
+  },
+  {
+   "w": "keeps",
+   "s": 154.5,
+   "e": 154.68
+  },
+  {
+   "w": "you",
+   "s": 154.68,
+   "e": 154.88
+  },
+  {
+   "w": "warm",
+   "s": 154.88,
+   "e": 155.16
+  },
+  {
+   "w": "and",
+   "s": 155.16,
+   "e": 155.62
+  },
+  {
+   "w": "what",
+   "s": 155.62,
+   "e": 155.78
+  },
+  {
+   "w": "floods",
+   "s": 155.78,
+   "e": 156.0
+  },
+  {
+   "w": "you",
+   "s": 156.0,
+   "e": 156.28
+  },
+  {
+   "w": "with",
+   "s": 156.28,
+   "e": 156.4
+  },
+  {
+   "w": "neutrinos.",
+   "s": 156.4,
+   "e": 156.92
+  },
+  {
+   "w": "Light",
+   "s": 157.54,
+   "e": 157.76
+  },
+  {
+   "w": "has",
+   "s": 157.76,
+   "e": 158.02
+  },
+  {
+   "w": "a",
+   "s": 158.02,
+   "e": 158.12
+  },
+  {
+   "w": "hard",
+   "s": 158.12,
+   "e": 158.32
+  },
+  {
+   "w": "time",
+   "s": 158.32,
+   "e": 158.66
+  },
+  {
+   "w": "getting",
+   "s": 158.66,
+   "e": 158.86
+  },
+  {
+   "w": "out.",
+   "s": 158.86,
+   "e": 159.2
+  },
+  {
+   "w": "It",
+   "s": 159.76,
+   "e": 159.84
+  },
+  {
+   "w": "bumps",
+   "s": 159.84,
+   "e": 160.02
+  },
+  {
+   "w": "from",
+   "s": 160.02,
+   "e": 160.34
+  },
+  {
+   "w": "atom",
+   "s": 160.34,
+   "e": 160.52
+  },
+  {
+   "w": "to",
+   "s": 160.52,
+   "e": 160.8
+  },
+  {
+   "w": "atom,",
+   "s": 160.8,
+   "e": 160.96
+  },
+  {
+   "w": "and",
+   "s": 161.52,
+   "e": 161.64
+  },
+  {
+   "w": "estimates",
+   "s": 161.64,
+   "e": 161.88
+  },
+  {
+   "w": "say",
+   "s": 161.88,
+   "e": 162.34
+  },
+  {
+   "w": "it",
+   "s": 162.34,
+   "e": 162.44
+  },
+  {
+   "w": "takes",
+   "s": 162.44,
+   "e": 162.7
+  },
+  {
+   "w": "thousands",
+   "s": 162.7,
+   "e": 163.04
+  },
+  {
+   "w": "to",
+   "s": 163.04,
+   "e": 163.42
+  },
+  {
+   "w": "hundreds",
+   "s": 163.42,
+   "e": 163.74
+  },
+  {
+   "w": "of",
+   "s": 163.74,
+   "e": 163.96
+  },
+  {
+   "w": "thousands",
+   "s": 163.96,
+   "e": 164.26
+  },
+  {
+   "w": "of",
+   "s": 164.26,
+   "e": 164.54
+  },
+  {
+   "w": "years",
+   "s": 164.54,
+   "e": 164.72
+  },
+  {
+   "w": "to",
+   "s": 164.72,
+   "e": 164.96
+  },
+  {
+   "w": "reach",
+   "s": 164.96,
+   "e": 165.12
+  },
+  {
+   "w": "the",
+   "s": 165.12,
+   "e": 165.36
+  },
+  {
+   "w": "surface.",
+   "s": 165.36,
+   "e": 165.7
+  },
+  {
+   "w": "Neutrinos",
+   "s": 165.7,
+   "e": 166.68
+  },
+  {
+   "w": "just",
+   "s": 166.68,
+   "e": 166.98
+  },
+  {
+   "w": "fly",
+   "s": 166.98,
+   "e": 167.24
+  },
+  {
+   "w": "straight",
+   "s": 167.24,
+   "e": 167.56
+  },
+  {
+   "w": "out.",
+   "s": 167.56,
+   "e": 167.9
+  },
+  {
+   "w": "They",
+   "s": 168.52,
+   "e": 168.52
+  },
+  {
+   "w": "leave",
+   "s": 168.52,
+   "e": 168.68
+  },
+  {
+   "w": "the",
+   "s": 168.68,
+   "e": 168.86
+  },
+  {
+   "w": "core",
+   "s": 168.86,
+   "e": 169.04
+  },
+  {
+   "w": "in",
+   "s": 169.04,
+   "e": 169.26
+  },
+  {
+   "w": "about",
+   "s": 169.26,
+   "e": 169.4
+  },
+  {
+   "w": "2",
+   "s": 169.4,
+   "e": 169.74
+  },
+  {
+   "w": "seconds",
+   "s": 169.74,
+   "e": 170.14
+  },
+  {
+   "w": "and",
+   "s": 170.14,
+   "e": 170.68
+  },
+  {
+   "w": "reach",
+   "s": 170.68,
+   "e": 170.86
+  },
+  {
+   "w": "you",
+   "s": 170.86,
+   "e": 171.1
+  },
+  {
+   "w": "about",
+   "s": 171.1,
+   "e": 171.28
+  },
+  {
+   "w": "8",
+   "s": 171.28,
+   "e": 171.6
+  },
+  {
+   "w": "minutes",
+   "s": 171.6,
+   "e": 171.8
+  },
+  {
+   "w": "later.",
+   "s": 171.8,
+   "e": 172.1
+  },
+  {
+   "w": "So",
+   "s": 173.26,
+   "e": 173.36
+  },
+  {
+   "w": "they're",
+   "s": 173.36,
+   "e": 173.54
+  },
+  {
+   "w": "news",
+   "s": 173.54,
+   "e": 173.7
+  },
+  {
+   "w": "from",
+   "s": 173.7,
+   "e": 174.02
+  },
+  {
+   "w": "inside",
+   "s": 174.02,
+   "e": 174.28
+  },
+  {
+   "w": "the",
+   "s": 174.28,
+   "e": 174.56
+  },
+  {
+   "w": "sun?",
+   "s": 174.56,
+   "e": 174.74
+  },
+  {
+   "w": "Exactly.",
+   "s": 175.36,
+   "e": 175.74
+  },
+  {
+   "w": "The",
+   "s": 176.2,
+   "e": 176.22
+  },
+  {
+   "w": "sunlight",
+   "s": 176.22,
+   "e": 176.48
+  },
+  {
+   "w": "on",
+   "s": 176.48,
+   "e": 176.82
+  },
+  {
+   "w": "your",
+   "s": 176.82,
+   "e": 176.92
+  },
+  {
+   "w": "face",
+   "s": 176.92,
+   "e": 177.2
+  },
+  {
+   "w": "is",
+   "s": 177.2,
+   "e": 177.48
+  },
+  {
+   "w": "ancient.",
+   "s": 177.48,
+   "e": 177.72
+  },
+  {
+   "w": "The",
+   "s": 178.58,
+   "e": 178.6
+  },
+  {
+   "w": "neutrinos",
+   "s": 178.6,
+   "e": 179.02
+  },
+  {
+   "w": "passing",
+   "s": 179.02,
+   "e": 179.32
+  },
+  {
+   "w": "through",
+   "s": 179.32,
+   "e": 179.7
+  },
+  {
+   "w": "you",
+   "s": 179.7,
+   "e": 179.92
+  },
+  {
+   "w": "right",
+   "s": 179.92,
+   "e": 180.18
+  },
+  {
+   "w": "now",
+   "s": 180.18,
+   "e": 180.52
+  },
+  {
+   "w": "tell",
+   "s": 180.52,
+   "e": 180.8
+  },
+  {
+   "w": "us",
+   "s": 180.8,
+   "e": 180.98
+  },
+  {
+   "w": "what",
+   "s": 180.98,
+   "e": 181.12
+  },
+  {
+   "w": "the",
+   "s": 181.12,
+   "e": 181.24
+  },
+  {
+   "w": "sun's",
+   "s": 181.24,
+   "e": 181.56
+  },
+  {
+   "w": "core",
+   "s": 181.56,
+   "e": 181.78
+  },
+  {
+   "w": "was",
+   "s": 181.78,
+   "e": 181.94
+  },
+  {
+   "w": "doing",
+   "s": 181.94,
+   "e": 182.16
+  },
+  {
+   "w": "8",
+   "s": 182.16,
+   "e": 182.44
+  },
+  {
+   "w": "minutes",
+   "s": 182.44,
+   "e": 182.66
+  },
+  {
+   "w": "ago.",
+   "s": 182.66,
+   "e": 182.96
+  },
+  {
+   "w": "That's",
+   "s": 183.5,
+   "e": 183.68
+  },
+  {
+   "w": "how",
+   "s": 183.68,
+   "e": 183.8
+  },
+  {
+   "w": "we",
+   "s": 183.8,
+   "e": 183.92
+  },
+  {
+   "w": "know",
+   "s": 183.92,
+   "e": 184.08
+  },
+  {
+   "w": "it",
+   "s": 184.08,
+   "e": 184.26
+  },
+  {
+   "w": "really",
+   "s": 184.26,
+   "e": 184.46
+  },
+  {
+   "w": "runs",
+   "s": 184.46,
+   "e": 184.8
+  },
+  {
+   "w": "on",
+   "s": 184.8,
+   "e": 185.06
+  },
+  {
+   "w": "fusion.",
+   "s": 185.06,
+   "e": 185.34
+  },
+  {
+   "w": "Did",
+   "s": 187.4,
+   "e": 187.9
+  },
+  {
+   "w": "the",
+   "s": 187.9,
+   "e": 188.02
+  },
+  {
+   "w": "sun's",
+   "s": 188.02,
+   "e": 188.48
+  },
+  {
+   "w": "neutrinos",
+   "s": 188.48,
+   "e": 188.94
+  },
+  {
+   "w": "match",
+   "s": 188.94,
+   "e": 189.24
+  },
+  {
+   "w": "the",
+   "s": 189.24,
+   "e": 189.5
+  },
+  {
+   "w": "theory?",
+   "s": 189.5,
+   "e": 189.74
+  },
+  {
+   "w": "Not",
+   "s": 190.32,
+   "e": 190.56
+  },
+  {
+   "w": "at",
+   "s": 190.56,
+   "e": 190.7
+  },
+  {
+   "w": "first.",
+   "s": 190.7,
+   "e": 190.88
+  },
+  {
+   "w": "In",
+   "s": 190.88,
+   "e": 191.58
+  },
+  {
+   "w": "the",
+   "s": 191.58,
+   "e": 191.7
+  },
+  {
+   "w": "1960s,",
+   "s": 191.7,
+   "e": 192.76
+  },
+  {
+   "w": "chemist",
+   "s": 192.92,
+   "e": 193.16
+  },
+  {
+   "w": "Ray",
+   "s": 193.16,
+   "e": 193.5
+  },
+  {
+   "w": "Davis",
+   "s": 193.5,
+   "e": 193.82
+  },
+  {
+   "w": "filled",
+   "s": 193.82,
+   "e": 194.18
+  },
+  {
+   "w": "a",
+   "s": 194.18,
+   "e": 194.34
+  },
+  {
+   "w": "tank",
+   "s": 194.34,
+   "e": 194.56
+  },
+  {
+   "w": "with",
+   "s": 194.56,
+   "e": 194.86
+  },
+  {
+   "w": "about",
+   "s": 194.86,
+   "e": 195.06
+  },
+  {
+   "w": "100",
+   "s": 195.06,
+   "e": 195.34
+  },
+  {
+   "w": ",000",
+   "s": 195.34,
+   "e": 196.0
+  },
+  {
+   "w": "gallons",
+   "s": 196.0,
+   "e": 196.24
+  },
+  {
+   "w": "of",
+   "s": 196.24,
+   "e": 196.56
+  },
+  {
+   "w": "dry",
+   "s": 196.56,
+   "e": 196.74
+  },
+  {
+   "w": "cleaning",
+   "s": 196.74,
+   "e": 197.12
+  },
+  {
+   "w": "fluid,",
+   "s": 197.12,
+   "e": 197.42
+  },
+  {
+   "w": "almost",
+   "s": 197.96,
+   "e": 198.28
+  },
+  {
+   "w": "a",
+   "s": 198.28,
+   "e": 198.44
+  },
+  {
+   "w": "mile",
+   "s": 198.44,
+   "e": 198.7
+  },
+  {
+   "w": "and",
+   "s": 198.7,
+   "e": 198.9
+  },
+  {
+   "w": "a",
+   "s": 198.9,
+   "e": 198.98
+  },
+  {
+   "w": "half",
+   "s": 198.98,
+   "e": 199.18
+  },
+  {
+   "w": "underground",
+   "s": 199.18,
+   "e": 199.5
+  },
+  {
+   "w": "in",
+   "s": 199.5,
+   "e": 200.0
+  },
+  {
+   "w": "a",
+   "s": 200.0,
+   "e": 200.1
+  },
+  {
+   "w": "gold",
+   "s": 200.1,
+   "e": 200.24
+  },
+  {
+   "w": "mine",
+   "s": 200.24,
+   "e": 200.56
+  },
+  {
+   "w": "in",
+   "s": 200.56,
+   "e": 200.94
+  },
+  {
+   "w": "South",
+   "s": 200.94,
+   "e": 201.22
+  },
+  {
+   "w": "Dakota.",
+   "s": 201.22,
+   "e": 201.5
+  },
+  {
+   "w": "Once",
+   "s": 202.2,
+   "e": 202.34
+  },
+  {
+   "w": "in",
+   "s": 202.34,
+   "e": 202.56
+  },
+  {
+   "w": "a",
+   "s": 202.56,
+   "e": 202.62
+  },
+  {
+   "w": "while,",
+   "s": 202.62,
+   "e": 202.88
+  },
+  {
+   "w": "a",
+   "s": 203.18,
+   "e": 203.24
+  },
+  {
+   "w": "solar",
+   "s": 203.24,
+   "e": 203.52
+  },
+  {
+   "w": "neutrino",
+   "s": 203.52,
+   "e": 204.06
+  },
+  {
+   "w": "would",
+   "s": 204.06,
+   "e": 204.3
+  },
+  {
+   "w": "turn",
+   "s": 204.3,
+   "e": 204.54
+  },
+  {
+   "w": "a",
+   "s": 204.54,
+   "e": 204.62
+  },
+  {
+   "w": "chlorine",
+   "s": 204.62,
+   "e": 204.96
+  },
+  {
+   "w": "atom",
+   "s": 204.96,
+   "e": 205.2
+  },
+  {
+   "w": "into",
+   "s": 205.2,
+   "e": 205.58
+  },
+  {
+   "w": "argon.",
+   "s": 205.58,
+   "e": 205.98
+  },
+  {
+   "w": "Davis",
+   "s": 206.52,
+   "e": 206.84
+  },
+  {
+   "w": "flushed",
+   "s": 206.84,
+   "e": 207.12
+  },
+  {
+   "w": "out",
+   "s": 207.12,
+   "e": 207.42
+  },
+  {
+   "w": "the",
+   "s": 207.42,
+   "e": 207.54
+  },
+  {
+   "w": "argon",
+   "s": 207.54,
+   "e": 207.9
+  },
+  {
+   "w": "and",
+   "s": 207.9,
+   "e": 208.04
+  },
+  {
+   "w": "counted",
+   "s": 208.04,
+   "e": 208.38
+  },
+  {
+   "w": "it,",
+   "s": 208.38,
+   "e": 208.64
+  },
+  {
+   "w": "almost",
+   "s": 208.88,
+   "e": 209.14
+  },
+  {
+   "w": "atom",
+   "s": 209.14,
+   "e": 209.48
+  },
+  {
+   "w": "by",
+   "s": 209.48,
+   "e": 209.86
+  },
+  {
+   "w": "atom,",
+   "s": 209.86,
+   "e": 210.12
+  },
+  {
+   "w": "but",
+   "s": 210.58,
+   "e": 210.74
+  },
+  {
+   "w": "he",
+   "s": 210.74,
+   "e": 210.84
+  },
+  {
+   "w": "only",
+   "s": 210.84,
+   "e": 211.06
+  },
+  {
+   "w": "ever",
+   "s": 211.06,
+   "e": 211.38
+  },
+  {
+   "w": "found",
+   "s": 211.38,
+   "e": 211.68
+  },
+  {
+   "w": "about",
+   "s": 211.68,
+   "e": 211.88
+  },
+  {
+   "w": "a",
+   "s": 211.88,
+   "e": 212.02
+  },
+  {
+   "w": "third",
+   "s": 212.02,
+   "e": 212.26
+  },
+  {
+   "w": "of",
+   "s": 212.26,
+   "e": 212.48
+  },
+  {
+   "w": "what",
+   "s": 212.48,
+   "e": 212.6
+  },
+  {
+   "w": "the",
+   "s": 212.6,
+   "e": 212.74
+  },
+  {
+   "w": "theory",
+   "s": 212.74,
+   "e": 213.02
+  },
+  {
+   "w": "predicted.",
+   "s": 213.02,
+   "e": 213.36
+  },
+  {
+   "w": "So",
+   "s": 214.02,
+   "e": 214.18
+  },
+  {
+   "w": "where",
+   "s": 214.18,
+   "e": 214.34
+  },
+  {
+   "w": "did",
+   "s": 214.34,
+   "e": 214.44
+  },
+  {
+   "w": "the",
+   "s": 214.44,
+   "e": 214.56
+  },
+  {
+   "w": "rest",
+   "s": 214.56,
+   "e": 214.7
+  },
+  {
+   "w": "go?",
+   "s": 214.7,
+   "e": 215.02
+  },
+  {
+   "w": "Nowhere",
+   "s": 215.56,
+   "e": 216.06
+  },
+  {
+   "w": "neutrinos",
+   "s": 216.06,
+   "e": 216.7
+  },
+  {
+   "w": "come",
+   "s": 216.7,
+   "e": 217.02
+  },
+  {
+   "w": "in",
+   "s": 217.02,
+   "e": 217.14
+  },
+  {
+   "w": "three",
+   "s": 217.14,
+   "e": 217.34
+  },
+  {
+   "w": "types",
+   "s": 217.34,
+   "e": 217.68
+  },
+  {
+   "w": "and",
+   "s": 217.68,
+   "e": 218.16
+  },
+  {
+   "w": "they",
+   "s": 218.16,
+   "e": 218.28
+  },
+  {
+   "w": "shape",
+   "s": 218.28,
+   "e": 218.52
+  },
+  {
+   "w": "shift",
+   "s": 218.52,
+   "e": 218.78
+  },
+  {
+   "w": "between",
+   "s": 218.78,
+   "e": 219.08
+  },
+  {
+   "w": "them",
+   "s": 219.08,
+   "e": 219.4
+  },
+  {
+   "w": "as",
+   "s": 219.4,
+   "e": 219.56
+  },
+  {
+   "w": "they",
+   "s": 219.56,
+   "e": 219.68
+  },
+  {
+   "w": "travel.",
+   "s": 219.68,
+   "e": 219.98
+  },
+  {
+   "w": "His",
+   "s": 219.98,
+   "e": 220.68
+  },
+  {
+   "w": "detector",
+   "s": 220.68,
+   "e": 221.02
+  },
+  {
+   "w": "could",
+   "s": 221.02,
+   "e": 221.34
+  },
+  {
+   "w": "only",
+   "s": 221.34,
+   "e": 221.46
+  },
+  {
+   "w": "see",
+   "s": 221.46,
+   "e": 221.74
+  },
+  {
+   "w": "one",
+   "s": 221.74,
+   "e": 221.98
+  },
+  {
+   "w": "type.",
+   "s": 221.98,
+   "e": 222.28
+  },
+  {
+   "w": "Experiments",
+   "s": 222.82,
+   "e": 223.36
+  },
+  {
+   "w": "in",
+   "s": 223.36,
+   "e": 223.62
+  },
+  {
+   "w": "Japan",
+   "s": 223.62,
+   "e": 223.8
+  },
+  {
+   "w": "and",
+   "s": 223.8,
+   "e": 224.12
+  },
+  {
+   "w": "Canada",
+   "s": 224.12,
+   "e": 224.46
+  },
+  {
+   "w": "proved",
+   "s": 224.46,
+   "e": 224.74
+  },
+  {
+   "w": "it,",
+   "s": 224.74,
+   "e": 225.02
+  },
+  {
+   "w": "and",
+   "s": 225.4,
+   "e": 225.48
+  },
+  {
+   "w": "the",
+   "s": 225.48,
+   "e": 225.58
+  },
+  {
+   "w": "shape",
+   "s": 225.58,
+   "e": 225.76
+  },
+  {
+   "w": "shifting",
+   "s": 225.76,
+   "e": 226.16
+  },
+  {
+   "w": "earned",
+   "s": 226.16,
+   "e": 226.44
+  },
+  {
+   "w": "another",
+   "s": 226.44,
+   "e": 226.78
+  },
+  {
+   "w": "Nobel",
+   "s": 226.78,
+   "e": 227.0
+  },
+  {
+   "w": "Prize",
+   "s": 227.0,
+   "e": 227.52
+  },
+  {
+   "w": "in",
+   "s": 227.52,
+   "e": 227.82
+  },
+  {
+   "w": "2015.",
+   "s": 227.82,
+   "e": 228.28
+  },
+  {
+   "w": "Do",
+   "s": 230.38,
+   "e": 230.94
+  },
+  {
+   "w": "neutrinos",
+   "s": 230.94,
+   "e": 231.34
+  },
+  {
+   "w": "only",
+   "s": 231.34,
+   "e": 231.8
+  },
+  {
+   "w": "come",
+   "s": 231.8,
+   "e": 232.12
+  },
+  {
+   "w": "from",
+   "s": 232.12,
+   "e": 232.3
+  },
+  {
+   "w": "space?",
+   "s": 232.3,
+   "e": 232.54
+  },
+  {
+   "w": "No,",
+   "s": 233.34,
+   "e": 233.58
+  },
+  {
+   "w": "and",
+   "s": 233.62,
+   "e": 233.8
+  },
+  {
+   "w": "here's",
+   "s": 233.8,
+   "e": 234.08
+  },
+  {
+   "w": "a",
+   "s": 234.08,
+   "e": 234.16
+  },
+  {
+   "w": "strange",
+   "s": 234.16,
+   "e": 234.4
+  },
+  {
+   "w": "one.",
+   "s": 234.4,
+   "e": 234.84
+  },
+  {
+   "w": "You",
+   "s": 235.34,
+   "e": 235.36
+  },
+  {
+   "w": "make",
+   "s": 235.36,
+   "e": 235.48
+  },
+  {
+   "w": "them",
+   "s": 235.48,
+   "e": 235.68
+  },
+  {
+   "w": "too.",
+   "s": 235.68,
+   "e": 235.92
+  },
+  {
+   "w": "Your",
+   "s": 236.5,
+   "e": 236.58
+  },
+  {
+   "w": "body",
+   "s": 236.58,
+   "e": 236.84
+  },
+  {
+   "w": "contains",
+   "s": 236.84,
+   "e": 237.1
+  },
+  {
+   "w": "a",
+   "s": 237.1,
+   "e": 237.44
+  },
+  {
+   "w": "little",
+   "s": 237.44,
+   "e": 237.58
+  },
+  {
+   "w": "radioactive",
+   "s": 237.58,
+   "e": 238.06
+  },
+  {
+   "w": "potassium,",
+   "s": 238.06,
+   "e": 238.62
+  },
+  {
+   "w": "the",
+   "s": 239.32,
+   "e": 239.46
+  },
+  {
+   "w": "same",
+   "s": 239.46,
+   "e": 239.66
+  },
+  {
+   "w": "kind",
+   "s": 239.66,
+   "e": 240.02
+  },
+  {
+   "w": "that's",
+   "s": 240.02,
+   "e": 240.34
+  },
+  {
+   "w": "in",
+   "s": 240.34,
+   "e": 240.44
+  },
+  {
+   "w": "bananas.",
+   "s": 240.44,
+   "e": 240.56
+  },
+  {
+   "w": "In",
+   "s": 241.48,
+   "e": 241.6
+  },
+  {
+   "w": "an",
+   "s": 241.6,
+   "e": 241.7
+  },
+  {
+   "w": "adult,",
+   "s": 241.7,
+   "e": 241.96
+  },
+  {
+   "w": "a",
+   "s": 242.26,
+   "e": 242.34
+  },
+  {
+   "w": "few",
+   "s": 242.34,
+   "e": 242.54
+  },
+  {
+   "w": "thousand",
+   "s": 242.54,
+   "e": 242.84
+  },
+  {
+   "w": "of",
+   "s": 242.84,
+   "e": 243.08
+  },
+  {
+   "w": "those",
+   "s": 243.08,
+   "e": 243.22
+  },
+  {
+   "w": "atoms",
+   "s": 243.22,
+   "e": 243.46
+  },
+  {
+   "w": "decay",
+   "s": 243.46,
+   "e": 243.92
+  },
+  {
+   "w": "every",
+   "s": 243.92,
+   "e": 244.3
+  },
+  {
+   "w": "second,",
+   "s": 244.3,
+   "e": 244.72
+  },
+  {
+   "w": "and",
+   "s": 245.08,
+   "e": 245.3
+  },
+  {
+   "w": "most",
+   "s": 245.3,
+   "e": 245.54
+  },
+  {
+   "w": "decays",
+   "s": 245.54,
+   "e": 245.94
+  },
+  {
+   "w": "fire",
+   "s": 245.94,
+   "e": 246.26
+  },
+  {
+   "w": "off",
+   "s": 246.26,
+   "e": 246.62
+  },
+  {
+   "w": "a",
+   "s": 246.62,
+   "e": 246.68
+  },
+  {
+   "w": "ghost",
+   "s": 246.68,
+   "e": 246.86
+  },
+  {
+   "w": "particle.",
+   "s": 246.86,
+   "e": 247.22
+  },
+  {
+   "w": "By",
+   "s": 247.22,
+   "e": 248.2
+  },
+  {
+   "w": "our",
+   "s": 248.2,
+   "e": 248.34
+  },
+  {
+   "w": "rough",
+   "s": 248.34,
+   "e": 248.56
+  },
+  {
+   "w": "estimate,",
+   "s": 248.56,
+   "e": 248.84
+  },
+  {
+   "w": "that's",
+   "s": 249.46,
+   "e": 249.62
+  },
+  {
+   "w": "a",
+   "s": 249.62,
+   "e": 249.66
+  },
+  {
+   "w": "few",
+   "s": 249.66,
+   "e": 249.82
+  },
+  {
+   "w": "hundred",
+   "s": 249.82,
+   "e": 250.14
+  },
+  {
+   "w": "million",
+   "s": 250.14,
+   "e": 250.5
+  },
+  {
+   "w": "neutrinos",
+   "s": 250.5,
+   "e": 250.98
+  },
+  {
+   "w": "leaving",
+   "s": 250.98,
+   "e": 251.34
+  },
+  {
+   "w": "you",
+   "s": 251.34,
+   "e": 251.62
+  },
+  {
+   "w": "every",
+   "s": 251.62,
+   "e": 251.82
+  },
+  {
+   "w": "day.",
+   "s": 251.82,
+   "e": 252.1
+  },
+  {
+   "w": "Should",
+   "s": 252.52,
+   "e": 252.64
+  },
+  {
+   "w": "I",
+   "s": 252.64,
+   "e": 252.76
+  },
+  {
+   "w": "be",
+   "s": 252.76,
+   "e": 252.84
+  },
+  {
+   "w": "worried",
+   "s": 252.84,
+   "e": 253.08
+  },
+  {
+   "w": "about",
+   "s": 253.08,
+   "e": 253.36
+  },
+  {
+   "w": "that?",
+   "s": 253.36,
+   "e": 253.66
+  },
+  {
+   "w": "Not",
+   "s": 254.2,
+   "e": 254.5
+  },
+  {
+   "w": "at",
+   "s": 254.5,
+   "e": 254.62
+  },
+  {
+   "w": "all,",
+   "s": 254.62,
+   "e": 254.8
+  },
+  {
+   "w": "it's",
+   "s": 255.14,
+   "e": 255.32
+  },
+  {
+   "w": "natural,",
+   "s": 255.32,
+   "e": 255.56
+  },
+  {
+   "w": "it's",
+   "s": 256.1,
+   "e": 256.24
+  },
+  {
+   "w": "always",
+   "s": 256.24,
+   "e": 256.46
+  },
+  {
+   "w": "been",
+   "s": 256.46,
+   "e": 256.78
+  },
+  {
+   "w": "there,",
+   "s": 256.78,
+   "e": 257.1
+  },
+  {
+   "w": "and",
+   "s": 257.46,
+   "e": 257.56
+  },
+  {
+   "w": "the",
+   "s": 257.56,
+   "e": 257.64
+  },
+  {
+   "w": "neutrinos",
+   "s": 257.64,
+   "e": 258.06
+  },
+  {
+   "w": "themselves",
+   "s": 258.06,
+   "e": 258.38
+  },
+  {
+   "w": "fly",
+   "s": 258.38,
+   "e": 259.04
+  },
+  {
+   "w": "off",
+   "s": 259.04,
+   "e": 259.26
+  },
+  {
+   "w": "into",
+   "s": 259.26,
+   "e": 259.38
+  },
+  {
+   "w": "space",
+   "s": 259.38,
+   "e": 259.78
+  },
+  {
+   "w": "without",
+   "s": 259.78,
+   "e": 260.22
+  },
+  {
+   "w": "touching",
+   "s": 260.22,
+   "e": 260.72
+  },
+  {
+   "w": "anything.",
+   "s": 260.72,
+   "e": 261.04
+  },
+  {
+   "w": "Out",
+   "s": 263.1,
+   "e": 263.66
+  },
+  {
+   "w": "of",
+   "s": 263.66,
+   "e": 263.76
+  },
+  {
+   "w": "all",
+   "s": 263.76,
+   "e": 263.92
+  },
+  {
+   "w": "those",
+   "s": 263.92,
+   "e": 264.1
+  },
+  {
+   "w": "trillions,",
+   "s": 264.1,
+   "e": 264.36
+  },
+  {
+   "w": "will",
+   "s": 264.92,
+   "e": 265.12
+  },
+  {
+   "w": "one",
+   "s": 265.12,
+   "e": 265.32
+  },
+  {
+   "w": "ever",
+   "s": 265.32,
+   "e": 265.48
+  },
+  {
+   "w": "hit",
+   "s": 265.48,
+   "e": 265.7
+  },
+  {
+   "w": "me?",
+   "s": 265.7,
+   "e": 265.88
+  },
+  {
+   "w": "Maybe",
+   "s": 266.46,
+   "e": 266.66
+  },
+  {
+   "w": "one,",
+   "s": 266.66,
+   "e": 266.94
+  },
+  {
+   "w": "estimates",
+   "s": 267.68,
+   "e": 267.68
+  },
+  {
+   "w": "vary,",
+   "s": 267.68,
+   "e": 267.98
+  },
+  {
+   "w": "but",
+   "s": 268.48,
+   "e": 268.64
+  },
+  {
+   "w": "physicists",
+   "s": 268.64,
+   "e": 268.88
+  },
+  {
+   "w": "put",
+   "s": 268.88,
+   "e": 269.36
+  },
+  {
+   "w": "the",
+   "s": 269.36,
+   "e": 269.46
+  },
+  {
+   "w": "chance",
+   "s": 269.46,
+   "e": 269.66
+  },
+  {
+   "w": "that",
+   "s": 269.66,
+   "e": 269.98
+  },
+  {
+   "w": "a",
+   "s": 269.98,
+   "e": 270.12
+  },
+  {
+   "w": "single",
+   "s": 270.12,
+   "e": 270.34
+  },
+  {
+   "w": "neutrino",
+   "s": 270.34,
+   "e": 270.98
+  },
+  {
+   "w": "ever",
+   "s": 270.98,
+   "e": 271.26
+  },
+  {
+   "w": "bumps",
+   "s": 271.26,
+   "e": 271.56
+  },
+  {
+   "w": "into",
+   "s": 271.56,
+   "e": 271.86
+  },
+  {
+   "w": "an",
+   "s": 271.86,
+   "e": 271.98
+  },
+  {
+   "w": "atom",
+   "s": 271.98,
+   "e": 272.14
+  },
+  {
+   "w": "in",
+   "s": 272.14,
+   "e": 272.32
+  },
+  {
+   "w": "your",
+   "s": 272.32,
+   "e": 272.46
+  },
+  {
+   "w": "body,",
+   "s": 272.46,
+   "e": 272.74
+  },
+  {
+   "w": "in",
+   "s": 272.74,
+   "e": 273.22
+  },
+  {
+   "w": "your",
+   "s": 273.22,
+   "e": 273.36
+  },
+  {
+   "w": "whole",
+   "s": 273.36,
+   "e": 273.56
+  },
+  {
+   "w": "life,",
+   "s": 273.56,
+   "e": 273.94
+  },
+  {
+   "w": "somewhere",
+   "s": 274.26,
+   "e": 274.68
+  },
+  {
+   "w": "between",
+   "s": 274.68,
+   "e": 275.02
+  },
+  {
+   "w": "one",
+   "s": 275.02,
+   "e": 275.28
+  },
+  {
+   "w": "and",
+   "s": 275.28,
+   "e": 275.4
+  },
+  {
+   "w": "ten",
+   "s": 275.4,
+   "e": 275.7
+  },
+  {
+   "w": "and",
+   "s": 275.7,
+   "e": 276.06
+  },
+  {
+   "w": "about",
+   "s": 276.06,
+   "e": 276.22
+  },
+  {
+   "w": "one",
+   "s": 276.22,
+   "e": 276.46
+  },
+  {
+   "w": "and",
+   "s": 276.46,
+   "e": 276.58
+  },
+  {
+   "w": "four.",
+   "s": 276.58,
+   "e": 276.86
+  },
+  {
+   "w": "Trillions",
+   "s": 277.28,
+   "e": 277.58
+  },
+  {
+   "w": "every",
+   "s": 277.58,
+   "e": 277.86
+  },
+  {
+   "w": "second",
+   "s": 277.86,
+   "e": 278.36
+  },
+  {
+   "w": "for",
+   "s": 278.36,
+   "e": 278.72
+  },
+  {
+   "w": "80",
+   "s": 278.72,
+   "e": 278.92
+  },
+  {
+   "w": "years",
+   "s": 278.92,
+   "e": 279.38
+  },
+  {
+   "w": "and",
+   "s": 279.38,
+   "e": 279.74
+  },
+  {
+   "w": "maybe",
+   "s": 279.74,
+   "e": 279.92
+  },
+  {
+   "w": "one",
+   "s": 279.92,
+   "e": 280.22
+  },
+  {
+   "w": "collision.",
+   "s": 280.22,
+   "e": 280.46
+  },
+  {
+   "w": "That's",
+   "s": 281.2,
+   "e": 281.46
+  },
+  {
+   "w": "how",
+   "s": 281.46,
+   "e": 281.6
+  },
+  {
+   "w": "ghostly",
+   "s": 281.6,
+   "e": 282.14
+  },
+  {
+   "w": "they",
+   "s": 282.14,
+   "e": 282.32
+  },
+  {
+   "w": "are.",
+   "s": 282.32,
+   "e": 282.58
+  },
+  {
+   "w": "And",
+   "s": 283.04,
+   "e": 283.16
+  },
+  {
+   "w": "if",
+   "s": 283.16,
+   "e": 283.3
+  },
+  {
+   "w": "one",
+   "s": 283.3,
+   "e": 283.48
+  },
+  {
+   "w": "does",
+   "s": 283.48,
+   "e": 283.7
+  },
+  {
+   "w": "hit",
+   "s": 283.7,
+   "e": 283.98
+  },
+  {
+   "w": "me?",
+   "s": 283.98,
+   "e": 284.24
+  },
+  {
+   "w": "Nothing",
+   "s": 284.76,
+   "e": 285.16
+  },
+  {
+   "w": "you'd",
+   "s": 285.16,
+   "e": 285.42
+  },
+  {
+   "w": "notice,",
+   "s": 285.42,
+   "e": 285.7
+  },
+  {
+   "w": "it",
+   "s": 286.24,
+   "e": 286.4
+  },
+  {
+   "w": "would",
+   "s": 286.4,
+   "e": 286.48
+  },
+  {
+   "w": "nudge",
+   "s": 286.48,
+   "e": 286.72
+  },
+  {
+   "w": "a",
+   "s": 286.72,
+   "e": 286.86
+  },
+  {
+   "w": "single",
+   "s": 286.86,
+   "e": 287.14
+  },
+  {
+   "w": "atom,",
+   "s": 287.14,
+   "e": 287.46
+  },
+  {
+   "w": "among",
+   "s": 287.96,
+   "e": 288.16
+  },
+  {
+   "w": "the",
+   "s": 288.16,
+   "e": 288.32
+  },
+  {
+   "w": "billions",
+   "s": 288.32,
+   "e": 288.64
+  },
+  {
+   "w": "of",
+   "s": 288.64,
+   "e": 288.86
+  },
+  {
+   "w": "billions",
+   "s": 288.86,
+   "e": 289.1
+  },
+  {
+   "w": "in",
+   "s": 289.1,
+   "e": 289.46
+  },
+  {
+   "w": "your",
+   "s": 289.46,
+   "e": 289.58
+  },
+  {
+   "w": "body.",
+   "s": 289.58,
+   "e": 289.86
+  },
+  {
+   "w": "So",
+   "s": 292.4,
+   "e": 292.96
+  },
+  {
+   "w": "how",
+   "s": 292.96,
+   "e": 293.14
+  },
+  {
+   "w": "do",
+   "s": 293.14,
+   "e": 293.3
+  },
+  {
+   "w": "scientists",
+   "s": 293.3,
+   "e": 293.66
+  },
+  {
+   "w": "ever",
+   "s": 293.66,
+   "e": 294.18
+  },
+  {
+   "w": "catch",
+   "s": 294.18,
+   "e": 294.46
+  },
+  {
+   "w": "them?",
+   "s": 294.46,
+   "e": 294.76
+  },
+  {
+   "w": "By",
+   "s": 295.28,
+   "e": 295.44
+  },
+  {
+   "w": "making",
+   "s": 295.44,
+   "e": 295.72
+  },
+  {
+   "w": "the",
+   "s": 295.72,
+   "e": 295.84
+  },
+  {
+   "w": "trap",
+   "s": 295.84,
+   "e": 296.08
+  },
+  {
+   "w": "enormous.",
+   "s": 296.08,
+   "e": 296.42
+  },
+  {
+   "w": "If",
+   "s": 297.3,
+   "e": 297.44
+  },
+  {
+   "w": "a",
+   "s": 297.44,
+   "e": 297.5
+  },
+  {
+   "w": "neutrino",
+   "s": 297.5,
+   "e": 297.84
+  },
+  {
+   "w": "almost",
+   "s": 297.84,
+   "e": 298.18
+  },
+  {
+   "w": "never",
+   "s": 298.18,
+   "e": 298.54
+  },
+  {
+   "w": "hits",
+   "s": 298.54,
+   "e": 298.86
+  },
+  {
+   "w": "anything,",
+   "s": 298.86,
+   "e": 299.3
+  },
+  {
+   "w": "you",
+   "s": 299.68,
+   "e": 299.8
+  },
+  {
+   "w": "need",
+   "s": 299.8,
+   "e": 299.9
+  },
+  {
+   "w": "a",
+   "s": 299.9,
+   "e": 299.98
+  },
+  {
+   "w": "huge",
+   "s": 299.98,
+   "e": 300.26
+  },
+  {
+   "w": "amount",
+   "s": 300.26,
+   "e": 300.5
+  },
+  {
+   "w": "of",
+   "s": 300.5,
+   "e": 300.72
+  },
+  {
+   "w": "stuff,",
+   "s": 300.72,
+   "e": 300.98
+  },
+  {
+   "w": "and",
+   "s": 300.98,
+   "e": 301.48
+  },
+  {
+   "w": "you",
+   "s": 301.48,
+   "e": 301.64
+  },
+  {
+   "w": "need",
+   "s": 301.64,
+   "e": 301.78
+  },
+  {
+   "w": "to",
+   "s": 301.78,
+   "e": 301.92
+  },
+  {
+   "w": "watch",
+   "s": 301.92,
+   "e": 302.12
+  },
+  {
+   "w": "it",
+   "s": 302.12,
+   "e": 302.28
+  },
+  {
+   "w": "very",
+   "s": 302.28,
+   "e": 302.42
+  },
+  {
+   "w": "carefully.",
+   "s": 302.42,
+   "e": 302.88
+  },
+  {
+   "w": "In",
+   "s": 303.48,
+   "e": 303.56
+  },
+  {
+   "w": "Japan,",
+   "s": 303.56,
+   "e": 303.76
+  },
+  {
+   "w": "a",
+   "s": 304.22,
+   "e": 304.3
+  },
+  {
+   "w": "detector",
+   "s": 304.3,
+   "e": 304.52
+  },
+  {
+   "w": "called",
+   "s": 304.52,
+   "e": 304.98
+  },
+  {
+   "w": "Super",
+   "s": 304.98,
+   "e": 305.2
+  },
+  {
+   "w": "Kamiokand",
+   "s": 305.2,
+   "e": 305.86
+  },
+  {
+   "w": "sits",
+   "s": 305.86,
+   "e": 306.24
+  },
+  {
+   "w": "a",
+   "s": 306.24,
+   "e": 306.44
+  },
+  {
+   "w": "kilometer",
+   "s": 306.44,
+   "e": 307.0
+  },
+  {
+   "w": "underground.",
+   "s": 307.0,
+   "e": 307.48
+  },
+  {
+   "w": "It's",
+   "s": 308.16,
+   "e": 308.34
+  },
+  {
+   "w": "a",
+   "s": 308.34,
+   "e": 308.4
+  },
+  {
+   "w": "tank",
+   "s": 308.4,
+   "e": 308.6
+  },
+  {
+   "w": "holding",
+   "s": 308.6,
+   "e": 309.0
+  },
+  {
+   "w": "50",
+   "s": 309.0,
+   "e": 309.38
+  },
+  {
+   "w": ",000",
+   "s": 309.38,
+   "e": 309.86
+  },
+  {
+   "w": "tons",
+   "s": 309.86,
+   "e": 310.06
+  },
+  {
+   "w": "of",
+   "s": 310.06,
+   "e": 310.36
+  },
+  {
+   "w": "ultra",
+   "s": 310.36,
+   "e": 310.7
+  },
+  {
+   "w": "-pure",
+   "s": 310.7,
+   "e": 310.88
+  },
+  {
+   "w": "water,",
+   "s": 310.88,
+   "e": 311.36
+  },
+  {
+   "w": "lined",
+   "s": 311.6,
+   "e": 311.9
+  },
+  {
+   "w": "with",
+   "s": 311.9,
+   "e": 312.22
+  },
+  {
+   "w": "about",
+   "s": 312.22,
+   "e": 312.36
+  },
+  {
+   "w": "11",
+   "s": 312.36,
+   "e": 312.8
+  },
+  {
+   "w": ",000",
+   "s": 312.8,
+   "e": 313.26
+  },
+  {
+   "w": "light",
+   "s": 313.26,
+   "e": 313.48
+  },
+  {
+   "w": "sensors.",
+   "s": 313.48,
+   "e": 313.86
+  },
+  {
+   "w": "When",
+   "s": 314.5,
+   "e": 314.66
+  },
+  {
+   "w": "a",
+   "s": 314.66,
+   "e": 314.76
+  },
+  {
+   "w": "neutrino",
+   "s": 314.76,
+   "e": 315.12
+  },
+  {
+   "w": "finally",
+   "s": 315.12,
+   "e": 315.42
+  },
+  {
+   "w": "hits,",
+   "s": 315.42,
+   "e": 315.88
+  },
+  {
+   "w": "it",
+   "s": 316.44,
+   "e": 316.52
+  },
+  {
+   "w": "knocks",
+   "s": 316.52,
+   "e": 316.66
+  },
+  {
+   "w": "out",
+   "s": 316.66,
+   "e": 316.92
+  },
+  {
+   "w": "a",
+   "s": 316.92,
+   "e": 316.92
+  },
+  {
+   "w": "particle",
+   "s": 316.92,
+   "e": 317.24
+  },
+  {
+   "w": "that",
+   "s": 317.24,
+   "e": 317.64
+  },
+  {
+   "w": "races",
+   "s": 317.64,
+   "e": 317.86
+  },
+  {
+   "w": "through",
+   "s": 317.86,
+   "e": 318.26
+  },
+  {
+   "w": "the",
+   "s": 318.26,
+   "e": 318.36
+  },
+  {
+   "w": "water",
+   "s": 318.36,
+   "e": 318.62
+  },
+  {
+   "w": "faster",
+   "s": 318.62,
+   "e": 318.96
+  },
+  {
+   "w": "than",
+   "s": 318.96,
+   "e": 319.36
+  },
+  {
+   "w": "light",
+   "s": 319.36,
+   "e": 319.56
+  },
+  {
+   "w": "can",
+   "s": 319.56,
+   "e": 319.8
+  },
+  {
+   "w": "travel",
+   "s": 319.8,
+   "e": 320.1
+  },
+  {
+   "w": "in",
+   "s": 320.1,
+   "e": 320.28
+  },
+  {
+   "w": "water,",
+   "s": 320.28,
+   "e": 320.56
+  },
+  {
+   "w": "and",
+   "s": 320.96,
+   "e": 321.12
+  },
+  {
+   "w": "leaves",
+   "s": 321.12,
+   "e": 321.28
+  },
+  {
+   "w": "a",
+   "s": 321.28,
+   "e": 321.5
+  },
+  {
+   "w": "faint",
+   "s": 321.5,
+   "e": 321.72
+  },
+  {
+   "w": "ring",
+   "s": 321.72,
+   "e": 322.06
+  },
+  {
+   "w": "of",
+   "s": 322.06,
+   "e": 322.24
+  },
+  {
+   "w": "blue",
+   "s": 322.24,
+   "e": 322.4
+  },
+  {
+   "w": "light.",
+   "s": 322.4,
+   "e": 322.66
+  },
+  {
+   "w": "The",
+   "s": 323.24,
+   "e": 323.34
+  },
+  {
+   "w": "sensors",
+   "s": 323.34,
+   "e": 323.64
+  },
+  {
+   "w": "catch",
+   "s": 323.64,
+   "e": 323.98
+  },
+  {
+   "w": "that",
+   "s": 323.98,
+   "e": 324.3
+  },
+  {
+   "w": "flash.",
+   "s": 324.3,
+   "e": 324.52
+  },
+  {
+   "w": "Super",
+   "s": 325.2,
+   "e": 325.36
+  },
+  {
+   "w": "Kamiokand",
+   "s": 325.36,
+   "e": 326.04
+  },
+  {
+   "w": "is",
+   "s": 326.04,
+   "e": 326.22
+  },
+  {
+   "w": "also",
+   "s": 326.22,
+   "e": 326.54
+  },
+  {
+   "w": "where",
+   "s": 326.54,
+   "e": 326.78
+  },
+  {
+   "w": "neutrinos",
+   "s": 326.78,
+   "e": 327.26
+  },
+  {
+   "w": "were",
+   "s": 327.26,
+   "e": 327.48
+  },
+  {
+   "w": "first",
+   "s": 327.48,
+   "e": 327.72
+  },
+  {
+   "w": "caught",
+   "s": 327.72,
+   "e": 327.92
+  },
+  {
+   "w": "shape",
+   "s": 327.92,
+   "e": 328.22
+  },
+  {
+   "w": "-shifting.",
+   "s": 328.22,
+   "e": 328.62
+  },
+  {
+   "w": "That",
+   "s": 328.62,
+   "e": 329.46
+  },
+  {
+   "w": "work",
+   "s": 329.46,
+   "e": 329.7
+  },
+  {
+   "w": "earned",
+   "s": 329.7,
+   "e": 329.94
+  },
+  {
+   "w": "its",
+   "s": 329.94,
+   "e": 330.16
+  },
+  {
+   "w": "leader,",
+   "s": 330.16,
+   "e": 330.44
+  },
+  {
+   "w": "Takaki",
+   "s": 330.8,
+   "e": 331.14
+  },
+  {
+   "w": "Kajita,",
+   "s": 331.14,
+   "e": 331.74
+  },
+  {
+   "w": "a",
+   "s": 332.1,
+   "e": 332.22
+  },
+  {
+   "w": "share",
+   "s": 332.22,
+   "e": 332.44
+  },
+  {
+   "w": "of",
+   "s": 332.44,
+   "e": 332.68
+  },
+  {
+   "w": "the",
+   "s": 332.68,
+   "e": 332.76
+  },
+  {
+   "w": "2015",
+   "s": 332.76,
+   "e": 333.42
+  },
+  {
+   "w": "Nobel",
+   "s": 333.42,
+   "e": 333.68
+  },
+  {
+   "w": "Prize.",
+   "s": 333.68,
+   "e": 334.28
+  },
+  {
+   "w": "Can",
+   "s": 334.84,
+   "e": 334.96
+  },
+  {
+   "w": "we",
+   "s": 334.96,
+   "e": 335.1
+  },
+  {
+   "w": "make",
+   "s": 335.1,
+   "e": 335.24
+  },
+  {
+   "w": "our",
+   "s": 335.24,
+   "e": 335.42
+  },
+  {
+   "w": "own",
+   "s": 335.42,
+   "e": 335.7
+  },
+  {
+   "w": "neutrinos?",
+   "s": 335.7,
+   "e": 336.16
+  },
+  {
+   "w": "We",
+   "s": 336.92,
+   "e": 337.12
+  },
+  {
+   "w": "already",
+   "s": 337.12,
+   "e": 337.3
+  },
+  {
+   "w": "do.",
+   "s": 337.3,
+   "e": 337.6
+  },
+  {
+   "w": "An",
+   "s": 337.98,
+   "e": 338.02
+  },
+  {
+   "w": "experiment",
+   "s": 338.02,
+   "e": 338.48
+  },
+  {
+   "w": "called",
+   "s": 338.48,
+   "e": 338.86
+  },
+  {
+   "w": "June",
+   "s": 338.86,
+   "e": 339.16
+  },
+  {
+   "w": "is",
+   "s": 339.16,
+   "e": 339.38
+  },
+  {
+   "w": "being",
+   "s": 339.38,
+   "e": 339.54
+  },
+  {
+   "w": "built",
+   "s": 339.54,
+   "e": 339.78
+  },
+  {
+   "w": "to",
+   "s": 339.78,
+   "e": 339.96
+  },
+  {
+   "w": "fire",
+   "s": 339.96,
+   "e": 340.22
+  },
+  {
+   "w": "a",
+   "s": 340.22,
+   "e": 340.4
+  },
+  {
+   "w": "beam",
+   "s": 340.4,
+   "e": 340.56
+  },
+  {
+   "w": "of",
+   "s": 340.56,
+   "e": 340.66
+  },
+  {
+   "w": "neutrinos",
+   "s": 340.66,
+   "e": 341.2
+  },
+  {
+   "w": "from",
+   "s": 341.2,
+   "e": 341.44
+  },
+  {
+   "w": "near",
+   "s": 341.44,
+   "e": 341.6
+  },
+  {
+   "w": "Chicago",
+   "s": 341.6,
+   "e": 341.96
+  },
+  {
+   "w": "to",
+   "s": 341.96,
+   "e": 342.36
+  },
+  {
+   "w": "South",
+   "s": 342.36,
+   "e": 342.56
+  },
+  {
+   "w": "Dakota,",
+   "s": 342.56,
+   "e": 342.96
+  },
+  {
+   "w": "about",
+   "s": 343.56,
+   "e": 343.72
+  },
+  {
+   "w": "1",
+   "s": 343.72,
+   "e": 344.02
+  },
+  {
+   "w": ",300",
+   "s": 344.02,
+   "e": 344.48
+  },
+  {
+   "w": "kilometers.",
+   "s": 344.48,
+   "e": 344.72
+  },
+  {
+   "w": "No",
+   "s": 345.54,
+   "e": 345.84
+  },
+  {
+   "w": "tunnel",
+   "s": 345.84,
+   "e": 346.1
+  },
+  {
+   "w": "needed.",
+   "s": 346.1,
+   "e": 346.4
+  },
+  {
+   "w": "The",
+   "s": 347.04,
+   "e": 347.08
+  },
+  {
+   "w": "beam",
+   "s": 347.08,
+   "e": 347.28
+  },
+  {
+   "w": "goes",
+   "s": 347.28,
+   "e": 347.54
+  },
+  {
+   "w": "straight",
+   "s": 347.54,
+   "e": 347.86
+  },
+  {
+   "w": "through",
+   "s": 347.86,
+   "e": 348.16
+  },
+  {
+   "w": "the",
+   "s": 348.16,
+   "e": 348.3
+  },
+  {
+   "w": "Earth.",
+   "s": 348.3,
+   "e": 348.56
+  },
+  {
+   "w": "And",
+   "s": 349.1,
+   "e": 349.2
+  },
+  {
+   "w": "the",
+   "s": 349.2,
+   "e": 349.28
+  },
+  {
+   "w": "giant",
+   "s": 349.28,
+   "e": 349.54
+  },
+  {
+   "w": "detectors",
+   "s": 349.54,
+   "e": 349.86
+  },
+  {
+   "w": "waiting",
+   "s": 349.86,
+   "e": 350.28
+  },
+  {
+   "w": "for",
+   "s": 350.28,
+   "e": 350.7
+  },
+  {
+   "w": "it",
+   "s": 350.7,
+   "e": 350.82
+  },
+  {
+   "w": "sit",
+   "s": 350.82,
+   "e": 351.12
+  },
+  {
+   "w": "deep",
+   "s": 351.12,
+   "e": 351.42
+  },
+  {
+   "w": "inside",
+   "s": 351.42,
+   "e": 351.82
+  },
+  {
+   "w": "the",
+   "s": 351.82,
+   "e": 352.14
+  },
+  {
+   "w": "very",
+   "s": 352.14,
+   "e": 352.32
+  },
+  {
+   "w": "same",
+   "s": 352.32,
+   "e": 352.64
+  },
+  {
+   "w": "mine,",
+   "s": 352.64,
+   "e": 352.9
+  },
+  {
+   "w": "where",
+   "s": 353.46,
+   "e": 353.58
+  },
+  {
+   "w": "Ray",
+   "s": 353.58,
+   "e": 353.74
+  },
+  {
+   "w": "Davis",
+   "s": 353.74,
+   "e": 354.14
+  },
+  {
+   "w": "once",
+   "s": 354.14,
+   "e": 354.56
+  },
+  {
+   "w": "counted",
+   "s": 354.56,
+   "e": 354.96
+  },
+  {
+   "w": "his",
+   "s": 354.96,
+   "e": 355.22
+  },
+  {
+   "w": "argon",
+   "s": 355.22,
+   "e": 355.6
+  },
+  {
+   "w": "atoms.",
+   "s": 355.6,
+   "e": 355.82
+  },
+  {
+   "w": "And",
+   "s": 357.98,
+   "e": 358.54
+  },
+  {
+   "w": "what",
+   "s": 358.54,
+   "e": 358.72
+  },
+  {
+   "w": "won",
+   "s": 358.72,
+   "e": 358.92
+  },
+  {
+   "w": "the",
+   "s": 358.92,
+   "e": 359.04
+  },
+  {
+   "w": "Nobel",
+   "s": 359.04,
+   "e": 359.2
+  },
+  {
+   "w": "Prize",
+   "s": 359.2,
+   "e": 359.68
+  },
+  {
+   "w": "this",
+   "s": 359.68,
+   "e": 359.96
+  },
+  {
+   "w": "year?",
+   "s": 359.96,
+   "e": 360.2
+  },
+  {
+   "w": "A",
+   "s": 360.86,
+   "e": 360.9
+  },
+  {
+   "w": "detector",
+   "s": 360.9,
+   "e": 361.14
+  },
+  {
+   "w": "at",
+   "s": 361.14,
+   "e": 361.44
+  },
+  {
+   "w": "the",
+   "s": 361.44,
+   "e": 361.54
+  },
+  {
+   "w": "South",
+   "s": 361.54,
+   "e": 361.78
+  },
+  {
+   "w": "Pole",
+   "s": 361.78,
+   "e": 362.1
+  },
+  {
+   "w": "called",
+   "s": 362.1,
+   "e": 362.48
+  },
+  {
+   "w": "Ice",
+   "s": 362.48,
+   "e": 362.78
+  },
+  {
+   "w": "Cube.",
+   "s": 362.78,
+   "e": 363.1
+  },
+  {
+   "w": "Scientists",
+   "s": 363.76,
+   "e": 364.18
+  },
+  {
+   "w": "drilled",
+   "s": 364.18,
+   "e": 364.54
+  },
+  {
+   "w": "holes",
+   "s": 364.54,
+   "e": 364.84
+  },
+  {
+   "w": "up",
+   "s": 364.84,
+   "e": 365.14
+  },
+  {
+   "w": "to",
+   "s": 365.14,
+   "e": 365.3
+  },
+  {
+   "w": "two",
+   "s": 365.3,
+   "e": 365.6
+  },
+  {
+   "w": "and",
+   "s": 365.6,
+   "e": 365.92
+  },
+  {
+   "w": "a",
+   "s": 365.92,
+   "e": 365.98
+  },
+  {
+   "w": "half",
+   "s": 365.98,
+   "e": 366.18
+  },
+  {
+   "w": "kilometers",
+   "s": 366.18,
+   "e": 366.46
+  },
+  {
+   "w": "deep",
+   "s": 366.46,
+   "e": 366.96
+  },
+  {
+   "w": "into",
+   "s": 366.96,
+   "e": 367.3
+  },
+  {
+   "w": "the",
+   "s": 367.3,
+   "e": 367.42
+  },
+  {
+   "w": "Antarctic",
+   "s": 367.42,
+   "e": 367.76
+  },
+  {
+   "w": "ice",
+   "s": 367.76,
+   "e": 368.18
+  },
+  {
+   "w": "and",
+   "s": 368.18,
+   "e": 368.76
+  },
+  {
+   "w": "lowered",
+   "s": 368.76,
+   "e": 368.98
+  },
+  {
+   "w": "more",
+   "s": 368.98,
+   "e": 369.26
+  },
+  {
+   "w": "than",
+   "s": 369.26,
+   "e": 369.4
+  },
+  {
+   "w": "5",
+   "s": 369.4,
+   "e": 369.72
+  },
+  {
+   "w": ",000",
+   "s": 369.72,
+   "e": 370.18
+  },
+  {
+   "w": "light",
+   "s": 370.18,
+   "e": 370.38
+  },
+  {
+   "w": "sensors",
+   "s": 370.38,
+   "e": 370.84
+  },
+  {
+   "w": "into",
+   "s": 370.84,
+   "e": 371.3
+  },
+  {
+   "w": "a",
+   "s": 371.3,
+   "e": 371.46
+  },
+  {
+   "w": "full",
+   "s": 371.46,
+   "e": 371.64
+  },
+  {
+   "w": "cubic",
+   "s": 371.64,
+   "e": 371.88
+  },
+  {
+   "w": "kilometer",
+   "s": 371.88,
+   "e": 372.6
+  },
+  {
+   "w": "of",
+   "s": 372.6,
+   "e": 372.7
+  },
+  {
+   "w": "it.",
+   "s": 372.7,
+   "e": 372.84
+  },
+  {
+   "w": "When",
+   "s": 373.2,
+   "e": 373.32
+  },
+  {
+   "w": "a",
+   "s": 373.32,
+   "e": 373.4
+  },
+  {
+   "w": "neutrino",
+   "s": 373.4,
+   "e": 373.8
+  },
+  {
+   "w": "smashes",
+   "s": 373.8,
+   "e": 374.28
+  },
+  {
+   "w": "into",
+   "s": 374.28,
+   "e": 374.58
+  },
+  {
+   "w": "the",
+   "s": 374.58,
+   "e": 374.7
+  },
+  {
+   "w": "ice,",
+   "s": 374.7,
+   "e": 374.96
+  },
+  {
+   "w": "the",
+   "s": 375.36,
+   "e": 375.46
+  },
+  {
+   "w": "sensors",
+   "s": 375.46,
+   "e": 375.8
+  },
+  {
+   "w": "catch",
+   "s": 375.8,
+   "e": 376.14
+  },
+  {
+   "w": "the",
+   "s": 376.14,
+   "e": 376.44
+  },
+  {
+   "w": "same",
+   "s": 376.44,
+   "e": 376.7
+  },
+  {
+   "w": "kind",
+   "s": 376.7,
+   "e": 376.94
+  },
+  {
+   "w": "of",
+   "s": 376.94,
+   "e": 377.06
+  },
+  {
+   "w": "faint",
+   "s": 377.06,
+   "e": 377.32
+  },
+  {
+   "w": "blue",
+   "s": 377.32,
+   "e": 377.66
+  },
+  {
+   "w": "flash",
+   "s": 377.66,
+   "e": 377.94
+  },
+  {
+   "w": "and",
+   "s": 377.94,
+   "e": 378.7
+  },
+  {
+   "w": "work",
+   "s": 378.7,
+   "e": 378.88
+  },
+  {
+   "w": "out",
+   "s": 378.88,
+   "e": 379.1
+  },
+  {
+   "w": "which",
+   "s": 379.1,
+   "e": 379.3
+  },
+  {
+   "w": "direction",
+   "s": 379.3,
+   "e": 379.58
+  },
+  {
+   "w": "in",
+   "s": 379.58,
+   "e": 380.02
+  },
+  {
+   "w": "the",
+   "s": 380.02,
+   "e": 380.14
+  },
+  {
+   "w": "sky",
+   "s": 380.14,
+   "e": 380.32
+  },
+  {
+   "w": "it",
+   "s": 380.32,
+   "e": 380.54
+  },
+  {
+   "w": "came",
+   "s": 380.54,
+   "e": 380.74
+  },
+  {
+   "w": "from.",
+   "s": 380.74,
+   "e": 381.04
+  },
+  {
+   "w": "The",
+   "s": 381.04,
+   "e": 381.54
+  },
+  {
+   "w": "2026",
+   "s": 381.54,
+   "e": 382.28
+  },
+  {
+   "w": "Nobel",
+   "s": 382.28,
+   "e": 382.64
+  },
+  {
+   "w": "Prize",
+   "s": 382.64,
+   "e": 383.1
+  },
+  {
+   "w": "in",
+   "s": 383.1,
+   "e": 383.42
+  },
+  {
+   "w": "physics",
+   "s": 383.42,
+   "e": 383.7
+  },
+  {
+   "w": "went",
+   "s": 383.7,
+   "e": 384.08
+  },
+  {
+   "w": "to",
+   "s": 384.08,
+   "e": 384.26
+  },
+  {
+   "w": "Francis",
+   "s": 384.26,
+   "e": 384.6
+  },
+  {
+   "w": "Holtson,",
+   "s": 384.6,
+   "e": 385.18
+  },
+  {
+   "w": "the",
+   "s": 385.4,
+   "e": 385.7
+  },
+  {
+   "w": "scientist",
+   "s": 385.7,
+   "e": 386.1
+  },
+  {
+   "w": "who",
+   "s": 386.1,
+   "e": 386.44
+  },
+  {
+   "w": "led",
+   "s": 386.44,
+   "e": 386.64
+  },
+  {
+   "w": "Ice",
+   "s": 386.64,
+   "e": 386.86
+  },
+  {
+   "w": "Cube",
+   "s": 386.86,
+   "e": 387.16
+  },
+  {
+   "w": "for",
+   "s": 387.16,
+   "e": 387.7
+  },
+  {
+   "w": "discovering",
+   "s": 387.7,
+   "e": 388.04
+  },
+  {
+   "w": "high",
+   "s": 388.04,
+   "e": 388.46
+  },
+  {
+   "w": "-energy",
+   "s": 388.46,
+   "e": 388.82
+  },
+  {
+   "w": "neutrinos",
+   "s": 388.82,
+   "e": 389.34
+  },
+  {
+   "w": "coming",
+   "s": 389.34,
+   "e": 389.76
+  },
+  {
+   "w": "from",
+   "s": 389.76,
+   "e": 390.04
+  },
+  {
+   "w": "deep",
+   "s": 390.04,
+   "e": 390.22
+  },
+  {
+   "w": "space.",
+   "s": 390.22,
+   "e": 390.64
+  },
+  {
+   "w": "He",
+   "s": 391.32,
+   "e": 391.42
+  },
+  {
+   "w": "receives",
+   "s": 391.42,
+   "e": 391.58
+  },
+  {
+   "w": "it",
+   "s": 391.58,
+   "e": 391.92
+  },
+  {
+   "w": "in",
+   "s": 391.92,
+   "e": 392.06
+  },
+  {
+   "w": "Stockholm",
+   "s": 392.06,
+   "e": 392.32
+  },
+  {
+   "w": "on",
+   "s": 392.32,
+   "e": 392.8
+  },
+  {
+   "w": "December",
+   "s": 392.8,
+   "e": 393.02
+  },
+  {
+   "w": "the",
+   "s": 393.02,
+   "e": 393.36
+  },
+  {
+   "w": "10th.",
+   "s": 393.36,
+   "e": 393.84
+  },
+  {
+   "w": "What",
+   "s": 394.06,
+   "e": 394.28
+  },
+  {
+   "w": "did",
+   "s": 394.28,
+   "e": 394.44
+  },
+  {
+   "w": "it",
+   "s": 394.44,
+   "e": 394.56
+  },
+  {
+   "w": "actually",
+   "s": 394.56,
+   "e": 394.8
+  },
+  {
+   "w": "find?",
+   "s": 394.8,
+   "e": 395.28
+  },
+  {
+   "w": "In",
+   "s": 395.92,
+   "e": 396.12
+  },
+  {
+   "w": "2017,",
+   "s": 396.12,
+   "e": 396.76
+  },
+  {
+   "w": "one",
+   "s": 396.94,
+   "e": 397.34
+  },
+  {
+   "w": "neutrino",
+   "s": 397.34,
+   "e": 397.74
+  },
+  {
+   "w": "was",
+   "s": 397.74,
+   "e": 398.02
+  },
+  {
+   "w": "traced",
+   "s": 398.02,
+   "e": 398.2
+  },
+  {
+   "w": "back",
+   "s": 398.2,
+   "e": 398.5
+  },
+  {
+   "w": "to",
+   "s": 398.5,
+   "e": 398.72
+  },
+  {
+   "w": "a",
+   "s": 398.72,
+   "e": 398.76
+  },
+  {
+   "w": "blazer,",
+   "s": 398.76,
+   "e": 399.06
+  },
+  {
+   "w": "a",
+   "s": 399.58,
+   "e": 399.7
+  },
+  {
+   "w": "giant",
+   "s": 399.7,
+   "e": 399.96
+  },
+  {
+   "w": "black",
+   "s": 399.96,
+   "e": 400.26
+  },
+  {
+   "w": "hole",
+   "s": 400.26,
+   "e": 400.54
+  },
+  {
+   "w": "firing",
+   "s": 400.54,
+   "e": 400.92
+  },
+  {
+   "w": "a",
+   "s": 400.92,
+   "e": 401.16
+  },
+  {
+   "w": "jet",
+   "s": 401.16,
+   "e": 401.3
+  },
+  {
+   "w": "almost",
+   "s": 401.3,
+   "e": 401.68
+  },
+  {
+   "w": "straight",
+   "s": 401.68,
+   "e": 401.98
+  },
+  {
+   "w": "at",
+   "s": 401.98,
+   "e": 402.18
+  },
+  {
+   "w": "us,",
+   "s": 402.18,
+   "e": 402.42
+  },
+  {
+   "w": "about",
+   "s": 402.7,
+   "e": 402.94
+  },
+  {
+   "w": "4",
+   "s": 402.94,
+   "e": 403.3
+  },
+  {
+   "w": "billion",
+   "s": 403.3,
+   "e": 403.58
+  },
+  {
+   "w": "light",
+   "s": 403.58,
+   "e": 403.84
+  },
+  {
+   "w": "-years",
+   "s": 403.84,
+   "e": 404.12
+  },
+  {
+   "w": "away.",
+   "s": 404.12,
+   "e": 404.38
+  },
+  {
+   "w": "And",
+   "s": 405.0,
+   "e": 405.08
+  },
+  {
+   "w": "in",
+   "s": 405.08,
+   "e": 405.16
+  },
+  {
+   "w": "2023,",
+   "s": 405.16,
+   "e": 405.98
+  },
+  {
+   "w": "Ice",
+   "s": 406.34,
+   "e": 406.54
+  },
+  {
+   "w": "Cube",
+   "s": 406.54,
+   "e": 406.8
+  },
+  {
+   "w": "made",
+   "s": 406.8,
+   "e": 407.0
+  },
+  {
+   "w": "the",
+   "s": 407.0,
+   "e": 407.14
+  },
+  {
+   "w": "first",
+   "s": 407.14,
+   "e": 407.36
+  },
+  {
+   "w": "picture",
+   "s": 407.36,
+   "e": 407.62
+  },
+  {
+   "w": "of",
+   "s": 407.62,
+   "e": 407.96
+  },
+  {
+   "w": "our",
+   "s": 407.96,
+   "e": 408.1
+  },
+  {
+   "w": "own",
+   "s": 408.1,
+   "e": 408.26
+  },
+  {
+   "w": "galaxy",
+   "s": 408.26,
+   "e": 408.48
+  },
+  {
+   "w": "in",
+   "s": 408.48,
+   "e": 408.9
+  },
+  {
+   "w": "neutrinos.",
+   "s": 408.9,
+   "e": 409.32
+  },
+  {
+   "w": "Can",
+   "s": 411.46,
+   "e": 412.02
+  },
+  {
+   "w": "neutrinos",
+   "s": 412.02,
+   "e": 412.52
+  },
+  {
+   "w": "warn",
+   "s": 412.52,
+   "e": 412.94
+  },
+  {
+   "w": "us",
+   "s": 412.94,
+   "e": 413.16
+  },
+  {
+   "w": "about",
+   "s": 413.16,
+   "e": 413.34
+  },
+  {
+   "w": "anything?",
+   "s": 413.34,
+   "e": 413.7
+  },
+  {
+   "w": "Yes,",
+   "s": 414.32,
+   "e": 414.56
+  },
+  {
+   "w": "when",
+   "s": 414.86,
+   "e": 415.02
+  },
+  {
+   "w": "a",
+   "s": 415.02,
+   "e": 415.08
+  },
+  {
+   "w": "giant",
+   "s": 415.08,
+   "e": 415.36
+  },
+  {
+   "w": "star",
+   "s": 415.36,
+   "e": 415.74
+  },
+  {
+   "w": "collapses",
+   "s": 415.74,
+   "e": 416.24
+  },
+  {
+   "w": "and",
+   "s": 416.24,
+   "e": 416.56
+  },
+  {
+   "w": "explodes",
+   "s": 416.56,
+   "e": 416.94
+  },
+  {
+   "w": "as",
+   "s": 416.94,
+   "e": 417.26
+  },
+  {
+   "w": "a",
+   "s": 417.26,
+   "e": 417.36
+  },
+  {
+   "w": "supernova,",
+   "s": 417.36,
+   "e": 417.82
+  },
+  {
+   "w": "most",
+   "s": 418.42,
+   "e": 418.64
+  },
+  {
+   "w": "of",
+   "s": 418.64,
+   "e": 418.82
+  },
+  {
+   "w": "its",
+   "s": 418.82,
+   "e": 418.9
+  },
+  {
+   "w": "energy",
+   "s": 418.9,
+   "e": 419.26
+  },
+  {
+   "w": "pours",
+   "s": 419.26,
+   "e": 419.6
+  },
+  {
+   "w": "out",
+   "s": 419.6,
+   "e": 419.84
+  },
+  {
+   "w": "as",
+   "s": 419.84,
+   "e": 420.0
+  },
+  {
+   "w": "neutrinos,",
+   "s": 420.0,
+   "e": 420.46
+  },
+  {
+   "w": "and",
+   "s": 420.86,
+   "e": 421.1
+  },
+  {
+   "w": "they",
+   "s": 421.1,
+   "e": 421.22
+  },
+  {
+   "w": "escape",
+   "s": 421.22,
+   "e": 421.46
+  },
+  {
+   "w": "before",
+   "s": 421.46,
+   "e": 421.86
+  },
+  {
+   "w": "the",
+   "s": 421.86,
+   "e": 422.06
+  },
+  {
+   "w": "light",
+   "s": 422.06,
+   "e": 422.22
+  },
+  {
+   "w": "does.",
+   "s": 422.22,
+   "e": 422.5
+  },
+  {
+   "w": "In",
+   "s": 423.06,
+   "e": 423.12
+  },
+  {
+   "w": "1987,",
+   "s": 423.12,
+   "e": 423.74
+  },
+  {
+   "w": "a",
+   "s": 424.4,
+   "e": 424.54
+  },
+  {
+   "w": "star",
+   "s": 424.54,
+   "e": 424.8
+  },
+  {
+   "w": "exploded",
+   "s": 424.8,
+   "e": 425.34
+  },
+  {
+   "w": "in",
+   "s": 425.34,
+   "e": 425.66
+  },
+  {
+   "w": "a",
+   "s": 425.66,
+   "e": 425.74
+  },
+  {
+   "w": "nearby",
+   "s": 425.74,
+   "e": 425.9
+  },
+  {
+   "w": "galaxy.",
+   "s": 425.9,
+   "e": 426.48
+  },
+  {
+   "w": "Three",
+   "s": 427.38,
+   "e": 427.48
+  },
+  {
+   "w": "detectors",
+   "s": 427.48,
+   "e": 427.78
+  },
+  {
+   "w": "on",
+   "s": 427.78,
+   "e": 428.12
+  },
+  {
+   "w": "Earth",
+   "s": 428.12,
+   "e": 428.36
+  },
+  {
+   "w": "caught",
+   "s": 428.36,
+   "e": 428.64
+  },
+  {
+   "w": "25",
+   "s": 428.64,
+   "e": 429.04
+  },
+  {
+   "w": "neutrinos",
+   "s": 429.04,
+   "e": 429.8
+  },
+  {
+   "w": "from",
+   "s": 429.8,
+   "e": 430.06
+  },
+  {
+   "w": "it,",
+   "s": 430.06,
+   "e": 430.24
+  },
+  {
+   "w": "in",
+   "s": 430.5,
+   "e": 430.66
+  },
+  {
+   "w": "about",
+   "s": 430.66,
+   "e": 430.82
+  },
+  {
+   "w": "13",
+   "s": 430.82,
+   "e": 431.26
+  },
+  {
+   "w": "seconds,",
+   "s": 431.26,
+   "e": 431.72
+  },
+  {
+   "w": "a",
+   "s": 432.18,
+   "e": 432.26
+  },
+  {
+   "w": "few",
+   "s": 432.26,
+   "e": 432.44
+  },
+  {
+   "w": "hours",
+   "s": 432.44,
+   "e": 432.66
+  },
+  {
+   "w": "before",
+   "s": 432.66,
+   "e": 432.92
+  },
+  {
+   "w": "anyone",
+   "s": 432.92,
+   "e": 433.28
+  },
+  {
+   "w": "saw",
+   "s": 433.28,
+   "e": 433.62
+  },
+  {
+   "w": "the",
+   "s": 433.62,
+   "e": 433.74
+  },
+  {
+   "w": "flash",
+   "s": 433.74,
+   "e": 433.94
+  },
+  {
+   "w": "of",
+   "s": 433.94,
+   "e": 434.18
+  },
+  {
+   "w": "light.",
+   "s": 434.18,
+   "e": 434.36
+  },
+  {
+   "w": "Today",
+   "s": 434.9,
+   "e": 435.12
+  },
+  {
+   "w": "neutrino",
+   "s": 435.12,
+   "e": 435.86
+  },
+  {
+   "w": "detectors",
+   "s": 435.86,
+   "e": 436.18
+  },
+  {
+   "w": "are",
+   "s": 436.18,
+   "e": 436.62
+  },
+  {
+   "w": "linked",
+   "s": 436.62,
+   "e": 436.8
+  },
+  {
+   "w": "in",
+   "s": 436.8,
+   "e": 437.16
+  },
+  {
+   "w": "an",
+   "s": 437.16,
+   "e": 437.24
+  },
+  {
+   "w": "alert",
+   "s": 437.24,
+   "e": 437.46
+  },
+  {
+   "w": "network.",
+   "s": 437.46,
+   "e": 437.8
+  },
+  {
+   "w": "If",
+   "s": 437.8,
+   "e": 438.62
+  },
+  {
+   "w": "a",
+   "s": 438.62,
+   "e": 438.7
+  },
+  {
+   "w": "star",
+   "s": 438.7,
+   "e": 439.02
+  },
+  {
+   "w": "in",
+   "s": 439.02,
+   "e": 439.24
+  },
+  {
+   "w": "our",
+   "s": 439.24,
+   "e": 439.3
+  },
+  {
+   "w": "galaxy",
+   "s": 439.3,
+   "e": 439.62
+  },
+  {
+   "w": "explodes,",
+   "s": 439.62,
+   "e": 440.16
+  },
+  {
+   "w": "the",
+   "s": 440.82,
+   "e": 440.88
+  },
+  {
+   "w": "neutrinos",
+   "s": 440.88,
+   "e": 441.3
+  },
+  {
+   "w": "will",
+   "s": 441.3,
+   "e": 441.56
+  },
+  {
+   "w": "tell",
+   "s": 441.56,
+   "e": 441.76
+  },
+  {
+   "w": "astronomers",
+   "s": 441.76,
+   "e": 442.34
+  },
+  {
+   "w": "where",
+   "s": 442.34,
+   "e": 442.68
+  },
+  {
+   "w": "to",
+   "s": 442.68,
+   "e": 442.86
+  },
+  {
+   "w": "point",
+   "s": 442.86,
+   "e": 443.08
+  },
+  {
+   "w": "their",
+   "s": 443.08,
+   "e": 443.3
+  },
+  {
+   "w": "telescopes.",
+   "s": 443.3,
+   "e": 443.62
+  },
+  {
+   "w": "It",
+   "s": 444.46,
+   "e": 444.54
+  },
+  {
+   "w": "could",
+   "s": 444.54,
+   "e": 444.66
+  },
+  {
+   "w": "be",
+   "s": 444.66,
+   "e": 444.78
+  },
+  {
+   "w": "a",
+   "s": 444.78,
+   "e": 444.86
+  },
+  {
+   "w": "long",
+   "s": 444.86,
+   "e": 445.02
+  },
+  {
+   "w": "wait.",
+   "s": 445.02,
+   "e": 445.32
+  },
+  {
+   "w": "Astronomers",
+   "s": 445.92,
+   "e": 446.48
+  },
+  {
+   "w": "estimate",
+   "s": 446.48,
+   "e": 446.68
+  },
+  {
+   "w": "that",
+   "s": 446.68,
+   "e": 447.26
+  },
+  {
+   "w": "a",
+   "s": 447.26,
+   "e": 447.32
+  },
+  {
+   "w": "star",
+   "s": 447.32,
+   "e": 447.62
+  },
+  {
+   "w": "explodes",
+   "s": 447.62,
+   "e": 448.04
+  },
+  {
+   "w": "in",
+   "s": 448.04,
+   "e": 448.38
+  },
+  {
+   "w": "our",
+   "s": 448.38,
+   "e": 448.48
+  },
+  {
+   "w": "galaxy",
+   "s": 448.48,
+   "e": 448.8
+  },
+  {
+   "w": "only",
+   "s": 448.8,
+   "e": 449.44
+  },
+  {
+   "w": "once",
+   "s": 449.44,
+   "e": 449.8
+  },
+  {
+   "w": "or",
+   "s": 449.8,
+   "e": 450.0
+  },
+  {
+   "w": "twice",
+   "s": 450.0,
+   "e": 450.2
+  },
+  {
+   "w": "a",
+   "s": 450.2,
+   "e": 450.4
+  },
+  {
+   "w": "century,",
+   "s": 450.4,
+   "e": 450.86
+  },
+  {
+   "w": "and",
+   "s": 451.24,
+   "e": 451.44
+  },
+  {
+   "w": "the",
+   "s": 451.44,
+   "e": 451.54
+  },
+  {
+   "w": "last",
+   "s": 451.54,
+   "e": 451.72
+  },
+  {
+   "w": "one",
+   "s": 451.72,
+   "e": 451.96
+  },
+  {
+   "w": "anyone",
+   "s": 451.96,
+   "e": 452.16
+  },
+  {
+   "w": "saw",
+   "s": 452.16,
+   "e": 452.58
+  },
+  {
+   "w": "was",
+   "s": 452.58,
+   "e": 452.82
+  },
+  {
+   "w": "more",
+   "s": 452.82,
+   "e": 453.02
+  },
+  {
+   "w": "than",
+   "s": 453.02,
+   "e": 453.16
+  },
+  {
+   "w": "400",
+   "s": 453.16,
+   "e": 453.42
+  },
+  {
+   "w": "years",
+   "s": 453.42,
+   "e": 453.9
+  },
+  {
+   "w": "ago.",
+   "s": 453.9,
+   "e": 454.2
+  },
+  {
+   "w": "What's",
+   "s": 454.58,
+   "e": 454.78
+  },
+  {
+   "w": "the",
+   "s": 454.78,
+   "e": 454.86
+  },
+  {
+   "w": "most",
+   "s": 454.86,
+   "e": 455.0
+  },
+  {
+   "w": "powerful",
+   "s": 455.0,
+   "e": 455.4
+  },
+  {
+   "w": "one",
+   "s": 455.4,
+   "e": 455.72
+  },
+  {
+   "w": "ever",
+   "s": 455.72,
+   "e": 455.92
+  },
+  {
+   "w": "seen?",
+   "s": 455.92,
+   "e": 456.2
+  },
+  {
+   "w": "In",
+   "s": 456.86,
+   "e": 457.0
+  },
+  {
+   "w": "2025,",
+   "s": 457.0,
+   "e": 457.8
+  },
+  {
+   "w": "scientists",
+   "s": 458.22,
+   "e": 458.68
+  },
+  {
+   "w": "announced",
+   "s": 458.68,
+   "e": 459.14
+  },
+  {
+   "w": "a",
+   "s": 459.14,
+   "e": 459.42
+  },
+  {
+   "w": "neutrino",
+   "s": 459.42,
+   "e": 459.86
+  },
+  {
+   "w": "caught",
+   "s": 459.86,
+   "e": 460.1
+  },
+  {
+   "w": "in",
+   "s": 460.1,
+   "e": 460.34
+  },
+  {
+   "w": "a",
+   "s": 460.34,
+   "e": 460.42
+  },
+  {
+   "w": "detector",
+   "s": 460.42,
+   "e": 460.64
+  },
+  {
+   "w": "deep",
+   "s": 460.64,
+   "e": 461.02
+  },
+  {
+   "w": "in",
+   "s": 461.02,
+   "e": 461.36
+  },
+  {
+   "w": "the",
+   "s": 461.36,
+   "e": 461.46
+  },
+  {
+   "w": "Mediterranean",
+   "s": 461.46,
+   "e": 461.94
+  },
+  {
+   "w": "Sea.",
+   "s": 461.94,
+   "e": 462.48
+  },
+  {
+   "w": "It",
+   "s": 462.48,
+   "e": 463.16
+  },
+  {
+   "w": "carried",
+   "s": 463.16,
+   "e": 463.42
+  },
+  {
+   "w": "about",
+   "s": 463.42,
+   "e": 463.7
+  },
+  {
+   "w": "220",
+   "s": 463.7,
+   "e": 464.06
+  },
+  {
+   "w": "peter",
+   "s": 464.06,
+   "e": 465.16
+  },
+  {
+   "w": "electron",
+   "s": 465.16,
+   "e": 465.36
+  },
+  {
+   "w": "volts,",
+   "s": 465.36,
+   "e": 465.88
+  },
+  {
+   "w": "thousands",
+   "s": 466.42,
+   "e": 466.78
+  },
+  {
+   "w": "of",
+   "s": 466.78,
+   "e": 467.02
+  },
+  {
+   "w": "times",
+   "s": 467.02,
+   "e": 467.18
+  },
+  {
+   "w": "more",
+   "s": 467.18,
+   "e": 467.54
+  },
+  {
+   "w": "than",
+   "s": 467.54,
+   "e": 467.68
+  },
+  {
+   "w": "the",
+   "s": 467.68,
+   "e": 467.76
+  },
+  {
+   "w": "collisions",
+   "s": 467.76,
+   "e": 468.06
+  },
+  {
+   "w": "in",
+   "s": 468.06,
+   "e": 468.44
+  },
+  {
+   "w": "the",
+   "s": 468.44,
+   "e": 468.52
+  },
+  {
+   "w": "world's",
+   "s": 468.52,
+   "e": 468.88
+  },
+  {
+   "w": "biggest",
+   "s": 468.88,
+   "e": 469.14
+  },
+  {
+   "w": "particle",
+   "s": 469.14,
+   "e": 469.46
+  },
+  {
+   "w": "collider,",
+   "s": 469.46,
+   "e": 470.12
+  },
+  {
+   "w": "where",
+   "s": 470.12,
+   "e": 470.76
+  },
+  {
+   "w": "it",
+   "s": 470.76,
+   "e": 470.86
+  },
+  {
+   "w": "came",
+   "s": 470.86,
+   "e": 471.04
+  },
+  {
+   "w": "from",
+   "s": 471.04,
+   "e": 471.28
+  },
+  {
+   "w": "is",
+   "s": 471.28,
+   "e": 471.48
+  },
+  {
+   "w": "still",
+   "s": 471.48,
+   "e": 471.7
+  },
+  {
+   "w": "a",
+   "s": 471.7,
+   "e": 471.8
+  },
+  {
+   "w": "mystery.",
+   "s": 471.8,
+   "e": 472.14
+  },
+  {
+   "w": "So,",
+   "s": 473.32,
+   "e": 473.54
+  },
+  {
+   "w": "what's",
+   "s": 473.72,
+   "e": 473.88
+  },
+  {
+   "w": "passing",
+   "s": 473.88,
+   "e": 474.08
+  },
+  {
+   "w": "through",
+   "s": 474.08,
+   "e": 474.42
+  },
+  {
+   "w": "me",
+   "s": 474.42,
+   "e": 474.56
+  },
+  {
+   "w": "right",
+   "s": 474.56,
+   "e": 474.72
+  },
+  {
+   "w": "now?",
+   "s": 474.72,
+   "e": 475.0
+  },
+  {
+   "w": "News",
+   "s": 475.54,
+   "e": 475.74
+  },
+  {
+   "w": "from",
+   "s": 475.74,
+   "e": 476.0
+  },
+  {
+   "w": "the",
+   "s": 476.0,
+   "e": 476.14
+  },
+  {
+   "w": "core",
+   "s": 476.14,
+   "e": 476.3
+  },
+  {
+   "w": "of",
+   "s": 476.3,
+   "e": 476.46
+  },
+  {
+   "w": "the",
+   "s": 476.46,
+   "e": 476.58
+  },
+  {
+   "w": "Sun,",
+   "s": 476.58,
+   "e": 476.8
+  },
+  {
+   "w": "a",
+   "s": 477.14,
+   "e": 477.28
+  },
+  {
+   "w": "little",
+   "s": 477.28,
+   "e": 477.44
+  },
+  {
+   "w": "of",
+   "s": 477.44,
+   "e": 477.6
+  },
+  {
+   "w": "your",
+   "s": 477.6,
+   "e": 477.7
+  },
+  {
+   "w": "own",
+   "s": 477.7,
+   "e": 477.92
+  },
+  {
+   "w": "radioactive",
+   "s": 477.92,
+   "e": 478.34
+  },
+  {
+   "w": "potassium,",
+   "s": 478.34,
+   "e": 478.84
+  },
+  {
+   "w": "and",
+   "s": 479.56,
+   "e": 479.7
+  },
+  {
+   "w": "maybe,",
+   "s": 479.7,
+   "e": 479.94
+  },
+  {
+   "w": "once",
+   "s": 479.94,
+   "e": 480.36
+  },
+  {
+   "w": "in",
+   "s": 480.36,
+   "e": 480.56
+  },
+  {
+   "w": "a",
+   "s": 480.56,
+   "e": 480.64
+  },
+  {
+   "w": "while,",
+   "s": 480.64,
+   "e": 480.86
+  },
+  {
+   "w": "a",
+   "s": 481.2,
+   "e": 481.26
+  },
+  {
+   "w": "messenger",
+   "s": 481.26,
+   "e": 481.62
+  },
+  {
+   "w": "from",
+   "s": 481.62,
+   "e": 481.92
+  },
+  {
+   "w": "a",
+   "s": 481.92,
+   "e": 481.96
+  },
+  {
+   "w": "black",
+   "s": 481.96,
+   "e": 482.16
+  },
+  {
+   "w": "hole",
+   "s": 482.16,
+   "e": 482.44
+  },
+  {
+   "w": "billions",
+   "s": 482.44,
+   "e": 482.76
+  },
+  {
+   "w": "of",
+   "s": 482.76,
+   "e": 483.04
+  },
+  {
+   "w": "light",
+   "s": 483.04,
+   "e": 483.16
+  },
+  {
+   "w": "years",
+   "s": 483.16,
+   "e": 483.46
+  },
+  {
+   "w": "away.",
+   "s": 483.46,
+   "e": 483.78
+  },
+  {
+   "w": "All",
+   "s": 484.5,
+   "e": 484.66
+  },
+  {
+   "w": "of",
+   "s": 484.66,
+   "e": 484.78
+  },
+  {
+   "w": "it",
+   "s": 484.78,
+   "e": 484.9
+  },
+  {
+   "w": "straight",
+   "s": 484.9,
+   "e": 485.22
+  },
+  {
+   "w": "through",
+   "s": 485.22,
+   "e": 485.6
+  },
+  {
+   "w": "you.",
+   "s": 485.6,
+   "e": 485.82
+  },
+  {
+   "w": "A",
+   "s": 486.16,
+   "e": 486.22
+  },
+  {
+   "w": "hundred",
+   "s": 486.22,
+   "e": 486.54
+  },
+  {
+   "w": "trillion",
+   "s": 486.54,
+   "e": 486.88
+  },
+  {
+   "w": "ghost",
+   "s": 486.88,
+   "e": 487.28
+  },
+  {
+   "w": "particles",
+   "s": 487.28,
+   "e": 487.7
+  },
+  {
+   "w": "just",
+   "s": 487.7,
+   "e": 488.24
+  },
+  {
+   "w": "passed",
+   "s": 488.24,
+   "e": 488.48
+  },
+  {
+   "w": "through",
+   "s": 488.48,
+   "e": 488.82
+  },
+  {
+   "w": "you,",
+   "s": 488.82,
+   "e": 489.1
+  },
+  {
+   "w": "and",
+   "s": 489.1,
+   "e": 489.6
+  },
+  {
+   "w": "they'll",
+   "s": 489.6,
+   "e": 489.72
+  },
+  {
+   "w": "keep",
+   "s": 489.72,
+   "e": 489.94
+  },
+  {
+   "w": "coming",
+   "s": 489.94,
+   "e": 490.36
+  },
+  {
+   "w": "every",
+   "s": 490.36,
+   "e": 490.64
+  },
+  {
+   "w": "second",
+   "s": 490.64,
+   "e": 491.16
+  },
+  {
+   "w": "for",
+   "s": 491.16,
+   "e": 491.52
+  },
+  {
+   "w": "the",
+   "s": 491.52,
+   "e": 491.6
+  },
+  {
+   "w": "rest",
+   "s": 491.6,
+   "e": 491.76
+  },
+  {
+   "w": "of",
+   "s": 491.76,
+   "e": 491.94
+  },
+  {
+   "w": "your",
+   "s": 491.94,
+   "e": 492.02
+  },
+  {
+   "w": "life.",
+   "s": 492.02,
+   "e": 493.1
+  }
+ ]
+}

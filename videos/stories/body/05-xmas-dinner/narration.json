@@ -1,0 +1,338 @@
+{
+ "voice": "bm_fable",
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "q_pause": 0.45,
+ "speed": 0.92,
+ "gap": 0.24,
+ "lines": [
+  {
+   "id": "c1",
+   "speaker": "q",
+   "text": "What actually happens inside me after Christmas dinner?"
+  },
+  {
+   "id": "c2",
+   "text": "A lot. Your stomach balloons, your blood fills with sugar and fat, your gut bacteria throw a party, and your brain starts begging for a nap."
+  },
+  {
+   "id": "c3",
+   "text": "So let's follow the meal, from the first bite to the moment it finally leaves your body. It's a journey through about nine metres of tubes, and it takes a lot longer than you'd think."
+  },
+  {
+   "id": "c4q",
+   "speaker": "q",
+   "text": "First, how much do we actually eat?"
+  },
+  {
+   "id": "c4",
+   "text": "Estimates vary a lot. An American food industry group says a big holiday dinner can reach about 3,000 calories. And a survey in Britain put the whole of Christmas Day at nearly 6,000.",
+   "say": "Estimates vary a lot. An American food industry group says a big holiday dinner can reach about three thousand calories. And a survey in Britain put the whole of Christmas Day at nearly six thousand."
+  },
+  {
+   "id": "c5",
+   "text": "Most adults need somewhere between 1,600 and 3,000 calories a day. So on Christmas, some of us eat two or three days of food in one.",
+   "say": "Most adults need somewhere between sixteen hundred and three thousand calories a day. So on Christmas, some of us eat two or three days of food in one."
+  },
+  {
+   "id": "s1",
+   "speaker": "q",
+   "ch": "Your stretchy stomach",
+   "gap_before": 2.2,
+   "text": "Where does all that food go first?"
+  },
+  {
+   "id": "s2",
+   "text": "Into your stomach. Empty, it holds only about 75 millilitres, a few sips of water. It's scrunched up into deep folds.",
+   "say": "Into your stomach. Empty, it holds only about seventy-five millilitres, a few sips of water. It's scrunched up into deep folds."
+  },
+  {
+   "id": "s3",
+   "text": "As you eat, those folds flatten out like an accordion. After a normal meal, it holds around a litre. At its absolute limit, it can stretch to about four."
+  },
+  {
+   "id": "s3b",
+   "text": "Its wall has three layers of muscle, running in different directions, so it can twist and squeeze your dinner like hands kneading dough."
+  },
+  {
+   "id": "s4q",
+   "speaker": "q",
+   "text": "Then why don't I feel full sooner?"
+  },
+  {
+   "id": "s5",
+   "text": "Because the signal is slow. Stretch sensors in your stomach wall report to your brain through the vagus nerve, and hormones from your gut join in. But it can take about twenty minutes for your brain to register that you're full."
+  },
+  {
+   "id": "s6",
+   "text": "And in twenty minutes, you can eat a lot of pigs in blankets."
+  },
+  {
+   "id": "a1",
+   "speaker": "q",
+   "ch": "Acid and heartburn",
+   "gap_before": 2.2,
+   "text": "What happens to the food in there?"
+  },
+  {
+   "id": "a2",
+   "text": "Your stomach squeezes and churns it in a bath of acid and enzymes. The acid is so strong that your stomach has to protect its own wall with a thick layer of mucus."
+  },
+  {
+   "id": "a2b",
+   "text": "Even so, the acid wears down the lining, so your stomach keeps rebuilding it. Its surface cells are replaced every few days."
+  },
+  {
+   "id": "a3",
+   "text": "At the top of your stomach there's a ring of muscle that keeps the acid in. But a huge meal, fatty food and alcohol can all make that ring relax."
+  },
+  {
+   "id": "a4q",
+   "speaker": "q",
+   "text": "Is that what heartburn is?"
+  },
+  {
+   "id": "a5",
+   "text": "Exactly. Acid leaks up into your food pipe, and it burns. And flopping onto the sofa right after dinner makes it even easier for the acid to flow up."
+  },
+  {
+   "id": "a5b",
+   "text": "So if heartburn is a regular guest at your Christmas, try staying upright for two or three hours after the meal, before you lie down."
+  },
+  {
+   "id": "w1",
+   "speaker": "q",
+   "ch": "The sugar wave",
+   "gap_before": 2.2,
+   "text": "What happens when the food reaches my blood?"
+  },
+  {
+   "id": "w2",
+   "text": "The potatoes, stuffing, bread and dessert are broken down into sugar, and it pours into your blood. Your pancreas answers with insulin, a hormone that helps your cells soak that sugar up."
+  },
+  {
+   "id": "w3",
+   "text": "Your muscles and liver pack the extra away as glycogen, a kind of stored sugar. Whatever doesn't fit there can end up as fat."
+  },
+  {
+   "id": "w3b",
+   "text": "Your liver can store roughly a hundred grams of glycogen, and your muscles several hundred more. After a feast, those tanks are topped up."
+  },
+  {
+   "id": "w3c",
+   "text": "Digesting all this takes work, too. Roughly a tenth of the calories in a meal are burned just processing it, which is part of why a feast can leave you feeling warm."
+  },
+  {
+   "id": "w4q",
+   "speaker": "q",
+   "text": "Can I do anything about the spike?"
+  },
+  {
+   "id": "w5",
+   "text": "Yes, and it's easy. A 2022 review found that even two to five minutes of light walking after a meal made the rise in blood sugar gentler than sitting still.",
+   "say": "Yes, and it's easy. A twenty twenty-two review found that even two to five minutes of light walking after a meal made the rise in blood sugar gentler than sitting still."
+  },
+  {
+   "id": "w6",
+   "text": "Standing up helped a little too. Walking helped more."
+  },
+  {
+   "id": "d1",
+   "speaker": "q",
+   "ch": "Room for dessert",
+   "gap_before": 2.2,
+   "text": "Why is there always room for dessert?"
+  },
+  {
+   "id": "d2",
+   "text": "Part of it is variety. When you've had enough of one flavour, it stops tasting as good, but a new flavour still looks exciting. Scientists call it sensory-specific satiety."
+  },
+  {
+   "id": "d3",
+   "text": "And in 2025, researchers in Germany found something stranger. In full mice, the very brain cells that signal fullness also release a natural opioid when sugar shows up, and that switches on a craving for sweets.",
+   "say": "And in twenty twenty-five, researchers in Germany found something stranger. In full mice, the very brain cells that signal fullness also release a natural opioid when sugar shows up, and that switches on a craving for sweets."
+  },
+  {
+   "id": "d4",
+   "text": "Brain scans hinted that the same brain region responds to sugar in people too. A dessert stomach, built into the brain."
+  },
+  {
+   "id": "z1",
+   "speaker": "q",
+   "ch": "The food coma",
+   "gap_before": 2.2,
+   "text": "Is it the turkey that makes me sleepy?"
+  },
+  {
+   "id": "z2",
+   "text": "That's a myth. Turkey does contain tryptophan, which your brain uses to make sleep chemicals. But many meats contain about as much. Salmon does too, and nobody blames the salmon."
+  },
+  {
+   "id": "z3",
+   "text": "And in a big meal, tryptophan has to compete with other amino acids to get into your brain. Most of it never gets there."
+  },
+  {
+   "id": "z4q",
+   "speaker": "q",
+   "text": "So why do I want a nap?"
+  },
+  {
+   "id": "z5",
+   "text": "Mostly because the meal is enormous. Your body switches into rest-and-digest mode, and alcohol adds to the drowsiness."
+  },
+  {
+   "id": "z6",
+   "text": "Plus, many families eat in the afternoon, right when your body clock naturally dips."
+  },
+  {
+   "id": "g1",
+   "speaker": "q",
+   "ch": "Sprouts and gas",
+   "gap_before": 2.2,
+   "text": "Why do sprouts make me so gassy?"
+  },
+  {
+   "id": "g2",
+   "text": "Brussels sprouts contain a sugar called raffinose. Your body has no enzyme to break it down, so it travels on to your large intestine untouched."
+  },
+  {
+   "id": "g3",
+   "text": "There, trillions of bacteria feast on it, and their waste is gas. Hydrogen, carbon dioxide and, in some people, methane."
+  },
+  {
+   "id": "g3b",
+   "text": "You carry roughly 38 trillion gut bacteria, about as many as your own body's cells. To them, Christmas dinner is a feast too.",
+   "say": "You carry roughly thirty-eight trillion gut bacteria, about as many as your own body's cells. To them, Christmas dinner is a feast too."
+  },
+  {
+   "id": "g4",
+   "text": "Most people pass gas more than a dozen times a day. After Christmas dinner, your gut works overtime."
+  },
+  {
+   "id": "k1",
+   "speaker": "q",
+   "ch": "The scale the next morning",
+   "gap_before": 2.2,
+   "text": "Why am I heavier the next morning?"
+  },
+  {
+   "id": "k2",
+   "text": "Mostly water. Salty food makes your body hold on to extra water. And every gram of glycogen you store comes packed with about three grams of water."
+  },
+  {
+   "id": "k3",
+   "text": "And part of the meal is, quite literally, still inside you."
+  },
+  {
+   "id": "k4q",
+   "speaker": "q",
+   "text": "So how much fat do people really gain?"
+  },
+  {
+   "id": "k5",
+   "text": "Less than you'd think. A study in the United States weighed adults before and after the holidays. On average, they gained less than half a kilo, about one pound."
+  },
+  {
+   "id": "k6",
+   "text": "The catch? When they were weighed again months later, most of that pound was still there."
+  },
+  {
+   "id": "h1",
+   "speaker": "q",
+   "ch": "Wine and your heart",
+   "gap_before": 2.2,
+   "text": "What about all the wine?"
+  },
+  {
+   "id": "h2",
+   "text": "Your liver deals with it, at roughly one standard drink per hour. Drink faster than that, and the alcohol piles up in your blood."
+  },
+  {
+   "id": "h2b",
+   "text": "Alcohol also dries you out. It switches off a hormone that tells your kidneys to hold on to water, which is part of why you wake up thirsty."
+  },
+  {
+   "id": "h3",
+   "text": "Heavy drinking can even throw your heart out of rhythm. Doctors saw it so often after weekends and holidays that in 1978 they named it holiday heart syndrome.",
+   "say": "Heavy drinking can even throw your heart out of rhythm. Doctors saw it so often after weekends and holidays that in nineteen seventy-eight they named it holiday heart syndrome."
+  },
+  {
+   "id": "h4q",
+   "speaker": "q",
+   "text": "Is Christmas actually risky for hearts?"
+  },
+  {
+   "id": "h5",
+   "text": "A little. A Swedish study of more than 280,000 heart attacks found that the risk on Christmas Eve was about 37 percent higher than in the weeks around the holidays.",
+   "say": "A little. A Swedish study of more than two hundred and eighty thousand heart attacks found that the risk on Christmas Eve was about thirty-seven percent higher than in the weeks around the holidays."
+  },
+  {
+   "id": "h6",
+   "text": "Nobody knows exactly why. Stress, heavy meals, alcohol and cold weather may all play a part. So if someone has chest pain, don't wait until after the holidays. Call for help right away."
+  },
+  {
+   "id": "l1",
+   "speaker": "q",
+   "ch": "The leftovers trap",
+   "gap_before": 2.2,
+   "text": "Are the leftovers safe?"
+  },
+  {
+   "id": "l2",
+   "text": "Mostly, if you're quick. There's a bacterium called Clostridium perfringens that loves big trays of meat and gravy left out at room temperature."
+  },
+  {
+   "id": "l3",
+   "text": "In the United States, it causes close to a million cases of food poisoning a year, and outbreaks peak in November and December. Turkey and roast beef are the usual suspects."
+  },
+  {
+   "id": "l4",
+   "text": "The fix is simple. Get leftovers into the fridge within two hours, cut big pieces smaller so they cool faster, and reheat them until they're steaming hot."
+  },
+  {
+   "id": "t1",
+   "speaker": "q",
+   "ch": "The long goodbye",
+   "gap_before": 2.2,
+   "text": "How long until the meal is gone?"
+  },
+  {
+   "id": "t2",
+   "text": "Longer than you'd guess. Food takes about six to eight hours to pass through your stomach and small intestine."
+  },
+  {
+   "id": "t2b",
+   "text": "Your small intestine does most of the work. Its lining is covered in tiny, finger-like folds that soak up nutrients. Spread flat, the inside of your gut would cover about half a badminton court."
+  },
+  {
+   "id": "t3",
+   "text": "Then it moves into your colon, which can take another day and a half. All in all, according to the Mayo Clinic, two to five days."
+  },
+  {
+   "id": "t4",
+   "text": "So the Christmas dinner you eat on the twenty-fifth could still be with you a few days later."
+  },
+  {
+   "id": "o1",
+   "speaker": "q",
+   "gap_before": 1.0,
+   "text": "So, should I skip Christmas dinner?"
+  },
+  {
+   "id": "o2",
+   "text": "Not at all. Your body is built for feasts. Your stomach stretches, your acid kills germs, your liver and muscles fill their sugar tanks, and trillions of bacteria get fed. Then it all recovers. Just eat a little slower, take a short walk afterwards, and go easy on the wine."
+  },
+  {
+   "id": "o3",
+   "text": "That's what Christmas dinner does to your body."
+  },
+  {
+   "id": "o4",
+   "speaker": "q",
+   "gap_before": 0.5,
+   "text": "Subscribe for more of what your body does behind your back, and tell us your favourite holiday dish in the comments."
+  }
+ ]
+}

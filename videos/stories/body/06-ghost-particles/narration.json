@@ -1,0 +1,328 @@
+{
+ "voice": "bm_fable",
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "q_pause": 0.45,
+ "speed": 0.92,
+ "gap": 0.24,
+ "lines": [
+  {
+   "id": "c1",
+   "speaker": "q",
+   "text": "Is something passing through my body right now?"
+  },
+  {
+   "id": "c2",
+   "text": "Yes. Trillions of tiny particles every second. They came from the Sun, they fly straight through your skin, your bones and your brain, and out the other side. You never feel a thing."
+  },
+  {
+   "id": "c3",
+   "text": "They're called neutrinos. Physicists call them ghost particles. And this year, catching them won the Nobel Prize in Physics."
+  },
+  {
+   "id": "c4q",
+   "speaker": "q",
+   "text": "Wait, how many are we talking about?"
+  },
+  {
+   "id": "c5",
+   "text": "Every square centimetre of you, about the size of a fingernail, is crossed by roughly sixty-five billion neutrinos from the Sun every second. Over your whole body, that's on the order of a hundred trillion."
+  },
+  {
+   "id": "g1",
+   "speaker": "q",
+   "ch": "What is a ghost particle?",
+   "gap_before": 2.2,
+   "text": "So what exactly is a neutrino?"
+  },
+  {
+   "id": "g2",
+   "text": "One of the most common particles in the universe. It has no electric charge, and it's incredibly light, at least a million times lighter than an electron."
+  },
+  {
+   "id": "g2b",
+   "text": "Some are leftovers from the Big Bang. Every sugar-cube-sized bit of space around you holds about three hundred and thirty of them. Only particles of light are more common."
+  },
+  {
+   "id": "g3",
+   "text": "Because it has no charge, electricity and magnetism don't touch it. It only feels the weak force, which almost never acts. So it slips between atoms like they're not even there."
+  },
+  {
+   "id": "g4q",
+   "speaker": "q",
+   "text": "How easily does it slip through?"
+  },
+  {
+   "id": "g5",
+   "text": "Physicists like to say a neutrino could cross a wall of lead a light-year thick, and still have a good chance of coming out the other side."
+  },
+  {
+   "id": "g6",
+   "text": "The Earth is nothing to them. At night, neutrinos from the Sun come up through the whole planet, through your mattress, and through you."
+  },
+  {
+   "id": "g6b",
+   "text": "A detector deep underground in Japan has even made a picture of the Sun out of neutrinos, day and night, straight through solid rock."
+  },
+  {
+   "id": "h1",
+   "speaker": "q",
+   "ch": "A particle nobody could catch",
+   "gap_before": 2.2,
+   "text": "How did anyone find something like that?"
+  },
+  {
+   "id": "h2",
+   "text": "First, someone had to imagine it. In 1930, physicist Wolfgang Pauli noticed that some energy seemed to vanish in radioactive decay. So he proposed an invisible particle that carried it away.",
+   "say": "First, someone had to imagine it. In nineteen thirty, physicist Wolfgang Pauli noticed that some energy seemed to vanish in radioactive decay. So he proposed an invisible particle that carried it away."
+  },
+  {
+   "id": "h3",
+   "text": "He called it a desperate remedy, and worried that he had predicted something that could never be detected."
+  },
+  {
+   "id": "h4q",
+   "speaker": "q",
+   "text": "Was he right about that?"
+  },
+  {
+   "id": "h5",
+   "text": "Luckily, no. In 1956, Clyde Cowan and Frederick Reines put tanks of liquid next to a nuclear reactor in South Carolina, which pours out huge numbers of them. A few, just a few, were caught.",
+   "say": "Luckily, no. In nineteen fifty-six, Clyde Cowan and Frederick Raynes put tanks of liquid next to a nuclear reactor in South Carolina, which pours out huge numbers of them. A few, just a few, were caught."
+  },
+  {
+   "id": "h6",
+   "text": "They sent Pauli a telegram. His reply: everything comes to him who knows how to wait. Reines finally won a Nobel Prize for it in 1995.",
+   "say": "They sent Pauli a telegram. His reply: everything comes to him who knows how to wait. Raynes finally won a Nobel Prize for it in nineteen ninety-five."
+  },
+  {
+   "id": "s1",
+   "speaker": "q",
+   "ch": "Messages from the Sun",
+   "gap_before": 2.2,
+   "text": "Why does the Sun make so many?"
+  },
+  {
+   "id": "s2",
+   "text": "Because it's a giant fusion reactor. Deep in its core, hydrogen nuclei fuse into helium, and every reaction chain spits out neutrinos."
+  },
+  {
+   "id": "s2b",
+   "text": "Every second, the Sun turns about four million tonnes of its own mass into energy. That's what keeps you warm, and what floods you with neutrinos."
+  },
+  {
+   "id": "s3",
+   "text": "Light has a hard time getting out. It bumps from atom to atom, and estimates say it takes thousands to hundreds of thousands of years to reach the surface."
+  },
+  {
+   "id": "s4",
+   "text": "Neutrinos just fly straight out. They leave the core in about two seconds, and reach you about eight minutes later."
+  },
+  {
+   "id": "s5q",
+   "speaker": "q",
+   "text": "So they're news from inside the Sun?"
+  },
+  {
+   "id": "s6",
+   "text": "Exactly. The sunlight on your face is ancient. The neutrinos passing through you right now tell us what the Sun's core was doing eight minutes ago. That's how we know it really runs on fusion."
+  },
+  {
+   "id": "m1",
+   "speaker": "q",
+   "ch": "The case of the missing neutrinos",
+   "gap_before": 2.2,
+   "text": "Did the Sun's neutrinos match the theory?"
+  },
+  {
+   "id": "m2",
+   "text": "Not at first. In the 1960s, chemist Ray Davis filled a tank with about a hundred thousand gallons of dry-cleaning fluid, almost a mile and a half underground in a gold mine in South Dakota.",
+   "say": "Not at first. In the nineteen sixties, chemist Ray Davis filled a tank with about a hundred thousand gallons of dry-cleaning fluid, almost a mile and a half underground in a gold mine in South Dakota."
+  },
+  {
+   "id": "m3",
+   "text": "Once in a while, a solar neutrino would turn a chlorine atom into argon. Davis flushed out the argon and counted it, almost atom by atom. But he only ever found about a third of what the theory predicted."
+  },
+  {
+   "id": "m4q",
+   "speaker": "q",
+   "text": "So where did the rest go?"
+  },
+  {
+   "id": "m5",
+   "text": "Nowhere. Neutrinos come in three types, and they shape-shift between them as they travel. His detector could only see one type. Experiments in Japan and Canada proved it, and the shape-shifting earned another Nobel Prize in 2015.",
+   "say": "Nowhere. Neutrinos come in three types, and they shape-shift between them as they travel. His detector could only see one type. Experiments in Japan and Canada proved it, and the shape-shifting earned another Nobel Prize in twenty fifteen."
+  },
+  {
+   "id": "b1",
+   "speaker": "q",
+   "ch": "Your body makes them too",
+   "gap_before": 2.2,
+   "text": "Do neutrinos only come from space?"
+  },
+  {
+   "id": "b2",
+   "text": "No, and here's a strange one. You make them too. Your body contains a little radioactive potassium, the same kind that's in bananas."
+  },
+  {
+   "id": "b3",
+   "text": "In an adult, a few thousand of those atoms decay every second, and most decays fire off a ghost particle. By our rough estimate, that's a few hundred million neutrinos leaving you every day."
+  },
+  {
+   "id": "b4q",
+   "speaker": "q",
+   "text": "Should I be worried about that?"
+  },
+  {
+   "id": "b5",
+   "text": "Not at all. It's natural, it's always been there, and the neutrinos themselves fly off into space without touching anything."
+  },
+  {
+   "id": "x1",
+   "speaker": "q",
+   "ch": "Will one ever hit me?",
+   "gap_before": 2.2,
+   "text": "Out of all those trillions, will one ever hit me?"
+  },
+  {
+   "id": "x2",
+   "text": "Maybe one. Estimates vary, but physicists put the chance that a single neutrino ever bumps into an atom in your body, in your whole life, somewhere between one in ten and about one in four."
+  },
+  {
+   "id": "x3",
+   "text": "Trillions every second, for eighty years, and maybe one collision. That's how ghostly they are."
+  },
+  {
+   "id": "x4q",
+   "speaker": "q",
+   "text": "And if one does hit me?"
+  },
+  {
+   "id": "x5",
+   "text": "Nothing you'd notice. It would nudge a single atom, among the billions of billions in your body."
+  },
+  {
+   "id": "d1",
+   "speaker": "q",
+   "ch": "How to catch a ghost",
+   "gap_before": 2.2,
+   "text": "So how do scientists ever catch them?"
+  },
+  {
+   "id": "d2",
+   "text": "By making the trap enormous. If a neutrino almost never hits anything, you need a huge amount of stuff, and you need to watch it very carefully."
+  },
+  {
+   "id": "d3",
+   "text": "In Japan, a detector called Super-Kamiokande sits a kilometre underground. It's a tank holding fifty thousand tonnes of ultra-pure water, lined with about eleven thousand light sensors."
+  },
+  {
+   "id": "d4",
+   "text": "When a neutrino finally hits, it knocks out a particle that races through the water faster than light can travel in water, and leaves a faint ring of blue light. The sensors catch that flash."
+  },
+  {
+   "id": "d4b",
+   "text": "Super-Kamiokande is also where neutrinos were first caught shape-shifting. That work earned its leader, Takaaki Kajita, a share of the 2015 Nobel Prize.",
+   "say": "Super-Kamiokande is also where neutrinos were first caught shape-shifting. That work earned its leader, Takaaki Kajita, a share of the twenty fifteen Nobel Prize."
+  },
+  {
+   "id": "d5q",
+   "speaker": "q",
+   "text": "Can we make our own neutrinos?"
+  },
+  {
+   "id": "d6",
+   "text": "We already do. An experiment called DUNE is being built to fire a beam of neutrinos from near Chicago to South Dakota, about thirteen hundred kilometres. No tunnel needed. The beam goes straight through the Earth."
+  },
+  {
+   "id": "d7",
+   "text": "And the giant detectors waiting for it sit deep inside the very same mine where Ray Davis once counted his argon atoms."
+  },
+  {
+   "id": "i1",
+   "speaker": "q",
+   "ch": "A telescope made of ice",
+   "gap_before": 2.2,
+   "text": "And what won the Nobel Prize this year?"
+  },
+  {
+   "id": "i2",
+   "text": "A detector at the South Pole called IceCube. Scientists drilled holes up to two and a half kilometres deep into the Antarctic ice, and lowered more than five thousand light sensors into a full cubic kilometre of it."
+  },
+  {
+   "id": "i2b",
+   "text": "When a neutrino smashes into the ice, the sensors catch the same kind of faint blue flash, and work out which direction in the sky it came from."
+  },
+  {
+   "id": "i3",
+   "text": "The 2026 Nobel Prize in Physics went to Francis Halzen, the scientist who led IceCube, for discovering high-energy neutrinos coming from deep space. He receives it in Stockholm on December the tenth.",
+   "say": "The twenty twenty-six Nobel Prize in Physics went to Francis Haltsen, the scientist who led IceCube, for discovering high-energy neutrinos coming from deep space. He receives it in Stockholm on December the tenth."
+  },
+  {
+   "id": "i4q",
+   "speaker": "q",
+   "text": "What did it actually find?"
+  },
+  {
+   "id": "i5",
+   "text": "In 2017, one neutrino was traced back to a blazar, a giant black hole firing a jet almost straight at us, about four billion light-years away. And in 2023, IceCube made the first picture of our own galaxy in neutrinos.",
+   "say": "In twenty seventeen, one neutrino was traced back to a blay-zar, a giant black hole firing a jet almost straight at us, about four billion light-years away. And in twenty twenty-three, IceCube made the first picture of our own galaxy in neutrinos."
+  },
+  {
+   "id": "e1",
+   "speaker": "q",
+   "ch": "Early warning from dying stars",
+   "gap_before": 2.2,
+   "text": "Can neutrinos warn us about anything?"
+  },
+  {
+   "id": "e2",
+   "text": "Yes. When a giant star collapses and explodes as a supernova, most of its energy pours out as neutrinos, and they escape before the light does."
+  },
+  {
+   "id": "e3",
+   "text": "In 1987, a star exploded in a nearby galaxy. Three detectors on Earth caught twenty-five neutrinos from it, in about thirteen seconds, a few hours before anyone saw the flash of light.",
+   "say": "In nineteen eighty-seven, a star exploded in a nearby galaxy. Three detectors on Earth caught twenty-five neutrinos from it, in about thirteen seconds, a few hours before anyone saw the flash of light."
+  },
+  {
+   "id": "e4",
+   "text": "Today, neutrino detectors are linked in an alert network. If a star in our galaxy explodes, the neutrinos will tell astronomers where to point their telescopes."
+  },
+  {
+   "id": "e4b",
+   "text": "It could be a long wait. Astronomers estimate that a star explodes in our galaxy only once or twice a century, and the last one anyone saw was more than four hundred years ago."
+  },
+  {
+   "id": "e5q",
+   "speaker": "q",
+   "text": "What's the most powerful one ever seen?"
+  },
+  {
+   "id": "e6",
+   "text": "In 2025, scientists announced a neutrino caught in a detector deep in the Mediterranean Sea. It carried about two hundred and twenty peta electron volts, thousands of times more than the collisions in the world's biggest particle collider. Where it came from is still a mystery.",
+   "say": "In twenty twenty-five, scientists announced a neutrino caught in a detector deep in the Mediterranean Sea. It carried about two hundred and twenty peta electron volts, thousands of times more than the collisions in the world's biggest particle collider. Where it came from is still a mystery."
+  },
+  {
+   "id": "o1",
+   "speaker": "q",
+   "gap_before": 1.0,
+   "text": "So, what's passing through me right now?"
+  },
+  {
+   "id": "o2",
+   "text": "News from the core of the Sun, a little of your own radioactive potassium, and maybe, once in a while, a messenger from a black hole billions of light-years away. All of it, straight through you."
+  },
+  {
+   "id": "o3",
+   "text": "A hundred trillion ghost particles just passed through you. And they'll keep coming, every second, for the rest of your life."
+  },
+  {
+   "id": "o4",
+   "speaker": "q",
+   "gap_before": 0.5,
+   "text": "Subscribe for more of the invisible science happening inside you, and tell us in the comments what surprised you most."
+  }
+ ]
+}

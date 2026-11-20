@@ -1,0 +1,7575 @@
+{
+ "duration": 479.938,
+ "lines": [
+  {
+   "id": "c1",
+   "speaker": "q",
+   "text": "What actually happens inside me after Christmas dinner?",
+   "start": 0.35,
+   "end": 3.339
+  },
+  {
+   "id": "c2",
+   "speaker": "a",
+   "text": "A lot. Your stomach balloons, your blood fills with sugar and fat, your gut bacteria throw a party, and your brain starts begging for a nap.",
+   "start": 3.789,
+   "end": 11.586
+  },
+  {
+   "id": "c3",
+   "speaker": "a",
+   "text": "So let's follow the meal, from the first bite to the moment it finally leaves your body. It's a journey through about nine metres of tubes, and it takes a lot longer than you'd think.",
+   "start": 11.826,
+   "end": 21.036
+  },
+  {
+   "id": "c4q",
+   "speaker": "q",
+   "text": "First, how much do we actually eat?",
+   "start": 21.276,
+   "end": 23.212
+  },
+  {
+   "id": "c4",
+   "speaker": "a",
+   "text": "Estimates vary a lot. An American food industry group says a big holiday dinner can reach about 3,000 calories. And a survey in Britain put the whole of Christmas Day at nearly 6,000.",
+   "start": 23.662,
+   "end": 34.893
+  },
+  {
+   "id": "c5",
+   "speaker": "a",
+   "text": "Most adults need somewhere between 1,600 and 3,000 calories a day. So on Christmas, some of us eat two or three days of food in one.",
+   "start": 35.133,
+   "end": 43.124
+  },
+  {
+   "id": "s1",
+   "speaker": "q",
+   "text": "Where does all that food go first?",
+   "start": 45.324,
+   "end": 46.966
+  },
+  {
+   "id": "s2",
+   "speaker": "a",
+   "text": "Into your stomach. Empty, it holds only about 75 millilitres, a few sips of water. It's scrunched up into deep folds.",
+   "start": 47.416,
+   "end": 55.468
+  },
+  {
+   "id": "s3",
+   "speaker": "a",
+   "text": "As you eat, those folds flatten out like an accordion. After a normal meal, it holds around a litre. At its absolute limit, it can stretch to about four.",
+   "start": 55.708,
+   "end": 64.528
+  },
+  {
+   "id": "s3b",
+   "speaker": "a",
+   "text": "Its wall has three layers of muscle, running in different directions, so it can twist and squeeze your dinner like hands kneading dough.",
+   "start": 64.768,
+   "end": 71.681
+  },
+  {
+   "id": "s4q",
+   "speaker": "q",
+   "text": "Then why don't I feel full sooner?",
+   "start": 71.921,
+   "end": 73.621
+  },
+  {
+   "id": "s5",
+   "speaker": "a",
+   "text": "Because the signal is slow. Stretch sensors in your stomach wall report to your brain through the vagus nerve, and hormones from your gut join in. But it can take about twenty minutes for your brain to register that you're full.",
+   "start": 74.071,
+   "end": 85.332
+  },
+  {
+   "id": "s6",
+   "speaker": "a",
+   "text": "And in twenty minutes, you can eat a lot of pigs in blankets.",
+   "start": 85.572,
+   "end": 89.46
+  },
+  {
+   "id": "a1",
+   "speaker": "q",
+   "text": "What happens to the food in there?",
+   "start": 91.66,
+   "end": 93.258
+  },
+  {
+   "id": "a2",
+   "speaker": "a",
+   "text": "Your stomach squeezes and churns it in a bath of acid and enzymes. The acid is so strong that your stomach has to protect its own wall with a thick layer of mucus.",
+   "start": 93.708,
+   "end": 103.154
+  },
+  {
+   "id": "a2b",
+   "speaker": "a",
+   "text": "Even so, the acid wears down the lining, so your stomach keeps rebuilding it. Its surface cells are replaced every few days.",
+   "start": 103.394,
+   "end": 110.458
+  },
+  {
+   "id": "a3",
+   "speaker": "a",
+   "text": "At the top of your stomach there's a ring of muscle that keeps the acid in. But a huge meal, fatty food and alcohol can all make that ring relax.",
+   "start": 110.698,
+   "end": 118.479
+  },
+  {
+   "id": "a4q",
+   "speaker": "q",
+   "text": "Is that what heartburn is?",
+   "start": 118.719,
+   "end": 120.117
+  },
+  {
+   "id": "a5",
+   "speaker": "a",
+   "text": "Exactly. Acid leaks up into your food pipe, and it burns. And flopping onto the sofa right after dinner makes it even easier for the acid to flow up.",
+   "start": 120.567,
+   "end": 129.14
+  },
+  {
+   "id": "a5b",
+   "speaker": "a",
+   "text": "So if heartburn is a regular guest at your Christmas, try staying upright for two or three hours after the meal, before you lie down.",
+   "start": 129.38,
+   "end": 136.422
+  },
+  {
+   "id": "w1",
+   "speaker": "q",
+   "text": "What happens when the food reaches my blood?",
+   "start": 138.622,
+   "end": 140.902
+  },
+  {
+   "id": "w2",
+   "speaker": "a",
+   "text": "The potatoes, stuffing, bread and dessert are broken down into sugar, and it pours into your blood. Your pancreas answers with insulin, a hormone that helps your cells soak that sugar up.",
+   "start": 141.352,
+   "end": 151.596
+  },
+  {
+   "id": "w3",
+   "speaker": "a",
+   "text": "Your muscles and liver pack the extra away as glycogen, a kind of stored sugar. Whatever doesn't fit there can end up as fat.",
+   "start": 151.836,
+   "end": 159.057
+  },
+  {
+   "id": "w3b",
+   "speaker": "a",
+   "text": "Your liver can store roughly a hundred grams of glycogen, and your muscles several hundred more. After a feast, those tanks are topped up.",
+   "start": 159.297,
+   "end": 167.04
+  },
+  {
+   "id": "w3c",
+   "speaker": "a",
+   "text": "Digesting all this takes work, too. Roughly a tenth of the calories in a meal are burned just processing it, which is part of why a feast can leave you feeling warm.",
+   "start": 167.28,
+   "end": 175.726
+  },
+  {
+   "id": "w4q",
+   "speaker": "q",
+   "text": "Can I do anything about the spike?",
+   "start": 175.966,
+   "end": 177.655
+  },
+  {
+   "id": "w5",
+   "speaker": "a",
+   "text": "Yes, and it's easy. A 2022 review found that even two to five minutes of light walking after a meal made the rise in blood sugar gentler than sitting still.",
+   "start": 178.105,
+   "end": 187.289
+  },
+  {
+   "id": "w6",
+   "speaker": "a",
+   "text": "Standing up helped a little too. Walking helped more.",
+   "start": 187.529,
+   "end": 191.174
+  },
+  {
+   "id": "d1",
+   "speaker": "q",
+   "text": "Why is there always room for dessert?",
+   "start": 193.374,
+   "end": 195.336
+  },
+  {
+   "id": "d2",
+   "speaker": "a",
+   "text": "Part of it is variety. When you've had enough of one flavour, it stops tasting as good, but a new flavour still looks exciting. Scientists call it sensory-specific satiety.",
+   "start": 195.786,
+   "end": 205.962
+  },
+  {
+   "id": "d3",
+   "speaker": "a",
+   "text": "And in 2025, researchers in Germany found something stranger. In full mice, the very brain cells that signal fullness also release a natural opioid when sugar shows up, and that switches on a craving for sweets.",
+   "start": 206.202,
+   "end": 218.742
+  },
+  {
+   "id": "d4",
+   "speaker": "a",
+   "text": "Brain scans hinted that the same brain region responds to sugar in people too. A dessert stomach, built into the brain.",
+   "start": 218.982,
+   "end": 225.944
+  },
+  {
+   "id": "z1",
+   "speaker": "q",
+   "text": "Is it the turkey that makes me sleepy?",
+   "start": 228.144,
+   "end": 230.057
+  },
+  {
+   "id": "z2",
+   "speaker": "a",
+   "text": "That's a myth. Turkey does contain tryptophan, which your brain uses to make sleep chemicals. But many meats contain about as much. Salmon does too, and nobody blames the salmon.",
+   "start": 230.507,
+   "end": 240.333
+  },
+  {
+   "id": "z3",
+   "speaker": "a",
+   "text": "And in a big meal, tryptophan has to compete with other amino acids to get into your brain. Most of it never gets there.",
+   "start": 240.573,
+   "end": 247.365
+  },
+  {
+   "id": "z4q",
+   "speaker": "q",
+   "text": "So why do I want a nap?",
+   "start": 247.605,
+   "end": 248.897
+  },
+  {
+   "id": "z5",
+   "speaker": "a",
+   "text": "Mostly because the meal is enormous. Your body switches into rest-and-digest mode, and alcohol adds to the drowsiness.",
+   "start": 249.347,
+   "end": 256.332
+  },
+  {
+   "id": "z6",
+   "speaker": "a",
+   "text": "Plus, many families eat in the afternoon, right when your body clock naturally dips.",
+   "start": 256.572,
+   "end": 261.771
+  },
+  {
+   "id": "g1",
+   "speaker": "q",
+   "text": "Why do sprouts make me so gassy?",
+   "start": 263.971,
+   "end": 265.883
+  },
+  {
+   "id": "g2",
+   "speaker": "a",
+   "text": "Brussels sprouts contain a sugar called raffinose. Your body has no enzyme to break it down, so it travels on to your large intestine untouched.",
+   "start": 266.333,
+   "end": 274.606
+  },
+  {
+   "id": "g3",
+   "speaker": "a",
+   "text": "There, trillions of bacteria feast on it, and their waste is gas. Hydrogen, carbon dioxide and, in some people, methane.",
+   "start": 274.846,
+   "end": 282.141
+  },
+  {
+   "id": "g3b",
+   "speaker": "a",
+   "text": "You carry roughly 38 trillion gut bacteria, about as many as your own body's cells. To them, Christmas dinner is a feast too.",
+   "start": 282.381,
+   "end": 290.221
+  },
+  {
+   "id": "g4",
+   "speaker": "a",
+   "text": "Most people pass gas more than a dozen times a day. After Christmas dinner, your gut works overtime.",
+   "start": 290.461,
+   "end": 296.534
+  },
+  {
+   "id": "k1",
+   "speaker": "q",
+   "text": "Why am I heavier the next morning?",
+   "start": 298.734,
+   "end": 300.537
+  },
+  {
+   "id": "k2",
+   "speaker": "a",
+   "text": "Mostly water. Salty food makes your body hold on to extra water. And every gram of glycogen you store comes packed with about three grams of water.",
+   "start": 300.987,
+   "end": 310.084
+  },
+  {
+   "id": "k3",
+   "speaker": "a",
+   "text": "And part of the meal is, quite literally, still inside you.",
+   "start": 310.324,
+   "end": 314.194
+  },
+  {
+   "id": "k4q",
+   "speaker": "q",
+   "text": "So how much fat do people really gain?",
+   "start": 314.434,
+   "end": 316.479
+  },
+  {
+   "id": "k5",
+   "speaker": "a",
+   "text": "Less than you'd think. A study in the United States weighed adults before and after the holidays. On average, they gained less than half a kilo, about one pound.",
+   "start": 316.929,
+   "end": 325.787
+  },
+  {
+   "id": "k6",
+   "speaker": "a",
+   "text": "The catch? When they were weighed again months later, most of that pound was still there.",
+   "start": 326.027,
+   "end": 331.095
+  },
+  {
+   "id": "h1",
+   "speaker": "q",
+   "text": "What about all the wine?",
+   "start": 333.295,
+   "end": 334.418
+  },
+  {
+   "id": "h2",
+   "speaker": "a",
+   "text": "Your liver deals with it, at roughly one standard drink per hour. Drink faster than that, and the alcohol piles up in your blood.",
+   "start": 334.868,
+   "end": 341.746
+  },
+  {
+   "id": "h2b",
+   "speaker": "a",
+   "text": "Alcohol also dries you out. It switches off a hormone that tells your kidneys to hold on to water, which is part of why you wake up thirsty.",
+   "start": 341.986,
+   "end": 349.655
+  },
+  {
+   "id": "h3",
+   "speaker": "a",
+   "text": "Heavy drinking can even throw your heart out of rhythm. Doctors saw it so often after weekends and holidays that in 1978 they named it holiday heart syndrome.",
+   "start": 349.895,
+   "end": 359.655
+  },
+  {
+   "id": "h4q",
+   "speaker": "q",
+   "text": "Is Christmas actually risky for hearts?",
+   "start": 359.895,
+   "end": 362.085
+  },
+  {
+   "id": "h5",
+   "speaker": "a",
+   "text": "A little. A Swedish study of more than 280,000 heart attacks found that the risk on Christmas Eve was about 37 percent higher than in the weeks around the holidays.",
+   "start": 362.535,
+   "end": 372.888
+  },
+  {
+   "id": "h6",
+   "speaker": "a",
+   "text": "Nobody knows exactly why. Stress, heavy meals, alcohol and cold weather may all play a part. So if someone has chest pain, don't wait until after the holidays. Call for help right away.",
+   "start": 373.128,
+   "end": 383.891
+  },
+  {
+   "id": "l1",
+   "speaker": "q",
+   "text": "Are the leftovers safe?",
+   "start": 386.091,
+   "end": 387.35
+  },
+  {
+   "id": "l2",
+   "speaker": "a",
+   "text": "Mostly, if you're quick. There's a bacterium called Clostridium perfringens that loves big trays of meat and gravy left out at room temperature.",
+   "start": 387.8,
+   "end": 396.869
+  },
+  {
+   "id": "l3",
+   "speaker": "a",
+   "text": "In the United States, it causes close to a million cases of food poisoning a year, and outbreaks peak in November and December. Turkey and roast beef are the usual suspects.",
+   "start": 397.109,
+   "end": 407.172
+  },
+  {
+   "id": "l4",
+   "speaker": "a",
+   "text": "The fix is simple. Get leftovers into the fridge within two hours, cut big pieces smaller so they cool faster, and reheat them until they're steaming hot.",
+   "start": 407.412,
+   "end": 416.232
+  },
+  {
+   "id": "t1",
+   "speaker": "q",
+   "text": "How long until the meal is gone?",
+   "start": 418.432,
+   "end": 420.135
+  },
+  {
+   "id": "t2",
+   "speaker": "a",
+   "text": "Longer than you'd guess. Food takes about six to eight hours to pass through your stomach and small intestine.",
+   "start": 420.585,
+   "end": 426.872
+  },
+  {
+   "id": "t2b",
+   "speaker": "a",
+   "text": "Your small intestine does most of the work. Its lining is covered in tiny, finger-like folds that soak up nutrients. Spread flat, the inside of your gut would cover about half a badminton court.",
+   "start": 427.112,
+   "end": 438.191
+  },
+  {
+   "id": "t3",
+   "speaker": "a",
+   "text": "Then it moves into your colon, which can take another day and a half. All in all, according to the Mayo Clinic, two to five days.",
+   "start": 438.431,
+   "end": 445.685
+  },
+  {
+   "id": "t4",
+   "speaker": "a",
+   "text": "So the Christmas dinner you eat on the twenty-fifth could still be with you a few days later.",
+   "start": 445.925,
+   "end": 450.993
+  },
+  {
+   "id": "o1",
+   "speaker": "q",
+   "text": "So, should I skip Christmas dinner?",
+   "start": 451.993,
+   "end": 453.666
+  },
+  {
+   "id": "o2",
+   "speaker": "a",
+   "text": "Not at all. Your body is built for feasts. Your stomach stretches, your acid kills germs, your liver and muscles fill their sugar tanks, and trillions of bacteria get fed. Then it all recovers. Just eat a little slower, take a short walk afterwards, and go easy on the wine.",
+   "start": 454.116,
+   "end": 468.759
+  },
+  {
+   "id": "o3",
+   "speaker": "a",
+   "text": "That's what Christmas dinner does to your body.",
+   "start": 468.999,
+   "end": 472.011
+  },
+  {
+   "id": "o4",
+   "speaker": "q",
+   "text": "Subscribe for more of what your body does behind your back, and tell us your favourite holiday dish in the comments.",
+   "start": 472.511,
+   "end": 478.738
+  }
+ ],
+ "words": [
+  {
+   "w": "What",
+   "s": 0.0,
+   "e": 0.44
+  },
+  {
+   "w": "actually",
+   "s": 0.44,
+   "e": 0.78
+  },
+  {
+   "w": "happens",
+   "s": 0.78,
+   "e": 1.18
+  },
+  {
+   "w": "inside",
+   "s": 1.18,
+   "e": 1.66
+  },
+  {
+   "w": "me",
+   "s": 1.66,
+   "e": 1.92
+  },
+  {
+   "w": "after",
+   "s": 1.92,
+   "e": 2.32
+  },
+  {
+   "w": "Christmas",
+   "s": 2.32,
+   "e": 2.78
+  },
+  {
+   "w": "dinner?",
+   "s": 2.78,
+   "e": 3.1
+  },
+  {
+   "w": "A",
+   "s": 3.86,
+   "e": 3.88
+  },
+  {
+   "w": "lot.",
+   "s": 3.88,
+   "e": 4.1
+  },
+  {
+   "w": "Your",
+   "s": 4.44,
+   "e": 4.46
+  },
+  {
+   "w": "stomach",
+   "s": 4.46,
+   "e": 4.76
+  },
+  {
+   "w": "balloons,",
+   "s": 4.76,
+   "e": 5.04
+  },
+  {
+   "w": "your",
+   "s": 5.38,
+   "e": 5.52
+  },
+  {
+   "w": "blood",
+   "s": 5.52,
+   "e": 5.7
+  },
+  {
+   "w": "fills",
+   "s": 5.7,
+   "e": 5.96
+  },
+  {
+   "w": "with",
+   "s": 5.96,
+   "e": 6.24
+  },
+  {
+   "w": "sugar",
+   "s": 6.24,
+   "e": 6.52
+  },
+  {
+   "w": "and",
+   "s": 6.52,
+   "e": 6.72
+  },
+  {
+   "w": "fat,",
+   "s": 6.72,
+   "e": 6.94
+  },
+  {
+   "w": "your",
+   "s": 7.46,
+   "e": 7.54
+  },
+  {
+   "w": "gut",
+   "s": 7.54,
+   "e": 7.72
+  },
+  {
+   "w": "bacteria",
+   "s": 7.72,
+   "e": 8.18
+  },
+  {
+   "w": "throw",
+   "s": 8.18,
+   "e": 8.54
+  },
+  {
+   "w": "a",
+   "s": 8.54,
+   "e": 8.68
+  },
+  {
+   "w": "party,",
+   "s": 8.68,
+   "e": 9.02
+  },
+  {
+   "w": "and",
+   "s": 9.52,
+   "e": 9.6
+  },
+  {
+   "w": "your",
+   "s": 9.6,
+   "e": 9.72
+  },
+  {
+   "w": "brain",
+   "s": 9.72,
+   "e": 9.98
+  },
+  {
+   "w": "starts",
+   "s": 9.98,
+   "e": 10.32
+  },
+  {
+   "w": "begging",
+   "s": 10.32,
+   "e": 10.62
+  },
+  {
+   "w": "for",
+   "s": 10.62,
+   "e": 10.94
+  },
+  {
+   "w": "a",
+   "s": 10.94,
+   "e": 11.02
+  },
+  {
+   "w": "nap.",
+   "s": 11.02,
+   "e": 11.22
+  },
+  {
+   "w": "So",
+   "s": 11.86,
+   "e": 11.96
+  },
+  {
+   "w": "let's",
+   "s": 11.96,
+   "e": 12.26
+  },
+  {
+   "w": "follow",
+   "s": 12.26,
+   "e": 12.5
+  },
+  {
+   "w": "the",
+   "s": 12.5,
+   "e": 12.68
+  },
+  {
+   "w": "meal.",
+   "s": 12.68,
+   "e": 12.88
+  },
+  {
+   "w": "From",
+   "s": 13.3,
+   "e": 13.34
+  },
+  {
+   "w": "the",
+   "s": 13.34,
+   "e": 13.48
+  },
+  {
+   "w": "first",
+   "s": 13.48,
+   "e": 13.74
+  },
+  {
+   "w": "bite",
+   "s": 13.74,
+   "e": 13.96
+  },
+  {
+   "w": "to",
+   "s": 13.96,
+   "e": 14.18
+  },
+  {
+   "w": "the",
+   "s": 14.18,
+   "e": 14.26
+  },
+  {
+   "w": "moment,",
+   "s": 14.26,
+   "e": 14.54
+  },
+  {
+   "w": "it",
+   "s": 14.72,
+   "e": 14.78
+  },
+  {
+   "w": "finally",
+   "s": 14.78,
+   "e": 15.06
+  },
+  {
+   "w": "leaves",
+   "s": 15.06,
+   "e": 15.52
+  },
+  {
+   "w": "your",
+   "s": 15.52,
+   "e": 15.68
+  },
+  {
+   "w": "body.",
+   "s": 15.68,
+   "e": 15.94
+  },
+  {
+   "w": "It's",
+   "s": 16.64,
+   "e": 16.72
+  },
+  {
+   "w": "a",
+   "s": 16.72,
+   "e": 16.76
+  },
+  {
+   "w": "journey",
+   "s": 16.76,
+   "e": 17.02
+  },
+  {
+   "w": "through",
+   "s": 17.02,
+   "e": 17.3
+  },
+  {
+   "w": "about",
+   "s": 17.3,
+   "e": 17.58
+  },
+  {
+   "w": "nine",
+   "s": 17.58,
+   "e": 17.92
+  },
+  {
+   "w": "meters",
+   "s": 17.92,
+   "e": 18.28
+  },
+  {
+   "w": "of",
+   "s": 18.28,
+   "e": 18.46
+  },
+  {
+   "w": "tubes,",
+   "s": 18.46,
+   "e": 18.7
+  },
+  {
+   "w": "and",
+   "s": 18.7,
+   "e": 19.38
+  },
+  {
+   "w": "it",
+   "s": 19.38,
+   "e": 19.46
+  },
+  {
+   "w": "takes",
+   "s": 19.46,
+   "e": 19.62
+  },
+  {
+   "w": "a",
+   "s": 19.62,
+   "e": 19.78
+  },
+  {
+   "w": "lot",
+   "s": 19.78,
+   "e": 19.92
+  },
+  {
+   "w": "longer",
+   "s": 19.92,
+   "e": 20.18
+  },
+  {
+   "w": "than",
+   "s": 20.18,
+   "e": 20.44
+  },
+  {
+   "w": "you'd",
+   "s": 20.44,
+   "e": 20.64
+  },
+  {
+   "w": "think.",
+   "s": 20.64,
+   "e": 20.82
+  },
+  {
+   "w": "First,",
+   "s": 21.26,
+   "e": 21.5
+  },
+  {
+   "w": "how",
+   "s": 21.56,
+   "e": 21.9
+  },
+  {
+   "w": "much",
+   "s": 21.9,
+   "e": 22.04
+  },
+  {
+   "w": "do",
+   "s": 22.04,
+   "e": 22.24
+  },
+  {
+   "w": "we",
+   "s": 22.24,
+   "e": 22.36
+  },
+  {
+   "w": "actually",
+   "s": 22.36,
+   "e": 22.54
+  },
+  {
+   "w": "eat?",
+   "s": 22.54,
+   "e": 22.98
+  },
+  {
+   "w": "Estimates",
+   "s": 23.66,
+   "e": 23.92
+  },
+  {
+   "w": "vary",
+   "s": 23.92,
+   "e": 24.28
+  },
+  {
+   "w": "a",
+   "s": 24.28,
+   "e": 24.6
+  },
+  {
+   "w": "lot.",
+   "s": 24.6,
+   "e": 24.78
+  },
+  {
+   "w": "An",
+   "s": 25.36,
+   "e": 25.42
+  },
+  {
+   "w": "American",
+   "s": 25.42,
+   "e": 25.72
+  },
+  {
+   "w": "food",
+   "s": 25.72,
+   "e": 26.06
+  },
+  {
+   "w": "industry",
+   "s": 26.06,
+   "e": 26.4
+  },
+  {
+   "w": "group",
+   "s": 26.4,
+   "e": 26.78
+  },
+  {
+   "w": "says",
+   "s": 26.78,
+   "e": 27.0
+  },
+  {
+   "w": "a",
+   "s": 27.0,
+   "e": 27.16
+  },
+  {
+   "w": "big",
+   "s": 27.16,
+   "e": 27.34
+  },
+  {
+   "w": "holiday",
+   "s": 27.34,
+   "e": 27.6
+  },
+  {
+   "w": "dinner",
+   "s": 27.6,
+   "e": 28.06
+  },
+  {
+   "w": "can",
+   "s": 28.06,
+   "e": 28.46
+  },
+  {
+   "w": "reach",
+   "s": 28.46,
+   "e": 28.68
+  },
+  {
+   "w": "about",
+   "s": 28.68,
+   "e": 28.96
+  },
+  {
+   "w": "3",
+   "s": 28.96,
+   "e": 29.34
+  },
+  {
+   "w": ",000",
+   "s": 29.34,
+   "e": 29.82
+  },
+  {
+   "w": "calories,",
+   "s": 29.82,
+   "e": 30.14
+  },
+  {
+   "w": "and",
+   "s": 30.64,
+   "e": 30.94
+  },
+  {
+   "w": "a",
+   "s": 30.94,
+   "e": 31.0
+  },
+  {
+   "w": "survey",
+   "s": 31.0,
+   "e": 31.26
+  },
+  {
+   "w": "in",
+   "s": 31.26,
+   "e": 31.52
+  },
+  {
+   "w": "Britain",
+   "s": 31.52,
+   "e": 31.78
+  },
+  {
+   "w": "put",
+   "s": 31.78,
+   "e": 32.14
+  },
+  {
+   "w": "the",
+   "s": 32.14,
+   "e": 32.24
+  },
+  {
+   "w": "whole",
+   "s": 32.24,
+   "e": 32.42
+  },
+  {
+   "w": "of",
+   "s": 32.42,
+   "e": 32.6
+  },
+  {
+   "w": "Christmas",
+   "s": 32.6,
+   "e": 32.92
+  },
+  {
+   "w": "day",
+   "s": 32.92,
+   "e": 33.26
+  },
+  {
+   "w": "at",
+   "s": 33.26,
+   "e": 33.64
+  },
+  {
+   "w": "nearly",
+   "s": 33.64,
+   "e": 33.84
+  },
+  {
+   "w": "6",
+   "s": 33.84,
+   "e": 34.24
+  },
+  {
+   "w": ",000.",
+   "s": 34.24,
+   "e": 34.7
+  },
+  {
+   "w": "Most",
+   "s": 35.04,
+   "e": 35.26
+  },
+  {
+   "w": "adults",
+   "s": 35.26,
+   "e": 35.58
+  },
+  {
+   "w": "need",
+   "s": 35.58,
+   "e": 35.88
+  },
+  {
+   "w": "somewhere",
+   "s": 35.88,
+   "e": 36.26
+  },
+  {
+   "w": "between",
+   "s": 36.26,
+   "e": 36.6
+  },
+  {
+   "w": "1",
+   "s": 36.6,
+   "e": 37.0
+  },
+  {
+   "w": ",600",
+   "s": 37.0,
+   "e": 37.14
+  },
+  {
+   "w": "and",
+   "s": 37.14,
+   "e": 37.7
+  },
+  {
+   "w": "3",
+   "s": 37.7,
+   "e": 37.92
+  },
+  {
+   "w": ",000",
+   "s": 37.92,
+   "e": 38.36
+  },
+  {
+   "w": "calories",
+   "s": 38.36,
+   "e": 38.72
+  },
+  {
+   "w": "a",
+   "s": 38.72,
+   "e": 38.96
+  },
+  {
+   "w": "day.",
+   "s": 38.96,
+   "e": 39.16
+  },
+  {
+   "w": "So",
+   "s": 39.8,
+   "e": 39.88
+  },
+  {
+   "w": "on",
+   "s": 39.88,
+   "e": 40.0
+  },
+  {
+   "w": "Christmas,",
+   "s": 40.0,
+   "e": 40.26
+  },
+  {
+   "w": "some",
+   "s": 40.76,
+   "e": 41.06
+  },
+  {
+   "w": "of",
+   "s": 41.06,
+   "e": 41.14
+  },
+  {
+   "w": "us",
+   "s": 41.14,
+   "e": 41.28
+  },
+  {
+   "w": "eat",
+   "s": 41.28,
+   "e": 41.44
+  },
+  {
+   "w": "two",
+   "s": 41.44,
+   "e": 41.7
+  },
+  {
+   "w": "or",
+   "s": 41.7,
+   "e": 41.8
+  },
+  {
+   "w": "three",
+   "s": 41.8,
+   "e": 41.98
+  },
+  {
+   "w": "days",
+   "s": 41.98,
+   "e": 42.16
+  },
+  {
+   "w": "of",
+   "s": 42.16,
+   "e": 42.34
+  },
+  {
+   "w": "food",
+   "s": 42.34,
+   "e": 42.6
+  },
+  {
+   "w": "in",
+   "s": 42.6,
+   "e": 42.76
+  },
+  {
+   "w": "one.",
+   "s": 42.76,
+   "e": 42.92
+  },
+  {
+   "w": "Where",
+   "s": 44.88,
+   "e": 45.4
+  },
+  {
+   "w": "does",
+   "s": 45.4,
+   "e": 45.48
+  },
+  {
+   "w": "all",
+   "s": 45.48,
+   "e": 45.66
+  },
+  {
+   "w": "that",
+   "s": 45.66,
+   "e": 45.82
+  },
+  {
+   "w": "food",
+   "s": 45.82,
+   "e": 46.08
+  },
+  {
+   "w": "go",
+   "s": 46.08,
+   "e": 46.3
+  },
+  {
+   "w": "first?",
+   "s": 46.3,
+   "e": 46.66
+  },
+  {
+   "w": "Into",
+   "s": 47.42,
+   "e": 47.52
+  },
+  {
+   "w": "your",
+   "s": 47.52,
+   "e": 47.8
+  },
+  {
+   "w": "stomach.",
+   "s": 47.8,
+   "e": 48.12
+  },
+  {
+   "w": "Empty,",
+   "s": 49.04,
+   "e": 49.04
+  },
+  {
+   "w": "it",
+   "s": 49.32,
+   "e": 49.42
+  },
+  {
+   "w": "holds",
+   "s": 49.42,
+   "e": 49.58
+  },
+  {
+   "w": "only",
+   "s": 49.58,
+   "e": 50.1
+  },
+  {
+   "w": "about",
+   "s": 50.1,
+   "e": 50.28
+  },
+  {
+   "w": "75",
+   "s": 50.28,
+   "e": 51.16
+  },
+  {
+   "w": "milliliters,",
+   "s": 51.16,
+   "e": 51.9
+  },
+  {
+   "w": "a",
+   "s": 52.06,
+   "e": 52.2
+  },
+  {
+   "w": "few",
+   "s": 52.2,
+   "e": 52.36
+  },
+  {
+   "w": "sips",
+   "s": 52.36,
+   "e": 52.62
+  },
+  {
+   "w": "of",
+   "s": 52.62,
+   "e": 52.78
+  },
+  {
+   "w": "water.",
+   "s": 52.78,
+   "e": 53.1
+  },
+  {
+   "w": "It's",
+   "s": 53.58,
+   "e": 53.76
+  },
+  {
+   "w": "scrunched",
+   "s": 53.76,
+   "e": 54.1
+  },
+  {
+   "w": "up",
+   "s": 54.1,
+   "e": 54.24
+  },
+  {
+   "w": "into",
+   "s": 54.24,
+   "e": 54.38
+  },
+  {
+   "w": "deep",
+   "s": 54.38,
+   "e": 54.66
+  },
+  {
+   "w": "folds.",
+   "s": 54.66,
+   "e": 54.9
+  },
+  {
+   "w": "As",
+   "s": 54.9,
+   "e": 55.8
+  },
+  {
+   "w": "you",
+   "s": 55.8,
+   "e": 55.96
+  },
+  {
+   "w": "eat,",
+   "s": 55.96,
+   "e": 56.16
+  },
+  {
+   "w": "those",
+   "s": 56.4,
+   "e": 56.52
+  },
+  {
+   "w": "folds",
+   "s": 56.52,
+   "e": 56.8
+  },
+  {
+   "w": "flatten",
+   "s": 56.8,
+   "e": 57.32
+  },
+  {
+   "w": "out",
+   "s": 57.32,
+   "e": 57.5
+  },
+  {
+   "w": "like",
+   "s": 57.5,
+   "e": 57.74
+  },
+  {
+   "w": "an",
+   "s": 57.74,
+   "e": 57.84
+  },
+  {
+   "w": "accordion.",
+   "s": 57.84,
+   "e": 58.4
+  },
+  {
+   "w": "After",
+   "s": 58.9,
+   "e": 59.16
+  },
+  {
+   "w": "a",
+   "s": 59.16,
+   "e": 59.26
+  },
+  {
+   "w": "normal",
+   "s": 59.26,
+   "e": 59.38
+  },
+  {
+   "w": "meal,",
+   "s": 59.38,
+   "e": 59.78
+  },
+  {
+   "w": "it",
+   "s": 60.08,
+   "e": 60.14
+  },
+  {
+   "w": "holds",
+   "s": 60.14,
+   "e": 60.32
+  },
+  {
+   "w": "around",
+   "s": 60.32,
+   "e": 60.68
+  },
+  {
+   "w": "a",
+   "s": 60.68,
+   "e": 60.86
+  },
+  {
+   "w": "liter.",
+   "s": 60.86,
+   "e": 61.04
+  },
+  {
+   "w": "At",
+   "s": 61.64,
+   "e": 61.74
+  },
+  {
+   "w": "its",
+   "s": 61.74,
+   "e": 61.88
+  },
+  {
+   "w": "absolute",
+   "s": 61.88,
+   "e": 62.1
+  },
+  {
+   "w": "limit,",
+   "s": 62.1,
+   "e": 62.62
+  },
+  {
+   "w": "it",
+   "s": 62.9,
+   "e": 63.02
+  },
+  {
+   "w": "can",
+   "s": 63.02,
+   "e": 63.14
+  },
+  {
+   "w": "stretch",
+   "s": 63.14,
+   "e": 63.4
+  },
+  {
+   "w": "to",
+   "s": 63.4,
+   "e": 63.7
+  },
+  {
+   "w": "about",
+   "s": 63.7,
+   "e": 63.9
+  },
+  {
+   "w": "four.",
+   "s": 63.9,
+   "e": 64.28
+  },
+  {
+   "w": "Its",
+   "s": 64.76,
+   "e": 64.88
+  },
+  {
+   "w": "wall",
+   "s": 64.88,
+   "e": 65.08
+  },
+  {
+   "w": "has",
+   "s": 65.08,
+   "e": 65.36
+  },
+  {
+   "w": "three",
+   "s": 65.36,
+   "e": 65.62
+  },
+  {
+   "w": "layers",
+   "s": 65.62,
+   "e": 65.96
+  },
+  {
+   "w": "of",
+   "s": 65.96,
+   "e": 66.1
+  },
+  {
+   "w": "muscle,",
+   "s": 66.1,
+   "e": 66.3
+  },
+  {
+   "w": "running",
+   "s": 66.7,
+   "e": 67.02
+  },
+  {
+   "w": "in",
+   "s": 67.02,
+   "e": 67.26
+  },
+  {
+   "w": "different",
+   "s": 67.26,
+   "e": 67.46
+  },
+  {
+   "w": "directions,",
+   "s": 67.46,
+   "e": 68.06
+  },
+  {
+   "w": "so",
+   "s": 68.54,
+   "e": 68.74
+  },
+  {
+   "w": "it",
+   "s": 68.74,
+   "e": 68.84
+  },
+  {
+   "w": "can",
+   "s": 68.84,
+   "e": 68.98
+  },
+  {
+   "w": "twist",
+   "s": 68.98,
+   "e": 69.24
+  },
+  {
+   "w": "and",
+   "s": 69.24,
+   "e": 69.56
+  },
+  {
+   "w": "squeeze",
+   "s": 69.56,
+   "e": 69.82
+  },
+  {
+   "w": "your",
+   "s": 69.82,
+   "e": 70.08
+  },
+  {
+   "w": "dinner",
+   "s": 70.08,
+   "e": 70.3
+  },
+  {
+   "w": "like",
+   "s": 70.3,
+   "e": 70.56
+  },
+  {
+   "w": "hands",
+   "s": 70.56,
+   "e": 70.8
+  },
+  {
+   "w": "needing",
+   "s": 70.8,
+   "e": 71.12
+  },
+  {
+   "w": "dough.",
+   "s": 71.12,
+   "e": 71.46
+  },
+  {
+   "w": "Then",
+   "s": 71.9,
+   "e": 72.06
+  },
+  {
+   "w": "why",
+   "s": 72.06,
+   "e": 72.34
+  },
+  {
+   "w": "don't",
+   "s": 72.34,
+   "e": 72.48
+  },
+  {
+   "w": "I",
+   "s": 72.48,
+   "e": 72.66
+  },
+  {
+   "w": "feel",
+   "s": 72.66,
+   "e": 72.8
+  },
+  {
+   "w": "full",
+   "s": 72.8,
+   "e": 72.98
+  },
+  {
+   "w": "sooner?",
+   "s": 72.98,
+   "e": 73.34
+  },
+  {
+   "w": "Because",
+   "s": 74.02,
+   "e": 74.28
+  },
+  {
+   "w": "the",
+   "s": 74.28,
+   "e": 74.48
+  },
+  {
+   "w": "signal",
+   "s": 74.48,
+   "e": 74.74
+  },
+  {
+   "w": "is",
+   "s": 74.74,
+   "e": 75.02
+  },
+  {
+   "w": "slow.",
+   "s": 75.02,
+   "e": 75.24
+  },
+  {
+   "w": "Stretch",
+   "s": 75.94,
+   "e": 76.2
+  },
+  {
+   "w": "sensors",
+   "s": 76.2,
+   "e": 76.54
+  },
+  {
+   "w": "in",
+   "s": 76.54,
+   "e": 76.9
+  },
+  {
+   "w": "your",
+   "s": 76.9,
+   "e": 77.0
+  },
+  {
+   "w": "stomach",
+   "s": 77.0,
+   "e": 77.24
+  },
+  {
+   "w": "wall",
+   "s": 77.24,
+   "e": 77.58
+  },
+  {
+   "w": "report",
+   "s": 77.58,
+   "e": 77.94
+  },
+  {
+   "w": "to",
+   "s": 77.94,
+   "e": 78.24
+  },
+  {
+   "w": "your",
+   "s": 78.24,
+   "e": 78.34
+  },
+  {
+   "w": "brain",
+   "s": 78.34,
+   "e": 78.54
+  },
+  {
+   "w": "through",
+   "s": 78.54,
+   "e": 78.8
+  },
+  {
+   "w": "the",
+   "s": 78.8,
+   "e": 78.92
+  },
+  {
+   "w": "vagus",
+   "s": 78.92,
+   "e": 79.28
+  },
+  {
+   "w": "nerve,",
+   "s": 79.28,
+   "e": 79.48
+  },
+  {
+   "w": "and",
+   "s": 79.94,
+   "e": 80.02
+  },
+  {
+   "w": "hormones",
+   "s": 80.02,
+   "e": 80.26
+  },
+  {
+   "w": "from",
+   "s": 80.26,
+   "e": 80.6
+  },
+  {
+   "w": "your",
+   "s": 80.6,
+   "e": 80.74
+  },
+  {
+   "w": "gut",
+   "s": 80.74,
+   "e": 80.92
+  },
+  {
+   "w": "join",
+   "s": 80.92,
+   "e": 81.16
+  },
+  {
+   "w": "in.",
+   "s": 81.16,
+   "e": 81.44
+  },
+  {
+   "w": "But",
+   "s": 81.44,
+   "e": 82.04
+  },
+  {
+   "w": "it",
+   "s": 82.04,
+   "e": 82.14
+  },
+  {
+   "w": "can",
+   "s": 82.14,
+   "e": 82.24
+  },
+  {
+   "w": "take",
+   "s": 82.24,
+   "e": 82.4
+  },
+  {
+   "w": "about",
+   "s": 82.4,
+   "e": 82.6
+  },
+  {
+   "w": "20",
+   "s": 82.6,
+   "e": 82.88
+  },
+  {
+   "w": "minutes",
+   "s": 82.88,
+   "e": 83.14
+  },
+  {
+   "w": "for",
+   "s": 83.14,
+   "e": 83.38
+  },
+  {
+   "w": "your",
+   "s": 83.38,
+   "e": 83.48
+  },
+  {
+   "w": "brain",
+   "s": 83.48,
+   "e": 83.76
+  },
+  {
+   "w": "to",
+   "s": 83.76,
+   "e": 83.96
+  },
+  {
+   "w": "register",
+   "s": 83.96,
+   "e": 84.36
+  },
+  {
+   "w": "that",
+   "s": 84.36,
+   "e": 84.66
+  },
+  {
+   "w": "you're",
+   "s": 84.66,
+   "e": 84.88
+  },
+  {
+   "w": "full.",
+   "s": 84.88,
+   "e": 85.12
+  },
+  {
+   "w": "And",
+   "s": 85.64,
+   "e": 85.7
+  },
+  {
+   "w": "in",
+   "s": 85.7,
+   "e": 85.78
+  },
+  {
+   "w": "20",
+   "s": 85.78,
+   "e": 85.96
+  },
+  {
+   "w": "minutes,",
+   "s": 85.96,
+   "e": 86.38
+  },
+  {
+   "w": "you",
+   "s": 86.8,
+   "e": 86.84
+  },
+  {
+   "w": "can",
+   "s": 86.84,
+   "e": 86.96
+  },
+  {
+   "w": "eat",
+   "s": 86.96,
+   "e": 87.12
+  },
+  {
+   "w": "a",
+   "s": 87.12,
+   "e": 87.2
+  },
+  {
+   "w": "lot",
+   "s": 87.2,
+   "e": 87.38
+  },
+  {
+   "w": "of",
+   "s": 87.38,
+   "e": 87.5
+  },
+  {
+   "w": "pigs",
+   "s": 87.5,
+   "e": 87.72
+  },
+  {
+   "w": "in",
+   "s": 87.72,
+   "e": 88.04
+  },
+  {
+   "w": "blankets.",
+   "s": 88.04,
+   "e": 88.28
+  },
+  {
+   "w": "What",
+   "s": 91.48,
+   "e": 91.76
+  },
+  {
+   "w": "happens",
+   "s": 91.76,
+   "e": 92.0
+  },
+  {
+   "w": "to",
+   "s": 92.0,
+   "e": 92.36
+  },
+  {
+   "w": "the",
+   "s": 92.36,
+   "e": 92.44
+  },
+  {
+   "w": "food",
+   "s": 92.44,
+   "e": 92.7
+  },
+  {
+   "w": "in",
+   "s": 92.7,
+   "e": 92.86
+  },
+  {
+   "w": "there?",
+   "s": 92.86,
+   "e": 93.06
+  },
+  {
+   "w": "Your",
+   "s": 93.74,
+   "e": 93.84
+  },
+  {
+   "w": "stomach",
+   "s": 93.84,
+   "e": 94.12
+  },
+  {
+   "w": "squeezes",
+   "s": 94.12,
+   "e": 94.74
+  },
+  {
+   "w": "and",
+   "s": 94.74,
+   "e": 95.02
+  },
+  {
+   "w": "churns",
+   "s": 95.02,
+   "e": 95.46
+  },
+  {
+   "w": "it",
+   "s": 95.46,
+   "e": 95.54
+  },
+  {
+   "w": "in",
+   "s": 95.54,
+   "e": 95.7
+  },
+  {
+   "w": "a",
+   "s": 95.7,
+   "e": 95.74
+  },
+  {
+   "w": "bath",
+   "s": 95.74,
+   "e": 95.92
+  },
+  {
+   "w": "of",
+   "s": 95.92,
+   "e": 96.12
+  },
+  {
+   "w": "acid",
+   "s": 96.12,
+   "e": 96.48
+  },
+  {
+   "w": "and",
+   "s": 96.48,
+   "e": 96.62
+  },
+  {
+   "w": "enzymes.",
+   "s": 96.62,
+   "e": 96.92
+  },
+  {
+   "w": "The",
+   "s": 97.82,
+   "e": 97.9
+  },
+  {
+   "w": "acid",
+   "s": 97.9,
+   "e": 98.12
+  },
+  {
+   "w": "is",
+   "s": 98.12,
+   "e": 98.36
+  },
+  {
+   "w": "so",
+   "s": 98.36,
+   "e": 98.56
+  },
+  {
+   "w": "strong",
+   "s": 98.56,
+   "e": 99.02
+  },
+  {
+   "w": "that",
+   "s": 99.02,
+   "e": 99.42
+  },
+  {
+   "w": "your",
+   "s": 99.42,
+   "e": 99.54
+  },
+  {
+   "w": "stomach",
+   "s": 99.54,
+   "e": 99.92
+  },
+  {
+   "w": "has",
+   "s": 99.92,
+   "e": 100.18
+  },
+  {
+   "w": "to",
+   "s": 100.18,
+   "e": 100.34
+  },
+  {
+   "w": "protect",
+   "s": 100.34,
+   "e": 100.58
+  },
+  {
+   "w": "its",
+   "s": 100.58,
+   "e": 100.86
+  },
+  {
+   "w": "own",
+   "s": 100.86,
+   "e": 101.04
+  },
+  {
+   "w": "wall",
+   "s": 101.04,
+   "e": 101.34
+  },
+  {
+   "w": "with",
+   "s": 101.34,
+   "e": 101.72
+  },
+  {
+   "w": "a",
+   "s": 101.72,
+   "e": 101.82
+  },
+  {
+   "w": "thick",
+   "s": 101.82,
+   "e": 102.0
+  },
+  {
+   "w": "layer",
+   "s": 102.0,
+   "e": 102.3
+  },
+  {
+   "w": "of",
+   "s": 102.3,
+   "e": 102.5
+  },
+  {
+   "w": "mucus.",
+   "s": 102.5,
+   "e": 102.96
+  },
+  {
+   "w": "Even",
+   "s": 103.36,
+   "e": 103.58
+  },
+  {
+   "w": "so,",
+   "s": 103.58,
+   "e": 103.86
+  },
+  {
+   "w": "the",
+   "s": 104.08,
+   "e": 104.14
+  },
+  {
+   "w": "acid",
+   "s": 104.14,
+   "e": 104.44
+  },
+  {
+   "w": "wears",
+   "s": 104.44,
+   "e": 104.7
+  },
+  {
+   "w": "down",
+   "s": 104.7,
+   "e": 104.96
+  },
+  {
+   "w": "the",
+   "s": 104.96,
+   "e": 105.12
+  },
+  {
+   "w": "lining,",
+   "s": 105.12,
+   "e": 105.4
+  },
+  {
+   "w": "so",
+   "s": 105.8,
+   "e": 105.96
+  },
+  {
+   "w": "your",
+   "s": 105.96,
+   "e": 106.06
+  },
+  {
+   "w": "stomach",
+   "s": 106.06,
+   "e": 106.4
+  },
+  {
+   "w": "keeps",
+   "s": 106.4,
+   "e": 106.68
+  },
+  {
+   "w": "rebuilding",
+   "s": 106.68,
+   "e": 107.06
+  },
+  {
+   "w": "it.",
+   "s": 107.06,
+   "e": 107.42
+  },
+  {
+   "w": "Its",
+   "s": 108.02,
+   "e": 108.08
+  },
+  {
+   "w": "surface",
+   "s": 108.08,
+   "e": 108.4
+  },
+  {
+   "w": "cells",
+   "s": 108.4,
+   "e": 108.7
+  },
+  {
+   "w": "are",
+   "s": 108.7,
+   "e": 108.9
+  },
+  {
+   "w": "replaced",
+   "s": 108.9,
+   "e": 109.12
+  },
+  {
+   "w": "every",
+   "s": 109.12,
+   "e": 109.58
+  },
+  {
+   "w": "few",
+   "s": 109.58,
+   "e": 109.82
+  },
+  {
+   "w": "days.",
+   "s": 109.82,
+   "e": 110.08
+  },
+  {
+   "w": "At",
+   "s": 110.08,
+   "e": 110.74
+  },
+  {
+   "w": "the",
+   "s": 110.74,
+   "e": 110.86
+  },
+  {
+   "w": "top",
+   "s": 110.86,
+   "e": 111.02
+  },
+  {
+   "w": "of",
+   "s": 111.02,
+   "e": 111.16
+  },
+  {
+   "w": "your",
+   "s": 111.16,
+   "e": 111.22
+  },
+  {
+   "w": "stomach,",
+   "s": 111.22,
+   "e": 111.54
+  },
+  {
+   "w": "there's",
+   "s": 111.88,
+   "e": 112.02
+  },
+  {
+   "w": "a",
+   "s": 112.02,
+   "e": 112.1
+  },
+  {
+   "w": "ring",
+   "s": 112.1,
+   "e": 112.28
+  },
+  {
+   "w": "of",
+   "s": 112.28,
+   "e": 112.42
+  },
+  {
+   "w": "muscle",
+   "s": 112.42,
+   "e": 112.74
+  },
+  {
+   "w": "that",
+   "s": 112.74,
+   "e": 112.98
+  },
+  {
+   "w": "keeps",
+   "s": 112.98,
+   "e": 113.14
+  },
+  {
+   "w": "the",
+   "s": 113.14,
+   "e": 113.36
+  },
+  {
+   "w": "acid",
+   "s": 113.36,
+   "e": 113.6
+  },
+  {
+   "w": "in.",
+   "s": 113.6,
+   "e": 113.88
+  },
+  {
+   "w": "But",
+   "s": 114.4,
+   "e": 114.52
+  },
+  {
+   "w": "a",
+   "s": 114.52,
+   "e": 114.58
+  },
+  {
+   "w": "huge",
+   "s": 114.58,
+   "e": 114.8
+  },
+  {
+   "w": "meal,",
+   "s": 114.8,
+   "e": 115.12
+  },
+  {
+   "w": "fatty",
+   "s": 115.44,
+   "e": 115.68
+  },
+  {
+   "w": "food",
+   "s": 115.68,
+   "e": 116.06
+  },
+  {
+   "w": "and",
+   "s": 116.06,
+   "e": 116.2
+  },
+  {
+   "w": "alcohol",
+   "s": 116.2,
+   "e": 116.56
+  },
+  {
+   "w": "can",
+   "s": 116.56,
+   "e": 116.94
+  },
+  {
+   "w": "all",
+   "s": 116.94,
+   "e": 117.08
+  },
+  {
+   "w": "make",
+   "s": 117.08,
+   "e": 117.28
+  },
+  {
+   "w": "that",
+   "s": 117.28,
+   "e": 117.48
+  },
+  {
+   "w": "ring",
+   "s": 117.48,
+   "e": 117.66
+  },
+  {
+   "w": "relax.",
+   "s": 117.66,
+   "e": 118.06
+  },
+  {
+   "w": "Is",
+   "s": 118.72,
+   "e": 118.82
+  },
+  {
+   "w": "that",
+   "s": 118.82,
+   "e": 118.98
+  },
+  {
+   "w": "what",
+   "s": 118.98,
+   "e": 119.16
+  },
+  {
+   "w": "heartburn",
+   "s": 119.16,
+   "e": 119.6
+  },
+  {
+   "w": "is?",
+   "s": 119.6,
+   "e": 119.86
+  },
+  {
+   "w": "Exactly,",
+   "s": 120.4,
+   "e": 120.88
+  },
+  {
+   "w": "acid",
+   "s": 121.28,
+   "e": 121.64
+  },
+  {
+   "w": "leaks",
+   "s": 121.64,
+   "e": 121.84
+  },
+  {
+   "w": "up",
+   "s": 121.84,
+   "e": 122.08
+  },
+  {
+   "w": "into",
+   "s": 122.08,
+   "e": 122.24
+  },
+  {
+   "w": "your",
+   "s": 122.24,
+   "e": 122.42
+  },
+  {
+   "w": "food",
+   "s": 122.42,
+   "e": 122.64
+  },
+  {
+   "w": "pipe,",
+   "s": 122.64,
+   "e": 122.86
+  },
+  {
+   "w": "and",
+   "s": 123.3,
+   "e": 123.42
+  },
+  {
+   "w": "it",
+   "s": 123.42,
+   "e": 123.5
+  },
+  {
+   "w": "burns.",
+   "s": 123.5,
+   "e": 123.72
+  },
+  {
+   "w": "And",
+   "s": 124.66,
+   "e": 124.66
+  },
+  {
+   "w": "flopping",
+   "s": 124.66,
+   "e": 124.98
+  },
+  {
+   "w": "onto",
+   "s": 124.98,
+   "e": 125.1
+  },
+  {
+   "w": "the",
+   "s": 125.1,
+   "e": 125.28
+  },
+  {
+   "w": "sofa",
+   "s": 125.28,
+   "e": 125.48
+  },
+  {
+   "w": "right",
+   "s": 125.48,
+   "e": 125.92
+  },
+  {
+   "w": "after",
+   "s": 125.92,
+   "e": 126.18
+  },
+  {
+   "w": "dinner",
+   "s": 126.18,
+   "e": 126.5
+  },
+  {
+   "w": "makes",
+   "s": 126.5,
+   "e": 126.9
+  },
+  {
+   "w": "it",
+   "s": 126.9,
+   "e": 127.1
+  },
+  {
+   "w": "even",
+   "s": 127.1,
+   "e": 127.34
+  },
+  {
+   "w": "easier",
+   "s": 127.34,
+   "e": 127.68
+  },
+  {
+   "w": "for",
+   "s": 127.68,
+   "e": 127.96
+  },
+  {
+   "w": "the",
+   "s": 127.96,
+   "e": 128.06
+  },
+  {
+   "w": "acid",
+   "s": 128.06,
+   "e": 128.28
+  },
+  {
+   "w": "to",
+   "s": 128.28,
+   "e": 128.52
+  },
+  {
+   "w": "flow",
+   "s": 128.52,
+   "e": 128.68
+  },
+  {
+   "w": "up.",
+   "s": 128.68,
+   "e": 128.9
+  },
+  {
+   "w": "So",
+   "s": 129.34,
+   "e": 129.54
+  },
+  {
+   "w": "if",
+   "s": 129.54,
+   "e": 129.66
+  },
+  {
+   "w": "heartburn",
+   "s": 129.66,
+   "e": 130.12
+  },
+  {
+   "w": "is",
+   "s": 130.12,
+   "e": 130.36
+  },
+  {
+   "w": "a",
+   "s": 130.36,
+   "e": 130.46
+  },
+  {
+   "w": "regular",
+   "s": 130.46,
+   "e": 130.7
+  },
+  {
+   "w": "guest",
+   "s": 130.7,
+   "e": 131.08
+  },
+  {
+   "w": "at",
+   "s": 131.08,
+   "e": 131.32
+  },
+  {
+   "w": "your",
+   "s": 131.32,
+   "e": 131.44
+  },
+  {
+   "w": "Christmas,",
+   "s": 131.44,
+   "e": 131.8
+  },
+  {
+   "w": "try",
+   "s": 132.34,
+   "e": 132.58
+  },
+  {
+   "w": "staying",
+   "s": 132.58,
+   "e": 132.92
+  },
+  {
+   "w": "upright",
+   "s": 132.92,
+   "e": 133.18
+  },
+  {
+   "w": "for",
+   "s": 133.18,
+   "e": 133.56
+  },
+  {
+   "w": "two",
+   "s": 133.56,
+   "e": 133.74
+  },
+  {
+   "w": "or",
+   "s": 133.74,
+   "e": 133.88
+  },
+  {
+   "w": "three",
+   "s": 133.88,
+   "e": 134.06
+  },
+  {
+   "w": "hours",
+   "s": 134.06,
+   "e": 134.3
+  },
+  {
+   "w": "after",
+   "s": 134.3,
+   "e": 134.58
+  },
+  {
+   "w": "the",
+   "s": 134.58,
+   "e": 134.74
+  },
+  {
+   "w": "meal",
+   "s": 134.74,
+   "e": 134.94
+  },
+  {
+   "w": "before",
+   "s": 134.94,
+   "e": 135.42
+  },
+  {
+   "w": "you",
+   "s": 135.42,
+   "e": 135.7
+  },
+  {
+   "w": "lie",
+   "s": 135.7,
+   "e": 135.84
+  },
+  {
+   "w": "down.",
+   "s": 135.84,
+   "e": 136.22
+  },
+  {
+   "w": "What",
+   "s": 138.18,
+   "e": 138.7
+  },
+  {
+   "w": "happens",
+   "s": 138.7,
+   "e": 139.0
+  },
+  {
+   "w": "when",
+   "s": 139.0,
+   "e": 139.42
+  },
+  {
+   "w": "the",
+   "s": 139.42,
+   "e": 139.52
+  },
+  {
+   "w": "food",
+   "s": 139.52,
+   "e": 139.78
+  },
+  {
+   "w": "reaches",
+   "s": 139.78,
+   "e": 140.14
+  },
+  {
+   "w": "my",
+   "s": 140.14,
+   "e": 140.36
+  },
+  {
+   "w": "blood?",
+   "s": 140.36,
+   "e": 140.7
+  },
+  {
+   "w": "The",
+   "s": 141.36,
+   "e": 141.44
+  },
+  {
+   "w": "potatoes,",
+   "s": 141.44,
+   "e": 141.84
+  },
+  {
+   "w": "stuffing,",
+   "s": 142.18,
+   "e": 142.44
+  },
+  {
+   "w": "bread",
+   "s": 142.86,
+   "e": 143.0
+  },
+  {
+   "w": "and",
+   "s": 143.0,
+   "e": 143.24
+  },
+  {
+   "w": "dessert",
+   "s": 143.24,
+   "e": 143.5
+  },
+  {
+   "w": "are",
+   "s": 143.5,
+   "e": 143.76
+  },
+  {
+   "w": "broken",
+   "s": 143.76,
+   "e": 143.98
+  },
+  {
+   "w": "down",
+   "s": 143.98,
+   "e": 144.34
+  },
+  {
+   "w": "into",
+   "s": 144.34,
+   "e": 144.5
+  },
+  {
+   "w": "sugar,",
+   "s": 144.5,
+   "e": 144.88
+  },
+  {
+   "w": "and",
+   "s": 145.28,
+   "e": 145.4
+  },
+  {
+   "w": "it",
+   "s": 145.4,
+   "e": 145.48
+  },
+  {
+   "w": "pours",
+   "s": 145.48,
+   "e": 145.72
+  },
+  {
+   "w": "into",
+   "s": 145.72,
+   "e": 145.9
+  },
+  {
+   "w": "your",
+   "s": 145.9,
+   "e": 146.06
+  },
+  {
+   "w": "blood.",
+   "s": 146.06,
+   "e": 146.26
+  },
+  {
+   "w": "Your",
+   "s": 146.96,
+   "e": 147.02
+  },
+  {
+   "w": "pancreas",
+   "s": 147.02,
+   "e": 147.52
+  },
+  {
+   "w": "answers",
+   "s": 147.52,
+   "e": 147.74
+  },
+  {
+   "w": "with",
+   "s": 147.74,
+   "e": 148.14
+  },
+  {
+   "w": "insulin,",
+   "s": 148.14,
+   "e": 148.34
+  },
+  {
+   "w": "a",
+   "s": 148.98,
+   "e": 149.06
+  },
+  {
+   "w": "hormone",
+   "s": 149.06,
+   "e": 149.32
+  },
+  {
+   "w": "that",
+   "s": 149.32,
+   "e": 149.62
+  },
+  {
+   "w": "helps",
+   "s": 149.62,
+   "e": 149.8
+  },
+  {
+   "w": "your",
+   "s": 149.8,
+   "e": 149.98
+  },
+  {
+   "w": "cells",
+   "s": 149.98,
+   "e": 150.18
+  },
+  {
+   "w": "soak",
+   "s": 150.18,
+   "e": 150.54
+  },
+  {
+   "w": "that",
+   "s": 150.54,
+   "e": 150.82
+  },
+  {
+   "w": "sugar",
+   "s": 150.82,
+   "e": 151.06
+  },
+  {
+   "w": "up.",
+   "s": 151.06,
+   "e": 151.36
+  },
+  {
+   "w": "Your",
+   "s": 151.88,
+   "e": 151.98
+  },
+  {
+   "w": "muscles",
+   "s": 151.98,
+   "e": 152.26
+  },
+  {
+   "w": "and",
+   "s": 152.26,
+   "e": 152.56
+  },
+  {
+   "w": "liver",
+   "s": 152.56,
+   "e": 152.74
+  },
+  {
+   "w": "pack",
+   "s": 152.74,
+   "e": 153.06
+  },
+  {
+   "w": "the",
+   "s": 153.06,
+   "e": 153.3
+  },
+  {
+   "w": "extra",
+   "s": 153.3,
+   "e": 153.62
+  },
+  {
+   "w": "away",
+   "s": 153.62,
+   "e": 153.96
+  },
+  {
+   "w": "as",
+   "s": 153.96,
+   "e": 154.2
+  },
+  {
+   "w": "glycogen,",
+   "s": 154.2,
+   "e": 154.72
+  },
+  {
+   "w": "a",
+   "s": 155.04,
+   "e": 155.2
+  },
+  {
+   "w": "kind",
+   "s": 155.2,
+   "e": 155.38
+  },
+  {
+   "w": "of",
+   "s": 155.38,
+   "e": 155.48
+  },
+  {
+   "w": "stored",
+   "s": 155.48,
+   "e": 155.66
+  },
+  {
+   "w": "sugar.",
+   "s": 155.66,
+   "e": 156.08
+  },
+  {
+   "w": "Whatever",
+   "s": 156.7,
+   "e": 156.92
+  },
+  {
+   "w": "doesn't",
+   "s": 156.92,
+   "e": 157.44
+  },
+  {
+   "w": "fit,",
+   "s": 157.44,
+   "e": 157.62
+  },
+  {
+   "w": "they",
+   "s": 157.78,
+   "e": 157.8
+  },
+  {
+   "w": "can",
+   "s": 157.8,
+   "e": 157.96
+  },
+  {
+   "w": "end",
+   "s": 157.96,
+   "e": 158.1
+  },
+  {
+   "w": "up",
+   "s": 158.1,
+   "e": 158.28
+  },
+  {
+   "w": "as",
+   "s": 158.28,
+   "e": 158.46
+  },
+  {
+   "w": "fat.",
+   "s": 158.46,
+   "e": 158.66
+  },
+  {
+   "w": "Your",
+   "s": 159.36,
+   "e": 159.42
+  },
+  {
+   "w": "liver",
+   "s": 159.42,
+   "e": 159.6
+  },
+  {
+   "w": "can",
+   "s": 159.6,
+   "e": 159.84
+  },
+  {
+   "w": "store",
+   "s": 159.84,
+   "e": 160.08
+  },
+  {
+   "w": "roughly",
+   "s": 160.08,
+   "e": 160.48
+  },
+  {
+   "w": "100",
+   "s": 160.48,
+   "e": 160.82
+  },
+  {
+   "w": "grams",
+   "s": 160.82,
+   "e": 161.24
+  },
+  {
+   "w": "of",
+   "s": 161.24,
+   "e": 161.46
+  },
+  {
+   "w": "glycogen,",
+   "s": 161.46,
+   "e": 162.02
+  },
+  {
+   "w": "and",
+   "s": 162.32,
+   "e": 162.54
+  },
+  {
+   "w": "your",
+   "s": 162.54,
+   "e": 162.66
+  },
+  {
+   "w": "muscles",
+   "s": 162.66,
+   "e": 162.94
+  },
+  {
+   "w": "several",
+   "s": 162.94,
+   "e": 163.38
+  },
+  {
+   "w": "hundred",
+   "s": 163.38,
+   "e": 163.8
+  },
+  {
+   "w": "more.",
+   "s": 163.8,
+   "e": 164.18
+  },
+  {
+   "w": "After",
+   "s": 164.18,
+   "e": 164.98
+  },
+  {
+   "w": "a",
+   "s": 164.98,
+   "e": 165.06
+  },
+  {
+   "w": "feast,",
+   "s": 165.06,
+   "e": 165.24
+  },
+  {
+   "w": "those",
+   "s": 165.74,
+   "e": 165.84
+  },
+  {
+   "w": "tanks",
+   "s": 165.84,
+   "e": 166.08
+  },
+  {
+   "w": "are",
+   "s": 166.08,
+   "e": 166.32
+  },
+  {
+   "w": "topped",
+   "s": 166.32,
+   "e": 166.42
+  },
+  {
+   "w": "up.",
+   "s": 166.42,
+   "e": 166.72
+  },
+  {
+   "w": "Digesting",
+   "s": 167.32,
+   "e": 167.8
+  },
+  {
+   "w": "all",
+   "s": 167.8,
+   "e": 167.96
+  },
+  {
+   "w": "this",
+   "s": 167.96,
+   "e": 168.14
+  },
+  {
+   "w": "takes",
+   "s": 168.14,
+   "e": 168.34
+  },
+  {
+   "w": "work",
+   "s": 168.34,
+   "e": 168.68
+  },
+  {
+   "w": "too.",
+   "s": 168.68,
+   "e": 169.0
+  },
+  {
+   "w": "Roughly",
+   "s": 169.64,
+   "e": 170.0
+  },
+  {
+   "w": "a",
+   "s": 170.0,
+   "e": 170.1
+  },
+  {
+   "w": "tenth",
+   "s": 170.1,
+   "e": 170.32
+  },
+  {
+   "w": "of",
+   "s": 170.32,
+   "e": 170.5
+  },
+  {
+   "w": "the",
+   "s": 170.5,
+   "e": 170.6
+  },
+  {
+   "w": "calories",
+   "s": 170.6,
+   "e": 170.82
+  },
+  {
+   "w": "in",
+   "s": 170.82,
+   "e": 171.18
+  },
+  {
+   "w": "a",
+   "s": 171.18,
+   "e": 171.2
+  },
+  {
+   "w": "meal",
+   "s": 171.2,
+   "e": 171.38
+  },
+  {
+   "w": "are",
+   "s": 171.38,
+   "e": 171.6
+  },
+  {
+   "w": "burned",
+   "s": 171.6,
+   "e": 171.78
+  },
+  {
+   "w": "just",
+   "s": 171.78,
+   "e": 172.14
+  },
+  {
+   "w": "processing",
+   "s": 172.14,
+   "e": 172.58
+  },
+  {
+   "w": "it,",
+   "s": 172.58,
+   "e": 172.88
+  },
+  {
+   "w": "which",
+   "s": 173.16,
+   "e": 173.32
+  },
+  {
+   "w": "is",
+   "s": 173.32,
+   "e": 173.46
+  },
+  {
+   "w": "part",
+   "s": 173.46,
+   "e": 173.64
+  },
+  {
+   "w": "of",
+   "s": 173.64,
+   "e": 173.8
+  },
+  {
+   "w": "why",
+   "s": 173.8,
+   "e": 173.94
+  },
+  {
+   "w": "a",
+   "s": 173.94,
+   "e": 174.06
+  },
+  {
+   "w": "feast",
+   "s": 174.06,
+   "e": 174.3
+  },
+  {
+   "w": "can",
+   "s": 174.3,
+   "e": 174.58
+  },
+  {
+   "w": "leave",
+   "s": 174.58,
+   "e": 174.78
+  },
+  {
+   "w": "you",
+   "s": 174.78,
+   "e": 174.92
+  },
+  {
+   "w": "feeling",
+   "s": 174.92,
+   "e": 175.18
+  },
+  {
+   "w": "warm.",
+   "s": 175.18,
+   "e": 175.52
+  },
+  {
+   "w": "Can",
+   "s": 175.94,
+   "e": 176.06
+  },
+  {
+   "w": "I",
+   "s": 176.06,
+   "e": 176.2
+  },
+  {
+   "w": "do",
+   "s": 176.2,
+   "e": 176.34
+  },
+  {
+   "w": "anything",
+   "s": 176.34,
+   "e": 176.6
+  },
+  {
+   "w": "about",
+   "s": 176.6,
+   "e": 176.92
+  },
+  {
+   "w": "the",
+   "s": 176.92,
+   "e": 177.08
+  },
+  {
+   "w": "spike?",
+   "s": 177.08,
+   "e": 177.3
+  },
+  {
+   "w": "Yes,",
+   "s": 178.02,
+   "e": 178.28
+  },
+  {
+   "w": "and",
+   "s": 178.36,
+   "e": 178.68
+  },
+  {
+   "w": "it's",
+   "s": 178.68,
+   "e": 178.86
+  },
+  {
+   "w": "easy.",
+   "s": 178.86,
+   "e": 179.04
+  },
+  {
+   "w": "A",
+   "s": 179.9,
+   "e": 179.92
+  },
+  {
+   "w": "2022",
+   "s": 179.92,
+   "e": 180.24
+  },
+  {
+   "w": "review",
+   "s": 180.24,
+   "e": 180.88
+  },
+  {
+   "w": "found",
+   "s": 180.88,
+   "e": 181.38
+  },
+  {
+   "w": "that",
+   "s": 181.38,
+   "e": 181.62
+  },
+  {
+   "w": "even",
+   "s": 181.62,
+   "e": 181.82
+  },
+  {
+   "w": "two",
+   "s": 181.82,
+   "e": 182.08
+  },
+  {
+   "w": "to",
+   "s": 182.08,
+   "e": 182.22
+  },
+  {
+   "w": "five",
+   "s": 182.22,
+   "e": 182.44
+  },
+  {
+   "w": "minutes",
+   "s": 182.44,
+   "e": 182.66
+  },
+  {
+   "w": "of",
+   "s": 182.66,
+   "e": 182.86
+  },
+  {
+   "w": "light",
+   "s": 182.86,
+   "e": 183.04
+  },
+  {
+   "w": "walking",
+   "s": 183.04,
+   "e": 183.32
+  },
+  {
+   "w": "after",
+   "s": 183.32,
+   "e": 183.7
+  },
+  {
+   "w": "a",
+   "s": 183.7,
+   "e": 183.8
+  },
+  {
+   "w": "meal",
+   "s": 183.8,
+   "e": 183.98
+  },
+  {
+   "w": "made",
+   "s": 183.98,
+   "e": 184.5
+  },
+  {
+   "w": "the",
+   "s": 184.5,
+   "e": 184.64
+  },
+  {
+   "w": "rise",
+   "s": 184.64,
+   "e": 184.88
+  },
+  {
+   "w": "in",
+   "s": 184.88,
+   "e": 185.16
+  },
+  {
+   "w": "blood",
+   "s": 185.16,
+   "e": 185.38
+  },
+  {
+   "w": "sugar",
+   "s": 185.38,
+   "e": 185.66
+  },
+  {
+   "w": "gentler",
+   "s": 185.66,
+   "e": 186.28
+  },
+  {
+   "w": "than",
+   "s": 186.28,
+   "e": 186.46
+  },
+  {
+   "w": "sitting",
+   "s": 186.46,
+   "e": 186.66
+  },
+  {
+   "w": "still.",
+   "s": 186.66,
+   "e": 187.1
+  },
+  {
+   "w": "Standing",
+   "s": 187.54,
+   "e": 187.78
+  },
+  {
+   "w": "up",
+   "s": 187.78,
+   "e": 188.1
+  },
+  {
+   "w": "helped",
+   "s": 188.1,
+   "e": 188.3
+  },
+  {
+   "w": "a",
+   "s": 188.3,
+   "e": 188.54
+  },
+  {
+   "w": "little",
+   "s": 188.54,
+   "e": 188.7
+  },
+  {
+   "w": "too,",
+   "s": 188.7,
+   "e": 189.02
+  },
+  {
+   "w": "walking",
+   "s": 189.34,
+   "e": 189.64
+  },
+  {
+   "w": "helped",
+   "s": 189.64,
+   "e": 189.9
+  },
+  {
+   "w": "more.",
+   "s": 189.9,
+   "e": 190.3
+  },
+  {
+   "w": "Why",
+   "s": 192.98,
+   "e": 193.5
+  },
+  {
+   "w": "is",
+   "s": 193.5,
+   "e": 193.7
+  },
+  {
+   "w": "there",
+   "s": 193.7,
+   "e": 193.84
+  },
+  {
+   "w": "always",
+   "s": 193.84,
+   "e": 194.12
+  },
+  {
+   "w": "room",
+   "s": 194.12,
+   "e": 194.48
+  },
+  {
+   "w": "for",
+   "s": 194.48,
+   "e": 194.72
+  },
+  {
+   "w": "dessert?",
+   "s": 194.72,
+   "e": 195.0
+  },
+  {
+   "w": "Part",
+   "s": 195.74,
+   "e": 195.94
+  },
+  {
+   "w": "of",
+   "s": 195.94,
+   "e": 196.12
+  },
+  {
+   "w": "it",
+   "s": 196.12,
+   "e": 196.22
+  },
+  {
+   "w": "is",
+   "s": 196.22,
+   "e": 196.32
+  },
+  {
+   "w": "variety.",
+   "s": 196.32,
+   "e": 196.62
+  },
+  {
+   "w": "When",
+   "s": 197.48,
+   "e": 197.5
+  },
+  {
+   "w": "you've",
+   "s": 197.5,
+   "e": 197.72
+  },
+  {
+   "w": "had",
+   "s": 197.72,
+   "e": 197.84
+  },
+  {
+   "w": "enough",
+   "s": 197.84,
+   "e": 198.08
+  },
+  {
+   "w": "of",
+   "s": 198.08,
+   "e": 198.22
+  },
+  {
+   "w": "one",
+   "s": 198.22,
+   "e": 198.36
+  },
+  {
+   "w": "flavor,",
+   "s": 198.36,
+   "e": 198.7
+  },
+  {
+   "w": "it",
+   "s": 199.1,
+   "e": 199.16
+  },
+  {
+   "w": "stops",
+   "s": 199.16,
+   "e": 199.34
+  },
+  {
+   "w": "tasting",
+   "s": 199.34,
+   "e": 199.72
+  },
+  {
+   "w": "as",
+   "s": 199.72,
+   "e": 200.04
+  },
+  {
+   "w": "good,",
+   "s": 200.04,
+   "e": 200.3
+  },
+  {
+   "w": "but",
+   "s": 200.62,
+   "e": 200.76
+  },
+  {
+   "w": "a",
+   "s": 200.76,
+   "e": 200.84
+  },
+  {
+   "w": "new",
+   "s": 200.84,
+   "e": 200.98
+  },
+  {
+   "w": "flavor",
+   "s": 200.98,
+   "e": 201.22
+  },
+  {
+   "w": "still",
+   "s": 201.22,
+   "e": 201.64
+  },
+  {
+   "w": "looks",
+   "s": 201.64,
+   "e": 201.88
+  },
+  {
+   "w": "exciting.",
+   "s": 201.88,
+   "e": 202.3
+  },
+  {
+   "w": "Scientists",
+   "s": 203.08,
+   "e": 203.4
+  },
+  {
+   "w": "call",
+   "s": 203.4,
+   "e": 203.9
+  },
+  {
+   "w": "it",
+   "s": 203.9,
+   "e": 204.1
+  },
+  {
+   "w": "sensory",
+   "s": 204.1,
+   "e": 204.34
+  },
+  {
+   "w": "-specific",
+   "s": 204.34,
+   "e": 205.0
+  },
+  {
+   "w": "satiety,",
+   "s": 205.0,
+   "e": 205.64
+  },
+  {
+   "w": "and",
+   "s": 206.14,
+   "e": 206.28
+  },
+  {
+   "w": "in",
+   "s": 206.28,
+   "e": 206.36
+  },
+  {
+   "w": "2025,",
+   "s": 206.36,
+   "e": 206.88
+  },
+  {
+   "w": "researchers",
+   "s": 207.62,
+   "e": 207.92
+  },
+  {
+   "w": "in",
+   "s": 207.92,
+   "e": 208.3
+  },
+  {
+   "w": "Germany",
+   "s": 208.3,
+   "e": 208.52
+  },
+  {
+   "w": "found",
+   "s": 208.52,
+   "e": 208.98
+  },
+  {
+   "w": "something",
+   "s": 208.98,
+   "e": 209.34
+  },
+  {
+   "w": "stranger.",
+   "s": 209.34,
+   "e": 209.68
+  },
+  {
+   "w": "In",
+   "s": 210.6,
+   "e": 210.64
+  },
+  {
+   "w": "full",
+   "s": 210.64,
+   "e": 210.84
+  },
+  {
+   "w": "mice,",
+   "s": 210.84,
+   "e": 211.1
+  },
+  {
+   "w": "the",
+   "s": 211.46,
+   "e": 211.56
+  },
+  {
+   "w": "very",
+   "s": 211.56,
+   "e": 211.74
+  },
+  {
+   "w": "brain",
+   "s": 211.74,
+   "e": 211.96
+  },
+  {
+   "w": "cells",
+   "s": 211.96,
+   "e": 212.34
+  },
+  {
+   "w": "that",
+   "s": 212.34,
+   "e": 212.68
+  },
+  {
+   "w": "signal",
+   "s": 212.68,
+   "e": 212.88
+  },
+  {
+   "w": "fullness",
+   "s": 212.88,
+   "e": 213.46
+  },
+  {
+   "w": "also",
+   "s": 213.46,
+   "e": 213.72
+  },
+  {
+   "w": "release",
+   "s": 213.72,
+   "e": 214.24
+  },
+  {
+   "w": "a",
+   "s": 214.24,
+   "e": 214.42
+  },
+  {
+   "w": "natural",
+   "s": 214.42,
+   "e": 214.72
+  },
+  {
+   "w": "opioid",
+   "s": 214.72,
+   "e": 214.96
+  },
+  {
+   "w": "when",
+   "s": 214.96,
+   "e": 215.5
+  },
+  {
+   "w": "sugar",
+   "s": 215.5,
+   "e": 215.7
+  },
+  {
+   "w": "shows",
+   "s": 215.7,
+   "e": 216.08
+  },
+  {
+   "w": "up,",
+   "s": 216.08,
+   "e": 216.38
+  },
+  {
+   "w": "and",
+   "s": 216.68,
+   "e": 216.86
+  },
+  {
+   "w": "that",
+   "s": 216.86,
+   "e": 216.98
+  },
+  {
+   "w": "switches",
+   "s": 216.98,
+   "e": 217.22
+  },
+  {
+   "w": "on",
+   "s": 217.22,
+   "e": 217.5
+  },
+  {
+   "w": "a",
+   "s": 217.5,
+   "e": 217.6
+  },
+  {
+   "w": "craving",
+   "s": 217.6,
+   "e": 217.78
+  },
+  {
+   "w": "for",
+   "s": 217.78,
+   "e": 218.12
+  },
+  {
+   "w": "sweets.",
+   "s": 218.12,
+   "e": 218.32
+  },
+  {
+   "w": "Brain",
+   "s": 218.32,
+   "e": 219.06
+  },
+  {
+   "w": "scans",
+   "s": 219.06,
+   "e": 219.36
+  },
+  {
+   "w": "hinted",
+   "s": 219.36,
+   "e": 219.9
+  },
+  {
+   "w": "that",
+   "s": 219.9,
+   "e": 220.2
+  },
+  {
+   "w": "the",
+   "s": 220.2,
+   "e": 220.3
+  },
+  {
+   "w": "same",
+   "s": 220.3,
+   "e": 220.56
+  },
+  {
+   "w": "brain",
+   "s": 220.56,
+   "e": 220.82
+  },
+  {
+   "w": "region",
+   "s": 220.82,
+   "e": 221.26
+  },
+  {
+   "w": "responds",
+   "s": 221.26,
+   "e": 221.62
+  },
+  {
+   "w": "to",
+   "s": 221.62,
+   "e": 221.96
+  },
+  {
+   "w": "sugar",
+   "s": 221.96,
+   "e": 222.3
+  },
+  {
+   "w": "in",
+   "s": 222.3,
+   "e": 222.46
+  },
+  {
+   "w": "people",
+   "s": 222.46,
+   "e": 222.72
+  },
+  {
+   "w": "too.",
+   "s": 222.72,
+   "e": 223.06
+  },
+  {
+   "w": "A",
+   "s": 223.74,
+   "e": 223.78
+  },
+  {
+   "w": "dessert",
+   "s": 223.78,
+   "e": 223.98
+  },
+  {
+   "w": "stomach",
+   "s": 223.98,
+   "e": 224.48
+  },
+  {
+   "w": "built",
+   "s": 224.48,
+   "e": 225.02
+  },
+  {
+   "w": "into",
+   "s": 225.02,
+   "e": 225.28
+  },
+  {
+   "w": "the",
+   "s": 225.28,
+   "e": 225.4
+  },
+  {
+   "w": "brain.",
+   "s": 225.4,
+   "e": 225.68
+  },
+  {
+   "w": "Is",
+   "s": 227.74,
+   "e": 228.26
+  },
+  {
+   "w": "it",
+   "s": 228.26,
+   "e": 228.38
+  },
+  {
+   "w": "the",
+   "s": 228.38,
+   "e": 228.54
+  },
+  {
+   "w": "turkey",
+   "s": 228.54,
+   "e": 228.78
+  },
+  {
+   "w": "that",
+   "s": 228.78,
+   "e": 229.08
+  },
+  {
+   "w": "makes",
+   "s": 229.08,
+   "e": 229.24
+  },
+  {
+   "w": "me",
+   "s": 229.24,
+   "e": 229.44
+  },
+  {
+   "w": "sleepy?",
+   "s": 229.44,
+   "e": 229.7
+  },
+  {
+   "w": "That's",
+   "s": 230.48,
+   "e": 230.74
+  },
+  {
+   "w": "a",
+   "s": 230.74,
+   "e": 230.78
+  },
+  {
+   "w": "myth.",
+   "s": 230.78,
+   "e": 230.9
+  },
+  {
+   "w": "Turkey",
+   "s": 231.26,
+   "e": 231.34
+  },
+  {
+   "w": "does",
+   "s": 231.34,
+   "e": 231.6
+  },
+  {
+   "w": "contain",
+   "s": 231.6,
+   "e": 231.88
+  },
+  {
+   "w": "tryptophan,",
+   "s": 231.88,
+   "e": 232.76
+  },
+  {
+   "w": "which",
+   "s": 232.96,
+   "e": 233.06
+  },
+  {
+   "w": "your",
+   "s": 233.06,
+   "e": 233.2
+  },
+  {
+   "w": "brain",
+   "s": 233.2,
+   "e": 233.46
+  },
+  {
+   "w": "uses",
+   "s": 233.46,
+   "e": 233.74
+  },
+  {
+   "w": "to",
+   "s": 233.74,
+   "e": 234.0
+  },
+  {
+   "w": "make",
+   "s": 234.0,
+   "e": 234.12
+  },
+  {
+   "w": "sleep",
+   "s": 234.12,
+   "e": 234.4
+  },
+  {
+   "w": "chemicals,",
+   "s": 234.4,
+   "e": 234.78
+  },
+  {
+   "w": "but",
+   "s": 235.54,
+   "e": 235.66
+  },
+  {
+   "w": "many",
+   "s": 235.66,
+   "e": 235.8
+  },
+  {
+   "w": "meats",
+   "s": 235.8,
+   "e": 236.14
+  },
+  {
+   "w": "contain",
+   "s": 236.14,
+   "e": 236.36
+  },
+  {
+   "w": "about",
+   "s": 236.36,
+   "e": 236.82
+  },
+  {
+   "w": "as",
+   "s": 236.82,
+   "e": 236.98
+  },
+  {
+   "w": "much.",
+   "s": 236.98,
+   "e": 237.16
+  },
+  {
+   "w": "Salmon",
+   "s": 237.76,
+   "e": 238.0
+  },
+  {
+   "w": "does",
+   "s": 238.0,
+   "e": 238.26
+  },
+  {
+   "w": "too,",
+   "s": 238.26,
+   "e": 238.58
+  },
+  {
+   "w": "and",
+   "s": 238.86,
+   "e": 238.92
+  },
+  {
+   "w": "nobody",
+   "s": 238.92,
+   "e": 239.14
+  },
+  {
+   "w": "blames",
+   "s": 239.14,
+   "e": 239.54
+  },
+  {
+   "w": "the",
+   "s": 239.54,
+   "e": 239.8
+  },
+  {
+   "w": "salmon.",
+   "s": 239.8,
+   "e": 240.06
+  },
+  {
+   "w": "And",
+   "s": 240.56,
+   "e": 240.7
+  },
+  {
+   "w": "in",
+   "s": 240.7,
+   "e": 240.78
+  },
+  {
+   "w": "a",
+   "s": 240.78,
+   "e": 240.86
+  },
+  {
+   "w": "big",
+   "s": 240.86,
+   "e": 241.0
+  },
+  {
+   "w": "meal,",
+   "s": 241.0,
+   "e": 241.26
+  },
+  {
+   "w": "tryptophan",
+   "s": 241.52,
+   "e": 242.12
+  },
+  {
+   "w": "has",
+   "s": 242.12,
+   "e": 242.26
+  },
+  {
+   "w": "to",
+   "s": 242.26,
+   "e": 242.42
+  },
+  {
+   "w": "compete",
+   "s": 242.42,
+   "e": 242.68
+  },
+  {
+   "w": "with",
+   "s": 242.68,
+   "e": 242.96
+  },
+  {
+   "w": "other",
+   "s": 242.96,
+   "e": 243.24
+  },
+  {
+   "w": "amino",
+   "s": 243.24,
+   "e": 243.54
+  },
+  {
+   "w": "acids",
+   "s": 243.54,
+   "e": 243.98
+  },
+  {
+   "w": "to",
+   "s": 243.98,
+   "e": 244.38
+  },
+  {
+   "w": "get",
+   "s": 244.38,
+   "e": 244.52
+  },
+  {
+   "w": "into",
+   "s": 244.52,
+   "e": 244.68
+  },
+  {
+   "w": "your",
+   "s": 244.68,
+   "e": 244.88
+  },
+  {
+   "w": "brain.",
+   "s": 244.88,
+   "e": 245.14
+  },
+  {
+   "w": "Most",
+   "s": 245.9,
+   "e": 246.08
+  },
+  {
+   "w": "of",
+   "s": 246.08,
+   "e": 246.28
+  },
+  {
+   "w": "it",
+   "s": 246.28,
+   "e": 246.36
+  },
+  {
+   "w": "never",
+   "s": 246.36,
+   "e": 246.56
+  },
+  {
+   "w": "gets",
+   "s": 246.56,
+   "e": 246.86
+  },
+  {
+   "w": "there.",
+   "s": 246.86,
+   "e": 247.16
+  },
+  {
+   "w": "So",
+   "s": 247.16,
+   "e": 247.72
+  },
+  {
+   "w": "why",
+   "s": 247.72,
+   "e": 247.94
+  },
+  {
+   "w": "do",
+   "s": 247.94,
+   "e": 248.08
+  },
+  {
+   "w": "I",
+   "s": 248.08,
+   "e": 248.18
+  },
+  {
+   "w": "want",
+   "s": 248.18,
+   "e": 248.32
+  },
+  {
+   "w": "a",
+   "s": 248.32,
+   "e": 248.46
+  },
+  {
+   "w": "nap?",
+   "s": 248.46,
+   "e": 248.66
+  },
+  {
+   "w": "Mostly",
+   "s": 249.26,
+   "e": 249.6
+  },
+  {
+   "w": "because",
+   "s": 249.6,
+   "e": 250.0
+  },
+  {
+   "w": "the",
+   "s": 250.0,
+   "e": 250.2
+  },
+  {
+   "w": "meal",
+   "s": 250.2,
+   "e": 250.42
+  },
+  {
+   "w": "is",
+   "s": 250.42,
+   "e": 250.66
+  },
+  {
+   "w": "enormous.",
+   "s": 250.66,
+   "e": 250.9
+  },
+  {
+   "w": "Your",
+   "s": 251.84,
+   "e": 251.86
+  },
+  {
+   "w": "body",
+   "s": 251.86,
+   "e": 252.08
+  },
+  {
+   "w": "switches",
+   "s": 252.08,
+   "e": 252.32
+  },
+  {
+   "w": "into",
+   "s": 252.32,
+   "e": 252.7
+  },
+  {
+   "w": "rest",
+   "s": 252.7,
+   "e": 252.9
+  },
+  {
+   "w": "and",
+   "s": 252.9,
+   "e": 253.14
+  },
+  {
+   "w": "digest",
+   "s": 253.14,
+   "e": 253.42
+  },
+  {
+   "w": "mode,",
+   "s": 253.42,
+   "e": 253.84
+  },
+  {
+   "w": "and",
+   "s": 254.34,
+   "e": 254.42
+  },
+  {
+   "w": "alcohol",
+   "s": 254.42,
+   "e": 254.8
+  },
+  {
+   "w": "adds",
+   "s": 254.8,
+   "e": 255.14
+  },
+  {
+   "w": "to",
+   "s": 255.14,
+   "e": 255.4
+  },
+  {
+   "w": "the",
+   "s": 255.4,
+   "e": 255.48
+  },
+  {
+   "w": "drowsiness.",
+   "s": 255.48,
+   "e": 255.98
+  },
+  {
+   "w": "Plus,",
+   "s": 256.54,
+   "e": 256.74
+  },
+  {
+   "w": "many",
+   "s": 257.0,
+   "e": 257.14
+  },
+  {
+   "w": "families",
+   "s": 257.14,
+   "e": 257.56
+  },
+  {
+   "w": "eat",
+   "s": 257.56,
+   "e": 257.92
+  },
+  {
+   "w": "in",
+   "s": 257.92,
+   "e": 258.1
+  },
+  {
+   "w": "the",
+   "s": 258.1,
+   "e": 258.18
+  },
+  {
+   "w": "afternoon,",
+   "s": 258.18,
+   "e": 258.54
+  },
+  {
+   "w": "right",
+   "s": 259.04,
+   "e": 259.28
+  },
+  {
+   "w": "when",
+   "s": 259.28,
+   "e": 259.46
+  },
+  {
+   "w": "your",
+   "s": 259.46,
+   "e": 259.56
+  },
+  {
+   "w": "body",
+   "s": 259.56,
+   "e": 259.84
+  },
+  {
+   "w": "clock",
+   "s": 259.84,
+   "e": 260.02
+  },
+  {
+   "w": "naturally",
+   "s": 260.02,
+   "e": 260.5
+  },
+  {
+   "w": "dips.",
+   "s": 260.5,
+   "e": 260.84
+  },
+  {
+   "w": "Why",
+   "s": 263.6,
+   "e": 264.08
+  },
+  {
+   "w": "do",
+   "s": 264.08,
+   "e": 264.32
+  },
+  {
+   "w": "sprouts",
+   "s": 264.32,
+   "e": 264.78
+  },
+  {
+   "w": "make",
+   "s": 264.78,
+   "e": 264.96
+  },
+  {
+   "w": "me",
+   "s": 264.96,
+   "e": 265.1
+  },
+  {
+   "w": "so",
+   "s": 265.1,
+   "e": 265.26
+  },
+  {
+   "w": "gassy?",
+   "s": 265.26,
+   "e": 265.66
+  },
+  {
+   "w": "Brussels",
+   "s": 266.26,
+   "e": 266.48
+  },
+  {
+   "w": "sprouts",
+   "s": 266.48,
+   "e": 267.1
+  },
+  {
+   "w": "contain",
+   "s": 267.1,
+   "e": 267.34
+  },
+  {
+   "w": "a",
+   "s": 267.34,
+   "e": 267.62
+  },
+  {
+   "w": "sugar",
+   "s": 267.62,
+   "e": 267.9
+  },
+  {
+   "w": "called",
+   "s": 267.9,
+   "e": 268.28
+  },
+  {
+   "w": "raffinose.",
+   "s": 268.28,
+   "e": 268.84
+  },
+  {
+   "w": "Your",
+   "s": 269.48,
+   "e": 269.58
+  },
+  {
+   "w": "body",
+   "s": 269.58,
+   "e": 269.82
+  },
+  {
+   "w": "has",
+   "s": 269.82,
+   "e": 270.02
+  },
+  {
+   "w": "no",
+   "s": 270.02,
+   "e": 270.24
+  },
+  {
+   "w": "enzyme",
+   "s": 270.24,
+   "e": 270.5
+  },
+  {
+   "w": "to",
+   "s": 270.5,
+   "e": 270.86
+  },
+  {
+   "w": "break",
+   "s": 270.86,
+   "e": 271.02
+  },
+  {
+   "w": "it",
+   "s": 271.02,
+   "e": 271.18
+  },
+  {
+   "w": "down,",
+   "s": 271.18,
+   "e": 271.44
+  },
+  {
+   "w": "so",
+   "s": 271.44,
+   "e": 271.96
+  },
+  {
+   "w": "it",
+   "s": 271.96,
+   "e": 272.08
+  },
+  {
+   "w": "travels",
+   "s": 272.08,
+   "e": 272.32
+  },
+  {
+   "w": "on",
+   "s": 272.32,
+   "e": 272.58
+  },
+  {
+   "w": "to",
+   "s": 272.58,
+   "e": 272.74
+  },
+  {
+   "w": "your",
+   "s": 272.74,
+   "e": 272.86
+  },
+  {
+   "w": "large",
+   "s": 272.86,
+   "e": 273.08
+  },
+  {
+   "w": "intestine",
+   "s": 273.08,
+   "e": 273.36
+  },
+  {
+   "w": "untouched.",
+   "s": 273.36,
+   "e": 273.96
+  },
+  {
+   "w": "There",
+   "s": 273.96,
+   "e": 274.74
+  },
+  {
+   "w": "are",
+   "s": 274.74,
+   "e": 275.08
+  },
+  {
+   "w": "trillions",
+   "s": 275.08,
+   "e": 275.38
+  },
+  {
+   "w": "of",
+   "s": 275.38,
+   "e": 275.6
+  },
+  {
+   "w": "bacteria",
+   "s": 275.6,
+   "e": 275.96
+  },
+  {
+   "w": "feast",
+   "s": 275.96,
+   "e": 276.32
+  },
+  {
+   "w": "on",
+   "s": 276.32,
+   "e": 276.6
+  },
+  {
+   "w": "it,",
+   "s": 276.6,
+   "e": 276.76
+  },
+  {
+   "w": "and",
+   "s": 277.06,
+   "e": 277.12
+  },
+  {
+   "w": "their",
+   "s": 277.12,
+   "e": 277.26
+  },
+  {
+   "w": "waste",
+   "s": 277.26,
+   "e": 277.52
+  },
+  {
+   "w": "is",
+   "s": 277.52,
+   "e": 277.82
+  },
+  {
+   "w": "gas.",
+   "s": 277.82,
+   "e": 278.06
+  },
+  {
+   "w": "Hydrogen,",
+   "s": 278.7,
+   "e": 279.22
+  },
+  {
+   "w": "carbon",
+   "s": 279.56,
+   "e": 279.78
+  },
+  {
+   "w": "dioxide,",
+   "s": 279.78,
+   "e": 280.18
+  },
+  {
+   "w": "and",
+   "s": 280.72,
+   "e": 280.8
+  },
+  {
+   "w": "in",
+   "s": 280.8,
+   "e": 280.88
+  },
+  {
+   "w": "some",
+   "s": 280.88,
+   "e": 281.06
+  },
+  {
+   "w": "people",
+   "s": 281.06,
+   "e": 281.42
+  },
+  {
+   "w": "methane.",
+   "s": 281.42,
+   "e": 281.66
+  },
+  {
+   "w": "You",
+   "s": 282.4,
+   "e": 282.44
+  },
+  {
+   "w": "carry",
+   "s": 282.44,
+   "e": 282.62
+  },
+  {
+   "w": "roughly",
+   "s": 282.62,
+   "e": 282.94
+  },
+  {
+   "w": "38",
+   "s": 282.94,
+   "e": 283.7
+  },
+  {
+   "w": "trillion",
+   "s": 283.7,
+   "e": 284.02
+  },
+  {
+   "w": "gut",
+   "s": 284.02,
+   "e": 284.38
+  },
+  {
+   "w": "bacteria,",
+   "s": 284.38,
+   "e": 284.86
+  },
+  {
+   "w": "about",
+   "s": 285.32,
+   "e": 285.58
+  },
+  {
+   "w": "as",
+   "s": 285.58,
+   "e": 285.78
+  },
+  {
+   "w": "many",
+   "s": 285.78,
+   "e": 285.94
+  },
+  {
+   "w": "as",
+   "s": 285.94,
+   "e": 286.16
+  },
+  {
+   "w": "your",
+   "s": 286.16,
+   "e": 286.3
+  },
+  {
+   "w": "own",
+   "s": 286.3,
+   "e": 286.52
+  },
+  {
+   "w": "body's",
+   "s": 286.52,
+   "e": 286.94
+  },
+  {
+   "w": "cells.",
+   "s": 286.94,
+   "e": 287.16
+  },
+  {
+   "w": "To",
+   "s": 287.94,
+   "e": 288.04
+  },
+  {
+   "w": "them,",
+   "s": 288.04,
+   "e": 288.24
+  },
+  {
+   "w": "Christmas",
+   "s": 288.54,
+   "e": 288.78
+  },
+  {
+   "w": "dinner",
+   "s": 288.78,
+   "e": 289.1
+  },
+  {
+   "w": "is",
+   "s": 289.1,
+   "e": 289.36
+  },
+  {
+   "w": "a",
+   "s": 289.36,
+   "e": 289.44
+  },
+  {
+   "w": "feast",
+   "s": 289.44,
+   "e": 289.64
+  },
+  {
+   "w": "too.",
+   "s": 289.64,
+   "e": 289.98
+  },
+  {
+   "w": "Most",
+   "s": 290.48,
+   "e": 290.66
+  },
+  {
+   "w": "people",
+   "s": 290.66,
+   "e": 290.98
+  },
+  {
+   "w": "pass",
+   "s": 290.98,
+   "e": 291.26
+  },
+  {
+   "w": "gas",
+   "s": 291.26,
+   "e": 291.56
+  },
+  {
+   "w": "more",
+   "s": 291.56,
+   "e": 291.86
+  },
+  {
+   "w": "than",
+   "s": 291.86,
+   "e": 292.06
+  },
+  {
+   "w": "a",
+   "s": 292.06,
+   "e": 292.14
+  },
+  {
+   "w": "dozen",
+   "s": 292.14,
+   "e": 292.36
+  },
+  {
+   "w": "times",
+   "s": 292.36,
+   "e": 292.68
+  },
+  {
+   "w": "a",
+   "s": 292.68,
+   "e": 292.9
+  },
+  {
+   "w": "day.",
+   "s": 292.9,
+   "e": 293.08
+  },
+  {
+   "w": "After",
+   "s": 293.66,
+   "e": 293.84
+  },
+  {
+   "w": "Christmas",
+   "s": 293.84,
+   "e": 294.22
+  },
+  {
+   "w": "dinner,",
+   "s": 294.22,
+   "e": 294.5
+  },
+  {
+   "w": "your",
+   "s": 294.94,
+   "e": 295.02
+  },
+  {
+   "w": "gut",
+   "s": 295.02,
+   "e": 295.26
+  },
+  {
+   "w": "works",
+   "s": 295.26,
+   "e": 295.56
+  },
+  {
+   "w": "over",
+   "s": 295.56,
+   "e": 295.82
+  },
+  {
+   "w": "time.",
+   "s": 295.82,
+   "e": 296.2
+  },
+  {
+   "w": "Why",
+   "s": 298.36,
+   "e": 298.92
+  },
+  {
+   "w": "am",
+   "s": 298.92,
+   "e": 299.12
+  },
+  {
+   "w": "I",
+   "s": 299.12,
+   "e": 299.28
+  },
+  {
+   "w": "heavier",
+   "s": 299.28,
+   "e": 299.52
+  },
+  {
+   "w": "the",
+   "s": 299.52,
+   "e": 299.8
+  },
+  {
+   "w": "next",
+   "s": 299.8,
+   "e": 299.9
+  },
+  {
+   "w": "morning?",
+   "s": 299.9,
+   "e": 300.26
+  },
+  {
+   "w": "Mostly",
+   "s": 300.84,
+   "e": 301.32
+  },
+  {
+   "w": "water.",
+   "s": 301.32,
+   "e": 301.64
+  },
+  {
+   "w": "Salty",
+   "s": 302.22,
+   "e": 302.58
+  },
+  {
+   "w": "food",
+   "s": 302.58,
+   "e": 302.84
+  },
+  {
+   "w": "makes",
+   "s": 302.84,
+   "e": 303.08
+  },
+  {
+   "w": "your",
+   "s": 303.08,
+   "e": 303.28
+  },
+  {
+   "w": "body",
+   "s": 303.28,
+   "e": 303.5
+  },
+  {
+   "w": "hold",
+   "s": 303.5,
+   "e": 303.76
+  },
+  {
+   "w": "on",
+   "s": 303.76,
+   "e": 303.98
+  },
+  {
+   "w": "to",
+   "s": 303.98,
+   "e": 304.14
+  },
+  {
+   "w": "extra",
+   "s": 304.14,
+   "e": 304.36
+  },
+  {
+   "w": "water,",
+   "s": 304.36,
+   "e": 304.9
+  },
+  {
+   "w": "and",
+   "s": 305.42,
+   "e": 305.5
+  },
+  {
+   "w": "every",
+   "s": 305.5,
+   "e": 305.74
+  },
+  {
+   "w": "gram",
+   "s": 305.74,
+   "e": 306.04
+  },
+  {
+   "w": "of",
+   "s": 306.04,
+   "e": 306.18
+  },
+  {
+   "w": "glycogen",
+   "s": 306.18,
+   "e": 306.66
+  },
+  {
+   "w": "you",
+   "s": 306.66,
+   "e": 306.86
+  },
+  {
+   "w": "store",
+   "s": 306.86,
+   "e": 307.08
+  },
+  {
+   "w": "comes",
+   "s": 307.08,
+   "e": 307.4
+  },
+  {
+   "w": "packed",
+   "s": 307.4,
+   "e": 307.72
+  },
+  {
+   "w": "with",
+   "s": 307.72,
+   "e": 308.08
+  },
+  {
+   "w": "about",
+   "s": 308.08,
+   "e": 308.26
+  },
+  {
+   "w": "three",
+   "s": 308.26,
+   "e": 308.62
+  },
+  {
+   "w": "grams",
+   "s": 308.62,
+   "e": 308.88
+  },
+  {
+   "w": "of",
+   "s": 308.88,
+   "e": 309.08
+  },
+  {
+   "w": "water.",
+   "s": 309.08,
+   "e": 309.4
+  },
+  {
+   "w": "And",
+   "s": 310.3,
+   "e": 310.46
+  },
+  {
+   "w": "part",
+   "s": 310.46,
+   "e": 310.62
+  },
+  {
+   "w": "of",
+   "s": 310.62,
+   "e": 310.78
+  },
+  {
+   "w": "the",
+   "s": 310.78,
+   "e": 310.86
+  },
+  {
+   "w": "meal",
+   "s": 310.86,
+   "e": 311.02
+  },
+  {
+   "w": "is,",
+   "s": 311.02,
+   "e": 311.42
+  },
+  {
+   "w": "quite",
+   "s": 311.54,
+   "e": 311.74
+  },
+  {
+   "w": "literally,",
+   "s": 311.74,
+   "e": 312.14
+  },
+  {
+   "w": "still",
+   "s": 312.44,
+   "e": 312.7
+  },
+  {
+   "w": "inside",
+   "s": 312.7,
+   "e": 312.94
+  },
+  {
+   "w": "you.",
+   "s": 312.94,
+   "e": 313.4
+  },
+  {
+   "w": "So",
+   "s": 314.36,
+   "e": 314.54
+  },
+  {
+   "w": "how",
+   "s": 314.54,
+   "e": 314.68
+  },
+  {
+   "w": "much",
+   "s": 314.68,
+   "e": 314.84
+  },
+  {
+   "w": "fat",
+   "s": 314.84,
+   "e": 315.1
+  },
+  {
+   "w": "do",
+   "s": 315.1,
+   "e": 315.3
+  },
+  {
+   "w": "people",
+   "s": 315.3,
+   "e": 315.58
+  },
+  {
+   "w": "really",
+   "s": 315.58,
+   "e": 315.86
+  },
+  {
+   "w": "gain?",
+   "s": 315.86,
+   "e": 316.18
+  },
+  {
+   "w": "Less",
+   "s": 316.88,
+   "e": 317.08
+  },
+  {
+   "w": "than",
+   "s": 317.08,
+   "e": 317.28
+  },
+  {
+   "w": "you'd",
+   "s": 317.28,
+   "e": 317.48
+  },
+  {
+   "w": "think,",
+   "s": 317.48,
+   "e": 317.64
+  },
+  {
+   "w": "a",
+   "s": 318.08,
+   "e": 318.24
+  },
+  {
+   "w": "study",
+   "s": 318.24,
+   "e": 318.52
+  },
+  {
+   "w": "in",
+   "s": 318.52,
+   "e": 318.72
+  },
+  {
+   "w": "the",
+   "s": 318.72,
+   "e": 318.8
+  },
+  {
+   "w": "United",
+   "s": 318.8,
+   "e": 319.04
+  },
+  {
+   "w": "States",
+   "s": 319.04,
+   "e": 319.46
+  },
+  {
+   "w": "weighed",
+   "s": 319.46,
+   "e": 319.78
+  },
+  {
+   "w": "adults",
+   "s": 319.78,
+   "e": 320.16
+  },
+  {
+   "w": "before",
+   "s": 320.16,
+   "e": 320.62
+  },
+  {
+   "w": "and",
+   "s": 320.62,
+   "e": 320.88
+  },
+  {
+   "w": "after",
+   "s": 320.88,
+   "e": 321.08
+  },
+  {
+   "w": "the",
+   "s": 321.08,
+   "e": 321.22
+  },
+  {
+   "w": "holidays.",
+   "s": 321.22,
+   "e": 321.5
+  },
+  {
+   "w": "On",
+   "s": 322.14,
+   "e": 322.4
+  },
+  {
+   "w": "average,",
+   "s": 322.4,
+   "e": 322.7
+  },
+  {
+   "w": "they",
+   "s": 323.02,
+   "e": 323.12
+  },
+  {
+   "w": "gained",
+   "s": 323.12,
+   "e": 323.26
+  },
+  {
+   "w": "less",
+   "s": 323.26,
+   "e": 323.6
+  },
+  {
+   "w": "than",
+   "s": 323.6,
+   "e": 323.8
+  },
+  {
+   "w": "half",
+   "s": 323.8,
+   "e": 323.98
+  },
+  {
+   "w": "a",
+   "s": 323.98,
+   "e": 324.1
+  },
+  {
+   "w": "kilo,",
+   "s": 324.1,
+   "e": 324.46
+  },
+  {
+   "w": "about",
+   "s": 324.64,
+   "e": 324.88
+  },
+  {
+   "w": "one",
+   "s": 324.88,
+   "e": 325.18
+  },
+  {
+   "w": "pound.",
+   "s": 325.18,
+   "e": 325.52
+  },
+  {
+   "w": "The",
+   "s": 326.0,
+   "e": 326.12
+  },
+  {
+   "w": "catch,",
+   "s": 326.12,
+   "e": 326.34
+  },
+  {
+   "w": "when",
+   "s": 326.76,
+   "e": 326.9
+  },
+  {
+   "w": "they",
+   "s": 326.9,
+   "e": 327.02
+  },
+  {
+   "w": "were",
+   "s": 327.02,
+   "e": 327.1
+  },
+  {
+   "w": "weighed",
+   "s": 327.1,
+   "e": 327.3
+  },
+  {
+   "w": "again",
+   "s": 327.3,
+   "e": 327.56
+  },
+  {
+   "w": "months",
+   "s": 327.56,
+   "e": 327.78
+  },
+  {
+   "w": "later,",
+   "s": 327.78,
+   "e": 328.28
+  },
+  {
+   "w": "most",
+   "s": 328.66,
+   "e": 328.86
+  },
+  {
+   "w": "of",
+   "s": 328.86,
+   "e": 329.08
+  },
+  {
+   "w": "that",
+   "s": 329.08,
+   "e": 329.2
+  },
+  {
+   "w": "pound",
+   "s": 329.2,
+   "e": 329.5
+  },
+  {
+   "w": "was",
+   "s": 329.5,
+   "e": 329.7
+  },
+  {
+   "w": "still",
+   "s": 329.7,
+   "e": 329.96
+  },
+  {
+   "w": "there.",
+   "s": 329.96,
+   "e": 330.18
+  },
+  {
+   "w": "What",
+   "s": 332.5,
+   "e": 333.02
+  },
+  {
+   "w": "about",
+   "s": 333.02,
+   "e": 333.54
+  },
+  {
+   "w": "all",
+   "s": 333.54,
+   "e": 333.72
+  },
+  {
+   "w": "the",
+   "s": 333.72,
+   "e": 333.84
+  },
+  {
+   "w": "wine?",
+   "s": 333.84,
+   "e": 334.1
+  },
+  {
+   "w": "Your",
+   "s": 334.72,
+   "e": 334.96
+  },
+  {
+   "w": "liver",
+   "s": 334.96,
+   "e": 335.12
+  },
+  {
+   "w": "deals",
+   "s": 335.12,
+   "e": 335.44
+  },
+  {
+   "w": "with",
+   "s": 335.44,
+   "e": 335.68
+  },
+  {
+   "w": "it",
+   "s": 335.68,
+   "e": 335.86
+  },
+  {
+   "w": "at",
+   "s": 335.86,
+   "e": 336.08
+  },
+  {
+   "w": "roughly",
+   "s": 336.08,
+   "e": 336.38
+  },
+  {
+   "w": "one",
+   "s": 336.38,
+   "e": 336.64
+  },
+  {
+   "w": "standard",
+   "s": 336.64,
+   "e": 337.08
+  },
+  {
+   "w": "drink",
+   "s": 337.08,
+   "e": 337.34
+  },
+  {
+   "w": "per",
+   "s": 337.34,
+   "e": 337.62
+  },
+  {
+   "w": "hour.",
+   "s": 337.62,
+   "e": 338.0
+  },
+  {
+   "w": "Drink",
+   "s": 338.46,
+   "e": 338.58
+  },
+  {
+   "w": "faster",
+   "s": 338.58,
+   "e": 338.94
+  },
+  {
+   "w": "than",
+   "s": 338.94,
+   "e": 339.26
+  },
+  {
+   "w": "that,",
+   "s": 339.26,
+   "e": 339.56
+  },
+  {
+   "w": "and",
+   "s": 339.82,
+   "e": 339.9
+  },
+  {
+   "w": "the",
+   "s": 339.9,
+   "e": 340.0
+  },
+  {
+   "w": "alcohol",
+   "s": 340.0,
+   "e": 340.32
+  },
+  {
+   "w": "piles",
+   "s": 340.32,
+   "e": 340.68
+  },
+  {
+   "w": "up",
+   "s": 340.68,
+   "e": 340.96
+  },
+  {
+   "w": "in",
+   "s": 340.96,
+   "e": 341.08
+  },
+  {
+   "w": "your",
+   "s": 341.08,
+   "e": 341.16
+  },
+  {
+   "w": "blood.",
+   "s": 341.16,
+   "e": 341.42
+  },
+  {
+   "w": "Alcohol",
+   "s": 341.94,
+   "e": 342.26
+  },
+  {
+   "w": "also",
+   "s": 342.26,
+   "e": 342.9
+  },
+  {
+   "w": "dries",
+   "s": 342.9,
+   "e": 343.32
+  },
+  {
+   "w": "you",
+   "s": 343.32,
+   "e": 343.46
+  },
+  {
+   "w": "out.",
+   "s": 343.46,
+   "e": 343.64
+  },
+  {
+   "w": "It",
+   "s": 344.26,
+   "e": 344.28
+  },
+  {
+   "w": "switches",
+   "s": 344.28,
+   "e": 344.46
+  },
+  {
+   "w": "off",
+   "s": 344.46,
+   "e": 344.8
+  },
+  {
+   "w": "a",
+   "s": 344.8,
+   "e": 344.8
+  },
+  {
+   "w": "hormone",
+   "s": 344.8,
+   "e": 345.18
+  },
+  {
+   "w": "that",
+   "s": 345.18,
+   "e": 345.46
+  },
+  {
+   "w": "tells",
+   "s": 345.46,
+   "e": 345.7
+  },
+  {
+   "w": "your",
+   "s": 345.7,
+   "e": 345.84
+  },
+  {
+   "w": "kidneys",
+   "s": 345.84,
+   "e": 346.1
+  },
+  {
+   "w": "to",
+   "s": 346.1,
+   "e": 346.42
+  },
+  {
+   "w": "hold",
+   "s": 346.42,
+   "e": 346.6
+  },
+  {
+   "w": "on",
+   "s": 346.6,
+   "e": 346.82
+  },
+  {
+   "w": "to",
+   "s": 346.82,
+   "e": 346.98
+  },
+  {
+   "w": "water,",
+   "s": 346.98,
+   "e": 347.26
+  },
+  {
+   "w": "which",
+   "s": 347.7,
+   "e": 347.84
+  },
+  {
+   "w": "is",
+   "s": 347.84,
+   "e": 348.0
+  },
+  {
+   "w": "part",
+   "s": 348.0,
+   "e": 348.18
+  },
+  {
+   "w": "of",
+   "s": 348.18,
+   "e": 348.36
+  },
+  {
+   "w": "why",
+   "s": 348.36,
+   "e": 348.52
+  },
+  {
+   "w": "you",
+   "s": 348.52,
+   "e": 348.7
+  },
+  {
+   "w": "wake",
+   "s": 348.7,
+   "e": 348.86
+  },
+  {
+   "w": "up",
+   "s": 348.86,
+   "e": 349.02
+  },
+  {
+   "w": "thirsty.",
+   "s": 349.02,
+   "e": 349.26
+  },
+  {
+   "w": "Heavy",
+   "s": 349.94,
+   "e": 350.1
+  },
+  {
+   "w": "drinking",
+   "s": 350.1,
+   "e": 350.36
+  },
+  {
+   "w": "can",
+   "s": 350.36,
+   "e": 350.78
+  },
+  {
+   "w": "even",
+   "s": 350.78,
+   "e": 350.96
+  },
+  {
+   "w": "throw",
+   "s": 350.96,
+   "e": 351.26
+  },
+  {
+   "w": "your",
+   "s": 351.26,
+   "e": 351.5
+  },
+  {
+   "w": "heart",
+   "s": 351.5,
+   "e": 351.74
+  },
+  {
+   "w": "out",
+   "s": 351.74,
+   "e": 351.94
+  },
+  {
+   "w": "of",
+   "s": 351.94,
+   "e": 352.1
+  },
+  {
+   "w": "rhythm.",
+   "s": 352.1,
+   "e": 352.26
+  },
+  {
+   "w": "Doctors",
+   "s": 353.02,
+   "e": 353.3
+  },
+  {
+   "w": "saw",
+   "s": 353.3,
+   "e": 353.54
+  },
+  {
+   "w": "it",
+   "s": 353.54,
+   "e": 353.66
+  },
+  {
+   "w": "so",
+   "s": 353.66,
+   "e": 353.84
+  },
+  {
+   "w": "often",
+   "s": 353.84,
+   "e": 354.24
+  },
+  {
+   "w": "after",
+   "s": 354.24,
+   "e": 354.5
+  },
+  {
+   "w": "weekends",
+   "s": 354.5,
+   "e": 354.78
+  },
+  {
+   "w": "and",
+   "s": 354.78,
+   "e": 355.22
+  },
+  {
+   "w": "holidays",
+   "s": 355.22,
+   "e": 355.48
+  },
+  {
+   "w": "that",
+   "s": 355.48,
+   "e": 356.16
+  },
+  {
+   "w": "in",
+   "s": 356.16,
+   "e": 356.28
+  },
+  {
+   "w": "1978,",
+   "s": 356.28,
+   "e": 357.06
+  },
+  {
+   "w": "they",
+   "s": 357.68,
+   "e": 357.8
+  },
+  {
+   "w": "named",
+   "s": 357.8,
+   "e": 358.08
+  },
+  {
+   "w": "it",
+   "s": 358.08,
+   "e": 358.22
+  },
+  {
+   "w": "Holiday",
+   "s": 358.22,
+   "e": 358.52
+  },
+  {
+   "w": "Heart",
+   "s": 358.52,
+   "e": 358.98
+  },
+  {
+   "w": "Syndrome.",
+   "s": 358.98,
+   "e": 359.28
+  },
+  {
+   "w": "Is",
+   "s": 359.28,
+   "e": 359.98
+  },
+  {
+   "w": "Christmas",
+   "s": 359.98,
+   "e": 360.26
+  },
+  {
+   "w": "actually",
+   "s": 360.26,
+   "e": 360.92
+  },
+  {
+   "w": "risky",
+   "s": 360.92,
+   "e": 361.22
+  },
+  {
+   "w": "for",
+   "s": 361.22,
+   "e": 361.52
+  },
+  {
+   "w": "hearts?",
+   "s": 361.52,
+   "e": 361.76
+  },
+  {
+   "w": "A",
+   "s": 362.56,
+   "e": 362.58
+  },
+  {
+   "w": "little,",
+   "s": 362.58,
+   "e": 362.8
+  },
+  {
+   "w": "a",
+   "s": 363.0,
+   "e": 363.1
+  },
+  {
+   "w": "Swedish",
+   "s": 363.1,
+   "e": 363.36
+  },
+  {
+   "w": "study",
+   "s": 363.36,
+   "e": 363.78
+  },
+  {
+   "w": "of",
+   "s": 363.78,
+   "e": 364.04
+  },
+  {
+   "w": "more",
+   "s": 364.04,
+   "e": 364.22
+  },
+  {
+   "w": "than",
+   "s": 364.22,
+   "e": 364.36
+  },
+  {
+   "w": "280",
+   "s": 364.36,
+   "e": 364.68
+  },
+  {
+   "w": ",000",
+   "s": 364.68,
+   "e": 365.78
+  },
+  {
+   "w": "heart",
+   "s": 365.78,
+   "e": 366.0
+  },
+  {
+   "w": "attacks",
+   "s": 366.0,
+   "e": 366.48
+  },
+  {
+   "w": "found",
+   "s": 366.48,
+   "e": 367.2
+  },
+  {
+   "w": "that",
+   "s": 367.2,
+   "e": 367.36
+  },
+  {
+   "w": "the",
+   "s": 367.36,
+   "e": 367.48
+  },
+  {
+   "w": "risk",
+   "s": 367.48,
+   "e": 367.74
+  },
+  {
+   "w": "on",
+   "s": 367.74,
+   "e": 367.9
+  },
+  {
+   "w": "Christmas",
+   "s": 367.9,
+   "e": 368.22
+  },
+  {
+   "w": "Eve",
+   "s": 368.22,
+   "e": 368.6
+  },
+  {
+   "w": "was",
+   "s": 368.6,
+   "e": 369.2
+  },
+  {
+   "w": "about",
+   "s": 369.2,
+   "e": 369.4
+  },
+  {
+   "w": "37",
+   "s": 369.4,
+   "e": 369.88
+  },
+  {
+   "w": "%",
+   "s": 369.88,
+   "e": 370.42
+  },
+  {
+   "w": "higher",
+   "s": 370.42,
+   "e": 370.78
+  },
+  {
+   "w": "than",
+   "s": 370.78,
+   "e": 371.26
+  },
+  {
+   "w": "in",
+   "s": 371.26,
+   "e": 371.36
+  },
+  {
+   "w": "the",
+   "s": 371.36,
+   "e": 371.44
+  },
+  {
+   "w": "weeks",
+   "s": 371.44,
+   "e": 371.6
+  },
+  {
+   "w": "around",
+   "s": 371.6,
+   "e": 371.94
+  },
+  {
+   "w": "the",
+   "s": 371.94,
+   "e": 372.14
+  },
+  {
+   "w": "holidays.",
+   "s": 372.14,
+   "e": 372.46
+  },
+  {
+   "w": "Nobody",
+   "s": 373.12,
+   "e": 373.38
+  },
+  {
+   "w": "knows",
+   "s": 373.38,
+   "e": 373.68
+  },
+  {
+   "w": "exactly",
+   "s": 373.68,
+   "e": 374.06
+  },
+  {
+   "w": "why.",
+   "s": 374.06,
+   "e": 374.54
+  },
+  {
+   "w": "Stress,",
+   "s": 375.12,
+   "e": 375.22
+  },
+  {
+   "w": "heavy",
+   "s": 375.56,
+   "e": 375.7
+  },
+  {
+   "w": "meals,",
+   "s": 375.7,
+   "e": 375.98
+  },
+  {
+   "w": "alcohol",
+   "s": 376.38,
+   "e": 376.52
+  },
+  {
+   "w": "and",
+   "s": 376.52,
+   "e": 376.92
+  },
+  {
+   "w": "cold",
+   "s": 376.92,
+   "e": 377.16
+  },
+  {
+   "w": "weather",
+   "s": 377.16,
+   "e": 377.52
+  },
+  {
+   "w": "may",
+   "s": 377.52,
+   "e": 377.76
+  },
+  {
+   "w": "all",
+   "s": 377.76,
+   "e": 377.96
+  },
+  {
+   "w": "play",
+   "s": 377.96,
+   "e": 378.18
+  },
+  {
+   "w": "a",
+   "s": 378.18,
+   "e": 378.28
+  },
+  {
+   "w": "part.",
+   "s": 378.28,
+   "e": 378.6
+  },
+  {
+   "w": "So",
+   "s": 379.12,
+   "e": 379.16
+  },
+  {
+   "w": "if",
+   "s": 379.16,
+   "e": 379.26
+  },
+  {
+   "w": "someone",
+   "s": 379.26,
+   "e": 379.44
+  },
+  {
+   "w": "has",
+   "s": 379.44,
+   "e": 379.66
+  },
+  {
+   "w": "chest",
+   "s": 379.66,
+   "e": 379.84
+  },
+  {
+   "w": "pain,",
+   "s": 379.84,
+   "e": 380.28
+  },
+  {
+   "w": "don't",
+   "s": 380.62,
+   "e": 380.76
+  },
+  {
+   "w": "wait",
+   "s": 380.76,
+   "e": 380.9
+  },
+  {
+   "w": "until",
+   "s": 380.9,
+   "e": 381.12
+  },
+  {
+   "w": "after",
+   "s": 381.12,
+   "e": 381.42
+  },
+  {
+   "w": "the",
+   "s": 381.42,
+   "e": 381.58
+  },
+  {
+   "w": "holidays.",
+   "s": 381.58,
+   "e": 381.86
+  },
+  {
+   "w": "Call",
+   "s": 382.64,
+   "e": 382.72
+  },
+  {
+   "w": "for",
+   "s": 382.72,
+   "e": 382.94
+  },
+  {
+   "w": "help",
+   "s": 382.94,
+   "e": 383.1
+  },
+  {
+   "w": "right",
+   "s": 383.1,
+   "e": 383.38
+  },
+  {
+   "w": "away.",
+   "s": 383.38,
+   "e": 383.66
+  },
+  {
+   "w": "Are",
+   "s": 385.78,
+   "e": 386.14
+  },
+  {
+   "w": "the",
+   "s": 386.14,
+   "e": 386.26
+  },
+  {
+   "w": "leftovers",
+   "s": 386.26,
+   "e": 386.7
+  },
+  {
+   "w": "safe?",
+   "s": 386.7,
+   "e": 387.04
+  },
+  {
+   "w": "Mostly",
+   "s": 387.68,
+   "e": 388.24
+  },
+  {
+   "w": "if",
+   "s": 388.24,
+   "e": 388.46
+  },
+  {
+   "w": "you're",
+   "s": 388.46,
+   "e": 388.62
+  },
+  {
+   "w": "quick.",
+   "s": 388.62,
+   "e": 388.88
+  },
+  {
+   "w": "There's",
+   "s": 389.64,
+   "e": 389.72
+  },
+  {
+   "w": "a",
+   "s": 389.72,
+   "e": 389.8
+  },
+  {
+   "w": "bacterium",
+   "s": 389.8,
+   "e": 390.44
+  },
+  {
+   "w": "called",
+   "s": 390.44,
+   "e": 390.78
+  },
+  {
+   "w": "Clostridium",
+   "s": 390.78,
+   "e": 391.34
+  },
+  {
+   "w": "perfungens",
+   "s": 391.34,
+   "e": 391.96
+  },
+  {
+   "w": "that",
+   "s": 391.96,
+   "e": 392.5
+  },
+  {
+   "w": "loves",
+   "s": 392.5,
+   "e": 392.7
+  },
+  {
+   "w": "big",
+   "s": 392.7,
+   "e": 392.98
+  },
+  {
+   "w": "trays",
+   "s": 392.98,
+   "e": 393.34
+  },
+  {
+   "w": "of",
+   "s": 393.34,
+   "e": 393.5
+  },
+  {
+   "w": "meat",
+   "s": 393.5,
+   "e": 393.72
+  },
+  {
+   "w": "and",
+   "s": 393.72,
+   "e": 393.98
+  },
+  {
+   "w": "gravy",
+   "s": 393.98,
+   "e": 394.22
+  },
+  {
+   "w": "left",
+   "s": 394.22,
+   "e": 394.82
+  },
+  {
+   "w": "out",
+   "s": 394.82,
+   "e": 395.14
+  },
+  {
+   "w": "at",
+   "s": 395.14,
+   "e": 395.36
+  },
+  {
+   "w": "room",
+   "s": 395.36,
+   "e": 395.52
+  },
+  {
+   "w": "temperature.",
+   "s": 395.52,
+   "e": 396.04
+  },
+  {
+   "w": "In",
+   "s": 396.84,
+   "e": 397.22
+  },
+  {
+   "w": "the",
+   "s": 397.22,
+   "e": 397.32
+  },
+  {
+   "w": "United",
+   "s": 397.32,
+   "e": 397.58
+  },
+  {
+   "w": "States,",
+   "s": 397.58,
+   "e": 398.02
+  },
+  {
+   "w": "it",
+   "s": 398.42,
+   "e": 398.54
+  },
+  {
+   "w": "causes",
+   "s": 398.54,
+   "e": 398.78
+  },
+  {
+   "w": "close",
+   "s": 398.78,
+   "e": 399.1
+  },
+  {
+   "w": "to",
+   "s": 399.1,
+   "e": 399.32
+  },
+  {
+   "w": "a",
+   "s": 399.32,
+   "e": 399.42
+  },
+  {
+   "w": "million",
+   "s": 399.42,
+   "e": 399.66
+  },
+  {
+   "w": "cases",
+   "s": 399.66,
+   "e": 400.02
+  },
+  {
+   "w": "of",
+   "s": 400.02,
+   "e": 400.3
+  },
+  {
+   "w": "food",
+   "s": 400.3,
+   "e": 400.58
+  },
+  {
+   "w": "poisoning",
+   "s": 400.58,
+   "e": 400.98
+  },
+  {
+   "w": "a",
+   "s": 400.98,
+   "e": 401.32
+  },
+  {
+   "w": "year",
+   "s": 401.32,
+   "e": 401.58
+  },
+  {
+   "w": "and",
+   "s": 401.58,
+   "e": 402.12
+  },
+  {
+   "w": "outbreaks",
+   "s": 402.12,
+   "e": 402.5
+  },
+  {
+   "w": "peak",
+   "s": 402.5,
+   "e": 402.84
+  },
+  {
+   "w": "in",
+   "s": 402.84,
+   "e": 403.14
+  },
+  {
+   "w": "November",
+   "s": 403.14,
+   "e": 403.32
+  },
+  {
+   "w": "and",
+   "s": 403.32,
+   "e": 403.76
+  },
+  {
+   "w": "December.",
+   "s": 403.76,
+   "e": 404.04
+  },
+  {
+   "w": "Turkey",
+   "s": 404.82,
+   "e": 404.98
+  },
+  {
+   "w": "and",
+   "s": 404.98,
+   "e": 405.24
+  },
+  {
+   "w": "roast",
+   "s": 405.24,
+   "e": 405.4
+  },
+  {
+   "w": "beef",
+   "s": 405.4,
+   "e": 405.72
+  },
+  {
+   "w": "are",
+   "s": 405.72,
+   "e": 406.0
+  },
+  {
+   "w": "the",
+   "s": 406.0,
+   "e": 406.08
+  },
+  {
+   "w": "usual",
+   "s": 406.08,
+   "e": 406.3
+  },
+  {
+   "w": "suspects.",
+   "s": 406.3,
+   "e": 406.72
+  },
+  {
+   "w": "The",
+   "s": 407.48,
+   "e": 407.5
+  },
+  {
+   "w": "fix",
+   "s": 407.5,
+   "e": 407.66
+  },
+  {
+   "w": "is",
+   "s": 407.66,
+   "e": 407.9
+  },
+  {
+   "w": "simple.",
+   "s": 407.9,
+   "e": 408.14
+  },
+  {
+   "w": "Get",
+   "s": 409.08,
+   "e": 409.08
+  },
+  {
+   "w": "leftovers",
+   "s": 409.08,
+   "e": 409.48
+  },
+  {
+   "w": "into",
+   "s": 409.48,
+   "e": 409.7
+  },
+  {
+   "w": "the",
+   "s": 409.7,
+   "e": 409.9
+  },
+  {
+   "w": "fridge",
+   "s": 409.9,
+   "e": 410.08
+  },
+  {
+   "w": "within",
+   "s": 410.08,
+   "e": 410.36
+  },
+  {
+   "w": "two",
+   "s": 410.36,
+   "e": 410.62
+  },
+  {
+   "w": "hours,",
+   "s": 410.62,
+   "e": 410.98
+  },
+  {
+   "w": "cut",
+   "s": 411.4,
+   "e": 411.54
+  },
+  {
+   "w": "big",
+   "s": 411.54,
+   "e": 411.76
+  },
+  {
+   "w": "pieces",
+   "s": 411.76,
+   "e": 412.08
+  },
+  {
+   "w": "smaller",
+   "s": 412.08,
+   "e": 412.42
+  },
+  {
+   "w": "so",
+   "s": 412.42,
+   "e": 412.78
+  },
+  {
+   "w": "they",
+   "s": 412.78,
+   "e": 412.9
+  },
+  {
+   "w": "cool",
+   "s": 412.9,
+   "e": 413.08
+  },
+  {
+   "w": "faster",
+   "s": 413.08,
+   "e": 413.44
+  },
+  {
+   "w": "and",
+   "s": 413.44,
+   "e": 414.14
+  },
+  {
+   "w": "reheat",
+   "s": 414.14,
+   "e": 414.48
+  },
+  {
+   "w": "them",
+   "s": 414.48,
+   "e": 414.68
+  },
+  {
+   "w": "until",
+   "s": 414.68,
+   "e": 415.0
+  },
+  {
+   "w": "they",
+   "s": 415.0,
+   "e": 415.16
+  },
+  {
+   "w": "are",
+   "s": 415.16,
+   "e": 415.24
+  },
+  {
+   "w": "steaming",
+   "s": 415.24,
+   "e": 415.58
+  },
+  {
+   "w": "hot.",
+   "s": 415.58,
+   "e": 415.88
+  },
+  {
+   "w": "How",
+   "s": 418.1,
+   "e": 418.58
+  },
+  {
+   "w": "long",
+   "s": 418.58,
+   "e": 418.78
+  },
+  {
+   "w": "until",
+   "s": 418.78,
+   "e": 419.16
+  },
+  {
+   "w": "the",
+   "s": 419.16,
+   "e": 419.28
+  },
+  {
+   "w": "meal",
+   "s": 419.28,
+   "e": 419.42
+  },
+  {
+   "w": "is",
+   "s": 419.42,
+   "e": 419.64
+  },
+  {
+   "w": "gone?",
+   "s": 419.64,
+   "e": 419.88
+  },
+  {
+   "w": "Longer",
+   "s": 420.54,
+   "e": 420.96
+  },
+  {
+   "w": "than",
+   "s": 420.96,
+   "e": 421.08
+  },
+  {
+   "w": "you'd",
+   "s": 421.08,
+   "e": 421.28
+  },
+  {
+   "w": "guess,",
+   "s": 421.28,
+   "e": 421.48
+  },
+  {
+   "w": "food",
+   "s": 422.02,
+   "e": 422.28
+  },
+  {
+   "w": "takes",
+   "s": 422.28,
+   "e": 422.56
+  },
+  {
+   "w": "about",
+   "s": 422.56,
+   "e": 422.82
+  },
+  {
+   "w": "six",
+   "s": 422.82,
+   "e": 423.12
+  },
+  {
+   "w": "to",
+   "s": 423.12,
+   "e": 423.32
+  },
+  {
+   "w": "eight",
+   "s": 423.32,
+   "e": 423.44
+  },
+  {
+   "w": "hours",
+   "s": 423.44,
+   "e": 423.72
+  },
+  {
+   "w": "to",
+   "s": 423.72,
+   "e": 423.98
+  },
+  {
+   "w": "pass",
+   "s": 423.98,
+   "e": 424.16
+  },
+  {
+   "w": "through",
+   "s": 424.16,
+   "e": 424.4
+  },
+  {
+   "w": "your",
+   "s": 424.4,
+   "e": 424.52
+  },
+  {
+   "w": "stomach",
+   "s": 424.52,
+   "e": 424.86
+  },
+  {
+   "w": "and",
+   "s": 424.86,
+   "e": 425.28
+  },
+  {
+   "w": "small",
+   "s": 425.28,
+   "e": 425.56
+  },
+  {
+   "w": "intestine.",
+   "s": 425.56,
+   "e": 425.76
+  },
+  {
+   "w": "Your",
+   "s": 427.06,
+   "e": 427.26
+  },
+  {
+   "w": "small",
+   "s": 427.26,
+   "e": 427.5
+  },
+  {
+   "w": "intestine",
+   "s": 427.5,
+   "e": 427.98
+  },
+  {
+   "w": "does",
+   "s": 427.98,
+   "e": 428.34
+  },
+  {
+   "w": "most",
+   "s": 428.34,
+   "e": 428.56
+  },
+  {
+   "w": "of",
+   "s": 428.56,
+   "e": 428.78
+  },
+  {
+   "w": "the",
+   "s": 428.78,
+   "e": 428.86
+  },
+  {
+   "w": "work.",
+   "s": 428.86,
+   "e": 429.04
+  },
+  {
+   "w": "Its",
+   "s": 429.56,
+   "e": 429.6
+  },
+  {
+   "w": "lining",
+   "s": 429.6,
+   "e": 429.92
+  },
+  {
+   "w": "is",
+   "s": 429.92,
+   "e": 430.22
+  },
+  {
+   "w": "covered",
+   "s": 430.22,
+   "e": 430.44
+  },
+  {
+   "w": "in",
+   "s": 430.44,
+   "e": 430.68
+  },
+  {
+   "w": "tiny,",
+   "s": 430.68,
+   "e": 430.98
+  },
+  {
+   "w": "finger",
+   "s": 431.38,
+   "e": 431.48
+  },
+  {
+   "w": "-like",
+   "s": 431.48,
+   "e": 431.78
+  },
+  {
+   "w": "folds",
+   "s": 431.78,
+   "e": 432.08
+  },
+  {
+   "w": "that",
+   "s": 432.08,
+   "e": 432.46
+  },
+  {
+   "w": "soak",
+   "s": 432.46,
+   "e": 432.64
+  },
+  {
+   "w": "up",
+   "s": 432.64,
+   "e": 432.86
+  },
+  {
+   "w": "nutrients.",
+   "s": 432.86,
+   "e": 433.22
+  },
+  {
+   "w": "Spread",
+   "s": 434.2,
+   "e": 434.38
+  },
+  {
+   "w": "flat,",
+   "s": 434.38,
+   "e": 434.7
+  },
+  {
+   "w": "the",
+   "s": 435.12,
+   "e": 435.24
+  },
+  {
+   "w": "inside",
+   "s": 435.24,
+   "e": 435.4
+  },
+  {
+   "w": "of",
+   "s": 435.4,
+   "e": 435.76
+  },
+  {
+   "w": "your",
+   "s": 435.76,
+   "e": 435.88
+  },
+  {
+   "w": "gut",
+   "s": 435.88,
+   "e": 436.08
+  },
+  {
+   "w": "would",
+   "s": 436.08,
+   "e": 436.28
+  },
+  {
+   "w": "cover",
+   "s": 436.28,
+   "e": 436.54
+  },
+  {
+   "w": "about",
+   "s": 436.54,
+   "e": 436.84
+  },
+  {
+   "w": "half",
+   "s": 436.84,
+   "e": 437.04
+  },
+  {
+   "w": "a",
+   "s": 437.04,
+   "e": 437.16
+  },
+  {
+   "w": "badminton",
+   "s": 437.16,
+   "e": 437.62
+  },
+  {
+   "w": "quart.",
+   "s": 437.62,
+   "e": 437.86
+  },
+  {
+   "w": "Then",
+   "s": 438.46,
+   "e": 438.52
+  },
+  {
+   "w": "it",
+   "s": 438.52,
+   "e": 438.62
+  },
+  {
+   "w": "moves",
+   "s": 438.62,
+   "e": 438.82
+  },
+  {
+   "w": "into",
+   "s": 438.82,
+   "e": 439.04
+  },
+  {
+   "w": "your",
+   "s": 439.04,
+   "e": 439.28
+  },
+  {
+   "w": "colon,",
+   "s": 439.28,
+   "e": 439.62
+  },
+  {
+   "w": "which",
+   "s": 439.92,
+   "e": 440.04
+  },
+  {
+   "w": "can",
+   "s": 440.04,
+   "e": 440.22
+  },
+  {
+   "w": "take",
+   "s": 440.22,
+   "e": 440.42
+  },
+  {
+   "w": "another",
+   "s": 440.42,
+   "e": 440.68
+  },
+  {
+   "w": "day",
+   "s": 440.68,
+   "e": 441.0
+  },
+  {
+   "w": "and",
+   "s": 441.0,
+   "e": 441.22
+  },
+  {
+   "w": "a",
+   "s": 441.22,
+   "e": 441.28
+  },
+  {
+   "w": "half.",
+   "s": 441.28,
+   "e": 441.52
+  },
+  {
+   "w": "All",
+   "s": 442.2,
+   "e": 442.4
+  },
+  {
+   "w": "in",
+   "s": 442.4,
+   "e": 442.54
+  },
+  {
+   "w": "all,",
+   "s": 442.54,
+   "e": 442.72
+  },
+  {
+   "w": "according",
+   "s": 442.96,
+   "e": 443.14
+  },
+  {
+   "w": "to",
+   "s": 443.14,
+   "e": 443.44
+  },
+  {
+   "w": "the",
+   "s": 443.44,
+   "e": 443.56
+  },
+  {
+   "w": "Mayo",
+   "s": 443.56,
+   "e": 443.66
+  },
+  {
+   "w": "Clinic,",
+   "s": 443.66,
+   "e": 444.08
+  },
+  {
+   "w": "two",
+   "s": 444.5,
+   "e": 444.64
+  },
+  {
+   "w": "to",
+   "s": 444.64,
+   "e": 444.78
+  },
+  {
+   "w": "five",
+   "s": 444.78,
+   "e": 445.04
+  },
+  {
+   "w": "days.",
+   "s": 445.04,
+   "e": 445.34
+  },
+  {
+   "w": "So",
+   "s": 445.34,
+   "e": 446.02
+  },
+  {
+   "w": "the",
+   "s": 446.02,
+   "e": 446.14
+  },
+  {
+   "w": "Christmas",
+   "s": 446.14,
+   "e": 446.38
+  },
+  {
+   "w": "dinner",
+   "s": 446.38,
+   "e": 446.7
+  },
+  {
+   "w": "you",
+   "s": 446.7,
+   "e": 446.92
+  },
+  {
+   "w": "eat",
+   "s": 446.92,
+   "e": 447.1
+  },
+  {
+   "w": "on",
+   "s": 447.1,
+   "e": 447.26
+  },
+  {
+   "w": "the",
+   "s": 447.26,
+   "e": 447.36
+  },
+  {
+   "w": "25th",
+   "s": 447.36,
+   "e": 448.14
+  },
+  {
+   "w": "could",
+   "s": 448.14,
+   "e": 448.42
+  },
+  {
+   "w": "still",
+   "s": 448.42,
+   "e": 448.68
+  },
+  {
+   "w": "be",
+   "s": 448.68,
+   "e": 448.9
+  },
+  {
+   "w": "with",
+   "s": 448.9,
+   "e": 449.08
+  },
+  {
+   "w": "you",
+   "s": 449.08,
+   "e": 449.24
+  },
+  {
+   "w": "a",
+   "s": 449.24,
+   "e": 449.4
+  },
+  {
+   "w": "few",
+   "s": 449.4,
+   "e": 449.58
+  },
+  {
+   "w": "days",
+   "s": 449.58,
+   "e": 449.76
+  },
+  {
+   "w": "later.",
+   "s": 449.76,
+   "e": 450.18
+  },
+  {
+   "w": "So",
+   "s": 452.02,
+   "e": 452.14
+  },
+  {
+   "w": "should",
+   "s": 452.14,
+   "e": 452.36
+  },
+  {
+   "w": "I",
+   "s": 452.36,
+   "e": 452.5
+  },
+  {
+   "w": "skip",
+   "s": 452.5,
+   "e": 452.72
+  },
+  {
+   "w": "Christmas",
+   "s": 452.72,
+   "e": 453.14
+  },
+  {
+   "w": "dinner?",
+   "s": 453.14,
+   "e": 453.38
+  },
+  {
+   "w": "Not",
+   "s": 454.06,
+   "e": 454.24
+  },
+  {
+   "w": "at",
+   "s": 454.24,
+   "e": 454.38
+  },
+  {
+   "w": "all.",
+   "s": 454.38,
+   "e": 454.56
+  },
+  {
+   "w": "Your",
+   "s": 454.84,
+   "e": 454.86
+  },
+  {
+   "w": "body",
+   "s": 454.86,
+   "e": 455.1
+  },
+  {
+   "w": "is",
+   "s": 455.1,
+   "e": 455.26
+  },
+  {
+   "w": "built",
+   "s": 455.26,
+   "e": 455.46
+  },
+  {
+   "w": "for",
+   "s": 455.46,
+   "e": 455.68
+  },
+  {
+   "w": "feasts.",
+   "s": 455.68,
+   "e": 456.06
+  },
+  {
+   "w": "Your",
+   "s": 456.64,
+   "e": 456.7
+  },
+  {
+   "w": "stomach",
+   "s": 456.7,
+   "e": 456.98
+  },
+  {
+   "w": "stretches,",
+   "s": 456.98,
+   "e": 457.34
+  },
+  {
+   "w": "your",
+   "s": 457.78,
+   "e": 457.82
+  },
+  {
+   "w": "acid",
+   "s": 457.82,
+   "e": 458.08
+  },
+  {
+   "w": "kills",
+   "s": 458.08,
+   "e": 458.42
+  },
+  {
+   "w": "germs.",
+   "s": 458.42,
+   "e": 458.98
+  },
+  {
+   "w": "Your",
+   "s": 459.34,
+   "e": 459.36
+  },
+  {
+   "w": "liver",
+   "s": 459.36,
+   "e": 459.52
+  },
+  {
+   "w": "and",
+   "s": 459.52,
+   "e": 459.72
+  },
+  {
+   "w": "muscles",
+   "s": 459.72,
+   "e": 460.0
+  },
+  {
+   "w": "fill",
+   "s": 460.0,
+   "e": 460.34
+  },
+  {
+   "w": "their",
+   "s": 460.34,
+   "e": 460.52
+  },
+  {
+   "w": "sugar",
+   "s": 460.52,
+   "e": 460.74
+  },
+  {
+   "w": "tanks",
+   "s": 460.74,
+   "e": 461.02
+  },
+  {
+   "w": "and",
+   "s": 461.02,
+   "e": 461.38
+  },
+  {
+   "w": "trillions",
+   "s": 461.38,
+   "e": 461.58
+  },
+  {
+   "w": "of",
+   "s": 461.58,
+   "e": 461.94
+  },
+  {
+   "w": "bacteria",
+   "s": 461.94,
+   "e": 462.28
+  },
+  {
+   "w": "get",
+   "s": 462.28,
+   "e": 462.64
+  },
+  {
+   "w": "fed.",
+   "s": 462.64,
+   "e": 462.9
+  },
+  {
+   "w": "Then",
+   "s": 463.48,
+   "e": 463.52
+  },
+  {
+   "w": "it",
+   "s": 463.52,
+   "e": 463.62
+  },
+  {
+   "w": "all",
+   "s": 463.62,
+   "e": 463.78
+  },
+  {
+   "w": "recovers.",
+   "s": 463.78,
+   "e": 463.96
+  },
+  {
+   "w": "Just",
+   "s": 464.92,
+   "e": 464.98
+  },
+  {
+   "w": "eat",
+   "s": 464.98,
+   "e": 465.16
+  },
+  {
+   "w": "a",
+   "s": 465.16,
+   "e": 465.3
+  },
+  {
+   "w": "little",
+   "s": 465.3,
+   "e": 465.46
+  },
+  {
+   "w": "slower,",
+   "s": 465.46,
+   "e": 465.76
+  },
+  {
+   "w": "take",
+   "s": 466.12,
+   "e": 466.22
+  },
+  {
+   "w": "a",
+   "s": 466.22,
+   "e": 466.32
+  },
+  {
+   "w": "short",
+   "s": 466.32,
+   "e": 466.54
+  },
+  {
+   "w": "walk",
+   "s": 466.54,
+   "e": 466.76
+  },
+  {
+   "w": "afterwards",
+   "s": 466.76,
+   "e": 467.08
+  },
+  {
+   "w": "and",
+   "s": 467.08,
+   "e": 467.52
+  },
+  {
+   "w": "go",
+   "s": 467.52,
+   "e": 467.68
+  },
+  {
+   "w": "easy",
+   "s": 467.68,
+   "e": 467.94
+  },
+  {
+   "w": "on",
+   "s": 467.94,
+   "e": 468.18
+  },
+  {
+   "w": "the",
+   "s": 468.18,
+   "e": 468.28
+  },
+  {
+   "w": "wine.",
+   "s": 468.28,
+   "e": 468.48
+  },
+  {
+   "w": "That's",
+   "s": 469.06,
+   "e": 469.26
+  },
+  {
+   "w": "what",
+   "s": 469.26,
+   "e": 469.4
+  },
+  {
+   "w": "Christmas",
+   "s": 469.4,
+   "e": 469.72
+  },
+  {
+   "w": "dinner",
+   "s": 469.72,
+   "e": 470.08
+  },
+  {
+   "w": "does",
+   "s": 470.08,
+   "e": 470.46
+  },
+  {
+   "w": "to",
+   "s": 470.46,
+   "e": 470.66
+  },
+  {
+   "w": "your",
+   "s": 470.66,
+   "e": 470.82
+  },
+  {
+   "w": "body.",
+   "s": 470.82,
+   "e": 471.12
+  },
+  {
+   "w": "Subscribe",
+   "s": 471.12,
+   "e": 472.04
+  },
+  {
+   "w": "for",
+   "s": 472.04,
+   "e": 472.86
+  },
+  {
+   "w": "more",
+   "s": 472.86,
+   "e": 473.5
+  },
+  {
+   "w": "of",
+   "s": 473.5,
+   "e": 473.68
+  },
+  {
+   "w": "what",
+   "s": 473.68,
+   "e": 473.84
+  },
+  {
+   "w": "your",
+   "s": 473.84,
+   "e": 473.98
+  },
+  {
+   "w": "body",
+   "s": 473.98,
+   "e": 474.28
+  },
+  {
+   "w": "does",
+   "s": 474.28,
+   "e": 474.54
+  },
+  {
+   "w": "behind",
+   "s": 474.54,
+   "e": 474.8
+  },
+  {
+   "w": "your",
+   "s": 474.8,
+   "e": 475.12
+  },
+  {
+   "w": "back.",
+   "s": 475.12,
+   "e": 475.34
+  },
+  {
+   "w": "And",
+   "s": 475.98,
+   "e": 476.0
+  },
+  {
+   "w": "tell",
+   "s": 476.0,
+   "e": 476.22
+  },
+  {
+   "w": "us",
+   "s": 476.22,
+   "e": 476.4
+  },
+  {
+   "w": "your",
+   "s": 476.4,
+   "e": 476.54
+  },
+  {
+   "w": "favorite",
+   "s": 476.54,
+   "e": 476.92
+  },
+  {
+   "w": "holiday",
+   "s": 476.92,
+   "e": 477.3
+  },
+  {
+   "w": "dish",
+   "s": 477.3,
+   "e": 477.84
+  },
+  {
+   "w": "in",
+   "s": 477.84,
+   "e": 478.02
+  },
+  {
+   "w": "the",
+   "s": 478.02,
+   "e": 478.12
+  },
+  {
+   "w": "comments.",
+   "s": 478.12,
+   "e": 478.42
+  }
+ ]
+}

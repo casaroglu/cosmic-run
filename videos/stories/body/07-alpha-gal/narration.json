@@ -1,0 +1,313 @@
+{
+ "voice": "bm_fable",
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "q_pause": 0.45,
+ "speed": 0.92,
+ "gap": 0.24,
+ "lines": [
+  {
+   "id": "c1",
+   "speaker": "q",
+   "text": "Can a tick bite really make you allergic to meat?"
+  },
+  {
+   "id": "c2",
+   "text": "It can. Imagine eating a burger for dinner, feeling completely fine, and then waking up in the middle of the night covered in hives, your throat swelling. Hours after the meal."
+  },
+  {
+   "id": "c3",
+   "text": "It's called alpha-gal syndrome. The US Centers for Disease Control estimates that up to 450,000 Americans may have been affected since 2010. And it's spreading.",
+   "say": "It's called alpha-gal syndrome. The US Centers for Disease Control estimates that up to four hundred and fifty thousand Americans may have been affected since twenty ten. And it's spreading."
+  },
+  {
+   "id": "c4q",
+   "speaker": "q",
+   "text": "And it all starts with a tick?"
+  },
+  {
+   "id": "c5",
+   "text": "In the United States, mostly with one tick in particular, the lone star tick. So let's see how one tiny bite can rewire your immune system."
+  },
+  {
+   "id": "a1",
+   "speaker": "q",
+   "ch": "A sugar called alpha-gal",
+   "gap_before": 2.2,
+   "text": "What exactly is alpha-gal?"
+  },
+  {
+   "id": "a2",
+   "text": "It's a sugar molecule. Not the kind in sweets, but a tiny sugar tag stuck on the outside of cells. Cows, pigs, sheep, deer, cats and dogs, almost all mammals have it."
+  },
+  {
+   "id": "a3",
+   "text": "But you don't. Humans, apes and Old World monkeys lost the working gene to make it, millions of years ago."
+  },
+  {
+   "id": "a4q",
+   "speaker": "q",
+   "text": "Why would we lose it?"
+  },
+  {
+   "id": "a5",
+   "text": "Nobody knows for sure. One idea is that it helped our ancestors fight germs. Many microbes carry alpha-gal tags, and since our own cells don't, our immune system can attack anything that does. In fact, all of us carry antibodies against it."
+  },
+  {
+   "id": "a6",
+   "text": "Normally, those antibodies are harmless. The trouble starts when the immune system makes the allergic kind."
+  },
+  {
+   "id": "t1",
+   "speaker": "q",
+   "ch": "The lone star tick",
+   "gap_before": 2.2,
+   "text": "So where does the tick come in?"
+  },
+  {
+   "id": "t2",
+   "text": "Meet the lone star tick. The adult female has a single white spot on her back, which gives the tick its name. It's common across the southern and eastern United States, and it actively hunts for people and pets."
+  },
+  {
+   "id": "t2b",
+   "text": "It doesn't spread Lyme disease, but it can carry other infections. And its bite can leave something much stranger behind."
+  },
+  {
+   "id": "t3",
+   "text": "When it bites, it pumps saliva into your skin. Researchers think that saliva carries alpha-gal, or something very much like it, along with chemicals that put your immune system on high alert."
+  },
+  {
+   "id": "t4",
+   "text": "In some people, the immune system responds by making IgE, the antibody behind allergies. From then on, alpha-gal looks like an enemy."
+  },
+  {
+   "id": "t5q",
+   "speaker": "q",
+   "text": "Does every tick bite do this?"
+  },
+  {
+   "id": "t6",
+   "text": "No. Most bites don't, and scientists still don't know why some people develop it and others don't. Other ticks have been linked to it too."
+  },
+  {
+   "id": "r1",
+   "speaker": "q",
+   "ch": "Why it strikes hours later",
+   "gap_before": 2.2,
+   "text": "Why does the reaction take hours?"
+  },
+  {
+   "id": "r2",
+   "text": "That's what makes it so strange. Most food allergies hit within minutes. Alpha-gal reactions usually start two to six hours after eating."
+  },
+  {
+   "id": "r2b",
+   "text": "In one study, patients ate pork or beef sausage under a doctor's watch. Not one of them reacted in the first two and a half hours. On average, the reaction came after about four."
+  },
+  {
+   "id": "r3",
+   "text": "The leading idea is that much of the alpha-gal in meat is attached to fat. Fat is digested slowly, packed into tiny fat particles, and only reaches your blood hours after the meal."
+  },
+  {
+   "id": "r4",
+   "text": "So the reaction often strikes in the middle of the night, long after dinner. That's why so many people never connect it to the burger."
+  },
+  {
+   "id": "r5",
+   "text": "Symptoms range from hives and itching to stomach pain, vomiting and swelling. In the worst cases, it's anaphylaxis, a whole-body reaction that can be deadly."
+  },
+  {
+   "id": "k1",
+   "speaker": "q",
+   "ch": "A cancer drug cracked the case",
+   "gap_before": 2.2,
+   "text": "How did anyone figure this out?"
+  },
+  {
+   "id": "k2",
+   "text": "Through a mystery in cancer clinics. In the mid-2000s, doctors in North Carolina noticed that a new cancer drug called cetuximab was causing severe allergic reactions far more often there than in other places.",
+   "say": "Through a mystery in cancer clinics. In the mid two thousands, doctors in North Carolina noticed that a new cancer drug called cetuximab was causing severe allergic reactions far more often there than in other places."
+  },
+  {
+   "id": "k3",
+   "text": "In 2008, researchers found out why. The drug was made partly in mouse cells, so it carried alpha-gal. And the patients who reacted already had allergic antibodies against it, before their very first dose.",
+   "say": "In two thousand and eight, researchers found out why. The drug was made partly in mouse cells, so it carried alpha-gal. And the patients who reacted already had allergic antibodies against it, before their very first dose."
+  },
+  {
+   "id": "k4q",
+   "speaker": "q",
+   "text": "But where did those antibodies come from?"
+  },
+  {
+   "id": "k5",
+   "text": "That was the puzzle. Allergists, including Thomas Platts-Mills at the University of Virginia, noticed the same antibodies in people with delayed reactions to red meat. And the cases clustered where the lone star tick lives."
+  },
+  {
+   "id": "k6",
+   "text": "By 2011, they had linked the antibodies to tick bites. An allergy that hides for hours, and starts with a bite. Nobody had seen anything like it.",
+   "say": "By twenty eleven, they had linked the antibodies to tick bites. An allergy that hides for hours, and starts with a bite. Nobody had seen anything like it."
+  },
+  {
+   "id": "n1",
+   "speaker": "q",
+   "ch": "Not just steak",
+   "gap_before": 2.2,
+   "text": "Is it only red meat?"
+  },
+  {
+   "id": "n2",
+   "text": "Red meat is the main problem: beef, pork, lamb, venison and rabbit. Chicken, turkey and fish are fine, because birds and fish don't make alpha-gal."
+  },
+  {
+   "id": "n3",
+   "text": "But some people also react to milk and cheese, or to gelatin, which is made from animal collagen. Gelatin hides in sweets, marshmallows, and even in some medicine capsules."
+  },
+  {
+   "id": "n4",
+   "text": "A few very sensitive people have even reacted to the fumes from cooking meat, just walking past a barbecue."
+  },
+  {
+   "id": "n5q",
+   "speaker": "q",
+   "text": "So turkey at Christmas is still safe?"
+  },
+  {
+   "id": "n6",
+   "text": "The turkey itself, yes. Just check the gravy if it's made with beef stock, and the gelatin in some desserts."
+  },
+  {
+   "id": "s1",
+   "speaker": "q",
+   "ch": "Spreading north",
+   "gap_before": 2.2,
+   "text": "Why are we hearing about it so much more?"
+  },
+  {
+   "id": "s2",
+   "text": "Because the lone star tick is on the move. Once mostly a southern tick, it's now found across much of the Midwest and the Northeast, as far north as New York and Maine."
+  },
+  {
+   "id": "s3",
+   "text": "Scientists point to milder winters, more deer and wild turkeys for the ticks to feed on, and suburbs spreading into woodland."
+  },
+  {
+   "id": "s4",
+   "text": "In Arkansas, the first state to require labs to report suspected cases, the number more than doubled in the first half of 2026, compared with the same months a year earlier.",
+   "say": "In Arkansas, the first state to require labs to report suspected cases, the number more than doubled in the first half of twenty twenty-six, compared with the same months a year earlier."
+  },
+  {
+   "id": "s5",
+   "text": "And many doctors still miss it. In a 2022 CDC survey of fifteen hundred US health care providers, forty-two percent had never even heard of alpha-gal syndrome.",
+   "say": "And many doctors still miss it. In a twenty twenty-two CDC survey of fifteen hundred US health care providers, forty-two percent had never even heard of alpha-gal syndrome."
+  },
+  {
+   "id": "f1",
+   "speaker": "q",
+   "ch": "The first known death",
+   "gap_before": 2.2,
+   "text": "Can it actually kill you?"
+  },
+  {
+   "id": "f2",
+   "text": "Rarely, but yes. In 2024, a healthy 47-year-old man in New Jersey ate a hamburger at a barbecue. About four hours later he fell ill, and he died.",
+   "say": "Rarely, but yes. In twenty twenty-four, a healthy forty-seven-year-old man in New Jersey ate a hamburger at a barbecue. About four hours later he fell ill, and he died."
+  },
+  {
+   "id": "f2b",
+   "text": "Two weeks earlier, he'd had a frightening reaction a few hours after eating steak on a camping trip. Nobody had linked it to meat."
+  },
+  {
+   "id": "f3",
+   "text": "The autopsy found no clear cause. But when researchers tested his blood afterwards, they found alpha-gal antibodies, and a marker of severe allergic reaction far higher than they'd ever seen. In 2025, they reported it as the first known death from alpha-gal syndrome.",
+   "say": "The autopsy found no clear cause. But when researchers tested his blood afterwards, they found alpha-gal antibodies, and a marker of severe allergic reaction far higher than they'd ever seen. In twenty twenty-five, they reported it as the first known death from alpha-gal syndrome."
+  },
+  {
+   "id": "f4",
+   "text": "His wife remembered a dozen or so tiny bites around his ankles that summer. The researchers think they were bites from lone star tick larvae, which many people mistake for chiggers."
+  },
+  {
+   "id": "h1",
+   "speaker": "q",
+   "ch": "Living with it",
+   "gap_before": 2.2,
+   "text": "Is there a cure?"
+  },
+  {
+   "id": "h2",
+   "text": "Not yet. The main treatment is avoiding mammal meat and other alpha-gal products, and carrying emergency medicine if a doctor prescribes it."
+  },
+  {
+   "id": "h2b",
+   "text": "Medicines need checking too. A 2022 review found that many commonly prescribed drugs contain animal-derived ingredients that may carry alpha-gal, although alternatives are usually available.",
+   "say": "Medicines need checking too. A twenty twenty-two review found that many commonly prescribed drugs contain animal-derived ingredients that may carry alpha-gal, although alternatives are usually available."
+  },
+  {
+   "id": "h3",
+   "text": "There is some good news. For some people, the allergy fades over months or years, as long as they don't get bitten again. But a new bite can bring it right back."
+  },
+  {
+   "id": "h3b",
+   "text": "Because the reaction comes so late, many patients keep a food diary, writing down every meal and the time any symptoms appear, to spot the pattern."
+  },
+  {
+   "id": "h4q",
+   "speaker": "q",
+   "text": "I've heard it's linked to heart disease too?"
+  },
+  {
+   "id": "h5",
+   "text": "That's still being studied. In 2018, researchers at the University of Virginia linked alpha-gal antibodies to more fatty plaque in the arteries of the heart, and a larger study in 2022 pointed the same way. It doesn't prove that the antibodies cause heart disease.",
+   "say": "That's still being studied. In twenty eighteen, researchers at the University of Virginia linked alpha-gal antibodies to more fatty plaque in the arteries of the heart, and a larger study in twenty twenty-two pointed the same way. It doesn't prove that the antibodies cause heart disease."
+  },
+  {
+   "id": "p1",
+   "speaker": "q",
+   "ch": "How to dodge the bite",
+   "gap_before": 2.2,
+   "text": "How do I avoid it?"
+  },
+  {
+   "id": "p2",
+   "text": "Avoid the bite. Walk in the middle of trails, cover your skin, and treat your clothes and gear with permethrin."
+  },
+  {
+   "id": "p2b",
+   "text": "Permethrin goes on fabric, not on skin. For your skin, health agencies recommend a registered insect repellent, such as one with DEET or picaridin.",
+   "say": "Permethrin goes on fabric, not on skin. For your skin, health agencies recommend a registered insect repellent, such as one with deet or picaridin."
+  },
+  {
+   "id": "p3",
+   "text": "After being outdoors, check yourself, your kids and your pets. If you find a tick attached, grab it close to the skin with fine-tipped tweezers and pull it straight out."
+  },
+  {
+   "id": "p3b",
+   "text": "Skip the old tricks. Don't burn it, and don't smother it in nail polish or petroleum jelly. Just pull it out, and clean the bite."
+  },
+  {
+   "id": "p4",
+   "text": "And if you ever wake up with hives hours after a steak, tell your doctor about any tick bites. A simple blood test can check for alpha-gal antibodies."
+  },
+  {
+   "id": "o1",
+   "speaker": "q",
+   "gap_before": 1.0,
+   "text": "So one bite can really change what I can eat?"
+  },
+  {
+   "id": "o2",
+   "text": "It can. A sugar your body never made, a tick that slips it under your skin, and an immune system that never forgets. It's one of the strangest allergies ever found."
+  },
+  {
+   "id": "o3",
+   "text": "A tick bite can make you allergic to meat."
+  },
+  {
+   "id": "o4",
+   "speaker": "q",
+   "gap_before": 0.5,
+   "text": "Subscribe for more of the weird ways your body works, and tell us in the comments if you'd ever heard of alpha-gal before today."
+  }
+ ]
+}
