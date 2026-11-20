@@ -1,0 +1,332 @@
+{
+ "voice": "bm_fable",
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "q_pause": 0.45,
+ "speed": 0.92,
+ "gap": 0.24,
+ "lines": [
+  {
+   "id": "c1",
+   "speaker": "q",
+   "text": "Is Christmas really bad for your heart?"
+  },
+  {
+   "id": "c2",
+   "text": "Yes, measurably. Scientists in Sweden timed 283,014 heart attacks to the minute. The riskiest moment of the whole year wasn't a blizzard or a Monday morning. It was Christmas Eve, around 10 p.m.",
+   "say": "Yes, measurably. Scientists in Sweden timed two hundred eighty-three thousand heart attacks to the minute. The riskiest moment of the whole year wasn't a blizzard or a Monday morning. It was Christmas Eve, around ten p m."
+  },
+  {
+   "id": "c3",
+   "text": "On Christmas Eve, heart attacks jumped by about 37 percent compared with ordinary days two weeks earlier. Christmas Day and the day after were up, too.",
+   "say": "On Christmas Eve, heart attacks jumped by about thirty-seven percent compared with ordinary days two weeks earlier. Christmas Day and the day after were up, too."
+  },
+  {
+   "id": "c4q",
+   "speaker": "q",
+   "text": "Is that just a Swedish thing?"
+  },
+  {
+   "id": "c5",
+   "text": "Not at all. In America, among people who die of heart disease before they reach a hospital bed, Christmas Day is the deadliest day of the year."
+  },
+  {
+   "id": "c6",
+   "text": "So let's follow the trail: the cold air, the snow shovel, the feast, the wine, the stress, the flu, and one dangerous decision that turns a bad night into a fatal one."
+  },
+  {
+   "id": "a1",
+   "speaker": "q",
+   "text": "How did they pin it to 10 p.m.?",
+   "say": "How did they pin it to ten p m?",
+   "ch": "Christmas Eve, 10 p.m.",
+   "gap_before": 2.2
+  },
+  {
+   "id": "a2",
+   "text": "Sweden keeps a national registry of heart attacks treated in its coronary care units. From 1998 to 2013, it logged every case, and for most, the exact minute the chest pain began.",
+   "say": "Sweden keeps a national registry of heart attacks treated in its coronary care units. From nineteen ninety-eight to twenty thirteen, it logged every case, and for most, the exact minute the chest pain began."
+  },
+  {
+   "id": "a3",
+   "text": "Researchers laid those minutes over a calendar. They compared each holiday with the same stretch two weeks earlier, so the winter weather on both sides was roughly the same."
+  },
+  {
+   "id": "a4",
+   "text": "Christmas Eve came out on top, with 37 percent more heart attacks. Christmas Day was up 29 percent, the day after Christmas 21 percent, and New Year's Day 20 percent.",
+   "say": "Christmas Eve came out on top, with thirty-seven percent more heart attacks. Christmas Day was up twenty-nine percent, the day after Christmas twenty-one percent, and New Year's Day twenty percent."
+  },
+  {
+   "id": "a5",
+   "text": "And the clock was strange. Normally, heart attacks peak around 8 in the morning. On Christmas Eve, the spike came late, around 10 at night, after the big dinner and the gifts.",
+   "say": "And the clock was strange. Normally, heart attacks peak around eight in the morning. On Christmas Eve, the spike came late, around ten at night, after the big dinner and the gifts."
+  },
+  {
+   "id": "a6q",
+   "speaker": "q",
+   "text": "Who was hit hardest?"
+  },
+  {
+   "id": "a7",
+   "text": "People over 75, people with diabetes, and people who already had heart disease. Hearts that were already fragile got pushed over the edge.",
+   "say": "People over seventy-five, people with diabetes, and people who already had heart disease. Hearts that were already fragile got pushed over the edge."
+  },
+  {
+   "id": "a8",
+   "text": "Big sports nights, like World Cup games, didn't raise the risk at all. Neither did Easter. But Sweden's summer party, Midsummer, did, by about 12 percent.",
+   "say": "Big sports nights, like World Cup games, didn't raise the risk at all. Neither did Easter. But Sweden's summer party, Midsummer, did, by about twelve percent."
+  },
+  {
+   "id": "a9",
+   "text": "The same data held one more pattern: Monday mornings. The alarm clock rings, the commute starts, the work week begins, and heart attacks rise."
+  },
+  {
+   "id": "b1",
+   "speaker": "q",
+   "text": "Does American data show the same?",
+   "ch": "America's deadliest days",
+   "gap_before": 2.2
+  },
+  {
+   "id": "b2",
+   "text": "It does. Sociologist David Phillips and his team combed through about 53 million American death certificates, from 1973 to 2001.",
+   "say": "It does. Sociologist David Phillips and his team combed through about fifty-three million American death certificates, from nineteen seventy-three to two thousand one."
+  },
+  {
+   "id": "b3",
+   "text": "They looked at heart deaths at home, on the way to the hospital, or in the emergency room. More happened on December 25 than on any other day. Then December 26. Then January 1.",
+   "say": "They looked at heart deaths at home, on the way to the hospital, or in the emergency room. More happened on December twenty-fifth than on any other day. Then December twenty-sixth. Then January first."
+  },
+  {
+   "id": "b4",
+   "text": "Their conclusion: heart deaths climb higher around Christmas and New Year's than at any other time of year. And that holiday bump grew bigger over the decades."
+  },
+  {
+   "id": "b4b",
+   "text": "Strangely, the holiday spike even showed up in nursing homes, where meals and activity are tightly controlled. So food and cold alone can't explain it."
+  },
+  {
+   "id": "b5q",
+   "speaker": "q",
+   "text": "Isn't that just because it's winter?"
+  },
+  {
+   "id": "b6",
+   "text": "That's the obvious suspect. So cardiologist Robert Kloner checked Los Angeles, where December is mild and sunny. Across 222,000 coronary deaths, December and January still had about a third more deaths than summer.",
+   "say": "That's the obvious suspect. So cardiologist Robert Kloner checked Los Angeles, where December is mild and sunny. Across two hundred twenty-two thousand coronary deaths, December and January still had about a third more deaths than summer."
+  },
+  {
+   "id": "b7",
+   "text": "In L.A., almost nobody shovels snow, yet the winter bump was still there. So cold matters, but it can't be the whole story. Something about the season itself is at work.",
+   "say": "In L A, almost nobody shovels snow, yet the winter bump was still there. So cold matters, but it can't be the whole story. Something about the season itself is at work."
+  },
+  {
+   "id": "k1",
+   "speaker": "q",
+   "text": "What does cold do to arteries?",
+   "ch": "Cold squeezes the pipes",
+   "gap_before": 2.2
+  },
+  {
+   "id": "k2",
+   "text": "When icy air hits your skin, the blood vessels underneath clamp down to save heat. Now your heart must push blood through narrower pipes, so blood pressure climbs."
+  },
+  {
+   "id": "k3",
+   "text": "The arteries that feed the heart itself can tighten, too. At the same time, cold can make blood thicker and stickier, so platelets clump into clots more easily."
+  },
+  {
+   "id": "k4",
+   "text": "That's dangerous if an artery already holds a fatty plaque. A pressure spike can crack the plaque open, a clot grows on the crack, and blood to part of the heart is cut off."
+  },
+  {
+   "id": "k5q",
+   "speaker": "q",
+   "text": "Where does a snow shovel come in?"
+  },
+  {
+   "id": "k6",
+   "text": "Shoveling is a surprise stress test. In one study, healthy young men shoveling snow hit about 170 beats per minute. Using a snowblower, they stayed around 120.",
+   "say": "Shoveling is a surprise stress test. In one study, healthy young men shoveling snow hit about one hundred seventy beats per minute. Using a snowblower, they stayed around one hundred twenty."
+  },
+  {
+   "id": "k7",
+   "text": "It's mostly arm work, which strains the heart more than walking. And people often hold their breath as they heave each heavy load, which sends blood pressure soaring."
+  },
+  {
+   "id": "k8",
+   "text": "In Quebec, researchers lined up more than 30 years of heart attack records with daily snowfall. After big snowfalls, men were more likely to land in the hospital or die from a heart attack.",
+   "say": "In Quebec, researchers lined up more than thirty years of heart attack records with daily snowfall. After big snowfalls, men were more likely to land in the hospital or die from a heart attack."
+  },
+  {
+   "id": "k9",
+   "text": "The strongest link came the day after the snow, and after storms that lasted two or three days. In women, the effect was weak or missing, perhaps because men did more of the shoveling."
+  },
+  {
+   "id": "f1",
+   "speaker": "q",
+   "text": "Can a big dinner trigger a heart attack?",
+   "ch": "The holiday feast",
+   "gap_before": 2.2
+  },
+  {
+   "id": "f2",
+   "text": "Possibly. In one study presented at an American Heart Association meeting, heart attack patients often had eaten an unusually heavy meal in the two hours before. The risk in that window looked about four times higher."
+  },
+  {
+   "id": "f3",
+   "text": "After a huge, fatty meal, insulin surges and fat floods the bloodstream. Researchers think that can briefly stop the artery lining from relaxing the way it should."
+  },
+  {
+   "id": "f4",
+   "text": "Then there's the salt: the ham, the gravy, the stuffing. Salt pulls extra water into the bloodstream, more fluid presses on the artery walls, and blood pressure rises."
+  },
+  {
+   "id": "f5q",
+   "speaker": "q",
+   "text": "What about the eggnog and wine?"
+  },
+  {
+   "id": "f6",
+   "text": "Doctors have a name for that: holiday heart syndrome. In 1978, cardiologist Philip Ettinger described drinkers who showed up with their heartbeat thrown off rhythm, often after weekend or holiday binges.",
+   "say": "Doctors have a name for that: holiday heart syndrome. In nineteen seventy-eight, cardiologist Philip Ettinger described drinkers who showed up with their heartbeat thrown off rhythm, often after weekend or holiday binges."
+  },
+  {
+   "id": "f7",
+   "text": "The usual culprit is atrial fibrillation. The heart's upper chambers stop beating in time and start to quiver. Blood can pool in them and form clots that may travel to the brain."
+  },
+  {
+   "id": "f8",
+   "text": "It can strike even people who rarely drink, after a single binge. It often settles once the drinking stops, but a racing, fluttering heart always deserves a doctor."
+  },
+  {
+   "id": "s1",
+   "speaker": "q",
+   "text": "Can family stress really hurt your heart?",
+   "ch": "Stress and waiting",
+   "gap_before": 2.2
+  },
+  {
+   "id": "s2",
+   "text": "It can add up. Anger, anxiety, grief and stress release hormones like adrenaline, which speed up the heart and squeeze the arteries."
+  },
+  {
+   "id": "s3",
+   "text": "One review found heart attack risk was about five times higher in the two hours after an angry outburst. For most people, the extra risk is small, but at a tense dinner table, it adds up."
+  },
+  {
+   "id": "s4",
+   "text": "Add the travel, the late nights, the cooking marathon, and less sleep. The Swedish team suspected exactly this mix of emotion and excess."
+  },
+  {
+   "id": "s5q",
+   "speaker": "q",
+   "text": "Why do more people die at home?"
+  },
+  {
+   "id": "s6",
+   "text": "Phillips had a theory: waiting. The chest pressure starts during dinner, and people think, I'm not ruining Christmas. I'll see a doctor after the holidays."
+  },
+  {
+   "id": "s7",
+   "text": "Travelers far from home put it off until they're back. But in a heart attack, every minute without blood flow kills more heart muscle."
+  },
+  {
+   "id": "s8",
+   "text": "Not everyone agrees on the reasons. The Swedish team found little sign of delayed hospital visits. Others point to thinner holiday staffing. Most likely, several triggers stack up on the same night."
+  },
+  {
+   "id": "v1",
+   "speaker": "q",
+   "text": "Can the flu cause a heart attack?",
+   "ch": "The flu connection",
+   "gap_before": 2.2
+  },
+  {
+   "id": "v2",
+   "text": "It can trigger one. In Ontario, researchers followed adults with lab-confirmed flu. In the first week after the diagnosis, their risk of a heart attack was about six times higher than usual."
+  },
+  {
+   "id": "v2b",
+   "text": "They studied nearly 20,000 flu cases from 2009 to 2014, and compared each person's heart attack timing with their own ordinary weeks.",
+   "say": "They studied nearly twenty thousand flu cases from two thousand nine to twenty fourteen, and compared each person's heart attack timing with their own ordinary weeks."
+  },
+  {
+   "id": "v3",
+   "text": "After that first week, the risk dropped back to normal. So the danger window is short, but it's sharp."
+  },
+  {
+   "id": "v4",
+   "text": "Scientists think the virus stirs up inflammation across the body. That can make fatty plaques more fragile and push the blood toward clotting, while fever makes the heart work harder."
+  },
+  {
+   "id": "v5",
+   "text": "And U.S. flu season usually starts climbing in the fall and peaks between December and February, just as families crowd together indoors."
+  },
+  {
+   "id": "v6q",
+   "speaker": "q",
+   "text": "Does a flu shot protect my heart?"
+  },
+  {
+   "id": "v7",
+   "text": "It seems to. Pooled clinical trials found about a third fewer major heart events in the year after vaccination. The CDC recommends a yearly flu shot, especially for people with heart disease."
+  },
+  {
+   "id": "w1",
+   "speaker": "q",
+   "text": "What does a heart attack feel like?",
+   "ch": "Know the warning signs",
+   "gap_before": 2.2
+  },
+  {
+   "id": "w2",
+   "text": "The classic sign is pressure, squeezing, fullness or pain in the center of the chest. It lasts more than a few minutes, or it goes away and comes back."
+  },
+  {
+   "id": "w3",
+   "text": "The discomfort can spread to one or both arms, the back, the neck, the jaw or the stomach. Shortness of breath, a cold sweat, nausea or lightheadedness can come with it."
+  },
+  {
+   "id": "w4",
+   "text": "Women more often get the quieter signs: breathlessness, nausea, back or jaw pain. After a big holiday dinner, those are easy to blame on the food."
+  },
+  {
+   "id": "w5q",
+   "speaker": "q",
+   "text": "What should I do if it happens?"
+  },
+  {
+   "id": "w6",
+   "text": "Call 911 right away, even if you're not sure. Don't drive yourself, and don't let anyone drive you. Paramedics can start treatment on the way.",
+   "say": "Call nine one one right away, even if you're not sure. Don't drive yourself, and don't let anyone drive you. Paramedics can start treatment on the way."
+  },
+  {
+   "id": "w7",
+   "text": "And don't wait until after the holiday. The presents can wait under the tree. Your heart muscle can't."
+  },
+  {
+   "id": "o1",
+   "speaker": "q",
+   "text": "How do I protect my heart this Christmas?",
+   "gap_before": 1.0
+  },
+  {
+   "id": "o2",
+   "text": "Get your flu shot. Enjoy the feast, but go easy on salt, seconds and drinks. Skip heavy shoveling if you have heart disease, and keep taking your medicines. And if your chest says something's wrong, call 911 tonight, not in January.",
+   "say": "Get your flu shot. Enjoy the feast, but go easy on salt, seconds and drinks. Skip heavy shoveling if you have heart disease, and keep taking your medicines. And if your chest says something's wrong, call nine one one tonight, not in January."
+  },
+  {
+   "id": "o3",
+   "text": "That's why Christmas is the riskiest day of the year for your heart."
+  },
+  {
+   "id": "o4",
+   "speaker": "q",
+   "text": "Subscribe for more of the science hiding in everyday life, and tell us in the comments how your family keeps the holidays healthy.",
+   "gap_before": 0.5
+  }
+ ]
+}
