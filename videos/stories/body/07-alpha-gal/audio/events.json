@@ -1,0 +1,676 @@
+{
+ "DUR": 497.353,
+ "CUE": {
+  "title": 475.702,
+  "end": 487.353,
+  "calls": 475.402
+ },
+ "chapters": [
+  [
+   "A sugar called alpha-gal",
+   35.587
+  ],
+  [
+   "The lone star tick",
+   78.025
+  ],
+  [
+   "Why it strikes hours later",
+   129.208
+  ],
+  [
+   "A cancer drug cracked the case",
+   179.353
+  ],
+  [
+   "Not just steak",
+   232.645
+  ],
+  [
+   "Spreading north",
+   271.7
+  ],
+  [
+   "The first known death",
+   314.052
+  ],
+  [
+   "Living with it",
+   360.518
+  ],
+  [
+   "How to dodge the bite",
+   419.147
+  ]
+ ],
+ "events": [
+  {
+   "kind": "icon",
+   "t": 4.58
+  },
+  {
+   "kind": "label",
+   "t": 6.5
+  },
+  {
+   "kind": "icon",
+   "t": 8.120000000000001
+  },
+  {
+   "kind": "label",
+   "t": 9.42
+  },
+  {
+   "kind": "label",
+   "t": 11.76
+  },
+  {
+   "kind": "tag",
+   "t": 13.46
+  },
+  {
+   "kind": "label",
+   "t": 18.32
+  },
+  {
+   "kind": "label",
+   "t": 22.82
+  },
+  {
+   "kind": "label",
+   "t": 23.807
+  },
+  {
+   "kind": "tag",
+   "t": 28.76
+  },
+  {
+   "kind": "card",
+   "t": 33.537
+  },
+  {
+   "kind": "section",
+   "t": 36.787000000000006
+  },
+  {
+   "kind": "tag",
+   "t": 40.88
+  },
+  {
+   "kind": "icon",
+   "t": 43.019999999999996
+  },
+  {
+   "kind": "icon",
+   "t": 43.48
+  },
+  {
+   "kind": "icon",
+   "t": 44.5
+  },
+  {
+   "kind": "label",
+   "t": 46.14
+  },
+  {
+   "kind": "icon",
+   "t": 48.3
+  },
+  {
+   "kind": "label",
+   "t": 48.5
+  },
+  {
+   "kind": "icon",
+   "t": 49.22
+  },
+  {
+   "kind": "tag",
+   "t": 51.32
+  },
+  {
+   "kind": "label",
+   "t": 57.84
+  },
+  {
+   "kind": "label",
+   "t": 61.16
+  },
+  {
+   "kind": "tag",
+   "t": 68.48
+  },
+  {
+   "kind": "icon",
+   "t": 70.091
+  },
+  {
+   "kind": "label",
+   "t": 71.62
+  },
+  {
+   "kind": "icon",
+   "t": 74.5
+  },
+  {
+   "kind": "label",
+   "t": 74.8
+  },
+  {
+   "kind": "card",
+   "t": 75.97500000000001
+  },
+  {
+   "kind": "section",
+   "t": 79.22500000000001
+  },
+  {
+   "kind": "label",
+   "t": 83.04
+  },
+  {
+   "kind": "label",
+   "t": 86.3
+  },
+  {
+   "kind": "label",
+   "t": 89.64
+  },
+  {
+   "kind": "tag",
+   "t": 92.14
+  },
+  {
+   "kind": "label",
+   "t": 93.98
+  },
+  {
+   "kind": "label",
+   "t": 99.48
+  },
+  {
+   "kind": "label",
+   "t": 108.42
+  },
+  {
+   "kind": "icon",
+   "t": 111.7
+  },
+  {
+   "kind": "tag",
+   "t": 111.9
+  },
+  {
+   "kind": "icon",
+   "t": 117.399
+  },
+  {
+   "kind": "label",
+   "t": 117.599
+  },
+  {
+   "kind": "card",
+   "t": 127.158
+  },
+  {
+   "kind": "icon",
+   "t": 130.208
+  },
+  {
+   "kind": "section",
+   "t": 130.408
+  },
+  {
+   "kind": "label",
+   "t": 134.7
+  },
+  {
+   "kind": "icon",
+   "t": 137.04
+  },
+  {
+   "kind": "tag",
+   "t": 137.34
+  },
+  {
+   "kind": "label",
+   "t": 143.58
+  },
+  {
+   "kind": "icon",
+   "t": 149.532
+  },
+  {
+   "kind": "label",
+   "t": 152.28
+  },
+  {
+   "kind": "icon",
+   "t": 152.57999999999998
+  },
+  {
+   "kind": "label",
+   "t": 158.84
+  },
+  {
+   "kind": "label",
+   "t": 161.94
+  },
+  {
+   "kind": "icon",
+   "t": 167.883
+  },
+  {
+   "kind": "label",
+   "t": 168.82
+  },
+  {
+   "kind": "label",
+   "t": 171.02
+  },
+  {
+   "kind": "tag",
+   "t": 173.98
+  },
+  {
+   "kind": "card",
+   "t": 177.303
+  },
+  {
+   "kind": "icon",
+   "t": 180.353
+  },
+  {
+   "kind": "section",
+   "t": 180.553
+  },
+  {
+   "kind": "tag",
+   "t": 181.336
+  },
+  {
+   "kind": "label",
+   "t": 182.24
+  },
+  {
+   "kind": "label",
+   "t": 189.82
+  },
+  {
+   "kind": "icon",
+   "t": 198.42
+  },
+  {
+   "kind": "label",
+   "t": 198.72
+  },
+  {
+   "kind": "icon",
+   "t": 203.06
+  },
+  {
+   "kind": "tag",
+   "t": 204.66
+  },
+  {
+   "kind": "label",
+   "t": 206.886
+  },
+  {
+   "kind": "label",
+   "t": 211.38
+  },
+  {
+   "kind": "label",
+   "t": 216.62
+  },
+  {
+   "kind": "icon",
+   "t": 217.73999999999998
+  },
+  {
+   "kind": "label",
+   "t": 219.36
+  },
+  {
+   "kind": "icon",
+   "t": 220.5
+  },
+  {
+   "kind": "tag",
+   "t": 222.14
+  },
+  {
+   "kind": "label",
+   "t": 227.16
+  },
+  {
+   "kind": "card",
+   "t": 230.595
+  },
+  {
+   "kind": "section",
+   "t": 233.845
+  },
+  {
+   "kind": "label",
+   "t": 234.28
+  },
+  {
+   "kind": "icon",
+   "t": 235.8
+  },
+  {
+   "kind": "icon",
+   "t": 236.4
+  },
+  {
+   "kind": "icon",
+   "t": 237.26000000000002
+  },
+  {
+   "kind": "icon",
+   "t": 238.68
+  },
+  {
+   "kind": "icon",
+   "t": 239.72
+  },
+  {
+   "kind": "label",
+   "t": 240.32
+  },
+  {
+   "kind": "icon",
+   "t": 256.5
+  },
+  {
+   "kind": "label",
+   "t": 256.8
+  },
+  {
+   "kind": "label",
+   "t": 260.569
+  },
+  {
+   "kind": "icon",
+   "t": 264.92
+  },
+  {
+   "kind": "label",
+   "t": 266.28
+  },
+  {
+   "kind": "icon",
+   "t": 267.08
+  },
+  {
+   "kind": "card",
+   "t": 269.65
+  },
+  {
+   "kind": "section",
+   "t": 272.9
+  },
+  {
+   "kind": "label",
+   "t": 275.78
+  },
+  {
+   "kind": "label",
+   "t": 279.76
+  },
+  {
+   "kind": "tag",
+   "t": 283.346
+  },
+  {
+   "kind": "icon",
+   "t": 285.62
+  },
+  {
+   "kind": "tag",
+   "t": 290.94
+  },
+  {
+   "kind": "label",
+   "t": 291.8
+  },
+  {
+   "kind": "icon",
+   "t": 301.589
+  },
+  {
+   "kind": "tag",
+   "t": 301.589
+  },
+  {
+   "kind": "label",
+   "t": 303.72
+  },
+  {
+   "kind": "card",
+   "t": 312.00199999999995
+  },
+  {
+   "kind": "icon",
+   "t": 315.052
+  },
+  {
+   "kind": "section",
+   "t": 315.252
+  },
+  {
+   "kind": "label",
+   "t": 317.46
+  },
+  {
+   "kind": "icon",
+   "t": 323.03999999999996
+  },
+  {
+   "kind": "label",
+   "t": 323.34
+  },
+  {
+   "kind": "icon",
+   "t": 326.148
+  },
+  {
+   "kind": "label",
+   "t": 326.24
+  },
+  {
+   "kind": "icon",
+   "t": 333.22
+  },
+  {
+   "kind": "label",
+   "t": 333.28
+  },
+  {
+   "kind": "icon",
+   "t": 336.28
+  },
+  {
+   "kind": "tag",
+   "t": 346.1
+  },
+  {
+   "kind": "icon",
+   "t": 348.556
+  },
+  {
+   "kind": "label",
+   "t": 349.52
+  },
+  {
+   "kind": "tag",
+   "t": 355.52
+  },
+  {
+   "kind": "label",
+   "t": 357.68
+  },
+  {
+   "kind": "card",
+   "t": 358.46799999999996
+  },
+  {
+   "kind": "tag",
+   "t": 361.68600000000004
+  },
+  {
+   "kind": "section",
+   "t": 361.71799999999996
+  },
+  {
+   "kind": "icon",
+   "t": 363.26
+  },
+  {
+   "kind": "label",
+   "t": 363.56
+  },
+  {
+   "kind": "icon",
+   "t": 366.8
+  },
+  {
+   "kind": "label",
+   "t": 367.1
+  },
+  {
+   "kind": "icon",
+   "t": 369.65299999999996
+  },
+  {
+   "kind": "label",
+   "t": 372.36
+  },
+  {
+   "kind": "icon",
+   "t": 381.706
+  },
+  {
+   "kind": "icon",
+   "t": 381.97999999999996
+  },
+  {
+   "kind": "label",
+   "t": 382.28
+  },
+  {
+   "kind": "label",
+   "t": 384.36
+  },
+  {
+   "kind": "icon",
+   "t": 390.536
+  },
+  {
+   "kind": "label",
+   "t": 393.7
+  },
+  {
+   "kind": "label",
+   "t": 395.54
+  },
+  {
+   "kind": "icon",
+   "t": 399.226
+  },
+  {
+   "kind": "label",
+   "t": 402.04
+  },
+  {
+   "kind": "label",
+   "t": 403.18
+  },
+  {
+   "kind": "label",
+   "t": 410.84
+  },
+  {
+   "kind": "tag",
+   "t": 414.52
+  },
+  {
+   "kind": "card",
+   "t": 417.097
+  },
+  {
+   "kind": "section",
+   "t": 420.347
+  },
+  {
+   "kind": "label",
+   "t": 429.3
+  },
+  {
+   "kind": "icon",
+   "t": 436.346
+  },
+  {
+   "kind": "label",
+   "t": 437.12
+  },
+  {
+   "kind": "label",
+   "t": 443.46
+  },
+  {
+   "kind": "tag",
+   "t": 446.8
+  },
+  {
+   "kind": "label",
+   "t": 451.16
+  },
+  {
+   "kind": "label",
+   "t": 454.28
+  },
+  {
+   "kind": "tag",
+   "t": 455.9
+  },
+  {
+   "kind": "icon",
+   "t": 458.38
+  },
+  {
+   "kind": "label",
+   "t": 458.4
+  },
+  {
+   "kind": "section",
+   "t": 462.792
+  },
+  {
+   "kind": "label",
+   "t": 466.14
+  },
+  {
+   "kind": "label",
+   "t": 467.88
+  },
+  {
+   "kind": "label",
+   "t": 470.09999999999997
+  },
+  {
+   "kind": "icon",
+   "t": 475.402
+  },
+  {
+   "kind": "sfx:title",
+   "t": 475.602
+  },
+  {
+   "kind": "icon",
+   "t": 478.894
+  }
+ ]
+}
