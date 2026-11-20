@@ -1,0 +1,329 @@
+{
+  "voice": "bm_fable",
+  "voices": {
+    "q": "af_heart",
+    "a": "bm_fable"
+  },
+  "q_pause": 0.45,
+  "speed": 0.92,
+  "gap": 0.24,
+  "lines": [
+    {
+      "id": "c1",
+      "speaker": "q",
+      "text": "Are naps good or bad for you?"
+    },
+    {
+      "id": "c2",
+      "text": "Surprisingly, it can be both. A short nap can recharge your brain like a fresh battery. But a study that tracked people for up to 19 years has now linked long, frequent naps to an earlier death.",
+      "say": "Surprisingly, it can be both. A short nap can recharge your brain like a fresh battery. But a study that tracked people for up to nineteen years has now linked long, frequent naps to an earlier death."
+    },
+    {
+      "id": "c3",
+      "text": "It was published in JAMA Network Open and hit the headlines again this November. Every extra hour of daytime sleep went with a thirteen percent higher risk of dying. And morning naps looked worst of all.",
+      "say": "It was published in Jama Network Open and hit the headlines again this November. Every extra hour of daytime sleep went with a thirteen percent higher risk of dying. And morning naps looked worst of all."
+    },
+    {
+      "id": "c4q",
+      "speaker": "q",
+      "text": "So should I stop napping?"
+    },
+    {
+      "id": "c5",
+      "text": "Not so fast. Whether a nap helps or hurts depends on how long it lasts, when you take it, and most of all, why your body needs it."
+    },
+    {
+      "id": "c6",
+      "text": "And there's a catch we'll keep coming back to. When two things show up together, like long naps and early death, that doesn't prove one causes the other."
+    },
+    {
+      "id": "s1",
+      "speaker": "q",
+      "text": "Who did they actually study?",
+      "ch": "The 19-year study",
+      "gap_before": 2.2
+    },
+    {
+      "id": "s2",
+      "text": "1,338 older adults in northern Illinois, from the Rush Memory and Aging Project in Chicago. Their average age was eighty-one, and three in four were women.",
+      "say": "Thirteen hundred and thirty-eight older adults in northern Illinois, from the Rush Memory and Aging Project in Chicago. Their average age was eighty-one, and three in four were women."
+    },
+    {
+      "id": "s3",
+      "text": "Instead of asking people about their naps, researchers strapped a motion sensor to each wrist for about ten days. When the arm lay still between 9 a.m. and 7 p.m., the device logged a nap.",
+      "say": "Instead of asking people about their naps, researchers strapped a motion sensor to each wrist for about ten days. When the arm lay still between nine a m and seven p m, the device logged a nap."
+    },
+    {
+      "id": "s4",
+      "text": "Then they waited. Over the following years, 926 of the volunteers died, and the team matched each death against the wrist data.",
+      "say": "Then they waited. Over the following years, nine hundred and twenty-six of the volunteers died, and the team matched each death against the wrist data."
+    },
+    {
+      "id": "s5q",
+      "speaker": "q",
+      "text": "Which naps looked the riskiest?"
+    },
+    {
+      "id": "s6",
+      "text": "Three patterns stood out. Each extra hour of daytime sleep went with about thirteen percent higher risk of death. Each extra nap per day, about seven percent more."
+    },
+    {
+      "id": "s7",
+      "text": "Timing mattered too. People who mostly dozed off in the morning had about thirty percent higher risk than people who napped in the early afternoon."
+    },
+    {
+      "id": "s8",
+      "text": "One surprise: irregular napping, long one day and short the next, was not linked to extra risk. And the links held even after counting how well people slept at night."
+    },
+    {
+      "id": "s8b",
+      "text": "Over the years, naps also tended to get longer, come more often, and creep earlier into the morning, as the volunteers got older."
+    },
+    {
+      "id": "s9q",
+      "speaker": "q",
+      "text": "So naps actually shorten your life?"
+    },
+    {
+      "id": "s10",
+      "text": "Not proven. The lead author, Chenlu Gao, said it plainly: this is correlation, not causation. A long morning nap may be the smoke alarm, not the fire, a sign of hidden disease, broken night sleep, or a body clock drifting off schedule.",
+      "say": "Not proven. The lead author, Chenloo Gow, said it plainly: this is correlation, not causation. A long morning nap may be the smoke alarm, not the fire, a sign of hidden disease, broken night sleep, or a body clock drifting off schedule."
+    },
+    {
+      "id": "d1",
+      "speaker": "q",
+      "text": "Why do I crash after lunch?",
+      "ch": "The afternoon crash",
+      "gap_before": 2.2
+    },
+    {
+      "id": "d2",
+      "text": "Partly, it isn't the lunch. Your body runs on a twenty-four-hour clock, and in the early afternoon its wake-up signal sags for a while. The slump shows up even when people skip lunch."
+    },
+    {
+      "id": "d3",
+      "text": "A big meal, especially one piled with carbs, can deepen the slump. But the clock sets the stage."
+    },
+    {
+      "id": "d4",
+      "text": "Meanwhile, a second force builds up. Every hour you're awake, a chemical called adenosine piles up in your brain, like sand filling an hourglass. The more sand, the heavier your eyelids."
+    },
+    {
+      "id": "d5",
+      "text": "Sleep empties the hourglass. Even a short nap pours some of that sand out, which is why you can wake up feeling lighter."
+    },
+    {
+      "id": "p1",
+      "speaker": "q",
+      "text": "How long should a nap be?",
+      "ch": "The perfect nap length",
+      "gap_before": 2.2
+    },
+    {
+      "id": "p2",
+      "text": "Shorter than most people think. In a 2006 Australian study, volunteers slept only about five hours, then took afternoon naps of different lengths and did alertness tests for hours.",
+      "say": "Shorter than most people think. In a two thousand six Australian study, volunteers slept only about five hours, then took afternoon naps of different lengths and did alertness tests for hours."
+    },
+    {
+      "id": "p3",
+      "text": "The ten-minute nap won. It sharpened people almost right away. The thirty-minute nap helped too, but first it dragged them through a groggy dip after waking."
+    },
+    {
+      "id": "p3b",
+      "text": "A ten-minute nap mostly stays in the lightest stage of sleep, so you surface easily, like stepping out of a shallow pool."
+    },
+    {
+      "id": "p4",
+      "text": "That fog is called sleep inertia. Nap too long and your brain sinks into deep, slow-wave sleep. Waking from there is like hauling a diver up from the bottom of a pool."
+    },
+    {
+      "id": "p5q",
+      "speaker": "q",
+      "text": "Didn't NASA test this on pilots?"
+    },
+    {
+      "id": "p6",
+      "text": "Yes. In the 1990s, NASA gave long-haul airline pilots a forty-minute chance to rest in the cockpit seat while a colleague flew. They fell asleep in about six minutes and slept around twenty-six.",
+      "say": "Yes. In the nineteen nineties, NASA gave long-haul airline pilots a forty-minute chance to rest in the cockpit seat while a colleague flew. They fell asleep in about six minutes and slept around twenty-six."
+    },
+    {
+      "id": "p7",
+      "text": "Compared with pilots who kept flying, the nappers stayed sharper all the way through descent and landing, with up to fifty-four percent more alertness and thirty-four percent better performance."
+    },
+    {
+      "id": "p8",
+      "text": "That's why many sleep experts suggest keeping naps to about twenty minutes, in the early afternoon, so they don't steal sleep from your night."
+    },
+    {
+      "id": "k1",
+      "speaker": "q",
+      "text": "What's a coffee nap?",
+      "ch": "The coffee nap",
+      "gap_before": 2.2
+    },
+    {
+      "id": "k2",
+      "text": "It's a trick that turns adenosine against itself. Caffeine works by plugging the adenosine receptors in your brain, like caps snapping onto keyholes, so the sleepy signal can't get in."
+    },
+    {
+      "id": "k3",
+      "text": "But caffeine takes about twenty minutes to kick in. So you gulp a coffee, then nap right away. While you sleep, adenosine drains, and you wake just as the caffeine arrives."
+    },
+    {
+      "id": "k4",
+      "text": "In a small 1997 British study, sleepy drivers in a simulator had coffee plus a short nap. Their dangerous drifts fell to about a tenth of the placebo level, far better than coffee alone.",
+      "say": "In a small nineteen ninety-seven British study, sleepy drivers in a simulator had coffee plus a short nap. Their dangerous drifts fell to about a tenth of the placebo level, far better than coffee alone."
+    },
+    {
+      "id": "k5",
+      "text": "Just don't try it late in the day. Caffeine keeps working for hours and can wreck your night's sleep."
+    },
+    {
+      "id": "h1",
+      "speaker": "q",
+      "text": "Are long naps bad for your heart?",
+      "ch": "Long naps and your heart",
+      "gap_before": 2.2
+    },
+    {
+      "id": "h2",
+      "text": "They're linked to heart trouble. A 2015 analysis in the journal Sleep pooled cohort studies from around the world. Naps of an hour or more went with about eighty-two percent higher heart disease risk.",
+      "say": "They're linked to heart trouble. A twenty fifteen analysis in the journal Sleep pooled cohort studies from around the world. Naps of an hour or more went with about eighty-two percent higher heart disease risk."
+    },
+    {
+      "id": "h3",
+      "text": "Long nappers also had about twenty-seven percent higher risk of dying. But naps under an hour showed no extra risk. The heart curve even dipped slightly for naps up to thirty minutes, then climbed, like the letter J."
+    },
+    {
+      "id": "h4",
+      "text": "In 2020, a European analysis of more than three hundred thousand people found the same pattern. Naps over an hour, about thirty percent higher risk of death.",
+      "say": "In twenty twenty, a European analysis of more than three hundred thousand people found the same pattern. Naps over an hour, about thirty percent higher risk of death."
+    },
+    {
+      "id": "h4b",
+      "text": "Oddly, in that analysis the extra risk showed up mainly in people who also slept more than six hours at night."
+    },
+    {
+      "id": "h5q",
+      "speaker": "q",
+      "text": "What about blood pressure?"
+    },
+    {
+      "id": "h6",
+      "text": "In 2022, researchers followed about 360,000 people in the UK Biobank. Those who usually napped were twelve percent more likely to develop high blood pressure, and twenty-four percent more likely to have a stroke, than people who never napped.",
+      "say": "In twenty twenty-two, researchers followed about three hundred and sixty thousand people in the U K Biobank. Those who usually napped were twelve percent more likely to develop high blood pressure, and twenty-four percent more likely to have a stroke, than people who never napped."
+    },
+    {
+      "id": "h7",
+      "text": "But the authors flagged a weakness. Many people nap because their nights are broken by snoring, stress or a full bladder. The nap may just be a footprint of bad night sleep."
+    },
+    {
+      "id": "r1",
+      "speaker": "q",
+      "text": "How do we know what's cause?",
+      "ch": "Cause or clue?",
+      "gap_before": 2.2
+    },
+    {
+      "id": "r2",
+      "text": "That's the hardest part. Picture a hospital ward full of people lying in bed. Beds don't make people sick. Sick people simply lie down more. Naps can work the same way."
+    },
+    {
+      "id": "r3",
+      "text": "Scientists call this reverse causation. A hidden illness, like a weakening heart or early dementia, can drain your energy years before anyone diagnoses it, and that tiredness shows up as longer naps."
+    },
+    {
+      "id": "r4",
+      "text": "Researchers adjust for the health problems they know about. But they can't adjust for the ones nobody has found yet."
+    },
+    {
+      "id": "r5q",
+      "speaker": "q",
+      "text": "Is there any way around that?"
+    },
+    {
+      "id": "r6",
+      "text": "One clever trick uses your genes. Some people inherit gene variants that nudge them to nap more. Genes are dealt out at conception, like cards shuffled by nature, so they aren't caused by illness later in life."
+    },
+    {
+      "id": "r7",
+      "text": "In 2023, a UK team used ninety-two of these variants in data from about 379,000 people. Those genetically prone to napping had slightly bigger brains, by about fifteen cubic centimeters, roughly a tablespoon.",
+      "say": "In twenty twenty-three, a U K team used ninety-two of these variants in data from about three hundred and seventy-nine thousand people. Those genetically prone to napping had slightly bigger brains, by about fifteen cubic centimeters, roughly a tablespoon."
+    },
+    {
+      "id": "r8",
+      "text": "The team compared that to roughly three to six years less brain aging. But memory and reaction time didn't improve, so it's a hint, not a verdict."
+    },
+    {
+      "id": "r9q",
+      "speaker": "q",
+      "text": "Is the siesta actually healthy, then?"
+    },
+    {
+      "id": "r10",
+      "text": "Maybe. In a 2007 study of about twenty-four thousand Greek adults, people who took a siesta of at least thirty minutes three times a week had thirty-seven percent lower risk of dying from heart disease.",
+      "say": "Maybe. In a two thousand seven study of about twenty-four thousand Greek adults, people who took a siesta of at least thirty minutes three times a week had thirty-seven percent lower risk of dying from heart disease."
+    },
+    {
+      "id": "r11",
+      "text": "The link was strongest in working men. The researchers guessed the siesta works like a daily pressure valve for stress. But again, it's a link, not proof."
+    },
+    {
+      "id": "w1",
+      "speaker": "q",
+      "text": "When should a nap worry me?",
+      "ch": "When naps are a warning",
+      "gap_before": 2.2
+    },
+    {
+      "id": "w2",
+      "text": "When you need it, not just want it. If you sleep a full night and still nod off at your desk or at red lights, that's excessive daytime sleepiness. It's a symptom, not a personality trait."
+    },
+    {
+      "id": "w3",
+      "text": "One common cause is sleep apnea. At night the throat collapses, airflow stops, and the brain jolts awake for a moment, dozens or even hundreds of times, usually without the sleeper knowing."
+    },
+    {
+      "id": "w4",
+      "text": "Depression can also drag people into daytime sleep. So can common medicines, like allergy pills, some antidepressants and painkillers."
+    },
+    {
+      "id": "w5q",
+      "speaker": "q",
+      "text": "Can naps really signal dementia?"
+    },
+    {
+      "id": "w6",
+      "text": "They can be an early clue. In 2022, the same Rush project tracked more than 1,400 older adults for up to fourteen years, again with wrist sensors.",
+      "say": "They can be an early clue. In twenty twenty-two, the same Rush project tracked more than fourteen hundred older adults for up to fourteen years, again with wrist sensors."
+    },
+    {
+      "id": "w7",
+      "text": "In people who stayed sharp, daily napping grew by about eleven minutes a year. After an Alzheimer's diagnosis, it grew by about sixty-eight minutes a year."
+    },
+    {
+      "id": "w8",
+      "text": "Older adults who napped more than an hour a day had about forty percent higher risk of developing Alzheimer's. One theory: the disease's tangles quietly destroy wake-promoting brain cells, long before memory fades."
+    },
+    {
+      "id": "o1",
+      "speaker": "q",
+      "text": "So what's the smart way to nap?",
+      "gap_before": 1.0
+    },
+    {
+      "id": "o2",
+      "text": "Keep it short, about ten to twenty minutes, in the early afternoon, and set an alarm. And if you suddenly need longer or more frequent naps, especially in the morning, don't brush it off. Talk to your doctor."
+    },
+    {
+      "id": "o3",
+      "text": "That's why naps can be good or bad for you."
+    },
+    {
+      "id": "o4",
+      "speaker": "q",
+      "text": "Subscribe for more of what your body is quietly telling you, and tell us in the comments: are you a napper?",
+      "gap_before": 0.5
+    }
+  ]
+}
