@@ -1,0 +1,305 @@
+{
+ "voice": "bm_fable",
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "q_pause": 0.45,
+ "speed": 0.92,
+ "gap": 0.24,
+ "lines": [
+  {
+   "id": "c1",
+   "speaker": "q",
+   "text": "Is the Hubble Space Telescope really falling?"
+  },
+  {
+   "id": "c2",
+   "text": "Slowly, yes. Hubble has no engine of its own, and the thin upper atmosphere is dragging it down. NASA's latest analysis says it will probably fall back to Earth in 2033 or 2034.",
+   "say": "Slowly, yes. Hubble has no engine of its own, and the thin upper atmosphere is dragging it down. NASA's latest analysis says it will probably fall back to Earth in twenty thirty-three or twenty thirty-four."
+  },
+  {
+   "id": "c3",
+   "text": "And just this month, another NASA telescope that had the same problem burned up, after a mission to rescue it failed."
+  },
+  {
+   "id": "c4q",
+   "speaker": "q",
+   "text": "So can anyone save Hubble?"
+  },
+  {
+   "id": "c5",
+   "text": "NASA is asking that exact question right now. Let's see why satellites fall, what Hubble has given us, and how we might save it."
+  },
+  {
+   "id": "f1",
+   "speaker": "q",
+   "text": "Why would a telescope fall out of space?",
+   "ch": "Why orbits decay",
+   "gap_before": 2.2
+  },
+  {
+   "id": "f2",
+   "text": "Because space isn't perfectly empty where Hubble flies. Even hundreds of kilometres up, there are a few stray gas molecules, and Hubble crashes into trillions of them every second at about twenty-seven thousand kilometres per hour."
+  },
+  {
+   "id": "f3",
+   "text": "Each one steals a tiny bit of speed. Lose speed, and you drop a little lower, where the air is a little thicker, so you lose speed even faster. It's a slow spiral."
+  },
+  {
+   "id": "f3b",
+   "text": "The International Space Station flies even lower, and it has the same problem. That's why it fires its engines regularly, just to stay up."
+  },
+  {
+   "id": "f4q",
+   "speaker": "q",
+   "text": "Does the Sun make it worse?"
+  },
+  {
+   "id": "f5",
+   "text": "Yes. When the Sun is active, it heats the upper atmosphere, which puffs up and reaches higher, adding more drag. The Sun just passed the peak of its eleven-year cycle, and Hubble has been sinking faster."
+  },
+  {
+   "id": "f6",
+   "text": "Over the last few years, Hubble has dropped by tens of kilometres. Once it gets below about four hundred kilometres, it may have only a year or so left."
+  },
+  {
+   "id": "f6b",
+   "text": "Hubble circles the Earth about every ninety-five minutes, around fifteen times a day. Every lap brushes through that thin air."
+  },
+  {
+   "id": "h1",
+   "speaker": "q",
+   "text": "Why is Hubble such a big deal?",
+   "ch": "Thirty-six years of Hubble",
+   "gap_before": 2.2
+  },
+  {
+   "id": "h2",
+   "text": "It launched in April 1990, on the space shuttle. And at first, it was a disaster. Its main mirror was ground to the wrong shape, off by less than a fiftieth of the width of a human hair, and its pictures came out blurry.",
+   "say": "It launched in April nineteen ninety, on the space shuttle. And at first, it was a disaster. Its main mirror was ground to the wrong shape, off by less than a fiftieth of the width of a human hair, and its pictures came out blurry."
+  },
+  {
+   "id": "h3",
+   "text": "In 1993, astronauts flew up and fitted corrective optics, like glasses for a telescope. Over five shuttle missions, the last one in 2009, crews repaired and upgraded it again and again.",
+   "say": "In nineteen ninety-three, astronauts flew up and fitted corrective optics, like glasses for a telescope. Over five shuttle missions, the last one in two thousand and nine, crews repaired and upgraded it again and again."
+  },
+  {
+   "id": "h3b",
+   "text": "Hubble is about the size of a school bus, thirteen metres long, with a main mirror two point four metres across."
+  },
+  {
+   "id": "h4q",
+   "speaker": "q",
+   "text": "What has it actually found?"
+  },
+  {
+   "id": "h5",
+   "text": "Hubble has made more than one and a half million observations. It helped pin down how fast the universe is expanding, which tells us its age: about thirteen point eight billion years."
+  },
+  {
+   "id": "h6",
+   "text": "It also helped show that the expansion is speeding up, which led to a Nobel Prize. And by staring at a tiny dark patch of sky for days, it revealed thousands of galaxies no one had seen before."
+  },
+  {
+   "id": "h6b",
+   "text": "Its Deep Field image, taken in 1995, showed around three thousand galaxies in a patch of sky smaller than a grain of sand held at arm's length.",
+   "say": "Its Deep Field image, taken in nineteen ninety-five, showed around three thousand galaxies in a patch of sky smaller than a grain of sand held at arm's length."
+  },
+  {
+   "id": "h6d",
+   "text": "Hubble also watched a comet smash into Jupiter in 1994, photographed the famous Pillars of Creation in 1995, and found that almost every big galaxy has a giant black hole at its heart.",
+   "say": "Hubble also watched a comet smash into Jupiter in nineteen ninety-four, photographed the famous Pillars of Creation in nineteen ninety-five, and found that almost every big galaxy has a giant black hole at its heart."
+  },
+  {
+   "id": "h6c",
+   "text": "But it's aging. Its gyroscopes, which help it point, have been failing one by one. Since 2024, it has been working with just one gyro, to save the others.",
+   "say": "But it's aging. Its gyroscopes, which help it point, have been failing one by one. Since twenty twenty-four, it has been working with just one gyro, to save the others."
+  },
+  {
+   "id": "s1",
+   "speaker": "q",
+   "text": "What happened to the other telescope?",
+   "ch": "The telescope that fell",
+   "gap_before": 2.2
+  },
+  {
+   "id": "s2",
+   "text": "It was called Swift, a NASA observatory that spent more than twenty years catching gamma-ray bursts, the biggest explosions in the universe. Like Hubble, it had no engine to raise its orbit."
+  },
+  {
+   "id": "s3",
+   "text": "In 2026, NASA hired a startup called Katalyst to send a robotic spacecraft to grab Swift and push it higher. It was a race against time.",
+   "say": "In twenty twenty-six, NASA hired a startup called Katalyst to send a robotic spacecraft to grab Swift and push it higher. It was a race against time."
+  },
+  {
+   "id": "s4",
+   "text": "The rescue craft launched, but engineering problems crippled it. The mission was called off, and in early November, Swift fell back into the atmosphere and burned up."
+  },
+  {
+   "id": "s5q",
+   "speaker": "q",
+   "text": "Could that happen to Hubble?"
+  },
+  {
+   "id": "s6",
+   "text": "That's the fear. Hubble is much bigger, about eleven and a half tonnes, roughly the weight of a school bus. And it was built to be visited by astronauts, not by robots."
+  },
+  {
+   "id": "s7q",
+   "speaker": "q",
+   "text": "Couldn't astronauts just fix it again?"
+  },
+  {
+   "id": "s8",
+   "text": "Not easily. Every repair visit used the space shuttle, with its robotic arm and a big cargo bay to hold Hubble. The shuttle retired in 2011, and nothing flying today can do the job in quite the same way.",
+   "say": "Not easily. Every repair visit used the space shuttle, with its robotic arm and a big cargo bay to hold Hubble. The shuttle retired in twenty eleven, and nothing flying today can do the job in quite the same way."
+  },
+  {
+   "id": "s9",
+   "text": "Any new mission would have to invent a way to grab an eleven-tonne telescope safely, in orbit, without ever touching its delicate mirror."
+  },
+  {
+   "id": "t1",
+   "speaker": "q",
+   "text": "How much time does Hubble have?",
+   "ch": "The deadline",
+   "gap_before": 2.2
+  },
+  {
+   "id": "t2",
+   "text": "Forecasts give it a low chance, under ten percent, of falling before 2030. The most likely time is around 2033.",
+   "say": "Forecasts give it a low chance, under ten percent, of falling before twenty thirty. The most likely time is around twenty thirty-three."
+  },
+  {
+   "id": "t3",
+   "text": "But a rescue can't wait until the last moment. NASA says a mission to boost its orbit would need to launch by 2032.",
+   "say": "But a rescue can't wait until the last moment. NASA says a mission to boost its orbit would need to launch by twenty thirty-two."
+  },
+  {
+   "id": "t4",
+   "text": "On October 29, NASA asked companies for ideas. Their answers are due on November 30. NASA's chief, Jared Isaacman, said Hubble still has important science ahead of it.",
+   "say": "On October twenty-ninth, NASA asked companies for ideas. Their answers are due on November thirtieth. NASA's chief, Jared Isaacman, said Hubble still has important science ahead of it."
+  },
+  {
+   "id": "t5q",
+   "speaker": "q",
+   "text": "Hasn't anyone offered to help before?"
+  },
+  {
+   "id": "t6",
+   "text": "Yes, and here's the twist. In 2022, NASA and SpaceX studied whether a Dragon capsule could boost Hubble, in a project backed by billionaire astronaut Jared Isaacman. In 2024, NASA decided not to go ahead, worried about the risks of damaging the telescope.",
+   "say": "Yes, and here's the twist. In twenty twenty-two, NASA and SpaceX studied whether a Dragon capsule could boost Hubble, in a project backed by billionaire astronaut Jared Isaacman. In twenty twenty-four, NASA decided not to go ahead, worried about the risks of damaging the telescope."
+  },
+  {
+   "id": "t7",
+   "text": "Now Isaacman runs NASA. And the question is back on the table."
+  },
+  {
+   "id": "v1q",
+   "speaker": "q",
+   "text": "What are the options?",
+   "ch": "Three ways to go",
+   "gap_before": 2.2
+  },
+  {
+   "id": "v2",
+   "text": "Option one: send a spacecraft to latch on and push Hubble into a higher orbit, buying it years, maybe decades."
+  },
+  {
+   "id": "v3",
+   "text": "Option two: a full servicing mission, to repair and upgrade it again while someone is up there."
+  },
+  {
+   "id": "v4",
+   "text": "Option three: grab it and steer it down on purpose, into a remote stretch of ocean, or move it out of the way into a disposal orbit."
+  },
+  {
+   "id": "v5q",
+   "speaker": "q",
+   "text": "How would anything grab a telescope?"
+  },
+  {
+   "id": "v6",
+   "text": "The astronauts planned ahead. On the last visit in 2009, they bolted a ring onto Hubble's base, with targets that a future spacecraft can use to dock.",
+   "say": "The astronauts planned ahead. On the last visit in two thousand and nine, they bolted a ring onto Hubble's base, with targets that a future spacecraft can use to dock."
+  },
+  {
+   "id": "v7",
+   "text": "A reboost would mean docking with that ring, then firing thrusters gently, over and over, to lift the whole telescope higher without shaking it. Every extra kilometre buys more time."
+  },
+  {
+   "id": "u1",
+   "speaker": "q",
+   "text": "What if nobody saves it?",
+   "ch": "If Hubble falls",
+   "gap_before": 2.2
+  },
+  {
+   "id": "u2",
+   "text": "Then sometime in the 2030s, it would come down on its own. Most of it would burn up, but the heaviest parts, like its big glass mirror and metal frame, could survive and hit the ground somewhere along its path.",
+   "say": "Then sometime in the twenty thirties, it would come down on its own. Most of it would burn up, but the heaviest parts, like its big glass mirror and metal frame, could survive and hit the ground somewhere along its path."
+  },
+  {
+   "id": "u3",
+   "text": "The chance of debris hurting anyone is small, because most of Earth is ocean and empty land. But space agencies try hard to avoid uncontrolled falls of objects this big."
+  },
+  {
+   "id": "u3b",
+   "text": "In fact, the docking ring was added partly for this. The plan was always that someday a robotic craft might attach to Hubble and steer it safely into the ocean."
+  },
+  {
+   "id": "u4",
+   "text": "Back in 1979, America's Skylab space station fell uncontrolled, and pieces landed in Western Australia. Nobody was hurt, but nobody wants a repeat.",
+   "say": "Back in nineteen seventy-nine, America's Skylab space station fell uncontrolled, and pieces landed in Western Australia. Nobody was hurt, but nobody wants a repeat."
+  },
+  {
+   "id": "w1",
+   "speaker": "q",
+   "text": "Don't we have newer telescopes now?",
+   "ch": "Why we still need it",
+   "gap_before": 2.2
+  },
+  {
+   "id": "w2",
+   "text": "We have the James Webb Space Telescope, which is bigger and sees deeper. But Webb mostly sees infrared light, the kind we feel as heat."
+  },
+  {
+   "id": "w2b",
+   "text": "Webb launched at the end of 2021. Its mirror is six and a half metres wide, and it sits one and a half million kilometres away, far beyond the reach of any repair crew.",
+   "say": "Webb launched at the end of twenty twenty-one. Its mirror is six and a half metres wide, and it sits one and a half million kilometres away, far beyond the reach of any repair crew."
+  },
+  {
+   "id": "w3",
+   "text": "Hubble sees visible and ultraviolet light, the colours of hot young stars, comets and planets' auroras. No other big telescope in space can do that right now."
+  },
+  {
+   "id": "w3b",
+   "text": "Hubble's ultraviolet eyes are also used to study the air of planets around other stars, as they pass in front of their suns."
+  },
+  {
+   "id": "w4",
+   "text": "Losing Hubble would leave a gap in our view of the universe."
+  },
+  {
+   "id": "o1",
+   "speaker": "q",
+   "text": "So, will Hubble be saved?",
+   "gap_before": 1.0
+  },
+  {
+   "id": "o2",
+   "text": "Nobody knows yet. It depends on money, on whether a company can build a rescue craft in time, and on what NASA decides after the ideas come in."
+  },
+  {
+   "id": "o3",
+   "text": "Hubble is falling. The next few years will decide whether it gets a second life."
+  },
+  {
+   "id": "o4",
+   "speaker": "q",
+   "text": "Subscribe to see what happens next, and tell us in the comments: should we save Hubble?",
+   "gap_before": 0.5
+  }
+ ]
+}

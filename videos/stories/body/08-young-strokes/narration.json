@@ -1,0 +1,315 @@
+{
+ "voice": "bm_fable",
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "q_pause": 0.45,
+ "speed": 0.92,
+ "gap": 0.24,
+ "lines": [
+  {
+   "id": "c1",
+   "speaker": "q",
+   "text": "Why are more young people having strokes?"
+  },
+  {
+   "id": "c2",
+   "text": "It's real, and it's surprising. A study published in September 2026 tracked strokes in one American region for almost thirty years. Among adults aged twenty to fifty-four, the stroke rate nearly doubled.",
+   "say": "It's real, and it's surprising. A study published in September twenty twenty-six tracked strokes in one American region for almost thirty years. Among adults aged twenty to fifty-four, the stroke rate nearly doubled."
+  },
+  {
+   "id": "c3",
+   "text": "At the same time, strokes in older adults went down. So what's happening to younger brains? And what can you do about it?"
+  },
+  {
+   "id": "c3b",
+   "text": "The study included more than two thousand young adults who had their very first stroke. That makes it one of the longest looks we have at how strokes in younger people are changing."
+  },
+  {
+   "id": "s1",
+   "speaker": "q",
+   "text": "First, what actually is a stroke?",
+   "ch": "What a stroke is",
+   "gap_before": 2.2
+  },
+  {
+   "id": "s2",
+   "text": "A stroke is a brain attack. Your brain is only about two percent of your body weight, but it burns about a fifth of your oxygen. It needs a constant flow of blood."
+  },
+  {
+   "id": "s3",
+   "text": "Most strokes happen when a clot blocks an artery in the brain. That's called an ischemic stroke. Others happen when a blood vessel bursts and bleeds. That's a hemorrhagic stroke."
+  },
+  {
+   "id": "s3b",
+   "text": "About eighty-seven percent of strokes are the clot kind. And in the United States, someone has a stroke roughly every forty seconds."
+  },
+  {
+   "id": "s4q",
+   "speaker": "q",
+   "text": "How fast does the damage happen?"
+  },
+  {
+   "id": "s5",
+   "text": "Terribly fast. One famous estimate found that in a typical large stroke, the brain loses about 1.9 million nerve cells every minute it goes untreated.",
+   "say": "Terribly fast. One famous estimate found that in a typical large stroke, the brain loses about one point nine million nerve cells every minute it goes untreated."
+  },
+  {
+   "id": "s5b",
+   "text": "Along with those cells, it loses about fourteen billion connections and twelve kilometres of nerve fibres. By that estimate, every hour without treatment ages the brain by about three and a half years.",
+   "say": "Along with those cells, it loses about fourteen billion connections and twelve kilometres of nerve fibres. By that estimate, every hour without treatment ages the brain by about three and a half years."
+  },
+  {
+   "id": "s6",
+   "text": "Doctors sum it up in three words: time is brain."
+  },
+  {
+   "id": "d1",
+   "speaker": "q",
+   "text": "Where does the doubling come from?",
+   "ch": "The study",
+   "gap_before": 2.2
+  },
+  {
+   "id": "d2",
+   "text": "From researchers at the University of Cincinnati. They counted every first-time stroke in hospitals across five counties in southern Ohio and northern Kentucky, in snapshots from 1993 to 2020.",
+   "say": "From researchers at the University of Cincinnati. They counted every first-time stroke in hospitals across five counties in southern Ohio and northern Kentucky, in snapshots from nineteen ninety-three to twenty twenty."
+  },
+  {
+   "id": "d3",
+   "text": "In 1993, about thirty-four young adults out of every hundred thousand had a stroke in a year. By 2020, it was about sixty-two.",
+   "say": "In nineteen ninety-three, about thirty-four young adults out of every hundred thousand had a stroke in a year. By twenty twenty, it was about sixty-two."
+  },
+  {
+   "id": "d4",
+   "text": "Almost all of the rise came from clots, the ischemic kind. Ischemic strokes went from about twenty-four to about forty-seven per hundred thousand."
+  },
+  {
+   "id": "d4b",
+   "text": "Strokes from bleeding in young adults showed no clear trend. It was the clots that surged."
+  },
+  {
+   "id": "d5q",
+   "speaker": "q",
+   "text": "And older people went the other way?"
+  },
+  {
+   "id": "d6",
+   "text": "Yes. Among older adults, stroke rates fell by about a quarter, from roughly six hundred and nineteen to four hundred and fifty-three per hundred thousand. Better blood pressure treatment and fewer smokers probably helped them."
+  },
+  {
+   "id": "d6b",
+   "text": "There was one piece of good news for the young. The share who died within a month of their stroke fell, from about twelve percent to about nine."
+  },
+  {
+   "id": "r1",
+   "speaker": "q",
+   "text": "So what's different about the young patients?",
+   "ch": "The risk factors",
+   "gap_before": 2.2
+  },
+  {
+   "id": "r2",
+   "text": "The study looked at what young stroke patients had in common. High blood pressure went from forty-seven percent of patients to sixty percent. Diabetes went from nineteen to about twenty-six percent."
+  },
+  {
+   "id": "r3",
+   "text": "An irregular heartbeat called atrial fibrillation, which lets clots form in the heart, went from about one percent to six percent."
+  },
+  {
+   "id": "r4",
+   "text": "As one cardiologist put it, heart and blood vessel risk is building up earlier in life."
+  },
+  {
+   "id": "r4b",
+   "text": "One limit: these numbers come only from people who already had strokes. The study couldn't measure how common the same risks are among all young adults."
+  },
+  {
+   "id": "r5q",
+   "speaker": "q",
+   "text": "Why would blood pressure hurt the brain?"
+  },
+  {
+   "id": "r6",
+   "text": "High pressure hammers on the walls of your arteries every heartbeat. Over years, they stiffen and get damaged, and that makes clots and bleeds more likely. And many young adults with high blood pressure don't even know they have it."
+  },
+  {
+   "id": "r6b",
+   "text": "Extra weight, too little sleep and too little movement push all of these numbers in the wrong direction, and they're becoming common earlier in life."
+  },
+  {
+   "id": "m1",
+   "speaker": "q",
+   "text": "Did anything else change?",
+   "ch": "The cannabis question",
+   "gap_before": 2.2
+  },
+  {
+   "id": "m2",
+   "text": "One thing jumped out. In 1993, less than one percent of the young stroke patients reported using marijuana. By 2020, it was about thirty-one percent.",
+   "say": "One thing jumped out. In nineteen ninety-three, less than one percent of the young stroke patients reported using marijuana. By twenty twenty, it was about thirty-one percent."
+  },
+  {
+   "id": "m3",
+   "text": "Any substance use, including drugs like cocaine, rose from under five percent to about forty percent."
+  },
+  {
+   "id": "m4q",
+   "speaker": "q",
+   "text": "So does cannabis cause strokes?"
+  },
+  {
+   "id": "m5",
+   "text": "This study can't say that. The lead researcher said clearly that it doesn't mean more substance use caused more strokes. It might, or the people who use it might differ in other ways. Scientists say it needs dedicated research."
+  },
+  {
+   "id": "m6",
+   "text": "There's another catch. Doctors today scan more brains, with better imaging, so they may simply be finding more strokes than they did in the nineties."
+  },
+  {
+   "id": "y1",
+   "speaker": "q",
+   "text": "Are there causes that only hit young people?",
+   "ch": "Young strokes are different",
+   "gap_before": 2.2
+  },
+  {
+   "id": "y2",
+   "text": "Some are much more common in the young. One is a tear in an artery in the neck, called a dissection. It can follow a sudden twist, a sports injury, or sometimes nothing obvious at all."
+  },
+  {
+   "id": "y3",
+   "text": "Another is a small opening between the two upper chambers of the heart, called a patent foramen ovale. About one in four people have one. Usually it's harmless, but in rare cases it can let a clot slip through to the brain."
+  },
+  {
+   "id": "y4",
+   "text": "And migraine with aura, the kind with flashing lights before the headache, is linked to about twice the risk of an ischemic stroke."
+  },
+  {
+   "id": "h1",
+   "speaker": "q",
+   "text": "What happens when you get to hospital?",
+   "ch": "In the emergency room",
+   "gap_before": 2.2
+  },
+  {
+   "id": "h2",
+   "text": "First, a brain scan, to see whether it's a clot or a bleed, because the treatments are opposite. You can't give a clot-buster to someone who's bleeding."
+  },
+  {
+   "id": "h3",
+   "text": "For a clot, doctors can give a drug that dissolves it, usually within about four and a half hours of the first symptoms."
+  },
+  {
+   "id": "h4",
+   "text": "For a big clot in a large artery, they can thread a thin tube up from the groin or wrist into the brain, and pull the clot out. In carefully chosen patients, this can work many hours later."
+  },
+  {
+   "id": "h5",
+   "text": "That's why the clock matters so much. The sooner the blood flows again, the more brain is saved."
+  },
+  {
+   "id": "l1q",
+   "speaker": "q",
+   "text": "Can young people recover from a stroke?"
+  },
+  {
+   "id": "l2",
+   "text": "Often, yes. A younger brain can rewire itself, with healthy areas slowly taking over some of the lost jobs. Rehab, practicing movement and speech again and again, helps that happen."
+  },
+  {
+   "id": "l3",
+   "text": "But recovery can take months, and many young survivors deal with hidden problems like tiredness, trouble concentrating, or depression, sometimes while trying to get back to work and raising kids."
+  },
+  {
+   "id": "l3b",
+   "text": "And because young survivors may live for decades after a stroke, preventing even one makes an enormous difference."
+  },
+  {
+   "id": "f1",
+   "speaker": "q",
+   "text": "How do I know if it's happening?",
+   "ch": "Spot it fast",
+   "gap_before": 2.2
+  },
+  {
+   "id": "f2",
+   "text": "Remember BE FAST. B is for balance: sudden dizziness or trouble walking. E is for eyes: sudden loss of vision.",
+   "say": "Remember be fast. B is for balance: sudden dizziness or trouble walking. E is for eyes: sudden loss of vision."
+  },
+  {
+   "id": "f3",
+   "text": "F is for face: one side drooping. A is for arms: one arm weak or drifting down. S is for speech: slurred or strange words. And T is for time: call emergency services right away."
+  },
+  {
+   "id": "f4q",
+   "speaker": "q",
+   "text": "Should I just wait and see?"
+  },
+  {
+   "id": "f5",
+   "text": "Never. Young people often brush off the symptoms because they think they're too young for a stroke. But clot-busting treatments only work in the first hours. Every minute counts."
+  },
+  {
+   "id": "f5b",
+   "text": "And even if the symptoms fade after a few minutes, get checked. A mini-stroke, called a transient ischemic attack, can be a warning that a bigger one is coming."
+  },
+  {
+   "id": "f6q",
+   "speaker": "q",
+   "text": "Can doctors miss it in young people?"
+  },
+  {
+   "id": "f7",
+   "text": "Sometimes. A young person with sudden dizziness or a bad headache may be told it's a migraine, an inner ear problem, or too much to drink. Studies suggest strokes are missed more often in younger patients."
+  },
+  {
+   "id": "f8",
+   "text": "So if the signs come on suddenly, say the word stroke out loud, and ask for a brain scan."
+  },
+  {
+   "id": "p1",
+   "speaker": "q",
+   "text": "How can I lower my risk?",
+   "ch": "Protect your brain",
+   "gap_before": 2.2
+  },
+  {
+   "id": "p2",
+   "text": "Start with your numbers. Get your blood pressure checked, even if you feel fine. The same goes for blood sugar and cholesterol."
+  },
+  {
+   "id": "p2b",
+   "text": "In the US, a reading of one hundred and thirty over eighty or higher already counts as high blood pressure. Plenty of people in their twenties and thirties are over that line without knowing it."
+  },
+  {
+   "id": "p3",
+   "text": "Don't smoke, move every day, keep a healthy weight, and go easy on alcohol and drugs."
+  },
+  {
+   "id": "p4",
+   "text": "And if you get migraines with aura, especially if you also smoke or take the combined birth control pill, talk to a doctor about your stroke risk."
+  },
+  {
+   "id": "o1",
+   "speaker": "q",
+   "text": "So strokes aren't just an old person's problem?",
+   "gap_before": 1.0
+  },
+  {
+   "id": "o2",
+   "text": "Not anymore. Risk is building earlier, and young adults are paying the price. The good news is that much of that risk is something you can measure, and change."
+  },
+  {
+   "id": "o3",
+   "text": "That's why more young adults are having strokes."
+  },
+  {
+   "id": "o4",
+   "speaker": "q",
+   "text": "Subscribe for more of what's happening inside your body, and share this with someone who's never had their blood pressure checked.",
+   "gap_before": 0.5
+  }
+ ]
+}

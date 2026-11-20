@@ -1,0 +1,281 @@
+{
+ "voice": "bm_fable",
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "q_pause": 0.45,
+ "speed": 0.92,
+ "gap": 0.24,
+ "lines": [
+  {
+   "id": "c1",
+   "speaker": "q",
+   "text": "Is there a kind of cholesterol most people never get tested for?"
+  },
+  {
+   "id": "c2",
+   "text": "Yes. It's called lipoprotein little a, written L P, little a in brackets. About one in five people have high levels of it. You can be slim, fit, eat well, have perfect normal cholesterol, and still carry it."
+  },
+  {
+   "id": "c3",
+   "text": "And on November 7, 2026, the biggest trial of a drug against it ended in a surprise. The drug cut it by more than three quarters, but people had just as many heart attacks and strokes.",
+   "say": "And on November seventh, twenty twenty-six, the biggest trial of a drug against it ended in a surprise. The drug cut it by more than three quarters, but people had just as many heart attacks and strokes."
+  },
+  {
+   "id": "c4q",
+   "speaker": "q",
+   "text": "Wait, so what is this stuff?"
+  },
+  {
+   "id": "c5",
+   "text": "Let's start with how cholesterol travels."
+  },
+  {
+   "id": "c5b",
+   "text": "It was discovered back in 1963 by a Norwegian doctor, Kåre Berg. For decades, it was mostly a curiosity. Only recently has medicine started to take it seriously.",
+   "say": "It was discovered back in nineteen sixty-three by a Norwegian doctor, Kaarer Berg. For decades, it was mostly a curiosity. Only recently has medicine started to take it seriously."
+  },
+  {
+   "id": "b1",
+   "speaker": "q",
+   "text": "How does cholesterol move around the body?",
+   "ch": "Cholesterol's delivery trucks",
+   "gap_before": 2.2
+  },
+  {
+   "id": "b2",
+   "text": "Cholesterol is a fat, and fat doesn't mix with blood. So your liver packs it into tiny particles called lipoproteins, like delivery trucks wrapped in protein."
+  },
+  {
+   "id": "b3",
+   "text": "The best known is LDL, the so-called bad cholesterol. When there's too much of it, LDL particles slip into artery walls and help build fatty plaque."
+  },
+  {
+   "id": "b4",
+   "text": "Plaque narrows arteries. And if a plaque cracks, a clot can form on it and block the blood flow. That's a heart attack, or a stroke."
+  },
+  {
+   "id": "b4b",
+   "text": "Inside the artery wall, immune cells try to swallow the stuck particles, swell up with fat, and die there. Layer by layer, that mess becomes plaque, quietly, over decades."
+  },
+  {
+   "id": "l1",
+   "speaker": "q",
+   "text": "So how is little a different?",
+   "ch": "The sticky tail",
+   "gap_before": 2.2
+  },
+  {
+   "id": "l2",
+   "text": "Picture an LDL particle with an extra protein attached to it, called apolipoprotein little a. That extra chain is long and floppy, like a tail."
+  },
+  {
+   "id": "l3",
+   "text": "That tail seems to make it extra harmful. It helps the particle stick in artery walls, it carries inflammatory molecules, and it looks a lot like a protein involved in dissolving clots, so it may get in the way of that, too."
+  },
+  {
+   "id": "l4",
+   "text": "High levels are linked to more heart attacks, more strokes, and a narrowing of the main valve of the heart, called aortic stenosis. Genetic studies suggest it's a cause, not just a marker."
+  },
+  {
+   "id": "l4b",
+   "text": "Strangely, almost no animals have it. Humans, apes and Old World monkeys do, and so, oddly, do hedgehogs. Mice don't, which made it hard to study in the lab."
+  },
+  {
+   "id": "m1q",
+   "speaker": "q",
+   "text": "How do they know it's a cause?"
+  },
+  {
+   "id": "m2",
+   "text": "Through a kind of natural experiment. Since your level is set by genes you're born with, people with high-level genes are like volunteers randomly assigned to high little a for life. And they get more heart disease. Scientists call this Mendelian randomization."
+  },
+  {
+   "id": "m3",
+   "text": "The valve problem is a big one, too. In aortic stenosis, the valve stiffens with calcium and the heart has to strain to push blood through. High little a seems to speed that up."
+  },
+  {
+   "id": "g1",
+   "speaker": "q",
+   "text": "Can I lower it with diet?",
+   "ch": "It's in your genes",
+   "gap_before": 2.2
+  },
+  {
+   "id": "g2",
+   "text": "Sadly, no. Your levels are mostly set by a single gene, called L P A. Around ninety percent of the variation between people is inherited."
+  },
+  {
+   "id": "g2b",
+   "text": "Inside that gene, one small section repeats itself, a few times in some people, dozens of times in others. Fewer repeats usually means a shorter tail, and much higher levels."
+  },
+  {
+   "id": "g3",
+   "text": "Diet and exercise barely touch it. Common statins don't lower it either. Two people with identical lifestyles can have levels a thousand times apart."
+  },
+  {
+   "id": "g3b",
+   "text": "Statins, the most common cholesterol pills, are still very important for lowering LDL. But they don't lower little a, and they may even nudge it up a little."
+  },
+  {
+   "id": "g4",
+   "text": "It also varies by ancestry. On average, people of African descent tend to have higher levels than people of European or Asian descent."
+  },
+  {
+   "id": "g5q",
+   "speaker": "q",
+   "text": "Does it change as I get older?"
+  },
+  {
+   "id": "g6",
+   "text": "Not much. It's mostly fixed from early childhood. That's why one test can tell you your level for life."
+  },
+  {
+   "id": "g6b",
+   "text": "Some experts also suggest testing children when a parent has very high levels, or when heart disease struck the family early."
+  },
+  {
+   "id": "t1",
+   "speaker": "q",
+   "text": "Why haven't I been tested?",
+   "ch": "The missing test",
+   "gap_before": 2.2
+  },
+  {
+   "id": "t2",
+   "text": "Because a standard cholesterol test doesn't measure it. Your doctor has to order it separately."
+  },
+  {
+   "id": "t2b",
+   "text": "There's a twist, too. The LDL number on your report actually includes the cholesterol inside little a particles. So someone with high little a can look like they just have slightly high LDL."
+  },
+  {
+   "id": "t3",
+   "text": "More and more experts say everyone should be tested once. European and Canadian guidelines already recommend it for all adults, and in 2024, the US National Lipid Association backed testing for every adult too.",
+   "say": "More and more experts say everyone should be tested once. European and Canadian guidelines already recommend it for all adults, and in twenty twenty-four, the US National Lipid Association backed testing for every adult too."
+  },
+  {
+   "id": "t4",
+   "text": "US guidelines treat a level of fifty milligrams per decilitre, or about a hundred and twenty-five nanomoles per litre, as a red flag that raises your overall risk."
+  },
+  {
+   "id": "t4b",
+   "text": "One warning about units. Some labs report it in milligrams per decilitre, others in nanomoles per litre, and you can't simply convert between them. So always check which unit your result uses."
+  },
+  {
+   "id": "t5q",
+   "speaker": "q",
+   "text": "What if my number is high?"
+  },
+  {
+   "id": "t6",
+   "text": "Then the other risks matter even more. Doctors usually push harder on LDL cholesterol, blood pressure, blood sugar and smoking, because high little a adds to all of them."
+  },
+  {
+   "id": "t6b",
+   "text": "Families matter too. If you have high little a, there's a good chance your parents, brothers, sisters and children do as well. One test in a family can lead to many more."
+  },
+  {
+   "id": "w1q",
+   "speaker": "q",
+   "text": "Who should be most worried?"
+  },
+  {
+   "id": "w2",
+   "text": "People who had a heart attack or stroke young, especially with normal cholesterol. People whose parents or siblings had heart disease early. And people whose heart disease keeps getting worse despite good treatment."
+  },
+  {
+   "id": "w3",
+   "text": "For them, high little a can be the missing piece of the puzzle."
+  },
+  {
+   "id": "h1",
+   "speaker": "q",
+   "text": "So what happened in that big trial?",
+   "ch": "The trial that failed",
+   "gap_before": 2.2
+  },
+  {
+   "id": "h2",
+   "text": "It was called Lp(a) HORIZON. More than eight thousand people who'd already had a heart attack or stroke got a monthly shot of a drug called pelacarsen, or a placebo, for almost five years.",
+   "say": "It was called L P A Horizon. More than eight thousand people who'd already had a heart attack or stroke got a monthly shot of a drug called pelacarsen, or a placebo, for almost five years."
+  },
+  {
+   "id": "h3",
+   "text": "The drug worked on the number. It cut little a by about seventy-eight percent. But major heart events happened to twelve point three percent of the drug group, and twelve point one percent of the placebo group. No benefit."
+  },
+  {
+   "id": "h3b",
+   "text": "It also had side effects. About a third of patients on the drug had flu-like reactions after the shots, and about one in five stopped taking it because of side effects."
+  },
+  {
+   "id": "h4",
+   "text": "The drug company has stopped developing it for heart disease."
+  },
+  {
+   "id": "h5q",
+   "speaker": "q",
+   "text": "Does that mean little a doesn't matter?"
+  },
+  {
+   "id": "h6",
+   "text": "Not necessarily. Experts have several theories. The patients already had advanced disease, maybe too late to reverse. Their other risks were already very well controlled. Enough little a may still have been left. Or five years is simply too short against a lifetime of exposure."
+  },
+  {
+   "id": "h6b",
+   "text": "Some cardiologists also point out that the trial tested people with only moderately high levels. Those with the very highest levels might still benefit from a stronger drug."
+  },
+  {
+   "id": "n1",
+   "speaker": "q",
+   "text": "Are there other drugs coming?",
+   "ch": "What comes next",
+   "gap_before": 2.2
+  },
+  {
+   "id": "n2",
+   "text": "Yes, several. Drugs like olpasiran and lepodisiran use a different method that switches off the gene's message in the liver, and they can lower little a by even more."
+  },
+  {
+   "id": "n3",
+   "text": "There's even a pill in testing, called muvalaplin, which stops the little a protein from attaching to the LDL particle in the first place."
+  },
+  {
+   "id": "n3b",
+   "text": "Some older drugs lower it a little. The injectable cholesterol drugs called PCSK9 inhibitors cut it by roughly a quarter. An old vitamin, niacin, lowers it too, but in big trials, niacin didn't prevent heart attacks."
+  },
+  {
+   "id": "n3c",
+   "text": "And for people with very high levels and heart disease, some clinics use a blood-filtering treatment called apheresis, a bit like dialysis, which physically removes the particles every week or two."
+  },
+  {
+   "id": "n4",
+   "text": "Big outcome trials for all of them are still running. Their results will tell us whether lowering little a really saves lives."
+  },
+  {
+   "id": "n4b",
+   "text": "Until then, the best defence is the familiar one: keep your LDL, blood pressure and blood sugar low, and don't smoke. That lowers your total risk, whatever your little a."
+  },
+  {
+   "id": "o1",
+   "speaker": "q",
+   "text": "So should I get tested?",
+   "gap_before": 1.0
+  },
+  {
+   "id": "o2",
+   "text": "Many experts now say yes, once in your life. Especially if heart disease runs in your family, or you had a heart attack or stroke young. Knowing your number won't change your genes, but it can change how carefully you guard everything else."
+  },
+  {
+   "id": "o3",
+   "text": "That's the hidden cholesterol one in five people inherit."
+  },
+  {
+   "id": "o4",
+   "speaker": "q",
+   "text": "Subscribe for more of what's hiding in your blood, and tell us in the comments if you've ever had this test.",
+   "gap_before": 0.5
+  }
+ ]
+}

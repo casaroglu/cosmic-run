@@ -1,0 +1,376 @@
+{
+ "DUR": 488.888,
+ "CUE": {
+  "title": 467.384,
+  "end": 478.888,
+  "calls": 467.084
+ },
+ "chapters": [
+  [
+   "What a stroke is",
+   33.698
+  ],
+  [
+   "The study",
+   92.624
+  ],
+  [
+   "The risk factors",
+   154.041
+  ],
+  [
+   "The cannabis question",
+   214.324
+  ],
+  [
+   "Young strokes are different",
+   257.272
+  ],
+  [
+   "In the emergency room",
+   292.004
+  ],
+  [
+   "Spot it fast",
+   358.929
+  ],
+  [
+   "Protect your brain",
+   420.768
+  ]
+ ],
+ "events": [
+  {
+   "kind": "label",
+   "t": 0.4
+  },
+  {
+   "kind": "label",
+   "t": 4.94
+  },
+  {
+   "kind": "label",
+   "t": 16.78
+  },
+  {
+   "kind": "label",
+   "t": 22.303
+  },
+  {
+   "kind": "card",
+   "t": 31.648
+  },
+  {
+   "kind": "section",
+   "t": 34.898
+  },
+  {
+   "kind": "tag",
+   "t": 46.7
+  },
+  {
+   "kind": "tag",
+   "t": 52.1
+  },
+  {
+   "kind": "label",
+   "t": 55.423
+  },
+  {
+   "kind": "label",
+   "t": 55.423
+  },
+  {
+   "kind": "icon",
+   "t": 63.143
+  },
+  {
+   "kind": "label",
+   "t": 74.825
+  },
+  {
+   "kind": "label",
+   "t": 83.68
+  },
+  {
+   "kind": "tag",
+   "t": 88.8
+  },
+  {
+   "kind": "card",
+   "t": 90.57400000000001
+  },
+  {
+   "kind": "icon",
+   "t": 93.624
+  },
+  {
+   "kind": "section",
+   "t": 93.824
+  },
+  {
+   "kind": "label",
+   "t": 95.92
+  },
+  {
+   "kind": "label",
+   "t": 100.22
+  },
+  {
+   "kind": "label",
+   "t": 104.08
+  },
+  {
+   "kind": "tag",
+   "t": 117.12
+  },
+  {
+   "kind": "tag",
+   "t": 147.58
+  },
+  {
+   "kind": "card",
+   "t": 151.991
+  },
+  {
+   "kind": "label",
+   "t": 155.041
+  },
+  {
+   "kind": "section",
+   "t": 155.24099999999999
+  },
+  {
+   "kind": "icon",
+   "t": 175.325
+  },
+  {
+   "kind": "label",
+   "t": 178.28
+  },
+  {
+   "kind": "label",
+   "t": 182.76
+  },
+  {
+   "kind": "label",
+   "t": 192.44
+  },
+  {
+   "kind": "tag",
+   "t": 203.02
+  },
+  {
+   "kind": "card",
+   "t": 212.274
+  },
+  {
+   "kind": "icon",
+   "t": 215.324
+  },
+  {
+   "kind": "section",
+   "t": 215.524
+  },
+  {
+   "kind": "tag",
+   "t": 226.105
+  },
+  {
+   "kind": "icon",
+   "t": 232.72
+  },
+  {
+   "kind": "label",
+   "t": 233.02
+  },
+  {
+   "kind": "tag",
+   "t": 235.52
+  },
+  {
+   "kind": "label",
+   "t": 245.48
+  },
+  {
+   "kind": "icon",
+   "t": 247.111
+  },
+  {
+   "kind": "label",
+   "t": 249.06
+  },
+  {
+   "kind": "label",
+   "t": 252.56
+  },
+  {
+   "kind": "card",
+   "t": 255.222
+  },
+  {
+   "kind": "label",
+   "t": 258.272
+  },
+  {
+   "kind": "section",
+   "t": 258.472
+  },
+  {
+   "kind": "label",
+   "t": 276.26
+  },
+  {
+   "kind": "label",
+   "t": 287.48
+  },
+  {
+   "kind": "card",
+   "t": 289.95399999999995
+  },
+  {
+   "kind": "icon",
+   "t": 293.004
+  },
+  {
+   "kind": "section",
+   "t": 293.204
+  },
+  {
+   "kind": "label",
+   "t": 295.08
+  },
+  {
+   "kind": "label",
+   "t": 296.6
+  },
+  {
+   "kind": "tag",
+   "t": 304.34
+  },
+  {
+   "kind": "icon",
+   "t": 310.05
+  },
+  {
+   "kind": "tag",
+   "t": 315.5
+  },
+  {
+   "kind": "label",
+   "t": 319.4
+  },
+  {
+   "kind": "tag",
+   "t": 322.9
+  },
+  {
+   "kind": "icon",
+   "t": 326.523
+  },
+  {
+   "kind": "label",
+   "t": 330.92
+  },
+  {
+   "kind": "label",
+   "t": 335.74
+  },
+  {
+   "kind": "label",
+   "t": 343.1
+  },
+  {
+   "kind": "card",
+   "t": 356.87899999999996
+  },
+  {
+   "kind": "section",
+   "t": 360.12899999999996
+  },
+  {
+   "kind": "label",
+   "t": 360.913
+  },
+  {
+   "kind": "label",
+   "t": 377.4
+  },
+  {
+   "kind": "icon",
+   "t": 379.597
+  },
+  {
+   "kind": "tag",
+   "t": 381.34
+  },
+  {
+   "kind": "label",
+   "t": 388.86
+  },
+  {
+   "kind": "label",
+   "t": 394.74
+  },
+  {
+   "kind": "icon",
+   "t": 404.04
+  },
+  {
+   "kind": "label",
+   "t": 411.18
+  },
+  {
+   "kind": "tag",
+   "t": 415.76
+  },
+  {
+   "kind": "card",
+   "t": 418.71799999999996
+  },
+  {
+   "kind": "section",
+   "t": 421.96799999999996
+  },
+  {
+   "kind": "label",
+   "t": 429.883
+  },
+  {
+   "kind": "icon",
+   "t": 446.189
+  },
+  {
+   "kind": "label",
+   "t": 446.68
+  },
+  {
+   "kind": "label",
+   "t": 449.06
+  },
+  {
+   "kind": "tag",
+   "t": 452.58
+  },
+  {
+   "kind": "section",
+   "t": 455.013
+  },
+  {
+   "kind": "label",
+   "t": 459.78
+  },
+  {
+   "kind": "label",
+   "t": 465.4
+  },
+  {
+   "kind": "sfx:title",
+   "t": 467.284
+  },
+  {
+   "kind": "icon",
+   "t": 470.853
+  }
+ ]
+}

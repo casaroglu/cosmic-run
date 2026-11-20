@@ -1,0 +1,7105 @@
+{
+ "duration": 475.501,
+ "lines": [
+  {
+   "id": "c1",
+   "speaker": "q",
+   "text": "Is there a kind of cholesterol most people never get tested for?",
+   "start": 0.35,
+   "end": 4.049
+  },
+  {
+   "id": "c2",
+   "speaker": "a",
+   "text": "Yes. It's called lipoprotein little a, written L P, little a in brackets. About one in five people have high levels of it. You can be slim, fit, eat well, have perfect normal cholesterol, and still carry it.",
+   "start": 4.499,
+   "end": 16.305
+  },
+  {
+   "id": "c3",
+   "speaker": "a",
+   "text": "And on November 7, 2026, the biggest trial of a drug against it ended in a surprise. The drug cut it by more than three quarters, but people had just as many heart attacks and strokes.",
+   "start": 16.545,
+   "end": 27.844
+  },
+  {
+   "id": "c4q",
+   "speaker": "q",
+   "text": "Wait, so what is this stuff?",
+   "start": 28.084,
+   "end": 29.54
+  },
+  {
+   "id": "c5",
+   "speaker": "a",
+   "text": "Let's start with how cholesterol travels.",
+   "start": 29.99,
+   "end": 33.057
+  },
+  {
+   "id": "c5b",
+   "speaker": "a",
+   "text": "It was discovered back in 1963 by a Norwegian doctor, K\u00e5re Berg. For decades, it was mostly a curiosity. Only recently has medicine started to take it seriously.",
+   "start": 33.297,
+   "end": 43.743
+  },
+  {
+   "id": "b1",
+   "speaker": "q",
+   "text": "How does cholesterol move around the body?",
+   "start": 45.943,
+   "end": 48.421
+  },
+  {
+   "id": "b2",
+   "speaker": "a",
+   "text": "Cholesterol is a fat, and fat doesn't mix with blood. So your liver packs it into tiny particles called lipoproteins, like delivery trucks wrapped in protein.",
+   "start": 48.871,
+   "end": 57.981
+  },
+  {
+   "id": "b3",
+   "speaker": "a",
+   "text": "The best known is LDL, the so-called bad cholesterol. When there's too much of it, LDL particles slip into artery walls and help build fatty plaque.",
+   "start": 58.221,
+   "end": 67.169
+  },
+  {
+   "id": "b4",
+   "speaker": "a",
+   "text": "Plaque narrows arteries. And if a plaque cracks, a clot can form on it and block the blood flow. That's a heart attack, or a stroke.",
+   "start": 67.409,
+   "end": 75.05
+  },
+  {
+   "id": "b4b",
+   "speaker": "a",
+   "text": "Inside the artery wall, immune cells try to swallow the stuck particles, swell up with fat, and die there. Layer by layer, that mess becomes plaque, quietly, over decades.",
+   "start": 75.29,
+   "end": 84.999
+  },
+  {
+   "id": "l1",
+   "speaker": "q",
+   "text": "So how is little a different?",
+   "start": 87.199,
+   "end": 88.667
+  },
+  {
+   "id": "l2",
+   "speaker": "a",
+   "text": "Picture an LDL particle with an extra protein attached to it, called apolipoprotein little a. That extra chain is long and floppy, like a tail.",
+   "start": 89.117,
+   "end": 97.914
+  },
+  {
+   "id": "l3",
+   "speaker": "a",
+   "text": "That tail seems to make it extra harmful. It helps the particle stick in artery walls, it carries inflammatory molecules, and it looks a lot like a protein involved in dissolving clots, so it may get in the way of that, too.",
+   "start": 98.154,
+   "end": 110.539
+  },
+  {
+   "id": "l4",
+   "speaker": "a",
+   "text": "High levels are linked to more heart attacks, more strokes, and a narrowing of the main valve of the heart, called aortic stenosis. Genetic studies suggest it's a cause, not just a marker.",
+   "start": 110.779,
+   "end": 121.174
+  },
+  {
+   "id": "l4b",
+   "speaker": "a",
+   "text": "Strangely, almost no animals have it. Humans, apes and Old World monkeys do, and so, oddly, do hedgehogs. Mice don't, which made it hard to study in the lab.",
+   "start": 121.414,
+   "end": 130.75
+  },
+  {
+   "id": "m1q",
+   "speaker": "q",
+   "text": "How do they know it's a cause?",
+   "start": 130.99,
+   "end": 132.426
+  },
+  {
+   "id": "m2",
+   "speaker": "a",
+   "text": "Through a kind of natural experiment. Since your level is set by genes you're born with, people with high-level genes are like volunteers randomly assigned to high little a for life. And they get more heart disease. Scientists call this Mendelian randomization.",
+   "start": 132.876,
+   "end": 146.91
+  },
+  {
+   "id": "m3",
+   "speaker": "a",
+   "text": "The valve problem is a big one, too. In aortic stenosis, the valve stiffens with calcium and the heart has to strain to push blood through. High little a seems to speed that up.",
+   "start": 147.15,
+   "end": 157.094
+  },
+  {
+   "id": "g1",
+   "speaker": "q",
+   "text": "Can I lower it with diet?",
+   "start": 159.294,
+   "end": 160.701
+  },
+  {
+   "id": "g2",
+   "speaker": "a",
+   "text": "Sadly, no. Your levels are mostly set by a single gene, called L P A. Around ninety percent of the variation between people is inherited.",
+   "start": 161.151,
+   "end": 169.561
+  },
+  {
+   "id": "g2b",
+   "speaker": "a",
+   "text": "Inside that gene, one small section repeats itself, a few times in some people, dozens of times in others. Fewer repeats usually means a shorter tail, and much higher levels.",
+   "start": 169.801,
+   "end": 180.236
+  },
+  {
+   "id": "g3",
+   "speaker": "a",
+   "text": "Diet and exercise barely touch it. Common statins don't lower it either. Two people with identical lifestyles can have levels a thousand times apart.",
+   "start": 180.476,
+   "end": 189.506
+  },
+  {
+   "id": "g3b",
+   "speaker": "a",
+   "text": "Statins, the most common cholesterol pills, are still very important for lowering LDL. But they don't lower little a, and they may even nudge it up a little.",
+   "start": 189.746,
+   "end": 198.349
+  },
+  {
+   "id": "g4",
+   "speaker": "a",
+   "text": "It also varies by ancestry. On average, people of African descent tend to have higher levels than people of European or Asian descent.",
+   "start": 198.589,
+   "end": 207.009
+  },
+  {
+   "id": "g5q",
+   "speaker": "q",
+   "text": "Does it change as I get older?",
+   "start": 207.249,
+   "end": 208.956
+  },
+  {
+   "id": "g6",
+   "speaker": "a",
+   "text": "Not much. It's mostly fixed from early childhood. That's why one test can tell you your level for life.",
+   "start": 209.406,
+   "end": 215.577
+  },
+  {
+   "id": "g6b",
+   "speaker": "a",
+   "text": "Some experts also suggest testing children when a parent has very high levels, or when heart disease struck the family early.",
+   "start": 215.817,
+   "end": 223.007
+  },
+  {
+   "id": "t1",
+   "speaker": "q",
+   "text": "Why haven't I been tested?",
+   "start": 225.207,
+   "end": 226.58
+  },
+  {
+   "id": "t2",
+   "speaker": "a",
+   "text": "Because a standard cholesterol test doesn't measure it. Your doctor has to order it separately.",
+   "start": 227.03,
+   "end": 232.679
+  },
+  {
+   "id": "t2b",
+   "speaker": "a",
+   "text": "There's a twist, too. The LDL number on your report actually includes the cholesterol inside little a particles. So someone with high little a can look like they just have slightly high LDL.",
+   "start": 232.919,
+   "end": 243.662
+  },
+  {
+   "id": "t3",
+   "speaker": "a",
+   "text": "More and more experts say everyone should be tested once. European and Canadian guidelines already recommend it for all adults, and in 2024, the US National Lipid Association backed testing for every adult too.",
+   "start": 243.902,
+   "end": 256.612
+  },
+  {
+   "id": "t4",
+   "speaker": "a",
+   "text": "US guidelines treat a level of fifty milligrams per decilitre, or about a hundred and twenty-five nanomoles per litre, as a red flag that raises your overall risk.",
+   "start": 256.852,
+   "end": 266.554
+  },
+  {
+   "id": "t4b",
+   "speaker": "a",
+   "text": "One warning about units. Some labs report it in milligrams per decilitre, others in nanomoles per litre, and you can't simply convert between them. So always check which unit your result uses.",
+   "start": 266.794,
+   "end": 278.052
+  },
+  {
+   "id": "t5q",
+   "speaker": "q",
+   "text": "What if my number is high?",
+   "start": 278.292,
+   "end": 279.67
+  },
+  {
+   "id": "t6",
+   "speaker": "a",
+   "text": "Then the other risks matter even more. Doctors usually push harder on LDL cholesterol, blood pressure, blood sugar and smoking, because high little a adds to all of them.",
+   "start": 280.12,
+   "end": 289.798
+  },
+  {
+   "id": "t6b",
+   "speaker": "a",
+   "text": "Families matter too. If you have high little a, there's a good chance your parents, brothers, sisters and children do as well. One test in a family can lead to many more.",
+   "start": 290.038,
+   "end": 299.175
+  },
+  {
+   "id": "w1q",
+   "speaker": "q",
+   "text": "Who should be most worried?",
+   "start": 299.415,
+   "end": 300.619
+  },
+  {
+   "id": "w2",
+   "speaker": "a",
+   "text": "People who had a heart attack or stroke young, especially with normal cholesterol. People whose parents or siblings had heart disease early. And people whose heart disease keeps getting worse despite good treatment.",
+   "start": 301.069,
+   "end": 312.589
+  },
+  {
+   "id": "w3",
+   "speaker": "a",
+   "text": "For them, high little a can be the missing piece of the puzzle.",
+   "start": 312.829,
+   "end": 316.642
+  },
+  {
+   "id": "h1",
+   "speaker": "q",
+   "text": "So what happened in that big trial?",
+   "start": 318.842,
+   "end": 320.553
+  },
+  {
+   "id": "h2",
+   "speaker": "a",
+   "text": "It was called Lp(a) HORIZON. More than eight thousand people who'd already had a heart attack or stroke got a monthly shot of a drug called pelacarsen, or a placebo, for almost five years.",
+   "start": 321.003,
+   "end": 331.734
+  },
+  {
+   "id": "h3",
+   "speaker": "a",
+   "text": "The drug worked on the number. It cut little a by about seventy-eight percent. But major heart events happened to twelve point three percent of the drug group, and twelve point one percent of the placebo group. No benefit.",
+   "start": 331.974,
+   "end": 343.95
+  },
+  {
+   "id": "h3b",
+   "speaker": "a",
+   "text": "It also had side effects. About a third of patients on the drug had flu-like reactions after the shots, and about one in five stopped taking it because of side effects.",
+   "start": 344.19,
+   "end": 353.584
+  },
+  {
+   "id": "h4",
+   "speaker": "a",
+   "text": "The drug company has stopped developing it for heart disease.",
+   "start": 353.824,
+   "end": 357.715
+  },
+  {
+   "id": "h5q",
+   "speaker": "q",
+   "text": "Does that mean little a doesn't matter?",
+   "start": 357.955,
+   "end": 359.747
+  },
+  {
+   "id": "h6",
+   "speaker": "a",
+   "text": "Not necessarily. Experts have several theories. The patients already had advanced disease, maybe too late to reverse. Their other risks were already very well controlled. Enough little a may still have been left. Or five years is simply too short against a lifetime of exposure.",
+   "start": 360.197,
+   "end": 375.486
+  },
+  {
+   "id": "h6b",
+   "speaker": "a",
+   "text": "Some cardiologists also point out that the trial tested people with only moderately high levels. Those with the very highest levels might still benefit from a stronger drug.",
+   "start": 375.726,
+   "end": 385.734
+  },
+  {
+   "id": "n1",
+   "speaker": "q",
+   "text": "Are there other drugs coming?",
+   "start": 387.934,
+   "end": 389.316
+  },
+  {
+   "id": "n2",
+   "speaker": "a",
+   "text": "Yes, several. Drugs like olpasiran and lepodisiran use a different method that switches off the gene's message in the liver, and they can lower little a by even more.",
+   "start": 389.766,
+   "end": 398.686
+  },
+  {
+   "id": "n3",
+   "speaker": "a",
+   "text": "There's even a pill in testing, called muvalaplin, which stops the little a protein from attaching to the LDL particle in the first place.",
+   "start": 398.926,
+   "end": 406.796
+  },
+  {
+   "id": "n3b",
+   "speaker": "a",
+   "text": "Some older drugs lower it a little. The injectable cholesterol drugs called PCSK9 inhibitors cut it by roughly a quarter. An old vitamin, niacin, lowers it too, but in big trials, niacin didn't prevent heart attacks.",
+   "start": 407.036,
+   "end": 420.75
+  },
+  {
+   "id": "n3c",
+   "speaker": "a",
+   "text": "And for people with very high levels and heart disease, some clinics use a blood-filtering treatment called apheresis, a bit like dialysis, which physically removes the particles every week or two.",
+   "start": 420.99,
+   "end": 431.961
+  },
+  {
+   "id": "n4",
+   "speaker": "a",
+   "text": "Big outcome trials for all of them are still running. Their results will tell us whether lowering little a really saves lives.",
+   "start": 432.201,
+   "end": 439.309
+  },
+  {
+   "id": "n4b",
+   "speaker": "a",
+   "text": "Until then, the best defence is the familiar one: keep your LDL, blood pressure and blood sugar low, and don't smoke. That lowers your total risk, whatever your little a.",
+   "start": 439.549,
+   "end": 449.017
+  },
+  {
+   "id": "o1",
+   "speaker": "q",
+   "text": "So should I get tested?",
+   "start": 450.017,
+   "end": 451.214
+  },
+  {
+   "id": "o2",
+   "speaker": "a",
+   "text": "Many experts now say yes, once in your life. Especially if heart disease runs in your family, or you had a heart attack or stroke young. Knowing your number won't change your genes, but it can change how carefully you guard everything else.",
+   "start": 451.664,
+   "end": 464.381
+  },
+  {
+   "id": "o3",
+   "speaker": "a",
+   "text": "That's the hidden cholesterol one in five people inherit.",
+   "start": 464.621,
+   "end": 468.292
+  },
+  {
+   "id": "o4",
+   "speaker": "q",
+   "text": "Subscribe for more of what's hiding in your blood, and tell us in the comments if you've ever had this test.",
+   "start": 468.792,
+   "end": 474.301
+  }
+ ],
+ "words": [
+  {
+   "w": "Is",
+   "s": 0.0,
+   "e": 0.44
+  },
+  {
+   "w": "there",
+   "s": 0.44,
+   "e": 0.62
+  },
+  {
+   "w": "a",
+   "s": 0.62,
+   "e": 0.74
+  },
+  {
+   "w": "kind",
+   "s": 0.74,
+   "e": 0.98
+  },
+  {
+   "w": "of",
+   "s": 0.98,
+   "e": 1.1
+  },
+  {
+   "w": "cholesterol",
+   "s": 1.1,
+   "e": 1.58
+  },
+  {
+   "w": "most",
+   "s": 1.58,
+   "e": 2.28
+  },
+  {
+   "w": "people",
+   "s": 2.28,
+   "e": 2.7
+  },
+  {
+   "w": "never",
+   "s": 2.7,
+   "e": 3.0
+  },
+  {
+   "w": "get",
+   "s": 3.0,
+   "e": 3.24
+  },
+  {
+   "w": "tested",
+   "s": 3.24,
+   "e": 3.52
+  },
+  {
+   "w": "for?",
+   "s": 3.52,
+   "e": 3.9
+  },
+  {
+   "w": "Yes,",
+   "s": 4.4,
+   "e": 4.64
+  },
+  {
+   "w": "it's",
+   "s": 4.8,
+   "e": 5.04
+  },
+  {
+   "w": "called",
+   "s": 5.04,
+   "e": 5.22
+  },
+  {
+   "w": "lipoprotein",
+   "s": 5.22,
+   "e": 5.84
+  },
+  {
+   "w": "little",
+   "s": 5.84,
+   "e": 6.08
+  },
+  {
+   "w": "A,",
+   "s": 6.08,
+   "e": 6.4
+  },
+  {
+   "w": "written",
+   "s": 6.62,
+   "e": 6.7
+  },
+  {
+   "w": "LP,",
+   "s": 6.7,
+   "e": 6.96
+  },
+  {
+   "w": "little",
+   "s": 7.5,
+   "e": 7.62
+  },
+  {
+   "w": "-owned",
+   "s": 7.62,
+   "e": 7.84
+  },
+  {
+   "w": "brackets.",
+   "s": 7.84,
+   "e": 8.1
+  },
+  {
+   "w": "About",
+   "s": 9.04,
+   "e": 9.1
+  },
+  {
+   "w": "one",
+   "s": 9.1,
+   "e": 9.32
+  },
+  {
+   "w": "in",
+   "s": 9.32,
+   "e": 9.42
+  },
+  {
+   "w": "five",
+   "s": 9.42,
+   "e": 9.64
+  },
+  {
+   "w": "people",
+   "s": 9.64,
+   "e": 10.06
+  },
+  {
+   "w": "have",
+   "s": 10.06,
+   "e": 10.24
+  },
+  {
+   "w": "high",
+   "s": 10.24,
+   "e": 10.44
+  },
+  {
+   "w": "levels",
+   "s": 10.44,
+   "e": 10.78
+  },
+  {
+   "w": "of",
+   "s": 10.78,
+   "e": 11.0
+  },
+  {
+   "w": "it.",
+   "s": 11.0,
+   "e": 11.12
+  },
+  {
+   "w": "You",
+   "s": 11.6,
+   "e": 11.62
+  },
+  {
+   "w": "can",
+   "s": 11.62,
+   "e": 11.74
+  },
+  {
+   "w": "be",
+   "s": 11.74,
+   "e": 11.84
+  },
+  {
+   "w": "slim,",
+   "s": 11.84,
+   "e": 12.06
+  },
+  {
+   "w": "fit,",
+   "s": 12.4,
+   "e": 12.6
+  },
+  {
+   "w": "eat",
+   "s": 12.94,
+   "e": 13.02
+  },
+  {
+   "w": "well,",
+   "s": 13.02,
+   "e": 13.3
+  },
+  {
+   "w": "have",
+   "s": 13.6,
+   "e": 13.7
+  },
+  {
+   "w": "perfect",
+   "s": 13.7,
+   "e": 14.02
+  },
+  {
+   "w": "normal",
+   "s": 14.02,
+   "e": 14.38
+  },
+  {
+   "w": "cholesterol",
+   "s": 14.38,
+   "e": 15.04
+  },
+  {
+   "w": "and",
+   "s": 15.04,
+   "e": 15.42
+  },
+  {
+   "w": "still",
+   "s": 15.42,
+   "e": 15.64
+  },
+  {
+   "w": "carry",
+   "s": 15.64,
+   "e": 15.94
+  },
+  {
+   "w": "it.",
+   "s": 15.94,
+   "e": 16.18
+  },
+  {
+   "w": "And",
+   "s": 16.6,
+   "e": 16.64
+  },
+  {
+   "w": "on",
+   "s": 16.64,
+   "e": 16.72
+  },
+  {
+   "w": "November",
+   "s": 16.72,
+   "e": 16.9
+  },
+  {
+   "w": "7th,",
+   "s": 16.9,
+   "e": 17.74
+  },
+  {
+   "w": "2026,",
+   "s": 17.92,
+   "e": 18.62
+  },
+  {
+   "w": "the",
+   "s": 19.12,
+   "e": 19.22
+  },
+  {
+   "w": "biggest",
+   "s": 19.22,
+   "e": 19.42
+  },
+  {
+   "w": "trial",
+   "s": 19.42,
+   "e": 19.76
+  },
+  {
+   "w": "of",
+   "s": 19.76,
+   "e": 20.02
+  },
+  {
+   "w": "a",
+   "s": 20.02,
+   "e": 20.08
+  },
+  {
+   "w": "drug",
+   "s": 20.08,
+   "e": 20.24
+  },
+  {
+   "w": "against",
+   "s": 20.24,
+   "e": 20.6
+  },
+  {
+   "w": "it",
+   "s": 20.6,
+   "e": 20.88
+  },
+  {
+   "w": "ended",
+   "s": 20.88,
+   "e": 21.2
+  },
+  {
+   "w": "in",
+   "s": 21.2,
+   "e": 21.46
+  },
+  {
+   "w": "a",
+   "s": 21.46,
+   "e": 21.52
+  },
+  {
+   "w": "surprise.",
+   "s": 21.52,
+   "e": 21.82
+  },
+  {
+   "w": "The",
+   "s": 22.74,
+   "e": 22.8
+  },
+  {
+   "w": "drug",
+   "s": 22.8,
+   "e": 22.96
+  },
+  {
+   "w": "cut",
+   "s": 22.96,
+   "e": 23.24
+  },
+  {
+   "w": "it",
+   "s": 23.24,
+   "e": 23.4
+  },
+  {
+   "w": "by",
+   "s": 23.4,
+   "e": 23.58
+  },
+  {
+   "w": "more",
+   "s": 23.58,
+   "e": 23.78
+  },
+  {
+   "w": "than",
+   "s": 23.78,
+   "e": 23.94
+  },
+  {
+   "w": "three",
+   "s": 23.94,
+   "e": 24.16
+  },
+  {
+   "w": "-quarters,",
+   "s": 24.16,
+   "e": 24.56
+  },
+  {
+   "w": "but",
+   "s": 25.0,
+   "e": 25.18
+  },
+  {
+   "w": "people",
+   "s": 25.18,
+   "e": 25.44
+  },
+  {
+   "w": "had",
+   "s": 25.44,
+   "e": 25.66
+  },
+  {
+   "w": "just",
+   "s": 25.66,
+   "e": 25.92
+  },
+  {
+   "w": "as",
+   "s": 25.92,
+   "e": 26.08
+  },
+  {
+   "w": "many",
+   "s": 26.08,
+   "e": 26.24
+  },
+  {
+   "w": "heart",
+   "s": 26.24,
+   "e": 26.54
+  },
+  {
+   "w": "attacks",
+   "s": 26.54,
+   "e": 26.86
+  },
+  {
+   "w": "and",
+   "s": 26.86,
+   "e": 27.18
+  },
+  {
+   "w": "strokes.",
+   "s": 27.18,
+   "e": 27.44
+  },
+  {
+   "w": "Wait,",
+   "s": 28.06,
+   "e": 28.26
+  },
+  {
+   "w": "so",
+   "s": 28.34,
+   "e": 28.56
+  },
+  {
+   "w": "what",
+   "s": 28.56,
+   "e": 28.72
+  },
+  {
+   "w": "is",
+   "s": 28.72,
+   "e": 28.84
+  },
+  {
+   "w": "this",
+   "s": 28.84,
+   "e": 28.98
+  },
+  {
+   "w": "stuff?",
+   "s": 28.98,
+   "e": 29.26
+  },
+  {
+   "w": "Let's",
+   "s": 29.9,
+   "e": 30.32
+  },
+  {
+   "w": "start",
+   "s": 30.32,
+   "e": 30.52
+  },
+  {
+   "w": "with",
+   "s": 30.52,
+   "e": 30.82
+  },
+  {
+   "w": "how",
+   "s": 30.82,
+   "e": 31.02
+  },
+  {
+   "w": "cholesterol",
+   "s": 31.02,
+   "e": 31.32
+  },
+  {
+   "w": "travels.",
+   "s": 31.32,
+   "e": 32.12
+  },
+  {
+   "w": "It",
+   "s": 33.22,
+   "e": 33.38
+  },
+  {
+   "w": "was",
+   "s": 33.38,
+   "e": 33.48
+  },
+  {
+   "w": "discovered",
+   "s": 33.48,
+   "e": 33.82
+  },
+  {
+   "w": "back",
+   "s": 33.82,
+   "e": 34.2
+  },
+  {
+   "w": "in",
+   "s": 34.2,
+   "e": 34.4
+  },
+  {
+   "w": "1963",
+   "s": 34.4,
+   "e": 35.04
+  },
+  {
+   "w": "by",
+   "s": 35.04,
+   "e": 35.6
+  },
+  {
+   "w": "a",
+   "s": 35.6,
+   "e": 35.72
+  },
+  {
+   "w": "Norwegian",
+   "s": 35.72,
+   "e": 35.98
+  },
+  {
+   "w": "doctor,",
+   "s": 35.98,
+   "e": 36.54
+  },
+  {
+   "w": "Cara",
+   "s": 36.94,
+   "e": 37.28
+  },
+  {
+   "w": "Borg.",
+   "s": 37.28,
+   "e": 37.44
+  },
+  {
+   "w": "For",
+   "s": 38.08,
+   "e": 38.22
+  },
+  {
+   "w": "decades,",
+   "s": 38.22,
+   "e": 38.42
+  },
+  {
+   "w": "it",
+   "s": 38.98,
+   "e": 39.08
+  },
+  {
+   "w": "was",
+   "s": 39.08,
+   "e": 39.14
+  },
+  {
+   "w": "mostly",
+   "s": 39.14,
+   "e": 39.52
+  },
+  {
+   "w": "a",
+   "s": 39.52,
+   "e": 39.6
+  },
+  {
+   "w": "curiosity.",
+   "s": 39.6,
+   "e": 39.94
+  },
+  {
+   "w": "Only",
+   "s": 41.0,
+   "e": 41.0
+  },
+  {
+   "w": "recently",
+   "s": 41.0,
+   "e": 41.34
+  },
+  {
+   "w": "has",
+   "s": 41.34,
+   "e": 41.72
+  },
+  {
+   "w": "medicine",
+   "s": 41.72,
+   "e": 41.9
+  },
+  {
+   "w": "started",
+   "s": 41.9,
+   "e": 42.46
+  },
+  {
+   "w": "to",
+   "s": 42.46,
+   "e": 42.64
+  },
+  {
+   "w": "take",
+   "s": 42.64,
+   "e": 42.84
+  },
+  {
+   "w": "it",
+   "s": 42.84,
+   "e": 42.98
+  },
+  {
+   "w": "seriously.",
+   "s": 42.98,
+   "e": 43.26
+  },
+  {
+   "w": "How",
+   "s": 45.54,
+   "e": 46.08
+  },
+  {
+   "w": "does",
+   "s": 46.08,
+   "e": 46.24
+  },
+  {
+   "w": "cholesterol",
+   "s": 46.24,
+   "e": 46.48
+  },
+  {
+   "w": "move",
+   "s": 46.48,
+   "e": 47.38
+  },
+  {
+   "w": "around",
+   "s": 47.38,
+   "e": 47.7
+  },
+  {
+   "w": "the",
+   "s": 47.7,
+   "e": 47.9
+  },
+  {
+   "w": "body?",
+   "s": 47.9,
+   "e": 48.26
+  },
+  {
+   "w": "Cholesterol",
+   "s": 48.8,
+   "e": 49.1
+  },
+  {
+   "w": "is",
+   "s": 49.1,
+   "e": 49.6
+  },
+  {
+   "w": "a",
+   "s": 49.6,
+   "e": 49.7
+  },
+  {
+   "w": "fat,",
+   "s": 49.7,
+   "e": 49.96
+  },
+  {
+   "w": "and",
+   "s": 50.38,
+   "e": 50.46
+  },
+  {
+   "w": "fat",
+   "s": 50.46,
+   "e": 50.7
+  },
+  {
+   "w": "doesn't",
+   "s": 50.7,
+   "e": 51.06
+  },
+  {
+   "w": "mix",
+   "s": 51.06,
+   "e": 51.18
+  },
+  {
+   "w": "with",
+   "s": 51.18,
+   "e": 51.4
+  },
+  {
+   "w": "blood.",
+   "s": 51.4,
+   "e": 51.68
+  },
+  {
+   "w": "So",
+   "s": 52.36,
+   "e": 52.42
+  },
+  {
+   "w": "your",
+   "s": 52.42,
+   "e": 52.52
+  },
+  {
+   "w": "liver",
+   "s": 52.52,
+   "e": 52.68
+  },
+  {
+   "w": "packs",
+   "s": 52.68,
+   "e": 52.98
+  },
+  {
+   "w": "it",
+   "s": 52.98,
+   "e": 53.18
+  },
+  {
+   "w": "into",
+   "s": 53.18,
+   "e": 53.3
+  },
+  {
+   "w": "tiny",
+   "s": 53.3,
+   "e": 53.66
+  },
+  {
+   "w": "particles",
+   "s": 53.66,
+   "e": 54.06
+  },
+  {
+   "w": "called",
+   "s": 54.06,
+   "e": 54.54
+  },
+  {
+   "w": "lipoproteins,",
+   "s": 54.54,
+   "e": 55.42
+  },
+  {
+   "w": "like",
+   "s": 55.86,
+   "e": 55.96
+  },
+  {
+   "w": "delivery",
+   "s": 55.96,
+   "e": 56.24
+  },
+  {
+   "w": "trucks",
+   "s": 56.24,
+   "e": 56.66
+  },
+  {
+   "w": "wrapped",
+   "s": 56.66,
+   "e": 56.98
+  },
+  {
+   "w": "in",
+   "s": 56.98,
+   "e": 57.24
+  },
+  {
+   "w": "protein.",
+   "s": 57.24,
+   "e": 57.5
+  },
+  {
+   "w": "The",
+   "s": 58.04,
+   "e": 58.28
+  },
+  {
+   "w": "best",
+   "s": 58.28,
+   "e": 58.46
+  },
+  {
+   "w": "known",
+   "s": 58.46,
+   "e": 58.7
+  },
+  {
+   "w": "is",
+   "s": 58.7,
+   "e": 58.94
+  },
+  {
+   "w": "LDL,",
+   "s": 58.94,
+   "e": 59.18
+  },
+  {
+   "w": "the",
+   "s": 59.84,
+   "e": 59.9
+  },
+  {
+   "w": "so",
+   "s": 59.9,
+   "e": 60.08
+  },
+  {
+   "w": "-called",
+   "s": 60.08,
+   "e": 60.38
+  },
+  {
+   "w": "bad",
+   "s": 60.38,
+   "e": 60.66
+  },
+  {
+   "w": "cholesterol.",
+   "s": 60.66,
+   "e": 60.96
+  },
+  {
+   "w": "When",
+   "s": 61.92,
+   "e": 62.08
+  },
+  {
+   "w": "there's",
+   "s": 62.08,
+   "e": 62.3
+  },
+  {
+   "w": "too",
+   "s": 62.3,
+   "e": 62.44
+  },
+  {
+   "w": "much",
+   "s": 62.44,
+   "e": 62.6
+  },
+  {
+   "w": "of",
+   "s": 62.6,
+   "e": 62.8
+  },
+  {
+   "w": "it,",
+   "s": 62.8,
+   "e": 62.92
+  },
+  {
+   "w": "LDL",
+   "s": 63.18,
+   "e": 63.5
+  },
+  {
+   "w": "particles",
+   "s": 63.5,
+   "e": 63.98
+  },
+  {
+   "w": "slip",
+   "s": 63.98,
+   "e": 64.46
+  },
+  {
+   "w": "into",
+   "s": 64.46,
+   "e": 64.68
+  },
+  {
+   "w": "artery",
+   "s": 64.68,
+   "e": 64.9
+  },
+  {
+   "w": "walls",
+   "s": 64.9,
+   "e": 65.3
+  },
+  {
+   "w": "and",
+   "s": 65.3,
+   "e": 65.72
+  },
+  {
+   "w": "help",
+   "s": 65.72,
+   "e": 65.88
+  },
+  {
+   "w": "build",
+   "s": 65.88,
+   "e": 66.2
+  },
+  {
+   "w": "fatty",
+   "s": 66.2,
+   "e": 66.42
+  },
+  {
+   "w": "plaque.",
+   "s": 66.42,
+   "e": 66.76
+  },
+  {
+   "w": "Plaque",
+   "s": 67.4,
+   "e": 67.6
+  },
+  {
+   "w": "narrows",
+   "s": 67.6,
+   "e": 68.1
+  },
+  {
+   "w": "arteries,",
+   "s": 68.1,
+   "e": 68.36
+  },
+  {
+   "w": "and",
+   "s": 68.88,
+   "e": 69.12
+  },
+  {
+   "w": "if",
+   "s": 69.12,
+   "e": 69.22
+  },
+  {
+   "w": "a",
+   "s": 69.22,
+   "e": 69.26
+  },
+  {
+   "w": "plaque",
+   "s": 69.26,
+   "e": 69.44
+  },
+  {
+   "w": "cracks,",
+   "s": 69.44,
+   "e": 69.74
+  },
+  {
+   "w": "a",
+   "s": 70.22,
+   "e": 70.24
+  },
+  {
+   "w": "clot",
+   "s": 70.24,
+   "e": 70.42
+  },
+  {
+   "w": "can",
+   "s": 70.42,
+   "e": 70.66
+  },
+  {
+   "w": "form",
+   "s": 70.66,
+   "e": 70.92
+  },
+  {
+   "w": "on",
+   "s": 70.92,
+   "e": 71.12
+  },
+  {
+   "w": "it",
+   "s": 71.12,
+   "e": 71.22
+  },
+  {
+   "w": "and",
+   "s": 71.22,
+   "e": 71.38
+  },
+  {
+   "w": "block",
+   "s": 71.38,
+   "e": 71.58
+  },
+  {
+   "w": "the",
+   "s": 71.58,
+   "e": 71.78
+  },
+  {
+   "w": "blood",
+   "s": 71.78,
+   "e": 71.98
+  },
+  {
+   "w": "flow.",
+   "s": 71.98,
+   "e": 72.18
+  },
+  {
+   "w": "That's",
+   "s": 72.9,
+   "e": 73.0
+  },
+  {
+   "w": "a",
+   "s": 73.0,
+   "e": 73.06
+  },
+  {
+   "w": "heart",
+   "s": 73.06,
+   "e": 73.24
+  },
+  {
+   "w": "attack",
+   "s": 73.24,
+   "e": 73.56
+  },
+  {
+   "w": "or",
+   "s": 73.56,
+   "e": 73.9
+  },
+  {
+   "w": "a",
+   "s": 73.9,
+   "e": 73.96
+  },
+  {
+   "w": "stroke.",
+   "s": 73.96,
+   "e": 74.22
+  },
+  {
+   "w": "Inside",
+   "s": 75.32,
+   "e": 75.48
+  },
+  {
+   "w": "the",
+   "s": 75.48,
+   "e": 75.8
+  },
+  {
+   "w": "artery",
+   "s": 75.8,
+   "e": 75.98
+  },
+  {
+   "w": "wall,",
+   "s": 75.98,
+   "e": 76.38
+  },
+  {
+   "w": "immune",
+   "s": 76.64,
+   "e": 76.84
+  },
+  {
+   "w": "cells",
+   "s": 76.84,
+   "e": 77.16
+  },
+  {
+   "w": "try",
+   "s": 77.16,
+   "e": 77.46
+  },
+  {
+   "w": "to",
+   "s": 77.46,
+   "e": 77.62
+  },
+  {
+   "w": "swallow",
+   "s": 77.62,
+   "e": 77.86
+  },
+  {
+   "w": "the",
+   "s": 77.86,
+   "e": 78.04
+  },
+  {
+   "w": "stuck",
+   "s": 78.04,
+   "e": 78.2
+  },
+  {
+   "w": "particles,",
+   "s": 78.2,
+   "e": 78.76
+  },
+  {
+   "w": "swell",
+   "s": 79.14,
+   "e": 79.38
+  },
+  {
+   "w": "up",
+   "s": 79.38,
+   "e": 79.6
+  },
+  {
+   "w": "with",
+   "s": 79.6,
+   "e": 79.76
+  },
+  {
+   "w": "fat",
+   "s": 79.76,
+   "e": 80.0
+  },
+  {
+   "w": "and",
+   "s": 80.0,
+   "e": 80.38
+  },
+  {
+   "w": "die",
+   "s": 80.38,
+   "e": 80.56
+  },
+  {
+   "w": "there.",
+   "s": 80.56,
+   "e": 80.88
+  },
+  {
+   "w": "Layer",
+   "s": 81.46,
+   "e": 81.66
+  },
+  {
+   "w": "by",
+   "s": 81.66,
+   "e": 81.9
+  },
+  {
+   "w": "layer,",
+   "s": 81.9,
+   "e": 82.14
+  },
+  {
+   "w": "that",
+   "s": 82.14,
+   "e": 82.48
+  },
+  {
+   "w": "mess",
+   "s": 82.48,
+   "e": 82.6
+  },
+  {
+   "w": "becomes",
+   "s": 82.6,
+   "e": 82.98
+  },
+  {
+   "w": "plaque",
+   "s": 82.98,
+   "e": 83.26
+  },
+  {
+   "w": "quietly",
+   "s": 83.26,
+   "e": 83.7
+  },
+  {
+   "w": "over",
+   "s": 83.7,
+   "e": 84.22
+  },
+  {
+   "w": "decades.",
+   "s": 84.22,
+   "e": 84.52
+  },
+  {
+   "w": "So",
+   "s": 86.82,
+   "e": 87.3
+  },
+  {
+   "w": "how",
+   "s": 87.3,
+   "e": 87.54
+  },
+  {
+   "w": "is",
+   "s": 87.54,
+   "e": 87.74
+  },
+  {
+   "w": "little",
+   "s": 87.74,
+   "e": 87.92
+  },
+  {
+   "w": "a",
+   "s": 87.92,
+   "e": 88.06
+  },
+  {
+   "w": "different?",
+   "s": 88.06,
+   "e": 88.34
+  },
+  {
+   "w": "Picture",
+   "s": 89.02,
+   "e": 89.38
+  },
+  {
+   "w": "an",
+   "s": 89.38,
+   "e": 89.52
+  },
+  {
+   "w": "LDL",
+   "s": 89.52,
+   "e": 89.76
+  },
+  {
+   "w": "particle",
+   "s": 89.76,
+   "e": 90.44
+  },
+  {
+   "w": "with",
+   "s": 90.44,
+   "e": 90.78
+  },
+  {
+   "w": "an",
+   "s": 90.78,
+   "e": 90.9
+  },
+  {
+   "w": "extra",
+   "s": 90.9,
+   "e": 91.24
+  },
+  {
+   "w": "protein",
+   "s": 91.24,
+   "e": 91.64
+  },
+  {
+   "w": "attached",
+   "s": 91.64,
+   "e": 91.98
+  },
+  {
+   "w": "to",
+   "s": 91.98,
+   "e": 92.4
+  },
+  {
+   "w": "it,",
+   "s": 92.4,
+   "e": 92.54
+  },
+  {
+   "w": "called",
+   "s": 92.8,
+   "e": 93.0
+  },
+  {
+   "w": "appleipoprotein",
+   "s": 93.0,
+   "e": 93.88
+  },
+  {
+   "w": "little",
+   "s": 93.88,
+   "e": 94.14
+  },
+  {
+   "w": "A.",
+   "s": 94.14,
+   "e": 94.4
+  },
+  {
+   "w": "That",
+   "s": 94.84,
+   "e": 95.08
+  },
+  {
+   "w": "extra",
+   "s": 95.08,
+   "e": 95.26
+  },
+  {
+   "w": "chain",
+   "s": 95.26,
+   "e": 95.8
+  },
+  {
+   "w": "is",
+   "s": 95.8,
+   "e": 96.02
+  },
+  {
+   "w": "long",
+   "s": 96.02,
+   "e": 96.24
+  },
+  {
+   "w": "and",
+   "s": 96.24,
+   "e": 96.5
+  },
+  {
+   "w": "floppy,",
+   "s": 96.5,
+   "e": 96.72
+  },
+  {
+   "w": "like",
+   "s": 97.14,
+   "e": 97.3
+  },
+  {
+   "w": "a",
+   "s": 97.3,
+   "e": 97.42
+  },
+  {
+   "w": "tail.",
+   "s": 97.42,
+   "e": 97.58
+  },
+  {
+   "w": "That",
+   "s": 98.12,
+   "e": 98.3
+  },
+  {
+   "w": "tail",
+   "s": 98.3,
+   "e": 98.56
+  },
+  {
+   "w": "seems",
+   "s": 98.56,
+   "e": 98.82
+  },
+  {
+   "w": "to",
+   "s": 98.82,
+   "e": 99.1
+  },
+  {
+   "w": "make",
+   "s": 99.1,
+   "e": 99.28
+  },
+  {
+   "w": "it",
+   "s": 99.28,
+   "e": 99.38
+  },
+  {
+   "w": "extra",
+   "s": 99.38,
+   "e": 99.72
+  },
+  {
+   "w": "harmful.",
+   "s": 99.72,
+   "e": 100.08
+  },
+  {
+   "w": "It",
+   "s": 100.78,
+   "e": 100.84
+  },
+  {
+   "w": "helps",
+   "s": 100.84,
+   "e": 101.02
+  },
+  {
+   "w": "the",
+   "s": 101.02,
+   "e": 101.28
+  },
+  {
+   "w": "particle",
+   "s": 101.28,
+   "e": 101.5
+  },
+  {
+   "w": "stick",
+   "s": 101.5,
+   "e": 102.02
+  },
+  {
+   "w": "in",
+   "s": 102.02,
+   "e": 102.26
+  },
+  {
+   "w": "artery",
+   "s": 102.26,
+   "e": 102.44
+  },
+  {
+   "w": "walls.",
+   "s": 102.44,
+   "e": 102.88
+  },
+  {
+   "w": "It",
+   "s": 103.42,
+   "e": 103.46
+  },
+  {
+   "w": "carries",
+   "s": 103.46,
+   "e": 103.72
+  },
+  {
+   "w": "inflammatory",
+   "s": 103.72,
+   "e": 104.18
+  },
+  {
+   "w": "molecules,",
+   "s": 104.18,
+   "e": 104.96
+  },
+  {
+   "w": "and",
+   "s": 105.48,
+   "e": 105.6
+  },
+  {
+   "w": "it",
+   "s": 105.6,
+   "e": 105.7
+  },
+  {
+   "w": "looks",
+   "s": 105.7,
+   "e": 105.82
+  },
+  {
+   "w": "a",
+   "s": 105.82,
+   "e": 106.0
+  },
+  {
+   "w": "lot",
+   "s": 106.0,
+   "e": 106.16
+  },
+  {
+   "w": "like",
+   "s": 106.16,
+   "e": 106.46
+  },
+  {
+   "w": "a",
+   "s": 106.46,
+   "e": 106.56
+  },
+  {
+   "w": "protein",
+   "s": 106.56,
+   "e": 106.92
+  },
+  {
+   "w": "involved",
+   "s": 106.92,
+   "e": 107.28
+  },
+  {
+   "w": "in",
+   "s": 107.28,
+   "e": 107.66
+  },
+  {
+   "w": "dissolving",
+   "s": 107.66,
+   "e": 108.08
+  },
+  {
+   "w": "clots,",
+   "s": 108.08,
+   "e": 108.5
+  },
+  {
+   "w": "so",
+   "s": 108.78,
+   "e": 108.98
+  },
+  {
+   "w": "it",
+   "s": 108.98,
+   "e": 109.08
+  },
+  {
+   "w": "may",
+   "s": 109.08,
+   "e": 109.16
+  },
+  {
+   "w": "get",
+   "s": 109.16,
+   "e": 109.36
+  },
+  {
+   "w": "in",
+   "s": 109.36,
+   "e": 109.46
+  },
+  {
+   "w": "the",
+   "s": 109.46,
+   "e": 109.54
+  },
+  {
+   "w": "way",
+   "s": 109.54,
+   "e": 109.7
+  },
+  {
+   "w": "of",
+   "s": 109.7,
+   "e": 109.84
+  },
+  {
+   "w": "that,",
+   "s": 109.84,
+   "e": 110.0
+  },
+  {
+   "w": "too.",
+   "s": 110.16,
+   "e": 110.34
+  },
+  {
+   "w": "High",
+   "s": 110.34,
+   "e": 110.92
+  },
+  {
+   "w": "levels",
+   "s": 110.92,
+   "e": 111.24
+  },
+  {
+   "w": "are",
+   "s": 111.24,
+   "e": 111.42
+  },
+  {
+   "w": "linked",
+   "s": 111.42,
+   "e": 111.58
+  },
+  {
+   "w": "to",
+   "s": 111.58,
+   "e": 111.8
+  },
+  {
+   "w": "more",
+   "s": 111.8,
+   "e": 111.94
+  },
+  {
+   "w": "heart",
+   "s": 111.94,
+   "e": 112.22
+  },
+  {
+   "w": "attacks,",
+   "s": 112.22,
+   "e": 112.64
+  },
+  {
+   "w": "more",
+   "s": 113.08,
+   "e": 113.22
+  },
+  {
+   "w": "strokes,",
+   "s": 113.22,
+   "e": 113.58
+  },
+  {
+   "w": "and",
+   "s": 113.98,
+   "e": 114.02
+  },
+  {
+   "w": "a",
+   "s": 114.02,
+   "e": 114.08
+  },
+  {
+   "w": "narrowing",
+   "s": 114.08,
+   "e": 114.4
+  },
+  {
+   "w": "of",
+   "s": 114.4,
+   "e": 114.58
+  },
+  {
+   "w": "the",
+   "s": 114.58,
+   "e": 114.68
+  },
+  {
+   "w": "main",
+   "s": 114.68,
+   "e": 114.82
+  },
+  {
+   "w": "valve",
+   "s": 114.82,
+   "e": 115.1
+  },
+  {
+   "w": "of",
+   "s": 115.1,
+   "e": 115.28
+  },
+  {
+   "w": "the",
+   "s": 115.28,
+   "e": 115.34
+  },
+  {
+   "w": "heart,",
+   "s": 115.34,
+   "e": 115.62
+  },
+  {
+   "w": "called",
+   "s": 115.96,
+   "e": 116.14
+  },
+  {
+   "w": "aortic",
+   "s": 116.14,
+   "e": 116.72
+  },
+  {
+   "w": "stenosis.",
+   "s": 116.72,
+   "e": 117.24
+  },
+  {
+   "w": "Genetic",
+   "s": 117.98,
+   "e": 118.22
+  },
+  {
+   "w": "studies",
+   "s": 118.22,
+   "e": 118.8
+  },
+  {
+   "w": "suggest",
+   "s": 118.8,
+   "e": 119.04
+  },
+  {
+   "w": "it's",
+   "s": 119.04,
+   "e": 119.4
+  },
+  {
+   "w": "a",
+   "s": 119.4,
+   "e": 119.5
+  },
+  {
+   "w": "cause,",
+   "s": 119.5,
+   "e": 119.72
+  },
+  {
+   "w": "not",
+   "s": 120.14,
+   "e": 120.32
+  },
+  {
+   "w": "just",
+   "s": 120.32,
+   "e": 120.5
+  },
+  {
+   "w": "a",
+   "s": 120.5,
+   "e": 120.64
+  },
+  {
+   "w": "marker.",
+   "s": 120.64,
+   "e": 120.88
+  },
+  {
+   "w": "Strangely,",
+   "s": 121.54,
+   "e": 121.98
+  },
+  {
+   "w": "almost",
+   "s": 122.12,
+   "e": 122.3
+  },
+  {
+   "w": "no",
+   "s": 122.3,
+   "e": 122.56
+  },
+  {
+   "w": "animals",
+   "s": 122.56,
+   "e": 122.92
+  },
+  {
+   "w": "have",
+   "s": 122.92,
+   "e": 123.26
+  },
+  {
+   "w": "it.",
+   "s": 123.26,
+   "e": 123.42
+  },
+  {
+   "w": "Humans,",
+   "s": 123.96,
+   "e": 124.18
+  },
+  {
+   "w": "apes",
+   "s": 124.6,
+   "e": 124.66
+  },
+  {
+   "w": "and",
+   "s": 124.66,
+   "e": 125.02
+  },
+  {
+   "w": "old",
+   "s": 125.02,
+   "e": 125.12
+  },
+  {
+   "w": "-world",
+   "s": 125.12,
+   "e": 125.42
+  },
+  {
+   "w": "monkeys",
+   "s": 125.42,
+   "e": 125.86
+  },
+  {
+   "w": "do,",
+   "s": 125.86,
+   "e": 126.1
+  },
+  {
+   "w": "and",
+   "s": 126.3,
+   "e": 126.36
+  },
+  {
+   "w": "so",
+   "s": 126.36,
+   "e": 126.54
+  },
+  {
+   "w": "oddly",
+   "s": 126.54,
+   "e": 126.84
+  },
+  {
+   "w": "do",
+   "s": 126.84,
+   "e": 127.16
+  },
+  {
+   "w": "hedgehogs.",
+   "s": 127.16,
+   "e": 127.64
+  },
+  {
+   "w": "Mice",
+   "s": 128.3,
+   "e": 128.42
+  },
+  {
+   "w": "don't,",
+   "s": 128.42,
+   "e": 128.88
+  },
+  {
+   "w": "which",
+   "s": 129.0,
+   "e": 129.12
+  },
+  {
+   "w": "made",
+   "s": 129.12,
+   "e": 129.26
+  },
+  {
+   "w": "it",
+   "s": 129.26,
+   "e": 129.38
+  },
+  {
+   "w": "hard",
+   "s": 129.38,
+   "e": 129.58
+  },
+  {
+   "w": "to",
+   "s": 129.58,
+   "e": 129.74
+  },
+  {
+   "w": "study",
+   "s": 129.74,
+   "e": 129.96
+  },
+  {
+   "w": "in",
+   "s": 129.96,
+   "e": 130.14
+  },
+  {
+   "w": "the",
+   "s": 130.14,
+   "e": 130.24
+  },
+  {
+   "w": "lab.",
+   "s": 130.24,
+   "e": 130.46
+  },
+  {
+   "w": "How",
+   "s": 130.98,
+   "e": 131.14
+  },
+  {
+   "w": "do",
+   "s": 131.14,
+   "e": 131.28
+  },
+  {
+   "w": "they",
+   "s": 131.28,
+   "e": 131.4
+  },
+  {
+   "w": "know",
+   "s": 131.4,
+   "e": 131.56
+  },
+  {
+   "w": "it's",
+   "s": 131.56,
+   "e": 131.78
+  },
+  {
+   "w": "a",
+   "s": 131.78,
+   "e": 131.8
+  },
+  {
+   "w": "cause?",
+   "s": 131.8,
+   "e": 132.06
+  },
+  {
+   "w": "Through",
+   "s": 132.84,
+   "e": 133.02
+  },
+  {
+   "w": "a",
+   "s": 133.02,
+   "e": 133.14
+  },
+  {
+   "w": "kind",
+   "s": 133.14,
+   "e": 133.28
+  },
+  {
+   "w": "of",
+   "s": 133.28,
+   "e": 133.38
+  },
+  {
+   "w": "natural",
+   "s": 133.38,
+   "e": 133.64
+  },
+  {
+   "w": "experiment.",
+   "s": 133.64,
+   "e": 134.34
+  },
+  {
+   "w": "Since",
+   "s": 134.82,
+   "e": 135.04
+  },
+  {
+   "w": "your",
+   "s": 135.04,
+   "e": 135.2
+  },
+  {
+   "w": "level",
+   "s": 135.2,
+   "e": 135.46
+  },
+  {
+   "w": "is",
+   "s": 135.46,
+   "e": 135.6
+  },
+  {
+   "w": "set",
+   "s": 135.6,
+   "e": 135.78
+  },
+  {
+   "w": "by",
+   "s": 135.78,
+   "e": 136.0
+  },
+  {
+   "w": "genes",
+   "s": 136.0,
+   "e": 136.22
+  },
+  {
+   "w": "you're",
+   "s": 136.22,
+   "e": 136.48
+  },
+  {
+   "w": "born",
+   "s": 136.48,
+   "e": 136.64
+  },
+  {
+   "w": "with,",
+   "s": 136.64,
+   "e": 136.94
+  },
+  {
+   "w": "people",
+   "s": 137.22,
+   "e": 137.48
+  },
+  {
+   "w": "with",
+   "s": 137.48,
+   "e": 137.7
+  },
+  {
+   "w": "high",
+   "s": 137.7,
+   "e": 137.92
+  },
+  {
+   "w": "-level",
+   "s": 137.92,
+   "e": 138.24
+  },
+  {
+   "w": "genes",
+   "s": 138.24,
+   "e": 138.5
+  },
+  {
+   "w": "are",
+   "s": 138.5,
+   "e": 138.84
+  },
+  {
+   "w": "like",
+   "s": 138.84,
+   "e": 138.96
+  },
+  {
+   "w": "volunteers",
+   "s": 138.96,
+   "e": 139.58
+  },
+  {
+   "w": "randomly",
+   "s": 139.58,
+   "e": 140.08
+  },
+  {
+   "w": "assigned",
+   "s": 140.08,
+   "e": 140.46
+  },
+  {
+   "w": "to",
+   "s": 140.46,
+   "e": 140.74
+  },
+  {
+   "w": "high",
+   "s": 140.74,
+   "e": 140.94
+  },
+  {
+   "w": "-little",
+   "s": 140.94,
+   "e": 141.24
+  },
+  {
+   "w": "for",
+   "s": 141.24,
+   "e": 141.4
+  },
+  {
+   "w": "life,",
+   "s": 141.4,
+   "e": 141.74
+  },
+  {
+   "w": "and",
+   "s": 142.26,
+   "e": 142.36
+  },
+  {
+   "w": "they",
+   "s": 142.36,
+   "e": 142.46
+  },
+  {
+   "w": "get",
+   "s": 142.46,
+   "e": 142.6
+  },
+  {
+   "w": "more",
+   "s": 142.6,
+   "e": 142.8
+  },
+  {
+   "w": "heart",
+   "s": 142.8,
+   "e": 143.04
+  },
+  {
+   "w": "disease.",
+   "s": 143.04,
+   "e": 143.38
+  },
+  {
+   "w": "Scientists",
+   "s": 144.1,
+   "e": 144.5
+  },
+  {
+   "w": "call",
+   "s": 144.5,
+   "e": 144.96
+  },
+  {
+   "w": "this",
+   "s": 144.96,
+   "e": 145.2
+  },
+  {
+   "w": "Mendelian",
+   "s": 145.2,
+   "e": 145.82
+  },
+  {
+   "w": "randomization.",
+   "s": 145.82,
+   "e": 146.56
+  },
+  {
+   "w": "The",
+   "s": 147.18,
+   "e": 147.24
+  },
+  {
+   "w": "valve",
+   "s": 147.24,
+   "e": 147.36
+  },
+  {
+   "w": "problem",
+   "s": 147.36,
+   "e": 147.74
+  },
+  {
+   "w": "is",
+   "s": 147.74,
+   "e": 148.04
+  },
+  {
+   "w": "a",
+   "s": 148.04,
+   "e": 148.12
+  },
+  {
+   "w": "big",
+   "s": 148.12,
+   "e": 148.28
+  },
+  {
+   "w": "one,",
+   "s": 148.28,
+   "e": 148.48
+  },
+  {
+   "w": "too.",
+   "s": 148.62,
+   "e": 148.78
+  },
+  {
+   "w": "In",
+   "s": 149.38,
+   "e": 149.46
+  },
+  {
+   "w": "aortic",
+   "s": 149.46,
+   "e": 149.92
+  },
+  {
+   "w": "stenosis,",
+   "s": 149.92,
+   "e": 150.44
+  },
+  {
+   "w": "the",
+   "s": 150.8,
+   "e": 150.9
+  },
+  {
+   "w": "valve",
+   "s": 150.9,
+   "e": 151.12
+  },
+  {
+   "w": "stiffens",
+   "s": 151.12,
+   "e": 151.56
+  },
+  {
+   "w": "with",
+   "s": 151.56,
+   "e": 151.72
+  },
+  {
+   "w": "calcium,",
+   "s": 151.72,
+   "e": 151.94
+  },
+  {
+   "w": "and",
+   "s": 152.52,
+   "e": 152.68
+  },
+  {
+   "w": "the",
+   "s": 152.68,
+   "e": 152.76
+  },
+  {
+   "w": "heart",
+   "s": 152.76,
+   "e": 152.98
+  },
+  {
+   "w": "has",
+   "s": 152.98,
+   "e": 153.16
+  },
+  {
+   "w": "to",
+   "s": 153.16,
+   "e": 153.3
+  },
+  {
+   "w": "strain",
+   "s": 153.3,
+   "e": 153.56
+  },
+  {
+   "w": "to",
+   "s": 153.56,
+   "e": 153.8
+  },
+  {
+   "w": "push",
+   "s": 153.8,
+   "e": 154.0
+  },
+  {
+   "w": "blood",
+   "s": 154.0,
+   "e": 154.22
+  },
+  {
+   "w": "through.",
+   "s": 154.22,
+   "e": 154.52
+  },
+  {
+   "w": "High",
+   "s": 155.08,
+   "e": 155.18
+  },
+  {
+   "w": "-little",
+   "s": 155.18,
+   "e": 155.46
+  },
+  {
+   "w": "seems",
+   "s": 155.46,
+   "e": 155.74
+  },
+  {
+   "w": "to",
+   "s": 155.74,
+   "e": 156.08
+  },
+  {
+   "w": "speed",
+   "s": 156.08,
+   "e": 156.3
+  },
+  {
+   "w": "that",
+   "s": 156.3,
+   "e": 156.56
+  },
+  {
+   "w": "up.",
+   "s": 156.56,
+   "e": 156.86
+  },
+  {
+   "w": "Can",
+   "s": 158.98,
+   "e": 159.38
+  },
+  {
+   "w": "I",
+   "s": 159.38,
+   "e": 159.52
+  },
+  {
+   "w": "lower",
+   "s": 159.52,
+   "e": 159.8
+  },
+  {
+   "w": "it",
+   "s": 159.8,
+   "e": 160.0
+  },
+  {
+   "w": "with",
+   "s": 160.0,
+   "e": 160.08
+  },
+  {
+   "w": "diet?",
+   "s": 160.08,
+   "e": 160.3
+  },
+  {
+   "w": "Sadly",
+   "s": 161.12,
+   "e": 161.34
+  },
+  {
+   "w": "no.",
+   "s": 161.34,
+   "e": 161.76
+  },
+  {
+   "w": "Your",
+   "s": 162.18,
+   "e": 162.22
+  },
+  {
+   "w": "levels",
+   "s": 162.22,
+   "e": 162.48
+  },
+  {
+   "w": "are",
+   "s": 162.48,
+   "e": 162.68
+  },
+  {
+   "w": "mostly",
+   "s": 162.68,
+   "e": 162.84
+  },
+  {
+   "w": "set",
+   "s": 162.84,
+   "e": 163.24
+  },
+  {
+   "w": "by",
+   "s": 163.24,
+   "e": 163.46
+  },
+  {
+   "w": "a",
+   "s": 163.46,
+   "e": 163.58
+  },
+  {
+   "w": "single",
+   "s": 163.58,
+   "e": 163.82
+  },
+  {
+   "w": "gene,",
+   "s": 163.82,
+   "e": 164.14
+  },
+  {
+   "w": "called",
+   "s": 164.58,
+   "e": 164.76
+  },
+  {
+   "w": "LPA.",
+   "s": 164.76,
+   "e": 165.28
+  },
+  {
+   "w": "Around",
+   "s": 165.28,
+   "e": 166.24
+  },
+  {
+   "w": "90",
+   "s": 166.24,
+   "e": 166.56
+  },
+  {
+   "w": "%",
+   "s": 166.56,
+   "e": 166.94
+  },
+  {
+   "w": "of",
+   "s": 166.94,
+   "e": 167.12
+  },
+  {
+   "w": "the",
+   "s": 167.12,
+   "e": 167.18
+  },
+  {
+   "w": "variation",
+   "s": 167.18,
+   "e": 167.62
+  },
+  {
+   "w": "between",
+   "s": 167.62,
+   "e": 168.02
+  },
+  {
+   "w": "people",
+   "s": 168.02,
+   "e": 168.44
+  },
+  {
+   "w": "is",
+   "s": 168.44,
+   "e": 168.76
+  },
+  {
+   "w": "inherited.",
+   "s": 168.76,
+   "e": 169.16
+  },
+  {
+   "w": "Inside",
+   "s": 169.8,
+   "e": 170.1
+  },
+  {
+   "w": "that",
+   "s": 170.1,
+   "e": 170.38
+  },
+  {
+   "w": "gene,",
+   "s": 170.38,
+   "e": 170.64
+  },
+  {
+   "w": "one",
+   "s": 170.7,
+   "e": 171.04
+  },
+  {
+   "w": "small",
+   "s": 171.04,
+   "e": 171.3
+  },
+  {
+   "w": "section",
+   "s": 171.3,
+   "e": 171.78
+  },
+  {
+   "w": "repeats",
+   "s": 171.78,
+   "e": 172.12
+  },
+  {
+   "w": "itself.",
+   "s": 172.12,
+   "e": 172.64
+  },
+  {
+   "w": "A",
+   "s": 173.22,
+   "e": 173.24
+  },
+  {
+   "w": "few",
+   "s": 173.24,
+   "e": 173.42
+  },
+  {
+   "w": "times",
+   "s": 173.42,
+   "e": 173.7
+  },
+  {
+   "w": "in",
+   "s": 173.7,
+   "e": 173.9
+  },
+  {
+   "w": "some",
+   "s": 173.9,
+   "e": 174.1
+  },
+  {
+   "w": "people,",
+   "s": 174.1,
+   "e": 174.52
+  },
+  {
+   "w": "dozens",
+   "s": 174.8,
+   "e": 175.02
+  },
+  {
+   "w": "of",
+   "s": 175.02,
+   "e": 175.24
+  },
+  {
+   "w": "times",
+   "s": 175.24,
+   "e": 175.5
+  },
+  {
+   "w": "in",
+   "s": 175.5,
+   "e": 175.68
+  },
+  {
+   "w": "others.",
+   "s": 175.68,
+   "e": 175.96
+  },
+  {
+   "w": "Fewer",
+   "s": 176.56,
+   "e": 176.9
+  },
+  {
+   "w": "repeats",
+   "s": 176.9,
+   "e": 177.16
+  },
+  {
+   "w": "usually",
+   "s": 177.16,
+   "e": 177.52
+  },
+  {
+   "w": "means",
+   "s": 177.52,
+   "e": 177.88
+  },
+  {
+   "w": "a",
+   "s": 177.88,
+   "e": 178.06
+  },
+  {
+   "w": "shorter",
+   "s": 178.06,
+   "e": 178.3
+  },
+  {
+   "w": "tail,",
+   "s": 178.3,
+   "e": 178.62
+  },
+  {
+   "w": "and",
+   "s": 179.0,
+   "e": 179.04
+  },
+  {
+   "w": "much",
+   "s": 179.04,
+   "e": 179.2
+  },
+  {
+   "w": "higher",
+   "s": 179.2,
+   "e": 179.54
+  },
+  {
+   "w": "levels.",
+   "s": 179.54,
+   "e": 179.86
+  },
+  {
+   "w": "Diet",
+   "s": 180.42,
+   "e": 180.72
+  },
+  {
+   "w": "and",
+   "s": 180.72,
+   "e": 181.0
+  },
+  {
+   "w": "exercise",
+   "s": 181.0,
+   "e": 181.38
+  },
+  {
+   "w": "barely",
+   "s": 181.38,
+   "e": 181.86
+  },
+  {
+   "w": "touch",
+   "s": 181.86,
+   "e": 182.2
+  },
+  {
+   "w": "it.",
+   "s": 182.2,
+   "e": 182.46
+  },
+  {
+   "w": "Common",
+   "s": 182.96,
+   "e": 183.22
+  },
+  {
+   "w": "statins",
+   "s": 183.22,
+   "e": 183.72
+  },
+  {
+   "w": "don't",
+   "s": 183.72,
+   "e": 184.1
+  },
+  {
+   "w": "lower",
+   "s": 184.1,
+   "e": 184.3
+  },
+  {
+   "w": "it",
+   "s": 184.3,
+   "e": 184.54
+  },
+  {
+   "w": "either.",
+   "s": 184.54,
+   "e": 184.82
+  },
+  {
+   "w": "Two",
+   "s": 185.24,
+   "e": 185.34
+  },
+  {
+   "w": "people",
+   "s": 185.34,
+   "e": 185.68
+  },
+  {
+   "w": "with",
+   "s": 185.68,
+   "e": 185.84
+  },
+  {
+   "w": "identical",
+   "s": 185.84,
+   "e": 186.18
+  },
+  {
+   "w": "lifestyles",
+   "s": 186.18,
+   "e": 186.66
+  },
+  {
+   "w": "can",
+   "s": 186.66,
+   "e": 187.36
+  },
+  {
+   "w": "have",
+   "s": 187.36,
+   "e": 187.56
+  },
+  {
+   "w": "levels",
+   "s": 187.56,
+   "e": 187.88
+  },
+  {
+   "w": "a",
+   "s": 187.88,
+   "e": 188.04
+  },
+  {
+   "w": "thousand",
+   "s": 188.04,
+   "e": 188.38
+  },
+  {
+   "w": "times",
+   "s": 188.38,
+   "e": 188.76
+  },
+  {
+   "w": "apart.",
+   "s": 188.76,
+   "e": 189.18
+  },
+  {
+   "w": "Statins,",
+   "s": 189.8,
+   "e": 190.28
+  },
+  {
+   "w": "the",
+   "s": 190.28,
+   "e": 190.54
+  },
+  {
+   "w": "most",
+   "s": 190.54,
+   "e": 190.66
+  },
+  {
+   "w": "common",
+   "s": 190.66,
+   "e": 191.02
+  },
+  {
+   "w": "cholesterol",
+   "s": 191.02,
+   "e": 191.56
+  },
+  {
+   "w": "pills,",
+   "s": 191.56,
+   "e": 191.9
+  },
+  {
+   "w": "are",
+   "s": 192.3,
+   "e": 192.5
+  },
+  {
+   "w": "still",
+   "s": 192.5,
+   "e": 192.68
+  },
+  {
+   "w": "very",
+   "s": 192.68,
+   "e": 192.92
+  },
+  {
+   "w": "important",
+   "s": 192.92,
+   "e": 193.5
+  },
+  {
+   "w": "for",
+   "s": 193.5,
+   "e": 193.76
+  },
+  {
+   "w": "lowering",
+   "s": 193.76,
+   "e": 194.04
+  },
+  {
+   "w": "LDL.",
+   "s": 194.04,
+   "e": 194.42
+  },
+  {
+   "w": "But",
+   "s": 195.2,
+   "e": 195.34
+  },
+  {
+   "w": "they",
+   "s": 195.34,
+   "e": 195.44
+  },
+  {
+   "w": "don't",
+   "s": 195.44,
+   "e": 195.68
+  },
+  {
+   "w": "lower",
+   "s": 195.68,
+   "e": 195.9
+  },
+  {
+   "w": "little",
+   "s": 195.9,
+   "e": 196.12
+  },
+  {
+   "w": "A,",
+   "s": 196.12,
+   "e": 196.42
+  },
+  {
+   "w": "and",
+   "s": 196.68,
+   "e": 196.84
+  },
+  {
+   "w": "they",
+   "s": 196.84,
+   "e": 196.94
+  },
+  {
+   "w": "may",
+   "s": 196.94,
+   "e": 197.04
+  },
+  {
+   "w": "even",
+   "s": 197.04,
+   "e": 197.3
+  },
+  {
+   "w": "nudge",
+   "s": 197.3,
+   "e": 197.62
+  },
+  {
+   "w": "it",
+   "s": 197.62,
+   "e": 197.74
+  },
+  {
+   "w": "up",
+   "s": 197.74,
+   "e": 197.84
+  },
+  {
+   "w": "a",
+   "s": 197.84,
+   "e": 197.92
+  },
+  {
+   "w": "little.",
+   "s": 197.92,
+   "e": 198.12
+  },
+  {
+   "w": "It",
+   "s": 198.66,
+   "e": 198.68
+  },
+  {
+   "w": "also",
+   "s": 198.68,
+   "e": 198.86
+  },
+  {
+   "w": "varies",
+   "s": 198.86,
+   "e": 199.3
+  },
+  {
+   "w": "by",
+   "s": 199.3,
+   "e": 199.64
+  },
+  {
+   "w": "ancestry.",
+   "s": 199.64,
+   "e": 200.08
+  },
+  {
+   "w": "On",
+   "s": 201.1,
+   "e": 201.12
+  },
+  {
+   "w": "average,",
+   "s": 201.12,
+   "e": 201.44
+  },
+  {
+   "w": "people",
+   "s": 201.84,
+   "e": 202.1
+  },
+  {
+   "w": "of",
+   "s": 202.1,
+   "e": 202.32
+  },
+  {
+   "w": "African",
+   "s": 202.32,
+   "e": 202.56
+  },
+  {
+   "w": "descent",
+   "s": 202.56,
+   "e": 202.94
+  },
+  {
+   "w": "tend",
+   "s": 202.94,
+   "e": 203.4
+  },
+  {
+   "w": "to",
+   "s": 203.4,
+   "e": 203.58
+  },
+  {
+   "w": "have",
+   "s": 203.58,
+   "e": 203.72
+  },
+  {
+   "w": "higher",
+   "s": 203.72,
+   "e": 203.98
+  },
+  {
+   "w": "levels",
+   "s": 203.98,
+   "e": 204.32
+  },
+  {
+   "w": "than",
+   "s": 204.32,
+   "e": 204.76
+  },
+  {
+   "w": "people",
+   "s": 204.76,
+   "e": 204.94
+  },
+  {
+   "w": "of",
+   "s": 204.94,
+   "e": 205.22
+  },
+  {
+   "w": "European",
+   "s": 205.22,
+   "e": 205.46
+  },
+  {
+   "w": "or",
+   "s": 205.46,
+   "e": 206.02
+  },
+  {
+   "w": "Asian",
+   "s": 206.02,
+   "e": 206.28
+  },
+  {
+   "w": "descent.",
+   "s": 206.28,
+   "e": 206.66
+  },
+  {
+   "w": "Does",
+   "s": 207.22,
+   "e": 207.34
+  },
+  {
+   "w": "it",
+   "s": 207.34,
+   "e": 207.46
+  },
+  {
+   "w": "change",
+   "s": 207.46,
+   "e": 207.66
+  },
+  {
+   "w": "as",
+   "s": 207.66,
+   "e": 208.1
+  },
+  {
+   "w": "I",
+   "s": 208.1,
+   "e": 208.24
+  },
+  {
+   "w": "get",
+   "s": 208.24,
+   "e": 208.4
+  },
+  {
+   "w": "older?",
+   "s": 208.4,
+   "e": 208.64
+  },
+  {
+   "w": "Not",
+   "s": 209.38,
+   "e": 209.58
+  },
+  {
+   "w": "much,",
+   "s": 209.58,
+   "e": 209.8
+  },
+  {
+   "w": "it's",
+   "s": 209.86,
+   "e": 210.24
+  },
+  {
+   "w": "mostly",
+   "s": 210.24,
+   "e": 210.44
+  },
+  {
+   "w": "fixed",
+   "s": 210.44,
+   "e": 210.86
+  },
+  {
+   "w": "from",
+   "s": 210.86,
+   "e": 211.1
+  },
+  {
+   "w": "early",
+   "s": 211.1,
+   "e": 211.32
+  },
+  {
+   "w": "childhood.",
+   "s": 211.32,
+   "e": 211.72
+  },
+  {
+   "w": "That's",
+   "s": 212.34,
+   "e": 212.52
+  },
+  {
+   "w": "why",
+   "s": 212.52,
+   "e": 212.66
+  },
+  {
+   "w": "one",
+   "s": 212.66,
+   "e": 212.88
+  },
+  {
+   "w": "test",
+   "s": 212.88,
+   "e": 213.18
+  },
+  {
+   "w": "can",
+   "s": 213.18,
+   "e": 213.48
+  },
+  {
+   "w": "tell",
+   "s": 213.48,
+   "e": 213.68
+  },
+  {
+   "w": "you",
+   "s": 213.68,
+   "e": 213.88
+  },
+  {
+   "w": "your",
+   "s": 213.88,
+   "e": 214.02
+  },
+  {
+   "w": "level",
+   "s": 214.02,
+   "e": 214.28
+  },
+  {
+   "w": "for",
+   "s": 214.28,
+   "e": 214.48
+  },
+  {
+   "w": "life.",
+   "s": 214.48,
+   "e": 214.72
+  },
+  {
+   "w": "Some",
+   "s": 215.4,
+   "e": 215.96
+  },
+  {
+   "w": "experts",
+   "s": 215.96,
+   "e": 216.34
+  },
+  {
+   "w": "also",
+   "s": 216.34,
+   "e": 216.72
+  },
+  {
+   "w": "suggest",
+   "s": 216.72,
+   "e": 217.22
+  },
+  {
+   "w": "testing",
+   "s": 217.22,
+   "e": 217.6
+  },
+  {
+   "w": "children",
+   "s": 217.6,
+   "e": 218.08
+  },
+  {
+   "w": "when",
+   "s": 218.08,
+   "e": 218.6
+  },
+  {
+   "w": "a",
+   "s": 218.6,
+   "e": 218.68
+  },
+  {
+   "w": "parent",
+   "s": 218.68,
+   "e": 219.0
+  },
+  {
+   "w": "has",
+   "s": 219.0,
+   "e": 219.26
+  },
+  {
+   "w": "very",
+   "s": 219.26,
+   "e": 219.52
+  },
+  {
+   "w": "high",
+   "s": 219.52,
+   "e": 219.78
+  },
+  {
+   "w": "levels,",
+   "s": 219.78,
+   "e": 220.12
+  },
+  {
+   "w": "or",
+   "s": 220.6,
+   "e": 220.78
+  },
+  {
+   "w": "when",
+   "s": 220.78,
+   "e": 220.96
+  },
+  {
+   "w": "heart",
+   "s": 220.96,
+   "e": 221.16
+  },
+  {
+   "w": "disease",
+   "s": 221.16,
+   "e": 221.52
+  },
+  {
+   "w": "struck",
+   "s": 221.52,
+   "e": 221.9
+  },
+  {
+   "w": "the",
+   "s": 221.9,
+   "e": 222.14
+  },
+  {
+   "w": "family",
+   "s": 222.14,
+   "e": 222.44
+  },
+  {
+   "w": "early.",
+   "s": 222.44,
+   "e": 222.76
+  },
+  {
+   "w": "Why",
+   "s": 224.96,
+   "e": 225.36
+  },
+  {
+   "w": "haven't",
+   "s": 225.36,
+   "e": 225.78
+  },
+  {
+   "w": "I",
+   "s": 225.78,
+   "e": 225.84
+  },
+  {
+   "w": "been",
+   "s": 225.84,
+   "e": 225.96
+  },
+  {
+   "w": "tested?",
+   "s": 225.96,
+   "e": 226.22
+  },
+  {
+   "w": "Because",
+   "s": 226.96,
+   "e": 227.16
+  },
+  {
+   "w": "a",
+   "s": 227.16,
+   "e": 227.28
+  },
+  {
+   "w": "standard",
+   "s": 227.28,
+   "e": 227.7
+  },
+  {
+   "w": "cholesterol",
+   "s": 227.7,
+   "e": 227.96
+  },
+  {
+   "w": "test",
+   "s": 227.96,
+   "e": 228.74
+  },
+  {
+   "w": "doesn't",
+   "s": 228.74,
+   "e": 229.24
+  },
+  {
+   "w": "measure",
+   "s": 229.24,
+   "e": 229.46
+  },
+  {
+   "w": "it.",
+   "s": 229.46,
+   "e": 229.74
+  },
+  {
+   "w": "Your",
+   "s": 230.2,
+   "e": 230.26
+  },
+  {
+   "w": "doctor",
+   "s": 230.26,
+   "e": 230.54
+  },
+  {
+   "w": "has",
+   "s": 230.54,
+   "e": 230.82
+  },
+  {
+   "w": "to",
+   "s": 230.82,
+   "e": 230.96
+  },
+  {
+   "w": "order",
+   "s": 230.96,
+   "e": 231.2
+  },
+  {
+   "w": "it",
+   "s": 231.2,
+   "e": 231.38
+  },
+  {
+   "w": "separately.",
+   "s": 231.38,
+   "e": 231.62
+  },
+  {
+   "w": "There's",
+   "s": 232.92,
+   "e": 233.1
+  },
+  {
+   "w": "a",
+   "s": 233.1,
+   "e": 233.16
+  },
+  {
+   "w": "twist",
+   "s": 233.16,
+   "e": 233.4
+  },
+  {
+   "w": "too.",
+   "s": 233.4,
+   "e": 233.84
+  },
+  {
+   "w": "The",
+   "s": 234.42,
+   "e": 234.44
+  },
+  {
+   "w": "LDL",
+   "s": 234.44,
+   "e": 234.6
+  },
+  {
+   "w": "number",
+   "s": 234.6,
+   "e": 235.24
+  },
+  {
+   "w": "on",
+   "s": 235.24,
+   "e": 235.38
+  },
+  {
+   "w": "your",
+   "s": 235.38,
+   "e": 235.5
+  },
+  {
+   "w": "report",
+   "s": 235.5,
+   "e": 235.8
+  },
+  {
+   "w": "actually",
+   "s": 235.8,
+   "e": 236.48
+  },
+  {
+   "w": "includes",
+   "s": 236.48,
+   "e": 236.94
+  },
+  {
+   "w": "the",
+   "s": 236.94,
+   "e": 237.2
+  },
+  {
+   "w": "cholesterol",
+   "s": 237.2,
+   "e": 237.7
+  },
+  {
+   "w": "inside",
+   "s": 237.7,
+   "e": 238.06
+  },
+  {
+   "w": "little",
+   "s": 238.06,
+   "e": 238.56
+  },
+  {
+   "w": "aparticles.",
+   "s": 238.56,
+   "e": 239.14
+  },
+  {
+   "w": "So",
+   "s": 239.7,
+   "e": 239.92
+  },
+  {
+   "w": "someone",
+   "s": 239.92,
+   "e": 240.26
+  },
+  {
+   "w": "with",
+   "s": 240.26,
+   "e": 240.42
+  },
+  {
+   "w": "high",
+   "s": 240.42,
+   "e": 240.6
+  },
+  {
+   "w": "little",
+   "s": 240.6,
+   "e": 240.88
+  },
+  {
+   "w": "can",
+   "s": 240.88,
+   "e": 241.14
+  },
+  {
+   "w": "look",
+   "s": 241.14,
+   "e": 241.4
+  },
+  {
+   "w": "like",
+   "s": 241.4,
+   "e": 241.62
+  },
+  {
+   "w": "they",
+   "s": 241.62,
+   "e": 241.76
+  },
+  {
+   "w": "just",
+   "s": 241.76,
+   "e": 241.96
+  },
+  {
+   "w": "have",
+   "s": 241.96,
+   "e": 242.12
+  },
+  {
+   "w": "slightly",
+   "s": 242.12,
+   "e": 242.44
+  },
+  {
+   "w": "high",
+   "s": 242.44,
+   "e": 242.86
+  },
+  {
+   "w": "LDL.",
+   "s": 242.86,
+   "e": 243.16
+  },
+  {
+   "w": "More",
+   "s": 243.16,
+   "e": 244.04
+  },
+  {
+   "w": "and",
+   "s": 244.04,
+   "e": 244.14
+  },
+  {
+   "w": "more",
+   "s": 244.14,
+   "e": 244.26
+  },
+  {
+   "w": "experts",
+   "s": 244.26,
+   "e": 244.56
+  },
+  {
+   "w": "say",
+   "s": 244.56,
+   "e": 245.04
+  },
+  {
+   "w": "everyone",
+   "s": 245.04,
+   "e": 245.34
+  },
+  {
+   "w": "should",
+   "s": 245.34,
+   "e": 245.66
+  },
+  {
+   "w": "be",
+   "s": 245.66,
+   "e": 245.78
+  },
+  {
+   "w": "tested",
+   "s": 245.78,
+   "e": 246.06
+  },
+  {
+   "w": "once.",
+   "s": 246.06,
+   "e": 246.36
+  },
+  {
+   "w": "European",
+   "s": 247.18,
+   "e": 247.42
+  },
+  {
+   "w": "and",
+   "s": 247.42,
+   "e": 247.88
+  },
+  {
+   "w": "Canadian",
+   "s": 247.88,
+   "e": 248.26
+  },
+  {
+   "w": "guidelines",
+   "s": 248.26,
+   "e": 248.78
+  },
+  {
+   "w": "already",
+   "s": 248.78,
+   "e": 249.36
+  },
+  {
+   "w": "recommend",
+   "s": 249.36,
+   "e": 249.78
+  },
+  {
+   "w": "it",
+   "s": 249.78,
+   "e": 250.08
+  },
+  {
+   "w": "for",
+   "s": 250.08,
+   "e": 250.26
+  },
+  {
+   "w": "all",
+   "s": 250.26,
+   "e": 250.46
+  },
+  {
+   "w": "adults,",
+   "s": 250.46,
+   "e": 250.76
+  },
+  {
+   "w": "and",
+   "s": 251.24,
+   "e": 251.44
+  },
+  {
+   "w": "in",
+   "s": 251.44,
+   "e": 251.52
+  },
+  {
+   "w": "2024,",
+   "s": 251.52,
+   "e": 252.1
+  },
+  {
+   "w": "the",
+   "s": 252.8,
+   "e": 252.86
+  },
+  {
+   "w": "U",
+   "s": 252.86,
+   "e": 253.0
+  },
+  {
+   "w": ".S.",
+   "s": 253.0,
+   "e": 253.12
+  },
+  {
+   "w": "National",
+   "s": 253.54,
+   "e": 253.54
+  },
+  {
+   "w": "Lipid",
+   "s": 253.54,
+   "e": 253.9
+  },
+  {
+   "w": "Association",
+   "s": 253.9,
+   "e": 254.18
+  },
+  {
+   "w": "backed",
+   "s": 254.18,
+   "e": 254.82
+  },
+  {
+   "w": "testing",
+   "s": 254.82,
+   "e": 255.2
+  },
+  {
+   "w": "for",
+   "s": 255.2,
+   "e": 255.56
+  },
+  {
+   "w": "every",
+   "s": 255.56,
+   "e": 255.8
+  },
+  {
+   "w": "adult",
+   "s": 255.8,
+   "e": 256.12
+  },
+  {
+   "w": "too.",
+   "s": 256.12,
+   "e": 256.42
+  },
+  {
+   "w": "U",
+   "s": 256.86,
+   "e": 256.96
+  },
+  {
+   "w": ".S.",
+   "s": 256.96,
+   "e": 257.12
+  },
+  {
+   "w": "guidelines",
+   "s": 257.54,
+   "e": 257.54
+  },
+  {
+   "w": "treat",
+   "s": 257.54,
+   "e": 257.96
+  },
+  {
+   "w": "a",
+   "s": 257.96,
+   "e": 258.12
+  },
+  {
+   "w": "level",
+   "s": 258.12,
+   "e": 258.34
+  },
+  {
+   "w": "of",
+   "s": 258.34,
+   "e": 258.48
+  },
+  {
+   "w": "50",
+   "s": 258.48,
+   "e": 258.78
+  },
+  {
+   "w": "milligrams",
+   "s": 258.78,
+   "e": 259.32
+  },
+  {
+   "w": "per",
+   "s": 259.32,
+   "e": 259.52
+  },
+  {
+   "w": "deciliter,",
+   "s": 259.52,
+   "e": 260.06
+  },
+  {
+   "w": "or",
+   "s": 260.5,
+   "e": 260.7
+  },
+  {
+   "w": "about",
+   "s": 260.7,
+   "e": 260.9
+  },
+  {
+   "w": "125",
+   "s": 260.9,
+   "e": 261.9
+  },
+  {
+   "w": "nanomoles",
+   "s": 261.9,
+   "e": 262.6
+  },
+  {
+   "w": "per",
+   "s": 262.6,
+   "e": 262.88
+  },
+  {
+   "w": "liter,",
+   "s": 262.88,
+   "e": 263.1
+  },
+  {
+   "w": "as",
+   "s": 263.62,
+   "e": 263.76
+  },
+  {
+   "w": "a",
+   "s": 263.76,
+   "e": 263.86
+  },
+  {
+   "w": "red",
+   "s": 263.86,
+   "e": 264.02
+  },
+  {
+   "w": "flag",
+   "s": 264.02,
+   "e": 264.32
+  },
+  {
+   "w": "that",
+   "s": 264.32,
+   "e": 264.82
+  },
+  {
+   "w": "raises",
+   "s": 264.82,
+   "e": 265.1
+  },
+  {
+   "w": "your",
+   "s": 265.1,
+   "e": 265.48
+  },
+  {
+   "w": "overall",
+   "s": 265.48,
+   "e": 265.86
+  },
+  {
+   "w": "risk.",
+   "s": 265.86,
+   "e": 266.36
+  },
+  {
+   "w": "One",
+   "s": 266.82,
+   "e": 266.9
+  },
+  {
+   "w": "warning",
+   "s": 266.9,
+   "e": 267.14
+  },
+  {
+   "w": "about",
+   "s": 267.14,
+   "e": 267.52
+  },
+  {
+   "w": "units.",
+   "s": 267.52,
+   "e": 267.82
+  },
+  {
+   "w": "Some",
+   "s": 268.4,
+   "e": 268.74
+  },
+  {
+   "w": "labs",
+   "s": 268.74,
+   "e": 268.92
+  },
+  {
+   "w": "report",
+   "s": 268.92,
+   "e": 269.34
+  },
+  {
+   "w": "it",
+   "s": 269.34,
+   "e": 269.58
+  },
+  {
+   "w": "in",
+   "s": 269.58,
+   "e": 269.74
+  },
+  {
+   "w": "milligrams",
+   "s": 269.74,
+   "e": 270.18
+  },
+  {
+   "w": "per",
+   "s": 270.18,
+   "e": 270.44
+  },
+  {
+   "w": "deciliter.",
+   "s": 270.44,
+   "e": 270.96
+  },
+  {
+   "w": "Others",
+   "s": 270.96,
+   "e": 271.58
+  },
+  {
+   "w": "in",
+   "s": 271.58,
+   "e": 271.82
+  },
+  {
+   "w": "nanomoles",
+   "s": 271.82,
+   "e": 272.36
+  },
+  {
+   "w": "per",
+   "s": 272.36,
+   "e": 272.6
+  },
+  {
+   "w": "liter,",
+   "s": 272.6,
+   "e": 272.84
+  },
+  {
+   "w": "and",
+   "s": 273.32,
+   "e": 273.38
+  },
+  {
+   "w": "you",
+   "s": 273.38,
+   "e": 273.48
+  },
+  {
+   "w": "can't",
+   "s": 273.48,
+   "e": 273.74
+  },
+  {
+   "w": "simply",
+   "s": 273.74,
+   "e": 274.0
+  },
+  {
+   "w": "convert",
+   "s": 274.0,
+   "e": 274.34
+  },
+  {
+   "w": "between",
+   "s": 274.34,
+   "e": 274.74
+  },
+  {
+   "w": "them.",
+   "s": 274.74,
+   "e": 275.02
+  },
+  {
+   "w": "So",
+   "s": 275.62,
+   "e": 275.7
+  },
+  {
+   "w": "always",
+   "s": 275.7,
+   "e": 275.98
+  },
+  {
+   "w": "check",
+   "s": 275.98,
+   "e": 276.26
+  },
+  {
+   "w": "which",
+   "s": 276.26,
+   "e": 276.48
+  },
+  {
+   "w": "unit",
+   "s": 276.48,
+   "e": 276.78
+  },
+  {
+   "w": "your",
+   "s": 276.78,
+   "e": 276.96
+  },
+  {
+   "w": "result",
+   "s": 276.96,
+   "e": 277.26
+  },
+  {
+   "w": "uses.",
+   "s": 277.26,
+   "e": 277.6
+  },
+  {
+   "w": "What",
+   "s": 278.24,
+   "e": 278.44
+  },
+  {
+   "w": "if",
+   "s": 278.44,
+   "e": 278.54
+  },
+  {
+   "w": "my",
+   "s": 278.54,
+   "e": 278.72
+  },
+  {
+   "w": "number",
+   "s": 278.72,
+   "e": 278.96
+  },
+  {
+   "w": "is",
+   "s": 278.96,
+   "e": 279.2
+  },
+  {
+   "w": "high?",
+   "s": 279.2,
+   "e": 279.42
+  },
+  {
+   "w": "Then",
+   "s": 280.04,
+   "e": 280.2
+  },
+  {
+   "w": "the",
+   "s": 280.2,
+   "e": 280.3
+  },
+  {
+   "w": "other",
+   "s": 280.3,
+   "e": 280.4
+  },
+  {
+   "w": "risks",
+   "s": 280.4,
+   "e": 280.7
+  },
+  {
+   "w": "matter",
+   "s": 280.7,
+   "e": 281.04
+  },
+  {
+   "w": "even",
+   "s": 281.04,
+   "e": 281.4
+  },
+  {
+   "w": "more.",
+   "s": 281.4,
+   "e": 281.72
+  },
+  {
+   "w": "Doctors",
+   "s": 282.32,
+   "e": 282.6
+  },
+  {
+   "w": "usually",
+   "s": 282.6,
+   "e": 282.88
+  },
+  {
+   "w": "push",
+   "s": 282.88,
+   "e": 283.26
+  },
+  {
+   "w": "harder",
+   "s": 283.26,
+   "e": 283.62
+  },
+  {
+   "w": "on",
+   "s": 283.62,
+   "e": 283.82
+  },
+  {
+   "w": "LDL",
+   "s": 283.82,
+   "e": 284.02
+  },
+  {
+   "w": "cholesterol,",
+   "s": 284.02,
+   "e": 284.74
+  },
+  {
+   "w": "blood",
+   "s": 285.26,
+   "e": 285.42
+  },
+  {
+   "w": "pressure,",
+   "s": 285.42,
+   "e": 285.82
+  },
+  {
+   "w": "blood",
+   "s": 286.18,
+   "e": 286.34
+  },
+  {
+   "w": "sugar",
+   "s": 286.34,
+   "e": 286.68
+  },
+  {
+   "w": "and",
+   "s": 286.68,
+   "e": 286.86
+  },
+  {
+   "w": "smoking,",
+   "s": 286.86,
+   "e": 287.14
+  },
+  {
+   "w": "because",
+   "s": 287.72,
+   "e": 288.0
+  },
+  {
+   "w": "high",
+   "s": 288.0,
+   "e": 288.24
+  },
+  {
+   "w": "little",
+   "s": 288.24,
+   "e": 288.52
+  },
+  {
+   "w": "are",
+   "s": 288.52,
+   "e": 288.7
+  },
+  {
+   "w": "adds",
+   "s": 288.7,
+   "e": 288.92
+  },
+  {
+   "w": "to",
+   "s": 288.92,
+   "e": 289.18
+  },
+  {
+   "w": "all",
+   "s": 289.18,
+   "e": 289.38
+  },
+  {
+   "w": "of",
+   "s": 289.38,
+   "e": 289.48
+  },
+  {
+   "w": "them.",
+   "s": 289.48,
+   "e": 289.64
+  },
+  {
+   "w": "Families",
+   "s": 290.04,
+   "e": 290.3
+  },
+  {
+   "w": "matter",
+   "s": 290.3,
+   "e": 290.68
+  },
+  {
+   "w": "too.",
+   "s": 290.68,
+   "e": 291.04
+  },
+  {
+   "w": "If",
+   "s": 291.46,
+   "e": 291.56
+  },
+  {
+   "w": "you",
+   "s": 291.56,
+   "e": 291.66
+  },
+  {
+   "w": "have",
+   "s": 291.66,
+   "e": 291.78
+  },
+  {
+   "w": "high",
+   "s": 291.78,
+   "e": 292.0
+  },
+  {
+   "w": "little",
+   "s": 292.0,
+   "e": 292.24
+  },
+  {
+   "w": "A,",
+   "s": 292.24,
+   "e": 292.46
+  },
+  {
+   "w": "there's",
+   "s": 292.62,
+   "e": 292.82
+  },
+  {
+   "w": "a",
+   "s": 292.82,
+   "e": 292.9
+  },
+  {
+   "w": "good",
+   "s": 292.9,
+   "e": 293.02
+  },
+  {
+   "w": "chance",
+   "s": 293.02,
+   "e": 293.26
+  },
+  {
+   "w": "your",
+   "s": 293.26,
+   "e": 293.54
+  },
+  {
+   "w": "parents,",
+   "s": 293.54,
+   "e": 293.9
+  },
+  {
+   "w": "brothers,",
+   "s": 294.22,
+   "e": 294.42
+  },
+  {
+   "w": "sisters",
+   "s": 294.86,
+   "e": 295.16
+  },
+  {
+   "w": "and",
+   "s": 295.16,
+   "e": 295.44
+  },
+  {
+   "w": "children",
+   "s": 295.44,
+   "e": 295.7
+  },
+  {
+   "w": "do",
+   "s": 295.7,
+   "e": 296.02
+  },
+  {
+   "w": "as",
+   "s": 296.02,
+   "e": 296.16
+  },
+  {
+   "w": "well.",
+   "s": 296.16,
+   "e": 296.36
+  },
+  {
+   "w": "One",
+   "s": 297.0,
+   "e": 297.1
+  },
+  {
+   "w": "test",
+   "s": 297.1,
+   "e": 297.38
+  },
+  {
+   "w": "in",
+   "s": 297.38,
+   "e": 297.58
+  },
+  {
+   "w": "a",
+   "s": 297.58,
+   "e": 297.66
+  },
+  {
+   "w": "family",
+   "s": 297.66,
+   "e": 297.94
+  },
+  {
+   "w": "can",
+   "s": 297.94,
+   "e": 298.2
+  },
+  {
+   "w": "lead",
+   "s": 298.2,
+   "e": 298.38
+  },
+  {
+   "w": "to",
+   "s": 298.38,
+   "e": 298.52
+  },
+  {
+   "w": "many",
+   "s": 298.52,
+   "e": 298.66
+  },
+  {
+   "w": "more.",
+   "s": 298.66,
+   "e": 298.92
+  },
+  {
+   "w": "Who",
+   "s": 298.92,
+   "e": 299.5
+  },
+  {
+   "w": "should",
+   "s": 299.5,
+   "e": 299.64
+  },
+  {
+   "w": "be",
+   "s": 299.64,
+   "e": 299.76
+  },
+  {
+   "w": "most",
+   "s": 299.76,
+   "e": 299.9
+  },
+  {
+   "w": "worried?",
+   "s": 299.9,
+   "e": 300.38
+  },
+  {
+   "w": "People",
+   "s": 301.06,
+   "e": 301.22
+  },
+  {
+   "w": "who",
+   "s": 301.22,
+   "e": 301.5
+  },
+  {
+   "w": "had",
+   "s": 301.5,
+   "e": 301.62
+  },
+  {
+   "w": "a",
+   "s": 301.62,
+   "e": 301.7
+  },
+  {
+   "w": "heart",
+   "s": 301.7,
+   "e": 301.9
+  },
+  {
+   "w": "attack",
+   "s": 301.9,
+   "e": 302.26
+  },
+  {
+   "w": "or",
+   "s": 302.26,
+   "e": 302.5
+  },
+  {
+   "w": "stroke",
+   "s": 302.5,
+   "e": 302.72
+  },
+  {
+   "w": "young,",
+   "s": 302.72,
+   "e": 303.08
+  },
+  {
+   "w": "especially",
+   "s": 303.44,
+   "e": 303.8
+  },
+  {
+   "w": "with",
+   "s": 303.8,
+   "e": 304.18
+  },
+  {
+   "w": "normal",
+   "s": 304.18,
+   "e": 304.44
+  },
+  {
+   "w": "cholesterol.",
+   "s": 304.44,
+   "e": 304.8
+  },
+  {
+   "w": "People",
+   "s": 305.72,
+   "e": 305.82
+  },
+  {
+   "w": "whose",
+   "s": 305.82,
+   "e": 306.1
+  },
+  {
+   "w": "parents",
+   "s": 306.1,
+   "e": 306.42
+  },
+  {
+   "w": "or",
+   "s": 306.42,
+   "e": 306.8
+  },
+  {
+   "w": "siblings",
+   "s": 306.8,
+   "e": 307.12
+  },
+  {
+   "w": "had",
+   "s": 307.12,
+   "e": 307.54
+  },
+  {
+   "w": "heart",
+   "s": 307.54,
+   "e": 307.74
+  },
+  {
+   "w": "disease",
+   "s": 307.74,
+   "e": 308.08
+  },
+  {
+   "w": "early,",
+   "s": 308.08,
+   "e": 308.48
+  },
+  {
+   "w": "and",
+   "s": 309.02,
+   "e": 309.12
+  },
+  {
+   "w": "people",
+   "s": 309.12,
+   "e": 309.42
+  },
+  {
+   "w": "whose",
+   "s": 309.42,
+   "e": 309.6
+  },
+  {
+   "w": "heart",
+   "s": 309.6,
+   "e": 309.86
+  },
+  {
+   "w": "disease",
+   "s": 309.86,
+   "e": 310.18
+  },
+  {
+   "w": "keeps",
+   "s": 310.18,
+   "e": 310.5
+  },
+  {
+   "w": "getting",
+   "s": 310.5,
+   "e": 310.9
+  },
+  {
+   "w": "worse",
+   "s": 310.9,
+   "e": 311.18
+  },
+  {
+   "w": "despite",
+   "s": 311.18,
+   "e": 311.42
+  },
+  {
+   "w": "good",
+   "s": 311.42,
+   "e": 311.92
+  },
+  {
+   "w": "treatment.",
+   "s": 311.92,
+   "e": 312.26
+  },
+  {
+   "w": "For",
+   "s": 312.86,
+   "e": 312.98
+  },
+  {
+   "w": "them,",
+   "s": 312.98,
+   "e": 313.16
+  },
+  {
+   "w": "high",
+   "s": 313.46,
+   "e": 313.66
+  },
+  {
+   "w": "little",
+   "s": 313.66,
+   "e": 313.96
+  },
+  {
+   "w": "are",
+   "s": 313.96,
+   "e": 314.24
+  },
+  {
+   "w": "can",
+   "s": 314.24,
+   "e": 314.4
+  },
+  {
+   "w": "be",
+   "s": 314.4,
+   "e": 314.52
+  },
+  {
+   "w": "the",
+   "s": 314.52,
+   "e": 314.62
+  },
+  {
+   "w": "missing",
+   "s": 314.62,
+   "e": 314.82
+  },
+  {
+   "w": "piece",
+   "s": 314.82,
+   "e": 315.14
+  },
+  {
+   "w": "of",
+   "s": 315.14,
+   "e": 315.32
+  },
+  {
+   "w": "the",
+   "s": 315.32,
+   "e": 315.42
+  },
+  {
+   "w": "puzzle.",
+   "s": 315.42,
+   "e": 315.68
+  },
+  {
+   "w": "So",
+   "s": 318.84,
+   "e": 318.96
+  },
+  {
+   "w": "what",
+   "s": 318.96,
+   "e": 319.14
+  },
+  {
+   "w": "happened",
+   "s": 319.14,
+   "e": 319.46
+  },
+  {
+   "w": "in",
+   "s": 319.46,
+   "e": 319.64
+  },
+  {
+   "w": "that",
+   "s": 319.64,
+   "e": 319.76
+  },
+  {
+   "w": "big",
+   "s": 319.76,
+   "e": 319.92
+  },
+  {
+   "w": "trial?",
+   "s": 319.92,
+   "e": 320.22
+  },
+  {
+   "w": "It",
+   "s": 321.02,
+   "e": 321.08
+  },
+  {
+   "w": "was",
+   "s": 321.08,
+   "e": 321.18
+  },
+  {
+   "w": "called",
+   "s": 321.18,
+   "e": 321.42
+  },
+  {
+   "w": "LP,",
+   "s": 321.42,
+   "e": 321.74
+  },
+  {
+   "w": "a",
+   "s": 322.18,
+   "e": 322.22
+  },
+  {
+   "w": "horizon.",
+   "s": 322.22,
+   "e": 322.54
+  },
+  {
+   "w": "More",
+   "s": 323.5,
+   "e": 323.58
+  },
+  {
+   "w": "than",
+   "s": 323.58,
+   "e": 323.7
+  },
+  {
+   "w": "8",
+   "s": 323.7,
+   "e": 323.9
+  },
+  {
+   "w": ",000",
+   "s": 323.9,
+   "e": 324.34
+  },
+  {
+   "w": "people",
+   "s": 324.34,
+   "e": 324.7
+  },
+  {
+   "w": "who'd",
+   "s": 324.7,
+   "e": 324.96
+  },
+  {
+   "w": "already",
+   "s": 324.96,
+   "e": 325.12
+  },
+  {
+   "w": "had",
+   "s": 325.12,
+   "e": 325.32
+  },
+  {
+   "w": "a",
+   "s": 325.32,
+   "e": 325.4
+  },
+  {
+   "w": "heart",
+   "s": 325.4,
+   "e": 325.58
+  },
+  {
+   "w": "attack",
+   "s": 325.58,
+   "e": 325.78
+  },
+  {
+   "w": "or",
+   "s": 325.78,
+   "e": 326.04
+  },
+  {
+   "w": "stroke",
+   "s": 326.04,
+   "e": 326.34
+  },
+  {
+   "w": "got",
+   "s": 326.34,
+   "e": 326.84
+  },
+  {
+   "w": "a",
+   "s": 326.84,
+   "e": 326.92
+  },
+  {
+   "w": "monthly",
+   "s": 326.92,
+   "e": 327.1
+  },
+  {
+   "w": "shot",
+   "s": 327.1,
+   "e": 327.5
+  },
+  {
+   "w": "of",
+   "s": 327.5,
+   "e": 327.66
+  },
+  {
+   "w": "a",
+   "s": 327.66,
+   "e": 327.74
+  },
+  {
+   "w": "drug",
+   "s": 327.74,
+   "e": 327.9
+  },
+  {
+   "w": "called",
+   "s": 327.9,
+   "e": 328.28
+  },
+  {
+   "w": "Pella",
+   "s": 328.28,
+   "e": 328.6
+  },
+  {
+   "w": "Carson,",
+   "s": 328.6,
+   "e": 328.84
+  },
+  {
+   "w": "or",
+   "s": 329.4,
+   "e": 329.6
+  },
+  {
+   "w": "a",
+   "s": 329.6,
+   "e": 329.66
+  },
+  {
+   "w": "placebo",
+   "s": 329.66,
+   "e": 329.88
+  },
+  {
+   "w": "for",
+   "s": 329.88,
+   "e": 330.48
+  },
+  {
+   "w": "almost",
+   "s": 330.48,
+   "e": 330.78
+  },
+  {
+   "w": "five",
+   "s": 330.78,
+   "e": 331.12
+  },
+  {
+   "w": "years.",
+   "s": 331.12,
+   "e": 331.44
+  },
+  {
+   "w": "The",
+   "s": 331.98,
+   "e": 332.06
+  },
+  {
+   "w": "drug",
+   "s": 332.06,
+   "e": 332.28
+  },
+  {
+   "w": "worked",
+   "s": 332.28,
+   "e": 332.6
+  },
+  {
+   "w": "on",
+   "s": 332.6,
+   "e": 332.82
+  },
+  {
+   "w": "the",
+   "s": 332.82,
+   "e": 332.92
+  },
+  {
+   "w": "number.",
+   "s": 332.92,
+   "e": 333.22
+  },
+  {
+   "w": "It",
+   "s": 333.7,
+   "e": 333.8
+  },
+  {
+   "w": "cut",
+   "s": 333.8,
+   "e": 333.96
+  },
+  {
+   "w": "little",
+   "s": 333.96,
+   "e": 334.2
+  },
+  {
+   "w": "by",
+   "s": 334.2,
+   "e": 334.48
+  },
+  {
+   "w": "about",
+   "s": 334.48,
+   "e": 334.74
+  },
+  {
+   "w": "78%,",
+   "s": 334.74,
+   "e": 335.8
+  },
+  {
+   "w": "but",
+   "s": 335.8,
+   "e": 336.44
+  },
+  {
+   "w": "major",
+   "s": 336.44,
+   "e": 336.6
+  },
+  {
+   "w": "heart",
+   "s": 336.6,
+   "e": 337.0
+  },
+  {
+   "w": "events",
+   "s": 337.0,
+   "e": 337.34
+  },
+  {
+   "w": "happened",
+   "s": 337.34,
+   "e": 337.68
+  },
+  {
+   "w": "to",
+   "s": 337.68,
+   "e": 337.94
+  },
+  {
+   "w": "12",
+   "s": 337.94,
+   "e": 338.2
+  },
+  {
+   "w": ".3",
+   "s": 338.2,
+   "e": 338.78
+  },
+  {
+   "w": "%",
+   "s": 338.78,
+   "e": 339.06
+  },
+  {
+   "w": "of",
+   "s": 339.06,
+   "e": 339.28
+  },
+  {
+   "w": "the",
+   "s": 339.28,
+   "e": 339.38
+  },
+  {
+   "w": "drug",
+   "s": 339.38,
+   "e": 339.54
+  },
+  {
+   "w": "group,",
+   "s": 339.54,
+   "e": 339.84
+  },
+  {
+   "w": "and",
+   "s": 340.22,
+   "e": 340.36
+  },
+  {
+   "w": "12",
+   "s": 340.36,
+   "e": 340.58
+  },
+  {
+   "w": ".1",
+   "s": 340.58,
+   "e": 341.16
+  },
+  {
+   "w": "%",
+   "s": 341.16,
+   "e": 341.48
+  },
+  {
+   "w": "of",
+   "s": 341.48,
+   "e": 341.72
+  },
+  {
+   "w": "the",
+   "s": 341.72,
+   "e": 341.82
+  },
+  {
+   "w": "placebo",
+   "s": 341.82,
+   "e": 342.04
+  },
+  {
+   "w": "group.",
+   "s": 342.04,
+   "e": 342.56
+  },
+  {
+   "w": "No",
+   "s": 343.08,
+   "e": 343.2
+  },
+  {
+   "w": "benefit.",
+   "s": 343.2,
+   "e": 343.5
+  },
+  {
+   "w": "It",
+   "s": 344.2,
+   "e": 344.26
+  },
+  {
+   "w": "also",
+   "s": 344.26,
+   "e": 344.42
+  },
+  {
+   "w": "had",
+   "s": 344.42,
+   "e": 344.82
+  },
+  {
+   "w": "side",
+   "s": 344.82,
+   "e": 345.04
+  },
+  {
+   "w": "effects.",
+   "s": 345.04,
+   "e": 345.4
+  },
+  {
+   "w": "About",
+   "s": 346.2,
+   "e": 346.38
+  },
+  {
+   "w": "a",
+   "s": 346.38,
+   "e": 346.5
+  },
+  {
+   "w": "third",
+   "s": 346.5,
+   "e": 346.72
+  },
+  {
+   "w": "of",
+   "s": 346.72,
+   "e": 346.9
+  },
+  {
+   "w": "patients",
+   "s": 346.9,
+   "e": 347.2
+  },
+  {
+   "w": "on",
+   "s": 347.2,
+   "e": 347.54
+  },
+  {
+   "w": "the",
+   "s": 347.54,
+   "e": 347.66
+  },
+  {
+   "w": "drug",
+   "s": 347.66,
+   "e": 347.86
+  },
+  {
+   "w": "had",
+   "s": 347.86,
+   "e": 348.16
+  },
+  {
+   "w": "flu",
+   "s": 348.16,
+   "e": 348.44
+  },
+  {
+   "w": "-like",
+   "s": 348.44,
+   "e": 348.68
+  },
+  {
+   "w": "reactions",
+   "s": 348.68,
+   "e": 349.0
+  },
+  {
+   "w": "after",
+   "s": 349.0,
+   "e": 349.5
+  },
+  {
+   "w": "the",
+   "s": 349.5,
+   "e": 349.68
+  },
+  {
+   "w": "shots,",
+   "s": 349.68,
+   "e": 349.86
+  },
+  {
+   "w": "and",
+   "s": 350.34,
+   "e": 350.52
+  },
+  {
+   "w": "about",
+   "s": 350.52,
+   "e": 350.66
+  },
+  {
+   "w": "one",
+   "s": 350.66,
+   "e": 350.88
+  },
+  {
+   "w": "in",
+   "s": 350.88,
+   "e": 351.0
+  },
+  {
+   "w": "five",
+   "s": 351.0,
+   "e": 351.24
+  },
+  {
+   "w": "stopped",
+   "s": 351.24,
+   "e": 351.54
+  },
+  {
+   "w": "taking",
+   "s": 351.54,
+   "e": 351.96
+  },
+  {
+   "w": "it",
+   "s": 351.96,
+   "e": 352.18
+  },
+  {
+   "w": "because",
+   "s": 352.18,
+   "e": 352.38
+  },
+  {
+   "w": "of",
+   "s": 352.38,
+   "e": 352.58
+  },
+  {
+   "w": "side",
+   "s": 352.58,
+   "e": 352.84
+  },
+  {
+   "w": "effects.",
+   "s": 352.84,
+   "e": 353.16
+  },
+  {
+   "w": "The",
+   "s": 353.16,
+   "e": 353.92
+  },
+  {
+   "w": "drug",
+   "s": 353.92,
+   "e": 354.08
+  },
+  {
+   "w": "company",
+   "s": 354.08,
+   "e": 354.52
+  },
+  {
+   "w": "has",
+   "s": 354.52,
+   "e": 354.82
+  },
+  {
+   "w": "stopped",
+   "s": 354.82,
+   "e": 355.06
+  },
+  {
+   "w": "developing",
+   "s": 355.06,
+   "e": 355.54
+  },
+  {
+   "w": "it",
+   "s": 355.54,
+   "e": 355.9
+  },
+  {
+   "w": "for",
+   "s": 355.9,
+   "e": 356.12
+  },
+  {
+   "w": "heart",
+   "s": 356.12,
+   "e": 356.3
+  },
+  {
+   "w": "disease.",
+   "s": 356.3,
+   "e": 356.66
+  },
+  {
+   "w": "Does",
+   "s": 357.86,
+   "e": 358.04
+  },
+  {
+   "w": "that",
+   "s": 358.04,
+   "e": 358.24
+  },
+  {
+   "w": "mean",
+   "s": 358.24,
+   "e": 358.48
+  },
+  {
+   "w": "little",
+   "s": 358.48,
+   "e": 358.74
+  },
+  {
+   "w": "it",
+   "s": 358.74,
+   "e": 358.96
+  },
+  {
+   "w": "doesn't",
+   "s": 358.96,
+   "e": 359.26
+  },
+  {
+   "w": "matter?",
+   "s": 359.26,
+   "e": 359.56
+  },
+  {
+   "w": "Not",
+   "s": 360.16,
+   "e": 360.3
+  },
+  {
+   "w": "necessarily.",
+   "s": 360.3,
+   "e": 360.68
+  },
+  {
+   "w": "Experts",
+   "s": 361.44,
+   "e": 361.68
+  },
+  {
+   "w": "have",
+   "s": 361.68,
+   "e": 362.08
+  },
+  {
+   "w": "several",
+   "s": 362.08,
+   "e": 362.32
+  },
+  {
+   "w": "theories.",
+   "s": 362.32,
+   "e": 362.8
+  },
+  {
+   "w": "The",
+   "s": 363.52,
+   "e": 363.54
+  },
+  {
+   "w": "patients",
+   "s": 363.54,
+   "e": 363.84
+  },
+  {
+   "w": "already",
+   "s": 363.84,
+   "e": 364.2
+  },
+  {
+   "w": "had",
+   "s": 364.2,
+   "e": 364.42
+  },
+  {
+   "w": "advanced",
+   "s": 364.42,
+   "e": 364.72
+  },
+  {
+   "w": "disease",
+   "s": 364.72,
+   "e": 365.16
+  },
+  {
+   "w": "may",
+   "s": 365.16,
+   "e": 365.68
+  },
+  {
+   "w": "be",
+   "s": 365.68,
+   "e": 365.82
+  },
+  {
+   "w": "too",
+   "s": 365.82,
+   "e": 366.0
+  },
+  {
+   "w": "late",
+   "s": 366.0,
+   "e": 366.22
+  },
+  {
+   "w": "to",
+   "s": 366.22,
+   "e": 366.44
+  },
+  {
+   "w": "reverse.",
+   "s": 366.44,
+   "e": 366.66
+  },
+  {
+   "w": "Their",
+   "s": 367.28,
+   "e": 367.32
+  },
+  {
+   "w": "other",
+   "s": 367.32,
+   "e": 367.48
+  },
+  {
+   "w": "risks",
+   "s": 367.48,
+   "e": 367.86
+  },
+  {
+   "w": "were",
+   "s": 367.86,
+   "e": 368.08
+  },
+  {
+   "w": "already",
+   "s": 368.08,
+   "e": 368.36
+  },
+  {
+   "w": "very",
+   "s": 368.36,
+   "e": 368.56
+  },
+  {
+   "w": "well",
+   "s": 368.56,
+   "e": 368.86
+  },
+  {
+   "w": "controlled.",
+   "s": 368.86,
+   "e": 369.26
+  },
+  {
+   "w": "Enough",
+   "s": 370.06,
+   "e": 370.08
+  },
+  {
+   "w": "little",
+   "s": 370.08,
+   "e": 370.28
+  },
+  {
+   "w": "are",
+   "s": 370.28,
+   "e": 370.48
+  },
+  {
+   "w": "may",
+   "s": 370.48,
+   "e": 370.64
+  },
+  {
+   "w": "still",
+   "s": 370.64,
+   "e": 370.9
+  },
+  {
+   "w": "have",
+   "s": 370.9,
+   "e": 371.04
+  },
+  {
+   "w": "been",
+   "s": 371.04,
+   "e": 371.18
+  },
+  {
+   "w": "left,",
+   "s": 371.18,
+   "e": 371.44
+  },
+  {
+   "w": "or",
+   "s": 371.94,
+   "e": 372.06
+  },
+  {
+   "w": "five",
+   "s": 372.06,
+   "e": 372.34
+  },
+  {
+   "w": "years",
+   "s": 372.34,
+   "e": 372.62
+  },
+  {
+   "w": "is",
+   "s": 372.62,
+   "e": 372.86
+  },
+  {
+   "w": "simply",
+   "s": 372.86,
+   "e": 373.12
+  },
+  {
+   "w": "too",
+   "s": 373.12,
+   "e": 373.38
+  },
+  {
+   "w": "short",
+   "s": 373.38,
+   "e": 373.72
+  },
+  {
+   "w": "against",
+   "s": 373.72,
+   "e": 373.98
+  },
+  {
+   "w": "a",
+   "s": 373.98,
+   "e": 374.22
+  },
+  {
+   "w": "lifetime",
+   "s": 374.22,
+   "e": 374.4
+  },
+  {
+   "w": "of",
+   "s": 374.4,
+   "e": 374.76
+  },
+  {
+   "w": "exposure.",
+   "s": 374.76,
+   "e": 375.12
+  },
+  {
+   "w": "Some",
+   "s": 375.76,
+   "e": 375.9
+  },
+  {
+   "w": "cardiologists",
+   "s": 375.9,
+   "e": 376.58
+  },
+  {
+   "w": "also",
+   "s": 376.58,
+   "e": 377.02
+  },
+  {
+   "w": "point",
+   "s": 377.02,
+   "e": 377.44
+  },
+  {
+   "w": "out",
+   "s": 377.44,
+   "e": 377.72
+  },
+  {
+   "w": "that",
+   "s": 377.72,
+   "e": 377.94
+  },
+  {
+   "w": "the",
+   "s": 377.94,
+   "e": 378.04
+  },
+  {
+   "w": "trial",
+   "s": 378.04,
+   "e": 378.28
+  },
+  {
+   "w": "tested",
+   "s": 378.28,
+   "e": 378.72
+  },
+  {
+   "w": "people",
+   "s": 378.72,
+   "e": 379.22
+  },
+  {
+   "w": "with",
+   "s": 379.22,
+   "e": 379.6
+  },
+  {
+   "w": "only",
+   "s": 379.6,
+   "e": 379.96
+  },
+  {
+   "w": "moderately",
+   "s": 379.96,
+   "e": 380.28
+  },
+  {
+   "w": "high",
+   "s": 380.28,
+   "e": 380.7
+  },
+  {
+   "w": "levels.",
+   "s": 380.7,
+   "e": 381.04
+  },
+  {
+   "w": "Those",
+   "s": 381.04,
+   "e": 381.88
+  },
+  {
+   "w": "with",
+   "s": 381.88,
+   "e": 382.16
+  },
+  {
+   "w": "the",
+   "s": 382.16,
+   "e": 382.28
+  },
+  {
+   "w": "very",
+   "s": 382.28,
+   "e": 382.46
+  },
+  {
+   "w": "highest",
+   "s": 382.46,
+   "e": 382.9
+  },
+  {
+   "w": "levels",
+   "s": 382.9,
+   "e": 383.22
+  },
+  {
+   "w": "might",
+   "s": 383.22,
+   "e": 383.76
+  },
+  {
+   "w": "still",
+   "s": 383.76,
+   "e": 384.1
+  },
+  {
+   "w": "benefit",
+   "s": 384.1,
+   "e": 384.4
+  },
+  {
+   "w": "from",
+   "s": 384.4,
+   "e": 384.8
+  },
+  {
+   "w": "a",
+   "s": 384.8,
+   "e": 384.86
+  },
+  {
+   "w": "stronger",
+   "s": 384.86,
+   "e": 385.12
+  },
+  {
+   "w": "drug.",
+   "s": 385.12,
+   "e": 385.54
+  },
+  {
+   "w": "Are",
+   "s": 387.9,
+   "e": 388.0
+  },
+  {
+   "w": "there",
+   "s": 388.0,
+   "e": 388.1
+  },
+  {
+   "w": "other",
+   "s": 388.1,
+   "e": 388.32
+  },
+  {
+   "w": "drugs",
+   "s": 388.32,
+   "e": 388.64
+  },
+  {
+   "w": "coming?",
+   "s": 388.64,
+   "e": 389.1
+  },
+  {
+   "w": "Yes,",
+   "s": 389.68,
+   "e": 389.9
+  },
+  {
+   "w": "several.",
+   "s": 390.12,
+   "e": 390.4
+  },
+  {
+   "w": "Drugs",
+   "s": 390.88,
+   "e": 390.96
+  },
+  {
+   "w": "like",
+   "s": 390.96,
+   "e": 391.26
+  },
+  {
+   "w": "Olpa",
+   "s": 391.26,
+   "e": 391.64
+  },
+  {
+   "w": "Seren",
+   "s": 391.64,
+   "e": 391.96
+  },
+  {
+   "w": "and",
+   "s": 391.96,
+   "e": 392.2
+  },
+  {
+   "w": "Lepidus",
+   "s": 392.2,
+   "e": 392.62
+  },
+  {
+   "w": "Seren",
+   "s": 392.62,
+   "e": 392.94
+  },
+  {
+   "w": "use",
+   "s": 392.94,
+   "e": 393.36
+  },
+  {
+   "w": "a",
+   "s": 393.36,
+   "e": 393.54
+  },
+  {
+   "w": "different",
+   "s": 393.54,
+   "e": 393.72
+  },
+  {
+   "w": "method",
+   "s": 393.72,
+   "e": 394.14
+  },
+  {
+   "w": "that",
+   "s": 394.14,
+   "e": 394.4
+  },
+  {
+   "w": "switches",
+   "s": 394.4,
+   "e": 394.58
+  },
+  {
+   "w": "off",
+   "s": 394.58,
+   "e": 394.92
+  },
+  {
+   "w": "the",
+   "s": 394.92,
+   "e": 395.06
+  },
+  {
+   "w": "gene's",
+   "s": 395.06,
+   "e": 395.4
+  },
+  {
+   "w": "message",
+   "s": 395.4,
+   "e": 395.7
+  },
+  {
+   "w": "in",
+   "s": 395.7,
+   "e": 395.88
+  },
+  {
+   "w": "the",
+   "s": 395.88,
+   "e": 395.96
+  },
+  {
+   "w": "liver,",
+   "s": 395.96,
+   "e": 396.14
+  },
+  {
+   "w": "and",
+   "s": 396.74,
+   "e": 396.8
+  },
+  {
+   "w": "they",
+   "s": 396.8,
+   "e": 396.9
+  },
+  {
+   "w": "can",
+   "s": 396.9,
+   "e": 397.04
+  },
+  {
+   "w": "lower",
+   "s": 397.04,
+   "e": 397.32
+  },
+  {
+   "w": "little",
+   "s": 397.32,
+   "e": 397.58
+  },
+  {
+   "w": "by",
+   "s": 397.58,
+   "e": 397.82
+  },
+  {
+   "w": "even",
+   "s": 397.82,
+   "e": 398.2
+  },
+  {
+   "w": "more.",
+   "s": 398.2,
+   "e": 398.46
+  },
+  {
+   "w": "There's",
+   "s": 398.96,
+   "e": 399.1
+  },
+  {
+   "w": "even",
+   "s": 399.1,
+   "e": 399.3
+  },
+  {
+   "w": "a",
+   "s": 399.3,
+   "e": 399.4
+  },
+  {
+   "w": "pill",
+   "s": 399.4,
+   "e": 399.6
+  },
+  {
+   "w": "in",
+   "s": 399.6,
+   "e": 399.76
+  },
+  {
+   "w": "testing",
+   "s": 399.76,
+   "e": 400.06
+  },
+  {
+   "w": "called",
+   "s": 400.06,
+   "e": 400.78
+  },
+  {
+   "w": "Muvolaplin,",
+   "s": 400.78,
+   "e": 401.52
+  },
+  {
+   "w": "which",
+   "s": 401.92,
+   "e": 402.12
+  },
+  {
+   "w": "stops",
+   "s": 402.12,
+   "e": 402.36
+  },
+  {
+   "w": "the",
+   "s": 402.36,
+   "e": 402.6
+  },
+  {
+   "w": "little",
+   "s": 402.6,
+   "e": 402.8
+  },
+  {
+   "w": "a",
+   "s": 402.8,
+   "e": 402.96
+  },
+  {
+   "w": "protein",
+   "s": 402.96,
+   "e": 403.24
+  },
+  {
+   "w": "from",
+   "s": 403.24,
+   "e": 403.68
+  },
+  {
+   "w": "attaching",
+   "s": 403.68,
+   "e": 404.02
+  },
+  {
+   "w": "to",
+   "s": 404.02,
+   "e": 404.36
+  },
+  {
+   "w": "the",
+   "s": 404.36,
+   "e": 404.48
+  },
+  {
+   "w": "LDL",
+   "s": 404.48,
+   "e": 404.66
+  },
+  {
+   "w": "particle",
+   "s": 404.66,
+   "e": 405.28
+  },
+  {
+   "w": "in",
+   "s": 405.28,
+   "e": 405.82
+  },
+  {
+   "w": "the",
+   "s": 405.82,
+   "e": 405.92
+  },
+  {
+   "w": "first",
+   "s": 405.92,
+   "e": 406.12
+  },
+  {
+   "w": "place.",
+   "s": 406.12,
+   "e": 406.46
+  },
+  {
+   "w": "Some",
+   "s": 407.02,
+   "e": 407.28
+  },
+  {
+   "w": "older",
+   "s": 407.28,
+   "e": 407.44
+  },
+  {
+   "w": "drugs",
+   "s": 407.44,
+   "e": 407.82
+  },
+  {
+   "w": "lower",
+   "s": 407.82,
+   "e": 408.16
+  },
+  {
+   "w": "it",
+   "s": 408.16,
+   "e": 408.42
+  },
+  {
+   "w": "a",
+   "s": 408.42,
+   "e": 408.46
+  },
+  {
+   "w": "little.",
+   "s": 408.46,
+   "e": 408.64
+  },
+  {
+   "w": "The",
+   "s": 408.64,
+   "e": 409.28
+  },
+  {
+   "w": "injectable",
+   "s": 409.28,
+   "e": 409.86
+  },
+  {
+   "w": "cholesterol",
+   "s": 409.86,
+   "e": 410.14
+  },
+  {
+   "w": "drugs",
+   "s": 410.14,
+   "e": 410.72
+  },
+  {
+   "w": "called",
+   "s": 410.72,
+   "e": 411.16
+  },
+  {
+   "w": "PCSK9",
+   "s": 411.16,
+   "e": 412.16
+  },
+  {
+   "w": "inhibitors",
+   "s": 412.16,
+   "e": 412.58
+  },
+  {
+   "w": "cut",
+   "s": 412.58,
+   "e": 413.22
+  },
+  {
+   "w": "it",
+   "s": 413.22,
+   "e": 413.38
+  },
+  {
+   "w": "by",
+   "s": 413.38,
+   "e": 413.54
+  },
+  {
+   "w": "roughly",
+   "s": 413.54,
+   "e": 413.84
+  },
+  {
+   "w": "a",
+   "s": 413.84,
+   "e": 414.02
+  },
+  {
+   "w": "quarter.",
+   "s": 414.02,
+   "e": 414.34
+  },
+  {
+   "w": "An",
+   "s": 414.92,
+   "e": 415.1
+  },
+  {
+   "w": "old",
+   "s": 415.1,
+   "e": 415.26
+  },
+  {
+   "w": "vitamin",
+   "s": 415.26,
+   "e": 415.5
+  },
+  {
+   "w": "niacin",
+   "s": 415.5,
+   "e": 416.34
+  },
+  {
+   "w": "lowers",
+   "s": 416.34,
+   "e": 416.74
+  },
+  {
+   "w": "it",
+   "s": 416.74,
+   "e": 417.04
+  },
+  {
+   "w": "too,",
+   "s": 417.04,
+   "e": 417.32
+  },
+  {
+   "w": "but",
+   "s": 417.6,
+   "e": 417.68
+  },
+  {
+   "w": "in",
+   "s": 417.68,
+   "e": 417.8
+  },
+  {
+   "w": "big",
+   "s": 417.8,
+   "e": 417.96
+  },
+  {
+   "w": "trials,",
+   "s": 417.96,
+   "e": 418.26
+  },
+  {
+   "w": "niacin",
+   "s": 418.84,
+   "e": 419.22
+  },
+  {
+   "w": "didn't",
+   "s": 419.22,
+   "e": 419.48
+  },
+  {
+   "w": "prevent",
+   "s": 419.48,
+   "e": 419.64
+  },
+  {
+   "w": "heart",
+   "s": 419.64,
+   "e": 419.98
+  },
+  {
+   "w": "attacks.",
+   "s": 419.98,
+   "e": 420.38
+  },
+  {
+   "w": "And",
+   "s": 421.02,
+   "e": 421.1
+  },
+  {
+   "w": "for",
+   "s": 421.1,
+   "e": 421.2
+  },
+  {
+   "w": "people",
+   "s": 421.2,
+   "e": 421.48
+  },
+  {
+   "w": "with",
+   "s": 421.48,
+   "e": 421.72
+  },
+  {
+   "w": "very",
+   "s": 421.72,
+   "e": 421.94
+  },
+  {
+   "w": "high",
+   "s": 421.94,
+   "e": 422.24
+  },
+  {
+   "w": "levels",
+   "s": 422.24,
+   "e": 422.6
+  },
+  {
+   "w": "and",
+   "s": 422.6,
+   "e": 422.84
+  },
+  {
+   "w": "heart",
+   "s": 422.84,
+   "e": 423.02
+  },
+  {
+   "w": "disease,",
+   "s": 423.02,
+   "e": 423.38
+  },
+  {
+   "w": "some",
+   "s": 424.04,
+   "e": 424.18
+  },
+  {
+   "w": "clinics",
+   "s": 424.18,
+   "e": 424.44
+  },
+  {
+   "w": "use",
+   "s": 424.44,
+   "e": 424.78
+  },
+  {
+   "w": "a",
+   "s": 424.78,
+   "e": 424.94
+  },
+  {
+   "w": "blood",
+   "s": 424.94,
+   "e": 425.14
+  },
+  {
+   "w": "-filtering",
+   "s": 425.14,
+   "e": 425.66
+  },
+  {
+   "w": "treatment",
+   "s": 425.66,
+   "e": 426.1
+  },
+  {
+   "w": "called",
+   "s": 426.1,
+   "e": 426.46
+  },
+  {
+   "w": "a",
+   "s": 426.46,
+   "e": 426.62
+  },
+  {
+   "w": "feresis,",
+   "s": 426.62,
+   "e": 427.08
+  },
+  {
+   "w": "a",
+   "s": 427.58,
+   "e": 427.72
+  },
+  {
+   "w": "bit",
+   "s": 427.72,
+   "e": 427.82
+  },
+  {
+   "w": "like",
+   "s": 427.82,
+   "e": 428.02
+  },
+  {
+   "w": "dialysis,",
+   "s": 428.02,
+   "e": 428.68
+  },
+  {
+   "w": "which",
+   "s": 429.12,
+   "e": 429.28
+  },
+  {
+   "w": "physically",
+   "s": 429.28,
+   "e": 429.6
+  },
+  {
+   "w": "removes",
+   "s": 429.6,
+   "e": 430.02
+  },
+  {
+   "w": "the",
+   "s": 430.02,
+   "e": 430.3
+  },
+  {
+   "w": "particles",
+   "s": 430.3,
+   "e": 430.58
+  },
+  {
+   "w": "every",
+   "s": 430.58,
+   "e": 431.12
+  },
+  {
+   "w": "week",
+   "s": 431.12,
+   "e": 431.4
+  },
+  {
+   "w": "or",
+   "s": 431.4,
+   "e": 431.56
+  },
+  {
+   "w": "two.",
+   "s": 431.56,
+   "e": 431.76
+  },
+  {
+   "w": "Big",
+   "s": 432.16,
+   "e": 432.3
+  },
+  {
+   "w": "outcome",
+   "s": 432.3,
+   "e": 432.52
+  },
+  {
+   "w": "trials",
+   "s": 432.52,
+   "e": 433.0
+  },
+  {
+   "w": "for",
+   "s": 433.0,
+   "e": 433.38
+  },
+  {
+   "w": "all",
+   "s": 433.38,
+   "e": 433.6
+  },
+  {
+   "w": "of",
+   "s": 433.6,
+   "e": 433.7
+  },
+  {
+   "w": "them",
+   "s": 433.7,
+   "e": 433.88
+  },
+  {
+   "w": "are",
+   "s": 433.88,
+   "e": 434.12
+  },
+  {
+   "w": "still",
+   "s": 434.12,
+   "e": 434.34
+  },
+  {
+   "w": "running.",
+   "s": 434.34,
+   "e": 434.66
+  },
+  {
+   "w": "Their",
+   "s": 434.66,
+   "e": 435.4
+  },
+  {
+   "w": "results",
+   "s": 435.4,
+   "e": 435.66
+  },
+  {
+   "w": "will",
+   "s": 435.66,
+   "e": 435.98
+  },
+  {
+   "w": "tell",
+   "s": 435.98,
+   "e": 436.2
+  },
+  {
+   "w": "us",
+   "s": 436.2,
+   "e": 436.42
+  },
+  {
+   "w": "whether",
+   "s": 436.42,
+   "e": 436.6
+  },
+  {
+   "w": "lowering",
+   "s": 436.6,
+   "e": 437.04
+  },
+  {
+   "w": "little",
+   "s": 437.04,
+   "e": 437.42
+  },
+  {
+   "w": "are",
+   "s": 437.42,
+   "e": 437.88
+  },
+  {
+   "w": "really",
+   "s": 437.88,
+   "e": 438.1
+  },
+  {
+   "w": "saves",
+   "s": 438.1,
+   "e": 438.5
+  },
+  {
+   "w": "lives.",
+   "s": 438.5,
+   "e": 438.88
+  },
+  {
+   "w": "Until",
+   "s": 439.6,
+   "e": 439.78
+  },
+  {
+   "w": "then,",
+   "s": 439.78,
+   "e": 440.1
+  },
+  {
+   "w": "the",
+   "s": 440.22,
+   "e": 440.26
+  },
+  {
+   "w": "best",
+   "s": 440.26,
+   "e": 440.4
+  },
+  {
+   "w": "defense",
+   "s": 440.4,
+   "e": 440.76
+  },
+  {
+   "w": "is",
+   "s": 440.76,
+   "e": 440.98
+  },
+  {
+   "w": "the",
+   "s": 440.98,
+   "e": 441.1
+  },
+  {
+   "w": "familiar",
+   "s": 441.1,
+   "e": 441.34
+  },
+  {
+   "w": "one.",
+   "s": 441.34,
+   "e": 441.76
+  },
+  {
+   "w": "Keep",
+   "s": 442.14,
+   "e": 442.26
+  },
+  {
+   "w": "your",
+   "s": 442.26,
+   "e": 442.44
+  },
+  {
+   "w": "LDL,",
+   "s": 442.44,
+   "e": 442.68
+  },
+  {
+   "w": "blood",
+   "s": 443.36,
+   "e": 443.44
+  },
+  {
+   "w": "pressure,",
+   "s": 443.44,
+   "e": 443.76
+  },
+  {
+   "w": "and",
+   "s": 444.02,
+   "e": 444.08
+  },
+  {
+   "w": "blood",
+   "s": 444.08,
+   "e": 444.28
+  },
+  {
+   "w": "sugar",
+   "s": 444.28,
+   "e": 444.52
+  },
+  {
+   "w": "low",
+   "s": 444.52,
+   "e": 444.86
+  },
+  {
+   "w": "and",
+   "s": 444.86,
+   "e": 445.18
+  },
+  {
+   "w": "don't",
+   "s": 445.18,
+   "e": 445.46
+  },
+  {
+   "w": "smoke.",
+   "s": 445.46,
+   "e": 445.68
+  },
+  {
+   "w": "That",
+   "s": 446.44,
+   "e": 446.54
+  },
+  {
+   "w": "lowers",
+   "s": 446.54,
+   "e": 446.82
+  },
+  {
+   "w": "your",
+   "s": 446.82,
+   "e": 447.02
+  },
+  {
+   "w": "total",
+   "s": 447.02,
+   "e": 447.22
+  },
+  {
+   "w": "risk,",
+   "s": 447.22,
+   "e": 447.8
+  },
+  {
+   "w": "whatever",
+   "s": 447.9,
+   "e": 448.18
+  },
+  {
+   "w": "your",
+   "s": 448.18,
+   "e": 448.44
+  },
+  {
+   "w": "little",
+   "s": 448.44,
+   "e": 448.64
+  },
+  {
+   "w": "a.",
+   "s": 448.64,
+   "e": 448.86
+  },
+  {
+   "w": "So",
+   "s": 449.64,
+   "e": 450.16
+  },
+  {
+   "w": "should",
+   "s": 450.16,
+   "e": 450.3
+  },
+  {
+   "w": "I",
+   "s": 450.3,
+   "e": 450.44
+  },
+  {
+   "w": "get",
+   "s": 450.44,
+   "e": 450.56
+  },
+  {
+   "w": "tested?",
+   "s": 450.56,
+   "e": 450.9
+  },
+  {
+   "w": "Many",
+   "s": 451.6,
+   "e": 451.74
+  },
+  {
+   "w": "experts",
+   "s": 451.74,
+   "e": 452.1
+  },
+  {
+   "w": "now",
+   "s": 452.1,
+   "e": 452.5
+  },
+  {
+   "w": "say",
+   "s": 452.5,
+   "e": 452.76
+  },
+  {
+   "w": "yes",
+   "s": 452.76,
+   "e": 453.08
+  },
+  {
+   "w": "once",
+   "s": 453.08,
+   "e": 453.52
+  },
+  {
+   "w": "in",
+   "s": 453.52,
+   "e": 453.76
+  },
+  {
+   "w": "your",
+   "s": 453.76,
+   "e": 453.88
+  },
+  {
+   "w": "life,",
+   "s": 453.88,
+   "e": 454.16
+  },
+  {
+   "w": "especially",
+   "s": 454.78,
+   "e": 454.94
+  },
+  {
+   "w": "if",
+   "s": 454.94,
+   "e": 455.48
+  },
+  {
+   "w": "heart",
+   "s": 455.48,
+   "e": 455.64
+  },
+  {
+   "w": "disease",
+   "s": 455.64,
+   "e": 455.98
+  },
+  {
+   "w": "runs",
+   "s": 455.98,
+   "e": 456.3
+  },
+  {
+   "w": "in",
+   "s": 456.3,
+   "e": 456.5
+  },
+  {
+   "w": "your",
+   "s": 456.5,
+   "e": 456.6
+  },
+  {
+   "w": "family",
+   "s": 456.6,
+   "e": 456.92
+  },
+  {
+   "w": "or",
+   "s": 456.92,
+   "e": 457.36
+  },
+  {
+   "w": "you",
+   "s": 457.36,
+   "e": 457.5
+  },
+  {
+   "w": "had",
+   "s": 457.5,
+   "e": 457.58
+  },
+  {
+   "w": "a",
+   "s": 457.58,
+   "e": 457.66
+  },
+  {
+   "w": "heart",
+   "s": 457.66,
+   "e": 457.86
+  },
+  {
+   "w": "attack",
+   "s": 457.86,
+   "e": 458.14
+  },
+  {
+   "w": "or",
+   "s": 458.14,
+   "e": 458.44
+  },
+  {
+   "w": "stroke",
+   "s": 458.44,
+   "e": 458.68
+  },
+  {
+   "w": "young.",
+   "s": 458.68,
+   "e": 459.0
+  },
+  {
+   "w": "Knowing",
+   "s": 459.64,
+   "e": 459.78
+  },
+  {
+   "w": "your",
+   "s": 459.78,
+   "e": 460.06
+  },
+  {
+   "w": "number",
+   "s": 460.06,
+   "e": 460.3
+  },
+  {
+   "w": "won't",
+   "s": 460.3,
+   "e": 460.6
+  },
+  {
+   "w": "change",
+   "s": 460.6,
+   "e": 460.8
+  },
+  {
+   "w": "your",
+   "s": 460.8,
+   "e": 461.04
+  },
+  {
+   "w": "genes,",
+   "s": 461.04,
+   "e": 461.28
+  },
+  {
+   "w": "but",
+   "s": 461.28,
+   "e": 461.86
+  },
+  {
+   "w": "it",
+   "s": 461.86,
+   "e": 461.94
+  },
+  {
+   "w": "can",
+   "s": 461.94,
+   "e": 462.06
+  },
+  {
+   "w": "change",
+   "s": 462.06,
+   "e": 462.26
+  },
+  {
+   "w": "how",
+   "s": 462.26,
+   "e": 462.56
+  },
+  {
+   "w": "carefully",
+   "s": 462.56,
+   "e": 463.0
+  },
+  {
+   "w": "you",
+   "s": 463.0,
+   "e": 463.24
+  },
+  {
+   "w": "guard",
+   "s": 463.24,
+   "e": 463.42
+  },
+  {
+   "w": "everything",
+   "s": 463.42,
+   "e": 463.76
+  },
+  {
+   "w": "else.",
+   "s": 463.76,
+   "e": 464.1
+  },
+  {
+   "w": "That's",
+   "s": 464.1,
+   "e": 464.86
+  },
+  {
+   "w": "the",
+   "s": 464.86,
+   "e": 464.96
+  },
+  {
+   "w": "hidden",
+   "s": 464.96,
+   "e": 465.18
+  },
+  {
+   "w": "cholesterol",
+   "s": 465.18,
+   "e": 465.7
+  },
+  {
+   "w": "one",
+   "s": 465.7,
+   "e": 466.14
+  },
+  {
+   "w": "in",
+   "s": 466.14,
+   "e": 466.32
+  },
+  {
+   "w": "five",
+   "s": 466.32,
+   "e": 466.64
+  },
+  {
+   "w": "people",
+   "s": 466.64,
+   "e": 467.06
+  },
+  {
+   "w": "inherit.",
+   "s": 467.06,
+   "e": 467.3
+  }
+ ]
+}

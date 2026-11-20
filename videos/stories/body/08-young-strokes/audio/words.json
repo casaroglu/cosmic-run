@@ -1,0 +1,7217 @@
+{
+ "duration": 478.888,
+ "lines": [
+  {
+   "id": "c1",
+   "speaker": "q",
+   "text": "Why are more young people having strokes?",
+   "start": 0.35,
+   "end": 2.367
+  },
+  {
+   "id": "c2",
+   "speaker": "a",
+   "text": "It's real, and it's surprising. A study published in September 2026 tracked strokes in one American region for almost thirty years. Among adults aged twenty to fifty-four, the stroke rate nearly doubled.",
+   "start": 2.817,
+   "end": 14.998
+  },
+  {
+   "id": "c3",
+   "speaker": "a",
+   "text": "At the same time, strokes in older adults went down. So what's happening to younger brains? And what can you do about it?",
+   "start": 15.238,
+   "end": 22.063
+  },
+  {
+   "id": "c3b",
+   "speaker": "a",
+   "text": "The study included more than two thousand young adults who had their very first stroke. That makes it one of the longest looks we have at how strokes in younger people are changing.",
+   "start": 22.303,
+   "end": 31.498
+  },
+  {
+   "id": "s1",
+   "speaker": "q",
+   "text": "First, what actually is a stroke?",
+   "start": 33.698,
+   "end": 35.506
+  },
+  {
+   "id": "s2",
+   "speaker": "a",
+   "text": "A stroke is a brain attack. Your brain is only about two percent of your body weight, but it burns about a fifth of your oxygen. It needs a constant flow of blood.",
+   "start": 35.956,
+   "end": 45.321
+  },
+  {
+   "id": "s3",
+   "speaker": "a",
+   "text": "Most strokes happen when a clot blocks an artery in the brain. That's called an ischemic stroke. Others happen when a blood vessel bursts and bleeds. That's a hemorrhagic stroke.",
+   "start": 45.561,
+   "end": 55.183
+  },
+  {
+   "id": "s3b",
+   "speaker": "a",
+   "text": "About eighty-seven percent of strokes are the clot kind. And in the United States, someone has a stroke roughly every forty seconds.",
+   "start": 55.423,
+   "end": 62.703
+  },
+  {
+   "id": "s4q",
+   "speaker": "q",
+   "text": "How fast does the damage happen?",
+   "start": 62.943,
+   "end": 64.707
+  },
+  {
+   "id": "s5",
+   "speaker": "a",
+   "text": "Terribly fast. One famous estimate found that in a typical large stroke, the brain loses about 1.9 million nerve cells every minute it goes untreated.",
+   "start": 65.157,
+   "end": 74.585
+  },
+  {
+   "id": "s5b",
+   "speaker": "a",
+   "text": "Along with those cells, it loses about fourteen billion connections and twelve kilometres of nerve fibres. By that estimate, every hour without treatment ages the brain by about three and a half years.",
+   "start": 74.825,
+   "end": 86.487
+  },
+  {
+   "id": "s6",
+   "speaker": "a",
+   "text": "Doctors sum it up in three words: time is brain.",
+   "start": 86.727,
+   "end": 90.424
+  },
+  {
+   "id": "d1",
+   "speaker": "q",
+   "text": "Where does the doubling come from?",
+   "start": 92.624,
+   "end": 94.01
+  },
+  {
+   "id": "d2",
+   "speaker": "a",
+   "text": "From researchers at the University of Cincinnati. They counted every first-time stroke in hospitals across five counties in southern Ohio and northern Kentucky, in snapshots from 1993 to 2020.",
+   "start": 94.46,
+   "end": 106.873
+  },
+  {
+   "id": "d3",
+   "speaker": "a",
+   "text": "In 1993, about thirty-four young adults out of every hundred thousand had a stroke in a year. By 2020, it was about sixty-two.",
+   "start": 107.113,
+   "end": 115.427
+  },
+  {
+   "id": "d4",
+   "speaker": "a",
+   "text": "Almost all of the rise came from clots, the ischemic kind. Ischemic strokes went from about twenty-four to about forty-seven per hundred thousand.",
+   "start": 115.667,
+   "end": 124.02
+  },
+  {
+   "id": "d4b",
+   "speaker": "a",
+   "text": "Strokes from bleeding in young adults showed no clear trend. It was the clots that surged.",
+   "start": 124.26,
+   "end": 129.977
+  },
+  {
+   "id": "d5q",
+   "speaker": "q",
+   "text": "And older people went the other way?",
+   "start": 130.217,
+   "end": 131.985
+  },
+  {
+   "id": "d6",
+   "speaker": "a",
+   "text": "Yes. Among older adults, stroke rates fell by about a quarter, from roughly six hundred and nineteen to four hundred and fifty-three per hundred thousand. Better blood pressure treatment and fewer smokers probably helped them.",
+   "start": 132.435,
+   "end": 144.399
+  },
+  {
+   "id": "d6b",
+   "speaker": "a",
+   "text": "There was one piece of good news for the young. The share who died within a month of their stroke fell, from about twelve percent to about nine.",
+   "start": 144.639,
+   "end": 151.841
+  },
+  {
+   "id": "r1",
+   "speaker": "q",
+   "text": "So what's different about the young patients?",
+   "start": 154.041,
+   "end": 156.061
+  },
+  {
+   "id": "r2",
+   "speaker": "a",
+   "text": "The study looked at what young stroke patients had in common. High blood pressure went from forty-seven percent of patients to sixty percent. Diabetes went from nineteen to about twenty-six percent.",
+   "start": 156.511,
+   "end": 167.454
+  },
+  {
+   "id": "r3",
+   "speaker": "a",
+   "text": "An irregular heartbeat called atrial fibrillation, which lets clots form in the heart, went from about one percent to six percent.",
+   "start": 167.694,
+   "end": 175.085
+  },
+  {
+   "id": "r4",
+   "speaker": "a",
+   "text": "As one cardiologist put it, heart and blood vessel risk is building up earlier in life.",
+   "start": 175.325,
+   "end": 181.097
+  },
+  {
+   "id": "r4b",
+   "speaker": "a",
+   "text": "One limit: these numbers come only from people who already had strokes. The study couldn't measure how common the same risks are among all young adults.",
+   "start": 181.337,
+   "end": 189.379
+  },
+  {
+   "id": "r5q",
+   "speaker": "q",
+   "text": "Why would blood pressure hurt the brain?",
+   "start": 189.619,
+   "end": 191.458
+  },
+  {
+   "id": "r6",
+   "speaker": "a",
+   "text": "High pressure hammers on the walls of your arteries every heartbeat. Over years, they stiffen and get damaged, and that makes clots and bleeds more likely. And many young adults with high blood pressure don't even know they have it.",
+   "start": 191.908,
+   "end": 204.042
+  },
+  {
+   "id": "r6b",
+   "speaker": "a",
+   "text": "Extra weight, too little sleep and too little movement push all of these numbers in the wrong direction, and they're becoming common earlier in life.",
+   "start": 204.282,
+   "end": 212.124
+  },
+  {
+   "id": "m1",
+   "speaker": "q",
+   "text": "Did anything else change?",
+   "start": 214.324,
+   "end": 215.539
+  },
+  {
+   "id": "m2",
+   "speaker": "a",
+   "text": "One thing jumped out. In 1993, less than one percent of the young stroke patients reported using marijuana. By 2020, it was about thirty-one percent.",
+   "start": 215.989,
+   "end": 225.865
+  },
+  {
+   "id": "m3",
+   "speaker": "a",
+   "text": "Any substance use, including drugs like cocaine, rose from under five percent to about forty percent.",
+   "start": 226.105,
+   "end": 232.48
+  },
+  {
+   "id": "m4q",
+   "speaker": "q",
+   "text": "So does cannabis cause strokes?",
+   "start": 232.72,
+   "end": 234.353
+  },
+  {
+   "id": "m5",
+   "speaker": "a",
+   "text": "This study can't say that. The lead researcher said clearly that it doesn't mean more substance use caused more strokes. It might, or the people who use it might differ in other ways. Scientists say it needs dedicated research.",
+   "start": 234.803,
+   "end": 246.871
+  },
+  {
+   "id": "m6",
+   "speaker": "a",
+   "text": "There's another catch. Doctors today scan more brains, with better imaging, so they may simply be finding more strokes than they did in the nineties.",
+   "start": 247.111,
+   "end": 255.072
+  },
+  {
+   "id": "y1",
+   "speaker": "q",
+   "text": "Are there causes that only hit young people?",
+   "start": 257.272,
+   "end": 259.485
+  },
+  {
+   "id": "y2",
+   "speaker": "a",
+   "text": "Some are much more common in the young. One is a tear in an artery in the neck, called a dissection. It can follow a sudden twist, a sports injury, or sometimes nothing obvious at all.",
+   "start": 259.935,
+   "end": 270.146
+  },
+  {
+   "id": "y3",
+   "speaker": "a",
+   "text": "Another is a small opening between the two upper chambers of the heart, called a patent foramen ovale. About one in four people have one. Usually it's harmless, but in rare cases it can let a clot slip through to the brain.",
+   "start": 270.386,
+   "end": 282.584
+  },
+  {
+   "id": "y4",
+   "speaker": "a",
+   "text": "And migraine with aura, the kind with flashing lights before the headache, is linked to about twice the risk of an ischemic stroke.",
+   "start": 282.824,
+   "end": 289.804
+  },
+  {
+   "id": "h1",
+   "speaker": "q",
+   "text": "What happens when you get to hospital?",
+   "start": 292.004,
+   "end": 293.832
+  },
+  {
+   "id": "h2",
+   "speaker": "a",
+   "text": "First, a brain scan, to see whether it's a clot or a bleed, because the treatments are opposite. You can't give a clot-buster to someone who's bleeding.",
+   "start": 294.282,
+   "end": 302.554
+  },
+  {
+   "id": "h3",
+   "speaker": "a",
+   "text": "For a clot, doctors can give a drug that dissolves it, usually within about four and a half hours of the first symptoms.",
+   "start": 302.794,
+   "end": 309.81
+  },
+  {
+   "id": "h4",
+   "speaker": "a",
+   "text": "For a big clot in a large artery, they can thread a thin tube up from the groin or wrist into the brain, and pull the clot out. In carefully chosen patients, this can work many hours later.",
+   "start": 310.05,
+   "end": 320.355
+  },
+  {
+   "id": "h5",
+   "speaker": "a",
+   "text": "That's why the clock matters so much. The sooner the blood flows again, the more brain is saved.",
+   "start": 320.595,
+   "end": 326.283
+  },
+  {
+   "id": "l1q",
+   "speaker": "q",
+   "text": "Can young people recover from a stroke?",
+   "start": 326.523,
+   "end": 328.534
+  },
+  {
+   "id": "l2",
+   "speaker": "a",
+   "text": "Often, yes. A younger brain can rewire itself, with healthy areas slowly taking over some of the lost jobs. Rehab, practicing movement and speech again and again, helps that happen.",
+   "start": 328.984,
+   "end": 339.582
+  },
+  {
+   "id": "l3",
+   "speaker": "a",
+   "text": "But recovery can take months, and many young survivors deal with hidden problems like tiredness, trouble concentrating, or depression, sometimes while trying to get back to work and raising kids.",
+   "start": 339.822,
+   "end": 350.532
+  },
+  {
+   "id": "l3b",
+   "speaker": "a",
+   "text": "And because young survivors may live for decades after a stroke, preventing even one makes an enormous difference.",
+   "start": 350.772,
+   "end": 356.729
+  },
+  {
+   "id": "f1",
+   "speaker": "q",
+   "text": "How do I know if it's happening?",
+   "start": 358.929,
+   "end": 360.463
+  },
+  {
+   "id": "f2",
+   "speaker": "a",
+   "text": "Remember BE FAST. B is for balance: sudden dizziness or trouble walking. E is for eyes: sudden loss of vision.",
+   "start": 360.913,
+   "end": 367.874
+  },
+  {
+   "id": "f3",
+   "speaker": "a",
+   "text": "F is for face: one side drooping. A is for arms: one arm weak or drifting down. S is for speech: slurred or strange words. And T is for time: call emergency services right away.",
+   "start": 368.114,
+   "end": 379.357
+  },
+  {
+   "id": "f4q",
+   "speaker": "q",
+   "text": "Should I just wait and see?",
+   "start": 379.597,
+   "end": 380.929
+  },
+  {
+   "id": "f5",
+   "speaker": "a",
+   "text": "Never. Young people often brush off the symptoms because they think they're too young for a stroke. But clot-busting treatments only work in the first hours. Every minute counts.",
+   "start": 381.379,
+   "end": 390.901
+  },
+  {
+   "id": "f5b",
+   "speaker": "a",
+   "text": "And even if the symptoms fade after a few minutes, get checked. A mini-stroke, called a transient ischemic attack, can be a warning that a bigger one is coming.",
+   "start": 391.141,
+   "end": 399.414
+  },
+  {
+   "id": "f6q",
+   "speaker": "q",
+   "text": "Can doctors miss it in young people?",
+   "start": 399.654,
+   "end": 401.566
+  },
+  {
+   "id": "f7",
+   "speaker": "a",
+   "text": "Sometimes. A young person with sudden dizziness or a bad headache may be told it's a migraine, an inner ear problem, or too much to drink. Studies suggest strokes are missed more often in younger patients.",
+   "start": 402.016,
+   "end": 413.187
+  },
+  {
+   "id": "f8",
+   "speaker": "a",
+   "text": "So if the signs come on suddenly, say the word stroke out loud, and ask for a brain scan.",
+   "start": 413.427,
+   "end": 418.568
+  },
+  {
+   "id": "p1",
+   "speaker": "q",
+   "text": "How can I lower my risk?",
+   "start": 420.768,
+   "end": 422.245
+  },
+  {
+   "id": "p2",
+   "speaker": "a",
+   "text": "Start with your numbers. Get your blood pressure checked, even if you feel fine. The same goes for blood sugar and cholesterol.",
+   "start": 422.695,
+   "end": 429.643
+  },
+  {
+   "id": "p2b",
+   "speaker": "a",
+   "text": "In the US, a reading of one hundred and thirty over eighty or higher already counts as high blood pressure. Plenty of people in their twenties and thirties are over that line without knowing it.",
+   "start": 429.883,
+   "end": 440.116
+  },
+  {
+   "id": "p3",
+   "speaker": "a",
+   "text": "Don't smoke, move every day, keep a healthy weight, and go easy on alcohol and drugs.",
+   "start": 440.356,
+   "end": 445.949
+  },
+  {
+   "id": "p4",
+   "speaker": "a",
+   "text": "And if you get migraines with aura, especially if you also smoke or take the combined birth control pill, talk to a doctor about your stroke risk.",
+   "start": 446.189,
+   "end": 454.113
+  },
+  {
+   "id": "o1",
+   "speaker": "q",
+   "text": "So strokes aren't just an old person's problem?",
+   "start": 455.113,
+   "end": 457.8
+  },
+  {
+   "id": "o2",
+   "speaker": "a",
+   "text": "Not anymore. Risk is building earlier, and young adults are paying the price. The good news is that much of that risk is something you can measure, and change.",
+   "start": 458.25,
+   "end": 466.844
+  },
+  {
+   "id": "o3",
+   "speaker": "a",
+   "text": "That's why more young adults are having strokes.",
+   "start": 467.084,
+   "end": 470.353
+  },
+  {
+   "id": "o4",
+   "speaker": "q",
+   "text": "Subscribe for more of what's happening inside your body, and share this with someone who's never had their blood pressure checked.",
+   "start": 470.853,
+   "end": 477.688
+  }
+ ],
+ "words": [
+  {
+   "w": "Why",
+   "s": 0.0,
+   "e": 0.52
+  },
+  {
+   "w": "are",
+   "s": 0.52,
+   "e": 0.62
+  },
+  {
+   "w": "more",
+   "s": 0.62,
+   "e": 0.74
+  },
+  {
+   "w": "young",
+   "s": 0.74,
+   "e": 0.96
+  },
+  {
+   "w": "people",
+   "s": 0.96,
+   "e": 1.3
+  },
+  {
+   "w": "having",
+   "s": 1.3,
+   "e": 1.64
+  },
+  {
+   "w": "strokes?",
+   "s": 1.64,
+   "e": 1.94
+  },
+  {
+   "w": "It's",
+   "s": 2.78,
+   "e": 2.98
+  },
+  {
+   "w": "real,",
+   "s": 2.98,
+   "e": 3.18
+  },
+  {
+   "w": "and",
+   "s": 3.48,
+   "e": 3.58
+  },
+  {
+   "w": "it's",
+   "s": 3.58,
+   "e": 3.76
+  },
+  {
+   "w": "surprising.",
+   "s": 3.76,
+   "e": 4.06
+  },
+  {
+   "w": "A",
+   "s": 4.9,
+   "e": 4.94
+  },
+  {
+   "w": "study",
+   "s": 4.94,
+   "e": 5.2
+  },
+  {
+   "w": "published",
+   "s": 5.2,
+   "e": 5.56
+  },
+  {
+   "w": "in",
+   "s": 5.56,
+   "e": 5.82
+  },
+  {
+   "w": "September",
+   "s": 5.82,
+   "e": 6.1
+  },
+  {
+   "w": "2026",
+   "s": 6.1,
+   "e": 7.22
+  },
+  {
+   "w": "tracks",
+   "s": 7.22,
+   "e": 7.54
+  },
+  {
+   "w": "strokes",
+   "s": 7.54,
+   "e": 7.9
+  },
+  {
+   "w": "in",
+   "s": 7.9,
+   "e": 8.26
+  },
+  {
+   "w": "one",
+   "s": 8.26,
+   "e": 8.44
+  },
+  {
+   "w": "American",
+   "s": 8.44,
+   "e": 8.82
+  },
+  {
+   "w": "region",
+   "s": 8.82,
+   "e": 9.22
+  },
+  {
+   "w": "for",
+   "s": 9.22,
+   "e": 9.52
+  },
+  {
+   "w": "almost",
+   "s": 9.52,
+   "e": 9.82
+  },
+  {
+   "w": "30",
+   "s": 9.82,
+   "e": 10.12
+  },
+  {
+   "w": "years.",
+   "s": 10.12,
+   "e": 10.58
+  },
+  {
+   "w": "Among",
+   "s": 11.22,
+   "e": 11.32
+  },
+  {
+   "w": "adults",
+   "s": 11.32,
+   "e": 11.62
+  },
+  {
+   "w": "aged",
+   "s": 11.62,
+   "e": 11.62
+  },
+  {
+   "w": "20",
+   "s": 11.62,
+   "e": 12.36
+  },
+  {
+   "w": "to",
+   "s": 12.36,
+   "e": 12.56
+  },
+  {
+   "w": "54,",
+   "s": 12.56,
+   "e": 12.98
+  },
+  {
+   "w": "the",
+   "s": 13.46,
+   "e": 13.56
+  },
+  {
+   "w": "stroke",
+   "s": 13.56,
+   "e": 13.8
+  },
+  {
+   "w": "rate",
+   "s": 13.8,
+   "e": 14.06
+  },
+  {
+   "w": "nearly",
+   "s": 14.06,
+   "e": 14.38
+  },
+  {
+   "w": "doubled.",
+   "s": 14.38,
+   "e": 14.68
+  },
+  {
+   "w": "At",
+   "s": 15.28,
+   "e": 15.34
+  },
+  {
+   "w": "the",
+   "s": 15.34,
+   "e": 15.44
+  },
+  {
+   "w": "same",
+   "s": 15.44,
+   "e": 15.64
+  },
+  {
+   "w": "time,",
+   "s": 15.64,
+   "e": 16.02
+  },
+  {
+   "w": "strokes",
+   "s": 16.02,
+   "e": 16.52
+  },
+  {
+   "w": "in",
+   "s": 16.52,
+   "e": 16.78
+  },
+  {
+   "w": "older",
+   "s": 16.78,
+   "e": 16.92
+  },
+  {
+   "w": "adults",
+   "s": 16.92,
+   "e": 17.46
+  },
+  {
+   "w": "went",
+   "s": 17.46,
+   "e": 17.66
+  },
+  {
+   "w": "down.",
+   "s": 17.66,
+   "e": 17.98
+  },
+  {
+   "w": "So",
+   "s": 18.62,
+   "e": 18.72
+  },
+  {
+   "w": "what's",
+   "s": 18.72,
+   "e": 18.96
+  },
+  {
+   "w": "happening",
+   "s": 18.96,
+   "e": 19.24
+  },
+  {
+   "w": "to",
+   "s": 19.24,
+   "e": 19.48
+  },
+  {
+   "w": "younger",
+   "s": 19.48,
+   "e": 19.7
+  },
+  {
+   "w": "brains,",
+   "s": 19.7,
+   "e": 20.1
+  },
+  {
+   "w": "and",
+   "s": 20.58,
+   "e": 20.74
+  },
+  {
+   "w": "what",
+   "s": 20.74,
+   "e": 20.92
+  },
+  {
+   "w": "can",
+   "s": 20.92,
+   "e": 21.04
+  },
+  {
+   "w": "you",
+   "s": 21.04,
+   "e": 21.18
+  },
+  {
+   "w": "do",
+   "s": 21.18,
+   "e": 21.3
+  },
+  {
+   "w": "about",
+   "s": 21.3,
+   "e": 21.54
+  },
+  {
+   "w": "it?",
+   "s": 21.54,
+   "e": 21.76
+  },
+  {
+   "w": "The",
+   "s": 22.3,
+   "e": 22.4
+  },
+  {
+   "w": "study",
+   "s": 22.4,
+   "e": 22.62
+  },
+  {
+   "w": "included",
+   "s": 22.62,
+   "e": 22.88
+  },
+  {
+   "w": "more",
+   "s": 22.88,
+   "e": 23.4
+  },
+  {
+   "w": "than",
+   "s": 23.4,
+   "e": 23.54
+  },
+  {
+   "w": "2",
+   "s": 23.54,
+   "e": 23.76
+  },
+  {
+   "w": ",000",
+   "s": 23.76,
+   "e": 24.18
+  },
+  {
+   "w": "young",
+   "s": 24.18,
+   "e": 24.38
+  },
+  {
+   "w": "adults",
+   "s": 24.38,
+   "e": 24.8
+  },
+  {
+   "w": "who",
+   "s": 24.8,
+   "e": 25.28
+  },
+  {
+   "w": "had",
+   "s": 25.28,
+   "e": 25.42
+  },
+  {
+   "w": "their",
+   "s": 25.42,
+   "e": 25.58
+  },
+  {
+   "w": "very",
+   "s": 25.58,
+   "e": 25.78
+  },
+  {
+   "w": "first",
+   "s": 25.78,
+   "e": 26.18
+  },
+  {
+   "w": "stroke.",
+   "s": 26.18,
+   "e": 26.46
+  },
+  {
+   "w": "That",
+   "s": 26.46,
+   "e": 27.32
+  },
+  {
+   "w": "makes",
+   "s": 27.32,
+   "e": 27.52
+  },
+  {
+   "w": "it",
+   "s": 27.52,
+   "e": 27.72
+  },
+  {
+   "w": "one",
+   "s": 27.72,
+   "e": 27.82
+  },
+  {
+   "w": "of",
+   "s": 27.82,
+   "e": 27.92
+  },
+  {
+   "w": "the",
+   "s": 27.92,
+   "e": 28.0
+  },
+  {
+   "w": "longest",
+   "s": 28.0,
+   "e": 28.36
+  },
+  {
+   "w": "looks",
+   "s": 28.36,
+   "e": 28.6
+  },
+  {
+   "w": "we",
+   "s": 28.6,
+   "e": 28.92
+  },
+  {
+   "w": "have",
+   "s": 28.92,
+   "e": 29.12
+  },
+  {
+   "w": "at",
+   "s": 29.12,
+   "e": 29.26
+  },
+  {
+   "w": "how",
+   "s": 29.26,
+   "e": 29.42
+  },
+  {
+   "w": "strokes",
+   "s": 29.42,
+   "e": 29.7
+  },
+  {
+   "w": "in",
+   "s": 29.7,
+   "e": 30.04
+  },
+  {
+   "w": "younger",
+   "s": 30.04,
+   "e": 30.26
+  },
+  {
+   "w": "people",
+   "s": 30.26,
+   "e": 30.74
+  },
+  {
+   "w": "are",
+   "s": 30.74,
+   "e": 30.84
+  },
+  {
+   "w": "changing.",
+   "s": 30.84,
+   "e": 31.14
+  },
+  {
+   "w": "First,",
+   "s": 33.7,
+   "e": 33.94
+  },
+  {
+   "w": "what",
+   "s": 34.28,
+   "e": 34.34
+  },
+  {
+   "w": "actually",
+   "s": 34.34,
+   "e": 34.64
+  },
+  {
+   "w": "is",
+   "s": 34.64,
+   "e": 34.9
+  },
+  {
+   "w": "a",
+   "s": 34.9,
+   "e": 34.98
+  },
+  {
+   "w": "stroke?",
+   "s": 34.98,
+   "e": 35.26
+  },
+  {
+   "w": "A",
+   "s": 36.0,
+   "e": 36.06
+  },
+  {
+   "w": "stroke",
+   "s": 36.06,
+   "e": 36.3
+  },
+  {
+   "w": "is",
+   "s": 36.3,
+   "e": 36.6
+  },
+  {
+   "w": "a",
+   "s": 36.6,
+   "e": 36.68
+  },
+  {
+   "w": "brain",
+   "s": 36.68,
+   "e": 36.92
+  },
+  {
+   "w": "attack.",
+   "s": 36.92,
+   "e": 37.24
+  },
+  {
+   "w": "Your",
+   "s": 37.96,
+   "e": 38.06
+  },
+  {
+   "w": "brain",
+   "s": 38.06,
+   "e": 38.38
+  },
+  {
+   "w": "is",
+   "s": 38.38,
+   "e": 38.6
+  },
+  {
+   "w": "only",
+   "s": 38.6,
+   "e": 38.8
+  },
+  {
+   "w": "about",
+   "s": 38.8,
+   "e": 39.04
+  },
+  {
+   "w": "2",
+   "s": 39.04,
+   "e": 39.38
+  },
+  {
+   "w": "%",
+   "s": 39.38,
+   "e": 39.68
+  },
+  {
+   "w": "of",
+   "s": 39.68,
+   "e": 39.86
+  },
+  {
+   "w": "your",
+   "s": 39.86,
+   "e": 39.92
+  },
+  {
+   "w": "body",
+   "s": 39.92,
+   "e": 40.18
+  },
+  {
+   "w": "weight,",
+   "s": 40.18,
+   "e": 40.4
+  },
+  {
+   "w": "but",
+   "s": 40.74,
+   "e": 40.86
+  },
+  {
+   "w": "it",
+   "s": 40.86,
+   "e": 40.94
+  },
+  {
+   "w": "burns",
+   "s": 40.94,
+   "e": 41.12
+  },
+  {
+   "w": "about",
+   "s": 41.12,
+   "e": 41.54
+  },
+  {
+   "w": "a",
+   "s": 41.54,
+   "e": 41.64
+  },
+  {
+   "w": "fifth",
+   "s": 41.64,
+   "e": 41.88
+  },
+  {
+   "w": "of",
+   "s": 41.88,
+   "e": 42.04
+  },
+  {
+   "w": "your",
+   "s": 42.04,
+   "e": 42.1
+  },
+  {
+   "w": "oxygen.",
+   "s": 42.1,
+   "e": 42.38
+  },
+  {
+   "w": "It",
+   "s": 43.14,
+   "e": 43.22
+  },
+  {
+   "w": "needs",
+   "s": 43.22,
+   "e": 43.36
+  },
+  {
+   "w": "a",
+   "s": 43.36,
+   "e": 43.52
+  },
+  {
+   "w": "constant",
+   "s": 43.52,
+   "e": 43.78
+  },
+  {
+   "w": "flow",
+   "s": 43.78,
+   "e": 44.18
+  },
+  {
+   "w": "of",
+   "s": 44.18,
+   "e": 44.4
+  },
+  {
+   "w": "blood.",
+   "s": 44.4,
+   "e": 44.62
+  },
+  {
+   "w": "Most",
+   "s": 45.5,
+   "e": 45.74
+  },
+  {
+   "w": "strokes",
+   "s": 45.74,
+   "e": 46.02
+  },
+  {
+   "w": "happen",
+   "s": 46.02,
+   "e": 46.42
+  },
+  {
+   "w": "when",
+   "s": 46.42,
+   "e": 46.64
+  },
+  {
+   "w": "a",
+   "s": 46.64,
+   "e": 46.7
+  },
+  {
+   "w": "clot",
+   "s": 46.7,
+   "e": 46.88
+  },
+  {
+   "w": "blocks",
+   "s": 46.88,
+   "e": 47.16
+  },
+  {
+   "w": "an",
+   "s": 47.16,
+   "e": 47.36
+  },
+  {
+   "w": "artery",
+   "s": 47.36,
+   "e": 47.6
+  },
+  {
+   "w": "in",
+   "s": 47.6,
+   "e": 47.88
+  },
+  {
+   "w": "the",
+   "s": 47.88,
+   "e": 47.94
+  },
+  {
+   "w": "brain.",
+   "s": 47.94,
+   "e": 48.16
+  },
+  {
+   "w": "That's",
+   "s": 48.82,
+   "e": 49.0
+  },
+  {
+   "w": "called",
+   "s": 49.0,
+   "e": 49.2
+  },
+  {
+   "w": "an",
+   "s": 49.2,
+   "e": 49.38
+  },
+  {
+   "w": "ischemic",
+   "s": 49.38,
+   "e": 49.8
+  },
+  {
+   "w": "stroke.",
+   "s": 49.8,
+   "e": 50.12
+  },
+  {
+   "w": "Others",
+   "s": 50.88,
+   "e": 50.94
+  },
+  {
+   "w": "happen",
+   "s": 50.94,
+   "e": 51.18
+  },
+  {
+   "w": "when",
+   "s": 51.18,
+   "e": 51.52
+  },
+  {
+   "w": "a",
+   "s": 51.52,
+   "e": 51.58
+  },
+  {
+   "w": "blood",
+   "s": 51.58,
+   "e": 51.74
+  },
+  {
+   "w": "vessel",
+   "s": 51.74,
+   "e": 52.1
+  },
+  {
+   "w": "bursts",
+   "s": 52.1,
+   "e": 52.42
+  },
+  {
+   "w": "and",
+   "s": 52.42,
+   "e": 52.82
+  },
+  {
+   "w": "bleeds.",
+   "s": 52.82,
+   "e": 53.22
+  },
+  {
+   "w": "That's",
+   "s": 53.66,
+   "e": 53.82
+  },
+  {
+   "w": "a",
+   "s": 53.82,
+   "e": 53.88
+  },
+  {
+   "w": "hemorrhagic",
+   "s": 53.88,
+   "e": 54.38
+  },
+  {
+   "w": "stroke.",
+   "s": 54.38,
+   "e": 54.68
+  },
+  {
+   "w": "About",
+   "s": 54.68,
+   "e": 55.52
+  },
+  {
+   "w": "87",
+   "s": 55.52,
+   "e": 56.0
+  },
+  {
+   "w": "%",
+   "s": 56.0,
+   "e": 56.66
+  },
+  {
+   "w": "of",
+   "s": 56.66,
+   "e": 56.82
+  },
+  {
+   "w": "strokes",
+   "s": 56.82,
+   "e": 57.1
+  },
+  {
+   "w": "are",
+   "s": 57.1,
+   "e": 57.38
+  },
+  {
+   "w": "the",
+   "s": 57.38,
+   "e": 57.48
+  },
+  {
+   "w": "clock",
+   "s": 57.48,
+   "e": 57.64
+  },
+  {
+   "w": "kind.",
+   "s": 57.64,
+   "e": 58.04
+  },
+  {
+   "w": "And",
+   "s": 58.7,
+   "e": 58.76
+  },
+  {
+   "w": "in",
+   "s": 58.76,
+   "e": 58.84
+  },
+  {
+   "w": "the",
+   "s": 58.84,
+   "e": 58.92
+  },
+  {
+   "w": "United",
+   "s": 58.92,
+   "e": 59.18
+  },
+  {
+   "w": "States,",
+   "s": 59.18,
+   "e": 59.58
+  },
+  {
+   "w": "someone",
+   "s": 60.1,
+   "e": 60.32
+  },
+  {
+   "w": "has",
+   "s": 60.32,
+   "e": 60.58
+  },
+  {
+   "w": "a",
+   "s": 60.58,
+   "e": 60.66
+  },
+  {
+   "w": "stroke",
+   "s": 60.66,
+   "e": 60.94
+  },
+  {
+   "w": "roughly",
+   "s": 60.94,
+   "e": 61.38
+  },
+  {
+   "w": "every",
+   "s": 61.38,
+   "e": 61.6
+  },
+  {
+   "w": "40",
+   "s": 61.6,
+   "e": 61.98
+  },
+  {
+   "w": "seconds.",
+   "s": 61.98,
+   "e": 62.38
+  },
+  {
+   "w": "How",
+   "s": 62.96,
+   "e": 63.06
+  },
+  {
+   "w": "fast",
+   "s": 63.06,
+   "e": 63.32
+  },
+  {
+   "w": "does",
+   "s": 63.32,
+   "e": 63.66
+  },
+  {
+   "w": "the",
+   "s": 63.66,
+   "e": 63.78
+  },
+  {
+   "w": "damage",
+   "s": 63.78,
+   "e": 64.04
+  },
+  {
+   "w": "happen?",
+   "s": 64.04,
+   "e": 64.56
+  },
+  {
+   "w": "Terribly",
+   "s": 65.1,
+   "e": 65.44
+  },
+  {
+   "w": "fast.",
+   "s": 65.44,
+   "e": 65.8
+  },
+  {
+   "w": "One",
+   "s": 66.48,
+   "e": 66.6
+  },
+  {
+   "w": "famous",
+   "s": 66.6,
+   "e": 66.98
+  },
+  {
+   "w": "estimate",
+   "s": 66.98,
+   "e": 67.32
+  },
+  {
+   "w": "found",
+   "s": 67.32,
+   "e": 67.78
+  },
+  {
+   "w": "that",
+   "s": 67.78,
+   "e": 68.0
+  },
+  {
+   "w": "in",
+   "s": 68.0,
+   "e": 68.1
+  },
+  {
+   "w": "a",
+   "s": 68.1,
+   "e": 68.16
+  },
+  {
+   "w": "typical",
+   "s": 68.16,
+   "e": 68.48
+  },
+  {
+   "w": "large",
+   "s": 68.48,
+   "e": 68.8
+  },
+  {
+   "w": "stroke,",
+   "s": 68.8,
+   "e": 69.26
+  },
+  {
+   "w": "the",
+   "s": 69.78,
+   "e": 69.82
+  },
+  {
+   "w": "brain",
+   "s": 69.82,
+   "e": 70.06
+  },
+  {
+   "w": "loses",
+   "s": 70.06,
+   "e": 70.42
+  },
+  {
+   "w": "about",
+   "s": 70.42,
+   "e": 70.72
+  },
+  {
+   "w": "1",
+   "s": 70.72,
+   "e": 71.06
+  },
+  {
+   "w": ".9",
+   "s": 71.06,
+   "e": 71.7
+  },
+  {
+   "w": "million",
+   "s": 71.7,
+   "e": 71.98
+  },
+  {
+   "w": "nerve",
+   "s": 71.98,
+   "e": 72.26
+  },
+  {
+   "w": "cells.",
+   "s": 72.26,
+   "e": 72.6
+  },
+  {
+   "w": "Every",
+   "s": 73.04,
+   "e": 73.14
+  },
+  {
+   "w": "minute",
+   "s": 73.14,
+   "e": 73.5
+  },
+  {
+   "w": "it",
+   "s": 73.5,
+   "e": 73.64
+  },
+  {
+   "w": "goes",
+   "s": 73.64,
+   "e": 73.82
+  },
+  {
+   "w": "untreated.",
+   "s": 73.82,
+   "e": 74.14
+  },
+  {
+   "w": "Along",
+   "s": 74.84,
+   "e": 74.98
+  },
+  {
+   "w": "with",
+   "s": 74.98,
+   "e": 75.22
+  },
+  {
+   "w": "those",
+   "s": 75.22,
+   "e": 75.4
+  },
+  {
+   "w": "cells,",
+   "s": 75.4,
+   "e": 75.76
+  },
+  {
+   "w": "it",
+   "s": 76.2,
+   "e": 76.3
+  },
+  {
+   "w": "loses",
+   "s": 76.3,
+   "e": 76.54
+  },
+  {
+   "w": "about",
+   "s": 76.54,
+   "e": 76.82
+  },
+  {
+   "w": "14",
+   "s": 76.82,
+   "e": 77.28
+  },
+  {
+   "w": "billion",
+   "s": 77.28,
+   "e": 77.6
+  },
+  {
+   "w": "connections",
+   "s": 77.6,
+   "e": 78.12
+  },
+  {
+   "w": "and",
+   "s": 78.12,
+   "e": 78.82
+  },
+  {
+   "w": "12",
+   "s": 78.82,
+   "e": 79.12
+  },
+  {
+   "w": "kilometers",
+   "s": 79.12,
+   "e": 79.4
+  },
+  {
+   "w": "of",
+   "s": 79.4,
+   "e": 79.88
+  },
+  {
+   "w": "nerve",
+   "s": 79.88,
+   "e": 80.08
+  },
+  {
+   "w": "fibers.",
+   "s": 80.08,
+   "e": 80.42
+  },
+  {
+   "w": "By",
+   "s": 80.42,
+   "e": 81.44
+  },
+  {
+   "w": "that",
+   "s": 81.44,
+   "e": 81.62
+  },
+  {
+   "w": "estimate,",
+   "s": 81.62,
+   "e": 81.98
+  },
+  {
+   "w": "every",
+   "s": 82.54,
+   "e": 82.66
+  },
+  {
+   "w": "hour",
+   "s": 82.66,
+   "e": 83.04
+  },
+  {
+   "w": "without",
+   "s": 83.04,
+   "e": 83.26
+  },
+  {
+   "w": "treatment",
+   "s": 83.26,
+   "e": 83.68
+  },
+  {
+   "w": "ages",
+   "s": 83.68,
+   "e": 84.08
+  },
+  {
+   "w": "the",
+   "s": 84.08,
+   "e": 84.4
+  },
+  {
+   "w": "brain",
+   "s": 84.4,
+   "e": 84.6
+  },
+  {
+   "w": "by",
+   "s": 84.6,
+   "e": 84.92
+  },
+  {
+   "w": "about",
+   "s": 84.92,
+   "e": 85.08
+  },
+  {
+   "w": "three",
+   "s": 85.08,
+   "e": 85.46
+  },
+  {
+   "w": "and",
+   "s": 85.46,
+   "e": 85.58
+  },
+  {
+   "w": "a",
+   "s": 85.58,
+   "e": 85.64
+  },
+  {
+   "w": "half",
+   "s": 85.64,
+   "e": 85.86
+  },
+  {
+   "w": "years.",
+   "s": 85.86,
+   "e": 86.2
+  },
+  {
+   "w": "Doctors",
+   "s": 86.74,
+   "e": 87.08
+  },
+  {
+   "w": "sum",
+   "s": 87.08,
+   "e": 87.4
+  },
+  {
+   "w": "it",
+   "s": 87.4,
+   "e": 87.54
+  },
+  {
+   "w": "up",
+   "s": 87.54,
+   "e": 87.68
+  },
+  {
+   "w": "in",
+   "s": 87.68,
+   "e": 87.84
+  },
+  {
+   "w": "three",
+   "s": 87.84,
+   "e": 88.02
+  },
+  {
+   "w": "words.",
+   "s": 88.02,
+   "e": 88.4
+  },
+  {
+   "w": "Time",
+   "s": 88.8,
+   "e": 88.98
+  },
+  {
+   "w": "is",
+   "s": 88.98,
+   "e": 89.16
+  },
+  {
+   "w": "brain.",
+   "s": 89.16,
+   "e": 89.4
+  },
+  {
+   "w": "Where",
+   "s": 92.04,
+   "e": 92.7
+  },
+  {
+   "w": "does",
+   "s": 92.7,
+   "e": 92.8
+  },
+  {
+   "w": "the",
+   "s": 92.8,
+   "e": 92.98
+  },
+  {
+   "w": "doubling",
+   "s": 92.98,
+   "e": 93.2
+  },
+  {
+   "w": "come",
+   "s": 93.2,
+   "e": 93.56
+  },
+  {
+   "w": "from?",
+   "s": 93.56,
+   "e": 93.88
+  },
+  {
+   "w": "From",
+   "s": 94.44,
+   "e": 94.58
+  },
+  {
+   "w": "researchers",
+   "s": 94.58,
+   "e": 94.9
+  },
+  {
+   "w": "at",
+   "s": 94.9,
+   "e": 95.34
+  },
+  {
+   "w": "the",
+   "s": 95.34,
+   "e": 95.44
+  },
+  {
+   "w": "University",
+   "s": 95.44,
+   "e": 95.74
+  },
+  {
+   "w": "of",
+   "s": 95.74,
+   "e": 96.22
+  },
+  {
+   "w": "Cincinnati,",
+   "s": 96.22,
+   "e": 96.56
+  },
+  {
+   "w": "they",
+   "s": 97.4,
+   "e": 97.52
+  },
+  {
+   "w": "counted",
+   "s": 97.52,
+   "e": 97.76
+  },
+  {
+   "w": "every",
+   "s": 97.76,
+   "e": 98.16
+  },
+  {
+   "w": "first",
+   "s": 98.16,
+   "e": 98.54
+  },
+  {
+   "w": "time",
+   "s": 98.54,
+   "e": 98.78
+  },
+  {
+   "w": "stroke",
+   "s": 98.78,
+   "e": 99.06
+  },
+  {
+   "w": "in",
+   "s": 99.06,
+   "e": 99.34
+  },
+  {
+   "w": "hospitals",
+   "s": 99.34,
+   "e": 99.64
+  },
+  {
+   "w": "across",
+   "s": 99.64,
+   "e": 100.22
+  },
+  {
+   "w": "five",
+   "s": 100.22,
+   "e": 100.72
+  },
+  {
+   "w": "counties",
+   "s": 100.72,
+   "e": 101.12
+  },
+  {
+   "w": "in",
+   "s": 101.12,
+   "e": 101.62
+  },
+  {
+   "w": "southern",
+   "s": 101.62,
+   "e": 101.86
+  },
+  {
+   "w": "Ohio",
+   "s": 101.86,
+   "e": 102.24
+  },
+  {
+   "w": "and",
+   "s": 102.24,
+   "e": 102.68
+  },
+  {
+   "w": "northern",
+   "s": 102.68,
+   "e": 102.9
+  },
+  {
+   "w": "Kentucky",
+   "s": 102.9,
+   "e": 103.34
+  },
+  {
+   "w": "in",
+   "s": 103.34,
+   "e": 104.08
+  },
+  {
+   "w": "snapshots",
+   "s": 104.08,
+   "e": 104.34
+  },
+  {
+   "w": "from",
+   "s": 104.34,
+   "e": 104.86
+  },
+  {
+   "w": "1993",
+   "s": 104.86,
+   "e": 105.22
+  },
+  {
+   "w": "to",
+   "s": 105.22,
+   "e": 106.06
+  },
+  {
+   "w": "2020.",
+   "s": 106.06,
+   "e": 106.64
+  },
+  {
+   "w": "In",
+   "s": 106.64,
+   "e": 107.2
+  },
+  {
+   "w": "1993,",
+   "s": 107.2,
+   "e": 107.72
+  },
+  {
+   "w": "about",
+   "s": 108.48,
+   "e": 108.66
+  },
+  {
+   "w": "34",
+   "s": 108.66,
+   "e": 109.06
+  },
+  {
+   "w": "young",
+   "s": 109.06,
+   "e": 109.5
+  },
+  {
+   "w": "adults",
+   "s": 109.5,
+   "e": 109.92
+  },
+  {
+   "w": "out",
+   "s": 109.92,
+   "e": 110.06
+  },
+  {
+   "w": "of",
+   "s": 110.06,
+   "e": 110.2
+  },
+  {
+   "w": "every",
+   "s": 110.2,
+   "e": 110.38
+  },
+  {
+   "w": "hundred",
+   "s": 110.38,
+   "e": 110.78
+  },
+  {
+   "w": "thousand",
+   "s": 110.78,
+   "e": 111.16
+  },
+  {
+   "w": "had",
+   "s": 111.16,
+   "e": 111.5
+  },
+  {
+   "w": "a",
+   "s": 111.5,
+   "e": 111.58
+  },
+  {
+   "w": "stroke",
+   "s": 111.58,
+   "e": 111.82
+  },
+  {
+   "w": "in",
+   "s": 111.82,
+   "e": 112.02
+  },
+  {
+   "w": "a",
+   "s": 112.02,
+   "e": 112.1
+  },
+  {
+   "w": "year.",
+   "s": 112.1,
+   "e": 112.32
+  },
+  {
+   "w": "By",
+   "s": 112.98,
+   "e": 113.12
+  },
+  {
+   "w": "2020,",
+   "s": 113.12,
+   "e": 113.52
+  },
+  {
+   "w": "it",
+   "s": 114.16,
+   "e": 114.26
+  },
+  {
+   "w": "was",
+   "s": 114.26,
+   "e": 114.34
+  },
+  {
+   "w": "about",
+   "s": 114.34,
+   "e": 114.54
+  },
+  {
+   "w": "62.",
+   "s": 114.54,
+   "e": 114.94
+  },
+  {
+   "w": "Almost",
+   "s": 115.68,
+   "e": 115.9
+  },
+  {
+   "w": "all",
+   "s": 115.9,
+   "e": 116.24
+  },
+  {
+   "w": "of",
+   "s": 116.24,
+   "e": 116.34
+  },
+  {
+   "w": "the",
+   "s": 116.34,
+   "e": 116.44
+  },
+  {
+   "w": "rise",
+   "s": 116.44,
+   "e": 116.64
+  },
+  {
+   "w": "came",
+   "s": 116.64,
+   "e": 116.94
+  },
+  {
+   "w": "from",
+   "s": 116.94,
+   "e": 117.12
+  },
+  {
+   "w": "clots,",
+   "s": 117.12,
+   "e": 117.48
+  },
+  {
+   "w": "the",
+   "s": 117.9,
+   "e": 118.0
+  },
+  {
+   "w": "ischemic",
+   "s": 118.0,
+   "e": 118.42
+  },
+  {
+   "w": "kind.",
+   "s": 118.42,
+   "e": 118.78
+  },
+  {
+   "w": "Ischemic",
+   "s": 119.44,
+   "e": 119.94
+  },
+  {
+   "w": "strokes",
+   "s": 119.94,
+   "e": 120.22
+  },
+  {
+   "w": "went",
+   "s": 120.22,
+   "e": 120.58
+  },
+  {
+   "w": "from",
+   "s": 120.58,
+   "e": 120.74
+  },
+  {
+   "w": "about",
+   "s": 120.74,
+   "e": 120.96
+  },
+  {
+   "w": "24",
+   "s": 120.96,
+   "e": 121.28
+  },
+  {
+   "w": "to",
+   "s": 121.28,
+   "e": 121.78
+  },
+  {
+   "w": "about",
+   "s": 121.78,
+   "e": 122.04
+  },
+  {
+   "w": "47",
+   "s": 122.04,
+   "e": 122.54
+  },
+  {
+   "w": "per",
+   "s": 122.54,
+   "e": 122.98
+  },
+  {
+   "w": "hundred",
+   "s": 122.98,
+   "e": 123.3
+  },
+  {
+   "w": "thousand.",
+   "s": 123.3,
+   "e": 123.66
+  },
+  {
+   "w": "Strokes",
+   "s": 124.26,
+   "e": 124.68
+  },
+  {
+   "w": "from",
+   "s": 124.68,
+   "e": 124.84
+  },
+  {
+   "w": "bleeding",
+   "s": 124.84,
+   "e": 125.08
+  },
+  {
+   "w": "in",
+   "s": 125.08,
+   "e": 125.4
+  },
+  {
+   "w": "young",
+   "s": 125.4,
+   "e": 125.52
+  },
+  {
+   "w": "adults",
+   "s": 125.52,
+   "e": 126.0
+  },
+  {
+   "w": "showed",
+   "s": 126.0,
+   "e": 126.38
+  },
+  {
+   "w": "no",
+   "s": 126.38,
+   "e": 126.68
+  },
+  {
+   "w": "clear",
+   "s": 126.68,
+   "e": 126.92
+  },
+  {
+   "w": "trend.",
+   "s": 126.92,
+   "e": 127.24
+  },
+  {
+   "w": "It",
+   "s": 127.92,
+   "e": 128.0
+  },
+  {
+   "w": "was",
+   "s": 128.0,
+   "e": 128.1
+  },
+  {
+   "w": "the",
+   "s": 128.1,
+   "e": 128.24
+  },
+  {
+   "w": "clots",
+   "s": 128.24,
+   "e": 128.6
+  },
+  {
+   "w": "that",
+   "s": 128.6,
+   "e": 128.76
+  },
+  {
+   "w": "surged.",
+   "s": 128.76,
+   "e": 129.1
+  },
+  {
+   "w": "And",
+   "s": 130.08,
+   "e": 130.3
+  },
+  {
+   "w": "older",
+   "s": 130.3,
+   "e": 130.52
+  },
+  {
+   "w": "people",
+   "s": 130.52,
+   "e": 130.96
+  },
+  {
+   "w": "went",
+   "s": 130.96,
+   "e": 131.24
+  },
+  {
+   "w": "the",
+   "s": 131.24,
+   "e": 131.38
+  },
+  {
+   "w": "other",
+   "s": 131.38,
+   "e": 131.54
+  },
+  {
+   "w": "way.",
+   "s": 131.54,
+   "e": 131.76
+  },
+  {
+   "w": "Yes,",
+   "s": 131.76,
+   "e": 132.58
+  },
+  {
+   "w": "among",
+   "s": 132.88,
+   "e": 133.04
+  },
+  {
+   "w": "older",
+   "s": 133.04,
+   "e": 133.34
+  },
+  {
+   "w": "adults,",
+   "s": 133.34,
+   "e": 133.94
+  },
+  {
+   "w": "stroke",
+   "s": 134.12,
+   "e": 134.42
+  },
+  {
+   "w": "rates",
+   "s": 134.42,
+   "e": 134.74
+  },
+  {
+   "w": "fell",
+   "s": 134.74,
+   "e": 135.04
+  },
+  {
+   "w": "by",
+   "s": 135.04,
+   "e": 135.28
+  },
+  {
+   "w": "about",
+   "s": 135.28,
+   "e": 135.48
+  },
+  {
+   "w": "a",
+   "s": 135.48,
+   "e": 135.56
+  },
+  {
+   "w": "quarter,",
+   "s": 135.56,
+   "e": 135.86
+  },
+  {
+   "w": "from",
+   "s": 136.24,
+   "e": 136.46
+  },
+  {
+   "w": "roughly",
+   "s": 136.46,
+   "e": 136.74
+  },
+  {
+   "w": "619",
+   "s": 136.74,
+   "e": 137.3
+  },
+  {
+   "w": "to",
+   "s": 137.3,
+   "e": 138.14
+  },
+  {
+   "w": "453",
+   "s": 138.14,
+   "e": 139.38
+  },
+  {
+   "w": "per",
+   "s": 139.38,
+   "e": 139.56
+  },
+  {
+   "w": "hundred",
+   "s": 139.56,
+   "e": 139.88
+  },
+  {
+   "w": "thousand.",
+   "s": 139.88,
+   "e": 140.36
+  },
+  {
+   "w": "Better",
+   "s": 140.92,
+   "e": 141.1
+  },
+  {
+   "w": "blood",
+   "s": 141.1,
+   "e": 141.38
+  },
+  {
+   "w": "pressure",
+   "s": 141.38,
+   "e": 141.66
+  },
+  {
+   "w": "treatment",
+   "s": 141.66,
+   "e": 142.08
+  },
+  {
+   "w": "and",
+   "s": 142.08,
+   "e": 142.42
+  },
+  {
+   "w": "fewer",
+   "s": 142.42,
+   "e": 142.62
+  },
+  {
+   "w": "smokers",
+   "s": 142.62,
+   "e": 143.1
+  },
+  {
+   "w": "probably",
+   "s": 143.1,
+   "e": 143.6
+  },
+  {
+   "w": "helped",
+   "s": 143.6,
+   "e": 143.98
+  },
+  {
+   "w": "them.",
+   "s": 143.98,
+   "e": 144.24
+  },
+  {
+   "w": "There",
+   "s": 144.7,
+   "e": 144.72
+  },
+  {
+   "w": "was",
+   "s": 144.72,
+   "e": 144.82
+  },
+  {
+   "w": "one",
+   "s": 144.82,
+   "e": 145.0
+  },
+  {
+   "w": "piece",
+   "s": 145.0,
+   "e": 145.3
+  },
+  {
+   "w": "of",
+   "s": 145.3,
+   "e": 145.46
+  },
+  {
+   "w": "good",
+   "s": 145.46,
+   "e": 145.6
+  },
+  {
+   "w": "news",
+   "s": 145.6,
+   "e": 145.84
+  },
+  {
+   "w": "for",
+   "s": 145.84,
+   "e": 146.12
+  },
+  {
+   "w": "the",
+   "s": 146.12,
+   "e": 146.2
+  },
+  {
+   "w": "young.",
+   "s": 146.2,
+   "e": 146.38
+  },
+  {
+   "w": "The",
+   "s": 147.0,
+   "e": 147.1
+  },
+  {
+   "w": "share",
+   "s": 147.1,
+   "e": 147.3
+  },
+  {
+   "w": "who",
+   "s": 147.3,
+   "e": 147.58
+  },
+  {
+   "w": "died",
+   "s": 147.58,
+   "e": 147.8
+  },
+  {
+   "w": "within",
+   "s": 147.8,
+   "e": 148.06
+  },
+  {
+   "w": "a",
+   "s": 148.06,
+   "e": 148.2
+  },
+  {
+   "w": "month",
+   "s": 148.2,
+   "e": 148.38
+  },
+  {
+   "w": "of",
+   "s": 148.38,
+   "e": 148.56
+  },
+  {
+   "w": "their",
+   "s": 148.56,
+   "e": 148.66
+  },
+  {
+   "w": "stroke",
+   "s": 148.66,
+   "e": 148.94
+  },
+  {
+   "w": "fell,",
+   "s": 148.94,
+   "e": 149.22
+  },
+  {
+   "w": "from",
+   "s": 149.6,
+   "e": 149.74
+  },
+  {
+   "w": "about",
+   "s": 149.74,
+   "e": 149.9
+  },
+  {
+   "w": "12",
+   "s": 149.9,
+   "e": 150.22
+  },
+  {
+   "w": "%",
+   "s": 150.22,
+   "e": 150.66
+  },
+  {
+   "w": "to",
+   "s": 150.66,
+   "e": 151.0
+  },
+  {
+   "w": "about",
+   "s": 151.0,
+   "e": 151.22
+  },
+  {
+   "w": "nine.",
+   "s": 151.22,
+   "e": 151.54
+  },
+  {
+   "w": "So",
+   "s": 153.58,
+   "e": 154.14
+  },
+  {
+   "w": "what's",
+   "s": 154.14,
+   "e": 154.44
+  },
+  {
+   "w": "different",
+   "s": 154.44,
+   "e": 154.6
+  },
+  {
+   "w": "about",
+   "s": 154.6,
+   "e": 154.98
+  },
+  {
+   "w": "the",
+   "s": 154.98,
+   "e": 155.12
+  },
+  {
+   "w": "young",
+   "s": 155.12,
+   "e": 155.3
+  },
+  {
+   "w": "patients?",
+   "s": 155.3,
+   "e": 155.64
+  },
+  {
+   "w": "The",
+   "s": 156.38,
+   "e": 156.6
+  },
+  {
+   "w": "study",
+   "s": 156.6,
+   "e": 156.82
+  },
+  {
+   "w": "looked",
+   "s": 156.82,
+   "e": 157.1
+  },
+  {
+   "w": "at",
+   "s": 157.1,
+   "e": 157.28
+  },
+  {
+   "w": "what",
+   "s": 157.28,
+   "e": 157.4
+  },
+  {
+   "w": "young",
+   "s": 157.4,
+   "e": 157.6
+  },
+  {
+   "w": "stroke",
+   "s": 157.6,
+   "e": 157.88
+  },
+  {
+   "w": "patients",
+   "s": 157.88,
+   "e": 158.3
+  },
+  {
+   "w": "had",
+   "s": 158.3,
+   "e": 158.7
+  },
+  {
+   "w": "in",
+   "s": 158.7,
+   "e": 158.8
+  },
+  {
+   "w": "common.",
+   "s": 158.8,
+   "e": 159.06
+  },
+  {
+   "w": "High",
+   "s": 159.06,
+   "e": 159.88
+  },
+  {
+   "w": "blood",
+   "s": 159.88,
+   "e": 160.14
+  },
+  {
+   "w": "pressure",
+   "s": 160.14,
+   "e": 160.54
+  },
+  {
+   "w": "went",
+   "s": 160.54,
+   "e": 160.84
+  },
+  {
+   "w": "from",
+   "s": 160.84,
+   "e": 161.04
+  },
+  {
+   "w": "47",
+   "s": 161.04,
+   "e": 161.46
+  },
+  {
+   "w": "%",
+   "s": 161.46,
+   "e": 162.06
+  },
+  {
+   "w": "of",
+   "s": 162.06,
+   "e": 162.18
+  },
+  {
+   "w": "patients",
+   "s": 162.18,
+   "e": 162.44
+  },
+  {
+   "w": "to",
+   "s": 162.44,
+   "e": 163.0
+  },
+  {
+   "w": "60%.",
+   "s": 163.0,
+   "e": 164.04
+  },
+  {
+   "w": "Diabetes",
+   "s": 164.04,
+   "e": 164.44
+  },
+  {
+   "w": "went",
+   "s": 164.44,
+   "e": 165.06
+  },
+  {
+   "w": "from",
+   "s": 165.06,
+   "e": 165.3
+  },
+  {
+   "w": "19",
+   "s": 165.3,
+   "e": 165.54
+  },
+  {
+   "w": "to",
+   "s": 165.54,
+   "e": 166.0
+  },
+  {
+   "w": "about",
+   "s": 166.0,
+   "e": 166.2
+  },
+  {
+   "w": "26%.",
+   "s": 166.2,
+   "e": 167.44
+  },
+  {
+   "w": "An",
+   "s": 167.44,
+   "e": 167.8
+  },
+  {
+   "w": "irregular",
+   "s": 167.8,
+   "e": 168.02
+  },
+  {
+   "w": "heartbeat",
+   "s": 168.02,
+   "e": 168.64
+  },
+  {
+   "w": "called",
+   "s": 168.64,
+   "e": 169.08
+  },
+  {
+   "w": "atrial",
+   "s": 169.08,
+   "e": 169.56
+  },
+  {
+   "w": "fibrillation,",
+   "s": 169.56,
+   "e": 170.22
+  },
+  {
+   "w": "which",
+   "s": 170.66,
+   "e": 170.8
+  },
+  {
+   "w": "lets",
+   "s": 170.8,
+   "e": 171.04
+  },
+  {
+   "w": "clots",
+   "s": 171.04,
+   "e": 171.4
+  },
+  {
+   "w": "form",
+   "s": 171.4,
+   "e": 171.68
+  },
+  {
+   "w": "in",
+   "s": 171.68,
+   "e": 171.82
+  },
+  {
+   "w": "the",
+   "s": 171.82,
+   "e": 171.92
+  },
+  {
+   "w": "heart,",
+   "s": 171.92,
+   "e": 172.18
+  },
+  {
+   "w": "went",
+   "s": 172.56,
+   "e": 172.76
+  },
+  {
+   "w": "from",
+   "s": 172.76,
+   "e": 172.96
+  },
+  {
+   "w": "about",
+   "s": 172.96,
+   "e": 173.18
+  },
+  {
+   "w": "1",
+   "s": 173.18,
+   "e": 173.46
+  },
+  {
+   "w": "%",
+   "s": 173.46,
+   "e": 173.84
+  },
+  {
+   "w": "to",
+   "s": 173.84,
+   "e": 174.16
+  },
+  {
+   "w": "6%.",
+   "s": 174.16,
+   "e": 174.98
+  },
+  {
+   "w": "As",
+   "s": 174.98,
+   "e": 175.46
+  },
+  {
+   "w": "one",
+   "s": 175.46,
+   "e": 175.62
+  },
+  {
+   "w": "cardiologist",
+   "s": 175.62,
+   "e": 176.24
+  },
+  {
+   "w": "put",
+   "s": 176.24,
+   "e": 176.68
+  },
+  {
+   "w": "it,",
+   "s": 176.68,
+   "e": 176.84
+  },
+  {
+   "w": "heart",
+   "s": 177.2,
+   "e": 177.44
+  },
+  {
+   "w": "and",
+   "s": 177.44,
+   "e": 177.72
+  },
+  {
+   "w": "blood",
+   "s": 177.72,
+   "e": 177.92
+  },
+  {
+   "w": "vessel",
+   "s": 177.92,
+   "e": 178.28
+  },
+  {
+   "w": "risk",
+   "s": 178.28,
+   "e": 178.62
+  },
+  {
+   "w": "is",
+   "s": 178.62,
+   "e": 178.92
+  },
+  {
+   "w": "building",
+   "s": 178.92,
+   "e": 179.2
+  },
+  {
+   "w": "up",
+   "s": 179.2,
+   "e": 179.42
+  },
+  {
+   "w": "earlier",
+   "s": 179.42,
+   "e": 179.78
+  },
+  {
+   "w": "in",
+   "s": 179.78,
+   "e": 179.98
+  },
+  {
+   "w": "life.",
+   "s": 179.98,
+   "e": 180.22
+  },
+  {
+   "w": "One",
+   "s": 181.2,
+   "e": 181.46
+  },
+  {
+   "w": "limit,",
+   "s": 181.46,
+   "e": 181.76
+  },
+  {
+   "w": "these",
+   "s": 182.02,
+   "e": 182.16
+  },
+  {
+   "w": "numbers",
+   "s": 182.16,
+   "e": 182.5
+  },
+  {
+   "w": "come",
+   "s": 182.5,
+   "e": 182.76
+  },
+  {
+   "w": "only",
+   "s": 182.76,
+   "e": 183.04
+  },
+  {
+   "w": "from",
+   "s": 183.04,
+   "e": 183.32
+  },
+  {
+   "w": "people",
+   "s": 183.32,
+   "e": 183.68
+  },
+  {
+   "w": "who",
+   "s": 183.68,
+   "e": 183.88
+  },
+  {
+   "w": "already",
+   "s": 183.88,
+   "e": 184.14
+  },
+  {
+   "w": "had",
+   "s": 184.14,
+   "e": 184.42
+  },
+  {
+   "w": "strokes.",
+   "s": 184.42,
+   "e": 184.72
+  },
+  {
+   "w": "The",
+   "s": 184.72,
+   "e": 185.48
+  },
+  {
+   "w": "study",
+   "s": 185.48,
+   "e": 185.8
+  },
+  {
+   "w": "couldn't",
+   "s": 185.8,
+   "e": 186.1
+  },
+  {
+   "w": "measure",
+   "s": 186.1,
+   "e": 186.24
+  },
+  {
+   "w": "how",
+   "s": 186.24,
+   "e": 186.54
+  },
+  {
+   "w": "common",
+   "s": 186.54,
+   "e": 186.88
+  },
+  {
+   "w": "the",
+   "s": 186.88,
+   "e": 187.04
+  },
+  {
+   "w": "same",
+   "s": 187.04,
+   "e": 187.26
+  },
+  {
+   "w": "risks",
+   "s": 187.26,
+   "e": 187.62
+  },
+  {
+   "w": "are",
+   "s": 187.62,
+   "e": 187.96
+  },
+  {
+   "w": "among",
+   "s": 187.96,
+   "e": 188.12
+  },
+  {
+   "w": "all",
+   "s": 188.12,
+   "e": 188.38
+  },
+  {
+   "w": "young",
+   "s": 188.38,
+   "e": 188.6
+  },
+  {
+   "w": "adults.",
+   "s": 188.6,
+   "e": 189.16
+  },
+  {
+   "w": "Why",
+   "s": 189.56,
+   "e": 189.78
+  },
+  {
+   "w": "would",
+   "s": 189.78,
+   "e": 189.94
+  },
+  {
+   "w": "blood",
+   "s": 189.94,
+   "e": 190.1
+  },
+  {
+   "w": "pressure",
+   "s": 190.1,
+   "e": 190.52
+  },
+  {
+   "w": "hurt",
+   "s": 190.52,
+   "e": 190.8
+  },
+  {
+   "w": "the",
+   "s": 190.8,
+   "e": 190.96
+  },
+  {
+   "w": "brain?",
+   "s": 190.96,
+   "e": 191.18
+  },
+  {
+   "w": "High",
+   "s": 191.9,
+   "e": 192.08
+  },
+  {
+   "w": "pressure",
+   "s": 192.08,
+   "e": 192.44
+  },
+  {
+   "w": "hammers",
+   "s": 192.44,
+   "e": 192.9
+  },
+  {
+   "w": "on",
+   "s": 192.9,
+   "e": 193.02
+  },
+  {
+   "w": "the",
+   "s": 193.02,
+   "e": 193.14
+  },
+  {
+   "w": "walls",
+   "s": 193.14,
+   "e": 193.3
+  },
+  {
+   "w": "of",
+   "s": 193.3,
+   "e": 193.48
+  },
+  {
+   "w": "your",
+   "s": 193.48,
+   "e": 193.58
+  },
+  {
+   "w": "arteries",
+   "s": 193.58,
+   "e": 194.06
+  },
+  {
+   "w": "every",
+   "s": 194.06,
+   "e": 194.36
+  },
+  {
+   "w": "heartbeat.",
+   "s": 194.36,
+   "e": 194.76
+  },
+  {
+   "w": "Over",
+   "s": 195.48,
+   "e": 195.64
+  },
+  {
+   "w": "years",
+   "s": 195.64,
+   "e": 195.98
+  },
+  {
+   "w": "they",
+   "s": 195.98,
+   "e": 196.42
+  },
+  {
+   "w": "stiffen",
+   "s": 196.42,
+   "e": 196.82
+  },
+  {
+   "w": "and",
+   "s": 196.82,
+   "e": 196.9
+  },
+  {
+   "w": "get",
+   "s": 196.9,
+   "e": 197.06
+  },
+  {
+   "w": "damaged,",
+   "s": 197.06,
+   "e": 197.38
+  },
+  {
+   "w": "and",
+   "s": 197.96,
+   "e": 198.04
+  },
+  {
+   "w": "that",
+   "s": 198.04,
+   "e": 198.16
+  },
+  {
+   "w": "makes",
+   "s": 198.16,
+   "e": 198.34
+  },
+  {
+   "w": "clots",
+   "s": 198.34,
+   "e": 198.68
+  },
+  {
+   "w": "and",
+   "s": 198.68,
+   "e": 198.92
+  },
+  {
+   "w": "bleeds",
+   "s": 198.92,
+   "e": 199.26
+  },
+  {
+   "w": "more",
+   "s": 199.26,
+   "e": 199.42
+  },
+  {
+   "w": "likely.",
+   "s": 199.42,
+   "e": 199.76
+  },
+  {
+   "w": "And",
+   "s": 200.46,
+   "e": 200.48
+  },
+  {
+   "w": "many",
+   "s": 200.48,
+   "e": 200.6
+  },
+  {
+   "w": "young",
+   "s": 200.6,
+   "e": 200.86
+  },
+  {
+   "w": "adults",
+   "s": 200.86,
+   "e": 201.24
+  },
+  {
+   "w": "with",
+   "s": 201.24,
+   "e": 201.48
+  },
+  {
+   "w": "high",
+   "s": 201.48,
+   "e": 201.7
+  },
+  {
+   "w": "blood",
+   "s": 201.7,
+   "e": 202.0
+  },
+  {
+   "w": "pressure",
+   "s": 202.0,
+   "e": 202.46
+  },
+  {
+   "w": "don't",
+   "s": 202.46,
+   "e": 202.88
+  },
+  {
+   "w": "even",
+   "s": 202.88,
+   "e": 203.02
+  },
+  {
+   "w": "know",
+   "s": 203.02,
+   "e": 203.26
+  },
+  {
+   "w": "they",
+   "s": 203.26,
+   "e": 203.44
+  },
+  {
+   "w": "have",
+   "s": 203.44,
+   "e": 203.7
+  },
+  {
+   "w": "it.",
+   "s": 203.7,
+   "e": 203.86
+  },
+  {
+   "w": "Extra",
+   "s": 204.22,
+   "e": 204.56
+  },
+  {
+   "w": "weight,",
+   "s": 204.56,
+   "e": 204.78
+  },
+  {
+   "w": "too",
+   "s": 205.16,
+   "e": 205.26
+  },
+  {
+   "w": "little",
+   "s": 205.26,
+   "e": 205.46
+  },
+  {
+   "w": "sleep",
+   "s": 205.46,
+   "e": 205.84
+  },
+  {
+   "w": "and",
+   "s": 205.84,
+   "e": 206.04
+  },
+  {
+   "w": "too",
+   "s": 206.04,
+   "e": 206.24
+  },
+  {
+   "w": "little",
+   "s": 206.24,
+   "e": 206.48
+  },
+  {
+   "w": "movement",
+   "s": 206.48,
+   "e": 206.82
+  },
+  {
+   "w": "push",
+   "s": 206.82,
+   "e": 207.32
+  },
+  {
+   "w": "all",
+   "s": 207.32,
+   "e": 207.64
+  },
+  {
+   "w": "of",
+   "s": 207.64,
+   "e": 207.74
+  },
+  {
+   "w": "these",
+   "s": 207.74,
+   "e": 207.88
+  },
+  {
+   "w": "numbers",
+   "s": 207.88,
+   "e": 208.22
+  },
+  {
+   "w": "in",
+   "s": 208.22,
+   "e": 208.52
+  },
+  {
+   "w": "the",
+   "s": 208.52,
+   "e": 208.62
+  },
+  {
+   "w": "wrong",
+   "s": 208.62,
+   "e": 208.76
+  },
+  {
+   "w": "direction.",
+   "s": 208.76,
+   "e": 209.3
+  },
+  {
+   "w": "And",
+   "s": 209.88,
+   "e": 210.04
+  },
+  {
+   "w": "they're",
+   "s": 210.04,
+   "e": 210.14
+  },
+  {
+   "w": "becoming",
+   "s": 210.14,
+   "e": 210.46
+  },
+  {
+   "w": "common",
+   "s": 210.46,
+   "e": 210.84
+  },
+  {
+   "w": "earlier",
+   "s": 210.84,
+   "e": 211.22
+  },
+  {
+   "w": "in",
+   "s": 211.22,
+   "e": 211.54
+  },
+  {
+   "w": "life.",
+   "s": 211.54,
+   "e": 211.76
+  },
+  {
+   "w": "Did",
+   "s": 213.72,
+   "e": 214.36
+  },
+  {
+   "w": "anything",
+   "s": 214.36,
+   "e": 214.6
+  },
+  {
+   "w": "else",
+   "s": 214.6,
+   "e": 214.86
+  },
+  {
+   "w": "change?",
+   "s": 214.86,
+   "e": 215.22
+  },
+  {
+   "w": "One",
+   "s": 215.94,
+   "e": 216.1
+  },
+  {
+   "w": "thing",
+   "s": 216.1,
+   "e": 216.32
+  },
+  {
+   "w": "jumped",
+   "s": 216.32,
+   "e": 216.54
+  },
+  {
+   "w": "out.",
+   "s": 216.54,
+   "e": 216.94
+  },
+  {
+   "w": "In",
+   "s": 217.52,
+   "e": 217.54
+  },
+  {
+   "w": "1993,",
+   "s": 217.54,
+   "e": 218.42
+  },
+  {
+   "w": "less",
+   "s": 218.72,
+   "e": 218.96
+  },
+  {
+   "w": "than",
+   "s": 218.96,
+   "e": 219.16
+  },
+  {
+   "w": "1",
+   "s": 219.16,
+   "e": 219.34
+  },
+  {
+   "w": "%",
+   "s": 219.34,
+   "e": 219.72
+  },
+  {
+   "w": "of",
+   "s": 219.72,
+   "e": 219.92
+  },
+  {
+   "w": "the",
+   "s": 219.92,
+   "e": 220.0
+  },
+  {
+   "w": "young",
+   "s": 220.0,
+   "e": 220.14
+  },
+  {
+   "w": "stroke",
+   "s": 220.14,
+   "e": 220.4
+  },
+  {
+   "w": "patients",
+   "s": 220.4,
+   "e": 220.88
+  },
+  {
+   "w": "reported",
+   "s": 220.88,
+   "e": 221.42
+  },
+  {
+   "w": "using",
+   "s": 221.42,
+   "e": 221.86
+  },
+  {
+   "w": "marijuana.",
+   "s": 221.86,
+   "e": 222.2
+  },
+  {
+   "w": "By",
+   "s": 223.14,
+   "e": 223.26
+  },
+  {
+   "w": "2020,",
+   "s": 223.26,
+   "e": 223.8
+  },
+  {
+   "w": "it",
+   "s": 224.24,
+   "e": 224.34
+  },
+  {
+   "w": "was",
+   "s": 224.34,
+   "e": 224.44
+  },
+  {
+   "w": "about",
+   "s": 224.44,
+   "e": 224.64
+  },
+  {
+   "w": "31%.",
+   "s": 224.64,
+   "e": 225.84
+  },
+  {
+   "w": "Any",
+   "s": 225.84,
+   "e": 226.2
+  },
+  {
+   "w": "substance",
+   "s": 226.2,
+   "e": 226.56
+  },
+  {
+   "w": "use,",
+   "s": 226.56,
+   "e": 227.02
+  },
+  {
+   "w": "including",
+   "s": 227.02,
+   "e": 227.5
+  },
+  {
+   "w": "drugs",
+   "s": 227.5,
+   "e": 227.88
+  },
+  {
+   "w": "like",
+   "s": 227.88,
+   "e": 228.24
+  },
+  {
+   "w": "cocaine,",
+   "s": 228.24,
+   "e": 228.5
+  },
+  {
+   "w": "rose",
+   "s": 229.24,
+   "e": 229.4
+  },
+  {
+   "w": "from",
+   "s": 229.4,
+   "e": 229.7
+  },
+  {
+   "w": "under",
+   "s": 229.7,
+   "e": 229.9
+  },
+  {
+   "w": "5",
+   "s": 229.9,
+   "e": 230.2
+  },
+  {
+   "w": "%",
+   "s": 230.2,
+   "e": 230.62
+  },
+  {
+   "w": "to",
+   "s": 230.62,
+   "e": 231.08
+  },
+  {
+   "w": "about",
+   "s": 231.08,
+   "e": 231.3
+  },
+  {
+   "w": "40%.",
+   "s": 231.3,
+   "e": 232.44
+  },
+  {
+   "w": "So",
+   "s": 232.44,
+   "e": 232.82
+  },
+  {
+   "w": "does",
+   "s": 232.82,
+   "e": 232.94
+  },
+  {
+   "w": "cannabis",
+   "s": 232.94,
+   "e": 233.2
+  },
+  {
+   "w": "cause",
+   "s": 233.2,
+   "e": 233.62
+  },
+  {
+   "w": "strokes?",
+   "s": 233.62,
+   "e": 233.96
+  },
+  {
+   "w": "This",
+   "s": 234.7,
+   "e": 234.92
+  },
+  {
+   "w": "study",
+   "s": 234.92,
+   "e": 235.14
+  },
+  {
+   "w": "can't",
+   "s": 235.14,
+   "e": 235.52
+  },
+  {
+   "w": "say",
+   "s": 235.52,
+   "e": 235.68
+  },
+  {
+   "w": "that.",
+   "s": 235.68,
+   "e": 236.0
+  },
+  {
+   "w": "The",
+   "s": 236.38,
+   "e": 236.46
+  },
+  {
+   "w": "laid",
+   "s": 236.46,
+   "e": 236.58
+  },
+  {
+   "w": "researcher",
+   "s": 236.58,
+   "e": 236.94
+  },
+  {
+   "w": "said",
+   "s": 236.94,
+   "e": 237.32
+  },
+  {
+   "w": "clearly",
+   "s": 237.32,
+   "e": 237.62
+  },
+  {
+   "w": "that",
+   "s": 237.62,
+   "e": 238.0
+  },
+  {
+   "w": "it",
+   "s": 238.0,
+   "e": 238.08
+  },
+  {
+   "w": "doesn't",
+   "s": 238.08,
+   "e": 238.36
+  },
+  {
+   "w": "mean",
+   "s": 238.36,
+   "e": 238.52
+  },
+  {
+   "w": "more",
+   "s": 238.52,
+   "e": 238.78
+  },
+  {
+   "w": "substance",
+   "s": 238.78,
+   "e": 239.12
+  },
+  {
+   "w": "use",
+   "s": 239.12,
+   "e": 239.5
+  },
+  {
+   "w": "caused",
+   "s": 239.5,
+   "e": 239.76
+  },
+  {
+   "w": "more",
+   "s": 239.76,
+   "e": 240.08
+  },
+  {
+   "w": "strokes.",
+   "s": 240.08,
+   "e": 240.42
+  },
+  {
+   "w": "It",
+   "s": 240.42,
+   "e": 241.14
+  },
+  {
+   "w": "might,",
+   "s": 241.14,
+   "e": 241.38
+  },
+  {
+   "w": "or",
+   "s": 241.7,
+   "e": 241.84
+  },
+  {
+   "w": "the",
+   "s": 241.84,
+   "e": 241.94
+  },
+  {
+   "w": "people",
+   "s": 241.94,
+   "e": 242.22
+  },
+  {
+   "w": "who",
+   "s": 242.22,
+   "e": 242.38
+  },
+  {
+   "w": "use",
+   "s": 242.38,
+   "e": 242.6
+  },
+  {
+   "w": "it",
+   "s": 242.6,
+   "e": 242.7
+  },
+  {
+   "w": "might",
+   "s": 242.7,
+   "e": 242.88
+  },
+  {
+   "w": "differ",
+   "s": 242.88,
+   "e": 243.16
+  },
+  {
+   "w": "in",
+   "s": 243.16,
+   "e": 243.36
+  },
+  {
+   "w": "other",
+   "s": 243.36,
+   "e": 243.46
+  },
+  {
+   "w": "ways.",
+   "s": 243.46,
+   "e": 243.86
+  },
+  {
+   "w": "Scientists",
+   "s": 244.28,
+   "e": 244.64
+  },
+  {
+   "w": "say",
+   "s": 244.64,
+   "e": 245.18
+  },
+  {
+   "w": "it",
+   "s": 245.18,
+   "e": 245.3
+  },
+  {
+   "w": "needs",
+   "s": 245.3,
+   "e": 245.48
+  },
+  {
+   "w": "dedicated",
+   "s": 245.48,
+   "e": 245.8
+  },
+  {
+   "w": "research.",
+   "s": 245.8,
+   "e": 246.52
+  },
+  {
+   "w": "There's",
+   "s": 247.14,
+   "e": 247.32
+  },
+  {
+   "w": "another",
+   "s": 247.32,
+   "e": 247.5
+  },
+  {
+   "w": "catch.",
+   "s": 247.5,
+   "e": 247.84
+  },
+  {
+   "w": "Doctors",
+   "s": 248.46,
+   "e": 248.68
+  },
+  {
+   "w": "today",
+   "s": 248.68,
+   "e": 249.06
+  },
+  {
+   "w": "scan",
+   "s": 249.06,
+   "e": 249.36
+  },
+  {
+   "w": "more",
+   "s": 249.36,
+   "e": 249.64
+  },
+  {
+   "w": "brains",
+   "s": 249.64,
+   "e": 250.02
+  },
+  {
+   "w": "with",
+   "s": 250.02,
+   "e": 250.54
+  },
+  {
+   "w": "better",
+   "s": 250.54,
+   "e": 250.84
+  },
+  {
+   "w": "imaging,",
+   "s": 250.84,
+   "e": 251.1
+  },
+  {
+   "w": "so",
+   "s": 251.1,
+   "e": 251.84
+  },
+  {
+   "w": "they",
+   "s": 251.84,
+   "e": 251.94
+  },
+  {
+   "w": "may",
+   "s": 251.94,
+   "e": 252.06
+  },
+  {
+   "w": "simply",
+   "s": 252.06,
+   "e": 252.36
+  },
+  {
+   "w": "be",
+   "s": 252.36,
+   "e": 252.56
+  },
+  {
+   "w": "finding",
+   "s": 252.56,
+   "e": 252.82
+  },
+  {
+   "w": "more",
+   "s": 252.82,
+   "e": 253.14
+  },
+  {
+   "w": "strokes",
+   "s": 253.14,
+   "e": 253.46
+  },
+  {
+   "w": "than",
+   "s": 253.46,
+   "e": 253.78
+  },
+  {
+   "w": "they",
+   "s": 253.78,
+   "e": 253.88
+  },
+  {
+   "w": "did",
+   "s": 253.88,
+   "e": 254.08
+  },
+  {
+   "w": "in",
+   "s": 254.08,
+   "e": 254.2
+  },
+  {
+   "w": "the",
+   "s": 254.2,
+   "e": 254.32
+  },
+  {
+   "w": "90s.",
+   "s": 254.32,
+   "e": 254.98
+  },
+  {
+   "w": "Are",
+   "s": 256.8,
+   "e": 257.32
+  },
+  {
+   "w": "there",
+   "s": 257.32,
+   "e": 257.44
+  },
+  {
+   "w": "causes",
+   "s": 257.44,
+   "e": 257.72
+  },
+  {
+   "w": "that",
+   "s": 257.72,
+   "e": 258.26
+  },
+  {
+   "w": "only",
+   "s": 258.26,
+   "e": 258.42
+  },
+  {
+   "w": "hit",
+   "s": 258.42,
+   "e": 258.72
+  },
+  {
+   "w": "young",
+   "s": 258.72,
+   "e": 258.9
+  },
+  {
+   "w": "people?",
+   "s": 258.9,
+   "e": 259.28
+  },
+  {
+   "w": "Some",
+   "s": 259.88,
+   "e": 260.12
+  },
+  {
+   "w": "are",
+   "s": 260.12,
+   "e": 260.24
+  },
+  {
+   "w": "much",
+   "s": 260.24,
+   "e": 260.4
+  },
+  {
+   "w": "more",
+   "s": 260.4,
+   "e": 260.66
+  },
+  {
+   "w": "common",
+   "s": 260.66,
+   "e": 260.94
+  },
+  {
+   "w": "in",
+   "s": 260.94,
+   "e": 261.14
+  },
+  {
+   "w": "the",
+   "s": 261.14,
+   "e": 261.22
+  },
+  {
+   "w": "young.",
+   "s": 261.22,
+   "e": 261.38
+  },
+  {
+   "w": "One",
+   "s": 262.1,
+   "e": 262.22
+  },
+  {
+   "w": "is",
+   "s": 262.22,
+   "e": 262.36
+  },
+  {
+   "w": "a",
+   "s": 262.36,
+   "e": 262.42
+  },
+  {
+   "w": "tear",
+   "s": 262.42,
+   "e": 262.64
+  },
+  {
+   "w": "in",
+   "s": 262.64,
+   "e": 262.86
+  },
+  {
+   "w": "an",
+   "s": 262.86,
+   "e": 262.94
+  },
+  {
+   "w": "artery",
+   "s": 262.94,
+   "e": 263.18
+  },
+  {
+   "w": "in",
+   "s": 263.18,
+   "e": 263.5
+  },
+  {
+   "w": "the",
+   "s": 263.5,
+   "e": 263.58
+  },
+  {
+   "w": "neck",
+   "s": 263.58,
+   "e": 263.76
+  },
+  {
+   "w": "called",
+   "s": 263.76,
+   "e": 264.14
+  },
+  {
+   "w": "a",
+   "s": 264.14,
+   "e": 264.28
+  },
+  {
+   "w": "dissection.",
+   "s": 264.28,
+   "e": 264.68
+  },
+  {
+   "w": "It",
+   "s": 265.34,
+   "e": 265.48
+  },
+  {
+   "w": "can",
+   "s": 265.48,
+   "e": 265.6
+  },
+  {
+   "w": "follow",
+   "s": 265.6,
+   "e": 265.86
+  },
+  {
+   "w": "a",
+   "s": 265.86,
+   "e": 266.0
+  },
+  {
+   "w": "sudden",
+   "s": 266.0,
+   "e": 266.28
+  },
+  {
+   "w": "twist,",
+   "s": 266.28,
+   "e": 266.62
+  },
+  {
+   "w": "a",
+   "s": 267.04,
+   "e": 267.12
+  },
+  {
+   "w": "sports",
+   "s": 267.12,
+   "e": 267.34
+  },
+  {
+   "w": "injury,",
+   "s": 267.34,
+   "e": 267.84
+  },
+  {
+   "w": "or",
+   "s": 268.14,
+   "e": 268.32
+  },
+  {
+   "w": "sometimes",
+   "s": 268.32,
+   "e": 268.64
+  },
+  {
+   "w": "nothing",
+   "s": 268.64,
+   "e": 269.12
+  },
+  {
+   "w": "obvious",
+   "s": 269.12,
+   "e": 269.38
+  },
+  {
+   "w": "at",
+   "s": 269.38,
+   "e": 269.72
+  },
+  {
+   "w": "all.",
+   "s": 269.72,
+   "e": 269.88
+  },
+  {
+   "w": "Another",
+   "s": 269.88,
+   "e": 270.6
+  },
+  {
+   "w": "is",
+   "s": 270.6,
+   "e": 270.86
+  },
+  {
+   "w": "a",
+   "s": 270.86,
+   "e": 270.98
+  },
+  {
+   "w": "small",
+   "s": 270.98,
+   "e": 271.22
+  },
+  {
+   "w": "opening",
+   "s": 271.22,
+   "e": 271.7
+  },
+  {
+   "w": "between",
+   "s": 271.7,
+   "e": 272.02
+  },
+  {
+   "w": "the",
+   "s": 272.02,
+   "e": 272.18
+  },
+  {
+   "w": "two",
+   "s": 272.18,
+   "e": 272.34
+  },
+  {
+   "w": "upper",
+   "s": 272.34,
+   "e": 272.48
+  },
+  {
+   "w": "chambers",
+   "s": 272.48,
+   "e": 272.88
+  },
+  {
+   "w": "of",
+   "s": 272.88,
+   "e": 273.12
+  },
+  {
+   "w": "the",
+   "s": 273.12,
+   "e": 273.24
+  },
+  {
+   "w": "heart,",
+   "s": 273.24,
+   "e": 273.5
+  },
+  {
+   "w": "called",
+   "s": 273.82,
+   "e": 274.06
+  },
+  {
+   "w": "a",
+   "s": 274.06,
+   "e": 274.16
+  },
+  {
+   "w": "patent",
+   "s": 274.16,
+   "e": 274.5
+  },
+  {
+   "w": "foramen",
+   "s": 274.5,
+   "e": 275.02
+  },
+  {
+   "w": "ovale.",
+   "s": 275.02,
+   "e": 275.58
+  },
+  {
+   "w": "About",
+   "s": 276.12,
+   "e": 276.26
+  },
+  {
+   "w": "one",
+   "s": 276.26,
+   "e": 276.54
+  },
+  {
+   "w": "in",
+   "s": 276.54,
+   "e": 276.66
+  },
+  {
+   "w": "four",
+   "s": 276.66,
+   "e": 276.92
+  },
+  {
+   "w": "people",
+   "s": 276.92,
+   "e": 277.28
+  },
+  {
+   "w": "have",
+   "s": 277.28,
+   "e": 277.5
+  },
+  {
+   "w": "one.",
+   "s": 277.5,
+   "e": 277.74
+  },
+  {
+   "w": "Usually",
+   "s": 278.26,
+   "e": 278.56
+  },
+  {
+   "w": "it's",
+   "s": 278.56,
+   "e": 278.88
+  },
+  {
+   "w": "harmless,",
+   "s": 278.88,
+   "e": 279.12
+  },
+  {
+   "w": "but",
+   "s": 279.64,
+   "e": 279.76
+  },
+  {
+   "w": "in",
+   "s": 279.76,
+   "e": 279.88
+  },
+  {
+   "w": "rare",
+   "s": 279.88,
+   "e": 280.02
+  },
+  {
+   "w": "cases",
+   "s": 280.02,
+   "e": 280.44
+  },
+  {
+   "w": "it",
+   "s": 280.44,
+   "e": 280.8
+  },
+  {
+   "w": "can",
+   "s": 280.8,
+   "e": 280.92
+  },
+  {
+   "w": "let",
+   "s": 280.92,
+   "e": 281.08
+  },
+  {
+   "w": "a",
+   "s": 281.08,
+   "e": 281.12
+  },
+  {
+   "w": "clot",
+   "s": 281.12,
+   "e": 281.28
+  },
+  {
+   "w": "slip",
+   "s": 281.28,
+   "e": 281.58
+  },
+  {
+   "w": "through",
+   "s": 281.58,
+   "e": 281.84
+  },
+  {
+   "w": "to",
+   "s": 281.84,
+   "e": 281.98
+  },
+  {
+   "w": "the",
+   "s": 281.98,
+   "e": 282.08
+  },
+  {
+   "w": "brain.",
+   "s": 282.08,
+   "e": 282.3
+  },
+  {
+   "w": "And",
+   "s": 282.92,
+   "e": 282.96
+  },
+  {
+   "w": "migraine",
+   "s": 282.96,
+   "e": 283.18
+  },
+  {
+   "w": "with",
+   "s": 283.18,
+   "e": 283.56
+  },
+  {
+   "w": "aura,",
+   "s": 283.56,
+   "e": 283.76
+  },
+  {
+   "w": "the",
+   "s": 284.24,
+   "e": 284.28
+  },
+  {
+   "w": "kind",
+   "s": 284.28,
+   "e": 284.46
+  },
+  {
+   "w": "with",
+   "s": 284.46,
+   "e": 284.72
+  },
+  {
+   "w": "flashing",
+   "s": 284.72,
+   "e": 285.0
+  },
+  {
+   "w": "lights",
+   "s": 285.0,
+   "e": 285.36
+  },
+  {
+   "w": "before",
+   "s": 285.36,
+   "e": 285.74
+  },
+  {
+   "w": "the",
+   "s": 285.74,
+   "e": 285.9
+  },
+  {
+   "w": "headache,",
+   "s": 285.9,
+   "e": 286.12
+  },
+  {
+   "w": "is",
+   "s": 286.72,
+   "e": 286.84
+  },
+  {
+   "w": "linked",
+   "s": 286.84,
+   "e": 287.04
+  },
+  {
+   "w": "to",
+   "s": 287.04,
+   "e": 287.28
+  },
+  {
+   "w": "about",
+   "s": 287.28,
+   "e": 287.48
+  },
+  {
+   "w": "twice",
+   "s": 287.48,
+   "e": 287.7
+  },
+  {
+   "w": "the",
+   "s": 287.7,
+   "e": 287.98
+  },
+  {
+   "w": "risk",
+   "s": 287.98,
+   "e": 288.26
+  },
+  {
+   "w": "of",
+   "s": 288.26,
+   "e": 288.46
+  },
+  {
+   "w": "an",
+   "s": 288.46,
+   "e": 288.56
+  },
+  {
+   "w": "ischemic",
+   "s": 288.56,
+   "e": 289.0
+  },
+  {
+   "w": "stroke.",
+   "s": 289.0,
+   "e": 289.32
+  },
+  {
+   "w": "What",
+   "s": 291.62,
+   "e": 292.1
+  },
+  {
+   "w": "happens",
+   "s": 292.1,
+   "e": 292.36
+  },
+  {
+   "w": "when",
+   "s": 292.36,
+   "e": 292.72
+  },
+  {
+   "w": "you",
+   "s": 292.72,
+   "e": 292.86
+  },
+  {
+   "w": "get",
+   "s": 292.86,
+   "e": 293.0
+  },
+  {
+   "w": "to",
+   "s": 293.0,
+   "e": 293.14
+  },
+  {
+   "w": "hospital?",
+   "s": 293.14,
+   "e": 293.38
+  },
+  {
+   "w": "First,",
+   "s": 294.3,
+   "e": 294.56
+  },
+  {
+   "w": "a",
+   "s": 294.82,
+   "e": 294.92
+  },
+  {
+   "w": "brain",
+   "s": 294.92,
+   "e": 295.08
+  },
+  {
+   "w": "scan",
+   "s": 295.08,
+   "e": 295.46
+  },
+  {
+   "w": "to",
+   "s": 295.46,
+   "e": 295.92
+  },
+  {
+   "w": "see",
+   "s": 295.92,
+   "e": 296.08
+  },
+  {
+   "w": "whether",
+   "s": 296.08,
+   "e": 296.36
+  },
+  {
+   "w": "it's",
+   "s": 296.36,
+   "e": 296.52
+  },
+  {
+   "w": "a",
+   "s": 296.52,
+   "e": 296.6
+  },
+  {
+   "w": "clot",
+   "s": 296.6,
+   "e": 296.8
+  },
+  {
+   "w": "or",
+   "s": 296.8,
+   "e": 297.22
+  },
+  {
+   "w": "a",
+   "s": 297.22,
+   "e": 297.3
+  },
+  {
+   "w": "blade,",
+   "s": 297.3,
+   "e": 297.5
+  },
+  {
+   "w": "because",
+   "s": 297.96,
+   "e": 298.2
+  },
+  {
+   "w": "the",
+   "s": 298.2,
+   "e": 298.34
+  },
+  {
+   "w": "treatments",
+   "s": 298.34,
+   "e": 298.64
+  },
+  {
+   "w": "are",
+   "s": 298.64,
+   "e": 298.9
+  },
+  {
+   "w": "opposite.",
+   "s": 298.9,
+   "e": 299.1
+  },
+  {
+   "w": "You",
+   "s": 299.1,
+   "e": 299.96
+  },
+  {
+   "w": "can't",
+   "s": 299.96,
+   "e": 300.26
+  },
+  {
+   "w": "give",
+   "s": 300.26,
+   "e": 300.38
+  },
+  {
+   "w": "a",
+   "s": 300.38,
+   "e": 300.46
+  },
+  {
+   "w": "clot",
+   "s": 300.46,
+   "e": 300.62
+  },
+  {
+   "w": "buster",
+   "s": 300.62,
+   "e": 301.04
+  },
+  {
+   "w": "to",
+   "s": 301.04,
+   "e": 301.14
+  },
+  {
+   "w": "someone",
+   "s": 301.14,
+   "e": 301.46
+  },
+  {
+   "w": "who's",
+   "s": 301.46,
+   "e": 301.8
+  },
+  {
+   "w": "bleeding.",
+   "s": 301.8,
+   "e": 302.06
+  },
+  {
+   "w": "For",
+   "s": 302.82,
+   "e": 302.94
+  },
+  {
+   "w": "a",
+   "s": 302.94,
+   "e": 303.0
+  },
+  {
+   "w": "clot,",
+   "s": 303.0,
+   "e": 303.18
+  },
+  {
+   "w": "doctors",
+   "s": 303.5,
+   "e": 303.84
+  },
+  {
+   "w": "can",
+   "s": 303.84,
+   "e": 304.08
+  },
+  {
+   "w": "give",
+   "s": 304.08,
+   "e": 304.26
+  },
+  {
+   "w": "a",
+   "s": 304.26,
+   "e": 304.34
+  },
+  {
+   "w": "drug",
+   "s": 304.34,
+   "e": 304.56
+  },
+  {
+   "w": "that",
+   "s": 304.56,
+   "e": 304.86
+  },
+  {
+   "w": "dissolves",
+   "s": 304.86,
+   "e": 305.28
+  },
+  {
+   "w": "it,",
+   "s": 305.28,
+   "e": 305.5
+  },
+  {
+   "w": "usually",
+   "s": 305.84,
+   "e": 306.26
+  },
+  {
+   "w": "within",
+   "s": 306.26,
+   "e": 306.54
+  },
+  {
+   "w": "about",
+   "s": 306.54,
+   "e": 306.78
+  },
+  {
+   "w": "four",
+   "s": 306.78,
+   "e": 307.14
+  },
+  {
+   "w": "and",
+   "s": 307.14,
+   "e": 307.26
+  },
+  {
+   "w": "a",
+   "s": 307.26,
+   "e": 307.32
+  },
+  {
+   "w": "half",
+   "s": 307.32,
+   "e": 307.54
+  },
+  {
+   "w": "hours",
+   "s": 307.54,
+   "e": 307.92
+  },
+  {
+   "w": "of",
+   "s": 307.92,
+   "e": 308.1
+  },
+  {
+   "w": "the",
+   "s": 308.1,
+   "e": 308.2
+  },
+  {
+   "w": "first",
+   "s": 308.2,
+   "e": 308.46
+  },
+  {
+   "w": "symptoms.",
+   "s": 308.46,
+   "e": 308.74
+  },
+  {
+   "w": "For",
+   "s": 309.96,
+   "e": 310.14
+  },
+  {
+   "w": "a",
+   "s": 310.14,
+   "e": 310.2
+  },
+  {
+   "w": "big",
+   "s": 310.2,
+   "e": 310.34
+  },
+  {
+   "w": "clot",
+   "s": 310.34,
+   "e": 310.6
+  },
+  {
+   "w": "in",
+   "s": 310.6,
+   "e": 310.84
+  },
+  {
+   "w": "a",
+   "s": 310.84,
+   "e": 310.92
+  },
+  {
+   "w": "large",
+   "s": 310.92,
+   "e": 311.12
+  },
+  {
+   "w": "artery,",
+   "s": 311.12,
+   "e": 311.46
+  },
+  {
+   "w": "they",
+   "s": 311.98,
+   "e": 312.06
+  },
+  {
+   "w": "can",
+   "s": 312.06,
+   "e": 312.2
+  },
+  {
+   "w": "thread",
+   "s": 312.2,
+   "e": 312.4
+  },
+  {
+   "w": "a",
+   "s": 312.4,
+   "e": 312.52
+  },
+  {
+   "w": "thin",
+   "s": 312.52,
+   "e": 312.74
+  },
+  {
+   "w": "tube",
+   "s": 312.74,
+   "e": 313.06
+  },
+  {
+   "w": "up",
+   "s": 313.06,
+   "e": 313.22
+  },
+  {
+   "w": "from",
+   "s": 313.22,
+   "e": 313.44
+  },
+  {
+   "w": "the",
+   "s": 313.44,
+   "e": 313.56
+  },
+  {
+   "w": "groin",
+   "s": 313.56,
+   "e": 313.86
+  },
+  {
+   "w": "or",
+   "s": 313.86,
+   "e": 314.14
+  },
+  {
+   "w": "wrist",
+   "s": 314.14,
+   "e": 314.38
+  },
+  {
+   "w": "into",
+   "s": 314.38,
+   "e": 314.6
+  },
+  {
+   "w": "the",
+   "s": 314.6,
+   "e": 314.76
+  },
+  {
+   "w": "brain",
+   "s": 314.76,
+   "e": 315.0
+  },
+  {
+   "w": "and",
+   "s": 315.0,
+   "e": 315.5
+  },
+  {
+   "w": "pull",
+   "s": 315.5,
+   "e": 315.7
+  },
+  {
+   "w": "the",
+   "s": 315.7,
+   "e": 315.86
+  },
+  {
+   "w": "clot",
+   "s": 315.86,
+   "e": 316.0
+  },
+  {
+   "w": "out.",
+   "s": 316.0,
+   "e": 316.32
+  },
+  {
+   "w": "In",
+   "s": 316.96,
+   "e": 317.06
+  },
+  {
+   "w": "carefully",
+   "s": 317.06,
+   "e": 317.3
+  },
+  {
+   "w": "chosen",
+   "s": 317.3,
+   "e": 317.74
+  },
+  {
+   "w": "patients,",
+   "s": 317.74,
+   "e": 318.16
+  },
+  {
+   "w": "this",
+   "s": 318.72,
+   "e": 318.8
+  },
+  {
+   "w": "can",
+   "s": 318.8,
+   "e": 319.0
+  },
+  {
+   "w": "work",
+   "s": 319.0,
+   "e": 319.16
+  },
+  {
+   "w": "many",
+   "s": 319.16,
+   "e": 319.4
+  },
+  {
+   "w": "hours",
+   "s": 319.4,
+   "e": 319.72
+  },
+  {
+   "w": "later.",
+   "s": 319.72,
+   "e": 319.98
+  },
+  {
+   "w": "That's",
+   "s": 320.66,
+   "e": 320.86
+  },
+  {
+   "w": "why",
+   "s": 320.86,
+   "e": 321.0
+  },
+  {
+   "w": "the",
+   "s": 321.0,
+   "e": 321.16
+  },
+  {
+   "w": "clock",
+   "s": 321.16,
+   "e": 321.36
+  },
+  {
+   "w": "matters",
+   "s": 321.36,
+   "e": 321.68
+  },
+  {
+   "w": "so",
+   "s": 321.68,
+   "e": 321.98
+  },
+  {
+   "w": "much.",
+   "s": 321.98,
+   "e": 322.24
+  },
+  {
+   "w": "The",
+   "s": 322.88,
+   "e": 322.9
+  },
+  {
+   "w": "sooner",
+   "s": 322.9,
+   "e": 323.14
+  },
+  {
+   "w": "the",
+   "s": 323.14,
+   "e": 323.34
+  },
+  {
+   "w": "blood",
+   "s": 323.34,
+   "e": 323.52
+  },
+  {
+   "w": "flows",
+   "s": 323.52,
+   "e": 323.8
+  },
+  {
+   "w": "again,",
+   "s": 323.8,
+   "e": 324.14
+  },
+  {
+   "w": "the",
+   "s": 324.44,
+   "e": 324.52
+  },
+  {
+   "w": "more",
+   "s": 324.52,
+   "e": 324.68
+  },
+  {
+   "w": "brain",
+   "s": 324.68,
+   "e": 324.94
+  },
+  {
+   "w": "is",
+   "s": 324.94,
+   "e": 325.16
+  },
+  {
+   "w": "saved.",
+   "s": 325.16,
+   "e": 325.46
+  },
+  {
+   "w": "Can",
+   "s": 326.5,
+   "e": 326.62
+  },
+  {
+   "w": "young",
+   "s": 326.62,
+   "e": 326.82
+  },
+  {
+   "w": "people",
+   "s": 326.82,
+   "e": 327.18
+  },
+  {
+   "w": "recover",
+   "s": 327.18,
+   "e": 327.48
+  },
+  {
+   "w": "from",
+   "s": 327.48,
+   "e": 327.94
+  },
+  {
+   "w": "a",
+   "s": 327.94,
+   "e": 327.98
+  },
+  {
+   "w": "stroke?",
+   "s": 327.98,
+   "e": 328.22
+  },
+  {
+   "w": "Often,",
+   "s": 328.78,
+   "e": 329.3
+  },
+  {
+   "w": "yes,",
+   "s": 329.48,
+   "e": 329.64
+  },
+  {
+   "w": "a",
+   "s": 330.0,
+   "e": 330.16
+  },
+  {
+   "w": "younger",
+   "s": 330.16,
+   "e": 330.34
+  },
+  {
+   "w": "brain",
+   "s": 330.34,
+   "e": 330.72
+  },
+  {
+   "w": "can",
+   "s": 330.72,
+   "e": 330.92
+  },
+  {
+   "w": "rewire",
+   "s": 330.92,
+   "e": 331.3
+  },
+  {
+   "w": "itself,",
+   "s": 331.3,
+   "e": 331.68
+  },
+  {
+   "w": "with",
+   "s": 332.22,
+   "e": 332.26
+  },
+  {
+   "w": "healthy",
+   "s": 332.26,
+   "e": 332.52
+  },
+  {
+   "w": "areas",
+   "s": 332.52,
+   "e": 333.02
+  },
+  {
+   "w": "slowly",
+   "s": 333.02,
+   "e": 333.3
+  },
+  {
+   "w": "taking",
+   "s": 333.3,
+   "e": 333.78
+  },
+  {
+   "w": "over",
+   "s": 333.78,
+   "e": 334.04
+  },
+  {
+   "w": "some",
+   "s": 334.04,
+   "e": 334.22
+  },
+  {
+   "w": "of",
+   "s": 334.22,
+   "e": 334.28
+  },
+  {
+   "w": "the",
+   "s": 334.28,
+   "e": 334.38
+  },
+  {
+   "w": "lost",
+   "s": 334.38,
+   "e": 334.54
+  },
+  {
+   "w": "jobs.",
+   "s": 334.54,
+   "e": 335.04
+  },
+  {
+   "w": "Rehab,",
+   "s": 335.74,
+   "e": 335.92
+  },
+  {
+   "w": "practicing",
+   "s": 336.28,
+   "e": 336.58
+  },
+  {
+   "w": "movement",
+   "s": 336.58,
+   "e": 337.02
+  },
+  {
+   "w": "and",
+   "s": 337.02,
+   "e": 337.28
+  },
+  {
+   "w": "speech",
+   "s": 337.28,
+   "e": 337.52
+  },
+  {
+   "w": "again",
+   "s": 337.52,
+   "e": 337.92
+  },
+  {
+   "w": "and",
+   "s": 337.92,
+   "e": 338.04
+  },
+  {
+   "w": "again,",
+   "s": 338.04,
+   "e": 338.32
+  },
+  {
+   "w": "helps",
+   "s": 338.56,
+   "e": 338.78
+  },
+  {
+   "w": "that",
+   "s": 338.78,
+   "e": 339.02
+  },
+  {
+   "w": "happen.",
+   "s": 339.02,
+   "e": 339.44
+  },
+  {
+   "w": "But",
+   "s": 339.88,
+   "e": 339.88
+  },
+  {
+   "w": "recovery",
+   "s": 339.88,
+   "e": 340.12
+  },
+  {
+   "w": "can",
+   "s": 340.12,
+   "e": 340.56
+  },
+  {
+   "w": "take",
+   "s": 340.56,
+   "e": 340.72
+  },
+  {
+   "w": "months,",
+   "s": 340.72,
+   "e": 340.98
+  },
+  {
+   "w": "and",
+   "s": 341.52,
+   "e": 341.68
+  },
+  {
+   "w": "many",
+   "s": 341.68,
+   "e": 341.84
+  },
+  {
+   "w": "young",
+   "s": 341.84,
+   "e": 342.08
+  },
+  {
+   "w": "survivors",
+   "s": 342.08,
+   "e": 342.4
+  },
+  {
+   "w": "deal",
+   "s": 342.4,
+   "e": 342.9
+  },
+  {
+   "w": "with",
+   "s": 342.9,
+   "e": 343.1
+  },
+  {
+   "w": "hidden",
+   "s": 343.1,
+   "e": 343.34
+  },
+  {
+   "w": "problems",
+   "s": 343.34,
+   "e": 343.74
+  },
+  {
+   "w": "like",
+   "s": 343.74,
+   "e": 344.12
+  },
+  {
+   "w": "tiredness,",
+   "s": 344.12,
+   "e": 344.74
+  },
+  {
+   "w": "trouble",
+   "s": 345.14,
+   "e": 345.42
+  },
+  {
+   "w": "concentrating,",
+   "s": 345.42,
+   "e": 345.94
+  },
+  {
+   "w": "or",
+   "s": 346.56,
+   "e": 346.62
+  },
+  {
+   "w": "depression,",
+   "s": 346.62,
+   "e": 346.86
+  },
+  {
+   "w": "sometimes",
+   "s": 347.5,
+   "e": 347.96
+  },
+  {
+   "w": "while",
+   "s": 347.96,
+   "e": 348.28
+  },
+  {
+   "w": "trying",
+   "s": 348.28,
+   "e": 348.56
+  },
+  {
+   "w": "to",
+   "s": 348.56,
+   "e": 348.7
+  },
+  {
+   "w": "get",
+   "s": 348.7,
+   "e": 348.84
+  },
+  {
+   "w": "back",
+   "s": 348.84,
+   "e": 349.02
+  },
+  {
+   "w": "to",
+   "s": 349.02,
+   "e": 349.2
+  },
+  {
+   "w": "work",
+   "s": 349.2,
+   "e": 349.4
+  },
+  {
+   "w": "and",
+   "s": 349.4,
+   "e": 349.56
+  },
+  {
+   "w": "raising",
+   "s": 349.56,
+   "e": 349.78
+  },
+  {
+   "w": "kids.",
+   "s": 349.78,
+   "e": 350.18
+  },
+  {
+   "w": "And",
+   "s": 350.82,
+   "e": 350.88
+  },
+  {
+   "w": "because",
+   "s": 350.88,
+   "e": 351.04
+  },
+  {
+   "w": "young",
+   "s": 351.04,
+   "e": 351.3
+  },
+  {
+   "w": "survivors",
+   "s": 351.3,
+   "e": 351.8
+  },
+  {
+   "w": "may",
+   "s": 351.8,
+   "e": 352.1
+  },
+  {
+   "w": "live",
+   "s": 352.1,
+   "e": 352.3
+  },
+  {
+   "w": "for",
+   "s": 352.3,
+   "e": 352.5
+  },
+  {
+   "w": "decades",
+   "s": 352.5,
+   "e": 352.68
+  },
+  {
+   "w": "after",
+   "s": 352.68,
+   "e": 353.24
+  },
+  {
+   "w": "a",
+   "s": 353.24,
+   "e": 353.32
+  },
+  {
+   "w": "stroke,",
+   "s": 353.32,
+   "e": 353.62
+  },
+  {
+   "w": "preventing",
+   "s": 354.14,
+   "e": 354.38
+  },
+  {
+   "w": "even",
+   "s": 354.38,
+   "e": 354.86
+  },
+  {
+   "w": "one",
+   "s": 354.86,
+   "e": 355.12
+  },
+  {
+   "w": "makes",
+   "s": 355.12,
+   "e": 355.38
+  },
+  {
+   "w": "an",
+   "s": 355.38,
+   "e": 355.58
+  },
+  {
+   "w": "enormous",
+   "s": 355.58,
+   "e": 355.8
+  },
+  {
+   "w": "difference.",
+   "s": 355.8,
+   "e": 356.38
+  },
+  {
+   "w": "How",
+   "s": 358.58,
+   "e": 359.06
+  },
+  {
+   "w": "do",
+   "s": 359.06,
+   "e": 359.24
+  },
+  {
+   "w": "I",
+   "s": 359.24,
+   "e": 359.38
+  },
+  {
+   "w": "know",
+   "s": 359.38,
+   "e": 359.54
+  },
+  {
+   "w": "if",
+   "s": 359.54,
+   "e": 359.74
+  },
+  {
+   "w": "it's",
+   "s": 359.74,
+   "e": 359.84
+  },
+  {
+   "w": "happening?",
+   "s": 359.84,
+   "e": 360.24
+  },
+  {
+   "w": "Remember",
+   "s": 360.9,
+   "e": 361.08
+  },
+  {
+   "w": "be",
+   "s": 361.08,
+   "e": 361.38
+  },
+  {
+   "w": "fast,",
+   "s": 361.38,
+   "e": 361.64
+  },
+  {
+   "w": "be",
+   "s": 362.16,
+   "e": 362.32
+  },
+  {
+   "w": "as",
+   "s": 362.32,
+   "e": 362.46
+  },
+  {
+   "w": "for",
+   "s": 362.46,
+   "e": 362.62
+  },
+  {
+   "w": "balance,",
+   "s": 362.62,
+   "e": 362.88
+  },
+  {
+   "w": "sudden",
+   "s": 363.3,
+   "e": 363.6
+  },
+  {
+   "w": "dizziness",
+   "s": 363.6,
+   "e": 364.04
+  },
+  {
+   "w": "or",
+   "s": 364.04,
+   "e": 364.28
+  },
+  {
+   "w": "trouble",
+   "s": 364.28,
+   "e": 364.5
+  },
+  {
+   "w": "walking,",
+   "s": 364.5,
+   "e": 365.0
+  },
+  {
+   "w": "E",
+   "s": 365.34,
+   "e": 365.34
+  },
+  {
+   "w": "is",
+   "s": 365.34,
+   "e": 365.86
+  },
+  {
+   "w": "for",
+   "s": 365.86,
+   "e": 366.02
+  },
+  {
+   "w": "eyes,",
+   "s": 366.02,
+   "e": 366.24
+  },
+  {
+   "w": "sudden",
+   "s": 366.66,
+   "e": 366.84
+  },
+  {
+   "w": "loss",
+   "s": 366.84,
+   "e": 367.1
+  },
+  {
+   "w": "of",
+   "s": 367.1,
+   "e": 367.28
+  },
+  {
+   "w": "vision,",
+   "s": 367.28,
+   "e": 367.54
+  },
+  {
+   "w": "F",
+   "s": 368.1,
+   "e": 368.16
+  },
+  {
+   "w": "is",
+   "s": 368.16,
+   "e": 368.36
+  },
+  {
+   "w": "for",
+   "s": 368.36,
+   "e": 368.5
+  },
+  {
+   "w": "face,",
+   "s": 368.5,
+   "e": 368.78
+  },
+  {
+   "w": "one",
+   "s": 369.1,
+   "e": 369.16
+  },
+  {
+   "w": "side",
+   "s": 369.16,
+   "e": 369.52
+  },
+  {
+   "w": "drooping,",
+   "s": 369.52,
+   "e": 369.94
+  },
+  {
+   "w": "R",
+   "s": 370.46,
+   "e": 370.5
+  },
+  {
+   "w": "is",
+   "s": 370.5,
+   "e": 370.64
+  },
+  {
+   "w": "for",
+   "s": 370.64,
+   "e": 370.8
+  },
+  {
+   "w": "arms,",
+   "s": 370.8,
+   "e": 371.08
+  },
+  {
+   "w": "one",
+   "s": 371.46,
+   "e": 371.54
+  },
+  {
+   "w": "arm",
+   "s": 371.54,
+   "e": 371.76
+  },
+  {
+   "w": "weak",
+   "s": 371.76,
+   "e": 371.98
+  },
+  {
+   "w": "or",
+   "s": 371.98,
+   "e": 372.24
+  },
+  {
+   "w": "drifting",
+   "s": 372.24,
+   "e": 372.4
+  },
+  {
+   "w": "down,",
+   "s": 372.4,
+   "e": 372.82
+  },
+  {
+   "w": "S",
+   "s": 373.38,
+   "e": 373.38
+  },
+  {
+   "w": "is",
+   "s": 373.38,
+   "e": 373.62
+  },
+  {
+   "w": "for",
+   "s": 373.62,
+   "e": 373.8
+  },
+  {
+   "w": "speech,",
+   "s": 373.8,
+   "e": 374.08
+  },
+  {
+   "w": "slurred",
+   "s": 374.6,
+   "e": 374.86
+  },
+  {
+   "w": "or",
+   "s": 374.86,
+   "e": 375.02
+  },
+  {
+   "w": "strange",
+   "s": 375.02,
+   "e": 375.28
+  },
+  {
+   "w": "words,",
+   "s": 375.28,
+   "e": 375.72
+  },
+  {
+   "w": "and",
+   "s": 376.2,
+   "e": 376.26
+  },
+  {
+   "w": "T",
+   "s": 376.26,
+   "e": 376.44
+  },
+  {
+   "w": "is",
+   "s": 376.44,
+   "e": 376.6
+  },
+  {
+   "w": "for",
+   "s": 376.6,
+   "e": 376.76
+  },
+  {
+   "w": "time,",
+   "s": 376.76,
+   "e": 377.02
+  },
+  {
+   "w": "call",
+   "s": 377.4,
+   "e": 377.52
+  },
+  {
+   "w": "emergency",
+   "s": 377.52,
+   "e": 377.84
+  },
+  {
+   "w": "services",
+   "s": 377.84,
+   "e": 378.52
+  },
+  {
+   "w": "right",
+   "s": 378.52,
+   "e": 378.82
+  },
+  {
+   "w": "away.",
+   "s": 378.82,
+   "e": 379.14
+  },
+  {
+   "w": "Should",
+   "s": 379.66,
+   "e": 379.7
+  },
+  {
+   "w": "I",
+   "s": 379.7,
+   "e": 379.84
+  },
+  {
+   "w": "just",
+   "s": 379.84,
+   "e": 380.06
+  },
+  {
+   "w": "wait",
+   "s": 380.06,
+   "e": 380.26
+  },
+  {
+   "w": "and",
+   "s": 380.26,
+   "e": 380.46
+  },
+  {
+   "w": "see?",
+   "s": 380.46,
+   "e": 380.68
+  },
+  {
+   "w": "Never,",
+   "s": 381.34,
+   "e": 381.62
+  },
+  {
+   "w": "young",
+   "s": 381.88,
+   "e": 382.04
+  },
+  {
+   "w": "people",
+   "s": 382.04,
+   "e": 382.34
+  },
+  {
+   "w": "often",
+   "s": 382.34,
+   "e": 382.62
+  },
+  {
+   "w": "brush",
+   "s": 382.62,
+   "e": 382.9
+  },
+  {
+   "w": "off",
+   "s": 382.9,
+   "e": 383.14
+  },
+  {
+   "w": "the",
+   "s": 383.14,
+   "e": 383.32
+  },
+  {
+   "w": "symptoms",
+   "s": 383.32,
+   "e": 383.56
+  },
+  {
+   "w": "because",
+   "s": 383.56,
+   "e": 384.3
+  },
+  {
+   "w": "they",
+   "s": 384.3,
+   "e": 384.5
+  },
+  {
+   "w": "think",
+   "s": 384.5,
+   "e": 384.76
+  },
+  {
+   "w": "they",
+   "s": 384.76,
+   "e": 384.92
+  },
+  {
+   "w": "are",
+   "s": 384.92,
+   "e": 385.04
+  },
+  {
+   "w": "too",
+   "s": 385.04,
+   "e": 385.24
+  },
+  {
+   "w": "young",
+   "s": 385.24,
+   "e": 385.4
+  },
+  {
+   "w": "for",
+   "s": 385.4,
+   "e": 385.64
+  },
+  {
+   "w": "a",
+   "s": 385.64,
+   "e": 385.68
+  },
+  {
+   "w": "stroke,",
+   "s": 385.68,
+   "e": 385.94
+  },
+  {
+   "w": "but",
+   "s": 385.94,
+   "e": 386.7
+  },
+  {
+   "w": "clot",
+   "s": 386.7,
+   "e": 386.88
+  },
+  {
+   "w": "-busting",
+   "s": 386.88,
+   "e": 387.28
+  },
+  {
+   "w": "treatments",
+   "s": 387.28,
+   "e": 387.56
+  },
+  {
+   "w": "only",
+   "s": 387.56,
+   "e": 388.08
+  },
+  {
+   "w": "work",
+   "s": 388.08,
+   "e": 388.34
+  },
+  {
+   "w": "in",
+   "s": 388.34,
+   "e": 388.52
+  },
+  {
+   "w": "the",
+   "s": 388.52,
+   "e": 388.6
+  },
+  {
+   "w": "first",
+   "s": 388.6,
+   "e": 388.86
+  },
+  {
+   "w": "hours,",
+   "s": 388.86,
+   "e": 389.14
+  },
+  {
+   "w": "every",
+   "s": 389.7,
+   "e": 389.84
+  },
+  {
+   "w": "minute",
+   "s": 389.84,
+   "e": 390.2
+  },
+  {
+   "w": "counts,",
+   "s": 390.2,
+   "e": 390.46
+  },
+  {
+   "w": "and",
+   "s": 391.1,
+   "e": 391.22
+  },
+  {
+   "w": "even",
+   "s": 391.22,
+   "e": 391.44
+  },
+  {
+   "w": "if",
+   "s": 391.44,
+   "e": 391.6
+  },
+  {
+   "w": "the",
+   "s": 391.6,
+   "e": 391.72
+  },
+  {
+   "w": "symptoms",
+   "s": 391.72,
+   "e": 392.08
+  },
+  {
+   "w": "fade",
+   "s": 392.08,
+   "e": 392.34
+  },
+  {
+   "w": "after",
+   "s": 392.34,
+   "e": 392.66
+  },
+  {
+   "w": "a",
+   "s": 392.66,
+   "e": 392.76
+  },
+  {
+   "w": "few",
+   "s": 392.76,
+   "e": 392.92
+  },
+  {
+   "w": "minutes",
+   "s": 392.92,
+   "e": 393.14
+  },
+  {
+   "w": "get",
+   "s": 393.14,
+   "e": 393.48
+  },
+  {
+   "w": "checked.",
+   "s": 393.48,
+   "e": 393.76
+  },
+  {
+   "w": "A",
+   "s": 394.7,
+   "e": 394.74
+  },
+  {
+   "w": "ministroak",
+   "s": 394.74,
+   "e": 395.42
+  },
+  {
+   "w": "called",
+   "s": 395.42,
+   "e": 395.64
+  },
+  {
+   "w": "a",
+   "s": 395.64,
+   "e": 395.72
+  },
+  {
+   "w": "transient",
+   "s": 395.72,
+   "e": 396.08
+  },
+  {
+   "w": "ischemic",
+   "s": 396.08,
+   "e": 396.68
+  },
+  {
+   "w": "attack",
+   "s": 396.68,
+   "e": 397.0
+  },
+  {
+   "w": "can",
+   "s": 397.0,
+   "e": 397.56
+  },
+  {
+   "w": "be",
+   "s": 397.56,
+   "e": 397.66
+  },
+  {
+   "w": "a",
+   "s": 397.66,
+   "e": 397.74
+  },
+  {
+   "w": "warning",
+   "s": 397.74,
+   "e": 398.02
+  },
+  {
+   "w": "that",
+   "s": 398.02,
+   "e": 398.24
+  },
+  {
+   "w": "a",
+   "s": 398.24,
+   "e": 398.32
+  },
+  {
+   "w": "bigger",
+   "s": 398.32,
+   "e": 398.54
+  },
+  {
+   "w": "one",
+   "s": 398.54,
+   "e": 398.78
+  },
+  {
+   "w": "is",
+   "s": 398.78,
+   "e": 398.88
+  },
+  {
+   "w": "coming.",
+   "s": 398.88,
+   "e": 399.18
+  },
+  {
+   "w": "Can",
+   "s": 399.66,
+   "e": 399.72
+  },
+  {
+   "w": "doctors",
+   "s": 399.72,
+   "e": 400.04
+  },
+  {
+   "w": "miss",
+   "s": 400.04,
+   "e": 400.48
+  },
+  {
+   "w": "it",
+   "s": 400.48,
+   "e": 400.68
+  },
+  {
+   "w": "in",
+   "s": 400.68,
+   "e": 400.84
+  },
+  {
+   "w": "young",
+   "s": 400.84,
+   "e": 400.96
+  },
+  {
+   "w": "people?",
+   "s": 400.96,
+   "e": 401.36
+  },
+  {
+   "w": "Sometimes,",
+   "s": 401.96,
+   "e": 402.34
+  },
+  {
+   "w": "a",
+   "s": 402.42,
+   "e": 403.02
+  },
+  {
+   "w": "young",
+   "s": 403.02,
+   "e": 403.14
+  },
+  {
+   "w": "person",
+   "s": 403.14,
+   "e": 403.5
+  },
+  {
+   "w": "with",
+   "s": 403.5,
+   "e": 403.74
+  },
+  {
+   "w": "sudden",
+   "s": 403.74,
+   "e": 404.04
+  },
+  {
+   "w": "dizziness",
+   "s": 404.04,
+   "e": 404.48
+  },
+  {
+   "w": "or",
+   "s": 404.48,
+   "e": 404.82
+  },
+  {
+   "w": "a",
+   "s": 404.82,
+   "e": 404.9
+  },
+  {
+   "w": "bad",
+   "s": 404.9,
+   "e": 405.08
+  },
+  {
+   "w": "headache",
+   "s": 405.08,
+   "e": 405.42
+  },
+  {
+   "w": "may",
+   "s": 405.42,
+   "e": 405.74
+  },
+  {
+   "w": "be",
+   "s": 405.74,
+   "e": 405.88
+  },
+  {
+   "w": "told",
+   "s": 405.88,
+   "e": 406.08
+  },
+  {
+   "w": "it's",
+   "s": 406.08,
+   "e": 406.26
+  },
+  {
+   "w": "a",
+   "s": 406.26,
+   "e": 406.38
+  },
+  {
+   "w": "migraine,",
+   "s": 406.38,
+   "e": 406.64
+  },
+  {
+   "w": "an",
+   "s": 407.34,
+   "e": 407.38
+  },
+  {
+   "w": "inner",
+   "s": 407.38,
+   "e": 407.52
+  },
+  {
+   "w": "ear",
+   "s": 407.52,
+   "e": 407.74
+  },
+  {
+   "w": "problem",
+   "s": 407.74,
+   "e": 408.12
+  },
+  {
+   "w": "or",
+   "s": 408.12,
+   "e": 408.48
+  },
+  {
+   "w": "too",
+   "s": 408.48,
+   "e": 408.62
+  },
+  {
+   "w": "much",
+   "s": 408.62,
+   "e": 408.8
+  },
+  {
+   "w": "to",
+   "s": 408.8,
+   "e": 409.02
+  },
+  {
+   "w": "drink.",
+   "s": 409.02,
+   "e": 409.24
+  },
+  {
+   "w": "Studies",
+   "s": 409.9,
+   "e": 410.18
+  },
+  {
+   "w": "suggest",
+   "s": 410.18,
+   "e": 410.5
+  },
+  {
+   "w": "strokes",
+   "s": 410.5,
+   "e": 410.9
+  },
+  {
+   "w": "are",
+   "s": 410.9,
+   "e": 411.18
+  },
+  {
+   "w": "missed",
+   "s": 411.18,
+   "e": 411.32
+  },
+  {
+   "w": "more",
+   "s": 411.32,
+   "e": 411.58
+  },
+  {
+   "w": "often",
+   "s": 411.58,
+   "e": 411.88
+  },
+  {
+   "w": "in",
+   "s": 411.88,
+   "e": 412.08
+  },
+  {
+   "w": "younger",
+   "s": 412.08,
+   "e": 412.26
+  },
+  {
+   "w": "patients,",
+   "s": 412.26,
+   "e": 412.7
+  },
+  {
+   "w": "so",
+   "s": 412.8,
+   "e": 413.58
+  },
+  {
+   "w": "if",
+   "s": 413.58,
+   "e": 413.68
+  },
+  {
+   "w": "the",
+   "s": 413.68,
+   "e": 413.8
+  },
+  {
+   "w": "signs",
+   "s": 413.8,
+   "e": 414.08
+  },
+  {
+   "w": "come",
+   "s": 414.08,
+   "e": 414.34
+  },
+  {
+   "w": "on",
+   "s": 414.34,
+   "e": 414.46
+  },
+  {
+   "w": "suddenly,",
+   "s": 414.46,
+   "e": 414.86
+  },
+  {
+   "w": "say",
+   "s": 414.86,
+   "e": 415.44
+  },
+  {
+   "w": "the",
+   "s": 415.44,
+   "e": 415.58
+  },
+  {
+   "w": "words",
+   "s": 415.58,
+   "e": 415.76
+  },
+  {
+   "w": "stroke",
+   "s": 415.76,
+   "e": 416.04
+  },
+  {
+   "w": "out",
+   "s": 416.04,
+   "e": 416.3
+  },
+  {
+   "w": "loud",
+   "s": 416.3,
+   "e": 416.56
+  },
+  {
+   "w": "and",
+   "s": 416.56,
+   "e": 417.14
+  },
+  {
+   "w": "ask",
+   "s": 417.14,
+   "e": 417.34
+  },
+  {
+   "w": "for",
+   "s": 417.34,
+   "e": 417.62
+  },
+  {
+   "w": "a",
+   "s": 417.62,
+   "e": 417.64
+  },
+  {
+   "w": "brain",
+   "s": 417.64,
+   "e": 417.88
+  },
+  {
+   "w": "scan.",
+   "s": 417.88,
+   "e": 418.16
+  },
+  {
+   "w": "How",
+   "s": 420.8,
+   "e": 420.92
+  },
+  {
+   "w": "can",
+   "s": 420.92,
+   "e": 421.06
+  },
+  {
+   "w": "I",
+   "s": 421.06,
+   "e": 421.2
+  },
+  {
+   "w": "lower",
+   "s": 421.2,
+   "e": 421.42
+  },
+  {
+   "w": "my",
+   "s": 421.42,
+   "e": 421.66
+  },
+  {
+   "w": "risk?",
+   "s": 421.66,
+   "e": 422.1
+  },
+  {
+   "w": "Start",
+   "s": 422.68,
+   "e": 422.9
+  },
+  {
+   "w": "with",
+   "s": 422.9,
+   "e": 423.16
+  },
+  {
+   "w": "your",
+   "s": 423.16,
+   "e": 423.26
+  },
+  {
+   "w": "numbers,",
+   "s": 423.26,
+   "e": 423.54
+  },
+  {
+   "w": "get",
+   "s": 424.08,
+   "e": 424.22
+  },
+  {
+   "w": "your",
+   "s": 424.22,
+   "e": 424.34
+  },
+  {
+   "w": "blood",
+   "s": 424.34,
+   "e": 424.56
+  },
+  {
+   "w": "pressure",
+   "s": 424.56,
+   "e": 424.88
+  },
+  {
+   "w": "checked,",
+   "s": 424.88,
+   "e": 425.28
+  },
+  {
+   "w": "even",
+   "s": 425.36,
+   "e": 425.84
+  },
+  {
+   "w": "if",
+   "s": 425.84,
+   "e": 425.98
+  },
+  {
+   "w": "you",
+   "s": 425.98,
+   "e": 426.08
+  },
+  {
+   "w": "feel",
+   "s": 426.08,
+   "e": 426.24
+  },
+  {
+   "w": "fine.",
+   "s": 426.24,
+   "e": 426.58
+  },
+  {
+   "w": "The",
+   "s": 427.24,
+   "e": 427.26
+  },
+  {
+   "w": "same",
+   "s": 427.26,
+   "e": 427.46
+  },
+  {
+   "w": "goes",
+   "s": 427.46,
+   "e": 427.74
+  },
+  {
+   "w": "for",
+   "s": 427.74,
+   "e": 427.94
+  },
+  {
+   "w": "blood",
+   "s": 427.94,
+   "e": 428.14
+  },
+  {
+   "w": "sugar",
+   "s": 428.14,
+   "e": 428.4
+  },
+  {
+   "w": "and",
+   "s": 428.4,
+   "e": 428.72
+  },
+  {
+   "w": "cholesterol.",
+   "s": 428.72,
+   "e": 428.94
+  },
+  {
+   "w": "In",
+   "s": 429.94,
+   "e": 430.0
+  },
+  {
+   "w": "the",
+   "s": 430.0,
+   "e": 430.1
+  },
+  {
+   "w": "US,",
+   "s": 430.1,
+   "e": 430.36
+  },
+  {
+   "w": "a",
+   "s": 430.66,
+   "e": 430.88
+  },
+  {
+   "w": "reading",
+   "s": 430.88,
+   "e": 431.12
+  },
+  {
+   "w": "of",
+   "s": 431.12,
+   "e": 431.34
+  },
+  {
+   "w": "130",
+   "s": 431.34,
+   "e": 431.74
+  },
+  {
+   "w": "over",
+   "s": 431.74,
+   "e": 432.6
+  },
+  {
+   "w": "80",
+   "s": 432.6,
+   "e": 432.86
+  },
+  {
+   "w": "or",
+   "s": 432.86,
+   "e": 433.2
+  },
+  {
+   "w": "higher",
+   "s": 433.2,
+   "e": 433.46
+  },
+  {
+   "w": "already",
+   "s": 433.46,
+   "e": 434.18
+  },
+  {
+   "w": "counts",
+   "s": 434.18,
+   "e": 434.48
+  },
+  {
+   "w": "as",
+   "s": 434.48,
+   "e": 434.82
+  },
+  {
+   "w": "high",
+   "s": 434.82,
+   "e": 435.04
+  },
+  {
+   "w": "blood",
+   "s": 435.04,
+   "e": 435.34
+  },
+  {
+   "w": "pressure.",
+   "s": 435.34,
+   "e": 435.74
+  },
+  {
+   "w": "Plenty",
+   "s": 436.32,
+   "e": 436.5
+  },
+  {
+   "w": "of",
+   "s": 436.5,
+   "e": 436.68
+  },
+  {
+   "w": "people",
+   "s": 436.68,
+   "e": 436.94
+  },
+  {
+   "w": "in",
+   "s": 436.94,
+   "e": 437.1
+  },
+  {
+   "w": "the",
+   "s": 437.1,
+   "e": 437.18
+  },
+  {
+   "w": "20s",
+   "s": 437.18,
+   "e": 437.64
+  },
+  {
+   "w": "and",
+   "s": 437.64,
+   "e": 437.7
+  },
+  {
+   "w": "30s",
+   "s": 437.7,
+   "e": 438.26
+  },
+  {
+   "w": "are",
+   "s": 438.26,
+   "e": 438.42
+  },
+  {
+   "w": "over",
+   "s": 438.42,
+   "e": 438.6
+  },
+  {
+   "w": "that",
+   "s": 438.6,
+   "e": 438.78
+  },
+  {
+   "w": "line",
+   "s": 438.78,
+   "e": 439.06
+  },
+  {
+   "w": "without",
+   "s": 439.06,
+   "e": 439.26
+  },
+  {
+   "w": "knowing",
+   "s": 439.26,
+   "e": 439.74
+  },
+  {
+   "w": "it.",
+   "s": 439.74,
+   "e": 439.92
+  },
+  {
+   "w": "Don't",
+   "s": 439.92,
+   "e": 440.62
+  },
+  {
+   "w": "smoke,",
+   "s": 440.62,
+   "e": 440.82
+  },
+  {
+   "w": "move",
+   "s": 441.14,
+   "e": 441.34
+  },
+  {
+   "w": "every",
+   "s": 441.34,
+   "e": 441.52
+  },
+  {
+   "w": "day,",
+   "s": 441.52,
+   "e": 441.88
+  },
+  {
+   "w": "keep",
+   "s": 442.12,
+   "e": 442.26
+  },
+  {
+   "w": "a",
+   "s": 442.26,
+   "e": 442.36
+  },
+  {
+   "w": "healthy",
+   "s": 442.36,
+   "e": 442.62
+  },
+  {
+   "w": "weight",
+   "s": 442.62,
+   "e": 442.92
+  },
+  {
+   "w": "and",
+   "s": 442.92,
+   "e": 443.44
+  },
+  {
+   "w": "go",
+   "s": 443.44,
+   "e": 443.62
+  },
+  {
+   "w": "easy",
+   "s": 443.62,
+   "e": 443.94
+  },
+  {
+   "w": "on",
+   "s": 443.94,
+   "e": 444.14
+  },
+  {
+   "w": "alcohol",
+   "s": 444.14,
+   "e": 444.48
+  },
+  {
+   "w": "and",
+   "s": 444.48,
+   "e": 444.74
+  },
+  {
+   "w": "drugs.",
+   "s": 444.74,
+   "e": 444.98
+  },
+  {
+   "w": "And",
+   "s": 446.2,
+   "e": 446.3
+  },
+  {
+   "w": "if",
+   "s": 446.3,
+   "e": 446.4
+  },
+  {
+   "w": "you",
+   "s": 446.4,
+   "e": 446.52
+  },
+  {
+   "w": "get",
+   "s": 446.52,
+   "e": 446.68
+  },
+  {
+   "w": "migraines",
+   "s": 446.68,
+   "e": 447.32
+  },
+  {
+   "w": "with",
+   "s": 447.32,
+   "e": 447.4
+  },
+  {
+   "w": "aura,",
+   "s": 447.4,
+   "e": 447.64
+  },
+  {
+   "w": "especially",
+   "s": 448.18,
+   "e": 448.42
+  },
+  {
+   "w": "if",
+   "s": 448.42,
+   "e": 448.8
+  },
+  {
+   "w": "you",
+   "s": 448.8,
+   "e": 448.9
+  },
+  {
+   "w": "also",
+   "s": 448.9,
+   "e": 449.06
+  },
+  {
+   "w": "smoke",
+   "s": 449.06,
+   "e": 449.5
+  },
+  {
+   "w": "or",
+   "s": 449.5,
+   "e": 449.86
+  },
+  {
+   "w": "take",
+   "s": 449.86,
+   "e": 450.12
+  },
+  {
+   "w": "the",
+   "s": 450.12,
+   "e": 450.3
+  },
+  {
+   "w": "combined",
+   "s": 450.3,
+   "e": 450.68
+  },
+  {
+   "w": "birth",
+   "s": 450.68,
+   "e": 451.0
+  },
+  {
+   "w": "control",
+   "s": 451.0,
+   "e": 451.3
+  },
+  {
+   "w": "pill,",
+   "s": 451.3,
+   "e": 451.72
+  },
+  {
+   "w": "talk",
+   "s": 452.12,
+   "e": 452.32
+  },
+  {
+   "w": "to",
+   "s": 452.32,
+   "e": 452.5
+  },
+  {
+   "w": "a",
+   "s": 452.5,
+   "e": 452.58
+  },
+  {
+   "w": "doctor",
+   "s": 452.58,
+   "e": 452.76
+  },
+  {
+   "w": "about",
+   "s": 452.76,
+   "e": 453.08
+  },
+  {
+   "w": "your",
+   "s": 453.08,
+   "e": 453.24
+  },
+  {
+   "w": "stroke",
+   "s": 453.24,
+   "e": 453.5
+  },
+  {
+   "w": "risk.",
+   "s": 453.5,
+   "e": 453.92
+  },
+  {
+   "w": "So",
+   "s": 455.0,
+   "e": 455.24
+  },
+  {
+   "w": "strokes",
+   "s": 455.24,
+   "e": 455.48
+  },
+  {
+   "w": "aren't",
+   "s": 455.48,
+   "e": 456.0
+  },
+  {
+   "w": "just",
+   "s": 456.0,
+   "e": 456.34
+  },
+  {
+   "w": "an",
+   "s": 456.34,
+   "e": 456.5
+  },
+  {
+   "w": "old",
+   "s": 456.5,
+   "e": 456.66
+  },
+  {
+   "w": "person's",
+   "s": 456.66,
+   "e": 457.02
+  },
+  {
+   "w": "problem.",
+   "s": 457.02,
+   "e": 457.54
+  },
+  {
+   "w": "Not",
+   "s": 458.22,
+   "e": 458.4
+  },
+  {
+   "w": "anymore,",
+   "s": 458.4,
+   "e": 458.64
+  },
+  {
+   "w": "risk",
+   "s": 459.08,
+   "e": 459.2
+  },
+  {
+   "w": "is",
+   "s": 459.2,
+   "e": 459.5
+  },
+  {
+   "w": "building",
+   "s": 459.5,
+   "e": 459.78
+  },
+  {
+   "w": "earlier",
+   "s": 459.78,
+   "e": 460.14
+  },
+  {
+   "w": "and",
+   "s": 460.14,
+   "e": 460.7
+  },
+  {
+   "w": "young",
+   "s": 460.7,
+   "e": 460.84
+  },
+  {
+   "w": "adults",
+   "s": 460.84,
+   "e": 461.24
+  },
+  {
+   "w": "are",
+   "s": 461.24,
+   "e": 461.42
+  },
+  {
+   "w": "paying",
+   "s": 461.42,
+   "e": 461.62
+  },
+  {
+   "w": "the",
+   "s": 461.62,
+   "e": 461.82
+  },
+  {
+   "w": "price.",
+   "s": 461.82,
+   "e": 462.1
+  },
+  {
+   "w": "The",
+   "s": 462.92,
+   "e": 462.94
+  },
+  {
+   "w": "good",
+   "s": 462.94,
+   "e": 463.08
+  },
+  {
+   "w": "news",
+   "s": 463.08,
+   "e": 463.32
+  },
+  {
+   "w": "is",
+   "s": 463.32,
+   "e": 463.6
+  },
+  {
+   "w": "that",
+   "s": 463.6,
+   "e": 463.76
+  },
+  {
+   "w": "much",
+   "s": 463.76,
+   "e": 463.9
+  },
+  {
+   "w": "of",
+   "s": 463.9,
+   "e": 464.1
+  },
+  {
+   "w": "that",
+   "s": 464.1,
+   "e": 464.24
+  },
+  {
+   "w": "risk",
+   "s": 464.24,
+   "e": 464.52
+  },
+  {
+   "w": "is",
+   "s": 464.52,
+   "e": 464.74
+  },
+  {
+   "w": "something",
+   "s": 464.74,
+   "e": 465.02
+  },
+  {
+   "w": "you",
+   "s": 465.02,
+   "e": 465.26
+  },
+  {
+   "w": "can",
+   "s": 465.26,
+   "e": 465.4
+  },
+  {
+   "w": "measure",
+   "s": 465.4,
+   "e": 465.72
+  },
+  {
+   "w": "and",
+   "s": 465.72,
+   "e": 466.18
+  },
+  {
+   "w": "change.",
+   "s": 466.18,
+   "e": 466.4
+  },
+  {
+   "w": "That's",
+   "s": 466.9,
+   "e": 467.38
+  },
+  {
+   "w": "why",
+   "s": 467.38,
+   "e": 467.52
+  },
+  {
+   "w": "more",
+   "s": 467.52,
+   "e": 467.7
+  },
+  {
+   "w": "young",
+   "s": 467.7,
+   "e": 467.9
+  },
+  {
+   "w": "adults",
+   "s": 467.9,
+   "e": 468.42
+  },
+  {
+   "w": "are",
+   "s": 468.42,
+   "e": 468.66
+  },
+  {
+   "w": "having",
+   "s": 468.66,
+   "e": 468.88
+  },
+  {
+   "w": "strokes.",
+   "s": 468.88,
+   "e": 469.24
+  }
+ ]
+}

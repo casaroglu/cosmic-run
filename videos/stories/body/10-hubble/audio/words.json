@@ -1,0 +1,7104 @@
+{
+ "duration": 464.676,
+ "lines": [
+  {
+   "id": "c1",
+   "speaker": "q",
+   "text": "Is the Hubble Space Telescope really falling?",
+   "start": 0.35,
+   "end": 2.614
+  },
+  {
+   "id": "c2",
+   "speaker": "a",
+   "text": "Slowly, yes. Hubble has no engine of its own, and the thin upper atmosphere is dragging it down. NASA's latest analysis says it will probably fall back to Earth in 2033 or 2034.",
+   "start": 3.064,
+   "end": 14.928
+  },
+  {
+   "id": "c3",
+   "speaker": "a",
+   "text": "And just this month, another NASA telescope that had the same problem burned up, after a mission to rescue it failed.",
+   "start": 15.168,
+   "end": 21.589
+  },
+  {
+   "id": "c4q",
+   "speaker": "q",
+   "text": "So can anyone save Hubble?",
+   "start": 21.829,
+   "end": 23.294
+  },
+  {
+   "id": "c5",
+   "speaker": "a",
+   "text": "NASA is asking that exact question right now. Let's see why satellites fall, what Hubble has given us, and how we might save it.",
+   "start": 23.744,
+   "end": 31.271
+  },
+  {
+   "id": "f1",
+   "speaker": "q",
+   "text": "Why would a telescope fall out of space?",
+   "start": 33.471,
+   "end": 35.445
+  },
+  {
+   "id": "f2",
+   "speaker": "a",
+   "text": "Because space isn't perfectly empty where Hubble flies. Even hundreds of kilometres up, there are a few stray gas molecules, and Hubble crashes into trillions of them every second at about twenty-seven thousand kilometres per hour.",
+   "start": 35.895,
+   "end": 48.801
+  },
+  {
+   "id": "f3",
+   "speaker": "a",
+   "text": "Each one steals a tiny bit of speed. Lose speed, and you drop a little lower, where the air is a little thicker, so you lose speed even faster. It's a slow spiral.",
+   "start": 49.041,
+   "end": 58.372
+  },
+  {
+   "id": "f3b",
+   "speaker": "a",
+   "text": "The International Space Station flies even lower, and it has the same problem. That's why it fires its engines regularly, just to stay up.",
+   "start": 58.612,
+   "end": 66.86
+  },
+  {
+   "id": "f4q",
+   "speaker": "q",
+   "text": "Does the Sun make it worse?",
+   "start": 67.1,
+   "end": 68.479
+  },
+  {
+   "id": "f5",
+   "speaker": "a",
+   "text": "Yes. When the Sun is active, it heats the upper atmosphere, which puffs up and reaches higher, adding more drag. The Sun just passed the peak of its eleven-year cycle, and Hubble has been sinking faster.",
+   "start": 68.929,
+   "end": 80.014
+  },
+  {
+   "id": "f6",
+   "speaker": "a",
+   "text": "Over the last few years, Hubble has dropped by tens of kilometres. Once it gets below about four hundred kilometres, it may have only a year or so left.",
+   "start": 80.254,
+   "end": 89.314
+  },
+  {
+   "id": "f6b",
+   "speaker": "a",
+   "text": "Hubble circles the Earth about every ninety-five minutes, around fifteen times a day. Every lap brushes through that thin air.",
+   "start": 89.554,
+   "end": 96.495
+  },
+  {
+   "id": "h1",
+   "speaker": "q",
+   "text": "Why is Hubble such a big deal?",
+   "start": 98.695,
+   "end": 100.301
+  },
+  {
+   "id": "h2",
+   "speaker": "a",
+   "text": "It launched in April 1990, on the space shuttle. And at first, it was a disaster. Its main mirror was ground to the wrong shape, off by less than a fiftieth of the width of a human hair, and its pictures came out blurry.",
+   "start": 100.751,
+   "end": 112.976
+  },
+  {
+   "id": "h3",
+   "speaker": "a",
+   "text": "In 1993, astronauts flew up and fitted corrective optics, like glasses for a telescope. Over five shuttle missions, the last one in 2009, crews repaired and upgraded it again and again.",
+   "start": 113.216,
+   "end": 125.019
+  },
+  {
+   "id": "h3b",
+   "speaker": "a",
+   "text": "Hubble is about the size of a school bus, thirteen metres long, with a main mirror two point four metres across.",
+   "start": 125.259,
+   "end": 131.405
+  },
+  {
+   "id": "h4q",
+   "speaker": "q",
+   "text": "What has it actually found?",
+   "start": 131.645,
+   "end": 133.076
+  },
+  {
+   "id": "h5",
+   "speaker": "a",
+   "text": "Hubble has made more than one and a half million observations. It helped pin down how fast the universe is expanding, which tells us its age: about thirteen point eight billion years.",
+   "start": 133.526,
+   "end": 143.983
+  },
+  {
+   "id": "h6",
+   "speaker": "a",
+   "text": "It also helped show that the expansion is speeding up, which led to a Nobel Prize. And by staring at a tiny dark patch of sky for days, it revealed thousands of galaxies no one had seen before.",
+   "start": 144.223,
+   "end": 155.737
+  },
+  {
+   "id": "h6b",
+   "speaker": "a",
+   "text": "Its Deep Field image, taken in 1995, showed around three thousand galaxies in a patch of sky smaller than a grain of sand held at arm's length.",
+   "start": 155.977,
+   "end": 165.057
+  },
+  {
+   "id": "h6d",
+   "speaker": "a",
+   "text": "Hubble also watched a comet smash into Jupiter in 1994, photographed the famous Pillars of Creation in 1995, and found that almost every big galaxy has a giant black hole at its heart.",
+   "start": 165.297,
+   "end": 177.181
+  },
+  {
+   "id": "h6c",
+   "speaker": "a",
+   "text": "But it's aging. Its gyroscopes, which help it point, have been failing one by one. Since 2024, it has been working with just one gyro, to save the others.",
+   "start": 177.421,
+   "end": 186.772
+  },
+  {
+   "id": "s1",
+   "speaker": "q",
+   "text": "What happened to the other telescope?",
+   "start": 188.972,
+   "end": 190.744
+  },
+  {
+   "id": "s2",
+   "speaker": "a",
+   "text": "It was called Swift, a NASA observatory that spent more than twenty years catching gamma-ray bursts, the biggest explosions in the universe. Like Hubble, it had no engine to raise its orbit.",
+   "start": 191.194,
+   "end": 201.963
+  },
+  {
+   "id": "s3",
+   "speaker": "a",
+   "text": "In 2026, NASA hired a startup called Katalyst to send a robotic spacecraft to grab Swift and push it higher. It was a race against time.",
+   "start": 202.203,
+   "end": 211.276
+  },
+  {
+   "id": "s4",
+   "speaker": "a",
+   "text": "The rescue craft launched, but engineering problems crippled it. The mission was called off, and in early November, Swift fell back into the atmosphere and burned up.",
+   "start": 211.516,
+   "end": 220.202
+  },
+  {
+   "id": "s5q",
+   "speaker": "q",
+   "text": "Could that happen to Hubble?",
+   "start": 220.442,
+   "end": 221.712
+  },
+  {
+   "id": "s6",
+   "speaker": "a",
+   "text": "That's the fear. Hubble is much bigger, about eleven and a half tonnes, roughly the weight of a school bus. And it was built to be visited by astronauts, not by robots.",
+   "start": 222.162,
+   "end": 231.586
+  },
+  {
+   "id": "s7q",
+   "speaker": "q",
+   "text": "Couldn't astronauts just fix it again?",
+   "start": 231.826,
+   "end": 233.714
+  },
+  {
+   "id": "s8",
+   "speaker": "a",
+   "text": "Not easily. Every repair visit used the space shuttle, with its robotic arm and a big cargo bay to hold Hubble. The shuttle retired in 2011, and nothing flying today can do the job in quite the same way.",
+   "start": 234.164,
+   "end": 246.206
+  },
+  {
+   "id": "s9",
+   "speaker": "a",
+   "text": "Any new mission would have to invent a way to grab an eleven-tonne telescope safely, in orbit, without ever touching its delicate mirror.",
+   "start": 246.446,
+   "end": 253.798
+  },
+  {
+   "id": "t1",
+   "speaker": "q",
+   "text": "How much time does Hubble have?",
+   "start": 255.998,
+   "end": 257.654
+  },
+  {
+   "id": "t2",
+   "speaker": "a",
+   "text": "Forecasts give it a low chance, under ten percent, of falling before 2030. The most likely time is around 2033.",
+   "start": 258.104,
+   "end": 265.692
+  },
+  {
+   "id": "t3",
+   "speaker": "a",
+   "text": "But a rescue can't wait until the last moment. NASA says a mission to boost its orbit would need to launch by 2032.",
+   "start": 265.932,
+   "end": 273.282
+  },
+  {
+   "id": "t4",
+   "speaker": "a",
+   "text": "On October 29, NASA asked companies for ideas. Their answers are due on November 30. NASA's chief, Jared Isaacman, said Hubble still has important science ahead of it.",
+   "start": 273.522,
+   "end": 284.317
+  },
+  {
+   "id": "t5q",
+   "speaker": "q",
+   "text": "Hasn't anyone offered to help before?",
+   "start": 284.557,
+   "end": 286.497
+  },
+  {
+   "id": "t6",
+   "speaker": "a",
+   "text": "Yes, and here's the twist. In 2022, NASA and SpaceX studied whether a Dragon capsule could boost Hubble, in a project backed by billionaire astronaut Jared Isaacman. In 2024, NASA decided not to go ahead, worried about the risks of damaging the telescope.",
+   "start": 286.947,
+   "end": 302.86
+  },
+  {
+   "id": "t7",
+   "speaker": "a",
+   "text": "Now Isaacman runs NASA. And the question is back on the table.",
+   "start": 303.1,
+   "end": 307.567
+  },
+  {
+   "id": "v1q",
+   "speaker": "q",
+   "text": "What are the options?",
+   "start": 309.767,
+   "end": 310.874
+  },
+  {
+   "id": "v2",
+   "speaker": "a",
+   "text": "Option one: send a spacecraft to latch on and push Hubble into a higher orbit, buying it years, maybe decades.",
+   "start": 311.324,
+   "end": 317.637
+  },
+  {
+   "id": "v3",
+   "speaker": "a",
+   "text": "Option two: a full servicing mission, to repair and upgrade it again while someone is up there.",
+   "start": 317.877,
+   "end": 322.94
+  },
+  {
+   "id": "v4",
+   "speaker": "a",
+   "text": "Option three: grab it and steer it down on purpose, into a remote stretch of ocean, or move it out of the way into a disposal orbit.",
+   "start": 323.18,
+   "end": 330.713
+  },
+  {
+   "id": "v5q",
+   "speaker": "q",
+   "text": "How would anything grab a telescope?",
+   "start": 330.953,
+   "end": 332.746
+  },
+  {
+   "id": "v6",
+   "speaker": "a",
+   "text": "The astronauts planned ahead. On the last visit in 2009, they bolted a ring onto Hubble's base, with targets that a future spacecraft can use to dock.",
+   "start": 333.196,
+   "end": 342.741
+  },
+  {
+   "id": "v7",
+   "speaker": "a",
+   "text": "A reboost would mean docking with that ring, then firing thrusters gently, over and over, to lift the whole telescope higher without shaking it. Every extra kilometre buys more time.",
+   "start": 342.981,
+   "end": 353.447
+  },
+  {
+   "id": "u1",
+   "speaker": "q",
+   "text": "What if nobody saves it?",
+   "start": 355.647,
+   "end": 357.041
+  },
+  {
+   "id": "u2",
+   "speaker": "a",
+   "text": "Then sometime in the 2030s, it would come down on its own. Most of it would burn up, but the heaviest parts, like its big glass mirror and metal frame, could survive and hit the ground somewhere along its path.",
+   "start": 357.491,
+   "end": 369.205
+  },
+  {
+   "id": "u3",
+   "speaker": "a",
+   "text": "The chance of debris hurting anyone is small, because most of Earth is ocean and empty land. But space agencies try hard to avoid uncontrolled falls of objects this big.",
+   "start": 369.445,
+   "end": 379.228
+  },
+  {
+   "id": "u3b",
+   "speaker": "a",
+   "text": "In fact, the docking ring was added partly for this. The plan was always that someday a robotic craft might attach to Hubble and steer it safely into the ocean.",
+   "start": 379.468,
+   "end": 388.592
+  },
+  {
+   "id": "u4",
+   "speaker": "a",
+   "text": "Back in 1979, America's Skylab space station fell uncontrolled, and pieces landed in Western Australia. Nobody was hurt, but nobody wants a repeat.",
+   "start": 388.832,
+   "end": 398.867
+  },
+  {
+   "id": "w1",
+   "speaker": "q",
+   "text": "Don't we have newer telescopes now?",
+   "start": 401.067,
+   "end": 402.889
+  },
+  {
+   "id": "w2",
+   "speaker": "a",
+   "text": "We have the James Webb Space Telescope, which is bigger and sees deeper. But Webb mostly sees infrared light, the kind we feel as heat.",
+   "start": 403.339,
+   "end": 411.232
+  },
+  {
+   "id": "w2b",
+   "speaker": "a",
+   "text": "Webb launched at the end of 2021. Its mirror is six and a half metres wide, and it sits one and a half million kilometres away, far beyond the reach of any repair crew.",
+   "start": 411.472,
+   "end": 421.032
+  },
+  {
+   "id": "w3",
+   "speaker": "a",
+   "text": "Hubble sees visible and ultraviolet light, the colours of hot young stars, comets and planets' auroras. No other big telescope in space can do that right now.",
+   "start": 421.272,
+   "end": 430.56
+  },
+  {
+   "id": "w3b",
+   "speaker": "a",
+   "text": "Hubble's ultraviolet eyes are also used to study the air of planets around other stars, as they pass in front of their suns.",
+   "start": 430.8,
+   "end": 437.936
+  },
+  {
+   "id": "w4",
+   "speaker": "a",
+   "text": "Losing Hubble would leave a gap in our view of the universe.",
+   "start": 438.176,
+   "end": 441.917
+  },
+  {
+   "id": "o1",
+   "speaker": "q",
+   "text": "So, will Hubble be saved?",
+   "start": 442.917,
+   "end": 444.351
+  },
+  {
+   "id": "o2",
+   "speaker": "a",
+   "text": "Nobody knows yet. It depends on money, on whether a company can build a rescue craft in time, and on what NASA decides after the ideas come in.",
+   "start": 444.801,
+   "end": 453.143
+  },
+  {
+   "id": "o3",
+   "speaker": "a",
+   "text": "Hubble is falling. The next few years will decide whether it gets a second life.",
+   "start": 453.383,
+   "end": 458.28
+  },
+  {
+   "id": "o4",
+   "speaker": "q",
+   "text": "Subscribe to see what happens next, and tell us in the comments: should we save Hubble?",
+   "start": 458.78,
+   "end": 463.476
+  }
+ ],
+ "words": [
+  {
+   "w": "Is",
+   "s": 0.0,
+   "e": 0.44
+  },
+  {
+   "w": "the",
+   "s": 0.44,
+   "e": 0.56
+  },
+  {
+   "w": "Hubble",
+   "s": 0.56,
+   "e": 0.7
+  },
+  {
+   "w": "Space",
+   "s": 0.7,
+   "e": 1.14
+  },
+  {
+   "w": "Telescope",
+   "s": 1.14,
+   "e": 1.44
+  },
+  {
+   "w": "really",
+   "s": 1.44,
+   "e": 2.02
+  },
+  {
+   "w": "falling?",
+   "s": 2.02,
+   "e": 2.34
+  },
+  {
+   "w": "Slowly,",
+   "s": 3.04,
+   "e": 3.36
+  },
+  {
+   "w": "yes.",
+   "s": 3.66,
+   "e": 3.9
+  },
+  {
+   "w": "Hubble",
+   "s": 4.44,
+   "e": 4.46
+  },
+  {
+   "w": "has",
+   "s": 4.46,
+   "e": 4.76
+  },
+  {
+   "w": "no",
+   "s": 4.76,
+   "e": 4.94
+  },
+  {
+   "w": "engine",
+   "s": 4.94,
+   "e": 5.24
+  },
+  {
+   "w": "of",
+   "s": 5.24,
+   "e": 5.48
+  },
+  {
+   "w": "its",
+   "s": 5.48,
+   "e": 5.62
+  },
+  {
+   "w": "own,",
+   "s": 5.62,
+   "e": 5.86
+  },
+  {
+   "w": "and",
+   "s": 6.3,
+   "e": 6.36
+  },
+  {
+   "w": "the",
+   "s": 6.36,
+   "e": 6.46
+  },
+  {
+   "w": "thin",
+   "s": 6.46,
+   "e": 6.66
+  },
+  {
+   "w": "upper",
+   "s": 6.66,
+   "e": 6.8
+  },
+  {
+   "w": "atmosphere",
+   "s": 6.8,
+   "e": 7.38
+  },
+  {
+   "w": "is",
+   "s": 7.38,
+   "e": 7.66
+  },
+  {
+   "w": "dragging",
+   "s": 7.66,
+   "e": 7.88
+  },
+  {
+   "w": "it",
+   "s": 7.88,
+   "e": 8.18
+  },
+  {
+   "w": "down.",
+   "s": 8.18,
+   "e": 8.44
+  },
+  {
+   "w": "NASA",
+   "s": 9.2,
+   "e": 9.36
+  },
+  {
+   "w": "latest",
+   "s": 9.36,
+   "e": 9.84
+  },
+  {
+   "w": "analysis",
+   "s": 9.84,
+   "e": 10.14
+  },
+  {
+   "w": "says",
+   "s": 10.14,
+   "e": 10.7
+  },
+  {
+   "w": "it",
+   "s": 10.7,
+   "e": 10.84
+  },
+  {
+   "w": "will",
+   "s": 10.84,
+   "e": 10.96
+  },
+  {
+   "w": "probably",
+   "s": 10.96,
+   "e": 11.28
+  },
+  {
+   "w": "fall",
+   "s": 11.28,
+   "e": 11.58
+  },
+  {
+   "w": "back",
+   "s": 11.58,
+   "e": 11.9
+  },
+  {
+   "w": "to",
+   "s": 11.9,
+   "e": 12.08
+  },
+  {
+   "w": "Earth",
+   "s": 12.08,
+   "e": 12.3
+  },
+  {
+   "w": "in",
+   "s": 12.3,
+   "e": 12.56
+  },
+  {
+   "w": "2033",
+   "s": 12.56,
+   "e": 13.3
+  },
+  {
+   "w": "or",
+   "s": 13.3,
+   "e": 13.88
+  },
+  {
+   "w": "2034.",
+   "s": 13.88,
+   "e": 14.66
+  },
+  {
+   "w": "And",
+   "s": 15.2,
+   "e": 15.26
+  },
+  {
+   "w": "just",
+   "s": 15.26,
+   "e": 15.46
+  },
+  {
+   "w": "this",
+   "s": 15.46,
+   "e": 15.74
+  },
+  {
+   "w": "month,",
+   "s": 15.74,
+   "e": 16.04
+  },
+  {
+   "w": "another",
+   "s": 16.28,
+   "e": 16.6
+  },
+  {
+   "w": "NASA",
+   "s": 16.6,
+   "e": 16.86
+  },
+  {
+   "w": "telescope",
+   "s": 16.86,
+   "e": 17.48
+  },
+  {
+   "w": "that",
+   "s": 17.48,
+   "e": 17.86
+  },
+  {
+   "w": "had",
+   "s": 17.86,
+   "e": 17.96
+  },
+  {
+   "w": "the",
+   "s": 17.96,
+   "e": 18.08
+  },
+  {
+   "w": "same",
+   "s": 18.08,
+   "e": 18.3
+  },
+  {
+   "w": "problem",
+   "s": 18.3,
+   "e": 18.68
+  },
+  {
+   "w": "burned",
+   "s": 18.68,
+   "e": 18.96
+  },
+  {
+   "w": "up",
+   "s": 18.96,
+   "e": 19.28
+  },
+  {
+   "w": "after",
+   "s": 19.28,
+   "e": 19.92
+  },
+  {
+   "w": "a",
+   "s": 19.92,
+   "e": 20.02
+  },
+  {
+   "w": "mission",
+   "s": 20.02,
+   "e": 20.28
+  },
+  {
+   "w": "to",
+   "s": 20.28,
+   "e": 20.48
+  },
+  {
+   "w": "rescue",
+   "s": 20.48,
+   "e": 20.72
+  },
+  {
+   "w": "it",
+   "s": 20.72,
+   "e": 21.0
+  },
+  {
+   "w": "failed.",
+   "s": 21.0,
+   "e": 21.24
+  },
+  {
+   "w": "So",
+   "s": 21.84,
+   "e": 21.94
+  },
+  {
+   "w": "can",
+   "s": 21.94,
+   "e": 22.1
+  },
+  {
+   "w": "anyone",
+   "s": 22.1,
+   "e": 22.36
+  },
+  {
+   "w": "save",
+   "s": 22.36,
+   "e": 22.82
+  },
+  {
+   "w": "Hubble?",
+   "s": 22.82,
+   "e": 23.02
+  },
+  {
+   "w": "NASA",
+   "s": 23.7,
+   "e": 23.94
+  },
+  {
+   "w": "is",
+   "s": 23.94,
+   "e": 24.24
+  },
+  {
+   "w": "asking",
+   "s": 24.24,
+   "e": 24.62
+  },
+  {
+   "w": "that",
+   "s": 24.62,
+   "e": 24.84
+  },
+  {
+   "w": "exact",
+   "s": 24.84,
+   "e": 24.98
+  },
+  {
+   "w": "question",
+   "s": 24.98,
+   "e": 25.5
+  },
+  {
+   "w": "right",
+   "s": 25.5,
+   "e": 25.88
+  },
+  {
+   "w": "now.",
+   "s": 25.88,
+   "e": 26.22
+  },
+  {
+   "w": "Let's",
+   "s": 26.22,
+   "e": 27.08
+  },
+  {
+   "w": "see",
+   "s": 27.08,
+   "e": 27.16
+  },
+  {
+   "w": "why",
+   "s": 27.16,
+   "e": 27.32
+  },
+  {
+   "w": "satellites",
+   "s": 27.32,
+   "e": 27.72
+  },
+  {
+   "w": "fall,",
+   "s": 27.72,
+   "e": 28.2
+  },
+  {
+   "w": "what",
+   "s": 28.66,
+   "e": 28.76
+  },
+  {
+   "w": "Hubble",
+   "s": 28.76,
+   "e": 28.94
+  },
+  {
+   "w": "has",
+   "s": 28.94,
+   "e": 29.22
+  },
+  {
+   "w": "given",
+   "s": 29.22,
+   "e": 29.4
+  },
+  {
+   "w": "us,",
+   "s": 29.4,
+   "e": 29.66
+  },
+  {
+   "w": "and",
+   "s": 29.92,
+   "e": 30.06
+  },
+  {
+   "w": "how",
+   "s": 30.06,
+   "e": 30.26
+  },
+  {
+   "w": "we",
+   "s": 30.26,
+   "e": 30.38
+  },
+  {
+   "w": "might",
+   "s": 30.38,
+   "e": 30.54
+  },
+  {
+   "w": "save",
+   "s": 30.54,
+   "e": 30.88
+  },
+  {
+   "w": "it.",
+   "s": 30.88,
+   "e": 31.1
+  },
+  {
+   "w": "Why",
+   "s": 33.24,
+   "e": 33.64
+  },
+  {
+   "w": "would",
+   "s": 33.64,
+   "e": 33.78
+  },
+  {
+   "w": "a",
+   "s": 33.78,
+   "e": 33.88
+  },
+  {
+   "w": "telescope",
+   "s": 33.88,
+   "e": 34.1
+  },
+  {
+   "w": "fall",
+   "s": 34.1,
+   "e": 34.62
+  },
+  {
+   "w": "out",
+   "s": 34.62,
+   "e": 34.78
+  },
+  {
+   "w": "of",
+   "s": 34.78,
+   "e": 34.88
+  },
+  {
+   "w": "space?",
+   "s": 34.88,
+   "e": 35.08
+  },
+  {
+   "w": "Because",
+   "s": 35.78,
+   "e": 36.06
+  },
+  {
+   "w": "space",
+   "s": 36.06,
+   "e": 36.32
+  },
+  {
+   "w": "isn't",
+   "s": 36.32,
+   "e": 36.76
+  },
+  {
+   "w": "perfectly",
+   "s": 36.76,
+   "e": 37.06
+  },
+  {
+   "w": "empty",
+   "s": 37.06,
+   "e": 37.54
+  },
+  {
+   "w": "where",
+   "s": 37.54,
+   "e": 37.86
+  },
+  {
+   "w": "Hubble",
+   "s": 37.86,
+   "e": 38.1
+  },
+  {
+   "w": "flies.",
+   "s": 38.1,
+   "e": 38.44
+  },
+  {
+   "w": "Even",
+   "s": 39.4,
+   "e": 39.62
+  },
+  {
+   "w": "hundreds",
+   "s": 39.62,
+   "e": 39.96
+  },
+  {
+   "w": "of",
+   "s": 39.96,
+   "e": 40.18
+  },
+  {
+   "w": "kilometers",
+   "s": 40.18,
+   "e": 40.44
+  },
+  {
+   "w": "up,",
+   "s": 40.44,
+   "e": 40.88
+  },
+  {
+   "w": "there",
+   "s": 41.18,
+   "e": 41.38
+  },
+  {
+   "w": "are",
+   "s": 41.38,
+   "e": 41.52
+  },
+  {
+   "w": "a",
+   "s": 41.52,
+   "e": 41.64
+  },
+  {
+   "w": "few",
+   "s": 41.64,
+   "e": 41.8
+  },
+  {
+   "w": "stray",
+   "s": 41.8,
+   "e": 42.06
+  },
+  {
+   "w": "gas",
+   "s": 42.06,
+   "e": 42.38
+  },
+  {
+   "w": "molecules,",
+   "s": 42.38,
+   "e": 42.7
+  },
+  {
+   "w": "and",
+   "s": 43.38,
+   "e": 43.58
+  },
+  {
+   "w": "Hubble",
+   "s": 43.58,
+   "e": 43.74
+  },
+  {
+   "w": "crashes",
+   "s": 43.74,
+   "e": 44.14
+  },
+  {
+   "w": "into",
+   "s": 44.14,
+   "e": 44.44
+  },
+  {
+   "w": "trillions",
+   "s": 44.44,
+   "e": 44.76
+  },
+  {
+   "w": "of",
+   "s": 44.76,
+   "e": 45.08
+  },
+  {
+   "w": "them",
+   "s": 45.08,
+   "e": 45.22
+  },
+  {
+   "w": "every",
+   "s": 45.22,
+   "e": 45.4
+  },
+  {
+   "w": "second",
+   "s": 45.4,
+   "e": 45.92
+  },
+  {
+   "w": "at",
+   "s": 45.92,
+   "e": 46.38
+  },
+  {
+   "w": "about",
+   "s": 46.38,
+   "e": 46.54
+  },
+  {
+   "w": "27",
+   "s": 46.54,
+   "e": 46.9
+  },
+  {
+   "w": ",000",
+   "s": 46.9,
+   "e": 47.68
+  },
+  {
+   "w": "kilometers",
+   "s": 47.68,
+   "e": 47.88
+  },
+  {
+   "w": "per",
+   "s": 47.88,
+   "e": 48.34
+  },
+  {
+   "w": "hour.",
+   "s": 48.34,
+   "e": 48.68
+  },
+  {
+   "w": "Each",
+   "s": 49.02,
+   "e": 49.16
+  },
+  {
+   "w": "one",
+   "s": 49.16,
+   "e": 49.34
+  },
+  {
+   "w": "steals",
+   "s": 49.34,
+   "e": 49.54
+  },
+  {
+   "w": "a",
+   "s": 49.54,
+   "e": 49.76
+  },
+  {
+   "w": "tiny",
+   "s": 49.76,
+   "e": 50.0
+  },
+  {
+   "w": "bit",
+   "s": 50.0,
+   "e": 50.34
+  },
+  {
+   "w": "of",
+   "s": 50.34,
+   "e": 50.44
+  },
+  {
+   "w": "speed.",
+   "s": 50.44,
+   "e": 50.7
+  },
+  {
+   "w": "Lose",
+   "s": 50.7,
+   "e": 51.56
+  },
+  {
+   "w": "speed,",
+   "s": 51.56,
+   "e": 51.88
+  },
+  {
+   "w": "and",
+   "s": 52.24,
+   "e": 52.3
+  },
+  {
+   "w": "you",
+   "s": 52.3,
+   "e": 52.4
+  },
+  {
+   "w": "drop",
+   "s": 52.4,
+   "e": 52.58
+  },
+  {
+   "w": "a",
+   "s": 52.58,
+   "e": 52.7
+  },
+  {
+   "w": "little",
+   "s": 52.7,
+   "e": 52.88
+  },
+  {
+   "w": "lower,",
+   "s": 52.88,
+   "e": 53.16
+  },
+  {
+   "w": "where",
+   "s": 53.48,
+   "e": 53.62
+  },
+  {
+   "w": "the",
+   "s": 53.62,
+   "e": 53.72
+  },
+  {
+   "w": "air",
+   "s": 53.72,
+   "e": 53.92
+  },
+  {
+   "w": "is",
+   "s": 53.92,
+   "e": 54.12
+  },
+  {
+   "w": "a",
+   "s": 54.12,
+   "e": 54.16
+  },
+  {
+   "w": "little",
+   "s": 54.16,
+   "e": 54.34
+  },
+  {
+   "w": "thicker,",
+   "s": 54.34,
+   "e": 54.62
+  },
+  {
+   "w": "so",
+   "s": 55.04,
+   "e": 55.16
+  },
+  {
+   "w": "you",
+   "s": 55.16,
+   "e": 55.28
+  },
+  {
+   "w": "lose",
+   "s": 55.28,
+   "e": 55.44
+  },
+  {
+   "w": "speed",
+   "s": 55.44,
+   "e": 55.8
+  },
+  {
+   "w": "even",
+   "s": 55.8,
+   "e": 56.04
+  },
+  {
+   "w": "faster.",
+   "s": 56.04,
+   "e": 56.42
+  },
+  {
+   "w": "It's",
+   "s": 57.14,
+   "e": 57.26
+  },
+  {
+   "w": "a",
+   "s": 57.26,
+   "e": 57.32
+  },
+  {
+   "w": "slow",
+   "s": 57.32,
+   "e": 57.54
+  },
+  {
+   "w": "spiral.",
+   "s": 57.54,
+   "e": 57.94
+  },
+  {
+   "w": "The",
+   "s": 58.62,
+   "e": 58.72
+  },
+  {
+   "w": "International",
+   "s": 58.72,
+   "e": 59.08
+  },
+  {
+   "w": "Space",
+   "s": 59.08,
+   "e": 59.54
+  },
+  {
+   "w": "Station",
+   "s": 59.54,
+   "e": 60.14
+  },
+  {
+   "w": "flies",
+   "s": 60.14,
+   "e": 60.38
+  },
+  {
+   "w": "even",
+   "s": 60.38,
+   "e": 60.88
+  },
+  {
+   "w": "lower,",
+   "s": 60.88,
+   "e": 61.24
+  },
+  {
+   "w": "and",
+   "s": 61.56,
+   "e": 61.76
+  },
+  {
+   "w": "it",
+   "s": 61.76,
+   "e": 61.86
+  },
+  {
+   "w": "has",
+   "s": 61.86,
+   "e": 62.0
+  },
+  {
+   "w": "the",
+   "s": 62.0,
+   "e": 62.16
+  },
+  {
+   "w": "same",
+   "s": 62.16,
+   "e": 62.4
+  },
+  {
+   "w": "problem.",
+   "s": 62.4,
+   "e": 62.72
+  },
+  {
+   "w": "That's",
+   "s": 63.42,
+   "e": 63.72
+  },
+  {
+   "w": "why",
+   "s": 63.72,
+   "e": 63.88
+  },
+  {
+   "w": "it",
+   "s": 63.88,
+   "e": 64.06
+  },
+  {
+   "w": "fires",
+   "s": 64.06,
+   "e": 64.26
+  },
+  {
+   "w": "its",
+   "s": 64.26,
+   "e": 64.54
+  },
+  {
+   "w": "engines",
+   "s": 64.54,
+   "e": 64.78
+  },
+  {
+   "w": "regularly,",
+   "s": 64.78,
+   "e": 65.36
+  },
+  {
+   "w": "just",
+   "s": 65.78,
+   "e": 65.98
+  },
+  {
+   "w": "to",
+   "s": 65.98,
+   "e": 66.18
+  },
+  {
+   "w": "stay",
+   "s": 66.18,
+   "e": 66.4
+  },
+  {
+   "w": "up.",
+   "s": 66.4,
+   "e": 66.62
+  },
+  {
+   "w": "Does",
+   "s": 67.04,
+   "e": 67.18
+  },
+  {
+   "w": "the",
+   "s": 67.18,
+   "e": 67.34
+  },
+  {
+   "w": "sun",
+   "s": 67.34,
+   "e": 67.54
+  },
+  {
+   "w": "make",
+   "s": 67.54,
+   "e": 67.8
+  },
+  {
+   "w": "it",
+   "s": 67.8,
+   "e": 67.92
+  },
+  {
+   "w": "worse?",
+   "s": 67.92,
+   "e": 68.12
+  },
+  {
+   "w": "Yes,",
+   "s": 68.8,
+   "e": 69.1
+  },
+  {
+   "w": "when",
+   "s": 69.34,
+   "e": 69.5
+  },
+  {
+   "w": "the",
+   "s": 69.5,
+   "e": 69.6
+  },
+  {
+   "w": "sun",
+   "s": 69.6,
+   "e": 69.78
+  },
+  {
+   "w": "is",
+   "s": 69.78,
+   "e": 69.9
+  },
+  {
+   "w": "active,",
+   "s": 69.9,
+   "e": 70.24
+  },
+  {
+   "w": "it",
+   "s": 70.66,
+   "e": 70.74
+  },
+  {
+   "w": "heats",
+   "s": 70.74,
+   "e": 70.92
+  },
+  {
+   "w": "the",
+   "s": 70.92,
+   "e": 71.16
+  },
+  {
+   "w": "upper",
+   "s": 71.16,
+   "e": 71.34
+  },
+  {
+   "w": "atmosphere,",
+   "s": 71.34,
+   "e": 71.78
+  },
+  {
+   "w": "which",
+   "s": 71.78,
+   "e": 72.3
+  },
+  {
+   "w": "puffs",
+   "s": 72.3,
+   "e": 72.58
+  },
+  {
+   "w": "up",
+   "s": 72.58,
+   "e": 72.76
+  },
+  {
+   "w": "and",
+   "s": 72.76,
+   "e": 72.92
+  },
+  {
+   "w": "reaches",
+   "s": 72.92,
+   "e": 73.1
+  },
+  {
+   "w": "higher,",
+   "s": 73.1,
+   "e": 73.54
+  },
+  {
+   "w": "adding",
+   "s": 73.96,
+   "e": 74.1
+  },
+  {
+   "w": "more",
+   "s": 74.1,
+   "e": 74.36
+  },
+  {
+   "w": "drag.",
+   "s": 74.36,
+   "e": 74.62
+  },
+  {
+   "w": "The",
+   "s": 75.36,
+   "e": 75.46
+  },
+  {
+   "w": "sun",
+   "s": 75.46,
+   "e": 75.68
+  },
+  {
+   "w": "just",
+   "s": 75.68,
+   "e": 75.92
+  },
+  {
+   "w": "passed",
+   "s": 75.92,
+   "e": 76.14
+  },
+  {
+   "w": "the",
+   "s": 76.14,
+   "e": 76.38
+  },
+  {
+   "w": "peak",
+   "s": 76.38,
+   "e": 76.54
+  },
+  {
+   "w": "of",
+   "s": 76.54,
+   "e": 76.7
+  },
+  {
+   "w": "its",
+   "s": 76.7,
+   "e": 76.82
+  },
+  {
+   "w": "11",
+   "s": 76.82,
+   "e": 77.06
+  },
+  {
+   "w": "-year",
+   "s": 77.06,
+   "e": 77.38
+  },
+  {
+   "w": "cycle,",
+   "s": 77.38,
+   "e": 77.8
+  },
+  {
+   "w": "and",
+   "s": 78.08,
+   "e": 78.32
+  },
+  {
+   "w": "Hubble",
+   "s": 78.32,
+   "e": 78.48
+  },
+  {
+   "w": "has",
+   "s": 78.48,
+   "e": 78.82
+  },
+  {
+   "w": "been",
+   "s": 78.82,
+   "e": 78.98
+  },
+  {
+   "w": "sinking",
+   "s": 78.98,
+   "e": 79.32
+  },
+  {
+   "w": "faster.",
+   "s": 79.32,
+   "e": 79.66
+  },
+  {
+   "w": "Over",
+   "s": 79.66,
+   "e": 80.36
+  },
+  {
+   "w": "the",
+   "s": 80.36,
+   "e": 80.54
+  },
+  {
+   "w": "last",
+   "s": 80.54,
+   "e": 80.72
+  },
+  {
+   "w": "few",
+   "s": 80.72,
+   "e": 81.0
+  },
+  {
+   "w": "years,",
+   "s": 81.0,
+   "e": 81.38
+  },
+  {
+   "w": "Hubble",
+   "s": 81.7,
+   "e": 81.86
+  },
+  {
+   "w": "has",
+   "s": 81.86,
+   "e": 82.18
+  },
+  {
+   "w": "dropped",
+   "s": 82.18,
+   "e": 82.42
+  },
+  {
+   "w": "by",
+   "s": 82.42,
+   "e": 82.72
+  },
+  {
+   "w": "tens",
+   "s": 82.72,
+   "e": 83.0
+  },
+  {
+   "w": "of",
+   "s": 83.0,
+   "e": 83.2
+  },
+  {
+   "w": "kilometers.",
+   "s": 83.2,
+   "e": 83.38
+  },
+  {
+   "w": "Once",
+   "s": 84.22,
+   "e": 84.56
+  },
+  {
+   "w": "it",
+   "s": 84.56,
+   "e": 84.76
+  },
+  {
+   "w": "gets",
+   "s": 84.76,
+   "e": 84.88
+  },
+  {
+   "w": "below",
+   "s": 84.88,
+   "e": 85.2
+  },
+  {
+   "w": "about",
+   "s": 85.2,
+   "e": 85.48
+  },
+  {
+   "w": "400",
+   "s": 85.48,
+   "e": 85.8
+  },
+  {
+   "w": "kilometers,",
+   "s": 85.8,
+   "e": 86.32
+  },
+  {
+   "w": "it",
+   "s": 87.04,
+   "e": 87.2
+  },
+  {
+   "w": "may",
+   "s": 87.2,
+   "e": 87.32
+  },
+  {
+   "w": "have",
+   "s": 87.32,
+   "e": 87.48
+  },
+  {
+   "w": "only",
+   "s": 87.48,
+   "e": 87.74
+  },
+  {
+   "w": "a",
+   "s": 87.74,
+   "e": 87.88
+  },
+  {
+   "w": "year",
+   "s": 87.88,
+   "e": 88.16
+  },
+  {
+   "w": "or",
+   "s": 88.16,
+   "e": 88.46
+  },
+  {
+   "w": "so",
+   "s": 88.46,
+   "e": 88.66
+  },
+  {
+   "w": "left.",
+   "s": 88.66,
+   "e": 88.94
+  },
+  {
+   "w": "Hubble",
+   "s": 89.6,
+   "e": 89.74
+  },
+  {
+   "w": "circles",
+   "s": 89.74,
+   "e": 90.04
+  },
+  {
+   "w": "the",
+   "s": 90.04,
+   "e": 90.44
+  },
+  {
+   "w": "Earth",
+   "s": 90.44,
+   "e": 90.64
+  },
+  {
+   "w": "about",
+   "s": 90.64,
+   "e": 90.96
+  },
+  {
+   "w": "every",
+   "s": 90.96,
+   "e": 91.2
+  },
+  {
+   "w": "95",
+   "s": 91.2,
+   "e": 91.54
+  },
+  {
+   "w": "minutes,",
+   "s": 91.54,
+   "e": 92.12
+  },
+  {
+   "w": "around",
+   "s": 92.5,
+   "e": 92.78
+  },
+  {
+   "w": "15",
+   "s": 92.78,
+   "e": 93.08
+  },
+  {
+   "w": "times",
+   "s": 93.08,
+   "e": 93.46
+  },
+  {
+   "w": "a",
+   "s": 93.46,
+   "e": 93.66
+  },
+  {
+   "w": "day.",
+   "s": 93.66,
+   "e": 93.82
+  },
+  {
+   "w": "Every",
+   "s": 94.58,
+   "e": 94.58
+  },
+  {
+   "w": "lap",
+   "s": 94.58,
+   "e": 94.84
+  },
+  {
+   "w": "brushes",
+   "s": 94.84,
+   "e": 95.18
+  },
+  {
+   "w": "through",
+   "s": 95.18,
+   "e": 95.54
+  },
+  {
+   "w": "that",
+   "s": 95.54,
+   "e": 95.72
+  },
+  {
+   "w": "thin",
+   "s": 95.72,
+   "e": 95.96
+  },
+  {
+   "w": "air.",
+   "s": 95.96,
+   "e": 96.2
+  },
+  {
+   "w": "Why",
+   "s": 98.3,
+   "e": 98.84
+  },
+  {
+   "w": "is",
+   "s": 98.84,
+   "e": 99.04
+  },
+  {
+   "w": "Hubble",
+   "s": 99.04,
+   "e": 99.24
+  },
+  {
+   "w": "such",
+   "s": 99.24,
+   "e": 99.56
+  },
+  {
+   "w": "a",
+   "s": 99.56,
+   "e": 99.68
+  },
+  {
+   "w": "big",
+   "s": 99.68,
+   "e": 99.82
+  },
+  {
+   "w": "deal?",
+   "s": 99.82,
+   "e": 100.06
+  },
+  {
+   "w": "It",
+   "s": 100.74,
+   "e": 100.84
+  },
+  {
+   "w": "launched",
+   "s": 100.84,
+   "e": 101.02
+  },
+  {
+   "w": "in",
+   "s": 101.02,
+   "e": 101.28
+  },
+  {
+   "w": "April",
+   "s": 101.28,
+   "e": 101.48
+  },
+  {
+   "w": "1990",
+   "s": 101.48,
+   "e": 101.92
+  },
+  {
+   "w": "on",
+   "s": 101.92,
+   "e": 102.62
+  },
+  {
+   "w": "the",
+   "s": 102.62,
+   "e": 102.74
+  },
+  {
+   "w": "space",
+   "s": 102.74,
+   "e": 102.96
+  },
+  {
+   "w": "shuttle,",
+   "s": 102.96,
+   "e": 103.3
+  },
+  {
+   "w": "and",
+   "s": 103.84,
+   "e": 104.1
+  },
+  {
+   "w": "at",
+   "s": 104.1,
+   "e": 104.2
+  },
+  {
+   "w": "first",
+   "s": 104.2,
+   "e": 104.42
+  },
+  {
+   "w": "it",
+   "s": 104.42,
+   "e": 104.76
+  },
+  {
+   "w": "was",
+   "s": 104.76,
+   "e": 104.88
+  },
+  {
+   "w": "a",
+   "s": 104.88,
+   "e": 104.98
+  },
+  {
+   "w": "disaster.",
+   "s": 104.98,
+   "e": 105.24
+  },
+  {
+   "w": "Its",
+   "s": 105.24,
+   "e": 106.14
+  },
+  {
+   "w": "main",
+   "s": 106.14,
+   "e": 106.34
+  },
+  {
+   "w": "mirror",
+   "s": 106.34,
+   "e": 106.7
+  },
+  {
+   "w": "was",
+   "s": 106.7,
+   "e": 106.92
+  },
+  {
+   "w": "ground",
+   "s": 106.92,
+   "e": 107.18
+  },
+  {
+   "w": "to",
+   "s": 107.18,
+   "e": 107.46
+  },
+  {
+   "w": "the",
+   "s": 107.46,
+   "e": 107.56
+  },
+  {
+   "w": "wrong",
+   "s": 107.56,
+   "e": 107.7
+  },
+  {
+   "w": "shape,",
+   "s": 107.7,
+   "e": 108.04
+  },
+  {
+   "w": "off",
+   "s": 108.46,
+   "e": 108.58
+  },
+  {
+   "w": "by",
+   "s": 108.58,
+   "e": 108.8
+  },
+  {
+   "w": "less",
+   "s": 108.8,
+   "e": 109.0
+  },
+  {
+   "w": "than",
+   "s": 109.0,
+   "e": 109.2
+  },
+  {
+   "w": "a",
+   "s": 109.2,
+   "e": 109.26
+  },
+  {
+   "w": "50th",
+   "s": 109.26,
+   "e": 109.76
+  },
+  {
+   "w": "of",
+   "s": 109.76,
+   "e": 109.82
+  },
+  {
+   "w": "the",
+   "s": 109.82,
+   "e": 109.92
+  },
+  {
+   "w": "width",
+   "s": 109.92,
+   "e": 110.12
+  },
+  {
+   "w": "of",
+   "s": 110.12,
+   "e": 110.28
+  },
+  {
+   "w": "a",
+   "s": 110.28,
+   "e": 110.36
+  },
+  {
+   "w": "human",
+   "s": 110.36,
+   "e": 110.62
+  },
+  {
+   "w": "hair,",
+   "s": 110.62,
+   "e": 110.92
+  },
+  {
+   "w": "and",
+   "s": 111.32,
+   "e": 111.38
+  },
+  {
+   "w": "its",
+   "s": 111.38,
+   "e": 111.5
+  },
+  {
+   "w": "pictures",
+   "s": 111.5,
+   "e": 111.86
+  },
+  {
+   "w": "came",
+   "s": 111.86,
+   "e": 112.16
+  },
+  {
+   "w": "out",
+   "s": 112.16,
+   "e": 112.4
+  },
+  {
+   "w": "blurry.",
+   "s": 112.4,
+   "e": 112.66
+  },
+  {
+   "w": "In",
+   "s": 113.26,
+   "e": 113.32
+  },
+  {
+   "w": "1993,",
+   "s": 113.32,
+   "e": 114.16
+  },
+  {
+   "w": "astronauts",
+   "s": 114.44,
+   "e": 114.66
+  },
+  {
+   "w": "flew",
+   "s": 114.66,
+   "e": 115.18
+  },
+  {
+   "w": "up",
+   "s": 115.18,
+   "e": 115.38
+  },
+  {
+   "w": "and",
+   "s": 115.38,
+   "e": 115.5
+  },
+  {
+   "w": "fitted",
+   "s": 115.5,
+   "e": 115.72
+  },
+  {
+   "w": "corrective",
+   "s": 115.72,
+   "e": 116.16
+  },
+  {
+   "w": "optics,",
+   "s": 116.16,
+   "e": 116.42
+  },
+  {
+   "w": "like",
+   "s": 116.74,
+   "e": 117.16
+  },
+  {
+   "w": "glasses",
+   "s": 117.16,
+   "e": 117.52
+  },
+  {
+   "w": "for",
+   "s": 117.52,
+   "e": 117.8
+  },
+  {
+   "w": "a",
+   "s": 117.8,
+   "e": 117.88
+  },
+  {
+   "w": "telescope.",
+   "s": 117.88,
+   "e": 118.22
+  },
+  {
+   "w": "Over",
+   "s": 119.0,
+   "e": 119.14
+  },
+  {
+   "w": "five",
+   "s": 119.14,
+   "e": 119.48
+  },
+  {
+   "w": "shuttle",
+   "s": 119.48,
+   "e": 119.74
+  },
+  {
+   "w": "missions,",
+   "s": 119.74,
+   "e": 120.08
+  },
+  {
+   "w": "the",
+   "s": 120.58,
+   "e": 120.68
+  },
+  {
+   "w": "last",
+   "s": 120.68,
+   "e": 120.82
+  },
+  {
+   "w": "one",
+   "s": 120.82,
+   "e": 121.08
+  },
+  {
+   "w": "in",
+   "s": 121.08,
+   "e": 121.16
+  },
+  {
+   "w": "2009,",
+   "s": 121.16,
+   "e": 122.04
+  },
+  {
+   "w": "crews",
+   "s": 122.56,
+   "e": 122.76
+  },
+  {
+   "w": "repaired",
+   "s": 122.76,
+   "e": 123.1
+  },
+  {
+   "w": "and",
+   "s": 123.1,
+   "e": 123.54
+  },
+  {
+   "w": "upgraded",
+   "s": 123.54,
+   "e": 123.84
+  },
+  {
+   "w": "it",
+   "s": 123.84,
+   "e": 124.18
+  },
+  {
+   "w": "again",
+   "s": 124.18,
+   "e": 124.4
+  },
+  {
+   "w": "and",
+   "s": 124.4,
+   "e": 124.58
+  },
+  {
+   "w": "again.",
+   "s": 124.58,
+   "e": 124.8
+  },
+  {
+   "w": "Hubble",
+   "s": 125.24,
+   "e": 125.42
+  },
+  {
+   "w": "is",
+   "s": 125.42,
+   "e": 125.68
+  },
+  {
+   "w": "about",
+   "s": 125.68,
+   "e": 125.86
+  },
+  {
+   "w": "the",
+   "s": 125.86,
+   "e": 126.04
+  },
+  {
+   "w": "size",
+   "s": 126.04,
+   "e": 126.34
+  },
+  {
+   "w": "of",
+   "s": 126.34,
+   "e": 126.52
+  },
+  {
+   "w": "a",
+   "s": 126.52,
+   "e": 126.6
+  },
+  {
+   "w": "school",
+   "s": 126.6,
+   "e": 126.82
+  },
+  {
+   "w": "bus,",
+   "s": 126.82,
+   "e": 127.1
+  },
+  {
+   "w": "13",
+   "s": 127.56,
+   "e": 127.94
+  },
+  {
+   "w": "meters",
+   "s": 127.94,
+   "e": 128.16
+  },
+  {
+   "w": "long,",
+   "s": 128.16,
+   "e": 128.48
+  },
+  {
+   "w": "with",
+   "s": 128.86,
+   "e": 128.96
+  },
+  {
+   "w": "a",
+   "s": 128.96,
+   "e": 129.06
+  },
+  {
+   "w": "main",
+   "s": 129.06,
+   "e": 129.22
+  },
+  {
+   "w": "mirror",
+   "s": 129.22,
+   "e": 129.54
+  },
+  {
+   "w": "2",
+   "s": 129.54,
+   "e": 129.86
+  },
+  {
+   "w": ".4",
+   "s": 129.86,
+   "e": 130.46
+  },
+  {
+   "w": "meters",
+   "s": 130.46,
+   "e": 130.64
+  },
+  {
+   "w": "across.",
+   "s": 130.64,
+   "e": 130.98
+  },
+  {
+   "w": "What",
+   "s": 131.54,
+   "e": 131.74
+  },
+  {
+   "w": "has",
+   "s": 131.74,
+   "e": 131.9
+  },
+  {
+   "w": "it",
+   "s": 131.9,
+   "e": 132.04
+  },
+  {
+   "w": "actually",
+   "s": 132.04,
+   "e": 132.4
+  },
+  {
+   "w": "found?",
+   "s": 132.4,
+   "e": 132.76
+  },
+  {
+   "w": "Hubble",
+   "s": 132.76,
+   "e": 133.68
+  },
+  {
+   "w": "has",
+   "s": 133.68,
+   "e": 133.98
+  },
+  {
+   "w": "made",
+   "s": 133.98,
+   "e": 134.18
+  },
+  {
+   "w": "more",
+   "s": 134.18,
+   "e": 134.44
+  },
+  {
+   "w": "than",
+   "s": 134.44,
+   "e": 134.64
+  },
+  {
+   "w": "one",
+   "s": 134.64,
+   "e": 134.86
+  },
+  {
+   "w": "and",
+   "s": 134.86,
+   "e": 135.06
+  },
+  {
+   "w": "a",
+   "s": 135.06,
+   "e": 135.1
+  },
+  {
+   "w": "half",
+   "s": 135.1,
+   "e": 135.32
+  },
+  {
+   "w": "million",
+   "s": 135.32,
+   "e": 135.62
+  },
+  {
+   "w": "observations.",
+   "s": 135.62,
+   "e": 136.06
+  },
+  {
+   "w": "It",
+   "s": 137.04,
+   "e": 137.1
+  },
+  {
+   "w": "helped",
+   "s": 137.1,
+   "e": 137.28
+  },
+  {
+   "w": "pin",
+   "s": 137.28,
+   "e": 137.56
+  },
+  {
+   "w": "down",
+   "s": 137.56,
+   "e": 137.84
+  },
+  {
+   "w": "how",
+   "s": 137.84,
+   "e": 138.04
+  },
+  {
+   "w": "fast",
+   "s": 138.04,
+   "e": 138.36
+  },
+  {
+   "w": "the",
+   "s": 138.36,
+   "e": 138.58
+  },
+  {
+   "w": "universe",
+   "s": 138.58,
+   "e": 138.88
+  },
+  {
+   "w": "is",
+   "s": 138.88,
+   "e": 139.14
+  },
+  {
+   "w": "expanding,",
+   "s": 139.14,
+   "e": 139.56
+  },
+  {
+   "w": "which",
+   "s": 140.08,
+   "e": 140.2
+  },
+  {
+   "w": "tells",
+   "s": 140.2,
+   "e": 140.48
+  },
+  {
+   "w": "us",
+   "s": 140.48,
+   "e": 140.68
+  },
+  {
+   "w": "its",
+   "s": 140.68,
+   "e": 140.82
+  },
+  {
+   "w": "age,",
+   "s": 140.82,
+   "e": 141.1
+  },
+  {
+   "w": "about",
+   "s": 141.58,
+   "e": 141.82
+  },
+  {
+   "w": "13",
+   "s": 141.82,
+   "e": 142.22
+  },
+  {
+   "w": ".8",
+   "s": 142.22,
+   "e": 142.96
+  },
+  {
+   "w": "billion",
+   "s": 142.96,
+   "e": 143.16
+  },
+  {
+   "w": "years.",
+   "s": 143.16,
+   "e": 143.64
+  },
+  {
+   "w": "It",
+   "s": 144.2,
+   "e": 144.3
+  },
+  {
+   "w": "also",
+   "s": 144.3,
+   "e": 144.44
+  },
+  {
+   "w": "helped",
+   "s": 144.44,
+   "e": 144.78
+  },
+  {
+   "w": "show",
+   "s": 144.78,
+   "e": 145.08
+  },
+  {
+   "w": "that",
+   "s": 145.08,
+   "e": 145.32
+  },
+  {
+   "w": "the",
+   "s": 145.32,
+   "e": 145.48
+  },
+  {
+   "w": "expansion",
+   "s": 145.48,
+   "e": 145.84
+  },
+  {
+   "w": "is",
+   "s": 145.84,
+   "e": 146.2
+  },
+  {
+   "w": "speeding",
+   "s": 146.2,
+   "e": 146.4
+  },
+  {
+   "w": "up,",
+   "s": 146.4,
+   "e": 146.8
+  },
+  {
+   "w": "which",
+   "s": 147.08,
+   "e": 147.28
+  },
+  {
+   "w": "led",
+   "s": 147.28,
+   "e": 147.48
+  },
+  {
+   "w": "to",
+   "s": 147.48,
+   "e": 147.68
+  },
+  {
+   "w": "a",
+   "s": 147.68,
+   "e": 147.78
+  },
+  {
+   "w": "Nobel",
+   "s": 147.78,
+   "e": 147.9
+  },
+  {
+   "w": "Prize.",
+   "s": 147.9,
+   "e": 148.52
+  },
+  {
+   "w": "And",
+   "s": 149.26,
+   "e": 149.34
+  },
+  {
+   "w": "by",
+   "s": 149.34,
+   "e": 149.46
+  },
+  {
+   "w": "staring",
+   "s": 149.46,
+   "e": 149.72
+  },
+  {
+   "w": "at",
+   "s": 149.72,
+   "e": 150.04
+  },
+  {
+   "w": "a",
+   "s": 150.04,
+   "e": 150.14
+  },
+  {
+   "w": "tiny",
+   "s": 150.14,
+   "e": 150.42
+  },
+  {
+   "w": "dark",
+   "s": 150.42,
+   "e": 150.76
+  },
+  {
+   "w": "patch",
+   "s": 150.76,
+   "e": 151.08
+  },
+  {
+   "w": "of",
+   "s": 151.08,
+   "e": 151.28
+  },
+  {
+   "w": "sky",
+   "s": 151.28,
+   "e": 151.46
+  },
+  {
+   "w": "for",
+   "s": 151.46,
+   "e": 151.7
+  },
+  {
+   "w": "days,",
+   "s": 151.7,
+   "e": 151.94
+  },
+  {
+   "w": "it",
+   "s": 152.46,
+   "e": 152.58
+  },
+  {
+   "w": "revealed",
+   "s": 152.58,
+   "e": 152.82
+  },
+  {
+   "w": "thousands",
+   "s": 152.82,
+   "e": 153.3
+  },
+  {
+   "w": "of",
+   "s": 153.3,
+   "e": 153.6
+  },
+  {
+   "w": "galaxies",
+   "s": 153.6,
+   "e": 153.88
+  },
+  {
+   "w": "no",
+   "s": 153.88,
+   "e": 154.5
+  },
+  {
+   "w": "one",
+   "s": 154.5,
+   "e": 154.74
+  },
+  {
+   "w": "had",
+   "s": 154.74,
+   "e": 154.88
+  },
+  {
+   "w": "seen",
+   "s": 154.88,
+   "e": 155.08
+  },
+  {
+   "w": "before.",
+   "s": 155.08,
+   "e": 155.38
+  },
+  {
+   "w": "Its",
+   "s": 155.38,
+   "e": 156.0
+  },
+  {
+   "w": "deep",
+   "s": 156.0,
+   "e": 156.26
+  },
+  {
+   "w": "field",
+   "s": 156.26,
+   "e": 156.56
+  },
+  {
+   "w": "image,",
+   "s": 156.56,
+   "e": 156.9
+  },
+  {
+   "w": "taken",
+   "s": 157.28,
+   "e": 157.52
+  },
+  {
+   "w": "in",
+   "s": 157.52,
+   "e": 157.66
+  },
+  {
+   "w": "1995,",
+   "s": 157.66,
+   "e": 158.18
+  },
+  {
+   "w": "showed",
+   "s": 159.0,
+   "e": 159.3
+  },
+  {
+   "w": "around",
+   "s": 159.3,
+   "e": 159.54
+  },
+  {
+   "w": "3",
+   "s": 159.54,
+   "e": 159.92
+  },
+  {
+   "w": ",000",
+   "s": 159.92,
+   "e": 160.36
+  },
+  {
+   "w": "galaxies",
+   "s": 160.36,
+   "e": 160.72
+  },
+  {
+   "w": "in",
+   "s": 160.72,
+   "e": 161.32
+  },
+  {
+   "w": "a",
+   "s": 161.32,
+   "e": 161.36
+  },
+  {
+   "w": "patch",
+   "s": 161.36,
+   "e": 161.54
+  },
+  {
+   "w": "of",
+   "s": 161.54,
+   "e": 161.72
+  },
+  {
+   "w": "sky",
+   "s": 161.72,
+   "e": 161.94
+  },
+  {
+   "w": "smaller",
+   "s": 161.94,
+   "e": 162.36
+  },
+  {
+   "w": "than",
+   "s": 162.36,
+   "e": 162.92
+  },
+  {
+   "w": "a",
+   "s": 162.92,
+   "e": 162.98
+  },
+  {
+   "w": "grain",
+   "s": 162.98,
+   "e": 163.18
+  },
+  {
+   "w": "of",
+   "s": 163.18,
+   "e": 163.38
+  },
+  {
+   "w": "sand",
+   "s": 163.38,
+   "e": 163.66
+  },
+  {
+   "w": "held",
+   "s": 163.66,
+   "e": 164.06
+  },
+  {
+   "w": "at",
+   "s": 164.06,
+   "e": 164.22
+  },
+  {
+   "w": "arm's",
+   "s": 164.22,
+   "e": 164.54
+  },
+  {
+   "w": "length.",
+   "s": 164.54,
+   "e": 164.88
+  },
+  {
+   "w": "Hubble",
+   "s": 165.26,
+   "e": 165.44
+  },
+  {
+   "w": "also",
+   "s": 165.44,
+   "e": 165.88
+  },
+  {
+   "w": "watched",
+   "s": 165.88,
+   "e": 166.14
+  },
+  {
+   "w": "a",
+   "s": 166.14,
+   "e": 166.36
+  },
+  {
+   "w": "comet",
+   "s": 166.36,
+   "e": 166.6
+  },
+  {
+   "w": "smash",
+   "s": 166.6,
+   "e": 166.92
+  },
+  {
+   "w": "into",
+   "s": 166.92,
+   "e": 167.24
+  },
+  {
+   "w": "Jupiter",
+   "s": 167.24,
+   "e": 167.56
+  },
+  {
+   "w": "in",
+   "s": 167.56,
+   "e": 167.88
+  },
+  {
+   "w": "1994,",
+   "s": 167.88,
+   "e": 168.48
+  },
+  {
+   "w": "photographed",
+   "s": 169.16,
+   "e": 169.64
+  },
+  {
+   "w": "the",
+   "s": 169.64,
+   "e": 170.0
+  },
+  {
+   "w": "famous",
+   "s": 170.0,
+   "e": 170.34
+  },
+  {
+   "w": "pillars",
+   "s": 170.34,
+   "e": 170.56
+  },
+  {
+   "w": "of",
+   "s": 170.56,
+   "e": 170.88
+  },
+  {
+   "w": "creation",
+   "s": 170.88,
+   "e": 171.08
+  },
+  {
+   "w": "in",
+   "s": 171.08,
+   "e": 171.58
+  },
+  {
+   "w": "1995,",
+   "s": 171.58,
+   "e": 172.18
+  },
+  {
+   "w": "and",
+   "s": 172.96,
+   "e": 173.18
+  },
+  {
+   "w": "found",
+   "s": 173.18,
+   "e": 173.38
+  },
+  {
+   "w": "that",
+   "s": 173.38,
+   "e": 173.56
+  },
+  {
+   "w": "almost",
+   "s": 173.56,
+   "e": 173.76
+  },
+  {
+   "w": "every",
+   "s": 173.76,
+   "e": 174.14
+  },
+  {
+   "w": "big",
+   "s": 174.14,
+   "e": 174.44
+  },
+  {
+   "w": "galaxy",
+   "s": 174.44,
+   "e": 174.76
+  },
+  {
+   "w": "has",
+   "s": 174.76,
+   "e": 175.34
+  },
+  {
+   "w": "a",
+   "s": 175.34,
+   "e": 175.44
+  },
+  {
+   "w": "giant",
+   "s": 175.44,
+   "e": 175.74
+  },
+  {
+   "w": "black",
+   "s": 175.74,
+   "e": 176.04
+  },
+  {
+   "w": "hole",
+   "s": 176.04,
+   "e": 176.32
+  },
+  {
+   "w": "at",
+   "s": 176.32,
+   "e": 176.52
+  },
+  {
+   "w": "its",
+   "s": 176.52,
+   "e": 176.68
+  },
+  {
+   "w": "heart.",
+   "s": 176.68,
+   "e": 176.92
+  },
+  {
+   "w": "But",
+   "s": 177.36,
+   "e": 177.46
+  },
+  {
+   "w": "its",
+   "s": 177.46,
+   "e": 177.58
+  },
+  {
+   "w": "aging,",
+   "s": 177.58,
+   "e": 177.88
+  },
+  {
+   "w": "its",
+   "s": 178.34,
+   "e": 178.5
+  },
+  {
+   "w": "gyroscopes,",
+   "s": 178.5,
+   "e": 179.24
+  },
+  {
+   "w": "which",
+   "s": 179.24,
+   "e": 179.52
+  },
+  {
+   "w": "help",
+   "s": 179.52,
+   "e": 179.7
+  },
+  {
+   "w": "at",
+   "s": 179.7,
+   "e": 179.86
+  },
+  {
+   "w": "point,",
+   "s": 179.86,
+   "e": 180.04
+  },
+  {
+   "w": "have",
+   "s": 180.46,
+   "e": 180.5
+  },
+  {
+   "w": "been",
+   "s": 180.5,
+   "e": 180.66
+  },
+  {
+   "w": "failing",
+   "s": 180.66,
+   "e": 180.94
+  },
+  {
+   "w": "one",
+   "s": 180.94,
+   "e": 181.24
+  },
+  {
+   "w": "by",
+   "s": 181.24,
+   "e": 181.48
+  },
+  {
+   "w": "one.",
+   "s": 181.48,
+   "e": 182.38
+  },
+  {
+   "w": "Since",
+   "s": 182.38,
+   "e": 182.6
+  },
+  {
+   "w": "2024,",
+   "s": 182.6,
+   "e": 183.36
+  },
+  {
+   "w": "it",
+   "s": 183.76,
+   "e": 183.82
+  },
+  {
+   "w": "has",
+   "s": 183.82,
+   "e": 183.92
+  },
+  {
+   "w": "been",
+   "s": 183.92,
+   "e": 184.08
+  },
+  {
+   "w": "working",
+   "s": 184.08,
+   "e": 184.34
+  },
+  {
+   "w": "with",
+   "s": 184.34,
+   "e": 184.56
+  },
+  {
+   "w": "just",
+   "s": 184.56,
+   "e": 184.74
+  },
+  {
+   "w": "one",
+   "s": 184.74,
+   "e": 185.0
+  },
+  {
+   "w": "gyro",
+   "s": 185.0,
+   "e": 185.5
+  },
+  {
+   "w": "to",
+   "s": 185.5,
+   "e": 185.8
+  },
+  {
+   "w": "save",
+   "s": 185.8,
+   "e": 186.04
+  },
+  {
+   "w": "the",
+   "s": 186.04,
+   "e": 186.22
+  },
+  {
+   "w": "others.",
+   "s": 186.22,
+   "e": 186.4
+  },
+  {
+   "w": "What",
+   "s": 188.9,
+   "e": 189.06
+  },
+  {
+   "w": "happened",
+   "s": 189.06,
+   "e": 189.34
+  },
+  {
+   "w": "to",
+   "s": 189.34,
+   "e": 189.64
+  },
+  {
+   "w": "the",
+   "s": 189.64,
+   "e": 189.74
+  },
+  {
+   "w": "other",
+   "s": 189.74,
+   "e": 189.92
+  },
+  {
+   "w": "telescope?",
+   "s": 189.92,
+   "e": 190.16
+  },
+  {
+   "w": "It",
+   "s": 191.22,
+   "e": 191.28
+  },
+  {
+   "w": "was",
+   "s": 191.28,
+   "e": 191.38
+  },
+  {
+   "w": "called",
+   "s": 191.38,
+   "e": 191.62
+  },
+  {
+   "w": "Swift,",
+   "s": 191.62,
+   "e": 191.94
+  },
+  {
+   "w": "a",
+   "s": 192.46,
+   "e": 192.6
+  },
+  {
+   "w": "NASA",
+   "s": 192.6,
+   "e": 192.78
+  },
+  {
+   "w": "observatory",
+   "s": 192.78,
+   "e": 193.66
+  },
+  {
+   "w": "that",
+   "s": 193.66,
+   "e": 193.84
+  },
+  {
+   "w": "spent",
+   "s": 193.84,
+   "e": 194.02
+  },
+  {
+   "w": "more",
+   "s": 194.02,
+   "e": 194.28
+  },
+  {
+   "w": "than",
+   "s": 194.28,
+   "e": 194.42
+  },
+  {
+   "w": "20",
+   "s": 194.42,
+   "e": 194.64
+  },
+  {
+   "w": "years",
+   "s": 194.64,
+   "e": 195.06
+  },
+  {
+   "w": "catching",
+   "s": 195.06,
+   "e": 195.48
+  },
+  {
+   "w": "gamma",
+   "s": 195.48,
+   "e": 195.72
+  },
+  {
+   "w": "ray",
+   "s": 195.72,
+   "e": 196.02
+  },
+  {
+   "w": "bursts,",
+   "s": 196.02,
+   "e": 196.42
+  },
+  {
+   "w": "the",
+   "s": 196.9,
+   "e": 196.94
+  },
+  {
+   "w": "biggest",
+   "s": 196.94,
+   "e": 197.16
+  },
+  {
+   "w": "explosions",
+   "s": 197.16,
+   "e": 197.64
+  },
+  {
+   "w": "in",
+   "s": 197.64,
+   "e": 198.12
+  },
+  {
+   "w": "the",
+   "s": 198.12,
+   "e": 198.22
+  },
+  {
+   "w": "universe.",
+   "s": 198.22,
+   "e": 198.52
+  },
+  {
+   "w": "Like",
+   "s": 199.28,
+   "e": 199.44
+  },
+  {
+   "w": "Hubble,",
+   "s": 199.44,
+   "e": 199.66
+  },
+  {
+   "w": "it",
+   "s": 200.02,
+   "e": 200.12
+  },
+  {
+   "w": "had",
+   "s": 200.12,
+   "e": 200.2
+  },
+  {
+   "w": "no",
+   "s": 200.2,
+   "e": 200.42
+  },
+  {
+   "w": "engine",
+   "s": 200.42,
+   "e": 200.68
+  },
+  {
+   "w": "to",
+   "s": 200.68,
+   "e": 201.0
+  },
+  {
+   "w": "raise",
+   "s": 201.0,
+   "e": 201.16
+  },
+  {
+   "w": "its",
+   "s": 201.16,
+   "e": 201.4
+  },
+  {
+   "w": "orbit.",
+   "s": 201.4,
+   "e": 201.74
+  },
+  {
+   "w": "In",
+   "s": 202.24,
+   "e": 202.32
+  },
+  {
+   "w": "2026,",
+   "s": 202.32,
+   "e": 203.12
+  },
+  {
+   "w": "NASA",
+   "s": 203.52,
+   "e": 203.72
+  },
+  {
+   "w": "hired",
+   "s": 203.72,
+   "e": 204.14
+  },
+  {
+   "w": "a",
+   "s": 204.14,
+   "e": 204.26
+  },
+  {
+   "w": "startup",
+   "s": 204.26,
+   "e": 204.58
+  },
+  {
+   "w": "called",
+   "s": 204.58,
+   "e": 205.02
+  },
+  {
+   "w": "Catalyst",
+   "s": 205.02,
+   "e": 205.3
+  },
+  {
+   "w": "to",
+   "s": 205.3,
+   "e": 206.0
+  },
+  {
+   "w": "send",
+   "s": 206.0,
+   "e": 206.18
+  },
+  {
+   "w": "a",
+   "s": 206.18,
+   "e": 206.36
+  },
+  {
+   "w": "robotic",
+   "s": 206.36,
+   "e": 206.58
+  },
+  {
+   "w": "spacecraft",
+   "s": 206.58,
+   "e": 207.18
+  },
+  {
+   "w": "to",
+   "s": 207.18,
+   "e": 207.66
+  },
+  {
+   "w": "grab",
+   "s": 207.66,
+   "e": 207.84
+  },
+  {
+   "w": "Swift",
+   "s": 207.84,
+   "e": 208.1
+  },
+  {
+   "w": "and",
+   "s": 208.1,
+   "e": 208.54
+  },
+  {
+   "w": "push",
+   "s": 208.54,
+   "e": 208.76
+  },
+  {
+   "w": "it",
+   "s": 208.76,
+   "e": 208.9
+  },
+  {
+   "w": "higher.",
+   "s": 208.9,
+   "e": 209.1
+  },
+  {
+   "w": "It",
+   "s": 209.78,
+   "e": 209.92
+  },
+  {
+   "w": "was",
+   "s": 209.92,
+   "e": 210.02
+  },
+  {
+   "w": "a",
+   "s": 210.02,
+   "e": 210.12
+  },
+  {
+   "w": "race",
+   "s": 210.12,
+   "e": 210.34
+  },
+  {
+   "w": "against",
+   "s": 210.34,
+   "e": 210.66
+  },
+  {
+   "w": "time.",
+   "s": 210.66,
+   "e": 211.04
+  },
+  {
+   "w": "The",
+   "s": 211.04,
+   "e": 211.58
+  },
+  {
+   "w": "rescue",
+   "s": 211.58,
+   "e": 211.74
+  },
+  {
+   "w": "craft",
+   "s": 211.74,
+   "e": 212.18
+  },
+  {
+   "w": "launched,",
+   "s": 212.18,
+   "e": 212.54
+  },
+  {
+   "w": "but",
+   "s": 213.08,
+   "e": 213.1
+  },
+  {
+   "w": "engineering",
+   "s": 213.1,
+   "e": 213.42
+  },
+  {
+   "w": "problems",
+   "s": 213.42,
+   "e": 214.14
+  },
+  {
+   "w": "crippled",
+   "s": 214.14,
+   "e": 214.42
+  },
+  {
+   "w": "it.",
+   "s": 214.42,
+   "e": 214.72
+  },
+  {
+   "w": "The",
+   "s": 215.3,
+   "e": 215.4
+  },
+  {
+   "w": "mission",
+   "s": 215.4,
+   "e": 215.64
+  },
+  {
+   "w": "was",
+   "s": 215.64,
+   "e": 215.84
+  },
+  {
+   "w": "called",
+   "s": 215.84,
+   "e": 216.08
+  },
+  {
+   "w": "off,",
+   "s": 216.08,
+   "e": 216.38
+  },
+  {
+   "w": "and",
+   "s": 216.64,
+   "e": 216.76
+  },
+  {
+   "w": "in",
+   "s": 216.76,
+   "e": 216.86
+  },
+  {
+   "w": "early",
+   "s": 216.86,
+   "e": 217.0
+  },
+  {
+   "w": "November,",
+   "s": 217.0,
+   "e": 217.46
+  },
+  {
+   "w": "Swift",
+   "s": 217.8,
+   "e": 217.92
+  },
+  {
+   "w": "fell",
+   "s": 217.92,
+   "e": 218.24
+  },
+  {
+   "w": "back",
+   "s": 218.24,
+   "e": 218.46
+  },
+  {
+   "w": "into",
+   "s": 218.46,
+   "e": 218.64
+  },
+  {
+   "w": "the",
+   "s": 218.64,
+   "e": 218.78
+  },
+  {
+   "w": "atmosphere",
+   "s": 218.78,
+   "e": 219.16
+  },
+  {
+   "w": "and",
+   "s": 219.16,
+   "e": 219.5
+  },
+  {
+   "w": "burned",
+   "s": 219.5,
+   "e": 219.7
+  },
+  {
+   "w": "up.",
+   "s": 219.7,
+   "e": 220.0
+  },
+  {
+   "w": "Could",
+   "s": 220.42,
+   "e": 220.54
+  },
+  {
+   "w": "that",
+   "s": 220.54,
+   "e": 220.7
+  },
+  {
+   "w": "happen",
+   "s": 220.7,
+   "e": 221.04
+  },
+  {
+   "w": "to",
+   "s": 221.04,
+   "e": 221.24
+  },
+  {
+   "w": "Hubble?",
+   "s": 221.24,
+   "e": 221.42
+  },
+  {
+   "w": "That's",
+   "s": 222.1,
+   "e": 222.38
+  },
+  {
+   "w": "the",
+   "s": 222.38,
+   "e": 222.48
+  },
+  {
+   "w": "fear.",
+   "s": 222.48,
+   "e": 222.68
+  },
+  {
+   "w": "Hubble",
+   "s": 223.08,
+   "e": 223.16
+  },
+  {
+   "w": "is",
+   "s": 223.16,
+   "e": 223.42
+  },
+  {
+   "w": "much",
+   "s": 223.42,
+   "e": 223.58
+  },
+  {
+   "w": "bigger,",
+   "s": 223.58,
+   "e": 223.9
+  },
+  {
+   "w": "about",
+   "s": 224.3,
+   "e": 224.44
+  },
+  {
+   "w": "11",
+   "s": 224.44,
+   "e": 224.86
+  },
+  {
+   "w": "and",
+   "s": 224.86,
+   "e": 225.0
+  },
+  {
+   "w": "a",
+   "s": 225.0,
+   "e": 225.06
+  },
+  {
+   "w": "half",
+   "s": 225.06,
+   "e": 225.24
+  },
+  {
+   "w": "tons,",
+   "s": 225.24,
+   "e": 225.54
+  },
+  {
+   "w": "roughly",
+   "s": 225.98,
+   "e": 226.22
+  },
+  {
+   "w": "the",
+   "s": 226.22,
+   "e": 226.52
+  },
+  {
+   "w": "weight",
+   "s": 226.52,
+   "e": 226.74
+  },
+  {
+   "w": "of",
+   "s": 226.74,
+   "e": 226.92
+  },
+  {
+   "w": "a",
+   "s": 226.92,
+   "e": 226.98
+  },
+  {
+   "w": "school",
+   "s": 226.98,
+   "e": 227.18
+  },
+  {
+   "w": "bus.",
+   "s": 227.18,
+   "e": 227.48
+  },
+  {
+   "w": "And",
+   "s": 228.12,
+   "e": 228.36
+  },
+  {
+   "w": "it",
+   "s": 228.36,
+   "e": 228.42
+  },
+  {
+   "w": "was",
+   "s": 228.42,
+   "e": 228.52
+  },
+  {
+   "w": "built",
+   "s": 228.52,
+   "e": 228.74
+  },
+  {
+   "w": "to",
+   "s": 228.74,
+   "e": 228.92
+  },
+  {
+   "w": "be",
+   "s": 228.92,
+   "e": 229.02
+  },
+  {
+   "w": "visited",
+   "s": 229.02,
+   "e": 229.3
+  },
+  {
+   "w": "by",
+   "s": 229.3,
+   "e": 229.6
+  },
+  {
+   "w": "astronauts,",
+   "s": 229.6,
+   "e": 229.92
+  },
+  {
+   "w": "not",
+   "s": 230.5,
+   "e": 230.6
+  },
+  {
+   "w": "by",
+   "s": 230.6,
+   "e": 230.8
+  },
+  {
+   "w": "robots.",
+   "s": 230.8,
+   "e": 231.12
+  },
+  {
+   "w": "Couldn't",
+   "s": 231.72,
+   "e": 232.02
+  },
+  {
+   "w": "astronauts",
+   "s": 232.02,
+   "e": 232.24
+  },
+  {
+   "w": "just",
+   "s": 232.24,
+   "e": 232.84
+  },
+  {
+   "w": "fix",
+   "s": 232.84,
+   "e": 233.08
+  },
+  {
+   "w": "it",
+   "s": 233.08,
+   "e": 233.26
+  },
+  {
+   "w": "again?",
+   "s": 233.26,
+   "e": 233.52
+  },
+  {
+   "w": "Not",
+   "s": 234.12,
+   "e": 234.32
+  },
+  {
+   "w": "easily.",
+   "s": 234.32,
+   "e": 234.5
+  },
+  {
+   "w": "Every",
+   "s": 235.22,
+   "e": 235.36
+  },
+  {
+   "w": "repair",
+   "s": 235.36,
+   "e": 235.66
+  },
+  {
+   "w": "visit",
+   "s": 235.66,
+   "e": 236.0
+  },
+  {
+   "w": "used",
+   "s": 236.0,
+   "e": 236.26
+  },
+  {
+   "w": "the",
+   "s": 236.26,
+   "e": 236.5
+  },
+  {
+   "w": "space",
+   "s": 236.5,
+   "e": 236.74
+  },
+  {
+   "w": "shuttle,",
+   "s": 236.74,
+   "e": 237.08
+  },
+  {
+   "w": "with",
+   "s": 237.48,
+   "e": 237.68
+  },
+  {
+   "w": "its",
+   "s": 237.68,
+   "e": 237.84
+  },
+  {
+   "w": "robotic",
+   "s": 237.84,
+   "e": 238.04
+  },
+  {
+   "w": "arm",
+   "s": 238.04,
+   "e": 238.6
+  },
+  {
+   "w": "and",
+   "s": 238.6,
+   "e": 238.86
+  },
+  {
+   "w": "a",
+   "s": 238.86,
+   "e": 238.94
+  },
+  {
+   "w": "big",
+   "s": 238.94,
+   "e": 239.08
+  },
+  {
+   "w": "cargo",
+   "s": 239.08,
+   "e": 239.4
+  },
+  {
+   "w": "bay",
+   "s": 239.4,
+   "e": 239.76
+  },
+  {
+   "w": "to",
+   "s": 239.76,
+   "e": 240.0
+  },
+  {
+   "w": "hold",
+   "s": 240.0,
+   "e": 240.18
+  },
+  {
+   "w": "Hubble.",
+   "s": 240.18,
+   "e": 240.46
+  },
+  {
+   "w": "The",
+   "s": 240.46,
+   "e": 241.2
+  },
+  {
+   "w": "shuttle",
+   "s": 241.2,
+   "e": 241.46
+  },
+  {
+   "w": "retired",
+   "s": 241.46,
+   "e": 241.8
+  },
+  {
+   "w": "in",
+   "s": 241.8,
+   "e": 242.18
+  },
+  {
+   "w": "2011,",
+   "s": 242.18,
+   "e": 242.54
+  },
+  {
+   "w": "and",
+   "s": 243.2,
+   "e": 243.32
+  },
+  {
+   "w": "nothing",
+   "s": 243.32,
+   "e": 243.56
+  },
+  {
+   "w": "flying",
+   "s": 243.56,
+   "e": 243.86
+  },
+  {
+   "w": "today",
+   "s": 243.86,
+   "e": 244.24
+  },
+  {
+   "w": "can",
+   "s": 244.24,
+   "e": 244.56
+  },
+  {
+   "w": "do",
+   "s": 244.56,
+   "e": 244.7
+  },
+  {
+   "w": "the",
+   "s": 244.7,
+   "e": 244.82
+  },
+  {
+   "w": "job",
+   "s": 244.82,
+   "e": 245.02
+  },
+  {
+   "w": "in",
+   "s": 245.02,
+   "e": 245.2
+  },
+  {
+   "w": "quite",
+   "s": 245.2,
+   "e": 245.38
+  },
+  {
+   "w": "the",
+   "s": 245.38,
+   "e": 245.54
+  },
+  {
+   "w": "same",
+   "s": 245.54,
+   "e": 245.76
+  },
+  {
+   "w": "way.",
+   "s": 245.76,
+   "e": 246.02
+  },
+  {
+   "w": "Any",
+   "s": 246.48,
+   "e": 246.56
+  },
+  {
+   "w": "new",
+   "s": 246.56,
+   "e": 246.8
+  },
+  {
+   "w": "mission",
+   "s": 246.8,
+   "e": 247.1
+  },
+  {
+   "w": "would",
+   "s": 247.1,
+   "e": 247.3
+  },
+  {
+   "w": "have",
+   "s": 247.3,
+   "e": 247.42
+  },
+  {
+   "w": "to",
+   "s": 247.42,
+   "e": 247.54
+  },
+  {
+   "w": "invent",
+   "s": 247.54,
+   "e": 247.82
+  },
+  {
+   "w": "a",
+   "s": 247.82,
+   "e": 248.04
+  },
+  {
+   "w": "way",
+   "s": 248.04,
+   "e": 248.18
+  },
+  {
+   "w": "to",
+   "s": 248.18,
+   "e": 248.34
+  },
+  {
+   "w": "grab",
+   "s": 248.34,
+   "e": 248.64
+  },
+  {
+   "w": "an",
+   "s": 248.64,
+   "e": 248.82
+  },
+  {
+   "w": "11",
+   "s": 248.82,
+   "e": 249.06
+  },
+  {
+   "w": "-ton",
+   "s": 249.06,
+   "e": 249.38
+  },
+  {
+   "w": "telescope",
+   "s": 249.38,
+   "e": 249.92
+  },
+  {
+   "w": "safely,",
+   "s": 249.92,
+   "e": 250.3
+  },
+  {
+   "w": "in",
+   "s": 250.96,
+   "e": 251.04
+  },
+  {
+   "w": "orbit,",
+   "s": 251.04,
+   "e": 251.28
+  },
+  {
+   "w": "without",
+   "s": 251.7,
+   "e": 251.88
+  },
+  {
+   "w": "ever",
+   "s": 251.88,
+   "e": 252.26
+  },
+  {
+   "w": "touching",
+   "s": 252.26,
+   "e": 252.62
+  },
+  {
+   "w": "its",
+   "s": 252.62,
+   "e": 252.88
+  },
+  {
+   "w": "delicate",
+   "s": 252.88,
+   "e": 253.24
+  },
+  {
+   "w": "mirror.",
+   "s": 253.24,
+   "e": 253.54
+  },
+  {
+   "w": "How",
+   "s": 255.92,
+   "e": 256.08
+  },
+  {
+   "w": "much",
+   "s": 256.08,
+   "e": 256.24
+  },
+  {
+   "w": "time",
+   "s": 256.24,
+   "e": 256.56
+  },
+  {
+   "w": "does",
+   "s": 256.56,
+   "e": 256.78
+  },
+  {
+   "w": "Hubble",
+   "s": 256.78,
+   "e": 256.98
+  },
+  {
+   "w": "have?",
+   "s": 256.98,
+   "e": 257.44
+  },
+  {
+   "w": "Forecasts",
+   "s": 258.08,
+   "e": 258.5
+  },
+  {
+   "w": "give",
+   "s": 258.5,
+   "e": 258.84
+  },
+  {
+   "w": "it",
+   "s": 258.84,
+   "e": 258.94
+  },
+  {
+   "w": "a",
+   "s": 258.94,
+   "e": 259.04
+  },
+  {
+   "w": "low",
+   "s": 259.04,
+   "e": 259.2
+  },
+  {
+   "w": "chance,",
+   "s": 259.2,
+   "e": 259.52
+  },
+  {
+   "w": "under",
+   "s": 259.98,
+   "e": 260.14
+  },
+  {
+   "w": "10",
+   "s": 260.14,
+   "e": 260.42
+  },
+  {
+   "w": "%",
+   "s": 260.42,
+   "e": 260.76
+  },
+  {
+   "w": "of",
+   "s": 260.76,
+   "e": 261.32
+  },
+  {
+   "w": "falling",
+   "s": 261.32,
+   "e": 261.64
+  },
+  {
+   "w": "before",
+   "s": 261.64,
+   "e": 261.9
+  },
+  {
+   "w": "2030.",
+   "s": 261.9,
+   "e": 262.32
+  },
+  {
+   "w": "The",
+   "s": 263.2,
+   "e": 263.26
+  },
+  {
+   "w": "most",
+   "s": 263.26,
+   "e": 263.42
+  },
+  {
+   "w": "likely",
+   "s": 263.42,
+   "e": 263.78
+  },
+  {
+   "w": "time",
+   "s": 263.78,
+   "e": 264.14
+  },
+  {
+   "w": "is",
+   "s": 264.14,
+   "e": 264.34
+  },
+  {
+   "w": "around",
+   "s": 264.34,
+   "e": 264.54
+  },
+  {
+   "w": "2033,",
+   "s": 264.54,
+   "e": 265.36
+  },
+  {
+   "w": "but",
+   "s": 265.78,
+   "e": 265.98
+  },
+  {
+   "w": "a",
+   "s": 265.98,
+   "e": 266.04
+  },
+  {
+   "w": "rescue",
+   "s": 266.04,
+   "e": 266.26
+  },
+  {
+   "w": "can't",
+   "s": 266.26,
+   "e": 266.76
+  },
+  {
+   "w": "wait",
+   "s": 266.76,
+   "e": 266.94
+  },
+  {
+   "w": "until",
+   "s": 266.94,
+   "e": 267.38
+  },
+  {
+   "w": "the",
+   "s": 267.38,
+   "e": 267.64
+  },
+  {
+   "w": "last",
+   "s": 267.64,
+   "e": 267.82
+  },
+  {
+   "w": "moment.",
+   "s": 267.82,
+   "e": 268.26
+  },
+  {
+   "w": "NASA",
+   "s": 268.26,
+   "e": 269.18
+  },
+  {
+   "w": "says",
+   "s": 269.18,
+   "e": 269.5
+  },
+  {
+   "w": "a",
+   "s": 269.5,
+   "e": 269.5
+  },
+  {
+   "w": "mission",
+   "s": 269.5,
+   "e": 269.86
+  },
+  {
+   "w": "to",
+   "s": 269.86,
+   "e": 270.08
+  },
+  {
+   "w": "boost",
+   "s": 270.08,
+   "e": 270.24
+  },
+  {
+   "w": "its",
+   "s": 270.24,
+   "e": 270.48
+  },
+  {
+   "w": "orbit",
+   "s": 270.48,
+   "e": 270.82
+  },
+  {
+   "w": "would",
+   "s": 270.82,
+   "e": 271.18
+  },
+  {
+   "w": "need",
+   "s": 271.18,
+   "e": 271.38
+  },
+  {
+   "w": "to",
+   "s": 271.38,
+   "e": 271.54
+  },
+  {
+   "w": "launch",
+   "s": 271.54,
+   "e": 271.8
+  },
+  {
+   "w": "by",
+   "s": 271.8,
+   "e": 272.12
+  },
+  {
+   "w": "2032.",
+   "s": 272.12,
+   "e": 273.0
+  },
+  {
+   "w": "On",
+   "s": 273.52,
+   "e": 273.6
+  },
+  {
+   "w": "October",
+   "s": 273.6,
+   "e": 273.86
+  },
+  {
+   "w": "29th,",
+   "s": 273.86,
+   "e": 274.76
+  },
+  {
+   "w": "NASA",
+   "s": 274.86,
+   "e": 275.0
+  },
+  {
+   "w": "asked",
+   "s": 275.0,
+   "e": 275.36
+  },
+  {
+   "w": "companies",
+   "s": 275.36,
+   "e": 275.82
+  },
+  {
+   "w": "for",
+   "s": 275.82,
+   "e": 276.16
+  },
+  {
+   "w": "ideas.",
+   "s": 276.16,
+   "e": 276.46
+  },
+  {
+   "w": "Their",
+   "s": 277.18,
+   "e": 277.24
+  },
+  {
+   "w": "answers",
+   "s": 277.24,
+   "e": 277.52
+  },
+  {
+   "w": "are",
+   "s": 277.52,
+   "e": 277.8
+  },
+  {
+   "w": "due",
+   "s": 277.8,
+   "e": 277.94
+  },
+  {
+   "w": "on",
+   "s": 277.94,
+   "e": 278.1
+  },
+  {
+   "w": "November",
+   "s": 278.1,
+   "e": 278.3
+  },
+  {
+   "w": "30th.",
+   "s": 278.3,
+   "e": 279.22
+  },
+  {
+   "w": "NASA",
+   "s": 279.68,
+   "e": 279.76
+  },
+  {
+   "w": "chief,",
+   "s": 279.76,
+   "e": 280.2
+  },
+  {
+   "w": "Jared",
+   "s": 280.5,
+   "e": 280.66
+  },
+  {
+   "w": "Isakman,",
+   "s": 280.66,
+   "e": 281.34
+  },
+  {
+   "w": "said",
+   "s": 281.64,
+   "e": 281.86
+  },
+  {
+   "w": "Hubble",
+   "s": 281.86,
+   "e": 282.04
+  },
+  {
+   "w": "still",
+   "s": 282.04,
+   "e": 282.46
+  },
+  {
+   "w": "has",
+   "s": 282.46,
+   "e": 282.68
+  },
+  {
+   "w": "important",
+   "s": 282.68,
+   "e": 282.9
+  },
+  {
+   "w": "science",
+   "s": 282.9,
+   "e": 283.42
+  },
+  {
+   "w": "ahead",
+   "s": 283.42,
+   "e": 283.9
+  },
+  {
+   "w": "of",
+   "s": 283.9,
+   "e": 284.02
+  },
+  {
+   "w": "it.",
+   "s": 284.02,
+   "e": 284.2
+  },
+  {
+   "w": "Hasn't",
+   "s": 284.52,
+   "e": 284.86
+  },
+  {
+   "w": "anyone",
+   "s": 284.86,
+   "e": 285.06
+  },
+  {
+   "w": "offered",
+   "s": 285.06,
+   "e": 285.46
+  },
+  {
+   "w": "to",
+   "s": 285.46,
+   "e": 285.66
+  },
+  {
+   "w": "help",
+   "s": 285.66,
+   "e": 285.84
+  },
+  {
+   "w": "before?",
+   "s": 285.84,
+   "e": 286.22
+  },
+  {
+   "w": "Yes,",
+   "s": 286.9,
+   "e": 287.14
+  },
+  {
+   "w": "and",
+   "s": 287.18,
+   "e": 287.42
+  },
+  {
+   "w": "he",
+   "s": 287.42,
+   "e": 287.58
+  },
+  {
+   "w": "is",
+   "s": 287.58,
+   "e": 287.7
+  },
+  {
+   "w": "the",
+   "s": 287.7,
+   "e": 287.84
+  },
+  {
+   "w": "twist.",
+   "s": 287.84,
+   "e": 288.08
+  },
+  {
+   "w": "In",
+   "s": 288.84,
+   "e": 288.88
+  },
+  {
+   "w": "2022,",
+   "s": 288.88,
+   "e": 289.48
+  },
+  {
+   "w": "NASA",
+   "s": 289.48,
+   "e": 290.14
+  },
+  {
+   "w": "and",
+   "s": 290.14,
+   "e": 290.36
+  },
+  {
+   "w": "SpaceX",
+   "s": 290.36,
+   "e": 290.54
+  },
+  {
+   "w": "studied",
+   "s": 290.54,
+   "e": 291.26
+  },
+  {
+   "w": "whether",
+   "s": 291.26,
+   "e": 291.56
+  },
+  {
+   "w": "a",
+   "s": 291.56,
+   "e": 291.7
+  },
+  {
+   "w": "Dragon",
+   "s": 291.7,
+   "e": 291.94
+  },
+  {
+   "w": "capsule",
+   "s": 291.94,
+   "e": 292.36
+  },
+  {
+   "w": "could",
+   "s": 292.36,
+   "e": 292.7
+  },
+  {
+   "w": "boost",
+   "s": 292.7,
+   "e": 292.96
+  },
+  {
+   "w": "Hubble,",
+   "s": 292.96,
+   "e": 293.2
+  },
+  {
+   "w": "in",
+   "s": 293.62,
+   "e": 293.76
+  },
+  {
+   "w": "a",
+   "s": 293.76,
+   "e": 293.82
+  },
+  {
+   "w": "project",
+   "s": 293.82,
+   "e": 294.14
+  },
+  {
+   "w": "backed",
+   "s": 294.14,
+   "e": 294.46
+  },
+  {
+   "w": "by",
+   "s": 294.46,
+   "e": 294.8
+  },
+  {
+   "w": "billionaire",
+   "s": 294.8,
+   "e": 295.14
+  },
+  {
+   "w": "astronaut,",
+   "s": 295.14,
+   "e": 295.62
+  },
+  {
+   "w": "Jared",
+   "s": 296.02,
+   "e": 296.12
+  },
+  {
+   "w": "Isakman.",
+   "s": 296.12,
+   "e": 296.78
+  },
+  {
+   "w": "In",
+   "s": 296.78,
+   "e": 297.26
+  },
+  {
+   "w": "2024,",
+   "s": 297.26,
+   "e": 298.08
+  },
+  {
+   "w": "NASA",
+   "s": 298.56,
+   "e": 298.76
+  },
+  {
+   "w": "decided",
+   "s": 298.76,
+   "e": 299.28
+  },
+  {
+   "w": "not",
+   "s": 299.28,
+   "e": 299.52
+  },
+  {
+   "w": "to",
+   "s": 299.52,
+   "e": 299.7
+  },
+  {
+   "w": "go",
+   "s": 299.7,
+   "e": 299.84
+  },
+  {
+   "w": "ahead,",
+   "s": 299.84,
+   "e": 300.08
+  },
+  {
+   "w": "worried",
+   "s": 300.42,
+   "e": 300.64
+  },
+  {
+   "w": "about",
+   "s": 300.64,
+   "e": 300.94
+  },
+  {
+   "w": "the",
+   "s": 300.94,
+   "e": 301.1
+  },
+  {
+   "w": "risks",
+   "s": 301.1,
+   "e": 301.34
+  },
+  {
+   "w": "of",
+   "s": 301.34,
+   "e": 301.52
+  },
+  {
+   "w": "damaging",
+   "s": 301.52,
+   "e": 301.82
+  },
+  {
+   "w": "the",
+   "s": 301.82,
+   "e": 302.1
+  },
+  {
+   "w": "telescope.",
+   "s": 302.1,
+   "e": 302.32
+  },
+  {
+   "w": "Now",
+   "s": 303.1,
+   "e": 303.28
+  },
+  {
+   "w": "Isakman",
+   "s": 303.28,
+   "e": 303.92
+  },
+  {
+   "w": "runs",
+   "s": 303.92,
+   "e": 304.12
+  },
+  {
+   "w": "NASA,",
+   "s": 304.12,
+   "e": 304.48
+  },
+  {
+   "w": "and",
+   "s": 305.14,
+   "e": 305.18
+  },
+  {
+   "w": "the",
+   "s": 305.18,
+   "e": 305.26
+  },
+  {
+   "w": "question",
+   "s": 305.26,
+   "e": 305.46
+  },
+  {
+   "w": "is",
+   "s": 305.46,
+   "e": 305.84
+  },
+  {
+   "w": "back",
+   "s": 305.84,
+   "e": 306.08
+  },
+  {
+   "w": "on",
+   "s": 306.08,
+   "e": 306.3
+  },
+  {
+   "w": "the",
+   "s": 306.3,
+   "e": 306.4
+  },
+  {
+   "w": "table.",
+   "s": 306.4,
+   "e": 306.64
+  },
+  {
+   "w": "What",
+   "s": 309.4,
+   "e": 309.88
+  },
+  {
+   "w": "are",
+   "s": 309.88,
+   "e": 309.98
+  },
+  {
+   "w": "the",
+   "s": 309.98,
+   "e": 310.08
+  },
+  {
+   "w": "options?",
+   "s": 310.08,
+   "e": 310.42
+  },
+  {
+   "w": "Option",
+   "s": 311.24,
+   "e": 311.56
+  },
+  {
+   "w": "1,",
+   "s": 311.56,
+   "e": 311.88
+  },
+  {
+   "w": "send",
+   "s": 312.04,
+   "e": 312.26
+  },
+  {
+   "w": "a",
+   "s": 312.26,
+   "e": 312.38
+  },
+  {
+   "w": "spacecraft",
+   "s": 312.38,
+   "e": 312.7
+  },
+  {
+   "w": "to",
+   "s": 312.7,
+   "e": 313.14
+  },
+  {
+   "w": "latch",
+   "s": 313.14,
+   "e": 313.26
+  },
+  {
+   "w": "on",
+   "s": 313.26,
+   "e": 313.48
+  },
+  {
+   "w": "and",
+   "s": 313.48,
+   "e": 313.62
+  },
+  {
+   "w": "push",
+   "s": 313.62,
+   "e": 313.82
+  },
+  {
+   "w": "Hubble",
+   "s": 313.82,
+   "e": 314.06
+  },
+  {
+   "w": "into",
+   "s": 314.06,
+   "e": 314.36
+  },
+  {
+   "w": "a",
+   "s": 314.36,
+   "e": 314.48
+  },
+  {
+   "w": "higher",
+   "s": 314.48,
+   "e": 314.68
+  },
+  {
+   "w": "orbit,",
+   "s": 314.68,
+   "e": 315.02
+  },
+  {
+   "w": "buying",
+   "s": 315.42,
+   "e": 315.64
+  },
+  {
+   "w": "it",
+   "s": 315.64,
+   "e": 315.9
+  },
+  {
+   "w": "years,",
+   "s": 315.9,
+   "e": 316.16
+  },
+  {
+   "w": "maybe",
+   "s": 316.7,
+   "e": 316.78
+  },
+  {
+   "w": "decades.",
+   "s": 316.78,
+   "e": 317.16
+  },
+  {
+   "w": "Option",
+   "s": 317.94,
+   "e": 318.12
+  },
+  {
+   "w": "2,",
+   "s": 318.12,
+   "e": 318.5
+  },
+  {
+   "w": "a",
+   "s": 318.66,
+   "e": 318.76
+  },
+  {
+   "w": "full",
+   "s": 318.76,
+   "e": 318.92
+  },
+  {
+   "w": "servicing",
+   "s": 318.92,
+   "e": 319.3
+  },
+  {
+   "w": "mission,",
+   "s": 319.3,
+   "e": 319.74
+  },
+  {
+   "w": "to",
+   "s": 320.04,
+   "e": 320.26
+  },
+  {
+   "w": "repair",
+   "s": 320.26,
+   "e": 320.52
+  },
+  {
+   "w": "and",
+   "s": 320.52,
+   "e": 320.8
+  },
+  {
+   "w": "upgrade",
+   "s": 320.8,
+   "e": 321.1
+  },
+  {
+   "w": "it",
+   "s": 321.1,
+   "e": 321.34
+  },
+  {
+   "w": "again",
+   "s": 321.34,
+   "e": 321.56
+  },
+  {
+   "w": "while",
+   "s": 321.56,
+   "e": 321.9
+  },
+  {
+   "w": "someone",
+   "s": 321.9,
+   "e": 322.16
+  },
+  {
+   "w": "is",
+   "s": 322.16,
+   "e": 322.4
+  },
+  {
+   "w": "up",
+   "s": 322.4,
+   "e": 322.52
+  },
+  {
+   "w": "there.",
+   "s": 322.52,
+   "e": 322.76
+  },
+  {
+   "w": "Option",
+   "s": 322.76,
+   "e": 323.4
+  },
+  {
+   "w": "3,",
+   "s": 323.4,
+   "e": 323.82
+  },
+  {
+   "w": "grab",
+   "s": 324.02,
+   "e": 324.2
+  },
+  {
+   "w": "it",
+   "s": 324.2,
+   "e": 324.48
+  },
+  {
+   "w": "and",
+   "s": 324.48,
+   "e": 324.62
+  },
+  {
+   "w": "steer",
+   "s": 324.62,
+   "e": 324.88
+  },
+  {
+   "w": "it",
+   "s": 324.88,
+   "e": 325.1
+  },
+  {
+   "w": "down",
+   "s": 325.1,
+   "e": 325.28
+  },
+  {
+   "w": "on",
+   "s": 325.28,
+   "e": 325.44
+  },
+  {
+   "w": "purpose,",
+   "s": 325.44,
+   "e": 325.8
+  },
+  {
+   "w": "into",
+   "s": 326.28,
+   "e": 326.48
+  },
+  {
+   "w": "a",
+   "s": 326.48,
+   "e": 326.66
+  },
+  {
+   "w": "remote",
+   "s": 326.66,
+   "e": 326.92
+  },
+  {
+   "w": "stretch",
+   "s": 326.92,
+   "e": 327.28
+  },
+  {
+   "w": "of",
+   "s": 327.28,
+   "e": 327.48
+  },
+  {
+   "w": "ocean,",
+   "s": 327.48,
+   "e": 327.78
+  },
+  {
+   "w": "or",
+   "s": 328.26,
+   "e": 328.38
+  },
+  {
+   "w": "move",
+   "s": 328.38,
+   "e": 328.62
+  },
+  {
+   "w": "it",
+   "s": 328.62,
+   "e": 328.74
+  },
+  {
+   "w": "out",
+   "s": 328.74,
+   "e": 328.86
+  },
+  {
+   "w": "of",
+   "s": 328.86,
+   "e": 329.0
+  },
+  {
+   "w": "the",
+   "s": 329.0,
+   "e": 329.08
+  },
+  {
+   "w": "way",
+   "s": 329.08,
+   "e": 329.24
+  },
+  {
+   "w": "into",
+   "s": 329.24,
+   "e": 329.5
+  },
+  {
+   "w": "a",
+   "s": 329.5,
+   "e": 329.62
+  },
+  {
+   "w": "disposal",
+   "s": 329.62,
+   "e": 329.94
+  },
+  {
+   "w": "orbit.",
+   "s": 329.94,
+   "e": 330.48
+  },
+  {
+   "w": "How",
+   "s": 330.94,
+   "e": 331.1
+  },
+  {
+   "w": "would",
+   "s": 331.1,
+   "e": 331.24
+  },
+  {
+   "w": "anything",
+   "s": 331.24,
+   "e": 331.4
+  },
+  {
+   "w": "grab",
+   "s": 331.4,
+   "e": 331.82
+  },
+  {
+   "w": "a",
+   "s": 331.82,
+   "e": 332.02
+  },
+  {
+   "w": "telescope?",
+   "s": 332.02,
+   "e": 332.36
+  },
+  {
+   "w": "The",
+   "s": 333.14,
+   "e": 333.3
+  },
+  {
+   "w": "astronauts",
+   "s": 333.3,
+   "e": 333.6
+  },
+  {
+   "w": "planned",
+   "s": 333.6,
+   "e": 334.16
+  },
+  {
+   "w": "ahead.",
+   "s": 334.16,
+   "e": 334.46
+  },
+  {
+   "w": "On",
+   "s": 335.1,
+   "e": 335.22
+  },
+  {
+   "w": "the",
+   "s": 335.22,
+   "e": 335.32
+  },
+  {
+   "w": "last",
+   "s": 335.32,
+   "e": 335.52
+  },
+  {
+   "w": "visit",
+   "s": 335.52,
+   "e": 335.82
+  },
+  {
+   "w": "in",
+   "s": 335.82,
+   "e": 336.1
+  },
+  {
+   "w": "2009,",
+   "s": 336.1,
+   "e": 336.66
+  },
+  {
+   "w": "they",
+   "s": 337.5,
+   "e": 337.62
+  },
+  {
+   "w": "bolted",
+   "s": 337.62,
+   "e": 337.86
+  },
+  {
+   "w": "a",
+   "s": 337.86,
+   "e": 338.1
+  },
+  {
+   "w": "ring",
+   "s": 338.1,
+   "e": 338.28
+  },
+  {
+   "w": "onto",
+   "s": 338.28,
+   "e": 338.46
+  },
+  {
+   "w": "Hubble's",
+   "s": 338.46,
+   "e": 338.96
+  },
+  {
+   "w": "base,",
+   "s": 338.96,
+   "e": 339.16
+  },
+  {
+   "w": "with",
+   "s": 339.16,
+   "e": 339.76
+  },
+  {
+   "w": "targets",
+   "s": 339.76,
+   "e": 340.1
+  },
+  {
+   "w": "that",
+   "s": 340.1,
+   "e": 340.42
+  },
+  {
+   "w": "a",
+   "s": 340.42,
+   "e": 340.5
+  },
+  {
+   "w": "future",
+   "s": 340.5,
+   "e": 340.7
+  },
+  {
+   "w": "spacecraft",
+   "s": 340.7,
+   "e": 341.32
+  },
+  {
+   "w": "can",
+   "s": 341.32,
+   "e": 341.78
+  },
+  {
+   "w": "use",
+   "s": 341.78,
+   "e": 341.96
+  },
+  {
+   "w": "to",
+   "s": 341.96,
+   "e": 342.14
+  },
+  {
+   "w": "dock.",
+   "s": 342.14,
+   "e": 342.34
+  },
+  {
+   "w": "A",
+   "s": 343.02,
+   "e": 343.08
+  },
+  {
+   "w": "robust",
+   "s": 343.08,
+   "e": 343.32
+  },
+  {
+   "w": "would",
+   "s": 343.32,
+   "e": 343.62
+  },
+  {
+   "w": "mean",
+   "s": 343.62,
+   "e": 343.78
+  },
+  {
+   "w": "docking",
+   "s": 343.78,
+   "e": 344.1
+  },
+  {
+   "w": "with",
+   "s": 344.1,
+   "e": 344.38
+  },
+  {
+   "w": "that",
+   "s": 344.38,
+   "e": 344.54
+  },
+  {
+   "w": "ring,",
+   "s": 344.54,
+   "e": 344.8
+  },
+  {
+   "w": "then",
+   "s": 345.28,
+   "e": 345.4
+  },
+  {
+   "w": "firing",
+   "s": 345.4,
+   "e": 345.74
+  },
+  {
+   "w": "thrusters",
+   "s": 345.74,
+   "e": 346.3
+  },
+  {
+   "w": "gently",
+   "s": 346.3,
+   "e": 346.66
+  },
+  {
+   "w": "over",
+   "s": 346.66,
+   "e": 347.3
+  },
+  {
+   "w": "and",
+   "s": 347.3,
+   "e": 347.46
+  },
+  {
+   "w": "over",
+   "s": 347.46,
+   "e": 347.74
+  },
+  {
+   "w": "to",
+   "s": 347.74,
+   "e": 348.18
+  },
+  {
+   "w": "lift",
+   "s": 348.18,
+   "e": 348.36
+  },
+  {
+   "w": "the",
+   "s": 348.36,
+   "e": 348.56
+  },
+  {
+   "w": "whole",
+   "s": 348.56,
+   "e": 348.68
+  },
+  {
+   "w": "telescope",
+   "s": 348.68,
+   "e": 349.16
+  },
+  {
+   "w": "higher",
+   "s": 349.16,
+   "e": 349.58
+  },
+  {
+   "w": "without",
+   "s": 349.58,
+   "e": 349.9
+  },
+  {
+   "w": "shaking",
+   "s": 349.9,
+   "e": 350.32
+  },
+  {
+   "w": "it.",
+   "s": 350.32,
+   "e": 350.64
+  },
+  {
+   "w": "Every",
+   "s": 350.64,
+   "e": 351.3
+  },
+  {
+   "w": "extra",
+   "s": 351.3,
+   "e": 351.6
+  },
+  {
+   "w": "kilometre",
+   "s": 351.6,
+   "e": 352.4
+  },
+  {
+   "w": "buys",
+   "s": 352.4,
+   "e": 352.58
+  },
+  {
+   "w": "more",
+   "s": 352.58,
+   "e": 352.92
+  },
+  {
+   "w": "time.",
+   "s": 352.92,
+   "e": 353.24
+  },
+  {
+   "w": "What",
+   "s": 355.52,
+   "e": 355.78
+  },
+  {
+   "w": "if",
+   "s": 355.78,
+   "e": 355.92
+  },
+  {
+   "w": "nobody",
+   "s": 355.92,
+   "e": 356.1
+  },
+  {
+   "w": "saves",
+   "s": 356.1,
+   "e": 356.56
+  },
+  {
+   "w": "it?",
+   "s": 356.56,
+   "e": 356.88
+  },
+  {
+   "w": "Then",
+   "s": 357.44,
+   "e": 357.62
+  },
+  {
+   "w": "sometime",
+   "s": 357.62,
+   "e": 357.94
+  },
+  {
+   "w": "in",
+   "s": 357.94,
+   "e": 358.24
+  },
+  {
+   "w": "the",
+   "s": 358.24,
+   "e": 358.32
+  },
+  {
+   "w": "2030s,",
+   "s": 358.32,
+   "e": 359.22
+  },
+  {
+   "w": "it",
+   "s": 359.44,
+   "e": 359.52
+  },
+  {
+   "w": "would",
+   "s": 359.52,
+   "e": 359.6
+  },
+  {
+   "w": "come",
+   "s": 359.6,
+   "e": 359.8
+  },
+  {
+   "w": "down",
+   "s": 359.8,
+   "e": 360.06
+  },
+  {
+   "w": "on",
+   "s": 360.06,
+   "e": 360.24
+  },
+  {
+   "w": "its",
+   "s": 360.24,
+   "e": 360.38
+  },
+  {
+   "w": "own.",
+   "s": 360.38,
+   "e": 360.62
+  },
+  {
+   "w": "Most",
+   "s": 361.34,
+   "e": 361.58
+  },
+  {
+   "w": "of",
+   "s": 361.58,
+   "e": 361.7
+  },
+  {
+   "w": "it",
+   "s": 361.7,
+   "e": 361.8
+  },
+  {
+   "w": "would",
+   "s": 361.8,
+   "e": 361.9
+  },
+  {
+   "w": "burn",
+   "s": 361.9,
+   "e": 362.12
+  },
+  {
+   "w": "up,",
+   "s": 362.12,
+   "e": 362.34
+  },
+  {
+   "w": "but",
+   "s": 362.58,
+   "e": 362.72
+  },
+  {
+   "w": "the",
+   "s": 362.72,
+   "e": 362.8
+  },
+  {
+   "w": "heaviest",
+   "s": 362.8,
+   "e": 363.16
+  },
+  {
+   "w": "parts,",
+   "s": 363.16,
+   "e": 363.52
+  },
+  {
+   "w": "like",
+   "s": 363.62,
+   "e": 363.96
+  },
+  {
+   "w": "its",
+   "s": 363.96,
+   "e": 364.16
+  },
+  {
+   "w": "big",
+   "s": 364.16,
+   "e": 364.38
+  },
+  {
+   "w": "glass",
+   "s": 364.38,
+   "e": 364.66
+  },
+  {
+   "w": "mirror",
+   "s": 364.66,
+   "e": 364.98
+  },
+  {
+   "w": "and",
+   "s": 364.98,
+   "e": 365.24
+  },
+  {
+   "w": "metal",
+   "s": 365.24,
+   "e": 365.48
+  },
+  {
+   "w": "frame,",
+   "s": 365.48,
+   "e": 365.8
+  },
+  {
+   "w": "could",
+   "s": 366.18,
+   "e": 366.38
+  },
+  {
+   "w": "survive",
+   "s": 366.38,
+   "e": 366.64
+  },
+  {
+   "w": "and",
+   "s": 366.64,
+   "e": 367.06
+  },
+  {
+   "w": "hit",
+   "s": 367.06,
+   "e": 367.22
+  },
+  {
+   "w": "the",
+   "s": 367.22,
+   "e": 367.34
+  },
+  {
+   "w": "ground",
+   "s": 367.34,
+   "e": 367.58
+  },
+  {
+   "w": "somewhere",
+   "s": 367.58,
+   "e": 367.94
+  },
+  {
+   "w": "along",
+   "s": 367.94,
+   "e": 368.4
+  },
+  {
+   "w": "its",
+   "s": 368.4,
+   "e": 368.6
+  },
+  {
+   "w": "path.",
+   "s": 368.6,
+   "e": 368.88
+  },
+  {
+   "w": "The",
+   "s": 369.46,
+   "e": 369.52
+  },
+  {
+   "w": "chance",
+   "s": 369.52,
+   "e": 369.68
+  },
+  {
+   "w": "of",
+   "s": 369.68,
+   "e": 369.96
+  },
+  {
+   "w": "debris",
+   "s": 369.96,
+   "e": 370.12
+  },
+  {
+   "w": "hurting",
+   "s": 370.12,
+   "e": 370.54
+  },
+  {
+   "w": "anyone",
+   "s": 370.54,
+   "e": 370.92
+  },
+  {
+   "w": "is",
+   "s": 370.92,
+   "e": 371.12
+  },
+  {
+   "w": "small,",
+   "s": 371.12,
+   "e": 371.4
+  },
+  {
+   "w": "because",
+   "s": 371.84,
+   "e": 372.08
+  },
+  {
+   "w": "most",
+   "s": 372.08,
+   "e": 372.32
+  },
+  {
+   "w": "of",
+   "s": 372.32,
+   "e": 372.54
+  },
+  {
+   "w": "Earth",
+   "s": 372.54,
+   "e": 372.7
+  },
+  {
+   "w": "is",
+   "s": 372.7,
+   "e": 372.98
+  },
+  {
+   "w": "ocean",
+   "s": 372.98,
+   "e": 373.22
+  },
+  {
+   "w": "and",
+   "s": 373.22,
+   "e": 373.7
+  },
+  {
+   "w": "empty",
+   "s": 373.7,
+   "e": 373.98
+  },
+  {
+   "w": "land.",
+   "s": 373.98,
+   "e": 374.24
+  },
+  {
+   "w": "But",
+   "s": 374.98,
+   "e": 375.0
+  },
+  {
+   "w": "space",
+   "s": 375.0,
+   "e": 375.2
+  },
+  {
+   "w": "agencies",
+   "s": 375.2,
+   "e": 375.66
+  },
+  {
+   "w": "try",
+   "s": 375.66,
+   "e": 376.12
+  },
+  {
+   "w": "hard",
+   "s": 376.12,
+   "e": 376.48
+  },
+  {
+   "w": "to",
+   "s": 376.48,
+   "e": 376.62
+  },
+  {
+   "w": "avoid",
+   "s": 376.62,
+   "e": 376.86
+  },
+  {
+   "w": "uncontrolled",
+   "s": 376.86,
+   "e": 377.32
+  },
+  {
+   "w": "falls",
+   "s": 377.32,
+   "e": 377.86
+  },
+  {
+   "w": "of",
+   "s": 377.86,
+   "e": 378.14
+  },
+  {
+   "w": "objects",
+   "s": 378.14,
+   "e": 378.44
+  },
+  {
+   "w": "this",
+   "s": 378.44,
+   "e": 378.76
+  },
+  {
+   "w": "big.",
+   "s": 378.76,
+   "e": 379.02
+  },
+  {
+   "w": "In",
+   "s": 379.02,
+   "e": 379.58
+  },
+  {
+   "w": "fact,",
+   "s": 379.58,
+   "e": 379.82
+  },
+  {
+   "w": "the",
+   "s": 380.12,
+   "e": 380.16
+  },
+  {
+   "w": "docking",
+   "s": 380.16,
+   "e": 380.44
+  },
+  {
+   "w": "ring",
+   "s": 380.44,
+   "e": 380.7
+  },
+  {
+   "w": "was",
+   "s": 380.7,
+   "e": 380.88
+  },
+  {
+   "w": "added",
+   "s": 380.88,
+   "e": 381.14
+  },
+  {
+   "w": "partly",
+   "s": 381.14,
+   "e": 381.5
+  },
+  {
+   "w": "for",
+   "s": 381.5,
+   "e": 381.84
+  },
+  {
+   "w": "this.",
+   "s": 381.84,
+   "e": 382.06
+  },
+  {
+   "w": "The",
+   "s": 382.68,
+   "e": 382.78
+  },
+  {
+   "w": "plan",
+   "s": 382.78,
+   "e": 382.98
+  },
+  {
+   "w": "was",
+   "s": 382.98,
+   "e": 383.18
+  },
+  {
+   "w": "always",
+   "s": 383.18,
+   "e": 383.52
+  },
+  {
+   "w": "that",
+   "s": 383.52,
+   "e": 383.78
+  },
+  {
+   "w": "someday",
+   "s": 383.78,
+   "e": 384.12
+  },
+  {
+   "w": "a",
+   "s": 384.12,
+   "e": 384.42
+  },
+  {
+   "w": "robotic",
+   "s": 384.42,
+   "e": 384.68
+  },
+  {
+   "w": "craft",
+   "s": 384.68,
+   "e": 385.14
+  },
+  {
+   "w": "might",
+   "s": 385.14,
+   "e": 385.56
+  },
+  {
+   "w": "attach",
+   "s": 385.56,
+   "e": 385.84
+  },
+  {
+   "w": "to",
+   "s": 385.84,
+   "e": 386.12
+  },
+  {
+   "w": "Hubble",
+   "s": 386.12,
+   "e": 386.32
+  },
+  {
+   "w": "and",
+   "s": 386.32,
+   "e": 386.72
+  },
+  {
+   "w": "steer",
+   "s": 386.72,
+   "e": 387.02
+  },
+  {
+   "w": "it",
+   "s": 387.02,
+   "e": 387.22
+  },
+  {
+   "w": "safely",
+   "s": 387.22,
+   "e": 387.46
+  },
+  {
+   "w": "into",
+   "s": 387.46,
+   "e": 387.9
+  },
+  {
+   "w": "the",
+   "s": 387.9,
+   "e": 388.04
+  },
+  {
+   "w": "ocean.",
+   "s": 388.04,
+   "e": 388.36
+  },
+  {
+   "w": "Back",
+   "s": 388.8,
+   "e": 388.92
+  },
+  {
+   "w": "in",
+   "s": 388.92,
+   "e": 389.08
+  },
+  {
+   "w": "1979,",
+   "s": 389.08,
+   "e": 390.06
+  },
+  {
+   "w": "America's",
+   "s": 390.42,
+   "e": 391.04
+  },
+  {
+   "w": "Skylab",
+   "s": 391.04,
+   "e": 391.44
+  },
+  {
+   "w": "space",
+   "s": 391.44,
+   "e": 391.7
+  },
+  {
+   "w": "station",
+   "s": 391.7,
+   "e": 392.16
+  },
+  {
+   "w": "fell",
+   "s": 392.16,
+   "e": 392.52
+  },
+  {
+   "w": "uncontrolled",
+   "s": 392.52,
+   "e": 392.9
+  },
+  {
+   "w": "and",
+   "s": 392.9,
+   "e": 393.82
+  },
+  {
+   "w": "pieces",
+   "s": 393.82,
+   "e": 394.1
+  },
+  {
+   "w": "landed",
+   "s": 394.1,
+   "e": 394.48
+  },
+  {
+   "w": "in",
+   "s": 394.48,
+   "e": 394.8
+  },
+  {
+   "w": "Western",
+   "s": 394.8,
+   "e": 395.04
+  },
+  {
+   "w": "Australia.",
+   "s": 395.04,
+   "e": 395.64
+  },
+  {
+   "w": "Nobody",
+   "s": 396.32,
+   "e": 396.58
+  },
+  {
+   "w": "was",
+   "s": 396.58,
+   "e": 396.88
+  },
+  {
+   "w": "hurt,",
+   "s": 396.88,
+   "e": 397.18
+  },
+  {
+   "w": "but",
+   "s": 397.5,
+   "e": 397.54
+  },
+  {
+   "w": "nobody",
+   "s": 397.54,
+   "e": 397.74
+  },
+  {
+   "w": "wants",
+   "s": 397.74,
+   "e": 398.1
+  },
+  {
+   "w": "a",
+   "s": 398.1,
+   "e": 398.3
+  },
+  {
+   "w": "repeat.",
+   "s": 398.3,
+   "e": 398.52
+  },
+  {
+   "w": "Don't",
+   "s": 400.64,
+   "e": 401.24
+  },
+  {
+   "w": "we",
+   "s": 401.24,
+   "e": 401.32
+  },
+  {
+   "w": "have",
+   "s": 401.32,
+   "e": 401.48
+  },
+  {
+   "w": "newer",
+   "s": 401.48,
+   "e": 401.68
+  },
+  {
+   "w": "telescopes",
+   "s": 401.68,
+   "e": 402.16
+  },
+  {
+   "w": "now?",
+   "s": 402.16,
+   "e": 402.72
+  },
+  {
+   "w": "We",
+   "s": 402.72,
+   "e": 403.42
+  },
+  {
+   "w": "have",
+   "s": 403.42,
+   "e": 403.54
+  },
+  {
+   "w": "the",
+   "s": 403.54,
+   "e": 403.68
+  },
+  {
+   "w": "James",
+   "s": 403.68,
+   "e": 403.9
+  },
+  {
+   "w": "Webb",
+   "s": 403.9,
+   "e": 404.18
+  },
+  {
+   "w": "Space",
+   "s": 404.18,
+   "e": 404.54
+  },
+  {
+   "w": "Telescope,",
+   "s": 404.54,
+   "e": 404.84
+  },
+  {
+   "w": "which",
+   "s": 405.5,
+   "e": 405.56
+  },
+  {
+   "w": "is",
+   "s": 405.56,
+   "e": 405.72
+  },
+  {
+   "w": "bigger",
+   "s": 405.72,
+   "e": 406.0
+  },
+  {
+   "w": "and",
+   "s": 406.0,
+   "e": 406.26
+  },
+  {
+   "w": "sees",
+   "s": 406.26,
+   "e": 406.44
+  },
+  {
+   "w": "deeper.",
+   "s": 406.44,
+   "e": 406.88
+  },
+  {
+   "w": "But",
+   "s": 407.46,
+   "e": 407.54
+  },
+  {
+   "w": "Webb",
+   "s": 407.54,
+   "e": 407.68
+  },
+  {
+   "w": "mostly",
+   "s": 407.68,
+   "e": 408.0
+  },
+  {
+   "w": "sees",
+   "s": 408.0,
+   "e": 408.36
+  },
+  {
+   "w": "infrared",
+   "s": 408.36,
+   "e": 408.76
+  },
+  {
+   "w": "light,",
+   "s": 408.76,
+   "e": 409.16
+  },
+  {
+   "w": "the",
+   "s": 409.5,
+   "e": 409.62
+  },
+  {
+   "w": "kind",
+   "s": 409.62,
+   "e": 409.8
+  },
+  {
+   "w": "we",
+   "s": 409.8,
+   "e": 409.94
+  },
+  {
+   "w": "feel",
+   "s": 409.94,
+   "e": 410.12
+  },
+  {
+   "w": "as",
+   "s": 410.12,
+   "e": 410.28
+  },
+  {
+   "w": "heat.",
+   "s": 410.28,
+   "e": 410.5
+  },
+  {
+   "w": "Webb",
+   "s": 411.24,
+   "e": 411.58
+  },
+  {
+   "w": "launched",
+   "s": 411.58,
+   "e": 411.86
+  },
+  {
+   "w": "at",
+   "s": 411.86,
+   "e": 412.14
+  },
+  {
+   "w": "the",
+   "s": 412.14,
+   "e": 412.22
+  },
+  {
+   "w": "end",
+   "s": 412.22,
+   "e": 412.38
+  },
+  {
+   "w": "of",
+   "s": 412.38,
+   "e": 412.5
+  },
+  {
+   "w": "2021.",
+   "s": 412.5,
+   "e": 413.08
+  },
+  {
+   "w": "Its",
+   "s": 413.82,
+   "e": 413.98
+  },
+  {
+   "w": "mirror",
+   "s": 413.98,
+   "e": 414.2
+  },
+  {
+   "w": "is",
+   "s": 414.2,
+   "e": 414.48
+  },
+  {
+   "w": "six",
+   "s": 414.48,
+   "e": 414.8
+  },
+  {
+   "w": "and",
+   "s": 414.8,
+   "e": 415.02
+  },
+  {
+   "w": "a",
+   "s": 415.02,
+   "e": 415.08
+  },
+  {
+   "w": "half",
+   "s": 415.08,
+   "e": 415.24
+  },
+  {
+   "w": "metres",
+   "s": 415.24,
+   "e": 415.48
+  },
+  {
+   "w": "wide,",
+   "s": 415.48,
+   "e": 415.84
+  },
+  {
+   "w": "and",
+   "s": 416.4,
+   "e": 416.44
+  },
+  {
+   "w": "it",
+   "s": 416.44,
+   "e": 416.54
+  },
+  {
+   "w": "sits",
+   "s": 416.54,
+   "e": 416.66
+  },
+  {
+   "w": "one",
+   "s": 416.66,
+   "e": 417.06
+  },
+  {
+   "w": "and",
+   "s": 417.06,
+   "e": 417.24
+  },
+  {
+   "w": "a",
+   "s": 417.24,
+   "e": 417.3
+  },
+  {
+   "w": "half",
+   "s": 417.3,
+   "e": 417.52
+  },
+  {
+   "w": "million",
+   "s": 417.52,
+   "e": 417.82
+  },
+  {
+   "w": "kilometres",
+   "s": 417.82,
+   "e": 418.1
+  },
+  {
+   "w": "away,",
+   "s": 418.1,
+   "e": 418.68
+  },
+  {
+   "w": "far",
+   "s": 419.16,
+   "e": 419.36
+  },
+  {
+   "w": "beyond",
+   "s": 419.36,
+   "e": 419.6
+  },
+  {
+   "w": "the",
+   "s": 419.6,
+   "e": 419.74
+  },
+  {
+   "w": "reach",
+   "s": 419.74,
+   "e": 419.9
+  },
+  {
+   "w": "of",
+   "s": 419.9,
+   "e": 420.12
+  },
+  {
+   "w": "any",
+   "s": 420.12,
+   "e": 420.24
+  },
+  {
+   "w": "repair",
+   "s": 420.24,
+   "e": 420.46
+  },
+  {
+   "w": "crew.",
+   "s": 420.46,
+   "e": 420.82
+  },
+  {
+   "w": "Hubble",
+   "s": 421.42,
+   "e": 421.44
+  },
+  {
+   "w": "sees",
+   "s": 421.44,
+   "e": 421.78
+  },
+  {
+   "w": "visible",
+   "s": 421.78,
+   "e": 422.12
+  },
+  {
+   "w": "and",
+   "s": 422.12,
+   "e": 422.5
+  },
+  {
+   "w": "ultraviolet",
+   "s": 422.5,
+   "e": 422.78
+  },
+  {
+   "w": "light,",
+   "s": 422.78,
+   "e": 423.4
+  },
+  {
+   "w": "the",
+   "s": 423.86,
+   "e": 423.98
+  },
+  {
+   "w": "colours",
+   "s": 423.98,
+   "e": 424.18
+  },
+  {
+   "w": "of",
+   "s": 424.18,
+   "e": 424.4
+  },
+  {
+   "w": "hot",
+   "s": 424.4,
+   "e": 424.54
+  },
+  {
+   "w": "young",
+   "s": 424.54,
+   "e": 424.74
+  },
+  {
+   "w": "stars,",
+   "s": 424.74,
+   "e": 425.1
+  },
+  {
+   "w": "comets",
+   "s": 425.64,
+   "e": 426.0
+  },
+  {
+   "w": "and",
+   "s": 426.0,
+   "e": 426.2
+  },
+  {
+   "w": "planets",
+   "s": 426.2,
+   "e": 426.5
+  },
+  {
+   "w": "auroras.",
+   "s": 426.5,
+   "e": 426.92
+  },
+  {
+   "w": "No",
+   "s": 427.58,
+   "e": 427.84
+  },
+  {
+   "w": "other",
+   "s": 427.84,
+   "e": 428.06
+  },
+  {
+   "w": "big",
+   "s": 428.06,
+   "e": 428.26
+  },
+  {
+   "w": "telescope",
+   "s": 428.26,
+   "e": 428.58
+  },
+  {
+   "w": "in",
+   "s": 428.58,
+   "e": 429.0
+  },
+  {
+   "w": "space",
+   "s": 429.0,
+   "e": 429.22
+  },
+  {
+   "w": "can",
+   "s": 429.22,
+   "e": 429.58
+  },
+  {
+   "w": "do",
+   "s": 429.58,
+   "e": 429.74
+  },
+  {
+   "w": "that",
+   "s": 429.74,
+   "e": 429.88
+  },
+  {
+   "w": "right",
+   "s": 429.88,
+   "e": 430.08
+  },
+  {
+   "w": "now.",
+   "s": 430.08,
+   "e": 430.36
+  },
+  {
+   "w": "Hubble's",
+   "s": 430.36,
+   "e": 431.18
+  },
+  {
+   "w": "ultraviolet",
+   "s": 431.18,
+   "e": 431.54
+  },
+  {
+   "w": "eyes",
+   "s": 431.54,
+   "e": 432.24
+  },
+  {
+   "w": "are",
+   "s": 432.24,
+   "e": 432.7
+  },
+  {
+   "w": "also",
+   "s": 432.7,
+   "e": 432.94
+  },
+  {
+   "w": "used",
+   "s": 432.94,
+   "e": 433.28
+  },
+  {
+   "w": "to",
+   "s": 433.28,
+   "e": 433.42
+  },
+  {
+   "w": "study",
+   "s": 433.42,
+   "e": 433.68
+  },
+  {
+   "w": "the",
+   "s": 433.68,
+   "e": 433.84
+  },
+  {
+   "w": "air",
+   "s": 433.84,
+   "e": 434.04
+  },
+  {
+   "w": "of",
+   "s": 434.04,
+   "e": 434.16
+  },
+  {
+   "w": "planets",
+   "s": 434.16,
+   "e": 434.52
+  },
+  {
+   "w": "around",
+   "s": 434.52,
+   "e": 434.86
+  },
+  {
+   "w": "other",
+   "s": 434.86,
+   "e": 435.14
+  },
+  {
+   "w": "stars,",
+   "s": 435.14,
+   "e": 435.38
+  },
+  {
+   "w": "as",
+   "s": 436.08,
+   "e": 436.14
+  },
+  {
+   "w": "they",
+   "s": 436.14,
+   "e": 436.26
+  },
+  {
+   "w": "pass",
+   "s": 436.26,
+   "e": 436.48
+  },
+  {
+   "w": "in",
+   "s": 436.48,
+   "e": 436.74
+  },
+  {
+   "w": "front",
+   "s": 436.74,
+   "e": 436.92
+  },
+  {
+   "w": "of",
+   "s": 436.92,
+   "e": 437.1
+  },
+  {
+   "w": "their",
+   "s": 437.1,
+   "e": 437.24
+  },
+  {
+   "w": "suns.",
+   "s": 437.24,
+   "e": 437.82
+  },
+  {
+   "w": "Losing",
+   "s": 438.26,
+   "e": 438.5
+  },
+  {
+   "w": "Hubble",
+   "s": 438.5,
+   "e": 438.78
+  },
+  {
+   "w": "would",
+   "s": 438.78,
+   "e": 439.08
+  },
+  {
+   "w": "leave",
+   "s": 439.08,
+   "e": 439.32
+  },
+  {
+   "w": "a",
+   "s": 439.32,
+   "e": 439.4
+  },
+  {
+   "w": "gap",
+   "s": 439.4,
+   "e": 439.68
+  },
+  {
+   "w": "in",
+   "s": 439.68,
+   "e": 440.04
+  },
+  {
+   "w": "our",
+   "s": 440.04,
+   "e": 440.14
+  },
+  {
+   "w": "view",
+   "s": 440.14,
+   "e": 440.36
+  },
+  {
+   "w": "of",
+   "s": 440.36,
+   "e": 440.56
+  },
+  {
+   "w": "the",
+   "s": 440.56,
+   "e": 440.68
+  },
+  {
+   "w": "universe.",
+   "s": 440.68,
+   "e": 440.96
+  },
+  {
+   "w": "So",
+   "s": 442.58,
+   "e": 443.1
+  },
+  {
+   "w": "will",
+   "s": 443.1,
+   "e": 443.32
+  },
+  {
+   "w": "Hubble",
+   "s": 443.32,
+   "e": 443.48
+  },
+  {
+   "w": "be",
+   "s": 443.48,
+   "e": 443.72
+  },
+  {
+   "w": "saved?",
+   "s": 443.72,
+   "e": 443.98
+  },
+  {
+   "w": "Nobody",
+   "s": 444.7,
+   "e": 444.96
+  },
+  {
+   "w": "knows",
+   "s": 444.96,
+   "e": 445.36
+  },
+  {
+   "w": "yet.",
+   "s": 445.36,
+   "e": 445.68
+  },
+  {
+   "w": "It",
+   "s": 446.16,
+   "e": 446.2
+  },
+  {
+   "w": "depends",
+   "s": 446.2,
+   "e": 446.4
+  },
+  {
+   "w": "on",
+   "s": 446.4,
+   "e": 446.72
+  },
+  {
+   "w": "money,",
+   "s": 446.72,
+   "e": 446.96
+  },
+  {
+   "w": "on",
+   "s": 447.42,
+   "e": 447.6
+  },
+  {
+   "w": "whether",
+   "s": 447.6,
+   "e": 447.82
+  },
+  {
+   "w": "a",
+   "s": 447.82,
+   "e": 447.92
+  },
+  {
+   "w": "company",
+   "s": 447.92,
+   "e": 448.28
+  },
+  {
+   "w": "can",
+   "s": 448.28,
+   "e": 448.54
+  },
+  {
+   "w": "build",
+   "s": 448.54,
+   "e": 448.78
+  },
+  {
+   "w": "a",
+   "s": 448.78,
+   "e": 448.88
+  },
+  {
+   "w": "rescue",
+   "s": 448.88,
+   "e": 449.14
+  },
+  {
+   "w": "craft",
+   "s": 449.14,
+   "e": 449.46
+  },
+  {
+   "w": "in",
+   "s": 449.46,
+   "e": 449.7
+  },
+  {
+   "w": "time,",
+   "s": 449.7,
+   "e": 450.0
+  },
+  {
+   "w": "and",
+   "s": 450.4,
+   "e": 450.56
+  },
+  {
+   "w": "on",
+   "s": 450.56,
+   "e": 450.66
+  },
+  {
+   "w": "what",
+   "s": 450.66,
+   "e": 450.86
+  },
+  {
+   "w": "NASA",
+   "s": 450.86,
+   "e": 451.04
+  },
+  {
+   "w": "decides",
+   "s": 451.04,
+   "e": 451.74
+  },
+  {
+   "w": "after",
+   "s": 451.74,
+   "e": 451.96
+  },
+  {
+   "w": "the",
+   "s": 451.96,
+   "e": 452.16
+  },
+  {
+   "w": "ideas",
+   "s": 452.16,
+   "e": 452.36
+  },
+  {
+   "w": "come",
+   "s": 452.36,
+   "e": 452.8
+  },
+  {
+   "w": "in.",
+   "s": 452.8,
+   "e": 452.98
+  },
+  {
+   "w": "Hubble",
+   "s": 453.44,
+   "e": 453.56
+  },
+  {
+   "w": "is",
+   "s": 453.56,
+   "e": 453.82
+  },
+  {
+   "w": "falling,",
+   "s": 453.82,
+   "e": 454.1
+  },
+  {
+   "w": "the",
+   "s": 454.58,
+   "e": 454.72
+  },
+  {
+   "w": "next",
+   "s": 454.72,
+   "e": 454.86
+  },
+  {
+   "w": "few",
+   "s": 454.86,
+   "e": 455.12
+  },
+  {
+   "w": "years",
+   "s": 455.12,
+   "e": 455.44
+  },
+  {
+   "w": "will",
+   "s": 455.44,
+   "e": 455.64
+  },
+  {
+   "w": "decide",
+   "s": 455.64,
+   "e": 455.92
+  },
+  {
+   "w": "whether",
+   "s": 455.92,
+   "e": 456.32
+  },
+  {
+   "w": "it",
+   "s": 456.32,
+   "e": 456.5
+  },
+  {
+   "w": "gets",
+   "s": 456.5,
+   "e": 456.64
+  },
+  {
+   "w": "a",
+   "s": 456.64,
+   "e": 456.82
+  },
+  {
+   "w": "second",
+   "s": 456.82,
+   "e": 457.1
+  },
+  {
+   "w": "life.",
+   "s": 457.1,
+   "e": 457.4
+  },
+  {
+   "w": "Subscribe",
+   "s": 458.56,
+   "e": 459.0
+  },
+  {
+   "w": "to",
+   "s": 459.0,
+   "e": 459.44
+  },
+  {
+   "w": "see",
+   "s": 459.44,
+   "e": 459.62
+  },
+  {
+   "w": "what",
+   "s": 459.62,
+   "e": 459.78
+  },
+  {
+   "w": "happens",
+   "s": 459.78,
+   "e": 460.08
+  },
+  {
+   "w": "next,",
+   "s": 460.08,
+   "e": 460.48
+  },
+  {
+   "w": "and",
+   "s": 460.5,
+   "e": 460.94
+  },
+  {
+   "w": "tell",
+   "s": 460.94,
+   "e": 461.14
+  },
+  {
+   "w": "us",
+   "s": 461.14,
+   "e": 461.3
+  },
+  {
+   "w": "in",
+   "s": 461.3,
+   "e": 461.42
+  },
+  {
+   "w": "the",
+   "s": 461.42,
+   "e": 461.52
+  },
+  {
+   "w": "comments,",
+   "s": 461.52,
+   "e": 461.8
+  },
+  {
+   "w": "should",
+   "s": 462.42,
+   "e": 462.62
+  },
+  {
+   "w": "we",
+   "s": 462.62,
+   "e": 462.74
+  },
+  {
+   "w": "save",
+   "s": 462.74,
+   "e": 462.96
+  },
+  {
+   "w": "Hubble?",
+   "s": 462.96,
+   "e": 463.18
+  }
+ ]
+}

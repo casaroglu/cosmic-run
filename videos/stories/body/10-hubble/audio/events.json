@@ -1,0 +1,416 @@
+{
+ "DUR": 474.676,
+ "CUE": {
+  "title": 453.683,
+  "end": 464.676,
+  "calls": 453.383
+ },
+ "chapters": [
+  [
+   "Why orbits decay",
+   33.471
+  ],
+  [
+   "Thirty-six years of Hubble",
+   98.695
+  ],
+  [
+   "The telescope that fell",
+   188.972
+  ],
+  [
+   "The deadline",
+   255.998
+  ],
+  [
+   "Three ways to go",
+   309.767
+  ],
+  [
+   "If Hubble falls",
+   355.647
+  ],
+  [
+   "Why we still need it",
+   401.067
+  ]
+ ],
+ "events": [
+  {
+   "kind": "tag",
+   "t": 4.94
+  },
+  {
+   "kind": "label",
+   "t": 12.56
+  },
+  {
+   "kind": "label",
+   "t": 15.74
+  },
+  {
+   "kind": "label",
+   "t": 22.029
+  },
+  {
+   "kind": "card",
+   "t": 31.421
+  },
+  {
+   "kind": "section",
+   "t": 34.671
+  },
+  {
+   "kind": "label",
+   "t": 35.495000000000005
+  },
+  {
+   "kind": "label",
+   "t": 42.38
+  },
+  {
+   "kind": "tag",
+   "t": 57.54
+  },
+  {
+   "kind": "icon",
+   "t": 67.1
+  },
+  {
+   "kind": "label",
+   "t": 68.929
+  },
+  {
+   "kind": "label",
+   "t": 72.3
+  },
+  {
+   "kind": "tag",
+   "t": 80.254
+  },
+  {
+   "kind": "label",
+   "t": 82.72
+  },
+  {
+   "kind": "label",
+   "t": 89.554
+  },
+  {
+   "kind": "card",
+   "t": 96.64500000000001
+  },
+  {
+   "kind": "icon",
+   "t": 99.695
+  },
+  {
+   "kind": "section",
+   "t": 99.895
+  },
+  {
+   "kind": "label",
+   "t": 100.751
+  },
+  {
+   "kind": "label",
+   "t": 101.28
+  },
+  {
+   "kind": "icon",
+   "t": 112.10000000000001
+  },
+  {
+   "kind": "icon",
+   "t": 113.216
+  },
+  {
+   "kind": "label",
+   "t": 113.32
+  },
+  {
+   "kind": "label",
+   "t": 119.14
+  },
+  {
+   "kind": "label",
+   "t": 125.259
+  },
+  {
+   "kind": "icon",
+   "t": 126.52
+  },
+  {
+   "kind": "icon",
+   "t": 131.645
+  },
+  {
+   "kind": "label",
+   "t": 133.526
+  },
+  {
+   "kind": "tag",
+   "t": 146.2
+  },
+  {
+   "kind": "label",
+   "t": 147.78
+  },
+  {
+   "kind": "icon",
+   "t": 155.977
+  },
+  {
+   "kind": "label",
+   "t": 155.977
+  },
+  {
+   "kind": "tag",
+   "t": 156
+  },
+  {
+   "kind": "icon",
+   "t": 177.421
+  },
+  {
+   "kind": "label",
+   "t": 178.5
+  },
+  {
+   "kind": "tag",
+   "t": 182.6
+  },
+  {
+   "kind": "card",
+   "t": 186.922
+  },
+  {
+   "kind": "icon",
+   "t": 189.972
+  },
+  {
+   "kind": "section",
+   "t": 190.172
+  },
+  {
+   "kind": "label",
+   "t": 191.62
+  },
+  {
+   "kind": "label",
+   "t": 202.203
+  },
+  {
+   "kind": "icon",
+   "t": 206.06
+  },
+  {
+   "kind": "tag",
+   "t": 215.84
+  },
+  {
+   "kind": "icon",
+   "t": 219.3
+  },
+  {
+   "kind": "label",
+   "t": 222.162
+  },
+  {
+   "kind": "icon",
+   "t": 226.88
+  },
+  {
+   "kind": "icon",
+   "t": 231.826
+  },
+  {
+   "kind": "label",
+   "t": 241.46
+  },
+  {
+   "kind": "label",
+   "t": 248.34
+  },
+  {
+   "kind": "card",
+   "t": 253.948
+  },
+  {
+   "kind": "section",
+   "t": 257.198
+  },
+  {
+   "kind": "icon",
+   "t": 259.68
+  },
+  {
+   "kind": "label",
+   "t": 259.98
+  },
+  {
+   "kind": "icon",
+   "t": 263.12
+  },
+  {
+   "kind": "tag",
+   "t": 271.54
+  },
+  {
+   "kind": "icon",
+   "t": 271.82
+  },
+  {
+   "kind": "icon",
+   "t": 273.522
+  },
+  {
+   "kind": "label",
+   "t": 273.6
+  },
+  {
+   "kind": "tag",
+   "t": 278.1
+  },
+  {
+   "kind": "label",
+   "t": 282.68
+  },
+  {
+   "kind": "icon",
+   "t": 284.557
+  },
+  {
+   "kind": "label",
+   "t": 288.88
+  },
+  {
+   "kind": "label",
+   "t": 298.76
+  },
+  {
+   "kind": "tag",
+   "t": 303.1
+  },
+  {
+   "kind": "card",
+   "t": 307.717
+  },
+  {
+   "kind": "section",
+   "t": 310.967
+  },
+  {
+   "kind": "label",
+   "t": 337.90000000000003
+  },
+  {
+   "kind": "label",
+   "t": 339.76
+  },
+  {
+   "kind": "icon",
+   "t": 342.981
+  },
+  {
+   "kind": "label",
+   "t": 343.78
+  },
+  {
+   "kind": "card",
+   "t": 353.597
+  },
+  {
+   "kind": "icon",
+   "t": 356.647
+  },
+  {
+   "kind": "section",
+   "t": 356.847
+  },
+  {
+   "kind": "label",
+   "t": 361.9
+  },
+  {
+   "kind": "label",
+   "t": 364.66
+  },
+  {
+   "kind": "tag",
+   "t": 371.12
+  },
+  {
+   "kind": "icon",
+   "t": 388.832
+  },
+  {
+   "kind": "label",
+   "t": 391.04
+  },
+  {
+   "kind": "label",
+   "t": 394.8
+  },
+  {
+   "kind": "label",
+   "t": 396.32
+  },
+  {
+   "kind": "card",
+   "t": 399.017
+  },
+  {
+   "kind": "section",
+   "t": 402.267
+  },
+  {
+   "kind": "icon",
+   "t": 403.339
+  },
+  {
+   "kind": "label",
+   "t": 403.9
+  },
+  {
+   "kind": "label",
+   "t": 411.58
+  },
+  {
+   "kind": "label",
+   "t": 418.76
+  },
+  {
+   "kind": "label",
+   "t": 421.78
+  },
+  {
+   "kind": "icon",
+   "t": 422.2
+  },
+  {
+   "kind": "icon",
+   "t": 434.16
+  },
+  {
+   "kind": "tag",
+   "t": 439.4
+  },
+  {
+   "kind": "section",
+   "t": 442.81699999999995
+  },
+  {
+   "kind": "label",
+   "t": 446.72
+  },
+  {
+   "kind": "sfx:title",
+   "t": 453.58299999999997
+  },
+  {
+   "kind": "icon",
+   "t": 458.78
+  }
+ ]
+}
