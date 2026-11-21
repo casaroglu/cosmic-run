@@ -27,7 +27,6 @@
   "url": "https://youtube.com/shorts/jvtBTTK1Aj4",
   "status": "scheduled, to be replaced",
   "order": 1,
-  "rework_pending": true,
   "note": "Text was cut off at the frame edges; on 21 Nov the YouTube schedule was moved to 31 Dec as a holding date. Once the reworked Short is cut: delete this upload, upload the new file in a fresh slot, and update url. jvtBTTK1Aj4 is also linked in the This Week Inside You welcome email and issue #1, so update both links on Beehiiv."
  },
  {
@@ -70,8 +69,7 @@
   "publish": "2026-11-24 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 4,
-  "rework_pending": true
+  "order": 4
  },
  {
   "ep": "05-xmas-dinner",
@@ -157,8 +155,7 @@
   "publish": "2026-11-27 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 10,
-  "rework_pending": true
+  "order": 10
  },
  {
   "ep": "07-alpha-gal",
@@ -258,8 +255,7 @@
   "publish": "2026-11-30 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 17,
-  "rework_pending": true
+  "order": 17
  },
  {
   "ep": "07-alpha-gal",
@@ -387,8 +383,7 @@
   "publish": "2026-12-05 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 26,
-  "rework_pending": true
+  "order": 26
  },
  {
   "ep": "13-xmas-heart",
@@ -665,8 +660,7 @@
   "publish": "2026-12-14 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 45,
-  "rework_pending": true
+  "order": 45
  },
  {
   "ep": "05-xmas-dinner",
@@ -907,8 +901,7 @@
   "publish": "2026-12-23 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 62,
-  "rework_pending": true
+  "order": 62
  },
  {
   "ep": "07-alpha-gal",
@@ -1036,8 +1029,7 @@
   "publish": "2026-12-27 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 71,
-  "rework_pending": true
+  "order": 71
  },
  {
   "ep": "07-alpha-gal",
@@ -1165,8 +1157,7 @@
   "publish": "2027-01-01 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 80,
-  "rework_pending": true
+  "order": 80
  },
  {
   "ep": "07-alpha-gal",
@@ -1265,8 +1256,7 @@
   "publish": "2027-01-04 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 87,
-  "rework_pending": true
+  "order": 87
  },
  {
   "ep": "07-alpha-gal",

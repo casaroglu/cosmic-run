@@ -4,6 +4,7 @@
 **Hook (cover):** 100 TRILLION GHOST PARTICLES
 **Format:** Q&A — Ava (`af_heart`) asks, Theo (`bm_fable`) answers; 1435 words, 22 questions, 8:32 with thumbnail intro and 10 s end screen. Publish before the Nobel ceremony (10 Dec 2026).
 **Thumbnail:** `thumb/thumbnail.jpg` (Gemini, from `thumb/style_ref.jpg` = our own frames). Overlap audit at 0.1 s: 0 issues.
+**Visual rework (2026-11-21/22):** pictures redrawn in the "interacting icons" style of ep 11+ (common.js cast/beats + icons2.js; neutrinos are little glowing ghosts that fly through, hit, morph and stream between 3–5 icons per line); script, voice and word timing unchanged, sound effects re-mixed, Shorts re-cut. Overlap audit at 0.1 s: ok.
 
 ## YouTube chapters
 0:00 Intro: what is passing through you right now?
