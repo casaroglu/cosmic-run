@@ -1,10 +1,12 @@
-# "One Minute of History": History Sketches newsletter
+# History Sketches Weekly (short format)
 
 **Rule:** as short as possible. Each item is one surprising line plus one video link. No intro and no essay. It should take 20 seconds to read.
 
 - Sent every Saturday, 17:00 TR (09:00 US Eastern), from "History Sketches". Saturday keeps it apart from the Sunday Inside Out Science issue.
-- Platform: Beehiiv recommended (free starter plan, referral program), as a separate publication from Inside Out Science. Sign-up, password and email verification are done by the user; Claude does the rest.
-- Once the list exists, add `Free Saturday email, 3 stories in 20 seconds: <link>` to Short descriptions (`videos/stories/youtube_shorts_queue.json` flow) and the channel links.
+- **Live on Beehiiv** (free plan): publication "History Sketches Weekly". Sign-up page: https://historysketches.beehiiv.com/subscribe
+- Done on 21 Nov 2026: one-line description, short welcome email (PDF guide + first Short) published, Issue #1 scheduled for Sat 28 Nov 17:00 TR, sign-up line added to the 25 `todo` Short descriptions in `videos/stories/youtube_shorts_queue.json`.
+- The longer kit in `newsletter/` (issues 01–04, PDF guide) is reference material; issues now use the short template below.
+- Sign-up line `Free Saturday email, 3 stories in 20 seconds: https://historysketches.beehiiv.com/subscribe` goes to Short descriptions (`videos/stories/youtube_shorts_queue.json` flow) and the channel links.
 
 ## Template (every issue)
 
