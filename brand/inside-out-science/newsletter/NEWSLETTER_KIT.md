@@ -40,7 +40,7 @@ Every Sunday: 3 facts like this, 20 seconds.
 Subject: A tick bite can make you allergic to meat
 Preview: 3 facts. 20 seconds.
 
-1. A tick bite can make you allergic to red meat. → https://youtu.be/KdyR_yzHWGg
+1. A tick bite can make you allergic to red meat. → https://youtu.be/4NfbKgvcXCg
 2. 100 trillion ghost particles pass through you every second. → https://youtube.com/shorts/jvtBTTK1Aj4
 3. In one US region, strokes in adults aged 20 to 54 nearly doubled in 30 years. → https://youtu.be/I7KHF1YCZic
 
