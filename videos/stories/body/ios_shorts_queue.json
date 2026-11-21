@@ -83,8 +83,7 @@
   "publish": "2026-11-24 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 5,
-  "rework_pending": true
+  "order": 5
  },
  {
   "ep": "10-hubble",
@@ -406,8 +405,7 @@
   "publish": "2026-12-06 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 28,
-  "rework_pending": true
+  "order": 28
  },
  {
   "ep": "07-alpha-gal",
@@ -435,8 +433,7 @@
   "publish": "2026-12-07 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 30,
-  "rework_pending": true
+  "order": 30
  },
  {
   "ep": "14-winter-sick",
@@ -464,8 +461,7 @@
   "publish": "2026-12-08 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 32,
-  "rework_pending": true
+  "order": 32
  },
  {
   "ep": "10-hubble",
@@ -493,8 +489,7 @@
   "publish": "2026-12-09 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 34,
-  "rework_pending": true
+  "order": 34
  },
  {
   "ep": "09-lpa",
@@ -522,8 +517,7 @@
   "publish": "2026-12-10 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 36,
-  "rework_pending": true
+  "order": 36
  },
  {
   "ep": "04-dino-blood",
@@ -551,8 +545,7 @@
   "publish": "2026-12-11 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 38,
-  "rework_pending": true
+  "order": 38
  },
  {
   "ep": "12-napping",
@@ -580,8 +573,7 @@
   "publish": "2026-12-12 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 40,
-  "rework_pending": true
+  "order": 40
  },
  {
   "ep": "11-measles-amnesia",
@@ -609,8 +601,7 @@
   "publish": "2026-12-13 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 42,
-  "rework_pending": true
+  "order": 42
  },
  {
   "ep": "08-young-strokes",
@@ -638,8 +629,7 @@
   "publish": "2026-12-14 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 44,
-  "rework_pending": true
+  "order": 44
  },
  {
   "ep": "06-ghost-particles",
@@ -667,8 +657,7 @@
   "publish": "2026-12-15 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 46,
-  "rework_pending": true
+  "order": 46
  },
  {
   "ep": "13-xmas-heart",
