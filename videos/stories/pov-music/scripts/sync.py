@@ -63,8 +63,16 @@ hw = [w for seg in res["segments"] for w in seg.get("words", [])]
 print("whisper:", " ".join(w["word"].strip() for w in hw))
 
 # hyphenated lyric words ("loop-de-loop") may come back as several whisper words: compare on a flat token list
+DIGITS = "oh one two three four five six seven eight nine".split()
+
 def toks(w):
-    return [t for t in re.split(r"[-\s]+", norm(w)) if t] or [norm(w)]
+    out = []
+    for t in (norm(x) for x in re.split(r"[-\s]+", w)):   # split hyphens before norm() strips them
+        if t.isdigit() and len(t) <= 4:   # whisper writes "Room 201" for a sung "two-oh-one"
+            out += [DIGITS[int(c)] for c in t]
+        elif t:
+            out.append(t)
+    return out or [norm(w)]
 
 L_tok, L_own = [], []
 for i, w in enumerate(words):

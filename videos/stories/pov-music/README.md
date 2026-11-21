@@ -51,6 +51,17 @@ Not every video has to be a coaster. `track.mode: "sled"` turns the same engine 
 formats on the same timing system: a hallway where doors open on each noun, a football pitch where
 opponents run at you, a side-scrolling walk where characters enter from left/right.
 
+### proto_04 "Hotel Knock Knock": hallway of doors (`track.mode: "hallway"`, `world: "hotel"`)
+Electro-swing house, 124 BPM. A closed-loop hotel corridor (carpet, striped wallpaper, ceiling lamps
+and door sconces that pulse with the kick). Every verse line names a room ("Room one-oh-one,
+there's a llama in a suit"). That door, with the sung number on its plate, swings open just before
+the word, the character steps out to the threshold, and the camera turns gently to look in, then
+back down the hall. On "Knock knock, who's there?" every door nearby flaps open on each kick and the
+rooms flash (`doorParty`). Rooms: llama in a suit, seven cats with flutes, ghost baking bread,
+cactus doing yoga on a bed, grandpa on a trampoline, shark in a submarine, dino with a cake, disco room.
+Lesson: an `[Intro]` tag plus a tight duration made ACE-Step drop verse 1 in all three takes. Start
+the lyrics straight on the verse and give ~10% more duration than the video needs.
+
 Song picking: generate 2–4 seeds and keep the one where Whisper matches most lyric tokens. Seeds
 regularly drop a verse, sing "ah ah" for half the song or skip chorus lines (see `picked` in each
 `song.json`). The medium Whisper model sometimes skips a 15 s stretch of a song; `"whisper":

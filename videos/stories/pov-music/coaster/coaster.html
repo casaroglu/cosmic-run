@@ -34,6 +34,16 @@ function vnoise(x, z) { // cheap smooth value noise
 // [x, y, z, hint] ; hint = up-vector hint (default world up). Loop points get "towards centre".
 function trackPoints(V = {}) {
   const pts = [], mx = V.mirror ? -1 : 1;
+  if (V.mode === 'hallway') { // rounded-rectangle hotel corridor, flat floor at y = 0
+    const A = V.lx || 56, Bz = V.lz || 30, r = 5, P = [];
+    const seg = (x0, z0, x1, z1) => { const n = Math.max(2, Math.round(Math.hypot(x1 - x0, z1 - z0) / 4)); for (let k = 0; k < n; k++) P.push([x0 + (x1 - x0) * k / n, z0 + (z1 - z0) * k / n]); };
+    const arc = (cx, cz, a0) => { for (let k = 0; k < 4; k++) { const a = a0 + k / 4 * Math.PI / 2; P.push([cx + r * Math.cos(a), cz + r * Math.sin(a)]); } };
+    const hx = A / 2, hz = Bz / 2;
+    seg(-hx + r, -hz, hx - r, -hz); arc(hx - r, -hz + r, -Math.PI / 2); seg(hx, -hz + r, hx, hz - r); arc(hx - r, hz - r, 0);
+    seg(hx - r, hz, -hx + r, hz); arc(-hx + r, hz - r, Math.PI / 2); seg(-hx, hz - r, -hx, -hz + r); arc(-hx + r, -hz + r, Math.PI);
+    P.forEach(([x, z]) => pts.push({ p: new THREE.Vector3(x * mx, 0, z), h: new THREE.Vector3(0, 1, 0) }));
+    return pts;
+  }
   if (V.mode === 'sled') { // wobbly closed trail over rolling snow hills
     const n = 30, R = V.radius || 95, ph = V.phase || 0.7;
     for (let k = 0; k < n; k++) {
@@ -82,6 +92,8 @@ function buildTrack(V) {
     pos.forEach((p, i) => tan[i].copy(pos[(i + 1) % N]).sub(pos[(i - 1 + N) % N]).normalize());
     crest = -1; hmax = Math.max(...pos.map(p => p.y));
     v = pos.map((p, i) => clamp(10.5 - tan[i].y * 14, 7, 14));
+  } else if (V.mode === 'hallway') {
+    pos.forEach(p => { p.y = 0; }); crest = -1; hmax = 0; v = pos.map(() => 2.8);
   } else {
     for (let i = 0; i < N * 0.3; i++) if (pos[i].y > hmax) { hmax = pos[i].y; crest = i; }
     // physics speed (lift = constant), then auto-banking from horizontal curvature
@@ -93,7 +105,7 @@ function buildTrack(V) {
     const ha = Math.atan2(a.x, a.z), hb = Math.atan2(b.x, b.z);
     let d = hb - ha; d = Math.atan2(Math.sin(d), Math.cos(d));
     const kappa = d / (16 * ds), flat = Math.pow(clamp(hint[i].y), 6);
-    bankRaw[i] = clamp(Math.atan(v[i] * v[i] * kappa / 9.81) * 0.6, -0.9, 0.9) * flat;
+    bankRaw[i] = V.mode === 'hallway' ? 0 : clamp(Math.atan(v[i] * v[i] * kappa / 9.81) * 0.6, -0.9, 0.9) * flat;
   }
   const bank = new Float32Array(N), K = 40;
   for (let i = 0; i < N; i++) { let s = 0; for (let j = -K; j <= K; j++) s += bankRaw[(i + j + N) % N]; bank[i] = s / (2 * K + 1); }
@@ -180,6 +192,7 @@ function trackCentre() { const c = new THREE.Vector3(); track.pos.forEach(p => c
 function buildWorld(pal, world) {
   scene = new THREE.Scene();
   scene.fog = new THREE.Fog(pal.fog, pal.fogNear || 120, pal.fogFar || 900);
+  if (world === 'hotel') { buildHotel(pal); return; }
   const C0 = trackCentre(), night = world === 'city_night';
   // sky dome (+ stars at night)
   const sky = new THREE.Mesh(new THREE.SphereGeometry(1500, 32, 16), new THREE.ShaderMaterial({
@@ -261,6 +274,103 @@ function buildWorld(pal, world) {
   if (world === 'snow') buildSnowfall();
   if (MODE === 'sled') { sledTrail(pal); railLights(pal, 2.6, 1.9, 7, true); }
   else { scene.add(trackMesh(track, pal)); railLights(pal); }
+}
+
+// ---------- hotel corridor ----------
+let DOORS = [], PARTY = 0;
+function patternTexture(draw, w = 128, h = 128, rx = 1, ry = 1) {
+  const cv = document.createElement('canvas'); cv.width = w; cv.height = h; draw(cv.getContext('2d'), w, h);
+  const t = new THREE.CanvasTexture(cv); t.colorSpace = THREE.SRGBColorSpace; t.wrapS = t.wrapT = THREE.RepeatWrapping; t.repeat.set(rx, ry); return t;
+}
+function plateTexture(num) { return textTexture(String(num), '#ffd98a', '#2a1a0e', 256, 110); }
+function stripMesh(fn, i0, i1, step, mat, uScale = 1) { // quads along the track: fn(i) -> [bottomVec, topVec]
+  const P = [], U = [], I = []; let k = 0;
+  for (let i = i0; i <= i1; i += step) {
+    const [a, b] = fn(i % track.N), u = i * track.ds / uScale;
+    P.push(a.x, a.y, a.z, b.x, b.y, b.z); U.push(u, 0, u, 1);
+    if (k) { const o = (k - 1) * 2; I.push(o, o + 2, o + 1, o + 1, o + 2, o + 3); } k++;
+  }
+  const g = new THREE.BufferGeometry(); g.setAttribute('position', new THREE.Float32BufferAttribute(P, 3)); g.setAttribute('uv', new THREE.Float32BufferAttribute(U, 2)); g.setIndex(I); g.computeVertexNormals();
+  return new THREE.Mesh(g, mat);
+}
+function buildHotel(pal) {
+  const N = track.N, HW = 1.8, HT = 3.1, DW = 1.6, DH = 2.5;
+  scene.background = new THREE.Color(pal.fog); scene.fog = new THREE.Fog(pal.fog, 8, 70);
+  scene.add(new THREE.HemisphereLight(0xfff2dd, 0x553322, 1.5)); scene.add(new THREE.AmbientLight(0xffffff, 0.35));
+  // doors: alternate sides every ~4.6 m on the straights
+  let curv = i => { const a = track.tan[(i - 12 + N) % N], b = track.tan[(i + 12) % N]; return a.dot(b); };
+  const every = Math.round(5.2 / track.ds), half = Math.round(DW / 2 / track.ds) + 1;
+  DOORS = [];
+  for (let i = 0, k = 0; i < N; i += every, k++) {
+    if (curv(i) < 0.995 || curv((i + half) % N) < 0.995 || curv((i - half + N) % N) < 0.995) continue;
+    DOORS.push({ i, side: k % 2 ? 1 : -1, num: (k % 2 ? 101 : 102) + 2 * Math.floor(k / 2) + (k > 30 ? 100 : 0) });
+  }
+  const isDoor = (i, side) => DOORS.some(d => d.side === side && Math.abs(((i - d.i + N + N / 2) % N) - N / 2) * track.ds < DW / 2);
+  // floor, ceiling, walls (with door openings)
+  const carpet = patternTexture((x, w, h) => { x.fillStyle = pal.carpet; x.fillRect(0, 0, w, h); x.strokeStyle = pal.carpet2; x.lineWidth = 6;
+    for (const o of [0, w]) { x.beginPath(); x.moveTo(o - w / 2, h / 2); x.lineTo(o, 0); x.lineTo(o + w / 2, h / 2); x.lineTo(o, h); x.closePath(); x.stroke(); } }, 128, 128);
+  const at = (i, side, off, y) => track.pos[i].clone().addScaledVector(track.side[i], side * off).setY(y);
+  scene.add(stripMesh(i => [at(i, -1, HW, 0.001), at(i, 1, HW, 0.001)], 0, N, 2, new THREE.MeshLambertMaterial({ map: carpet, side: THREE.DoubleSide }), 1.8));
+  scene.add(stripMesh(i => [at(i, -1, HW, HT), at(i, 1, HW, HT)], 0, N, 4, new THREE.MeshLambertMaterial({ color: pal.ceiling, side: THREE.DoubleSide })));
+  const paper = patternTexture((x, w, h) => { x.fillStyle = pal.wall; x.fillRect(0, 0, w, h); x.fillStyle = pal.wall2; for (let k = 0; k < 4; k++) x.fillRect(k * 32 + 8, 0, 10, h);
+    x.fillStyle = pal.trim; x.fillRect(0, h * 0.78, w, h * 0.04); }, 128, 128);
+  const wallM = new THREE.MeshLambertMaterial({ map: paper, side: THREE.DoubleSide });
+  for (const side of [-1, 1]) {
+    let run = null;
+    const flush = end => { if (run !== null) { scene.add(stripMesh(i => [at(i, side, HW, 0), at(i, side, HW, HT)], run, end, 2, wallM, 1.2)); run = null; } };
+    for (let i = 0; i <= N; i += 2) { const d = isDoor(i % N, side); if (!d && run === null) run = i; if (d) flush(i); }
+    flush(N);
+    DOORS.filter(d => d.side === side).forEach(d => { const a = d.i - half, b = d.i + half; scene.add(stripMesh(i => [at((i + N) % N, side, HW, DH), at((i + N) % N, side, HW, HT)], a, b, 1, wallM, 1.2)); });
+  }
+  // doors, frames, plates, rooms
+  const wood = new THREE.MeshStandardMaterial({ color: pal.door, roughness: 0.5 }), frameM = new THREE.MeshStandardMaterial({ color: pal.trim, roughness: 0.4 });
+  const gold = new THREE.MeshStandardMaterial({ color: 0xffcc55, metalness: 0.9, roughness: 0.25 }), m = new THREE.Matrix4();
+  DOORS.forEach((d, n) => {
+    const i = d.i, out = track.side[i].clone().multiplyScalar(d.side), T = track.tan[i];
+    const base = new THREE.Group(); m.makeBasis(T.clone().multiplyScalar(-d.side), new THREE.Vector3(0, 1, 0), out.clone().negate()); base.applyMatrix4(m);
+    base.position.copy(track.pos[i]).addScaledVector(out, HW); base.position.y = 0; scene.add(base);   // local +z points into the corridor
+    for (const x of [-DW / 2 - 0.06, DW / 2 + 0.06]) { const p = new THREE.Mesh(new THREE.BoxGeometry(0.12, DH + 0.1, 0.12), frameM); p.position.set(x, DH / 2, 0.03); base.add(p); }
+    const top = new THREE.Mesh(new THREE.BoxGeometry(DW + 0.36, 0.14, 0.14), frameM); top.position.set(0, DH + 0.07, 0.03); base.add(top);
+    const hinge = new THREE.Group(); hinge.position.set(-DW / 2, 0, -0.02); base.add(hinge);
+    const panel = new THREE.Mesh(new THREE.BoxGeometry(DW, DH, 0.06), wood); panel.position.set(DW / 2, DH / 2, 0); hinge.add(panel);
+    for (const y of [0.7, 1.65]) { const inset = new THREE.Mesh(new THREE.BoxGeometry(DW * 0.7, 0.7, 0.02), new THREE.MeshStandardMaterial({ color: new THREE.Color(pal.door).multiplyScalar(0.8) })); inset.position.set(DW / 2, y, 0.04); hinge.add(inset); }
+    const knob = new THREE.Mesh(new THREE.SphereGeometry(0.05, 10, 8), gold); knob.position.set(DW - 0.15, 1.05, 0.07); hinge.add(knob);
+    const plateM = new THREE.MeshBasicMaterial({ map: plateTexture(d.num) });
+    const plate = new THREE.Mesh(new THREE.PlaneGeometry(0.55, 0.24), plateM); plate.position.set(0, DH + 0.32, 0.03); base.add(plate);
+    const roomC = new THREE.Color(pal.rooms[n % pal.rooms.length]);
+    const roomM = new THREE.MeshLambertMaterial({ color: roomC, emissive: roomC.clone(), emissiveIntensity: 0.05, side: THREE.BackSide });
+    const room = new THREE.Mesh(new THREE.BoxGeometry(3.4, 3.0, 3.6), roomM); room.position.set(0, 1.5, -1.85); base.add(room);
+    // sconce next to each door: pulses with the kick
+    const sc = new THREE.Mesh(new THREE.SphereGeometry(0.11, 10, 8), new THREE.MeshBasicMaterial({ color: 0xffd08a })); sc.position.set(DW / 2 + 0.45, 1.95, 0.12); base.add(sc);
+    PULSE.push({ mat: sc.material, col: new THREE.Color(0xffd08a), base: 0.55, amp: 0.6 });
+    Object.assign(d, { base, hinge, plateM, roomM, roomC, open: null, used: false });
+  });
+  // ceiling lamps
+  const lampM = new THREE.MeshBasicMaterial({ color: 0xfff1d0 }), step = Math.round(4 / track.ds), lg = new THREE.BoxGeometry(0.7, 0.06, 0.7);
+  const LI = new THREE.InstancedMesh(lg, lampM, Math.ceil(N / step));
+  for (let i = 0, k = 0; i < N; i += step, k++) { const p = track.pos[i]; m.makeTranslation(p.x, HT - 0.04, p.z); LI.setMatrixAt(k, m); }
+  scene.add(LI); PULSE.push({ mat: lampM, col: new THREE.Color(0xfff1d0), base: 0.7, amp: 0.35 });
+  scene.updateMatrixWorld(true);
+}
+function assignDoor(sTarget, sideWanted) {
+  let best = null, bd = 1e9;
+  for (const d of DOORS) {
+    if (d.used || (sideWanted && d.side !== sideWanted)) continue;
+    let di = (d.i - (sTarget % track.N) + track.N) % track.N; if (di > track.N / 2) di -= track.N;
+    const dist = Math.abs(di); if (dist < bd) { bd = dist; best = d; }
+  }
+  if (best) best.used = true; return best;
+}
+function updateDoors(t) {
+  const s = sAt(t), N = track.N;
+  for (const d of DOORS) {
+    let a = 0;
+    if (d.open !== null) a = 1.75 * clamp(backOut((t - d.open) / 0.55));
+    else if (PARTY > 0) { let di = (d.i - (s % N) + N) % N; if (di * track.ds < 35) a = (0.15 + 0.95 * KICK) * PARTY; }
+    d.hinge.rotation.y = a;
+    const lit = d.open !== null ? clamp((t - d.open) / 0.4) : PARTY * KICK * 0.8;
+    d.roomM.emissiveIntensity = 0.05 + 0.55 * lit;
+  }
 }
 
 function windowTexture(lit) {
@@ -361,6 +471,7 @@ function railLights(pal, sideOff = 0.85, upOff = -0.05, every = 4, poles = false
 
 function buildCart(pal) { // front of the car, attached to the camera
   const g = new THREE.Group();
+  if (MODE === 'hallway') return g;
   if (MODE === 'sled') {
     const wood = new THREE.MeshStandardMaterial({ color: pal.cart, roughness: 0.6 });
     const board = new THREE.Mesh(new THREE.BoxGeometry(0.8, 0.06, 0.7), wood); board.position.set(0, -1.05, -1.9); g.add(board);
@@ -436,10 +547,18 @@ function placeProps() {
   (TL.props || []).forEach((P, n) => {
     const t0 = P.t, sideSign = P.side === 'left' ? -1 : P.side === 'right' ? 1 : (n % 2 ? 1 : -1);
     if (P.type === 'neon' || P.type === 'avalanche') { PROPS.push({ P, t0, kind: P.type, init: P.type === 'avalanche' ? avalanche(t0) : null }); return; }
+    if (P.type === 'doorParty') { PROPS.push({ P: { dur: 7, ...P }, t0, kind: 'party' }); return; }
     const b = BUILDERS[P.type](...(P.args || []));
     if (!b.pieces && !b.track) { const inner = b.obj; b.obj = new THREE.Group(); b.obj.add(inner); }
     const vAt = (sAt(t0 + 0.5) - sAt(t0 - 0.5)) * track.ds, AHEAD = P.ahead ?? clamp(vAt * 1.2, 15, 32);
     const rec = { P, t0, b, kind: 'static', scale: P.scale ?? 1.6, appear: P.appear ?? 2.5, sideSign };
+    if (MODE === 'hallway') {
+      const d = assignDoor(sAt(t0) + (P.ahead ?? 4.2) / track.ds, P.side === 'left' ? -1 : P.side === 'right' ? 1 : null);
+      d.open = t0 - (P.openEarly ?? 0.7); if (P.room) d.plateM.map = plateTexture(P.room);
+      b.obj.position.set(0.15 * d.side, 0, -1.6); b.obj.rotation.y = 0.45 * d.side; d.base.add(b.obj);
+      Object.assign(rec, { kind: 'room', door: d, scale: P.scale ?? 0.75, appear: 1.2 });
+      PROPS.push(rec); return;
+    }
     if (b.pieces) { // laid along the track, e.g. a tunnel of noodles
       const s0 = sAt(t0) + (P.ahead ?? 6) / track.ds, m = new THREE.Matrix4();
       b.pieces.forEach(pc => {
@@ -501,10 +620,11 @@ function avalanche(t0) {
   return bits;
 }
 function updateProps(t) {
-  NEON = 0;
+  NEON = 0; PARTY = 0;
   for (const r of PROPS) {
     const dt = t - r.t0;
     if (r.kind === 'neon') { if (dt > 0 && dt < 4) NEON = Math.max(NEON, 1 - dt / 4); continue; }
+    if (r.kind === 'party') { if (dt > 0 && dt < r.P.dur) PARTY = Math.max(PARTY, Math.min(1, dt / 0.3, (r.P.dur - dt) / 0.5)); continue; }
     if (r.kind === 'avalanche') {
       for (const m of r.init) {
         const u = m.userData, tt = dt + 0.6 - u.delay;
@@ -519,6 +639,7 @@ function updateProps(t) {
     if (r.emerge) { const k = backOut((dt + 1.1) / 0.55); r.b.obj.position.lerpVectors(r.emerge.from, r.emerge.to, Math.max(0, k)); r.b.obj.position.y = groundH(r.b.obj.position.x, r.b.obj.position.z); }
     if (r.kind === 'pieces') r.b.pieces.forEach(pc => { pc.hold.visible = vis; pc.obj.scale.setScalar(Math.max(0.01, pop)); });
     else { r.b.obj.visible = vis; if (r.kind !== 'arch') r.b.obj.scale.setScalar(Math.max(0.01, r.scale * pop)); }
+    if (r.kind === 'room') { const k = backOut((dt + 0.45) / 0.5); r.b.obj.position.z = -1.6 + (r.P.step ?? 1.75) * Math.max(0, k); }
     if (r.kind === 'ride' && vis) {
       const tt = clamp(t, r.t0 - 1.5, r.t0 + (r.P.hold ?? 3)), F = frameAt(sAt(tt));
       const lag = t > r.t0 + (r.P.hold ?? 3) ? 0 : 0.6 * Math.sin((t - r.t0) * 1.3);
@@ -528,6 +649,7 @@ function updateProps(t) {
     }
     if (vis) r.b.update(dt, KICK);
   }
+  if (MODE === 'hallway') updateDoors(t);
   for (const L of PULSE) {
     const k = L.base + L.amp * KICK + (L.neon ? NEON * 0.4 : 0);
     if (L.col) L.mat.color.copy(L.col).multiplyScalar(k); else L.mat.color.setScalar(Math.min(1.2, k));
@@ -539,10 +661,16 @@ function drawFrame(t) {
   const look = sample(track.pos, s + 7 / track.ds), lup = sample(track.up, s + 7 / track.ds).normalize();
   const si = Math.floor(s) % track.N, speed = (si >= START && si <= track.crest) ? 4 : track.v[si];
   KICK = beatPulse(t, TL.beats, 9);   // the kick drum drives the lights, never the camera
-  camera.position.copy(p).addScaledVector(up, MODE === 'sled' ? 1.15 : 1.45);
+  camera.position.copy(p).addScaledVector(up, MODE === 'sled' ? 1.15 : MODE === 'hallway' ? 1.6 : 1.45);
   camera.up.copy(up.clone().lerp(lup, 0.3).normalize());
-  camera.lookAt(look.addScaledVector(lup, 1.1));
-  camera.fov = 92 + Math.min(8, speed * 0.2);
+  look.addScaledVector(lup, MODE === 'hallway' ? 1.45 : 1.1);
+  if (MODE === 'hallway') {
+    let w = 0, tgt = null;
+    for (const r of PROPS) if (r.kind === 'room') { const dt = t - r.t0, k = dt < 0 ? clamp(1 + dt / 1.3) : clamp(1 - (dt - 0.6) / 1.2); if (k > w) { w = k; tgt = r.door; } }
+    if (tgt) { const c = new THREE.Vector3(0, 1.3, 0.2).applyMatrix4(tgt.base.matrixWorld); look.lerp(c, 0.8 * w * w * (3 - 2 * w)); }
+  }
+  camera.lookAt(look);
+  camera.fov = MODE === 'hallway' ? 88 : 92 + Math.min(8, speed * 0.2);
   camera.updateProjectionMatrix();
   updateProps(t); updateSnow(t);
   renderer.render(scene, camera);
