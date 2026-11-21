@@ -12,7 +12,6 @@
   "url": "https://youtube.com/shorts/YQMw23k8R54",
   "status": "scheduled, to be replaced",
   "order": 0,
-  "rework_pending": true,
   "note": "Text was cut off at the frame edges; on 21 Nov the YouTube schedule was moved to 31 Dec as a holding date. Once the reworked Short is cut: delete this upload, upload the new file in a fresh slot, and update url. jvtBTTK1Aj4 is also linked in the This Week Inside You welcome email and issue #1, so update both links on Beehiiv."
  },
  {
@@ -57,8 +56,7 @@
   "publish": "2026-11-23 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 3,
-  "rework_pending": true
+  "order": 3
  },
  {
   "ep": "06-ghost-particles",
@@ -131,8 +129,7 @@
   "publish": "2026-11-26 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 8,
-  "rework_pending": true
+  "order": 8
  },
  {
   "ep": "08-young-strokes",
@@ -219,8 +216,7 @@
   "publish": "2026-11-29 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 14,
-  "rework_pending": true
+  "order": 14
  },
  {
   "ep": "11-measles-amnesia",
@@ -335,8 +331,7 @@
   "publish": "2026-12-03 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 22,
-  "rework_pending": true
+  "order": 22
  },
  {
   "ep": "12-napping",
@@ -554,8 +549,7 @@
   "publish": "2026-12-10 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 37,
-  "rework_pending": true
+  "order": 37
  },
  {
   "ep": "05-xmas-dinner",
@@ -815,8 +809,7 @@
   "publish": "2026-12-19 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 55,
-  "rework_pending": true
+  "order": 55
  },
  {
   "ep": "13-xmas-heart",
@@ -987,8 +980,7 @@
   "publish": "2026-12-25 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 67,
-  "rework_pending": true
+  "order": 67
  },
  {
   "ep": "12-napping",
@@ -1117,8 +1109,7 @@
   "publish": "2026-12-30 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 76,
-  "rework_pending": true
+  "order": 76
  },
  {
   "ep": "12-napping",
@@ -1218,8 +1209,7 @@
   "publish": "2027-01-02 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 83,
-  "rework_pending": true
+  "order": 83
  },
  {
   "ep": "12-napping",
@@ -1319,8 +1309,7 @@
   "publish": "2027-01-06 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 90,
-  "rework_pending": true
+  "order": 90
  },
  {
   "ep": "12-napping",
