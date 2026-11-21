@@ -1,0 +1,72 @@
+{
+  "slug": "07-molasses-flood",
+  "title": "A wave of molasses killed 21 people in Boston",
+  "hook_text": "KILLED BY MOLASSES",
+  "cover_hook": "DEATH BY MOLASSES",
+  "beats": [
+    {
+      "t": "0-1.5",
+      "speaker": "a",
+      "text": "In 1919, a wave of molasses killed 21 people in Boston.",
+      "visual": "Brown wave sweeps down a sketched Boston street toward camera"
+    },
+    {
+      "t": "1.5-4",
+      "speaker": "a",
+      "text": "On January 15, 1919, in Boston's North End.",
+      "visual": "Sketch map of the North End; pin on Commercial Street by the harbour"
+    },
+    {
+      "t": "4-5.5",
+      "speaker": "q",
+      "text": "Why was there so much molasses?",
+      "visual": "Ava icon; giant tank silhouette"
+    },
+    {
+      "t": "5.5-12",
+      "speaker": "a",
+      "text": "A 50-foot tank held over two million gallons. But there was a problem: it leaked, and they painted it brown.",
+      "visual": "PD photo of the North End molasses tank; drips; brush paints over them in brown"
+    },
+    {
+      "t": "12-13.5",
+      "speaker": "q",
+      "text": "Then what?",
+      "visual": "Ava icon"
+    },
+    {
+      "t": "13.5-24",
+      "speaker": "a",
+      "text": "It burst. A wave, reportedly 25 feet high, raced out at about 35 miles an hour.",
+      "visual": "Tank splits; speed card '35 mph'; PD photo of the wrecked elevated railway"
+    },
+    {
+      "t": "24-25.5",
+      "speaker": "q",
+      "text": "Why couldn't people escape?",
+      "visual": "Ava icon"
+    },
+    {
+      "t": "25.5-34",
+      "speaker": "a",
+      "text": "The cold. Cooling molasses thickened, trapping people. 21 died, about 150 hurt.",
+      "visual": "PD wreckage photo; thermometer drops; counters 21 and 150"
+    },
+    {
+      "t": "34-38",
+      "speaker": "a",
+      "text": "Boston then required engineers to sign off on plans. The smell reportedly lingered for decades.",
+      "visual": "Stamped blueprint 'ENGINEER SIGNED'; faint smell lines over the modern North End"
+    },
+    {
+      "t": "38-40",
+      "speaker": "a",
+      "text": "21 lives, lost to molasses. Follow History Sketches for one wild true story every day.",
+      "visual": "Wave freezes into syrup; History Sketches corner logo"
+    }
+  ],
+  "cta": "Follow History Sketches for one wild true story every day.",
+  "word_count": 109,
+  "est_seconds": 41,
+  "description": "On January 15, 1919, a leaking 50-foot tank of molasses burst in Boston's North End, sending a sticky wave through the streets that killed 21 people. The disaster changed how Boston approved construction. Narration: synthetic voices. Facts checked against two sources. #history #shorts #boston #strangehistory"
+}

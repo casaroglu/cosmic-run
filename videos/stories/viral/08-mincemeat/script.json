@@ -1,0 +1,72 @@
+{
+  "slug": "08-mincemeat",
+  "title": "A dead man fooled Hitler",
+  "hook_text": "A DEAD MAN FOOLED HITLER",
+  "cover_hook": "CORPSE FOOLED HITLER",
+  "beats": [
+    {
+      "t": "0-1.5",
+      "speaker": "a",
+      "text": "In 1943, a dead man fooled Hitler.",
+      "visual": "A coffin-shaped briefcase drifts toward camera on sketched waves; Hitler silhouette turns to look"
+    },
+    {
+      "t": "1.5-4",
+      "speaker": "a",
+      "text": "Britain needed Germany to ignore Sicily.",
+      "visual": "Sketch map of the Mediterranean; Sicily glows, a big arrow is hidden under a sheet"
+    },
+    {
+      "t": "4-6",
+      "speaker": "q",
+      "text": "Whose body did they use?",
+      "visual": "Ava icon; question mark over a mortuary tag"
+    },
+    {
+      "t": "6-12",
+      "speaker": "a",
+      "text": "Glyndwr Michael, a homeless Welshman killed by rat poison, renamed Major William Martin. But there was a problem.",
+      "visual": "PD 1943 photo of Glyndwr Michael slides in from the edge; ID card 'Major W. Martin, Royal Marines' stamps over it"
+    },
+    {
+      "t": "12-14",
+      "speaker": "q",
+      "text": "How do you fake an officer?",
+      "visual": "Ava icon; raised eyebrow"
+    },
+    {
+      "t": "14-24",
+      "speaker": "a",
+      "text": "With props: a fiancée's photo, theatre tickets, a ring receipt. A submarine released him off Spain, carrying a letter pointing at Greece.",
+      "visual": "Pocket items pop out one by one; PD photo of HMS Seraph officers; sketch map pin at Huelva; letter with arrow to Greece"
+    },
+    {
+      "t": "24-26",
+      "speaker": "q",
+      "text": "Did Hitler buy it?",
+      "visual": "Ava icon"
+    },
+    {
+      "t": "26-34",
+      "speaker": "a",
+      "text": "Exactly. German agents copied the letter. Hitler sent tanks to Greece. In July 1943, the Allies hit Sicily.",
+      "visual": "Letter photocopied by a sketched spy; tank token slides France to Greece on map; landing arrows hit Sicily"
+    },
+    {
+      "t": "34-38",
+      "speaker": "a",
+      "text": "His Huelva grave now bears his real name.",
+      "visual": "Sketch of the Huelva headstone; second line of text writes itself in"
+    },
+    {
+      "t": "38-40",
+      "speaker": "a",
+      "text": "A dead nobody fooled Hitler. Follow History Sketches for one wild true story every day.",
+      "visual": "Briefcase snaps shut; History Sketches corner logo"
+    }
+  ],
+  "cta": "Follow History Sketches for one wild true story every day.",
+  "word_count": 110,
+  "est_seconds": 42,
+  "description": "In 1943 British intelligence dressed the body of Glyndwr Michael, a homeless Welshman, as a fake Royal Marines officer and let it wash up in Spain carrying false invasion plans. Hitler moved troops to Greece; the Allies landed on Sicily. Narration: synthetic voices. Facts checked against two sources. #history #shorts #ww2 #operationmincemeat"
+}

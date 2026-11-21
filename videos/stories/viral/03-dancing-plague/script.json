@@ -1,0 +1,72 @@
+{
+  "slug": "03-dancing-plague",
+  "title": "In 1518, people danced until they collapsed",
+  "hook_text": "THEY COULDN'T STOP DANCING",
+  "cover_hook": "DANCED UNTIL THEY DROPPED",
+  "beats": [
+    {
+      "t": "0-1.5",
+      "speaker": "a",
+      "text": "In 1518, a whole city watched people dance until they collapsed.",
+      "visual": "Hondius 'Dancing Mania' engraving, figures animated in a jerky loop"
+    },
+    {
+      "t": "1.5-4",
+      "speaker": "a",
+      "text": "Strasbourg, July 1518: a woman, Frau Troffea, began dancing alone in the street.",
+      "visual": "Sketch map: Strasbourg on the Rhine; one dancing silhouette on a cobbled street"
+    },
+    {
+      "t": "4-5.5",
+      "speaker": "q",
+      "text": "For how long?",
+      "visual": "Ava icon; day counter 1, 2, 3"
+    },
+    {
+      "t": "5.5-12",
+      "speaker": "a",
+      "text": "Days, by later accounts. About thirty more joined her. But there was a problem. Nobody could stop it.",
+      "visual": "Day counter reaches 6; more silhouettes join the dance"
+    },
+    {
+      "t": "12-13.5",
+      "speaker": "q",
+      "text": "What did the city do?",
+      "visual": "Ava icon; council table"
+    },
+    {
+      "t": "13.5-24",
+      "speaker": "a",
+      "text": "Doctors blamed overheated blood, so officials built a stage and hired musicians.",
+      "visual": "Two panels: doctor holding a blood drop; carpenters raising a stage, pipers and drummers"
+    },
+    {
+      "t": "24-25.5",
+      "speaker": "q",
+      "text": "Did the music help?",
+      "visual": "Ava icon"
+    },
+    {
+      "t": "25.5-34",
+      "speaker": "a",
+      "text": "It made it worse. Reports say up to 400 danced. Some collapsed; later accounts claim deaths.",
+      "visual": "Crowd fills the frame; counter 'up to 400?'; figures slump to the ground"
+    },
+    {
+      "t": "34-38",
+      "speaker": "a",
+      "text": "The council banned dancing. By September it faded. Historians still debate why.",
+      "visual": "Brant's 1518 dance-ban notice slides in; question mark over the city"
+    },
+    {
+      "t": "38-40",
+      "speaker": "a",
+      "text": "A city that couldn't stop dancing. Follow History Sketches for one wild true story every day.",
+      "visual": "Last dancer freezes mid-step; History Sketches corner logo"
+    }
+  ],
+  "cta": "Follow History Sketches for one wild true story every day.",
+  "word_count": 110,
+  "est_seconds": 42,
+  "description": "In July 1518 a woman in Strasbourg began dancing in the street, and within weeks reports say up to 400 people had joined her. The city's cure, more music, made it worse. Narration: synthetic voices. Facts checked against two sources. #history #shorts #strangehistory #medieval"
+}

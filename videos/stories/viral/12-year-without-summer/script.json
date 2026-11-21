@@ -1,0 +1,73 @@
+{
+ "slug": "12-year-without-summer",
+ "title": "A volcano helped give us Frankenstein",
+ "hook_text": "A VOLCANO MADE FRANKENSTEIN",
+ "cover_hook": "VOLCANO MADE FRANKENSTEIN",
+ "beats": [
+  {
+   "t": "0-1.5",
+   "speaker": "a",
+   "text": "In 1815, a volcano helped give us Frankenstein.",
+   "visual": "Volcano erupts; its ash cloud morphs into a stitched monster silhouette"
+  },
+  {
+   "t": "1.5-4",
+   "speaker": "a",
+   "text": "April 1815: Mount Tambora erupts in today's Indonesia.",
+   "visual": "Sketch map of Indonesia, pin on Sumbawa; NASA PD photo of Tambora's crater"
+  },
+  {
+   "t": "4-6",
+   "speaker": "q",
+   "text": "How does a volcano write books?",
+   "visual": "Ava icon; quill pen"
+  },
+  {
+   "t": "6-12",
+   "speaker": "a",
+   "text": "Through the weather. Its haze cooled the planet. But there was a problem.",
+   "visual": "Grey haze spreads across a globe; thermometer drops"
+  },
+  {
+   "t": "12-14",
+   "speaker": "q",
+   "text": "Summer just didn't show up?",
+   "visual": "Ava icon; sun behind clouds"
+  },
+  {
+   "t": "14-22",
+   "speaker": "a",
+   "text": "Exactly. 1816 became the year without a summer. Snow fell in New England in June, and crops failed.",
+   "visual": "Calendar 'JUNE 1816' with snowflakes; wilted wheat"
+  },
+  {
+   "t": "22-24",
+   "speaker": "q",
+   "text": "Where's Frankenstein in this?",
+   "visual": "Ava icon"
+  },
+  {
+   "t": "24-34",
+   "speaker": "a",
+   "text": "Lake Geneva, June 1816. Rain trapped Byron, Mary Shelley and friends in Villa Diodati. Byron proposed a ghost-story contest.",
+   "visual": "PD photo of Villa Diodati with rain; PD Byron portrait slides in; candle and paper"
+  },
+  {
+   "t": "34-38",
+   "speaker": "a",
+   "text": "Mary began Frankenstein, published in 1818. Polidori wrote The Vampyre.",
+   "visual": "PD page of Mary Shelley's Frankenstein draft; PD Rothwell portrait of Mary Shelley slides in"
+  },
+  {
+   "t": "38-40",
+   "speaker": "a",
+   "text": "None of them knew a volcano made the rain. Follow History Sketches for one wild true story every day.",
+   "visual": "Rain turns to ash flakes; History Sketches corner logo"
+  }
+ ],
+ "cta": "Follow History Sketches for one wild true story every day.",
+ "word_count": 110,
+ "est_seconds": 42,
+ "description": "Mount Tambora's 1815 eruption cooled the planet and made 1816 the year without a summer. Trapped indoors by rain at Villa Diodati, Byron proposed a ghost-story contest, and Mary Shelley began Frankenstein. Narration: synthetic voices. Facts checked against two sources. #history #shorts #frankenstein #volcano",
+ "title_old": "A volcano gave us Frankenstein"
+}

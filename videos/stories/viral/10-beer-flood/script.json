@@ -1,0 +1,72 @@
+{
+  "slug": "10-beer-flood",
+  "title": "London was flooded by beer",
+  "hook_text": "LONDON FLOODED BY BEER",
+  "cover_hook": "FLOODED BY BEER",
+  "beats": [
+    {
+      "t": "0-1.5",
+      "speaker": "a",
+      "text": "In 1814, a wave of beer killed eight Londoners.",
+      "visual": "Brown frothy wave sweeps down a sketched London street toward camera"
+    },
+    {
+      "t": "1.5-4",
+      "speaker": "a",
+      "text": "October 1814, Horse Shoe Brewery, central London.",
+      "visual": "PD c.1800 view of the Horse Shoe Brewery; sketch map pin at Tottenham Court Road"
+    },
+    {
+      "t": "4-6",
+      "speaker": "q",
+      "text": "How does beer flood a street?",
+      "visual": "Ava icon; beer glass tips over"
+    },
+    {
+      "t": "6-12",
+      "speaker": "a",
+      "text": "A vat 22 feet tall held about a million pints of porter. But there was a problem. It burst.",
+      "visual": "Giant wooden vat with height ruler '22 ft'; counter '1,000,000 pints'; hoops snap"
+    },
+    {
+      "t": "12-14",
+      "speaker": "q",
+      "text": "Where did all that beer go?",
+      "visual": "Ava icon"
+    },
+    {
+      "t": "14-24",
+      "speaker": "a",
+      "text": "Into St Giles, a packed slum. A 15-foot wave knocked down walls and flooded basements.",
+      "visual": "PD 1852 'A Scene in St Giles's' engraving; wave crashes through; basement windows fill brown"
+    },
+    {
+      "t": "24-26",
+      "speaker": "q",
+      "text": "Who was to blame?",
+      "visual": "Ava icon; gavel"
+    },
+    {
+      "t": "26-34",
+      "speaker": "a",
+      "text": "Nobody. Eight died, including mourners at a wake. A jury called it an act of God.",
+      "visual": "Eight small candles light up; jury bench sketch; stamp 'ACT OF GOD'"
+    },
+    {
+      "t": "34-38",
+      "speaker": "a",
+      "text": "The brewery got its tax back. The Dominion Theatre stands there now.",
+      "visual": "Coins slide back to a brewery ledger; sketch of the Dominion Theatre facade"
+    },
+    {
+      "t": "38-40",
+      "speaker": "a",
+      "text": "Eight lives, lost to beer. Follow History Sketches for one wild true story every day.",
+      "visual": "Foam settles; History Sketches corner logo"
+    }
+  ],
+  "cta": "Follow History Sketches for one wild true story every day.",
+  "word_count": 109,
+  "est_seconds": 42,
+  "description": "On 17 October 1814 a huge vat of porter burst at the Horse Shoe Brewery in London, sending a wave of beer through the St Giles slum and killing eight people. A jury called it an act of God. Narration: synthetic voices. Facts checked against two sources. #history #shorts #london #strangehistory"
+}

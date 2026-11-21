@@ -1,0 +1,72 @@
+{
+  "slug": "13-ching-shih",
+  "title": "The pirate queen who commanded tens of thousands",
+  "hook_text": "THE PIRATE QUEEN",
+  "cover_hook": "PIRATE QUEEN",
+  "beats": [
+    {
+      "t": "0-1.5",
+      "speaker": "a",
+      "text": "In 1807, a widow took command of tens of thousands of pirates.",
+      "visual": "Red sails fill the frame on a sketched sea; a lone figure at the prow"
+    },
+    {
+      "t": "1.5-4",
+      "speaker": "a",
+      "text": "South China coast: Zheng Yi Sao.",
+      "visual": "Sketch map of the Pearl River Delta and Guangdong coast; name card in English and Chinese"
+    },
+    {
+      "t": "4-6",
+      "speaker": "q",
+      "text": "How did she get command?",
+      "visual": "Ava icon"
+    },
+    {
+      "t": "6-12",
+      "speaker": "a",
+      "text": "Her pirate husband died in 1807, and she took over his fleets. But there was a problem.",
+      "visual": "PD 1804 drawing of a Chinese junk; red flag rises; husband's silhouette fades"
+    },
+    {
+      "t": "12-14",
+      "speaker": "q",
+      "text": "Would hardened pirates obey her?",
+      "visual": "Ava icon"
+    },
+    {
+      "t": "14-24",
+      "speaker": "a",
+      "text": "They did. Estimates run from 40,000 to 70,000 pirates. They beat Qing fleets and fought the Portuguese.",
+      "visual": "Counter '40,000–70,000?' with a question mark; CC0 painting of Portuguese ships fighting pirates"
+    },
+    {
+      "t": "24-26",
+      "speaker": "q",
+      "text": "How did they catch her?",
+      "visual": "Ava icon; handcuffs"
+    },
+    {
+      "t": "26-34",
+      "speaker": "a",
+      "text": "They never did. In 1810 she negotiated her own surrender. Her crews got amnesty.",
+      "visual": "Handcuffs fall open; sketched office door; scroll stamped 'AMNESTY'"
+    },
+    {
+      "t": "34-38",
+      "speaker": "a",
+      "text": "She retired, ran a gambling house, and died in 1844.",
+      "visual": "Dice roll on a table; candle; '1844'"
+    },
+    {
+      "t": "38-40",
+      "speaker": "a",
+      "text": "One widow, never captured. Follow History Sketches for one wild true story every day.",
+      "visual": "Red sail folds; History Sketches corner logo"
+    }
+  ],
+  "cta": "Follow History Sketches for one wild true story every day.",
+  "word_count": 107,
+  "est_seconds": 41,
+  "description": "After her pirate husband died in 1807, Zheng Yi Sao (Ching Shih) took command of one of history's largest pirate alliances off south China, then negotiated her own surrender in 1810 and retired free. Narration: synthetic voices. Facts checked against two sources. #history #shorts #pirates #chinesehistory"
+}

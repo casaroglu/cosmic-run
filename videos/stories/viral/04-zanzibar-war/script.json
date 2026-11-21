@@ -1,0 +1,72 @@
+{
+  "slug": "04-zanzibar-war",
+  "title": "The shortest war in history lasted 38 minutes",
+  "hook_text": "THE 38-MINUTE WAR",
+  "cover_hook": "WAR: 38 MINUTES",
+  "beats": [
+    {
+      "t": "0-1.5",
+      "speaker": "a",
+      "text": "The shortest war in history lasted about 38 minutes.",
+      "visual": "Stopwatch starts ticking over the ILN 1896 bombardment engraving"
+    },
+    {
+      "t": "1.5-4",
+      "speaker": "a",
+      "text": "Zanzibar, East Africa, August 1896: the British Empire against a brand-new sultan.",
+      "visual": "Sketch map: East African coast, Zanzibar island highlighted"
+    },
+    {
+      "t": "4-5.5",
+      "speaker": "q",
+      "text": "Why fight at all?",
+      "visual": "Ava icon"
+    },
+    {
+      "t": "5.5-12",
+      "speaker": "a",
+      "text": "Khalid seized the throne without Britain's approval. But there was a problem. British warships sat in the harbour.",
+      "visual": "Palace sketch, new flag goes up; warship silhouettes glide into the harbour"
+    },
+    {
+      "t": "12-13.5",
+      "speaker": "q",
+      "text": "Did he get a warning?",
+      "visual": "Ava icon; clock face"
+    },
+    {
+      "t": "13.5-24",
+      "speaker": "a",
+      "text": "Leave by nine a.m. He refused. At nine, the ships opened fire.",
+      "visual": "Ultimatum letter; clock hits 9:00; muzzle flashes along the ships"
+    },
+    {
+      "t": "24-25.5",
+      "speaker": "q",
+      "text": "So when did it end?",
+      "visual": "Ava icon; stopwatch"
+    },
+    {
+      "t": "25.5-34",
+      "speaker": "a",
+      "text": "Around nine forty, his flag came down. About 500 killed or wounded; one Briton hurt.",
+      "visual": "Flag drops; PD photo of the sunk yacht Glasgow; casualty card 500 vs 1"
+    },
+    {
+      "t": "34-38",
+      "speaker": "a",
+      "text": "Khalid fled to the German consulate. Sources say 38 to 45 minutes.",
+      "visual": "Figure runs to a consulate gate; stopwatch shows 38-45"
+    },
+    {
+      "t": "38-40",
+      "speaker": "a",
+      "text": "The shortest war ever: about 38 minutes. Follow History Sketches for one wild true story every day.",
+      "visual": "Stopwatch stops; History Sketches corner logo"
+    }
+  ],
+  "cta": "Follow History Sketches for one wild true story every day.",
+  "word_count": 109,
+  "est_seconds": 41,
+  "description": "On 27 August 1896 British warships bombarded the Sultan's palace in Zanzibar after Khalid bin Barghash seized power. The war is usually given as 38 minutes, though some sources say up to 45. Narration: synthetic voices. Facts checked against two sources. #history #shorts #zanzibar #britishempire"
+}

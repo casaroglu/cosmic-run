@@ -1,0 +1,73 @@
+{
+ "slug": "11-mansa-musa",
+ "title": "This king spent so much gold its price fell",
+ "hook_text": "HE MADE GOLD CHEAP",
+ "cover_hook": "HE MADE GOLD CHEAP",
+ "beats": [
+  {
+   "t": "0-1.5",
+   "speaker": "a",
+   "text": "In 1324, one king gave away so much gold its price fell.",
+   "visual": "Gold coins rain onto a sketched Cairo skyline; a price tag drops"
+  },
+  {
+   "t": "1.5-4",
+   "speaker": "a",
+   "text": "Mansa Musa ruled Mali, a West African empire rich in gold.",
+   "visual": "PD Catalan Atlas figure of Mansa Musa slides in; sketch map of the Mali Empire"
+  },
+  {
+   "t": "4-6",
+   "speaker": "q",
+   "text": "Where was he going?",
+   "visual": "Ava icon"
+  },
+  {
+   "t": "6-12",
+   "speaker": "a",
+   "text": "Mecca. Accounts describe thousands of followers and 100 camel loads of gold. But there was a problem.",
+   "visual": "Caravan line crosses the Sahara on the map; camel counter climbs to 100"
+  },
+  {
+   "t": "12-14",
+   "speaker": "q",
+   "text": "Too much gold to carry?",
+   "visual": "Ava icon; camel buckles comically"
+  },
+  {
+   "t": "14-24",
+   "speaker": "a",
+   "text": "Too much generosity. In Cairo, every court official got a load of gold.",
+   "visual": "PD Bonfils photo of a Cairo mosque gate; gold sacks hop from hand to hand"
+  },
+  {
+   "t": "24-26",
+   "speaker": "q",
+   "text": "What did that do?",
+   "visual": "Ava icon"
+  },
+  {
+   "t": "26-34",
+   "speaker": "a",
+   "text": "Prices fell. Al-Umari, writing in Cairo, says gold stayed cheap about 12 years.",
+   "visual": "Scale tips: gold coin vs silver coins; calendar flips 12 times"
+  },
+  {
+   "t": "34-38",
+   "speaker": "a",
+   "text": "In 1375, a European map showed him holding gold. Historians still debate his wealth.",
+   "visual": "PD Catalan Atlas sheet zooms out; question mark over a money pile"
+  },
+  {
+   "t": "38-40",
+   "speaker": "a",
+   "text": "One pilgrimage, and gold got cheaper. Follow History Sketches for one wild true story every day.",
+   "visual": "Coin spins and lands; History Sketches corner logo"
+  }
+ ],
+ "cta": "Follow History Sketches for one wild true story every day.",
+ "word_count": 109,
+ "est_seconds": 42,
+ "description": "In 1324 Mansa Musa of Mali passed through Cairo on his way to Mecca and handed out so much gold that, according to the writer al-Umari, its price there stayed low for about twelve years. Narration: synthetic voices. Facts checked against two sources. #history #shorts #africanhistory #mansamusa",
+ "title_old": "This king was so rich he crashed gold prices"
+}

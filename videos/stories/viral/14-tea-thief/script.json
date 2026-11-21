@@ -1,0 +1,72 @@
+{
+  "slug": "14-tea-thief",
+  "title": "The man who stole tea from China",
+  "hook_text": "HE STOLE CHINA'S TEA",
+  "cover_hook": "HE STOLE CHINA'S TEA",
+  "beats": [
+    {
+      "t": "0-1.5",
+      "speaker": "a",
+      "text": "In 1848, a Scottish botanist set out to steal China's tea.",
+      "visual": "Teacup tips; a hand in a disguise sleeve snatches a tea plant"
+    },
+    {
+      "t": "1.5-4",
+      "speaker": "a",
+      "text": "Robert Fortune, hired by the East India Company.",
+      "visual": "PD portrait of Robert Fortune slides in; sketch map: China arrow to the Himalayas"
+    },
+    {
+      "t": "4-6",
+      "speaker": "q",
+      "text": "Why steal tea?",
+      "visual": "Ava icon"
+    },
+    {
+      "t": "6-12",
+      "speaker": "a",
+      "text": "China supplied the world's tea. Britain wanted its own, in India. But there was a problem.",
+      "visual": "Every teacup on a sketched world map traces back to China; padlock appears"
+    },
+    {
+      "t": "12-14",
+      "speaker": "q",
+      "text": "How do you sneak in?",
+      "visual": "Ava icon"
+    },
+    {
+      "t": "14-22",
+      "speaker": "a",
+      "text": "In disguise: shaved head, braid, Chinese clothes. He reached the tea hills.",
+      "visual": "Razor, braid, robe snap onto a sketched figure; PD map of Fortune's China routes"
+    },
+    {
+      "t": "22-24",
+      "speaker": "q",
+      "text": "What did he find?",
+      "visual": "Ava icon"
+    },
+    {
+      "t": "24-34",
+      "speaker": "a",
+      "text": "A dirty secret: export green tea dyed with Prussian blue and gypsum. Then he shipped over 20,000 tea plants.",
+      "visual": "Blue powder in a mortar, blue-stained hands; PD Wardian cases fill with plants; counter '20,000+'"
+    },
+    {
+      "t": "34-38",
+      "speaker": "a",
+      "text": "His tea makers and know-how helped India's tea industry boom.",
+      "visual": "Sketched Chinese tea makers at work; Himalayan tea terraces spread across the hills"
+    },
+    {
+      "t": "38-40",
+      "speaker": "a",
+      "text": "One disguise changed your cup of tea. Follow History Sketches for one wild true story every day.",
+      "visual": "Teacup refills; History Sketches corner logo"
+    }
+  ],
+  "cta": "Follow History Sketches for one wild true story every day.",
+  "word_count": 106,
+  "est_seconds": 41,
+  "description": "In 1848 the East India Company sent Scottish botanist Robert Fortune into China's tea hills in disguise. He shipped more than 20,000 tea plants and recruited tea makers for India, and found green tea being dyed with Prussian blue. Narration: synthetic voices. Facts checked against two sources. #history #shorts #tea #strangehistory"
+}

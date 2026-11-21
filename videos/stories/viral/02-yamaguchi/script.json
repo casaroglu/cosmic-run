@@ -1,0 +1,72 @@
+{
+  "slug": "02-yamaguchi",
+  "title": "He survived both atomic bombs",
+  "hook_text": "HE SURVIVED BOTH BOMBS",
+  "cover_hook": "SURVIVED BOTH BOMBS",
+  "beats": [
+    {
+      "t": "0-1.5",
+      "speaker": "a",
+      "text": "This man survived both atomic bombs: Tsutomu Yamaguchi.",
+      "visual": "PD photo of the Hiroshima atomic cloud, slow push-in; name card types in"
+    },
+    {
+      "t": "1.5-4",
+      "speaker": "a",
+      "text": "August 1945: the Mitsubishi engineer, 29, was in Hiroshima on business.",
+      "visual": "Sketch map of Japan: briefcase icon travels from Nagasaki to Hiroshima"
+    },
+    {
+      "t": "4-5.5",
+      "speaker": "q",
+      "text": "How close was he?",
+      "visual": "Ava icon; ruler appears on the map"
+    },
+    {
+      "t": "5.5-12",
+      "speaker": "a",
+      "text": "About three kilometres away. Burned, temporarily blind and deaf. But there was a problem. Home was Nagasaki.",
+      "visual": "Rings around Hiroshima with '3 km' marker; bandage icon; map pans to Nagasaki"
+    },
+    {
+      "t": "12-13.5",
+      "speaker": "q",
+      "text": "So he went home?",
+      "visual": "Ava icon; arrow back to Nagasaki"
+    },
+    {
+      "t": "13.5-24",
+      "speaker": "a",
+      "text": "The next day. On August 9, bandaged, he described Hiroshima to his boss.",
+      "visual": "Sketch office with drawing boards; speech bubble with a mushroom-cloud doodle"
+    },
+    {
+      "t": "24-25.5",
+      "speaker": "q",
+      "text": "Did the boss believe him?",
+      "visual": "Ava icon"
+    },
+    {
+      "t": "25.5-34",
+      "speaker": "a",
+      "text": "No. Then Nagasaki's bomb fell, again about three kilometres away. He survived again.",
+      "visual": "PD photo of the Nagasaki cloud from Koyagi-jima; second '3 km' ring"
+    },
+    {
+      "t": "34-38",
+      "speaker": "a",
+      "text": "In 2009, Japan officially recognised him for both. He campaigned against nuclear weapons until he died at 93.",
+      "visual": "Stamp '2009' on a document; dates 1916-2010; no likeness"
+    },
+    {
+      "t": "38-40",
+      "speaker": "a",
+      "text": "One man, two atomic bombs. Follow History Sketches for one wild true story every day.",
+      "visual": "Both cloud photos side by side fade to paper; History Sketches corner logo"
+    }
+  ],
+  "cta": "Follow History Sketches for one wild true story every day.",
+  "word_count": 108,
+  "est_seconds": 41,
+  "description": "Tsutomu Yamaguchi was on a business trip in Hiroshima on August 6, 1945, then went home to Nagasaki just before the second bomb. In 2009 Japan officially recognised him as a survivor of both. Narration: synthetic voices. Facts checked against two sources. #history #shorts #ww2 #japan"
+}

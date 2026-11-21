@@ -1,0 +1,72 @@
+{
+  "slug": "09-onoda",
+  "title": "He kept fighting WWII until 1974",
+  "hook_text": "HIS WAR ENDED IN 1974",
+  "cover_hook": "WWII ENDED IN 1974",
+  "beats": [
+    {
+      "t": "0-1.5",
+      "speaker": "a",
+      "text": "Hiroo Onoda fought World War Two until 1974.",
+      "visual": "Calendar pages fly from 1945 to 1974 over a sketched jungle; rifle barrel pokes through leaves"
+    },
+    {
+      "t": "1.5-4",
+      "speaker": "a",
+      "text": "In 1944, Japan sent him to Lubang Island, in the Philippines.",
+      "visual": "Sketch map: Philippines, Lubang pin southwest of Manila; PD wartime portrait of Onoda slides in"
+    },
+    {
+      "t": "4-6",
+      "speaker": "q",
+      "text": "Why didn't he surrender in 1945?",
+      "visual": "Ava icon; PD photo of the 1945 surrender signing"
+    },
+    {
+      "t": "6-12",
+      "speaker": "a",
+      "text": "His orders said never surrender. So he hid in the jungle. But there was a problem.",
+      "visual": "Order paper stamped 'NO SURRENDER'; figure vanishes into jungle"
+    },
+    {
+      "t": "12-14",
+      "speaker": "q",
+      "text": "Didn't anyone tell him?",
+      "visual": "Ava icon"
+    },
+    {
+      "t": "14-22",
+      "speaker": "a",
+      "text": "Leaflets did. He called them enemy propaganda. He raided villages, killing local people.",
+      "visual": "Leaflets flutter down, get crumpled; village huts in shadow, solemn grey tint"
+    },
+    {
+      "t": "22-24",
+      "speaker": "q",
+      "text": "So who finally convinced him?",
+      "visual": "Ava icon"
+    },
+    {
+      "t": "24-34",
+      "speaker": "a",
+      "text": "His old commander. In 1974 a traveller, Norio Suzuki, found him. Onoda demanded orders, so Major Taniguchi flew in to relieve him.",
+      "visual": "Tent and campfire; two sketched figures meet; plane lands; order paper 'RELIEVED OF DUTY'"
+    },
+    {
+      "t": "34-38",
+      "speaker": "a",
+      "text": "He surrendered his sword, almost 29 years late.",
+      "visual": "PD photo of Onoda with President Marcos; sword handed over; counter '29 years'"
+    },
+    {
+      "t": "38-40",
+      "speaker": "a",
+      "text": "His war lasted until 1974. Follow History Sketches for one wild true story every day.",
+      "visual": "Calendar stops at 1974; History Sketches corner logo"
+    }
+  ],
+  "cta": "Follow History Sketches for one wild true story every day.",
+  "word_count": 108,
+  "est_seconds": 42,
+  "description": "Japanese intelligence officer Hiroo Onoda hid on Lubang Island in the Philippines from 1945 until 1974, dismissing leaflets as propaganda, until his former commander flew in to relieve him of duty. Narration: synthetic voices. Facts checked against two sources. #history #shorts #ww2 #onoda"
+}

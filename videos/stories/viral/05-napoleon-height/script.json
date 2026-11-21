@@ -1,0 +1,72 @@
+{
+  "slug": "05-napoleon-height",
+  "title": "Napoleon wasn't short. Britain made you think so.",
+  "hook_text": "NAPOLEON WASN'T SHORT",
+  "cover_hook": "HE WASN'T SHORT",
+  "beats": [
+    {
+      "t": "0-1.5",
+      "speaker": "a",
+      "text": "You think Napoleon was tiny. He was about average.",
+      "visual": "David's 'Napoleon in His Study' with a height ruler sliding up beside him"
+    },
+    {
+      "t": "1.5-4",
+      "speaker": "a",
+      "text": "In France, his doctor and valet recorded Napoleon at five foot two.",
+      "visual": "Sketch measuring rod marked '5 pieds 2 pouces'"
+    },
+    {
+      "t": "4-5.5",
+      "speaker": "q",
+      "text": "So he was short?",
+      "visual": "Ava icon"
+    },
+    {
+      "t": "5.5-12",
+      "speaker": "a",
+      "text": "Not exactly. French inches were longer. But there was a problem: Britain was at war with him.",
+      "visual": "Two rulers side by side, the French inch visibly longer; British and French flags clash"
+    },
+    {
+      "t": "12-13.5",
+      "speaker": "q",
+      "text": "How tall in today's numbers?",
+      "visual": "Ava icon; modern tape measure"
+    },
+    {
+      "t": "13.5-24",
+      "speaker": "a",
+      "text": "About 1.67 metres, roughly five foot six: average for his time.",
+      "visual": "Silhouette lineup: average Frenchman, Napoleon, tall Old Guard grenadier in bearskin"
+    },
+    {
+      "t": "24-25.5",
+      "speaker": "q",
+      "text": "Then where did tiny come from?",
+      "visual": "Ava icon"
+    },
+    {
+      "t": "25.5-34",
+      "speaker": "a",
+      "text": "Cartoons. From 1803, Britain's James Gillray drew him as Little Boney, a toddler throwing tantrums.",
+      "visual": "PD Gillray 'Maniac Ravings, or Little Boney in a Strong Fit' (1803), zoom on the tantrum"
+    },
+    {
+      "t": "34-38",
+      "speaker": "a",
+      "text": "The joke outlived him: today we say Napoleon complex.",
+      "visual": "Text card 'Napoleon complex' with a crossed-out ruler"
+    },
+    {
+      "t": "38-40",
+      "speaker": "a",
+      "text": "Napoleon wasn't short. Britain made you think so. Follow History Sketches for one wild true story every day.",
+      "visual": "Lefevre portrait returns, ruler at average; History Sketches corner logo"
+    }
+  ],
+  "cta": "Follow History Sketches for one wild true story every day.",
+  "word_count": 106,
+  "est_seconds": 40,
+  "description": "Napoleon was recorded at 5 foot 2 in French units, about 1.67 m or 5 foot 6 today, roughly average for his time. British cartoonist James Gillray turned him into 'Little Boney'. Narration: synthetic voices. Facts checked against two sources. #history #shorts #napoleon #mythbusting"
+}
