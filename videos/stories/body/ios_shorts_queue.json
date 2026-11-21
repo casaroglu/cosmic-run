@@ -43,8 +43,7 @@
   "publish": "2026-11-23 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 2,
-  "rework_pending": true
+  "order": 2
  },
  {
   "ep": "04-dino-blood",
@@ -103,8 +102,7 @@
   "publish": "2026-11-25 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 6,
-  "rework_pending": true
+  "order": 6
  },
  {
   "ep": "09-lpa",
@@ -142,14 +140,13 @@
   "title": "Strokes nearly doubled in adults aged 20 to 54",
   "hook": "YOUNG STROKES NEARLY DOUBLED",
   "description": "A study published in September 2026 tracked strokes in one US region for almost thirty years. Among adults aged 20 to 54 the stroke rate nearly doubled, while it fell in older adults.\n\nFree Sunday email, 3 facts in 20 seconds: https://thisweekinsideyou.beehiiv.com/subscribe\n\nFull video: Why Are So Many Young Adults Having Strokes? Explained in 8 Minutes — on our channel.\nVoices are synthetic (text-to-speech).\n#science #shorts #stroke #health",
-  "long_id": "xrDMkhOL20w",
+  "long_id": "I7KHF1YCZic",
   "duration_s": 26.23,
   "cover": null,
   "publish": "2026-11-26 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 9,
-  "rework_pending": true
+  "order": 9
  },
  {
   "ep": "06-ghost-particles",
@@ -193,8 +190,7 @@
   "publish": "2026-11-28 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 12,
-  "rework_pending": true
+  "order": 12
  },
  {
   "ep": "09-lpa",
@@ -246,14 +242,13 @@
   "title": "An untreated stroke can kill 1.9 million neurons a minute",
   "hook": "TIME IS BRAIN",
   "description": "Most strokes are clots blocking a brain artery; others are bleeds. In a typical large stroke, the brain loses about 1.9 million nerve cells every minute it goes untreated.\n\nFree Sunday email, 3 facts in 20 seconds: https://thisweekinsideyou.beehiiv.com/subscribe\n\nFull video: Why Are So Many Young Adults Having Strokes? Explained in 8 Minutes — on our channel.\nVoices are synthetic (text-to-speech).\n#science #shorts #stroke #health",
-  "long_id": "xrDMkhOL20w",
+  "long_id": "I7KHF1YCZic",
   "duration_s": 49.1,
   "cover": null,
   "publish": "2026-11-30 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 16,
-  "rework_pending": true
+  "order": 16
  },
  {
   "ep": "06-ghost-particles",
@@ -311,8 +306,7 @@
   "publish": "2026-12-02 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 20,
-  "rework_pending": true
+  "order": 20
  },
  {
   "ep": "09-lpa",
@@ -378,14 +372,13 @@
   "title": "Strokes in young adults: from 34 to 62 per 100,000",
   "hook": "THE CLOTS THAT SURGED",
   "description": "Researchers counted every first stroke across five counties in Ohio and Kentucky from 1993 to 2020. In young adults the rate rose from about 34 to 62 per 100,000, almost all from clots, while older adults' rates fell.\n\nFree Sunday email, 3 facts in 20 seconds: https://thisweekinsideyou.beehiiv.com/subscribe\n\nFull video: Why Are So Many Young Adults Having Strokes? Explained in 8 Minutes — on our channel.\nVoices are synthetic (text-to-speech).\n#science #shorts #stroke #health",
-  "long_id": "xrDMkhOL20w",
+  "long_id": "I7KHF1YCZic",
   "duration_s": 51.2,
   "cover": null,
   "publish": "2026-12-04 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 25,
-  "rework_pending": true
+  "order": 25
  },
  {
   "ep": "06-ghost-particles",
@@ -502,8 +495,7 @@
   "publish": "2026-12-08 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 33,
-  "rework_pending": true
+  "order": 33
  },
  {
   "ep": "05-xmas-dinner",
@@ -644,14 +636,13 @@
   "title": "60% of young stroke patients had high blood pressure",
   "hook": "RISK IS STARTING EARLIER",
   "description": "Among young stroke patients, high blood pressure rose from 47 to 60 percent and diabetes from 19 to about 26 percent. Many young adults with high blood pressure don't even know they have it.\n\nFree Sunday email, 3 facts in 20 seconds: https://thisweekinsideyou.beehiiv.com/subscribe\n\nFull video: Why Are So Many Young Adults Having Strokes? Explained in 8 Minutes — on our channel.\nVoices are synthetic (text-to-speech).\n#science #shorts #stroke #health",
-  "long_id": "xrDMkhOL20w",
+  "long_id": "I7KHF1YCZic",
   "duration_s": 50.27,
   "cover": null,
   "publish": "2026-12-13 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 43,
-  "rework_pending": true
+  "order": 43
  },
  {
   "ep": "05-xmas-dinner",
@@ -767,8 +758,7 @@
   "publish": "2026-12-17 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 51,
-  "rework_pending": true
+  "order": 51
  },
  {
   "ep": "13-xmas-heart",
@@ -904,14 +894,13 @@
   "title": "Cannabis use among young stroke patients: 1% to 31%",
   "hook": "THE CANNABIS QUESTION",
   "description": "Among young stroke patients, reported marijuana use rose from under 1 percent in 1993 to about 31 percent in 2020. The lead researcher stresses this doesn't mean substance use caused more strokes.\n\nFree Sunday email, 3 facts in 20 seconds: https://thisweekinsideyou.beehiiv.com/subscribe\n\nFull video: Why Are So Many Young Adults Having Strokes? Explained in 8 Minutes — on our channel.\nVoices are synthetic (text-to-speech).\n#science #shorts #stroke #health",
-  "long_id": "xrDMkhOL20w",
+  "long_id": "I7KHF1YCZic",
   "duration_s": 35.8,
   "cover": null,
   "publish": "2026-12-22 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 61,
-  "rework_pending": true
+  "order": 61
  },
  {
   "ep": "06-ghost-particles",
@@ -969,8 +958,7 @@
   "publish": "2026-12-24 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 65,
-  "rework_pending": true
+  "order": 65
  },
  {
   "ep": "09-lpa",
@@ -1036,14 +1024,13 @@
   "title": "1 in 4 people has a tiny hole in their heart",
   "hook": "STROKE CAUSES OF THE YOUNG",
   "description": "Some stroke causes are more common in the young: a tear in a neck artery, or a small opening between the heart's upper chambers that about one in four people have. Migraine with aura is linked to about twice the risk.\n\nFree Sunday email, 3 facts in 20 seconds: https://thisweekinsideyou.beehiiv.com/subscribe\n\nFull video: Why Are So Many Young Adults Having Strokes? Explained in 8 Minutes — on our channel.\nVoices are synthetic (text-to-speech).\n#science #shorts #stroke #health",
-  "long_id": "xrDMkhOL20w",
+  "long_id": "I7KHF1YCZic",
   "duration_s": 28.97,
   "cover": null,
   "publish": "2026-12-27 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 70,
-  "rework_pending": true
+  "order": 70
  },
  {
   "ep": "06-ghost-particles",
@@ -1101,8 +1088,7 @@
   "publish": "2026-12-29 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 74,
-  "rework_pending": true
+  "order": 74
  },
  {
   "ep": "09-lpa",
@@ -1168,14 +1154,13 @@
   "title": "Doctors can pull a stroke clot out through your wrist",
   "hook": "PULLING OUT THE CLOT",
   "description": "A brain scan comes first, because clots and bleeds need opposite treatments. Clot-busting drugs usually work within about four and a half hours, and big clots can be pulled out through a thin tube from the groin or wrist.\n\nFree Sunday email, 3 facts in 20 seconds: https://thisweekinsideyou.beehiiv.com/subscribe\n\nFull video: Why Are So Many Young Adults Having Strokes? Explained in 8 Minutes — on our channel.\nVoices are synthetic (text-to-speech).\n#science #shorts #stroke #health",
-  "long_id": "xrDMkhOL20w",
+  "long_id": "I7KHF1YCZic",
   "duration_s": 55.8,
   "cover": null,
   "publish": "2026-12-31 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 79,
-  "rework_pending": true
+  "order": 79
  },
  {
   "ep": "06-ghost-particles",
@@ -1270,14 +1255,13 @@
   "title": "You're never too young for a stroke. Remember BE FAST",
   "hook": "REMEMBER BE FAST",
   "description": "BE FAST stands for balance, eyes, face, arms, speech and time to call emergency services. Young people often brush off symptoms, and studies suggest strokes are missed more often in younger patients.\n\nFree Sunday email, 3 facts in 20 seconds: https://thisweekinsideyou.beehiiv.com/subscribe\n\nFull video: Why Are So Many Young Adults Having Strokes? Explained in 8 Minutes — on our channel.\nVoices are synthetic (text-to-speech).\n#science #shorts #stroke #health",
-  "long_id": "xrDMkhOL20w",
+  "long_id": "I7KHF1YCZic",
   "duration_s": 51.53,
   "cover": null,
   "publish": "2027-01-04 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 86,
-  "rework_pending": true
+  "order": 86
  },
  {
   "ep": "06-ghost-particles",
@@ -1372,14 +1356,13 @@
   "title": "130 over 80 already counts as high blood pressure",
   "hook": "KNOW YOUR NUMBERS",
   "description": "In the US, a reading of 130 over 80 or higher already counts as high blood pressure, and many people in their 20s and 30s are over that line without knowing it. Much of young adults' stroke risk can be measured and changed.\n\nFree Sunday email, 3 facts in 20 seconds: https://thisweekinsideyou.beehiiv.com/subscribe\n\nFull video: Why Are So Many Young Adults Having Strokes? Explained in 8 Minutes — on our channel.\nVoices are synthetic (text-to-speech).\n#science #shorts #stroke #health",
-  "long_id": "xrDMkhOL20w",
+  "long_id": "I7KHF1YCZic",
   "duration_s": 30.27,
   "cover": null,
   "publish": "2027-01-07 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 93,
-  "rework_pending": true
+  "order": 93
  },
  {
   "ep": "07-alpha-gal",

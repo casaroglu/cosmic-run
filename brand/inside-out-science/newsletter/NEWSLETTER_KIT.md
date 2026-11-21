@@ -42,7 +42,7 @@ Preview: 3 facts. 20 seconds.
 
 1. A tick bite can make you allergic to red meat. → https://youtu.be/KdyR_yzHWGg
 2. 100 trillion ghost particles pass through you every second. → https://youtube.com/shorts/jvtBTTK1Aj4
-3. In one US region, strokes in adults aged 20 to 54 nearly doubled in 30 years. → https://youtu.be/xrDMkhOL20w
+3. In one US region, strokes in adults aged 20 to 54 nearly doubled in 30 years. → https://youtu.be/I7KHF1YCZic
 
 Reply with a question. The best ones become videos.
 Not medical advice. Sources are in each video's description.

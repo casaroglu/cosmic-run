@@ -29,3 +29,4 @@
 | 2022 NASA–SpaceX/Polaris (Isaacman) study; NASA declined June 2024 | NASA (2022, 2024); Space.com |
 | Skylab fell 1979, debris in Western Australia | NASA history; Wikipedia "Skylab" |
 | Webb: launched Dec 2021, 6.5 m mirror, L2 ~1.5 M km, infrared | NASA Webb facts; ESA |
+- **Visual rework (2026-11-21/22):** redrawn in the interacting-icons style (an icon per phrase, icons fly into / hit / push / morph each other via the common.js cast system + icons2.js); script, voice and word timings unchanged. Used for the Shorts and kept as the new master; the published long video stays as it was. Overlap audit at 0.1 s: ok.
