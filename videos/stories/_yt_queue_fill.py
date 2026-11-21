@@ -21,6 +21,11 @@ for x in q:
         ep = x['id'].split('-')[0]
         x['cover'] = f'videos/out/spain/_covers/{ep}.jpg'; x['file'] = f'videos/out/spain/{ep}/video.mp4'
         x['description'] = f"{cap}\n\nImage credits:\n{credits(e)}\n\nNarration: synthetic voices (Kokoro TTS). Dates checked against at least two sources.\n\n{tags}"
+NL = 'Free Saturday email, 3 stories in 20 seconds: https://historysketches.beehiiv.com/subscribe'
+for x in q:   # newsletter line as the description's second paragraph (2026-11-21)
+    d = x.get('description') or ''
+    if x['status'] == 'todo' and d and NL not in d:
+        parts = d.split('\n\n', 1); x['description'] = parts[0] + '\n\n' + NL + ('\n\n' + parts[1] if len(parts) > 1 else '')
 json.dump(q, open('youtube_shorts_queue.json', 'w'), ensure_ascii=False, indent=1)
 R = os.path.expanduser('~/cosmic-run/')
 for x in q: print(x['id'], '|', (x.get('title') or '-')[:55], '| cover', os.path.exists(R + x.get('cover', '-')), '| video', os.path.exists(R + x['file']))
