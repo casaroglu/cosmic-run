@@ -5,6 +5,8 @@
 **Format:** Q&A — Ava (`af_heart`) asks, Theo (`bm_fable`) answers; 1362 words, 15 questions, 8:06 with thumbnail intro and 10 s end screen. 
 **Thumbnail:** `thumb/thumbnail.jpg` (Gemini, from `thumb/style_ref.jpg` = our own frames). Built with `../_engine/` + `../_engine/common.js`. Overlap audit at 0.1 s: 0 issues.
 
+**Visual rework (2026-11-21):** redrawn in the interacting-icons style (ep 11+): an icon per phrase via the cast/beat system + icons2.js, new topic icons (LDL/Lp(a) particles, liver, truck, foam cell, clot, aortic valve, gene repeats, lipid panel, flags…); script, voice and word timings unchanged; overlap audit 0.1 s: ok; SFX re-mixed, master and Shorts re-cut.
+
 ## YouTube chapters
 0:00 Intro: the cholesterol most people never test
 0:46 Cholesterol's delivery trucks

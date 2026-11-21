@@ -112,8 +112,7 @@
   "publish": "2026-11-25 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 7,
-  "rework_pending": true
+  "order": 7
  },
  {
   "ep": "04-dino-blood",
@@ -198,8 +197,7 @@
   "publish": "2026-11-28 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 13,
-  "rework_pending": true
+  "order": 13
  },
  {
   "ep": "04-dino-blood",
@@ -312,8 +310,7 @@
   "publish": "2026-12-02 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 21,
-  "rework_pending": true
+  "order": 21
  },
  {
   "ep": "04-dino-blood",
@@ -514,8 +511,7 @@
   "publish": "2026-12-09 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 35,
-  "rework_pending": true
+  "order": 35
  },
  {
   "ep": "05-xmas-dinner",
@@ -774,8 +770,7 @@
   "publish": "2026-12-18 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 53,
-  "rework_pending": true
+  "order": 53
  },
  {
   "ep": "13-xmas-heart",
@@ -958,8 +953,7 @@
   "publish": "2026-12-25 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 66,
-  "rework_pending": true
+  "order": 66
  },
  {
   "ep": "04-dino-blood",
@@ -1086,8 +1080,7 @@
   "publish": "2026-12-29 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 75,
-  "rework_pending": true
+  "order": 75
  },
  {
   "ep": "04-dino-blood",
