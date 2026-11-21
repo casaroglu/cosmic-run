@@ -11,7 +11,8 @@
   "publish": "2026-11-22 17:00 Europe/Istanbul",
   "url": "https://youtube.com/shorts/YQMw23k8R54",
   "status": "scheduled (by other session)",
-  "order": 0
+  "order": 0,
+  "rework_pending": true
  },
  {
   "ep": "06-ghost-particles",
@@ -25,7 +26,8 @@
   "publish": "2026-11-23 02:00 Europe/Istanbul",
   "url": "https://youtube.com/shorts/jvtBTTK1Aj4",
   "status": "scheduled (by other session)",
-  "order": 1
+  "order": 1,
+  "rework_pending": true
  },
  {
   "ep": "10-hubble",
@@ -39,7 +41,8 @@
   "publish": "2026-11-23 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 2
+  "order": 2,
+  "rework_pending": true
  },
  {
   "ep": "04-dino-blood",
@@ -53,7 +56,8 @@
   "publish": "2026-11-23 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 3
+  "order": 3,
+  "rework_pending": true
  },
  {
   "ep": "06-ghost-particles",
@@ -67,7 +71,8 @@
   "publish": "2026-11-24 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 4
+  "order": 4,
+  "rework_pending": true
  },
  {
   "ep": "05-xmas-dinner",
@@ -81,7 +86,8 @@
   "publish": "2026-11-24 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 5
+  "order": 5,
+  "rework_pending": true
  },
  {
   "ep": "10-hubble",
@@ -95,7 +101,8 @@
   "publish": "2026-11-25 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 6
+  "order": 6,
+  "rework_pending": true
  },
  {
   "ep": "09-lpa",
@@ -109,7 +116,8 @@
   "publish": "2026-11-25 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 7
+  "order": 7,
+  "rework_pending": true
  },
  {
   "ep": "04-dino-blood",
@@ -123,7 +131,8 @@
   "publish": "2026-11-26 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 8
+  "order": 8,
+  "rework_pending": true
  },
  {
   "ep": "08-young-strokes",
@@ -137,7 +146,8 @@
   "publish": "2026-11-26 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 9
+  "order": 9,
+  "rework_pending": true
  },
  {
   "ep": "06-ghost-particles",
@@ -151,7 +161,8 @@
   "publish": "2026-11-27 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 10
+  "order": 10,
+  "rework_pending": true
  },
  {
   "ep": "07-alpha-gal",
@@ -165,7 +176,8 @@
   "publish": "2026-11-27 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 11
+  "order": 11,
+  "rework_pending": true
  },
  {
   "ep": "10-hubble",
@@ -179,7 +191,8 @@
   "publish": "2026-11-28 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 12
+  "order": 12,
+  "rework_pending": true
  },
  {
   "ep": "09-lpa",
@@ -193,7 +206,8 @@
   "publish": "2026-11-28 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 13
+  "order": 13,
+  "rework_pending": true
  },
  {
   "ep": "04-dino-blood",
@@ -207,7 +221,8 @@
   "publish": "2026-11-29 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 14
+  "order": 14,
+  "rework_pending": true
  },
  {
   "ep": "11-measles-amnesia",
@@ -235,7 +250,8 @@
   "publish": "2026-11-30 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 16
+  "order": 16,
+  "rework_pending": true
  },
  {
   "ep": "06-ghost-particles",
@@ -249,7 +265,8 @@
   "publish": "2026-11-30 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 17
+  "order": 17,
+  "rework_pending": true
  },
  {
   "ep": "07-alpha-gal",
@@ -263,7 +280,8 @@
   "publish": "2026-12-01 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 18
+  "order": 18,
+  "rework_pending": true
  },
  {
   "ep": "14-winter-sick",
@@ -291,7 +309,8 @@
   "publish": "2026-12-02 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 20
+  "order": 20,
+  "rework_pending": true
  },
  {
   "ep": "09-lpa",
@@ -305,7 +324,8 @@
   "publish": "2026-12-02 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 21
+  "order": 21,
+  "rework_pending": true
  },
  {
   "ep": "04-dino-blood",
@@ -319,7 +339,8 @@
   "publish": "2026-12-03 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 22
+  "order": 22,
+  "rework_pending": true
  },
  {
   "ep": "12-napping",
@@ -361,7 +382,8 @@
   "publish": "2026-12-04 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 25
+  "order": 25,
+  "rework_pending": true
  },
  {
   "ep": "06-ghost-particles",
@@ -375,7 +397,8 @@
   "publish": "2026-12-05 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 26
+  "order": 26,
+  "rework_pending": true
  },
  {
   "ep": "13-xmas-heart",
@@ -403,7 +426,8 @@
   "publish": "2026-12-06 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 28
+  "order": 28,
+  "rework_pending": true
  },
  {
   "ep": "07-alpha-gal",
@@ -417,7 +441,8 @@
   "publish": "2026-12-06 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 29
+  "order": 29,
+  "rework_pending": true
  },
  {
   "ep": "05-xmas-dinner",
@@ -431,7 +456,8 @@
   "publish": "2026-12-07 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 30
+  "order": 30,
+  "rework_pending": true
  },
  {
   "ep": "14-winter-sick",
@@ -459,7 +485,8 @@
   "publish": "2026-12-08 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 32
+  "order": 32,
+  "rework_pending": true
  },
  {
   "ep": "10-hubble",
@@ -473,7 +500,8 @@
   "publish": "2026-12-08 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 33
+  "order": 33,
+  "rework_pending": true
  },
  {
   "ep": "05-xmas-dinner",
@@ -487,7 +515,8 @@
   "publish": "2026-12-09 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 34
+  "order": 34,
+  "rework_pending": true
  },
  {
   "ep": "09-lpa",
@@ -501,7 +530,8 @@
   "publish": "2026-12-09 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 35
+  "order": 35,
+  "rework_pending": true
  },
  {
   "ep": "05-xmas-dinner",
@@ -515,7 +545,8 @@
   "publish": "2026-12-10 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 36
+  "order": 36,
+  "rework_pending": true
  },
  {
   "ep": "04-dino-blood",
@@ -529,7 +560,8 @@
   "publish": "2026-12-10 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 37
+  "order": 37,
+  "rework_pending": true
  },
  {
   "ep": "05-xmas-dinner",
@@ -543,7 +575,8 @@
   "publish": "2026-12-11 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 38
+  "order": 38,
+  "rework_pending": true
  },
  {
   "ep": "12-napping",
@@ -571,7 +604,8 @@
   "publish": "2026-12-12 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 40
+  "order": 40,
+  "rework_pending": true
  },
  {
   "ep": "11-measles-amnesia",
@@ -599,7 +633,8 @@
   "publish": "2026-12-13 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 42
+  "order": 42,
+  "rework_pending": true
  },
  {
   "ep": "08-young-strokes",
@@ -613,7 +648,8 @@
   "publish": "2026-12-13 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 43
+  "order": 43,
+  "rework_pending": true
  },
  {
   "ep": "05-xmas-dinner",
@@ -627,7 +663,8 @@
   "publish": "2026-12-14 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 44
+  "order": 44,
+  "rework_pending": true
  },
  {
   "ep": "06-ghost-particles",
@@ -641,7 +678,8 @@
   "publish": "2026-12-14 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 45
+  "order": 45,
+  "rework_pending": true
  },
  {
   "ep": "05-xmas-dinner",
@@ -655,7 +693,8 @@
   "publish": "2026-12-15 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 46
+  "order": 46,
+  "rework_pending": true
  },
  {
   "ep": "13-xmas-heart",
@@ -683,7 +722,8 @@
   "publish": "2026-12-16 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 48
+  "order": 48,
+  "rework_pending": true
  },
  {
   "ep": "14-winter-sick",
@@ -725,7 +765,8 @@
   "publish": "2026-12-17 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 51
+  "order": 51,
+  "rework_pending": true
  },
  {
   "ep": "13-xmas-heart",
@@ -753,7 +794,8 @@
   "publish": "2026-12-18 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 53
+  "order": 53,
+  "rework_pending": true
  },
  {
   "ep": "13-xmas-heart",
@@ -781,7 +823,8 @@
   "publish": "2026-12-19 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 55
+  "order": 55,
+  "rework_pending": true
  },
  {
   "ep": "13-xmas-heart",
@@ -865,7 +908,8 @@
   "publish": "2026-12-22 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 61
+  "order": 61,
+  "rework_pending": true
  },
  {
   "ep": "06-ghost-particles",
@@ -879,7 +923,8 @@
   "publish": "2026-12-23 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 62
+  "order": 62,
+  "rework_pending": true
  },
  {
   "ep": "07-alpha-gal",
@@ -893,7 +938,8 @@
   "publish": "2026-12-23 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 63
+  "order": 63,
+  "rework_pending": true
  },
  {
   "ep": "14-winter-sick",
@@ -921,7 +967,8 @@
   "publish": "2026-12-24 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 65
+  "order": 65,
+  "rework_pending": true
  },
  {
   "ep": "09-lpa",
@@ -935,7 +982,8 @@
   "publish": "2026-12-25 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 66
+  "order": 66,
+  "rework_pending": true
  },
  {
   "ep": "04-dino-blood",
@@ -949,7 +997,8 @@
   "publish": "2026-12-25 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 67
+  "order": 67,
+  "rework_pending": true
  },
  {
   "ep": "12-napping",
@@ -991,7 +1040,8 @@
   "publish": "2026-12-27 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 70
+  "order": 70,
+  "rework_pending": true
  },
  {
   "ep": "06-ghost-particles",
@@ -1005,7 +1055,8 @@
   "publish": "2026-12-27 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 71
+  "order": 71,
+  "rework_pending": true
  },
  {
   "ep": "07-alpha-gal",
@@ -1019,7 +1070,8 @@
   "publish": "2026-12-28 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 72
+  "order": 72,
+  "rework_pending": true
  },
  {
   "ep": "14-winter-sick",
@@ -1047,7 +1099,8 @@
   "publish": "2026-12-29 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 74
+  "order": 74,
+  "rework_pending": true
  },
  {
   "ep": "09-lpa",
@@ -1061,7 +1114,8 @@
   "publish": "2026-12-29 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 75
+  "order": 75,
+  "rework_pending": true
  },
  {
   "ep": "04-dino-blood",
@@ -1075,7 +1129,8 @@
   "publish": "2026-12-30 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 76
+  "order": 76,
+  "rework_pending": true
  },
  {
   "ep": "12-napping",
@@ -1117,7 +1172,8 @@
   "publish": "2026-12-31 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 79
+  "order": 79,
+  "rework_pending": true
  },
  {
   "ep": "06-ghost-particles",
@@ -1131,7 +1187,8 @@
   "publish": "2027-01-01 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 80
+  "order": 80,
+  "rework_pending": true
  },
  {
   "ep": "07-alpha-gal",
@@ -1145,7 +1202,8 @@
   "publish": "2027-01-01 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 81
+  "order": 81,
+  "rework_pending": true
  },
  {
   "ep": "14-winter-sick",
@@ -1173,7 +1231,8 @@
   "publish": "2027-01-02 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 83
+  "order": 83,
+  "rework_pending": true
  },
  {
   "ep": "12-napping",
@@ -1215,7 +1274,8 @@
   "publish": "2027-01-04 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 86
+  "order": 86,
+  "rework_pending": true
  },
  {
   "ep": "06-ghost-particles",
@@ -1229,7 +1289,8 @@
   "publish": "2027-01-04 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 87
+  "order": 87,
+  "rework_pending": true
  },
  {
   "ep": "07-alpha-gal",
@@ -1243,7 +1304,8 @@
   "publish": "2027-01-05 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 88
+  "order": 88,
+  "rework_pending": true
  },
  {
   "ep": "14-winter-sick",
@@ -1271,7 +1333,8 @@
   "publish": "2027-01-06 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 90
+  "order": 90,
+  "rework_pending": true
  },
  {
   "ep": "12-napping",
@@ -1313,7 +1376,8 @@
   "publish": "2027-01-07 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 93
+  "order": 93,
+  "rework_pending": true
  },
  {
   "ep": "07-alpha-gal",
@@ -1327,7 +1391,8 @@
   "publish": "2027-01-08 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 94
+  "order": 94,
+  "rework_pending": true
  },
  {
   "ep": "14-winter-sick",
@@ -1383,7 +1448,8 @@
   "publish": "2027-01-10 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 98
+  "order": 98,
+  "rework_pending": true
  },
  {
   "ep": "14-winter-sick",

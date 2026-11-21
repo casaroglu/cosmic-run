@@ -1,8 +1,8 @@
 // Vertical (1080x1920) Shorts/Reels compositor: draws the 16:9 explainer frame at time t into a 9:16 canvas
 // with a blurred background, a hook title on top, karaoke captions below and a "full video" end card.
 const VC = document.getElementById('v'), vctx = VC.getContext('2d');
-const VW = 1080, VH = 1920, VS_ = 0.68;               // frame scale: shows the middle 1588 px of the 1920 px frame
-const FW = 1920 * VS_, FH = 1080 * VS_, FX = (VW - FW) / 2, FY = 600;
+const VW = 1080, VH = 1920, VS_ = 1040 / 1920;        // frame scale: the whole 1920 px frame fits (20 px side margins), so no label is cut off
+const FW = 1920 * VS_, FH = 1080 * VS_, FX = (VW - FW) / 2, FY = 620;
 function vfont(px, w = 700) { vctx.font = `${w} ${px}px Fredoka`; }
 function wrapLines(txt, maxW, px) { vfont(px); const out = []; let cur = ''; for (const w of txt.split(/\s+/)) { const t = cur ? cur + ' ' + w : w; if (vctx.measureText(t).width > maxW && cur) { out.push(cur); cur = w; } else cur = t; } if (cur) out.push(cur); return out; }
 function capGroups(t0, t1) {   // words of the window grouped into caption chunks (<= 4 words, broken on pauses and sentence ends)
@@ -17,8 +17,8 @@ window.vframe = (t, spec, q = 0.92) => {
   vctx.save(); vctx.filter = 'blur(28px) brightness(0.55) saturate(1.2)'; const bs = VH / 1080 * 1.05; vctx.drawImage(cv, (VW - 1920 * bs) / 2, (VH - 1080 * bs) / 2, 1920 * bs, 1080 * bs); vctx.restore();
   vctx.fillStyle = 'rgba(6,14,32,0.35)'; vctx.fillRect(0, 0, VW, VH);
   // the frame itself with rounded corners and a soft shadow
-  vctx.save(); vctx.shadowColor = 'rgba(0,0,0,0.5)'; vctx.shadowBlur = 40; vctx.beginPath(); vctx.roundRect(FX + 20, FY, FW - 40, FH, 28); vctx.fillStyle = '#000'; vctx.fill(); vctx.restore();
-  vctx.save(); vctx.beginPath(); vctx.roundRect(FX + 20, FY, FW - 40, FH, 28); vctx.clip(); vctx.drawImage(cv, FX, FY, FW, FH); vctx.restore();
+  vctx.save(); vctx.shadowColor = 'rgba(0,0,0,0.5)'; vctx.shadowBlur = 40; vctx.beginPath(); vctx.roundRect(FX, FY, FW, FH, 24); vctx.fillStyle = '#000'; vctx.fill(); vctx.restore();
+  vctx.save(); vctx.beginPath(); vctx.roundRect(FX, FY, FW, FH, 24); vctx.clip(); vctx.drawImage(cv, FX, FY, FW, FH); vctx.restore();
   // hook title (Ava's question) on top
   const k = eoq((t - spec.t0) / 0.6); vctx.save(); vctx.globalAlpha = k;
   vfont(30, 600); vctx.letterSpacing = '6px'; vctx.fillStyle = TEAL; vctx.textAlign = 'center'; vctx.fillText(spec.kicker || 'INSIDE OUT SCIENCE', VW / 2, 190); vctx.letterSpacing = '0px';
@@ -38,6 +38,6 @@ window.vframe = (t, spec, q = 0.92) => {
   }
   // end card: full video pointer
   if (p > 0.9) { const e = eoq((p - 0.9) / 0.06); vctx.save(); vctx.globalAlpha = e; vctx.fillStyle = 'rgba(6,14,32,0.75)'; vctx.beginPath(); vctx.roundRect(140, FY + FH + 90, 800, 170, 40); vctx.fill();
-    vfont(54); vctx.fillStyle = GOLD; vctx.textAlign = 'center'; vctx.fillText('FULL VIDEO ON OUR CHANNEL', VW / 2, FY + FH + 165); vfont(34, 600); vctx.fillStyle = WHITE; vctx.fillText(spec.full || '', VW / 2, FY + FH + 220); vctx.restore(); }
+    vfont(54); vctx.fillStyle = GOLD; vctx.textAlign = 'center'; vctx.fillText('FULL VIDEO ON OUR CHANNEL', VW / 2, FY + FH + 165); let fp = 34; vfont(fp, 600); while (fp > 20 && vctx.measureText(spec.full || '').width > 760) vfont(--fp, 600); vctx.fillStyle = WHITE; vctx.fillText(spec.full || '', VW / 2, FY + FH + 220); vctx.restore(); }
   return VC.toDataURL('image/jpeg', q);
 };
