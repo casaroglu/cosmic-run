@@ -4,6 +4,7 @@
 **Hook (cover):** STROKES IN YOUNG ADULTS?
 **Format:** Q&A — Ava (`af_heart`) asks, Theo (`bm_fable`) answers; 1381 words, 18 questions, 8:10 with thumbnail intro and 10 s end screen. 
 **Thumbnail:** `thumb/thumbnail.jpg` (Gemini, from `thumb/style_ref.jpg` = our own frames). Built with `../_engine/` + `../_engine/common.js`. Overlap audit at 0.1 s: 0 issues.
+**Visual rework (2026-11-21):** pictures redrawn in the interacting-icons style (`common.js` cast system + `icons2.js` + new clot/neuron/artery/brain-state icons in `topic.js`); script, voice and word timing unchanged; re-rendered, re-mixed, re-mastered, Shorts re-cut. Overlap audit at 0.1 s: ok.
 
 ## YouTube chapters
 0:00 Intro: why are more young adults having strokes?
