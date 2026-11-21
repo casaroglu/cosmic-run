@@ -9,10 +9,10 @@
   "duration_s": 36.57,
   "cover": null,
   "publish": "2026-11-22 17:00 Europe/Istanbul",
-  "url": "https://youtube.com/shorts/YQMw23k8R54",
-  "status": "scheduled, to be replaced",
+  "url": null,
+  "status": "todo",
   "order": 0,
-  "note": "Text was cut off at the frame edges; on 21 Nov the YouTube schedule was moved to 31 Dec as a holding date. Once the reworked Short is cut: delete this upload, upload the new file in a fresh slot, and update url. jvtBTTK1Aj4 is also linked in the This Week Inside You welcome email and issue #1, so update both links on Beehiiv."
+  "note": "Old intro Short (cut-off text, old visuals) deleted on YouTube on 22 Nov 2026; upload the reworked intro.mp4 fresh. Its slot is past, so the slot rule moves it."
  },
  {
   "ep": "06-ghost-particles",
@@ -24,10 +24,10 @@
   "duration_s": 28.53,
   "cover": null,
   "publish": "2026-11-23 02:00 Europe/Istanbul",
-  "url": "https://youtube.com/shorts/jvtBTTK1Aj4",
-  "status": "scheduled, to be replaced",
+  "url": null,
+  "status": "todo",
   "order": 1,
-  "note": "Text was cut off at the frame edges; on 21 Nov the YouTube schedule was moved to 31 Dec as a holding date. Once the reworked Short is cut: delete this upload, upload the new file in a fresh slot, and update url. jvtBTTK1Aj4 is also linked in the This Week Inside You welcome email and issue #1, so update both links on Beehiiv."
+  "note": "Old intro Short (cut-off text, old visuals) deleted on YouTube on 22 Nov 2026; upload the reworked intro.mp4 fresh. Its slot is past, so the slot rule moves it."
  },
  {
   "ep": "10-hubble",
