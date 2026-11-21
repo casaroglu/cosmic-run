@@ -12,7 +12,7 @@ for x in q:
     p = f"{'headlines' if s == 'chokepoints' else 'spain'}/{x['id']}/episode.json"
     if not os.path.exists(p): continue
     e = json.load(open(p)); cap = e.get('post', {}).get('caption', ''); tags = ' '.join('#' + t for t in e.get('post', {}).get('hashtags', []))
-    x['title'] = e['title']
+    if not x.get('title_old'): x['title'] = e['title']   # keep hook titles set by hand (growth system, 2026-11-21)
     if s == 'chokepoints':
         o = x['id'].split('-')[0]; n = heads.index(x['id']) + 1
         x['cover'] = f'videos/out/headlines/{o}/cover.jpg'
