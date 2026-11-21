@@ -36,12 +36,14 @@ Every Sunday: 3 facts like this, 20 seconds.
 
 ## Issue #1: Sunday 29 Nov 2026 (scheduled)
 
+Links updated on Beehiiv on 22 Nov 2026 to the reworked long videos. The ghost item links the long video because the old ghost intro Short is parked on 31 Dec. The welcome email still links that parked Short (jvtBTTK1Aj4); it shows "Unpublished changes" on Beehiiv, so it was left alone until those are checked.
+
 ```
 Subject: A tick bite can make you allergic to meat
 Preview: 3 facts. 20 seconds.
 
 1. A tick bite can make you allergic to red meat. → https://youtu.be/4NfbKgvcXCg
-2. 100 trillion ghost particles pass through you every second. → https://youtube.com/shorts/jvtBTTK1Aj4
+2. 100 trillion ghost particles pass through you every second. → https://youtu.be/bciJXNAlabs
 3. In one US region, strokes in adults aged 20 to 54 nearly doubled in 30 years. → https://youtu.be/I7KHF1YCZic
 
 Reply with a question. The best ones become videos.
