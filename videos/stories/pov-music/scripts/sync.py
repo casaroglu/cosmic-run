@@ -125,8 +125,8 @@ def word_time(word, nth=1):
     raise SystemExit(f"word {word!r} (#{nth}) not in lyrics")
 
 keys = []
-for rk in spec.get("ride_keys") or [{"at": "crest", "line": lines[2], "offset": -0.4},
-                                    {"at": "loopTop", "line": "loop", "offset": 0.5}]:
+for rk in spec["ride_keys"] if "ride_keys" in spec else [{"at": "crest", "line": lines[2], "offset": -0.4},
+                                                         {"at": "loopTop", "line": "loop", "offset": 0.5}]:
     keys.append({"at": rk["at"], "t": round(line_time(rk["line"], rk.get("nth", 1)) + rk.get("offset", 0), 3)})
 props = []
 for p in spec.get("props", []):

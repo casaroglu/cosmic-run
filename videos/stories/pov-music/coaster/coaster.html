@@ -400,7 +400,7 @@ function drawCaptions(t) {
   const sp = 24, words = c.map(w => w.w.toUpperCase()), widths = words.map(w => octx.measureText(w).width);
   const total = widths.reduce((a, b) => a + b, 0) + sp * (c.length - 1), scale = Math.min(1, 980 / total);
   const pop = backOut((t - c.s) / 0.18);
-  octx.save(); octx.translate(W / 2, 1380); octx.scale(scale * (0.85 + 0.15 * pop), scale * (0.85 + 0.15 * pop));
+  octx.save(); octx.translate(W / 2, TL.captionY || (MODE === 'sled' ? 1200 : 1380)); octx.scale(scale * (0.85 + 0.15 * pop), scale * (0.85 + 0.15 * pop));
   octx.rotate(Math.sin(t * 2.1) * 0.015);
   let x = -total / 2; octx.textBaseline = 'middle'; octx.lineJoin = 'round';
   c.forEach((w, i) => {

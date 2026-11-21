@@ -43,7 +43,18 @@ On 16 GB the LM and DiT don't fit on the GPU together (MPS out of memory at batc
 | | Song | World | Track |
 |---|---|---|---|
 | proto_02 | "Pizza Moon", nu-disco house 122 BPM, male vocal | `city_night`: neon skyline, starry sky, rooftop signs | mirrored layout |
-| proto_03 | "Snowman Wants a Tan", tropical house 126 BPM, female vocal | `snow`: snowy hills, snow-capped pines, snowfall | original layout |
+| proto_03 | "Snowman Wants a Tan", tropical house 126 BPM, female vocal | `snow`: snowy forest, snow-capped pines, snowfall | **sled mode** (no rails): a trail glued to rolling snow hills, lanterns instead of rail bulbs |
+
+Not every video has to be a coaster. `track.mode: "sled"` turns the same engine into a ground ride
+(the camera sits low on a sled, the speed eases off uphill). Characters hide behind a big tree and
+**step out onto the trail edge as their word is sung** (`emerge`, default in sled mode). Next
+formats on the same timing system: a hallway where doors open on each noun, a football pitch where
+opponents run at you, a side-scrolling walk where characters enter from left/right.
+
+Song picking: generate 2–4 seeds and keep the one where Whisper matches most lyric tokens. Seeds
+regularly drop a verse, sing "ah ah" for half the song or skip chorus lines (see `picked` in each
+`song.json`). The medium Whisper model sometimes skips a 15 s stretch of a song; `"whisper":
+"small.en"` in `song.json` switches the model per song.
 
 **How lyrics map to visuals** (`song.json` → `ride_keys` and `props`, resolved to times by `sync.py`):
 - **Every concrete noun is a prop you pass the moment it's sung.** The prop pops in ~2.5 s before

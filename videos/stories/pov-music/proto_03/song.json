@@ -9,6 +9,8 @@
   "duration": 62,
   "keyscale": "D major",
   "seeds": [
+    58,
+    2026,
     91,
     512
   ],
@@ -91,5 +93,11 @@
       "side": "left",
       "dist": 4.2
     }
-  ]
+  ],
+  "picked": {
+    "seed": 91,
+    "file": "gen2/44f30899-1fe2-8c34-ebc0-ac32b518c8a9.wav",
+    "why": "Whisper small.en matched 98/112 tokens; seeds 58/2026 dropped verse 1 or half of verse 2, seed 512 sang ah-ah for 30 s"
+  },
+  "whisper": "small.en"
 }
