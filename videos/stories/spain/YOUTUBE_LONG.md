@@ -1,6 +1,6 @@
 # The Entire History of Spain
 
-Status: ready, not uploaded yet (2026-11-19 upload blocked by YouTube's daily upload limit).
+Published 2026-11-20 (public): https://youtu.be/Hnb7MvagUOA (uploaded by the user; credits comment posted, not pinned)
 Thumbnail: `videos/out/spain/long/thumbnail_gemini.jpg` (Gemini, based on Titian's Charles V at Mühlberg, public domain).
 
 ## Title
