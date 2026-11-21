@@ -6,3 +6,8 @@ videos/stories/spain/longform/globe/node_modules/
 videos/stories/headlines/_geo/
 videos/stories/**/sketch/*.mp4
 videos/stories/_borders/
+tools/venv-*/
+tools/ace-step/
+videos/stories/pov-music/**/*.wav
+videos/stories/pov-music/**/test/
+videos/stories/pov-music/**/gen/

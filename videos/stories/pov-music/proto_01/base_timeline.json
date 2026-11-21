@@ -1,0 +1,43 @@
+{
+ "duration": 60,
+ "fps": 30,
+ "seed": 11,
+ "accent": "#ffe14a",
+ "title": [
+  "POV: THE COASTER",
+  "HAS LYRICS"
+ ],
+ "palette": {
+  "skyTop": "#3b7fd9",
+  "skyHor": "#ffd6a8",
+  "fog": "#cfe0f0",
+  "sun": "#fff2cc",
+  "sunDir": [
+   -0.4,
+   0.35,
+   0.85
+  ],
+  "ground": "#5f9e3a",
+  "ground2": "#87b84a",
+  "rock": "#7a7368",
+  "water": "#2f7fb8",
+  "rail": "#e8452f",
+  "spine": "#f2f2f2",
+  "support": "#ececec",
+  "cart": "#ff2d6b",
+  "trees": [
+   "#2f6b2a",
+   "#3f8a33",
+   "#4f9a3d",
+   "#2b5e3a"
+  ],
+  "balloons": [
+   "#ff3b6b",
+   "#ffd23b",
+   "#3bd1ff",
+   "#9b5bff",
+   "#5bff8a"
+  ]
+ },
+ "out": "../../../out/pov-music/proto_01.mp4"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Noodle in the Soup",
+  "caption": "Upbeat funky house track at 124 BPM, four-on-the-floor kick, offbeat open hi-hats, claps, bouncy house piano chords, deep rolling bassline, bright synth stabs, playful energetic female pop vocal with a cheeky tone, catchy sing-along chorus, summer festival dance energy, clean modern mix",
+  "lyrics": "[Intro - house beat with piano stabs]\n\n[Verse]\nI left my sandwich at the top of the hill\nNow it's flying right behind me, what a sandwich thrill\nMy hat went left and my hair went right\nI'm screaming in C major and it sounds alright\n\n[Chorus]\nLoop-de-loop, I'm a noodle in the soup\nSpinning with a goose and a chicken in a group\nHands up high, let the gravity go\nLoop-de-loop, nobody told me so\n\n[Chorus]\nLoop-de-loop, I'm a noodle in the soup\nSpinning with a goose and a chicken in a group\nHands up high, let the gravity go\nLoop-de-loop, nobody told me so\n\n[Outro - instrumental]",
+  "bpm": 124,
+  "duration": 62,
+  "keyscale": "A minor",
+  "seeds": [
+    1207,
+    4242
+  ],
+  "lm": "acestep-5Hz-lm-1.7B",
+  "caption_lyrics": "[Intro - house beat with piano stabs]\n\n[Verse]\nI left my sandwich at the top of the hill\nNow it's flying right behind me, what a sandwich thrill\nMy hat went left and my hair went right\nI'm screaming in C major and it sounds alright\n\n[Chorus]\nLoop-de-loop, I'm a noodle in the soup\nSpinning with a goose and a chicken in a group\nHands up high, let the gravity go\nLoop-de-loop, nobody told me so\n\n[Chorus]\nLoop-de-loop, I'm a noodle in the soup\nSpinning with a goose and a chicken in a group\nHands up high, let the gravity go\nLoop-de-loop, nobody told me so\n\n[Chorus]\nLoop-de-loop, I'm a noodle in the soup\nSpinning with a goose and a chicken in a group\nHands up high, let the gravity go\nLoop-de-loop, nobody told me so\n\n[Outro - instrumental]",
+  "note": "Song generated from \"lyrics\" (2 choruses); ACE-Step sang the chorus 3 times, so captions use caption_lyrics.",
+  "picked": {
+    "seed": 1207,
+    "file": "gen/23e580a1-d56e-63d4-9820-b512fac9d009.wav",
+    "why": "seed 4242 barely sang the chorus (40/96 tokens); 1207 aligned 81/96"
+  }
+}
