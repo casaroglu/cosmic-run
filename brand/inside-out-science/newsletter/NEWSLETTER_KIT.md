@@ -3,8 +3,9 @@
 **Rule:** as short as possible. Each item is one fact plus one video link. No intro paragraph and no sign-off essay. It should take 20 seconds to read.
 
 - Sent every Sunday, 17:00 TR (09:00 US Eastern), from "Inside Out Science".
-- Platform: Beehiiv recommended (free starter plan, referral program). Sign-up, password and email verification are done by the user; Claude does the rest.
-- Once the list exists, add `Free Sunday email, 3 facts in 20 seconds: <link>` to Short descriptions (live queue `videos/stories/body/ios_shorts_queue.json`) and the channel links.
+- **Live on Beehiiv** (free plan, its own Beehiiv account, separate from the History Sketches Weekly account). Sign-up page: https://thisweekinsideyou.beehiiv.com/subscribe
+- Done on 21 Nov 2026: name, description, logo and preview image (`og_1200x630.jpg`); welcome email published and switched on (ghost-particles Short); Issue #1 scheduled for Sun 29 Nov 17:00 TR; sign-up line added to the 98 `todo` Shorts in `videos/stories/body/ios_shorts_queue.json`.
+- Issue #1 links only videos public by 29 Nov 17:00 (the measles Short and long video go live after it), so it covers alpha-gal, ghost particles and young strokes instead of measles.
 
 ## Template (every issue)
 
@@ -33,22 +34,21 @@ Your nose fires decoys at viruses, and fewer when it's cold. → ▶ <link to th
 Every Sunday: 3 facts like this, 20 seconds.
 ```
 
-## Issue #1: Sunday 29 Nov 2026
+## Issue #1: Sunday 29 Nov 2026 (scheduled)
 
 ```
-Subject: Measles can erase your immune memory
+Subject: A tick bite can make you allergic to meat
 Preview: 3 facts. 20 seconds.
 
-1. Measles wiped 11–73% of kids' antibody memory. → ▶ <measles Short>
-2. A tick bite can make you allergic to red meat. → ▶ <alpha-gal Short>
-3. 100 trillion ghost particles pass through you every second. → ▶ https://youtube.com/shorts/jvtBTTK1Aj4
-
-Full video of the week: Measles Erases Your Immune Memory → https://youtu.be/WIw0mbC4s9o
+1. A tick bite can make you allergic to red meat. → https://youtu.be/KdyR_yzHWGg
+2. 100 trillion ghost particles pass through you every second. → https://youtube.com/shorts/jvtBTTK1Aj4
+3. In one US region, strokes in adults aged 20 to 54 nearly doubled in 30 years. → https://youtu.be/xrDMkhOL20w
 
 Reply with a question. The best ones become videos.
+Not medical advice. Sources are in each video's description.
 ```
 
-Fill in the Short links from the live queue and use only links already public by Sunday. Check every number against the episode README fact table.
+Measles goes into issue #2 (6 Dec), when its Short and long video are public.
 
 ## Weekly routine (10 min, Saturday)
 
