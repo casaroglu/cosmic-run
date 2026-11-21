@@ -50,10 +50,10 @@ After the account exists, Claude can do the rest:
 
 ## Issue #1 (draft for Sunday 29 Nov 2026)
 
-**Subject:** Christmas Eve, 10 p.m., and 2 other things inside you
-**Preview:** The riskiest hour of the year for your heart.
+**Subject:** Measles can erase your immune memory, and 2 other things inside you
+**Preview:** Plus a tick that turns people off steak.
 
-1. **Measles can erase your immune memory.** After an infection, kids lost 11–73% of their existing antibodies, as if their immune "wanted posters" were wiped. The vaccine doesn't do this. ▶ Short + full video link.
+1. **Measles can erase your immune memory.** After an infection, kids lost 11–73% of their antibody repertoire, as if their immune "wanted posters" were wiped. The vaccine doesn't do this. ▶ Short + full video link.
 2. **A tick bite can make you allergic to red meat.** The lone star tick's bite can teach your body to attack a sugar called alpha-gal, with reactions hours after dinner. ▶ Short link.
 3. **Ghost particles.** About 100 trillion neutrinos pass through you every second, and almost all of them fly straight through without touching anything. ▶ Short link.
 
