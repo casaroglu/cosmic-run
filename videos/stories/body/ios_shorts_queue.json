@@ -168,8 +168,7 @@
   "publish": "2026-11-27 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 11,
-  "rework_pending": true
+  "order": 11
  },
  {
   "ep": "10-hubble",
@@ -267,8 +266,7 @@
   "publish": "2026-12-01 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 18,
-  "rework_pending": true
+  "order": 18
  },
  {
   "ep": "14-winter-sick",
@@ -423,8 +421,7 @@
   "publish": "2026-12-06 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 29,
-  "rework_pending": true
+  "order": 29
  },
  {
   "ep": "05-xmas-dinner",
@@ -699,8 +696,7 @@
   "publish": "2026-12-16 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 48,
-  "rework_pending": true
+  "order": 48
  },
  {
   "ep": "14-winter-sick",
@@ -910,8 +906,7 @@
   "publish": "2026-12-23 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 63,
-  "rework_pending": true
+  "order": 63
  },
  {
   "ep": "14-winter-sick",
@@ -1037,8 +1032,7 @@
   "publish": "2026-12-28 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 72,
-  "rework_pending": true
+  "order": 72
  },
  {
   "ep": "14-winter-sick",
@@ -1164,8 +1158,7 @@
   "publish": "2027-01-01 22:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 81,
-  "rework_pending": true
+  "order": 81
  },
  {
   "ep": "14-winter-sick",
@@ -1263,8 +1256,7 @@
   "publish": "2027-01-05 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 88,
-  "rework_pending": true
+  "order": 88
  },
  {
   "ep": "14-winter-sick",
@@ -1348,8 +1340,7 @@
   "publish": "2027-01-08 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 94,
-  "rework_pending": true
+  "order": 94
  },
  {
   "ep": "14-winter-sick",
@@ -1405,8 +1396,7 @@
   "publish": "2027-01-10 16:00 Europe/Istanbul",
   "url": null,
   "status": "todo",
-  "order": 98,
-  "rework_pending": true
+  "order": 98
  },
  {
   "ep": "14-winter-sick",

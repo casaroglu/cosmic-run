@@ -4,6 +4,7 @@
 **Hook (cover):** TICK BITE = MEAT ALLERGY
 **Format:** Q&A — Ava (`af_heart`) asks, Theo (`bm_fable`) answers; 1381 words, 18 questions, 8:18 with thumbnail intro and 10 s end screen.
 **Thumbnail:** `thumb/thumbnail.jpg` (Gemini, from `thumb/style_ref.jpg` = our own frames). Overlap audit at 0.1 s: 0 issues.
+**Visual rework (2026-11-21):** `topic.js` redrawn in the ep 11+ "interacting icons" style (common.js cast/beats + icons2.js; several icons per line acting on each other); script, voice and word timings unchanged; re-rendered, re-mixed, re-mastered and Shorts re-cut; overlap audit at 0.1 s: ok.
 
 ## YouTube chapters
 0:00 Intro: can a tick bite make you allergic to meat?
