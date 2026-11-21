@@ -31,3 +31,5 @@ Queue: `instagram_daily_queue.json` (Chokepoints 01a–08, then Ottoman 01–14)
 | date | id | url |
 |---|---|---|
 | 2026-11-18 | chokepoints-01a | https://www.instagram.com/historysketchesdaily/reel/Df27y1UtOIY/ |
+
+**2026-11-21 11:35 (scheduled run):** Chrome is signed out of Instagram (only a saved "canberkasaroglu" login is offered), and https://www.instagram.com/historysketchesdaily/ shows "Profile mevcut değil" when viewed signed out; the 01a reel link also redirects there. Nothing scheduled; waiting for the user to check the account.
