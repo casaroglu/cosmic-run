@@ -104,22 +104,51 @@ for i, w in enumerate(words):
     w["t0"], w["t1"] = round(float(t0[i]), 3), round(float(t1[i]), 3)
 words = [w for w in words if w["t0"] < DUR - 0.5]
 
-# ---------- ride keys ----------
-first_of_line = {}
-for w in words:
-    first_of_line.setdefault(w["line"], w["t0"])
-loop_line = next(i for i, ln in enumerate(lines) if ln.lower().startswith("loop"))
-t_crest = first_of_line.get(2, 15.0) - 0.4
-t_loop = first_of_line[loop_line] + 0.5
-print(f"crest at {t_crest:.2f}s, loop top at {t_loop:.2f}s")
+# ---------- ride keys + lyric props ----------
+def line_time(prefix, nth=1):
+    """start time of the nth lyric line beginning with prefix"""
+    k = 0
+    for li, ln in enumerate(lines):
+        if ln.lower().startswith(prefix.lower()):
+            k += 1
+            if k == nth:
+                return next(w["t0"] for w in words if w["line"] == li)
+    raise SystemExit(f"no lyric line starts with {prefix!r} (#{nth})")
+
+def word_time(word, nth=1):
+    k = 0
+    for w in words:
+        if norm(w["w"]) == norm(word):
+            k += 1
+            if k == nth:
+                return w["t0"]
+    raise SystemExit(f"word {word!r} (#{nth}) not in lyrics")
+
+keys = []
+for rk in spec.get("ride_keys") or [{"at": "crest", "line": lines[2], "offset": -0.4},
+                                    {"at": "loopTop", "line": "loop", "offset": 0.5}]:
+    keys.append({"at": rk["at"], "t": round(line_time(rk["line"], rk.get("nth", 1)) + rk.get("offset", 0), 3)})
+props = []
+for p in spec.get("props", []):
+    q = {k: v for k, v in p.items() if k not in ("word", "line", "nth", "offset")}
+    t = word_time(p["word"], p.get("nth", 1)) if "word" in p else line_time(p["line"], p.get("nth", 1))
+    q["t"] = round(t + p.get("offset", 0), 3)
+    props.append(q)
+for k in keys:
+    print(f"key {k['at']} at {k['t']:.2f}s")
+for p in props:
+    print(f"prop {p['type']:<12} at {p['t']:6.2f}s")
 
 tl = json.load(open(os.path.join(d, "base_timeline.json")))
 tl.update({
     "duration": DUR, "audio": wav, "words": words,
     "beats": [round(float(b), 3) for b in beats if b < DUR],
     "downbeats": [round(float(b), 3) for b in downbeats if b < DUR],
-    "keys": [{"at": "crest", "t": round(t_crest, 3)}, {"at": "loopTop", "t": round(t_loop, 3)}],
+    "keys": keys, "props": props,
     "liftSpeed": 4.0,
 })
+for k in ("world", "track", "title", "accent", "seed"):   # per-song overrides
+    if k in spec:
+        tl[k] = spec[k]
 json.dump(tl, open(os.path.join(d, "timeline.json"), "w"), indent=1)
 print("wrote", os.path.join(d, "timeline.json"))

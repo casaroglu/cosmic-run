@@ -1,0 +1,48 @@
+{
+ "duration": 60,
+ "fps": 30,
+ "seed": 11,
+ "accent": "#ffe14a",
+ "title": [
+  "POV: THE COASTER",
+  "HAS LYRICS"
+ ],
+ "palette": {
+  "skyTop": "#070720",
+  "skyHor": "#3b1a5e",
+  "fog": "#1c1236",
+  "fogNear": 60,
+  "fogFar": 650,
+  "sun": "#000000",
+  "sunDir": [
+   0.3,
+   0.5,
+   -0.8
+  ],
+  "hemiSky": "#5a5aff",
+  "hemiGround": "#1a1030",
+  "hemi": 0.8,
+  "sunLight": "#8fa8ff",
+  "sunI": 0.9,
+  "ground": "#1a1a24",
+  "ground2": "#24242f",
+  "rock": "#2a2438",
+  "cap": "#3a3050",
+  "hills": 0,
+  "mount": 0.35,
+  "rail": "#3df0ff",
+  "spine": "#2a2a3a",
+  "support": "#3a3a4a",
+  "cart": "#ff3df0",
+  "lights": [
+   "#ff3df0",
+   "#3df0ff",
+   "#ffe14a"
+  ],
+  "trees": [
+   "#000000"
+  ]
+ },
+ "out": "../../../out/pov-music/proto_02.mp4",
+ "world": "city_night"
+}

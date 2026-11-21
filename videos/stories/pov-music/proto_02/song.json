@@ -1,0 +1,114 @@
+{
+  "title": [
+    "POV: NIGHT RIDE",
+    "UNDER A PIZZA MOON"
+  ],
+  "caption": "Funky nu-disco house at 122 BPM, four-on-the-floor kick, slap bass groove, disco strings, wah guitar chops, vocoder ad-libs, cowbell, playful charismatic male pop vocal, big catchy sing-along chorus, late-night city party energy, clean modern mix",
+  "lyrics": "[Intro - house beat]\n\n[Verse 1]\nMidnight in the city and the pizza's on the moon\nTaxi full of pigeons singing out of tune\nNeon on the windows flashing pink and blue\nHold on to your noodles, we are coming through\n\n[Chorus]\nUp to the rooftop, down to the street\nPizza moon is shining on my dancing feet\nUpside down and the city goes round\nPizza moon, never coming down\n\n[Verse 2]\nGrandma on a scooter doing ninety in the rain\nDancing with a robot on a disco train\nHot dog in a tuxedo waving from the bar\nEverybody's singing, we're a pizza star\n\n[Chorus]\nUp to the rooftop, down to the street\nPizza moon is shining on my dancing feet\nUpside down and the city goes round\nPizza moon, never coming down\n\n[Outro - instrumental]",
+  "bpm": 122,
+  "duration": 62,
+  "keyscale": "F minor",
+  "seeds": [
+    310,
+    777
+  ],
+  "lm": "acestep-5Hz-lm-1.7B",
+  "world": "city_night",
+  "song_title": "Pizza Moon",
+  "accent": "#3df0ff",
+  "seed": 23,
+  "track": {
+    "mirror": true
+  },
+  "ride_keys": [
+    {
+      "at": "crest",
+      "line": "Up to the rooftop",
+      "offset": -0.2
+    },
+    {
+      "at": "loopTop",
+      "line": "Upside down",
+      "offset": 0.6
+    }
+  ],
+  "props": [
+    {
+      "word": "pizza's",
+      "type": "pizzaMoon",
+      "sky": true,
+      "appear": 6
+    },
+    {
+      "word": "Taxi",
+      "type": "taxi",
+      "ride": true,
+      "hold": 3.5,
+      "side": "right"
+    },
+    {
+      "word": "Neon",
+      "type": "neon"
+    },
+    {
+      "word": "Neon",
+      "type": "sign",
+      "args": [
+        "NEON!",
+        "#ff3df0"
+      ],
+      "side": "left",
+      "dist": 5.5
+    },
+    {
+      "word": "noodles",
+      "type": "noodleTunnel",
+      "args": [
+        16
+      ]
+    },
+    {
+      "word": "Grandma",
+      "type": "grandma",
+      "ride": true,
+      "hold": 3.5,
+      "side": "left",
+      "scale": 1.5
+    },
+    {
+      "word": "robot",
+      "type": "robot",
+      "scale": 2.4,
+      "side": "right"
+    },
+    {
+      "word": "train",
+      "type": "discoTrain",
+      "ride": true,
+      "hold": 3.0,
+      "side": "left",
+      "dist": 6,
+      "scale": 1.2
+    },
+    {
+      "word": "Hot",
+      "type": "hotdog",
+      "scale": 2.2,
+      "side": "right"
+    },
+    {
+      "word": "star",
+      "type": "sign",
+      "args": [
+        "PIZZA STAR",
+        "#ffe14a"
+      ],
+      "side": "left"
+    }
+  ],
+  "picked": {
+    "seed": 310,
+    "file": "gen/c46860c3-4864-d7cc-3506-90e07194c37e.wav",
+    "why": "Whisper small.en matched 112/123 lyric tokens; seed 777 skipped most of the chorus and verse 2 (46/123)"
+  }
+}

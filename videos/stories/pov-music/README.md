@@ -38,6 +38,33 @@ node videos/stories/pov-music/coaster/render.mjs videos/stories/pov-music/proto_
 On 16 GB the LM and DiT don't fit on the GPU together (MPS out of memory at batch 2), so
 `gen_song.py` uses `offload_to_cpu=True` and generates one seed at a time.
 
+## Prototypes 02–03: one world per song, lyrics drive the visuals
+
+| | Song | World | Track |
+|---|---|---|---|
+| proto_02 | "Pizza Moon", nu-disco house 122 BPM, male vocal | `city_night`: neon skyline, starry sky, rooftop signs | mirrored layout |
+| proto_03 | "Snowman Wants a Tan", tropical house 126 BPM, female vocal | `snow`: snowy hills, snow-capped pines, snowfall | original layout |
+
+**How lyrics map to visuals** (`song.json` → `ride_keys` and `props`, resolved to times by `sync.py`):
+- **Every concrete noun is a prop you pass the moment it's sung.** The prop pops in ~2.5 s before
+  the word and sits ~15–30 m ahead (by speed) when the word lands, so it's in frame as you hear it.
+  "Taxi full of pigeons" → yellow taxi with pigeons flies alongside; "Yeti in a bathrobe talking on
+  the phone" → yeti in a pink robe holding a phone; "Marshmallow avalanche" → marshmallows rain down.
+- **Moving characters ride with you** (`ride: true`): grandma on a scooter, disco train, penguin on
+  a skateboard, reindeer on a jet ski keep pace for ~3.5 s.
+- **Motion words are pinned to the ride:** the lift crest lands on "Up to the rooftop" / "Slide,
+  slide" (the drop follows straight away), and the top of the loop lands on "Upside down" / "Spin
+  around and touch the sky".
+- **Scene words change the world:** "noodles… coming through" → a tunnel of noodle rings; "Neon on
+  the windows" → every rooftop sign flares; "Icicles are ringing" → an icicle arch over the track.
+- Words with no object get a neon word sign (`sign` prop), e.g. "PIZZA STAR".
+- **Bass:** the camera doesn't shake any more (no shake, no beat dip, no FOV punch). The kick drum
+  pulses light instead: rail bulbs, neon signs, the robot's antenna, the disco train and the icicles.
+
+Prop library (`coaster/props.js`, all low-poly primitives): pizza, pizzaMoon, pigeon, taxi, grandma,
+robot, discoTrain, hotdog, noodleTunnel, snowman, penguin, icicleArch, yeti, cocoaRiver, reindeer,
+polarBear, bed, sign. Add a builder there, then reference it from a song's `props`.
+
 ## Licenses (everything used is OK for commercial use)
 
 | Tool / model | Used for | License | Commercial output |
