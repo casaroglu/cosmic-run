@@ -35,6 +35,12 @@ Series live in `videos/stories/<series>/NN-slug/` (index: `videos/stories/<serie
 4. When uploads arrive: `scripts/add_images.py episode.json <upload1> <upload2> ...` (fills missing images in order, scales to ≤2400 px). Look at each upload to confirm it is the right painting, then set each `move` so the camera lands on faces/action.
 5. Preview stills → fix → full render with `make_video.sh` (it refuses to render while images are missing) → send MP4 → update the series README status → commit + push.
 
+## Hook + loop rule (user, 2026-11-23, every Short on every channel)
+- **First 1.5 s = payoff or visual shock**, never setup. History episodes: add a cold-open beat before the title question that shows the most striking scene and says the outcome in one line (e.g. "A stuck ship froze world trade for six days."). The title question then asks how it happened.
+- **Loop:** write the last line so it flows back into the opening line (the ending sets up the cold open). Keep the CTA short and put it before the last line, not after it.
+- **Hidden key text:** flash the single key fact as on-screen text for about 1 s in the last second.
+- Inside Out Science explainers do this automatically in `videos/stories/body/_engine/shorts.mjs`.
+
 ## Tuning knobs
 - Too long? Cut narration lines first, keep the chat beats. Target ≤ 55 s.
 - Mispronounced word / number → add `"say": "spoken version"` on that beat (e.g. `"3 AM"` → `"three A M"`).
