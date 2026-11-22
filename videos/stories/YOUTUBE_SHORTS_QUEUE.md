@@ -47,10 +47,10 @@ Source of truth: `youtube_shorts_queue.json` (scheduled task `history-sketches-y
 | 2026-12-05 16:00 | History of Spain | 05a-1808 | Napoleon took Spain's crown without a battle | scheduled | [tMsnczJcGIo](https://youtube.com/shorts/tMsnczJcGIo) |
 | 2026-12-05 22:00 | History of Spain | 05b-the-little-war | This English word comes from Spain's war on Napoleon | scheduled | [-hcDt1zt9hs](https://youtube.com/shorts/-hcDt1zt9hs) |
 | 2026-12-06 16:00 | History of Spain | 06-spanish-succession | A dying king's will started a world war | scheduled | [f-LJUeA6xIo](https://youtube.com/shorts/f-LJUeA6xIo) |
-| 2026-12-06 22:00 | History of Spain | 07-cadiz-1812 | The word 'liberal' was born in this Spanish city | draft (thumbnail blocked: daily custom thumbnail limit) | [1MM6aGLUPQk](https://youtube.com/shorts/1MM6aGLUPQk) |
-| 2026-12-07 16:00 | History of Spain | 08-1898 | A 400-year empire ended in one summer | todo |  |
-| 2026-12-07 22:00 | History of Spain | 09a-republic | From new republic to civil war in five years | todo |  |
-| 2026-12-08 16:00 | History of Spain | 09b-civil-war | How Spain's civil war became the world's war | todo |  |
-| 2026-12-08 22:00 | History of Spain | 10-transition | A dictator's chosen heir gave Spain democracy | todo |  |
+| 2026-12-06 22:00 | History of Spain | 07-cadiz-1812 | The word 'liberal' was born in this Spanish city | scheduled | [1MM6aGLUPQk](https://youtube.com/shorts/1MM6aGLUPQk) |
+| 2026-12-07 16:00 | History of Spain | 08-1898 | A 400-year empire ended in one summer | scheduled | [lMLWOkH1ZxI](https://youtube.com/shorts/lMLWOkH1ZxI) |
+| 2026-12-07 22:00 | History of Spain | 09a-republic | From new republic to civil war in five years | scheduled | [r1VcVm1O2wQ](https://youtube.com/shorts/r1VcVm1O2wQ) |
+| 2026-12-08 16:00 | History of Spain | 09b-civil-war | How Spain's civil war became the world's war | scheduled | [I7zkZwc9xbk](https://youtube.com/shorts/I7zkZwc9xbk) |
+| 2026-12-08 22:00 | History of Spain | 10-transition | A dictator's chosen heir gave Spain democracy | scheduled | [wxHfsN03WtU](https://youtube.com/shorts/wxHfsN03WtU) |
 
-Totals: {'scheduled': 43, 'draft': 1, 'todo': 4}
+Totals: {'scheduled': 48}
