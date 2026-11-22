@@ -4,7 +4,7 @@ Slots: 16:00 and 22:00 Istanbul. Source of truth: ios_shorts_queue.json.
 
 | Publish | Episode | Title | Status | Link |
 |---|---|---|---|---|
-| 2026-11-22 16:00 | 04-dino-blood | Scientists found dinosaur blood?! | todo (cover ready) |  |
+| 2026-11-22 16:00 | 04-dino-blood | Scientists found dinosaur blood?! | draft (thumbnail blocked) | https://youtube.com/shorts/i_pb4zT7-ag |
 | 2026-11-22 22:00 | 06-ghost-particles | Trillions of particles just went through you | todo (cover ready) |  |
 | 2026-11-23 16:00 | 10-hubble | Hubble is falling and could come down in 2033 | todo (cover ready) |  |
 | 2026-11-23 22:00 | 04-dino-blood | Your body makes 2 million red blood cells every second | todo (cover ready) |  |
