@@ -35,7 +35,8 @@ function payoff(s) {   // the segment's strongest answer line: one with a number
 }
 function keyText(line) {   // the clause that carries the number, at most 9 words
   const cl = line.text.split(/(?<=[.;:!?])\s+|,\s+(?=[a-z])|\s+—\s+/).map(x => x.trim()).filter(Boolean);
-  let k = cl.find(c => NUM.test(c)) || cl[0]; const w = k.split(/\s+/); if (w.length > 12) k = w.slice(0, 12).join(' ') + '…';
+  const sent = line.text.split(/(?<=[.!?])\s+/).map(x => x.trim()).filter(Boolean);   // whole sentence when the number clause is too thin ("In 2017")
+  let k = cl.find(c => NUM.test(c) && c.split(/\s+/).length >= 4) || sent.find(c => NUM.test(c)) || cl.find(c => c.split(/\s+/).length >= 4) || sent[0]; const w = k.split(/\s+/); if (w.length > 12) k = w.slice(0, 12).join(' ') + '…';
   return k.replace(/[.,;:]$/, '').toUpperCase();
 }
 const COLD = 1.5, REW = 0.35, FLASH = 1.0, BLEND = 0.35, fps = 30, list = onlyArg != null ? [segs[Number(onlyArg)]] : segs;
