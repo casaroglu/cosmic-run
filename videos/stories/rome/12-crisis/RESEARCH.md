@@ -41,3 +41,9 @@ Left out on purpose: the exact number of murdered emperors (sources count claima
 ## Cover (for the main session)
 Hooks: **26 EMPERORS IN 50 YEARS** · **THE DEADLIEST JOB IN ROME** · **AN EMPEROR AS A FOOTSTOOL**
 Reference image for Gemini: Holbein, *The Humiliation of Emperor Valerian by Shapur* (PD) for the scene; or the Met bronze of Trebonianus Gallus (CC0) for a soldier-emperor figure. Suggested cover: an empty throne with a pile of fallen laurel crowns, a soldier-emperor statue behind it.
+
+## Style B+C version (final, 2026-11-23)
+- Built in `~/cizgi/rome-12-crisis` with the cizgi kit: Ava (q) and Theo (a) as cartoon presenters, representative cartoon characters (no likenesses) in front of the real images above as backdrops (B); dossier, pinned photo/coin and parchment map cards with the same images, facts and borders (C).
+- Hook/loop: frame 0 is the cold-open image with the hook text; CTA with "FOLLOW HISTORY SKETCHES" on screen; loop line; key text flashes in the last ~1 s; the last 12 frames cross-fade into frame 0. `out/chapter.mp4` = the same cut ending just before the CTA.
+- Sound: Kokoro voices, generated "epic" music, content sounds only (paper, stamp, pop, coin, tick, bell, ding, thud); no whoosh/swish/zip/riser.
+- The Met bronze of Trebonianus Gallus is a nude statue: shown whole in the dossier, with the groin blurred and covered by a flower emoji (not cropped).

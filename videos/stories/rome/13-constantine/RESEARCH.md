@@ -41,3 +41,8 @@ Left out on purpose: Crispus and Fausta, the Council of Nicaea (325), the exact 
 ## Cover (for the main session)
 Hooks: **THE EMPEROR WHO MOVED ROME** · **HE MOVED ROME TO ISTANBUL** · **ROME'S CAPITAL WASN'T ROME**
 Reference image for Gemini: the colossal head of Constantine, Capitoline Museums (PD photo by D. Benjamin Miller; Commons "Colossal head of Constantine (M.C. inv. 1072)"). Suggested cover: Constantine in armour pointing at the Bosphorus with the new city and the porphyry column behind him.
+
+## Style B+C version (final, 2026-11-23)
+- Built in `~/cizgi/rome-13-constantine` with the cizgi kit: Ava (q) and Theo (a) as cartoon presenters, representative cartoon characters (no likenesses) in front of the real images above as backdrops (B); dossier, pinned photo/coin and parchment map cards with the same images, facts and borders (C).
+- Hook/loop: frame 0 is the cold-open image with the hook text; CTA with "FOLLOW HISTORY SKETCHES" on screen; loop line; key text flashes in the last ~1 s; the last 12 frames cross-fade into frame 0. `out/chapter.mp4` = the same cut ending just before the CTA.
+- Sound: Kokoro voices, generated "epic" music, content sounds only (paper, stamp, pop, coin, tick, bell, ding, thud); no whoosh/swish/zip/riser.
