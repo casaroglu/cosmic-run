@@ -326,6 +326,24 @@
  },
  "beats": [
   {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "camuccini",
+   "move": {
+    "from": [
+     0.42,
+     0.52,
+     1.35
+    ],
+    "to": [
+     0.42,
+     0.52,
+     1.15
+    ]
+   },
+   "text": "Twenty-three stab wounds, and only one of them was fatal."
+  },
+  {
    "type": "title",
    "speaker": "q",
    "scene": "globe",
@@ -542,17 +560,35 @@
   {
    "type": "narration",
    "speaker": "a",
-   "text": "Next time: Octavian becomes Augustus, the first emperor. Like the video and follow History Sketches so you don't miss it."
+   "text": "Next time: Octavian becomes Augustus, the first emperor. Like the video and follow History Sketches so you don't miss it.",
+   "cta": true
   },
   {
    "type": "narration",
    "speaker": "q",
-   "text": "And tell us in the comments: was Brutus a hero or a traitor?"
+   "text": "And tell us in the comments: was Brutus a hero or a traitor?",
+   "cta": true
   },
   {
-   "type": "end",
-   "text": "Next: Augustus",
-   "sub": "Follow History Sketches"
+   "type": "narration",
+   "speaker": "a",
+   "scene": "camuccini",
+   "move": {
+    "from": [
+     0.42,
+     0.52,
+     1.15
+    ],
+    "to": [
+     0.42,
+     0.52,
+     1.35
+    ]
+   },
+   "text": "And on the Ides of March, his own senators closed in around him."
   }
- ]
+ ],
+ "loop": {
+  "key": "Ides of March, 44 BC"
+ }
 }

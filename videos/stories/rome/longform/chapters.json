@@ -1,0 +1,152 @@
+[
+ {
+  "n": 1,
+  "out": "01-wolf",
+  "title": "The She-Wolf",
+  "years": "753 BC",
+  "lat": 41.89,
+  "lon": 12.49,
+  "place": "Rome",
+  "part": 1
+ },
+ {
+  "n": 2,
+  "out": "02-gauls",
+  "title": "The Gold Ransom",
+  "years": "390 BC",
+  "lat": 41.89,
+  "lon": 12.49,
+  "place": "Rome",
+  "part": 1
+ },
+ {
+  "n": 3,
+  "out": "03-hannibal",
+  "title": "Elephants over the Alps",
+  "years": "218 BC",
+  "lat": 44.6,
+  "lon": 7.0,
+  "place": "The Alps",
+  "part": 1
+ },
+ {
+  "n": 4,
+  "out": "04-carthage",
+  "title": "Two Cities Erased",
+  "years": "146 BC",
+  "lat": 36.85,
+  "lon": 10.32,
+  "place": "Carthage",
+  "part": 1
+ },
+ {
+  "n": 5,
+  "out": "05-rubicon",
+  "title": "The Rubicon",
+  "years": "49 BC",
+  "lat": 44.07,
+  "lon": 12.38,
+  "place": "Rubicon",
+  "part": 1
+ },
+ {
+  "n": 6,
+  "out": "06-ides",
+  "title": "The Ides of March",
+  "years": "44 BC",
+  "lat": 41.89,
+  "lon": 12.49,
+  "place": "Rome",
+  "part": 2
+ },
+ {
+  "n": 7,
+  "out": "07-augustus",
+  "title": "Augustus",
+  "years": "27 BC",
+  "lat": 41.89,
+  "lon": 12.49,
+  "place": "Rome",
+  "part": 2
+ },
+ {
+  "n": 8,
+  "out": "08-concrete",
+  "title": "Roads, Aqueducts and Concrete",
+  "years": "1st c. BC – 2nd c. AD",
+  "lat": 41.9,
+  "lon": 12.5,
+  "place": "Rome",
+  "part": 2
+ },
+ {
+  "n": 9,
+  "out": "09-pompeii",
+  "title": "Pompeii",
+  "years": "AD 79",
+  "lat": 40.75,
+  "lon": 14.49,
+  "place": "Pompeii",
+  "part": 2
+ },
+ {
+  "n": 10,
+  "out": "10-trajan",
+  "title": "Trajan's Empire",
+  "years": "AD 117",
+  "lat": 41.89,
+  "lon": 12.49,
+  "place": "Rome",
+  "part": 2
+ },
+ {
+  "n": 11,
+  "out": "11-hadrians-wall",
+  "title": "Hadrian's Wall",
+  "years": "AD 122",
+  "lat": 55.02,
+  "lon": -2.29,
+  "place": "Hadrian's Wall",
+  "part": 3
+ },
+ {
+  "n": 12,
+  "out": "12-crisis",
+  "title": "The Crisis of the Third Century",
+  "years": "AD 235–284",
+  "lat": 41.89,
+  "lon": 12.49,
+  "place": "Rome",
+  "part": 3
+ },
+ {
+  "n": 13,
+  "out": "13-constantine",
+  "title": "Constantinople",
+  "years": "AD 330",
+  "lat": 41.01,
+  "lon": 28.98,
+  "place": "Constantinople",
+  "part": 3
+ },
+ {
+  "n": 14,
+  "out": "14-fall-476",
+  "title": "The Fall of the West",
+  "years": "AD 476",
+  "lat": 44.42,
+  "lon": 12.2,
+  "place": "Ravenna",
+  "part": 3
+ },
+ {
+  "n": 15,
+  "out": "15-1453",
+  "title": "The Last Roman Emperor",
+  "years": "1453",
+  "lat": 41.01,
+  "lon": 28.98,
+  "place": "Constantinople",
+  "part": 3
+ }
+]

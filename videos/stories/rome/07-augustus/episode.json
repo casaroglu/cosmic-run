@@ -252,6 +252,24 @@
  },
  "beats": [
   {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "primaporta",
+   "move": {
+    "from": [
+     0.5,
+     0.28,
+     1.35
+    ],
+    "to": [
+     0.5,
+     0.25,
+     1.15
+    ]
+   },
+   "text": "Every summer, you write this man's name without knowing it."
+  },
+  {
    "type": "title",
    "speaker": "q",
    "scene": "globe",
@@ -448,17 +466,35 @@
   {
    "type": "narration",
    "speaker": "a",
-   "text": "Next time: roads, aqueducts and the Roman concrete that still stands. Like the video and follow History Sketches so you don't miss it."
+   "cta": true,
+   "text": "Like the video and follow History Sketches for the next episode: Roman concrete."
   },
   {
    "type": "narration",
    "speaker": "q",
-   "text": "And tell us in the comments: who was the greater Roman, Caesar or Augustus?"
+   "text": "And tell us in the comments: who was the greater Roman, Caesar or Augustus?",
+   "cta": true
   },
   {
-   "type": "end",
-   "text": "Next: Roman concrete",
-   "sub": "Follow History Sketches"
+   "type": "narration",
+   "speaker": "a",
+   "text": "Two thousand years later, his name still comes back every summer.",
+   "scene": "primaporta",
+   "move": {
+    "from": [
+     0.5,
+     0.25,
+     1.15
+    ],
+    "to": [
+     0.5,
+     0.28,
+     1.35
+    ]
+   }
   }
- ]
+ ],
+ "loop": {
+  "key": "August = Augustus, renamed in 8 BC"
+ }
 }

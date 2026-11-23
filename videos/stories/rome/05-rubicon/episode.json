@@ -352,6 +352,24 @@
  },
  "beats": [
   {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "caesar",
+   "move": {
+    "from": [
+     0.5,
+     0.38,
+     1.35
+    ],
+    "to": [
+     0.5,
+     0.38,
+     1.15
+    ]
+   },
+   "text": "One small river crossing started the war that ended the Republic."
+  },
+  {
    "type": "title",
    "speaker": "q",
    "scene": "globe",
@@ -581,17 +599,35 @@
   {
    "type": "narration",
    "speaker": "a",
-   "text": "Next time: the Ides of March. Like the video and follow History Sketches so you don't miss it."
+   "text": "Next time: the Ides of March. Like the video and follow History Sketches so you don't miss it.",
+   "cta": true
   },
   {
    "type": "narration",
    "speaker": "q",
-   "text": "And tell us in the comments: what was your Rubicon?"
+   "text": "And tell us in the comments: what was your Rubicon?",
+   "cta": true
   },
   {
-   "type": "end",
-   "text": "Next: the Ides of March",
-   "sub": "Follow History Sketches"
+   "type": "narration",
+   "speaker": "a",
+   "scene": "caesar",
+   "move": {
+    "from": [
+     0.5,
+     0.38,
+     1.15
+    ],
+    "to": [
+     0.5,
+     0.38,
+     1.35
+    ]
+   },
+   "text": "All because one man led his army across one small river."
   }
- ]
+ ],
+ "loop": {
+  "key": "49 BC: the die is cast"
+ }
 }

@@ -863,8 +863,10 @@ function drawFrame(t) {
   for (const nb of NOTIFS) drawNotify(nb, t);
   drawDate(t); drawCredit(t, b); drawCameos(t);
   if (b.type === 'title') { ctx.fillStyle = 'rgba(0,0,0,0.35)'; ctx.fillRect(0, 0, W, H); drawTitle(b, t); }
-  else if (b.type === 'narration') { ctx.save(); ctx.globalAlpha = 1 - pv; drawCaptions(b, t); ctx.restore(); }
+  const LP = TL.loop && !TL.landscape ? TL.loop : null, flashK = LP && LP.key ? clamp((t - (TL.duration - (LP.flash || 1))) / 0.15) : 0;
+  if (b.type === 'narration' && flashK < 0.3) { ctx.save(); ctx.globalAlpha = 1 - pv; drawCaptions(b, t); ctx.restore(); }
   else if (b.type === 'end') drawEnd(b, t);
+  if (LP) drawLoopExtras(b, t, LP, flashK);
 
   // channel logo, top-right corner
   const wm = IMGS.__watermark;
@@ -878,9 +880,34 @@ function drawFrame(t) {
   const r = rng(Math.floor(t * 30) + 1);
   ctx.fillStyle = 'rgba(255,255,255,0.035)';
   for (let i = 0; i < 900; i++) ctx.fillRect(r() * W, r() * H, 2, 2);
-  // fade in/out of whole video
-  const fo = Math.min(clamp(t / 0.35), clamp((TL.duration - t) / 0.5));
+  // fade in/out of whole video (looping Shorts: none, the end cross-fades into the first frame instead)
+  const fo = LP ? 1 : Math.min(clamp(t / 0.35), clamp((TL.duration - t) / 0.5));
   if (fo < 1) { ctx.fillStyle = `rgba(0,0,0,${1 - fo})`; ctx.fillRect(0, 0, W, H); }
+}
+// Hook/loop rule (2026-11-23): "follow" pill during beats marked cta, hidden key text in the last ~1 s
+function drawLoopExtras(b, t, LP, flashK) {
+  const cb = TL.beats.filter(x => x.cta), cs = cb.length ? Math.min(...cb.map(x => x.start)) : null, ce = cb.length ? Math.max(...cb.map(x => x.end)) : null;
+  if (cs != null && t >= cs && t < ce + 0.8) {
+    const k = Math.min(backOut((t - cs) / 0.4), clamp((ce + 0.8 - t) / 0.3)), p = 1 + 0.035 * Math.sin(t * 5);
+    const txt = LP.follow || 'FOLLOW HISTORY SKETCHES'; font(50, 900); const w = ctx.measureText(txt).width + 110;
+    ctx.save(); ctx.translate(W / 2, 1180); ctx.scale(k * p, k * p);
+    ctx.fillStyle = 'rgba(0,0,0,0.45)'; rr(-w / 2 + 6, -48 + 8, w, 96, 48); ctx.fill();
+    ctx.fillStyle = TL.accent; rr(-w / 2, -48, w, 96, 48); ctx.fill();
+    ctx.fillStyle = '#111'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(txt, 0, 4); ctx.restore();
+  }
+  if (flashK > 0) {
+    ctx.save(); ctx.globalAlpha = flashK; ctx.fillStyle = 'rgba(0,0,0,0.72)'; ctx.fillRect(0, 1300, W, 300);
+    font(66, 900); const ls = wrap(LP.key.toUpperCase(), 940); ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.lineJoin = 'round';
+    ls.forEach((l, i) => { const y = 1450 - (ls.length - 1) * 40 + i * 80; ctx.lineWidth = 12; ctx.strokeStyle = '#000'; ctx.strokeText(l.join(' '), W / 2, y); ctx.fillStyle = TL.accent; ctx.fillText(l.join(' '), W / 2, y); });
+    ctx.restore();
+  }
+}
+const LOOPC = document.createElement('canvas');
+function drawLoopFrame(t) {   // last `blend` s: cross-fade into frame 0 so the Short loops
+  drawFrame(t); const LP = TL.loop && !TL.landscape ? TL.loop : null; if (!LP) return;
+  const bl = LP.blend || 0.4, k = clamp((t - (TL.duration - bl)) / bl); if (k <= 0) return;
+  LOOPC.width = W; LOOPC.height = H; LOOPC.getContext('2d').drawImage(cv, 0, 0);
+  drawFrame(0); ctx = MAIN; ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.save(); ctx.globalAlpha = 1 - ease(k); ctx.drawImage(LOOPC, 0, 0); ctx.restore();
 }
 
 async function setup(tl) {
@@ -913,7 +940,7 @@ async function setup(tl) {
 }
 function frames(t0, n, fps, q = 0.9) {
   const out = [];
-  for (let i = 0; i < n; i++) { drawFrame(t0 + i / fps); out.push(TL.overlay ? cv.toDataURL('image/png') : cv.toDataURL('image/jpeg', q)); }
+  for (let i = 0; i < n; i++) { drawLoopFrame(t0 + i / fps); out.push(TL.overlay ? cv.toDataURL('image/png') : cv.toDataURL('image/jpeg', q)); }
   return out;
 }
 window.setup = setup; window.drawFrame = drawFrame; window.frames = frames;

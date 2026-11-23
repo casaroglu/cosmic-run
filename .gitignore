@@ -16,3 +16,5 @@ vendor/
 assets/music/**/*.mp3
 .claude/skills/anything2explainer/
 .claude/skills/onetake/
+videos/stories/rome/longform/geo
+videos/stories/rome/longform/globe/node_modules

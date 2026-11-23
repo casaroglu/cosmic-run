@@ -608,6 +608,24 @@
  },
  "beats": [
   {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "burn",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.35
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   "text": "In one single year, Rome wiped two great cities off the map."
+  },
+  {
    "type": "title",
    "speaker": "q",
    "scene": "globe",
@@ -787,17 +805,36 @@
   {
    "type": "narration",
    "speaker": "a",
-   "text": "Next time: Julius Caesar crosses the Rubicon. Like the video and follow History Sketches so you don't miss it."
+   "text": "Next time: Julius Caesar crosses the Rubicon. Like the video and follow History Sketches so you don't miss it.",
+   "cta": true
   },
   {
    "type": "narration",
    "speaker": "q",
-   "text": "And tell us in the comments: was Rome right to fear Carthage?"
+   "text": "And tell us in the comments: was Rome right to fear Carthage?",
+   "cta": true
   },
   {
-   "type": "end",
-   "text": "Next: the Rubicon",
-   "sub": "Follow History Sketches"
+   "type": "narration",
+   "speaker": "a",
+   "scene": "burn",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.15
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.35
+    ]
+   },
+   "text": "But first, in 146 BC, Rome burned them both to the ground.",
+   "say": "But first, in one forty-six BC, Rome burned them both to the ground."
   }
- ]
+ ],
+ "loop": {
+  "key": "146 BC: Carthage and Corinth fall"
+ }
 }

@@ -481,6 +481,24 @@
  },
  "beats": [
   {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "rhone",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.35
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   "text": "Around three dozen war elephants marched over the Alps to attack Rome."
+  },
+  {
    "type": "title",
    "speaker": "q",
    "scene": "globe",
@@ -647,17 +665,35 @@
   {
    "type": "narration",
    "speaker": "a",
-   "text": "Next time: Rome wipes Carthage off the map. Like the video and follow History Sketches so you don't miss it."
+   "text": "Next time: Rome wipes Carthage off the map. Like the video and follow History Sketches so you don't miss it.",
+   "cta": true
   },
   {
    "type": "narration",
    "speaker": "q",
-   "text": "And tell us in the comments: would you have crossed the Alps?"
+   "text": "And tell us in the comments: would you have crossed the Alps?",
+   "cta": true
   },
   {
-   "type": "end",
-   "text": "Next: Carthage",
-   "sub": "Follow History Sketches"
+   "type": "narration",
+   "speaker": "a",
+   "scene": "rhone",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.15
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.35
+    ]
+   },
+   "text": "And somewhere up there, the elephants' route is still waiting to be found."
   }
- ]
+ ],
+ "loop": {
+  "key": "218 BC: elephants over the Alps"
+ }
 }

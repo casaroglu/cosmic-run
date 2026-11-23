@@ -440,6 +440,24 @@
  },
  "beats": [
   {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "sack",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.35
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   "text": "Rome once had to pay its enemies a thousand pounds of gold."
+  },
+  {
    "type": "title",
    "speaker": "q",
    "scene": "globe",
@@ -576,17 +594,35 @@
   {
    "type": "narration",
    "speaker": "a",
-   "text": "Next time: Hannibal brings elephants over the Alps. Like the video and follow History Sketches so you don't miss it."
+   "text": "Next time: Hannibal brings elephants over the Alps. Like the video and follow History Sketches so you don't miss it.",
+   "cta": true
   },
   {
    "type": "narration",
    "speaker": "q",
-   "text": "And tell us in the comments: would you have paid?"
+   "text": "And tell us in the comments: would you have paid?",
+   "cta": true
   },
   {
-   "type": "end",
-   "text": "Next: Hannibal",
-   "sub": "Follow History Sketches"
+   "type": "narration",
+   "speaker": "a",
+   "scene": "sack",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.15
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.35
+    ]
+   },
+   "text": "But first, Rome had to pay a thousand pounds of gold."
   }
- ]
+ ],
+ "loop": {
+  "key": "390 BC: Rome pays in gold"
+ }
 }

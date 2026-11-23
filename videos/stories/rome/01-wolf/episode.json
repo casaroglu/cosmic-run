@@ -465,6 +465,24 @@
  },
  "beats": [
   {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "rubens",
+   "move": {
+    "from": [
+     0.43,
+     0.6,
+     1.35
+    ],
+    "to": [
+     0.43,
+     0.6,
+     1.15
+    ]
+   },
+   "text": "Two abandoned babies, one wolf, and the city that would rule the world."
+  },
+  {
    "type": "title",
    "speaker": "q",
    "scene": "globe",
@@ -588,17 +606,35 @@
   {
    "type": "narration",
    "speaker": "a",
-   "text": "Next time: how this small republic took over Italy. Like the video and follow History Sketches so you don't miss it."
+   "text": "Next time: how this small republic took over Italy. Like the video and follow History Sketches so you don't miss it.",
+   "cta": true
   },
   {
    "type": "narration",
    "speaker": "q",
-   "text": "And tell us in the comments what you'd like to know about Rome!"
+   "text": "And tell us in the comments what you'd like to know about Rome!",
+   "cta": true
   },
   {
-   "type": "end",
-   "text": "Next: Rome takes Italy",
-   "sub": "Follow History Sketches"
+   "type": "narration",
+   "speaker": "a",
+   "scene": "rubens",
+   "move": {
+    "from": [
+     0.43,
+     0.6,
+     1.15
+    ],
+    "to": [
+     0.43,
+     0.6,
+     1.35
+    ]
+   },
+   "text": "And it all began, the Romans said, with two babies and a wolf."
   }
- ]
+ ],
+ "loop": {
+  "key": "Rome founded 753 BC, by legend"
+ }
 }

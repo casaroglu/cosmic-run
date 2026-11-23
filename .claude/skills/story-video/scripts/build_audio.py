@@ -477,6 +477,8 @@ def main(story_path, out_dir):
                   for k, v in story.get("clips", {}).items()},
         "speakers": story.get("speakers"),
         "fade": story.get("fade", 0.7),
+        # Shorts hook/loop rule: {"key": hidden key text, "flash": 1.0, "blend": 0.4, "follow": "FOLLOW ..."}
+        "loop": story.get("loop"),
         "width": 1080, "height": 1920, "fps": story.get("fps", 30),
         "duration": round(total, 3),
         "beats": beats,
