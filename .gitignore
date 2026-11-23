@@ -14,3 +14,5 @@ videos/stories/pov-music/**/gen*/
 
 vendor/
 assets/music/**/*.mp3
+.claude/skills/anything2explainer/
+.claude/skills/onetake/
