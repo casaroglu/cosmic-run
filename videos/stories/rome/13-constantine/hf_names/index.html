@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=1080, height=1920" />
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+@font-face{font-family:'SketchHand';src:url('assets/BradleyHandBold.ttf') format('truetype');font-weight:700}
+:root{--paper:#efe4c9;--ink:#2a2119;--red:#b3261e;--blue:#1f4e8c;--hand:'SketchHand',cursive}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--paper)}
+#root{position:relative;width:1080px;height:1920px;font-family:var(--hand);color:var(--ink);
+ background:radial-gradient(ellipse at 50% 50%,rgba(0,0,0,0) 45%,rgba(70,45,15,.45) 100%),var(--paper)}
+.row{position:absolute;left:0;right:0;text-align:center}
+.nm{font-family:'Helvetica Neue',Arial,sans-serif;font-weight:900;font-size:84px;letter-spacing:2px}
+.nm span{background:linear-gradient(var(--red),var(--red)) no-repeat 0 55%/0% 9px;padding:0 10px}
+.sub{font-size:44px;font-weight:700;color:#5a4a36;margin-top:4px}
+.arr{position:absolute;left:0;right:0;text-align:center;font-size:70px;font-weight:700;color:var(--red)}
+#r1{top:290px} #a1{top:470px} #r2{top:560px} #a2{top:740px} #r3{top:830px} #a3{top:1010px} #r4{top:1100px}
+#r4 .nm{color:var(--blue);font-size:104px}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="16" data-width="1080" data-height="1920">
+ <div id="scene" class="clip" data-start="0" data-duration="16" data-track-index="0" style="position:absolute;inset:0">
+  <div class="row" id="r1"><div class="nm"><span>BYZANTIUM</span></div><div class="sub">Greek town, c. 657 BC</div></div>
+  <div class="arr" id="a1">&#8595;</div>
+  <div class="row" id="r2"><div class="nm"><span>NEW ROME</span></div><div class="sub">AD 330</div></div>
+  <div class="arr" id="a2">&#8595;</div>
+  <div class="row" id="r3"><div class="nm"><span>CONSTANTINOPLE</span></div><div class="sub">"city of Constantine"</div></div>
+  <div class="arr" id="a3">&#8595;</div>
+  <div class="row" id="r4"><div class="nm">ISTANBUL</div><div class="sub">today</div></div>
+ </div>
+</div>
+<script>
+window.__timelines = window.__timelines || {};
+const tl = gsap.timeline({ paused: true });
+tl.from('#r1', { opacity: 0, y: -30, duration: 0.5 }, 0.1);
+tl.to('#r1 .nm span', { backgroundSize: '100% 9px', duration: 0.4 }, 1.4);
+tl.from(['#a1', '#r2'], { opacity: 0, y: -20, duration: 0.45, stagger: 0.15 }, 1.6);
+tl.to('#r2 .nm span', { backgroundSize: '100% 9px', duration: 0.4 }, 3.0);
+tl.from(['#a2', '#r3'], { opacity: 0, y: -20, duration: 0.45, stagger: 0.15 }, 3.2);
+tl.from(['#a3', '#r4'], { opacity: 0, y: -20, duration: 0.45, stagger: 0.15 }, 6.0);
+tl.fromTo('#r4 .nm', { scale: 1.5 }, { scale: 1, duration: 0.4, ease: 'power3.out' }, 6.15);
+window.__timelines['main'] = tl;
+tl.seek(0);
+</script></body></html>

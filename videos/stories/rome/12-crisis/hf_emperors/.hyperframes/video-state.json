@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "07348270-9346-4ef8-b2be-244deacaeb91",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/BradleyHandBold.ttf": {
+      "hash": "b94c10ed01e88fd8dbbee95485d3863a0719520e8637ae5a9a30cf485e18740d",
+      "content": "/Users/canberkasaroglu/.cache/hyperframes/history/07348270-9346-4ef8-b2be-244deacaeb91/blobs/b9/b94c10ed01e88fd8dbbee95485d3863a0719520e8637ae5a9a30cf485e18740d"
+    },
+    "hyperframes.json": {
+      "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "content": "/Users/canberkasaroglu/.cache/hyperframes/history/07348270-9346-4ef8-b2be-244deacaeb91/blobs/53/53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    "index.html": {
+      "hash": "9cb20efded81a45b80575b9726bef621fdc362be6a5e363a6694038f7f544cf1",
+      "content": "/Users/canberkasaroglu/.cache/hyperframes/history/07348270-9346-4ef8-b2be-244deacaeb91/blobs/9c/9cb20efded81a45b80575b9726bef621fdc362be6a5e363a6694038f7f544cf1"
+    },
+    "meta.json": {
+      "hash": "81cfd88e48f2414ed769a6ca5db679fdeacc25e258fe9c348c673762c2341b3d",
+      "content": "/Users/canberkasaroglu/.cache/hyperframes/history/07348270-9346-4ef8-b2be-244deacaeb91/blobs/81/81cfd88e48f2414ed769a6ca5db679fdeacc25e258fe9c348c673762c2341b3d"
+    },
+    "package.json": {
+      "hash": "87ec8af7e851766471cf52f413620508c8adfb9f29f270d359fc003a1a23f2a8",
+      "content": "/Users/canberkasaroglu/.cache/hyperframes/history/07348270-9346-4ef8-b2be-244deacaeb91/blobs/87/87ec8af7e851766471cf52f413620508c8adfb9f29f270d359fc003a1a23f2a8"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "cc555837-afea-4cd0-9225-b166b35f492d",
+      "completedAt": 1795451137637,
+      "output": "/Users/canberkasaroglu/cosmic-run/videos/stories/rome/12-crisis/sketch/emperors_hf.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

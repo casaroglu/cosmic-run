@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "1f6bfeb3-ea39-4a27-b481-f182b418cc97",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/BradleyHandBold.ttf": {
+      "hash": "b94c10ed01e88fd8dbbee95485d3863a0719520e8637ae5a9a30cf485e18740d",
+      "content": "/Users/canberkasaroglu/.cache/hyperframes/history/1f6bfeb3-ea39-4a27-b481-f182b418cc97/blobs/b9/b94c10ed01e88fd8dbbee95485d3863a0719520e8637ae5a9a30cf485e18740d"
+    },
+    "hyperframes.json": {
+      "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "content": "/Users/canberkasaroglu/.cache/hyperframes/history/1f6bfeb3-ea39-4a27-b481-f182b418cc97/blobs/53/53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    "index.html": {
+      "hash": "9f9944463f1f73f1d03059cb716d3ef0417908e9a5f721ff429bc9ebef02b8bb",
+      "content": "/Users/canberkasaroglu/.cache/hyperframes/history/1f6bfeb3-ea39-4a27-b481-f182b418cc97/blobs/9f/9f9944463f1f73f1d03059cb716d3ef0417908e9a5f721ff429bc9ebef02b8bb"
+    },
+    "meta.json": {
+      "hash": "994ef8a685e1fe026f5581cea7c0c9184d03991601e929896a7aa55315d52e1a",
+      "content": "/Users/canberkasaroglu/.cache/hyperframes/history/1f6bfeb3-ea39-4a27-b481-f182b418cc97/blobs/99/994ef8a685e1fe026f5581cea7c0c9184d03991601e929896a7aa55315d52e1a"
+    },
+    "package.json": {
+      "hash": "87ec8af7e851766471cf52f413620508c8adfb9f29f270d359fc003a1a23f2a8",
+      "content": "/Users/canberkasaroglu/.cache/hyperframes/history/1f6bfeb3-ea39-4a27-b481-f182b418cc97/blobs/87/87ec8af7e851766471cf52f413620508c8adfb9f29f270d359fc003a1a23f2a8"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "a1378783-95ae-46c3-8f71-feddef297289",
+      "completedAt": 1795451431235,
+      "output": "/Users/canberkasaroglu/cosmic-run/videos/stories/rome/13-constantine/sketch/names_hf.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

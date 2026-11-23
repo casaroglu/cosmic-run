@@ -1,0 +1,1452 @@
+{
+ "series": "Ancient Rome",
+ "episode": 13,
+ "part": null,
+ "total_parts": null,
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
+  },
+  "a": {
+   "name": "Theo",
+   "color": "#D9A441"
+  }
+ },
+ "accent": "#D9A441",
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "scene_pad": 0.5,
+ "fade": 1.1,
+ "title": "Why did a Roman emperor move his capital to Istanbul?",
+ "highlight": [
+  "Istanbul"
+ ],
+ "music": {
+  "mood": "epic",
+  "seed": 83,
+  "drums": true,
+  "level": 0.3
+ },
+ "post": {
+  "caption": "Ancient Rome, episode 13: Constantine, from York in AD 306 to the Milvian Bridge, and the founding of Constantinople, New Rome, on 11 May 330. Today: Istanbul. Images: public domain / CC0 (Giulio Romano and the school of Raphael, The Met, Capitoline Museums photo, Hallwyl Museum photo), AI illustrations marked. Map data: Natural Earth.",
+  "hashtags": [
+   "history",
+   "rome",
+   "ancientrome",
+   "constantine",
+   "constantinople",
+   "istanbul",
+   "shorts"
+  ]
+ },
+ "clips": {
+  "globe": "sketch/globe_in.mp4",
+  "names": "sketch/names_hf.mp4"
+ },
+ "images": {
+  "colossus": {
+   "file": "img/colossus.jpg",
+   "credit": "Colossal bronze head of Constantine, 4th century (photo: D. Benjamin Miller)",
+   "where": "Capitoline Museums, Rome, public domain"
+  },
+  "column": {
+   "file": "img/column.jpg",
+   "credit": "The Column of Constantine, Istanbul (photo, 1901)",
+   "where": "Hallwyl Museum, Stockholm, public domain"
+  },
+  "milvian": {
+   "file": "img/milvian.jpg",
+   "credit": "Giulio Romano (Raphael workshop), The Battle of the Milvian Bridge (1520-24)",
+   "where": "Vatican Museums, public domain"
+  },
+  "vision": {
+   "file": "img/vision.jpg",
+   "credit": "School of Raphael, The Vision of the Cross (1520-24)",
+   "where": "Vatican Museums, public domain"
+  },
+  "city330": {
+   "file": "img/city330_qwen.jpg",
+   "credit": "Illustration: Constantinople in AD 330 (AI-generated, Qwen-Image)",
+   "where": "History Sketches"
+  },
+  "solidus": {
+   "file": "img/solidus.jpg",
+   "credit": "Gold solidus of Constantine I, Trier, AD 310-313",
+   "where": "American Numismatic Society, CC0"
+  },
+  "const_head": {
+   "file": "img/const_head.jpg",
+   "credit": "Marble portrait head of Constantine I",
+   "where": "The Metropolitan Museum of Art, CC0"
+  }
+ },
+ "sketches": {
+  "start": {
+   "coast": "sketch/empire.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        -11.5,
+        44.5
+       ],
+       [
+        -6,
+        44.5
+       ],
+       [
+        -6.5,
+        48.3
+       ],
+       [
+        -6.2,
+        49.6
+       ],
+       [
+        -5.9,
+        51.0
+       ],
+       [
+        -5.6,
+        52.0
+       ],
+       [
+        -5.2,
+        53.4
+       ],
+       [
+        -4.0,
+        54.4
+       ],
+       [
+        -3.4,
+        54.95
+       ],
+       [
+        -2.0,
+        55.02
+       ],
+       [
+        -1.5,
+        55.02
+       ],
+       [
+        0.5,
+        55.2
+       ],
+       [
+        3.5,
+        53.3
+       ],
+       [
+        4.3,
+        52.2
+       ],
+       [
+        5.0,
+        51.9
+       ],
+       [
+        6.1,
+        51.85
+       ],
+       [
+        6.6,
+        51.4
+       ],
+       [
+        6.95,
+        50.94
+       ],
+       [
+        7.6,
+        50.4
+       ],
+       [
+        7.6,
+        49.5
+       ],
+       [
+        8.2,
+        48.9
+       ],
+       [
+        7.6,
+        47.6
+       ],
+       [
+        8.6,
+        47.65
+       ],
+       [
+        9.5,
+        47.5
+       ],
+       [
+        10.0,
+        48.4
+       ],
+       [
+        11.0,
+        48.75
+       ],
+       [
+        12.1,
+        49.0
+       ],
+       [
+        13.4,
+        48.6
+       ],
+       [
+        15.0,
+        48.3
+       ],
+       [
+        16.4,
+        48.2
+       ],
+       [
+        17.9,
+        47.8
+       ],
+       [
+        19.0,
+        47.8
+       ],
+       [
+        19.0,
+        46.5
+       ],
+       [
+        18.9,
+        45.4
+       ],
+       [
+        20.5,
+        44.8
+       ],
+       [
+        22.0,
+        44.6
+       ],
+       [
+        22.6,
+        44.2
+       ],
+       [
+        24.0,
+        43.75
+       ],
+       [
+        25.5,
+        43.65
+       ],
+       [
+        27.0,
+        44.1
+       ],
+       [
+        28.0,
+        44.3
+       ],
+       [
+        28.2,
+        45.4
+       ],
+       [
+        29.7,
+        45.2
+       ],
+       [
+        30.5,
+        44.6
+       ],
+       [
+        33.0,
+        43.8
+       ],
+       [
+        38.0,
+        42.0
+       ],
+       [
+        41.6,
+        41.6
+       ],
+       [
+        41.4,
+        41.0
+       ],
+       [
+        40.6,
+        40.0
+       ],
+       [
+        40.0,
+        39.0
+       ],
+       [
+        40.6,
+        38.3
+       ],
+       [
+        42.0,
+        37.4
+       ],
+       [
+        42.2,
+        36.2
+       ],
+       [
+        41.0,
+        35.2
+       ],
+       [
+        40.8,
+        34.6
+       ],
+       [
+        39.6,
+        33.6
+       ],
+       [
+        38.2,
+        32.3
+       ],
+       [
+        37.3,
+        30.6
+       ],
+       [
+        36.0,
+        28.6
+       ],
+       [
+        35.2,
+        27.5
+       ],
+       [
+        33.8,
+        25.5
+       ],
+       [
+        33.0,
+        23.5
+       ],
+       [
+        31.0,
+        23.5
+       ],
+       [
+        28.6,
+        25.0
+       ],
+       [
+        28.0,
+        27.5
+       ],
+       [
+        26.0,
+        29.5
+       ],
+       [
+        25.0,
+        30.4
+       ],
+       [
+        21.0,
+        30.2
+       ],
+       [
+        18.8,
+        30.0
+       ],
+       [
+        16.0,
+        30.4
+       ],
+       [
+        14.0,
+        30.8
+       ],
+       [
+        11.5,
+        31.2
+       ],
+       [
+        9.8,
+        32.0
+       ],
+       [
+        8.5,
+        33.4
+       ],
+       [
+        6.5,
+        34.4
+       ],
+       [
+        3.0,
+        34.9
+       ],
+       [
+        0.0,
+        35.0
+       ],
+       [
+        -2.0,
+        34.6
+       ],
+       [
+        -4.5,
+        33.9
+       ],
+       [
+        -6.6,
+        33.9
+       ],
+       [
+        -11.5,
+        33.5
+       ],
+       [
+        -11.5,
+        37.0
+       ]
+      ]
+     ],
+     "color": "#b3261e",
+     "style": "faint",
+     "at": 0.3,
+     "dur": 1.2,
+     "label": "Roman Empire",
+     "labelPos": [
+      14.0,
+      33.0
+     ],
+     "lsize": 44
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        -11.5,
+        44.5
+       ],
+       [
+        -6,
+        44.5
+       ],
+       [
+        -6.5,
+        48.3
+       ],
+       [
+        -6.2,
+        49.6
+       ],
+       [
+        -5.9,
+        51.0
+       ],
+       [
+        -5.6,
+        52.0
+       ],
+       [
+        -5.2,
+        53.4
+       ],
+       [
+        -4.0,
+        54.4
+       ],
+       [
+        -3.4,
+        54.95
+       ],
+       [
+        -2.0,
+        55.02
+       ],
+       [
+        -1.5,
+        55.02
+       ],
+       [
+        0.5,
+        55.2
+       ],
+       [
+        3.5,
+        53.3
+       ],
+       [
+        4.3,
+        52.2
+       ],
+       [
+        5.0,
+        51.9
+       ],
+       [
+        6.1,
+        51.85
+       ],
+       [
+        6.6,
+        51.4
+       ],
+       [
+        6.95,
+        50.94
+       ],
+       [
+        7.6,
+        50.4
+       ],
+       [
+        7.6,
+        49.5
+       ],
+       [
+        8.2,
+        48.9
+       ],
+       [
+        7.6,
+        47.6
+       ],
+       [
+        8.6,
+        47.65
+       ],
+       [
+        8.5,
+        46.6
+       ],
+       [
+        7.0,
+        45.6
+       ],
+       [
+        7.0,
+        44.5
+       ],
+       [
+        7.6,
+        43.7
+       ],
+       [
+        5.0,
+        40.0
+       ],
+       [
+        0.0,
+        37.0
+       ],
+       [
+        -5.4,
+        36.05
+       ],
+       [
+        -11.5,
+        36.0
+       ]
+      ]
+     ],
+     "color": "#1f4e8c",
+     "at": 1.4,
+     "dur": 1.6,
+     "label": "Constantine, AD 306",
+     "labelPos": [
+      -2.0,
+      38.6
+     ],
+     "lsize": 42
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      -1.08,
+      53.96
+     ],
+     "label": "York",
+     "lx": 25,
+     "ly": -40,
+     "at": 2.4
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      21.9,
+      43.32
+     ],
+     "label": "Niš",
+     "lx": 25,
+     "ly": -40,
+     "at": 3.2
+    }
+   ]
+  },
+  "bosphorus": {
+   "coast": "sketch/bosphorus.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.4
+    },
+    {
+     "kind": "label",
+     "text": "EUROPE",
+     "pos": [
+      26.3,
+      41.7
+     ],
+     "at": 1.2,
+     "size": 54
+    },
+    {
+     "kind": "label",
+     "text": "ASIA",
+     "pos": [
+      30.6,
+      39.8
+     ],
+     "at": 1.6,
+     "size": 54
+    },
+    {
+     "kind": "label",
+     "text": "Black Sea",
+     "pos": [
+      30.0,
+      42.3
+     ],
+     "at": 2.0,
+     "size": 44,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      28.98,
+      41.01
+     ],
+     "label": "Byzantium",
+     "lx": -25,
+     "ly": 50,
+     "at": 2.6,
+     "lalign": "right"
+    },
+    {
+     "kind": "circle",
+     "pos": [
+      28.98,
+      41.01
+     ],
+     "r": 60,
+     "at": 3.4,
+     "color": "#b3261e"
+    }
+   ]
+  },
+  "end": {
+   "coast": "sketch/empire.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.0,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        -11.5,
+        44.5
+       ],
+       [
+        -6,
+        44.5
+       ],
+       [
+        -6.5,
+        48.3
+       ],
+       [
+        -6.2,
+        49.6
+       ],
+       [
+        -5.9,
+        51.0
+       ],
+       [
+        -5.6,
+        52.0
+       ],
+       [
+        -5.2,
+        53.4
+       ],
+       [
+        -4.0,
+        54.4
+       ],
+       [
+        -3.4,
+        54.95
+       ],
+       [
+        -2.0,
+        55.02
+       ],
+       [
+        -1.5,
+        55.02
+       ],
+       [
+        0.5,
+        55.2
+       ],
+       [
+        3.5,
+        53.3
+       ],
+       [
+        4.3,
+        52.2
+       ],
+       [
+        5.0,
+        51.9
+       ],
+       [
+        6.1,
+        51.85
+       ],
+       [
+        6.6,
+        51.4
+       ],
+       [
+        6.95,
+        50.94
+       ],
+       [
+        7.6,
+        50.4
+       ],
+       [
+        7.6,
+        49.5
+       ],
+       [
+        8.2,
+        48.9
+       ],
+       [
+        7.6,
+        47.6
+       ],
+       [
+        8.6,
+        47.65
+       ],
+       [
+        8.5,
+        46.6
+       ],
+       [
+        7.0,
+        45.6
+       ],
+       [
+        7.0,
+        44.5
+       ],
+       [
+        7.6,
+        43.7
+       ],
+       [
+        5.0,
+        40.0
+       ],
+       [
+        0.0,
+        37.0
+       ],
+       [
+        -5.4,
+        36.05
+       ],
+       [
+        -11.5,
+        36.0
+       ]
+      ]
+     ],
+     "color": "#1f4e8c",
+     "style": "faint",
+     "at": 0.3,
+     "dur": 1.0
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        -11.5,
+        44.5
+       ],
+       [
+        -6,
+        44.5
+       ],
+       [
+        -6.5,
+        48.3
+       ],
+       [
+        -6.2,
+        49.6
+       ],
+       [
+        -5.9,
+        51.0
+       ],
+       [
+        -5.6,
+        52.0
+       ],
+       [
+        -5.2,
+        53.4
+       ],
+       [
+        -4.0,
+        54.4
+       ],
+       [
+        -3.4,
+        54.95
+       ],
+       [
+        -2.0,
+        55.02
+       ],
+       [
+        -1.5,
+        55.02
+       ],
+       [
+        0.5,
+        55.2
+       ],
+       [
+        3.5,
+        53.3
+       ],
+       [
+        4.3,
+        52.2
+       ],
+       [
+        5.0,
+        51.9
+       ],
+       [
+        6.1,
+        51.85
+       ],
+       [
+        6.6,
+        51.4
+       ],
+       [
+        6.95,
+        50.94
+       ],
+       [
+        7.6,
+        50.4
+       ],
+       [
+        7.6,
+        49.5
+       ],
+       [
+        8.2,
+        48.9
+       ],
+       [
+        7.6,
+        47.6
+       ],
+       [
+        8.6,
+        47.65
+       ],
+       [
+        9.5,
+        47.5
+       ],
+       [
+        10.0,
+        48.4
+       ],
+       [
+        11.0,
+        48.75
+       ],
+       [
+        12.1,
+        49.0
+       ],
+       [
+        13.4,
+        48.6
+       ],
+       [
+        15.0,
+        48.3
+       ],
+       [
+        16.4,
+        48.2
+       ],
+       [
+        17.9,
+        47.8
+       ],
+       [
+        19.0,
+        47.8
+       ],
+       [
+        19.0,
+        46.5
+       ],
+       [
+        18.9,
+        45.4
+       ],
+       [
+        20.5,
+        44.8
+       ],
+       [
+        22.0,
+        44.6
+       ],
+       [
+        22.6,
+        44.2
+       ],
+       [
+        24.0,
+        43.75
+       ],
+       [
+        25.5,
+        43.65
+       ],
+       [
+        27.0,
+        44.1
+       ],
+       [
+        28.0,
+        44.3
+       ],
+       [
+        28.2,
+        45.4
+       ],
+       [
+        29.7,
+        45.2
+       ],
+       [
+        30.5,
+        44.6
+       ],
+       [
+        33.0,
+        43.8
+       ],
+       [
+        38.0,
+        42.0
+       ],
+       [
+        41.6,
+        41.6
+       ],
+       [
+        41.4,
+        41.0
+       ],
+       [
+        40.6,
+        40.0
+       ],
+       [
+        40.0,
+        39.0
+       ],
+       [
+        40.6,
+        38.3
+       ],
+       [
+        42.0,
+        37.4
+       ],
+       [
+        42.2,
+        36.2
+       ],
+       [
+        41.0,
+        35.2
+       ],
+       [
+        40.8,
+        34.6
+       ],
+       [
+        39.6,
+        33.6
+       ],
+       [
+        38.2,
+        32.3
+       ],
+       [
+        37.3,
+        30.6
+       ],
+       [
+        36.0,
+        28.6
+       ],
+       [
+        35.2,
+        27.5
+       ],
+       [
+        33.8,
+        25.5
+       ],
+       [
+        33.0,
+        23.5
+       ],
+       [
+        31.0,
+        23.5
+       ],
+       [
+        28.6,
+        25.0
+       ],
+       [
+        28.0,
+        27.5
+       ],
+       [
+        26.0,
+        29.5
+       ],
+       [
+        25.0,
+        30.4
+       ],
+       [
+        21.0,
+        30.2
+       ],
+       [
+        18.8,
+        30.0
+       ],
+       [
+        16.0,
+        30.4
+       ],
+       [
+        14.0,
+        30.8
+       ],
+       [
+        11.5,
+        31.2
+       ],
+       [
+        9.8,
+        32.0
+       ],
+       [
+        8.5,
+        33.4
+       ],
+       [
+        6.5,
+        34.4
+       ],
+       [
+        3.0,
+        34.9
+       ],
+       [
+        0.0,
+        35.0
+       ],
+       [
+        -2.0,
+        34.6
+       ],
+       [
+        -4.5,
+        33.9
+       ],
+       [
+        -6.6,
+        33.9
+       ],
+       [
+        -11.5,
+        33.5
+       ],
+       [
+        -11.5,
+        37.0
+       ]
+      ]
+     ],
+     "color": "#1f4e8c",
+     "at": 0.8,
+     "dur": 1.8,
+     "label": "One emperor, AD 337",
+     "labelPos": [
+      14.0,
+      33.0
+     ],
+     "lsize": 44
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      12.49,
+      41.89
+     ],
+     "label": "Rome",
+     "lx": -20,
+     "ly": 50,
+     "at": 1.4,
+     "lalign": "right"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      28.98,
+      41.01
+     ],
+     "label": "Constantinople",
+     "lx": 0,
+     "ly": -45,
+     "at": 2.2,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "arrow",
+     "from": [
+      13.2,
+      42.4
+     ],
+     "to": [
+      28.2,
+      41.4
+     ],
+     "bend": -0.25,
+     "at": 3.0,
+     "color": "#b3261e"
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "This man moved the capital of the Roman Empire out of Rome.",
+   "scene": "colossus",
+   "move": {
+    "from": [
+     0.5,
+     0.36,
+     1.35
+    ],
+    "to": [
+     0.5,
+     0.34,
+     1.15
+    ]
+   }
+  },
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "globe",
+   "text": "Why did a Roman emperor move his capital to Istanbul?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In the middle of Istanbul, a scorched stone column still stands. It went up in AD 330, for the emperor who made this city the new capital of Rome: Constantine.",
+   "say": "In the middle of Istanbul, a scorched stone column still stands. It went up in A D three thirty, for the emperor who made this city the new capital of Rome: Constantine.",
+   "scene": "column",
+   "place": "Column of Constantine, 1901",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.4,
+     1.3
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Who was he?",
+   "scene": "start",
+   "date": "AD 306",
+   "cameo": {
+    "key": "const_head",
+    "side": "right",
+    "y": 0.56,
+    "w": 220,
+    "caption": "Constantine",
+    "hold": 2
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "The son of an emperor, born in what is now Serbia. In 306, his father died at York, in Britain, and the army there proclaimed Constantine emperor.",
+   "say": "The son of an emperor, born in what is now Serbia. In three oh six, his father died at York, in Britain, and the army there proclaimed Constantine emperor."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "But he ruled only the west: Britain, Gaul and Spain."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "How did he win the rest?",
+   "scene": "milvian",
+   "date": "AD 312",
+   "place": "Milvian Bridge, Rome",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.47,
+     0.45,
+     1.4
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "By war. In 312, he beat his rival Maxentius at the Milvian Bridge, just outside Rome. Maxentius drowned in the Tiber.",
+   "say": "By war. In three twelve, he beat his rival Maxentius at the Milvian Bridge, just outside Rome. Maxentius drowned in the Tiber."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Is it true he saw a sign in the sky?",
+   "scene": "vision",
+   "date": "",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.2,
+     1.4
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "That's the story. One writer says a dream told him to paint a Christian sign on his soldiers' shields. Another says he saw a cross in the sky."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "A year later, he and his fellow emperor made Christianity legal."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So why move the capital?",
+   "scene": "city330",
+   "move": {
+    "from": [
+     0.5,
+     0.6,
+     1.0
+    ],
+    "to": [
+     0.4,
+     0.35,
+     1.3
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In 324, he beat the last rival emperor and ruled alone. But Rome was far from the frontiers that mattered, on the Danube and in the east.",
+   "say": "In three twenty-four, he beat the last rival emperor and ruled alone. But Rome was far from the frontiers that mattered, on the Danube and in the east."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "So he chose the old Greek town of Byzantium, where Europe meets Asia. On 11 May 330, he dedicated it as New Rome.",
+   "say": "So he chose the old Greek town of Byzantium, where Europe meets Asia. On the eleventh of May, three thirty, he dedicated it as New Rome.",
+   "scene": "bosphorus",
+   "date": "AD 330",
+   "place": "Bosphorus"
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Then why isn't it called New Rome?",
+   "scene": "names",
+   "date": "",
+   "place": ""
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "People named it after him: Constantinople, the city of Constantine. Today, we call it Istanbul."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "What else did he leave behind?",
+   "scene": "solidus",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     0.75
+    ],
+    "to": [
+     0.5,
+     0.5,
+     0.95
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "A new gold coin, the solidus. It stayed the money of the Mediterranean for centuries."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "How did he die?",
+   "scene": "end",
+   "date": "AD 337",
+   "cameo": {
+    "key": "colossus",
+    "side": "left",
+    "y": 0.56,
+    "w": 200,
+    "hold": 2,
+    "zoom": 1.0
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In 337, near Nicomedia, baptised on his deathbed. His new city stayed a Roman capital for more than a thousand years.",
+   "say": "In three thirty-seven, near Nicomedia, baptised on his deathbed. His new city stayed a Roman capital for more than a thousand years."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Like the video and follow History Sketches for the next episode: the fall of the West.",
+   "cta": true
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And tell us in the comments: was moving the capital a good idea?",
+   "cta": true
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Seventeen hundred years later, almost sixteen million people live in his city.",
+   "scene": "column",
+   "date": "",
+   "move": {
+    "from": [
+     0.5,
+     0.45,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.35,
+     1.35
+    ]
+   }
+  }
+ ],
+ "loop": {
+  "key": "AD 330: Byzantium became New Rome"
+ }
+}

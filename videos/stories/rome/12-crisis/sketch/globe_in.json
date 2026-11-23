@@ -1,0 +1,1 @@
+{"w": 1080, "h": 1920, "duration": 8.0, "fly": 5.0, "ease": "power2.inOut", "from": {"lat": 20, "lon": 60, "dist": 4.6}, "to": {"lat": 40, "lon": 22, "dist": 1.9}, "markers": [{"lat": 41.89, "lon": 12.49, "label": "Rome", "at": 4.2}, {"lat": 34.56, "lon": 38.27, "label": "Palmyra", "at": 4.8}]}

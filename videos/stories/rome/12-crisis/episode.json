@@ -1,0 +1,2146 @@
+{
+ "series": "Ancient Rome",
+ "episode": 12,
+ "part": null,
+ "total_parts": null,
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
+  },
+  "a": {
+   "name": "Theo",
+   "color": "#D9A441"
+  }
+ },
+ "accent": "#D9A441",
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "scene_pad": 0.5,
+ "fade": 1.1,
+ "title": "How did Rome go through 26 emperors in 50 years?",
+ "highlight": [
+  "26 emperors"
+ ],
+ "music": {
+  "mood": "epic",
+  "seed": 82,
+  "drums": true,
+  "level": 0.3
+ },
+ "post": {
+  "caption": "Ancient Rome, episode 12: the Crisis of the Third Century (AD 235-284). Soldier emperors, an emperor captured by Persia, an empire split in three, Aurelian's walls and Diocletian. Images: public domain / CC0 (Holbein, Schmalz, The Met, Yale University Art Gallery, Capitoline Museums photo), AI illustrations marked. Map data: Natural Earth.",
+  "hashtags": [
+   "history",
+   "rome",
+   "ancientrome",
+   "romanempire",
+   "crisisofthethirdcentury",
+   "zenobia",
+   "shorts"
+  ]
+ },
+ "clips": {
+  "globe": "sketch/globe_in.mp4",
+  "emperors": "sketch/emperors_hf.mp4"
+ },
+ "images": {
+  "throne": {
+   "file": "img/throne_qwen.jpg",
+   "credit": "Illustration: the empty throne (AI-generated, Qwen-Image)",
+   "where": "History Sketches"
+  },
+  "walls": {
+   "file": "img/walls.jpg",
+   "credit": "Porta San Sebastiano, Aurelian Walls, Rome (photo: Karelj, 2011)",
+   "where": "Wikimedia Commons, public domain"
+  },
+  "valerian": {
+   "file": "img/valerian.jpg",
+   "credit": "Hans Holbein the Younger, The Humiliation of Emperor Valerian by Shapur (1521)",
+   "where": "Kunstmuseum Basel, public domain"
+  },
+  "zenobia": {
+   "file": "img/zenobia.jpg",
+   "credit": "Herbert Schmalz, Zenobia's Last Look on Palmyra (1888)",
+   "where": "Art Gallery of South Australia, public domain"
+  },
+  "maximinus": {
+   "file": "img/maximinus.jpg",
+   "credit": "Bust of Maximinus Thrax (photo: Jastrow)",
+   "where": "Capitoline Museums, public domain"
+  },
+  "gallus": {
+   "file": "img/gallus.jpg",
+   "credit": "Bronze statue of the emperor Trebonianus Gallus, AD 251-253",
+   "where": "The Metropolitan Museum of Art, CC0"
+  },
+  "coin_gal": {
+   "file": "img/gallienus_coin.jpg",
+   "credit": "Antoninianus of Gallienus",
+   "where": "Yale University Art Gallery, CC0"
+  },
+  "coin_val": {
+   "file": "img/valerian_coin.jpg",
+   "credit": "Antoninianus of Valerian",
+   "where": "Yale University Art Gallery, CC0"
+  },
+  "soldier": {
+   "file": "img/soldier.png",
+   "credit": "Illustration: Roman soldier, 3rd century (AI-generated, Qwen-Image)",
+   "where": "History Sketches"
+  }
+ },
+ "sketches": {
+  "start": {
+   "coast": "sketch/empire.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        -11.5,
+        44.5
+       ],
+       [
+        -6,
+        44.5
+       ],
+       [
+        -6.5,
+        48.3
+       ],
+       [
+        -6.2,
+        49.6
+       ],
+       [
+        -5.9,
+        51.0
+       ],
+       [
+        -5.6,
+        52.0
+       ],
+       [
+        -5.2,
+        53.4
+       ],
+       [
+        -4.0,
+        54.4
+       ],
+       [
+        -3.4,
+        54.95
+       ],
+       [
+        -2.0,
+        55.02
+       ],
+       [
+        -1.5,
+        55.02
+       ],
+       [
+        0.5,
+        55.2
+       ],
+       [
+        3.5,
+        53.3
+       ],
+       [
+        4.3,
+        52.2
+       ],
+       [
+        5.0,
+        51.9
+       ],
+       [
+        6.1,
+        51.85
+       ],
+       [
+        6.6,
+        51.4
+       ],
+       [
+        6.95,
+        50.94
+       ],
+       [
+        7.6,
+        50.4
+       ],
+       [
+        8.0,
+        50.35
+       ],
+       [
+        8.8,
+        50.3
+       ],
+       [
+        9.0,
+        49.5
+       ],
+       [
+        9.6,
+        49.0
+       ],
+       [
+        10.5,
+        48.95
+       ],
+       [
+        11.8,
+        48.85
+       ],
+       [
+        12.1,
+        49.0
+       ],
+       [
+        13.4,
+        48.6
+       ],
+       [
+        15.0,
+        48.3
+       ],
+       [
+        16.4,
+        48.2
+       ],
+       [
+        17.9,
+        47.8
+       ],
+       [
+        19.0,
+        47.8
+       ],
+       [
+        19.0,
+        46.5
+       ],
+       [
+        18.9,
+        45.4
+       ],
+       [
+        20.5,
+        44.8
+       ],
+       [
+        21.0,
+        45.4
+       ],
+       [
+        21.3,
+        46.3
+       ],
+       [
+        22.5,
+        47.4
+       ],
+       [
+        23.8,
+        47.5
+       ],
+       [
+        25.0,
+        47.0
+       ],
+       [
+        25.6,
+        46.0
+       ],
+       [
+        25.2,
+        45.3
+       ],
+       [
+        24.9,
+        44.5
+       ],
+       [
+        24.9,
+        43.75
+       ],
+       [
+        25.5,
+        43.65
+       ],
+       [
+        27.0,
+        44.1
+       ],
+       [
+        28.0,
+        44.3
+       ],
+       [
+        28.2,
+        45.4
+       ],
+       [
+        29.7,
+        45.2
+       ],
+       [
+        30.5,
+        44.6
+       ],
+       [
+        33.0,
+        43.8
+       ],
+       [
+        38.0,
+        42.0
+       ],
+       [
+        41.6,
+        41.6
+       ],
+       [
+        41.4,
+        41.0
+       ],
+       [
+        40.6,
+        40.0
+       ],
+       [
+        40.0,
+        39.0
+       ],
+       [
+        40.6,
+        38.3
+       ],
+       [
+        42.0,
+        37.4
+       ],
+       [
+        42.2,
+        36.2
+       ],
+       [
+        41.0,
+        35.2
+       ],
+       [
+        40.8,
+        34.6
+       ],
+       [
+        39.6,
+        33.6
+       ],
+       [
+        38.2,
+        32.3
+       ],
+       [
+        37.3,
+        30.6
+       ],
+       [
+        36.0,
+        28.6
+       ],
+       [
+        35.2,
+        27.5
+       ],
+       [
+        33.8,
+        25.5
+       ],
+       [
+        33.0,
+        23.5
+       ],
+       [
+        31.0,
+        23.5
+       ],
+       [
+        28.6,
+        25.0
+       ],
+       [
+        28.0,
+        27.5
+       ],
+       [
+        26.0,
+        29.5
+       ],
+       [
+        25.0,
+        30.4
+       ],
+       [
+        21.0,
+        30.2
+       ],
+       [
+        18.8,
+        30.0
+       ],
+       [
+        16.0,
+        30.4
+       ],
+       [
+        14.0,
+        30.8
+       ],
+       [
+        11.5,
+        31.2
+       ],
+       [
+        9.8,
+        32.0
+       ],
+       [
+        8.5,
+        33.4
+       ],
+       [
+        6.5,
+        34.4
+       ],
+       [
+        3.0,
+        34.9
+       ],
+       [
+        0.0,
+        35.0
+       ],
+       [
+        -2.0,
+        34.6
+       ],
+       [
+        -4.5,
+        33.9
+       ],
+       [
+        -6.6,
+        33.9
+       ],
+       [
+        -11.5,
+        33.5
+       ],
+       [
+        -11.5,
+        37.0
+       ]
+      ]
+     ],
+     "color": "#b3261e",
+     "at": 0.4,
+     "dur": 2.0,
+     "label": "Rome, AD 235",
+     "labelPos": [
+      13.0,
+      33.2
+     ]
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      12.49,
+      41.89
+     ],
+     "label": "Rome",
+     "lx": 25,
+     "ly": 45,
+     "at": 1.2
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      8.27,
+      50.0
+     ],
+     "label": "Mainz",
+     "lx": 25,
+     "ly": -40,
+     "at": 2.4
+    }
+   ]
+  },
+  "split": {
+   "coast": "sketch/empire.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.0,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        -11.5,
+        44.5
+       ],
+       [
+        -6,
+        44.5
+       ],
+       [
+        -6.5,
+        48.3
+       ],
+       [
+        -6.2,
+        49.6
+       ],
+       [
+        -5.9,
+        51.0
+       ],
+       [
+        -5.6,
+        52.0
+       ],
+       [
+        -5.2,
+        53.4
+       ],
+       [
+        -4.0,
+        54.4
+       ],
+       [
+        -3.4,
+        54.95
+       ],
+       [
+        -2.0,
+        55.02
+       ],
+       [
+        -1.5,
+        55.02
+       ],
+       [
+        0.5,
+        55.2
+       ],
+       [
+        3.5,
+        53.3
+       ],
+       [
+        4.3,
+        52.2
+       ],
+       [
+        5.0,
+        51.9
+       ],
+       [
+        6.1,
+        51.85
+       ],
+       [
+        6.6,
+        51.4
+       ],
+       [
+        6.95,
+        50.94
+       ],
+       [
+        7.6,
+        50.4
+       ],
+       [
+        8.0,
+        50.35
+       ],
+       [
+        8.8,
+        50.3
+       ],
+       [
+        9.0,
+        49.5
+       ],
+       [
+        9.6,
+        49.0
+       ],
+       [
+        10.5,
+        48.95
+       ],
+       [
+        11.8,
+        48.85
+       ],
+       [
+        12.1,
+        49.0
+       ],
+       [
+        13.4,
+        48.6
+       ],
+       [
+        15.0,
+        48.3
+       ],
+       [
+        16.4,
+        48.2
+       ],
+       [
+        17.9,
+        47.8
+       ],
+       [
+        19.0,
+        47.8
+       ],
+       [
+        19.0,
+        46.5
+       ],
+       [
+        18.9,
+        45.4
+       ],
+       [
+        20.5,
+        44.8
+       ],
+       [
+        21.0,
+        45.4
+       ],
+       [
+        21.3,
+        46.3
+       ],
+       [
+        22.5,
+        47.4
+       ],
+       [
+        23.8,
+        47.5
+       ],
+       [
+        25.0,
+        47.0
+       ],
+       [
+        25.6,
+        46.0
+       ],
+       [
+        25.2,
+        45.3
+       ],
+       [
+        24.9,
+        44.5
+       ],
+       [
+        24.9,
+        43.75
+       ],
+       [
+        25.5,
+        43.65
+       ],
+       [
+        27.0,
+        44.1
+       ],
+       [
+        28.0,
+        44.3
+       ],
+       [
+        28.2,
+        45.4
+       ],
+       [
+        29.7,
+        45.2
+       ],
+       [
+        30.5,
+        44.6
+       ],
+       [
+        33.0,
+        43.8
+       ],
+       [
+        38.0,
+        42.0
+       ],
+       [
+        41.6,
+        41.6
+       ],
+       [
+        41.4,
+        41.0
+       ],
+       [
+        40.6,
+        40.0
+       ],
+       [
+        40.0,
+        39.0
+       ],
+       [
+        40.6,
+        38.3
+       ],
+       [
+        42.0,
+        37.4
+       ],
+       [
+        42.2,
+        36.2
+       ],
+       [
+        41.0,
+        35.2
+       ],
+       [
+        40.8,
+        34.6
+       ],
+       [
+        39.6,
+        33.6
+       ],
+       [
+        38.2,
+        32.3
+       ],
+       [
+        37.3,
+        30.6
+       ],
+       [
+        36.0,
+        28.6
+       ],
+       [
+        35.2,
+        27.5
+       ],
+       [
+        33.8,
+        25.5
+       ],
+       [
+        33.0,
+        23.5
+       ],
+       [
+        31.0,
+        23.5
+       ],
+       [
+        28.6,
+        25.0
+       ],
+       [
+        28.0,
+        27.5
+       ],
+       [
+        26.0,
+        29.5
+       ],
+       [
+        25.0,
+        30.4
+       ],
+       [
+        21.0,
+        30.2
+       ],
+       [
+        18.8,
+        30.0
+       ],
+       [
+        16.0,
+        30.4
+       ],
+       [
+        14.0,
+        30.8
+       ],
+       [
+        11.5,
+        31.2
+       ],
+       [
+        9.8,
+        32.0
+       ],
+       [
+        8.5,
+        33.4
+       ],
+       [
+        6.5,
+        34.4
+       ],
+       [
+        3.0,
+        34.9
+       ],
+       [
+        0.0,
+        35.0
+       ],
+       [
+        -2.0,
+        34.6
+       ],
+       [
+        -4.5,
+        33.9
+       ],
+       [
+        -6.6,
+        33.9
+       ],
+       [
+        -11.5,
+        33.5
+       ],
+       [
+        -11.5,
+        37.0
+       ]
+      ]
+     ],
+     "color": "#b3261e",
+     "style": "faint",
+     "at": 0.3,
+     "dur": 1.2
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        -1.8,
+        43.4
+       ],
+       [
+        -6,
+        44.5
+       ],
+       [
+        -6.5,
+        48.3
+       ],
+       [
+        -6.2,
+        49.6
+       ],
+       [
+        -5.9,
+        51.0
+       ],
+       [
+        -5.6,
+        52.0
+       ],
+       [
+        -5.2,
+        53.4
+       ],
+       [
+        -4.0,
+        54.4
+       ],
+       [
+        -3.4,
+        54.95
+       ],
+       [
+        -2.0,
+        55.02
+       ],
+       [
+        -1.5,
+        55.02
+       ],
+       [
+        0.5,
+        55.2
+       ],
+       [
+        3.5,
+        53.3
+       ],
+       [
+        4.3,
+        52.2
+       ],
+       [
+        5.0,
+        51.9
+       ],
+       [
+        6.1,
+        51.85
+       ],
+       [
+        6.6,
+        51.4
+       ],
+       [
+        6.95,
+        50.94
+       ],
+       [
+        7.6,
+        50.4
+       ],
+       [
+        7.6,
+        49.5
+       ],
+       [
+        8.2,
+        48.9
+       ],
+       [
+        7.6,
+        47.6
+       ],
+       [
+        8.6,
+        47.65
+       ],
+       [
+        8.5,
+        46.6
+       ],
+       [
+        7.0,
+        45.6
+       ],
+       [
+        7.0,
+        44.5
+       ],
+       [
+        7.6,
+        43.7
+       ],
+       [
+        5.5,
+        42.6
+       ],
+       [
+        3.2,
+        42.4
+       ],
+       [
+        1.5,
+        42.6
+       ],
+       [
+        0.0,
+        42.75
+       ]
+      ]
+     ],
+     "color": "#2f6b3a",
+     "at": 1.0,
+     "dur": 1.4,
+     "label": "Gallic Empire",
+     "labelPos": [
+      1.0,
+      47.0
+     ],
+     "lsize": 44
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        34.5,
+        42.3
+       ],
+       [
+        41.6,
+        41.6
+       ],
+       [
+        41.4,
+        41.0
+       ],
+       [
+        40.6,
+        40.0
+       ],
+       [
+        40.0,
+        39.0
+       ],
+       [
+        40.6,
+        38.3
+       ],
+       [
+        42.0,
+        37.4
+       ],
+       [
+        42.2,
+        36.2
+       ],
+       [
+        41.0,
+        35.2
+       ],
+       [
+        40.8,
+        34.6
+       ],
+       [
+        39.6,
+        33.6
+       ],
+       [
+        38.2,
+        32.3
+       ],
+       [
+        37.3,
+        30.6
+       ],
+       [
+        36.0,
+        28.6
+       ],
+       [
+        35.2,
+        27.5
+       ],
+       [
+        33.8,
+        25.5
+       ],
+       [
+        33.0,
+        23.5
+       ],
+       [
+        31.0,
+        23.5
+       ],
+       [
+        28.6,
+        25.0
+       ],
+       [
+        28.0,
+        27.5
+       ],
+       [
+        26.0,
+        29.5
+       ],
+       [
+        25.0,
+        30.4
+       ],
+       [
+        25.1,
+        31.8
+       ],
+       [
+        27.0,
+        34.0
+       ],
+       [
+        30.8,
+        35.8
+       ],
+       [
+        31.6,
+        37.6
+       ],
+       [
+        32.2,
+        39.4
+       ],
+       [
+        33.0,
+        41.0
+       ]
+      ]
+     ],
+     "color": "#6a3d8f",
+     "at": 4.0,
+     "dur": 1.4,
+     "label": "Palmyra",
+     "labelPos": [
+      36.5,
+      30.0
+     ],
+     "lsize": 44
+    },
+    {
+     "kind": "label",
+     "text": "Rome",
+     "pos": [
+      18.0,
+      44.5
+     ],
+     "at": 2.6,
+     "size": 46,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "AD 271",
+     "pos": [
+      0.5,
+      0.8
+     ],
+     "at": 0.4,
+     "size": 50
+    }
+   ]
+  },
+  "end": {
+   "coast": "sketch/empire.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.0,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        -11.5,
+        44.5
+       ],
+       [
+        -6,
+        44.5
+       ],
+       [
+        -6.5,
+        48.3
+       ],
+       [
+        -6.2,
+        49.6
+       ],
+       [
+        -5.9,
+        51.0
+       ],
+       [
+        -5.6,
+        52.0
+       ],
+       [
+        -5.2,
+        53.4
+       ],
+       [
+        -4.0,
+        54.4
+       ],
+       [
+        -3.4,
+        54.95
+       ],
+       [
+        -2.0,
+        55.02
+       ],
+       [
+        -1.5,
+        55.02
+       ],
+       [
+        0.5,
+        55.2
+       ],
+       [
+        3.5,
+        53.3
+       ],
+       [
+        4.3,
+        52.2
+       ],
+       [
+        5.0,
+        51.9
+       ],
+       [
+        6.1,
+        51.85
+       ],
+       [
+        6.6,
+        51.4
+       ],
+       [
+        6.95,
+        50.94
+       ],
+       [
+        7.6,
+        50.4
+       ],
+       [
+        8.0,
+        50.35
+       ],
+       [
+        8.8,
+        50.3
+       ],
+       [
+        9.0,
+        49.5
+       ],
+       [
+        9.6,
+        49.0
+       ],
+       [
+        10.5,
+        48.95
+       ],
+       [
+        11.8,
+        48.85
+       ],
+       [
+        12.1,
+        49.0
+       ],
+       [
+        13.4,
+        48.6
+       ],
+       [
+        15.0,
+        48.3
+       ],
+       [
+        16.4,
+        48.2
+       ],
+       [
+        17.9,
+        47.8
+       ],
+       [
+        19.0,
+        47.8
+       ],
+       [
+        19.0,
+        46.5
+       ],
+       [
+        18.9,
+        45.4
+       ],
+       [
+        20.5,
+        44.8
+       ],
+       [
+        21.0,
+        45.4
+       ],
+       [
+        21.3,
+        46.3
+       ],
+       [
+        22.5,
+        47.4
+       ],
+       [
+        23.8,
+        47.5
+       ],
+       [
+        25.0,
+        47.0
+       ],
+       [
+        25.6,
+        46.0
+       ],
+       [
+        25.2,
+        45.3
+       ],
+       [
+        24.9,
+        44.5
+       ],
+       [
+        24.9,
+        43.75
+       ],
+       [
+        25.5,
+        43.65
+       ],
+       [
+        27.0,
+        44.1
+       ],
+       [
+        28.0,
+        44.3
+       ],
+       [
+        28.2,
+        45.4
+       ],
+       [
+        29.7,
+        45.2
+       ],
+       [
+        30.5,
+        44.6
+       ],
+       [
+        33.0,
+        43.8
+       ],
+       [
+        38.0,
+        42.0
+       ],
+       [
+        41.6,
+        41.6
+       ],
+       [
+        41.4,
+        41.0
+       ],
+       [
+        40.6,
+        40.0
+       ],
+       [
+        40.0,
+        39.0
+       ],
+       [
+        40.6,
+        38.3
+       ],
+       [
+        42.0,
+        37.4
+       ],
+       [
+        42.2,
+        36.2
+       ],
+       [
+        41.0,
+        35.2
+       ],
+       [
+        40.8,
+        34.6
+       ],
+       [
+        39.6,
+        33.6
+       ],
+       [
+        38.2,
+        32.3
+       ],
+       [
+        37.3,
+        30.6
+       ],
+       [
+        36.0,
+        28.6
+       ],
+       [
+        35.2,
+        27.5
+       ],
+       [
+        33.8,
+        25.5
+       ],
+       [
+        33.0,
+        23.5
+       ],
+       [
+        31.0,
+        23.5
+       ],
+       [
+        28.6,
+        25.0
+       ],
+       [
+        28.0,
+        27.5
+       ],
+       [
+        26.0,
+        29.5
+       ],
+       [
+        25.0,
+        30.4
+       ],
+       [
+        21.0,
+        30.2
+       ],
+       [
+        18.8,
+        30.0
+       ],
+       [
+        16.0,
+        30.4
+       ],
+       [
+        14.0,
+        30.8
+       ],
+       [
+        11.5,
+        31.2
+       ],
+       [
+        9.8,
+        32.0
+       ],
+       [
+        8.5,
+        33.4
+       ],
+       [
+        6.5,
+        34.4
+       ],
+       [
+        3.0,
+        34.9
+       ],
+       [
+        0.0,
+        35.0
+       ],
+       [
+        -2.0,
+        34.6
+       ],
+       [
+        -4.5,
+        33.9
+       ],
+       [
+        -6.6,
+        33.9
+       ],
+       [
+        -11.5,
+        33.5
+       ],
+       [
+        -11.5,
+        37.0
+       ]
+      ]
+     ],
+     "color": "#b3261e",
+     "style": "faint",
+     "at": 0.3,
+     "dur": 1.0
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        -11.5,
+        44.5
+       ],
+       [
+        -6,
+        44.5
+       ],
+       [
+        -6.5,
+        48.3
+       ],
+       [
+        -6.2,
+        49.6
+       ],
+       [
+        -5.9,
+        51.0
+       ],
+       [
+        -5.6,
+        52.0
+       ],
+       [
+        -5.2,
+        53.4
+       ],
+       [
+        -4.0,
+        54.4
+       ],
+       [
+        -3.4,
+        54.95
+       ],
+       [
+        -2.0,
+        55.02
+       ],
+       [
+        -1.5,
+        55.02
+       ],
+       [
+        0.5,
+        55.2
+       ],
+       [
+        3.5,
+        53.3
+       ],
+       [
+        4.3,
+        52.2
+       ],
+       [
+        5.0,
+        51.9
+       ],
+       [
+        6.1,
+        51.85
+       ],
+       [
+        6.6,
+        51.4
+       ],
+       [
+        6.95,
+        50.94
+       ],
+       [
+        7.6,
+        50.4
+       ],
+       [
+        7.6,
+        49.5
+       ],
+       [
+        8.2,
+        48.9
+       ],
+       [
+        7.6,
+        47.6
+       ],
+       [
+        8.6,
+        47.65
+       ],
+       [
+        9.5,
+        47.5
+       ],
+       [
+        10.0,
+        48.4
+       ],
+       [
+        11.0,
+        48.75
+       ],
+       [
+        12.1,
+        49.0
+       ],
+       [
+        13.4,
+        48.6
+       ],
+       [
+        15.0,
+        48.3
+       ],
+       [
+        16.4,
+        48.2
+       ],
+       [
+        17.9,
+        47.8
+       ],
+       [
+        19.0,
+        47.8
+       ],
+       [
+        19.0,
+        46.5
+       ],
+       [
+        18.9,
+        45.4
+       ],
+       [
+        20.5,
+        44.8
+       ],
+       [
+        22.0,
+        44.6
+       ],
+       [
+        22.6,
+        44.2
+       ],
+       [
+        24.0,
+        43.75
+       ],
+       [
+        25.5,
+        43.65
+       ],
+       [
+        27.0,
+        44.1
+       ],
+       [
+        28.0,
+        44.3
+       ],
+       [
+        28.2,
+        45.4
+       ],
+       [
+        29.7,
+        45.2
+       ],
+       [
+        30.5,
+        44.6
+       ],
+       [
+        33.0,
+        43.8
+       ],
+       [
+        38.0,
+        42.0
+       ],
+       [
+        41.6,
+        41.6
+       ],
+       [
+        41.4,
+        41.0
+       ],
+       [
+        40.6,
+        40.0
+       ],
+       [
+        40.0,
+        39.0
+       ],
+       [
+        40.6,
+        38.3
+       ],
+       [
+        42.0,
+        37.4
+       ],
+       [
+        42.2,
+        36.2
+       ],
+       [
+        41.0,
+        35.2
+       ],
+       [
+        40.8,
+        34.6
+       ],
+       [
+        39.6,
+        33.6
+       ],
+       [
+        38.2,
+        32.3
+       ],
+       [
+        37.3,
+        30.6
+       ],
+       [
+        36.0,
+        28.6
+       ],
+       [
+        35.2,
+        27.5
+       ],
+       [
+        33.8,
+        25.5
+       ],
+       [
+        33.0,
+        23.5
+       ],
+       [
+        31.0,
+        23.5
+       ],
+       [
+        28.6,
+        25.0
+       ],
+       [
+        28.0,
+        27.5
+       ],
+       [
+        26.0,
+        29.5
+       ],
+       [
+        25.0,
+        30.4
+       ],
+       [
+        21.0,
+        30.2
+       ],
+       [
+        18.8,
+        30.0
+       ],
+       [
+        16.0,
+        30.4
+       ],
+       [
+        14.0,
+        30.8
+       ],
+       [
+        11.5,
+        31.2
+       ],
+       [
+        9.8,
+        32.0
+       ],
+       [
+        8.5,
+        33.4
+       ],
+       [
+        6.5,
+        34.4
+       ],
+       [
+        3.0,
+        34.9
+       ],
+       [
+        0.0,
+        35.0
+       ],
+       [
+        -2.0,
+        34.6
+       ],
+       [
+        -4.5,
+        33.9
+       ],
+       [
+        -6.6,
+        33.9
+       ],
+       [
+        -11.5,
+        33.5
+       ],
+       [
+        -11.5,
+        37.0
+       ]
+      ]
+     ],
+     "color": "#b3261e",
+     "at": 0.8,
+     "dur": 1.8,
+     "label": "Rome, AD 284",
+     "labelPos": [
+      13.0,
+      33.2
+     ]
+    },
+    {
+     "kind": "label",
+     "text": "Dacia lost",
+     "pos": [
+      24.0,
+      48.6
+     ],
+     "at": 3.0,
+     "size": 42,
+     "color": "#5a4a36"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      12.49,
+      41.89
+     ],
+     "label": "Rome",
+     "lx": 25,
+     "ly": 45,
+     "at": 1.6
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Rome had twenty-six emperors in fifty years, and most were killed.",
+   "scene": "throne",
+   "move": {
+    "from": [
+     0.5,
+     0.42,
+     1.35
+    ],
+    "to": [
+     0.5,
+     0.4,
+     1.15
+    ]
+   }
+  },
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "globe",
+   "text": "How did Rome go through 26 emperors in 50 years?",
+   "say": "How did Rome go through twenty-six emperors in fifty years?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Rome is still ringed by brick walls almost nineteen kilometres long. They went up in a hurry from AD 271, in the worst crisis the empire had ever seen.",
+   "say": "Rome is still ringed by brick walls almost nineteen kilometres long. They went up in a hurry from A D two seventy-one, in the worst crisis the empire had ever seen.",
+   "scene": "walls",
+   "place": "Aurelian Walls, Rome",
+   "move": {
+    "from": [
+     0.5,
+     0.35,
+     1.0
+    ],
+    "to": [
+     0.45,
+     0.3,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "How did it start?",
+   "scene": "start",
+   "date": "AD 235"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In AD 235, the emperor Severus Alexander was murdered by his own soldiers near Mainz.",
+   "say": "In A D two thirty-five, the emperor Severus Alexander was murdered by his own soldiers near Mainz."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "From then on, the army made the emperors, and the army killed them. In the year 238 alone, Rome had six.",
+   "say": "From then on, the army made the emperors, and the army killed them. In the year two thirty-eight alone, Rome had six.",
+   "scene": "emperors",
+   "date": "",
+   "cameo": [
+    {
+     "key": "maximinus",
+     "side": "right",
+     "y": 0.22,
+     "w": 230,
+     "caption": "Maximinus Thrax",
+     "hold": 1,
+     "delay": 1.0
+    },
+    {
+     "key": "soldier",
+     "style": "cutout",
+     "side": "left",
+     "y": 0.2,
+     "w": 220,
+     "bleed": 20,
+     "hold": 1,
+     "delay": 3.0
+    }
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Why couldn't anyone stop it?",
+   "scene": "gallus",
+   "place": "Emperor Trebonianus Gallus",
+   "move": {
+    "from": [
+     0.5,
+     0.3,
+     1.0
+    ],
+    "to": [
+     0.52,
+     0.22,
+     1.6
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Everything went wrong at once. Goths crossed the Danube, Persia attacked in the east, plague swept the cities, and the silver coins turned almost to bronze.",
+   "cameo": {
+    "key": "coin_gal",
+    "style": "coin",
+    "side": "left",
+    "y": 0.55,
+    "w": 220,
+    "caption": "silver?",
+    "delay": 6.0
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Could it get any worse?",
+   "scene": "valerian",
+   "date": "AD 260",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.42,
+     0.78,
+     1.5
+    ]
+   },
+   "cameo": {
+    "key": "coin_val",
+    "style": "coin",
+    "side": "right",
+    "y": 0.24,
+    "w": 200,
+    "caption": "Valerian",
+    "hold": 2
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In 260, the Persian king Shapur captured the emperor Valerian. No Roman emperor had ever been taken prisoner.",
+   "say": "In two sixty, the Persian king Shapur captured the emperor Valerian. No Roman emperor had ever been taken prisoner."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Roman writers claimed Shapur used him as a footstool to climb onto his horse. Valerian died a captive."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "What happened to the empire?",
+   "scene": "split",
+   "date": ""
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "It broke into three. In the west, Gaul and Britain went their own way. In the east, Queen Zenobia of Palmyra took Syria and Egypt."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Who put it back together?",
+   "scene": "zenobia",
+   "move": {
+    "from": [
+     0.5,
+     0.45,
+     1.0
+    ],
+    "to": [
+     0.4,
+     0.3,
+     1.35
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Aurelian, a tough soldier emperor. In four years he defeated Zenobia and the Gallic Empire, and called himself Restorer of the World."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "He also gave Rome those walls. Then, in 275, his own officers murdered him.",
+   "say": "He also gave Rome those walls. Then, in two seventy-five, his own officers murdered him."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So when did it end?",
+   "scene": "end",
+   "date": "AD 284"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In 284, when Diocletian took power. Rome survived, but Dacia, north of the Danube, was gone for good.",
+   "say": "In two eighty-four, when Diocletian took power. Rome survived, but Dacia, north of the Danube, was gone for good."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "And after more than twenty years on the throne, Diocletian did something no emperor had done before: he simply retired."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Like the video and follow History Sketches for the next episode: Constantine and Constantinople.",
+   "cta": true
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And tell us in the comments: would you have taken the throne?",
+   "cta": true
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Until then, the throne was the deadliest job in Rome.",
+   "scene": "throne",
+   "date": "",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.42,
+     1.35
+    ]
+   }
+  }
+ ],
+ "loop": {
+  "key": "26 emperors, AD 235-284: most killed"
+ }
+}
