@@ -31,4 +31,5 @@ Art from Gemini with no text (clean files in `videos/out/rome/_covers/clean/`). 
 | 11 | THIS IS WHERE ROME STOPPED | Hadrian's Wall at sunset |
 | 12 | 26 EMPERORS IN 50 YEARS | empty throne, fallen wreaths |
 | 13 | HE MOVED ROME TO ISTANBUL | Constantine over the Bosphorus (ref: Capitoline colossal head, PD) |
-| 14, 15 | pending (episodes in production) | |
+| 14 | ROME DIDN'T FALL IN 476 | boy emperor hands his diadem to Odoacer, Ravenna |
+| 15 | ROME ENDED IN ISTANBUL | last emperor on the Theodosian walls, 1453 |

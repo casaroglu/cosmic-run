@@ -143,7 +143,8 @@
   "lat": 44.42,
   "lon": 12.2,
   "place": "Ravenna",
-  "part": 3
+  "part": 3,
+  "chapter_mp4": "~/cizgi/rome-14-fall-476/out/chapter.mp4"
  },
  {
   "n": 15,
@@ -153,6 +154,7 @@
   "lat": 41.01,
   "lon": 28.98,
   "place": "Constantinople",
-  "part": 3
+  "part": 3,
+  "chapter_mp4": "~/cizgi/rome-15-1453/out/chapter.mp4"
  }
 ]
