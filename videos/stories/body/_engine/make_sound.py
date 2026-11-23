@@ -39,12 +39,13 @@ for e in EV:   # one sound per event kind, quiet under the voice
     t = e['t']
     if e['kind'] == 'icon': place(fx, pop(650 + (int(t * 10) % 5) * 90), t + 0.05, -17)
     elif e['kind'] == 'tag': place(fx, mixn(pop(420), tick()), t + 0.04, -15)
-    elif e['kind'] == 'section': place(fx, whoosh(0.7, True), t - 0.25, -17)
-    elif e['kind'] == 'card': place(fx, mixn(whoosh(1.0, False), chime((523, 784), 1.2) * 0.5), t - 0.1, -14)
+    elif e['kind'] == 'section': pass   # no whoosh/swish/riser sounds (user rule 2026-11-23)
+    elif e['kind'] == 'card': place(fx, chime((523, 784), 1.2) * 0.5, t - 0.1, -14)
 SFX = {   # named one-off effects a topic logs with sfx(name, t)
-  'boom': lambda: mixn(boom(1.4), whoosh(0.5, False) * 0.6), 'thud': lambda: boom(0.4), 'shatter': shatter, 'swell': lambda: sweep(400, 1200, 0.22) * np.linspace(0, 1, int(0.22 * SR)),
+  'boom': lambda: boom(1.4), 'thud': lambda: boom(0.4), 'shatter': shatter, 'swell': lambda: sweep(400, 1200, 0.22) * np.linspace(0, 1, int(0.22 * SR)),
   'chime': lambda: chime((392, 587, 784), 1.6), 'sparkle': lambda: mixn(chime((784, 988, 1175), 1.2) * 0.6, pop(1200)), 'title': lambda: chime((523, 659, 784, 1046), 3.0),
-  'whoosh': lambda: whoosh(1.0, False), 'rise': lambda: whoosh(1.0, True), 'pop': lambda: pop(500), 'tick': tick,
+  'whoosh': lambda: np.zeros(1), 'rise': lambda: np.zeros(1),   # no whoosh/swish/riser sounds (user rule 2026-11-23)
+  'pop': lambda: pop(500), 'tick': tick,
   'wobble': lambda: sweep(180, 260, 2.6) * (0.5 + 0.5 * np.sin(np.linspace(0, 18, int(2.6 * SR)))) * env(int(2.6 * SR), 0.4, 1.5),
   'buzz': lambda: (np.sin(2 * np.pi * 520 * np.arange(int(1.2 * SR)) / SR) * (0.6 + 0.4 * np.sin(2 * np.pi * 9 * np.arange(int(1.2 * SR)) / SR)) * env(int(1.2 * SR), 0.05, 0.6)),
 }

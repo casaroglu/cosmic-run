@@ -61,7 +61,7 @@ for (const s of list) {
   execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-i', base + '_v.mp4', '-i', path.join(DIR, 'audio/mix.wav'), '-f', 'lavfi', '-t', String(REW), '-i', 'anoisesrc=color=pink:sample_rate=48000:amplitude=0.5',
     '-filter_complex',
     `[1:a]atrim=${cs.toFixed(3)}:${(cs + COLD * SPEED).toFixed(3)},asetpts=PTS-STARTPTS,atempo=${SPEED},${F},afade=t=out:st=${(COLD - 0.1).toFixed(2)}:d=0.1[c];` +
-    `[2:a]highpass=f=600,lowpass=f=6000,afade=t=in:d=${(REW * 0.6).toFixed(2)},afade=t=out:st=${(REW * 0.6).toFixed(2)}:d=${(REW * 0.4).toFixed(2)},volume=0.35,${F}[w];` +
+    `[2:a]highpass=f=600,lowpass=f=6000,afade=t=in:d=${(REW * 0.6).toFixed(2)},afade=t=out:st=${(REW * 0.6).toFixed(2)}:d=${(REW * 0.4).toFixed(2)},volume=0,${F}[w];` +
     `[1:a]atrim=${s.t0.toFixed(3)}:${s.t1.toFixed(3)},asetpts=PTS-STARTPTS,atempo=${SPEED},${F},afade=t=in:d=0.03,afade=t=out:st=${(main - 0.12).toFixed(2)}:d=0.12[m];` +
     `[c][w][m]concat=n=3:v=0:a=1,loudnorm=I=-14:TP=-1.5:LRA=11[a]`,
     '-map', '0:v', '-map', '[a]', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-shortest', '-movflags', '+faststart', base + '.mp4']);

@@ -33,7 +33,7 @@ def narrated(key, lines, lead, tail, mood, seed):
 def interlude(d=4.0):
     n = int(d * SR); x = np.zeros(n)
     w = B.sfx_whoosh(); w = np.interp(np.linspace(0, len(w), int(len(w) * 2.4)), np.arange(len(w)), w)  # slower, deeper whoosh
-    x[int(0.2 * SR):int(0.2 * SR) + len(w)] += w * 1.4
+    # no whoosh/swish/riser sounds (user rule 2026-11-23): interlude keeps only the timpani
     h = B.timpani(int(2.2 * SR)) * 0.5; i = int(1.75 * SR); x[i:i + len(h)] += h[:n - i]
     x = B.reverb(x, 2.0, 0.35)
     write('interlude.wav', x * np.minimum(1, (n - np.arange(n)) / (SR * 0.4)))

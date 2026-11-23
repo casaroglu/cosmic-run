@@ -33,11 +33,11 @@ for c in range(NC + 2):
     o = c * T
     for a, b, ax in CUTS:
         d = b - a; cont = a + .62 * d * (.62 if ax == 'y' else .42); sw = a + .62 * d
-        add(whoosh(.35), o + a - .05, .12, -.3); add(scrape(sw - cont + .05), o + cont, .55, .1); add(grains(sw - cont, 900), o + cont, .35, .15)
+        add(scrape(sw - cont + .05), o + cont, .55, .1); add(grains(sw - cont, 900), o + cont, .35, .15)
         add(tink(2100 + rng.random() * 600), o + sw, .22, .2); add(grains(.18, 2500, 5200), o + sw, .4, .2)
     add(thump(), o + BURST, .5); add(grains(.25, 3000, 4500), o + BURST, .45)
     for k in range(14): add(tink(2600 + rng.random() * 3500, .7), o + BURST + .02 + rng.random() * .55, .06 + rng.random() * .06, rng.uniform(-.8, .8))
-    add(whoosh(ZEND - DRIFT + .3, True), o + DRIFT - .1, .1, 0)
+    
     add(tink(1700, 1.2), o + ZEND - .15, .12, 0)
 room = biquad_bp(rng.standard_normal(N), 400, .5) * .004
 L += room; R += room

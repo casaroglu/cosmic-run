@@ -38,14 +38,14 @@ for c in range(NC + 2):
     d = CUT[1] - CUT[0]; n = int(d * SR); tt = np.arange(n) / SR + CUT[0]
     saw = grind(d, 1700, 1.6) * (.25 + .75 * np.abs(np.sin(tt * 38))) ** 1.5
     add(saw, o + CUT[0], .5, .1); add(grains(d, 500, 3000), o + CUT[0], .25, .15)
-    add(whoosh(.3), o + CUT[0] - .3, .08, -.2)
+    
     add(grains(.12, 2500, 2600), o + 1.95, .45, 0); add(tok(120, .5), o + 1.97, .25, 0)
     add(grind(.45, 600, 1.0), o + 2.05, .35, -.4); add(grind(.45, 650, 1.0), o + 2.05, .35, .4)
     add(tok(200, 1.0), o + 2.397, .55, 0); add(tok(230, .4), o + 2.506, .5, 0); add(tok(250, .15), o + 2.533, .5, 0)
     add(grind(.8, 500, .9), o + 2.4, .18, -.5); add(grind(.8, 520, .9), o + 2.4, .18, .5)
     for k in range(10): add(tink(2400 + rng.random() * 3200, .9), o + 2.55 + rng.random() * .8, .05 + rng.random() * .05, rng.uniform(-.7, .7))
     add(grind(1.9, 450, .8), o + 3.6, .12, -.6); add(grind(1.9, 470, .8), o + 3.6, .12, .6)
-    add(whoosh(2.1, True), o + 3.7, .1, 0)
+    
     add(tink(1500, 1.4), o + 5.7, .1, 0)
 room = biquad_bp(rng.standard_normal(N), 400, .5) * .004
 L += room; R += room

@@ -2,6 +2,16 @@
 
 Every Rome Short follows this brief. The reference episode is `07-augustus`; read its `episode.json`, `RESEARCH.md` and git history (`git log -- videos/stories/rome/07-augustus`).
 
+## Visual style for 08–15: "B+C" (user, 2026-11-23)
+- Follow ~/cizgi/STYLE_BC.md. In short:
+  - B: cizgi-kit cartoon characters act out the Q/A in front of real public-domain or CC0 photos and paintings.
+  - C: dossier or pinned-photo cards show real PD portraits and key facts.
+  - Use the kit from ~/cizgi/antwerp-sandwich. Put the project in ~/cizgi/rome-<ep>.
+- Also render `chapter.mp4`: the same video cut just before the CTA, for the long-form parts.
+- **Sound:** never use whoosh, swish or riser sounds.
+- **Revealing images:** never crop them. Blur the revealing areas and cover each one with a flower emoji (🌹🌸🌺🌷).
+- The pipeline section below still applies to research, script, voices and fact checks. The story-video renderer was used for 01–07 only.
+
 ## Pipeline (same as 05–07)
 - **Script:** an Ava-asks / Theo-answers dialogue. Ava is `q` (af_heart); Theo is `a` (bm_fable).
   - Years are read naturally (`say` field).

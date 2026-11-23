@@ -389,7 +389,7 @@ def main(story_path, out_dir):
         if typ == "pause":
             t += b.get("seconds", 1.0)
         if typ == "end":
-            sfx.append((t, sfx_whoosh()))
+            # no whoosh/swish/riser sounds (user rule 2026-11-23)
             t += b.get("hold", END_HOLD)
 
         if story.get("pencil_sound") and b["scene"] in story.get("sketches", {}) and b["scene"] not in drawn_sketches:

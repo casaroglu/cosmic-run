@@ -32,7 +32,7 @@ def whoosh(sec=.45):
 def pop(f=700): n = int(.1 * SR); return np.sin(2 * np.pi * np.cumsum(np.geomspace(f * 1.7, f, n)) / SR) * env(n, .002, .035)
 def boom(): n = int(1.3 * SR); return np.sin(2 * np.pi * np.cumsum(np.geomspace(90, 36, n)) / SR) * env(n, .004, .4) + lp(rng.standard_normal(n), .05) * env(n, .002, .12) * 2
 def tick(): n = int(.03 * SR); return np.sin(2 * np.pi * np.cumsum(np.geomspace(2600, 1800, n)) / SR) * env(n, .001, .008)
-for s in info['scenes'][1:]: place(fx, whoosh(), max(0, s - .3), -20)
+# no whoosh/swish/riser sounds (user rule 2026-11-23): scene cuts are silent
 for at, kind in info.get('EV', []): place(fx, {'pop': pop, 'boom': boom, 'tick': tick, 'whoosh': whoosh}[kind](), at, {'pop': -12, 'boom': -10, 'tick': -16, 'whoosh': -18}[kind])
 vo = np.zeros(N); vo[:min(N, len(voice))] = voice[:N]
 duck = np.convolve((np.abs(vo) > .02).astype(float), np.ones(int(.25 * SR)) / int(.25 * SR), 'same'); bed *= 1 - .45 * np.clip(duck * 3, 0, 1)
