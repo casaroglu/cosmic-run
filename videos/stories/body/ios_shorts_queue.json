@@ -4,16 +4,16 @@
   "file": "videos/out/shorts/04-dino-blood/intro.mp4",
   "title": "Scientists found dinosaur blood?!",
   "hook": "BLOOD IN A DINOSAUR BONE",
-  "description": "A 115-million-year-old dinosaur bone from Brazil holds tiny oval cells and heme, the chemical heart of blood. The team calls it the oldest blood ever found, which raises the Jurassic Park question.\n\nFull video: Scientists Found Dinosaur Blood. Can We Clone Them Now? Explained in 9 Minutes — on our channel.\nVoices are synthetic (text-to-speech).\n#science #shorts #dinosaurs #paleontology",
+  "description": "A 115-million-year-old dinosaur bone from Brazil holds tiny oval cells and heme, the chemical heart of blood. The team calls it the oldest blood ever found, which raises the Jurassic Park question.\n\nFree Sunday email, 3 facts in 20 seconds: https://thisweekinsideyou.beehiiv.com/subscribe\n\nFull video: Scientists Found Dinosaur Blood. Can We Clone Them Now? Explained in 9 Minutes — on our channel.\nVoices are synthetic (text-to-speech).\n#science #shorts #dinosaurs #paleontology",
   "long_id": "RjCnis1niO8",
   "duration_s": 38.4,
   "cover": "videos/out/shorts/04-dino-blood/intro_cover.jpg",
   "publish": "2026-11-23 16:00 Europe/Istanbul",
-  "url": null,
-  "status": "todo",
+  "url": "https://youtube.com/shorts/iKpGQSfnwUQ",
+  "status": "scheduled",
   "order": 0,
   "note": "Uploaded 22 Nov 2026 as a private draft (title, description, not-for-kids, altered content set). Thumbnail blocked by 'Tek seferlik doğrulama gerekiyor'; add the cover and schedule once the channel is verified. Planned slot 22 Nov 16:00.",
-  "uploaded": "2026-11-22",
+  "uploaded": "2026-11-23",
   "old_draft": "old cut left as a Studio draft (thumbnail blocked) - delete only with the user's OK (https://youtube.com/shorts/i_pb4zT7-ag)",
   "loop_cut": true
  },
@@ -22,16 +22,17 @@
   "file": "videos/out/shorts/06-ghost-particles/intro.mp4",
   "title": "Trillions of particles just went through you",
   "hook": "GHOST PARTICLES INSIDE YOU",
-  "description": "Every second, roughly 65 billion neutrinos from the Sun cross each square centimetre of your body, and you never feel a thing. Catching these ghost particles won the 2026 Nobel Prize in Physics.\n\nFull video: 100 Trillion Ghost Particles Just Passed Through You. Explained in 9 Minutes — on our channel.\nVoices are synthetic (text-to-speech).\n#science #shorts #physics #neutrinos",
+  "description": "Every second, roughly 65 billion neutrinos from the Sun cross each square centimetre of your body, and you never feel a thing. Catching these ghost particles won the 2026 Nobel Prize in Physics.\n\nFree Sunday email, 3 facts in 20 seconds: https://thisweekinsideyou.beehiiv.com/subscribe\n\nFull video: 100 Trillion Ghost Particles Just Passed Through You. Explained in 9 Minutes — on our channel.\nVoices are synthetic (text-to-speech).\n#science #shorts #physics #neutrinos",
   "long_id": "bciJXNAlabs",
   "duration_s": 30.4,
   "cover": "videos/out/shorts/06-ghost-particles/intro_cover.jpg",
   "publish": "2026-11-23 22:00 Europe/Istanbul",
-  "url": null,
-  "status": "todo",
+  "url": "https://youtube.com/shorts/9W7ZOWAd8hc",
+  "status": "scheduled",
   "order": 1,
   "note": "Old intro Short (cut-off text, old visuals) deleted on YouTube on 22 Nov 2026; upload the reworked intro.mp4 fresh. Its slot is past, so the slot rule moves it.",
-  "loop_cut": true
+  "loop_cut": true,
+  "uploaded": "2026-11-23"
  },
  {
   "ep": "10-hubble",
@@ -43,10 +44,11 @@
   "duration_s": 27.9,
   "cover": "videos/out/shorts/10-hubble/intro_cover.jpg",
   "publish": "2026-11-24 16:00 Europe/Istanbul",
-  "url": null,
-  "status": "todo",
+  "url": "https://youtube.com/shorts/ZOJg1sul3-I",
+  "status": "scheduled",
   "order": 2,
-  "loop_cut": true
+  "loop_cut": true,
+  "uploaded": "2026-11-23"
  },
  {
   "ep": "04-dino-blood",
@@ -58,10 +60,11 @@
   "duration_s": 51.5,
   "cover": "videos/out/shorts/04-dino-blood/01-what-blood-is-made-of_cover.jpg",
   "publish": "2026-11-24 22:00 Europe/Istanbul",
-  "url": null,
-  "status": "todo",
+  "url": "https://youtube.com/shorts/OL6mwKPHDPw",
+  "status": "scheduled",
   "order": 3,
-  "loop_cut": true
+  "loop_cut": true,
+  "uploaded": "2026-11-23"
  },
  {
   "ep": "06-ghost-particles",
