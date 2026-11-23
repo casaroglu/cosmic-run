@@ -16,7 +16,8 @@ def dur(f):
 parts = [(os.path.join(G, f'intro_p{PART}.mp4'), None)]
 for c in chapters:
     parts.append((os.path.join(G, f"ch{c['n']:02d}.mp4"), c))
-    parts.append((os.path.join(LONG, c['out'], 'video.mp4'), 'chapter'))
+    # B+C episodes (08-15) are vertical cizgi renders: their `chapter_mp4` (cut before the CTA) is pillarboxed below
+    parts.append((os.path.expanduser(c['chapter_mp4']) if c.get('chapter_mp4') else os.path.join(LONG, c['out'], 'video.mp4'), 'chapter'))
 parts.append((os.path.join(G, f'outro_p{PART}.mp4'), None))
 
 inputs, filt, t, marks = [], [], 0.0, []
@@ -24,7 +25,11 @@ for i, (f, c) in enumerate(parts):
     inputs += ['-i', f]; d = dur(f)
     vf = f'fade=t=in:st=0:d=0.35,fade=t=out:st={d - 0.45:.3f}:d=0.45' if c == 'chapter' else 'fade=t=in:st=0:d=0.25'
     af = f'afade=t=in:st=0:d=0.15,afade=t=out:st={d - 0.12:.3f}:d=0.12'
-    filt.append(f'[{i}:v]fps=30,scale=1920:1080,format=yuv420p,setsar=1,{vf}[v{i}];[{i}:a]aformat=sample_rates=48000:channel_layouts=stereo,{af}[a{i}];')
+    vin = f'[{i}:v]'
+    if c == 'chapter' and 'chapter' in os.path.basename(f) and f.endswith('chapter.mp4'):   # vertical: blurred fill + centred frame
+        filt.append(f'[{i}:v]split[b{i}][f{i}];[b{i}]scale=1920:-2,crop=1920:1080,boxblur=30:3,eq=brightness=-0.12[bb{i}];[f{i}]scale=-2:1080[ff{i}];[bb{i}][ff{i}]overlay=(W-w)/2:0[p{i}];')
+        vin = f'[p{i}]'
+    filt.append(f'{vin}fps=30,scale=1920:1080,format=yuv420p,setsar=1,{vf}[v{i}];[{i}:a]aformat=sample_rates=48000:channel_layouts=stereo,{af}[a{i}];')
     if c and c != 'chapter': marks.append((t, c))
     t += d
 filt.append(''.join(f'[v{i}][a{i}]' for i in range(len(parts))) + f'concat=n={len(parts)}:v=1:a=1[v][ac];[ac]loudnorm=I=-14:TP=-1.5:LRA=11[a]')
@@ -37,7 +42,9 @@ total = dur(out); print('wrote', out, round(total / 60, 2), 'min')
 ts = lambda s: f'{int(s // 60)}:{int(s % 60):02d}'
 per_ch = []
 for c in chapters:
-    tl = json.load(open(os.path.join(LONG, c['out'], 'timeline.json'))); cr = []
+    tlp = os.path.join(LONG, c['out'], 'timeline.json')
+    ep = os.path.expanduser(f"~/cosmic-run/videos/stories/rome/{c['out']}/episode.json")
+    tl = json.load(open(tlp if os.path.exists(tlp) else ep)); cr = []
     for v in tl.get('images', {}).values():
         if v.get('credit') and v['credit'] not in cr and not v.get('file', '').endswith('option_c.png'): cr.append(v['credit'])
     per_ch.append(f"{c['n']:02d} {c['title']}: " + '; '.join(cr))

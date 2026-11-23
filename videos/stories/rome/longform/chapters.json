@@ -77,7 +77,8 @@
   "lat": 41.9,
   "lon": 12.5,
   "place": "Rome",
-  "part": 2
+  "part": 2,
+  "chapter_mp4": "~/cosmic-run/videos/out/rome/08-concrete/chapter.mp4"
  },
  {
   "n": 9,
@@ -87,7 +88,8 @@
   "lat": 40.75,
   "lon": 14.49,
   "place": "Pompeii",
-  "part": 2
+  "part": 2,
+  "chapter_mp4": "~/cosmic-run/videos/out/rome/09-pompeii/chapter.mp4"
  },
  {
   "n": 10,
@@ -97,7 +99,8 @@
   "lat": 41.89,
   "lon": 12.49,
   "place": "Rome",
-  "part": 2
+  "part": 2,
+  "chapter_mp4": "~/cosmic-run/videos/out/rome/10-trajan/chapter.mp4"
  },
  {
   "n": 11,
@@ -107,7 +110,8 @@
   "lat": 55.02,
   "lon": -2.29,
   "place": "Hadrian's Wall",
-  "part": 3
+  "part": 3,
+  "chapter_mp4": "~/cosmic-run/videos/out/rome/11-hadrians-wall/chapter.mp4"
  },
  {
   "n": 12,
@@ -117,7 +121,8 @@
   "lat": 41.89,
   "lon": 12.49,
   "place": "Rome",
-  "part": 3
+  "part": 3,
+  "chapter_mp4": "~/cizgi/rome-12-crisis/out/chapter.mp4"
  },
  {
   "n": 13,
@@ -127,7 +132,8 @@
   "lat": 41.01,
   "lon": 28.98,
   "place": "Constantinople",
-  "part": 3
+  "part": 3,
+  "chapter_mp4": "~/cizgi/rome-13-constantine/out/chapter.mp4"
  },
  {
   "n": 14,

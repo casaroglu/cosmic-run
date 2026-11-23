@@ -5,10 +5,17 @@ The logo sits top-right, and a small "ANCIENT ROME #N" tag sits under the hook. 
 import sys, re
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 src, out, hook, ep = sys.argv[1], sys.argv[2], sys.argv[3], int(sys.argv[4])
+shift = int(sys.argv[5]) if len(sys.argv) > 5 else 0   # push the art down (px) when the hook would cover a face
 W, H = 1080, 1920
 im = Image.open(src).convert('RGB')
 s = max(W / im.width, H / im.height); im = im.resize((round(im.width * s), round(im.height * s)), Image.LANCZOS)
 im = im.crop(((im.width - W) // 2, (im.height - H) // 2, (im.width - W) // 2 + W, (im.height - H) // 2 + H))
+if shift:
+    top = im.crop((0, 0, W, 300)).resize((W, shift + 300)).filter(ImageFilter.GaussianBlur(28))
+    new = Image.new('RGB', (W, H)); new.paste(top, (0, 0)); body = im.crop((0, 0, W, H - shift))
+    m = Image.linear_gradient('L').resize((W, 140)).transpose(Image.FLIP_TOP_BOTTOM)
+    seam = Image.composite(top.crop((0, shift, W, shift + 140)), body.crop((0, 0, W, 140)), m)
+    new.paste(body, (0, shift)); new.paste(seam, (0, shift)); im = new
 # darken the top so the hook reads on any art
 grad = Image.new('L', (1, H)); [grad.putpixel((0, y), int(170 * max(0, 1 - y / 760) ** 1.4)) for y in range(H)]
 im = Image.composite(Image.new('RGB', (W, H), (0, 0, 0)), im, grad.resize((W, H)))
