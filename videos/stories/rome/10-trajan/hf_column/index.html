@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=1080, height=1920" />
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+@font-face{font-family:'SketchHand';src:url('assets/BradleyHandBold.ttf') format('truetype');font-weight:700}
+:root{--paper:#efe4c9;--ink:#2a2119;--red:#b3261e;--hand:'SketchHand',cursive}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--paper)}
+#root{position:relative;width:1080px;height:1920px;font-family:var(--hand);color:var(--ink);
+ background:radial-gradient(ellipse at 50% 50%,rgba(0,0,0,0) 45%,rgba(70,45,15,.45) 100%),var(--paper)}
+#col{position:absolute;left:120px;top:300px;width:300px;height:900px}
+.fact{position:absolute;left:470px;width:540px;font-size:54px;font-weight:700;line-height:1.1}
+.big{font-family:'Helvetica Neue',Arial,sans-serif;font-weight:900;color:var(--red);font-size:86px;display:block}
+#f1{top:330px}#f2{top:530px}#f3{top:730px}#f4{top:930px}
+#year{position:absolute;left:0;right:0;top:1230px;text-align:center;font-size:50px;font-weight:700;color:#5a4a36}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="16" data-width="1080" data-height="1920">
+ <div id="scene" class="clip" data-start="0" data-duration="16" data-track-index="0" style="position:absolute;inset:0">
+  <svg id="col" viewBox="0 0 300 900">
+   <g fill="none" stroke="#2a2119" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path id="statue" d="M150 18 a16 16 0 1 0 0.1 0 M150 50 L150 92 M128 64 L172 64 M138 92 L162 92"/>
+    <path id="cap" d="M90 100 L210 100 L200 130 L100 130 Z"/>
+    <path id="shaft" d="M105 130 L105 760 M195 130 L195 760"/>
+    <path id="base" d="M70 760 L230 760 L230 880 L70 880 Z M55 880 L245 880"/>
+    <path id="door" d="M135 880 L135 830 Q150 812 165 830 L165 880"/>
+   </g>
+   <path id="spiral" fill="none" stroke="#b3261e" stroke-width="6" stroke-linecap="round" d=""/>
+  </svg>
+  <div class="fact" id="f1"><span class="big" data-n="30">30 m</span>tall, in marble</div>
+  <div class="fact" id="f2"><span class="big">190 m</span>of carved war story</div>
+  <div class="fact" id="f3"><span class="big">23 turns</span>around the column</div>
+  <div class="fact" id="f4"><span class="big">2,500+</span>carved figures</div>
+  <div id="year">finished AD 113 &middot; Trajan's ashes in the base</div>
+ </div>
+</div>
+<script>
+// spiral band: 23 turns up the shaft (x 105..195, y 760..130), drawn as a zig-zag helix seen from the front
+(function(){ let d = ''; const n = 23, y0 = 755, y1 = 135, h = (y0 - y1) / n;
+  for (let i = 0; i < n; i++) { const y = y0 - i * h; d += (i ? ' L' : 'M') + '105 ' + y.toFixed(1) + ' L195 ' + (y - h * 0.5).toFixed(1) + ' M105 ' + (y - h).toFixed(1); }
+  const p = document.getElementById('spiral'); p.setAttribute('d', d.replace(/ M105 [\d.]+$/, ''));
+  const L = p.getTotalLength(); p.style.strokeDasharray = L; p.style.strokeDashoffset = L; })();
+window.__timelines = window.__timelines || {};
+const tl = gsap.timeline({ paused: true });
+for (const id of ['#base', '#shaft', '#cap', '#statue', '#door']) {
+  const el = document.querySelector(id), L = el.getTotalLength(); el.style.strokeDasharray = L; el.style.strokeDashoffset = L;
+}
+tl.to('#base', { strokeDashoffset: 0, duration: 0.5, ease: 'power1.inOut' }, 0.1);
+tl.to('#shaft', { strokeDashoffset: 0, duration: 0.7, ease: 'power1.inOut' }, 0.5);
+tl.to('#cap', { strokeDashoffset: 0, duration: 0.3 }, 1.1);
+tl.to('#statue', { strokeDashoffset: 0, duration: 0.4 }, 1.3);
+tl.from('#f1', { opacity: 0, x: 40, duration: 0.5, ease: 'power2.out' }, 1.2);
+tl.to('#spiral', { strokeDashoffset: 0, duration: 4.5, ease: 'none' }, 2.6);
+tl.from('#f2', { opacity: 0, x: 40, duration: 0.5, ease: 'power2.out' }, 3.4);
+tl.from('#f3', { opacity: 0, x: 40, duration: 0.5, ease: 'power2.out' }, 5.0);
+tl.from('#f4', { opacity: 0, x: 40, duration: 0.5, ease: 'power2.out' }, 7.0);
+tl.to('#door', { strokeDashoffset: 0, duration: 0.5 }, 9.0);
+tl.from('#year', { opacity: 0, y: 20, duration: 0.5 }, 9.2);
+window.__timelines["main"] = tl;
+tl.seek(0);
+</script></body></html>

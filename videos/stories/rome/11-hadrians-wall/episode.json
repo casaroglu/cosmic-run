@@ -1,0 +1,988 @@
+{
+ "series": "Ancient Rome",
+ "episode": 11,
+ "part": null,
+ "total_parts": null,
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
+  },
+  "a": {
+   "name": "Theo",
+   "color": "#D9A441"
+  }
+ },
+ "accent": "#D9A441",
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "scene_pad": 0.5,
+ "fade": 1.1,
+ "title": "Why did Rome build a wall across Britain?",
+ "highlight": [
+  "wall"
+ ],
+ "music": {
+  "mood": "epic",
+  "seed": 122,
+  "drums": true,
+  "level": 0.3
+ },
+ "post": {
+  "caption": "Ancient Rome, episode 11: in AD 122 Hadrian ordered a stone wall from sea to sea across northern Britain: 73 miles, a milecastle every Roman mile, built in about six years. It is not the border with Scotland. Images: public domain / CC0 (William Bell Scott via National Trust, British Museum photo, ANS, Commons photographers), AI illustrations marked. Map data: Natural Earth; borders approximate.",
+  "hashtags": [
+   "history",
+   "rome",
+   "ancientrome",
+   "hadrianswall",
+   "hadrian",
+   "britain",
+   "shorts"
+  ]
+ },
+ "clips": {
+  "globe": "sketch/globe_in.mp4",
+  "wallcard": "sketch/wall_hf.mp4"
+ },
+ "images": {
+  "bellscott": {
+   "file": "img/bellscott.jpg",
+   "credit": "William Bell Scott, The Romans Cause a Wall to Be Built (1857)",
+   "where": "Wallington, National Trust, public domain"
+  },
+  "hadrian_head": {
+   "file": "img/hadrian_head.jpg",
+   "credit": "Bronze head of Hadrian, found in the Thames (photo: Johann Magdlehner)",
+   "where": "British Museum, public domain photo"
+  },
+  "aureus": {
+   "file": "img/aureus_hadrian.jpg",
+   "credit": "Gold aureus of Hadrian",
+   "where": "American Numismatic Society, CC0"
+  },
+  "trajan_head": {
+   "file": "img/trajan_head.jpg",
+   "credit": "Bust of Trajan",
+   "where": "Glyptothek Munich, public domain"
+  },
+  "gate": {
+   "file": "img/gate_qwen.jpg",
+   "credit": "Illustration: a milecastle gate on the wall (AI-generated, Qwen-Image)",
+   "where": "History Sketches"
+  },
+  "walltown": {
+   "file": "img/wall_walltown.jpg",
+   "credit": "Hadrian's Wall near Walltown, Northumberland (photo: Mertbiol)",
+   "where": "Wikimedia Commons, CC0"
+  },
+  "wall2": {
+   "file": "img/wall2.jpg",
+   "credit": "Hadrian's Wall today (photo: Mlm42)",
+   "where": "Wikimedia Commons, public domain"
+  },
+  "legionary": {
+   "file": "img/legionary.png",
+   "credit": "Illustration: Roman legionary (AI-generated, Qwen-Image)",
+   "where": "History Sketches"
+  }
+ },
+ "sketches": {
+  "today": {
+   "coast": "sketch/britain.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.2
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       -1.53,
+       54.99
+      ],
+      [
+       -1.61,
+       54.97
+      ],
+      [
+       -1.79,
+       54.99
+      ],
+      [
+       -2.14,
+       55.03
+      ],
+      [
+       -2.33,
+       55.01
+      ],
+      [
+       -2.53,
+       54.98
+      ],
+      [
+       -2.6,
+       54.99
+      ],
+      [
+       -2.94,
+       54.9
+      ],
+      [
+       -3.05,
+       54.92
+      ],
+      [
+       -3.21,
+       54.95
+      ]
+     ],
+     "at": 1.4,
+     "dur": 1.6,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "Hadrian's Wall",
+     "pos": [
+      -0.6,
+      54.4
+     ],
+     "at": 2.6,
+     "size": 46,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      -1.61,
+      54.97
+     ],
+     "label": "Newcastle",
+     "lx": 30,
+     "ly": 45,
+     "at": 3.2
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      -3.21,
+      54.95
+     ],
+     "label": "Solway",
+     "lx": -25,
+     "ly": 50,
+     "at": 3.8,
+     "lalign": "right"
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       -3.05,
+       54.98
+      ],
+      [
+       -2.95,
+       55.05
+      ],
+      [
+       -2.85,
+       55.1
+      ],
+      [
+       -2.65,
+       55.2
+      ],
+      [
+       -2.48,
+       55.36
+      ],
+      [
+       -2.25,
+       55.47
+      ],
+      [
+       -2.2,
+       55.62
+      ],
+      [
+       -2.03,
+       55.77
+      ]
+     ],
+     "at": 7.5,
+     "dur": 1.2,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "label",
+     "text": "border today",
+     "pos": [
+      -0.9,
+      55.9
+     ],
+     "at": 8.2,
+     "size": 42,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "label",
+     "text": "SCOTLAND",
+     "pos": [
+      -4.0,
+      57.2
+     ],
+     "at": 8.6,
+     "size": 46,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "label",
+     "text": "ENGLAND",
+     "pos": [
+      -1.4,
+      52.6
+     ],
+     "at": 9.2,
+     "size": 46,
+     "color": "#1f4e8c"
+    }
+   ]
+  },
+  "map122": {
+   "coast": "sketch/britain.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.0,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        1.5,
+        50.3
+       ],
+       [
+        -6.5,
+        49.6
+       ],
+       [
+        -5.5,
+        51.6
+       ],
+       [
+        -5.0,
+        52.2
+       ],
+       [
+        -4.9,
+        53.45
+       ],
+       [
+        -3.8,
+        54.0
+       ],
+       [
+        -3.6,
+        54.6
+       ],
+       [
+        -3.4,
+        54.95
+       ],
+       [
+        -3.21,
+        54.95
+       ],
+       [
+        -3.05,
+        54.92
+       ],
+       [
+        -2.94,
+        54.9
+       ],
+       [
+        -2.6,
+        54.99
+       ],
+       [
+        -2.53,
+        54.98
+       ],
+       [
+        -2.33,
+        55.01
+       ],
+       [
+        -2.14,
+        55.03
+       ],
+       [
+        -1.79,
+        54.99
+       ],
+       [
+        -1.61,
+        54.97
+       ],
+       [
+        -1.53,
+        54.99
+       ],
+       [
+        -1.3,
+        55.02
+       ],
+       [
+        2.5,
+        55.0
+       ],
+       [
+        2.5,
+        51.0
+       ]
+      ]
+     ],
+     "label": "Roman Britain",
+     "labelPos": [
+      -1.3,
+      52.3
+     ],
+     "at": 0.4,
+     "dur": 1.4
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       -1.53,
+       54.99
+      ],
+      [
+       -1.61,
+       54.97
+      ],
+      [
+       -1.79,
+       54.99
+      ],
+      [
+       -2.14,
+       55.03
+      ],
+      [
+       -2.33,
+       55.01
+      ],
+      [
+       -2.53,
+       54.98
+      ],
+      [
+       -2.6,
+       54.99
+      ],
+      [
+       -2.94,
+       54.9
+      ],
+      [
+       -3.05,
+       54.92
+      ],
+      [
+       -3.21,
+       54.95
+      ]
+     ],
+     "at": 1.6,
+     "dur": 1.2,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "CALEDONIA",
+     "pos": [
+      -4.0,
+      57.2
+     ],
+     "at": 2.4,
+     "size": 46,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "label",
+     "text": "AD 122",
+     "pos": [
+      -5.6,
+      51.0
+     ],
+     "at": 2.8,
+     "size": 50
+    }
+   ]
+  },
+  "map_end": {
+   "coast": "sketch/britain.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.0,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        1.5,
+        50.3
+       ],
+       [
+        -6.5,
+        49.6
+       ],
+       [
+        -5.5,
+        51.6
+       ],
+       [
+        -5.0,
+        52.2
+       ],
+       [
+        -4.9,
+        53.45
+       ],
+       [
+        -3.8,
+        54.0
+       ],
+       [
+        -3.6,
+        54.6
+       ],
+       [
+        -3.4,
+        54.95
+       ],
+       [
+        -3.21,
+        54.95
+       ],
+       [
+        -3.05,
+        54.92
+       ],
+       [
+        -2.94,
+        54.9
+       ],
+       [
+        -2.6,
+        54.99
+       ],
+       [
+        -2.53,
+        54.98
+       ],
+       [
+        -2.33,
+        55.01
+       ],
+       [
+        -2.14,
+        55.03
+       ],
+       [
+        -1.79,
+        54.99
+       ],
+       [
+        -1.61,
+        54.97
+       ],
+       [
+        -1.53,
+        54.99
+       ],
+       [
+        -1.3,
+        55.02
+       ],
+       [
+        2.5,
+        55.0
+       ],
+       [
+        2.5,
+        51.0
+       ]
+      ]
+     ],
+     "at": 0.3,
+     "dur": 1.2
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       -1.53,
+       54.99
+      ],
+      [
+       -1.61,
+       54.97
+      ],
+      [
+       -1.79,
+       54.99
+      ],
+      [
+       -2.14,
+       55.03
+      ],
+      [
+       -2.33,
+       55.01
+      ],
+      [
+       -2.53,
+       54.98
+      ],
+      [
+       -2.6,
+       54.99
+      ],
+      [
+       -2.94,
+       54.9
+      ],
+      [
+       -3.05,
+       54.92
+      ],
+      [
+       -3.21,
+       54.95
+      ]
+     ],
+     "at": 0.6,
+     "dur": 0.8,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        1.5,
+        50.3
+       ],
+       [
+        -6.5,
+        49.6
+       ],
+       [
+        -5.5,
+        51.6
+       ],
+       [
+        -5.0,
+        52.2
+       ],
+       [
+        -4.9,
+        53.45
+       ],
+       [
+        -3.9,
+        54.1
+       ],
+       [
+        -4.2,
+        54.5
+       ],
+       [
+        -5.3,
+        54.6
+       ],
+       [
+        -5.3,
+        55.4
+       ],
+       [
+        -4.9,
+        55.8
+       ],
+       [
+        -4.45,
+        55.93
+       ],
+       [
+        -4.33,
+        55.92
+       ],
+       [
+        -4.15,
+        55.94
+       ],
+       [
+        -4.03,
+        55.95
+       ],
+       [
+        -3.78,
+        56.0
+       ],
+       [
+        -3.55,
+        56.01
+       ],
+       [
+        -2.0,
+        56.1
+       ],
+       [
+        2.5,
+        56.0
+       ],
+       [
+        2.5,
+        51.0
+       ]
+      ]
+     ],
+     "style": "faint",
+     "at": 2.4,
+     "dur": 1.2
+    },
+    {
+     "kind": "route",
+     "pts": [
+      [
+       -4.45,
+       55.93
+      ],
+      [
+       -4.33,
+       55.92
+      ],
+      [
+       -4.15,
+       55.94
+      ],
+      [
+       -4.03,
+       55.95
+      ],
+      [
+       -3.78,
+       56.0
+      ],
+      [
+       -3.55,
+       56.01
+      ]
+     ],
+     "at": 3.0,
+     "dur": 1.0,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "Antonine Wall, 142",
+     "pos": [
+      -1.2,
+      56.6
+     ],
+     "at": 3.6,
+     "size": 42,
+     "color": "#b3261e"
+    },
+    {
+     "kind": "label",
+     "text": "abandoned c. 162",
+     "pos": [
+      -1.2,
+      56.0
+     ],
+     "at": 8.0,
+     "size": 40,
+     "color": "#1f4e8c"
+    },
+    {
+     "kind": "label",
+     "text": "held until c. 410",
+     "pos": [
+      -1.0,
+      53.7
+     ],
+     "at": 11.0,
+     "size": 42,
+     "color": "#b3261e"
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "bellscott",
+   "move": {
+    "from": [
+     0.42,
+     0.3,
+     1.35
+    ],
+    "to": [
+     0.42,
+     0.3,
+     1.15
+    ]
+   },
+   "text": "Rome ruled from Syria to Spain, but here, it stopped."
+  },
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "globe",
+   "text": "Why did Rome build a wall across Britain?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "today",
+   "place": "Northern England",
+   "text": "Hadrian's Wall still crosses northern England, seventy-three miles from Newcastle to the Solway coast. And it isn't the border with Scotland. It lies wholly in England."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "map122",
+   "place": "",
+   "date": "AD 122",
+   "text": "Who built it?",
+   "cameo": {
+    "key": "hadrian_head",
+    "side": "left",
+    "y": 0.62,
+    "w": 200,
+    "hold": 5,
+    "delay": 0.3,
+    "caption": "Hadrian"
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Emperor Hadrian, Trajan's successor. He came to Britain in AD 122, and his soldiers began a stone wall from sea to sea.",
+   "say": "Emperor Hadrian, Trajan's successor. He came to Britain in A D one twenty-two, and his soldiers began a stone wall from sea to sea."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "bellscott",
+   "date": "",
+   "move": {
+    "from": [
+     0.5,
+     0.6,
+     1.0
+    ],
+    "to": [
+     0.4,
+     0.65,
+     1.3
+    ]
+   },
+   "text": "Why a wall, and not more conquests?",
+   "cameo": {
+    "key": "trajan_head",
+    "side": "right",
+    "y": 0.36,
+    "w": 190,
+    "hold": 2,
+    "caption": "Trajan"
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Trajan's conquests had cost too much. Hadrian wanted borders he could hold. An old biography says the wall was to separate the Romans from the barbarians.",
+   "cameo": {
+    "key": "aureus",
+    "style": "coin",
+    "side": "right",
+    "y": 0.36,
+    "w": 210,
+    "hold": 3,
+    "delay": 2.0,
+    "caption": "Hadrian's gold"
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "gate",
+   "move": {
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.55,
+     1.2
+    ]
+   },
+   "text": "Was it just to keep people out?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Not only. It had a small fort with a gate every Roman mile, so soldiers could watch who crossed, and probably tax the goods they carried."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "wallcard",
+   "text": "How big was it?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Three legions built most of it in about six years: eighty milecastles, two turrets between each, and sixteen forts."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "walltown",
+   "move": {
+    "from": [
+     0.5,
+     0.6,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.45,
+     1.2
+    ]
+   },
+   "text": "Who lived on the wall?",
+   "cameo": {
+    "key": "legionary",
+    "style": "cutout",
+    "side": "left",
+    "y": 0.5,
+    "w": 230,
+    "bleed": 20,
+    "hold": 3,
+    "delay": 0.5
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Soldiers from all over the empire, many from today's Netherlands and Belgium. At Vindolanda fort, just behind it, their letters survived on thin wooden tablets."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "One is a birthday party invitation from around AD 100, perhaps the oldest Latin we have written by a woman.",
+   "say": "One is a birthday party invitation from around A D one hundred, perhaps the oldest Latin we have written by a woman."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "map_end",
+   "text": "Did the wall work?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "For a while. In 142, Rome pushed north and built a second wall in Scotland, the Antonine Wall. But twenty years later, they came back to Hadrian's.",
+   "say": "For a while. In one forty-two, Rome pushed north and built a second wall in Scotland, the Antonine Wall. But twenty years later, they came back to Hadrian's."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Rome held it until it left Britain, around 410.",
+   "say": "Rome held it until it left Britain, around four-ten."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "scene": "wall2",
+   "move": {
+    "from": [
+     0.5,
+     0.6,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.4,
+     1.2
+    ]
+   },
+   "text": "What's left of it today?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Long stretches of stone, a World Heritage Site since 1987. You can walk the whole line in about a week."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "cta": true,
+   "text": "Like the video and follow History Sketches for the next episode: the Crisis of the Third Century."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "cta": true,
+   "text": "And tell us in the comments: would you walk the whole wall?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "bellscott",
+   "move": {
+    "from": [
+     0.42,
+     0.45,
+     1.0
+    ],
+    "to": [
+     0.42,
+     0.3,
+     1.32
+    ]
+   },
+   "text": "Nineteen centuries later, its stones still mark the edge of an empire."
+  }
+ ],
+ "loop": {
+  "key": "AD 122: 73 miles, sea to sea"
+ }
+}

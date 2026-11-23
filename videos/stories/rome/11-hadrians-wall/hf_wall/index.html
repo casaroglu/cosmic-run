@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=1080, height=1920" />
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+@font-face{font-family:'SketchHand';src:url('assets/BradleyHandBold.ttf') format('truetype');font-weight:700}
+:root{--paper:#efe4c9;--ink:#2a2119;--red:#b3261e;--hand:'SketchHand',cursive}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--paper)}
+#root{position:relative;width:1080px;height:1920px;font-family:var(--hand);color:var(--ink);
+ background:radial-gradient(ellipse at 50% 50%,rgba(0,0,0,0) 45%,rgba(70,45,15,.45) 100%),var(--paper)}
+#head{position:absolute;left:0;right:0;top:330px;text-align:center;font-family:'Helvetica Neue',Arial,sans-serif;font-weight:900;font-size:104px;color:var(--red)}
+#sub{position:absolute;left:0;right:0;top:455px;text-align:center;font-size:48px;font-weight:700}
+#wall{position:absolute;left:40px;top:560px;width:1000px;height:200px}
+.row{position:absolute;left:100px;width:940px;font-size:52px;white-space:nowrap;font-weight:700}
+.row b{font-family:'Helvetica Neue',Arial,sans-serif;font-weight:900;color:var(--red);font-size:70px;display:inline-block;min-width:170px}
+#r1{top:800px}#r2{top:905px}#r3{top:1010px}#r4{top:1115px}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="16" data-width="1080" data-height="1920">
+ <div id="scene" class="clip" data-start="0" data-duration="16" data-track-index="0" style="position:absolute;inset:0">
+  <div id="head">73 miles</div>
+  <div id="sub">117 km, sea to sea</div>
+  <svg id="wall" viewBox="0 0 1000 200">
+   <path id="line" d="M20 120 L980 120" fill="none" stroke="#2a2119" stroke-width="12" stroke-linecap="round"/>
+   <g id="mcs" fill="#fbf6ea" stroke="#2a2119" stroke-width="6"></g>
+   <g id="trs" fill="#b3261e"></g>
+   <g id="fort" fill="#fbf6ea" stroke="#b3261e" stroke-width="7"><rect x="455" y="70" width="90" height="100" rx="14"/></g>
+  </svg>
+  <div class="row" id="r1"><b>80</b> milecastles, one per mile</div>
+  <div class="row" id="r2"><b>2</b> turrets between each</div>
+  <div class="row" id="r3"><b>16</b> forts</div>
+  <div class="row" id="r4"><b>~6</b> years, 3 legions</div>
+ </div>
+</div>
+<script>
+const NS = 'http://www.w3.org/2000/svg', mcs = document.getElementById('mcs'), trs = document.getElementById('trs');
+for (let i = 0; i < 7; i++) { const x = 60 + i * 146; const r = document.createElementNS(NS, 'rect');
+  r.setAttribute('x', x - 22); r.setAttribute('y', 92); r.setAttribute('width', 44); r.setAttribute('height', 56); r.setAttribute('class', 'mc'); mcs.appendChild(r);
+  if (i < 6) for (const f of [1 / 3, 2 / 3]) { const c = document.createElementNS(NS, 'rect'); c.setAttribute('x', x + 146 * f - 9); c.setAttribute('y', 104);
+    c.setAttribute('width', 18); c.setAttribute('height', 18); c.setAttribute('class', 'tr'); trs.appendChild(c); } }
+const line = document.getElementById('line'), L = line.getTotalLength(); line.style.strokeDasharray = L; line.style.strokeDashoffset = L;
+window.__timelines = window.__timelines || {};
+const tl = gsap.timeline({ paused: true });
+tl.from('#head', { opacity: 0, scale: 1.4, duration: 0.45, ease: 'power3.out' }, 0.1);
+tl.from('#sub', { opacity: 0, y: 20, duration: 0.4 }, 0.5);
+tl.to(line, { strokeDashoffset: 0, duration: 1.2, ease: 'power1.inOut' }, 0.6);
+tl.from('.mc', { opacity: 0, y: -30, duration: 0.3, stagger: 0.12 }, 2.0);
+tl.from('#r1', { opacity: 0, x: 40, duration: 0.4 }, 2.2);
+tl.from('.tr', { opacity: 0, scale: 0, transformOrigin: '50% 50%', duration: 0.2, stagger: 0.06 }, 3.6);
+tl.from('#r2', { opacity: 0, x: 40, duration: 0.4 }, 3.8);
+tl.from('#fort', { opacity: 0, scale: 0.4, transformOrigin: '500px 120px', duration: 0.4, ease: 'back.out(2)' }, 5.0);
+tl.from('#r3', { opacity: 0, x: 40, duration: 0.4 }, 5.2);
+tl.from('#r4', { opacity: 0, x: 40, duration: 0.4 }, 6.4);
+window.__timelines["main"] = tl;
+tl.seek(0);
+</script></body></html>

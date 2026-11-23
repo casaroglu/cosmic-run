@@ -1,0 +1,1 @@
+{"w": 1080, "h": 1920, "duration": 8.0, "fly": 5.0, "ease": "power2.inOut", "from": {"lat": 15, "lon": 70, "dist": 4.6}, "to": {"lat": 39, "lon": 22, "dist": 2.0}, "markers": [{"lat": 41.89, "lon": 12.49, "label": "Rome", "at": 4.2}, {"lat": 45.62, "lon": 23.31, "label": "Dacia", "at": 4.7}, {"lat": 33.09, "lon": 44.58, "label": "Ctesiphon", "at": 5.2}]}
