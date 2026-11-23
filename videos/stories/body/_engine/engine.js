@@ -825,7 +825,7 @@ function chapterCard(t, title, idx, world, iconName, t0) {
   LABELQ.push(() => {
     riseText(`PART ${idx}`, 960, 420, t0 + 0.05, t, { size: 34, color: TEAL, pill: false, ls: 8 });
     riseText(title.toUpperCase(), 960, 520, t0 + 0.2, t, { size: 84, weight: 700, color: WHITE, pill: false, ls: 5, dur: 0.8 });
-    const k = popK(t, t0 + 0.4, 99); if (k > 0) { ctx.save(); ctx.translate(960, 680); ctx.scale(1.6 * k, 1.6 * k); drawIcon(iconName, t, {}); ctx.restore(); }
+    const k = popK(t, t0 + 0.4, 1e9); if (k > 0) { ctx.save(); ctx.translate(960, 680); ctx.scale(1.6 * k, 1.6 * k); drawIcon(iconName, t, {}); ctx.restore(); }
   });
 }
 let SECS = null;

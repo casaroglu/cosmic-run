@@ -1,0 +1,29 @@
+{
+ "voice": "bm_fable",
+ "voices": {"q": "af_heart", "a": "bm_fable"},
+ "q_pause": 0.45,
+ "speed": 0.92,
+ "gap": 0.24,
+ "lines": [
+  {"id": "c1", "speaker": "q", "text": "Why does coffee taste awful at first, then amazing?"},
+  {"id": "c2", "text": "Because your gut is teaching your brain. Bitter is a warning taste, so that first sip tells you: careful, this could be poison."},
+  {"id": "c3", "text": "But a study in Nature, published on November 4th, 2026, found a slow learning signal that starts in your stomach and ends in your brain, and it can turn a flavor you hated into one you crave.", "say": "But a study in Nature, published on November fourth, twenty twenty-six, found a slow learning signal that starts in your stomach and ends in your brain, and it can turn a flavor you hated into one you crave."},
+  {"id": "g1", "speaker": "q", "text": "Isn't dopamine the instant reward chemical?", "ch": "The slow dopamine", "gap_before": 2.2},
+  {"id": "g2", "text": "Mostly, yes. The dopamine scientists usually study fires within seconds, like when you spot your favorite snack on a shelf."},
+  {"id": "g3", "text": "This one is slow. Researchers at UCSF put sugar water or a milkshake-like drink straight into the stomachs of mice, so the mice never tasted it.", "say": "This one is slow. Researchers at U C S F put sugar water or a milkshake-like drink straight into the stomachs of mice, so the mice never tasted it."},
+  {"id": "g4", "text": "Sensors in the gut that detect sugar and fat sent word up to the brain. Dopamine started rising in a small spot called the amygdala, and it stayed high for many minutes."},
+  {"id": "g5q", "speaker": "q", "text": "So my gut grades my food?"},
+  {"id": "g6", "text": "Pretty much. Mice tasted a new flavor while calories flowed into their stomachs, and they learned to prefer it. When scientists blocked the dopamine signal, the mice still ate normally, but they never learned which flavor meant calories."},
+  {"id": "g7", "text": "And when the team switched those dopamine fibers on after a flavor with zero calories, the mice started to prefer that flavor anyway."},
+  {"id": "l1", "speaker": "q", "text": "Does this happen in humans too?", "ch": "The left-side surprise", "gap_before": 2.2},
+  {"id": "l2", "text": "It looks like it. The team reanalyzed brain scans of 13 men drinking a milkshake, and scanned 38 more adults drinking sugar water. The same small spot lit up once the nutrients arrived.", "say": "It looks like it. The team reanalyzed brain scans of thirteen men drinking a milkshake, and scanned thirty-eight more adults drinking sugar water. The same small spot lit up once the nutrients arrived."},
+  {"id": "l3", "text": "Then came the twist. In both mice and people, the signal was much stronger on the left side of the brain. Nobody expected that, and the scientists are still working out why."},
+  {"id": "k1", "speaker": "q", "text": "So what does this mean for my coffee?", "ch": "Back to your coffee", "gap_before": 2.2},
+  {"id": "k2", "text": "Coffee itself wasn't tested. But the lead scientist thinks it works the same way. Your brain links the bitter flavor with the lift you feel from caffeine, and cup by cup, coffee starts to taste a lot better."},
+  {"id": "k3", "text": "The team also wonders whether weight-loss drugs like Ozempic dampen this signal and make food less rewarding. That part hasn't been tested yet."},
+  {"id": "o1", "speaker": "q", "text": "So I trained myself to love coffee?", "gap_before": 1.0},
+  {"id": "o2", "text": "In a way, yes. Your tongue said bitter, your gut sent back good news, and your brain listened."},
+  {"id": "o3", "text": "Your gut taught your brain to love it. That's why the first sip is always the worst."},
+  {"id": "o4", "speaker": "q", "text": "Subscribe for more of what's happening inside your body, and tell us in the comments which taste you learned to love.", "gap_before": 0.5}
+ ]
+}
