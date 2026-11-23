@@ -1,0 +1,318 @@
+{
+ "series": "Ancient Rome",
+ "episode": 14,
+ "style": "B+C (cizgi kit)",
+ "cizgi_project": "~/cizgi/rome-14-fall-476",
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "pitch": 1.0,
+   "rise": 2.5
+  },
+  "a": {
+   "name": "Theo",
+   "speed": 1.05
+  }
+ },
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "tag": "ANCIENT ROME #14",
+ "title": "So what really happened in four seventy-six?",
+ "hook_text": "ROME DIDN'T FALL IN 476",
+ "post": {
+  "caption": "Ancient Rome, episode 14: did Rome really fall in AD 476? The boy emperor Romulus Augustus, Odoacer, and the half of the empire that carried on for another thousand years. Images: public domain / CC0 (Thomas Cole, Christen Købke, Karl Bryullov, Thomas Allom, American Numismatic Society). Map data: Natural Earth.",
+  "hashtags": [
+   "history",
+   "rome",
+   "ancientrome",
+   "fallofrome",
+   "romulusaugustulus",
+   "odoacer",
+   "shorts"
+  ]
+ },
+ "images": {
+  "destruction": {
+   "file": "refs/destruction.jpg",
+   "credit": "Thomas Cole, The Course of Empire: Destruction (1836)",
+   "where": "New-York Historical Society, public domain (Commons)"
+  },
+  "desolation": {
+   "file": "refs/desolation.jpg",
+   "credit": "Thomas Cole, The Course of Empire: Desolation (1836)",
+   "where": "New-York Historical Society, public domain (Commons)"
+  },
+  "ovo": {
+   "file": "refs/ovo2.jpg",
+   "credit": "Christen Købke, Castel dell'Ovo in Naples (1839-40)",
+   "where": "Statens Museum for Kunst, public domain"
+  },
+  "sack455": {
+   "file": "refs/sack455.jpg",
+   "credit": "Karl Bryullov, Genseric Sacking Rome (1833-36)",
+   "where": "Tretyakov Gallery, public domain"
+  },
+  "resign": {
+   "file": "refs/resign.jpg",
+   "credit": "Romulus Augustulus resigns the crown to Odoacer (19th-century engraving)",
+   "where": "public domain (Commons 'Romulus Augustulus and Odoacer.jpg')"
+  },
+  "walls": {
+   "file": "refs/walls.jpg",
+   "credit": "Thomas Allom, The Triple Wall of Constantinople (1836)",
+   "where": "public domain"
+  },
+  "romulus_coin": {
+   "file": "refs/romulus_coin.jpg",
+   "credit": "Gold solidus of Romulus Augustus (1944.100.54897)",
+   "where": "American Numismatic Society, CC0"
+  },
+  "zeno_coin": {
+   "file": "refs/zeno_coin.jpg",
+   "credit": "Gold solidus of Zeno",
+   "where": "Polish museum collection via wmuzeach.pl, CC0"
+  },
+  "odoacer_coin": {
+   "file": "refs/odoacer_coin.jpg",
+   "credit": "Coin of Odoacer, Ravenna, AD 477",
+   "where": "public domain (Commons 'Odovacar Ravenna 477.jpg')"
+  }
+ },
+ "beats": [
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Every textbook says Rome fell in 476. It didn't.",
+   "t": [
+    0.25,
+    4.468
+   ],
+   "say": "Every textbook says Rome fell in four seventy-six. It didn't.",
+   "cold_open": true
+  },
+  {
+   "type": "title",
+   "speaker": "q",
+   "text": "So what really happened in 476?",
+   "t": [
+    4.768,
+    6.975
+   ],
+   "say": "So what really happened in four seventy-six?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In the bay of Naples stands the Castel dell'Ovo, the Egg Castle. On this spot, the last emperor of the West is said to have spent his retirement.",
+   "t": [
+    7.425,
+    14.871
+   ],
+   "say": "In the bay of Naples stands the Castel dell Ovo, the Egg Castle. On this spot, the last emperor of the West is said to have spent his retirement."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Retirement? Who was he?",
+   "t": [
+    15.171,
+    16.491
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "A boy called Romulus Augustus, with the names of Rome's founder and its first emperor. People mocked him as Augustulus: little Augustus.",
+   "t": [
+    16.941,
+    24.46
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "His father, the general Orestes, had chased out the emperor before him and put the boy on the throne in 475.",
+   "t": [
+    24.76,
+    30.814
+   ],
+   "say": "His father, the general Orestes, had chased out the emperor before him and put the boy on the throne in four seventy-five."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So who really ruled?",
+   "t": [
+    31.114,
+    32.125
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "The army. And the army in Italy was now mostly Germanic soldiers. Rome itself had already been sacked twice, in 410 and 455.",
+   "t": [
+    32.575,
+    40.715
+   ],
+   "say": "The army. And the army in Italy was now mostly Germanic soldiers. Rome itself had already been sacked twice, in four ten and four fifty-five."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "What did the soldiers want?",
+   "t": [
+    41.015,
+    42.247
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Land in Italy. Orestes said no. So their officer, Odoacer, turned on him. Orestes was killed, and on 4 September 476, the boy was removed.",
+   "t": [
+    42.697,
+    51.51
+   ],
+   "say": "Land in Italy. Orestes said no. So their officer, Odoacer, turned on him. Orestes was killed, and on the fourth of September, four seventy-six, the boy was removed."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Did they kill him too?",
+   "t": [
+    51.81,
+    52.848
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "No. Odoacer gave him a pension and sent him to live near Naples.",
+   "t": [
+    53.298,
+    57.526
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And Odoacer made himself emperor?",
+   "t": [
+    57.826,
+    59.54
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "He didn't. He had the emperor's regalia sent to Constantinople, to Zeno, the Roman emperor in the east, with a message: one emperor is enough.",
+   "t": [
+    59.99,
+    67.713
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So the Roman Empire didn't end?",
+   "t": [
+    68.013,
+    69.621
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Only in the west. The eastern half carried on from Constantinople, behind its huge walls, still calling itself the Roman Empire.",
+   "t": [
+    70.071,
+    77.255
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Even in the west, Julius Nepos, the emperor Orestes had chased out, still claimed the throne from Dalmatia until 480.",
+   "t": [
+    77.555,
+    84.138
+   ],
+   "say": "Even in the west, Julius Nepos, the emperor Orestes had chased out, still claimed the throne from Dalmatia until four eighty."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Then why do we say 476?",
+   "t": [
+    84.438,
+    86.313
+   ],
+   "say": "Then why do we say four seventy-six?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "About forty years later, a chronicler in Constantinople wrote that the western empire ended with this boy. The date stuck.",
+   "t": [
+    86.763,
+    93.748
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So when did Rome really end?",
+   "t": [
+    94.048,
+    95.463
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Nearly a thousand years later, in 1453.",
+   "t": [
+    95.913,
+    99.508
+   ],
+   "say": "Nearly a thousand years later, in fourteen fifty-three."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Like the video and follow History Sketches for the next episode: the last Roman emperor.",
+   "t": [
+    99.808,
+    105.003
+   ],
+   "cta": true
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And tell us in the comments: when do you think Rome fell?",
+   "t": [
+    105.303,
+    107.951
+   ],
+   "cta": true
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Fifteen hundred years later, ask anyone when Rome fell.",
+   "t": [
+    108.401,
+    112.128
+   ],
+   "loop_line": true
+  }
+ ],
+ "loop": {
+  "key": "476: the East ruled on until 1453"
+ }
+}

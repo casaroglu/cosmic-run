@@ -1,0 +1,18 @@
+{"voice": "work/voice.wav",
+ "music": {"style": "epic", "bpm": 84, "start": 0, "stop": 100.1, "sting": false, "level_db": -17},
+ "sfx": [
+  {"t": 0.05, "kind": "thud", "gain_db": -6},
+  {"t": 5.6, "kind": "pop", "gain_db": -8},
+  {"t": 9.3, "kind": "pop", "gain_db": -8},
+  {"t": 22.4, "kind": "ding", "gain_db": -8},
+  {"t": 28.4, "kind": "paper", "gain_db": -6}, {"t": 34.4, "kind": "stamp", "gain_db": -5},
+  {"t": 35.8, "kind": "paper", "gain_db": -6},
+  {"t": 43.1, "kind": "paper", "gain_db": -6}, {"t": 44.0, "kind": "stamp", "gain_db": -5},
+  {"t": 53.7, "kind": "thud", "gain_db": -8},
+  {"t": 60.6, "kind": "pop", "gain_db": -8},
+  {"t": 67.8, "kind": "bell", "gain_db": -9},
+  {"t": 71.7, "kind": "ding", "gain_db": -9},
+  {"t": 80.7, "kind": "pop", "gain_db": -8},
+  {"t": 82.5, "kind": "paper", "gain_db": -6},
+  {"t": 87.9, "kind": "pop", "gain_db": -8}
+ ]}

@@ -1,0 +1,294 @@
+{
+ "series": "Ancient Rome",
+ "episode": 15,
+ "style": "B+C (cizgi kit)",
+ "cizgi_project": "~/cizgi/rome-15-1453",
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "pitch": 1.0,
+   "rise": 2.5
+  },
+  "a": {
+   "name": "Theo",
+   "speed": 1.05
+  }
+ },
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "tag": "ANCIENT ROME #15",
+ "title": "How did Rome last until fourteen fifty-three?",
+ "hook_text": "ROME ENDED IN ISTANBUL",
+ "post": {
+  "caption": "Ancient Rome, episode 15 (finale): the Roman Empire did not end in Rome. It ended on 29 May 1453 in Constantinople, today's Istanbul, with the last emperor, Constantine XI. Images: public domain (Theophilos, Fossati & Haghe, Gentile Bellini, Jean Le Tavernier, Fausto Zonaro, Library of Congress photochroms, Biblioteca Estense). Map data: Natural Earth.",
+  "hashtags": [
+   "history",
+   "rome",
+   "ancientrome",
+   "byzantium",
+   "constantinople",
+   "istanbul",
+   "1453",
+   "shorts"
+  ]
+ },
+ "images": {
+  "fall": {
+   "file": "img/fall.jpg",
+   "credit": "Theophilos Hatzimihail, The Fall of Constantinople (1928)",
+   "where": "public domain"
+  },
+  "walls": {
+   "file": "img/walls_photo.jpg",
+   "credit": "Byzantine wall near Irdikale (Yedikule), Constantinople, photochrom (1890-1900)",
+   "where": "Library of Congress, public domain"
+  },
+  "hagia": {
+   "file": "img/hagia.jpg",
+   "credit": "Gaspare Fossati and Louis Haghe, Hagia Sophia (1852)",
+   "where": "public domain"
+  },
+  "const11": {
+   "file": "img/const11_ms.jpg",
+   "credit": "Constantine XI Palaiologos (15th-c. manuscript, Mutinensis gr. 122)",
+   "where": "Biblioteca Estense, Modena, public domain"
+  },
+  "mehmed": {
+   "file": "img/mehmed.jpg",
+   "credit": "Gentile Bellini, Sultan Mehmed II (1480)",
+   "where": "National Gallery, London, public domain"
+  },
+  "siege": {
+   "file": "img/siege.jpg",
+   "credit": "Jean Le Tavernier, The Siege of Constantinople (after 1455)",
+   "where": "Bibliotheque nationale de France, public domain"
+  },
+  "zonaro": {
+   "file": "img/zonaro.jpg",
+   "credit": "Fausto Zonaro, Mehmed II enters Constantinople (c. 1903)",
+   "where": "public domain"
+  },
+  "forum": {
+   "file": "img/forum.jpg",
+   "credit": "Forum Romanum from the Palatine, photochrom (1890-1900)",
+   "where": "Library of Congress, public domain"
+  }
+ },
+ "beats": [
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "The Roman Empire didn't end in Rome. It ended in Istanbul, in 1453.",
+   "t": [
+    0.25,
+    5.084
+   ],
+   "say": "The Roman Empire didn't end in Rome. It ended in Istanbul, in fourteen fifty-three.",
+   "cold_open": true
+  },
+  {
+   "type": "title",
+   "speaker": "q",
+   "text": "How did Rome last until 1453?",
+   "t": [
+    5.384,
+    7.884
+   ],
+   "say": "How did Rome last until fourteen fifty-three?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In Istanbul today, almost six kilometres of ancient walls still cross the city. In 1453, they protected the last Roman emperor.",
+   "t": [
+    8.334,
+    16.726
+   ],
+   "say": "In Istanbul today, almost six kilometres of ancient walls still cross the city. In fourteen fifty-three, they protected the last Roman emperor."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Wasn't that the Byzantine Empire?",
+   "t": [
+    17.026,
+    18.742
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "That's a name historians gave it later. Its people called themselves Romans, and their capital was the city Constantine had founded.",
+   "t": [
+    19.192,
+    26.381
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Who was the last emperor?",
+   "t": [
+    26.681,
+    27.838
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Constantine XI. Like the founder of the city, he was called Constantine, and like him, his mother was called Helena.",
+   "t": [
+    28.288,
+    35.446
+   ],
+   "say": "Constantine the Eleventh. Like the founder of the city, he was called Constantine, and like him, his mother was called Helena."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "How much was left of his empire?",
+   "t": [
+    35.746,
+    37.329
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Almost nothing: the city and some land in southern Greece. All around it, the Ottoman Empire.",
+   "t": [
+    37.779,
+    42.715
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In April 1453, the young sultan Mehmed II arrived with a huge army and giant cannons. Inside, about 7,000 defenders.",
+   "t": [
+    43.015,
+    51.559
+   ],
+   "say": "In April fourteen fifty-three, the young sultan Mehmed the Second arrived with a huge army and giant cannons. Inside, about seven thousand defenders."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "How long did they hold out?",
+   "t": [
+    51.859,
+    53.14
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "53 days. Mehmed even had his ships dragged overland, around the chain that closed the harbour.",
+   "t": [
+    53.59,
+    59.532
+   ],
+   "say": "Fifty-three days. Mehmed even had his ships dragged overland, around the chain that closed the harbour."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Before dawn on 29 May, the final attack broke through.",
+   "t": [
+    59.832,
+    63.942
+   ],
+   "say": "Before dawn on the twenty-ninth of May, the final attack broke through."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And the emperor?",
+   "t": [
+    64.242,
+    65.007
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "He died fighting at the walls. His body was never identified.",
+   "t": [
+    65.457,
+    69.497
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Greek legend says an angel turned him to marble, and he sleeps beneath the Golden Gate, waiting to return.",
+   "t": [
+    69.797,
+    75.676
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So that was the end of Rome?",
+   "t": [
+    75.976,
+    77.244
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Of the Roman state, yes. But Mehmed took a new title: Caesar of Rome.",
+   "t": [
+    77.694,
+    82.154
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "From a wolf's cave on the Tiber to the walls of Istanbul: twenty-two centuries of Rome.",
+   "t": [
+    82.454,
+    87.514
+   ]
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Like the video and follow History Sketches for more history.",
+   "t": [
+    87.814,
+    91.373
+   ],
+   "cta": true
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And tell us in the comments: which Rome story was your favourite?",
+   "t": [
+    91.673,
+    94.848
+   ],
+   "cta": true
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Most people think the Roman story ends in Rome itself.",
+   "t": [
+    95.298,
+    98.905
+   ],
+   "loop_line": true
+  }
+ ],
+ "loop": {
+  "key": "29 May 1453: Rome's last day"
+ }
+}
