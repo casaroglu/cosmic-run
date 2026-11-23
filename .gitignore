@@ -11,3 +11,6 @@ tools/ace-step/
 videos/stories/pov-music/**/*.wav
 videos/stories/pov-music/**/test/
 videos/stories/pov-music/**/gen*/
+
+vendor/
+assets/music/**/*.mp3
