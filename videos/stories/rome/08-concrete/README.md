@@ -1,0 +1,1 @@
+Rome 08 (Roman concrete, roads, aqueducts). B+C version (cartoon hosts over PD paintings + pinned fact cards) is built in the cizgi project `~/cizgi/rome-08-concrete/` (story.js, lib.js, work/gen_voice.py reads this episode.json); the older sketch-style render from `make_video.sh` is kept as `videos/out/rome/08-concrete/video.mp4`.

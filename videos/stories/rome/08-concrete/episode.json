@@ -188,6 +188,25 @@
  },
  "beats": [
   {
+   "type": "narration",
+   "speaker": "a",
+   "scene": "panini",
+   "move": {
+    "from": [
+     0.5,
+     0.3,
+     1.35
+    ],
+    "to": [
+     0.5,
+     0.28,
+     1.15
+    ]
+   },
+   "text": "Our concrete cracks in decades. This Roman dome has stood 1,900 years.",
+   "say": "Our concrete cracks in decades. This Roman dome has stood nineteen hundred years."
+  },
+  {
    "type": "title",
    "speaker": "q",
    "scene": "globe",
@@ -385,17 +404,36 @@
   {
    "type": "narration",
    "speaker": "a",
-   "text": "Next time: Pompeii, a city frozen in a single day. Like the video and follow History Sketches so you don't miss it."
+   "cta": true,
+   "scene": "roads",
+   "text": "Like the video and follow History Sketches for the next episode: Pompeii."
   },
   {
    "type": "narration",
    "speaker": "q",
-   "text": "And tell us in the comments: which Roman invention would you bring back?"
+   "text": "And tell us in the comments: which Roman invention would you bring back?",
+   "cta": true
   },
   {
-   "type": "end",
-   "text": "Next: Pompeii",
-   "sub": "Follow History Sketches"
+   "type": "narration",
+   "speaker": "a",
+   "scene": "panini",
+   "move": {
+    "from": [
+     0.5,
+     0.3,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.3,
+     1.3
+    ]
+   },
+   "text": "So next time you see a crack in a new building, remember this:"
   }
- ]
+ ],
+ "loop": {
+  "key": "Roman concrete heals its own cracks"
+ }
 }

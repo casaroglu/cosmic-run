@@ -1,0 +1,1 @@
+Rome 09 (Pompeii, AD 79). Built in the B+C style in the cizgi project `~/cizgi/rome-09-pompeii/` (story.js, lib.js, work/gen_voice.py reads this episode.json); `sketch/`, `hf_ash/` and the img/ set were made first for the sketch pipeline and are the source of the PD backdrops.

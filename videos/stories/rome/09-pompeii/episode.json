@@ -1,0 +1,590 @@
+{
+ "series": "Ancient Rome",
+ "episode": 9,
+ "part": null,
+ "total_parts": null,
+ "voices": {
+  "q": "af_heart",
+  "a": "bm_fable"
+ },
+ "speakers": {
+  "q": {
+   "name": "Ava",
+   "color": "#7fd3ff",
+   "pitch": 1.0,
+   "rise": 2.5,
+   "pause_after_question": 0.45
+  },
+  "a": {
+   "name": "Theo",
+   "color": "#D9A441"
+  }
+ },
+ "accent": "#D9A441",
+ "watermark": "../../../../brand/history-sketches/option_c.png",
+ "scene_pad": 0.5,
+ "fade": 1.1,
+ "title": "How was Pompeii frozen in time?",
+ "highlight": [
+  "Pompeii"
+ ],
+ "music": {
+  "mood": "tense",
+  "seed": 79,
+  "drums": true,
+  "level": 0.3
+ },
+ "post": {
+  "caption": "Ancient Rome, episode 9: Vesuvius erupts in AD 79 and buries Pompeii under up to six metres of ash; Pliny's eyewitness letters, Fiorelli's plaster casts and the third of the city still underground. Images: public domain / CC0 (Bryullov, Volaire, Kauffman via Rijksmuseum, Giorgio Sommer via The Met and Rijksmuseum, frescoes from the Naples museum), AI illustration marked. Map data: Natural Earth.",
+  "hashtags": [
+   "history",
+   "rome",
+   "ancientrome",
+   "pompeii",
+   "vesuvius",
+   "volcano",
+   "shorts"
+  ]
+ },
+ "clips": {
+  "globe": "sketch/globe_in.mp4",
+  "ash": "sketch/ash_hf.mp4"
+ },
+ "images": {
+  "bryullov": {
+   "file": "img/bryullov.jpg",
+   "credit": "Karl Bryullov, The Last Day of Pompeii (1830-1833)",
+   "where": "State Russian Museum, public domain"
+  },
+  "forum": {
+   "file": "img/forum_crop.jpg",
+   "credit": "Giorgio Sommer, The Forum of Pompeii with Vesuvius (c. 1870)",
+   "where": "Rijksmuseum, CC0"
+  },
+  "bread": {
+   "file": "img/bread.jpg",
+   "credit": "Fresco from Pompeii: selling bread (1st century AD)",
+   "where": "National Archaeological Museum, Naples, public domain"
+  },
+  "volaire": {
+   "file": "img/volaire.jpg",
+   "credit": "Pierre-Jacques Volaire, The Eruption of Vesuvius (1771)",
+   "where": "Art Institute of Chicago, public domain"
+  },
+  "pliny": {
+   "file": "img/pliny_crop.jpg",
+   "credit": "After Angelica Kauffman, Pliny the Younger and his mother at Misenum (engraving, 1780s)",
+   "where": "Rijksmuseum, CC0"
+  },
+  "casts": {
+   "file": "img/casts.jpg",
+   "credit": "Giorgio Sommer, Plaster casts of bodies, Pompeii (1870s)",
+   "where": "The Metropolitan Museum of Art, CC0"
+  },
+  "terentius": {
+   "file": "img/terentius.jpg",
+   "credit": "Fresco of Terentius Neo and his wife, Pompeii",
+   "where": "National Archaeological Museum, Naples, public domain"
+  },
+  "cavecanem": {
+   "file": "img/cavecanem.jpg",
+   "credit": "'Cave canem' mosaic, House of the Tragic Poet, Pompeii (photo: Gary Todd)",
+   "where": "public domain"
+  },
+  "fleeing": {
+   "file": "img/fleeing.png",
+   "credit": "Illustration: Roman fleeing with a pillow tied on his head (AI-generated, Qwen-Image)",
+   "where": "History Sketches"
+  }
+ },
+ "sketches": {
+  "bay": {
+   "coast": "sketch/bay.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.0,
+     "pencil": false
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      14.426,
+      40.821
+     ],
+     "label": "Vesuvius",
+     "lx": 30,
+     "ly": -40,
+     "at": 0.5
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      14.487,
+      40.749
+     ],
+     "label": "Pompeii",
+     "lx": 30,
+     "ly": 45,
+     "at": 1.2
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      14.347,
+      40.806
+     ],
+     "label": "Herculaneum",
+     "lx": -25,
+     "ly": -45,
+     "at": 1.8,
+     "lalign": "right"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      14.084,
+      40.785
+     ],
+     "label": "Misenum",
+     "lx": -25,
+     "ly": -45,
+     "at": 2.4,
+     "lalign": "right"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      14.485,
+      40.703
+     ],
+     "label": "Stabiae",
+     "lx": 30,
+     "ly": 45,
+     "at": 2.8
+    },
+    {
+     "kind": "text",
+     "text": "Bay of Naples, AD 79",
+     "pos": [
+      0.5,
+      0.25
+     ],
+     "at": 3.4,
+     "size": 52
+    }
+   ]
+  },
+  "bay_end": {
+   "coast": "sketch/bay.json",
+   "items": [
+    {
+     "kind": "coast",
+     "at": 0,
+     "dur": 1.0,
+     "pencil": false
+    },
+    {
+     "kind": "territory",
+     "polys": [
+      [
+       [
+        14.4,
+        40.84
+       ],
+       [
+        14.5,
+        40.84
+       ],
+       [
+        14.62,
+        40.74
+       ],
+       [
+        14.6,
+        40.62
+       ],
+       [
+        14.5,
+        40.62
+       ],
+       [
+        14.42,
+        40.7
+       ],
+       [
+        14.36,
+        40.78
+       ]
+      ]
+     ],
+     "color": "#b3261e",
+     "label": "buried in ash",
+     "labelPos": [
+      14.56,
+      40.64
+     ],
+     "at": 0.3,
+     "dur": 1.0
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      14.426,
+      40.821
+     ],
+     "label": "Vesuvius",
+     "lx": 30,
+     "ly": -40,
+     "at": 0.5
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      14.487,
+      40.749
+     ],
+     "label": "Pompeii",
+     "lx": 30,
+     "ly": 45,
+     "at": 1.2
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      14.347,
+      40.806
+     ],
+     "label": "Herculaneum",
+     "lx": -25,
+     "ly": -45,
+     "at": 1.8,
+     "lalign": "right"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      14.084,
+      40.785
+     ],
+     "label": "Misenum",
+     "lx": -25,
+     "ly": -45,
+     "at": 2.4,
+     "lalign": "right"
+    },
+    {
+     "kind": "marker",
+     "pos": [
+      14.485,
+      40.703
+     ],
+     "label": "Stabiae",
+     "lx": 30,
+     "ly": 45,
+     "at": 2.8
+    },
+    {
+     "kind": "text",
+     "text": "1/3 of Pompeii still buried",
+     "pos": [
+      0.5,
+      0.25
+     ],
+     "at": 3.0,
+     "size": 52,
+     "color": "#b3261e"
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "In one day, a volcano froze this city for almost 1,700 years.",
+   "scene": "bryullov",
+   "move": {
+    "from": [
+     0.47,
+     0.5,
+     1.35
+    ],
+    "to": [
+     0.47,
+     0.5,
+     1.15
+    ]
+   },
+   "say": "In one day, a volcano froze this city for almost seventeen hundred years."
+  },
+  {
+   "type": "title",
+   "speaker": "q",
+   "scene": "globe",
+   "text": "How was Pompeii frozen in time?"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Today, Pompeii is a ruin near Naples, and millions of tourists walk its streets every year.",
+   "scene": "forum",
+   "place": "Pompeii today",
+   "move": {
+    "from": [
+     0.55,
+     0.4,
+     1.0
+    ],
+    "to": [
+     0.6,
+     0.3,
+     1.25
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "What was it like in AD 79?",
+   "say": "What was it like in A D seventy-nine?",
+   "scene": "bread",
+   "move": {
+    "from": [
+     0.5,
+     0.4,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.3,
+     1.2
+    ]
+   },
+   "cameo": {
+    "key": "terentius",
+    "side": "right",
+    "y": 0.5,
+    "w": 260,
+    "caption": "Terentius Neo & wife",
+    "hold": 2
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "A busy Roman town of more than ten thousand people, with bakeries, bars, baths and a theatre."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Above it stood Mount Vesuvius, green with vineyards. It had been quiet for centuries, so nobody feared it.",
+   "scene": "bay"
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "So what happened?",
+   "scene": "volaire",
+   "date": "AD 79",
+   "place": "Mount Vesuvius",
+   "move": {
+    "from": [
+     0.25,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.22,
+     0.45,
+     1.3
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "One afternoon, the mountain exploded. A column of ash and stone shot thirty-three kilometres into the sky."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "For about eighteen hours, pumice rained down on Pompeii. Roofs caved in, and many people fled.",
+   "scene": "ash"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Nearby, at Stabiae, people ran with pillows tied to their heads against the falling stones.",
+   "cameo": {
+    "key": "fleeing",
+    "style": "cutout",
+    "side": "left",
+    "y": 0.5,
+    "w": 250,
+    "bleed": 20,
+    "hold": 2
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And the ones who stayed?",
+   "scene": "bryullov",
+   "move": {
+    "from": [
+     0.3,
+     0.55,
+     1.0
+    ],
+    "to": [
+     0.3,
+     0.6,
+     1.3
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Early the next morning, a glowing avalanche of hot gas and ash raced down the mountain, and killed everyone still in the city."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Did anyone see it happen?",
+   "scene": "pliny",
+   "place": "Misenum, across the bay",
+   "move": {
+    "from": [
+     0.4,
+     0.4,
+     1.0
+    ],
+    "to": [
+     0.2,
+     0.3,
+     1.35
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Pliny the Younger watched from across the bay. His uncle, Pliny the Elder, sailed in to help and died on the shore."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Pliny's letters about it are the only eyewitness account that survives."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "How was the city found again?",
+   "scene": "casts",
+   "date": "1863",
+   "place": "Pompeii",
+   "move": {
+    "from": [
+     0.5,
+     0.45,
+     1.0
+    ],
+    "to": [
+     0.45,
+     0.4,
+     1.3
+    ]
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Up to six metres of ash buried it, and it was forgotten. Digging began in 1748.",
+   "say": "Up to six metres of ash buried it, and it was forgotten. Digging began in seventeen forty-eight."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Diggers found hollows in the hard ash, shaped like the people who died there. In 1863, Giuseppe Fiorelli filled them with plaster, and the victims reappeared.",
+   "say": "Diggers found hollows in the hard ash, shaped like the people who died there. In eighteen sixty-three, Giuseppe Fiorelli filled them with plaster, and the victims reappeared."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "What else survived?",
+   "scene": "bread",
+   "move": {
+    "from": [
+     0.5,
+     0.6,
+     1.0
+    ],
+    "to": [
+     0.45,
+     0.3,
+     1.3
+    ]
+   },
+   "cameo": {
+    "key": "cavecanem",
+    "side": "left",
+    "y": 0.42,
+    "w": 300,
+    "caption": "Cave canem: beware of the dog",
+    "hold": 3
+   }
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Wall paintings, mosaics, loaves of bread left in an oven, and graffiti everywhere: election slogans, love notes and jokes."
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "Has it all been dug up?",
+   "scene": "bay_end"
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "No. About a third of the city is still buried, and new rooms and paintings turn up almost every year."
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "Like the video and follow History Sketches for the next episode: Rome at its largest, under Trajan.",
+   "cta": true
+  },
+  {
+   "type": "narration",
+   "speaker": "q",
+   "text": "And tell us in the comments: would you have run, or stayed?",
+   "cta": true
+  },
+  {
+   "type": "narration",
+   "speaker": "a",
+   "text": "And for the people of Pompeii, it all began as an ordinary day.",
+   "scene": "bryullov",
+   "move": {
+    "from": [
+     0.47,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.47,
+     0.5,
+     1.3
+    ]
+   }
+  }
+ ],
+ "loop": {
+  "key": "Buried AD 79, found again 1748"
+ }
+}

@@ -19,3 +19,19 @@
 - Cameos: Hadrian medallion (Rijksmuseum, CC0); Roman surveyor with groma and legionary cut-outs (Qwen-Image).
 - Concrete hot-mixing scene: Qwen-Image illustration.
 - Dome card: HyperFrames composition `hf_dome/`.
+
+## Hook + loop (2026-11-23 format)
+- Cold open (Panini's Pantheon, zoom punch): "Our concrete cracks in decades. This Roman dome has stood 1,900 years." (dome finished c. AD 126 → ~1,900 years; modern reinforced concrete typically has a 50–100-year design life and fails sooner when its steel rusts: Wikipedia "Concrete degradation"; Seymour et al. 2023).
+- Loop line (back on the Pantheon): "So next time you see a crack in a new building, remember this:" → cold open.
+- Key text (last 1 s): "Roman concrete heals its own cracks".
+- CTA over the roads map (map at start and end): next episode Pompeii.
+
+## Cover suggestions
+1. ROMAN CONCRETE HEALS ITSELF
+2. NO STEEL, 1,900 YEARS
+3. WHY OURS CRACKS FIRST
+- Reference image for Gemini: Giovanni Paolo Panini, *Interior of the Pantheon, Rome* (c. 1734, National Gallery of Art, CC0); no real person's face needed.
+
+## B+C version (user rule, 2026-11-23)
+- Built in `~/cizgi/rome-08-concrete/` (cizgi engine): Ava and Theo as cartoon hosts in front of the PD backdrops (Panini, Piranesi, Hubert Robert), pinned Hadrian medal card and fact cards, a drawn studio insert of a rusting reinforced slab, the Via Appia drawn on a sketch-map backdrop; legionary and surveyor Qwen cut-outs.
+- Sound: Kokoro voices, "epic" generated music, content sound effects only (no whoosh/swish/zip/riser).

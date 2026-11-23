@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=1080, height=1920" />
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+@font-face{font-family:'SketchHand';src:url('assets/BradleyHandBold.ttf') format('truetype');font-weight:700}
+:root{--paper:#efe4c9;--ink:#2a2119;--red:#b3261e;--ash:#8d877d;--hand:'SketchHand',cursive}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--paper)}
+#root{position:relative;width:1080px;height:1920px;font-family:var(--hand);color:var(--ink);
+ background:radial-gradient(ellipse at 50% 50%,rgba(0,0,0,0) 45%,rgba(70,45,15,.45) 100%),var(--paper)}
+#head{position:absolute;left:140px;width:800px;top:290px;text-align:center;font-size:60px;font-weight:700}
+#svg{position:absolute;left:190px;top:400px;width:700px;height:620px;overflow:visible}
+#svg .ln{fill:none;stroke:var(--ink);stroke-width:6;stroke-linecap:round;stroke-linejoin:round}
+#svg .rl{fill:none;stroke:var(--red);stroke-width:4;stroke-linecap:round}
+#svg text{font-family:'SketchHand',cursive;font-size:34px;font-weight:700;fill:var(--red)}
+#hours{position:absolute;left:140px;width:800px;top:1050px;height:110px;text-align:center;font-family:'Helvetica Neue',Arial,sans-serif;font-weight:900;font-size:92px;color:var(--red)}
+#hours div{position:absolute;left:0;right:0;top:0;opacity:0}
+#s1,#s2,#s3{position:absolute;left:140px;width:800px;text-align:center;font-size:44px;font-weight:700}
+#s1{top:1170px}#s2{top:1230px;color:#5a4a36}#s3{top:1290px;color:var(--red)}
+.pum{fill:#6f6a61}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="16" data-width="1080" data-height="1920">
+ <div id="scene" class="clip" data-start="0" data-duration="16" data-track-index="0" style="position:absolute;inset:0">
+  <div id="head">Pompeii, AD 79</div>
+  <svg id="svg" viewBox="0 0 700 620">
+   <defs><clipPath id="clip"><rect x="0" y="0" width="700" height="580"/></clipPath></defs>
+   <g id="rain" opacity="0"></g>
+   <!-- house: walls 4 m (320 px), roof to 5 m -->
+   <path class="ln" d="M150 580 V260 M450 580 V260 M250 580 V460 H320 V580"/>
+   <path id="roof" class="ln" d="M120 260 L300 180 L480 260"/>
+   <!-- person 1.7 m = 136 px -->
+   <g class="ln" id="man"><circle cx="380" cy="458" r="14"/><path d="M380 472 V530 M380 490 L360 515 M380 490 L400 515 M380 530 L365 578 M380 530 L395 578"/></g>
+   <rect id="ashfill" x="40" y="580" width="560" height="0" fill="#8d877d" opacity="0.96"/>
+   <line class="ln" x1="20" y1="580" x2="620" y2="580"/>
+   <!-- ruler: 80 px per metre -->
+   <line class="rl" x1="640" y1="580" x2="640" y2="100"/>
+   <g id="ticks"></g>
+  </svg>
+  <div id="hours"><div id="h1">1 pm</div><div id="h2">6 pm</div><div id="h3">midnight</div><div id="h4">next morning</div></div>
+  <div id="s1">pumice falls for about 18 hours</div>
+  <div id="s2">roofs cave in under the weight</div>
+  <div id="s3">up to 6 m of ash and pumice</div>
+ </div>
+</div>
+<script>
+const NS='http://www.w3.org/2000/svg';
+const tk=document.getElementById('ticks');
+for(let m=0;m<=6;m++){const y=580-m*80;const l=document.createElementNS(NS,'line');l.setAttribute('class','rl');l.setAttribute('x1',628);l.setAttribute('x2',652);l.setAttribute('y1',y);l.setAttribute('y2',y);tk.appendChild(l);
+ if(m%2===0){const t=document.createElementNS(NS,'text');t.setAttribute('x',662);t.setAttribute('y',y+11);t.textContent=m+' m';tk.appendChild(t);}}
+// deterministic pumice stones
+const rain=document.getElementById('rain');const stones=[];let s=7;const rnd=()=>{s=(s*16807)%2147483647;return s/2147483647};
+for(let i=0;i<70;i++){const c=document.createElementNS(NS,'circle');c.setAttribute('class','pum');c.setAttribute('r',4+rnd()*6);c.setAttribute('cx',30+rnd()*580);c.setAttribute('cy',-20);rain.appendChild(c);stones.push({c,d:rnd()*1.6,sp:0.9+rnd()*0.6});}
+window.__timelines = window.__timelines || {};
+const tl = gsap.timeline({ paused: true });
+tl.from("#head", { opacity: 0, y: -30, duration: 0.5 }, 0.1);
+tl.from("#svg .ln", { opacity: 0, duration: 0.6, stagger: 0.08 }, 0.2);
+tl.from("#svg .rl, #ticks", { opacity: 0, duration: 0.5 }, 0.8);
+// stones fall in loops between 1 s and 12.5 s
+stones.forEach(o=>{tl.fromTo(o.c,{attr:{cy:-20}},{attr:{cy:600},duration:o.sp,ease:"power1.in",repeat:Math.floor(11/o.sp),immediateRender:false},1+o.d);});
+tl.set("#rain",{opacity:1},1.0);
+tl.set("#rain",{opacity:0},12.6);
+// ash rises from 0 to 6 m (480 px) between 1.2 s and 12.5 s
+tl.to("#ashfill",{attr:{y:100,height:480},duration:11.3,ease:"none"},1.2);
+// hours
+tl.to("#h1",{opacity:1,duration:0.3},1.2).set("#h1",{opacity:0},4.4)
+  .to("#h2",{opacity:1,duration:0.2},4.4).set("#h2",{opacity:0},7.6)
+  .to("#h3",{opacity:1,duration:0.2},7.6).set("#h3",{opacity:0},10.8)
+  .to("#h4",{opacity:1,duration:0.2},10.8);
+tl.from("#s1",{opacity:0,y:20,duration:0.5},1.8);
+// roof caves in ~ hour 5 (5.5 s)
+tl.to("#roof",{attr:{d:"M120 260 L300 330 L480 260"},duration:0.35,ease:"power3.in"},5.6);
+tl.from("#s2",{opacity:0,y:20,duration:0.5},6.0);
+tl.from("#s3",{opacity:0,scale:1.3,duration:0.4,ease:"power3.out"},12.2);
+window.__timelines["main"] = tl;
+tl.seek(0);
+</script></body></html>
