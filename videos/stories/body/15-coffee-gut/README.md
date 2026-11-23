@@ -40,3 +40,7 @@ Search `/results?search_query=…` in a youtube.com tab, `ytInitialData` parsed:
 ## Production notes
 - Voices: `make_voice.py` (Kokoro, Ava 4% faster, 0.45 s after questions); mix: `make_sound.py`; master: `master.sh`.
 - Renders and mix.wav are not committed (same as ep 14).
+
+## Output (not committed)
+- Episode: `videos/out/body/15-coffee-gut/why_you_learn_to_love_coffee.mp4` (delivery, CRF 20) + `master.mp4`; no phone copy. Its 1.5 s intro uses the placeholder thumbnail: re-run the master step after the Gemini cover.
+- Loop Shorts (`_engine/shorts.mjs`, 1.2×): `videos/out/shorts/15-coffee-gut/` — intro (20.2 s), 01-the-slow-dopamine (46.6 s), 02-the-left-side-surprise (22.9 s), 03-back-to-your-coffee (22.6 s); queued 12–13 Jan 2027 (16:00/22:00 Istanbul), `loop_cut: true`, covers pending.

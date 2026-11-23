@@ -102,3 +102,7 @@
 | 2027-01-10 22:00 | 11-measles-amnesia | Booster shots could refill memory measles erased | todo |  |
 | 2027-01-11 16:00 | 07-alpha-gal | Don't burn a tick off. Do this instead | todo |  |
 | 2027-01-11 22:00 | 14-winter-sick | Under 6 hours of sleep made a cold 4 times likelier | todo |  |
+| 2027-01-12 16:00 | 15-coffee-gut | Your gut teaches your brain to love coffee | todo |  |
+| 2027-01-12 22:00 | 15-coffee-gut | Your stomach sends your brain a slow dopamine signal | todo |  |
+| 2027-01-13 16:00 | 15-coffee-gut | The gut-to-brain food signal is stronger on the left side | todo |  |
+| 2027-01-13 22:00 | 15-coffee-gut | Your brain learns to love coffee cup by cup | todo |  |
