@@ -13,21 +13,30 @@ LP = json.load(open(os.path.join(HERE, 'longform.json')))['parts'][PART]
 def dur(f):
     return float(subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f]))
 
-parts = [(os.path.join(G, f'intro_p{PART}.mp4'), None)]
+def cold_open_end(c):
+    """Where the chapter really starts: just before the title question, so the Short's cold open (its teaser hook) is cut.
+    The CTA, loop line and key flash at the end are already gone (prep_chapters.py / the cizgi chapter.mp4)."""
+    if c.get('chapter_mp4'):   # B+C: the cizgi project's voice segments (0 = cold open, 1 = title question)
+        seg = json.load(open(os.path.expanduser(f"~/cizgi/rome-{c['out']}/work/segments.json")))
+        return round(seg[1]['s'] - 0.12, 3)
+    b = json.load(open(os.path.join(LONG, c['out'], 'timeline.json')))['beats']
+    return round(b[1]['start'] - 0.2, 3)
+
+parts = [(os.path.join(G, f'intro_p{PART}.mp4'), None, 0)]
 for c in chapters:
-    parts.append((os.path.join(G, f"ch{c['n']:02d}.mp4"), c))
+    parts.append((os.path.join(G, f"ch{c['n']:02d}.mp4"), c, 0))
     # B+C episodes (08-15) are vertical cizgi renders: their `chapter_mp4` (cut before the CTA) is pillarboxed below
-    parts.append((os.path.expanduser(c['chapter_mp4']) if c.get('chapter_mp4') else os.path.join(LONG, c['out'], 'video.mp4'), 'chapter'))
-parts.append((os.path.join(G, f'outro_p{PART}.mp4'), None))
+    parts.append((os.path.expanduser(c['chapter_mp4']) if c.get('chapter_mp4') else os.path.join(LONG, c['out'], 'video.mp4'), 'chapter', cold_open_end(c)))
+parts.append((os.path.join(G, f'outro_p{PART}.mp4'), None, 0))
 
 inputs, filt, t, marks = [], [], 0.0, []
-for i, (f, c) in enumerate(parts):
-    inputs += ['-i', f]; d = dur(f)
+for i, (f, c, ss) in enumerate(parts):
+    inputs += ['-ss', str(ss), '-i', f] if ss else ['-i', f]; d = dur(f) - ss
     vf = f'fade=t=in:st=0:d=0.35,fade=t=out:st={d - 0.45:.3f}:d=0.45' if c == 'chapter' else 'fade=t=in:st=0:d=0.25'
     af = f'afade=t=in:st=0:d=0.15,afade=t=out:st={d - 0.12:.3f}:d=0.12'
     vin = f'[{i}:v]'
-    if c == 'chapter' and 'chapter' in os.path.basename(f) and f.endswith('chapter.mp4'):   # vertical: blurred fill + centred frame
-        filt.append(f'[{i}:v]split[b{i}][f{i}];[b{i}]scale=1920:-2,crop=1920:1080,boxblur=30:3,eq=brightness=-0.12[bb{i}];[f{i}]scale=-2:1080[ff{i}];[bb{i}][ff{i}]overlay=(W-w)/2:0[p{i}];')
+    if c == 'chapter' and f.endswith('chapter.mp4'):   # vertical: hide the "ANCIENT ROME #N" Short tag, then blurred fill + centred frame
+        filt.append(f'[{i}:v]delogo=x=176:y=74:w=380:h=58,split[b{i}][f{i}];[b{i}]scale=1920:-2,crop=1920:1080,boxblur=30:3,eq=brightness=-0.12[bb{i}];[f{i}]scale=-2:1080[ff{i}];[bb{i}][ff{i}]overlay=(W-w)/2:0[p{i}];')
         vin = f'[p{i}]'
     filt.append(f'{vin}fps=30,scale=1920:1080,format=yuv420p,setsar=1,{vf}[v{i}];[{i}:a]aformat=sample_rates=48000:channel_layouts=stereo,{af}[a{i}];')
     if c and c != 'chapter': marks.append((t, c))

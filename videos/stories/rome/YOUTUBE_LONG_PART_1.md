@@ -1,17 +1,17 @@
 # Ancient Rome, Part 1
 
 ## Title
-How a Village Became Rome: Wolves, Gold and Elephants (Ancient Rome, Part 1) (10 Minutes)
+How a Village Became Rome: Wolves, Gold and Elephants (Ancient Rome, Part 1) (9 Minutes)
 
 ## Description
 From a wolf to the Rubicon · 753–49 BC: five chapters of the story of Ancient Rome, told as a conversation, with hand-drawn maps, public-domain paintings and an animated globe.
 
 0:00 Intro
 0:21 01. The She-Wolf (753 BC)
-1:51 02. The Gold Ransom (390 BC)
-3:23 03. Elephants over the Alps (218 BC)
-5:12 04. Two Cities Erased (146 BC)
-7:20 05. The Rubicon (49 BC)
+1:46 02. The Gold Ransom (390 BC)
+3:13 03. Elephants over the Alps (218 BC)
+4:57 04. Two Cities Erased (146 BC)
+7:01 05. The Rubicon (49 BC)
 
 Every date is checked against at least two sources (Britannica, World History Encyclopedia, Livy, Polybius, Suetonius and others). Borders are approximate.
 Narration: synthetic voices. Music: generated for this channel. Map data: Natural Earth (public domain).

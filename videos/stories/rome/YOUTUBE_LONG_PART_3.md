@@ -1,17 +1,17 @@
 # Ancient Rome, Part 3
 
 ## Title
-How Rome Really Ended (Ancient Rome, Part 3) (9 Minutes)
+How Rome Really Ended (Ancient Rome, Part 3) (8 Minutes)
 
 ## Description
 From Hadrian to 1453: five chapters of the story of Ancient Rome, told as a conversation, with hand-drawn maps, public-domain paintings and an animated globe.
 
 0:00 Intro
 0:21 11. Hadrian's Wall (AD 122)
-1:57 12. The Crisis of the Third Century (AD 235–284)
-3:35 13. Constantinople (AD 330)
-5:14 14. The Fall of the West (AD 476)
-6:58 15. The Last Roman Emperor (1453)
+1:53 12. The Crisis of the Third Century (AD 235–284)
+3:27 13. Constantinople (AD 330)
+5:01 14. The Fall of the West (AD 476)
+6:40 15. The Last Roman Emperor (1453)
 
 Every date is checked against at least two sources (Britannica, World History Encyclopedia, Livy, Polybius, Suetonius and others). Borders are approximate.
 Narration: synthetic voices. Music: generated for this channel. Map data: Natural Earth (public domain).

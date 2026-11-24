@@ -1,17 +1,17 @@
 # Ancient Rome, Part 2
 
 ## Title
-From Caesar to Trajan: Rome at Its Height (Ancient Rome, Part 2) (10 Minutes)
+From Caesar to Trajan: Rome at Its Height (Ancient Rome, Part 2) (9 Minutes)
 
 ## Description
 From Caesar to Trajan · 44 BC–AD 117: five chapters of the story of Ancient Rome, told as a conversation, with hand-drawn maps, public-domain paintings and an animated globe.
 
 0:00 Intro
 0:24 06. The Ides of March (44 BC)
-2:22 07. Augustus (27 BC)
-4:05 08. Roads, Aqueducts and Concrete (1st c. BC – 2nd c. AD)
-5:53 09. Pompeii (AD 79)
-7:37 10. Trajan's Empire (AD 117)
+2:17 07. Augustus (27 BC)
+3:56 08. Roads, Aqueducts and Concrete (1st c. BC – 2nd c. AD)
+5:39 09. Pompeii (AD 79)
+7:17 10. Trajan's Empire (AD 117)
 
 Every date is checked against at least two sources (Britannica, World History Encyclopedia, Livy, Polybius, Suetonius and others). Borders are approximate.
 Narration: synthetic voices. Music: generated for this channel. Map data: Natural Earth (public domain).
