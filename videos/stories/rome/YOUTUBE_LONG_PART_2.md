@@ -1,7 +1,7 @@
 # Ancient Rome, Part 2
 
 ## Title
-From Caesar to Trajan: Rome at Its Height (Ancient Rome, Part 2) (9 Minutes)
+From Caesar to Trajan: Rome at Its Height (Ancient Rome, Part 2)
 
 ## Description
 From Caesar to Trajan · 44 BC–AD 117: five chapters of the story of Ancient Rome, told as a conversation, with hand-drawn maps, public-domain paintings and an animated globe.

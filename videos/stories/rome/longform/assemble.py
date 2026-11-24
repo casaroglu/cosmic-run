@@ -57,7 +57,7 @@ for c in chapters:
     for v in tl.get('images', {}).values():
         if v.get('credit') and v['credit'] not in cr and not v.get('file', '').endswith('option_c.png'): cr.append(v['credit'])
     per_ch.append(f"{c['n']:02d} {c['title']}: " + '; '.join(cr))
-lines = [f"# {LP['title']}", '', '## Title', f"{LP['yt_title']} ({round(total / 60)} Minutes)"[:100], '', '## Description',
+lines = [f"# {LP['title']}", '', '## Title', LP['yt_title'][:100], '', '## Description',
          f"{LP['subtitle']}: five chapters of the story of Ancient Rome, told as a conversation, with hand-drawn maps, "
          'public-domain paintings and an animated globe.', '', '0:00 Intro']
 lines += [f"{ts(t)} {c['n']:02d}. {c['title']} ({c['years']})" for t, c in marks]

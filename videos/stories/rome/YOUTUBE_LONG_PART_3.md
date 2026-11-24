@@ -1,7 +1,7 @@
 # Ancient Rome, Part 3
 
 ## Title
-How Rome Really Ended (Ancient Rome, Part 3) (8 Minutes)
+How Rome Really Ended (Ancient Rome, Part 3)
 
 ## Description
 From Hadrian to 1453: five chapters of the story of Ancient Rome, told as a conversation, with hand-drawn maps, public-domain paintings and an animated globe.

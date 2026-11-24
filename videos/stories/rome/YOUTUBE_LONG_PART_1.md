@@ -1,7 +1,7 @@
 # Ancient Rome, Part 1
 
 ## Title
-How a Village Became Rome: Wolves, Gold and Elephants (Ancient Rome, Part 1) (9 Minutes)
+How a Village Became Rome: Wolves, Gold and Elephants (Ancient Rome, Part 1)
 
 ## Description
 From a wolf to the Rubicon · 753–49 BC: five chapters of the story of Ancient Rome, told as a conversation, with hand-drawn maps, public-domain paintings and an animated globe.
