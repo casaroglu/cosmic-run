@@ -1,5 +1,7 @@
 # Ancient Rome, Part 3
 
+Status: published 2026-11-25 (public): https://youtu.be/rVC88FzHeHM · credits comment posted and pinned
+
 ## Title
 How Rome Really Ended (Ancient Rome, Part 3)
 

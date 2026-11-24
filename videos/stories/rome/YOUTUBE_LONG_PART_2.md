@@ -1,5 +1,7 @@
 # Ancient Rome, Part 2
 
+Status: published 2026-11-25 (public): https://youtu.be/ZdP_zz-74DM · credits comment posted and pinned
+
 ## Title
 From Caesar to Trajan: Rome at Its Height (Ancient Rome, Part 2)
 

@@ -1,5 +1,7 @@
 # Ancient Rome, Part 1
 
+Status: published 2026-11-25 (public): https://youtu.be/D5_-snmXM-Q · credits comment posted and pinned
+
 ## Title
 How a Village Became Rome: Wolves, Gold and Elephants (Ancient Rome, Part 1)
 
