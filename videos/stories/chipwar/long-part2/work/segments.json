@@ -1,0 +1,452 @@
+[
+ {
+  "sp": "a",
+  "text": "In twenty twenty-two, America made a bet: if China can't get the best chips, it can't build the best AI.",
+  "s": 0.15,
+  "e": 5.345
+ },
+ {
+  "sp": "q",
+  "text": "Did it work?",
+  "s": 5.545,
+  "e": 6.176
+ },
+ {
+  "sp": "a",
+  "text": "China answered with metals the whole world needs. Smugglers answered with fake labels. And then a small Chinese start-up wiped almost six hundred billion dollars off one American company, in a single day.",
+  "s": 6.416,
+  "e": 16.04
+ },
+ {
+  "sp": "q",
+  "text": "So who's winning?",
+  "s": 16.24,
+  "e": 17.022
+ },
+ {
+  "sp": "a",
+  "text": "Let's follow the fight, move by move.",
+  "s": 17.262,
+  "e": 19.437
+ },
+ {
+  "sp": "a",
+  "text": "Move one. The seventh of October, twenty twenty-two. Washington.",
+  "s": 19.557,
+  "e": 23.207
+ },
+ {
+  "sp": "a",
+  "text": "The US Commerce Department announced new rules. Nvidia's most powerful AI chips could no longer be sold to China. Neither could the tools to make advanced chips.",
+  "s": 23.327,
+  "e": 31.322
+ },
+ {
+  "sp": "q",
+  "text": "Why chips? Why not ban the AI itself?",
+  "s": 31.522,
+  "e": 33.556
+ },
+ {
+  "sp": "a",
+  "text": "Because AI is trained on chips. Thousands of them, running for weeks. Without the best chips, building the best models gets slower and far more expensive.",
+  "s": 33.796,
+  "e": 41.06
+ },
+ {
+  "sp": "a",
+  "text": "And Washington said it was about national security, including military uses.",
+  "s": 41.18,
+  "e": 45.442
+ },
+ {
+  "sp": "q",
+  "text": "What did Nvidia do?",
+  "s": 45.642,
+  "e": 46.674
+ },
+ {
+  "sp": "a",
+  "text": "It built a version just for China: the A eight hundred and the H eight hundred. Same brains, slower links between the chips.",
+  "s": 46.914,
+  "e": 52.755
+ },
+ {
+  "sp": "a",
+  "text": "A year later, the rules tightened. Those chips were banned too, and the controls spread to more than forty countries.",
+  "s": 52.875,
+  "e": 58.631
+ },
+ {
+  "sp": "a",
+  "text": "So Nvidia built another China chip, the H twenty. In April twenty twenty-five, that one needed a licence too. Nvidia booked a four-and-a-half-billion-dollar charge.",
+  "s": 58.751,
+  "e": 66.71
+ },
+ {
+  "sp": "q",
+  "text": "So, a total ban?",
+  "s": 66.91,
+  "e": 67.885
+ },
+ {
+  "sp": "a",
+  "text": "Not quite. In August twenty twenty-five, Washington allowed H twenty sales, in exchange for fifteen percent of the revenue.",
+  "s": 68.125,
+  "e": 74.182
+ },
+ {
+  "sp": "a",
+  "text": "Then Beijing told its own companies not to buy them. Nvidia sold no H twenties to China that quarter.",
+  "s": 74.302,
+  "e": 80.088
+ },
+ {
+  "sp": "a",
+  "text": "In December, Washington went further: the more powerful H two hundred could go to approved Chinese buyers, with twenty-five percent for the US government.",
+  "s": 80.208,
+  "e": 87.395
+ },
+ {
+  "sp": "q",
+  "text": "From a ban... to a tax?",
+  "s": 87.595,
+  "e": 88.885
+ },
+ {
+  "sp": "a",
+  "text": "Almost. But China barely let them in, and by November twenty twenty-six, Nvidia had stopped shipping them.",
+  "s": 89.125,
+  "e": 94.017
+ },
+ {
+  "sp": "a",
+  "text": "And a ban creates something else too: a black market.",
+  "s": 94.137,
+  "e": 97.112
+ },
+ {
+  "sp": "a",
+  "text": "Move two. When something valuable is banned, someone tries to smuggle it.",
+  "s": 97.232,
+  "e": 101.01
+ },
+ {
+  "sp": "a",
+  "text": "In a case US prosecutors called Operation Gatekeeper, a businessman and his company exported at least one hundred and sixty million dollars of Nvidia's top chips.",
+  "s": 101.13,
+  "e": 109.11
+ },
+ {
+  "sp": "q",
+  "text": "How did they get past customs?",
+  "s": 109.31,
+  "e": 110.698
+ },
+ {
+  "sp": "a",
+  "text": "They relabelled the chips with a fake brand name, and declared them as ordinary computer parts. In October twenty twenty-five, they pleaded guilty.",
+  "s": 110.938,
+  "e": 117.817
+ },
+ {
+  "sp": "a",
+  "text": "In another case, four people were charged with routing chips through Malaysia and Thailand. Investigators intercepted supercomputers packed with Nvidia chips on the way.",
+  "s": 117.937,
+  "e": 126.052
+ },
+ {
+  "sp": "q",
+  "text": "Anything bigger?",
+  "s": 126.252,
+  "e": 126.997
+ },
+ {
+  "sp": "a",
+  "text": "In March twenty twenty-six, a co-founder of Supermicro, a big American server maker, was arrested.",
+  "s": 127.237,
+  "e": 132.72
+ },
+ {
+  "sp": "a",
+  "text": "Prosecutors allege two and a half billion dollars of servers went to a South-East Asian company, and about five hundred million dollars' worth was sent on to China, with dummy servers to fool inspectors.",
+  "s": 132.84,
+  "e": 142.345
+ },
+ {
+  "sp": "a",
+  "text": "One co-defendant has pleaded guilty. The co-founder has pleaded not guilty, and his trial is set for twenty twenty-seven.",
+  "s": 142.465,
+  "e": 148.806
+ },
+ {
+  "sp": "a",
+  "text": "But China wasn't only trying to get around the rules. It was getting ready to hit back.",
+  "s": 148.926,
+  "e": 153.066
+ },
+ {
+  "sp": "a",
+  "text": "Move three. July twenty twenty-three. Beijing.",
+  "s": 153.186,
+  "e": 156.128
+ },
+ {
+  "sp": "a",
+  "text": "China announced export licences for two metals most people have never heard of: gallium and germanium.",
+  "s": 156.248,
+  "e": 161.438
+ },
+ {
+  "sp": "q",
+  "text": "Why would that hurt anyone?",
+  "s": 161.638,
+  "e": 162.774
+ },
+ {
+  "sp": "a",
+  "text": "Because China makes ninety-nine percent of the world's primary gallium.",
+  "s": 163.014,
+  "e": 166.539
+ },
+ {
+  "sp": "a",
+  "text": "Gallium nitride is the material in powerful modern radar, like the radars of air-defence systems. It's also in LED lights and power chips.",
+  "s": 166.659,
+  "e": 173.878
+ },
+ {
+  "sp": "a",
+  "text": "Germanium carries light through fibre-optic cables, and sharpens night-vision lenses.",
+  "s": 173.998,
+  "e": 178.342
+ },
+ {
+  "sp": "q",
+  "text": "And then?",
+  "s": 178.542,
+  "e": 179.041
+ },
+ {
+  "sp": "a",
+  "text": "In December twenty twenty-four, one day after a new US chip package, China banned exports of both metals to America outright.",
+  "s": 179.281,
+  "e": 185.907
+ },
+ {
+  "sp": "a",
+  "text": "Prices went wild. In Europe, gallium more than doubled. Germanium hit about five thousand dollars a kilo, around five times its early twenty twenty-three price.",
+  "s": 186.027,
+  "e": 193.963
+ },
+ {
+  "sp": "a",
+  "text": "After Trump and Xi met in South Korea, the ban on America was paused... for now.",
+  "s": 194.083,
+  "e": 198.265
+ },
+ {
+  "sp": "a",
+  "text": "But metals were only a warning shot. The real weapon was something smaller.",
+  "s": 198.385,
+  "e": 202.094
+ },
+ {
+  "sp": "a",
+  "text": "Move four. Magnets.",
+  "s": 202.214,
+  "e": 203.786
+ },
+ {
+  "sp": "q",
+  "text": "Magnets? Like on a fridge?",
+  "s": 203.986,
+  "e": 205.352
+ },
+ {
+  "sp": "a",
+  "text": "Far stronger. Rare-earth magnets sit inside electric motors, cars, drones and wind turbines.",
+  "s": 205.592,
+  "e": 210.522
+ },
+ {
+  "sp": "a",
+  "text": "China mines about sixty percent of these rare earths, refines about ninety percent, and makes ninety-four percent of the magnets.",
+  "s": 210.642,
+  "e": 216.782
+ },
+ {
+  "sp": "a",
+  "text": "The biggest source is here: Bayan Obo, in Inner Mongolia, the world's largest rare-earth mine.",
+  "s": 216.902,
+  "e": 221.552
+ },
+ {
+  "sp": "a",
+  "text": "In April twenty twenty-five, China put seven rare earths, and magnets containing them, under export licences.",
+  "s": 221.672,
+  "e": 227.317
+ },
+ {
+  "sp": "a",
+  "text": "In May, its magnet exports fell seventy-four percent in a single month. Exports to America fell ninety-three percent.",
+  "s": 227.437,
+  "e": 233.456
+ },
+ {
+  "sp": "q",
+  "text": "What happened?",
+  "s": 233.656,
+  "e": 234.303
+ },
+ {
+  "sp": "a",
+  "text": "Within weeks, Ford halted its Chicago factory for about a week. In Europe, parts suppliers shut production lines.",
+  "s": 234.543,
+  "e": 240.151
+ },
+ {
+  "sp": "a",
+  "text": "In October, China added five more rare earths, plus a rule reaching foreign factories: products with even a small share of Chinese rare earths would need a Chinese licence.",
+  "s": 240.271,
+  "e": 248.556
+ },
+ {
+  "sp": "q",
+  "text": "That's... almost everything.",
+  "s": 248.756,
+  "e": 250.016
+ },
+ {
+  "sp": "a",
+  "text": "That's why, at the end of October twenty twenty-five, Trump and Xi agreed a truce, and the October rules were paused.",
+  "s": 250.256,
+  "e": 256.021
+ },
+ {
+  "sp": "a",
+  "text": "The West is racing to catch up. The Pentagon bought into a rare-earth mine in California and promised it a minimum price. In Malaysia, Lynas became the first to produce heavy rare earths outside China.",
+  "s": 256.141,
+  "e": 265.719
+ },
+ {
+  "sp": "a",
+  "text": "But ninety-four percent of the magnets still come from one country.",
+  "s": 265.839,
+  "e": 269.391
+ },
+ {
+  "sp": "a",
+  "text": "So America had the chips, and China had the metals. Then the fight moved somewhere nobody expected: an app store.",
+  "s": 269.511,
+  "e": 275.068
+ },
+ {
+  "sp": "a",
+  "text": "Move five. Hangzhou. A start-up called DeepSeek, spun out of a Chinese hedge fund.",
+  "s": 275.188,
+  "e": 279.908
+ },
+ {
+  "sp": "a",
+  "text": "On the twentieth of January twenty twenty-five, it released a free AI model, R1, which it said could rival OpenAI's best reasoning model.",
+  "s": 280.028,
+  "e": 287.174
+ },
+ {
+  "sp": "q",
+  "text": "Without the best chips?",
+  "s": 287.374,
+  "e": 288.42
+ },
+ {
+  "sp": "a",
+  "text": "Its base model was trained on H eight hundreds, the slower chips Nvidia had made for China, which were legal to buy until late twenty twenty-three.",
+  "s": 288.66,
+  "e": 295.744
+ },
+ {
+  "sp": "a",
+  "text": "DeepSeek said the final training run cost about five point six million dollars in rented computer time.",
+  "s": 295.864,
+  "e": 301.168
+ },
+ {
+  "sp": "a",
+  "text": "Analysts say the real total, with all the research and hardware, was far higher.",
+  "s": 301.288,
+  "e": 305.432
+ },
+ {
+  "sp": "q",
+  "text": "But people heard the cheap number?",
+  "s": 305.632,
+  "e": 307.0
+ },
+ {
+  "sp": "a",
+  "text": "Within a week, DeepSeek's app was number one on America's App Store, ahead of ChatGPT.",
+  "s": 307.24,
+  "e": 311.788
+ },
+ {
+  "sp": "a",
+  "text": "And on the twenty-seventh of January, investors panicked. If AI could be built this cheaply, who would need so many Nvidia chips?",
+  "s": 311.908,
+  "e": 318.2
+ },
+ {
+  "sp": "a",
+  "text": "Nvidia's stock fell seventeen percent. About five hundred and ninety billion dollars of value, gone in one day: the biggest one-day loss in US stock market history.",
+  "s": 318.32,
+  "e": 326.12
+ },
+ {
+  "sp": "q",
+  "text": "So did the chip bans fail?",
+  "s": 326.32,
+  "e": 327.572
+ },
+ {
+  "sp": "a",
+  "text": "Most experts say they leaked rather than failed: chips bought before the rules, and chips that were legal for a while.",
+  "s": 327.812,
+  "e": 332.982
+ },
+ {
+  "sp": "a",
+  "text": "And Nvidia recovered. Nine months later, it became the first company ever worth five trillion dollars.",
+  "s": 333.102,
+  "e": 338.181
+ },
+ {
+  "sp": "a",
+  "text": "But in April twenty twenty-six, DeepSeek released a new model made to run on Chinese Huawei chips.",
+  "s": 338.301,
+  "e": 343.201
+ },
+ {
+  "sp": "a",
+  "text": "So look at the scoreboard. America banned the chips. Smugglers found new routes. China cut off the metals. Its magnets stopped car factories. And a free app shook Wall Street.",
+  "s": 343.321,
+  "e": 351.693
+ },
+ {
+  "sp": "q",
+  "text": "Five moves. And nobody has won yet.",
+  "s": 351.893,
+  "e": 353.903
+ },
+ {
+  "sp": "a",
+  "text": "Because both sides still need the same thing: chips printed by one Dutch machine, on one island.",
+  "s": 354.143,
+  "e": 358.984
+ },
+ {
+  "sp": "a",
+  "text": "Like and subscribe to History Sketches, and tell us in the comments which move you think hurt the most.",
+  "s": 359.104,
+  "e": 363.967
+ }
+]

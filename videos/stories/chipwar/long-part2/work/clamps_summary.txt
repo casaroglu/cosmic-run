@@ -1,0 +1,51 @@
+note:...for now                    frames=10 max_dx=0 max_dy=10 min_k=1.00
+note:a black market                frames=16 max_dx=0 max_dy=10 min_k=1.00
+note:a tax?                        frames=12 max_dx=0 max_dy=11 min_k=1.00
+note:almost everything             frames=17 max_dx=0 max_dy=12 min_k=1.00
+note:an app store?                 frames=8 max_dx=0 max_dy=14 min_k=1.00
+note:banned = valuable             frames=18 max_dx=0 max_dy=12 min_k=1.00
+note:dummy?                        frames=26 max_dx=17 max_dy=0 min_k=1.00
+note:hitting back                  frames=11 max_dx=0 max_dy=7 min_k=1.00
+note:leaked, not failed            frames=67 max_dx=0 max_dy=12 min_k=1.00
+note:move by move                  frames=15 max_dx=0 max_dy=8 min_k=1.00
+note:not fridge magnets            frames=11 max_dx=0 max_dy=13 min_k=1.00
+note:real total: higher            frames=19 max_dx=0 max_dy=12 min_k=1.00
+note:something smaller             frames=13 max_dx=0 max_dy=13 min_k=1.00
+piece:fibre                        frames=80 max_dx=14 max_dy=0 min_k=1.00
+piece:scoreboard                   frames=337 max_dx=0 max_dy=82 min_k=1.00
+ransom:$160M+                      frames=174 max_dx=60 max_dy=0 min_k=1.00
+ransom:$2.5 BN                     frames=136 max_dx=76 max_dy=0 min_k=1.00
+ransom:$4.5 BN                     frames=27 max_dx=45 max_dy=0 min_k=1.00
+ransom:$5 TRILLION                 frames=22 max_dx=149 max_dy=0 min_k=1.00
+ransom:$5,000/KG                   frames=63 max_dx=36 max_dy=0 min_k=1.00
+ransom:-$590 BN                    frames=86 max_dx=35 max_dy=0 min_k=1.00
+ransom:4 CHARGED                   frames=114 max_dx=173 max_dy=0 min_k=1.00
+ransom:7 OCT 2022                  frames=171 max_dx=50 max_dy=0 min_k=1.00
+ransom:JULY 2023                   frames=122 max_dx=68 max_dy=0 min_k=1.00
+ransom:MOVE 1                      frames=49 max_dx=0 max_dy=14 min_k=1.00
+ransom:MOVE 2                      frames=62 max_dx=0 max_dy=14 min_k=1.00
+ransom:MOVE 3                      frames=44 max_dx=0 max_dy=14 min_k=1.00
+ransom:MOVE 4                      frames=42 max_dx=0 max_dy=14 min_k=1.00
+ransom:MOVE 5                      frames=42 max_dx=0 max_dy=14 min_k=1.00
+ransom:PAUSED                      frames=75 max_dx=37 max_dy=0 min_k=1.00
+ransom:STOPPED                     frames=56 max_dx=94 max_dy=0 min_k=1.00
+ransom:TRUCE                       frames=39 max_dx=25 max_dy=0 min_k=1.00
+tag:1 CO-DEFENDANT: GUILTY         frames=95 max_dx=6 max_dy=0 min_k=1.00
+tag:7 RARE EARTHS · APRIL 2025    frames=59 max_dx=66 max_dy=0 min_k=1.00
+tag:CALIFORNIA MINE                frames=90 max_dx=112 max_dy=0 min_k=1.00
+tag:CO-FOUNDER: NOT GUILTY         frames=50 max_dx=5 max_dy=0 min_k=1.00
+tag:FIBRE OPTICS                   frames=52 max_dx=92 max_dy=0 min_k=1.00
+tag:GERMANIUM                      frames=34 max_dx=36 max_dy=0 min_k=1.00
+tag:GERMANIUM · 5x EARLY 2023     frames=33 max_dx=69 max_dy=0 min_k=1.00
+tag:LEGAL UNTIL LATE 2023          frames=35 max_dx=25 max_dy=0 min_k=1.00
+tag:LYNAS · MALAYSIA              frames=41 max_dx=111 max_dy=0 min_k=1.00
+tag:NVIDIA SHIPMENTS · NOV 2026   frames=85 max_dx=93 max_dy=0 min_k=1.00
+tag:OCT 2025 · RULES PAUSED       frames=76 max_dx=28 max_dy=0 min_k=1.00
+tag:OF THE WORLD'S GALLIUM         frames=15 max_dx=31 max_dy=0 min_k=1.00
+tag:ONE DAY AFTER US CHIP RULES    frames=77 max_dx=53 max_dy=0 min_k=1.00
+tag:OPERATION GATEKEEPER           frames=221 max_dx=32 max_dy=0 min_k=1.00
+tag:RULE REACHES FOREIGN FACTORIES frames=101 max_dx=123 max_dy=0 min_k=1.00
+tag:SUPERMICRO CO-FOUNDER          frames=293 max_dx=8 max_dy=0 min_k=1.00
+tag:THOUSANDS OF CHIPS · WEEKS    frames=69 max_dx=81 max_dy=0 min_k=1.00
+tag:WALL STREET · 27 JAN 2025     frames=67 max_dx=49 max_dy=0 min_k=1.00
+tag:WORLD'S LARGEST RARE-EARTH MINE frames=22 max_dx=147 max_dy=0 min_k=1.00

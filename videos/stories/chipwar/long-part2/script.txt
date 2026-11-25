@@ -1,0 +1,75 @@
+A: In twenty twenty-two, America made a bet: if China can't get the best chips, it can't build the best AI.
+Q: Did it work?
+A: China answered with metals the whole world needs. Smugglers answered with fake labels. And then a small Chinese start-up wiped almost six hundred billion dollars off one American company, in a single day.
+Q: So who's winning?
+A: Let's follow the fight, move by move.
+A: Move one. The seventh of October, twenty twenty-two. Washington.
+A: The US Commerce Department announced new rules. Nvidia's most powerful AI chips could no longer be sold to China. Neither could the tools to make advanced chips.
+Q: Why chips? Why not ban the AI itself?
+A: Because AI is trained on chips. Thousands of them, running for weeks. Without the best chips, building the best models gets slower and far more expensive.
+A: And Washington said it was about national security, including military uses.
+Q: What did Nvidia do?
+A: It built a version just for China: the A eight hundred and the H eight hundred. Same brains, slower links between the chips.
+A: A year later, the rules tightened. Those chips were banned too, and the controls spread to more than forty countries.
+A: So Nvidia built another China chip, the H twenty. In April twenty twenty-five, that one needed a licence too. Nvidia booked a four-and-a-half-billion-dollar charge.
+Q: So, a total ban?
+A: Not quite. In August twenty twenty-five, Washington allowed H twenty sales, in exchange for fifteen percent of the revenue.
+A: Then Beijing told its own companies not to buy them. Nvidia sold no H twenties to China that quarter.
+A: In December, Washington went further: the more powerful H two hundred could go to approved Chinese buyers, with twenty-five percent for the US government.
+Q: From a ban... to a tax?
+A: Almost. But China barely let them in, and by November twenty twenty-six, Nvidia had stopped shipping them.
+A: And a ban creates something else too: a black market.
+A: Move two. When something valuable is banned, someone tries to smuggle it.
+A: In a case US prosecutors called Operation Gatekeeper, a businessman and his company exported at least one hundred and sixty million dollars of Nvidia's top chips.
+Q: How did they get past customs?
+A: They relabelled the chips with a fake brand name, and declared them as ordinary computer parts. In October twenty twenty-five, they pleaded guilty.
+A: In another case, four people were charged with routing chips through Malaysia and Thailand. Investigators intercepted supercomputers packed with Nvidia chips on the way.
+Q: Anything bigger?
+A: In March twenty twenty-six, a co-founder of Supermicro, a big American server maker, was arrested.
+A: Prosecutors allege two and a half billion dollars of servers went to a South-East Asian company, and about five hundred million dollars' worth was sent on to China, with dummy servers to fool inspectors.
+A: One co-defendant has pleaded guilty. The co-founder has pleaded not guilty, and his trial is set for twenty twenty-seven.
+A: But China wasn't only trying to get around the rules. It was getting ready to hit back.
+A: Move three. July twenty twenty-three. Beijing.
+A: China announced export licences for two metals most people have never heard of: gallium and germanium.
+Q: Why would that hurt anyone?
+A: Because China makes ninety-nine percent of the world's primary gallium.
+A: Gallium nitride is the material in powerful modern radar, like the radars of air-defence systems. It's also in LED lights and power chips.
+A: Germanium carries light through fibre-optic cables, and sharpens night-vision lenses.
+Q: And then?
+A: In December twenty twenty-four, one day after a new US chip package, China banned exports of both metals to America outright.
+A: Prices went wild. In Europe, gallium more than doubled. Germanium hit about five thousand dollars a kilo, around five times its early twenty twenty-three price.
+A: After Trump and Xi met in South Korea, the ban on America was paused... for now.
+A: But metals were only a warning shot. The real weapon was something smaller.
+A: Move four. Magnets.
+Q: Magnets? Like on a fridge?
+A: Far stronger. Rare-earth magnets sit inside electric motors, cars, drones and wind turbines.
+A: China mines about sixty percent of these rare earths, refines about ninety percent, and makes ninety-four percent of the magnets.
+A: The biggest source is here: Bayan Obo, in Inner Mongolia, the world's largest rare-earth mine.
+A: In April twenty twenty-five, China put seven rare earths, and magnets containing them, under export licences.
+A: In May, its magnet exports fell seventy-four percent in a single month. Exports to America fell ninety-three percent.
+Q: What happened?
+A: Within weeks, Ford halted its Chicago factory for about a week. In Europe, parts suppliers shut production lines.
+A: In October, China added five more rare earths, plus a rule reaching foreign factories: products with even a small share of Chinese rare earths would need a Chinese licence.
+Q: That's... almost everything.
+A: That's why, at the end of October twenty twenty-five, Trump and Xi agreed a truce, and the October rules were paused.
+A: The West is racing to catch up. The Pentagon bought into a rare-earth mine in California and promised it a minimum price. In Malaysia, Lynas became the first to produce heavy rare earths outside China.
+A: But ninety-four percent of the magnets still come from one country.
+A: So America had the chips, and China had the metals. Then the fight moved somewhere nobody expected: an app store.
+A: Move five. Hangzhou. A start-up called DeepSeek, spun out of a Chinese hedge fund.
+A: On the twentieth of January twenty twenty-five, it released a free AI model, R1, which it said could rival OpenAI's best reasoning model.
+Q: Without the best chips?
+A: Its base model was trained on H eight hundreds, the slower chips Nvidia had made for China, which were legal to buy until late twenty twenty-three.
+A: DeepSeek said the final training run cost about five point six million dollars in rented computer time.
+A: Analysts say the real total, with all the research and hardware, was far higher.
+Q: But people heard the cheap number?
+A: Within a week, DeepSeek's app was number one on America's App Store, ahead of ChatGPT.
+A: And on the twenty-seventh of January, investors panicked. If AI could be built this cheaply, who would need so many Nvidia chips?
+A: Nvidia's stock fell seventeen percent. About five hundred and ninety billion dollars of value, gone in one day: the biggest one-day loss in US stock market history.
+Q: So did the chip bans fail?
+A: Most experts say they leaked rather than failed: chips bought before the rules, and chips that were legal for a while.
+A: And Nvidia recovered. Nine months later, it became the first company ever worth five trillion dollars.
+A: But in April twenty twenty-six, DeepSeek released a new model made to run on Chinese Huawei chips.
+A: So look at the scoreboard. America banned the chips. Smugglers found new routes. China cut off the metals. Its magnets stopped car factories. And a free app shook Wall Street.
+Q: Five moves. And nobody has won yet.
+A: Because both sides still need the same thing: chips printed by one Dutch machine, on one island.
+A: Like and subscribe to History Sketches, and tell us in the comments which move you think hurt the most.

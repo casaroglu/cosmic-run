@@ -69,7 +69,9 @@ def multiply(arr, m, col, a=0.9):
 def spaced(d, xy, text, f, fill, sp, anchor_center=True):
     widths = [d.textlength(c, font=f) + sp for c in text]; x, y = xy
     if anchor_center: x -= (sum(widths) - sp) / 2
-    for c, w in zip(text, widths): d.text((x, y), c, font=f, fill=fill, anchor='lm'); x += w
+    for c, w in zip(text, widths):
+        if c.strip(): d.text((x, y), c, font=f, fill=fill, anchor='lm')   # a bare space can raise 'bad image size' when partly off-canvas
+        x += w
 
 # ---------------------------------------------------------------- map
 def render_map(cam, featured=(), labels=(), lift=0, sweep=None):
