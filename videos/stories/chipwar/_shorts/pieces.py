@@ -171,3 +171,71 @@ def draw_reticle():
     for y in range(60, 250, 24): d.line((55, y, 245 - (y % 48), y), fill=INK + (255,), width=3)
     for x in (90, 150, 210): d.line((x, 55, x, 245), fill=INK + (255,), width=2)
     return im
+
+# ---- Part 2 pieces
+def draw_radar():
+    """a generic air-defence radar truck: a flat panel array on a mast and a truck chassis."""
+    im = Image.new('RGBA', (360, 330), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    d.polygon([(110, 20), (270, 50), (260, 200), (100, 170)], fill=(170, 170, 170, 255), outline=(60, 60, 60, 255))
+    for k in range(1, 6): d.line((110 + k * 27, 25 + k * 5, 102 + k * 27, 172 + k * 5), fill=(110, 110, 110, 255), width=2)
+    for k in range(1, 5): d.line((106, 20 + k * 30, 268, 50 + k * 30), fill=(110, 110, 110, 255), width=2)
+    d.rectangle((175, 180, 195, 250), fill=(90, 90, 90, 255))
+    d.rectangle((40, 240, 330, 290), fill=(120, 120, 120, 255), outline=(60, 60, 60, 255), width=3); d.rectangle((260, 210, 330, 245), fill=(140, 140, 140, 255))
+    for cx in (80, 150, 290): d.ellipse((cx - 26, 270, cx + 26, 322), fill=(60, 60, 60, 255)); d.ellipse((cx - 9, 287, cx + 9, 305), fill=(170, 170, 170, 255))
+    return im
+
+def draw_fibre():
+    """a cable drum with fibre-optic cable unspooling, ending in glowing strands."""
+    im = Image.new('RGBA', (380, 300), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    d.ellipse((20, 40, 220, 260), fill=(150, 150, 150, 255), outline=(60, 60, 60, 255), width=4)
+    for r in (80, 60, 40): d.ellipse((120 - r, 150 - r, 120 + r, 150 + r), outline=(90, 90, 90, 255), width=5)
+    d.ellipse((105, 135, 135, 165), fill=(60, 60, 60, 255))
+    d.line([(190, 110), (260, 120), (320, 150), (350, 180)], fill=(60, 60, 60, 255), width=14, joint='curve')
+    for a in (-0.5, -0.2, 0.1, 0.4): d.line((350, 180, 350 + 26 * math.cos(a), 180 + 26 * math.sin(a)), fill=(230, 230, 230, 255), width=3)
+    return im
+
+def draw_magnets():
+    """a stack of small round rare-earth magnets and one block magnet."""
+    im = Image.new('RGBA', (300, 260), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    for k in range(5):
+        y = 200 - k * 30; d.ellipse((30, y - 12, 170, y + 26), fill=(130, 130, 130, 255), outline=(60, 60, 60, 255), width=3)
+        d.ellipse((30, y - 26, 170, y + 12), fill=(210, 210, 210, 255), outline=(60, 60, 60, 255), width=3)
+    d.polygon([(190, 150), (280, 130), (290, 190), (200, 215)], fill=(180, 180, 180, 255), outline=(60, 60, 60, 255))
+    d.polygon([(190, 150), (280, 130), (270, 110), (182, 130)], fill=(225, 225, 225, 255), outline=(60, 60, 60, 255))
+    return im
+
+def draw_car():
+    """a generic sedan silhouette, shaded grey."""
+    im = Image.new('RGBA', (400, 200), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    d.polygon([(20, 130), (40, 95), (120, 85), (170, 40), (280, 40), (330, 85), (380, 95), (390, 140), (20, 150)], fill=(170, 170, 170, 255), outline=(60, 60, 60, 255))
+    d.polygon([(180, 50), (240, 50), (240, 85), (140, 85)], fill=(220, 220, 220, 255)); d.polygon([(250, 50), (275, 50), (315, 85), (250, 85)], fill=(220, 220, 220, 255))
+    for cx in (100, 310): d.ellipse((cx - 36, 115, cx + 36, 187), fill=(50, 50, 50, 255)); d.ellipse((cx - 14, 137, cx + 14, 165), fill=(170, 170, 170, 255))
+    return im
+
+def draw_server():
+    """a generic AI server rack: a tall cabinet with stacked server trays."""
+    im = Image.new('RGBA', (200, 380), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    d.rectangle((10, 10, 190, 370), fill=(70, 70, 70, 255), outline=(40, 40, 40, 255), width=4)
+    for k in range(8):
+        y = 26 + k * 42; d.rectangle((24, y, 176, y + 32), fill=(170, 170, 170, 255), outline=(90, 90, 90, 255), width=2)
+        for x in range(34, 120, 14): d.line((x, y + 8, x, y + 24), fill=(110, 110, 110, 255), width=2)
+        d.ellipse((150, y + 11, 160, y + 21), fill=(240, 240, 240, 255))
+    return im
+
+def draw_box():
+    """a plain cardboard shipping box with a blank paper label area."""
+    im = Image.new('RGBA', (300, 240), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    d.polygon([(20, 70), (200, 70), (200, 230), (20, 230)], fill=(175, 175, 175, 255), outline=(70, 70, 70, 255))
+    d.polygon([(20, 70), (90, 20), (280, 20), (200, 70)], fill=(210, 210, 210, 255), outline=(70, 70, 70, 255))
+    d.polygon([(200, 70), (280, 20), (280, 180), (200, 230)], fill=(130, 130, 130, 255), outline=(70, 70, 70, 255))
+    d.rectangle((100, 20, 120, 70), fill=(150, 150, 150, 255)); d.rectangle((40, 120, 180, 190), fill=(235, 235, 235, 255), outline=(90, 90, 90, 255), width=2)
+    return im
+
+def draw_downchart():
+    """a stock chart on cream paper, the line crashing down (ink line art, no text)."""
+    im = Image.new('RGBA', (360, 260), BEIGE + (255,)); d = ImageDraw.Draw(im)
+    d.rectangle((6, 6, 353, 253), outline=INK + (255,), width=4)
+    for y in range(50, 230, 40): d.line((30, y, 330, y), fill=INK + (90,), width=1)
+    pts = [(30, 90), (80, 70), (120, 85), (170, 60), (210, 70), (240, 65), (262, 200), (300, 190), (330, 205)]
+    d.line(pts, fill=INK + (255,), width=7, joint='curve')
+    return im
