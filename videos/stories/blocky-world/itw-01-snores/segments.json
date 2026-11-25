@@ -1,0 +1,107 @@
+[
+ {
+  "sp": "toast",
+  "text": "In this world...",
+  "shot": 1,
+  "s": 0.25,
+  "e": 1.451
+ },
+ {
+  "sp": "toast",
+  "text": "we only walk when it snores.",
+  "shot": 2,
+  "s": 2.051,
+  "e": 3.804
+ },
+ {
+  "sp": "toast",
+  "text": "Snore. We walk.",
+  "shot": 3,
+  "s": 5.001,
+  "e": 6.238
+ },
+ {
+  "sp": "toast",
+  "text": "Silence. We freeze.",
+  "shot": 4,
+  "s": 7.651,
+  "e": 8.983
+ },
+ {
+  "sp": "toast",
+  "text": "Every single time.",
+  "shot": 5,
+  "s": 9.901,
+  "e": 11.308
+ },
+ {
+  "sp": "toast",
+  "text": "Or the tail finds you.",
+  "shot": 6,
+  "s": 12.301,
+  "e": 13.91
+ },
+ {
+  "sp": "toast",
+  "text": "And his snores keep getting shorter.",
+  "shot": 7,
+  "s": 14.801,
+  "e": 16.598
+ },
+ {
+  "sp": "toast",
+  "text": "We'll be here all day.",
+  "shot": 8,
+  "s": 17.801,
+  "e": 19.247
+ },
+ {
+  "sp": "pixi",
+  "text": "Don't.",
+  "shot": 8,
+  "s": 19.597,
+  "e": 20.276
+ },
+ {
+  "sp": "toast",
+  "text": "It says walk. I'm rolling.",
+  "shot": 9,
+  "s": 21.126,
+  "e": 22.719
+ },
+ {
+  "sp": "toast",
+  "text": "I froze. The board didn't.",
+  "shot": 12,
+  "s": 27.826,
+  "e": 29.404
+ },
+ {
+  "sp": "pixi",
+  "text": "Small print.",
+  "shot": 15,
+  "s": 33.826,
+  "e": 34.792
+ },
+ {
+  "sp": "pixi",
+  "text": "He's not a monster. He's a puppy.",
+  "shot": 16,
+  "s": 36.526,
+  "e": 38.633
+ },
+ {
+  "sp": "pixi",
+  "text": "You rolled.",
+  "shot": 18,
+  "s": 42.626,
+  "e": 43.409
+ },
+ {
+  "sp": "toast",
+  "text": "Okay. This time I'll roll quietly.",
+  "shot": 19,
+  "s": 44.376,
+  "e": 45.707
+ }
+]
