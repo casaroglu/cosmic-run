@@ -1,0 +1,14 @@
+# Chip Wars 11: Born in a Denny's (Nvidia's origin). Fact check (2 sources each)
+
+| Claim in the video | Sources |
+|---|---|
+| Nvidia's chips run most of today's AI (AI accelerator share ~75-86%, estimates) | Bloomberg via Yahoo (https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-investors-just-got-090800739.html); IDC via Yahoo (https://finance.yahoo.com/markets/stocks/articles/market-nvidia-once-owned-slipping-211700421.html) |
+| It began by making video-game graphics chips | Fortune (https://fortune.com/2023/06/01/nvidia-started-dennys-now-worth-trillion/); ABC News / AP (https://abcnews.go.com/Business/wireStory/nvidia-ai-giant-111296153) |
+| In 1993 three engineers met in a Denny's in San Jose to plan a 3D graphics chip | NVIDIA blog (https://blogs.nvidia.com/?p=67152); Fortune (link above); PC Gamer (https://pcgamer.com/nvidia-was-born-in-dennys-and-now-a-booth-in-the-east-san-jose-restaurant-has-been-dedicated-to-the-trillion-dollar-company) |
+| In 2006 Nvidia unveiled CUDA, so its chips could do (almost) any kind of maths (general-purpose GPU computing) | NVIDIA blog, CUDA at 20 (https://blogs.nvidia.com/?p=99922); Computerworld 2006 (https://www.computerworld.com/article/1471220/nvidia-graphics-chips-perform-double-duty-as-cpus.html) |
+| In 2012 a Toronto team trained AlexNet on two gaming cards (GTX 580) and won ImageNet by a wide margin | CACM paper (https://cacm.acm.org/research/imagenet-classification-with-deep-convolutional-neural-networks); IEEE Spectrum (https://spectrum.ieee.org/alexnet-source-code) |
+| It touched $1 trillion in 2023 (30 May, intraday) | CNBC (https://www.cnbc.com/2023/05/30/nvidia-on-track-to-hit-1-trillion-market-cap-when-market-opens.html); Axios (https://www.axios.com/2023/05/30/nvidia-stock-surge-trillion-dollar-companies) |
+| In October 2025 it became the first company ever worth $5 trillion (29 Oct 2025) | TechCrunch (https://techcrunch.com/2025/10/29/nvidia-becomes-first-public-company-worth-5-trillion); Fortune (https://fortune.com/2025/10/29/nvidia-first-5-trillion-company-ceo-jensen-huang-500-billion-revenue-blackwell-rubin-gpus-china/) |
+| In 2023 Denny's hung a plaque above the booth (unveiled 26 Sept 2023) | TweakTown (https://www.tweaktown.com/news/93486/nvidia-got-plaque-at-this-dennys-restaurant-the-birthplace-of-trillion-dollar-company/index.html); NBC Bay Area (https://nbcbayarea.com/news/local/south-bay/nvidia-ceo-dennys-san-jose/3327542); PC Gamer (link above) |
+
+Changed from the plan: "planned in a Denny's" -> "dreamed up in a Denny's" (sources say the founders met there to discuss the idea; 1993 is not a formal incorporation date); "Denny's even put a plaque" -> "In 2023, Denny's hung a plaque" (the plaque was briefly removed on 12 Nov 2026 and reinstalled on 14 Nov 2026, SFist / IBTimes; the video states only the 2023 unveiling). No founder is named or drawn; no current-CEO wording.

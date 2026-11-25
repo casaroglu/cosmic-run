@@ -1,0 +1,68 @@
+[
+ {
+  "sp": "a",
+  "text": "The company that powers most of today's AI was dreamed up in a Denny's diner!",
+  "s": 0.15,
+  "e": 4.252
+ },
+ {
+  "sp": "q",
+  "text": "Why should we care how Nvidia started?",
+  "s": 4.452,
+  "e": 6.268
+ },
+ {
+  "sp": "a",
+  "text": "Because its chips now run most of the world's AI... and it began by making video-game graphics.",
+  "s": 6.508,
+  "e": 11.247
+ },
+ {
+  "sp": "a",
+  "text": "In nineteen ninety-three, three engineers met in a Denny's in San Jose, to plan a 3D graphics chip.",
+  "s": 11.367,
+  "e": 16.717
+ },
+ {
+  "sp": "a",
+  "text": "In two thousand six, Nvidia unveiled CUDA, so its chips could do almost any kind of maths.",
+  "s": 16.837,
+  "e": 21.902
+ },
+ {
+  "sp": "q",
+  "text": "So how did games turn into AI?",
+  "s": 22.102,
+  "e": 23.701
+ },
+ {
+  "sp": "a",
+  "text": "In twenty twelve, a Toronto team trained an AI called AlexNet on two gaming cards, and crushed the competition.",
+  "s": 23.941,
+  "e": 29.652
+ },
+ {
+  "sp": "a",
+  "text": "AI researchers rushed to Nvidia's chips.",
+  "s": 29.772,
+  "e": 32.454
+ },
+ {
+  "sp": "a",
+  "text": "It touched one trillion dollars in twenty twenty-three, and in October twenty twenty-five became the first company ever worth five trillion.",
+  "s": 32.574,
+  "e": 38.952
+ },
+ {
+  "sp": "a",
+  "text": "Like, follow History Sketches, and tell us what we should map next!",
+  "s": 39.072,
+  "e": 42.477
+ },
+ {
+  "sp": "a",
+  "text": "And in twenty twenty-three, Denny's hung a plaque above the booth where it was dreamed up.",
+  "s": 42.597,
+  "e": 46.618
+ }
+]
