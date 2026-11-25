@@ -1,0 +1,35 @@
+[
+ {
+  "part": 1,
+  "file": "videos/out/chipwar/_upload/long-part1.mp4",
+  "title": "5 Places Every Chip on Earth Depends On",
+  "description": "The phone in your pocket and the AI you talk to both depend on five places on Earth: a small town in North Carolina, two gas plants in a war zone, one Dutch machine, one British blueprint company and one island. We follow a chip back, link by link, on one hand-drawn map.\n\n0:00 Cold open: five places\n0:19 01 The Quartz: Spruce Pine, USA\n1:24 02 The Gas: Ukraine\n2:34 03 The Machine: Veldhoven, Netherlands\n3:45 04 The Blueprint: Cambridge, UK\n4:57 05 The Island: Taiwan\n6:05 Five weak links\n\nEvery number and date is checked against at least two sources (company reports, USGS, USITC, Reuters, Bloomberg, Tom's Hardware, CNBC, Fortune, IEEE Spectrum and others). Estimates are marked as estimates. Coastlines are approximate; Crimea is shown with Ukraine, the internationally recognised border.\n\nMap data: Natural Earth (public domain). Narration: synthetic voices. Music: generated for this channel. All drawings are made for this video; no logos are used.\n\n#chips #semiconductors #ai #history #geopolitics #tsmc #asml",
+  "thumbnail": "videos/out/chipwar/_covers/long-part1.jpg",
+  "thumb_hook": "BREAK ONE, AI STOPS",
+  "publish": "2026-11-27 18:00 Europe/Istanbul",
+  "status": "todo",
+  "url": null
+ },
+ {
+  "part": 2,
+  "file": "videos/out/chipwar/_upload/long-part2.mp4",
+  "title": "The Chip War: 5 Moves That Shook the World",
+  "description": "In 2022 America bet that if China couldn't get the best chips, it couldn't build the best AI. Then came the moves: a ban, smugglers with fake labels, metals the world can't do without, magnets that stopped a car factory, and a free app that wiped about $590 billion off Nvidia in a day. One hand-drawn map, five moves, one scoreboard.\n\n0:00 Cold open: the bet\n0:19 Move 1 · The Ban: Washington\n1:36 Move 2 · The Smugglers: South-East Asia\n2:32 Move 3 · The Metals: Beijing\n3:21 Move 4 · The Magnets: Inner Mongolia to Chicago\n4:34 Move 5 · The App: Hangzhou to Wall Street\n5:43 The scoreboard\n\nEvery number and date is checked against at least two sources (US Commerce/BIS, US DOJ, USGS, IEA, Bloomberg, CNBC, Fortune, The Register, Tom's Hardware, SCMP and others). Court cases: allegations are marked as allegations; one defendant has pleaded guilty, another has pleaded not guilty and has not been convicted. Coastlines are approximate.\n\nMap data: Natural Earth (public domain). Narration: synthetic voices. Music: generated for this channel. All drawings are made for this video; no logos are used.\n\n#chips #ai #nvidia #china #geopolitics #history #deepseek",
+  "thumbnail": "videos/out/chipwar/_covers/long-part2.jpg",
+  "thumb_hook": "AMERICA VS CHINA: 5 MOVES",
+  "publish": "2026-11-28 18:00 Europe/Istanbul",
+  "status": "todo",
+  "url": null
+ },
+ {
+  "part": 3,
+  "file": "videos/out/chipwar/_upload/long-part3.mp4",
+  "title": "The AI Gold Rush: Chips, Power, Cables and the $81 Billion Bet",
+  "description": "In a gold rush, the people selling shovels often do best. In the AI gold rush, the shovels are chips, power plants and cables on the sea floor, and the buyers are a handful of AI labs. One hand-drawn map: from a diner in San Jose to Taiwan's packaging lines, Ireland's grid, the Red Sea and the race between the labs.\n\n0:00 Cold open: the shovel sellers\n0:17 Rush 1 · The Shovel Maker: Nvidia\n1:02 Rush 2 · The Moat: CUDA and the TSMC queue\n1:51 Rush 3 · The Power: Ireland to Memphis\n2:34 Rush 4 · The Cables: Red Sea and Baltic\n3:21 Rush 5 · The Race: the AI labs\n4:07 Underneath it all\n\nDisclosure: this video was made with the help of Claude, an AI made by Anthropic, one of the companies in this story. It is not investment advice; no share prices are discussed. OpenAI's valuation is as reported, not confirmed by the company.\n\nEvery number and date is checked against at least two sources (company reports, CSO Ireland, IEA, TeleGeography, Bloomberg, CNBC, Reuters, TechCrunch and others). Estimates are marked as estimates. Coastlines are approximate.\n\nMap data: Natural Earth (public domain). Narration: synthetic voices. Music: generated for this channel. All drawings are made for this video; no logos are used.\n\n#ai #nvidia #chips #datacenters #history #geopolitics",
+  "thumbnail": "videos/out/chipwar/_covers/long-part3.jpg",
+  "thumb_hook": "WHO GETS RICH FROM AI?",
+  "publish": "2026-11-29 18:00 Europe/Istanbul",
+  "status": "todo",
+  "url": null
+ }
+]
