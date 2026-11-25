@@ -56,7 +56,7 @@ add('card', ls(8), ls(10, -16), fig='FIG. 04', lines=['Trillions'])
 add('ransom', cl(8, 'one', 1, -2), cl(8, 'five', 1, -2), text='$1 TRILLION', xy=(490, 380), size=110, seed=6)
 add('tag', cl(8, 'twenty-three', 1, -2), cl(8, 'five', 1, -2), text='2023', xy=(490, 540), rot=1, size=60)
 add('ransom', cl(8, 'five', 1, -2), ls(10, -16), text='$5 TRILLION', xy=(490, 380), size=110, seed=7)
-add('tag', cl(8, 'first', 1, -2), ls(10, -16), text='FIRST EVER · OCT 2025', xy=(490, 540), rot=-1, size=50)
+add('tag', cl(8, 'five', 1, -2), ls(10, -16), text='FIRST EVER · OCT 2025', xy=(490, 540), rot=-1, size=50)
 for i, xy in enumerate(((300, 1150), (490, 1210), (680, 1150))):
     add('chip', cl(8, 'five', 1, 2) + 3 * i, ls(10, -16), xy=xy, rot=(-6, 2, 7)[i], scale=0.6)
 hook_group(ls(10, -6), END)

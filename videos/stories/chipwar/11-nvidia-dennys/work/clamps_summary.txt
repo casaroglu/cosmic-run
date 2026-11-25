@@ -3,7 +3,7 @@ ransom:$1 TRILLION                 frames=80 max_dx=0 max_dy=0 min_k=0.76
 ransom:$5 TRILLION                 frames=60 max_dx=0 max_dy=0 min_k=0.75
 ransom:2 GAMING CARDS              frames=75 max_dx=0 max_dy=0 min_k=0.63
 ransom:DENNY'S                     frames=139 max_dx=0 max_dy=0 min_k=0.80
-tag:FIRST EVER · OCT 2025         frames=75 max_dx=0 max_dy=0 min_k=0.97
+tag:FIRST EVER · OCT 2025         frames=60 max_dx=0 max_dy=0 min_k=0.97
 tag:NVIDIA: FIRST $5 TRILLION      frames=15 max_dx=0 max_dy=0 min_k=0.88
 tag:RUNS MOST OF TODAY'S AI        frames=44 max_dx=0 max_dy=0 min_k=0.92
 tag:TORONTO                        frames=109 max_dx=61 max_dy=0 min_k=1.00
