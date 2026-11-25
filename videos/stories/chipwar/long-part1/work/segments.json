@@ -9,534 +9,534 @@
   "sp": "q",
   "text": "Five places? That's all?",
   "s": 4.95,
-  "e": 6.298
+  "e": 6.314
  },
  {
   "sp": "a",
   "text": "Five chokepoints. A small town in America. Two factories in a war zone. One Dutch machine. One British company. And one island.",
-  "s": 6.538,
-  "e": 13.224
+  "s": 6.554,
+  "e": 13.239
  },
  {
   "sp": "a",
   "text": "Break any one of them, and the whole tech world feels it.",
-  "s": 13.344,
-  "e": 16.131
+  "s": 13.359,
+  "e": 16.146
  },
  {
   "sp": "q",
   "text": "Then let's follow a chip all the way back to where it starts.",
-  "s": 16.331,
-  "e": 19.07
+  "s": 16.346,
+  "e": 18.901
  },
  {
   "sp": "a",
   "text": "It starts... with sand. Well, very special sand.",
-  "s": 19.31,
-  "e": 22.244
+  "s": 19.141,
+  "e": 22.074
  },
  {
   "sp": "a",
   "text": "Almost every chip is cut from a near-perfect crystal of silicon.",
-  "s": 22.364,
-  "e": 26.08
+  "s": 22.194,
+  "e": 25.911
  },
  {
   "sp": "a",
   "text": "To grow that crystal, factories melt silicon at over fourteen hundred degrees, inside a bowl made of quartz.",
-  "s": 26.2,
-  "e": 31.836
+  "s": 26.031,
+  "e": 31.667
  },
  {
   "sp": "q",
   "text": "Why does the bowl matter?",
-  "s": 32.036,
-  "e": 33.315
+  "s": 31.867,
+  "e": 32.934
  },
  {
   "sp": "a",
   "text": "At that heat, the bowl touches the molten silicon. If the quartz has impurities, they leak in, and the crystal is ruined.",
-  "s": 33.555,
-  "e": 39.226
+  "s": 33.174,
+  "e": 38.846
  },
  {
   "sp": "a",
   "text": "So chipmakers need quartz that is almost perfectly pure. And most of it comes from here: Spruce Pine, North Carolina.",
-  "s": 39.346,
-  "e": 45.088
+  "s": 38.966,
+  "e": 44.707
  },
  {
   "sp": "a",
   "text": "Analysts estimate this one mountain town supplies around eighty percent of the world's high-purity quartz.",
-  "s": 45.208,
-  "e": 50.355
+  "s": 44.827,
+  "e": 49.974
  },
  {
   "sp": "q",
   "text": "Who digs it up?",
-  "s": 50.555,
-  "e": 51.496
+  "s": 50.174,
+  "e": 50.928
  },
  {
   "sp": "a",
   "text": "Only two companies: Sibelco, from Belgium, and The Quartz Corp.",
-  "s": 51.736,
-  "e": 55.247
+  "s": 51.168,
+  "e": 54.679
  },
  {
   "sp": "q",
   "text": "Has anything ever gone wrong?",
-  "s": 55.447,
-  "e": 57.001
+  "s": 54.879,
+  "e": 56.217
  },
  {
   "sp": "a",
   "text": "On the twenty-seventh of September, twenty twenty-four, Hurricane Helene hit. Roads, railways and power lines were cut. Both mines shut down.",
-  "s": 57.241,
-  "e": 64.128
+  "s": 56.457,
+  "e": 63.344
  },
  {
   "sp": "a",
   "text": "The whole chip industry was suddenly watching one flooded valley.",
-  "s": 64.248,
-  "e": 67.697
+  "s": 63.464,
+  "e": 66.913
  },
  {
   "sp": "a",
   "text": "Sibelco restarted about two weeks later. The Quartz Corp took longer.",
-  "s": 67.817,
-  "e": 71.7
+  "s": 67.033,
+  "e": 70.916
  },
  {
   "sp": "q",
   "text": "Can't they find quartz somewhere else?",
-  "s": 71.9,
-  "e": 73.502
+  "s": 71.116,
+  "e": 72.528
  },
  {
   "sp": "a",
   "text": "There are deposits in Brazil, Russia and China, and quartz can even be made synthetically. But nothing matches Spruce Pine's purity at scale... yet.",
-  "s": 73.742,
-  "e": 80.795
+  "s": 72.768,
+  "e": 79.821
  },
  {
   "sp": "a",
   "text": "So the crystal is grown. But a crystal is just a blank. To draw circuits on it, you need light.",
-  "s": 80.915,
-  "e": 85.577
+  "s": 79.941,
+  "e": 84.603
  },
  {
   "sp": "q",
   "text": "Light? How do you draw with light?",
-  "s": 85.777,
-  "e": 87.265
+  "s": 84.803,
+  "e": 86.139
  },
  {
   "sp": "a",
   "text": "A chipmaking machine shines a laser through a stencil onto the silicon. The light prints the circuit, a bit like a photograph.",
-  "s": 87.505,
-  "e": 93.478
+  "s": 86.379,
+  "e": 92.352
  },
  {
   "sp": "a",
   "text": "Most of those lasers run on a gas mixture that is mostly neon.",
-  "s": 93.598,
-  "e": 97.218
+  "s": 92.472,
+  "e": 96.092
  },
  {
   "sp": "q",
   "text": "Neon, like the signs?",
-  "s": 97.418,
-  "e": 98.727
+  "s": 96.292,
+  "e": 97.369
  },
  {
   "sp": "a",
   "text": "Same gas. And before twenty twenty-two, about half the world's chip-grade neon came from Ukraine.",
-  "s": 98.967,
-  "e": 103.783
+  "s": 97.609,
+  "e": 102.425
  },
  {
   "sp": "q",
   "text": "Why Ukraine?",
-  "s": 103.983,
-  "e": 104.918
+  "s": 102.625,
+  "e": 103.38
  },
  {
   "sp": "a",
   "text": "Neon is a by-product of steel making. The Soviet Union built giant air-separation plants at its steel mills, and they captured neon.",
-  "s": 105.158,
-  "e": 111.598
+  "s": 103.62,
+  "e": 110.06
  },
  {
   "sp": "a",
   "text": "After the Soviet Union fell, two Ukrainian companies purified it: one in Odesa, one in Mariupol.",
-  "s": 111.718,
-  "e": 117.028
+  "s": 110.18,
+  "e": 115.49
  },
  {
   "sp": "q",
   "text": "Mariupol... the city that was besieged.",
-  "s": 117.228,
-  "e": 119.246
+  "s": 115.69,
+  "e": 117.754
  },
  {
   "sp": "a",
   "text": "Yes. When Russia invaded in February twenty twenty-two, both plants stopped.",
-  "s": 119.486,
-  "e": 123.576
+  "s": 117.994,
+  "e": 122.084
  },
  {
   "sp": "q",
   "text": "Did the chip factories stop too?",
-  "s": 123.776,
-  "e": 125.397
+  "s": 122.284,
+  "e": 123.723
  },
  {
   "sp": "a",
   "text": "No! Because it had happened before. When Russia seized Crimea in twenty fourteen, neon prices jumped six hundred percent.",
-  "s": 125.637,
-  "e": 131.344
+  "s": 123.963,
+  "e": 129.67
  },
  {
   "sp": "a",
   "text": "Chipmakers learned their lesson. They cut their reliance on Russia and Ukraine from most of their neon to under a third.",
-  "s": 131.464,
-  "e": 136.711
+  "s": 129.79,
+  "e": 135.037
  },
  {
   "sp": "a",
   "text": "China built new neon plants. South Korea's chipmakers started making their own. And laser makers learned to recycle neon, again and again.",
-  "s": 136.831,
-  "e": 143.935
+  "s": 135.157,
+  "e": 142.261
  },
  {
   "sp": "a",
   "text": "In twenty twenty-two, one supplier said prices rose up to five hundred percent... but not a single chip factory stopped.",
-  "s": 144.055,
-  "e": 150.01
+  "s": 142.381,
+  "e": 148.336
  },
  {
   "sp": "a",
   "text": "Neon lasers can print very small. But for the smallest circuits of all, there is only one kind of light... and only one machine that makes it.",
-  "s": 150.13,
-  "e": 156.333
+  "s": 148.456,
+  "e": 154.659
  },
  {
   "sp": "a",
-  "text": "It's built by A, S, M, L, in Veldhoven, in the Netherlands. No other company on Earth can make it.",
-  "s": 156.453,
-  "e": 161.863
+  "text": "It's built by ASML, in Veldhoven, in the Netherlands. No other company on Earth can make it.",
+  "s": 154.779,
+  "e": 159.833
  },
  {
   "sp": "q",
   "text": "What makes it so special?",
-  "s": 162.063,
-  "e": 163.398
+  "s": 160.033,
+  "e": 161.109
  },
  {
   "sp": "a",
   "text": "Inside, a drop of tin, smaller than the width of a hair, falls through a vacuum. A laser hits it once to flatten it, then again to blast it into plasma.",
-  "s": 163.638,
-  "e": 170.746
+  "s": 161.349,
+  "e": 168.457
  },
  {
   "sp": "a",
   "text": "Fifty thousand times every second.",
-  "s": 170.866,
-  "e": 173.267
+  "s": 168.577,
+  "e": 170.978
  },
  {
   "sp": "a",
   "text": "Each flash is hotter than the surface of the Sun, and gives off extreme ultraviolet light.",
-  "s": 173.387,
-  "e": 177.933
+  "s": 171.098,
+  "e": 175.644
  },
  {
   "sp": "q",
   "text": "And that light prints the chip?",
-  "s": 178.133,
-  "e": 179.529
+  "s": 175.844,
+  "e": 177.081
  },
  {
   "sp": "a",
   "text": "It bounces off mirrors made by Zeiss in Germany. They're so smooth that, if one were blown up to the size of Germany, its biggest bump would be a tenth of a millimetre.",
-  "s": 179.769,
-  "e": 187.53
+  "s": 177.321,
+  "e": 185.082
  },
  {
   "sp": "a",
   "text": "The result: circuits thousands of times thinner than a human hair.",
-  "s": 187.65,
-  "e": 191.036
+  "s": 185.202,
+  "e": 188.588
  },
  {
   "sp": "q",
   "text": "How big is this machine?",
-  "s": 191.236,
-  "e": 192.618
+  "s": 188.788,
+  "e": 189.898
  },
  {
   "sp": "a",
   "text": "Big. Delivering one takes forty shipping containers, twenty trucks and three cargo jets. The newest version costs around four hundred million dollars.",
-  "s": 192.858,
-  "e": 199.757
+  "s": 190.138,
+  "e": 197.037
  },
  {
   "sp": "a",
-  "text": "In twenty twenty-five, A, S, M, L shipped forty-eight of them.",
-  "s": 199.877,
-  "e": 203.451
+  "text": "In twenty twenty-five, ASML shipped forty-eight of them.",
+  "s": 197.157,
+  "e": 200.468
  },
  {
   "sp": "q",
   "text": "Who buys them?",
-  "s": 203.651,
-  "e": 204.593
+  "s": 200.668,
+  "e": 201.381
  },
  {
   "sp": "a",
-  "text": "More than half of all these machines work for one company in Taiwan: T, S, M, C, the maker of Nvidia's AI chips and Apple's iPhone chips.",
-  "s": 204.833,
-  "e": 212.146
+  "text": "More than half of all these machines work for one company in Taiwan: TSMC, the maker of Nvidia's AI chips and Apple's iPhone chips.",
+  "s": 201.621,
+  "e": 208.623
  },
  {
   "sp": "q",
   "text": "And China?",
-  "s": 212.346,
-  "e": 213.092
+  "s": 208.823,
+  "e": 209.433
  },
  {
   "sp": "a",
   "text": "China has never received one. In twenty nineteen, under pressure from Washington, the Dutch government let China's export licence lapse.",
-  "s": 213.332,
-  "e": 220.123
+  "s": 209.673,
+  "e": 216.465
  },
  {
   "sp": "a",
   "text": "So China has to make its best chips with older machines, printing the same layer several times over.",
-  "s": 220.243,
-  "e": 224.966
+  "s": 216.585,
+  "e": 221.308
  },
  {
   "sp": "a",
   "text": "The machine can print anything. But what it prints, the blueprint, often comes from somewhere else entirely.",
-  "s": 225.086,
-  "e": 229.751
+  "s": 221.428,
+  "e": 226.092
  },
  {
   "sp": "a",
   "text": "Look at the phone in your hand. Its brain almost certainly runs on a design from a company that has never made a single chip.",
-  "s": 229.871,
-  "e": 235.489
+  "s": 226.212,
+  "e": 231.831
  },
  {
   "sp": "q",
   "text": "How is that even possible?",
-  "s": 235.689,
-  "e": 237.186
+  "s": 232.031,
+  "e": 233.334
  },
  {
   "sp": "a",
   "text": "Arm, from Cambridge, England, sells blueprints for processors. Apple, Qualcomm, Samsung and others license them, then pay a small fee on every chip they build.",
-  "s": 237.426,
-  "e": 245.204
+  "s": 233.574,
+  "e": 241.351
  },
  {
   "sp": "a",
   "text": "Arm-based processors are in over ninety-nine percent of smartphones. More than three hundred billion Arm-based chips have shipped.",
-  "s": 245.324,
-  "e": 251.319
+  "s": 241.471,
+  "e": 247.466
  },
  {
   "sp": "q",
   "text": "Where did it come from?",
-  "s": 251.519,
-  "e": 252.512
+  "s": 247.666,
+  "e": 248.519
  },
  {
   "sp": "a",
-  "text": "In nineteen ninety, the British computer maker Acorn teamed up with Apple and a chip company called V, L, S, I. They started with twelve engineers.",
-  "s": 252.752,
-  "e": 260.24
+  "text": "In nineteen ninety, the British computer maker Acorn teamed up with Apple and a chip company called VLSI. They started with twelve engineers.",
+  "s": 248.759,
+  "e": 255.638
  },
  {
   "sp": "q",
   "text": "And now?",
-  "s": 260.44,
-  "e": 261.028
+  "s": 255.838,
+  "e": 256.337
  },
  {
   "sp": "a",
   "text": "Now it's one of the most fought-over companies in tech.",
-  "s": 261.268,
-  "e": 264.071
+  "s": 256.577,
+  "e": 259.379
  },
  {
   "sp": "a",
   "text": "In twenty sixteen, Japan's SoftBank bought it for twenty-four billion pounds.",
-  "s": 264.191,
-  "e": 268.298
+  "s": 259.499,
+  "e": 263.607
  },
  {
   "sp": "a",
   "text": "In twenty twenty, Nvidia offered forty billion dollars for it.",
-  "s": 268.418,
-  "e": 271.953
+  "s": 263.727,
+  "e": 267.261
  },
  {
   "sp": "q",
   "text": "Why didn't that happen?",
-  "s": 272.153,
-  "e": 273.251
+  "s": 267.461,
+  "e": 268.442
  },
  {
   "sp": "a",
   "text": "Regulators in America, Britain and Europe worried Nvidia would control the blueprints its own rivals depend on. The deal collapsed in February twenty twenty-two.",
-  "s": 273.491,
-  "e": 281.288
+  "s": 268.682,
+  "e": 276.479
  },
  {
   "sp": "a",
   "text": "SoftBank kept Nvidia's one-and-a-quarter-billion-dollar down payment.",
-  "s": 281.408,
-  "e": 285.416
+  "s": 276.599,
+  "e": 280.607
  },
  {
   "sp": "a",
   "text": "A year and a half later, Arm went public in New York, valued at around fifty-four billion dollars.",
-  "s": 285.536,
-  "e": 290.552
+  "s": 280.727,
+  "e": 285.744
  },
  {
   "sp": "a",
   "text": "And in twenty twenty-five, reports said Arm planned to raise its prices by up to three hundred percent over time.",
-  "s": 290.672,
-  "e": 296.007
+  "s": 285.864,
+  "e": 291.199
  },
  {
   "sp": "q",
   "text": "So whoever controls Arm...",
-  "s": 296.207,
-  "e": 297.782
+  "s": 291.399,
+  "e": 292.671
  },
  {
   "sp": "a",
   "text": "...holds the keys to nearly every phone. Blueprint, light, machine, crystal. Now they all come together on one island.",
-  "s": 298.022,
-  "e": 303.274
+  "s": 292.911,
+  "e": 298.163
  },
  {
   "sp": "a",
   "text": "If Taiwan stopped making chips tomorrow, the world would lose around ninety percent of its most advanced chips.",
-  "s": 303.394,
-  "e": 308.838
+  "s": 298.283,
+  "e": 303.727
  },
  {
   "sp": "q",
   "text": "Ninety percent? From one island?",
-  "s": 309.038,
-  "e": 310.614
+  "s": 303.927,
+  "e": 305.494
  },
  {
   "sp": "a",
-  "text": "Mostly from one company: T, S, M, C, based in Hsinchu.",
-  "s": 310.854,
-  "e": 314.477
+  "text": "Mostly from one company: TSMC, based in Hsinchu.",
+  "s": 305.734,
+  "e": 309.145
  },
  {
   "sp": "q",
   "text": "How did one company get so big?",
-  "s": 314.677,
-  "e": 316.372
+  "s": 309.345,
+  "e": 310.937
  },
  {
   "sp": "a",
   "text": "In nineteen eighty-seven, an engineer named Morris Chang had a strange idea: a factory that makes chips only for other companies.",
-  "s": 316.612,
-  "e": 322.989
+  "s": 311.177,
+  "e": 317.554
  },
  {
   "sp": "a",
   "text": "Back then, chip companies mostly designed and built their own. Chang's idea let anyone with a design skip building a factory.",
-  "s": 323.109,
-  "e": 329.152
+  "s": 317.674,
+  "e": 323.717
  },
  {
   "sp": "a",
-  "text": "Apple, Nvidia, A, M, D, Qualcomm... they all became customers. Since twenty twenty-five, Nvidia is the biggest of all.",
-  "s": 329.272,
-  "e": 335.53
+  "text": "Apple, Nvidia, AMD, Qualcomm... they all became customers. Since twenty twenty-five, Nvidia is the biggest of all.",
+  "s": 323.837,
+  "e": 329.88
  },
  {
   "sp": "a",
-  "text": "Today T, S, M, C takes about seventy percent of all the money paid to chip factories worldwide.",
-  "s": 335.65,
-  "e": 340.846
+  "text": "Today TSMC takes about seventy percent of all the money paid to chip factories worldwide.",
+  "s": 330.0,
+  "e": 335.115
  },
  {
   "sp": "q",
   "text": "And Taiwan sits right next to China.",
-  "s": 341.046,
-  "e": 343.0
+  "s": 335.315,
+  "e": 337.183
  },
  {
   "sp": "a",
   "text": "The Taiwan Strait is only about one hundred and thirty to one hundred and sixty kilometres wide. Less than a hundred miles.",
-  "s": 343.24,
-  "e": 349.306
+  "s": 337.423,
+  "e": 343.489
  },
  {
   "sp": "a",
   "text": "Many people call Taiwan's chips its silicon shield.",
-  "s": 349.426,
-  "e": 352.544
+  "s": 343.609,
+  "e": 346.727
  },
  {
   "sp": "q",
   "text": "Is anyone trying to make them elsewhere?",
-  "s": 352.744,
-  "e": 354.691
+  "s": 346.927,
+  "e": 348.679
  },
  {
   "sp": "a",
-  "text": "America is. T, S, M, C has pledged one hundred and sixty-five billion dollars for factories in Arizona.",
-  "s": 354.931,
-  "e": 360.758
+  "text": "America is. TSMC has pledged one hundred and sixty-five billion dollars for factories in Arizona.",
+  "s": 348.919,
+  "e": 354.698
  },
  {
   "sp": "a",
   "text": "Its first Arizona factory began making four-nanometre chips at the end of twenty twenty-four.",
-  "s": 360.878,
-  "e": 365.909
+  "s": 354.818,
+  "e": 359.849
  },
  {
   "sp": "a",
   "text": "But in Taiwan, mass production of two-nanometre chips had already begun. The newest chips still come from one island.",
-  "s": 366.029,
-  "e": 371.338
+  "s": 359.969,
+  "e": 365.278
  },
  {
   "sp": "a",
   "text": "So follow your chip back. Quartz from one American town. Light from a gas once made in a war zone. A machine only one Dutch company can build. A blueprint from Cambridge. And a factory on one island, less than a hundred miles from China.",
-  "s": 371.458,
-  "e": 382.672
+  "s": 365.398,
+  "e": 376.612
  },
  {
   "sp": "q",
   "text": "Five places. Five weak links.",
-  "s": 382.872,
-  "e": 384.619
+  "s": 376.812,
+  "e": 378.549
  },
  {
   "sp": "a",
   "text": "And that's exactly why the world's biggest powers are now fighting over them.",
-  "s": 384.859,
-  "e": 388.672
+  "s": 378.789,
+  "e": 382.602
  },
  {
   "sp": "a",
   "text": "Like and subscribe to History Sketches, and tell us in the comments which link you think will break first.",
-  "s": 388.792,
-  "e": 393.727
+  "s": 382.722,
+  "e": 387.657
  }
 ]

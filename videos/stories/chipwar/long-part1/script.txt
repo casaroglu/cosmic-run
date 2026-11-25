@@ -35,7 +35,7 @@ A: Chipmakers learned their lesson. They cut their reliance on Russia and Ukrain
 A: China built new neon plants. South Korea's chipmakers started making their own. And laser makers learned to recycle neon, again and again.
 A: In twenty twenty-two, one supplier said prices rose up to five hundred percent... but not a single chip factory stopped.
 A: Neon lasers can print very small. But for the smallest circuits of all, there is only one kind of light... and only one machine that makes it.
-A: It's built by A, S, M, L, in Veldhoven, in the Netherlands. No other company on Earth can make it.
+A: It's built by ASML, in Veldhoven, in the Netherlands. No other company on Earth can make it.
 Q: What makes it so special?
 A: Inside, a drop of tin, smaller than the width of a hair, falls through a vacuum. A laser hits it once to flatten it, then again to blast it into plasma.
 A: Fifty thousand times every second.
@@ -45,9 +45,9 @@ A: It bounces off mirrors made by Zeiss in Germany. They're so smooth that, if o
 A: The result: circuits thousands of times thinner than a human hair.
 Q: How big is this machine?
 A: Big. Delivering one takes forty shipping containers, twenty trucks and three cargo jets. The newest version costs around four hundred million dollars.
-A: In twenty twenty-five, A, S, M, L shipped forty-eight of them.
+A: In twenty twenty-five, ASML shipped forty-eight of them.
 Q: Who buys them?
-A: More than half of all these machines work for one company in Taiwan: T, S, M, C, the maker of Nvidia's AI chips and Apple's iPhone chips.
+A: More than half of all these machines work for one company in Taiwan: TSMC, the maker of Nvidia's AI chips and Apple's iPhone chips.
 Q: And China?
 A: China has never received one. In twenty nineteen, under pressure from Washington, the Dutch government let China's export licence lapse.
 A: So China has to make its best chips with older machines, printing the same layer several times over.
@@ -57,7 +57,7 @@ Q: How is that even possible?
 A: Arm, from Cambridge, England, sells blueprints for processors. Apple, Qualcomm, Samsung and others license them, then pay a small fee on every chip they build.
 A: Arm-based processors are in over ninety-nine percent of smartphones. More than three hundred billion Arm-based chips have shipped.
 Q: Where did it come from?
-A: In nineteen ninety, the British computer maker Acorn teamed up with Apple and a chip company called V, L, S, I. They started with twelve engineers.
+A: In nineteen ninety, the British computer maker Acorn teamed up with Apple and a chip company called VLSI. They started with twelve engineers.
 Q: And now?
 A: Now it's one of the most fought-over companies in tech.
 A: In twenty sixteen, Japan's SoftBank bought it for twenty-four billion pounds.
@@ -71,17 +71,17 @@ Q: So whoever controls Arm...
 A: ...holds the keys to nearly every phone. Blueprint, light, machine, crystal. Now they all come together on one island.
 A: If Taiwan stopped making chips tomorrow, the world would lose around ninety percent of its most advanced chips.
 Q: Ninety percent? From one island?
-A: Mostly from one company: T, S, M, C, based in Hsinchu.
+A: Mostly from one company: TSMC, based in Hsinchu.
 Q: How did one company get so big?
 A: In nineteen eighty-seven, an engineer named Morris Chang had a strange idea: a factory that makes chips only for other companies.
 A: Back then, chip companies mostly designed and built their own. Chang's idea let anyone with a design skip building a factory.
-A: Apple, Nvidia, A, M, D, Qualcomm... they all became customers. Since twenty twenty-five, Nvidia is the biggest of all.
-A: Today T, S, M, C takes about seventy percent of all the money paid to chip factories worldwide.
+A: Apple, Nvidia, AMD, Qualcomm... they all became customers. Since twenty twenty-five, Nvidia is the biggest of all.
+A: Today TSMC takes about seventy percent of all the money paid to chip factories worldwide.
 Q: And Taiwan sits right next to China.
 A: The Taiwan Strait is only about one hundred and thirty to one hundred and sixty kilometres wide. Less than a hundred miles.
 A: Many people call Taiwan's chips its silicon shield.
 Q: Is anyone trying to make them elsewhere?
-A: America is. T, S, M, C has pledged one hundred and sixty-five billion dollars for factories in Arizona.
+A: America is. TSMC has pledged one hundred and sixty-five billion dollars for factories in Arizona.
 A: Its first Arizona factory began making four-nanometre chips at the end of twenty twenty-four.
 A: But in Taiwan, mass production of two-nanometre chips had already begun. The newest chips still come from one island.
 A: So follow your chip back. Quartz from one American town. Light from a gas once made in a war zone. A machine only one Dutch company can build. A blueprint from Cambridge. And a factory on one island, less than a hundred miles from China.

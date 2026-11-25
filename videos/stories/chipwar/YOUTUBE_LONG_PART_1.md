@@ -1,6 +1,6 @@
 # Chip Wars · Part 1 (long-form)
 
-Video: videos/out/chipwar/long-part1/video.mp4 (1920x1080, 30 fps, 395.9 s)
+Video: videos/out/chipwar/long-part1/video.mp4 (1920x1080, 30 fps, 389.9 s)
 Status: rendered, not uploaded. Thumbnail: not made yet.
 
 ## Title
@@ -13,11 +13,11 @@ The phone in your pocket and the AI you talk to both depend on five places on Ea
 
 0:00 Cold open: five places
 0:19 01 The Quartz: Spruce Pine, USA
-1:25 02 The Gas: Ukraine
-2:36 03 The Machine: Veldhoven, Netherlands
-3:49 04 The Blueprint: Cambridge, UK
-5:02 05 The Island: Taiwan
-6:11 Five weak links
+1:24 02 The Gas: Ukraine
+2:34 03 The Machine: Veldhoven, Netherlands
+3:45 04 The Blueprint: Cambridge, UK
+4:57 05 The Island: Taiwan
+6:05 Five weak links
 
 Every number and date is checked against at least two sources (company reports, USGS, USITC, Reuters, Bloomberg, Tom's Hardware, CNBC, Fortune, IEEE Spectrum and others). Estimates are marked as estimates. Coastlines are approximate; Crimea is shown with Ukraine, the internationally recognised border.
 
