@@ -111,3 +111,5 @@ Voices: Toast `am_liam` +5 st · Pixi `af_bella` 0.95 · The Admin `bm_george` �
 - `scripts/LONG-01_7-nights.md` — first long video.
 - Later: the "Wrong Server" crossover worlds (Snap City, Cubelands, Cape City, Turbo City, Drop Island)
   use the same story engine; each world's physics rule replaces the written rule.
+
+- `scripts/LONG-02_wrong-servers.md` — long video 2 (user story, 2026-11-25): Cape City snap, Cubelands Fuse Box, Turbo City, pause menu "Return to My Universe". Parody worlds only; new character designs inside. Plus three more long outlines (Drop Island, tycoon, obby).
