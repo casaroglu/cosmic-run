@@ -70,7 +70,7 @@ hook_group(0, cue('which', 1, -2))
 add('card', cue('which', 1, 0), cue('why', 1, -2), fig='FIG. 01', lines=['Taiwan'])
 add('dot', cue('one', 2, 0), cue('how', 1, -6), pin=('hsinchu', 0, 0), top=True)
 add('circle', cue('one', 2, 2), cue('why', 1, -2), pin=('hsinchu', 0, 0), rx=70, ry=55, dur=10, top=True)
-add('tag', cue('t', 1, -2), cue('why', 1, -2), text='TSMC', pin=('hsinchu', -250, -40), rot=1.5, size=64)
+add('tag', cue('tsmc', 1, -2), cue('why', 1, -2), text='TSMC', pin=('hsinchu', -250, -40), rot=1.5, size=64)
 add('chip', cue('makes', 1, -2), cue('why', 1, -2), xy=(780, 1180), rot=6, scale=0.8)
 # almost forty years; 1987; only for others
 add('card', cue('why', 1, 0), cue('today', 1, -2), fig='FIG. 02', lines=['Why Here?'])

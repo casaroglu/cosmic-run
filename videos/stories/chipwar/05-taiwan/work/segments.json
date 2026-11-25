@@ -9,72 +9,72 @@
   "sp": "q",
   "text": "Which island?",
   "s": 5.187,
-  "e": 6.078
+  "e": 5.855
  },
  {
   "sp": "a",
-  "text": "Taiwan. And one company there, T, S, M, C, makes them.",
-  "s": 6.318,
-  "e": 9.601
+  "text": "Taiwan. And one company there, TSMC, makes them.",
+  "s": 6.095,
+  "e": 9.187
  },
  {
   "sp": "q",
   "text": "Why not make them somewhere else?",
-  "s": 9.801,
-  "e": 11.346
+  "s": 9.387,
+  "e": 10.63
  },
  {
   "sp": "a",
   "text": "Because it took almost forty years. Morris Chang founded it in nineteen eighty-seven, with one idea: make chips only for others.",
-  "s": 11.586,
-  "e": 17.7
+  "s": 10.87,
+  "e": 16.984
  },
  {
   "sp": "a",
-  "text": "Today Apple and Nvidia design chips, and T, S, M, C builds them. Since twenty twenty-five, Nvidia is its biggest customer.",
-  "s": 17.82,
-  "e": 24.244
+  "text": "Today Apple and Nvidia design chips, and TSMC builds them. Since twenty twenty-five, Nvidia is its biggest customer.",
+  "s": 17.104,
+  "e": 23.424
  },
  {
   "sp": "q",
   "text": "How far is Taiwan from China?",
-  "s": 24.444,
-  "e": 26.199
+  "s": 23.624,
+  "e": 25.106
  },
  {
   "sp": "a",
   "text": "About a hundred and thirty to a hundred and sixty kilometres. Less than a hundred miles.",
-  "s": 26.439,
-  "e": 30.753
+  "s": 25.346,
+  "e": 29.659
  },
  {
   "sp": "a",
   "text": "Many call those chips Taiwan's silicon shield.",
-  "s": 30.873,
-  "e": 33.658
+  "s": 29.779,
+  "e": 32.565
  },
  {
   "sp": "a",
-  "text": "And America got T, S, M, C to pledge a hundred and sixty-five billion dollars for factories in Arizona.",
-  "s": 33.778,
-  "e": 39.761
+  "text": "And America got TSMC to pledge a hundred and sixty-five billion dollars for factories in Arizona.",
+  "s": 32.685,
+  "e": 38.322
  },
  {
   "sp": "a",
   "text": "Like, follow History Sketches, and tell us what we should map next!",
-  "s": 39.881,
-  "e": 43.286
+  "s": 38.442,
+  "e": 41.848
  },
  {
   "sp": "q",
   "text": "So is Arizona making the best chips yet?",
-  "s": 43.486,
-  "e": 45.715
+  "s": 42.048,
+  "e": 43.984
  },
  {
   "sp": "a",
   "text": "Not yet. The most advanced chips still come from one island.",
-  "s": 45.955,
-  "e": 49.171
+  "s": 44.224,
+  "e": 47.44
  }
 ]

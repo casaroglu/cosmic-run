@@ -1,0 +1,7 @@
+chip:                              frames=209 max_dx=50 max_dy=0 min_k=1.00
+note:best chips yet?               frames=14 max_dx=0 max_dy=11 min_k=1.00
+note:one island                    frames=121 max_dx=23 max_dy=12 min_k=1.00
+ransom:$165 BN                     frames=149 max_dx=0 max_dy=0 min_k=0.87
+tag:FOUNDRY REVENUE (Q2 2026)      frames=15 max_dx=0 max_dy=0 min_k=0.94
+tag:MOST ADVANCED CHIPS            frames=125 max_dx=0 max_dy=0 min_k=0.95
+tag:NVIDIA: NO. 1 CUSTOMER         frames=14 max_dx=0 max_dy=0 min_k=0.97
