@@ -52,25 +52,46 @@ export function blocky(E, spec) {
   const M = (c) => E.mat(c), root = E.group(null);
   const LH = 0.62, TH = 0.72, HW = 1.0, HH = 0.88, HD = 0.9;
   const P = { root, spec };
-  P.legs = [-1, 1].map((s) => { const g = E.group(root, [s * 0.2, LH, 0]); E.box(0.36, LH - 0.12, 0.38, M(spec.pants), [0, -LH + 0.12, 0], { parent: g }); E.box(0.38, 0.14, 0.5, M(spec.shoe), [0, -LH, 0.05], { parent: g }); if (spec.sock) E.box(0.37, 0.2, 0.39, M(spec.sock), [0, -LH + 0.12, 0], { parent: g }); return g; });
-  P.torso = E.group(root, [0, LH, 0]);
+  const HL = (LH - 0.12) / 2;
+  P.knees = [];
+  P.legs = [-1, 1].map((s) => { const g = E.group(root, [s * 0.2, LH, 0]); E.box(0.36, HL + 0.02, 0.38, M(spec.pants), [0, -HL, 0], { parent: g });
+    const k = E.group(g, [0, -HL, 0]); P.knees.push(k); E.box(0.35, HL, 0.37, M(spec.pants), [0, -HL, 0], { parent: k }); E.box(0.38, 0.14, 0.5, M(spec.shoe), [0, -HL - 0.12, 0.05], { parent: k }); if (spec.sock) E.box(0.37, 0.2, 0.39, M(spec.sock), [0, -HL, 0], { parent: k }); return g; });
+  P.chest = E.group(root, [0, LH, 0]);
+  P.torso = E.group(P.chest, [0, 0, 0]);
   E.box(0.8, TH, 0.46, M(spec.shirt), [0, 0, 0], { parent: P.torso });
-  P.arms = [-1, 1].map((s) => { const g = E.group(P.torso, [s * 0.54, TH - 0.06, 0]); E.box(0.27, 0.58, 0.3, M(spec.sleeve || spec.shirt), [0, -0.56, 0], { parent: g }); E.box(0.29, 0.07, 0.32, M(spec.cuff || spec.sleeve || spec.shirt), [0, -0.58, 0], { parent: g }); E.box(0.25, 0.17, 0.27, M(spec.skin), [0, -0.74, 0], { parent: g }); return g; });
-  P.head = E.group(P.torso, [0, TH, 0]);
+  P.elbows = [];
+  P.arms = [-1, 1].map((s) => { const g = E.group(P.chest, [s * 0.54, TH - 0.06, 0]); E.box(0.27, 0.36, 0.3, M(spec.sleeve || spec.shirt), [0, -0.34, 0], { parent: g });
+    const e = E.group(g, [0, -0.34, 0]); P.elbows.push(e); E.box(0.26, 0.24, 0.29, M(spec.sleeve || spec.shirt), [0, -0.24, 0], { parent: e }); E.box(0.29, 0.07, 0.32, M(spec.cuff || spec.sleeve || spec.shirt), [0, -0.25, 0], { parent: e }); E.box(0.25, 0.17, 0.27, M(spec.skin), [0, -0.41, 0], { parent: e }); return g; });
+  P.head = E.group(P.chest, [0, TH, 0]);
   E.box(HW, HH, HD, M(spec.skin), [0, 0.02, 0], { parent: P.head });
   P.faces = {}; P.faceMesh = E.plane(HW, HH, M("#ffffff"), [0, 0.02 + HH / 2, HD / 2 + 0.004], { parent: P.head, noShadow: true, noink: true }); P.faceMesh.castShadow = false;
+  // 3D pop-out eyes for shock close-ups (hidden unless pose.eyePop > 0)
+  P.popEyes = [-1, 1].map((s) => { const g = E.group(P.head, [s * 0.2 * HW, 0.02 + HH * 0.53, HD / 2]); E.box(0.26, 0.26, 0.5, M("#ffffff"), [0, -0.13, 0.25], { parent: g, noShadow: true }); E.box(0.14, 0.14, 0.04, M(spec.face.iris || "#3a2a22"), [0, -0.07, 0.5], { parent: g, noShadow: true }); g.visible = false; return g; });
   P.dims = { LH, TH, HW, HH, HD, H: LH + TH + HH };
   if (spec.build) spec.build(P, E, M);
   P.face = (e = "happy") => { if (!P.faces[e]) P.faces[e] = E.mat("#ffffff", { map: tex(512, 450, (g, w, h) => drawFace(g, w, h, spec.face, e)) }); P.faceMesh.material = P.faces[e]; };
   /** pose: {pos, yaw, roll, pitch, lean, armL:[x,z], armR:[x,z], legL, legR, head:[x,y,z], face, scale, y} (radians) */
+  // break-apart sim: each part flies off, bounces on the floor (root-local, ground y = 0)
+  const PARTS = [[P.head, [0, LH + TH, 0], 0.0, [0.6, 7.5, 1.6]], [P.torso, [0, LH, 0], 0.0, [-0.4, 4.5, 0.6]], [P.arms[0], [-0.54, LH + TH - 0.06, 0], 0.6, [-3.4, 6.0, 0.9]], [P.arms[1], [0.54, LH + TH - 0.06, 0], 0.6, [3.0, 6.8, 1.4]], [P.legs[0], [-0.2, LH, 0], 0.5, [-2.2, 3.6, 2.0]], [P.legs[1], [0.2, LH, 0], 0.5, [2.4, 4.2, 2.4]]];
+  const rest = PARTS.map(([g]) => g.position.clone());
+  const sim = (i, n, dir) => { const [, a, floor, v0] = PARTS[i]; let x = 0, y = a[1], z = 0, vx = v0[0] * dir[0], vy = v0[1] * dir[1], vz = v0[2] * dir[2], rx = 0, rz = 0, sx = 7 + i * 1.7, sz = 5 - i * 2.1; const dt = 1 / 30;
+    for (let k = 0; k < n; k++) { vy -= 24 * dt; x += vx * dt; y += vy * dt; z += vz * dt; rx += sx * dt; rz += sz * dt; if (y < floor) { y = floor; vy = Math.abs(vy) > 1.2 ? -vy * 0.48 : 0; vx *= 0.72; vz *= 0.72; sx *= 0.55; sz *= 0.55; if (vy === 0) { sx *= 0.5; sz *= 0.5; } } }
+    return { off: [x, y - a[1], z], rot: [rx, 0, rz] }; };
+  /** pose: {pos, yaw, roll, pitch, lean, armL:[x,z], armR:[x,z], elbowL, elbowR, legL, legR, kneeL, kneeR, head:[x,y,z], face, scale,
+   *  stretch:[sx,sy], eyePop 0..1, burst:{f, back 0..1, dir:[x,y,z]}} (radians) */
   P.pose = (p = {}) => {
-    root.visible = p.visible !== false; const s = p.scale || 1; root.scale.setScalar(s);
+    root.visible = p.visible !== false; const s = p.scale || 1, st = p.stretch || [1, 1]; root.scale.set(s * st[0], s * st[1], s * st[0]);
     root.position.set(...(p.pos || [0, 0, 0])); root.rotation.set(p.pitch || 0, p.yaw || 0, p.roll || 0, "YXZ");
-    P.torso.rotation.set(p.lean || 0, p.twist || 0, p.sway || 0);
+    P.chest.rotation.set(p.lean || 0, p.twist || 0, p.sway || 0); P.torso.rotation.set(0, 0, 0);
     const aL = p.armL || [0, 0], aR = p.armR || [0, 0];
     P.arms[0].rotation.set(aL[0], 0, -(aL[1] || 0)); P.arms[1].rotation.set(aR[0], 0, aR[1] || 0);
+    P.elbows[0].rotation.set(-(p.elbowL || 0), 0, 0); P.elbows[1].rotation.set(-(p.elbowR || 0), 0, 0);
     P.legs[0].rotation.set(p.legL || 0, 0, -(p.legLz || 0)); P.legs[1].rotation.set(p.legR || 0, 0, p.legRz || 0);
-    const h = p.head || [0, 0, 0]; P.head.rotation.set(h[0] || 0, h[1] || 0, h[2] || 0);
+    P.knees[0].rotation.set(p.kneeL || 0, 0, 0); P.knees[1].rotation.set(p.kneeR || 0, 0, 0);
+    const h = p.head || [0, 0, 0]; P.head.rotation.set(h[0] || 0, h[1] || 0, h[2] || 0); const hs = p.headScale || 1; P.head.scale.setScalar(hs);
+    PARTS.forEach(([g], i) => g.position.copy(rest[i]));
+    if (p.burst) { const k = 1 - (p.burst.back || 0), dir = p.burst.dir || [1, 1, 1]; PARTS.forEach(([g], i) => { const r = sim(i, Math.max(0, Math.round(p.burst.f)), dir); g.position.set(rest[i].x + r.off[0] * k, rest[i].y + r.off[1] * k, rest[i].z + r.off[2] * k); g.rotation.set(g.rotation.x * (1 - k) + r.rot[0] * k, g.rotation.y * (1 - k), g.rotation.z * (1 - k) + r.rot[2] * k); }); }
+    const ep = p.eyePop || 0; P.popEyes.forEach((g) => { g.visible = ep > 0.01; g.scale.set(0.8 + ep * 0.2, 0.8 + ep * 0.2, Math.max(0.01, ep * 0.55)); });
     P.face(p.face || "happy");
   };
   P.pose({}); return P;
@@ -97,7 +118,7 @@ export function makeToast(E) {
       for (const s of [-1, 1]) { E.box(0.05, 0.26, 0.04, M("#ffffff"), [s * 0.14, TH - 0.34, 0.24], { parent: P.torso }); E.box(0.07, 0.07, 0.05, M("#ffe14a"), [s * 0.14, TH - 0.38, 0.245], { parent: P.torso }); }
       E.box(0.84, 0.1, 0.5, dark, [0, 0, 0], { parent: P.torso });
       // shoe stripes
-      P.legs.forEach((g) => E.box(0.39, 0.05, 0.3, M("#ff4d4d"), [0, -P.dims.LH + 0.05, 0.1], { parent: g }));
+      P.knees.forEach((g) => E.box(0.39, 0.05, 0.3, M("#ff4d4d"), [0, -0.32, 0.1], { parent: g }));
     },
   });
 }

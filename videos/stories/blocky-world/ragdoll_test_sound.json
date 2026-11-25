@@ -1,0 +1,76 @@
+{
+ "voice": "work/voice.wav",
+ "duration": 7.2,
+ "music": {
+  "style": "mischief",
+  "bpm": 126,
+  "start": 0,
+  "stop": 7.0,
+  "level_db": -17
+ },
+ "sfx": [
+  {
+   "t": 0.15,
+   "kind": "footsteps",
+   "gain_db": -6
+  },
+  {
+   "t": 1.14,
+   "kind": "boing"
+  },
+  {
+   "t": 1.2,
+   "kind": "sting",
+   "gain_db": -5
+  },
+  {
+   "t": 1.8,
+   "kind": "boing",
+   "gain_db": -3
+  },
+  {
+   "t": 2.66,
+   "kind": "crash"
+  },
+  {
+   "t": 2.67,
+   "kind": "impact"
+  },
+  {
+   "t": 2.93,
+   "kind": "stamp",
+   "gain_db": 2
+  },
+  {
+   "t": 2.95,
+   "kind": "thud"
+  },
+  {
+   "t": 3.3,
+   "kind": "thud",
+   "gain_db": -6
+  },
+  {
+   "t": 3.6,
+   "kind": "pop",
+   "gain_db": -4
+  },
+  {
+   "t": 4.27,
+   "kind": "pop"
+  },
+  {
+   "t": 5.0,
+   "kind": "pop",
+   "gain_db": -5
+  },
+  {
+   "t": 5.95,
+   "kind": "magic"
+  },
+  {
+   "t": 6.55,
+   "kind": "ding"
+  }
+ ]
+}
