@@ -1,0 +1,68 @@
+[
+ {
+  "sp": "a",
+  "text": "Smugglers relabelled Nvidia's AI chips with a fake brand name, and shipped them to China!",
+  "s": 0.15,
+  "e": 4.992
+ },
+ {
+  "sp": "q",
+  "text": "Why go to all that trouble?",
+  "s": 5.192,
+  "e": 6.338
+ },
+ {
+  "sp": "a",
+  "text": "Because the best AI chips are banned in China, and demand there is huge.",
+  "s": 6.578,
+  "e": 10.463
+ },
+ {
+  "sp": "a",
+  "text": "In one case, at least a hundred and sixty million dollars' worth went through, declared as ordinary computer parts. The organiser pleaded guilty.",
+  "s": 10.583,
+  "e": 17.463
+ },
+ {
+  "sp": "q",
+  "text": "How did they get them out?",
+  "s": 17.663,
+  "e": 18.699
+ },
+ {
+  "sp": "a",
+  "text": "Through South-East Asia. Another case caught supercomputers packed with Nvidia chips on the way.",
+  "s": 18.939,
+  "e": 23.744
+ },
+ {
+  "sp": "q",
+  "text": "Anything bigger?",
+  "s": 23.944,
+  "e": 24.689
+ },
+ {
+  "sp": "a",
+  "text": "In March twenty twenty-six, a co-founder of Supermicro was arrested. Prosecutors allege two and a half billion dollars of servers, and dummy machines to fool inspectors.",
+  "s": 24.929,
+  "e": 33.211
+ },
+ {
+  "sp": "a",
+  "text": "One co-defendant has pleaded guilty. The co-founder has pleaded not guilty.",
+  "s": 33.331,
+  "e": 37.613
+ },
+ {
+  "sp": "a",
+  "text": "Like, follow History Sketches, and tell us what we should map next!",
+  "s": 37.733,
+  "e": 41.138
+ },
+ {
+  "sp": "a",
+  "text": "And every new ban creates a new route... and a new fake brand.",
+  "s": 41.258,
+  "e": 44.71
+ }
+]

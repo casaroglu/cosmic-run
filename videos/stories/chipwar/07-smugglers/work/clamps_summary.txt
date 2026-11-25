@@ -1,0 +1,7 @@
+ransom:$160M+                      frames=93 max_dx=0 max_dy=0 min_k=0.88
+ransom:$2.5 BN                     frames=29 max_dx=0 max_dy=0 min_k=0.85
+ransom:FAKE BRAND                  frames=279 max_dx=0 max_dy=0 min_k=0.76
+tag:$160M+ · GUILTY PLEA (OCT 2025) frames=15 max_dx=0 max_dy=0 min_k=0.86
+tag:NVIDIA INSIDE                  frames=46 max_dx=117 max_dy=0 min_k=1.00
+tag:OPERATION GATEKEEPER           frames=15 max_dx=0 max_dy=0 min_k=0.97
+tag:SUPERMICRO CO-FOUNDER          frames=61 max_dx=0 max_dy=0 min_k=0.98
