@@ -1,7 +1,7 @@
 # Chip Wars · Part 2 (long-form)
 
 Video: videos/out/chipwar/long-part2/video.mp4 (1920x1080, 30 fps, 366.2 s)
-Status: rendered, not uploaded. Thumbnail: not made yet. Re-check before upload: Nvidia H200 shipments to China; China's pause of the gallium/germanium ban on the US (now to 27 Jan 2027).
+Status: scheduled (2026-11-28 18:00 Europe/Istanbul) — https://youtu.be/Wjy7VjmlSWc, uploaded 2026-11-26. Thumbnail: videos/out/chipwar/_covers/long-part2.jpg. Re-checked 2026-11-26: the narration's H200 line only states the Dec 2025 approval (still true); China extended the gallium/germanium/antimony pause to 27 Jan 2027 (TechTimes 25 Nov 2026, IBTimes), so 'paused... for now' holds. [Earlier note: rendered, not uploaded. Thumbnail: not made yet. Re-check before upload: Nvidia H200 shipments to China; China's pause of the gallium/germanium ban on the US (now to 27 Jan 2027).]
 
 ## Title
 The Chip War: 5 Moves That Shook the World
