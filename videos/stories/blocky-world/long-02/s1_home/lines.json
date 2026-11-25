@@ -1,0 +1,12 @@
+[["toast", "Night eight. Of forever.", 2, 0.6],
+ ["toast", "Pixi. I want one night off. Just one.", 4, 0.3],
+ ["pixi", "Ask The Admin.", 4, "after+0.4"],
+ ["toast", "I am not asking The Admin.", 5, 0.6],
+ ["toast", "Sock. Tooth. Duck.", 6, 0.6],
+ ["toast", "Ooh.", 6, "after+0.7"],
+ ["pixi", "Don't.", 8, 0.5],
+ ["toast", "I'm not touching it. I'm holding it.", 8, "after+0.4"],
+ ["toast", "It's a remote. Maybe it changes the channel. Maybe there's a channel with no mop.", 10, 0.5],
+ ["pixi", "Toast.", 12, 1.0],
+ ["toast", "It's doing something! Is it doing the right something?", 15, 0.4],
+ ["toast", "I regret holding it!", 17, 0.3]]

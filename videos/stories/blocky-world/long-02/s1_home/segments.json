@@ -1,0 +1,86 @@
+[
+ {
+  "sp": "toast",
+  "text": "Night eight. Of forever.",
+  "shot": 2,
+  "s": 3.6,
+  "e": 5.868
+ },
+ {
+  "sp": "toast",
+  "text": "Pixi. I want one night off. Just one.",
+  "shot": 4,
+  "s": 8.3,
+  "e": 10.92
+ },
+ {
+  "sp": "pixi",
+  "text": "Ask The Admin.",
+  "shot": 4,
+  "s": 11.32,
+  "e": 13.941
+ },
+ {
+  "sp": "toast",
+  "text": "I am not asking The Admin.",
+  "shot": 5,
+  "s": 14.841,
+  "e": 16.652
+ },
+ {
+  "sp": "toast",
+  "text": "Sock. Tooth. Duck.",
+  "shot": 6,
+  "s": 17.841,
+  "e": 19.797
+ },
+ {
+  "sp": "toast",
+  "text": "Ooh.",
+  "shot": 6,
+  "s": 20.497,
+  "e": 21.325
+ },
+ {
+  "sp": "pixi",
+  "text": "Don't.",
+  "shot": 8,
+  "s": 24.125,
+  "e": 27.43
+ },
+ {
+  "sp": "toast",
+  "text": "I'm not touching it. I'm holding it.",
+  "shot": 8,
+  "s": 27.83,
+  "e": 29.95
+ },
+ {
+  "sp": "toast",
+  "text": "It's a remote. Maybe it changes the channel. Maybe there's a channel with no mop.",
+  "shot": 10,
+  "s": 33.15,
+  "e": 38.095
+ },
+ {
+  "sp": "pixi",
+  "text": "Toast.",
+  "shot": 12,
+  "s": 42.65,
+  "e": 43.712
+ },
+ {
+  "sp": "toast",
+  "text": "It's doing something! Is it doing the right something?",
+  "shot": 15,
+  "s": 48.85,
+  "e": 52.123
+ },
+ {
+  "sp": "toast",
+  "text": "I regret holding it!",
+  "shot": 17,
+  "s": 54.723,
+  "e": 55.943
+ }
+]
