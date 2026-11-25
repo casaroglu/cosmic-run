@@ -1,0 +1,27 @@
+# Sound sources (all CC0 1.0, Freesound, licence checked on each sound page 2026-11-25)
+
+Local copies: `~/cizgi/blocky-world/work/fs/<id>.mp3` (HQ previews). URL: https://freesound.org/s/<id>/
+
+| id | Title | Author | Candidate for |
+| --- | --- | --- | --- |
+| 697900 | Goofy Laugh.wav | akapastels | Toast laugh 1 |
+| 731882 | Wacky Laugh | BlockFrog | Toast laugh 2 |
+| 671083 | Goofy Man Laughter.wav | NdurusSounds | Toast laugh 3 |
+| 697530 | Clown Laugh | riippumattog | Toast laugh 4 |
+| 513983 | Very Cute Cartoon Laughter | NicknameLarry | Toast laugh 5 |
+| 463817 | Chipmunk Laugh.mp3 | se2001 | Toast laugh 6 |
+| 198263 | Laughter 14 | unfa | Pixi laugh |
+| 166150 | Laugh_old_man_6.wav | deleted_user_2104797 | Donutsaurus 4 |
+| 522132 | Evil demonic laugh | amnesia12 | Donutsaurus 5 |
+| 447921 | Alien cackle | Breviceps | Donutsaurus 6 |
+| 205751 | Imp Laugh | scorpion67890 | Donutsaurus 7 |
+| 463721 | Burp Monster Zombie groan moan | EricsSoundschmiede | Donutsaurus 8 |
+| 142932 | Burp_monster.wav | Framefive | Donutsaurus 9 |
+| 214451 | Loud Burp | AquaChannel | Donutsaurus 10 |
+| 570266 | The Best Burp Sample On The Internet | scooterfort | Donutsaurus 11 |
+
+Donutsaurus 1-3 (tuba, squeaky toy, clown horn laughs) are synthesised in `laugh_samples.py`.
+
+## Voices chosen 2026-11-25
+Toast = B (Kokoro am_liam, +5 st) · Pixi = A (af_bella, 0.95) · The Admin = A (bm_george, -4 st, reverb).
+Donutsaurus sound and laughs: waiting for the user's pick.
