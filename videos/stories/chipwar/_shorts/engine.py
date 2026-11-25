@@ -7,10 +7,11 @@ import json, math, os, random, subprocess, sys, wave
 from multiprocessing import Pool
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'style_test'))
 import stills as S
-S.W, S.H = 1080, 1920
+LANDSCAPE = os.environ.get('CW_ORIENT', 'v') == 'h'   # 'h': 1920x1080 long-form; default: 1080x1920 Shorts
+S.W, S.H = (1920, 1080) if LANDSCAPE else (1080, 1920)
 from stills import *                         # noqa: F401,F403
 FPS = 30
-FX, FY = 490, 820
+FX, FY = (960, 540) if LANDSCAPE else (490, 820)
 SWEEP = 16
 E, MOVES, LABELS, PAINT = [], [], [], {}
 WORK = OUTDIR = None; WORDS = []; NFR = 0; END = 0; START = None
@@ -202,7 +203,7 @@ def logo():
     m = Image.new('L', (92, 92), 0); ImageDraw.Draw(m).ellipse((0, 0, 91, 91), fill=255)
     out = Image.new('RGBA', (100, 100), (0, 0, 0, 0)); ImageDraw.Draw(out).ellipse((0, 0, 99, 99), fill=INK + (255,)); out.paste(lg, (4, 4), m)
     return out
-LOGO_XY = (W - 100 - 40, 170)          # top right, clear of the Shorts buttons (right column, lower half) and the caption block
+LOGO_XY = (W - 100 - 36, 34) if LANDSCAPE else (W - 100 - 40, 170)          # top right, clear of the Shorts buttons (right column, lower half) and the caption block
 
 def sheet_img(text, age):
     sh = Image.new('RGBA', (880, 190), BEIGE + (255,)); d = ImageDraw.Draw(sh); fnt = f_casbold(50)
@@ -399,13 +400,14 @@ def main():
     elif mode == 'sheet':
         fr = [int(a) for a in sys.argv[2:]] or [30] + [int(NFR * k / 11) for k in range(1, 11)] + [NFR - 14]
         with Pool(8) as pool: ims = pool.map(render, fr)
-        tw, th = 360, 640
-        sh = Image.new('RGB', (6 * tw, 2 * (th + 30)), BOARD); d = ImageDraw.Draw(sh)
+        tw, th = (480, 270) if LANDSCAPE else (360, 640); per = 4 if LANDSCAPE else 6; rows = (len(fr) + per - 1) // per
+        sh = Image.new('RGB', (per * tw, rows * (th + 30)), BOARD); d = ImageDraw.Draw(sh)
         for i, (f, a) in enumerate(zip(fr, ims)):
-            x, y = (i % 6) * tw, (i // 6) * (th + 30)
+            x, y = (i % per) * tw, (i // per) * (th + 30)
             t = Image.fromarray(a).resize((tw, th), Image.LANCZOS); dt = ImageDraw.Draw(t)
-            dt.rectangle((0, int(1540 * th / H), tw - 1, th - 1), outline=(200, 40, 40), width=1)          # Shorts UI zones
-            dt.rectangle((int(940 * tw / W), int(800 * th / H), tw - 1, th - 1), outline=(200, 40, 40), width=1)
+            if not LANDSCAPE:          # Shorts UI zones
+                dt.rectangle((0, int(1540 * th / H), tw - 1, th - 1), outline=(200, 40, 40), width=1)
+                dt.rectangle((int(940 * tw / W), int(800 * th / H), tw - 1, th - 1), outline=(200, 40, 40), width=1)
             sh.paste(t, (x, y + 30)); d.text((x + 8, y + 6), f'f{f}  {f / FPS:.2f}s', fill=INK, font=f_type(20))
         sh.save(os.path.join(WORK, 'contact_sheet.jpg'), quality=88); print('sheet', fr, 'NFR', NFR)
     elif mode == 'video':

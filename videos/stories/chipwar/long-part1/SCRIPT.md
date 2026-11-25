@@ -1,0 +1,117 @@
+# Chip Wars · Long Part 1 — "5 Places Every Chip on Earth Depends On"
+
+16:9, 1920x1080, ~8 min. ONE continuous map: the camera never cuts, it flies from chapter to chapter
+(Spruce Pine → Ukraine → Veldhoven → Cambridge → Hsinchu → wide world). Chapters are FIG. 01-05 title cards, not cuts.
+Built from the five Part 1 Shorts (01, 02, 03, 04, 05): same props, pieces and facts, plus extra facts that didn't fit a Short,
+and a bridge line between chapters so the story flows as one chain: quartz → light/gas → machine → blueprint → island.
+No Short CTAs, hooks or loop lines inside; one CTA at the very end.
+Voices: Q = af_sky, A = bm_fable, same fast settings as the Shorts.
+⟨verify⟩ = new claim not yet double-sourced in the Shorts' FACTS.md; verify or reword before voicing.
+
+YouTube title idea: **5 Places Every Chip on Earth Depends On** (alt: *Break One Link and the AI Boom Stops*)
+
+---
+
+## COLD OPEN (wide world, five pins pulse one by one, chained together)
+- A: The phone in your pocket. The AI you talk to. The car you drive. Every one of them depends on five places on Earth.
+- Q: Five places? That's all?
+- A: Five chokepoints. A small town in America. Two factories in a war zone. One Dutch machine. One British company. And one island.
+- A: Break any one of them, and the whole tech world feels it.
+- Q: Then let's follow a chip all the way back to where it starts.
+- A: It starts... with sand. Well, very special sand.
+
+## FIG. 01 · THE QUARTZ (fly to Spruce Pine, NC)
+- A: Every chip is cut from a near-perfect crystal of silicon.
+- A: To grow that crystal, factories melt silicon at over fourteen hundred degrees, inside a bowl made of quartz.
+- Q: Why does the bowl matter?
+- A: At that heat, the bowl touches the molten silicon. If the quartz has impurities, they leak in, and the crystal is ruined.
+- A: So chipmakers need quartz that is almost perfectly pure. And most of it comes from here: Spruce Pine, North Carolina.
+- A: Analysts estimate this one mountain town supplies around eighty percent of the world's high-purity quartz.
+- Q: Who digs it up?
+- A: Only two companies: Sibelco, from Belgium, and The Quartz Corp.
+- Q: Has anything ever gone wrong?
+- A: On the twenty-seventh of September twenty twenty-four, Hurricane Helene hit. Roads, railways and power lines were cut. Both mines shut down.
+- A: The whole chip industry was suddenly watching one flooded valley.
+- A: Sibelco restarted about two weeks later. The Quartz Corp came back in phases.
+- Q: Can't they find quartz somewhere else?
+- A: There are deposits in Brazil, Russia and China, and quartz can even be made synthetically. But nothing matches Spruce Pine's purity at scale... yet.
+- A: So the crystal is grown. But a crystal is just a blank. To draw circuits on it, you need light.
+
+## FIG. 02 · THE GAS (fly across the Atlantic to the Black Sea)
+- Q: Light? How do you draw with light?
+- A: A chipmaking machine shines a laser through a stencil onto the silicon. The light prints the circuit, a bit like a photograph.
+- A: Most of those lasers run on a gas mixture that is mostly neon. ⟨verify⟩
+- Q: Neon, like the signs?
+- A: Same gas. And before twenty twenty-two, about half the world's chip-grade neon came from Ukraine.
+- Q: Why Ukraine?
+- A: Neon is a by-product of steel making. The Soviet Union built giant air-separation plants at its steel mills, and they captured neon.
+- A: After the Soviet Union fell, two Ukrainian companies purified it: one in Odesa, one in Mariupol.
+- Q: Mariupol... the city that was besieged.
+- A: Yes. When Russia invaded in February twenty twenty-two, both plants stopped.
+- Q: Did the chip factories stop too?
+- A: No! Because it had happened before. When Russia seized Crimea in twenty fourteen, neon prices jumped six hundred percent.
+- A: Chipmakers learned their lesson. They cut their reliance on Russia and Ukraine from most of their neon to under a third.
+- A: China built new neon plants. South Korea's chipmakers started making their own. And laser makers learned to recycle neon, again and again.
+- A: In twenty twenty-two, one supplier said prices rose up to five hundred percent... but not a single chip factory stopped.
+- A: Neon lasers can print very small. But for the smallest circuits of all, there is only one kind of light... and only one machine that makes it.
+
+## FIG. 03 · THE MACHINE (fly west to Veldhoven; Netherlands paints + lifts, 3D machine turns)
+- A: It's built by A, S, M, L, in Veldhoven, in the Netherlands. No other company on Earth can make it.
+- Q: What makes it so special?
+- A: Inside, a drop of tin, smaller than the width of a hair, falls through a vacuum. A laser hits it once to flatten it, then again to blast it into plasma.
+- A: Fifty thousand times every second.
+- A: Each flash is hotter than the surface of the Sun, and gives off extreme ultraviolet light.
+- Q: And that light prints the chip?
+- A: It bounces off mirrors made by Zeiss in Germany. They're so smooth that, if one were blown up to the size of Germany, its biggest bump would be a tenth of a millimetre.
+- A: The result: circuits thousands of times thinner than a human hair.
+- Q: How big is this machine?
+- A: Big. Delivering one takes forty shipping containers, twenty trucks and three cargo jets. The newest version costs around four hundred million dollars.
+- A: In twenty twenty-five, A, S, M, L shipped forty-eight of them.
+- Q: Who buys them?
+- A: More than half of all these machines work for one company in Taiwan: T, S, M, C, the maker of Nvidia's AI chips and Apple's iPhone chips. ⟨verify: Apple⟩
+- Q: And China?
+- A: China has never received one. In twenty nineteen, under pressure from Washington, the Dutch government let China's export licence lapse.
+- A: So China has to make its best chips with older machines, printing the same layer several times over.
+- A: The machine can print anything. But what it prints, the blueprint, often comes from somewhere else entirely.
+
+## FIG. 04 · THE BLUEPRINT (short hop across the North Sea to Cambridge)
+- A: Look at the phone in your hand. Its brain was almost certainly designed by a company that has never made a single chip.
+- Q: How is that even possible?
+- A: Arm, from Cambridge, England, sells blueprints for processors. Apple, Qualcomm, Samsung and others license them, then pay a small fee on every chip they build.
+- A: Arm-based processors are in over ninety-nine percent of smartphones. More than three hundred billion Arm-based chips have shipped.
+- Q: Where did it come from?
+- A: In nineteen ninety, the British computer maker Acorn teamed up with Apple and a chip company called VLSI. They started with twelve engineers.
+- Q: And now?
+- A: Now it's one of the most fought-over companies in tech.
+- A: In twenty sixteen, Japan's SoftBank bought it for twenty-four billion pounds.
+- A: In twenty twenty, Nvidia offered forty billion dollars for it.
+- Q: Why didn't that happen?
+- A: Regulators in America, Britain and Europe worried Nvidia would control the blueprints its own rivals depend on. The deal collapsed in February twenty twenty-two.
+- A: SoftBank kept Nvidia's one-and-a-quarter-billion-dollar down payment.
+- A: A year and a half later, Arm went public in New York, valued at around fifty-four billion dollars.
+- A: And in twenty twenty-five, reports said Arm planned to raise its prices by up to three hundred percent over time.
+- Q: So whoever controls Arm...
+- A: ...holds the keys to nearly every phone. Blueprint, light, machine, crystal. Now they all come together on one island.
+
+## FIG. 05 · THE ISLAND (long flight east to Taiwan; Taiwan paints + lifts; Strait dimension line)
+- A: If Taiwan stopped making chips tomorrow, the world would lose around ninety percent of its most advanced chips.
+- Q: Ninety percent? From one island?
+- A: Mostly from one company: T, S, M, C, based in Hsinchu.
+- Q: How did one company get so big?
+- A: In nineteen eighty-seven, an engineer named Morris Chang had a strange idea: a factory that makes chips only for other companies.
+- A: Back then, chip companies mostly designed and built their own. Chang's idea let anyone with a design skip building a factory. ⟨verify⟩
+- A: Apple, Nvidia, AMD, Qualcomm... they all became customers. Since twenty twenty-five, Nvidia is the biggest of all. ⟨verify: AMD, Qualcomm⟩
+- A: Today T, S, M, C takes about seventy percent of all the money paid to chip factories worldwide.
+- Q: And Taiwan sits right next to China.
+- A: The Taiwan Strait is only about one hundred and thirty to one hundred and sixty kilometres wide. Less than a hundred miles.
+- A: Many people call Taiwan's chips its silicon shield.
+- Q: Is anyone trying to make them elsewhere?
+- A: America is. T, S, M, C has pledged one hundred and sixty-five billion dollars for factories in Arizona.
+- A: Its first Arizona factory began making four-nanometre chips at the end of twenty twenty-four.
+- A: But in Taiwan, mass production of two-nanometre chips had already begun. The newest chips still come from one island.
+
+## OUTRO (pull out WIDE: the five pins light up again, a marker chain links them; ransom "5 WEAK LINKS")
+- A: So follow your chip back. Quartz from one American town. Light from a gas once made in a war zone. A machine only one Dutch company can build. A blueprint from Cambridge. And a factory on one island, a hundred miles from China.
+- Q: Five places. Five weak links.
+- A: And that's exactly why the world's biggest powers are now fighting over them.
+- A: Like and subscribe to History Sketches, and tell us in the comments which link you think will break first.

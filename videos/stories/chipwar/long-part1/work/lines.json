@@ -1,0 +1,362 @@
+[
+ [
+  "a",
+  "The phone in your pocket. The AI you talk to. Both depend on five places on Earth."
+ ],
+ [
+  "q",
+  "Five places? That's all?"
+ ],
+ [
+  "a",
+  "Five chokepoints. A small town in America. Two factories in a war zone. One Dutch machine. One British company. And one island."
+ ],
+ [
+  "a",
+  "Break any one of them, and the whole tech world feels it."
+ ],
+ [
+  "q",
+  "Then let's follow a chip all the way back to where it starts."
+ ],
+ [
+  "a",
+  "It starts... with sand. Well, very special sand."
+ ],
+ [
+  "a",
+  "Almost every chip is cut from a near-perfect crystal of silicon."
+ ],
+ [
+  "a",
+  "To grow that crystal, factories melt silicon at over fourteen hundred degrees, inside a bowl made of quartz."
+ ],
+ [
+  "q",
+  "Why does the bowl matter?"
+ ],
+ [
+  "a",
+  "At that heat, the bowl touches the molten silicon. If the quartz has impurities, they leak in, and the crystal is ruined."
+ ],
+ [
+  "a",
+  "So chipmakers need quartz that is almost perfectly pure. And most of it comes from here: Spruce Pine, North Carolina."
+ ],
+ [
+  "a",
+  "Analysts estimate this one mountain town supplies around eighty percent of the world's high-purity quartz."
+ ],
+ [
+  "q",
+  "Who digs it up?"
+ ],
+ [
+  "a",
+  "Only two companies: Sibelco, from Belgium, and The Quartz Corp."
+ ],
+ [
+  "q",
+  "Has anything ever gone wrong?"
+ ],
+ [
+  "a",
+  "On the twenty-seventh of September, twenty twenty-four, Hurricane Helene hit. Roads, railways and power lines were cut. Both mines shut down."
+ ],
+ [
+  "a",
+  "The whole chip industry was suddenly watching one flooded valley."
+ ],
+ [
+  "a",
+  "Sibelco restarted about two weeks later. The Quartz Corp took longer."
+ ],
+ [
+  "q",
+  "Can't they find quartz somewhere else?"
+ ],
+ [
+  "a",
+  "There are deposits in Brazil, Russia and China, and quartz can even be made synthetically. But nothing matches Spruce Pine's purity at scale... yet."
+ ],
+ [
+  "a",
+  "So the crystal is grown. But a crystal is just a blank. To draw circuits on it, you need light."
+ ],
+ [
+  "q",
+  "Light? How do you draw with light?"
+ ],
+ [
+  "a",
+  "A chipmaking machine shines a laser through a stencil onto the silicon. The light prints the circuit, a bit like a photograph."
+ ],
+ [
+  "a",
+  "Most of those lasers run on a gas mixture that is mostly neon."
+ ],
+ [
+  "q",
+  "Neon, like the signs?"
+ ],
+ [
+  "a",
+  "Same gas. And before twenty twenty-two, about half the world's chip-grade neon came from Ukraine."
+ ],
+ [
+  "q",
+  "Why Ukraine?"
+ ],
+ [
+  "a",
+  "Neon is a by-product of steel making. The Soviet Union built giant air-separation plants at its steel mills, and they captured neon."
+ ],
+ [
+  "a",
+  "After the Soviet Union fell, two Ukrainian companies purified it: one in Odesa, one in Mariupol."
+ ],
+ [
+  "q",
+  "Mariupol... the city that was besieged."
+ ],
+ [
+  "a",
+  "Yes. When Russia invaded in February twenty twenty-two, both plants stopped."
+ ],
+ [
+  "q",
+  "Did the chip factories stop too?"
+ ],
+ [
+  "a",
+  "No! Because it had happened before. When Russia seized Crimea in twenty fourteen, neon prices jumped six hundred percent."
+ ],
+ [
+  "a",
+  "Chipmakers learned their lesson. They cut their reliance on Russia and Ukraine from most of their neon to under a third."
+ ],
+ [
+  "a",
+  "China built new neon plants. South Korea's chipmakers started making their own. And laser makers learned to recycle neon, again and again."
+ ],
+ [
+  "a",
+  "In twenty twenty-two, one supplier said prices rose up to five hundred percent... but not a single chip factory stopped."
+ ],
+ [
+  "a",
+  "Neon lasers can print very small. But for the smallest circuits of all, there is only one kind of light... and only one machine that makes it."
+ ],
+ [
+  "a",
+  "It's built by A, S, M, L, in Veldhoven, in the Netherlands. No other company on Earth can make it."
+ ],
+ [
+  "q",
+  "What makes it so special?"
+ ],
+ [
+  "a",
+  "Inside, a drop of tin, smaller than the width of a hair, falls through a vacuum. A laser hits it once to flatten it, then again to blast it into plasma."
+ ],
+ [
+  "a",
+  "Fifty thousand times every second."
+ ],
+ [
+  "a",
+  "Each flash is hotter than the surface of the Sun, and gives off extreme ultraviolet light."
+ ],
+ [
+  "q",
+  "And that light prints the chip?"
+ ],
+ [
+  "a",
+  "It bounces off mirrors made by Zeiss in Germany. They're so smooth that, if one were blown up to the size of Germany, its biggest bump would be a tenth of a millimetre."
+ ],
+ [
+  "a",
+  "The result: circuits thousands of times thinner than a human hair."
+ ],
+ [
+  "q",
+  "How big is this machine?"
+ ],
+ [
+  "a",
+  "Big. Delivering one takes forty shipping containers, twenty trucks and three cargo jets. The newest version costs around four hundred million dollars."
+ ],
+ [
+  "a",
+  "In twenty twenty-five, A, S, M, L shipped forty-eight of them."
+ ],
+ [
+  "q",
+  "Who buys them?"
+ ],
+ [
+  "a",
+  "More than half of all these machines work for one company in Taiwan: T, S, M, C, the maker of Nvidia's AI chips and Apple's iPhone chips."
+ ],
+ [
+  "q",
+  "And China?"
+ ],
+ [
+  "a",
+  "China has never received one. In twenty nineteen, under pressure from Washington, the Dutch government let China's export licence lapse."
+ ],
+ [
+  "a",
+  "So China has to make its best chips with older machines, printing the same layer several times over."
+ ],
+ [
+  "a",
+  "The machine can print anything. But what it prints, the blueprint, often comes from somewhere else entirely."
+ ],
+ [
+  "a",
+  "Look at the phone in your hand. Its brain almost certainly runs on a design from a company that has never made a single chip."
+ ],
+ [
+  "q",
+  "How is that even possible?"
+ ],
+ [
+  "a",
+  "Arm, from Cambridge, England, sells blueprints for processors. Apple, Qualcomm, Samsung and others license them, then pay a small fee on every chip they build."
+ ],
+ [
+  "a",
+  "Arm-based processors are in over ninety-nine percent of smartphones. More than three hundred billion Arm-based chips have shipped."
+ ],
+ [
+  "q",
+  "Where did it come from?"
+ ],
+ [
+  "a",
+  "In nineteen ninety, the British computer maker Acorn teamed up with Apple and a chip company called V, L, S, I. They started with twelve engineers."
+ ],
+ [
+  "q",
+  "And now?"
+ ],
+ [
+  "a",
+  "Now it's one of the most fought-over companies in tech."
+ ],
+ [
+  "a",
+  "In twenty sixteen, Japan's SoftBank bought it for twenty-four billion pounds."
+ ],
+ [
+  "a",
+  "In twenty twenty, Nvidia offered forty billion dollars for it."
+ ],
+ [
+  "q",
+  "Why didn't that happen?"
+ ],
+ [
+  "a",
+  "Regulators in America, Britain and Europe worried Nvidia would control the blueprints its own rivals depend on. The deal collapsed in February twenty twenty-two."
+ ],
+ [
+  "a",
+  "SoftBank kept Nvidia's one-and-a-quarter-billion-dollar down payment."
+ ],
+ [
+  "a",
+  "A year and a half later, Arm went public in New York, valued at around fifty-four billion dollars."
+ ],
+ [
+  "a",
+  "And in twenty twenty-five, reports said Arm planned to raise its prices by up to three hundred percent over time."
+ ],
+ [
+  "q",
+  "So whoever controls Arm..."
+ ],
+ [
+  "a",
+  "...holds the keys to nearly every phone. Blueprint, light, machine, crystal. Now they all come together on one island."
+ ],
+ [
+  "a",
+  "If Taiwan stopped making chips tomorrow, the world would lose around ninety percent of its most advanced chips."
+ ],
+ [
+  "q",
+  "Ninety percent? From one island?"
+ ],
+ [
+  "a",
+  "Mostly from one company: T, S, M, C, based in Hsinchu."
+ ],
+ [
+  "q",
+  "How did one company get so big?"
+ ],
+ [
+  "a",
+  "In nineteen eighty-seven, an engineer named Morris Chang had a strange idea: a factory that makes chips only for other companies."
+ ],
+ [
+  "a",
+  "Back then, chip companies mostly designed and built their own. Chang's idea let anyone with a design skip building a factory."
+ ],
+ [
+  "a",
+  "Apple, Nvidia, A, M, D, Qualcomm... they all became customers. Since twenty twenty-five, Nvidia is the biggest of all."
+ ],
+ [
+  "a",
+  "Today T, S, M, C takes about seventy percent of all the money paid to chip factories worldwide."
+ ],
+ [
+  "q",
+  "And Taiwan sits right next to China."
+ ],
+ [
+  "a",
+  "The Taiwan Strait is only about one hundred and thirty to one hundred and sixty kilometres wide. Less than a hundred miles."
+ ],
+ [
+  "a",
+  "Many people call Taiwan's chips its silicon shield."
+ ],
+ [
+  "q",
+  "Is anyone trying to make them elsewhere?"
+ ],
+ [
+  "a",
+  "America is. T, S, M, C has pledged one hundred and sixty-five billion dollars for factories in Arizona."
+ ],
+ [
+  "a",
+  "Its first Arizona factory began making four-nanometre chips at the end of twenty twenty-four."
+ ],
+ [
+  "a",
+  "But in Taiwan, mass production of two-nanometre chips had already begun. The newest chips still come from one island."
+ ],
+ [
+  "a",
+  "So follow your chip back. Quartz from one American town. Light from a gas once made in a war zone. A machine only one Dutch company can build. A blueprint from Cambridge. And a factory on one island, less than a hundred miles from China."
+ ],
+ [
+  "q",
+  "Five places. Five weak links."
+ ],
+ [
+  "a",
+  "And that's exactly why the world's biggest powers are now fighting over them."
+ ],
+ [
+  "a",
+  "Like and subscribe to History Sketches, and tell us in the comments which link you think will break first."
+ ]
+]
