@@ -4,104 +4,104 @@
   "text": "In this world...",
   "shot": 1,
   "s": 0.25,
-  "e": 2.08
+  "e": 1.41
  },
  {
   "sp": "toast",
   "text": "we only walk when it snores.",
   "shot": 2,
-  "s": 2.68,
-  "e": 4.558
+  "s": 2.01,
+  "e": 3.888
  },
  {
   "sp": "toast",
   "text": "Snore. We walk.",
   "shot": 3,
-  "s": 5.63,
-  "e": 7.385
+  "s": 4.96,
+  "e": 6.715
  },
  {
   "sp": "toast",
   "text": "Silence. We freeze.",
   "shot": 4,
-  "s": 8.28,
-  "e": 10.557
+  "s": 7.61,
+  "e": 9.338
  },
  {
   "sp": "toast",
   "text": "Every single time.",
   "shot": 5,
-  "s": 11.207,
-  "e": 12.89
+  "s": 9.988,
+  "e": 11.181
  },
  {
   "sp": "toast",
   "text": "Or the tail finds you.",
   "shot": 6,
-  "s": 13.607,
-  "e": 15.026
+  "s": 12.388,
+  "e": 13.806
  },
  {
   "sp": "toast",
   "text": "And his snores keep getting shorter.",
   "shot": 7,
-  "s": 16.107,
-  "e": 18.151
+  "s": 14.888,
+  "e": 16.931
  },
  {
   "sp": "toast",
   "text": "We'll be here all day.",
   "shot": 8,
-  "s": 19.107,
-  "e": 20.618
+  "s": 17.888,
+  "e": 19.398
  },
  {
   "sp": "pixi",
   "text": "Don't.",
   "shot": 8,
-  "s": 20.968,
-  "e": 22.765
+  "s": 19.748,
+  "e": 20.432
  },
  {
   "sp": "toast",
   "text": "It says walk. I'm rolling.",
   "shot": 9,
-  "s": 23.615,
-  "e": 25.966
+  "s": 21.282,
+  "e": 23.634
  },
  {
   "sp": "toast",
   "text": "I froze. The board didn't.",
   "shot": 12,
-  "s": 30.516,
-  "e": 32.776
+  "s": 28.184,
+  "e": 30.443
  },
  {
   "sp": "pixi",
-  "text": "Small print.",
+  "text": "Small print, Toast.",
   "shot": 15,
-  "s": 36.926,
-  "e": 37.839
+  "s": 34.593,
+  "e": 36.403
  },
  {
   "sp": "pixi",
   "text": "He's not a monster. He's a puppy.",
   "shot": 16,
-  "s": 39.626,
-  "e": 42.109
+  "s": 37.293,
+  "e": 39.776
  },
  {
   "sp": "pixi",
   "text": "You rolled.",
   "shot": 18,
-  "s": 45.859,
-  "e": 47.546
+  "s": 43.526,
+  "e": 45.213
  },
  {
   "sp": "toast",
   "text": "Okay. This time I'll roll quietly.",
   "shot": 19,
-  "s": 48.046,
-  "e": 49.854
+  "s": 45.713,
+  "e": 48.326
  }
 ]

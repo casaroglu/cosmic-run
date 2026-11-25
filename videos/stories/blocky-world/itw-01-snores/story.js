@@ -1,7 +1,7 @@
 // "In This World" #1 — We Only Walk When It Snores. Built from scripts/ITW-01.md (19 shots).
 import * as THREE from "three";
 import { makeToast, makePixi, makeDonutsaurus } from "./blocky/rig.js";
-export const meta = { fps: 30, tail: 1.0 };
+export const meta = { fps: 30, tail: 1.4 };
 let R = {}, SH = [], L = [];
 const INK = "#221a26", FPS = 30;
 const F = (px, k = 1, w = 900) => `${w} ${px * k}px CizgiFont, Nunito, sans-serif`;
@@ -95,7 +95,7 @@ export function frame(f, E) {
   count = reset ? 300 : n >= 17 && f >= S(17) + 20 ? 1 : 300 - kos;
   // ---- Donutsaurus ----
   const stand = n === 16 ? X.smooth(sp(S(16), S(16) + 26)) : n === 17 ? 1 : n === 18 ? 1 - X.smooth(sp(S(18), S(18) + 30)) : 0;
-  let eye = 0; if (n === 1) eye = 1; if (n === 11) eye = X.smooth(sp(S(11) + 4, S(11) + 18)) * 0.5; if (n === 12) eye = 0.5 * (1 - X.smooth(sp(S(12) + 30, Eo(12)))); if (n >= 14 && n <= 17) eye = 1; if (n === 18) eye = 1 - X.smooth(sp(S(18) + 10, S(18) + 30)); if (n === 19) eye = X.back(sp(END19 - 8, END19 - 2));
+  let eye = 0; if (n === 1) eye = 1; if (n === 11) eye = X.smooth(sp(S(11) + 4, S(11) + 18)) * 0.5; if (n === 12) eye = 0.5 * (1 - X.smooth(sp(S(12) + 30, Eo(12)))); if (n >= 14 && n <= 17) eye = 1; if (n === 18) eye = 1 - X.smooth(sp(S(18) + 10, S(18) + 30)); if (n === 19) eye = X.back(sp(END19 + 2, END19 + 7));
   const breathe = 0.04 * Math.sin(f * 0.08), wag = n === 16 ? Math.sin(f * 0.5) : 0;
   const LIE = 1 - stand; let dpitch = 0, dx = -1.45 * DSCALE * LIE, dy = 1.15 * DSCALE * LIE, dz = DZ;
   if (n === 17) { const k = X.easeIn(sp(S(17) + 4, S(17) + 20)); dx = X.lerp(0, TOASTX, k); dz = X.lerp(DZ, -2, k); dpitch = 1.0 * k; }
@@ -131,7 +131,7 @@ export function frame(f, E) {
   if (n >= 9 && n <= 14) { board = true; toastPose = { pos: [TOASTX + roll * 0.05, 0.17, fz - roll], yaw: n === 14 ? 0 : Math.PI + 0.5, armL: n >= 12 ? [0, 1.3] : [-0.4, 0.6], elbowL: n >= 12 ? 0 : 1.6, armR: n >= 12 ? [-1.3, 0.2] : [-0.4, 0.6], elbowR: n >= 12 ? 0.1 : 1.6, face: n >= 12 ? "shock" : amp("toast") > 0.55 ? "grin" : "smug", legL: -0.2, legR: 0.2 }; if (n === 14) toastPose = { ...toastPose, eyePop: X.spring(sp(S(14), S(14) + 12)), headScale: 1.1 }; }
   if (n === 17) { const k = X.smooth(sp(S(17) + 20, S(17) + 24)); toastPose = { pos: [TOASTX, 0, 18], yaw: 0, face: "dizzy", armL: [0, 1.4], armR: [0, 1.4] }; }
   if (n >= 18) { const k = X.spring(sp(S(18) + 30, S(18) + 44)); toastPose = { pos: [TOASTX, n === 19 ? 0.17 : 0, 0.4], yaw: Math.PI + 0.3, face: "sad", armL: [0, 0.3], armR: [0, 0.3] }; board = n === 19 || f > S(18) + 50; pixPose = { pos: [PIXIX + 0.6, 0, 0.4], yaw: Math.PI - 0.5, armL: [-0.75, 0.7], elbowL: 1.9, armR: [-0.75, 0.7], elbowR: 1.9, face: amp("pixi") > 0.55 ? "talk" : "smug" }; pixBoard = false; }
-  if (n === 19 || n === 1) { const lp = LOOP.toast; toastPose = { ...lp, face: n === 19 && f < END19 - 8 ? (amp("toast") > 0.55 ? "talk" : "happy") : lp.face, eyePop: n === 1 ? 0 : 0 }; board = true; pixPose = { ...pixPose, pos: [PIXIX + 0.8, 0, 1.6] }; pixBoard = false; }
+  if (n === 19 || n === 1) { const lp = LOOP.toast; toastPose = { ...lp, face: n === 19 && f < END19 + 3 ? (amp("toast") > 0.55 ? "talk" : "happy") : lp.face, eyePop: n === 1 ? 0 : 0 }; board = true; pixPose = { ...pixPose, pos: [PIXIX + 0.8, 0, 1.6] }; pixBoard = false; }
   if (n === 19 && f < END19 - 8) { const k = X.smooth(sp(S(19) + 6, END19 - 8)); toastPose = { ...toastPose, pos: [-0.5, 0.17, X.lerp(0.4, -6.5, k)] }; }
   T.pose(toastPose); P.pose(pixPose);
   if (n === 17 && f >= S(17) + 20) { T.root.scale.set(1.6, 0.08, 1.6); }
@@ -178,7 +178,7 @@ export function frame(f, E) {
   if (n === 5 && f >= S(5) + 44) { const c = R.crowd.find((q) => q.red); OV.push((g, w, h) => { const [x, y] = proj([c.g.position.x, 0.2, c.g.position.z], w, h); g.save(); g.lineWidth = 12 * w / 1080; g.strokeStyle = "#ff2d2d"; g.beginPath(); g.arc(x, y, 60 * w / 1080 * pop(S(5) + 44, 6), 0, 7); g.stroke(); g.restore(); }); }
   // counter
   if (n !== 10 && n !== 15 && !(n === 17 && f >= S(17) + 20)) OV.push(label(`STILL IN: ${count}`, 540, 150, 76, { col: "#ffe14a" }));
-  if (n === 19 && f > END19) shk = [END19 + 2, 0.06, 26];
+  if (n === 19 && f > END19 + 4) shk = [END19 + 5, 0.07, 30];
   if (shk) { const q = E.shake(f, ...shk); cam.pos = cam.pos.map((v, i) => v + q[i]); }
   return { cam, light, grade, flash, dof: { focus: 8, amount: 0 }, actors: [], fx: FXS, caption, focusPt: [0, 2, 0], overlay: (g, w, h, sc) => OV.forEach((o) => o(g, w, h, sc)) };
 }

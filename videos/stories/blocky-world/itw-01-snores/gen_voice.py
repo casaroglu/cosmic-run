@@ -32,8 +32,6 @@ for i, (sp, text, shot, off) in enumerate(lines):
     ws = A.word_times(text, spoken(text), x, SR, starts[i])
     try: ws = A.refine(ws, x, SR, starts[i])
     except Exception as e: print("refine skip", e)
-    if i == last:
-        lw = ws[-1]; cut = lw['t0'] + 0.42 * (lw['t1'] - lw['t0']); n = int((cut - starts[i]) * SR); x = x[:n].copy(); x[-int(0.01 * SR):] *= np.linspace(1, 0, int(0.01 * SR)); y[a + n:] = 0; ws[-1] = {**lw, 'w': 'qui—', 't1': cut}
     for w in ws: words.append({"w": w["w"], "s": round(w["t0"], 3), "e": round(max(w["t1"], w["t0"] + 0.05), 3), "sp": sp})
     segs.append({"sp": sp, "text": text, "shot": shot, "s": round(starts[i], 3), "e": round(starts[i] + len(x) / SR, 3)})
 with wave.open(f"{W}/voice.wav", "wb") as w: w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((np.clip(y, -1, 1) * 32767).astype(np.int16).tobytes())
