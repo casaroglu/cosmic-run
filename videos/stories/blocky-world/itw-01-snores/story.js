@@ -1,7 +1,7 @@
 // "In This World" #1 — We Only Walk When It Snores. Built from scripts/ITW-01.md (19 shots).
 import * as THREE from "three";
 import { makeToast, makePixi, makeDonutsaurus } from "./blocky/rig.js";
-export const meta = { fps: 30, tail: 0.0 };
+export const meta = { fps: 30, tail: 1.0 };
 let R = {}, SH = [], L = [];
 const INK = "#221a26", FPS = 30;
 const F = (px, k = 1, w = 900) => `${w} ${px * k}px CizgiFont, Nunito, sans-serif`;
@@ -178,6 +178,7 @@ export function frame(f, E) {
   if (n === 5 && f >= S(5) + 44) { const c = R.crowd.find((q) => q.red); OV.push((g, w, h) => { const [x, y] = proj([c.g.position.x, 0.2, c.g.position.z], w, h); g.save(); g.lineWidth = 12 * w / 1080; g.strokeStyle = "#ff2d2d"; g.beginPath(); g.arc(x, y, 60 * w / 1080 * pop(S(5) + 44, 6), 0, 7); g.stroke(); g.restore(); }); }
   // counter
   if (n !== 10 && n !== 15 && !(n === 17 && f >= S(17) + 20)) OV.push(label(`STILL IN: ${count}`, 540, 150, 76, { col: "#ffe14a" }));
+  if (n === 19 && f > END19) shk = [END19 + 2, 0.06, 26];
   if (shk) { const q = E.shake(f, ...shk); cam.pos = cam.pos.map((v, i) => v + q[i]); }
   return { cam, light, grade, flash, dof: { focus: 8, amount: 0 }, actors: [], fx: FXS, caption, focusPt: [0, 2, 0], overlay: (g, w, h, sc) => OV.forEach((o) => o(g, w, h, sc)) };
 }

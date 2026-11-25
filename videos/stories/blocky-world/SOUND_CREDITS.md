@@ -34,3 +34,10 @@ Toast = B (Kokoro am_liam, +5 st) · Pixi = A (af_bella, 0.95) · The Admin = A 
 ## Snore (ITW-01), CC0, licence checked 2026-11-25
 - 760034 "SNORE-01_44100" by stevielematt — https://freesound.org/s/760034/ (used, pitched down ~7 st)
 - Also downloaded, not used: 577384 Podcapocalipsis, 774670 studiogreenhill, 472190 Kragnour, 446581 Nicolas4677 (all CC0)
+
+## Meme sounds (CC0, Freesound, licence checked on each page 2026-11-25), local: ~/cizgi/blocky-world/work/meme/
+581334 Air Horn Hype (zar.265) · 512389 Bass Impact (Kievinay, used as the "boom") · 704942 bruh sound (DXRKCLAN) · 506582 bruh (ivar.nohre) ·
+249583 Short, definite fart (ycbcr) · 164572 Metal pipe on concrete (deleted_user_2104797) · 71853 record_scratch (ludvique) ·
+497092 / 497093 swanee whistle up / down (v0idation) · 403002 dizzy slide whistle (martian) · 362206 horn_fail_wahwah (TaranP) · 438912 HomemadeOof (LucyTheDev).
+Not used: 679206 "jixaw metal pipe" re-upload (uploader is not the original author).
+Toast's "Fuuu—" is our own TTS, always cut before any word.

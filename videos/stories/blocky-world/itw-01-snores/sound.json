@@ -119,11 +119,6 @@
    "gain_db": -8
   },
   {
-   "t": 31.733,
-   "kind": "boing",
-   "gain_db": -1
-  },
-  {
    "t": 33.933,
    "kind": "ding",
    "gain_db": -6
