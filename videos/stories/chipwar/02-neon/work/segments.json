@@ -1,0 +1,74 @@
+[
+ {
+  "sp": "a",
+  "text": "In twenty twenty-two, a war threatened the machines that make your chips!",
+  "s": 0.15,
+  "e": 3.67
+ },
+ {
+  "sp": "q",
+  "text": "How can a war stop chip factories?",
+  "s": 3.87,
+  "e": 5.759
+ },
+ {
+  "sp": "a",
+  "text": "Chipmaking lasers run on neon gas. And about half the world's chip-grade neon came from Ukraine.",
+  "s": 5.999,
+  "e": 10.755
+ },
+ {
+  "sp": "a",
+  "text": "From just two companies, in Odesa and Mariupol.",
+  "s": 10.875,
+  "e": 13.791
+ },
+ {
+  "sp": "q",
+  "text": "Mariupol... the city under siege?",
+  "s": 13.991,
+  "e": 15.888
+ },
+ {
+  "sp": "a",
+  "text": "Exactly. When Russia invaded, both plants stopped.",
+  "s": 16.128,
+  "e": 19.098
+ },
+ {
+  "sp": "q",
+  "text": "So why didn't the world run out of chips?",
+  "s": 19.298,
+  "e": 21.253
+ },
+ {
+  "sp": "a",
+  "text": "Because of an earlier war. When Russia seized Crimea in twenty fourteen, neon prices jumped six hundred percent.",
+  "s": 21.493,
+  "e": 26.881
+ },
+ {
+  "sp": "a",
+  "text": "Chipmakers learned. They found new suppliers in China and Korea, and began recycling their neon.",
+  "s": 27.001,
+  "e": 31.542
+ },
+ {
+  "sp": "a",
+  "text": "In twenty twenty-two, one supplier said prices rose up to five hundred percent... but no chip factory stopped.",
+  "s": 31.662,
+  "e": 37.331
+ },
+ {
+  "sp": "a",
+  "text": "Like, follow History Sketches, and tell us what we should map next!",
+  "s": 37.451,
+  "e": 40.856
+ },
+ {
+  "sp": "a",
+  "text": "A war far from any chip factory can still reach your chips.",
+  "s": 40.976,
+  "e": 44.189
+ }
+]

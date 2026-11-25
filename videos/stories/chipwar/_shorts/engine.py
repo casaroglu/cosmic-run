@@ -281,7 +281,7 @@ def render(f):
         elif k == 'crate':
             put(img, cached(('container', -15, 200), lambda: cutout(prop('container', -15, 200))), e, f, cam, rot=e['rot'])
         elif k == 'doc':
-            put(img, cached('doc', lambda: cutout(draw_document('LICENCE'), screen=False)), e, f, cam, rot=e['rot'], scale=e['scale'])
+            put(img, cached(('doc', e.get('title', 'LICENCE')), lambda: cutout(draw_document(e.get('title', 'LICENCE')), screen=False)), e, f, cam, rot=e['rot'], scale=e['scale'])
         elif k == 'piece':      # any code-drawn piece: fn() -> RGBA; screen=True halftones + scissor-cuts it
             put(img, cached(('piece', e['key']), (lambda: cutout(e['fn']())) if e.get('screen', True) else e['fn']), e, f, cam,
                 rot=e.get('rot', 0) + ((age // 2) * 9 % 360 if e.get('spin') else 0), scale=e.get('scale', 1.0))
