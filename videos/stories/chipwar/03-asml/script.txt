@@ -1,13 +1,15 @@
-A: This machine fires a laser at a falling drop of tin, fifty thousand times a second!
-Q: Why would anyone do that?
-A: Each hit makes a flash of light hotter than the surface of the Sun. That light prints the circuits on the world's best chips.
-Q: Who builds it?
-A: Only one company on Earth: A, S, M, L, in Veldhoven, the Netherlands.
-A: Its mirrors come from Zeiss in Germany. Blown up to the size of Germany, the biggest bump would be a tenth of a millimetre!
-Q: And how do you deliver it?
-A: Forty containers, twenty trucks, three cargo jets. The newest version costs around four hundred million dollars.
-A: More than half of them work for one chipmaker in Taiwan.
+A: The newest iPhones, Chat G P T, every top AI... none of it exists without one machine!
+Q: One machine? What if it broke?
+A: No new AI chips. No new iPhones. And only one company on Earth can build it.
+A: A, S, M, L, in a small Dutch town called Veldhoven.
+Q: Why can't anyone else make it?
+A: Because it fires a laser at falling drops of tin, fifty thousand times a second!
+A: Each flash is hotter than the surface of the Sun. That light draws circuits thousands of times thinner than a hair.
+A: Its mirrors are so smooth that, blown up to the size of Germany, the biggest bump would be a tenth of a millimetre.
+Q: So who gets one?
+A: More than half work for T, S, M, C in Taiwan, the company that makes Nvidia's AI chips.
 Q: And China?
-A: Never received one. In twenty nineteen, the Dutch let China's licence lapse.
+A: Not one. In twenty nineteen, under pressure from Washington, the Dutch let China's licence lapse.
+A: That's why China has to build its best chips with older machines, and why the whole AI race runs through one Dutch town.
 A: Like, follow History Sketches, and tell us what we should map next!
-A: All of it, from one drop of tin, fifty thousand times a second.
+A: None of it exists without one machine.

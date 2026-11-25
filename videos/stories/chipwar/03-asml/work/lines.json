@@ -1,15 +1,17 @@
 [
- ["a", "This machine fires a laser at a falling drop of tin, fifty thousand times a second!"],
- ["q", "Why would anyone do that?"],
- ["a", "Each hit makes a flash of light hotter than the surface of the Sun. That light prints the circuits on the world's best chips."],
- ["q", "Who builds it?"],
- ["a", "Only one company on Earth: A, S, M, L, in Veldhoven, the Netherlands."],
- ["a", "Its mirrors come from Zeiss in Germany. Blown up to the size of Germany, the biggest bump would be a tenth of a millimetre!"],
- ["q", "And how do you deliver it?"],
- ["a", "Forty containers, twenty trucks, three cargo jets. The newest version costs around four hundred million dollars."],
- ["a", "More than half of them work for one chipmaker in Taiwan."],
+ ["a", "The newest iPhones, Chat G P T, every top AI... none of it exists without one machine!"],
+ ["q", "One machine? What if it broke?"],
+ ["a", "No new AI chips. No new iPhones. And only one company on Earth can build it."],
+ ["a", "A, S, M, L, in a small Dutch town called Veldhoven."],
+ ["q", "Why can't anyone else make it?"],
+ ["a", "Because it fires a laser at falling drops of tin, fifty thousand times a second!"],
+ ["a", "Each flash is hotter than the surface of the Sun. That light draws circuits thousands of times thinner than a hair."],
+ ["a", "Its mirrors are so smooth that, blown up to the size of Germany, the biggest bump would be a tenth of a millimetre."],
+ ["q", "So who gets one?"],
+ ["a", "More than half work for T, S, M, C in Taiwan, the company that makes Nvidia's AI chips."],
  ["q", "And China?"],
- ["a", "Never received one. In twenty nineteen, the Dutch let China's licence lapse."],
+ ["a", "Not one. In twenty nineteen, under pressure from Washington, the Dutch let China's licence lapse."],
+ ["a", "That's why China has to build its best chips with older machines, and why the whole AI race runs through one Dutch town."],
  ["a", "Like, follow History Sketches, and tell us what we should map next!"],
- ["a", "All of it, from one drop of tin, fifty thousand times a second."]
+ ["a", "None of it exists without one machine."]
 ]

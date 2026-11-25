@@ -1,80 +1,92 @@
 [
  {
   "sp": "a",
-  "text": "This machine fires a laser at a falling drop of tin, fifty thousand times a second!",
+  "text": "The newest iPhones, Chat G P T, every top AI... none of it exists without one machine!",
   "s": 0.15,
-  "e": 4.747
+  "e": 5.138
  },
  {
   "sp": "q",
-  "text": "Why would anyone do that?",
-  "s": 4.947,
-  "e": 6.314
+  "text": "One machine? What if it broke?",
+  "s": 5.338,
+  "e": 6.869
  },
  {
   "sp": "a",
-  "text": "Each hit makes a flash of light hotter than the surface of the Sun. That light prints the circuits on the world's best chips.",
-  "s": 6.554,
-  "e": 12.083
+  "text": "No new AI chips. No new iPhones. And only one company on Earth can build it.",
+  "s": 7.109,
+  "e": 11.729
+ },
+ {
+  "sp": "a",
+  "text": "A, S, M, L, in a small Dutch town called Veldhoven.",
+  "s": 11.849,
+  "e": 15.066
  },
  {
   "sp": "q",
-  "text": "Who builds it?",
-  "s": 12.283,
-  "e": 13.141
+  "text": "Why can't anyone else make it?",
+  "s": 15.266,
+  "e": 16.793
  },
  {
   "sp": "a",
-  "text": "Only one company on Earth: A, S, M, L, in Veldhoven, the Netherlands.",
-  "s": 13.381,
-  "e": 16.948
+  "text": "Because it fires a laser at falling drops of tin, fifty thousand times a second!",
+  "s": 17.033,
+  "e": 21.418
  },
  {
   "sp": "a",
-  "text": "Its mirrors come from Zeiss in Germany. Blown up to the size of Germany, the biggest bump would be a tenth of a millimetre!",
-  "s": 17.068,
-  "e": 23.132
+  "text": "Each flash is hotter than the surface of the Sun. That light draws circuits thousands of times thinner than a hair.",
+  "s": 21.538,
+  "e": 26.603
+ },
+ {
+  "sp": "a",
+  "text": "Its mirrors are so smooth that, blown up to the size of Germany, the biggest bump would be a tenth of a millimetre.",
+  "s": 26.723,
+  "e": 32.246
  },
  {
   "sp": "q",
-  "text": "And how do you deliver it?",
-  "s": 23.332,
-  "e": 24.602
+  "text": "So who gets one?",
+  "s": 32.446,
+  "e": 33.493
  },
  {
   "sp": "a",
-  "text": "Forty containers, twenty trucks, three cargo jets. The newest version costs around four hundred million dollars.",
-  "s": 24.842,
-  "e": 30.224
- },
- {
-  "sp": "a",
-  "text": "More than half of them work for one chipmaker in Taiwan.",
-  "s": 30.344,
-  "e": 33.292
+  "text": "More than half work for T, S, M, C in Taiwan, the company that makes Nvidia's AI chips.",
+  "s": 33.733,
+  "e": 38.618
  },
  {
   "sp": "q",
   "text": "And China?",
-  "s": 33.492,
-  "e": 34.238
+  "s": 38.818,
+  "e": 39.563
  },
  {
   "sp": "a",
-  "text": "Never received one. In twenty nineteen, the Dutch let China's licence lapse.",
-  "s": 34.478,
-  "e": 38.719
+  "text": "Not one. In twenty nineteen, under pressure from Washington, the Dutch let China's licence lapse.",
+  "s": 39.803,
+  "e": 44.498
+ },
+ {
+  "sp": "a",
+  "text": "That's why China has to build its best chips with older machines, and why the whole AI race runs through one Dutch town.",
+  "s": 44.618,
+  "e": 50.251
  },
  {
   "sp": "a",
   "text": "Like, follow History Sketches, and tell us what we should map next!",
-  "s": 38.839,
-  "e": 42.244
+  "s": 50.371,
+  "e": 53.776
  },
  {
   "sp": "a",
-  "text": "All of it, from one drop of tin, fifty thousand times a second.",
-  "s": 42.364,
-  "e": 45.83
+  "text": "None of it exists without one machine.",
+  "s": 53.896,
+  "e": 56.234
  }
 ]
