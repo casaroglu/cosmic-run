@@ -1,0 +1,6 @@
+note:no chips made!                frames=20 max_dx=0 max_dy=11 min_k=1.00
+note:rivals need it                frames=87 max_dx=0 max_dy=30 min_k=1.00
+note:sells designs                 frames=12 max_dx=0 max_dy=30 min_k=1.00
+piece:coin                         frames=23 max_dx=0 max_dy=22 min_k=1.00
+piece:gavel                        frames=47 max_dx=25 max_dy=0 min_k=1.00
+tag:ARM-BASED CHIPS SHIPPED        frames=38 max_dx=0 max_dy=0 min_k=0.92

@@ -110,8 +110,8 @@ add('inkx', cue('died', 1, 0), cue('not', 1, -14), xy=(490, 760), r=120)
 add('tag', cue('died', 1, 4), cue('not', 1, -14), text='DEAD · FEB 2022', xy=(490, 470), rot=1, size=56)
 # the loop
 hook_group(cue('not', 1, -8), G.END)
-add('tag', G.NFR - 30, G.END, text='ARM CPUs IN 99%+', xy=(490, 1450), rot=-1, size=46)          # hidden key text, last second
-add('tag', G.NFR - 30, G.END, text='OF SMARTPHONES (ARM)', xy=(490, 1520), rot=1, size=40)
+add('tag', G.NFR - 30, G.END, text='ARM CPUs IN 99%+', xy=(490, 1400), rot=-1, size=46)          # hidden key text, last second
+add('tag', G.NFR - 30, G.END, text='OF SMARTPHONES (ARM)', xy=(490, 1476), rot=1, size=40)
 
 G.finish(GB, MOVES, LABELS, PAINT)
 if __name__ == '__main__':
