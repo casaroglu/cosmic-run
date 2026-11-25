@@ -30,7 +30,7 @@ la, sr = rd(P + "/sfx_lib/dino_laugh_oldman.wav"); la = rs(la, sr, SR)[: int(1.8
 yw, sr = rd(P + "/sfx_lib/dino_burp_monster.wav"); yw = rs(yw, sr, SR); yw = np.interp(np.arange(int(len(yw) * 1.4)) / 1.4, np.arange(len(yw)), yw).astype(np.float32); add(yw / np.abs(yw).max() * 0.7, cue["yawn"] / FPS, 0.6)
 MEME = "/Users/canberkasaroglu/cizgi/blocky-world/work/meme/"
 for name, f, g in cue.get("meme", []):
-    path = (P + "/work/cb/line_15.wav" if __import__("os").path.exists(P + "/work/cb/line_15.wav") else P + "/work/fuuu.wav") if name == "fuuu" else MEME + name + ".wav"; x, sr = rd(path); x = rs(x, sr, SR); x = x / max(1e-6, np.abs(x).max()) * 0.85
+    path = (P + "/work/cb/fu.wav" if __import__("os").path.exists(P + "/work/cb/fu.wav") else P + "/work/fuuu.wav") if name == "fuuu" else MEME + name + ".wav"; x, sr = rd(path); x = rs(x, sr, SR); x = x / max(1e-6, np.abs(x).max()) * 0.85
     if name == "581334": x = x[: int(0.8 * SR)]
     if name == "fuuu": x = x[: int(0.95 * SR)]; x[-720:] *= np.linspace(1, 0, 720)
     if name == "362206": x = x[: int(2.2 * SR)]

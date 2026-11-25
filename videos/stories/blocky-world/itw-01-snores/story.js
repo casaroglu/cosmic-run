@@ -173,11 +173,11 @@ export function frame(f, E) {
     case 19: cam = { ...LOOP.cam, look: [HEAD.x * 0.6, HEAD.y * 0.75, HEAD.z] }; break;
   }
   // bubble seconds label
-  if (bub > 0.3 && [2, 3, 7].includes(n)) OV.push(label(`SNORE: ${Math.max(1, bubLeft)}`, 540, 250, 70, { col: "#cfefff" }));
+
   // red ring around the late player (5)
   if (n === 5 && f >= S(5) + 44) { const c = R.crowd.find((q) => q.red); OV.push((g, w, h) => { const [x, y] = proj([c.g.position.x, 0.2, c.g.position.z], w, h); g.save(); g.lineWidth = 12 * w / 1080; g.strokeStyle = "#ff2d2d"; g.beginPath(); g.arc(x, y, 60 * w / 1080 * pop(S(5) + 44, 6), 0, 7); g.stroke(); g.restore(); }); }
   // counter
-  if (n !== 10 && n !== 15 && !(n === 17 && f >= S(17) + 20)) OV.push(label(`STILL IN: ${count}`, 540, 150, 76, { col: "#ffe14a" }));
+
   if (n === 19 && f > END19 + 4) shk = [END19 + 5, 0.07, 30];
   if (shk) { const q = E.shake(f, ...shk); cam.pos = cam.pos.map((v, i) => v + q[i]); }
   return { cam, light, grade, flash, dof: { focus: 8, amount: 0 }, actors: [], fx: FXS, caption, focusPt: [0, 2, 0], overlay: (g, w, h, sc) => OV.forEach((o) => o(g, w, h, sc)) };
