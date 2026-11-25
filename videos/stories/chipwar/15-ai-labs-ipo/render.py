@@ -15,8 +15,10 @@ PLACES.update({'newyork': (-73.99, 40.76), 'sf': (-122.40, 37.79), 'london': (-0
 END, NFR = G.END, G.NFR
 # lines: 0 hook · 1 Q · 2 betting · 3 Anthropic listed · 4 Q racing · 5 OpenAI + DeepMind · 6 DeepSeek + Mistral · 7 Q need · 8 chips chain · 9 CTA · 10 loop
 
-NY, WEST, EAST = (-74.5, 40.8, 60), (-60.0, 5.0, 11.5), (60.0, 5.0, 11.5)
-MOVES = [(ls(4, -6), 30, WEST), (ls(6, -10), 26, EAST), (ls(10, -20), 30, NY)]
+NY = (-74.5, 40.8, 60)
+SFV, LDN, HZV, PAR, CHAIN = (-100.0, 15.0, 11.5), (-20.0, 15.0, 11.5), (100.0, 15.0, 11.5), (10.0, 15.0, 11.5), (60.0, 15.0, 11.5)
+MOVES = [(ls(4, -6), 30, SFV), (cl(5, 'google', 1, -10), 26, LDN), (ls(6, -8), 30, HZV), (cl(6, 'mistral', 1, -10), 28, PAR),
+         (ls(8, -6), 24, CHAIN), (ls(10, -20), 30, NY)]
 LABELS = [
     ('Atlantic Ocean', -71.5, 36.0, 44, True, 40, 999), ('NEW YORK', -75.5, 42.6, 36, False, 40, 999),
     ('Atlantic Ocean', -40.0, 30.0, 44, True, 0, 20), ('Pacific Ocean', -150.0, 25.0, 40, True, 0, 20), ('Indian Ocean', 75.0, -10.0, 40, True, 0, 20),
@@ -35,13 +37,13 @@ add('card', ls(3), ls(4, -6), fig='FIG. 02', lines=['The Listing'])
 add('tag', cl(3, 'anthropic', 1, -2), ls(4, -6), text='ANTHROPIC (MAKER OF CLAUDE)', xy=(490, 390), rot=-1, size=44)
 add('tag', cl(3, 'nasdaq', 1, -2), ls(4, -6), text='NASDAQ · NOV 2026', xy=(490, 480), rot=1, size=50)
 add('note', cl(3, 'biggest', 1, -2), ls(4, -6), text='one of the biggest IPOs', size=90, xy=(490, 1440), rot=-2)
-LABS = [('sf', 'OPENAI', 'openai', 5, (0, 90)), ('london', 'GOOGLE DEEPMIND', 'google', 5, (40, -80)),
-        ('hangzhou', 'DEEPSEEK', 'deepseek', 6, (0, 90)), ('paris', 'MISTRAL', 'mistral', 6, (60, 90))]
+LABS = [('sf', 'OPENAI', 'openai', 5, (150, 70), cl(5, 'google', 1, -10)), ('london', 'GOOGLE DEEPMIND', 'google', 5, (80, 100), ls(6, -8)),
+        ('hangzhou', 'DEEPSEEK', 'deepseek', 6, (-150, 90), cl(6, 'mistral', 1, -10)), ('paris', 'MISTRAL', 'mistral', 6, (60, 100), ls(8, -6))]
 add('dot', ls(4, 30), END, pin=('sf', 0, 0), top=True)
-add('tag', ls(4, 30), ls(5, -2), text='ANTHROPIC', pin=('sf', 0, -90), rot=1.5, size=44)
-for p, txt, w, li, (dx, dy) in LABS:
+add('tag', ls(4, 30), cl(5, 'google', 1, -10), text='ANTHROPIC', pin=('sf', 150, -70), rot=1.5, size=44)
+for p, txt, w, li, (dx, dy), f1 in LABS:
     add('dot', cl(li, w, 1, -2), END, pin=(p, 0, 0), top=True)
-    add('tag', cl(li, w, 1, 2), ls(8, -2), text=txt, pin=(p, dx, dy), rot=-1.5, size=44)
+    add('tag', cl(li, w, 1, 2), f1, text=txt, pin=(p, dx, dy), rot=-1.5, size=44)
 add('card', ls(4, 30), ls(10, -20), fig='FIG. 03', lines=['The Race'])
 add('tag', cl(5, 'reportedly', 1, -2), cl(5, 'google', 1, -2), text='OPENAI: ~$1.25 TN (REPORTED)', xy=(490, 1400), rot=1, size=42)
 add('tag', cl(5, 'billion', 1, -2), ls(6, -2), text='GEMINI: 1 BN+ MONTHLY USERS', xy=(490, 1400), rot=-1, size=42)

@@ -4,14 +4,11 @@ note:one of the biggest IPOs       frames=26 max_dx=0 max_dy=0 min_k=0.80
 note:what do they need?            frames=19 max_dx=0 max_dy=0 min_k=0.99
 ransom:$81 BN                      frames=119 max_dx=0 max_dy=0 min_k=0.95
 tag:ANTHROPIC (MAKER OF CLAUDE)    frames=92 max_dx=0 max_dy=0 min_k=0.78
-tag:DEEPSEEK                       frames=86 max_dx=278 max_dy=0 min_k=1.00
 tag:DEEPSEEK: FREE MODELS          frames=13 max_dx=0 max_dy=0 min_k=0.95
 tag:GEMINI: 1 BN+ MONTHLY USERS    frames=20 max_dx=0 max_dy=0 min_k=0.84
-tag:GOOGLE DEEPMIND                frames=140 max_dx=459 max_dy=0 min_k=1.00
+tag:GOOGLE DEEPMIND                frames=47 max_dx=146 max_dy=0 min_k=1.00
 tag:IPO: $81.3 BN AT $83 · 18 NOV 2026 frames=15 max_dx=0 max_dy=0 min_k=0.79
 tag:MADE WITH CLAUDE, AN ANTHROPIC AI frames=15 max_dx=0 max_dy=0 min_k=0.80
-tag:MISTRAL                        frames=60 max_dx=172 max_dy=0 min_k=1.00
 tag:MISTRAL: ASML INVESTS          frames=24 max_dx=0 max_dy=0 min_k=0.97
 tag:NVIDIA -> TSMC -> ASML         frames=100 max_dx=0 max_dy=0 min_k=0.92
-tag:OPENAI                         frames=224 max_dx=1306 max_dy=0 min_k=1.00
 tag:OPENAI: ~$1.25 TN (REPORTED)   frames=51 max_dx=0 max_dy=0 min_k=0.83
