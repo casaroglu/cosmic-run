@@ -1,0 +1,5 @@
+flash                              frames=107 max_dx=61 max_dy=0 min_k=1.00
+machine:                           frames=42 max_dx=0 max_dy=26 min_k=1.00
+note:an earlier war                frames=75 max_dx=0 max_dy=1 min_k=1.00
+tag:CHIPMAKING LASERS              frames=65 max_dx=0 max_dy=7 min_k=1.00
+tag:OF CHIP-GRADE NEON (PRE-2022)  frames=15 max_dx=0 max_dy=0 min_k=0.93

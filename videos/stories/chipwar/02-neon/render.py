@@ -105,8 +105,8 @@ add('tag', cue('supplier', 1, 0), cue('far', 1, -14), text='ONE SUPPLIER, 2022',
 add('note', cue('no', 1, 0), cue('far', 1, -14), text='no fab stopped', size=92, xy=(490, 1010), rot=-2)
 # the loop
 hook_group(cue('far', 1, -8), G.END)
-add('tag', G.NFR - 30, G.END, text='UKRAINE ≈ 45-54%', xy=(490, 1450), rot=-1, size=46)          # hidden key text, last second
-add('tag', G.NFR - 30, G.END, text='OF CHIP-GRADE NEON (PRE-2022)', xy=(490, 1520), rot=1, size=36)
+add('tag', G.NFR - 30, G.END, text='UKRAINE ≈ 45-54%', xy=(490, 1400), rot=-1, size=46)          # hidden key text, last second
+add('tag', G.NFR - 30, G.END, text='OF CHIP-GRADE NEON (PRE-2022)', xy=(490, 1476), rot=1, size=36)
 
 G.finish(UA, MOVES, LABELS, PAINT)
 if __name__ == '__main__':
