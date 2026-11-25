@@ -1,7 +1,7 @@
 # Chip Wars · Part 3 (long-form)
 
 Video: videos/out/chipwar/long-part3/video.mp4 (1920x1080, 30 fps, 270.6 s)
-Status: rendered, not uploaded. Thumbnail: not made yet. The user reviews the race chapter and this description before upload (neutrality).
+Status: draft (awaiting user neutrality review) (2026-11-29 18:00 Europe/Istanbul) — https://youtu.be/c9IeV_QsA2w, uploaded 2026-11-26. Thumbnail: videos/out/chipwar/_covers/long-part3.jpg. Uploaded with title, description, thumbnail, Eğitim, not for kids, altered content YES, but NOT scheduled: the user must review the race chapter and description first. To publish: Studio > Content > this draft > Taslağı düzenle > Görünürlük > Planla 29 Nov 2026 18:00. [Earlier note: rendered, not uploaded. Thumbnail: not made yet. The user reviews the race chapter and this description before upload (neutrality).]
 
 ## Title
 The AI Gold Rush: Chips, Power, Cables and the $81 Billion Bet
