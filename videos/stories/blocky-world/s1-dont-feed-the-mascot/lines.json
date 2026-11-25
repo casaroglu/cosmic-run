@@ -1,0 +1,10 @@
+[["toast", "Aaaah!", 1, 0.1],
+ ["toast", "Rule one. Don't feed the mascot after three A.M.", 3, 0.15],
+ ["toast", "It's two fifty-nine.", 4, 0.5],
+ ["toast", "That's fine. That's fine.", 6, 0.35],
+ ["toast", "No. No! Bad dinosaur!", 7, 0.15],
+ ["pixi", "Toast. Did you feed him?", 9, 0.9],
+ ["toast", "No.", 9, "after+0.45"],
+ ["pixi", "Read rule two.", 11, 0.2],
+ ["pixi", "Night one.", 14, 0.75],
+ ["toast", "It was one don", 15, 0.7]]
