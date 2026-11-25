@@ -239,3 +239,88 @@ def draw_downchart():
     pts = [(30, 90), (80, 70), (120, 85), (170, 60), (210, 70), (240, 65), (262, 200), (300, 190), (330, 205)]
     d.line(pts, fill=INK + (255,), width=7, joint='curve')
     return im
+
+# ---- Part 3 pieces
+def draw_booth():
+    """a generic diner booth: two padded benches and a table with two coffee cups (no brand)."""
+    im = Image.new('RGBA', (420, 300), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    for x in (20, 300):
+        d.rounded_rectangle((x, 40, x + 100, 280), 24, fill=(150, 150, 150, 255), outline=(60, 60, 60, 255), width=4)
+        for y in range(70, 260, 40): d.line((x + 14, y, x + 86, y), fill=(110, 110, 110, 255), width=3)
+    d.rectangle((110, 140, 310, 165), fill=(210, 210, 210, 255), outline=(60, 60, 60, 255), width=3)
+    d.rectangle((200, 165, 220, 280), fill=(90, 90, 90, 255))
+    for cx in (160, 260):
+        d.rectangle((cx - 18, 108, cx + 18, 140), fill=(240, 240, 240, 255), outline=(60, 60, 60, 255), width=3)
+        d.arc((cx + 10, 112, cx + 32, 132), 270, 90, fill=(60, 60, 60, 255), width=3)
+    return im
+
+def draw_gpu():
+    """a generic gaming graphics card: board, two fans, bracket."""
+    im = Image.new('RGBA', (440, 200), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    d.rectangle((20, 30, 410, 160), fill=(80, 80, 80, 255), outline=(40, 40, 40, 255), width=4)
+    for cx in (130, 300):
+        d.ellipse((cx - 58, 37, cx + 58, 153), fill=(140, 140, 140, 255), outline=(40, 40, 40, 255), width=4)
+        for k in range(7):
+            a = k * 2 * math.pi / 7; d.line((cx, 95, cx + 50 * math.cos(a), 95 + 50 * math.sin(a)), fill=(70, 70, 70, 255), width=6)
+        d.ellipse((cx - 14, 81, cx + 14, 109), fill=(60, 60, 60, 255))
+    d.rectangle((410, 20, 428, 170), fill=(170, 170, 170, 255)); d.rectangle((60, 160, 300, 178), fill=(200, 200, 200, 255))
+    return im
+
+def draw_tower():
+    """a nuclear cooling tower with a steam cloud."""
+    im = Image.new('RGBA', (300, 360), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    d.polygon([(60, 350), (95, 200), (80, 120), (220, 120), (205, 200), (240, 350)], fill=(185, 185, 185, 255), outline=(60, 60, 60, 255))
+    for y in (230, 280, 320): d.line((80 + (350 - y) * 0.1, y, 220 - (350 - y) * 0.1, y), fill=(140, 140, 140, 255), width=3)
+    for x, y, r in ((120, 90, 40), (170, 70, 50), (215, 95, 38), (150, 40, 34)): d.ellipse((x - r, y - r, x + r, y + r), fill=(235, 235, 235, 255), outline=(150, 150, 150, 255), width=2)
+    return im
+
+def draw_pylon():
+    """a high-voltage transmission pylon."""
+    im = Image.new('RGBA', (260, 380), (0, 0, 0, 0)); d = ImageDraw.Draw(im); c = (70, 70, 70, 255)
+    d.line((130, 10, 60, 370), fill=c, width=6); d.line((130, 10, 200, 370), fill=c, width=6)
+    for y, w in ((80, 120), (150, 110)): d.line((130 - w, y, 130 + w, y), fill=c, width=6)
+    for y in range(60, 360, 45):
+        xl, xr = 130 - (y - 10) * 70 / 360, 130 + (y - 10) * 70 / 360; d.line((xl, y, xr, y + 40), fill=c, width=3); d.line((xr, y, xl, y + 40), fill=c, width=3)
+    for x in (10, 30, 230, 250): d.line((x, 80, x, 100), fill=c, width=4)
+    return im
+
+def draw_turbine():
+    """a generic trailer-mounted gas turbine with an exhaust stack and smoke."""
+    im = Image.new('RGBA', (420, 300), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    d.rectangle((20, 150, 380, 250), fill=(150, 150, 150, 255), outline=(60, 60, 60, 255), width=4)
+    for x in range(40, 370, 30): d.line((x, 160, x, 240), fill=(110, 110, 110, 255), width=3)
+    d.rectangle((300, 60, 350, 150), fill=(120, 120, 120, 255), outline=(60, 60, 60, 255), width=3)
+    for x, y, r in ((325, 40, 26), (345, 14, 20), (300, 24, 18)): d.ellipse((x - r, y - r, x + r, y + r), fill=(90, 90, 90, 255))
+    for cx in (70, 140, 320): d.ellipse((cx - 26, 236, cx + 26, 288), fill=(50, 50, 50, 255)); d.ellipse((cx - 9, 253, cx + 9, 271), fill=(170, 170, 170, 255))
+    return im
+
+def draw_ship():
+    """a generic cargo ship listing, with an anchor chain hanging down."""
+    im = Image.new('RGBA', (440, 300), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    d.polygon([(10, 120), (420, 100), (380, 190), (40, 200)], fill=(120, 120, 120, 255), outline=(50, 50, 50, 255))
+    for k in range(4): d.rectangle((90 + k * 60, 60 - (k % 2) * 10, 140 + k * 60, 115), fill=(175 - k * 15, 175 - k * 15, 175 - k * 15, 255), outline=(60, 60, 60, 255), width=2)
+    d.rectangle((330, 40, 380, 105), fill=(200, 200, 200, 255), outline=(60, 60, 60, 255), width=3)
+    for k in range(7): d.ellipse((60 - 5, 200 + k * 12, 60 + 5, 210 + k * 12), outline=(60, 60, 60, 255), width=3)
+    d.line((60, 286, 60, 296), fill=(60, 60, 60, 255), width=5); d.arc((36, 272, 84, 298), 0, 180, fill=(60, 60, 60, 255), width=6)
+    return im
+
+def draw_cable():
+    """a cut-away of a submarine cable: armour wires, sheath, glass fibre core."""
+    s = 300; im = Image.new('RGBA', (s, s), (0, 0, 0, 0)); d = ImageDraw.Draw(im); c = s / 2
+    d.ellipse((10, 10, s - 10, s - 10), fill=(70, 70, 70, 255))
+    for k in range(18):
+        a = k * 2 * math.pi / 18; x, y = c + 112 * math.cos(a), c + 112 * math.sin(a); d.ellipse((x - 18, y - 18, x + 18, y + 18), fill=(170, 170, 170, 255), outline=(60, 60, 60, 255), width=2)
+    d.ellipse((c - 86, c - 86, c + 86, c + 86), fill=(200, 200, 200, 255), outline=(60, 60, 60, 255), width=3)
+    d.ellipse((c - 52, c - 52, c + 52, c + 52), fill=(130, 130, 130, 255))
+    for k in range(6):
+        a = k * 2 * math.pi / 6; x, y = c + 24 * math.cos(a), c + 24 * math.sin(a); d.ellipse((x - 9, y - 9, x + 9, y + 9), fill=(245, 245, 245, 255))
+    return im
+
+def draw_bell():
+    """a generic opening bell on a stand (stock exchange), no logo."""
+    im = Image.new('RGBA', (300, 320), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    d.pieslice((50, 40, 250, 280), 180, 360, fill=(170, 170, 170, 255), outline=(60, 60, 60, 255), width=4)
+    d.rectangle((50, 155, 250, 200), fill=(170, 170, 170, 255), outline=(60, 60, 60, 255), width=4); d.ellipse((130, 195, 170, 235), fill=(90, 90, 90, 255))
+    d.rectangle((140, 10, 160, 45), fill=(90, 90, 90, 255)); d.rectangle((20, 280, 280, 310), fill=(100, 100, 100, 255))
+    d.line((40, 280, 90, 200), fill=(100, 100, 100, 255), width=8); d.line((260, 280, 210, 200), fill=(100, 100, 100, 255), width=8)
+    return im

@@ -8,8 +8,9 @@ import build_audio as B, align as A
 P = os.path.abspath(sys.argv[1])
 lines = json.load(open(f"{P}/work/lines.json"))
 V = {"q": ("af_heart", 1.15, 0.5, 3.5), "a": ("bm_fable", 1.18, 0.8, 0.0)}
-TIGHT = {"ASML": "ˌeɪɛsɛmˈɛl", "TSMC": "tˌiːɛsɛmsˈiː", "GPT": "dʒˌiːpiːtˈiː", "AMD": "ˌeɪɛmdˈiː", "VLSI": "vˌiːɛlɛsˈaɪ"}
-ACR = re.compile(r"\b(ChatGPT|ASML|TSMC|GPT|AMD|VLSI)\b")
+TIGHT = {"ASML": "ˌeɪɛsɛmˈɛl", "TSMC": "tˌiːɛsɛmsˈiː", "GPT": "dʒˌiːpiːtˈiː", "AMD": "ˌeɪɛmdˈiː", "VLSI": "vˌiːɛlɛsˈaɪ",
+         "CUDA": "kˈuːdə", "xAI": "ˌɛkseɪˈaɪ", "IPO": "ˌaɪpiːˈəʊ"}
+ACR = re.compile(r"\b(ChatGPT|ASML|TSMC|GPT|AMD|VLSI|CUDA|xAI|IPO)\b")
 def speak(text, voice, speed):
     """Kokoro TTS; lines with acronyms go through phonemes so each acronym is one tight word."""
     if not ACR.search(text): return B.tts(text, voice, speed)

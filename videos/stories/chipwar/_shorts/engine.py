@@ -31,6 +31,16 @@ def cue(word, occ=1, d=0):
             if n == occ: return int(round(w['s'] * FPS)) + d
     raise KeyError((word, occ))
 
+def cl(i, word, occ=1, d=0):
+    """frame of the occ-th `word` inside voice line i (line-scoped, so repeated words in other lines can't be picked by mistake)."""
+    seg = json.load(open(os.path.join(WORK, 'segments.json')))[i]; n = 0
+    for w in WORDS:
+        if seg['s'] - 0.02 <= w['s'] <= seg['e'] + 0.02 and w['w'].lower().strip('.,?!:;') == word.lower():
+            n += 1
+            if n == occ: return int(round(w['s'] * FPS)) + d
+    raise KeyError((i, word, occ))
+def ls(i, d=0): return int(round(json.load(open(os.path.join(WORK, 'segments.json')))[i]['s'] * FPS)) + d
+
 def add(kind, f0, f1, **kw): E.append(dict(kind=kind, f0=f0, f1=f1, **kw)); return E[-1]
 
 def finish(start, moves, labels, paint):
