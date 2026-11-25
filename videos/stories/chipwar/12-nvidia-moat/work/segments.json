@@ -1,0 +1,68 @@
+[
+ {
+  "sp": "a",
+  "text": "Nvidia made over a hundred billion dollars from data centres in just three months!",
+  "s": 0.15,
+  "e": 4.204
+ },
+ {
+  "sp": "q",
+  "text": "Why does everyone buy from one company?",
+  "s": 4.404,
+  "e": 6.105
+ },
+ {
+  "sp": "a",
+  "text": "Because AI runs on its chips, and analysts estimate roughly eight in ten AI chips are Nvidia's.",
+  "s": 6.345,
+  "e": 11.769
+ },
+ {
+  "sp": "q",
+  "text": "Why can't rivals catch up?",
+  "s": 11.969,
+  "e": 13.317
+ },
+ {
+  "sp": "a",
+  "text": "Software. CUDA is twenty years old, and Nvidia says eleven million developers build on it. Switching means rewriting a lot of code.",
+  "s": 13.557,
+  "e": 19.941
+ },
+ {
+  "sp": "a",
+  "text": "Google and Amazon build their own chips, and AI labs rent them by the hundreds of thousands.",
+  "s": 20.061,
+  "e": 24.406
+ },
+ {
+  "sp": "q",
+  "text": "So Nvidia could lose its lead?",
+  "s": 24.606,
+  "e": 26.161
+ },
+ {
+  "sp": "a",
+  "text": "Maybe. But almost all of them wait in the same queue, at TSMC's chip-packaging lines in Taiwan.",
+  "s": 26.401,
+  "e": 31.297
+ },
+ {
+  "sp": "a",
+  "text": "And analysts say Nvidia holds the biggest place in that queue.",
+  "s": 31.417,
+  "e": 34.801
+ },
+ {
+  "sp": "a",
+  "text": "Like, follow History Sketches, and tell us what we should map next!",
+  "s": 34.921,
+  "e": 38.326
+ },
+ {
+  "sp": "a",
+  "text": "That's how you make over a hundred billion dollars in three months.",
+  "s": 38.446,
+  "e": 41.688
+ }
+]
