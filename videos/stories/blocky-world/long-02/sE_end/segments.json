@@ -1,0 +1,23 @@
+[
+ {
+  "sp": "pixi",
+  "text": "Which server should we break next? Comment. Subscribe, or The Admin bans your weekends too.",
+  "shot": 1,
+  "s": 0.5,
+  "e": 7.039
+ },
+ {
+  "sp": "mitten",
+  "text": "Service.",
+  "shot": 3,
+  "s": 15.739,
+  "e": 16.789
+ },
+ {
+  "sp": "pixi",
+  "text": "Don't.",
+  "shot": 4,
+  "s": 17.739,
+  "e": 18.777
+ }
+]

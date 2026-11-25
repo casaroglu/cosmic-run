@@ -1,0 +1,142 @@
+[
+ {
+  "sp": "toast",
+  "text": "Why is every body in a hurry?!",
+  "shot": 2,
+  "s": 3.5,
+  "e": 5.492
+ },
+ {
+  "sp": "pixi",
+  "text": "Don't move.",
+  "shot": 3,
+  "s": 9.4,
+  "e": 11.098
+ },
+ {
+  "sp": "toast",
+  "text": "Who are they?",
+  "shot": 5,
+  "s": 15.9,
+  "e": 16.885
+ },
+ {
+  "sp": "pixi",
+  "text": "The main characters.",
+  "shot": 5,
+  "s": 17.285,
+  "e": 19.037
+ },
+ {
+  "sp": "toast",
+  "text": "Hi! We're main characters too! In our own",
+  "shot": 6,
+  "s": 19.637,
+  "e": 22.498
+ },
+ {
+  "sp": "toast",
+  "text": "For walking?!",
+  "shot": 9,
+  "s": 29.398,
+  "e": 30.479
+ },
+ {
+  "sp": "toast",
+  "text": "So sorry, officer, he's just a guest",
+  "shot": 11,
+  "s": 34.998,
+  "e": 37.167
+ },
+ {
+  "sp": "toast",
+  "text": "We said sorry!",
+  "shot": 13,
+  "s": 42.998,
+  "e": 44.276
+ },
+ {
+  "sp": "pixi",
+  "text": "Too crowded. We're going home.",
+  "shot": 15,
+  "s": 49.198,
+  "e": 52.135
+ },
+ {
+  "sp": "toast",
+  "text": "It's dead.",
+  "shot": 18,
+  "s": 57.135,
+  "e": 58.274
+ },
+ {
+  "sp": "pixi",
+  "text": "It needs charging.",
+  "shot": 18,
+  "s": 58.774,
+  "e": 60.504
+ },
+ {
+  "sp": "toast",
+  "text": "With what? We don't have a",
+  "shot": 18,
+  "s": 60.804,
+  "e": 62.711
+ },
+ {
+  "sp": "pixi",
+  "text": "Hold it to his mouth.",
+  "shot": 20,
+  "s": 66.711,
+  "e": 68.572
+ },
+ {
+  "sp": "pixi",
+  "text": "Other end.",
+  "shot": 22,
+  "s": 73.172,
+  "e": 74.679
+ },
+ {
+  "sp": "toast",
+  "text": "Whoa. It's a pause button.",
+  "shot": 27,
+  "s": 86.979,
+  "e": 89.227
+ },
+ {
+  "sp": "pixi",
+  "text": "Not that one.",
+  "shot": 28,
+  "s": 91.127,
+  "e": 92.455
+ },
+ {
+  "sp": "toast",
+  "text": "What does it quit?",
+  "shot": 29,
+  "s": 93.055,
+  "e": 93.935
+ },
+ {
+  "sp": "pixi",
+  "text": "Everything.",
+  "shot": 29,
+  "s": 94.535,
+  "e": 95.626
+ },
+ {
+  "sp": "toast",
+  "text": "Sorry. Sorry.",
+  "shot": 32,
+  "s": 102.355,
+  "e": 103.799
+ },
+ {
+  "sp": "toast",
+  "text": "Yes. So much yes.",
+  "shot": 35,
+  "s": 112.455,
+  "e": 114.376
+ }
+]

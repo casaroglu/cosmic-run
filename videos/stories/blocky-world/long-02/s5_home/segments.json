@@ -1,0 +1,128 @@
+[
+ {
+  "sp": "toast",
+  "text": "Pink tiles. I missed you.",
+  "shot": 2,
+  "s": 3.6,
+  "e": 5.622
+ },
+ {
+  "sp": "toast",
+  "text": "You too. A little.",
+  "shot": 2,
+  "s": 6.422,
+  "e": 8.043
+ },
+ {
+  "sp": "admin",
+  "text": "Where is my controller.",
+  "shot": 4,
+  "s": 10.543,
+  "e": 12.63
+ },
+ {
+  "sp": "toast",
+  "text": "What controller?",
+  "shot": 5,
+  "s": 13.943,
+  "e": 15.604
+ },
+ {
+  "sp": "admin",
+  "text": "Play history. Three servers. One emptied. One explosion, internal.",
+  "shot": 7,
+  "s": 19.443,
+  "e": 25.223
+ },
+ {
+  "sp": "admin",
+  "text": "Five alarm donuts. And Big Head Mode.",
+  "shot": 8,
+  "s": 25.823,
+  "e": 29.145
+ },
+ {
+  "sp": "toast",
+  "text": "That was an accident.",
+  "shot": 9,
+  "s": 29.923,
+  "e": 31.618
+ },
+ {
+  "sp": "admin",
+  "text": "All of it was an accident.",
+  "shot": 9,
+  "s": 32.118,
+  "e": 34.241
+ },
+ {
+  "sp": "pixi",
+  "text": "Toast. What's in your hood.",
+  "shot": 11,
+  "s": 38.341,
+  "e": 40.306
+ },
+ {
+  "sp": "brunch",
+  "text": "everyone who lives here!",
+  "shot": 14,
+  "s": 49.241,
+  "e": 50.755
+ },
+ {
+  "sp": "mitten",
+  "text": "Where is this?",
+  "shot": 16,
+  "s": 55.141,
+  "e": 56.562
+ },
+ {
+  "sp": "pixi",
+  "text": "Night shift.",
+  "shot": 16,
+  "s": 57.062,
+  "e": 59.294
+ },
+ {
+  "sp": "mitten",
+  "text": "Do not feed the mascot after three A.M.",
+  "shot": 17,
+  "s": 59.994,
+  "e": 63.995
+ },
+ {
+  "sp": "mitten",
+  "text": "Understood.",
+  "shot": 19,
+  "s": 66.695,
+  "e": 67.968
+ },
+ {
+  "sp": "admin",
+  "text": "Banned: Toast's weekends.",
+  "shot": 22,
+  "s": 74.195,
+  "e": 76.301
+ },
+ {
+  "sp": "gran",
+  "text": "Six glazed, dear. And is the dinosaur for sale?",
+  "shot": 25,
+  "s": 82.495,
+  "e": 86.16
+ },
+ {
+  "sp": "zip",
+  "text": "Paid. Bye.",
+  "shot": 26,
+  "s": 87.695,
+  "e": 88.392
+ },
+ {
+  "sp": "gran",
+  "text": "I'll wait, dear.",
+  "shot": 27,
+  "s": 90.695,
+  "e": 92.22
+ }
+]

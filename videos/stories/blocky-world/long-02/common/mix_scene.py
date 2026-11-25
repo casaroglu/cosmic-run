@@ -26,7 +26,7 @@ for e in cue.get("extras", []):
     name, t, g = e[0], e[1], e[2]; md = e[3] if len(e) > 3 else None
     if name in SYN: x = SYN[name]
     else:
-        p = f"{S}/work/cb/fu.wav" if name == "fu" else (MEME + name + ".wav" if os.path.exists(MEME + name + ".wav") else (FS + name + ".wav" if os.path.exists(FS + name + ".wav") else LIB + name + ".wav")); x = rd(p)
+        p = f"{S}/work/cb/fu.wav" if name == "fu" else f"{S}/work/cb/isthat.wav" if name == "isthat" else (MEME + name + ".wav" if os.path.exists(MEME + name + ".wav") else (FS + name + ".wav" if os.path.exists(FS + name + ".wav") else LIB + name + ".wav")); x = rd(p)
     x = x / max(1e-6, np.abs(x).max()) * 0.85
     if md: n2 = int(md * SR); x = x[:n2].copy(); f2 = min(len(x), 1200); x[-f2:] *= np.linspace(1, 0, f2)
     add(x, t, g * 0.55)

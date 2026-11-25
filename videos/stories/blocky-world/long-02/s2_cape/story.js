@@ -9,7 +9,7 @@ let R = {}, SH = [], SEG = [];
 const FPS = 30, X0 = 600, L = [X0, 0, 0.8], PX = X0 + 4.5, MX = X0 + 7;
 const card = (w, h, draw) => { const c = document.createElement("canvas"); c.width = w; c.height = h; draw(c.getContext("2d"), w, h); const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; return t; };
 export async function build(E) {
-  try { const tl = await (await fetch("../work/timeline.json?v=" + Date.now())).json(); SH = tl.shots; } catch (e) {}
+  try { const tl = await (await fetch("../work/timeline.json?v=" + Date.now())).json(); meta.frames = Math.ceil(tl.total * 30); SH = tl.shots; } catch (e) {}
   try { SEG = await (await fetch("../work/segments.json?v=" + Date.now())).json(); } catch (e) {}
   R.w = capeCity(E, X0, 0);
   R.T = makeToast(E); R.P = makePixi(E); R.D = makeDonutsaurus(E);

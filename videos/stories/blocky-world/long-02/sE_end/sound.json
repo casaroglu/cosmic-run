@@ -1,0 +1,52 @@
+{
+ "voice": "work/voice.wav",
+ "music": {
+  "style": "mischief",
+  "bpm": 100,
+  "start": 0,
+  "stop": 17.34,
+  "level_db": -18
+ },
+ "sfx": [
+  {
+   "t": 9.339,
+   "kind": "tick",
+   "gain_db": -6
+  },
+  {
+   "t": 11.339,
+   "kind": "tick",
+   "gain_db": -6
+  },
+  {
+   "t": 14.339,
+   "kind": "ding",
+   "gain_db": -10
+  },
+  {
+   "t": 14.739,
+   "kind": "ding",
+   "gain_db": -9
+  },
+  {
+   "t": 15.139,
+   "kind": "ding",
+   "gain_db": -8
+  },
+  {
+   "t": 15.539,
+   "kind": "ding",
+   "gain_db": -7
+  },
+  {
+   "t": 15.939,
+   "kind": "ding",
+   "gain_db": -6
+  },
+  {
+   "t": 19.077,
+   "kind": "sting",
+   "gain_db": -8
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "voice": "work/voice.wav",
+ "music": {
+  "style": "mischief",
+  "bpm": 110,
+  "start": 10.5,
+  "stop": 14.1,
+  "level_db": -16
+ },
+ "sfx": [
+  {
+   "t": 0.0,
+   "kind": "sting",
+   "gain_db": -8
+  },
+  {
+   "t": 2.268,
+   "kind": "click",
+   "gain_db": 2
+  },
+  {
+   "t": 4.668,
+   "kind": "tick",
+   "gain_db": -6
+  },
+  {
+   "t": 5.068,
+   "kind": "tick",
+   "gain_db": -6
+  },
+  {
+   "t": 5.468,
+   "kind": "tick",
+   "gain_db": -6
+  },
+  {
+   "t": 7.799,
+   "kind": "tick",
+   "gain_db": -4
+  },
+  {
+   "t": 8.699,
+   "kind": "tick",
+   "gain_db": -4
+  },
+  {
+   "t": 8.999,
+   "kind": "click",
+   "gain_db": -6
+  },
+  {
+   "t": 9.599,
+   "kind": "tick",
+   "gain_db": -4
+  },
+  {
+   "t": 12.899,
+   "kind": "pop",
+   "gain_db": -4
+  },
+  {
+   "t": 14.099,
+   "kind": "tick",
+   "gain_db": -4
+  },
+  {
+   "t": 14.299,
+   "kind": "tick",
+   "gain_db": -4
+  },
+  {
+   "t": 14.499,
+   "kind": "tick",
+   "gain_db": -4
+  }
+ ]
+}

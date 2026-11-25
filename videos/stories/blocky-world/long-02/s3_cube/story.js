@@ -8,7 +8,7 @@ export const meta = { fps: 30, w: 1920, h: 1080, captions: false, tail: 0 };
 let R = {}, SH = [], SEG = [];
 const FPS = 30, X0 = 200, TX = X0 + 3, TZ = -1, HX = X0 - 2, HZ = 0.4;
 export async function build(E) {
-  try { const tl = await (await fetch("../work/timeline.json?v=" + Date.now())).json(); SH = tl.shots; R.total = tl.total; } catch (e) {}
+  try { const tl = await (await fetch("../work/timeline.json?v=" + Date.now())).json(); meta.frames = Math.ceil(tl.total * 30); SH = tl.shots; R.total = tl.total; } catch (e) {}
   try { SEG = await (await fetch("../work/segments.json?v=" + Date.now())).json(); } catch (e) {}
   R.w = cubelands(E, X0, 0); R.w.hero.g.visible = false;
   // our tree: trunk 4 cubes, crown 3x3x2
