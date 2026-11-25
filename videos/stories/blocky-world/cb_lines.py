@@ -2,7 +2,7 @@
 import json, os, sys, torch, torchaudio as ta
 from chatterbox.tts import ChatterboxTTS
 D = os.path.dirname(os.path.abspath(__file__)); src, out = sys.argv[1], sys.argv[2]; os.makedirs(out, exist_ok=True)
-V = {"toast": (f"{D}/ref_toast.wav", 1.0, 0.3), "pixi": (f"{D}/ref_pixi.wav", 0.6, 0.45)}
+V = {"toast": (f"{D}/ref_toast.wav", 1.0, 0.3), "pixi": (f"{D}/ref_pixi_human.wav", 0.55, 0.5)}
 m = ChatterboxTTS.from_pretrained(device="mps" if torch.backends.mps.is_available() else "cpu")
 for i, row in enumerate(json.load(open(src))):
     sp, text = row[0], row[1]; p = f"{out}/line_{i:02d}.wav"

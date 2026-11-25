@@ -60,41 +60,41 @@
   "text": "Don't.",
   "shot": 8,
   "s": 19.748,
-  "e": 20.432
+  "e": 20.468
  },
  {
   "sp": "toast",
   "text": "It says walk. I'm rolling.",
   "shot": 9,
-  "s": 21.282,
-  "e": 23.634
+  "s": 21.318,
+  "e": 23.67
  },
  {
   "sp": "toast",
   "text": "I froze. The board didn't.",
   "shot": 12,
-  "s": 28.184,
-  "e": 30.443
+  "s": 28.22,
+  "e": 30.479
  },
  {
   "sp": "pixi",
   "text": "He's not a monster. He's a puppy.",
   "shot": 16,
-  "s": 37.293,
-  "e": 39.776
+  "s": 37.329,
+  "e": 40.23
  },
  {
   "sp": "pixi",
   "text": "You rolled.",
   "shot": 18,
-  "s": 43.526,
-  "e": 45.213
+  "s": 43.98,
+  "e": 46.06
  },
  {
   "sp": "toast",
   "text": "Okay. This time I'll roll quietly.",
   "shot": 19,
-  "s": 45.713,
-  "e": 48.326
+  "s": 46.56,
+  "e": 49.173
  }
 ]

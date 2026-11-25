@@ -41,3 +41,6 @@ Toast = B (Kokoro am_liam, +5 st) · Pixi = A (af_bella, 0.95) · The Admin = A 
 497092 / 497093 swanee whistle up / down (v0idation) · 403002 dizzy slide whistle (martian) · 362206 horn_fail_wahwah (TaranP) · 438912 HomemadeOof (LucyTheDev).
 Not used: 679206 "jixaw metal pipe" re-upload (uploader is not the original author).
 Toast's "Fuuu—" is our own TTS, always cut before any word.
+
+## Pixi voice reference (CC0)
+687236 "feminine voice speaking more poetry" by buggly — https://freesound.org/s/687236/ (first 12 s used as the Chatterbox voice reference for Pixi, 2026-11-26)
