@@ -1,5 +1,5 @@
 {
- "note": "rank 1 = user's favourite; all recordings CC0 (see SOUND_CREDITS.md). Rejected: toast 671083, dino 447921 + 205751, synth HO HO HO, stepped TTS laughs.",
+ "note": "rank 1 = user's favourite; all recordings CC0 (see SOUND_CREDITS.md). Rejected: toast 671083, dino 447921 + 205751, synth HO HO HO, stepped TTS laughs, pixi 391547 + 468514 + 93775 + 198263.",
  "sounds": [
   {
    "file": "toast_laugh_goofy.wav",
@@ -112,6 +112,46 @@
    "rank": 2,
    "source": "freesound 142932",
    "dur": 1.69
+  },
+  {
+   "file": "pixi_laugh_soft.wav",
+   "who": "pixi",
+   "kind": "laugh",
+   "rank": 1,
+   "source": "freesound 344001",
+   "dur": 0.94
+  },
+  {
+   "file": "pixi_laugh_female.wav",
+   "who": "pixi",
+   "kind": "laugh",
+   "rank": 1,
+   "source": "freesound 151223",
+   "dur": 1.04
+  },
+  {
+   "file": "pixi_laugh_giggle.wav",
+   "who": "pixi",
+   "kind": "laugh",
+   "rank": 1,
+   "source": "freesound 611781",
+   "dur": 0.8
+  },
+  {
+   "file": "pixi_laugh_chuckle.wav",
+   "who": "pixi",
+   "kind": "laugh",
+   "rank": 1,
+   "source": "freesound 397673",
+   "dur": 0.81
+  },
+  {
+   "file": "pixi_laugh_cute.wav",
+   "who": "pixi",
+   "kind": "laugh",
+   "rank": 1,
+   "source": "freesound 611780",
+   "dur": 0.82
   }
  ]
 }

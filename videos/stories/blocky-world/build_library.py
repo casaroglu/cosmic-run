@@ -22,11 +22,12 @@ items = [  # name, who, kind, rank, source, audio
  ("dino_burp_short", "donutsaurus", "burp", 1, "freesound 570266", L.rd(570266)),
  ("dino_burp_monster", "donutsaurus", "burp", 2, "freesound 463721", L.rd(463721)),
  ("dino_burp_monster2", "donutsaurus", "burp", 2, "freesound 142932", L.rd(142932)),
+ ("pixi_laugh_soft", "pixi", "laugh", 1, "freesound 344001", L.rd(344001)),
+ ("pixi_laugh_female", "pixi", "laugh", 1, "freesound 151223", L.rd(151223)),
+ ("pixi_laugh_giggle", "pixi", "laugh", 1, "freesound 611781", L.rd(611781)),
+ ("pixi_laugh_chuckle", "pixi", "laugh", 1, "freesound 397673", L.rd(397673)),
+ ("pixi_laugh_cute", "pixi", "laugh", 1, "freesound 611780", L.rd(611780)),
 ]
 lib = [{"file": n + ".wav", "who": who, "kind": kind, "rank": r, "source": src, "dur": w(n, x)} for n, who, kind, r, src, x in items]
-json.dump({"note": "rank 1 = user's favourite; all recordings CC0 (see SOUND_CREDITS.md). Rejected: toast 671083, dino 447921 + 205751, synth HO HO HO, stepped TTS laughs.", "sounds": lib}, open(LIB + "/library.json", "w"), indent=1)
+json.dump({"note": "rank 1 = user's favourite; all recordings CC0 (see SOUND_CREDITS.md). Rejected: toast 671083, dino 447921 + 205751, synth HO HO HO, stepped TTS laughs, pixi 391547 + 468514 + 93775 + 198263.", "sounds": lib}, open(LIB + "/library.json", "w"), indent=1)
 print(len(lib), "sounds ->", LIB)
-pix = [("one. Soft laugh", 344001), ("two. Female laugh", 151223), ("three. Giggle", 611781), ("four. Short chuckle", 397673), ("five. Lady laugh", 391547), ("six. Woman laugh", 468514), ("seven. Female laugh, longer", 93775), ("eight. Cute giggle", 611780)]
-parts = []
-for lab, i in pix: parts += [L.label("Pixi laugh " + lab + "."), L.rd(i), L.sil(0.7)]
-L.save("pixi_laughs_recorded", parts)
