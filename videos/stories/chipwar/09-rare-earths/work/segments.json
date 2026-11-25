@@ -1,0 +1,74 @@
+[
+ {
+  "sp": "a",
+  "text": "In twenty twenty-five, a shortage of tiny magnets halted a Ford car factory in Chicago!",
+  "s": 0.15,
+  "e": 4.835
+ },
+ {
+  "sp": "q",
+  "text": "Magnets? How?",
+  "s": 5.035,
+  "e": 5.908
+ },
+ {
+  "sp": "a",
+  "text": "Rare-earth magnets sit inside electric motors, cars, drones and wind turbines.",
+  "s": 6.148,
+  "e": 10.826
+ },
+ {
+  "sp": "a",
+  "text": "And China makes ninety-four percent of them.",
+  "s": 10.946,
+  "e": 13.442
+ },
+ {
+  "sp": "q",
+  "text": "So what did China do?",
+  "s": 13.642,
+  "e": 14.791
+ },
+ {
+  "sp": "a",
+  "text": "In April twenty twenty-five, it put seven rare earths under licence. In May, its magnet exports fell seventy-four percent in one month.",
+  "s": 15.031,
+  "e": 21.817
+ },
+ {
+  "sp": "a",
+  "text": "Within weeks, Ford idled its Chicago plant, and European suppliers shut production lines.",
+  "s": 21.937,
+  "e": 26.371
+ },
+ {
+  "sp": "q",
+  "text": "Can the West make its own?",
+  "s": 26.571,
+  "e": 27.692
+ },
+ {
+  "sp": "a",
+  "text": "It's trying. The Pentagon bought into a California mine and promised it a minimum price. In Malaysia, Lynas made heavy rare earths outside China for the first time.",
+  "s": 27.932,
+  "e": 35.87
+ },
+ {
+  "sp": "a",
+  "text": "But ninety-four percent of the magnets still come from one country.",
+  "s": 35.99,
+  "e": 39.542
+ },
+ {
+  "sp": "a",
+  "text": "Like, follow History Sketches, and tell us what we should map next!",
+  "s": 39.662,
+  "e": 43.067
+ },
+ {
+  "sp": "a",
+  "text": "That's how a tiny magnet stopped a car factory.",
+  "s": 43.187,
+  "e": 45.937
+ }
+]

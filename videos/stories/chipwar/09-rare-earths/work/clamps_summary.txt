@@ -1,0 +1,6 @@
+ransom:MAGNETS                     frames=122 max_dx=0 max_dy=0 min_k=0.79
+tag:CALIFORNIA MINE                frames=36 max_dx=74 max_dy=0 min_k=1.00
+tag:HALTED A FORD PLANT            frames=110 max_dx=0 max_dy=0 min_k=0.97
+tag:MAGNET EXPORTS · MAY          frames=30 max_dx=0 max_dy=0 min_k=0.96
+tag:OF THE MAGNETS: CHINA          frames=37 max_dx=0 max_dy=0 min_k=0.97
+tag:RARE-EARTH MAGNETS (IEA)       frames=15 max_dx=0 max_dy=0 min_k=0.91
