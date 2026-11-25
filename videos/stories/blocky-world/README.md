@@ -21,3 +21,6 @@ Kokoro voices first (VoxCPM2 trial for Toast), first series Night Shift, 1 Short
 - Folder `night-shift-01/`: story.js (set, cast, 11 shots), lines.json + gen_voice.py (Toast am_liam +5, Pixi af_bella), sound.json (music + sfx, no whoosh), extras.json + mix_extras.py (library laughs/burps + reversed customer mumble), small preview mp4, QA sheet.
 - Full-quality video: `~/cizgi/blocky-world/out/Toast_and_Pixi_-_Night_Shift_01.mp4` (27.2 s, -14 LUFS, no freezes or black frames).
 - Not uploaded. No Gemini cover yet (hook: HE HAS NO SHADOW).
+
+## 2026-11-25: pilot rejected, new scripts
+The pilot in `night-shift-01/` was rejected by the user. New source of truth: `BIBLE.md` and `scripts/` (SHORTS.md S1-S5, LONG-01_7-nights.md). Build order: S1, S3, S5, S2, S4, then L1.
