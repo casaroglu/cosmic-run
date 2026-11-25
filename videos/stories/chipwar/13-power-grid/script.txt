@@ -1,0 +1,12 @@
+A: In Ireland, data centres now use almost a quarter of the country's electricity!
+Q: Why should anyone care?
+A: Because AI runs on power, and grids can't grow as fast as AI wants.
+A: Irish data centres used twenty-three percent of all metered electricity in twenty twenty-five. Homes used twenty-eight.
+A: Worldwide, data centres may roughly double their power use by twenty thirty.
+Q: So where will the power come from?
+A: Microsoft is restarting a reactor at Three Mile Island, and buying all of its power for twenty years.
+A: Meta signed nuclear deals for up to six point six gigawatts. In Texas, one AI campus was planned at over a gigawatt.
+Q: And when there isn't enough?
+A: Near Memphis, xAI powered its supercomputer with dozens of gas turbines, and was sued over the pollution.
+A: Like, follow History Sketches, and tell us what we should map next!
+A: That's why one small country now gives almost a quarter of its power to computers.

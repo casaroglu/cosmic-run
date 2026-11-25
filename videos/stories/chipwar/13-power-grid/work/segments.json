@@ -1,0 +1,74 @@
+[
+ {
+  "sp": "a",
+  "text": "In Ireland, data centres now use almost a quarter of the country's electricity!",
+  "s": 0.15,
+  "e": 4.547
+ },
+ {
+  "sp": "q",
+  "text": "Why should anyone care?",
+  "s": 4.747,
+  "e": 5.733
+ },
+ {
+  "sp": "a",
+  "text": "Because AI runs on power, and grids can't grow as fast as AI wants.",
+  "s": 5.973,
+  "e": 10.003
+ },
+ {
+  "sp": "a",
+  "text": "Irish data centres used twenty-three percent of all metered electricity in twenty twenty-five. Homes used twenty-eight.",
+  "s": 10.123,
+  "e": 16.528
+ },
+ {
+  "sp": "a",
+  "text": "Worldwide, data centres may roughly double their power use by twenty thirty.",
+  "s": 16.648,
+  "e": 20.664
+ },
+ {
+  "sp": "q",
+  "text": "So where will the power come from?",
+  "s": 20.864,
+  "e": 22.25
+ },
+ {
+  "sp": "a",
+  "text": "Microsoft is restarting a reactor at Three Mile Island, and buying all of its power for twenty years.",
+  "s": 22.49,
+  "e": 27.367
+ },
+ {
+  "sp": "a",
+  "text": "Meta signed nuclear deals for up to six point six gigawatts. In Texas, one AI campus was planned at over a gigawatt.",
+  "s": 27.487,
+  "e": 33.746
+ },
+ {
+  "sp": "q",
+  "text": "And when there isn't enough?",
+  "s": 33.946,
+  "e": 34.932
+ },
+ {
+  "sp": "a",
+  "text": "Near Memphis, xAI powered its supercomputer with dozens of gas turbines, and was sued over the pollution.",
+  "s": 35.172,
+  "e": 40.467
+ },
+ {
+  "sp": "a",
+  "text": "Like, follow History Sketches, and tell us what we should map next!",
+  "s": 40.587,
+  "e": 43.993
+ },
+ {
+  "sp": "a",
+  "text": "That's why one small country now gives almost a quarter of its power to computers.",
+  "s": 44.113,
+  "e": 48.375
+ }
+]
