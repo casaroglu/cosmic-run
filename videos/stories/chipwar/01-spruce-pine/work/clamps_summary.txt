@@ -1,0 +1,6 @@
+chip:                              frames=162 max_dx=23 max_dy=0 min_k=1.00
+note:not at scale                  frames=76 max_dx=0 max_dy=9 min_k=1.00
+tag:OF HIGH-PURITY QUARTZ          frames=14 max_dx=0 max_dy=0 min_k=0.98
+tag:QUARTZ BOWL                    frames=52 max_dx=0 max_dy=10 min_k=1.00
+tag:SILICON CRYSTAL                frames=110 max_dx=142 max_dy=0 min_k=1.00
+tag:THE QUARTZ CORP                frames=18 max_dx=71 max_dy=0 min_k=1.00

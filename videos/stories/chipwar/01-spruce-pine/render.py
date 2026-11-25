@@ -161,8 +161,8 @@ add('note', cue('nothing', 1, 0), cue('so', 2, -14), text='not at scale', size=9
 # the loop
 hook_group(cue('so', 2, -8), G.END)
 add('dot', cue('so', 2, 6), G.END, pin=('sprucepine', 0, 0))
-add('tag', G.NFR - 30, G.END, text='SPRUCE PINE ≈ 80%', xy=(490, 1450), rot=-1, size=46)          # hidden key text, last second
-add('tag', G.NFR - 30, G.END, text='OF HIGH-PURITY QUARTZ', xy=(490, 1520), rot=1, size=40)
+add('tag', G.NFR - 30, G.END, text='SPRUCE PINE ≈ 80%', xy=(490, 1400), rot=-1, size=46)          # hidden key text, last second
+add('tag', G.NFR - 30, G.END, text='OF HIGH-PURITY QUARTZ', xy=(490, 1476), rot=1, size=40)
 
 G.finish(SPW, MOVES, LABELS, PAINT)
 if __name__ == '__main__':
