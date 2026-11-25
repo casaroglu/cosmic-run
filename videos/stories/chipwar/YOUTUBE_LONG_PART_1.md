@@ -1,7 +1,7 @@
 # Chip Wars · Part 1 (long-form)
 
 Video: videos/out/chipwar/long-part1/video.mp4 (1920x1080, 30 fps, 389.9 s)
-Status: rendered, not uploaded. Thumbnail: not made yet.
+Status: scheduled (2026-11-27 18:00 Europe/Istanbul) — https://youtu.be/FhHWm9N9WDU, uploaded 2026-11-26. Thumbnail: videos/out/chipwar/_covers/long-part1.jpg. [Earlier note: rendered, not uploaded. Thumbnail: not made yet.]
 
 ## Title
 5 Places Every Chip on Earth Depends On
