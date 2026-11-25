@@ -1,0 +1,202 @@
+[
+ [
+  "a",
+  "In a gold rush, the people who get rich aren't always the miners. It's the people selling the shovels."
+ ],
+ [
+  "q",
+  "So who's selling the shovels in the AI gold rush?"
+ ],
+ [
+  "a",
+  "One chip company. Power plants. Cables on the sea floor. And a handful of AI labs, spending more than almost any companies in history."
+ ],
+ [
+  "q",
+  "Where does it start?"
+ ],
+ [
+  "a",
+  "In a diner in California."
+ ],
+ [
+  "a",
+  "In nineteen ninety-three, three engineers met in a Denny's in San Jose, to plan a chip for 3D video-game graphics. They called the company Nvidia."
+ ],
+ [
+  "a",
+  "For years, it sold graphics cards to gamers."
+ ],
+ [
+  "a",
+  "In two thousand six it unveiled CUDA, a way for its chips to do almost any kind of maths, not just pictures."
+ ],
+ [
+  "q",
+  "And then AI found it?"
+ ],
+ [
+  "a",
+  "In twenty twelve, a team in Toronto trained an AI called AlexNet on two gaming cards. It took about a week, and it crushed the best image-recognition systems in the world."
+ ],
+ [
+  "a",
+  "AI researchers rushed to Nvidia's chips."
+ ],
+ [
+  "a",
+  "Nvidia touched one trillion dollars in twenty twenty-three. In July twenty twenty-five it became the first company worth four trillion, and that October, the first worth five trillion."
+ ],
+ [
+  "a",
+  "In twenty twenty-three, Denny's even hung a plaque above the booth where it was dreamed up."
+ ],
+ [
+  "a",
+  "But a company that size has to keep its lead. And it has a moat."
+ ],
+ [
+  "a",
+  "Today, Nvidia makes most of its money from data centres. In the three months to October twenty twenty-six, that was one hundred and seven billion dollars, more than nine dollars in every ten it earned."
+ ],
+ [
+  "q",
+  "Why does everyone buy from one company?"
+ ],
+ [
+  "a",
+  "Analysts estimate roughly eight in ten AI chips are Nvidia's. And the real moat is software: CUDA. Nvidia says eleven million developers build on it."
+ ],
+ [
+  "a",
+  "Rivals are trying. Google and Amazon design their own chips, and AI labs rent them by the hundreds of thousands. Amazon says its own chip business now runs at more than twenty-five billion dollars a year."
+ ],
+ [
+  "a",
+  "And AMD agreed to supply OpenAI with six gigawatts of its AI chips."
+ ],
+ [
+  "q",
+  "So Nvidia could lose its lead?"
+ ],
+ [
+  "a",
+  "Maybe. But almost all of them wait in the same queue: the chip-packaging lines of TSMC in Taiwan. TSMC is racing to grow that capacity by more than half in a single year."
+ ],
+ [
+  "a",
+  "And all those chips need something else, in enormous amounts: electricity."
+ ],
+ [
+  "a",
+  "In Ireland, data centres used twenty-three percent of all metered electricity in twenty twenty-five. Ten years earlier, it was five percent."
+ ],
+ [
+  "a",
+  "Worldwide, data centres may roughly double their power use by twenty thirty."
+ ],
+ [
+  "q",
+  "Where will that power come from?"
+ ],
+ [
+  "a",
+  "Microsoft is restarting a reactor at Three Mile Island, not the one that melted down in nineteen seventy-nine, and buying all of its power for twenty years."
+ ],
+ [
+  "a",
+  "Meta signed nuclear deals for up to six point six gigawatts. Google signed one with a company building small reactors."
+ ],
+ [
+  "a",
+  "In Texas, one AI campus was planned at over a gigawatt, about as much as a large nuclear plant."
+ ],
+ [
+  "q",
+  "And when there isn't enough?"
+ ],
+ [
+  "a",
+  "Near Memphis, xAI powered its supercomputer with dozens of gas turbines, and was sued over the pollution."
+ ],
+ [
+  "a",
+  "But power is only half of it. The data has to travel too, and most of it travels under the sea."
+ ],
+ [
+  "a",
+  "Over ninety-nine percent of data between continents travels through about six hundred cables on the sea floor. Satellites carry under one percent."
+ ],
+ [
+  "a",
+  "In twenty twenty-four, a cargo ship hit by a Houthi missile drifted in the Red Sea, dragging its anchor, and cut three cables. A cable user estimated a quarter of the traffic through the Red Sea was hit."
+ ],
+ [
+  "a",
+  "In twenty twenty-five, more were cut near Jeddah. Microsoft warned its cloud traffic was slowed."
+ ],
+ [
+  "q",
+  "Was that an accident?"
+ ],
+ [
+  "a",
+  "A ship's anchor was suspected again. But in the Baltic, cable after cable has been damaged since twenty twenty-three. On Christmas Day twenty twenty-four, a tanker dragged its anchor across the Gulf of Finland, cutting a power cable and four data cables."
+ ],
+ [
+  "a",
+  "More and more of these cables are owned or used by Google, Meta, Microsoft and Amazon. They use about three quarters of all international bandwidth."
+ ],
+ [
+  "a",
+  "Chips, power, cables. All of it, for the companies racing to build the smartest AI."
+ ],
+ [
+  "a",
+  "In San Francisco, OpenAI, ChatGPT's maker, reached about nine hundred million weekly users by early twenty twenty-six. It is reportedly valued at about one point two five trillion dollars."
+ ],
+ [
+  "a",
+  "Also in San Francisco, Anthropic, the maker of Claude. In November twenty twenty-six it listed on Nasdaq and raised about eighty-one billion dollars, in one of the biggest IPOs ever."
+ ],
+ [
+  "a",
+  "In London, Google DeepMind. Google's Gemini app has over a billion monthly users."
+ ],
+ [
+  "a",
+  "Meta switched from giving its models away to a closed model in twenty twenty-six. And xAI was merged into SpaceX."
+ ],
+ [
+  "a",
+  "In Hangzhou, DeepSeek still gives its models away, now made to run on Chinese Huawei chips."
+ ],
+ [
+  "a",
+  "And in Paris, Mistral raised three billion euros, with ASML as one of its biggest investors."
+ ],
+ [
+  "q",
+  "So who wins the gold rush?"
+ ],
+ [
+  "a",
+  "Nobody knows yet. But every one of them is buying the same shovels."
+ ],
+ [
+  "a",
+  "So follow the gold rush back. A chip company born in a diner. A moat of software. Power plants and gas turbines. Cables on the sea floor. And labs betting billions."
+ ],
+ [
+  "q",
+  "And underneath all of it?"
+ ],
+ [
+  "a",
+  "The same two places we started this series with: one Dutch machine, and one island, less than a hundred miles from China."
+ ],
+ [
+  "a",
+  "Like and subscribe to History Sketches, and tell us in the comments who you think wins the AI gold rush."
+ ]
+]

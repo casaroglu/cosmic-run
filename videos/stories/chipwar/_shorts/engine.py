@@ -38,6 +38,7 @@ def cl(i, word, occ=1, d=0):
         if seg['s'] - 0.02 <= w['s'] <= seg['e'] + 0.02 and w['w'].lower().strip('.,?!:;') == word.lower():
             n += 1
             if n == occ: return int(round(w['s'] * FPS)) + d
+    if os.environ.get('CW_CHECK'): print('MISSING', i, word, occ); return int(round(seg['s'] * FPS)) + d
     raise KeyError((i, word, occ))
 def ls(i, d=0): return int(round(json.load(open(os.path.join(WORK, 'segments.json')))[i]['s'] * FPS)) + d
 

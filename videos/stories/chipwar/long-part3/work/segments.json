@@ -1,0 +1,302 @@
+[
+ {
+  "sp": "a",
+  "text": "In a gold rush, the people who get rich aren't always the miners. It's the people selling the shovels.",
+  "s": 0.15,
+  "e": 4.893
+ },
+ {
+  "sp": "q",
+  "text": "So who's selling the shovels in the AI gold rush?",
+  "s": 5.093,
+  "e": 7.489
+ },
+ {
+  "sp": "a",
+  "text": "One chip company. Power plants. Cables on the sea floor. And a handful of AI labs, spending more than almost any companies in history.",
+  "s": 7.729,
+  "e": 14.341
+ },
+ {
+  "sp": "q",
+  "text": "Where does it start?",
+  "s": 14.541,
+  "e": 15.342
+ },
+ {
+  "sp": "a",
+  "text": "In a diner in California.",
+  "s": 15.582,
+  "e": 17.576
+ },
+ {
+  "sp": "a",
+  "text": "In nineteen ninety-three, three engineers met in a Denny's in San Jose, to plan a chip for 3D video-game graphics. They called the company Nvidia.",
+  "s": 17.696,
+  "e": 24.921
+ },
+ {
+  "sp": "a",
+  "text": "For years, it sold graphics cards to gamers.",
+  "s": 25.041,
+  "e": 27.756
+ },
+ {
+  "sp": "a",
+  "text": "In two thousand six it unveiled CUDA, a way for its chips to do almost any kind of maths, not just pictures.",
+  "s": 27.876,
+  "e": 33.661
+ },
+ {
+  "sp": "q",
+  "text": "And then AI found it?",
+  "s": 33.861,
+  "e": 34.976
+ },
+ {
+  "sp": "a",
+  "text": "In twenty twelve, a team in Toronto trained an AI called AlexNet on two gaming cards. It took about a week, and it crushed the best image-recognition systems in the world.",
+  "s": 35.216,
+  "e": 43.486
+ },
+ {
+  "sp": "a",
+  "text": "AI researchers rushed to Nvidia's chips.",
+  "s": 43.606,
+  "e": 46.288
+ },
+ {
+  "sp": "a",
+  "text": "Nvidia touched one trillion dollars in twenty twenty-three. In July twenty twenty-five it became the first company worth four trillion, and that October, the first worth five trillion.",
+  "s": 46.408,
+  "e": 55.176
+ },
+ {
+  "sp": "a",
+  "text": "In twenty twenty-three, Denny's even hung a plaque above the booth where it was dreamed up.",
+  "s": 55.296,
+  "e": 59.526
+ },
+ {
+  "sp": "a",
+  "text": "But a company that size has to keep its lead. And it has a moat.",
+  "s": 59.646,
+  "e": 63.239
+ },
+ {
+  "sp": "a",
+  "text": "Today, Nvidia makes most of its money from data centres. In the three months to October twenty twenty-six, that was one hundred and seven billion dollars, more than nine dollars in every ten it earned.",
+  "s": 63.359,
+  "e": 72.597
+ },
+ {
+  "sp": "q",
+  "text": "Why does everyone buy from one company?",
+  "s": 72.797,
+  "e": 74.498
+ },
+ {
+  "sp": "a",
+  "text": "Analysts estimate roughly eight in ten AI chips are Nvidia's. And the real moat is software: CUDA. Nvidia says eleven million developers build on it.",
+  "s": 74.738,
+  "e": 82.649
+ },
+ {
+  "sp": "a",
+  "text": "Rivals are trying. Google and Amazon design their own chips, and AI labs rent them by the hundreds of thousands. Amazon says its own chip business now runs at more than twenty-five billion dollars a year.",
+  "s": 82.769,
+  "e": 92.169
+ },
+ {
+  "sp": "a",
+  "text": "And AMD agreed to supply OpenAI with six gigawatts of its AI chips.",
+  "s": 92.289,
+  "e": 96.842
+ },
+ {
+  "sp": "q",
+  "text": "So Nvidia could lose its lead?",
+  "s": 97.042,
+  "e": 98.597
+ },
+ {
+  "sp": "a",
+  "text": "Maybe. But almost all of them wait in the same queue: the chip-packaging lines of TSMC in Taiwan. TSMC is racing to grow that capacity by more than half in a single year.",
+  "s": 98.837,
+  "e": 107.714
+ },
+ {
+  "sp": "a",
+  "text": "And all those chips need something else, in enormous amounts: electricity.",
+  "s": 107.834,
+  "e": 111.671
+ },
+ {
+  "sp": "a",
+  "text": "In Ireland, data centres used twenty-three percent of all metered electricity in twenty twenty-five. Ten years earlier, it was five percent.",
+  "s": 111.791,
+  "e": 118.613
+ },
+ {
+  "sp": "a",
+  "text": "Worldwide, data centres may roughly double their power use by twenty thirty.",
+  "s": 118.733,
+  "e": 122.748
+ },
+ {
+  "sp": "q",
+  "text": "Where will that power come from?",
+  "s": 122.948,
+  "e": 124.163
+ },
+ {
+  "sp": "a",
+  "text": "Microsoft is restarting a reactor at Three Mile Island, not the one that melted down in nineteen seventy-nine, and buying all of its power for twenty years.",
+  "s": 124.403,
+  "e": 131.784
+ },
+ {
+  "sp": "a",
+  "text": "Meta signed nuclear deals for up to six point six gigawatts. Google signed one with a company building small reactors.",
+  "s": 131.904,
+  "e": 137.711
+ },
+ {
+  "sp": "a",
+  "text": "In Texas, one AI campus was planned at over a gigawatt, about as much as a large nuclear plant.",
+  "s": 137.831,
+  "e": 142.93
+ },
+ {
+  "sp": "q",
+  "text": "And when there isn't enough?",
+  "s": 143.13,
+  "e": 144.116
+ },
+ {
+  "sp": "a",
+  "text": "Near Memphis, xAI powered its supercomputer with dozens of gas turbines, and was sued over the pollution.",
+  "s": 144.356,
+  "e": 149.651
+ },
+ {
+  "sp": "a",
+  "text": "But power is only half of it. The data has to travel too, and most of it travels under the sea.",
+  "s": 149.771,
+  "e": 154.367
+ },
+ {
+  "sp": "a",
+  "text": "Over ninety-nine percent of data between continents travels through about six hundred cables on the sea floor. Satellites carry under one percent.",
+  "s": 154.487,
+  "e": 161.652
+ },
+ {
+  "sp": "a",
+  "text": "In twenty twenty-four, a cargo ship hit by a Houthi missile drifted in the Red Sea, dragging its anchor, and cut three cables. A cable user estimated a quarter of the traffic through the Red Sea was hit.",
+  "s": 161.772,
+  "e": 171.562
+ },
+ {
+  "sp": "a",
+  "text": "In twenty twenty-five, more were cut near Jeddah. Microsoft warned its cloud traffic was slowed.",
+  "s": 171.682,
+  "e": 176.619
+ },
+ {
+  "sp": "q",
+  "text": "Was that an accident?",
+  "s": 176.819,
+  "e": 177.878
+ },
+ {
+  "sp": "a",
+  "text": "A ship's anchor was suspected again. But in the Baltic, cable after cable has been damaged since twenty twenty-three. On Christmas Day twenty twenty-four, a tanker dragged its anchor across the Gulf of Finland, cutting a power cable and four data cables.",
+  "s": 178.118,
+  "e": 189.791
+ },
+ {
+  "sp": "a",
+  "text": "More and more of these cables are owned or used by Google, Meta, Microsoft and Amazon. They use about three quarters of all international bandwidth.",
+  "s": 189.911,
+  "e": 196.923
+ },
+ {
+  "sp": "a",
+  "text": "Chips, power, cables. All of it, for the companies racing to build the smartest AI.",
+  "s": 197.043,
+  "e": 201.402
+ },
+ {
+  "sp": "a",
+  "text": "In San Francisco, OpenAI, ChatGPT's maker, reached about nine hundred million weekly users by early twenty twenty-six. It is reportedly valued at about one point two five trillion dollars.",
+  "s": 201.522,
+  "e": 211.916
+ },
+ {
+  "sp": "a",
+  "text": "Also in San Francisco, Anthropic, the maker of Claude. In November twenty twenty-six it listed on Nasdaq and raised about eighty-one billion dollars, in one of the biggest IPOs ever.",
+  "s": 212.036,
+  "e": 221.005
+ },
+ {
+  "sp": "a",
+  "text": "In London, Google DeepMind. Google's Gemini app has over a billion monthly users.",
+  "s": 221.125,
+  "e": 225.588
+ },
+ {
+  "sp": "a",
+  "text": "Meta switched from giving its models away to a closed model in twenty twenty-six. And xAI was merged into SpaceX.",
+  "s": 225.708,
+  "e": 231.732
+ },
+ {
+  "sp": "a",
+  "text": "In Hangzhou, DeepSeek still gives its models away, now made to run on Chinese Huawei chips.",
+  "s": 231.852,
+  "e": 236.823
+ },
+ {
+  "sp": "a",
+  "text": "And in Paris, Mistral raised three billion euros, with ASML as one of its biggest investors.",
+  "s": 236.943,
+  "e": 241.873
+ },
+ {
+  "sp": "q",
+  "text": "So who wins the gold rush?",
+  "s": 242.073,
+  "e": 243.406
+ },
+ {
+  "sp": "a",
+  "text": "Nobody knows yet. But every one of them is buying the same shovels.",
+  "s": 243.646,
+  "e": 247.362
+ },
+ {
+  "sp": "a",
+  "text": "So follow the gold rush back. A chip company born in a diner. A moat of software. Power plants and gas turbines. Cables on the sea floor. And labs betting billions.",
+  "s": 247.482,
+  "e": 255.87
+ },
+ {
+  "sp": "q",
+  "text": "And underneath all of it?",
+  "s": 256.07,
+  "e": 257.167
+ },
+ {
+  "sp": "a",
+  "text": "The same two places we started this series with: one Dutch machine, and one island, less than a hundred miles from China.",
+  "s": 257.407,
+  "e": 263.289
+ },
+ {
+  "sp": "a",
+  "text": "Like and subscribe to History Sketches, and tell us in the comments who you think wins the AI gold rush.",
+  "s": 263.409,
+  "e": 268.435
+ }
+]

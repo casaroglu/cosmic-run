@@ -1,0 +1,48 @@
+note:a moat                        frames=11 max_dx=0 max_dy=12 min_k=1.00
+note:an accident?                  frames=18 max_dx=0 max_dy=12 min_k=1.00
+note:could Nvidia lose?            frames=26 max_dx=0 max_dy=12 min_k=1.00
+note:crushed it                    frames=37 max_dx=0 max_dy=5 min_k=1.00
+note:enter AI                      frames=19 max_dx=0 max_dy=4 min_k=1.00
+note:not enough?                   frames=18 max_dx=0 max_dy=13 min_k=1.00
+note:the race                      frames=26 max_dx=0 max_dy=13 min_k=1.00
+note:under the sea                 frames=4 max_dx=0 max_dy=8 min_k=1.00
+note:where from?                   frames=31 max_dx=0 max_dy=13 min_k=1.00
+ransom:$1 TN · 2023               frames=75 max_dx=113 max_dy=0 min_k=1.00
+ransom:$107 BN                     frames=58 max_dx=115 max_dy=0 min_k=1.00
+ransom:$25 BN+ A YEAR              frames=26 max_dx=209 max_dy=0 min_k=1.00
+ransom:$4 TN · JULY 2025          frames=35 max_dx=295 max_dy=0 min_k=1.00
+ransom:$5 TN · OCT 2025           frames=16 max_dx=238 max_dy=0 min_k=1.00
+ransom:$81 BN IPO                  frames=46 max_dx=62 max_dy=0 min_k=1.00
+ransom:3 CABLES CUT                frames=71 max_dx=216 max_dy=0 min_k=1.00
+ransom:8 IN 10                     frames=60 max_dx=23 max_dy=0 min_k=1.00
+ransom:900M WEEKLY                 frames=53 max_dx=135 max_dy=0 min_k=1.00
+ransom:ALEXNET 2012                frames=126 max_dx=225 max_dy=0 min_k=1.00
+ransom:RUSH 1                      frames=49 max_dx=0 max_dy=14 min_k=1.00
+ransom:RUSH 2                      frames=42 max_dx=0 max_dy=14 min_k=1.00
+ransom:RUSH 3                      frames=60 max_dx=0 max_dy=14 min_k=1.00
+ransom:RUSH 4                      frames=59 max_dx=0 max_dy=14 min_k=1.00
+ransom:RUSH 5                      frames=60 max_dx=0 max_dy=14 min_k=1.00
+sheet                              frames=107 max_dx=0 max_dy=40 min_k=1.00
+tag:1 POWER + 4 DATA CABLES        frames=20 max_dx=39 max_dy=0 min_k=1.00
+tag:AI CHIPS (ANALYSTS' EST.)      frames=76 max_dx=36 max_dy=0 min_k=1.00
+tag:AMAZON CHIPS                   frames=193 max_dx=90 max_dy=0 min_k=1.00
+tag:AMAZON'S CHIP BUSINESS         frames=50 max_dx=29 max_dy=0 min_k=1.00
+tag:CLOUD TRAFFIC SLOWED           frames=61 max_dx=17 max_dy=0 min_k=1.00
+tag:DATA CENTRES · 3 MONTHS       frames=90 max_dx=45 max_dy=0 min_k=1.00
+tag:DEVELOPERS (NVIDIA SAYS)       frames=21 max_dx=52 max_dy=0 min_k=1.00
+tag:DOZENS OF GAS TURBINES         frames=45 max_dx=30 max_dy=0 min_k=1.00
+tag:FREE MODELS · HUAWEI CHIPS    frames=25 max_dx=81 max_dy=0 min_k=1.00
+tag:GEMINI: 1 BN+ MONTHLY USERS    frames=22 max_dx=107 max_dy=0 min_k=1.00
+tag:GOOGLE · SMALL REACTORS       frames=40 max_dx=50 max_dy=0 min_k=1.00
+tag:GULF OF FINLAND · 25 DEC 2024 frames=95 max_dx=92 max_dy=0 min_k=1.00
+tag:HIT BY A MISSILE · 2024       frames=112 max_dx=6 max_dy=0 min_k=1.00
+tag:IRISH DATA CENTRES · 2025     frames=62 max_dx=66 max_dy=0 min_k=1.00
+tag:META: NOW A CLOSED MODEL       frames=93 max_dx=82 max_dy=0 min_k=1.00
+tag:NVIDIA · DENNY'S, SAN JOSE    frames=54 max_dx=116 max_dy=0 min_k=1.00
+tag:OF INTERNATIONAL BANDWIDTH     frames=14 max_dx=113 max_dy=0 min_k=1.00
+tag:ONE ISLAND                     frames=143 max_dx=60 max_dy=0 min_k=1.00
+tag:PACKAGING CAPACITY · 1 YEAR   frames=63 max_dx=100 max_dy=0 min_k=1.00
+tag:WORLDWIDE BY 2030 (IEA)        frames=39 max_dx=47 max_dy=0 min_k=1.00
+tag:xAI: MERGED INTO SPACEX        frames=33 max_dx=47 max_dy=0 min_k=1.00
+tag:~$1.25 TN (REPORTED)           frames=49 max_dx=16 max_dy=0 min_k=1.00
+tag:~1/4 OF RED SEA TRAFFIC (EST.) frames=33 max_dx=106 max_dy=0 min_k=1.00
