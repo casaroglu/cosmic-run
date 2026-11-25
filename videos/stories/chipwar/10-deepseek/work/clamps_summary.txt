@@ -1,0 +1,6 @@
+ransom:-$590 BN                    frames=133 max_dx=0 max_dy=0 min_k=0.92
+ransom:FREE                        frames=38 max_dx=0 max_dy=0 min_k=1.00
+tag:AHEAD OF CHATGPT               frames=23 max_dx=80 max_dy=0 min_k=1.00
+tag:BIGGEST 1-DAY LOSS IN US HISTORY frames=15 max_dx=0 max_dy=0 min_k=0.90
+tag:NVIDIA -17% ON 27 JAN 2025     frames=15 max_dx=0 max_dy=0 min_k=0.87
+tag:SLOWER, MADE FOR CHINA         frames=37 max_dx=0 max_dy=0 min_k=0.92

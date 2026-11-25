@@ -1,0 +1,12 @@
+A: In one day, a free Chinese app wiped about five hundred and ninety billion dollars off Nvidia!
+Q: How can one app do that?
+A: Investors believed AI needed ever more Nvidia chips. DeepSeek seemed to prove otherwise.
+A: In January twenty twenty-five, the Hangzhou start-up released a free model it said rivalled the best in America.
+A: It said its final training run cost about five point six million dollars in rented chips. Analysts say the real total was far higher.
+Q: Without the best chips?
+A: It trained on H eight hundreds, the slower chips Nvidia made for China.
+A: Its app jumped to number one in America, ahead of ChatGPT.
+Q: So did the chip bans fail?
+A: Experts say they leaked, not failed. And in twenty twenty-six, DeepSeek's new model was released to run on Chinese Huawei chips.
+A: Like, follow History Sketches, and tell us what we should map next!
+A: That's how one free app wiped five hundred and ninety billion dollars in a day.
