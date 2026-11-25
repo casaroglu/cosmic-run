@@ -1,0 +1,8 @@
+ransom:$4.5 BN                     frames=1 max_dx=0 max_dy=0 min_k=0.91
+ransom:7 OCT 2022                  frames=94 max_dx=0 max_dy=0 min_k=0.98
+ransom:NO CHIPS                    frames=117 max_dx=0 max_dy=0 min_k=0.85
+ransom:STOPPED                     frames=60 max_dx=0 max_dy=0 min_k=0.88
+tag:A100 · H100                   frames=42 max_dx=15 max_dy=0 min_k=1.00
+tag:A800 · H800                   frames=90 max_dx=27 max_dy=0 min_k=1.00
+tag:SALES TO CHINA (DEC 2025)      frames=15 max_dx=0 max_dy=0 min_k=0.98
+tag:US EXPORT RULE                 frames=61 max_dx=60 max_dy=0 min_k=1.00

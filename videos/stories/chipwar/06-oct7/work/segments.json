@@ -1,0 +1,80 @@
+[
+ {
+  "sp": "a",
+  "text": "In twenty twenty-two, America decided China must not have the chips that build the smartest AI!",
+  "s": 0.15,
+  "e": 5.081
+ },
+ {
+  "sp": "q",
+  "text": "Why does a chip matter that much?",
+  "s": 5.281,
+  "e": 6.609
+ },
+ {
+  "sp": "a",
+  "text": "Because the best chips train the best AI, for business, and for the military.",
+  "s": 6.849,
+  "e": 10.756
+ },
+ {
+  "sp": "a",
+  "text": "So on the seventh of October, twenty twenty-two, Washington blocked Nvidia's top AI chips from China, and the tools to make them.",
+  "s": 10.876,
+  "e": 17.215
+ },
+ {
+  "sp": "q",
+  "text": "What did Nvidia do?",
+  "s": 17.415,
+  "e": 18.446
+ },
+ {
+  "sp": "a",
+  "text": "It built slower versions just for China. The rules tightened. It built another. Then that one needed a licence too.",
+  "s": 18.686,
+  "e": 24.024
+ },
+ {
+  "sp": "a",
+  "text": "Nvidia wrote off four and a half billion dollars.",
+  "s": 24.144,
+  "e": 27.02
+ },
+ {
+  "sp": "q",
+  "text": "And now?",
+  "s": 27.22,
+  "e": 27.719
+ },
+ {
+  "sp": "a",
+  "text": "In December twenty twenty-five, Washington allowed H two hundred chips, as long as it got twenty-five percent of the sales.",
+  "s": 27.959,
+  "e": 34.036
+ },
+ {
+  "sp": "q",
+  "text": "So, from a ban... to a tax?",
+  "s": 34.236,
+  "e": 35.941
+ },
+ {
+  "sp": "a",
+  "text": "Yes. But China barely let them in, and by November twenty twenty-six, Nvidia had stopped shipping them.",
+  "s": 36.181,
+  "e": 40.953
+ },
+ {
+  "sp": "a",
+  "text": "Like, follow History Sketches, and tell us what we should map next!",
+  "s": 41.073,
+  "e": 44.478
+ },
+ {
+  "sp": "a",
+  "text": "All over who gets to build the smartest AI.",
+  "s": 44.598,
+  "e": 47.265
+ }
+]
