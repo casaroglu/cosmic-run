@@ -1,0 +1,68 @@
+[
+ {
+  "sp": "a",
+  "text": "The radar defending a city, the cables carrying your internet... both need metals one country controls!",
+  "s": 0.15,
+  "e": 5.643
+ },
+ {
+  "sp": "q",
+  "text": "Which country?",
+  "s": 5.843,
+  "e": 6.591
+ },
+ {
+  "sp": "a",
+  "text": "China. It makes ninety-nine percent of the world's gallium.",
+  "s": 6.831,
+  "e": 9.997
+ },
+ {
+  "sp": "q",
+  "text": "Why does gallium matter?",
+  "s": 10.197,
+  "e": 11.295
+ },
+ {
+  "sp": "a",
+  "text": "It's in power chips, LED lights, and the radars of modern air defence. Its cousin germanium carries light through fibre-optic cables.",
+  "s": 11.535,
+  "e": 18.448
+ },
+ {
+  "sp": "a",
+  "text": "In twenty twenty-three, China put both under licence. In December twenty twenty-four, it banned exports to America outright.",
+  "s": 18.568,
+  "e": 24.88
+ },
+ {
+  "sp": "q",
+  "text": "What happened to prices?",
+  "s": 25.08,
+  "e": 26.168
+ },
+ {
+  "sp": "a",
+  "text": "Gallium more than doubled in Europe. Germanium hit about five thousand dollars a kilo, five times its early twenty twenty-three price.",
+  "s": 26.408,
+  "e": 32.795
+ },
+ {
+  "sp": "a",
+  "text": "After a Trump-Xi truce, the ban on America was paused... for now.",
+  "s": 32.915,
+  "e": 36.585
+ },
+ {
+  "sp": "a",
+  "text": "Like, follow History Sketches, and tell us what we should map next!",
+  "s": 36.705,
+  "e": 40.11
+ },
+ {
+  "sp": "a",
+  "text": "That's the power of owning ninety-nine percent of something the world can't do without.",
+  "s": 40.23,
+  "e": 44.324
+ }
+]
