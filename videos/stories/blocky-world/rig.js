@@ -41,6 +41,8 @@ export function drawFace(g, W, H, o, e) {
     case "sad": eye(cx - dx, 1, [0, 0.5]); eye(cx + dx, 1, [0, 0.5]); brow(cx - dx, -1, -0.45); brow(cx + dx, 1, -0.45); line([-52, 22, 0, -22, 52, 22]); break;
     case "angry": eye(cx - dx, 0.8); eye(cx + dx, 0.8); brow(cx - dx, -1, 0.45, -er * 1.1); brow(cx + dx, 1, 0.45, -er * 1.1); mouthOpen(W * 0.34, H * 0.12, true, o.gap, false); break;
     case "dizzy": for (const s of [-1, 1]) { g.strokeStyle = INK; g.lineWidth = 13; g.beginPath(); const x = cx + s * dx; g.moveTo(x - er * 0.7, ey - er * 0.7); g.lineTo(x + er * 0.7, ey + er * 0.7); g.moveTo(x + er * 0.7, ey - er * 0.7); g.lineTo(x - er * 0.7, ey + er * 0.7); g.stroke(); } line([-56, 0, -10, -36, 20, 6]); line([20, 6, 40, 30, 62, 0]); break;
+    case "talk": eye(cx - dx, 1, [0, 0], o.lid ? 0.3 : 0); eye(cx + dx, 1, [0, 0], o.lid ? 0.3 : 0); brow(cx - dx, -1, -0.1); brow(cx + dx, 1, -0.1); mouthOpen(W * 0.26, H * 0.14, true, o.gap, true); break;
+    case "laugh": eye(cx - dx, 0); eye(cx + dx, 0); brow(cx - dx, -1, -0.25, -er * 1.7); brow(cx + dx, 1, -0.25, -er * 1.7); mouthOpen(W * 0.46, H * 0.22, true, o.gap, true); break;
     case "blink": eye(cx - dx, 0); eye(cx + dx, 0); brow(cx - dx, -1, -0.1); brow(cx + dx, 1, -0.1); line([-56, -6, 0, 40, 56, -6]); break;
     default: eye(cx - dx); eye(cx + dx); brow(cx - dx, -1, -0.1); brow(cx + dx, 1, -0.1); line([-62, -8, 0, 46, 62, -8]); if (o.gap) { g.fillStyle = "#fff"; g.strokeStyle = INK; g.lineWidth = 7; rr(g, cx - 34, my + 4, 26, 24, 5); g.fill(); g.stroke(); }
   }

@@ -16,3 +16,8 @@ Plan doc: https://claude.ai/artifact/A1H6ARuZnyBf6BuKdrgBCC
 
 Decisions accepted 2026-11-25: channel name proposal "Toast & Pixi", 13+ (not made for kids, rule to verify),
 Kokoro voices first (VoxCPM2 trial for Toast), first series Night Shift, 1 Short/day at 23:00 TR.
+
+## Night Shift #1 (pilot) — built 2026-11-25
+- Folder `night-shift-01/`: story.js (set, cast, 11 shots), lines.json + gen_voice.py (Toast am_liam +5, Pixi af_bella), sound.json (music + sfx, no whoosh), extras.json + mix_extras.py (library laughs/burps + reversed customer mumble), small preview mp4, QA sheet.
+- Full-quality video: `~/cizgi/blocky-world/out/Toast_and_Pixi_-_Night_Shift_01.mp4` (27.2 s, -14 LUFS, no freezes or black frames).
+- Not uploaded. No Gemini cover yet (hook: HE HAS NO SHADOW).

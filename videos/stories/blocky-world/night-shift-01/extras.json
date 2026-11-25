@@ -1,0 +1,32 @@
+{
+ "toast_laugh": [
+  9.551,
+  "toast_laugh_chipmunk",
+  0.55,
+  1.0
+ ],
+ "dino_burp": [
+  19.62933333333333,
+  "dino_burp_loud",
+  0.6,
+  1.0
+ ],
+ "dino_laugh": [
+  19.896,
+  "dino_laugh_oldman",
+  0.6,
+  1.85
+ ],
+ "pixi_laugh": [
+  23.958000000000002,
+  "pixi_laugh_giggle",
+  0.55,
+  1.0
+ ],
+ "mumble": [
+  5.34,
+  null,
+  0.45,
+  0
+ ]
+}

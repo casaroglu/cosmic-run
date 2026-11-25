@@ -1,0 +1,62 @@
+[
+ {
+  "sp": "toast",
+  "text": "Three A.M. at the donut shop!",
+  "s": 0.15,
+  "e": 1.903
+ },
+ {
+  "sp": "toast",
+  "text": "Welcome to Donut Planet! Want sprinkles on that, sir?",
+  "s": 2.603,
+  "e": 5.24
+ },
+ {
+  "sp": "pixi",
+  "text": "Toast. Look at the floor.",
+  "s": 6.34,
+  "e": 7.863
+ },
+ {
+  "sp": "toast",
+  "text": "Spotless! I mopped.",
+  "s": 8.213,
+  "e": 9.491
+ },
+ {
+  "sp": "pixi",
+  "text": "His shadow, Toast.",
+  "s": 10.491,
+  "e": 11.642
+ },
+ {
+  "sp": "toast",
+  "text": "He has no shadow!",
+  "s": 12.542,
+  "e": 13.746
+ },
+ {
+  "sp": "toast",
+  "text": "Aaaaaah!",
+  "s": 13.996,
+  "e": 14.742
+ },
+ {
+  "sp": "pixi",
+  "text": "Rule number one, Toast.",
+  "s": 21.342,
+  "e": 22.801
+ },
+ {
+  "sp": "toast",
+  "text": "I quit.",
+  "s": 23.151,
+  "e": 23.858
+ },
+ {
+  "sp": "toast",
+  "text": "Oh no. Not again. It's",
+  "s": 25.858,
+  "e": 27.157
+ }
+]

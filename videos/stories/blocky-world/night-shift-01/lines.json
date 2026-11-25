@@ -1,0 +1,10 @@
+[["toast", "Three A.M. at the donut shop!", 0.7],
+ ["toast", "Welcome to Donut Planet! Want sprinkles on that, sir?", 1.1],
+ ["pixi", "Toast. Look at the floor.", 0.35],
+ ["toast", "Spotless! I mopped.", 1.0],
+ ["pixi", "His shadow, Toast.", 0.9],
+ ["toast", "He has no shadow!", 0.25],
+ ["toast", "Aaaaaah!", 6.6],
+ ["pixi", "Rule number one, Toast.", 0.35],
+ ["toast", "I quit.", 2.0],
+ ["toast", "Oh no. Not again. It's", 0.0]]

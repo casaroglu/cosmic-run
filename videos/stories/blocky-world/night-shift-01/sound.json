@@ -1,0 +1,152 @@
+{
+ "voice": "work/voice.wav",
+ "music": {
+  "style": "mystery",
+  "bpm": 96,
+  "start": 0,
+  "stop": 27.15,
+  "level_db": -17
+ },
+ "sfx": [
+  {
+   "t": 0.2,
+   "kind": "sting",
+   "gain_db": -2
+  },
+  {
+   "t": 0.3,
+   "kind": "buzz",
+   "gain_db": -10
+  },
+  {
+   "t": 2.5,
+   "kind": "bell",
+   "gain_db": -6
+  },
+  {
+   "t": 2.55,
+   "kind": "door",
+   "gain_db": -6
+  },
+  {
+   "t": 2.8,
+   "kind": "footsteps",
+   "gain_db": -10
+  },
+  {
+   "t": 10.84,
+   "kind": "pop",
+   "gain_db": -4
+  },
+  {
+   "t": 10.89,
+   "kind": "ding",
+   "gain_db": -8
+  },
+  {
+   "t": 12.89,
+   "kind": "boing",
+   "gain_db": -2
+  },
+  {
+   "t": 12.84,
+   "kind": "sting",
+   "gain_db": -6
+  },
+  {
+   "t": 13.93,
+   "kind": "footsteps",
+   "gain_db": -6
+  },
+  {
+   "t": 14.36,
+   "kind": "boing",
+   "gain_db": -1
+  },
+  {
+   "t": 15.4,
+   "kind": "crash",
+   "gain_db": 0
+  },
+  {
+   "t": 15.4,
+   "kind": "impact",
+   "gain_db": 0
+  },
+  {
+   "t": 15.6,
+   "kind": "thud",
+   "gain_db": -2
+  },
+  {
+   "t": 15.66,
+   "kind": "stamp",
+   "gain_db": 2
+  },
+  {
+   "t": 15.93,
+   "kind": "thud",
+   "gain_db": -6
+  },
+  {
+   "t": 16.26,
+   "kind": "thud",
+   "gain_db": -8
+  },
+  {
+   "t": 17.56,
+   "kind": "crash",
+   "gain_db": -2
+  },
+  {
+   "t": 17.56,
+   "kind": "door",
+   "gain_db": -4
+  },
+  {
+   "t": 17.7,
+   "kind": "footsteps",
+   "gain_db": -3
+  },
+  {
+   "t": 17.96,
+   "kind": "thud",
+   "gain_db": -6
+  },
+  {
+   "t": 18.9,
+   "kind": "pop",
+   "gain_db": 0
+  },
+  {
+   "t": 19.16,
+   "kind": "thud",
+   "gain_db": -4
+  },
+  {
+   "t": 21.28,
+   "kind": "magic",
+   "gain_db": -4
+  },
+  {
+   "t": 21.93,
+   "kind": "ding",
+   "gain_db": -6
+  },
+  {
+   "t": 24.99,
+   "kind": "bell",
+   "gain_db": -4
+  },
+  {
+   "t": 25.66,
+   "kind": "boing",
+   "gain_db": -2
+  },
+  {
+   "t": 25.83,
+   "kind": "sting",
+   "gain_db": -3
+  }
+ ]
+}
