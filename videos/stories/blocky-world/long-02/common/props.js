@@ -20,8 +20,8 @@ export function controller(E, parent, pos = [0, 0, 0], s = 1) {
   set("CHANGE SERVER", 3); return { g, start, set };
 }
 /** confetti puff: n little boxes; call at(t, origin) each frame (t in s since the puff, -1 hides) */
-export function confetti(E, n = 70, seed = 3) {
-  const cols = ["#ff7fb8", "#ffe14a", "#19e0c6", "#9b4dff", "#ff4d4d", "#4d9bff", "#ffffff"]; let sd = seed * 9301 + 49297; const r = () => (sd = (sd * 16807) % 2147483647) / 2147483647;
+export function confetti(E, n = 70, seed = 3, colsIn = null) {
+  const cols = colsIn || ["#ff7fb8", "#ffe14a", "#19e0c6", "#9b4dff", "#ff4d4d", "#4d9bff", "#ffffff"]; let sd = seed * 9301 + 49297; const r = () => (sd = (sd * 16807) % 2147483647) / 2147483647;
   const parts = []; for (let i = 0; i < n; i++) { const m = E.box(0.09, 0.09, 0.02, E.flat(cols[i % cols.length]), [0, -60, 0], { noShadow: true, center: true }); parts.push({ m, v: [(r() - 0.5) * 6, 2 + r() * 5, (r() - 0.5) * 6], s: [r() * 9, r() * 9], dy: r() }); }
   return { at(t, o = [0, 1, 0], spread = 1) { parts.forEach((p) => { if (t < 0) { p.m.position.y = -60; return; } const tt = Math.min(t, 3); const y = o[1] + p.v[1] * tt * spread - 2.2 * tt * tt; p.m.position.set(o[0] + p.v[0] * tt * spread * (1 - tt * 0.15), Math.max(0.03 + p.dy * 0.02, y), o[2] + p.v[2] * tt * spread * (1 - tt * 0.15)); p.m.rotation.set(p.s[0] * tt, p.s[1] * tt, 0); }); } };
 }

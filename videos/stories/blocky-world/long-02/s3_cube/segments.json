@@ -1,0 +1,149 @@
+[
+ {
+  "sp": "toast",
+  "text": "Finally. Normal people.",
+  "shot": 2,
+  "s": 3.4,
+  "e": 5.133
+ },
+ {
+  "sp": "cubefolk",
+  "text": "Hm.",
+  "shot": 2,
+  "s": 5.633,
+  "e": 6.476
+ },
+ {
+  "sp": "toast",
+  "text": "See? Blocky. Like us.",
+  "shot": 3,
+  "s": 7.1,
+  "e": 8.842
+ },
+ {
+  "sp": "pixi",
+  "text": "They can't bend.",
+  "shot": 4,
+  "s": 10.8,
+  "e": 12.214
+ },
+ {
+  "sp": "toast",
+  "text": "Show-off.",
+  "shot": 4,
+  "s": 12.714,
+  "e": 13.615
+ },
+ {
+  "sp": "cubefolk",
+  "text": "Hm.",
+  "shot": 5,
+  "s": 14.3,
+  "e": 15.144
+ },
+ {
+  "sp": "toast",
+  "text": "I've always wanted to do that.",
+  "shot": 8,
+  "s": 21.6,
+  "e": 23.57
+ },
+ {
+  "sp": "toast",
+  "text": "That's not right.",
+  "shot": 9,
+  "s": 24.87,
+  "e": 26.13
+ },
+ {
+  "sp": "toast",
+  "text": "Even here?!",
+  "shot": 12,
+  "s": 33.47,
+  "e": 34.444
+ },
+ {
+  "sp": "pixi",
+  "text": "Toast. It's night.",
+  "shot": 14,
+  "s": 39.67,
+  "e": 41.699
+ },
+ {
+  "sp": "toast",
+  "text": "It was noon four seconds ago!",
+  "shot": 14,
+  "s": 42.099,
+  "e": 43.949
+ },
+ {
+  "sp": "toast",
+  "text": "Aww. A present. It's running to us. It wants a hug.",
+  "shot": 17,
+  "s": 49.649,
+  "e": 53.888
+ },
+ {
+  "sp": "pixi",
+  "text": "That's not a hug.",
+  "shot": 19,
+  "s": 57.188,
+  "e": 58.711
+ },
+ {
+  "sp": "toast",
+  "text": "Don't. Don't do it.",
+  "shot": 24,
+  "s": 69.988,
+  "e": 71.438
+ },
+ {
+  "sp": "toast",
+  "text": "Good boy? Are you okay?",
+  "shot": 27,
+  "s": 78.688,
+  "e": 80.988
+ },
+ {
+  "sp": "toast",
+  "text": "No. No more spicy presents.",
+  "shot": 29,
+  "s": 85.988,
+  "e": 88.262
+ },
+ {
+  "sp": "pixi",
+  "text": "Let's go before we get into trouble.",
+  "shot": 30,
+  "s": 89.288,
+  "e": 91.388
+ },
+ {
+  "sp": "toast",
+  "text": "Before?",
+  "shot": 30,
+  "s": 91.788,
+  "e": 92.812
+ },
+ {
+  "sp": "toast",
+  "text": "See? Still not right! Nobody else is bothered by",
+  "shot": 32,
+  "s": 95.288,
+  "e": 98.459
+ },
+ {
+  "sp": "cubefolk",
+  "text": "Hm.",
+  "shot": 36,
+  "s": 103.359,
+  "e": 104.202
+ },
+ {
+  "sp": "pixi",
+  "text": "Found the trouble.",
+  "shot": 37,
+  "s": 105.959,
+  "e": 107.689
+ }
+]

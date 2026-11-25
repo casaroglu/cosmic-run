@@ -18,6 +18,9 @@ def add(x, t, g):
     if j > i: out[i:j] += x[: j - i] * g
 tt = np.arange(int(0.12 * SR)) / SR; ch = np.sin(2 * np.pi * np.cumsum(np.linspace(1700, 2700, len(tt))) / SR) * np.hanning(len(tt)) * 0.45
 SYN = {"squeak": np.concatenate([ch, np.zeros(int(0.05 * SR)), ch[::-1]]).astype(np.float32)}
+rng = np.random.RandomState(3); _hiss = np.convolve(rng.randn(SR * 12).astype(np.float32), np.ones(3) / 3, "same") * 0.25
+_muf = np.convolve(_hiss, np.ones(40) / 40, "same") * 3
+SYN["hiss"], SYN["hiss_muffled"] = _hiss, _muf
 MEME = "/Users/canberkasaroglu/cizgi/blocky-world/work/meme/"; LIB = f"{S}/sfx_lib/"
 for e in cue.get("extras", []):
     name, t, g = e[0], e[1], e[2]; md = e[3] if len(e) > 3 else None
