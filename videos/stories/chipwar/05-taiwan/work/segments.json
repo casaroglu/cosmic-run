@@ -1,0 +1,80 @@
+[
+ {
+  "sp": "a",
+  "text": "If one island stopped tomorrow, the world would lose around ninety percent of its most advanced chips!",
+  "s": 0.15,
+  "e": 4.987
+ },
+ {
+  "sp": "q",
+  "text": "Which island?",
+  "s": 5.187,
+  "e": 6.078
+ },
+ {
+  "sp": "a",
+  "text": "Taiwan. And one company there, T, S, M, C, makes them.",
+  "s": 6.318,
+  "e": 9.601
+ },
+ {
+  "sp": "q",
+  "text": "Why not make them somewhere else?",
+  "s": 9.801,
+  "e": 11.346
+ },
+ {
+  "sp": "a",
+  "text": "Because it took almost forty years. Morris Chang founded it in nineteen eighty-seven, with one idea: make chips only for others.",
+  "s": 11.586,
+  "e": 17.7
+ },
+ {
+  "sp": "a",
+  "text": "Today Apple and Nvidia design chips, and T, S, M, C builds them. Since twenty twenty-five, Nvidia is its biggest customer.",
+  "s": 17.82,
+  "e": 24.244
+ },
+ {
+  "sp": "q",
+  "text": "How far is Taiwan from China?",
+  "s": 24.444,
+  "e": 26.199
+ },
+ {
+  "sp": "a",
+  "text": "About a hundred and thirty to a hundred and sixty kilometres. Less than a hundred miles.",
+  "s": 26.439,
+  "e": 30.753
+ },
+ {
+  "sp": "a",
+  "text": "Many call those chips Taiwan's silicon shield.",
+  "s": 30.873,
+  "e": 33.658
+ },
+ {
+  "sp": "a",
+  "text": "And America got T, S, M, C to pledge a hundred and sixty-five billion dollars for factories in Arizona.",
+  "s": 33.778,
+  "e": 39.761
+ },
+ {
+  "sp": "a",
+  "text": "Like, follow History Sketches, and tell us what we should map next!",
+  "s": 39.881,
+  "e": 43.286
+ },
+ {
+  "sp": "q",
+  "text": "So is Arizona making the best chips yet?",
+  "s": 43.486,
+  "e": 45.715
+ },
+ {
+  "sp": "a",
+  "text": "Not yet. The most advanced chips still come from one island.",
+  "s": 45.955,
+  "e": 49.171
+ }
+]

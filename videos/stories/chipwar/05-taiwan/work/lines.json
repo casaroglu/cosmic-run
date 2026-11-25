@@ -1,0 +1,15 @@
+[
+ ["a", "If one island stopped tomorrow, the world would lose around ninety percent of its most advanced chips!"],
+ ["q", "Which island?"],
+ ["a", "Taiwan. And one company there, T, S, M, C, makes them."],
+ ["q", "Why not make them somewhere else?"],
+ ["a", "Because it took almost forty years. Morris Chang founded it in nineteen eighty-seven, with one idea: make chips only for others."],
+ ["a", "Today Apple and Nvidia design chips, and T, S, M, C builds them. Since twenty twenty-five, Nvidia is its biggest customer."],
+ ["q", "How far is Taiwan from China?"],
+ ["a", "About a hundred and thirty to a hundred and sixty kilometres. Less than a hundred miles."],
+ ["a", "Many call those chips Taiwan's silicon shield."],
+ ["a", "And America got T, S, M, C to pledge a hundred and sixty-five billion dollars for factories in Arizona."],
+ ["a", "Like, follow History Sketches, and tell us what we should map next!"],
+ ["q", "So is Arizona making the best chips yet?"],
+ ["a", "Not yet. The most advanced chips still come from one island."]
+]
