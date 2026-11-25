@@ -1,11 +1,11 @@
-note:rewrite everything?           frames=21 max_dx=0 max_dy=0 min_k=0.96
-ransom:$100 BN+                    frames=112 max_dx=0 max_dy=0 min_k=0.76
+note:rewrite everything?           frames=26 max_dx=0 max_dy=0 min_k=0.96
+ransom:$100 BN+                    frames=134 max_dx=0 max_dy=0 min_k=0.76
 ransom:100,000S                    frames=39 max_dx=0 max_dy=0 min_k=0.86
 ransom:8 IN 10                     frames=43 max_dx=0 max_dy=0 min_k=0.90
 tag:AI CHIPS ARE NVIDIA'S          frames=70 max_dx=0 max_dy=0 min_k=1.00
 tag:BIGGEST PLACE (ANALYSTS)       frames=95 max_dx=0 max_dy=0 min_k=0.89
 tag:DATA CENTRE REVENUE (NVIDIA)   frames=15 max_dx=0 max_dy=0 min_k=0.84
-tag:DATA CENTRES · 3 MONTHS       frames=100 max_dx=0 max_dy=0 min_k=0.86
-tag:DEVELOPERS (NVIDIA SAYS)       frames=51 max_dx=0 max_dy=0 min_k=0.86
+tag:DATA CENTRES · 3 MONTHS       frames=122 max_dx=0 max_dy=0 min_k=0.86
+tag:DEVELOPERS (NVIDIA SAYS)       frames=54 max_dx=0 max_dy=0 min_k=0.86
 tag:GOOGLE CHIPS                   frames=85 max_dx=108 max_dy=0 min_k=1.00
 tag:TSMC PACKAGING                 frames=131 max_dx=166 max_dy=0 min_k=1.00
