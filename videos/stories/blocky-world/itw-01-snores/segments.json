@@ -4,104 +4,104 @@
   "text": "In this world...",
   "shot": 1,
   "s": 0.25,
-  "e": 1.451
+  "e": 2.08
  },
  {
   "sp": "toast",
   "text": "we only walk when it snores.",
   "shot": 2,
-  "s": 2.051,
-  "e": 3.804
+  "s": 2.68,
+  "e": 4.558
  },
  {
   "sp": "toast",
   "text": "Snore. We walk.",
   "shot": 3,
-  "s": 5.001,
-  "e": 6.238
+  "s": 5.63,
+  "e": 7.385
  },
  {
   "sp": "toast",
   "text": "Silence. We freeze.",
   "shot": 4,
-  "s": 7.651,
-  "e": 8.983
+  "s": 8.28,
+  "e": 10.557
  },
  {
   "sp": "toast",
   "text": "Every single time.",
   "shot": 5,
-  "s": 9.901,
-  "e": 11.308
+  "s": 11.207,
+  "e": 12.89
  },
  {
   "sp": "toast",
   "text": "Or the tail finds you.",
   "shot": 6,
-  "s": 12.301,
-  "e": 13.91
+  "s": 13.607,
+  "e": 15.026
  },
  {
   "sp": "toast",
   "text": "And his snores keep getting shorter.",
   "shot": 7,
-  "s": 14.801,
-  "e": 16.598
+  "s": 16.107,
+  "e": 18.151
  },
  {
   "sp": "toast",
   "text": "We'll be here all day.",
   "shot": 8,
-  "s": 17.801,
-  "e": 19.247
+  "s": 19.107,
+  "e": 20.618
  },
  {
   "sp": "pixi",
   "text": "Don't.",
   "shot": 8,
-  "s": 19.597,
-  "e": 20.276
+  "s": 20.968,
+  "e": 22.765
  },
  {
   "sp": "toast",
   "text": "It says walk. I'm rolling.",
   "shot": 9,
-  "s": 21.126,
-  "e": 22.719
+  "s": 23.615,
+  "e": 25.966
  },
  {
   "sp": "toast",
   "text": "I froze. The board didn't.",
   "shot": 12,
-  "s": 27.826,
-  "e": 29.404
+  "s": 30.516,
+  "e": 32.776
  },
  {
   "sp": "pixi",
   "text": "Small print.",
   "shot": 15,
-  "s": 33.826,
-  "e": 34.792
+  "s": 36.926,
+  "e": 37.839
  },
  {
   "sp": "pixi",
   "text": "He's not a monster. He's a puppy.",
   "shot": 16,
-  "s": 36.526,
-  "e": 38.633
+  "s": 39.626,
+  "e": 42.109
  },
  {
   "sp": "pixi",
   "text": "You rolled.",
   "shot": 18,
-  "s": 42.626,
-  "e": 43.409
+  "s": 45.859,
+  "e": 47.546
  },
  {
   "sp": "toast",
   "text": "Okay. This time I'll roll quietly.",
   "shot": 19,
-  "s": 44.376,
-  "e": 45.707
+  "s": 48.046,
+  "e": 49.854
  }
 ]

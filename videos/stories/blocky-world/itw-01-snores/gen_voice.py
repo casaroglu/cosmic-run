@@ -10,6 +10,9 @@ lines = json.load(open(f"{W}/lines.json")); clips = []
 SPOKEN = {"A.M.": "ay-em."}
 spoken = lambda t: " ".join(SPOKEN.get(w, w) for w in t.split())
 for sp, text, shot, off in lines:
+    cb = f"{W}/cb/line_{len(clips):02d}.wav"
+    if os.path.exists(cb):
+        import soundfile as sf; y0, sr0 = sf.read(cb, dtype="float32"); y0 = y0 if y0.ndim == 1 else y0.mean(1); x = np.interp(np.arange(int(len(y0) * SR / sr0)) * sr0 / SR, np.arange(len(y0)), y0).astype(np.float32); x = np.concatenate([B.trim(x), np.zeros(int(0.12 * SR), np.float32)]); clips.append((x / max(1e-6, np.abs(x).max()) * 0.9).astype(np.float32)); continue
     voice, st, speed = V[sp]; r = 2 ** (st / 12); x = B.trim(B.tts(spoken(text), voice, speed / r)); x = np.concatenate([x, np.zeros(int(0.12 * SR), np.float32)])
     if st: x = B.shape_voice(x, pitch=st)
     clips.append((x / max(1e-6, np.abs(x).max()) * 0.9).astype(np.float32))

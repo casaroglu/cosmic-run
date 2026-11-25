@@ -4,7 +4,7 @@
   "style": "mystery",
   "bpm": 90,
   "start": 0,
-  "stop": 45.71,
+  "stop": 49.85,
   "level_db": -17
  },
  "sfx": [
@@ -14,222 +14,222 @@
    "gain_db": -2
   },
   {
-   "t": 1.967,
+   "t": 2.6,
    "kind": "ding",
    "gain_db": -6
   },
   {
-   "t": 4.7,
+   "t": 5.333,
    "kind": "pop",
    "gain_db": -3
   },
   {
-   "t": 6.9,
+   "t": 7.533,
    "kind": "pop",
    "gain_db": -3
   },
   {
-   "t": 10.967,
+   "t": 12.267,
    "kind": "pop",
    "gain_db": -3
   },
   {
-   "t": 15.5,
+   "t": 16.8,
    "kind": "pop",
    "gain_db": -3
   },
   {
-   "t": 16.3,
+   "t": 17.6,
    "kind": "pop",
    "gain_db": -3
   },
   {
-   "t": 16.833,
+   "t": 18.133,
    "kind": "pop",
    "gain_db": -3
   },
   {
-   "t": 30.667,
+   "t": 33.767,
    "kind": "pop",
    "gain_db": -3
   },
   {
-   "t": 4.833,
+   "t": 5.467,
    "kind": "footsteps",
    "gain_db": -10
   },
   {
-   "t": 10.033,
+   "t": 11.333,
    "kind": "footsteps",
    "gain_db": -12
   },
   {
-   "t": 11.033,
+   "t": 12.333,
    "kind": "thud",
    "gain_db": -8
   },
   {
-   "t": 12.3,
+   "t": 13.6,
    "kind": "impact",
    "gain_db": -2
   },
   {
-   "t": 12.633,
+   "t": 13.933,
    "kind": "pop",
    "gain_db": -6
   },
   {
-   "t": 12.733,
+   "t": 14.033,
    "kind": "pop",
    "gain_db": -5
   },
   {
-   "t": 12.833,
+   "t": 14.133,
    "kind": "pop",
    "gain_db": -4
   },
   {
-   "t": 12.933,
+   "t": 14.233,
    "kind": "pop",
    "gain_db": -3
   },
   {
-   "t": 13.033,
+   "t": 14.333,
    "kind": "pop",
    "gain_db": -2
   },
   {
-   "t": 18.633,
+   "t": 19.933,
    "kind": "click",
    "gain_db": -6
   },
   {
-   "t": 25.267,
+   "t": 27.933,
    "kind": "sting",
    "gain_db": -6
   },
   {
-   "t": 25.333,
+   "t": 28.0,
    "kind": "thud",
    "gain_db": -4
   },
   {
-   "t": 30.6,
+   "t": 33.7,
    "kind": "thud",
    "gain_db": -8
   },
   {
-   "t": 33.933,
+   "t": 37.033,
    "kind": "ding",
    "gain_db": -6
   },
   {
-   "t": 36.267,
+   "t": 39.367,
    "kind": "thud",
    "gain_db": -2
-  },
-  {
-   "t": 36.7,
-   "kind": "thud",
-   "gain_db": -2
-  },
-  {
-   "t": 37.133,
-   "kind": "thud",
-   "gain_db": -2
-  },
-  {
-   "t": 37.567,
-   "kind": "thud",
-   "gain_db": -2
-  },
-  {
-   "t": 36.6,
-   "kind": "pop",
-   "gain_db": -8
-  },
-  {
-   "t": 36.733,
-   "kind": "pop",
-   "gain_db": -8
-  },
-  {
-   "t": 36.867,
-   "kind": "pop",
-   "gain_db": -8
-  },
-  {
-   "t": 37.0,
-   "kind": "pop",
-   "gain_db": -8
-  },
-  {
-   "t": 37.133,
-   "kind": "pop",
-   "gain_db": -8
-  },
-  {
-   "t": 37.267,
-   "kind": "pop",
-   "gain_db": -8
-  },
-  {
-   "t": 37.4,
-   "kind": "pop",
-   "gain_db": -8
-  },
-  {
-   "t": 37.533,
-   "kind": "pop",
-   "gain_db": -8
   },
   {
    "t": 39.8,
+   "kind": "thud",
+   "gain_db": -2
+  },
+  {
+   "t": 40.233,
+   "kind": "thud",
+   "gain_db": -2
+  },
+  {
+   "t": 40.667,
+   "kind": "thud",
+   "gain_db": -2
+  },
+  {
+   "t": 39.7,
+   "kind": "pop",
+   "gain_db": -8
+  },
+  {
+   "t": 39.833,
+   "kind": "pop",
+   "gain_db": -8
+  },
+  {
+   "t": 39.967,
+   "kind": "pop",
+   "gain_db": -8
+  },
+  {
+   "t": 40.1,
+   "kind": "pop",
+   "gain_db": -8
+  },
+  {
+   "t": 40.233,
+   "kind": "pop",
+   "gain_db": -8
+  },
+  {
+   "t": 40.367,
+   "kind": "pop",
+   "gain_db": -8
+  },
+  {
+   "t": 40.5,
+   "kind": "pop",
+   "gain_db": -8
+  },
+  {
+   "t": 40.633,
+   "kind": "pop",
+   "gain_db": -8
+  },
+  {
+   "t": 43.033,
    "kind": "impact",
    "gain_db": 0
   },
   {
-   "t": 39.8,
+   "t": 43.033,
    "kind": "crash",
    "gain_db": 0
   },
   {
-   "t": 39.833,
+   "t": 43.067,
    "kind": "stamp",
    "gain_db": 2
   },
   {
-   "t": 42.533,
+   "t": 45.767,
    "kind": "pop",
    "gain_db": -6
   },
   {
-   "t": 42.633,
+   "t": 45.867,
    "kind": "pop",
    "gain_db": -6
   },
   {
-   "t": 42.733,
+   "t": 45.967,
    "kind": "pop",
    "gain_db": -6
   },
   {
-   "t": 42.833,
+   "t": 46.067,
    "kind": "pop",
    "gain_db": -6
   },
   {
-   "t": 42.933,
+   "t": 46.167,
    "kind": "pop",
    "gain_db": -6
   },
   {
-   "t": 43.033,
+   "t": 46.267,
    "kind": "pop",
    "gain_db": -6
   },
   {
-   "t": 46.1,
+   "t": 50.4,
    "kind": "sting",
    "gain_db": -3
   }
