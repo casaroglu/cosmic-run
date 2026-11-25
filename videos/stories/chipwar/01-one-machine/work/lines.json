@@ -1,0 +1,15 @@
+[
+ ["a", "Only one company on Earth can build this machine."],
+ ["q", "Which company?"],
+ ["a", "A, S, M, L, in the Dutch town of Veldhoven."],
+ ["q", "Who buys them?"],
+ ["a", "One chipmaker in Taiwan, nine thousand kilometres away, runs more than half of them."],
+ ["q", "Is the machine all Dutch?"],
+ ["a", "No. Its mirrors come from Germany. Its light comes from San Diego."],
+ ["q", "How do you ship one?"],
+ ["a", "Forty freight containers, twenty trucks and three cargo jets."],
+ ["a", "In twenty nineteen, under pressure from Washington, the Dutch let China's export licence lapse."],
+ ["q", "So China has none?"],
+ ["a", "Not one."],
+ ["a", "Like and follow History Sketches, and tell us in the comments what we should map next."]
+]

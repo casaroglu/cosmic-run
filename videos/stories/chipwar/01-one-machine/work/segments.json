@@ -1,0 +1,80 @@
+[
+ {
+  "sp": "a",
+  "text": "Only one company on Earth can build this machine.",
+  "s": 0.25,
+  "e": 3.54
+ },
+ {
+  "sp": "q",
+  "text": "Which company?",
+  "s": 3.84,
+  "e": 4.636
+ },
+ {
+  "sp": "a",
+  "text": "A, S, M, L, in the Dutch town of Veldhoven.",
+  "s": 5.086,
+  "e": 8.439
+ },
+ {
+  "sp": "q",
+  "text": "Who buys them?",
+  "s": 8.739,
+  "e": 9.5
+ },
+ {
+  "sp": "a",
+  "text": "One chipmaker in Taiwan, nine thousand kilometres away, runs more than half of them.",
+  "s": 9.95,
+  "e": 14.832
+ },
+ {
+  "sp": "q",
+  "text": "Is the machine all Dutch?",
+  "s": 15.132,
+  "e": 16.381
+ },
+ {
+  "sp": "a",
+  "text": "No. Its mirrors come from Germany. Its light comes from San Diego.",
+  "s": 16.831,
+  "e": 21.209
+ },
+ {
+  "sp": "q",
+  "text": "How do you ship one?",
+  "s": 21.509,
+  "e": 22.501
+ },
+ {
+  "sp": "a",
+  "text": "Forty freight containers, twenty trucks and three cargo jets.",
+  "s": 22.951,
+  "e": 26.971
+ },
+ {
+  "sp": "a",
+  "text": "In twenty nineteen, under pressure from Washington, the Dutch let China's export licence lapse.",
+  "s": 27.271,
+  "e": 32.375
+ },
+ {
+  "sp": "q",
+  "text": "So China has none?",
+  "s": 32.675,
+  "e": 33.723
+ },
+ {
+  "sp": "a",
+  "text": "Not one.",
+  "s": 34.173,
+  "e": 35.194
+ },
+ {
+  "sp": "a",
+  "text": "Like and follow History Sketches, and tell us in the comments what we should map next.",
+  "s": 35.794,
+  "e": 40.532
+ }
+]

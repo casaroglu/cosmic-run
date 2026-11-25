@@ -1,0 +1,15 @@
+# Chip Wars 01: One Machine. Fact check (2 sources each)
+
+| Claim in the video | Sources |
+|---|---|
+| ASML is the only company that makes EUV lithography machines | ASML Form 20-F FY2020 (https://www.sec.gov/Archives/edgar/data/937966/000093796621000007/asml-20201231.htm); CNBC 2022 (https://www.cnbc.com/2022/03/23/inside-asml-the-company-advanced-chipmakers-use-for-euv-lithography.html); MIT Technology Review 2026 (Nikon/Canon dropped out) |
+| ASML is in Veldhoven, Netherlands | ASML 20-F (registered office Veldhoven); Wikipedia ASML Holding (https://en.wikipedia.org/wiki/ASML_Holding) |
+| One chipmaker in Taiwan (TSMC) runs more than half of all EUV machines (56% of installed base, 2023) | Digitimes, TSMC 2024 Technology Symposium (https://www.digitimes.com/news/a20241112PD204); AnandTech (https://www.anandtech.Com/show/21402/tsmc-shares-euv-progress-more-tools-more-wafers-best-pellicles-less-power); SCMP 56% (https://www.scmp.com/news/china-future-tech/semiconductors/article/3286433/tsmc-extends-dominance-semiconductors-56-share-global-lithography-systems) |
+| "Nine thousand kilometres away": Veldhoven to Hsinchu, great-circle 9,470 km | computed from coordinates (51.42N 5.40E to 24.80N 120.97E) |
+| Mirrors from Germany (ZEISS SMT, Oberkochen) | ZEISS SMT EUV page (https://www.zeiss.com/semiconductor-manufacturing-technology/inspiring-technology/euv-lithography.html); ASML lenses and mirrors (https://www.asml.com/en/technology/lithography-principles/lenses-and-mirrors) |
+| Light source from San Diego (Cymer, now ASML San Diego) | ASML San Diego (https://asml.com/company/about-asml/locations/san-diego); Laser Focus World (https://www.laserfocusworld.com/lasers-sources/article/16566434/cymer-and-asml-ship-first-euv-source-that-could-extend-moores-law-ten-more-years) |
+| One EUV system ships in about 40 freight containers, 20 trucks and 3 cargo planes | ASML figure quoted by igor'sLAB (https://www.igorslab.de/en/asml-rejects-euv-allegation-no-lithography-system-or-special-components-delivered-to-china/); Asia Times citing Wired (https://asiatimes.com/2021/09/the-150mn-machine-that-is-changing-the-world/) |
+| 2019: under US pressure, the Dutch let ASML's licence to ship an EUV machine to China lapse (expired 30 June 2019, not renewed) | Reuters via Al Jazeera (https://www.aljazeera.com/amp/economy/2020/1/6/us-tried-to-block-dutch-firms-chip-machine-sale-to-china-report); DutchNews, US ambassador confirms pressure (https://www.dutchnews.nl/2020/01/us-ambassador-confirms-pressure-to-refuse-asml-export-licence-for-china/); optics.org (https://optics.org/news/11/1/9) |
+| China has never received an EUV machine | ASML to Reuters, via igor'sLAB (link above); Al Jazeera 2020 "has not been shipped" (link above) |
+
+Notes: coastlines are Natural Earth 1:50m (public domain), shown approximately. The machine, the container and the engineer are generic drawings and do not depict a real product or person. The Hsinchu pin is TSMC's headquarters (Hsinchu Science Park); the script does not claim the EUV fabs are in Hsinchu.
