@@ -1,6 +1,6 @@
 // Toast & Pixi · S1 Night Shift #1 "Don't Feed the Mascot" — built from scripts/SHORTS.md (15 shots)
 import { makeToast, makePixi, makeDonutsaurus } from "./blocky/rig.js";
-export const meta = { fps: 30, tail: 0.03 };
+export const meta = { fps: 30, tail: 0.62 };
 let R = {}, SH = [], L = [];
 const INK = "#221a26", FPS = 30;
 const card = (E, w, h, draw) => { const { THREE } = E, c = document.createElement("canvas"); c.width = w; c.height = h; draw(c.getContext("2d"), w, h); const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 8; return t; };
@@ -11,6 +11,7 @@ function donut(E, parent, pos, s = 1, icing = "#ff7fb8", rot = [Math.PI / 2, 0, 
   const i = new THREE.Mesh(new THREE.TorusGeometry(0.16 * s, 0.07 * s, 6, 12), E.mat(icing)); i.rotation.set(...rot); i.position.y = 0.025 * s; i.scale.set(1, 1, 0.75); E.add(i, g);
   return g;
 }
+const LOOP = { cam: { pos: [3.3, 0.5, 10.8], look: [0.7, 5.0, -0.4], fov: 64 }, D: { pos: [0.3, 0, -1.0], scale: 2.3, yaw: 0.15, lean: 0.32, head: [0.55, 0, 0], jaw: 0.75, look: [0.3, -0.7] }, T: { pos: [1.9, 0, 1.7], yaw: -0.35, armL: [-2.9, 0.4], armR: [-2.9, 0.4], elbowL: 0.2, elbowR: 0.2, legLz: 0.15, legRz: 0.15 } };
 const DX = -1.6, DZ = 0.8;            // puppy spot (pet bed)
 const TPOS = [0.35, 0, 0.55];         // Toast's spot in front of the counter
 export async function build(E) {
@@ -114,13 +115,13 @@ export function frame(f0, E) {
   const ceilBend = (s) => (s > 2.15 ? { lean: 0.32, head: [0.55, 0, 0] } : {});
 
   switch (n) {
-    case 1: { // LOW flash-forward: giant under the ceiling, tiny Toast screaming
-      D.pose({ pos: giantPos, scale: 2.3, yaw: 0.35, jaw: 0.75, ...ceilBend(2.3), tailY: 0.2 * Math.sin(f * 0.3), look: [0.4, -0.6] });
-      T.pose({ pos: [0.2, 0, 0.9], yaw: -0.35, armL: [-2.9, 0.4], armR: [-2.9, 0.4], elbowL: 0.2, elbowR: 0.2, legLz: 0.15, legRz: 0.15, face: say("toast", "scared") });
+    case 1: { // LOW flash-forward (same picture as the last frame of shot 15 -> seamless loop)
+      D.pose({ ...LOOP.D, tailY: 0.2 * Math.sin(f * 0.3) });
+      T.pose({ ...LOOP.T, face: say("toast", "scared") });
       R.lamp.rotation.z = 0.35 * Math.sin(f * 0.25);
-      FXS.push({ kind: "sweat", pos: [-1.0, R.CEIL - 2.0, 0.9], size: 0.7, t: f / 30 });
-      cam = { pos: [2.0, 0.5, 9.6], look: [-1.3, 5.2, -0.6], fov: 66 };
-      OV.push(label("3:01 AM", 300, 120, 1, "#ff4d4d", 0.9 + 0.1 * pop(2, 8)));
+      const m = mouth(); if (f > 4) FXS.push({ kind: "sweat", pos: [m.x + 0.3, m.y - 0.4, m.z + 0.6], size: 0.7, t: f / 30 });
+      cam = { ...LOOP.cam };
+      OV.push(label("3:01 AM", 300, 120, pop(3, 8), "#ff4d4d", 0.9 + 0.1 * pop(3, 8)));
       break; }
     case 2: { // rewind: everything shrinks back fast, then the clock
       const k = X.easeIn(sp(S(2), S(2) + 15));
@@ -237,11 +238,20 @@ export function frame(f0, E) {
       cam = { pos: [0.6, 4.1, 15.6], look: [0.6, 4.1, 0], fov: 54 };
       const nn = Math.min(3, 1 + Math.floor(fs / 12)); OV.push(bubble("HA", nn, 600, 330, 640, 560, 0.85 + 0.15 * X.back((fs % 12) / 12), { max: 3, size: 110 }));
       break; }
-    case 15: { // MED: flat Toast peels up
+    case 15: { // MED: flat Toast peels up ... the giant leans in again and we land on shot 1's picture
+      const lastW = E.words[E.words.length - 1], tr0 = Math.round(lastW.e * FPS) - 1, kk = X.back(sp(tr0, tr0 + 12)), up = X.smooth(sp(tr0, tr0 + 8));
       const k = X.spring(sp(S(15) + 4, S(15) + 18));
-      T.pose({ pos: [1.9, 0, 1.7], yaw: 0, armR: f >= Math.round(L[9].s * 30) ? [-1.4, 0.3] : [0, 0.4], elbowR: 0.5, armL: [0, 0.4], head: [0, 0, 0.12 * Math.sin(f * 0.5)], face: say("toast", "sad"), sway: 0.08 * Math.sin(f * 0.7) * (1 - k * 0.5) });
-      T.root.scale.set(X.lerp(1.6, 1, k), X.lerp(0.08, 1, k), X.lerp(1.6, 1, k));
-      cam = { pos: [1.9, 1.9, 6.4], look: [1.9, 1.3, 1.7], fov: 48 };
+      if (f < tr0) {
+        T.pose({ pos: [1.9, 0, 1.7], yaw: 0, armR: f >= Math.round(L[9].s * 30) ? [-1.4, 0.3] : [0, 0.4], elbowR: 0.5, armL: [0, 0.4], head: [0, 0, 0.12 * Math.sin(f * 0.5)], face: say("toast", "sad"), sway: 0.08 * Math.sin(f * 0.7) * (1 - k * 0.5) });
+        T.root.scale.set(X.lerp(1.6, 1, k), X.lerp(0.08, 1, k), X.lerp(1.6, 1, k));
+        cam = { pos: [1.9, 1.9, 6.4], look: [1.9, 1.3, 1.7], fov: 48 };
+      } else {
+        D.pose({ ...LOOP.D, tailY: 0 });
+        const lt = LOOP.T; T.pose({ ...lt, yaw: X.lerp(0, lt.yaw, up), armL: [lt.armL[0] * up, 0.4], armR: [lt.armR[0] * up, 0.4], elbowL: 0.2, elbowR: 0.2, face: up > 0.4 ? "scared" : "shock" });
+        const A0 = { pos: [1.9, 1.9, 6.4], look: [1.9, 1.3, 1.7], fov: 48 }, B0 = LOOP.cam;
+        cam = { pos: A0.pos.map((v, i) => X.lerp(v, B0.pos[i], kk)), look: A0.look.map((v, i) => X.lerp(v, B0.look[i], kk)), fov: X.lerp(A0.fov, B0.fov, kk) };
+        caption = false;
+      }
       break; }
   }
   if (showCounter && !(n === 13 && f >= IMP)) OV.push(label(`SIZE ×${size}`, 150, 84, 1, "#ffe14a", sizePop));

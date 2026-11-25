@@ -29,7 +29,7 @@ Every Short is: **one rule → Toast breaks it → it escalates three times → 
 5. **Fail screen:** TOASTED! (see 5).
 6. **Twist (last 4 s):** one new piece of information that re-frames the rule (the small print,
    who wrote it, what it was protecting).
-7. **Loop:** the last line is cut mid-word and its ending is the first frame of the hook.
+7. **Loop:** the last line is cut mid-word by the hook's threat, and the camera lands on the hook's exact picture: the last frame and the first frame must be the same composition (same camera, poses and props), so the replay is seamless. Build this as one shared pose object used by both the first and the last shot.
 
 **Mute test:** the story must be understandable with the sound off. If a beat only works through
 dialogue, redraw it as an action.

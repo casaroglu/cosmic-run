@@ -4,7 +4,7 @@
   "style": "mischief",
   "bpm": 118,
   "start": 0,
-  "stop": 33.92,
+  "stop": 34.08,
   "level_db": -18
  },
  "sfx": [
@@ -172,6 +172,16 @@
    "t": 32.17,
    "kind": "pop",
    "gain_db": -2
+  },
+  {
+   "t": 33.53,
+   "kind": "thud",
+   "gain_db": -2
+  },
+  {
+   "t": 33.58,
+   "kind": "boing",
+   "gain_db": -6
   }
  ]
 }
