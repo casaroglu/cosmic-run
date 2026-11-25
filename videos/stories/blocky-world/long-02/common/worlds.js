@@ -62,7 +62,7 @@ export function turboCity(E, x0 = 400, z0 = 0) {
   const road = E.plane(200, 16, E.mat("#ffffff", { map: asphalt }), [x0, 0.005, z0], { rot: [-Math.PI / 2, 0, 0] }); road.castShadow = false;
   for (let x = -100; x < 100; x += 4) for (const dz of [-2.67, 2.67, -5.33, 5.33]) { const m = E.box(2, 0.01, 0.14, E.flat("#e8e8e8"), [x0 + x, 0.012, z0 + dz], { noShadow: true, center: true }); m.userData.noink = true; }
   const cl = E.box(200, 0.012, 0.22, E.flat("#ffffff"), [x0, 0.014, z0], { noShadow: true, center: true }); cl.userData.noink = true;
-  for (const s of [-1, 1]) { E.box(200, 0.25, 5, M("#9a96a8"), [x0, 0, z0 + s * 10.5]); for (let x = -90; x < 90; x += 9) { const g = E.group(null, [x0 + x, 0.25, z0 + s * 10.2]); E.cyl(0.18, 0.24, 6, M("#8a6a46"), [0, 0, 0], { parent: g, seg: 6 }); for (let i = 0; i < 6; i++) E.box(2.6, 0.12, 0.6, M("#3f9a3a"), [Math.cos(i) * 1.1, 6, Math.sin(i) * 1.1], { parent: g, rot: [0, i, -0.35] }); } }
+  for (const s of [-1, 1]) { E.box(200, 0.25, 5, M("#9a96a8"), [x0, 0, z0 + s * 10.5]); for (let x = -90; x < 90; x += 9) { if (s > 0) continue; const g = E.group(null, [x0 + x, 0.25, z0 + s * 10.2]); E.cyl(0.18, 0.24, 6, M("#8a6a46"), [0, 0, 0], { parent: g, seg: 6 }); for (let i = 0; i < 6; i++) E.box(2.6, 0.12, 0.6, M("#3f9a3a"), [Math.cos(i) * 1.1, 6, Math.sin(i) * 1.1], { parent: g, rot: [0, i, -0.35] }); } }
   const cols = ["#ff4fa3", "#19e0c6", "#9b4dff", "#ffb84d", "#4d9bff"];
   for (let x = -100; x < 100; x += 11) { const h = 10 + rnd() * 28, c = cols[Math.floor(rnd() * 5)]; E.box(10, h, 8, M("#2a2440"), [x0 + x, 0, z0 - 19]); for (let y = 2; y < h - 1; y += 2.2) E.box(8.6, 0.25, 0.05, E.flat(c), [x0 + x, y, z0 - 14.97], { noShadow: true }); }
   R.cars = []; return R;

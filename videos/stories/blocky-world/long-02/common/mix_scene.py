@@ -21,12 +21,12 @@ SYN = {"squeak": np.concatenate([ch, np.zeros(int(0.05 * SR)), ch[::-1]]).astype
 rng = np.random.RandomState(3); _hiss = np.convolve(rng.randn(SR * 12).astype(np.float32), np.ones(3) / 3, "same") * 0.25
 _muf = np.convolve(_hiss, np.ones(40) / 40, "same") * 3
 SYN["hiss"], SYN["hiss_muffled"] = _hiss, _muf
-MEME = "/Users/canberkasaroglu/cizgi/blocky-world/work/meme/"; LIB = f"{S}/sfx_lib/"
+FS = "/Users/canberkasaroglu/cizgi/blocky-world/work/fs/"; MEME = "/Users/canberkasaroglu/cizgi/blocky-world/work/meme/"; LIB = f"{S}/sfx_lib/"
 for e in cue.get("extras", []):
     name, t, g = e[0], e[1], e[2]; md = e[3] if len(e) > 3 else None
     if name in SYN: x = SYN[name]
     else:
-        p = f"{S}/work/cb/fu.wav" if name == "fu" else (MEME + name + ".wav" if os.path.exists(MEME + name + ".wav") else LIB + name + ".wav"); x = rd(p)
+        p = f"{S}/work/cb/fu.wav" if name == "fu" else (MEME + name + ".wav" if os.path.exists(MEME + name + ".wav") else (FS + name + ".wav" if os.path.exists(FS + name + ".wav") else LIB + name + ".wav")); x = rd(p)
     x = x / max(1e-6, np.abs(x).max()) * 0.85
     if md: n2 = int(md * SR); x = x[:n2].copy(); f2 = min(len(x), 1200); x[-f2:] *= np.linspace(1, 0, f2)
     add(x, t, g * 0.55)

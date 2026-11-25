@@ -79,3 +79,14 @@ export function car(E, col = "#ff4d4d", seed = 1) {
   for (const x of [-0.65, 0.65]) { E.box(0.36, 0.18, 0.05, E.flat("#fffbe0"), [x, 0.5, 2.11], { parent: g, noShadow: true }); E.box(0.36, 0.14, 0.05, E.flat("#ff2a2a"), [x, 0.5, -2.11], { parent: g, noShadow: true }); }
   return g;
 }
+/** The Admin: a giant blocky hand. returns {g, index, pose({pos, rotY, palmUp, point, tap})} */
+export function adminHand(E) {
+  const g = E.group(null, [0, -50, 0]), M = (c) => E.mat(c), skin = M("#d8d4e8");
+  const wrist = E.group(g, [0, 0, 0]); E.box(1.4, 3.0, 1.2, M("#3a3550"), [0, 1.6, 0], { parent: wrist }); E.box(1.5, 0.3, 1.3, M("#ffffff"), [0, 1.4, 0], { parent: wrist });
+  const palm = E.group(wrist, [0, 1.4, 0]); E.box(1.6, 1.4, 0.7, skin, [0, -1.4, 0], { parent: palm });
+  const fingers = [-0.6, -0.2, 0.2, 0.6].map((x, i) => { const f = E.group(palm, [x, -1.4, 0]); E.box(0.36, 1.0 - (i === 3 ? 0.2 : 0), 0.5, skin, [0, -1.0 + (i === 3 ? 0.2 : 0), 0], { parent: f }); return f; });
+  const thumb = E.group(palm, [0.9, -0.6, 0.1]); E.box(0.4, 0.8, 0.45, skin, [0, -0.8, 0], { parent: thumb }); thumb.rotation.z = 0.6;
+  return { g, fingers, palm, pose({ pos = [0, -50, 0], rotY = 0, palmUp = 0, point = 0, tap = 0, visible = true }) {
+    g.visible = visible; g.position.set(...pos); g.rotation.set(Math.PI * palmUp, rotY, 0);
+    fingers.forEach((f, i) => f.rotation.set(i === 1 ? -0.2 * tap : (point ? 1.8 * point : 0), 0, 0)); } };
+}

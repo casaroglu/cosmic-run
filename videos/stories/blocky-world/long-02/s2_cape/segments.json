@@ -1,0 +1,219 @@
+[
+ {
+  "sp": "brunch",
+  "text": "For the universe!",
+  "shot": 1,
+  "s": 0.3,
+  "e": 1.473
+ },
+ {
+  "sp": "toast",
+  "text": "A costume party!",
+  "shot": 6,
+  "s": 10.7,
+  "e": 12.02
+ },
+ {
+  "sp": "pixi",
+  "text": "That's not a costume party.",
+  "shot": 6,
+  "s": 12.42,
+  "e": 14.806
+ },
+ {
+  "sp": "brunch",
+  "text": "Citizens! Stand back! This is the final battle for the universe!",
+  "shot": 7,
+  "s": 15.506,
+  "e": 19.862
+ },
+ {
+  "sp": "toast",
+  "text": "Which one?",
+  "shot": 8,
+  "s": 20.606,
+  "e": 21.362
+ },
+ {
+  "sp": "brunch",
+  "text": "The universe.",
+  "shot": 8,
+  "s": 21.962,
+  "e": 22.981
+ },
+ {
+  "sp": "toast",
+  "text": "We have a different one.",
+  "shot": 8,
+  "s": 23.481,
+  "e": 24.825
+ },
+ {
+  "sp": "zip",
+  "text": "Hi. Bye.",
+  "shot": 11,
+  "s": 28.406,
+  "e": 29.061
+ },
+ {
+  "sp": "toast",
+  "text": "Do we get powers?",
+  "shot": 13,
+  "s": 31.406,
+  "e": 32.69
+ },
+ {
+  "sp": "brunch",
+  "text": "Everyone here has a power.",
+  "shot": 13,
+  "s": 33.09,
+  "e": 34.906
+ },
+ {
+  "sp": "toast",
+  "text": "None? I can mop!",
+  "shot": 15,
+  "s": 39.806,
+  "e": 41.37
+ },
+ {
+  "sp": "mitten",
+  "text": "For a thousand years I have collected the six Magnets of Everything.",
+  "shot": 16,
+  "s": 42.806,
+  "e": 48.028
+ },
+ {
+  "sp": "mitten",
+  "text": "With the last one, I will tidy the universe.",
+  "shot": 17,
+  "s": 48.528,
+  "e": 52.089
+ },
+ {
+  "sp": "toast",
+  "text": "Can you sign it, to Toast? T, O, A",
+  "shot": 17,
+  "s": 52.189,
+  "e": 55.325
+ },
+ {
+  "sp": "gran",
+  "text": "Hold still, dear.",
+  "shot": 18,
+  "s": 56.025,
+  "e": 57.62
+ },
+ {
+  "sp": "mitten",
+  "text": "Behold. The Donut of Destiny.",
+  "shot": 19,
+  "s": 59.025,
+  "e": 61.948
+ },
+ {
+  "sp": "pixi",
+  "text": "Oh no.",
+  "shot": 21,
+  "s": 65.948,
+  "e": 67.224
+ },
+ {
+  "sp": "mitten",
+  "text": "That was a thousand years.",
+  "shot": 24,
+  "s": 75.048,
+  "e": 77.394
+ },
+ {
+  "sp": "toast",
+  "text": "Hang on. I've got this.",
+  "shot": 25,
+  "s": 78.148,
+  "e": 79.861
+ },
+ {
+  "sp": "toast",
+  "text": "He does that. Sorry. He'll return it. Tomorrow. Probably.",
+  "shot": 27,
+  "s": 83.448,
+  "e": 87.091
+ },
+ {
+  "sp": "mitten",
+  "text": "Five will have to do.",
+  "shot": 28,
+  "s": 89.048,
+  "e": 91.041
+ },
+ {
+  "sp": "brunch",
+  "text": "No! With only five the snap is unstable! It will only take",
+  "shot": 29,
+  "s": 92.248,
+  "e": 96.239
+ },
+ {
+  "sp": "toast",
+  "text": "Is that guy about to",
+  "shot": 30,
+  "s": 96.848,
+  "e": 98.286
+ },
+ {
+  "sp": "zip",
+  "text": "Wait!",
+  "shot": 33,
+  "s": 101.086,
+  "e": 101.604
+ },
+ {
+  "sp": "brunch",
+  "text": "everyone who lives here.",
+  "shot": 36,
+  "s": 107.386,
+  "e": 108.848
+ },
+ {
+  "sp": "mitten",
+  "text": "Ah.",
+  "shot": 37,
+  "s": 111.186,
+  "e": 112.034
+ },
+ {
+  "sp": "toast",
+  "text": "Hello?",
+  "shot": 39,
+  "s": 118.086,
+  "e": 119.316
+ },
+ {
+  "sp": "toast",
+  "text": "Did we win?",
+  "shot": 40,
+  "s": 120.986,
+  "e": 122.162
+ },
+ {
+  "sp": "pixi",
+  "text": "We were never here.",
+  "shot": 40,
+  "s": 122.762,
+  "e": 124.127
+ },
+ {
+  "sp": "toast",
+  "text": "Should we tell someone?",
+  "shot": 42,
+  "s": 128.386,
+  "e": 129.626
+ },
+ {
+  "sp": "pixi",
+  "text": "There's no one to tell. Button. Now.",
+  "shot": 43,
+  "s": 130.886,
+  "e": 134.542
+ }
+]
