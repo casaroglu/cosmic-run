@@ -1,13 +1,13 @@
-A: The newest iPhones, Chat G P T, every top AI... none of it exists without one machine!
+A: The newest iPhones, ChatGPT, every top AI... none of it exists without one machine!
 Q: One machine? What if it broke?
 A: No new AI chips. No new iPhones. And only one company on Earth can build it.
-A: A, S, M, L, in a small Dutch town called Veldhoven.
+A: ASML, in a small Dutch town called Veldhoven.
 Q: Why can't anyone else make it?
 A: Because it fires a laser at falling drops of tin, fifty thousand times a second!
 A: Each flash is hotter than the surface of the Sun. That light draws circuits thousands of times thinner than a hair.
 A: Its mirrors are so smooth that, blown up to the size of Germany, the biggest bump would be a tenth of a millimetre.
 Q: So who gets one?
-A: More than half work for T, S, M, C in Taiwan, the company that makes Nvidia's AI chips.
+A: More than half work for TSMC in Taiwan, the company that makes Nvidia's AI chips.
 Q: And China?
 A: Not one. In twenty nineteen, under pressure from Washington, the Dutch let China's licence lapse.
 A: That's why China has to build its best chips with older machines, and why the whole AI race runs through one Dutch town.

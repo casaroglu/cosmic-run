@@ -1,0 +1,12 @@
+chip:                              frames=208 max_dx=18 max_dy=0 min_k=1.00
+machine:                           frames=75 max_dx=0 max_dy=26 min_k=1.00
+note:biggest bump                  frames=30 max_dx=31 max_dy=0 min_k=1.00
+note:than a hair!                  frames=7 max_dx=0 max_dy=9 min_k=1.00
+ransom:DUTCH TOWN                  frames=60 max_dx=0 max_dy=0 min_k=0.89
+ransom:MACHINE                     frames=175 max_dx=0 max_dy=0 min_k=0.99
+ransom:THINNER                     frames=16 max_dx=0 max_dy=0 min_k=0.93
+tag:2019 · LAPSED                 frames=55 max_dx=31 max_dy=0 min_k=1.00
+tag:ASML                           frames=216 max_dx=0 max_dy=7 min_k=1.00
+tag:CHATGPT                        frames=66 max_dx=17 max_dy=0 min_k=1.00
+tag:IPHONES                        frames=72 max_dx=1 max_dy=0 min_k=1.00
+wafer:                             frames=35 max_dx=11 max_dy=0 min_k=1.00

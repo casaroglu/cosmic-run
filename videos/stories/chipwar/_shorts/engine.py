@@ -162,15 +162,41 @@ def resolve(p, cam, f):
 def pos(e, cam):
     if 'xy' in e: return e['xy']
     name, dx, dy = e['pin']; return cam.pt(name, dx, dy)
+# ---- hard layout clamp: every piece's rotated box (at slap 1.1, plus boil) stays inside the safe frame
+MARGIN = (48, 48, 1920 - 48, 1080 - 48) if LANDSCAPE else (40, 60, 940, 1540)   # Shorts: right 140 px and bottom kept free for the YouTube UI
+CUR = {'f': 0, 'moving': False}; LOGCLAMP = [os.environ.get('CW_LOGCLAMP') == '1']   # set by main() so the pool workers log too
+def clamp(center, w, h, rot=0.0, e=None, what='', max_scale=1.1):
+    """shift a piece inward (and shrink it if it is still too big) so its box stays inside MARGIN; returns (center, k).
+    Map-pinned pieces are left alone while the camera is moving (they slide in and out with the map)."""
+    if e is not None and 'pin' in e and CUR['moving']: return center, 1.0
+    a = math.radians(rot); c, s = abs(math.cos(a)), abs(math.sin(a))
+    bw = (w * c + h * s) * max_scale + 4; bh = (w * s + h * c) * max_scale + 4
+    x0, y0, x1, y1 = MARGIN
+    k = min(1.0, (x1 - x0) / bw, (y1 - y0) / bh); bw *= k; bh *= k
+    cx = min(max(center[0], x0 + bw / 2), x1 - bw / 2); cy = min(max(center[1], y0 + bh / 2), y1 - bh / 2)
+    if LOGCLAMP[0] and (abs(cx - center[0]) > 0.5 or abs(cy - center[1]) > 0.5 or k < 0.999):
+        with open(os.path.join(WORK, 'clamps.log'), 'a') as fh:
+            fh.write(f"f{CUR['f']}\t{what}\tdx={cx - center[0]:.0f}\tdy={cy - center[1]:.0f}\tk={k:.2f}\n")
+    return (cx, cy), k
+
 def put(img, piece, e, f, cam, xy=None, rot=0.0, scale=1.0, shadow=True):
     x, y = xy if xy else pos(e, cam); bx, by, br = boil(f, id_of(e))
-    place(img, piece, (x + bx, y + by), rot + br, scale * slap(f - e['f0']), shadow)
+    (x, y), k = clamp((x, y), piece.width * scale, piece.height * scale, rot, e, f"{e['kind']}:{e.get('text', e.get('key', e.get('title', '')))}")
+    place(img, piece, (x + bx, y + by), rot + br, scale * k * slap(f - e['f0']), shadow)
 def ink_jitter(pts, f, seed):
     r = random.Random(seed * 31 + (f // 8) % 3); return [(x + r.uniform(-1, 1), y + r.uniform(-1, 1)) for x, y in pts]
 def prefix(path, frac):
     n = max(2, int(len(path) * frac)); return path[:n]
 
-def ransom_letters(base, text, center, size, seed, n, f0, f):
+def ransom_letters(base, text, center, size, seed, n, f0, f, e=None, _k=1.0):
+    if _k == 1.0:      # clamp the whole word first (letters jitter +-8 px and +-7 deg); shrink it if it is too wide
+        tot = 0
+        for i, ch in enumerate(text):
+            if ch == ' ': tot += size * 0.35 + 6; continue
+            fnt = font(F_ANTON, size) if (ch.isdigit() or ch in '$~%,.') else RANSOM_FONTS[i % 3](size)
+            bb = ImageDraw.Draw(Image.new('L', (1, 1))).textbbox((0, 0), ch, font=fnt); tot += bb[2] - bb[0] + size * 0.32 + 6
+        center, k = clamp(center, tot + 16, size * 1.12 + 30, 0, e, f'ransom:{text}')
+        if k < 0.999: return ransom_letters(base, text, center, int(size * k), seed, n, f0, f, e, k)
     rnd = random.Random(seed); pieces = []
     for i, ch in enumerate(text):
         if ch == ' ': pieces.append(None); continue
@@ -213,6 +239,7 @@ def sheet_img(text, age):
 # ------------------------------------------------------------------ one frame
 def render(f):
     f -= f % 2
+    CUR['f'] = f; CUR['moving'] = focus_at(f) != focus_at(f - 2) or focus_at(f) != focus_at(f + 2)
     cam = cam_at(f)
     feat, sweep = [], {}
     for iso, (f0, f1) in PAINT.items():
@@ -263,14 +290,17 @@ def render(f):
             place(img, im, (60 + im.width / 2 + bx, 70 + h / 2 + by), -1.2 + br, slap(age))
             place(img, cached(('tag', e['fig'], 30), lambda: tag(e['fig'], 30)), (130 + bx, 66 + by), 2.0 + br, slap(age))
         elif k == 'ransom':
-            ransom_letters(img, e['text'], pos(e, cam), e['size'], e['seed'], age // 3 + 1, e['f0'], f)
+            ransom_letters(img, e['text'], pos(e, cam), e['size'], e['seed'], age // 3 + 1, e['f0'], f, e)
         elif k == 'tag':
             put(img, cached(('tag', e['text'], e.get('size', 24)), lambda: tag(e['text'], e.get('size', 24))), e, f, cam, None, e.get('rot', 0))
         elif k == 'note':
             n = int((age + 1) * 1.3); txt = e['text'][:n]
             if txt.strip():
-                im = note(txt, e['size']); full = cached(('note', e['text']), lambda: note(e['text'], e['size']))
-                x, y = pos(e, cam); x -= (full.width - im.width) / 2; y -= (full.height - im.height) / 2
+                full = cached(('note', e['text'], e['size']), lambda: note(e['text'], e['size']))
+                (x, y), k = clamp(pos(e, cam), full.width, full.height, e['rot'], e, f"note:{e['text']}", max_scale=1.02)
+                sz = int(e['size'] * k) if k < 0.999 else e['size']
+                if sz != e['size']: full = cached(('note', e['text'], sz), lambda: note(e['text'], sz))
+                im = note(txt, sz); x -= (full.width - im.width) / 2; y -= (full.height - im.height) / 2
                 bx, by, br = boil(f, sd); place(img, im, (x + bx, y + by), e['rot'] + br, 1.0, shadow=False)
         elif k == 'machine':
             seq = [-15, 0, 15, 30, 15, 0]; ang = seq[(age // 6) % len(seq)]
@@ -298,7 +328,8 @@ def render(f):
             pulse = (1.0, 0.82, 1.08, 0.9)[(age // 2) % 4]
             if e.get('big_at') and 0 <= f - e['big_at'] < 40: pulse *= 1.45
             x, y = e['xy']; bx, by, _ = boil(f, sd)
-            place(img, cached('flash', draw_flash), (x + bx, y + by), (age // 2) * 7 % 45, pulse * slap(age))
+            fl = cached('flash', draw_flash); (x, y), k = clamp((x, y), fl.width * 0.8, fl.height * 0.8, 0, e, 'flash', max_scale=1.45 * 1.1)
+            place(img, fl, (x + bx, y + by), (age // 2) * 7 % 45, pulse * k * slap(age))
         elif k == 'sun':
             put(img, cached('sun', draw_sun), e, f, cam, rot=e['rot'])
         elif k == 'wafer':
@@ -311,7 +342,8 @@ def render(f):
             wob = 4 * math.sin(age * 0.6) if t < 1 else 0
             place(img, im, flyer_xy(f) if t < 1 else (FX, FY - 20), -3 + wob, 1.0 if t < 1 else slap(f - e['fb']))
         elif k == 'sheet':
-            bx, by, br = boil(f, sd); place(img, sheet_img(e['text'], age), (e['xy'][0] + bx, e['xy'][1] + by), 0.6 + br, slap(age))
+            sh = sheet_img(e['text'], age); (sx, sy), k = clamp(e['xy'], sh.width, sh.height, 0.6, e, 'sheet')
+            bx, by, br = boil(f, sd); place(img, sh, (sx + bx, sy + by), 0.6 + br, k * slap(age))
     ink2 = mask()
     for e in live:   # ink X marks on top of the pieces
         if e['kind'] == 'inkx':
@@ -395,6 +427,8 @@ def build_audio(path):
 # ------------------------------------------------------------------ main
 def main():
     mode = sys.argv[1]
+    if mode in ('sheet', 'video'):
+        LOGCLAMP[0] = True; os.environ['CW_LOGCLAMP'] = '1'; open(os.path.join(WORK, 'clamps.log'), 'w').close()
     if mode == 'frame':
         f = int(sys.argv[2]); Image.fromarray(render(f)).save(os.path.join(WORK, f'f{f:04d}.png')); print('ok')
     elif mode == 'sheet':

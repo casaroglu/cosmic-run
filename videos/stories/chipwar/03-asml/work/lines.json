@@ -1,17 +1,62 @@
 [
- ["a", "The newest iPhones, Chat G P T, every top AI... none of it exists without one machine!"],
- ["q", "One machine? What if it broke?"],
- ["a", "No new AI chips. No new iPhones. And only one company on Earth can build it."],
- ["a", "A, S, M, L, in a small Dutch town called Veldhoven."],
- ["q", "Why can't anyone else make it?"],
- ["a", "Because it fires a laser at falling drops of tin, fifty thousand times a second!"],
- ["a", "Each flash is hotter than the surface of the Sun. That light draws circuits thousands of times thinner than a hair."],
- ["a", "Its mirrors are so smooth that, blown up to the size of Germany, the biggest bump would be a tenth of a millimetre."],
- ["q", "So who gets one?"],
- ["a", "More than half work for T, S, M, C in Taiwan, the company that makes Nvidia's AI chips."],
- ["q", "And China?"],
- ["a", "Not one. In twenty nineteen, under pressure from Washington, the Dutch let China's licence lapse."],
- ["a", "That's why China has to build its best chips with older machines, and why the whole AI race runs through one Dutch town."],
- ["a", "Like, follow History Sketches, and tell us what we should map next!"],
- ["a", "None of it exists without one machine."]
+ [
+  "a",
+  "The newest iPhones, ChatGPT, every top AI... none of it exists without one machine!"
+ ],
+ [
+  "q",
+  "One machine? What if it broke?"
+ ],
+ [
+  "a",
+  "No new AI chips. No new iPhones. And only one company on Earth can build it."
+ ],
+ [
+  "a",
+  "ASML, in a small Dutch town called Veldhoven."
+ ],
+ [
+  "q",
+  "Why can't anyone else make it?"
+ ],
+ [
+  "a",
+  "Because it fires a laser at falling drops of tin, fifty thousand times a second!"
+ ],
+ [
+  "a",
+  "Each flash is hotter than the surface of the Sun. That light draws circuits thousands of times thinner than a hair."
+ ],
+ [
+  "a",
+  "Its mirrors are so smooth that, blown up to the size of Germany, the biggest bump would be a tenth of a millimetre."
+ ],
+ [
+  "q",
+  "So who gets one?"
+ ],
+ [
+  "a",
+  "More than half work for TSMC in Taiwan, the company that makes Nvidia's AI chips."
+ ],
+ [
+  "q",
+  "And China?"
+ ],
+ [
+  "a",
+  "Not one. In twenty nineteen, under pressure from Washington, the Dutch let China's licence lapse."
+ ],
+ [
+  "a",
+  "That's why China has to build its best chips with older machines, and why the whole AI race runs through one Dutch town."
+ ],
+ [
+  "a",
+  "Like, follow History Sketches, and tell us what we should map next!"
+ ],
+ [
+  "a",
+  "None of it exists without one machine."
+ ]
 ]

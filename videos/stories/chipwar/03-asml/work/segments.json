@@ -1,92 +1,92 @@
 [
  {
   "sp": "a",
-  "text": "The newest iPhones, Chat G P T, every top AI... none of it exists without one machine!",
+  "text": "The newest iPhones, ChatGPT, every top AI... none of it exists without one machine!",
   "s": 0.15,
-  "e": 5.138
+  "e": 5.019
  },
  {
   "sp": "q",
   "text": "One machine? What if it broke?",
-  "s": 5.338,
-  "e": 6.869
+  "s": 5.219,
+  "e": 6.713
  },
  {
   "sp": "a",
   "text": "No new AI chips. No new iPhones. And only one company on Earth can build it.",
-  "s": 7.109,
-  "e": 11.729
+  "s": 6.953,
+  "e": 11.573
  },
  {
   "sp": "a",
-  "text": "A, S, M, L, in a small Dutch town called Veldhoven.",
-  "s": 11.849,
-  "e": 15.066
+  "text": "ASML, in a small Dutch town called Veldhoven.",
+  "s": 11.693,
+  "e": 14.743
  },
  {
   "sp": "q",
   "text": "Why can't anyone else make it?",
-  "s": 15.266,
-  "e": 16.793
+  "s": 14.943,
+  "e": 16.278
  },
  {
   "sp": "a",
   "text": "Because it fires a laser at falling drops of tin, fifty thousand times a second!",
-  "s": 17.033,
-  "e": 21.418
+  "s": 16.518,
+  "e": 20.903
  },
  {
   "sp": "a",
   "text": "Each flash is hotter than the surface of the Sun. That light draws circuits thousands of times thinner than a hair.",
-  "s": 21.538,
-  "e": 26.603
+  "s": 21.023,
+  "e": 26.088
  },
  {
   "sp": "a",
   "text": "Its mirrors are so smooth that, blown up to the size of Germany, the biggest bump would be a tenth of a millimetre.",
-  "s": 26.723,
-  "e": 32.246
+  "s": 26.208,
+  "e": 31.731
  },
  {
   "sp": "q",
   "text": "So who gets one?",
-  "s": 32.446,
-  "e": 33.493
+  "s": 31.931,
+  "e": 32.826
  },
  {
   "sp": "a",
-  "text": "More than half work for T, S, M, C in Taiwan, the company that makes Nvidia's AI chips.",
-  "s": 33.733,
-  "e": 38.618
+  "text": "More than half work for TSMC in Taiwan, the company that makes Nvidia's AI chips.",
+  "s": 33.066,
+  "e": 37.96
  },
  {
   "sp": "q",
   "text": "And China?",
-  "s": 38.818,
-  "e": 39.563
+  "s": 38.16,
+  "e": 38.77
  },
  {
   "sp": "a",
   "text": "Not one. In twenty nineteen, under pressure from Washington, the Dutch let China's licence lapse.",
-  "s": 39.803,
-  "e": 44.498
+  "s": 39.01,
+  "e": 43.705
  },
  {
   "sp": "a",
   "text": "That's why China has to build its best chips with older machines, and why the whole AI race runs through one Dutch town.",
-  "s": 44.618,
-  "e": 50.251
+  "s": 43.825,
+  "e": 49.458
  },
  {
   "sp": "a",
   "text": "Like, follow History Sketches, and tell us what we should map next!",
-  "s": 50.371,
-  "e": 53.776
+  "s": 49.578,
+  "e": 52.983
  },
  {
   "sp": "a",
   "text": "None of it exists without one machine.",
-  "s": 53.896,
-  "e": 56.234
+  "s": 53.103,
+  "e": 55.441
  }
 ]
