@@ -1,0 +1,80 @@
+[
+ {
+  "sp": "a",
+  "text": "This machine fires a laser at a falling drop of tin, fifty thousand times a second!",
+  "s": 0.15,
+  "e": 4.747
+ },
+ {
+  "sp": "q",
+  "text": "Why would anyone do that?",
+  "s": 4.947,
+  "e": 6.314
+ },
+ {
+  "sp": "a",
+  "text": "Each hit makes a flash of light hotter than the surface of the Sun. That light prints the circuits on the world's best chips.",
+  "s": 6.554,
+  "e": 12.083
+ },
+ {
+  "sp": "q",
+  "text": "Who builds it?",
+  "s": 12.283,
+  "e": 13.141
+ },
+ {
+  "sp": "a",
+  "text": "Only one company on Earth: A, S, M, L, in Veldhoven, the Netherlands.",
+  "s": 13.381,
+  "e": 16.948
+ },
+ {
+  "sp": "a",
+  "text": "Its mirrors come from Zeiss in Germany. Blown up to the size of Germany, the biggest bump would be a tenth of a millimetre!",
+  "s": 17.068,
+  "e": 23.132
+ },
+ {
+  "sp": "q",
+  "text": "And how do you deliver it?",
+  "s": 23.332,
+  "e": 24.602
+ },
+ {
+  "sp": "a",
+  "text": "Forty containers, twenty trucks, three cargo jets. The newest version costs around four hundred million dollars.",
+  "s": 24.842,
+  "e": 30.224
+ },
+ {
+  "sp": "a",
+  "text": "More than half of them work for one chipmaker in Taiwan.",
+  "s": 30.344,
+  "e": 33.292
+ },
+ {
+  "sp": "q",
+  "text": "And China?",
+  "s": 33.492,
+  "e": 34.238
+ },
+ {
+  "sp": "a",
+  "text": "Never received one. In twenty nineteen, the Dutch let China's licence lapse.",
+  "s": 34.478,
+  "e": 38.719
+ },
+ {
+  "sp": "a",
+  "text": "Like, follow History Sketches, and tell us what we should map next!",
+  "s": 38.839,
+  "e": 42.244
+ },
+ {
+  "sp": "a",
+  "text": "All of it, from one drop of tin, fifty thousand times a second.",
+  "s": 42.364,
+  "e": 45.83
+ }
+]
