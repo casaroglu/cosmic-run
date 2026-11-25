@@ -1,0 +1,80 @@
+[
+ {
+  "sp": "a",
+  "text": "Almost every smartphone on Earth runs on a design from one British company... that has never made a single chip!",
+  "s": 0.15,
+  "e": 5.607
+ },
+ {
+  "sp": "q",
+  "text": "Then how does it make money?",
+  "s": 5.807,
+  "e": 7.182
+ },
+ {
+  "sp": "a",
+  "text": "Arm, from Cambridge, sells blueprints. Apple, Samsung and Qualcomm pay a fee on every chip built from them.",
+  "s": 7.422,
+  "e": 12.825
+ },
+ {
+  "sp": "q",
+  "text": "Why does that matter?",
+  "s": 13.025,
+  "e": 14.046
+ },
+ {
+  "sp": "a",
+  "text": "Because whoever owns Arm holds the keys to over ninety-nine percent of smartphones.",
+  "s": 14.286,
+  "e": 18.622
+ },
+ {
+  "sp": "a",
+  "text": "Over three hundred billion Arm-based chips have shipped so far.",
+  "s": 18.742,
+  "e": 22.101
+ },
+ {
+  "sp": "q",
+  "text": "Who owns it?",
+  "s": 22.301,
+  "e": 23.182
+ },
+ {
+  "sp": "a",
+  "text": "In twenty sixteen, Japan's SoftBank bought it for twenty-four billion pounds.",
+  "s": 23.422,
+  "e": 27.53
+ },
+ {
+  "sp": "a",
+  "text": "In twenty twenty, Nvidia offered forty billion dollars. Regulators in America, Britain and Europe pushed back.",
+  "s": 27.65,
+  "e": 33.632
+ },
+ {
+  "sp": "q",
+  "text": "Why?",
+  "s": 33.832,
+  "e": 34.303
+ },
+ {
+  "sp": "a",
+  "text": "They feared one chip giant would control the blueprints its rivals need. The deal died in twenty twenty-two.",
+  "s": 34.543,
+  "e": 39.707
+ },
+ {
+  "sp": "a",
+  "text": "Like, follow History Sketches, and tell us what we should map next!",
+  "s": 39.827,
+  "e": 43.232
+ },
+ {
+  "sp": "a",
+  "text": "Not bad, for a company that has never made a single chip.",
+  "s": 43.352,
+  "e": 46.418
+ }
+]
