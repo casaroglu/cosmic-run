@@ -24,4 +24,9 @@ Donutsaurus 1-3 (tuba, squeaky toy, clown horn laughs) are synthesised in `laugh
 
 ## Voices chosen 2026-11-25
 Toast = B (Kokoro am_liam, +5 st) · Pixi = A (af_bella, 0.95) · The Admin = A (bm_george, -4 st, reverb).
-Donutsaurus sound and laughs: waiting for the user's pick.
+
+## Approved library (2026-11-25): `sfx_lib/` + `sfx_lib/library.json`
+- Toast laughs: 697900, 731882, 697530, 513983, 463817 (all usable, pick per scene). Rejected: 671083.
+- Donutsaurus laughs, best first: 166150 (old man, -5 st), 522132 (demonic), tuba synth, squeaky-toy synth, horn synth. Rejected: 447921, 205751.
+- Donutsaurus burps: 214451 and 570266 best; 463721 and 142932 good.
+- Pixi: must be a woman's laugh. Candidates (all CC0): 344001 Reitanna, 151223 OwlStorm, 611781 + 611780 DarkNightPrincess, 397673 amoyssi, 391547 SkySpeira, 468514 SamuelGremaud, 93775 rdneubauer. Waiting for the pick. 198263 (unfa, male) rejected.

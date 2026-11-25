@@ -1,0 +1,117 @@
+{
+ "note": "rank 1 = user's favourite; all recordings CC0 (see SOUND_CREDITS.md). Rejected: toast 671083, dino 447921 + 205751, synth HO HO HO, stepped TTS laughs.",
+ "sounds": [
+  {
+   "file": "toast_laugh_goofy.wav",
+   "who": "toast",
+   "kind": "laugh",
+   "rank": 1,
+   "source": "freesound 697900 (+3 st)",
+   "dur": 1.04
+  },
+  {
+   "file": "toast_laugh_wacky.wav",
+   "who": "toast",
+   "kind": "laugh",
+   "rank": 1,
+   "source": "freesound 731882 (+3 st)",
+   "dur": 1.37
+  },
+  {
+   "file": "toast_laugh_clown.wav",
+   "who": "toast",
+   "kind": "laugh",
+   "rank": 1,
+   "source": "freesound 697530 (+3 st)",
+   "dur": 1.34
+  },
+  {
+   "file": "toast_laugh_cute.wav",
+   "who": "toast",
+   "kind": "laugh",
+   "rank": 1,
+   "source": "freesound 513983",
+   "dur": 0.86
+  },
+  {
+   "file": "toast_laugh_chipmunk.wav",
+   "who": "toast",
+   "kind": "laugh",
+   "rank": 1,
+   "source": "freesound 463817",
+   "dur": 0.91
+  },
+  {
+   "file": "dino_laugh_oldman.wav",
+   "who": "donutsaurus",
+   "kind": "laugh",
+   "rank": 1,
+   "source": "freesound 166150 (-5 st)",
+   "dur": 3.31
+  },
+  {
+   "file": "dino_laugh_demonic.wav",
+   "who": "donutsaurus",
+   "kind": "laugh",
+   "rank": 2,
+   "source": "freesound 522132",
+   "dur": 2.57
+  },
+  {
+   "file": "dino_laugh_tuba.wav",
+   "who": "donutsaurus",
+   "kind": "laugh",
+   "rank": 3,
+   "source": "synth (laugh_samples.tuba_laugh)",
+   "dur": 2.15
+  },
+  {
+   "file": "dino_laugh_squeak.wav",
+   "who": "donutsaurus",
+   "kind": "laugh",
+   "rank": 4,
+   "source": "synth (laugh_samples.squeak_laugh)",
+   "dur": 1.08
+  },
+  {
+   "file": "dino_laugh_honk.wav",
+   "who": "donutsaurus",
+   "kind": "laugh",
+   "rank": 5,
+   "source": "synth (laugh_samples.honk_laugh)",
+   "dur": 1.48
+  },
+  {
+   "file": "dino_burp_loud.wav",
+   "who": "donutsaurus",
+   "kind": "burp",
+   "rank": 1,
+   "source": "freesound 214451",
+   "dur": 0.89
+  },
+  {
+   "file": "dino_burp_short.wav",
+   "who": "donutsaurus",
+   "kind": "burp",
+   "rank": 1,
+   "source": "freesound 570266",
+   "dur": 0.57
+  },
+  {
+   "file": "dino_burp_monster.wav",
+   "who": "donutsaurus",
+   "kind": "burp",
+   "rank": 2,
+   "source": "freesound 463721",
+   "dur": 2.48
+  },
+  {
+   "file": "dino_burp_monster2.wav",
+   "who": "donutsaurus",
+   "kind": "burp",
+   "rank": 2,
+   "source": "freesound 142932",
+   "dur": 1.69
+  }
+ ]
+}

@@ -34,14 +34,15 @@ def honk_laugh():  # clown-horn "honk honk honk"
         y = np.sign(np.sin(ph)) * 0.5 + np.sin(ph * 2) * 0.4 + np.sin(ph * 3) * 0.25; y = np.convolve(y, np.ones(6) / 6, "same"); out += [y * np.minimum(1, x * 80) * np.minimum(1, (d - x) * 40), sil(0.07)]
     return norm(np.concatenate(out))
 up = lambda x, st: norm(B.shape_voice(x, pitch=st))
-toast = [("one. Goofy laugh", 697900, 3), ("two. Wacky laugh", 731882, 3), ("three. Goofy man", 671083, 4), ("four. Clown laugh", 697530, 3), ("five. Cute cartoon laugh", 513983, 0), ("six. Chipmunk laugh", 463817, 0)]
-parts = []
-for lab, i, st in toast: parts += [label("Toast laugh " + lab + "."), up(rd(i), st) if st else rd(i), sil(0.7)]
-save("toast_laughs_recorded", parts)
-dino = [("one. Tuba laugh, made by code", tuba_laugh()), ("two. Squeaky toy laugh, made by code", squeak_laugh()), ("three. Clown horn laugh, made by code", honk_laugh()),
-        ("four. Old man laugh, pitched down", up(rd(166150), -5)), ("five. Demonic laugh", rd(522132)), ("six. Alien cackle", rd(447921)), ("seven. Imp laugh, pitched down", up(rd(205751), -4)),
-        ("eight. Monster burp", rd(463721)), ("nine. Monster burp two", rd(142932)), ("ten. Loud burp", rd(214451)), ("eleven. Short burp", rd(570266))]
-parts = []
-for lab, x in dino: parts += [label("Donutsaurus " + lab + "."), x, sil(0.7)]
-save("donutsaurus_sounds", parts)
-save("pixi_laugh_recorded", [label("Pixi laugh one."), rd(198263), sil(0.5), label("Pixi laugh one, higher."), up(rd(198263), 3), sil(0.5)])
+if __name__ == "__main__":
+    toast = [("one. Goofy laugh", 697900, 3), ("two. Wacky laugh", 731882, 3), ("three. Goofy man", 671083, 4), ("four. Clown laugh", 697530, 3), ("five. Cute cartoon laugh", 513983, 0), ("six. Chipmunk laugh", 463817, 0)]
+    parts = []
+    for lab, i, st in toast: parts += [label("Toast laugh " + lab + "."), up(rd(i), st) if st else rd(i), sil(0.7)]
+    save("toast_laughs_recorded", parts)
+    dino = [("one. Tuba laugh, made by code", tuba_laugh()), ("two. Squeaky toy laugh, made by code", squeak_laugh()), ("three. Clown horn laugh, made by code", honk_laugh()),
+            ("four. Old man laugh, pitched down", up(rd(166150), -5)), ("five. Demonic laugh", rd(522132)), ("six. Alien cackle", rd(447921)), ("seven. Imp laugh, pitched down", up(rd(205751), -4)),
+            ("eight. Monster burp", rd(463721)), ("nine. Monster burp two", rd(142932)), ("ten. Loud burp", rd(214451)), ("eleven. Short burp", rd(570266))]
+    parts = []
+    for lab, x in dino: parts += [label("Donutsaurus " + lab + "."), x, sil(0.7)]
+    save("donutsaurus_sounds", parts)
+    save("pixi_laugh_recorded", [label("Pixi laugh one."), rd(198263), sil(0.5), label("Pixi laugh one, higher."), up(rd(198263), 3), sil(0.5)])
