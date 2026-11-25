@@ -1,0 +1,68 @@
+[
+ {
+  "sp": "a",
+  "text": "One sinking ship's anchor knocked out about a quarter of the internet traffic through the Red Sea!",
+  "s": 0.15,
+  "e": 4.317
+ },
+ {
+  "sp": "q",
+  "text": "Why does that matter to me?",
+  "s": 4.517,
+  "e": 5.595
+ },
+ {
+  "sp": "a",
+  "text": "Because almost everything you send between continents travels through cables on the sea floor. Satellites carry under one percent.",
+  "s": 5.835,
+  "e": 11.775
+ },
+ {
+  "sp": "a",
+  "text": "About six hundred cables carry over ninety-nine percent of that data.",
+  "s": 11.895,
+  "e": 15.73
+ },
+ {
+  "sp": "q",
+  "text": "What happened in the Red Sea?",
+  "s": 15.93,
+  "e": 17.068
+ },
+ {
+  "sp": "a",
+  "text": "In twenty twenty-four, a cargo ship hit by a Houthi missile drifted, dragging its anchor, and cut three cables.",
+  "s": 17.308,
+  "e": 23.211
+ },
+ {
+  "sp": "a",
+  "text": "In twenty twenty-five, more were cut near Jeddah. And in the Baltic, cable after cable has been damaged since twenty twenty-three.",
+  "s": 23.331,
+  "e": 29.459
+ },
+ {
+  "sp": "q",
+  "text": "Who owns these cables?",
+  "s": 29.659,
+  "e": 30.837
+ },
+ {
+  "sp": "a",
+  "text": "More and more, Google, Meta, Microsoft and Amazon. They use about three quarters of all international bandwidth.",
+  "s": 31.077,
+  "e": 36.691
+ },
+ {
+  "sp": "a",
+  "text": "Like, follow History Sketches, and tell us what we should map next!",
+  "s": 36.811,
+  "e": 40.217
+ },
+ {
+  "sp": "a",
+  "text": "And all it took to hit a quarter of the Red Sea's traffic... was one anchor.",
+  "s": 40.337,
+  "e": 44.121
+ }
+]

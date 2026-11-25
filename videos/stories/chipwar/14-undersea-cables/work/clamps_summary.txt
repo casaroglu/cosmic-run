@@ -1,0 +1,10 @@
+ransom:3 CABLES CUT                frames=26 max_dx=0 max_dy=0 min_k=0.67
+ransom:ONE ANCHOR                  frames=130 max_dx=0 max_dy=0 min_k=0.74
+tag:99%+ OF INTERCONTINENTAL DATA  frames=15 max_dx=0 max_dy=0 min_k=0.77
+tag:CABLES · 99%+ OF THE DATA     frames=33 max_dx=0 max_dy=0 min_k=0.87
+tag:GOES BY CABLE (TELEGEOGRAPHY)  frames=15 max_dx=0 max_dy=0 min_k=0.80
+tag:HIT BY A MISSILE · 2024       frames=87 max_dx=0 max_dy=0 min_k=0.98
+tag:MICROSOFT                      frames=106 max_dx=4 max_dy=0 min_k=1.00
+tag:OF INTERNATIONAL BANDWIDTH     frames=57 max_dx=0 max_dy=0 min_k=0.80
+tag:SATELLITES: UNDER 1%           frames=26 max_dx=0 max_dy=0 min_k=0.94
+tag:~1/4 OF RED SEA TRAFFIC        frames=118 max_dx=0 max_dy=0 min_k=0.89
