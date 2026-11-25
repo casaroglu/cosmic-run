@@ -4,7 +4,7 @@
   "style": "mischief",
   "bpm": 118,
   "start": 0,
-  "stop": 31.3,
+  "stop": 33.92,
   "level_db": -18
  },
  "sfx": [
@@ -39,102 +39,137 @@
    "gain_db": -6
   },
   {
-   "t": 8.57,
+   "t": 9.27,
    "kind": "tick",
    "gain_db": -3
   },
   {
-   "t": 9.17,
+   "t": 9.87,
    "kind": "pop",
    "gain_db": 0
   },
   {
-   "t": 9.97,
+   "t": 10.67,
    "kind": "boing",
    "gain_db": -1
   },
   {
-   "t": 13.2,
+   "t": 13.94,
    "kind": "pop",
-   "gain_db": -6
+   "gain_db": -6.0
   },
   {
-   "t": 13.37,
+   "t": 14.11,
    "kind": "pop",
-   "gain_db": -5
+   "gain_db": -5.5
   },
   {
-   "t": 13.53,
+   "t": 14.27,
    "kind": "pop",
-   "gain_db": -4
+   "gain_db": -5.0
   },
   {
-   "t": 13.7,
+   "t": 14.44,
    "kind": "pop",
-   "gain_db": -3
+   "gain_db": -4.5
   },
   {
-   "t": 13.87,
+   "t": 14.61,
    "kind": "pop",
-   "gain_db": -2
+   "gain_db": -4.0
   },
   {
-   "t": 14.03,
+   "t": 14.77,
    "kind": "pop",
+   "gain_db": -3.5
+  },
+  {
+   "t": 14.94,
+   "kind": "pop",
+   "gain_db": -3.0
+  },
+  {
+   "t": 13.97,
+   "kind": "tick",
    "gain_db": -1
   },
   {
-   "t": 14.2,
-   "kind": "pop",
-   "gain_db": 0
+   "t": 14.14,
+   "kind": "tick",
+   "gain_db": -1
   },
   {
-   "t": 15.03,
+   "t": 14.31,
+   "kind": "tick",
+   "gain_db": -1
+  },
+  {
+   "t": 14.47,
+   "kind": "tick",
+   "gain_db": -1
+  },
+  {
+   "t": 14.64,
+   "kind": "tick",
+   "gain_db": -1
+  },
+  {
+   "t": 14.81,
+   "kind": "tick",
+   "gain_db": -1
+  },
+  {
+   "t": 14.97,
+   "kind": "tick",
+   "gain_db": -1
+  },
+  {
+   "t": 16.21,
    "kind": "boing",
    "gain_db": -1
   },
   {
-   "t": 15.37,
+   "t": 16.54,
    "kind": "thud",
    "gain_db": 0
   },
   {
-   "t": 16.25,
+   "t": 17.42,
    "kind": "bell",
    "gain_db": -4
   },
   {
-   "t": 21.44,
+   "t": 23.77,
    "kind": "ding",
    "gain_db": -6
   },
   {
-   "t": 23.79,
+   "t": 26.37,
    "kind": "boing",
    "gain_db": -1
   },
   {
-   "t": 25.14,
+   "t": 27.72,
    "kind": "footsteps",
    "gain_db": -4
   },
   {
-   "t": 26.14,
+   "t": 28.72,
    "kind": "impact",
    "gain_db": 0
   },
   {
-   "t": 26.14,
+   "t": 28.72,
    "kind": "crash",
    "gain_db": 0
   },
   {
-   "t": 26.19,
+   "t": 28.77,
    "kind": "stamp",
    "gain_db": 2
   },
   {
-   "t": 29.59,
+   "t": 32.17,
    "kind": "pop",
    "gain_db": -2
   }

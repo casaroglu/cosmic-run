@@ -102,11 +102,14 @@ export function frame(f0, E) {
   const clock = n <= 1 ? "3:01" : n === 2 ? (fs < 10 ? "3:00" : "2:59") : n < 5 ? "2:59" : n === 5 ? (fs < 26 ? "2:59" : "3:00") : n < 8 ? "3:00" : "3:01";
   if (clock !== R.clockKey) R.clockDraw(clock);
   // size counter (top of frame) from shot 3 on
-  const size = n < 6 ? 1 : n === 6 ? (fs < 8 ? 1 : 3) : n === 7 ? 3 : n === 8 ? (fs < 10 ? 3 : 7) : 7;
-  const sizePop = (n === 6 && fs >= 8) ? pop(S(6) + 8) : (n === 8 && fs >= 10) ? pop(S(8) + 10) : 1;
-  const showCounter = n >= 3 && n !== 11 && n !== 13 && n !== 15;
+  const EAT0 = S(7) + 34, eaten = (ff) => { let c = 0; for (let i = 0; i < 7; i++) if (ff >= EAT0 + i * 5 + 11) c++; return c; };
+  const stepScale = () => { let v = 1; for (let i = 0; i < 7; i++) v += 0.107 * X.back(X.span(f, EAT0 + i * 5 + 11, EAT0 + i * 5 + 16)); return v; };
+  const size = n < 6 ? 1 : n === 6 ? (fs < 8 ? 1 : 3) : n === 7 ? 3 + eaten(f) : n === 8 ? (fs < 10 ? 10 : 20) : 20;
+  const lastEat = n === 7 && eaten(f) > 0 ? EAT0 + (eaten(f) - 1) * 5 + 11 : -99;
+  const sizePop = (n === 6 && fs >= 8) ? pop(S(6) + 8) : (n === 8 && fs >= 10) ? pop(S(8) + 10) : (n === 7 && f - lastEat < 5) ? 0.6 + 0.4 * pop(lastEat, 5) : 1;
+  const showCounter = n >= 3 && n !== 11 && n !== 13 && n !== 15 && !(n === 3 && f - S(3) < 45);
   // Donutsaurus scale through the story
-  const DS = n <= 5 ? 0.35 : n === 6 ? grow(0.35, 1.0, S(6) + 8) : n === 7 ? 1.0 : n === 8 ? grow(1.0, 2.3, S(8) + 10, 10) : 2.3;
+  const DS = n <= 5 ? 0.35 : n === 6 ? grow(0.35, 1.0, S(6) + 8) : n === 7 ? stepScale() : n === 8 ? grow(1.75, 2.3, S(8) + 10, 10) : 2.3;
   const giantPos = [-2.4, 0, -0.35];
   const ceilBend = (s) => (s > 2.15 ? { lean: 0.32, head: [0.55, 0, 0] } : {});
 
@@ -131,7 +134,8 @@ export function frame(f0, E) {
       R.handDonut.visible = true;
       T.pose({ pos: TPOS, yaw: 0.55, armR: [-0.7, 0.15], elbowR: 1.1, armL: [-0.2, 0.2], elbowL: 0.4, head: [-0.12, 0.35, 0], face: say("toast", "happy") });
       D.pose({ pos: [DX, 0, DZ], scale: 0.35, yaw: 0.9, head: [-0.35, 0, 0.15], look: [0.6, 0.8], tailY: 0.5 * Math.sin(f * 0.6) });
-      cam = { pos: [0.3, 2.35, 8.0], look: [0.35, 1.95, -1.5], fov: 52 };
+      cam = fs < 45 ? { pos: [R.signPos[0], R.signPos[1] - 0.1, R.signPos[2] + 3.6 - 0.25 * (fs / 45)], look: [R.signPos[0], R.signPos[1] - 0.1, R.signPos[2]], fov: 40 } : { pos: [0.3, 2.35, 8.0], look: [0.35, 1.95, -1.5], fov: 52 };
+      if (fs < 45) caption = true;
       break; }
     case 4: { // CU: puppy eyes
       R.handDonut.visible = true;
@@ -160,14 +164,14 @@ export function frame(f0, E) {
       if (fs >= 8 && fs < 20) FXS.push({ kind: "stars", pos: [DX, DS * R.DH * 0.6, DZ + 0.8], size: 0.6, t: fs / 30 });
       break; }
     case 7: { // MED: rumble, looks at tray, the stream of 7 donuts
-      const rum = fs < 18 ? Math.sin(fs * 2.2) * 0.06 : 0, eat0 = S(7) + 34;
-      D.pose({ pos: [DX + rum, 0, DZ], scale: 1, yaw: 0.65, head: [0, 0.45, 0], jaw: f >= eat0 - 4 && f < eat0 + 44 ? 1 : 0.2, look: [0.8, -0.2], squash: fs < 18 ? 0.04 * Math.sin(fs * 1.5) : 0 });
+      const rum = fs < 18 ? Math.sin(fs * 2.2) * 0.06 : 0, eat0 = EAT0;
+      D.pose({ pos: [DX + rum, 0, DZ], scale: DS, yaw: 0.65, head: [0, 0.45, 0], jaw: f >= eat0 - 4 && f < eat0 + 44 ? 1 : 0.2, look: [0.8, -0.2], squash: fs < 18 ? 0.04 * Math.sin(fs * 1.5) : 0 });
       T.pose({ pos: [0.15, 0, -0.75], yaw: -1.15, armL: [0, 1.45], armR: [0, 1.45], elbowL: 0.1, elbowR: 0.1, legLz: 0.2, legRz: 0.2, head: [0, 0.2, 0], face: say("toast", "angry") });
       const m = mouth();
       R.tray.forEach((d, i) => { const a = eat0 + i * 5, k = sp(a, a + 11); if (f < a) return; if (k >= 1) { d.visible = false; return; }
         const p0 = new THREE.Vector3(-0.85 + i * 0.32, 1.28, -1.75), c = new THREE.Vector3((p0.x + m.x) / 2 + 0.2, Math.max(p0.y, m.y) + 1.4, (p0.z + m.z) / 2 + 0.6);
         const u = 1 - k; d.position.set(u * u * p0.x + 2 * u * k * c.x + k * k * m.x, u * u * p0.y + 2 * u * k * c.y + k * k * m.y, u * u * p0.z + 2 * u * k * c.z + k * k * m.z); d.rotation.set(k * 10, k * 4, 0); d.scale.setScalar(1 - 0.5 * k); });
-      cam = { pos: [0.2, 2.6, 7.6], look: [-0.7, 2.0, -0.6], fov: 52 };
+      cam = { pos: [0.2, 2.9, 9.0], look: [-0.7, 2.4, -0.6], fov: 52 };
       break; }
     case 8: { // LOW: grow 1.0 -> 2.3, head hits the ceiling, lamp swings
       const k = X.smooth(sp(S(8) + 10, S(8) + 22));
@@ -193,17 +197,18 @@ export function frame(f0, E) {
       T.pose({ pos: [-0.6, 0, 1.7], yaw: 0.35, armL: [0, 1.3], armR: [0, 1.3], lean: -0.1 * k, face: "shock" });
       R.flap.visible = true; R.flap.rotation.x = X.lerp(-2.6, 0, k);
       D.pose({ pos: giantPos, scale: 2.3, yaw: 0.3, ...ceilBend(2.3), jaw: fs > 2 && fs < 22 ? 0.9 : 0.2 });
-      cam = { pos: [0.75, 2.0, 8.6], look: [0.75, 1.6, 1.4], fov: 50 };
+      cam = { pos: [0.85, 2.0, 9.4], look: [0.85, 1.6, 1.4], fov: 50 };
       if (fs > 3 && fs < 30) FXS.push({ kind: "puff", pos: [-2.0 + fs * 0.12, 2.2, 1.6], size: 1.2, t: (fs - 3) / 27 });
       break; }
     case 11: { // Pixi points up; push in on the small print
-      const k = X.smooth(sp(S(11) + 14, Eo(11) - 6));
+      const k = X.smooth(sp(S(11) + 8, S(11) + 38));
       P.pose({ pos: [2.2, 0, 1.3], yaw: 0.25, armR: [-2.45, 0.45], elbowR: 0.1, armL: [-0.3, 0.6], elbowL: 1.7, head: [-0.3, 0.1, 0], face: say("pixi", "deadpan") });
       P.boardAt([2.75, 0.95, 1.3], 0.25, Math.PI / 2, 0, true);
       T.pose({ pos: [-0.6, 0, 1.7], yaw: 0.6, face: "shock" });
-      const sp0 = R.signPos, endY = sp0[1] - 0.72;
-      cam = { pos: [X.lerp(3.6, sp0[0], k), X.lerp(2.4, endY, k) + 1.3 * Math.sin(Math.PI * k), X.lerp(8.2, sp0[2] + 2.8, k)], look: [X.lerp(2.3, sp0[0], k), X.lerp(2.6, endY, k), X.lerp(0, sp0[2], k)], fov: X.lerp(52, 40, k) };
+      const sp0 = R.signPos, endY = sp0[1] - 0.82;
+      cam = { pos: [X.lerp(3.6, sp0[0], k), X.lerp(2.4, endY, k) + 1.3 * Math.sin(Math.PI * k), X.lerp(8.2, sp0[2] + 3.3, k)], look: [X.lerp(2.3, sp0[0], k), X.lerp(2.6, endY, k), X.lerp(0, sp0[2], k)], fov: X.lerp(52, 40, k) };
       caption = k < 0.5;
+      if (k > 0.85) { const q = X.smooth(sp(S(11) + 34, S(11) + 42)); OV.push(label("RULE #2: IF YOU FED HIM —", 1180, 64, q, "#ffffff", 0.9 + 0.1 * q), label("RUN.", 1290, 150, q, "#ff3d3d", 0.8 + 0.2 * pop(S(11) + 40, 8))); }
       break; }
     case 12: { // CRASH on Toast
       const z = X.back(sp(S(12), S(12) + 6)), ep = X.spring(sp(S(12) + 2, S(12) + 14));

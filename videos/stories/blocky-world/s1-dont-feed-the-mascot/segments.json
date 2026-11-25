@@ -4,69 +4,69 @@
   "text": "Aaaah!",
   "shot": 1,
   "s": 0.1,
-  "e": 0.689
+  "e": 0.779
  },
  {
   "sp": "toast",
   "text": "Rule one. Don't feed the mascot after three A.M.",
   "shot": 3,
-  "s": 2.15,
-  "e": 4.809
+  "s": 2.9,
+  "e": 5.518
  },
  {
   "sp": "toast",
   "text": "It's two fifty-nine.",
   "shot": 4,
-  "s": 5.7,
-  "e": 7.081
+  "s": 6.4,
+  "e": 7.871
  },
  {
   "sp": "toast",
   "text": "That's fine. That's fine.",
   "shot": 6,
-  "s": 10.05,
-  "e": 11.432
+  "s": 10.75,
+  "e": 12.222
  },
  {
   "sp": "toast",
   "text": "No. No! Bad dinosaur!",
   "shot": 7,
-  "s": 11.85,
-  "e": 13.365
+  "s": 12.622,
+  "e": 14.227
  },
  {
   "sp": "pixi",
   "text": "Toast. Did you feed him?",
   "shot": 9,
-  "s": 17.1,
-  "e": 18.69
+  "s": 18.272,
+  "e": 19.982
  },
  {
   "sp": "toast",
   "text": "No.",
   "shot": 9,
-  "s": 19.14,
-  "e": 19.688
+  "s": 20.432,
+  "e": 21.07
  },
  {
   "sp": "pixi",
   "text": "Read rule two.",
   "shot": 11,
-  "s": 21.338,
-  "e": 22.25
+  "s": 22.72,
+  "e": 23.752
  },
  {
   "sp": "pixi",
   "text": "Night one.",
   "shot": 14,
-  "s": 28.188,
-  "e": 28.875
+  "s": 30.77,
+  "e": 31.577
  },
  {
   "sp": "toast",
   "text": "It was one don",
   "shot": 15,
-  "s": 30.138,
-  "e": 31.322
+  "s": 32.72,
+  "e": 33.994
  }
 ]

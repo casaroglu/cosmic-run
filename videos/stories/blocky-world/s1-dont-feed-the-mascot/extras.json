@@ -1,24 +1,24 @@
 {
  "squeak": [
-  5.45,
+  6.15,
   "dino_laugh_squeak",
   0.6,
   0.3
  ],
  "burp_short": [
-  14.366666666666665,
+  15.072,
   "dino_burp_short",
   0.6,
   1.0
  ],
  "burp_loud": [
-  20.038,
+  21.42,
   "dino_burp_loud",
   0.75,
   1.0
  ],
  "laugh": [
-  27.488,
+  30.07,
   "dino_laugh_oldman",
   0.6,
   1.8

@@ -4,11 +4,13 @@ import numpy as np
 sys.path.insert(0, os.path.expanduser("~/cosmic-run/.claude/skills/story-video/scripts"))
 import build_audio as B, align as A
 W = os.path.expanduser("~/cizgi/toast-s1/work"); SR = B.SR
-DUR = [1.2, 0.8, 3.2, 2.3, 2.2, 2.0, 3.0, 1.5, 3.3, 1.2, 2.6, 1.4, 2.3, 2.0, 2.0]   # script shot durations
+DUR = [1.2, 0.8, 3.9, 2.3, 2.2, 2.0, 3.4, 1.5, 3.3, 1.2, 3.8, 1.4, 2.3, 2.0, 2.0]   # script shot durations
 V = {"toast": ("am_liam", 5, 1.08), "pixi": ("af_bella", 0, 0.95)}
 lines = json.load(open(f"{W}/lines.json")); clips = []
+SPOKEN = {"A.M.": "ay-em."}
+spoken = lambda t: " ".join(SPOKEN.get(w, w) for w in t.split())
 for sp, text, shot, off in lines:
-    voice, st, speed = V[sp]; r = 2 ** (st / 12); x = B.trim(B.tts(text, voice, speed / r))
+    voice, st, speed = V[sp]; r = 2 ** (st / 12); x = B.trim(B.tts(spoken(text), voice, speed / r)); x = np.concatenate([x, np.zeros(int(0.12 * SR), np.float32)])
     if st: x = B.shape_voice(x, pitch=st)
     clips.append((x / max(1e-6, np.abs(x).max()) * 0.9).astype(np.float32))
 starts, shots, t, li = [None] * len(lines), [], 0.0, 0
@@ -23,7 +25,7 @@ for si, d in enumerate(DUR, 1):
 total = t; y = np.zeros(int((total + 0.05) * SR), np.float32); words, segs = [], []
 for i, (sp, text, shot, off) in enumerate(lines):
     x = clips[i]; a = int(starts[i] * SR); y[a:a + len(x)] += x[: len(y) - a]
-    ws = A.word_times(text, text, x, SR, starts[i])
+    ws = A.word_times(text, spoken(text), x, SR, starts[i])
     try: ws = A.refine(ws, x, SR, starts[i])
     except Exception as e: print("refine skip", e)
     for w in ws: words.append({"w": w["w"], "s": round(w["t0"], 3), "e": round(max(w["t1"], w["t0"] + 0.05), 3), "sp": sp})
