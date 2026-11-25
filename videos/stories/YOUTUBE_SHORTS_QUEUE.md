@@ -48,18 +48,18 @@
 | 2026-12-07 22:00 | spain | 09a-republic | From new republic to civil war in five years | scheduled | https://youtube.com/shorts/r1VcVm1O2wQ |
 | 2026-12-08 16:00 | spain | 09b-civil-war | How Spain's civil war became the world's war | scheduled | https://youtube.com/shorts/I7zkZwc9xbk |
 | 2026-12-08 22:00 | spain | 10-transition | A dictator's chosen heir gave Spain democracy | scheduled | https://youtube.com/shorts/wxHfsN03WtU |
-| 2026-12-09 16:00 | rome | 01-wolf | He killed his twin to found Rome | todo |  |
-| 2026-12-09 22:00 | rome | 02-gauls | Rome paid its enemy in gold | todo |  |
-| 2026-12-10 16:00 | rome | 03-hannibal | 37 war elephants crossed the Alps | todo |  |
-| 2026-12-10 22:00 | rome | 04-carthage | Rome erased two cities in one year | todo |  |
-| 2026-12-11 16:00 | rome | 05-rubicon | One river ended a Republic | todo |  |
-| 2026-12-11 22:00 | rome | 06-ides | 23 stabs, only one was fatal | todo |  |
-| 2026-12-12 16:00 | rome | 07-augustus | August is named after him | todo |  |
-| 2026-12-12 22:00 | rome | 08-concrete | Roman concrete heals itself | todo |  |
-| 2026-12-13 16:00 | rome | 09-pompeii | Frozen in one day | todo |  |
-| 2026-12-13 22:00 | rome | 10-trajan | Rome's biggest map ever | todo |  |
-| 2026-12-14 16:00 | rome | 11-hadrians-wall | This is where Rome stopped | todo |  |
-| 2026-12-14 22:00 | rome | 12-crisis | 26 emperors in 50 years | todo |  |
-| 2026-12-15 16:00 | rome | 13-constantine | He moved Rome to Istanbul | todo |  |
-| 2026-12-15 22:00 | rome | 14-fall-476 | Rome didn't fall in 476 | todo |  |
-| 2026-12-16 16:00 | rome | 15-1453 | Rome ended in Istanbul | todo |  |
+| 2026-12-09 16:00 | rome | 01-wolf | He killed his twin to found Rome | scheduled | https://youtube.com/shorts/5mKrsg0DSoc |
+| 2026-12-09 22:00 | rome | 02-gauls | Rome paid its enemy in gold | scheduled | https://youtube.com/shorts/zuIZoSWoZW4 |
+| 2026-12-10 16:00 | rome | 03-hannibal | 37 war elephants crossed the Alps | scheduled | https://youtube.com/shorts/Lsb5C-4F59c |
+| 2026-12-10 22:00 | rome | 04-carthage | Rome erased two cities in one year | scheduled | https://youtube.com/shorts/VvF8nYMM5Fw |
+| 2026-12-11 16:00 | rome | 05-rubicon | One river ended a Republic | scheduled | https://youtube.com/shorts/Di68RD-yi5I |
+| 2026-12-11 22:00 | rome | 06-ides | 23 stabs, only one was fatal | scheduled | https://youtube.com/shorts/6y1bzaHbS2A |
+| 2026-12-12 16:00 | rome | 07-augustus | August is named after him | scheduled | https://youtube.com/shorts/qWNSV7YPrJg |
+| 2026-12-12 22:00 | rome | 08-concrete | Roman concrete heals itself | scheduled | https://youtube.com/shorts/_bx0D9b5mOQ |
+| 2026-12-13 16:00 | rome | 09-pompeii | Frozen in one day | scheduled | https://youtube.com/shorts/ZbjuEkBoHCg |
+| 2026-12-13 22:00 | rome | 10-trajan | Rome's biggest map ever | scheduled | https://youtube.com/shorts/CyHvzNsbcoY |
+| 2026-12-14 16:00 | rome | 11-hadrians-wall | This is where Rome stopped | scheduled | https://youtube.com/shorts/KfQ-A7pTjh0 |
+| 2026-12-14 22:00 | rome | 12-crisis | 26 emperors in 50 years | scheduled | https://youtube.com/shorts/Y6wEniDiohQ |
+| 2026-12-15 16:00 | rome | 13-constantine | He moved Rome to Istanbul | scheduled | https://youtube.com/shorts/faI4OP3xGB4 |
+| 2026-12-15 22:00 | rome | 14-fall-476 | Rome didn't fall in 476 | scheduled | https://youtube.com/shorts/vmy54nqaG3Q |
+| 2026-12-16 16:00 | rome | 15-1453 | Rome ended in Istanbul | scheduled | https://youtube.com/shorts/Z63BtiUDEqw |
