@@ -1,6 +1,7 @@
 // Long 2 · Scene 4 — Turbo City (37 shots). Built from scripts/LONG-02_shot-script.md
 import * as THREE from "three";
 import { makeToast, makePixi, makeDonutsaurus, blocky } from "./blocky/rig.js";
+import { solid, unclip } from "./common/staging.js";
 import { car, controller } from "./common/props.js";
 import { turboCity } from "./common/worlds.js";
 import { textO, subtitle, battery, loading2, turboHud, guestTag, pauseMenu, confirmBox, INK, F } from "./common/ui.js";
@@ -13,7 +14,7 @@ export async function build(E) {
   try { const tl = await (await fetch("../work/timeline.json?v=" + Date.now())).json(); SH = tl.shots; meta.frames = Math.ceil(tl.total * 30); } catch (e) {}
   try { SEG = await (await fetch("../work/segments.json?v=" + Date.now())).json(); } catch (e) {}
   R.w = turboCity(E, X0, 0);
-  R.T = makeToast(E); R.P = makePixi(E); R.D = makeDonutsaurus(E);
+  R.T = solid(makeToast(E)); R.P = solid(makePixi(E)); R.D = makeDonutsaurus(E);
   const cols = ["#ff4d4d", "#19e0c6", "#ffe14a", "#4d9bff", "#9b4dff", "#ffffff", "#ff8a1f", "#57c84d"];
   R.cars = []; for (let i = 0; i < 12; i++) R.cars.push(car(E, cols[i % 8], i));
   R.taxi = car(E, "#ffd23a", 99); const meter = card(256, 96, (g, w, h) => { g.fillStyle = "#111"; g.fillRect(0, 0, w, h); g.font = "900 60px sans-serif"; g.fillStyle = "#39ff6a"; g.textAlign = "center"; g.fillText("$4.50", w / 2, 70); }); E.box(1.0, 0.35, 0.4, E.mat("#ffe14a"), [0, 1.15, -0.2], { parent: R.taxi }); E.plane(0.9, 0.3, E.flat("#ffffff", { map: meter }), [0, 1.33, 0.01], { parent: R.taxi, noink: true });
@@ -135,5 +136,6 @@ export function frame(f, E) {
   const cur = SEG.find((s) => t >= s.s - 0.05 && t <= s.e + 0.25); if (cur && n !== 37) OV.push(subtitle(cur.text));
   if (!cam) cam = { pos: [X0, 2.2, 9], look: [X0, 1.4, 0], fov: 48 };
   if (shk) { const q = E.shake(f, ...shk); cam.pos = cam.pos.map((v, i) => v + q[i]); }
+  unclip([R.T, R.P], { gap: 0.2 });
   return { cam, light, grade, dof: { focus: 6, amount: 0 }, actors: [], fx: FX, caption: false, focusPt: cam.look, overlay: (g, w, h) => OV.forEach((o) => o(g, w, h)) };
 }

@@ -1,6 +1,7 @@
 // Long 2 · Scene E — End card and loop (5 shots)
 import * as THREE from "three";
 import { makeToast, makePixi, makeDonutsaurus } from "./blocky/rig.js";
+import { solid, unclip } from "./common/staging.js";
 import { lordMitten, hero, controller, adminHand } from "./common/props.js";
 import { donutShop } from "./common/worlds.js";
 import { textO, subtitle, hudHome, INK, F } from "./common/ui.js";
@@ -13,7 +14,7 @@ export async function build(E) {
   try { SEG = await (await fetch("../work/segments.json?v=" + Date.now())).json(); } catch (e) {}
   for (let i = 2899; i < 2935; i++) IMG[i] = await load(`../s2_cape_frames/f${String(i).padStart(5, "0")}.jpg`);
   R.shop = donutShop(E, 0); R.shop.mop.visible = false; R.shop.rules(true); R.shop.clock("6:00");
-  R.T = makeToast(E); R.P = makePixi(E); R.D = makeDonutsaurus(E); R.M = lordMitten(E); R.G = hero(E, "gran"); R.B = hero(E, "brunch"); R.S = hero(E, "sulk");
+  R.T = solid(makeToast(E)); R.P = solid(makePixi(E)); R.D = makeDonutsaurus(E); R.M = lordMitten(E); R.G = solid(hero(E, "gran")); R.B = solid(hero(E, "brunch")); R.S = solid(hero(E, "sulk"));
   R.A = adminHand(E); R.ctl = controller(E, null, [0, -50, 0], 0.9);
   R.mop = E.group(null, [0, 0, 0]); E.cyl(0.04, 0.04, 1.7, E.mat("#c79a5b"), [0, 0.1, 0], { parent: R.mop, seg: 8 }); E.box(0.5, 0.12, 0.22, E.mat("#19a0e0"), [0, 0.04, 0], { parent: R.mop });
   E.box(0.7, 0.6, 0.04, E.mat("#ffffff"), [0, 0.05, 0.25], { parent: R.T.torso });
@@ -49,5 +50,6 @@ export function frame(f, E) {
   }
   if (n <= 2) OV.push(hudHome("8 — CUSTOMERS: 5", 8));
   const cur = SEG.find((s) => t >= s.s - 0.05 && t <= s.e + 0.25); if (cur && n !== 5) OV.push(subtitle(cur.text));
+  unclip([R.T, R.P, R.G, R.B, R.S], { gap: 0.2 });
   return { cam: cam || { pos: [0, 2, 6], look: [0, 1.4, 0], fov: 46 }, light, dof: { focus: 6, amount: 0 }, actors: [], fx: [], caption: false, focusPt: [0, 1, 0], overlay: (g, w, h) => OV.forEach((o) => o(g, w, h)) };
 }

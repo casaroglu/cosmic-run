@@ -1,6 +1,7 @@
 // Long 2 · Scene 1 — Home: the box (19 shots). Built from scripts/LONG-02_shot-script.md
 import * as THREE from "three";
 import { makeToast, makePixi, makeDonutsaurus } from "./blocky/rig.js";
+import { solid, unclip } from "./common/staging.js";
 import { donut, controller } from "./common/props.js";
 import { donutShop } from "./common/worlds.js";
 import { textO, subtitle, battery, loading2, hudHome, INK, F } from "./common/ui.js";
@@ -12,7 +13,7 @@ export async function build(E) {
   try { const tl = await (await fetch("../work/timeline.json?v=" + Date.now())).json(); meta.frames = Math.ceil(tl.total * 30); SH = tl.shots; R.total = tl.total; } catch (e) {}
   try { SEG = await (await fetch("../work/segments.json?v=" + Date.now())).json(); } catch (e) {}
   R.shop = donutShop(E, 0);
-  R.T = makeToast(E); R.P = makePixi(E); R.D = makeDonutsaurus(E);
+  R.T = solid(makeToast(E)); R.P = solid(makePixi(E)); R.D = makeDonutsaurus(E);
   // worn tile M
   R.tile = E.box(0.98, 0.012, 0.98, E.mat("#ffffff", { emissive: "#ffffff", emissiveIntensity: 0.25 }), [M[0], 0.004, M[2]], { noShadow: true });
   // mop (free object) — stands on its own
@@ -112,5 +113,6 @@ export function frame(f, E) {
   if (n === 19) OV.push(loading2((f - S(19)) / FPS, "Do not feed the mascot after 3 AM.", 2));
   const cur = SEG.find((s) => t >= s.s - 0.05 && t <= s.e + 0.25); if (cur && n !== 19) OV.push(subtitle(cur.text));
   if (shk) { const q = E.shake(f, ...shk); cam.pos = cam.pos.map((v, i) => v + q[i]); }
+  unclip([R.T, R.P], { gap: 0.2 });
   return { cam, light, dof: { focus: 6, amount: 0 }, actors: [], fx: FX, caption: false, focusPt: cam.look, overlay: (g, w, h) => OV.forEach((o) => o(g, w, h)) };
 }

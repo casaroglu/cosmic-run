@@ -1,6 +1,7 @@
 // Long 2 · Scene 5 — Home (27 shots). Built from scripts/LONG-02_shot-script.md
 import * as THREE from "three";
 import { makeToast, makePixi, makeDonutsaurus } from "./blocky/rig.js";
+import { solid, unclip } from "./common/staging.js";
 import { lordMitten, hero, controller, confetti, donut, adminHand } from "./common/props.js";
 import { donutShop } from "./common/worlds.js";
 import { textO, subtitle, battery, hudHome, guestTag, stamp, banner, INK, F } from "./common/ui.js";
@@ -12,7 +13,7 @@ export async function build(E) {
   try { const tl = await (await fetch("../work/timeline.json?v=" + Date.now())).json(); SH = tl.shots; meta.frames = Math.ceil(tl.total * 30); } catch (e) {}
   try { SEG = await (await fetch("../work/segments.json?v=" + Date.now())).json(); } catch (e) {}
   R.shop = donutShop(E, 0); R.shop.mop.visible = false;
-  R.T = makeToast(E); R.P = makePixi(E); R.D = makeDonutsaurus(E); R.M = lordMitten(E); R.B = hero(E, "brunch"); R.G = hero(E, "gran"); R.Z = hero(E, "zip"); R.S = hero(E, "sulk");
+  R.T = solid(makeToast(E)); R.P = solid(makePixi(E)); R.D = makeDonutsaurus(E); R.M = lordMitten(E); R.B = solid(hero(E, "brunch")); R.G = solid(hero(E, "gran")); R.Z = solid(hero(E, "zip")); R.S = solid(hero(E, "sulk"));
   R.A = adminHand(E); R.ctl = controller(E, null, [0, -50, 0], 0.55);
   R.mop = E.group(null, [M0[0] + 0.15, 0, M0[2] + 0.35]); E.cyl(0.04, 0.04, 1.7, E.mat("#c79a5b"), [0, 0.1, 0], { parent: R.mop, seg: 8 }); E.box(0.5, 0.12, 0.22, E.mat("#19a0e0"), [0, 0.04, 0], { parent: R.mop });
   R.icing = E.box(0.75, 0.05, 0.3, E.mat("#ff7fb8"), [0, 0.12, 0], { parent: R.ctl.g }); R.bun = E.box(0.4, 0.14, 0.18, E.mat("#e7b06a"), [0.1, 0.2, 0.05], { parent: R.ctl.g });
@@ -97,5 +98,6 @@ export function frame(f, E) {
   const cur = SEG.find((s) => t >= s.s - 0.05 && t <= s.e + 0.25); if (cur) OV.push(subtitle(cur.text));
   if (!cam) cam = { pos: [0.3, 2.3, 7.4], look: [0, 1.4, -0.6], fov: 46 };
   if (shk) { const q = E.shake(f, ...shk); cam.pos = cam.pos.map((v, i) => v + q[i]); }
+  unclip([R.T, R.P, R.B, R.G, R.Z, R.S], { gap: 0.2 });
   return { cam, light, grade, dof: { focus: 6, amount: 0 }, actors: [], fx: FX, caption: false, focusPt: cam.look, overlay: (g, w, h) => OV.forEach((o) => o(g, w, h)) };
 }

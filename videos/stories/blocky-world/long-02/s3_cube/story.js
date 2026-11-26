@@ -1,6 +1,7 @@
 // Long 2 · Scene 3 — Cubelands (40 shots). Built from scripts/LONG-02_shot-script.md
 import * as THREE from "three";
 import { makeToast, makePixi, makeDonutsaurus } from "./blocky/rig.js";
+import { solid, unclip } from "./common/staging.js";
 import { fuseBox, cubefolk, controller } from "./common/props.js";
 import { cubelands } from "./common/worlds.js";
 import { textO, subtitle, battery, loading2, banner, bubble, guestTag, INK, F } from "./common/ui.js";
@@ -17,7 +18,7 @@ export async function build(E) {
   for (let dx = -1; dx <= 1; dx++) for (let dz = -1; dz <= 1; dz++) for (let dy = 0; dy < 2; dy++) E.box(1, 1, 1, leaf, [dx, 4 + dy, dz], { parent: R.crown });
   // hut far left
   const hut = E.group(null, [X0 - 10, 0, -8]); E.box(3, 2.5, 3, E.mat("#b88a5a"), [0, 0, 0], { parent: hut }); E.box(3.4, 0.6, 3.4, E.mat("#8a5a36"), [0, 2.5, 0], { parent: hut }); E.box(0.8, 1.4, 0.05, E.mat("#3a2a1a"), [0, 0, 1.52], { parent: hut });
-  R.T = makeToast(E); R.P = makePixi(E); R.D = makeDonutsaurus(E); R.V = cubefolk(E);
+  R.T = solid(makeToast(E)); R.P = solid(makePixi(E)); R.D = makeDonutsaurus(E); R.V = cubefolk(E);
   R.fb = [0, 1, 2, 3, 4, 5].map(() => fuseBox(E));
   R.ctl = controller(E, null, [0, -50, 0], 0.5);
   // hole + lid + shaft
@@ -135,5 +136,6 @@ export function frame(f, E) {
   const cur = SEG.find((s) => t >= s.s - 0.05 && t <= s.e + 0.25); if (cur && n !== 40) OV.push(subtitle(cur.text));
   if (!cam) cam = { pos: [X0, 2.2, 7], look: [X0, 1.4, 0], fov: 48 };
   if (shk) { const q = E.shake(f, ...shk); cam.pos = cam.pos.map((v, i) => v + q[i]); }
+  unclip([R.T, R.P], { gap: 0.2 });
   return { cam, light, grade, flash, dof: { focus: 6, amount: 0 }, actors: [], fx: FX, caption: false, focusPt: cam.look, overlay: (g, w, h) => OV.forEach((o) => o(g, w, h)) };
 }

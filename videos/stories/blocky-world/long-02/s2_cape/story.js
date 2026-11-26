@@ -1,6 +1,7 @@
 // Long 2 · Scene 2 — Cape City (46 shots). Built from scripts/LONG-02_shot-script.md
 import * as THREE from "three";
 import { makeToast, makePixi, makeDonutsaurus } from "./blocky/rig.js";
+import { solid, unclip } from "./common/staging.js";
 import { lordMitten, hero, controller, confetti, donut } from "./common/props.js";
 import { capeCity } from "./common/worlds.js";
 import { textO, subtitle, battery, loading2, comicBox, bossBar, guestTag, bubble, INK, F } from "./common/ui.js";
@@ -12,8 +13,8 @@ export async function build(E) {
   try { const tl = await (await fetch("../work/timeline.json?v=" + Date.now())).json(); meta.frames = Math.ceil(tl.total * 30); SH = tl.shots; } catch (e) {}
   try { SEG = await (await fetch("../work/segments.json?v=" + Date.now())).json(); } catch (e) {}
   R.w = capeCity(E, X0, 0);
-  R.T = makeToast(E); R.P = makePixi(E); R.D = makeDonutsaurus(E);
-  R.M = lordMitten(E); R.B = hero(E, "brunch"); R.G = hero(E, "gran"); R.Z = hero(E, "zip"); R.S = hero(E, "sulk");
+  R.T = solid(makeToast(E)); R.P = solid(makePixi(E)); R.D = makeDonutsaurus(E);
+  R.M = lordMitten(E); R.B = solid(hero(E, "brunch")); R.G = solid(hero(E, "gran")); R.Z = solid(hero(E, "zip")); R.S = solid(hero(E, "sulk"));
   R.ctl = controller(E, null, [0, -50, 0], 0.5);
   // pedestal + velvet box + donut magnet
   E.box(1.2, 1.1, 1.2, E.mat("#6a6478"), [PX, 0, -0.4]); R.box = E.group(null, [PX, 1.1, -0.4]); E.box(0.5, 0.25, 0.4, E.mat("#7a1a3a"), [0, 0, 0], { parent: R.box }); R.lidB = E.group(R.box, [0, 0.25, -0.2]); E.box(0.5, 0.06, 0.4, E.mat("#9a2a4a"), [0, 0, 0.2], { parent: R.lidB });
@@ -139,5 +140,6 @@ export function frame(f, E) {
   const cur = SEG.find((s) => t >= s.s - 0.05 && t <= s.e + 0.25); if (cur && n !== 46) OV.push(subtitle(cur.text));
   if (!cam) cam = { pos: [X0, 2.2, 7], look: [X0, 1.4, 0], fov: 48 };
   if (shk) { const q = E.shake(f, ...shk); cam.pos = cam.pos.map((v, i) => v + q[i]); }
+  unclip([R.T, R.P, R.B, R.G, R.Z, R.S], { gap: 0.2 });
   return { cam, light, grade, flash, dof: { focus: 6, amount: 0 }, actors: [], fx: FX, caption: false, focusPt: cam.look, overlay: (g, w, h) => OV.forEach((o) => o(g, w, h)) };
 }
