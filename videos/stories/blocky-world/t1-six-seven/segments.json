@@ -1,0 +1,86 @@
+[
+ {
+  "sp": "toast",
+  "text": "Aaah!",
+  "shot": 1,
+  "s": 0.1,
+  "e": 1.441
+ },
+ {
+  "sp": "pixi",
+  "text": "Don't call that one out.",
+  "shot": 2,
+  "s": 2.191,
+  "e": 3.516
+ },
+ {
+  "sp": "toast",
+  "text": "It's a number. Order six... seven!",
+  "shot": 3,
+  "s": 4.841,
+  "e": 7.012
+ },
+ {
+  "sp": "kid",
+  "text": "Six seven!",
+  "shot": 4,
+  "s": 7.562,
+  "e": 8.406
+ },
+ {
+  "sp": "kids",
+  "text": "Six seven!",
+  "shot": 5,
+  "s": 9.862,
+  "e": 11.035
+ },
+ {
+  "sp": "toast",
+  "text": "Nobody say six sev",
+  "shot": 6,
+  "s": 12.062,
+  "e": 14.128
+ },
+ {
+  "sp": "pixi",
+  "text": "You said it. Twice.",
+  "shot": 7,
+  "s": 14.862,
+  "e": 17.293
+ },
+ {
+  "sp": "kids",
+  "text": "Six! Seven!",
+  "shot": 9,
+  "s": 19.143,
+  "e": 20.399
+ },
+ {
+  "sp": "pixi",
+  "text": "Cure: a grown-up does it too.",
+  "shot": 10,
+  "s": 21.543,
+  "e": 24.283
+ },
+ {
+  "sp": "admin",
+  "text": "Six. Seven. Very fun.",
+  "shot": 11,
+  "s": 25.033,
+  "e": 27.299
+ },
+ {
+  "sp": "kids",
+  "text": "Ew.",
+  "shot": 12,
+  "s": 27.933,
+  "e": 28.781
+ },
+ {
+  "sp": "toast",
+  "text": "See? Nobody says six seven anymore.",
+  "shot": 13,
+  "s": 30.133,
+  "e": 32.619
+ }
+]

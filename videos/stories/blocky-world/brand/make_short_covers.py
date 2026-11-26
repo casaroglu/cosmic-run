@@ -9,6 +9,7 @@ COVERS = [  # (video, second, [(line, colour)], text centre y, out name)
   ("itw-01-snores/ITW01_small.mp4", 33.3, [("DON'T WAKE", (255, 255, 255)), ("THE GIANT", (255, 225, 74))], 300, "itw01_dont_wake_the_giant"),
   ("night-shift-01/Night_Shift_01_small.mp4", 13.85, [("HE HAS", (255, 255, 255)), ("NO SHADOW", (255, 77, 77))], 1560, "night_shift_01_no_shadow"),
   ("/Users/canberkasaroglu/cizgi/toast-t2/out/T2_Why_Would_I_Deceive_You.mp4", 38.0, [("HE LIED.", (255, 255, 255)), ("IT GREW.", (255, 111, 176))], 1600, "t2_he_lied_it_grew"),
+  ("/Users/canberkasaroglu/cizgi/toast-t1/out/T1_Dont_Say_6-7.mp4", 33.5, [("NEVER SAY", (255, 255, 255)), ("THIS NUMBER", (255, 225, 74))], 1600, "t1_never_say_this_number"),
 ]
 def font(sz):
     f = ImageFont.truetype(FONT, sz)

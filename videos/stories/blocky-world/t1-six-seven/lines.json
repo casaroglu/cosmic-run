@@ -1,0 +1,12 @@
+[["toast", "Aaah!", 1, 0.1],
+ ["pixi", "Don't call that one out.", 2, 0.5],
+ ["toast", "It's a number. Order six... seven!", 3, 0.15],
+ ["kid", "Six seven!", 4, 0.3],
+ ["kids", "Six seven!", 5, 0.6],
+ ["toast", "Nobody say six sev", 6, 0.3],
+ ["pixi", "You said it. Twice.", 7, 0.3],
+ ["kids", "Six! Seven!", 9, 0.4],
+ ["pixi", "Cure: a grown-up does it too.", 10, 0.3],
+ ["admin", "Six. Seven. Very fun.", 11, 0.5],
+ ["kids", "Ew.", 12, 0.2],
+ ["toast", "See? Nobody says six seven anymore.", 13, 0.2]]
