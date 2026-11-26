@@ -1,0 +1,62 @@
+[
+ {
+  "s": 0.1,
+  "e": 0.779,
+  "sp": "toast",
+  "en": "Aaaah!"
+ },
+ {
+  "s": 2.9,
+  "e": 5.518,
+  "sp": "toast",
+  "en": "Rule one. Don't feed the mascot after three A.M."
+ },
+ {
+  "s": 6.4,
+  "e": 7.871,
+  "sp": "toast",
+  "en": "It's two fifty-nine."
+ },
+ {
+  "s": 10.75,
+  "e": 12.222,
+  "sp": "toast",
+  "en": "That's fine. That's fine."
+ },
+ {
+  "s": 12.622,
+  "e": 14.227,
+  "sp": "toast",
+  "en": "No. No! Bad dinosaur!"
+ },
+ {
+  "s": 18.272,
+  "e": 19.982,
+  "sp": "pixi",
+  "en": "Toast. Did you feed him?"
+ },
+ {
+  "s": 20.432,
+  "e": 21.07,
+  "sp": "toast",
+  "en": "No."
+ },
+ {
+  "s": 22.72,
+  "e": 23.752,
+  "sp": "pixi",
+  "en": "Read rule two."
+ },
+ {
+  "s": 30.77,
+  "e": 31.577,
+  "sp": "pixi",
+  "en": "Night one."
+ },
+ {
+  "s": 32.72,
+  "e": 33.994,
+  "sp": "toast",
+  "en": "It was one don"
+ }
+]

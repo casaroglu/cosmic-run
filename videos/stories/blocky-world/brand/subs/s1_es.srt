@@ -1,0 +1,39 @@
+1
+00:00:00,100 --> 00:00:01,179
+¡Aaaah!
+
+2
+00:00:02,900 --> 00:00:05,918
+Regla uno. No alimentes a la mascota después de las tres.
+
+3
+00:00:06,400 --> 00:00:08,271
+Son las dos y cincuenta y nueve.
+
+4
+00:00:10,750 --> 00:00:12,602
+No pasa nada. No pasa nada.
+
+5
+00:00:12,622 --> 00:00:14,627
+No. ¡No! ¡Dinosaurio malo!
+
+6
+00:00:18,272 --> 00:00:20,382
+Toast. ¿Le diste de comer?
+
+7
+00:00:20,432 --> 00:00:21,470
+No.
+
+8
+00:00:22,720 --> 00:00:24,152
+Lee la regla dos.
+
+9
+00:00:30,770 --> 00:00:31,977
+Noche uno.
+
+10
+00:00:32,720 --> 00:00:34,394
+Era solo un don—

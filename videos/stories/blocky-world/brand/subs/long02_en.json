@@ -1,0 +1,644 @@
+[
+ {
+  "s": 0.2,
+  "e": 1.638,
+  "sp": "toast",
+  "en": "Is that guy about to"
+ },
+ {
+  "s": 4.838,
+  "e": 7.499,
+  "sp": "toast",
+  "en": "Okay. That one was a little bit our fault."
+ },
+ {
+  "s": 18.9,
+  "e": 21.168,
+  "sp": "toast",
+  "en": "Night eight. Of forever."
+ },
+ {
+  "s": 23.6,
+  "e": 26.22,
+  "sp": "toast",
+  "en": "Pixi. I want one night off. Just one."
+ },
+ {
+  "s": 26.62,
+  "e": 29.241,
+  "sp": "pixi",
+  "en": "Ask The Admin."
+ },
+ {
+  "s": 30.141,
+  "e": 31.952,
+  "sp": "toast",
+  "en": "I am not asking The Admin."
+ },
+ {
+  "s": 33.141,
+  "e": 35.097,
+  "sp": "toast",
+  "en": "Sock. Tooth. Duck."
+ },
+ {
+  "s": 35.797,
+  "e": 36.625,
+  "sp": "toast",
+  "en": "Ooh."
+ },
+ {
+  "s": 39.425,
+  "e": 42.73,
+  "sp": "pixi",
+  "en": "Don't."
+ },
+ {
+  "s": 43.13,
+  "e": 45.25,
+  "sp": "toast",
+  "en": "I'm not touching it. I'm holding it."
+ },
+ {
+  "s": 48.45,
+  "e": 53.395,
+  "sp": "toast",
+  "en": "It's a remote. Maybe it changes the channel. Maybe there's a channel with no mop."
+ },
+ {
+  "s": 57.95,
+  "e": 59.012,
+  "sp": "pixi",
+  "en": "Toast."
+ },
+ {
+  "s": 64.15,
+  "e": 67.423,
+  "sp": "toast",
+  "en": "It's doing something! Is it doing the right something?"
+ },
+ {
+  "s": 70.023,
+  "e": 71.243,
+  "sp": "toast",
+  "en": "I regret holding it!"
+ },
+ {
+  "s": 79.433,
+  "e": 80.606,
+  "sp": "brunch",
+  "en": "For the universe!"
+ },
+ {
+  "s": 89.833,
+  "e": 91.153,
+  "sp": "toast",
+  "en": "A costume party!"
+ },
+ {
+  "s": 91.553,
+  "e": 93.939,
+  "sp": "pixi",
+  "en": "That's not a costume party."
+ },
+ {
+  "s": 94.639,
+  "e": 98.995,
+  "sp": "brunch",
+  "en": "Citizens! Stand back! This is the final battle for the universe!"
+ },
+ {
+  "s": 99.739,
+  "e": 100.495,
+  "sp": "toast",
+  "en": "Which one?"
+ },
+ {
+  "s": 101.095,
+  "e": 102.114,
+  "sp": "brunch",
+  "en": "The universe."
+ },
+ {
+  "s": 102.614,
+  "e": 103.958,
+  "sp": "toast",
+  "en": "We have a different one."
+ },
+ {
+  "s": 107.539,
+  "e": 108.194,
+  "sp": "zip",
+  "en": "Hi. Bye."
+ },
+ {
+  "s": 110.539,
+  "e": 111.823,
+  "sp": "toast",
+  "en": "Do we get powers?"
+ },
+ {
+  "s": 112.223,
+  "e": 114.039,
+  "sp": "brunch",
+  "en": "Everyone here has a power."
+ },
+ {
+  "s": 118.939,
+  "e": 120.503,
+  "sp": "toast",
+  "en": "None? I can mop!"
+ },
+ {
+  "s": 121.939,
+  "e": 127.161,
+  "sp": "mitten",
+  "en": "For a thousand years I have collected the six Magnets of Everything."
+ },
+ {
+  "s": 127.661,
+  "e": 131.222,
+  "sp": "mitten",
+  "en": "With the last one, I will tidy the universe."
+ },
+ {
+  "s": 131.322,
+  "e": 134.458,
+  "sp": "toast",
+  "en": "Can you sign it, to Toast? T, O, A"
+ },
+ {
+  "s": 135.158,
+  "e": 136.753,
+  "sp": "gran",
+  "en": "Hold still, dear."
+ },
+ {
+  "s": 138.158,
+  "e": 141.081,
+  "sp": "mitten",
+  "en": "Behold. The Donut of Destiny."
+ },
+ {
+  "s": 145.081,
+  "e": 146.357,
+  "sp": "pixi",
+  "en": "Oh no."
+ },
+ {
+  "s": 154.181,
+  "e": 156.527,
+  "sp": "mitten",
+  "en": "That was a thousand years."
+ },
+ {
+  "s": 157.281,
+  "e": 158.994,
+  "sp": "toast",
+  "en": "Hang on. I've got this."
+ },
+ {
+  "s": 162.581,
+  "e": 166.224,
+  "sp": "toast",
+  "en": "He does that. Sorry. He'll return it. Tomorrow. Probably."
+ },
+ {
+  "s": 168.181,
+  "e": 170.174,
+  "sp": "mitten",
+  "en": "Five will have to do."
+ },
+ {
+  "s": 171.381,
+  "e": 175.372,
+  "sp": "brunch",
+  "en": "No! With only five the snap is unstable! It will only take"
+ },
+ {
+  "s": 175.981,
+  "e": 177.419,
+  "sp": "toast",
+  "en": "Is that guy about to"
+ },
+ {
+  "s": 180.219,
+  "e": 180.737,
+  "sp": "zip",
+  "en": "Wait!"
+ },
+ {
+  "s": 186.519,
+  "e": 187.981,
+  "sp": "brunch",
+  "en": "everyone who lives here."
+ },
+ {
+  "s": 190.319,
+  "e": 191.167,
+  "sp": "mitten",
+  "en": "Ah."
+ },
+ {
+  "s": 197.219,
+  "e": 198.449,
+  "sp": "toast",
+  "en": "Hello?"
+ },
+ {
+  "s": 200.119,
+  "e": 201.295,
+  "sp": "toast",
+  "en": "Did we win?"
+ },
+ {
+  "s": 201.895,
+  "e": 203.26,
+  "sp": "pixi",
+  "en": "We were never here."
+ },
+ {
+  "s": 207.519,
+  "e": 208.759,
+  "sp": "toast",
+  "en": "Should we tell someone?"
+ },
+ {
+  "s": 210.019,
+  "e": 213.675,
+  "sp": "pixi",
+  "en": "There's no one to tell. Button. Now."
+ },
+ {
+  "s": 225.2,
+  "e": 226.933,
+  "sp": "toast",
+  "en": "Finally. Normal people."
+ },
+ {
+  "s": 227.433,
+  "e": 228.276,
+  "sp": "cubefolk",
+  "en": "Hm."
+ },
+ {
+  "s": 228.9,
+  "e": 230.642,
+  "sp": "toast",
+  "en": "See? Blocky. Like us."
+ },
+ {
+  "s": 232.6,
+  "e": 234.014,
+  "sp": "pixi",
+  "en": "They can't bend."
+ },
+ {
+  "s": 234.514,
+  "e": 235.415,
+  "sp": "toast",
+  "en": "Show-off."
+ },
+ {
+  "s": 236.1,
+  "e": 236.944,
+  "sp": "cubefolk",
+  "en": "Hm."
+ },
+ {
+  "s": 243.4,
+  "e": 245.37,
+  "sp": "toast",
+  "en": "I've always wanted to do that."
+ },
+ {
+  "s": 246.67,
+  "e": 247.93,
+  "sp": "toast",
+  "en": "That's not right."
+ },
+ {
+  "s": 255.27,
+  "e": 256.244,
+  "sp": "toast",
+  "en": "Even here?!"
+ },
+ {
+  "s": 261.47,
+  "e": 263.499,
+  "sp": "pixi",
+  "en": "Toast. It's night."
+ },
+ {
+  "s": 263.899,
+  "e": 265.749,
+  "sp": "toast",
+  "en": "It was noon four seconds ago!"
+ },
+ {
+  "s": 271.449,
+  "e": 275.688,
+  "sp": "toast",
+  "en": "Aww. A present. It's running to us. It wants a hug."
+ },
+ {
+  "s": 278.988,
+  "e": 280.511,
+  "sp": "pixi",
+  "en": "That's not a hug."
+ },
+ {
+  "s": 291.788,
+  "e": 293.238,
+  "sp": "toast",
+  "en": "Don't. Don't do it."
+ },
+ {
+  "s": 300.488,
+  "e": 302.788,
+  "sp": "toast",
+  "en": "Good boy? Are you okay?"
+ },
+ {
+  "s": 307.788,
+  "e": 310.062,
+  "sp": "toast",
+  "en": "No. No more spicy presents."
+ },
+ {
+  "s": 311.088,
+  "e": 313.188,
+  "sp": "pixi",
+  "en": "Let's go before we get into trouble."
+ },
+ {
+  "s": 313.588,
+  "e": 314.612,
+  "sp": "toast",
+  "en": "Before?"
+ },
+ {
+  "s": 317.088,
+  "e": 320.259,
+  "sp": "toast",
+  "en": "See? Still not right! Nobody else is bothered by"
+ },
+ {
+  "s": 325.159,
+  "e": 326.002,
+  "sp": "cubefolk",
+  "en": "Hm."
+ },
+ {
+  "s": 327.759,
+  "e": 329.489,
+  "sp": "pixi",
+  "en": "Found the trouble."
+ },
+ {
+  "s": 341.667,
+  "e": 343.659,
+  "sp": "toast",
+  "en": "Why is every body in a hurry?!"
+ },
+ {
+  "s": 347.567,
+  "e": 349.265,
+  "sp": "pixi",
+  "en": "Don't move."
+ },
+ {
+  "s": 354.067,
+  "e": 355.052,
+  "sp": "toast",
+  "en": "Who are they?"
+ },
+ {
+  "s": 355.452,
+  "e": 357.204,
+  "sp": "pixi",
+  "en": "The main characters."
+ },
+ {
+  "s": 357.804,
+  "e": 360.665,
+  "sp": "toast",
+  "en": "Hi! We're main characters too! In our own"
+ },
+ {
+  "s": 367.565,
+  "e": 368.646,
+  "sp": "toast",
+  "en": "For walking?!"
+ },
+ {
+  "s": 373.165,
+  "e": 375.334,
+  "sp": "toast",
+  "en": "So sorry, officer, he's just a guest"
+ },
+ {
+  "s": 381.165,
+  "e": 382.443,
+  "sp": "toast",
+  "en": "We said sorry!"
+ },
+ {
+  "s": 387.365,
+  "e": 390.302,
+  "sp": "pixi",
+  "en": "Too crowded. We're going home."
+ },
+ {
+  "s": 395.302,
+  "e": 396.441,
+  "sp": "toast",
+  "en": "It's dead."
+ },
+ {
+  "s": 396.941,
+  "e": 398.671,
+  "sp": "pixi",
+  "en": "It needs charging."
+ },
+ {
+  "s": 398.971,
+  "e": 400.878,
+  "sp": "toast",
+  "en": "With what? We don't have a"
+ },
+ {
+  "s": 404.878,
+  "e": 406.739,
+  "sp": "pixi",
+  "en": "Hold it to his mouth."
+ },
+ {
+  "s": 411.339,
+  "e": 412.846,
+  "sp": "pixi",
+  "en": "Other end."
+ },
+ {
+  "s": 425.146,
+  "e": 427.394,
+  "sp": "toast",
+  "en": "Whoa. It's a pause button."
+ },
+ {
+  "s": 429.294,
+  "e": 430.622,
+  "sp": "pixi",
+  "en": "Not that one."
+ },
+ {
+  "s": 431.222,
+  "e": 432.102,
+  "sp": "toast",
+  "en": "What does it quit?"
+ },
+ {
+  "s": 432.702,
+  "e": 433.793,
+  "sp": "pixi",
+  "en": "Everything."
+ },
+ {
+  "s": 440.522,
+  "e": 441.966,
+  "sp": "toast",
+  "en": "Sorry. Sorry."
+ },
+ {
+  "s": 450.622,
+  "e": 452.543,
+  "sp": "toast",
+  "en": "Yes. So much yes."
+ },
+ {
+  "s": 463.667,
+  "e": 465.689,
+  "sp": "toast",
+  "en": "Pink tiles. I missed you."
+ },
+ {
+  "s": 466.489,
+  "e": 468.11,
+  "sp": "toast",
+  "en": "You too. A little."
+ },
+ {
+  "s": 470.61,
+  "e": 472.697,
+  "sp": "admin",
+  "en": "Where is my controller."
+ },
+ {
+  "s": 474.01,
+  "e": 475.671,
+  "sp": "toast",
+  "en": "What controller?"
+ },
+ {
+  "s": 479.51,
+  "e": 485.29,
+  "sp": "admin",
+  "en": "Play history. Three servers. One emptied. One explosion, internal."
+ },
+ {
+  "s": 485.89,
+  "e": 489.212,
+  "sp": "admin",
+  "en": "Five alarm donuts. And Big Head Mode."
+ },
+ {
+  "s": 489.99,
+  "e": 491.685,
+  "sp": "toast",
+  "en": "That was an accident."
+ },
+ {
+  "s": 492.185,
+  "e": 494.308,
+  "sp": "admin",
+  "en": "All of it was an accident."
+ },
+ {
+  "s": 498.408,
+  "e": 500.373,
+  "sp": "pixi",
+  "en": "Toast. What's in your hood."
+ },
+ {
+  "s": 509.308,
+  "e": 510.822,
+  "sp": "brunch",
+  "en": "everyone who lives here!"
+ },
+ {
+  "s": 515.208,
+  "e": 516.629,
+  "sp": "mitten",
+  "en": "Where is this?"
+ },
+ {
+  "s": 517.129,
+  "e": 519.361,
+  "sp": "pixi",
+  "en": "Night shift."
+ },
+ {
+  "s": 520.061,
+  "e": 524.062,
+  "sp": "mitten",
+  "en": "Do not feed the mascot after three A.M."
+ },
+ {
+  "s": 526.762,
+  "e": 528.035,
+  "sp": "mitten",
+  "en": "Understood."
+ },
+ {
+  "s": 534.262,
+  "e": 536.368,
+  "sp": "admin",
+  "en": "Banned: Toast's weekends."
+ },
+ {
+  "s": 542.562,
+  "e": 546.227,
+  "sp": "gran",
+  "en": "Six glazed, dear. And is the dinosaur for sale?"
+ },
+ {
+  "s": 547.762,
+  "e": 548.459,
+  "sp": "zip",
+  "en": "Paid. Bye."
+ },
+ {
+  "s": 550.762,
+  "e": 552.287,
+  "sp": "gran",
+  "en": "I'll wait, dear."
+ },
+ {
+  "s": 553.1,
+  "e": 559.639,
+  "sp": "pixi",
+  "en": "Which server should we break next? Comment. Subscribe, or The Admin bans your weekends too."
+ },
+ {
+  "s": 568.339,
+  "e": 569.389,
+  "sp": "mitten",
+  "en": "Service."
+ },
+ {
+  "s": 570.339,
+  "e": 571.377,
+  "sp": "pixi",
+  "en": "Don't."
+ }
+]
