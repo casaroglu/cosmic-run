@@ -1,0 +1,65 @@
+[
+ {
+  "sp": "toast",
+  "text": "Aaah!",
+  "shot": 1,
+  "s": 0.1,
+  "e": 1.441
+ },
+ {
+  "sp": "pixi",
+  "text": "One box per person.",
+  "shot": 2,
+  "s": 2.691,
+  "e": 4.38
+ },
+ {
+  "sp": "toast",
+  "text": "I'm a different person.",
+  "shot": 3,
+  "s": 5.191,
+  "e": 6.555
+ },
+ {
+  "sp": "toast",
+  "text": "Next one's gold.",
+  "shot": 4,
+  "s": 7.391,
+  "e": 8.657
+ },
+ {
+  "sp": "toast",
+  "text": "Next one. Next one!",
+  "shot": 5,
+  "s": 9.791,
+  "e": 11.878
+ },
+ {
+  "sp": "pixi",
+  "text": "A hundred and forty-four. All the same one.",
+  "shot": 7,
+  "s": 15.191,
+  "e": 18.599
+ },
+ {
+  "sp": "pixi",
+  "text": "Same person, same Zubbit.",
+  "shot": 10,
+  "s": 22.549,
+  "e": 25.208
+ },
+ {
+  "sp": "toast",
+  "text": "Trade you. All of mine.",
+  "shot": 12,
+  "s": 28.258,
+  "e": 30.248
+ },
+ {
+  "sp": "pixi",
+  "text": "Relax. The craze is over.",
+  "shot": 13,
+  "s": 30.698,
+  "e": 33.415
+ }
+]
