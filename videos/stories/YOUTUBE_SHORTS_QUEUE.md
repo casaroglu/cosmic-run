@@ -63,3 +63,18 @@
 | 2026-12-15 16:00 | rome | 13-constantine | He moved Rome to Istanbul | scheduled | https://youtube.com/shorts/faI4OP3xGB4 |
 | 2026-12-15 22:00 | rome | 14-fall-476 | Rome didn't fall in 476 | scheduled | https://youtube.com/shorts/vmy54nqaG3Q |
 | 2026-12-16 16:00 | rome | 15-1453 | Rome ended in Istanbul | scheduled | https://youtube.com/shorts/Z63BtiUDEqw |
+| 2026-11-27 13:00 | chipwar | 01-spruce-pine | Your phone depends on one tiny town | scheduled | https://youtube.com/shorts/yNXymCUgdLg |
+| 2026-11-27 19:00 | chipwar | 02-neon | A war almost switched off chipmaking | scheduled | https://youtube.com/shorts/ljI_tabNQi0 |
+| 2026-11-28 13:00 | chipwar | 03-asml | Only one company can build this machine | scheduled | https://youtube.com/shorts/SNrkbrLpWms |
+| 2026-11-28 19:00 | chipwar | 04-arm | It never made a chip. It's in every phone | scheduled | https://youtube.com/shorts/cYhw17fNRYU |
+| 2026-11-29 13:00 | chipwar | 05-taiwan | The island the world can't lose | scheduled | https://youtube.com/shorts/f7YcbFr0TvM |
+| 2026-11-29 19:00 | chipwar | 06-oct7 | The day America cut China off | scheduled | https://youtube.com/shorts/LHWC8PMQxJU |
+| 2026-11-30 13:00 | chipwar | 07-smugglers | They smuggled AI chips with fake labels | scheduled | https://youtube.com/shorts/pPT17LonG6U |
+| 2026-11-30 19:00 | chipwar | 08-gallium | China makes 99% of this metal | scheduled | https://youtube.com/shorts/2wTHEgHcbzo |
+| 2026-12-01 13:00 | chipwar | 09-rare-earths | Tiny magnets stopped a Ford factory | scheduled | https://youtube.com/shorts/1PybpsRTZZU |
+| 2026-12-01 19:00 | chipwar | 10-deepseek | A free app wiped $590 billion off Nvidia | scheduled | https://youtube.com/shorts/IgdmsJwNfjA |
+| 2026-12-02 13:00 | chipwar | 11-nvidia-dennys | Nvidia was dreamed up in a Denny's | scheduled | https://youtube.com/shorts/q6eztxloiW4 |
+| 2026-12-02 19:00 | chipwar | 12-nvidia-moat | Why nobody can catch Nvidia | scheduled | https://youtube.com/shorts/lvewsk2V0DY |
+| 2026-12-03 13:00 | chipwar | 13-power-grid | AI is eating Ireland's electricity | scheduled | https://youtube.com/shorts/dGEferXULbI |
+| 2026-12-03 19:00 | chipwar | 14-undersea-cables | A ship's anchor cut three internet cables | scheduled | https://youtube.com/shorts/RVGGmm0HBBU |
+| 2026-12-04 13:00 | chipwar | 15-ai-labs-ipo | An AI company raised $81 billion | scheduled | https://youtube.com/shorts/geM5GfWhCAA |
