@@ -20,5 +20,5 @@ export function frame(f, E) {
     textO("WRONG", 400, 170, 170, { col: "#ff4d4d", rot: -0.06 })(g, w, h);
     textO("SERVERS!", 450, 330, 140, { col: "#ffe14a", rot: -0.06 })(g, w, h);
   };
-  return { cam: { pos: [600.2, 2.0, 8.8], look: [600.6, 2.6, 0], fov: 50 }, light: ["dramatic", "night", 0.25], dof: { focus: 7, amount: 0 }, actors: [], fx: [], caption: false, focusPt: [601, 1.5, 2], overlay: ov };
+  return { cam: { pos: [600.2, 2.0, 8.8], look: [600.6, 2.6, 0], fov: 50 }, light: "day", dof: { focus: 7, amount: 0 }, actors: [], fx: [], caption: false, focusPt: [601, 1.5, 2], overlay: ov };
 }
