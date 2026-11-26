@@ -21,8 +21,8 @@ export function frame(f, E) {
   unclip([T, P, D], { gap: 0.25 });
   A.pose({ pos: [205.6, 7.4, 0.6], palmUp: 0 });
   const ov = (g, w, h) => {
-    textO("TOAST", 640, 455, 150, { col: "#ffe14a" })(g, w, h);
-    textO("BLOX", 640, 600, 150, { col: "#ff5a4d" })(g, w, h);
+    textO("TOAST", 640, 478, 135, { col: "#ffe14a" })(g, w, h);
+    textO("BLOX", 640, 605, 135, { col: "#ff5a4d" })(g, w, h);
     if (SAFE) { const k = h / 1080; g.strokeStyle = "#ff00ff"; g.lineWidth = 4; g.strokeRect((w - 1546) / 2, (h - 423) / 2, 1546, 423); }
   };
   return { cam: { pos: [200.2, 2.2, 14.5], look: [200.2, 1.65, 2], fov: 56 }, light: "day", dof: { focus: 12, amount: 0 }, actors: [], fx: [], caption: false, focusPt: [202, 1.2, 2], overlay: ov };
