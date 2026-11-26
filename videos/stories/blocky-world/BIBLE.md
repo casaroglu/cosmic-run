@@ -108,11 +108,14 @@ Voices: Toast `am_liam` +5 st · Pixi `af_bella` 0.95 · The Admin `bm_george` �
 ## 8. Scripts
 
 - `scripts/SHORTS.md` — five Shorts, ready to build, in this order: S1 (rewritten pilot), S3, S5, S2, S4.
+- `scripts/SHORTS-2_trending.md` — six trend Shorts (T1 6-7, T2 "Why would I deceive you?", T3 home café, T4 de-influencing, T5 launch-day game parody, T6 Zubbit blind boxes). New loop ending: finished line → boom → "Fu—". Holds the shared ZUBBIT collectible design.
 - `scripts/LONG-01_7-nights.md` — first long video.
 - Later: the "Wrong Server" crossover worlds (Snap City, Cubelands, Cape City, Turbo City, Drop Island)
   use the same story engine; each world's physics rule replaces the written rule.
 
 - `scripts/LONG-02_wrong-servers.md` — long video 2 (user story, 2026-11-25): Cape City snap, Cubelands Fuse Box, Turbo City, pause menu "Return to My Universe". Parody worlds only; new character designs inside. Plus three more long outlines (Drop Island, tycoon, obby).
+- `scripts/LONG-03_zubbit-drop.md` — long video 3, "I Queued All Night for a $9,999 Mystery Box": the Zubbit craze (all-night line, reseller Flip, fake `ZUBBLT`, the ticker, craze over at 3 AM). Uses the shared ZUBBIT design from `SHORTS-2_trending.md`.
+- `scripts/LONG-04_13-years-no-disc.md` — long video 4, "I Waited 13 Years for This Game": launch day of MEGA DONUT HEIST 2 (same game as Short T5) on the Turbo City server; patch bar, `IS IT READY YET?` button, workshop under the map.
 
 ## Staging guard (no clipping)
 Characters standing side by side must never pass into each other. Every scene wraps its character rigs with `solid(...)` from `long-02/common/staging.js` and calls `unclip([...rigs])` once per frame after all `pose()` calls; it pushes visible, grounded rigs apart so no two centres are closer than their footprints plus a gap (Pixi's board moves with her). Leave out rigs that touch on purpose (carried, eaten, hugging) with `skip`, or hold one in place with `pinned`.
