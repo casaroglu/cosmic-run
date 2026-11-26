@@ -113,3 +113,6 @@ Voices: Toast `am_liam` +5 st · Pixi `af_bella` 0.95 · The Admin `bm_george` �
   use the same story engine; each world's physics rule replaces the written rule.
 
 - `scripts/LONG-02_wrong-servers.md` — long video 2 (user story, 2026-11-25): Cape City snap, Cubelands Fuse Box, Turbo City, pause menu "Return to My Universe". Parody worlds only; new character designs inside. Plus three more long outlines (Drop Island, tycoon, obby).
+
+## Staging guard (no clipping)
+Characters standing side by side must never pass into each other. Every scene wraps its character rigs with `solid(...)` from `long-02/common/staging.js` and calls `unclip([...rigs])` once per frame after all `pose()` calls; it pushes visible, grounded rigs apart so no two centres are closer than their footprints plus a gap (Pixi's board moves with her). Leave out rigs that touch on purpose (carried, eaten, hugging) with `skip`, or hold one in place with `pinned`.
