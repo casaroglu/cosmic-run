@@ -1,0 +1,79 @@
+[
+ {
+  "sp": "toast",
+  "text": "Why would I deceive you?",
+  "shot": 1,
+  "s": 0.1,
+  "e": 1.623
+ },
+ {
+  "sp": "pixi",
+  "text": "Where's the Truth Donut?",
+  "shot": 2,
+  "s": 2.373,
+  "e": 4.014
+ },
+ {
+  "sp": "toast",
+  "text": "No idea. Why would I deceive you?",
+  "shot": 3,
+  "s": 5.073,
+  "e": 7.567
+ },
+ {
+  "sp": "pixi",
+  "text": "What's behind you?",
+  "shot": 5,
+  "s": 9.817,
+  "e": 11.377
+ },
+ {
+  "sp": "toast",
+  "text": "My backpack. Why would I deceive you?",
+  "shot": 5,
+  "s": 11.627,
+  "e": 14.585
+ },
+ {
+  "sp": "pixi",
+  "text": "Just say you took it.",
+  "shot": 7,
+  "s": 16.785,
+  "e": 19.062
+ },
+ {
+  "sp": "toast",
+  "text": "I took... nothing. Why would I",
+  "shot": 7,
+  "s": 19.312,
+  "e": 21.903
+ },
+ {
+  "sp": "pixi",
+  "text": "Tell the truth. It shrinks.",
+  "shot": 10,
+  "s": 26.003,
+  "e": 29.003
+ },
+ {
+  "sp": "toast",
+  "text": "Fine. I took it.",
+  "shot": 11,
+  "s": 29.553,
+  "e": 31.01
+ },
+ {
+  "sp": "pixi",
+  "text": "Did we learn something?",
+  "shot": 12,
+  "s": 32.203,
+  "e": 34.443
+ },
+ {
+  "sp": "toast",
+  "text": "Yes. Why would I deceive you?",
+  "shot": 12,
+  "s": 34.743,
+  "e": 37.125
+ }
+]

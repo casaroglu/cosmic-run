@@ -1,0 +1,11 @@
+[["toast", "Why would I deceive you?", 1, 0.1],
+ ["pixi", "Where's the Truth Donut?", 2, 0.5],
+ ["toast", "No idea. Why would I deceive you?", 3, 0.2],
+ ["pixi", "What's behind you?", 5, 0.2],
+ ["toast", "My backpack. Why would I deceive you?", 5, "after+0.25"],
+ ["pixi", "Just say you took it.", 7, 0.15],
+ ["toast", "I took... nothing. Why would I", 7, "after+0.25"],
+ ["pixi", "Tell the truth. It shrinks.", 10, 0.35],
+ ["toast", "Fine. I took it.", 11, 0.3],
+ ["pixi", "Did we learn something?", 12, 0.15],
+ ["toast", "Yes. Why would I deceive you?", 12, "after+0.3"]]
