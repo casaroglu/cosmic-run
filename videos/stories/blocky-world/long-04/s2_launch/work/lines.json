@@ -1,0 +1,74 @@
+[
+[
+"pixi",
+"Wait for the patch.",
+3,
+0.8
+],
+[
+"toast",
+"Where's the disc?",
+5,
+1.4
+],
+[
+"admin",
+"You ordered the boxed edition. That is the box.",
+7,
+0.4
+],
+[
+"toast",
+"What's in the box?",
+7,
+"after+0.3"
+],
+[
+"admin",
+"The box.",
+7,
+"after+0.3"
+],
+[
+"pixi",
+"Thirteen minutes.",
+10,
+1.4
+],
+[
+"toast",
+"I waited thirteen years. I am not waiting thirteen minutes.",
+12,
+1.6
+],
+[
+"pixi",
+"It went up.",
+13,
+1.2
+],
+[
+"toast",
+"It's thinking.",
+13,
+"after+0.3"
+],
+[
+"toast",
+"Have you tried turning it off and on again?",
+16,
+0.5
+],
+[
+"pixi",
+"Don't.",
+17,
+0.9
+],
+[
+"toast",
+"It says anyway. That's basically permission.",
+17,
+"after+0.4"
+]
+]

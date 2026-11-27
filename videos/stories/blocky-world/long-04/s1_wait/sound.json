@@ -1,0 +1,256 @@
+{
+"voice": "work/voice.wav",
+"duration": 42.983,
+"sfx": [
+{
+"t": 10.067,
+"kind": "click",
+"gain_db": -4
+},
+{
+"t": 10.097,
+"kind": "pop",
+"gain_db": -12
+},
+{
+"t": 15.467,
+"kind": "click",
+"gain_db": -4
+},
+{
+"t": 15.497,
+"kind": "pop",
+"gain_db": -12
+},
+{
+"t": 18.0,
+"kind": "click",
+"gain_db": -4
+},
+{
+"t": 18.03,
+"kind": "pop",
+"gain_db": -12
+},
+{
+"t": 19.867,
+"kind": "click",
+"gain_db": -4
+},
+{
+"t": 19.897,
+"kind": "pop",
+"gain_db": -12
+},
+{
+"t": 20.1,
+"kind": "click",
+"gain_db": -4
+},
+{
+"t": 20.13,
+"kind": "pop",
+"gain_db": -12
+},
+{
+"t": 20.333,
+"kind": "click",
+"gain_db": -4
+},
+{
+"t": 20.363,
+"kind": "pop",
+"gain_db": -12
+},
+{
+"t": 20.567,
+"kind": "click",
+"gain_db": -4
+},
+{
+"t": 20.597,
+"kind": "pop",
+"gain_db": -12
+},
+{
+"t": 20.8,
+"kind": "click",
+"gain_db": -4
+},
+{
+"t": 20.83,
+"kind": "pop",
+"gain_db": -12
+},
+{
+"t": 21.033,
+"kind": "click",
+"gain_db": -4
+},
+{
+"t": 21.063,
+"kind": "pop",
+"gain_db": -12
+},
+{
+"t": 21.267,
+"kind": "click",
+"gain_db": -4
+},
+{
+"t": 21.297,
+"kind": "pop",
+"gain_db": -12
+},
+{
+"t": 21.5,
+"kind": "click",
+"gain_db": -4
+},
+{
+"t": 21.53,
+"kind": "pop",
+"gain_db": -12
+},
+{
+"t": 21.733,
+"kind": "click",
+"gain_db": -4
+},
+{
+"t": 21.763,
+"kind": "pop",
+"gain_db": -12
+},
+{
+"t": 21.967,
+"kind": "click",
+"gain_db": -4
+},
+{
+"t": 21.997,
+"kind": "pop",
+"gain_db": -12
+},
+{
+"t": 23.6,
+"kind": "click",
+"gain_db": -4
+},
+{
+"t": 23.63,
+"kind": "pop",
+"gain_db": -12
+},
+{
+"t": 0.3,
+"kind": "ding",
+"gain_db": -6
+},
+{
+"t": 5.4,
+"kind": "click",
+"gain_db": -6
+},
+{
+"t": 6.167,
+"kind": "coin",
+"gain_db": -6
+},
+{
+"t": 6.5,
+"kind": "paper",
+"gain_db": -6
+},
+{
+"t": 10.467,
+"kind": "ding",
+"gain_db": -10
+},
+{
+"t": 13.4,
+"kind": "thud",
+"gain_db": -4
+},
+{
+"t": 15.867,
+"kind": "ding",
+"gain_db": -10
+},
+{
+"t": 26.0,
+"kind": "tick",
+"gain_db": -8
+},
+{
+"t": 26.133,
+"kind": "tick",
+"gain_db": -8
+},
+{
+"t": 26.267,
+"kind": "tick",
+"gain_db": -8
+},
+{
+"t": 26.4,
+"kind": "tick",
+"gain_db": -8
+},
+{
+"t": 26.533,
+"kind": "tick",
+"gain_db": -8
+},
+{
+"t": 26.667,
+"kind": "tick",
+"gain_db": -8
+},
+{
+"t": 26.8,
+"kind": "tick",
+"gain_db": -8
+},
+{
+"t": 26.933,
+"kind": "tick",
+"gain_db": -8
+},
+{
+"t": 27.067,
+"kind": "tick",
+"gain_db": -8
+},
+{
+"t": 27.2,
+"kind": "tick",
+"gain_db": -8
+},
+{
+"t": 27.333,
+"kind": "tick",
+"gain_db": -8
+},
+{
+"t": 27.467,
+"kind": "tick",
+"gain_db": -8
+},
+{
+"t": 27.733,
+"kind": "ding",
+"gain_db": -2
+},
+{
+"t": 31.133,
+"kind": "thud",
+"gain_db": -4
+},
+{
+"t": 39.963,
+"kind": "magic",
+"gain_db": -4
+}
+]
+}

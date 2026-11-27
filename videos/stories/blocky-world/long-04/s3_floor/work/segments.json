@@ -1,0 +1,44 @@
+[
+ {
+  "sp": "toast",
+  "text": "It's perfect. It was worth every single day.",
+  "shot": 1,
+  "s": 1.8,
+  "e": 4.866
+ },
+ {
+  "sp": "toast",
+  "text": "Player one. Not a guest. And soon, one of those arrows.",
+  "shot": 2,
+  "s": 7.2,
+  "e": 10.859
+ },
+ {
+  "sp": "toast",
+  "text": "Still perfect.",
+  "shot": 3,
+  "s": 13.6,
+  "e": 14.98
+ },
+ {
+  "sp": "toast",
+  "text": "Why is the floor a suggestion?",
+  "shot": 8,
+  "s": 26.2,
+  "e": 28.45
+ },
+ {
+  "sp": "toast",
+  "text": "Is the floor ready yet?",
+  "shot": 10,
+  "s": 33.0,
+  "e": 34.667
+ },
+ {
+  "sp": "toast",
+  "text": "See? You ask, they fix.",
+  "shot": 12,
+  "s": 42.4,
+  "e": 44.976
+ }
+]

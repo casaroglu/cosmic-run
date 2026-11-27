@@ -1,0 +1,1001 @@
+{
+"voice": "work/voice.wav",
+"duration": 67.62,
+"sfx": [
+{
+"t": 3.45,
+"kind": "click",
+"gain_db": -6
+},
+{
+"t": 7.4,
+"kind": "click",
+"gain_db": -4
+},
+{
+"t": 14.2,
+"kind": "pop",
+"gain_db": -4
+},
+{
+"t": 17.133,
+"kind": "pop",
+"gain_db": -4
+},
+{
+"t": 20.933,
+"kind": "pop",
+"gain_db": -4
+},
+{
+"t": 21.8,
+"kind": "pop",
+"gain_db": -4
+},
+{
+"t": 23.333,
+"kind": "pop",
+"gain_db": -4
+},
+{
+"t": 23.533,
+"kind": "bell",
+"gain_db": -6
+},
+{
+"t": 26.867,
+"kind": "boing",
+"gain_db": -4
+},
+{
+"t": 27.867,
+"kind": "pop",
+"gain_db": -6
+},
+{
+"t": 30.65,
+"kind": "click",
+"gain_db": -2
+},
+{
+"t": 36.0,
+"kind": "pop",
+"gain_db": -4
+},
+{
+"t": 36.95,
+"kind": "pop",
+"gain_db": -4
+},
+{
+"t": 37.9,
+"kind": "pop",
+"gain_db": -4
+},
+{
+"t": 38.85,
+"kind": "pop",
+"gain_db": -4
+},
+{
+"t": 40.6,
+"kind": "bell",
+"gain_db": -4
+},
+{
+"t": 40.933,
+"kind": "bell",
+"gain_db": -4
+},
+{
+"t": 43.4,
+"kind": "tick",
+"gain_db": -2
+},
+{
+"t": 43.62,
+"kind": "tick",
+"gain_db": -2
+},
+{
+"t": 44.46,
+"kind": "tick",
+"gain_db": -2
+},
+{
+"t": 44.7,
+"kind": "tick",
+"gain_db": -2
+},
+{
+"t": 33.22,
+"kind": "tick",
+"gain_db": -2
+},
+{
+"t": 45.68,
+"kind": "tick",
+"gain_db": -2
+},
+{
+"t": 49.4,
+"kind": "tick",
+"gain_db": -2
+},
+{
+"t": 50.4,
+"kind": "tick",
+"gain_db": -2
+},
+{
+"t": 51.4,
+"kind": "tick",
+"gain_db": -2
+},
+{
+"t": 52.4,
+"kind": "crash",
+"gain_db": 0
+},
+{
+"t": 52.467,
+"kind": "stamp",
+"gain_db": 0
+},
+{
+"t": 54.6,
+"kind": "click",
+"gain_db": -2
+},
+{
+"t": 54.63,
+"kind": "pop",
+"gain_db": -12
+},
+{
+"t": 57.8,
+"kind": "tick",
+"gain_db": -14
+},
+{
+"t": 57.913,
+"kind": "tick",
+"gain_db": -14
+},
+{
+"t": 58.027,
+"kind": "tick",
+"gain_db": -14
+},
+{
+"t": 58.14,
+"kind": "tick",
+"gain_db": -14
+},
+{
+"t": 58.253,
+"kind": "tick",
+"gain_db": -14
+},
+{
+"t": 58.367,
+"kind": "tick",
+"gain_db": -14
+},
+{
+"t": 58.48,
+"kind": "tick",
+"gain_db": -14
+},
+{
+"t": 58.593,
+"kind": "tick",
+"gain_db": -14
+},
+{
+"t": 58.707,
+"kind": "tick",
+"gain_db": -14
+},
+{
+"t": 58.82,
+"kind": "tick",
+"gain_db": -14
+},
+{
+"t": 58.933,
+"kind": "tick",
+"gain_db": -14
+},
+{
+"t": 59.047,
+"kind": "tick",
+"gain_db": -14
+},
+{
+"t": 59.16,
+"kind": "tick",
+"gain_db": -14
+},
+{
+"t": 59.273,
+"kind": "tick",
+"gain_db": -14
+},
+{
+"t": 59.387,
+"kind": "tick",
+"gain_db": -14
+},
+{
+"t": 59.5,
+"kind": "tick",
+"gain_db": -14
+},
+{
+"t": 59.613,
+"kind": "tick",
+"gain_db": -14
+},
+{
+"t": 59.727,
+"kind": "tick",
+"gain_db": -14
+},
+{
+"t": 59.84,
+"kind": "tick",
+"gain_db": -14
+},
+{
+"t": 59.953,
+"kind": "tick",
+"gain_db": -14
+},
+{
+"t": 60.067,
+"kind": "tick",
+"gain_db": -14
+},
+{
+"t": 60.18,
+"kind": "tick",
+"gain_db": -14
+},
+{
+"t": 60.293,
+"kind": "tick",
+"gain_db": -14
+},
+{
+"t": 62.667,
+"kind": "click",
+"gain_db": -4
+},
+{
+"t": 63.533,
+"kind": "pop",
+"gain_db": -6
+},
+{
+"t": 64.533,
+"kind": "pop",
+"gain_db": -6
+},
+{
+"t": 0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 0.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 0.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 1.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 1.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 2.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 2.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 2.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 3.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 3.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 4.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 4.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 4.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 5.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 5.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 6.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 6.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 6.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 7.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 7.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 8.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 8.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 8.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 9.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 9.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 10.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 10.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 10.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 11.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 11.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 12.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 12.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 12.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 13.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 13.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 14.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 14.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 14.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 15.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 15.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 16.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 16.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 16.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 17.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 17.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 18.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 18.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 18.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 19.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 19.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 20.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 20.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 20.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 21.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 21.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 22.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 22.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 22.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 23.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 23.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 24.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 24.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 24.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 25.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 25.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 26.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 26.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 26.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 27.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 27.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 28.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 28.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 28.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 29.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 29.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 30.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 30.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 30.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 31.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 31.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 32.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 32.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 32.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 33.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 33.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 34.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 34.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 34.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 35.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 35.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 36.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 36.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 36.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 37.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 37.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 38.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 38.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 38.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 39.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 39.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 40.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 40.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 40.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 41.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 41.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 42.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 42.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 42.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 53.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 54.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 54.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 54.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 55.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 55.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 56.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 56.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 56.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 57.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 57.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 58.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 58.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 58.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 59.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 59.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 60.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 60.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 60.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 61.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 61.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 62.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 62.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 62.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 63.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 63.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 64.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 64.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 64.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 65.2,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 65.6,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 66.0,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 66.4,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 66.8,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 67.2,
+"kind": "tick",
+"gain_db": -21
+}
+]
+}

@@ -1,0 +1,331 @@
+{
+"voice": "work/voice.wav",
+"duration": 61.302,
+"sfx": [
+{
+"t": 1.0,
+"kind": "thud",
+"gain_db": 2
+},
+{
+"t": 3.0,
+"kind": "tick",
+"gain_db": -10
+},
+{
+"t": 3.55,
+"kind": "tick",
+"gain_db": -10
+},
+{
+"t": 4.1,
+"kind": "tick",
+"gain_db": -10
+},
+{
+"t": 4.65,
+"kind": "tick",
+"gain_db": -10
+},
+{
+"t": 5.2,
+"kind": "tick",
+"gain_db": -10
+},
+{
+"t": 5.75,
+"kind": "tick",
+"gain_db": -10
+},
+{
+"t": 6.55,
+"kind": "ding",
+"gain_db": -6
+},
+{
+"t": 7.75,
+"kind": "ding",
+"gain_db": -6
+},
+{
+"t": 8.95,
+"kind": "ding",
+"gain_db": -6
+},
+{
+"t": 10.15,
+"kind": "ding",
+"gain_db": -6
+},
+{
+"t": 11.35,
+"kind": "ding",
+"gain_db": -6
+},
+{
+"t": 16.07,
+"kind": "tick",
+"gain_db": -12
+},
+{
+"t": 16.67,
+"kind": "tick",
+"gain_db": -12
+},
+{
+"t": 17.27,
+"kind": "tick",
+"gain_db": -12
+},
+{
+"t": 17.87,
+"kind": "tick",
+"gain_db": -12
+},
+{
+"t": 18.47,
+"kind": "tick",
+"gain_db": -12
+},
+{
+"t": 19.07,
+"kind": "tick",
+"gain_db": -12
+},
+{
+"t": 19.67,
+"kind": "tick",
+"gain_db": -12
+},
+{
+"t": 20.27,
+"kind": "tick",
+"gain_db": -12
+},
+{
+"t": 20.87,
+"kind": "tick",
+"gain_db": -12
+},
+{
+"t": 21.47,
+"kind": "tick",
+"gain_db": -12
+},
+{
+"t": 22.07,
+"kind": "tick",
+"gain_db": -12
+},
+{
+"t": 22.67,
+"kind": "tick",
+"gain_db": -12
+},
+{
+"t": 23.27,
+"kind": "tick",
+"gain_db": -12
+},
+{
+"t": 25.698,
+"kind": "ding",
+"gain_db": -4
+},
+{
+"t": 28.098,
+"kind": "ding",
+"gain_db": -4
+},
+{
+"t": 31.098,
+"kind": "ding",
+"gain_db": -4
+},
+{
+"t": 33.148,
+"kind": "click",
+"gain_db": -2
+},
+{
+"t": 33.178,
+"kind": "pop",
+"gain_db": -6
+},
+{
+"t": 34.648,
+"kind": "click",
+"gain_db": -2
+},
+{
+"t": 34.678,
+"kind": "pop",
+"gain_db": -6
+},
+{
+"t": 35.148,
+"kind": "click",
+"gain_db": -2
+},
+{
+"t": 35.178,
+"kind": "pop",
+"gain_db": -6
+},
+{
+"t": 35.581,
+"kind": "click",
+"gain_db": -2
+},
+{
+"t": 35.611,
+"kind": "pop",
+"gain_db": -6
+},
+{
+"t": 35.948,
+"kind": "click",
+"gain_db": -2
+},
+{
+"t": 35.978,
+"kind": "pop",
+"gain_db": -6
+},
+{
+"t": 36.281,
+"kind": "click",
+"gain_db": -2
+},
+{
+"t": 36.311,
+"kind": "pop",
+"gain_db": -6
+},
+{
+"t": 36.581,
+"kind": "click",
+"gain_db": -2
+},
+{
+"t": 36.611,
+"kind": "pop",
+"gain_db": -6
+},
+{
+"t": 36.848,
+"kind": "click",
+"gain_db": -2
+},
+{
+"t": 36.878,
+"kind": "pop",
+"gain_db": -6
+},
+{
+"t": 39.681,
+"kind": "boing",
+"gain_db": 0
+},
+{
+"t": 45.882,
+"kind": "tick",
+"gain_db": -6
+},
+{
+"t": 46.882,
+"kind": "tick",
+"gain_db": -6
+},
+{
+"t": 47.882,
+"kind": "tick",
+"gain_db": -6
+},
+{
+"t": 48.882,
+"kind": "tick",
+"gain_db": -6
+},
+{
+"t": 49.882,
+"kind": "tick",
+"gain_db": -6
+},
+{
+"t": 50.882,
+"kind": "tick",
+"gain_db": -6
+},
+{
+"t": 52.882,
+"kind": "stamp",
+"gain_db": 2
+},
+{
+"t": 53.215,
+"kind": "crash",
+"gain_db": 0
+},
+{
+"t": 55.815,
+"kind": "pop",
+"gain_db": -2
+},
+{
+"t": 57.282,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 57.682,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 58.082,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 58.482,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 58.882,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 59.282,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 59.682,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 60.082,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 60.482,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 60.882,
+"kind": "tick",
+"gain_db": -21
+},
+{
+"t": 61.282,
+"kind": "tick",
+"gain_db": -21
+}
+]
+}

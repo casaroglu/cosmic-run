@@ -1,0 +1,51 @@
+[
+ {
+  "sp": "toast",
+  "text": "I am not waiting for a movie either.",
+  "shot": 3,
+  "s": 8.2,
+  "e": 10.172
+ },
+ {
+  "sp": "toast",
+  "text": "Walls are open. Good to know.",
+  "shot": 6,
+  "s": 18.0,
+  "e": 20.011
+ },
+ {
+  "sp": "toast",
+  "text": "Pull! Other pull!",
+  "shot": 9,
+  "s": 27.4,
+  "e": 29.019
+ },
+ {
+  "sp": "toast",
+  "text": "He's a car. The game thinks he's a car!",
+  "shot": 10,
+  "s": 31.8,
+  "e": 35.032
+ },
+ {
+  "sp": "toast",
+  "text": "Did. Somebody. Sit. On. The. Frames?",
+  "shot": 13,
+  "s": 43.4,
+  "e": 46.634
+ },
+ {
+  "sp": "toast",
+  "text": "Are the walls ready yet?",
+  "shot": 15,
+  "s": 54.2,
+  "e": 55.434
+ },
+ {
+  "sp": "toast",
+  "text": "I can't put my arms down.",
+  "shot": 17,
+  "s": 64.4,
+  "e": 65.901
+ }
+]

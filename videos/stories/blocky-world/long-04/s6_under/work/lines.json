@@ -1,0 +1,50 @@
+[
+[
+"toast",
+"The disc! The frames! It's all down here!",
+8,
+0.3
+],
+[
+"admin",
+"It is not finished.",
+9,
+0.6
+],
+[
+"toast",
+"You had thirteen years!",
+9,
+"after+0.3"
+],
+[
+"admin",
+"I had one evening.",
+9,
+"after+0.3"
+],
+[
+"pixi",
+"You've pressed that button every day for thirteen years.",
+14,
+1.6
+],
+[
+"toast",
+"It was ready the next day?",
+15,
+0.6
+],
+[
+"admin",
+"It was due the next day. Then you asked.",
+15,
+"after+0.3"
+],
+[
+"admin",
+"Thirteen minutes. If nobody asks.",
+16,
+1.4
+]
+]

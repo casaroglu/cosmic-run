@@ -1,0 +1,37 @@
+[
+ {
+  "sp": "bread",
+  "text": "Coming soon! I can wait.",
+  "shot": 1,
+  "s": 1.6,
+  "e": 3.112
+ },
+ {
+  "sp": "bread",
+  "text": "Just checking.",
+  "shot": 3,
+  "s": 9.4,
+  "e": 10.207
+ },
+ {
+  "sp": "toast",
+  "text": "Twenty twenty-six is the new twenty sixteen.",
+  "shot": 9,
+  "s": 30.6,
+  "e": 33.519
+ },
+ {
+  "sp": "pixi",
+  "text": "You've pressed that button every day for thirteen years.",
+  "shot": 10,
+  "s": 34.269,
+  "e": 38.049
+ },
+ {
+  "sp": "toast",
+  "text": "And it worked.",
+  "shot": 10,
+  "s": 38.449,
+  "e": 39.413
+ }
+]

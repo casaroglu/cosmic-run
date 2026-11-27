@@ -1,0 +1,46 @@
+{
+"voice": "work/voice.wav",
+"duration": 15.32,
+"sfx": [
+{
+"t": 0.05,
+"kind": "sting",
+"gain_db": -2
+},
+{
+"t": 5.65,
+"kind": "tick",
+"gain_db": -4
+},
+{
+"t": 9.0,
+"kind": "tick",
+"gain_db": -2
+},
+{
+"t": 9.9,
+"kind": "tick",
+"gain_db": -2
+},
+{
+"t": 10.8,
+"kind": "tick",
+"gain_db": -2
+},
+{
+"t": 11.75,
+"kind": "pop",
+"gain_db": -6
+},
+{
+"t": 11.95,
+"kind": "pop",
+"gain_db": -6
+},
+{
+"t": 12.15,
+"kind": "pop",
+"gain_db": -6
+}
+]
+}

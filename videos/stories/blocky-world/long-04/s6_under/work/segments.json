@@ -1,0 +1,58 @@
+[
+ {
+  "sp": "toast",
+  "text": "The disc! The frames! It's all down here!",
+  "shot": 8,
+  "s": 12.7,
+  "e": 15.72
+ },
+ {
+  "sp": "admin",
+  "text": "It is not finished.",
+  "shot": 9,
+  "s": 16.67,
+  "e": 18.277
+ },
+ {
+  "sp": "toast",
+  "text": "You had thirteen years!",
+  "shot": 9,
+  "s": 18.577,
+  "e": 21.524
+ },
+ {
+  "sp": "admin",
+  "text": "I had one evening.",
+  "shot": 9,
+  "s": 21.824,
+  "e": 23.598
+ },
+ {
+  "sp": "pixi",
+  "text": "You've pressed that button every day for thirteen years.",
+  "shot": 14,
+  "s": 34.748,
+  "e": 38.528
+ },
+ {
+  "sp": "toast",
+  "text": "It was ready the next day?",
+  "shot": 15,
+  "s": 40.148,
+  "e": 41.997
+ },
+ {
+  "sp": "admin",
+  "text": "It was due the next day. Then you asked.",
+  "shot": 15,
+  "s": 42.297,
+  "e": 45.532
+ },
+ {
+  "sp": "admin",
+  "text": "Thirteen minutes. If nobody asks.",
+  "shot": 16,
+  "s": 47.282,
+  "e": 50.284
+ }
+]

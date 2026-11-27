@@ -1,0 +1,56 @@
+[
+[
+"pixi",
+"I waited thirteen minutes.",
+1,
+1.6
+],
+[
+"kid",
+"What's the girls' version of this game?",
+2,
+1.4
+],
+[
+"pixi",
+"This game.",
+3,
+1.0
+],
+[
+"kid",
+"No, but the girls' version.",
+3,
+"after+0.3"
+],
+[
+"pixi",
+"Watch.",
+3,
+"after+0.3"
+],
+[
+"toast",
+"I waited thirteen years for that arrow!",
+7,
+0.6
+],
+[
+"kid",
+"So it's the same game.",
+9,
+0.8
+],
+[
+"pixi",
+"It's the same game.",
+9,
+"after+0.3"
+],
+[
+"pixi",
+"He'll be back.",
+11,
+0.8
+]
+]

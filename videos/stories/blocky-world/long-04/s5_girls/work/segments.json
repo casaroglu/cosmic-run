@@ -1,0 +1,65 @@
+[
+ {
+  "sp": "pixi",
+  "text": "I waited thirteen minutes.",
+  "shot": 1,
+  "s": 1.6,
+  "e": 3.858
+ },
+ {
+  "sp": "kid",
+  "text": "What's the girls' version of this game?",
+  "shot": 2,
+  "s": 6.0,
+  "e": 7.629
+ },
+ {
+  "sp": "pixi",
+  "text": "This game.",
+  "shot": 3,
+  "s": 9.8,
+  "e": 11.941
+ },
+ {
+  "sp": "kid",
+  "text": "No, but the girls' version.",
+  "shot": 3,
+  "s": 12.241,
+  "e": 13.518
+ },
+ {
+  "sp": "pixi",
+  "text": "Watch.",
+  "shot": 3,
+  "s": 13.818,
+  "e": 15.639
+ },
+ {
+  "sp": "toast",
+  "text": "I waited thirteen years for that arrow!",
+  "shot": 7,
+  "s": 32.189,
+  "e": 34.813
+ },
+ {
+  "sp": "kid",
+  "text": "So it's the same game.",
+  "shot": 9,
+  "s": 39.389,
+  "e": 40.511
+ },
+ {
+  "sp": "pixi",
+  "text": "It's the same game.",
+  "shot": 9,
+  "s": 40.81,
+  "e": 43.313
+ },
+ {
+  "sp": "pixi",
+  "text": "He'll be back.",
+  "shot": 11,
+  "s": 47.863,
+  "e": 49.097
+ }
+]

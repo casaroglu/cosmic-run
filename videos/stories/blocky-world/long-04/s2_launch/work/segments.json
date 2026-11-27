@@ -1,0 +1,86 @@
+[
+ {
+  "sp": "pixi",
+  "text": "Wait for the patch.",
+  "shot": 3,
+  "s": 6.0,
+  "e": 8.611
+ },
+ {
+  "sp": "toast",
+  "text": "Where's the disc?",
+  "shot": 5,
+  "s": 13.361,
+  "e": 14.612
+ },
+ {
+  "sp": "admin",
+  "text": "You ordered the boxed edition. That is the box.",
+  "shot": 7,
+  "s": 17.962,
+  "e": 21.692
+ },
+ {
+  "sp": "toast",
+  "text": "What's in the box?",
+  "shot": 7,
+  "s": 21.992,
+  "e": 23.797
+ },
+ {
+  "sp": "admin",
+  "text": "The box.",
+  "shot": 7,
+  "s": 24.097,
+  "e": 25.153
+ },
+ {
+  "sp": "pixi",
+  "text": "Thirteen minutes.",
+  "shot": 10,
+  "s": 35.303,
+  "e": 37.623
+ },
+ {
+  "sp": "toast",
+  "text": "I waited thirteen years. I am not waiting thirteen minutes.",
+  "shot": 12,
+  "s": 42.573,
+  "e": 46.602
+ },
+ {
+  "sp": "pixi",
+  "text": "It went up.",
+  "shot": 13,
+  "s": 48.152,
+  "e": 49.411
+ },
+ {
+  "sp": "toast",
+  "text": "It's thinking.",
+  "shot": 13,
+  "s": 49.711,
+  "e": 51.782
+ },
+ {
+  "sp": "toast",
+  "text": "Have you tried turning it off and on again?",
+  "shot": 16,
+  "s": 59.232,
+  "e": 61.792
+ },
+ {
+  "sp": "pixi",
+  "text": "Don't.",
+  "shot": 17,
+  "s": 65.232,
+  "e": 66.995
+ },
+ {
+  "sp": "toast",
+  "text": "It says anyway. That's basically permission.",
+  "shot": 17,
+  "s": 67.395,
+  "e": 70.103
+ }
+]

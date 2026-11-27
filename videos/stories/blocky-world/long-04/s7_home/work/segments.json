@@ -1,0 +1,37 @@
+[
+ {
+  "sp": "toast",
+  "text": "I am not going to ask.",
+  "shot": 1,
+  "s": 1.4,
+  "e": 3.261
+ },
+ {
+  "sp": "pixi",
+  "text": "While he waits: which game should we break next? Comment. And subscribe. Do not ask when the next video is. It adds a day.",
+  "shot": 5,
+  "s": 15.8,
+  "e": 24.079
+ },
+ {
+  "sp": "toast",
+  "text": "I waited. I actually waited.",
+  "shot": 7,
+  "s": 30.2,
+  "e": 32.412
+ },
+ {
+  "sp": "pixi",
+  "text": "See.",
+  "shot": 7,
+  "s": 32.812,
+  "e": 33.774
+ },
+ {
+  "sp": "admin",
+  "text": "Patch complete. Everyone may press START now.",
+  "shot": 8,
+  "s": 34.924,
+  "e": 38.348
+ }
+]
