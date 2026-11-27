@@ -1,0 +1,452 @@
+[
+{
+"sp": "toast",
+"text": "It started with a little one.",
+"s": 6.7,
+"e": 8.459
+},
+{
+"sp": "toast",
+"text": "Happy Thanksgiving to me.",
+"s": 20.9,
+"e": 22.241
+},
+{
+"sp": "toast",
+"text": "Everyone has a little monster on their bag. Except me.",
+"s": 31.0,
+"e": 34.577
+},
+{
+"sp": "pixi",
+"text": "You have a monster.",
+"s": 35.677,
+"e": 38.44
+},
+{
+"sp": "toast",
+"text": "He's not a bag charm. He's a responsibility.",
+"s": 38.74,
+"e": 41.756
+},
+{
+"sp": "admin",
+"text": "Zubbit Mystery Boxes. One dollar. One per person.",
+"s": 43.256,
+"e": 47.649
+},
+{
+"sp": "toast",
+"text": "That is exactly my weekends.",
+"s": 61.649,
+"e": 63.655
+},
+{
+"sp": "pixi",
+"text": "Don't buy it. It's a box.",
+"s": 64.255,
+"e": 66.581
+},
+{
+"sp": "toast",
+"text": "It's a box with my weekends in it.",
+"s": 66.881,
+"e": 68.77
+},
+{
+"sp": "toast",
+"text": "Okay. That was the warm-up.",
+"s": 70.67,
+"e": 73.25
+},
+{
+"sp": "toast",
+"text": "One box, please. I'm a different person.",
+"s": 74.17,
+"e": 76.895
+},
+{
+"sp": "admin",
+"text": "Same person.",
+"s": 77.295,
+"e": 78.65
+},
+{
+"sp": "toast",
+"text": "What are you saving two dollars for?",
+"s": 80.47,
+"e": 82.335
+},
+{
+"sp": "pixi",
+"text": "A sale.",
+"s": 82.635,
+"e": 84.331
+},
+{
+"sp": "toast",
+"text": "A line. I'm great at lines.",
+"s": 85.431,
+"e": 87.962
+},
+{
+"sp": "toast",
+"text": "I work here. I'm first by profession.",
+"s": 93.467,
+"e": 96.207
+},
+{
+"sp": "gran",
+"text": "Back of the line, dear. Happy Thanksgiving.",
+"s": 96.507,
+"e": 99.306
+},
+{
+"sp": "toast",
+"text": "I walked around the world for this?",
+"s": 104.206,
+"e": 106.052
+},
+{
+"sp": "kids",
+"text": "Six seven!",
+"s": 110.852,
+"e": 112.044
+},
+{
+"sp": "toast",
+"text": "Why is everyone doing that?",
+"s": 112.344,
+"e": 114.06
+},
+{
+"sp": "pixi",
+"text": "Nobody knows. Don't ask.",
+"s": 118.16,
+"e": 120.752
+},
+{
+"sp": "deinf",
+"text": "Three things you do not need this Black Friday. Number one: this.",
+"s": 130.452,
+"e": 134.179
+},
+{
+"sp": "toast",
+"text": "So you're leaving the line?",
+"s": 134.479,
+"e": 136.093
+},
+{
+"sp": "deinf",
+"text": "No.",
+"s": 136.493,
+"e": 137.152
+},
+{
+"sp": "toast",
+"text": "Not now, buddy. I'm in a line.",
+"s": 149.552,
+"e": 151.58
+},
+{
+"sp": "line",
+"text": "Ooooh.",
+"s": 158.567,
+"e": 159.629
+},
+{
+"sp": "line",
+"text": "Ooooh.",
+"s": 161.767,
+"e": 162.829
+},
+{
+"sp": "line",
+"text": "Ooooh.",
+"s": 163.367,
+"e": 164.429
+},
+{
+"sp": "line",
+"text": "Ooooh.",
+"s": 164.967,
+"e": 166.029
+},
+{
+"sp": "admin",
+"text": "We do not call that number.",
+"s": 171.767,
+"e": 173.764
+},
+{
+"sp": "toast",
+"text": "You gave me that number!",
+"s": 174.064,
+"e": 175.795
+},
+{
+"sp": "pixi",
+"text": "They never call that one.",
+"s": 176.195,
+"e": 178.519
+},
+{
+"sp": "gran",
+"text": "And one for the dinosaur, dear. He's a person.",
+"s": 182.219,
+"e": 185.459
+},
+{
+"sp": "toast",
+"text": "Not now, buddy.",
+"s": 187.059,
+"e": 188.045
+},
+{
+"sp": "pixi",
+"text": "You have seven dollars and one Zubbit. Go home.",
+"s": 196.719,
+"e": 204.012
+},
+{
+"sp": "toast",
+"text": "Or I find somebody who's selling.",
+"s": 204.412,
+"e": 206.326
+},
+{
+"sp": "flip",
+"text": "Psst.",
+"s": 206.826,
+"e": 207.361
+},
+{
+"sp": "flip",
+"text": "Looking for gold?",
+"s": 209.667,
+"e": 210.766
+},
+{
+"sp": "toast",
+"text": "Seven dollars? It's worth nine thousand.",
+"s": 219.067,
+"e": 221.795
+},
+{
+"sp": "flip",
+"text": "Friend price. You have an honest face.",
+"s": 222.095,
+"e": 224.026
+},
+{
+"sp": "pixi",
+"text": "It says Zubblt.",
+"s": 227.226,
+"e": 229.158
+},
+{
+"sp": "flip",
+"text": "The L is silent.",
+"s": 229.458,
+"e": 230.546
+},
+{
+"sp": "pixi",
+"text": "It has two teeth.",
+"s": 230.946,
+"e": 232.467
+},
+{
+"sp": "flip",
+"text": "Bonus tooth.",
+"s": 232.767,
+"e": 233.713
+},
+{
+"sp": "flip",
+"text": "Why would I deceive you?",
+"s": 234.813,
+"e": 236.083
+},
+{
+"sp": "toast",
+"text": "He makes a good point. Why would he?",
+"s": 236.483,
+"e": 238.854
+},
+{
+"sp": "pixi",
+"text": "Seven dollars.",
+"s": 239.254,
+"e": 241.314
+},
+{
+"sp": "flip",
+"text": "And that one. For the collection.",
+"s": 243.214,
+"e": 244.727
+},
+{
+"sp": "flip",
+"text": "Is the jumbo for sale?",
+"s": 248.314,
+"e": 249.65
+},
+{
+"sp": "toast",
+"text": "He's not a Zubbit. He's a responsibility.",
+"s": 249.95,
+"e": 252.491
+},
+{
+"sp": "pixi",
+"text": "It's fake.",
+"s": 262.014,
+"e": 263.627
+},
+{
+"sp": "toast",
+"text": "It's vintage.",
+"s": 264.027,
+"e": 266.505
+},
+{
+"sp": "toast",
+"text": "Not now.",
+"s": 271.933,
+"e": 272.933
+},
+{
+"sp": "toast",
+"text": "Why is the street leaving?",
+"s": 278.533,
+"e": 279.987
+},
+{
+"sp": "passer",
+"text": "Is that the jumbo edition?",
+"s": 290.633,
+"e": 292.287
+},
+{
+"sp": "toast",
+"text": "He's not an edition!",
+"s": 295.833,
+"e": 297.376
+},
+{
+"sp": "pixi",
+"text": "One tooth. Spelled right.",
+"s": 302.633,
+"e": 304.851
+},
+{
+"sp": "flip",
+"text": "Nine thousand, nine hundred and ninety-nine. Cash. Why would I deceive you?",
+"s": 318.767,
+"e": 322.51
+},
+{
+"sp": "pixi",
+"text": "It's real.",
+"s": 323.11,
+"e": 324.601
+},
+{
+"sp": "toast",
+"text": "He's not selling. It's his.",
+"s": 342.967,
+"e": 345.297
+},
+{
+"sp": "flip",
+"text": "Ten thousand.",
+"s": 345.697,
+"e": 346.628
+},
+{
+"sp": "toast",
+"text": "He's a responsibility.",
+"s": 347.728,
+"e": 349.135
+},
+{
+"sp": "admin",
+"text": "It is three A.M. The craze is over.",
+"s": 355.328,
+"e": 358.813
+},
+{
+"sp": "deinf",
+"text": "Number two: also that.",
+"s": 368.328,
+"e": 369.931
+},
+{
+"sp": "flip",
+"text": "Lucky me.",
+"s": 372.928,
+"e": 373.7
+},
+{
+"sp": "toast",
+"text": "I spent everything, and I have nothing.",
+"s": 376.128,
+"e": 378.619
+},
+{
+"sp": "pixi",
+"text": "You have a monster.",
+"s": 379.219,
+"e": 383.202
+},
+{
+"sp": "admin",
+"text": "Worth what the next person pays.",
+"s": 385.102,
+"e": 387.563
+},
+{
+"sp": "toast",
+"text": "Pixi. Two dollars. Please.",
+"s": 389.403,
+"e": 391.267
+},
+{
+"sp": "pixi",
+"text": "I'll take them.",
+"s": 393.403,
+"e": 394.743
+},
+{
+"sp": "toast",
+"text": "You bought my weekends?",
+"s": 395.243,
+"e": 396.843
+},
+{
+"sp": "pixi",
+"text": "They were on sale.",
+"s": 397.243,
+"e": 400.227
+},
+{
+"sp": "pixi",
+"text": "What should we not buy next? Comment. And subscribe, or I rent out his Saturdays.",
+"s": 401.033,
+"e": 407.406
+},
+{
+"sp": "toast",
+"text": "Fine. One charm.",
+"s": 416.706,
+"e": 418.394
+},
+{
+"sp": "pixi",
+"text": "That clip is rated for one Zubbit.",
+"s": 420.006,
+"e": 422.259
+}
+]

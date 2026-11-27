@@ -1,0 +1,320 @@
+[
+{
+"sp": "toast",
+"text": "Okay. To be fair, they told me to wait.",
+"s": 5.9,
+"e": 8.26
+},
+{
+"sp": "bread",
+"text": "Coming soon! I can wait.",
+"s": 16.9,
+"e": 18.412
+},
+{
+"sp": "bread",
+"text": "Just checking.",
+"s": 24.7,
+"e": 25.507
+},
+{
+"sp": "toast",
+"text": "Twenty twenty-six is the new twenty sixteen.",
+"s": 45.9,
+"e": 48.819
+},
+{
+"sp": "pixi",
+"text": "You've pressed that button every day for thirteen years.",
+"s": 49.569,
+"e": 53.349
+},
+{
+"sp": "toast",
+"text": "And it worked.",
+"s": 53.749,
+"e": 54.713
+},
+{
+"sp": "pixi",
+"text": "Wait for the patch.",
+"s": 64.267,
+"e": 66.878
+},
+{
+"sp": "toast",
+"text": "Where's the disc?",
+"s": 71.628,
+"e": 72.879
+},
+{
+"sp": "admin",
+"text": "You ordered the boxed edition. That is the box.",
+"s": 76.229,
+"e": 79.959
+},
+{
+"sp": "toast",
+"text": "What's in the box?",
+"s": 80.259,
+"e": 82.064
+},
+{
+"sp": "admin",
+"text": "The box.",
+"s": 82.364,
+"e": 83.42
+},
+{
+"sp": "pixi",
+"text": "Thirteen minutes.",
+"s": 93.57,
+"e": 95.89
+},
+{
+"sp": "toast",
+"text": "I waited thirteen years. I am not waiting thirteen minutes.",
+"s": 100.84,
+"e": 104.869
+},
+{
+"sp": "pixi",
+"text": "It went up.",
+"s": 106.419,
+"e": 107.678
+},
+{
+"sp": "toast",
+"text": "It's thinking.",
+"s": 107.978,
+"e": 110.049
+},
+{
+"sp": "toast",
+"text": "Have you tried turning it off and on again?",
+"s": 117.499,
+"e": 120.059
+},
+{
+"sp": "pixi",
+"text": "Don't.",
+"s": 123.499,
+"e": 125.262
+},
+{
+"sp": "toast",
+"text": "It says anyway. That's basically permission.",
+"s": 125.662,
+"e": 128.37
+},
+{
+"sp": "toast",
+"text": "It's perfect. It was worth every single day.",
+"s": 138.533,
+"e": 141.599
+},
+{
+"sp": "toast",
+"text": "Player one. Not a guest. And soon, one of those arrows.",
+"s": 143.933,
+"e": 147.592
+},
+{
+"sp": "toast",
+"text": "Still perfect.",
+"s": 150.333,
+"e": 151.713
+},
+{
+"sp": "toast",
+"text": "Why is the floor a suggestion?",
+"s": 162.933,
+"e": 165.183
+},
+{
+"sp": "toast",
+"text": "Is the floor ready yet?",
+"s": 169.733,
+"e": 171.4
+},
+{
+"sp": "toast",
+"text": "See? You ask, they fix.",
+"s": 179.133,
+"e": 181.709
+},
+{
+"sp": "toast",
+"text": "I am not waiting for a movie either.",
+"s": 190.267,
+"e": 192.239
+},
+{
+"sp": "toast",
+"text": "Walls are open. Good to know.",
+"s": 200.067,
+"e": 202.078
+},
+{
+"sp": "toast",
+"text": "Pull! Other pull!",
+"s": 209.467,
+"e": 211.086
+},
+{
+"sp": "toast",
+"text": "He's a car. The game thinks he's a car!",
+"s": 213.867,
+"e": 217.099
+},
+{
+"sp": "toast",
+"text": "Did. Somebody. Sit. On. The. Frames?",
+"s": 225.467,
+"e": 228.701
+},
+{
+"sp": "toast",
+"text": "Are the walls ready yet?",
+"s": 236.267,
+"e": 237.501
+},
+{
+"sp": "toast",
+"text": "I can't put my arms down.",
+"s": 246.467,
+"e": 247.968
+},
+{
+"sp": "pixi",
+"text": "I waited thirteen minutes.",
+"s": 251.267,
+"e": 253.525
+},
+{
+"sp": "kid",
+"text": "What's the girls' version of this game?",
+"s": 255.667,
+"e": 257.296
+},
+{
+"sp": "pixi",
+"text": "This game.",
+"s": 259.467,
+"e": 261.608
+},
+{
+"sp": "kid",
+"text": "No, but the girls' version.",
+"s": 261.908,
+"e": 263.185
+},
+{
+"sp": "pixi",
+"text": "Watch.",
+"s": 263.485,
+"e": 265.306
+},
+{
+"sp": "toast",
+"text": "I waited thirteen years for that arrow!",
+"s": 281.856,
+"e": 284.48
+},
+{
+"sp": "kid",
+"text": "So it's the same game.",
+"s": 289.056,
+"e": 290.178
+},
+{
+"sp": "pixi",
+"text": "It's the same game.",
+"s": 290.477,
+"e": 292.98
+},
+{
+"sp": "pixi",
+"text": "He'll be back.",
+"s": 297.53,
+"e": 298.764
+},
+{
+"sp": "toast",
+"text": "The disc! The frames! It's all down here!",
+"s": 312.833,
+"e": 315.853
+},
+{
+"sp": "admin",
+"text": "It is not finished.",
+"s": 316.803,
+"e": 318.41
+},
+{
+"sp": "toast",
+"text": "You had thirteen years!",
+"s": 318.71,
+"e": 321.657
+},
+{
+"sp": "admin",
+"text": "I had one evening.",
+"s": 321.957,
+"e": 323.731
+},
+{
+"sp": "pixi",
+"text": "You've pressed that button every day for thirteen years.",
+"s": 334.881,
+"e": 338.661
+},
+{
+"sp": "toast",
+"text": "It was ready the next day?",
+"s": 340.281,
+"e": 342.13
+},
+{
+"sp": "admin",
+"text": "It was due the next day. Then you asked.",
+"s": 342.43,
+"e": 345.665
+},
+{
+"sp": "admin",
+"text": "Thirteen minutes. If nobody asks.",
+"s": 347.415,
+"e": 350.417
+},
+{
+"sp": "toast",
+"text": "I am not going to ask.",
+"s": 362.833,
+"e": 364.694
+},
+{
+"sp": "pixi",
+"text": "While he waits: which game should we break next? Comment. And subscribe. Do not ask when the next video is. It adds a day.",
+"s": 377.233,
+"e": 385.512
+},
+{
+"sp": "toast",
+"text": "I waited. I actually waited.",
+"s": 391.633,
+"e": 393.845
+},
+{
+"sp": "pixi",
+"text": "See.",
+"s": 394.245,
+"e": 395.207
+},
+{
+"sp": "admin",
+"text": "Patch complete. Everyone may press START now.",
+"s": 396.357,
+"e": 399.781
+}
+]
