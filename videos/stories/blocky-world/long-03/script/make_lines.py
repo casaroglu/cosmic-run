@@ -1,0 +1,92 @@
+"""Long 3: per-scene lines.json + dur.json (shot durations) from the LONG-03 outline."""
+import json, os
+P = os.path.expanduser("~/cizgi/toast-long3/scenes")
+SC = {
+"s0_cold": ([3.0, 3.0, 3.8, 3.0, 4.6], [
+  ["toast", "It started with a little one.", 3, 0.7]]),
+"s1_shop": ([3.0, 3.2, 6.0, 4.0, 5.5, 5.0, 2.2, 2.4, 3.0, 2.6, 2.6, 3.0, 5.0, 4.5, 5.5, 5.0, 3.6], [
+  ["toast", "Happy Thanksgiving to me.", 2, 0.5],
+  ["toast", "Everyone has a little monster on their bag. Except me.", 4, 1.4],
+  ["pixi", "You have a monster.", 5, 0.8],
+  ["toast", "He's not a bag charm. He's a responsibility.", 5, "after+0.3"],
+  ["admin", "Zubbit Mystery Boxes. One dollar. One per person.", 6, 1.2],
+  ["toast", "That is exactly my weekends.", 12, 0.9],
+  ["pixi", "Don't buy it. It's a box.", 13, 0.3],
+  ["toast", "It's a box with my weekends in it.", 13, "after+0.3"],
+  ["toast", "Okay. That was the warm-up.", 14, 1.6],
+  ["toast", "One box, please. I'm a different person.", 15, 0.6],
+  ["admin", "Same person.", 15, "after+0.4"],
+  ["toast", "What are you saving two dollars for?", 16, 1.4],
+  ["pixi", "A sale.", 16, "after+0.3"],
+  ["toast", "A line. I'm great at lines.", 17, 0.8]]),
+"s2_line": ([4.0, 6.0, 6.5, 2.4, 1.6, 4.0, 3.0, 3.2, 5.0, 4.0, 8.0, 3.5, 2.6, 4.2, 4.0], [
+  ["toast", "I work here. I'm first by profession.", 2, 1.2],
+  ["gran", "Back of the line, dear. Happy Thanksgiving.", 2, "after+0.3"],
+  ["toast", "I walked around the world for this?", 3, 4.6],
+  ["kids", "Six seven!", 6, 0.5],
+  ["toast", "Why is everyone doing that?", 6, "after+0.3"],
+  ["pixi", "Nobody knows. Don't ask.", 8, 0.8],
+  ["deinf", "Three things you do not need this Black Friday. Number one: this.", 11, 0.4],
+  ["toast", "So you're leaving the line?", 11, "after+0.3"],
+  ["deinf", "No.", 11, "after+0.4"],
+  ["toast", "Not now, buddy. I'm in a line.", 15, 1.2]]),
+"s2b_drop": ([3.0, 5.0, 7.0, 4.0, 7.0, 3.0, 7.5, 3.0, 3.0, 9.0], [
+  ["line", "Ooooh.", 2, 3.2],
+  ["line", "Ooooh.", 3, 1.4],
+  ["line", "Ooooh.", 3, 3.0],
+  ["line", "Ooooh.", 3, 4.6],
+  ["admin", "We do not call that number.", 5, 0.4],
+  ["toast", "You gave me that number!", 5, "after+0.3"],
+  ["pixi", "They never call that one.", 5, "after+0.4"],
+  ["gran", "And one for the dinosaur, dear. He's a person.", 7, 0.4],
+  ["toast", "Not now, buddy.", 7, "after+1.6"],
+  ["pixi", "You have seven dollars and one Zubbit. Go home.", 10, 1.4],
+  ["toast", "Or I find somebody who's selling.", 10, "after+0.4"],
+  ["flip", "Psst.", 10, "after+0.5"]]),
+"s3_alley": ([4.5, 3.5, 1.6, 7.0, 2.6, 7.0, 7.0, 5.5, 8.5, 6.0, 5.0], [
+  ["flip", "Looking for gold?", 1, 2.0],
+  ["toast", "Seven dollars? It's worth nine thousand.", 4, 1.8],
+  ["flip", "Friend price. You have an honest face.", 4, "after+0.3"],
+  ["pixi", "It says Zubblt.", 6, 0.3],
+  ["flip", "The L is silent.", 6, "after+0.3"],
+  ["pixi", "It has two teeth.", 6, "after+0.4"],
+  ["flip", "Bonus tooth.", 6, "after+0.3"],
+  ["flip", "Why would I deceive you?", 7, 0.8],
+  ["toast", "He makes a good point. Why would he?", 7, "after+0.4"],
+  ["pixi", "Seven dollars.", 7, "after+0.4"],
+  ["flip", "And that one. For the collection.", 8, 1.6],
+  ["flip", "Is the jumbo for sale?", 9, 1.2],
+  ["toast", "He's not a Zubbit. He's a responsibility.", 9, "after+0.3"],
+  ["pixi", "It's fake.", 11, 0.4],
+  ["toast", "It's vintage.", 11, "after+0.4"]]),
+"s4_jumbo": ([3.5, 5.0, 7.0, 3.5, 4.2, 5.0, 3.0, 3.0, 4.0, 7.5, 4.5], [
+  ["toast", "Not now.", 2, 1.6],
+  ["toast", "Why is the street leaving?", 3, 3.2],
+  ["passer", "Is that the jumbo edition?", 6, 0.6],
+  ["toast", "He's not an edition!", 7, 0.8],
+  ["pixi", "One tooth. Spelled right.", 9, 1.6]]),
+"s5_crash": ([9.0, 2.2, 3.6, 5.5, 4.5, 4.5, 5.0, 2.0, 6.0, 3.0, 3.6, 5.0, 4.0, 6.0, 4.5, 4.5, 7.0], [
+  ["flip", "Nine thousand, nine hundred and ninety-nine. Cash. Why would I deceive you?", 1, 1.6],
+  ["pixi", "It's real.", 1, "after+0.6"],
+  ["toast", "He's not selling. It's his.", 6, 1.0],
+  ["flip", "Ten thousand.", 6, "after+0.4"],
+  ["toast", "He's a responsibility.", 7, 0.8],
+  ["admin", "It is three A.M. The craze is over.", 9, 1.4],
+  ["deinf", "Number two: also that.", 12, 1.8],
+  ["flip", "Lucky me.", 13, 1.4],
+  ["toast", "I spent everything, and I have nothing.", 14, 0.6],
+  ["pixi", "You have a monster.", 14, "after+0.6"],
+  ["admin", "Worth what the next person pays.", 15, 1.6],
+  ["toast", "Pixi. Two dollars. Please.", 16, 1.4],
+  ["pixi", "I'll take them.", 17, 0.9],
+  ["toast", "You bought my weekends?", 17, "after+0.5"],
+  ["pixi", "They were on sale.", 17, "after+0.4"]]),
+"sE_end": ([6.8, 7.0, 5.0, 3.4, 1.0], [
+  ["pixi", "What should we not buy next? Comment. And subscribe, or I rent out his Saturdays.", 1, 0.5],
+  ["toast", "Fine. One charm.", 3, 2.0],
+  ["pixi", "That clip is rated for one Zubbit.", 4, 0.3]]),
+}
+for s, (dur, lines) in SC.items():
+    os.makedirs(f"{P}/{s}/work/cb", exist_ok=True)
+    json.dump(lines, open(f"{P}/{s}/work/lines.json", "w"), indent=1); json.dump(dur, open(f"{P}/{s}/work/dur.json", "w"))
+    print(s, len(dur), "shots", sum(dur), "s", len(lines), "lines")

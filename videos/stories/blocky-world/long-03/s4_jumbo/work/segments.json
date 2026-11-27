@@ -1,0 +1,37 @@
+[
+ {
+  "sp": "toast",
+  "text": "Not now.",
+  "shot": 2,
+  "s": 5.1,
+  "e": 6.1
+ },
+ {
+  "sp": "toast",
+  "text": "Why is the street leaving?",
+  "shot": 3,
+  "s": 11.7,
+  "e": 13.154
+ },
+ {
+  "sp": "passer",
+  "text": "Is that the jumbo edition?",
+  "shot": 6,
+  "s": 23.8,
+  "e": 25.454
+ },
+ {
+  "sp": "toast",
+  "text": "He's not an edition!",
+  "shot": 7,
+  "s": 29.0,
+  "e": 30.543
+ },
+ {
+  "sp": "pixi",
+  "text": "One tooth. Spelled right.",
+  "shot": 9,
+  "s": 35.8,
+  "e": 38.018
+ }
+]

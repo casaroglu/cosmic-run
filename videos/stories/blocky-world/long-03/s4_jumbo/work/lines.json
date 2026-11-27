@@ -1,0 +1,32 @@
+[
+ [
+  "toast",
+  "Not now.",
+  2,
+  1.6
+ ],
+ [
+  "toast",
+  "Why is the street leaving?",
+  3,
+  3.2
+ ],
+ [
+  "passer",
+  "Is that the jumbo edition?",
+  6,
+  0.6
+ ],
+ [
+  "toast",
+  "He's not an edition!",
+  7,
+  0.8
+ ],
+ [
+  "pixi",
+  "One tooth. Spelled right.",
+  9,
+  1.6
+ ]
+]

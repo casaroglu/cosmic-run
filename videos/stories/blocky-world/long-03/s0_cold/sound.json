@@ -1,0 +1,87 @@
+{
+ "voice": "work/voice.wav",
+ "music": {
+  "style": "mischief",
+  "start": 12.8,
+  "stop": 17.4,
+  "level_db": -16,
+  "sting": false
+ },
+ "sfx": [
+  {
+   "t": 0.5,
+   "kind": "tick",
+   "gain_db": -2
+  },
+  {
+   "t": 1.167,
+   "kind": "tick",
+   "gain_db": -2
+  },
+  {
+   "t": 1.833,
+   "kind": "tick",
+   "gain_db": -2
+  },
+  {
+   "t": 3.267,
+   "kind": "impact",
+   "gain_db": 0
+  },
+  {
+   "t": 6.1,
+   "kind": "tick",
+   "gain_db": -4
+  },
+  {
+   "t": 9.867,
+   "kind": "tick",
+   "gain_db": -2
+  },
+  {
+   "t": 10.767,
+   "kind": "tick",
+   "gain_db": -2
+  },
+  {
+   "t": 11.667,
+   "kind": "tick",
+   "gain_db": -2
+  },
+  {
+   "t": 9.9,
+   "kind": "stamp",
+   "gain_db": -8
+  },
+  {
+   "t": 10.8,
+   "kind": "stamp",
+   "gain_db": -8
+  },
+  {
+   "t": 11.7,
+   "kind": "stamp",
+   "gain_db": -8
+  },
+  {
+   "t": 12.8,
+   "kind": "pop",
+   "gain_db": -4
+  },
+  {
+   "t": 13.1,
+   "kind": "pop",
+   "gain_db": -4
+  },
+  {
+   "t": 13.8,
+   "kind": "pop",
+   "gain_db": -6
+  },
+  {
+   "t": 14.8,
+   "kind": "pop",
+   "gain_db": 0
+  }
+ ]
+}

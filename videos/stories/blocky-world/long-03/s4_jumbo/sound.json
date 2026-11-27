@@ -1,0 +1,126 @@
+{
+ "voice": "work/voice.wav",
+ "music": {
+  "style": "mischief",
+  "start": 0,
+  "stop": 45.82,
+  "level_db": -21
+ },
+ "sfx": [
+  {
+   "t": 4.3,
+   "kind": "thud",
+   "gain_db": -8
+  },
+  {
+   "t": 9.5,
+   "kind": "click",
+   "gain_db": -2
+  },
+  {
+   "t": 9.833,
+   "kind": "thud",
+   "gain_db": -10
+  },
+  {
+   "t": 10.233,
+   "kind": "thud",
+   "gain_db": -10
+  },
+  {
+   "t": 10.633,
+   "kind": "thud",
+   "gain_db": -10
+  },
+  {
+   "t": 11.033,
+   "kind": "thud",
+   "gain_db": -10
+  },
+  {
+   "t": 11.433,
+   "kind": "thud",
+   "gain_db": -10
+  },
+  {
+   "t": 11.833,
+   "kind": "thud",
+   "gain_db": -10
+  },
+  {
+   "t": 12.233,
+   "kind": "thud",
+   "gain_db": -10
+  },
+  {
+   "t": 12.633,
+   "kind": "thud",
+   "gain_db": -10
+  },
+  {
+   "t": 13.033,
+   "kind": "thud",
+   "gain_db": -10
+  },
+  {
+   "t": 13.433,
+   "kind": "thud",
+   "gain_db": -10
+  },
+  {
+   "t": 13.833,
+   "kind": "thud",
+   "gain_db": -10
+  },
+  {
+   "t": 14.233,
+   "kind": "thud",
+   "gain_db": -10
+  },
+  {
+   "t": 14.633,
+   "kind": "thud",
+   "gain_db": -10
+  },
+  {
+   "t": 17.3,
+   "kind": "boing",
+   "gain_db": 0
+  },
+  {
+   "t": 20.533,
+   "kind": "impact",
+   "gain_db": 0
+  },
+  {
+   "t": 20.533,
+   "kind": "crash",
+   "gain_db": -2
+  },
+  {
+   "t": 20.6,
+   "kind": "stamp",
+   "gain_db": 0
+  },
+  {
+   "t": 25.867,
+   "kind": "click",
+   "gain_db": -2
+  },
+  {
+   "t": 31.667,
+   "kind": "magic",
+   "gain_db": -4
+  },
+  {
+   "t": 35.2,
+   "kind": "ding",
+   "gain_db": -4
+  },
+  {
+   "t": 47.318,
+   "kind": "ding",
+   "gain_db": -2
+  }
+ ]
+}

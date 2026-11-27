@@ -1,0 +1,186 @@
+{
+ "voice": "work/voice.wav",
+ "music": {
+  "style": "march",
+  "start": 0,
+  "stop": 41.09,
+  "level_db": -22
+ },
+ "sfx": [
+  {
+   "t": 0.2,
+   "kind": "bell",
+   "gain_db": -2
+  },
+  {
+   "t": 5.0,
+   "kind": "pop",
+   "gain_db": -2
+  },
+  {
+   "t": 8.0,
+   "kind": "tick",
+   "gain_db": -4
+  },
+  {
+   "t": 8.867,
+   "kind": "tick",
+   "gain_db": -4
+  },
+  {
+   "t": 9.733,
+   "kind": "tick",
+   "gain_db": -4
+  },
+  {
+   "t": 10.6,
+   "kind": "tick",
+   "gain_db": -4
+  },
+  {
+   "t": 11.467,
+   "kind": "tick",
+   "gain_db": -4
+  },
+  {
+   "t": 12.333,
+   "kind": "tick",
+   "gain_db": -4
+  },
+  {
+   "t": 13.2,
+   "kind": "tick",
+   "gain_db": -4
+  },
+  {
+   "t": 14.067,
+   "kind": "tick",
+   "gain_db": -4
+  },
+  {
+   "t": 8.4,
+   "kind": "pop",
+   "gain_db": -4
+  },
+  {
+   "t": 9.267,
+   "kind": "pop",
+   "gain_db": -4
+  },
+  {
+   "t": 10.133,
+   "kind": "pop",
+   "gain_db": -4
+  },
+  {
+   "t": 11.0,
+   "kind": "pop",
+   "gain_db": -4
+  },
+  {
+   "t": 11.867,
+   "kind": "pop",
+   "gain_db": -4
+  },
+  {
+   "t": 12.733,
+   "kind": "pop",
+   "gain_db": -4
+  },
+  {
+   "t": 13.6,
+   "kind": "pop",
+   "gain_db": -4
+  },
+  {
+   "t": 14.467,
+   "kind": "pop",
+   "gain_db": -4
+  },
+  {
+   "t": 16.0,
+   "kind": "tick",
+   "gain_db": -3
+  },
+  {
+   "t": 17.0,
+   "kind": "tick",
+   "gain_db": -3
+  },
+  {
+   "t": 18.0,
+   "kind": "tick",
+   "gain_db": -3
+  },
+  {
+   "t": 19.2,
+   "kind": "click",
+   "gain_db": -4
+  },
+  {
+   "t": 27.285,
+   "kind": "tick",
+   "gain_db": 0
+  },
+  {
+   "t": 28.285,
+   "kind": "tick",
+   "gain_db": 0
+  },
+  {
+   "t": 30.119,
+   "kind": "click",
+   "gain_db": -4
+  },
+  {
+   "t": 30.585,
+   "kind": "thud",
+   "gain_db": -4
+  },
+  {
+   "t": 32.452,
+   "kind": "thud",
+   "gain_db": -6
+  },
+  {
+   "t": 32.785,
+   "kind": "thud",
+   "gain_db": -6
+  },
+  {
+   "t": 37.052,
+   "kind": "tick",
+   "gain_db": -2
+  },
+  {
+   "t": 40.052,
+   "kind": "footsteps",
+   "gain_db": 0
+  },
+  {
+   "t": 40.452,
+   "kind": "footsteps",
+   "gain_db": 0
+  },
+  {
+   "t": 41.085,
+   "kind": "impact",
+   "gain_db": 0
+  },
+  {
+   "t": 41.085,
+   "kind": "crash",
+   "gain_db": -2
+  },
+  {
+   "t": 41.152,
+   "kind": "stamp",
+   "gain_db": 0
+  },
+  {
+   "t": 43.152,
+   "kind": "pop",
+   "gain_db": -2
+  }
+ ]
+}

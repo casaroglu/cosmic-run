@@ -1,0 +1,96 @@
+{
+ "voice": "work/voice.wav",
+ "music": {
+  "style": "tense",
+  "start": 0,
+  "stop": 59.138,
+  "level_db": -22
+ },
+ "sfx": [
+  {
+   "t": 4.7,
+   "kind": "door",
+   "gain_db": -6
+  },
+  {
+   "t": 5.1,
+   "kind": "magic",
+   "gain_db": -6
+  },
+  {
+   "t": 8.05,
+   "kind": "boing",
+   "gain_db": 0
+  },
+  {
+   "t": 9.8,
+   "kind": "ding",
+   "gain_db": -8
+  },
+  {
+   "t": 10.0,
+   "kind": "ding",
+   "gain_db": -8
+  },
+  {
+   "t": 10.2,
+   "kind": "ding",
+   "gain_db": -8
+  },
+  {
+   "t": 10.4,
+   "kind": "ding",
+   "gain_db": -8
+  },
+  {
+   "t": 10.6,
+   "kind": "ding",
+   "gain_db": -8
+  },
+  {
+   "t": 10.8,
+   "kind": "ding",
+   "gain_db": -8
+  },
+  {
+   "t": 11.0,
+   "kind": "ding",
+   "gain_db": -8
+  },
+  {
+   "t": 17.492,
+   "kind": "ding",
+   "gain_db": -4
+  },
+  {
+   "t": 34.814,
+   "kind": "click",
+   "gain_db": -4
+  },
+  {
+   "t": 36.28,
+   "kind": "pop",
+   "gain_db": -4
+  },
+  {
+   "t": 45.024,
+   "kind": "door",
+   "gain_db": -6
+  },
+  {
+   "t": 50.014,
+   "kind": "pop",
+   "gain_db": -2
+  },
+  {
+   "t": 50.614,
+   "kind": "tick",
+   "gain_db": -4
+  },
+  {
+   "t": 59.238,
+   "kind": "pop",
+   "gain_db": -2
+  }
+ ]
+}

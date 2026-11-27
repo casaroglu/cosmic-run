@@ -1,0 +1,100 @@
+[
+ {
+  "sp": "toast",
+  "text": "Happy Thanksgiving to me.",
+  "shot": 2,
+  "s": 3.5,
+  "e": 4.841
+ },
+ {
+  "sp": "toast",
+  "text": "Everyone has a little monster on their bag. Except me.",
+  "shot": 4,
+  "s": 13.6,
+  "e": 17.177
+ },
+ {
+  "sp": "pixi",
+  "text": "You have a monster.",
+  "shot": 5,
+  "s": 18.277,
+  "e": 21.04
+ },
+ {
+  "sp": "toast",
+  "text": "He's not a bag charm. He's a responsibility.",
+  "shot": 5,
+  "s": 21.34,
+  "e": 24.356
+ },
+ {
+  "sp": "admin",
+  "text": "Zubbit Mystery Boxes. One dollar. One per person.",
+  "shot": 6,
+  "s": 25.856,
+  "e": 30.249
+ },
+ {
+  "sp": "toast",
+  "text": "That is exactly my weekends.",
+  "shot": 12,
+  "s": 44.249,
+  "e": 46.255
+ },
+ {
+  "sp": "pixi",
+  "text": "Don't buy it. It's a box.",
+  "shot": 13,
+  "s": 46.855,
+  "e": 49.181
+ },
+ {
+  "sp": "toast",
+  "text": "It's a box with my weekends in it.",
+  "shot": 13,
+  "s": 49.481,
+  "e": 51.37
+ },
+ {
+  "sp": "toast",
+  "text": "Okay. That was the warm-up.",
+  "shot": 14,
+  "s": 53.27,
+  "e": 55.85
+ },
+ {
+  "sp": "toast",
+  "text": "One box, please. I'm a different person.",
+  "shot": 15,
+  "s": 56.77,
+  "e": 59.495
+ },
+ {
+  "sp": "admin",
+  "text": "Same person.",
+  "shot": 15,
+  "s": 59.895,
+  "e": 61.25
+ },
+ {
+  "sp": "toast",
+  "text": "What are you saving two dollars for?",
+  "shot": 16,
+  "s": 63.07,
+  "e": 64.935
+ },
+ {
+  "sp": "pixi",
+  "text": "A sale.",
+  "shot": 16,
+  "s": 65.235,
+  "e": 66.931
+ },
+ {
+  "sp": "toast",
+  "text": "A line. I'm great at lines.",
+  "shot": 17,
+  "s": 68.031,
+  "e": 70.562
+ }
+]

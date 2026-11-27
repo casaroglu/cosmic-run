@@ -1,0 +1,86 @@
+[
+ {
+  "sp": "line",
+  "text": "Ooooh.",
+  "shot": 2,
+  "s": 6.2,
+  "e": 7.262
+ },
+ {
+  "sp": "line",
+  "text": "Ooooh.",
+  "shot": 3,
+  "s": 9.4,
+  "e": 10.462
+ },
+ {
+  "sp": "line",
+  "text": "Ooooh.",
+  "shot": 3,
+  "s": 11.0,
+  "e": 12.062
+ },
+ {
+  "sp": "line",
+  "text": "Ooooh.",
+  "shot": 3,
+  "s": 12.6,
+  "e": 13.662
+ },
+ {
+  "sp": "admin",
+  "text": "We do not call that number.",
+  "shot": 5,
+  "s": 19.4,
+  "e": 21.397
+ },
+ {
+  "sp": "toast",
+  "text": "You gave me that number!",
+  "shot": 5,
+  "s": 21.697,
+  "e": 23.428
+ },
+ {
+  "sp": "pixi",
+  "text": "They never call that one.",
+  "shot": 5,
+  "s": 23.828,
+  "e": 26.152
+ },
+ {
+  "sp": "gran",
+  "text": "And one for the dinosaur, dear. He's a person.",
+  "shot": 7,
+  "s": 29.852,
+  "e": 33.092
+ },
+ {
+  "sp": "toast",
+  "text": "Not now, buddy.",
+  "shot": 7,
+  "s": 34.692,
+  "e": 35.678
+ },
+ {
+  "sp": "pixi",
+  "text": "You have seven dollars and one Zubbit. Go home.",
+  "shot": 10,
+  "s": 44.352,
+  "e": 51.645
+ },
+ {
+  "sp": "toast",
+  "text": "Or I find somebody who's selling.",
+  "shot": 10,
+  "s": 52.045,
+  "e": 53.959
+ },
+ {
+  "sp": "flip",
+  "text": "Psst.",
+  "shot": 10,
+  "s": 54.459,
+  "e": 54.994
+ }
+]

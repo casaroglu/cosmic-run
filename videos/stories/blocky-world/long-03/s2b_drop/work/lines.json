@@ -1,0 +1,74 @@
+[
+ [
+  "line",
+  "Ooooh.",
+  2,
+  3.2
+ ],
+ [
+  "line",
+  "Ooooh.",
+  3,
+  1.4
+ ],
+ [
+  "line",
+  "Ooooh.",
+  3,
+  3.0
+ ],
+ [
+  "line",
+  "Ooooh.",
+  3,
+  4.6
+ ],
+ [
+  "admin",
+  "We do not call that number.",
+  5,
+  0.4
+ ],
+ [
+  "toast",
+  "You gave me that number!",
+  5,
+  "after+0.3"
+ ],
+ [
+  "pixi",
+  "They never call that one.",
+  5,
+  "after+0.4"
+ ],
+ [
+  "gran",
+  "And one for the dinosaur, dear. He's a person.",
+  7,
+  0.4
+ ],
+ [
+  "toast",
+  "Not now, buddy.",
+  7,
+  "after+1.6"
+ ],
+ [
+  "pixi",
+  "You have seven dollars and one Zubbit. Go home.",
+  10,
+  1.4
+ ],
+ [
+  "toast",
+  "Or I find somebody who's selling.",
+  10,
+  "after+0.4"
+ ],
+ [
+  "flip",
+  "Psst.",
+  10,
+  "after+0.5"
+ ]
+]

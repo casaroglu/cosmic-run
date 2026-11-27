@@ -1,0 +1,72 @@
+[
+ {
+  "sp": "toast",
+  "text": "I work here. I'm first by profession.",
+  "shot": 2,
+  "s": 5.2,
+  "e": 7.94
+ },
+ {
+  "sp": "gran",
+  "text": "Back of the line, dear. Happy Thanksgiving.",
+  "shot": 2,
+  "s": 8.24,
+  "e": 11.039
+ },
+ {
+  "sp": "toast",
+  "text": "I walked around the world for this?",
+  "shot": 3,
+  "s": 15.939,
+  "e": 17.785
+ },
+ {
+  "sp": "kids",
+  "text": "Six seven!",
+  "shot": 6,
+  "s": 22.585,
+  "e": 23.777
+ },
+ {
+  "sp": "toast",
+  "text": "Why is everyone doing that?",
+  "shot": 6,
+  "s": 24.077,
+  "e": 25.793
+ },
+ {
+  "sp": "pixi",
+  "text": "Nobody knows. Don't ask.",
+  "shot": 8,
+  "s": 29.893,
+  "e": 32.485
+ },
+ {
+  "sp": "deinf",
+  "text": "Three things you do not need this Black Friday. Number one: this.",
+  "shot": 11,
+  "s": 42.185,
+  "e": 45.912
+ },
+ {
+  "sp": "toast",
+  "text": "So you're leaving the line?",
+  "shot": 11,
+  "s": 46.212,
+  "e": 47.826
+ },
+ {
+  "sp": "deinf",
+  "text": "No.",
+  "shot": 11,
+  "s": 48.226,
+  "e": 48.885
+ },
+ {
+  "sp": "toast",
+  "text": "Not now, buddy. I'm in a line.",
+  "shot": 15,
+  "s": 61.285,
+  "e": 63.313
+ }
+]

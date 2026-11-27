@@ -1,0 +1,92 @@
+[
+ [
+  "flip",
+  "Looking for gold?",
+  1,
+  2.0
+ ],
+ [
+  "toast",
+  "Seven dollars? It's worth nine thousand.",
+  4,
+  1.8
+ ],
+ [
+  "flip",
+  "Friend price. You have an honest face.",
+  4,
+  "after+0.3"
+ ],
+ [
+  "pixi",
+  "It says Zubblt.",
+  6,
+  0.3
+ ],
+ [
+  "flip",
+  "The L is silent.",
+  6,
+  "after+0.3"
+ ],
+ [
+  "pixi",
+  "It has two teeth.",
+  6,
+  "after+0.4"
+ ],
+ [
+  "flip",
+  "Bonus tooth.",
+  6,
+  "after+0.3"
+ ],
+ [
+  "flip",
+  "Why would I deceive you?",
+  7,
+  0.8
+ ],
+ [
+  "toast",
+  "He makes a good point. Why would he?",
+  7,
+  "after+0.4"
+ ],
+ [
+  "pixi",
+  "Seven dollars.",
+  7,
+  "after+0.4"
+ ],
+ [
+  "flip",
+  "And that one. For the collection.",
+  8,
+  1.6
+ ],
+ [
+  "flip",
+  "Is the jumbo for sale?",
+  9,
+  1.2
+ ],
+ [
+  "toast",
+  "He's not a Zubbit. He's a responsibility.",
+  9,
+  "after+0.3"
+ ],
+ [
+  "pixi",
+  "It's fake.",
+  11,
+  0.4
+ ],
+ [
+  "toast",
+  "It's vintage.",
+  11,
+  "after+0.4"
+ ]
+]

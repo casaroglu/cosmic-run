@@ -1,0 +1,62 @@
+[
+ [
+  "toast",
+  "I work here. I'm first by profession.",
+  2,
+  1.2
+ ],
+ [
+  "gran",
+  "Back of the line, dear. Happy Thanksgiving.",
+  2,
+  "after+0.3"
+ ],
+ [
+  "toast",
+  "I walked around the world for this?",
+  3,
+  4.6
+ ],
+ [
+  "kids",
+  "Six seven!",
+  6,
+  0.5
+ ],
+ [
+  "toast",
+  "Why is everyone doing that?",
+  6,
+  "after+0.3"
+ ],
+ [
+  "pixi",
+  "Nobody knows. Don't ask.",
+  8,
+  0.8
+ ],
+ [
+  "deinf",
+  "Three things you do not need this Black Friday. Number one: this.",
+  11,
+  0.4
+ ],
+ [
+  "toast",
+  "So you're leaving the line?",
+  11,
+  "after+0.3"
+ ],
+ [
+  "deinf",
+  "No.",
+  11,
+  "after+0.4"
+ ],
+ [
+  "toast",
+  "Not now, buddy. I'm in a line.",
+  15,
+  1.2
+ ]
+]

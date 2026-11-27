@@ -1,0 +1,92 @@
+[
+ [
+  "flip",
+  "Nine thousand, nine hundred and ninety-nine. Cash. Why would I deceive you?",
+  1,
+  1.6
+ ],
+ [
+  "pixi",
+  "It's real.",
+  1,
+  "after+0.6"
+ ],
+ [
+  "toast",
+  "He's not selling. It's his.",
+  6,
+  1.0
+ ],
+ [
+  "flip",
+  "Ten thousand.",
+  6,
+  "after+0.4"
+ ],
+ [
+  "toast",
+  "He's a responsibility.",
+  7,
+  0.8
+ ],
+ [
+  "admin",
+  "It is three A.M. The craze is over.",
+  9,
+  1.4
+ ],
+ [
+  "deinf",
+  "Number two: also that.",
+  12,
+  1.8
+ ],
+ [
+  "flip",
+  "Lucky me.",
+  13,
+  1.4
+ ],
+ [
+  "toast",
+  "I spent everything, and I have nothing.",
+  14,
+  0.6
+ ],
+ [
+  "pixi",
+  "You have a monster.",
+  14,
+  "after+0.6"
+ ],
+ [
+  "admin",
+  "Worth what the next person pays.",
+  15,
+  1.6
+ ],
+ [
+  "toast",
+  "Pixi. Two dollars. Please.",
+  16,
+  1.4
+ ],
+ [
+  "pixi",
+  "I'll take them.",
+  17,
+  0.9
+ ],
+ [
+  "toast",
+  "You bought my weekends?",
+  17,
+  "after+0.5"
+ ],
+ [
+  "pixi",
+  "They were on sale.",
+  17,
+  "after+0.4"
+ ]
+]

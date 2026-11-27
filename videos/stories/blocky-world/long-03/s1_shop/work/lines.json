@@ -1,0 +1,86 @@
+[
+ [
+  "toast",
+  "Happy Thanksgiving to me.",
+  2,
+  0.5
+ ],
+ [
+  "toast",
+  "Everyone has a little monster on their bag. Except me.",
+  4,
+  1.4
+ ],
+ [
+  "pixi",
+  "You have a monster.",
+  5,
+  0.8
+ ],
+ [
+  "toast",
+  "He's not a bag charm. He's a responsibility.",
+  5,
+  "after+0.3"
+ ],
+ [
+  "admin",
+  "Zubbit Mystery Boxes. One dollar. One per person.",
+  6,
+  1.2
+ ],
+ [
+  "toast",
+  "That is exactly my weekends.",
+  12,
+  0.9
+ ],
+ [
+  "pixi",
+  "Don't buy it. It's a box.",
+  13,
+  0.3
+ ],
+ [
+  "toast",
+  "It's a box with my weekends in it.",
+  13,
+  "after+0.3"
+ ],
+ [
+  "toast",
+  "Okay. That was the warm-up.",
+  14,
+  1.6
+ ],
+ [
+  "toast",
+  "One box, please. I'm a different person.",
+  15,
+  0.6
+ ],
+ [
+  "admin",
+  "Same person.",
+  15,
+  "after+0.4"
+ ],
+ [
+  "toast",
+  "What are you saving two dollars for?",
+  16,
+  1.4
+ ],
+ [
+  "pixi",
+  "A sale.",
+  16,
+  "after+0.3"
+ ],
+ [
+  "toast",
+  "A line. I'm great at lines.",
+  17,
+  0.8
+ ]
+]

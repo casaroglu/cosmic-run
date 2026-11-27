@@ -1,0 +1,107 @@
+[
+ {
+  "sp": "flip",
+  "text": "Looking for gold?",
+  "shot": 1,
+  "s": 2.0,
+  "e": 3.099
+ },
+ {
+  "sp": "toast",
+  "text": "Seven dollars? It's worth nine thousand.",
+  "shot": 4,
+  "s": 11.4,
+  "e": 14.128
+ },
+ {
+  "sp": "flip",
+  "text": "Friend price. You have an honest face.",
+  "shot": 4,
+  "s": 14.428,
+  "e": 16.359
+ },
+ {
+  "sp": "pixi",
+  "text": "It says Zubblt.",
+  "shot": 6,
+  "s": 19.559,
+  "e": 21.491
+ },
+ {
+  "sp": "flip",
+  "text": "The L is silent.",
+  "shot": 6,
+  "s": 21.791,
+  "e": 22.879
+ },
+ {
+  "sp": "pixi",
+  "text": "It has two teeth.",
+  "shot": 6,
+  "s": 23.279,
+  "e": 24.8
+ },
+ {
+  "sp": "flip",
+  "text": "Bonus tooth.",
+  "shot": 6,
+  "s": 25.1,
+  "e": 26.046
+ },
+ {
+  "sp": "flip",
+  "text": "Why would I deceive you?",
+  "shot": 7,
+  "s": 27.146,
+  "e": 28.416
+ },
+ {
+  "sp": "toast",
+  "text": "He makes a good point. Why would he?",
+  "shot": 7,
+  "s": 28.816,
+  "e": 31.187
+ },
+ {
+  "sp": "pixi",
+  "text": "Seven dollars.",
+  "shot": 7,
+  "s": 31.587,
+  "e": 33.647
+ },
+ {
+  "sp": "flip",
+  "text": "And that one. For the collection.",
+  "shot": 8,
+  "s": 35.547,
+  "e": 37.06
+ },
+ {
+  "sp": "flip",
+  "text": "Is the jumbo for sale?",
+  "shot": 9,
+  "s": 40.647,
+  "e": 41.983
+ },
+ {
+  "sp": "toast",
+  "text": "He's not a Zubbit. He's a responsibility.",
+  "shot": 9,
+  "s": 42.283,
+  "e": 44.824
+ },
+ {
+  "sp": "pixi",
+  "text": "It's fake.",
+  "shot": 11,
+  "s": 54.347,
+  "e": 55.96
+ },
+ {
+  "sp": "toast",
+  "text": "It's vintage.",
+  "shot": 11,
+  "s": 56.36,
+  "e": 58.838
+ }
+]

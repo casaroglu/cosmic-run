@@ -1,0 +1,26 @@
+{
+ "voice": "work/voice.wav",
+ "music": {
+  "style": "mischief",
+  "start": 0,
+  "stop": 19.17,
+  "level_db": -20
+ },
+ "sfx": [
+  {
+   "t": 9.173,
+   "kind": "tick",
+   "gain_db": -4
+  },
+  {
+   "t": 18.173,
+   "kind": "click",
+   "gain_db": 0
+  },
+  {
+   "t": 22.573,
+   "kind": "impact",
+   "gain_db": 0
+  }
+ ]
+}

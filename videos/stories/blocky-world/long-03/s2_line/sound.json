@@ -1,0 +1,171 @@
+{
+ "voice": "work/voice.wav",
+ "music": {
+  "style": "happy",
+  "start": 0,
+  "stop": 64.085,
+  "level_db": -24
+ },
+ "sfx": [
+  {
+   "t": 4.1,
+   "kind": "footsteps",
+   "gain_db": -8
+  },
+  {
+   "t": 8.24,
+   "kind": "click",
+   "gain_db": -4
+  },
+  {
+   "t": 11.539,
+   "kind": "footsteps",
+   "gain_db": -6
+  },
+  {
+   "t": 13.006,
+   "kind": "footsteps",
+   "gain_db": -6
+  },
+  {
+   "t": 14.339,
+   "kind": "footsteps",
+   "gain_db": -6
+  },
+  {
+   "t": 15.539,
+   "kind": "ding",
+   "gain_db": -2
+  },
+  {
+   "t": 18.952,
+   "kind": "pop",
+   "gain_db": -2
+  },
+  {
+   "t": 20.585,
+   "kind": "pop",
+   "gain_db": -4
+  },
+  {
+   "t": 26.193,
+   "kind": "tick",
+   "gain_db": -10
+  },
+  {
+   "t": 26.379,
+   "kind": "tick",
+   "gain_db": -10
+  },
+  {
+   "t": 26.564,
+   "kind": "tick",
+   "gain_db": -10
+  },
+  {
+   "t": 26.75,
+   "kind": "tick",
+   "gain_db": -10
+  },
+  {
+   "t": 26.936,
+   "kind": "tick",
+   "gain_db": -10
+  },
+  {
+   "t": 27.122,
+   "kind": "tick",
+   "gain_db": -10
+  },
+  {
+   "t": 27.307,
+   "kind": "tick",
+   "gain_db": -10
+  },
+  {
+   "t": 27.493,
+   "kind": "tick",
+   "gain_db": -10
+  },
+  {
+   "t": 27.679,
+   "kind": "tick",
+   "gain_db": -10
+  },
+  {
+   "t": 27.864,
+   "kind": "tick",
+   "gain_db": -10
+  },
+  {
+   "t": 28.05,
+   "kind": "tick",
+   "gain_db": -10
+  },
+  {
+   "t": 28.236,
+   "kind": "tick",
+   "gain_db": -10
+  },
+  {
+   "t": 28.422,
+   "kind": "tick",
+   "gain_db": -10
+  },
+  {
+   "t": 28.607,
+   "kind": "tick",
+   "gain_db": -10
+  },
+  {
+   "t": 33.493,
+   "kind": "pop",
+   "gain_db": -6
+  },
+  {
+   "t": 34.327,
+   "kind": "pop",
+   "gain_db": -6
+  },
+  {
+   "t": 35.16,
+   "kind": "pop",
+   "gain_db": -6
+  },
+  {
+   "t": 35.993,
+   "kind": "pop",
+   "gain_db": -6
+  },
+  {
+   "t": 36.827,
+   "kind": "pop",
+   "gain_db": -6
+  },
+  {
+   "t": 37.66,
+   "kind": "pop",
+   "gain_db": -6
+  },
+  {
+   "t": 39.785,
+   "kind": "pop",
+   "gain_db": -2
+  },
+  {
+   "t": 56.618,
+   "kind": "click",
+   "gain_db": -2
+  },
+  {
+   "t": 58.885,
+   "kind": "thud",
+   "gain_db": 0
+  },
+  {
+   "t": 60.418,
+   "kind": "click",
+   "gain_db": -8
+  }
+ ]
+}

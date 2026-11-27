@@ -1,0 +1,107 @@
+[
+ {
+  "sp": "flip",
+  "text": "Nine thousand, nine hundred and ninety-nine. Cash. Why would I deceive you?",
+  "shot": 1,
+  "s": 1.6,
+  "e": 5.343
+ },
+ {
+  "sp": "pixi",
+  "text": "It's real.",
+  "shot": 1,
+  "s": 5.943,
+  "e": 7.434
+ },
+ {
+  "sp": "toast",
+  "text": "He's not selling. It's his.",
+  "shot": 6,
+  "s": 25.8,
+  "e": 28.13
+ },
+ {
+  "sp": "flip",
+  "text": "Ten thousand.",
+  "shot": 6,
+  "s": 28.53,
+  "e": 29.461
+ },
+ {
+  "sp": "toast",
+  "text": "He's a responsibility.",
+  "shot": 7,
+  "s": 30.561,
+  "e": 31.968
+ },
+ {
+  "sp": "admin",
+  "text": "It is three A.M. The craze is over.",
+  "shot": 9,
+  "s": 38.161,
+  "e": 41.646
+ },
+ {
+  "sp": "deinf",
+  "text": "Number two: also that.",
+  "shot": 12,
+  "s": 51.161,
+  "e": 52.764
+ },
+ {
+  "sp": "flip",
+  "text": "Lucky me.",
+  "shot": 13,
+  "s": 55.761,
+  "e": 56.533
+ },
+ {
+  "sp": "toast",
+  "text": "I spent everything, and I have nothing.",
+  "shot": 14,
+  "s": 58.961,
+  "e": 61.452
+ },
+ {
+  "sp": "pixi",
+  "text": "You have a monster.",
+  "shot": 14,
+  "s": 62.052,
+  "e": 66.035
+ },
+ {
+  "sp": "admin",
+  "text": "Worth what the next person pays.",
+  "shot": 15,
+  "s": 67.935,
+  "e": 70.396
+ },
+ {
+  "sp": "toast",
+  "text": "Pixi. Two dollars. Please.",
+  "shot": 16,
+  "s": 72.236,
+  "e": 74.1
+ },
+ {
+  "sp": "pixi",
+  "text": "I'll take them.",
+  "shot": 17,
+  "s": 76.236,
+  "e": 77.576
+ },
+ {
+  "sp": "toast",
+  "text": "You bought my weekends?",
+  "shot": 17,
+  "s": 78.076,
+  "e": 79.676
+ },
+ {
+  "sp": "pixi",
+  "text": "They were on sale.",
+  "shot": 17,
+  "s": 80.076,
+  "e": 83.06
+ }
+]
